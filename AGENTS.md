@@ -41,7 +41,10 @@ Agent 通过 MCP 工具工作，工具清单与用法见
 
 - 所有路径使用仓库相对 `/`，禁止盘符、绝对路径和 `..`。
 - `.npee-math-papers/sources`、`captures`、`logs` 与 `build/` 不提交；`papers`、`registry.json`、
-  `release.json`、`index/` 提交。
+  `release.json`、`index/` 提交。**来源 PDF 与页面图不上传 GitHub**（约 2 GB）：PDF 由
+  `source.json` 的 `sha256` 锁定，页面图的可复现性缺口见 `docs/GIT-DATA.md`。
+- 题库经 Git 版本管理后，**任何测试与探针脚本默认以沙盒副本运行**——写入真实题库前必须显式
+  指定，避免验证脚本改动权威数据。
 - 公式默认行内，分式统一 `\dfrac`；通用类不放题面、出版物名称或第三方素材。
 - 手工编辑使用 `apply_patch`；保留用户改动，不使用破坏性 Git 命令。
 - 交付前运行：
