@@ -26,16 +26,17 @@
 }
 
 @media (max-width: 900px) {
-  /* The log row loses its payload badge and duration first: they are the least
-     useful when scanning, and the payload is reachable by expanding the row. */
+  /*
+   * The log row drops the slow badge and duration first: they are the least
+   * useful when scanning, and the payload is reachable by expanding the row.
+   * Both the badge and its empty placeholder go, so the remaining fixed tracks
+   * still match the number of cells the component emits.
+   */
   .log-row-head {
-    grid-template-columns: 16px 62px 46px minmax(0, 1fr) auto auto auto;
+    grid-template-columns: 16px 58px 44px minmax(0, 1fr) 34px 46px 66px;
   }
 
-  .log-payload-badge {
-    display: none;
-  }
-
+  .log-cell-slow,
   .log-duration {
     display: none;
   }

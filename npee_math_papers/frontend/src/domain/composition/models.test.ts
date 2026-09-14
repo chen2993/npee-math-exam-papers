@@ -4,6 +4,8 @@ import type { PaperSummary } from "../catalog/models";
 import {
   buildCompilePayload,
   createDraft,
+  draftFromCompilePayload,
+  outputTargetCount,
   paperRefFromSummary,
   paperSummaryFromRef,
 } from "./models";
@@ -66,5 +68,55 @@ describe("buildCompilePayload", () => {
   it("keeps the composition id lowercase and dash-separated", () => {
     const draft = { ...createDraft(), id: "Composition_ABC_123" };
     expect(buildCompilePayload(draft).composition_id).toMatch(/^[a-z0-9][a-z0-9-]*$/);
+  });
+});
+
+describe("outputTargetCount", () => {
+  it("counts one file per layout × theme × spacing", () => {
+    expect(outputTargetCount(createDraft())).toBe(2); // a3 + a4, one theme, one spacing
+  });
+
+  it("reports the silent multiplication of 'both' on every axis", () => {
+    const draft = { ...createDraft(), layout: "both" as const, theme: "both" as const, spacing: "both" as const };
+    expect(outputTargetCount(draft)).toBe(8);
+  });
+});
+
+describe("draftFromCompilePayload", () => {
+  it("is the inverse of buildCompilePayload", () => {
+    const draft = {
+      ...createDraft("往返"),
+      papers: [paperRefFromSummary(paper(1)), paperRefFromSummary(paper(2))],
+      layout: "a4" as const,
+      theme: "cream" as const,
+      spacing: "compact" as const,
+      structure: "natural" as const,
+      toc: false,
+    };
+    const restored = draftFromCompilePayload(buildCompilePayload(draft));
+    expect(restored.name).toBe("往返");
+    expect(restored.papers.map((item) => item.natural_key)).toEqual(["2024/math1/demo/1", "2024/math1/demo/2"]);
+    expect(restored.layout).toBe("a4");
+    expect(restored.theme).toBe("cream");
+    expect(restored.spacing).toBe("compact");
+    expect(restored.structure).toBe("natural");
+    expect(restored.toc).toBe(false);
+  });
+
+  it("rejects a payload without selections", () => {
+    expect(() => draftFromCompilePayload({ title: "空" })).toThrow();
+  });
+
+  it("rejects an entry missing a required identity field", () => {
+    expect(() => draftFromCompilePayload({ selections: [{ series_key: "demo", year: 2024 }] })).toThrow();
+  });
+
+  it("falls back to defaults for unknown document values instead of throwing", () => {
+    const restored = draftFromCompilePayload({
+      selections: [{ series_key: "demo", year: 2024, subject: "math1", paper_no: 1 }],
+      document: { layout: "bogus", structure: "bogus" },
+    });
+    expect(restored.layout).toBe("both");
+    expect(restored.structure).toBe("pair-first");
   });
 });

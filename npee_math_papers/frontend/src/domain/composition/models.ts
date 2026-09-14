@@ -131,6 +131,18 @@ function outputTargets(draft: CompositionDraft) {
 }
 
 /**
+ * How many PDF files a draft will produce.
+ *
+ * Each layout × theme × spacing combination is one file, so `页面=both` plus
+ * `纸色=both` plus `间距=both` silently multiplies out to 8. The compose page
+ * shows this count next to the compile button: a long typeset run is worth
+ * understanding before it starts.
+ */
+export function outputTargetCount(draft: CompositionDraft): number {
+  return outputTargets(draft).length;
+}
+
+/**
  * 生成应用 API 的编译请求载荷。
  *
  * 载荷只携带 series/year/subject/paper_no 选择；后端会推导并封印每套卷的
@@ -197,4 +209,91 @@ export function buildCompilePayload(draft: CompositionDraft, papers?: PaperSumma
 
 export function subjectLabel(subject: Subject): string {
   return { math1: "数学一", math2: "数学二", math3: "数学三" }[subject];
+}
+
+/**
+ * Rebuild a draft from an exported compile payload.
+ *
+ * This is the exact inverse of {@link buildCompilePayload}: export writes the
+ * payload, import reads it back, so the two stay in step. Display fields the
+ * payload does not carry (series_name, question_count) fall back to the
+ * natural-key parts; the paper list backfills them once the catalogue loads.
+ * Unknown or missing values fall back to {@link createDraft}'s defaults rather
+ * than throwing, because a hand-edited export should degrade, not fail.
+ */
+export function draftFromCompilePayload(payload: unknown): CompositionDraft {
+  if (!payload || typeof payload !== "object") throw new Error("不是合法的组卷 JSON");
+  const raw = payload as Record<string, unknown>;
+  const selections = Array.isArray(raw.selections) ? raw.selections : [];
+  if (!selections.length) throw new Error("组卷 JSON 里没有 selections");
+
+  const papers: PaperRef[] = [];
+  for (const entry of selections) {
+    if (!entry || typeof entry !== "object") throw new Error("selections 里存在非对象条目");
+    const item = entry as Record<string, unknown>;
+    const series_key = String(item.series_key ?? "");
+    const subject = String(item.subject ?? "") as Subject;
+    const year = Number(item.year);
+    const paper_no = Number(item.paper_no);
+    if (!series_key || !year || !paper_no || !["math1", "math2", "math3"].includes(subject)) {
+      throw new Error(`selections 条目缺少必要的 series_key/year/subject/paper_no：${JSON.stringify(entry)}`);
+    }
+    papers.push({
+      series_key,
+      year,
+      subject,
+      paper_no,
+      series_name: series_key,
+      question_count: 0,
+      natural_key: `${year}/${subject}/${series_key}/${paper_no}`,
+    });
+  }
+
+  const document = (raw.document ?? {}) as Record<string, unknown>;
+  const toc = (document.toc ?? {}) as Record<string, unknown>;
+  const opening = (document.opening ?? {}) as Record<string, unknown>;
+  const solution = (document.solution ?? {}) as Record<string, unknown>;
+  const watermark = (document.watermark ?? {}) as Record<string, unknown>;
+  const defaults = createDraft();
+
+  return {
+    ...defaults,
+    name: typeof raw.title === "string" && raw.title.trim() ? raw.title : defaults.name,
+    papers,
+    layout: normalizeLayout(document.layout),
+    theme: normalizeTheme(document.theme),
+    spacing: normalizeSpacing(document.spacing),
+    structure: normalizeStructure(solution.structure),
+    pairCount:
+      typeof solution.pair_count === "number" ? Math.min(8, Math.max(1, solution.pair_count)) : defaults.pairCount,
+    toc: typeof toc.enabled === "boolean" ? toc.enabled : defaults.toc,
+    opening: {
+      show: typeof opening.show === "boolean" ? opening.show : defaults.opening.show,
+      candidateInfo:
+        typeof opening.candidate_info === "boolean" ? opening.candidate_info : defaults.opening.candidateInfo,
+      notices: typeof opening.notices === "boolean" ? opening.notices : defaults.opening.notices,
+    },
+    watermark: {
+      ...defaults.watermark,
+      enabled: typeof watermark.enabled === "boolean" ? watermark.enabled : defaults.watermark.enabled,
+      text: typeof watermark.text === "string" ? watermark.text : defaults.watermark.text,
+      color: typeof watermark.color === "string" ? watermark.color : defaults.watermark.color,
+      opacity: typeof watermark.opacity === "number" ? watermark.opacity : defaults.watermark.opacity,
+      textColor: typeof watermark.text_color === "string" ? watermark.text_color : defaults.watermark.textColor,
+      backgroundColor:
+        typeof watermark.background_color === "string" ? watermark.background_color : defaults.watermark.backgroundColor,
+    },
+  };
+}
+
+function normalizeLayout(value: unknown): Layout {
+  return value === "a3" || value === "a4" || value === "both" ? value : "both";
+}
+
+function normalizeTheme(value: unknown): Theme {
+  return value === "print" || value === "cream" || value === "both" ? value : "print";
+}
+
+function normalizeStructure(value: unknown): SolutionStructure {
+  return value === "pair-first" || value === "natural" || value === "full-page" ? value : "pair-first";
 }

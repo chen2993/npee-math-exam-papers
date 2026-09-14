@@ -60,7 +60,7 @@ python -m npee_math_papers.maintenance.audit_store
 | 层 | 目录 | 职责 | 约束 |
 | --- | --- | --- | --- |
 | 核心库 | `npee_math_papers/core/` | 存储、模型、校验、哈希、发布清单、组卷契约 | 除 `serialize`/`store` 外不依赖三方库 |
-| 用例层 | `npee_math_papers/service/` | 题库、提取、捕获、组卷、TeX 编译 | 不直接解析 CSV |
+| 用例层 | `npee_math_papers/service/` | 题库、提取、捕获、组卷、TeX 编译 | 只读写 `.npee-math-papers`，不解析外部表格格式 |
 | MCP 适配器 | `npee_math_papers/mcp/` | Agent 工具 | 只调用 `NpeeService` |
 | HTTP 适配器 | `npee_math_papers/api/` | 人类前端的 JSON 接口 | 只调用 `NpeeService` |
 | 前端 | `npee_math_papers/frontend/` | 人类网页管理台 | 只调用 HTTP 接口 |

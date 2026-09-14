@@ -10,7 +10,7 @@
  * would 404 on reload. Hashes are handled entirely client-side and work there.
  */
 
-import { FileArchive, LayoutDashboard, ListTree, ScrollText, Search, Sparkles } from "lucide-react";
+import { BookOpenText, FileArchive, LayoutDashboard, ListTree, ScrollText, Search, Sparkles } from "lucide-react";
 import { lazy, type ComponentType } from "react";
 
 // Lazy so each page is a separate chunk; the first paint only ships the shell.
@@ -18,6 +18,7 @@ const DashboardPageRoute = lazy(() => import("../features/dashboard/DashboardPag
 const PaperCatalogPageRoute = lazy(() => import("../features/catalog/PaperCatalogPageRoute"));
 const SearchPageRoute = lazy(() => import("../features/search/SearchPageRoute"));
 const CompositionPageRoute = lazy(() => import("../features/composition/CompositionPageRoute"));
+const ReaderPageRoute = lazy(() => import("../features/reader/ReaderPageRoute"));
 const ReleasePageRoute = lazy(() => import("../features/release/ReleasePageRoute"));
 const LogPageRoute = lazy(() => import("../features/logs/LogPageRoute"));
 
@@ -64,6 +65,15 @@ export const ROUTES: readonly RouteDefinition[] = [
     breadcrumb: ["工作区", "题目检索"],
     icon: Search,
     element: SearchPageRoute,
+    group: "工作区",
+  },
+  {
+    path: "/reader",
+    label: "套卷查看",
+    description: "按系列 → 套卷 → 逐题阅读，纯查看，不影响组卷。",
+    breadcrumb: ["工作区", "套卷查看"],
+    icon: BookOpenText,
+    element: ReaderPageRoute,
     group: "工作区",
   },
   {

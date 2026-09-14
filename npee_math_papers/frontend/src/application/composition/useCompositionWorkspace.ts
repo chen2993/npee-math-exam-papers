@@ -179,14 +179,23 @@ export function useCompositionWorkspace(repository: CompositionDraftRepository) 
     [activeDraft, updateActiveDraft],
   );
 
-  /** Remove several papers by natural key, in one update. */
+  /**
+   * Remove several papers by natural key, in one update.
+   *
+   * Returns how many were actually present, so a caller can report "removed N"
+   * instead of guessing. Counting in the updater would be unsound (React may
+   * run it later or twice), so the current draft is read outside it.
+   */
   const removePapers = useCallback(
     (naturalKeys: string[]) => {
-      if (!naturalKeys.length) return;
+      if (!naturalKeys.length || !activeDraft) return 0;
       const doomed = new Set(naturalKeys);
+      const removed = activeDraft.papers.filter((item) => doomed.has(item.natural_key)).length;
+      if (!removed) return 0;
       updateActiveDraft((draft) => ({ ...draft, papers: draft.papers.filter((item) => !doomed.has(item.natural_key)) }));
+      return removed;
     },
-    [updateActiveDraft],
+    [activeDraft, updateActiveDraft],
   );
 
   const removePaper = useCallback(
@@ -242,6 +251,19 @@ export function useCompositionWorkspace(repository: CompositionDraftRepository) 
     [drafts.length],
   );
 
+  /**
+   * Insert a fully-formed draft (an imported one) and make it active.
+   *
+   * The id is always regenerated so importing the same file twice creates two
+   * drafts instead of silently overwriting the first.
+   */
+  const importDraft = useCallback((incoming: CompositionDraft) => {
+    const draft = { ...incoming, id: `composition-${Date.now()}-${Math.random().toString(36).slice(2, 7)}` };
+    setDrafts((current) => [...current, draft]);
+    setActiveDraftId(draft.id);
+    return draft;
+  }, []);
+
   const duplicateActiveDraft = useCallback(() => {
     if (!activeDraft) return undefined;
     return addDraft(`${activeDraft.name} 副本`, [...activeDraft.papers]);
@@ -277,6 +299,7 @@ export function useCompositionWorkspace(repository: CompositionDraftRepository) 
     reorderPapers,
     clearPapers,
     addDraft,
+    importDraft,
     duplicateActiveDraft,
     deleteActiveDraft,
     renameActiveDraft,

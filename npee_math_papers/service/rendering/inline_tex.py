@@ -22,6 +22,7 @@ from npee_math_papers.core.tex import (
     TEXT_IN_MATH_COMMANDS,
     TIKZ_DOUBLE_COMMAND_RE,
     AlignmentEnvironment,
+    balanced_group_end,
 )
 from npee_math_papers.service.rendering.errors import fail
 from npee_math_papers.service.rendering.text import nonempty_string
@@ -107,23 +108,6 @@ OPERATOR_LIMIT_RE = re.compile(
     r"\\(limsup|liminf|iiiint|iiint|iint|oiiint|oiint|max|min|sup|inf|lim|sum|prod|bigcap|bigcup)(?![A-Za-z@])"
     r"(?:\\limits)*"
 )
-
-
-def balanced_group_end(value: str, start: int) -> int | None:
-    depth = 0
-    offset = start
-    while offset < len(value):
-        if value[offset] == "\\":
-            offset += 2
-            continue
-        if value[offset] == "{":
-            depth += 1
-        elif value[offset] == "}":
-            depth -= 1
-            if depth == 0:
-                return offset + 1
-        offset += 1
-    return None
 
 
 def cjk_math_characters(value: str) -> list[str]:

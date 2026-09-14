@@ -95,7 +95,7 @@ def database_result() -> CheckResult:
         "Paper store (.npee-math-papers)",
         "FAIL",
         f"missing {papers_dir.as_posix()}",
-        "Run: python -m npee_math_papers.maintenance.migrate_papers --apply",
+        "Populate it with the MCP tool npee_ingest_paper",
     )
 
 

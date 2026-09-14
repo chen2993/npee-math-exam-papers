@@ -31,9 +31,11 @@
 2. **P2 依赖注入**：`BuildOptions.store` + `load_catalogs(store=...)`，`CompositionService` 注入自己的 store。
 3. **P3 术语常量单源**：新增 `core/domain.py` 作为 `SUBJECTS`/`SECTIONS`/`CHOICE_LABELS`/`ID_RE` 等的唯一定义，各模块改为 import。
 4. **P4 TeX 常量单源**：`service/tex_builder.py` 改为复用 `core/tex.py` 的正则与命令集合。
-5. **P5 拆分 God 模块**：把 `service/tex_builder.py` 拆为
-   `tex/`（渲染原语）、`tex/repair.py`（历史写法修复）、`tex/layout.py`（版式/水印/命名）、
-   `tex/package.py`（组卷包与片段解析）、`tex/builder.py`（编排），`tex_builder` 保留为兼容入口。
+5. **P5 拆分 God 模块**：把 `service/tex_builder.py` 按职责拆分，`tex_builder` 保留为兼容入口。
+   计划中的命名是 `tex/repair.py`（历史写法修复）、`tex/layout.py`（版式/水印/命名）、
+    `tex/package.py`（组卷包与片段解析）、`tex/builder.py`（编排）；实际落地为
+    `service/rendering/` 下的多个模块（见下表 P5 行），两者职责一一对应，此处保留
+    原计划命名仅作对照。
 6. **P6 错误分类**：`core/errors.py` 增加 `NotFoundError` / `ConflictError`，适配器据此映射 404/409/400。
 
 ## 2. 兼容性约束

@@ -265,17 +265,25 @@ function EventRow({ event }: { event: LogEvent }) {
             <span className="log-name log-name-path">{path}</span>
           </>
         ) : (
-          <span className="log-name log-name-tool">{event.name}</span>
+          <>
+            <span className="log-cell log-cell-method" />
+            <span className="log-name log-name-tool">{event.name}</span>
+          </>
         )}
-        {hasPayload ? <span className="log-payload-badge" title="可查看请求与响应正文">正文</span> : null}
         {isSlow ? (
           <span className="log-badge log-badge-slow">
             <Zap size={11} />慢
           </span>
-        ) : null}
+        ) : (
+          // Every row emits the same cells, empty ones included, so the columns
+          // line up across MCP and HTTP rows instead of shifting per surface.
+          <span className="log-cell log-cell-slow" />
+        )}
         {statusCode !== null ? (
           <span className={classNames("log-code", codeTone)}>{statusCode}</span>
-        ) : null}
+        ) : (
+          <span className="log-code" />
+        )}
         <span className={classNames("log-status", `log-status-${isError ? "error" : "ok"}`)}>
           {isError ? <AlertCircle size={12} /> : <Check size={12} />}
           {isError ? "失败" : "成功"}

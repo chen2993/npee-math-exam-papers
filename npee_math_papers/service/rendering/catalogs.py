@@ -136,8 +136,8 @@ def load_catalogs(
     resolved_store = store if store is not None else _store_for_build()
     if resolved_store is None:
         fail(
-            "the paper store is empty or missing; run "
-            "'python -m npee_math_papers.maintenance.migrate_papers --apply' to populate it"
+            "the paper store is empty or missing; populate .npee-math-papers/papers/ "
+            "with the MCP tool npee_ingest_paper"
         )
     return _load_store_catalogs(resolved_store, source_specs)
 

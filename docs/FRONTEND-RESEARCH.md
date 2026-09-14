@@ -5,6 +5,9 @@
 
 ## 1. 参考系统
 
+> 本节出现的路径均属于被调研的**外部项目**（vue-vben-admin、ant-design-pro、refine），
+> 不是本仓库的文件，仅用于说明借鉴来源。
+
 ### 1.1 vue-vben-admin（35.6k★，Vue3 后台的事实标准）
 
 调查路径：`apps/web-antd/src/**`、`packages/@core/preferences/src/**`。

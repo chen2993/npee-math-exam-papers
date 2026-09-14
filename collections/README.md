@@ -3,7 +3,7 @@
 每套可复现组卷使用一个独立目录：
 
 ```text
-app/data/collections/<collection-id>/
+collections/<collection-id>/
 |- composition.json
 |- cover-preamble.tex
 |- cover.tex
@@ -12,8 +12,10 @@ app/data/collections/<collection-id>/
    `- images-or-other-resources
 ```
 
-`composition.json` 只保存题库来源、套卷引用、页面选项和资源声明。题面仍从
-`app/data/catalogs.json` 注册的 `app/data/papers/<series>/` CSV 中按 `catalog.sources` 显式读取。
+`composition.json` 只保存题库来源、套卷引用、页面选项和资源声明。题面从
+`.npee-math-papers/papers/<series>-<year>-<subject>/<paper_no>.yaml` 读取，
+套卷由 `composition.json` 的引用（`series_key`/`year`/`subject`/`paper_no`）精确定位；
+题库是唯一事实源，组卷包本身不复制题面。
 
 所有可执行 `.tex` 文件，包括封面设计、矢量路径片段与 Hook，都和 `composition.json` 同级。`assets/`
 只保存图片、PDF、字体和其他非代码资源。`document.cover.path` 指向 `cover.tex`，它在

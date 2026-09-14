@@ -405,3 +405,78 @@ zhangyu8-2023-math3/8    zhangyu8-2025-math3/3
 | 编译 | `python build\full-build-scan.py` | `papers=321 build_ok=321 build_fail=0` |
 | 全库解析 | `python build\store-strict-check.py` | 321/321，0 哈希不符 |
 | 架构 / 审计 | `test-architecture.ps1` · `audit_store` | `Passed` · `PASS` |
+
+## 11. 日志布局 / 套卷查看 / 组卷操作 / 仓库清理（本轮完成）
+
+### 11.1 操作日志：列对齐 + 去掉「正文」徽标
+
+| 位置 | 变化 |
+| --- | --- |
+| `features/logs/LogPageRoute.tsx` | 删除 `log-payload-badge`（整行都可展开，徽标是噪音）；MCP 行与 HTTP 行补齐**占位单元格**（`log-cell-method` / `log-cell-slow` / 空 `log-code`），行头单元格数固定 |
+| `styles/features.css` | `grid-template-columns` 由 `auto` 改为**固定轨道**：每个行头是独立 grid，`auto` 列按本行内容解析，没有「慢」徽标的行会变窄，导致其后的 成功/时长/时间 整体左移——这正是 MCP/HTTP 列不齐的原因 |
+| `styles/responsive.css` | ≤900px 同时隐藏「慢」徽标**与其占位格**，剩余轨道与单元格数仍匹配 |
+
+### 11.2 套卷查看：三级独立阅读器（与组卷解耦）
+
+新增 `features/reader/`，路由 `#/reader`，三层全部写在 URL 上：
+
+```text
+系列 → 一卷的套卷 → 一套卷的 22 题
+#/reader?series=…&year=…&subject=…&paper=…
+```
+
+| 位置 | 变化 |
+| --- | --- |
+| `features/reader/ReaderPageRoute.tsx` | 一级「卷」（`useBundles`）+ 二级套卷卡片；纯查看，**无勾选、无加入组卷、无编译** |
+| `features/reader/PaperReader.tsx` | 三级：单列题面 + 吸顶跳转条（选择题/填空题/解答题 + 1..N 题号格），`IntersectionObserver` 高亮当前题 |
+| `shared/question/QuestionView.tsx` | **新增**：从 `PaperDetailDrawer` 抽出图形/选项/整题渲染，抽屉与阅读器共用一份实现 |
+| `features/catalog/PaperDetailDrawer.tsx` | 改为 import 共享渲染器；仍保留「加入组卷」（它是与组卷耦合的那条路径） |
+| `frontend/src/app/routes.tsx` | 登记 `/reader`（工作区 → 套卷查看） |
+| `styles/features.css` | 新增 `reader-*` 一节；≤1120px 单列 |
+
+### 11.3 组卷页操作优化
+
+| 项 | 变化 |
+| --- | --- |
+| 每行「加入」按钮 | **删除**；整行可点（`picker-row`，光标与悬停高亮），复选框内部点击 `stopPropagation` 避免双触发；行尾改为状态标签 `picker-state` |
+| 表头全选 | 新增三态复选框（`indeterminate` 表示本页部分已选），可整页加入/移除 |
+| 「删除当前组卷」 | 仅剩一个草稿时**禁用**（此前总是可点，弹确认框后必然失败） |
+| 导入 JSON | **新增** `draftFromCompilePayload()`（`buildCompilePayload` 的精确逆运算）+ 文件选择按钮；导入总是**追加**新草稿，不覆盖 |
+| 「首组题数」 | 仅 `解答结构 = 首组配对` 时显示（其余结构该值无任何作用） |
+| PDF 份数 | 标题行显示「本次将生成 N 份 PDF」（`outputTargetCount()`，`output=both` 的三轴相乘即 8 份） |
+| 编译完成播报 | `CompilePanel` 增加 `role="status" aria-live="polite"` 的隐藏文本（`.visually-hidden`） |
+| `useCompositionWorkspace.ts` | `removePapers` 返回**实际移除数**；新增 `importDraft`（每次重新生成 id） |
+
+### 11.4 清理与过期引用修正
+
+| 项 | 变化 |
+| --- | --- |
+| `maintenance/migrate_papers.py` | **删除**：CSV 逻辑指向已退役的 `app/data/papers/`，必然失败；引用处（`audit_store`、`check_environment`、`service/rendering/catalogs.py`、`docs/AGENT-QUICKSTART.md` 工作流 C）改为指向 `npee_ingest_paper` |
+| `frontend/src/domain/catalog/selectors.ts` | **删除**：零引用，且与 `models.ts` 的 `subjectNames` 重复 |
+| `service/rendering/inline_tex.py` | 删除自带的 `balanced_group_end` 副本，改为 `from core.tex import balanced_group_end` |
+| `collections/README.md` | 路径示例由旧措辞的 `app/data/` 前缀改为 `collections/`；题面来源由「注册表 + CSV」改为 `.npee-math-papers/papers/**/*.yaml` |
+| `AGENTS.md` | 用例层约束由「不直接解析 CSV」改为「只读写 `.npee-math-papers`，不解析外部表格格式」 |
+| `docs/APPLICATION.md` | 端点表补 `compositions/submit`、`jobs`、`jobs/{id}`、`jobs/{id}/artifact` |
+| `docs/README.md` | 索引补 `UPGRADE-PLAN.md`、`FRONTEND-RESEARCH.md`、`GIT-DATA.md` |
+| `docs/UPGRADE-PLAN.md` | P5 说明澄清：计划命名（`tex/repair.py` 等）与实际落地（`service/rendering/*`）的对应关系 |
+| `docs/FRONTEND-RESEARCH.md` | §1 加注：本节路径属于被调研的**外部项目**，不是本仓库文件 |
+| `build/doc-refs.py` | 校验器改为**按段落**判断上下文（外部调研 / 已退役 / 提案），并加显式 `ALLOWED_MISSING` 白名单；新增 `ROOT / "docs"` 解析基准。自测：临时插入一条不存在的路径会立即被报出 |
+| `build/clean-build.py` | 清理 `build/`：保留编译产物（`_jiaji-compile/pdf`）、全部脚本与 JSON 报告、文档引用项；删除临时目录与一次性产物 |
+| `build/` 已执行清理 | 删除 `_builder-test`、`_logs`、`backup-before-fix`、`blankrow-check`、`compositions`、`figure-cache`、`_jiaji-compile/generated` 等 12 项，释放 **29.9 MB** |
+| 行尾 | 本轮改动引入的 CRLF 全部归一为 LF（`.gitattributes` 已锁定 `* text=auto eol=lf`） |
+
+### 11.5 验收证据（实测）
+
+| 检查 | 命令 | 结果 |
+| --- | --- | --- |
+| 后端测试 | `python -m pytest tests` | **180 项通过** |
+| 前端测试 | `npx vitest run` | **96 项通过**（+6：`draftFromCompilePayload` 往返、`outputTargetCount`） |
+| 前端类型 | `npx tsc -b --force` | 无错误 |
+| 前端构建 | `npx vite build` | 成功 |
+| 日志页 DOM | `python build\logs-check.py` | 300 行全部有占位格；`log-payload-badge` = **0**；固定慢格 300 / 固定 method 格 98 |
+| 日志页视觉 | `python build\logs-shot.py` · `logs-expanded-shot.py` | MCP/HTTP 的成功、时长、时间三列对齐 |
+| 阅读器 | `python build\reader-check.py` | 22 个题目锚点、23 个跳转格、1 个 active 高亮 |
+| 阅读器视觉 | `python build\reader-shot.py` | 一二级与三级布局正常 |
+| 文档引用 | `python build\doc-refs.py` | 三节全部「无」 |
+| 架构 / 审计 | `test-architecture.ps1` · `audit_store` | `Passed` · `PASS`（库级哈希 `b8737046…` 未变，321 套 / 7062 题） |
+| 空白检查 | `git diff --check` | 无错误 |

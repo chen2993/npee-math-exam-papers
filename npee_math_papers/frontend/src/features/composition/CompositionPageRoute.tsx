@@ -13,6 +13,7 @@ import {
   Copy,
   FileDown,
   FileJson,
+  FileUp,
   GripVertical,
   ListPlus,
   Plus,
@@ -21,13 +22,22 @@ import {
   Trash2,
   X,
 } from "lucide-react";
-import { useMemo, useState } from "react";
+import { useMemo, useRef, useState } from "react";
 
 import type { PaperOrder } from "../../application/catalog/ports";
 import { useOverview, usePapers } from "../../application/query/hooks";
 import { useAppServices } from "../../app/AppServices";
 import { useCompile, useWorkspace } from "../../app/CompositionWorkspace";
-import { buildCompilePayload, type CompositionDraft, type Layout, type SolutionStructure, type Spacing, type Theme } from "../../domain/composition/models";
+import {
+  buildCompilePayload,
+  draftFromCompilePayload,
+  outputTargetCount,
+  type CompositionDraft,
+  type Layout,
+  type SolutionStructure,
+  type Spacing,
+  type Theme,
+} from "../../domain/composition/models";
 import { subjectNames, type PaperSummary, type Subject } from "../../domain/catalog/models";
 import { usePreferences } from "../../preferences";
 import { useDragReorder } from "../../shared/hooks/useDragReorder";
@@ -64,6 +74,7 @@ export default function CompositionPageRoute() {
   const [pickerOffset, setPickerOffset] = useState(0);
   const [pickerFilters, setPickerFilters] = useState<PaperFilterValue>(EMPTY_PAPER_FILTERS);
   const [pickerOrder, setPickerOrder] = useState<PaperOrder>("series");
+  const importInput = useRef<HTMLInputElement>(null);
 
   const overview = useOverview(gateway);
   const papers = usePapers(gateway, {
@@ -101,12 +112,32 @@ export default function CompositionPageRoute() {
     () => (draft?.papers ?? []).reduce((sum, paper) => sum + (paper.question_count || 0), 0),
     [draft?.papers],
   );
+  // Each layout × theme × spacing combination is its own PDF, so "both" on all
+  // three silently means eight files. Surface it before the run starts.
+  const targetCount = useMemo(() => (draft ? outputTargetCount(draft) : 0), [draft]);
 
   function exportJson() {
     if (!draft) return;
     const payload = buildCompilePayload(draft);
     downloadBlob(new Blob([JSON.stringify(payload, null, 2) + "\n"], { type: "application/json" }), `${draft.id}.json`);
     toast.notify("组卷 JSON 已导出");
+  }
+
+  /**
+   * Import a previously exported composition JSON as a new draft.
+   *
+   * Export was a dead end before this: the file could be downloaded but never
+   * read back. Import always appends a draft (never overwrites), so a round trip
+   * is non-destructive and the imported copy can be compared side by side.
+   */
+  async function importJson(file: File) {
+    try {
+      const imported = draftFromCompilePayload(JSON.parse(await file.text()));
+      const created = workspace.importDraft(imported);
+      toast.notify(`已导入「${created.name}」，共 ${created.papers.length} 套`);
+    } catch (reason) {
+      toast.notify(reason instanceof Error ? reason.message : "导入失败：无法解析该文件", "error");
+    }
   }
 
   async function compile() {
@@ -170,6 +201,9 @@ export default function CompositionPageRoute() {
           <IconButton
             label="删除当前组卷"
             tone="danger"
+            // With one draft there is nothing to fall back to, so the action is
+            // disabled rather than opening a confirm dialog that always fails.
+            disabled={workspace.drafts.length <= 1}
             onClick={() => setConfirmDelete(true)}
           >
             <Trash2 size={16} />
@@ -182,7 +216,8 @@ export default function CompositionPageRoute() {
           <span className="eyebrow">CURRENT COMPOSITION</span>
           <h2>{draft.name || "未命名组卷"}</h2>
           <p>
-            已选 {selectedCount} 套 · 共 {totalQuestions} 题 · 组卷只引用套卷，题面始终从题库实时读取。
+            已选 {selectedCount} 套 · 共 {totalQuestions} 题 · 本次将生成 {targetCount} 份 PDF ·
+            组卷只引用套卷，题面始终从题库实时读取。
           </p>
         </div>
         <div className="page-title-actions">
@@ -197,6 +232,22 @@ export default function CompositionPageRoute() {
           <IconButton label="导出组卷 JSON" onClick={exportJson} disabled={!selectedCount}>
             <FileJson size={16} />
           </IconButton>
+          <IconButton label="导入组卷 JSON" onClick={() => importInput.current?.click()}>
+            <FileUp size={16} />
+          </IconButton>
+          {/* Kept out of the layout: the visible control is the IconButton above. */}
+          <input
+            ref={importInput}
+            type="file"
+            accept="application/json,.json"
+            hidden
+            onChange={(event) => {
+              const file = event.target.files?.[0];
+              // Reset first, so selecting the same file twice still fires change.
+              event.target.value = "";
+              if (file) void importJson(file);
+            }}
+          />
         </div>
       </div>
 
@@ -324,7 +375,32 @@ export default function CompositionPageRoute() {
           <table className="paper-table-plain">
             <thead>
               <tr>
-                <th className="paper-table-check" aria-label="选择" />
+                <th className="paper-table-check" aria-label="选择">
+                  <input
+                    type="checkbox"
+                    aria-label="选择本页全部"
+                    checked={Boolean(rows.length) && rows.every((paper) => selectedKeys.has(paper.natural_key))}
+                    ref={(node) => {
+                      // A partially-selected page reads as "indeterminate": a plain
+                      // checkbox would otherwise claim nothing is selected.
+                      if (node) {
+                        const some = rows.some((paper) => selectedKeys.has(paper.natural_key));
+                        node.indeterminate = some && !node.checked;
+                      }
+                    }}
+                    disabled={!rows.length}
+                    onChange={() => {
+                      const all = rows.every((paper) => selectedKeys.has(paper.natural_key));
+                      if (all) {
+                        const added = workspace.removePapers(rows.map((paper) => paper.natural_key));
+                        toast.notify(added ? `已移除本页 ${added} 套` : "本页套卷都不在组卷中");
+                      } else {
+                        const added = workspace.addPapers(rows);
+                        toast.notify(added ? `已加入本页 ${added} 套` : "本页套卷都已在组卷中");
+                      }
+                    }}
+                  />
+                </th>
                 <th>套卷</th>
                 <th>年份</th>
                 <th>科目</th>
@@ -389,7 +465,14 @@ export default function CompositionPageRoute() {
   );
 }
 
-/** One row of the paper picker; kept separate so the table body stays readable. */
+/**
+ * One row of the paper picker; kept separate so the table body stays readable.
+ *
+ * The whole row is the toggle. A per-row "加入" button was redundant with the
+ * leading checkbox — two controls for one boolean — and made the row read as a
+ * link to somewhere. Clicking anywhere (except the checkbox itself, which would
+ * fire twice) toggles the selection.
+ */
 function PickerRow({
   paper,
   selected,
@@ -400,12 +483,17 @@ function PickerRow({
   onToggle: (paper: PaperSummary) => void;
 }) {
   return (
-    <tr className={classNames(selected && "is-selected")}>
+    <tr
+      className={classNames("picker-row", selected && "is-selected")}
+      onClick={() => onToggle(paper)}
+      title={selected ? "点击移除" : "点击加入组卷"}
+    >
       <td className="paper-table-check">
         <input
           type="checkbox"
           checked={selected}
           onChange={() => onToggle(paper)}
+          onClick={(event) => event.stopPropagation()}
           aria-label={`${selected ? "移除" : "加入"} ${paper.natural_key}`}
         />
       </td>
@@ -424,9 +512,7 @@ function PickerRow({
       <td data-label="科目">{subjectNames[paper.subject]}</td>
       <td data-label="题目">{paper.question_count}</td>
       <td>
-        <Button size="sm" variant={selected ? "primary" : "default"} onClick={() => onToggle(paper)}>
-          {selected ? "已选" : "加入"}
-        </Button>
+        <span className={classNames("picker-state", selected && "is-selected")}>{selected ? "已选" : "加入"}</span>
       </td>
     </tr>
   );
@@ -506,16 +592,21 @@ function DocumentSettings({
         </SelectField>
       </div>
 
-      <TextField
-        label="首组题数"
-        type="number"
-        min={1}
-        max={8}
-        value={draft.pairCount}
-        onChange={(event) =>
-          onUpdate((current) => ({ ...current, pairCount: Math.min(8, Math.max(1, Number(event.target.value) || 2)) }))
-        }
-      />
+      {/* Only "首组配对" reads pair_count; for the other structures the field had
+          no effect, so it is hidden rather than left as a dead control. */}
+      {draft.structure === "pair-first" ? (
+        <TextField
+          label="首组题数"
+          type="number"
+          min={1}
+          max={8}
+          value={draft.pairCount}
+          hint="配对结构的首组题数，其余结构不使用该值。"
+          onChange={(event) =>
+            onUpdate((current) => ({ ...current, pairCount: Math.min(8, Math.max(1, Number(event.target.value) || 2)) }))
+          }
+        />
+      ) : null}
 
       <CheckField label="生成目录" checked={draft.toc} onChange={(checked) => onUpdate((current) => ({ ...current, toc: checked }))} />
 

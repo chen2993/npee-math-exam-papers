@@ -45,7 +45,7 @@ def main() -> int:
 
     if not paths.papers.is_dir():
         print(f"ERROR paper store is missing: {paths.papers.as_posix()}")
-        print("HINT run: python -m npee_math_papers.maintenance.migrate_papers --apply")
+        print("HINT populate it with the MCP tool npee_ingest_paper (one paper per call)")
         return 1
 
     if args.rebuild:

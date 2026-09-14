@@ -627,7 +627,14 @@
   width: 100%;
   padding: 9px 14px;
   display: grid;
-  grid-template-columns: 18px 74px 58px minmax(0, 1fr) auto auto auto 62px 74px;
+  /*
+   * Fixed tracks, not `auto`. Each row head is its own grid, so an `auto`
+   * column resolves against that row's content alone — a row with no "慢"
+   * badge would be narrower and every cell after it would slide left, which is
+   * exactly why 成功/时长/时间 did not line up between MCP and HTTP rows.
+   * Empty cells are emitted in the component so the tracks stay occupied.
+   */
+  grid-template-columns: 18px 66px 54px minmax(0, 1fr) 42px 38px 54px 62px 74px;
   align-items: center;
   gap: 9px;
   border: 0;
@@ -658,6 +665,12 @@
   height: 4px;
   border-radius: 50%;
   background: var(--line-strong);
+}
+
+/* Placeholder for a cell this row does not use (e.g. the HTTP verb on an MCP
+   row, or the status code on a tool call). Keeps the fixed grid tracks filled. */
+.log-cell {
+  min-width: 0;
 }
 
 .log-surface {
@@ -729,16 +742,6 @@
 
 .log-name-tool {
   font-weight: 650;
-}
-
-/* Marks an entry whose request/response bodies were recorded. */
-.log-payload-badge {
-  padding: 1px 6px;
-  border: 1px solid var(--line-strong);
-  border-radius: 4px;
-  color: var(--ink-2);
-  font-size: 9px;
-  white-space: nowrap;
 }
 
 /* Real HTTP status code, coloured by class. */
@@ -1239,7 +1242,315 @@
   background: color-mix(in srgb, var(--accent) 7%, var(--paper));
 }
 
+/*
+ * The picker row is itself the toggle, so it has to look clickable: the cursor
+ * changes and the row highlights under the pointer. A button per row only
+ * duplicated the checkbox, so the affordance moved to the row.
+ */
+.paper-table-plain tbody tr.picker-row {
+  cursor: pointer;
+  transition: background 0.12s ease;
+}
+
+.paper-table-plain tbody tr.picker-row:hover {
+  background: var(--paper-sunken);
+}
+
+/* The trailing status is a label, not a button; it reads as state. */
+.picker-state {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  color: var(--ink-3);
+  font-size: 10px;
+  font-weight: 650;
+  white-space: nowrap;
+}
+
+.picker-state.is-selected {
+  border-color: color-mix(in srgb, var(--accent) 45%, var(--line));
+  background: var(--accent-soft);
+  color: var(--accent);
+}
+
 /* --------------------------------------------------------------------------- preferences */
+
+/* --------------------------------------------------------------------------- reader */
+
+/*
+ * The standalone reader: series → papers → questions.
+ *
+ * Level 1 and 2 sit side by side (a fixed sidebar and the paper grid), because
+ * choosing a 卷 and then choosing a 套 are two steps of one decision. Level 3
+ * takes the full width: reading a question set is a vertical activity.
+ */
+
+.reader-layout {
+  display: grid;
+  grid-template-columns: minmax(240px, 300px) minmax(0, 1fr);
+  gap: var(--density-gap);
+  align-items: start;
+}
+
+.reader-side {
+  position: sticky;
+  top: 12px;
+  max-height: calc(100vh - 120px);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.reader-side-filter {
+  padding: 0 14px 10px;
+}
+
+.reader-bundle-list {
+  padding: 0 8px 10px;
+  overflow-y: auto;
+}
+
+.reader-bundle {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  padding: 8px 10px;
+  border: 0;
+  border-radius: var(--radius);
+  background: none;
+  text-align: left;
+}
+
+.reader-bundle:hover {
+  background: var(--paper-sunken);
+}
+
+.reader-bundle.is-active {
+  background: var(--accent-soft);
+}
+
+.reader-bundle-text {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.reader-bundle-text strong {
+  font-size: 12px;
+}
+
+.reader-bundle-text small {
+  color: var(--ink-3);
+  font-size: 10px;
+}
+
+.reader-bundle-count {
+  color: var(--ink-3);
+  font-size: 10px;
+  white-space: nowrap;
+}
+
+.reader-paper-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 10px;
+  padding: 0 14px 14px;
+}
+
+.reader-paper-card {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  padding: 12px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--paper);
+  text-align: left;
+  transition: border-color 0.12s ease, transform 0.12s ease;
+}
+
+.reader-paper-card:hover {
+  border-color: color-mix(in srgb, var(--accent) 45%, var(--line));
+  transform: translateY(-1px);
+}
+
+.reader-paper-no {
+  color: var(--accent);
+  font-size: 10px;
+  font-weight: 750;
+  letter-spacing: 0.04em;
+}
+
+.reader-paper-name {
+  font-size: 13px;
+  font-weight: 650;
+}
+
+.reader-paper-meta {
+  color: var(--ink-3);
+  font-size: 10px;
+}
+
+.reader-hint,
+.reader-footnote {
+  padding: 0 14px;
+  color: var(--ink-3);
+  font-size: 11px;
+}
+
+.reader-footnote {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 0;
+}
+
+.reader-year-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 0 14px 14px;
+}
+
+.reader-year-row button {
+  padding: 2px 8px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: none;
+  font-size: 10px;
+}
+
+.reader-year-row button:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.reader-head {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.reader-crumbs {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+}
+
+.reader-crumbs button {
+  border: 0;
+  background: none;
+  color: var(--accent);
+  font-size: 12px;
+}
+
+.reader-crumbs span {
+  color: var(--ink-3);
+}
+
+/* The jump bar sticks under the app header, so 22 questions stay navigable. */
+.reader-jump {
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 12px;
+  background: var(--paper-raised);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+}
+
+.reader-jump-sections {
+  display: flex;
+  gap: 6px;
+}
+
+.reader-jump-section {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 3px 9px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: none;
+  font-size: 11px;
+}
+
+.reader-jump-section span {
+  color: var(--ink-3);
+  font-size: 9px;
+}
+
+/* The number strip is the "22 questions" index; it wraps rather than scrolling. */
+.reader-jump-numbers {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3px;
+  flex: 1;
+  min-width: 0;
+}
+
+.reader-jump-number {
+  min-width: 22px;
+  padding: 2px 4px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  background: var(--paper-sunken);
+  color: var(--ink-2);
+  font-size: 10px;
+  font-variant-numeric: tabular-nums;
+}
+
+.reader-jump-number:hover {
+  border-color: var(--line-strong);
+}
+
+.reader-jump-number.is-active {
+  background: var(--accent);
+  color: #fff;
+}
+
+.reader-questions {
+  display: flex;
+  flex-direction: column;
+  gap: var(--density-gap);
+  padding-top: var(--density-gap);
+}
+
+/* Anchor offset so a jumped-to question is not hidden under the sticky bar. */
+.reader-question {
+  scroll-margin-top: 96px;
+}
+
+.reader-state {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 24px;
+  color: var(--ink-3);
+}
+
+.reader-state.is-error {
+  color: var(--red);
+}
+
+@media (max-width: 1120px) {
+  .reader-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .reader-side {
+    position: static;
+    max-height: none;
+  }
+}
 
 .preferences-root {
   position: relative;

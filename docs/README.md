@@ -52,6 +52,9 @@ Agent 装 MCP：见 [`MCP-SETUP.md`](MCP-SETUP.md)。
 | [`HUMAN-GUIDE.md`](HUMAN-GUIDE.md) | 人类使用指南：启动、四种界面、存储格式、常见问题 |
 | [`ARCHITECTURE.md`](ARCHITECTURE.md) | 分层架构、目录职责、数据流 |
 | [`APPLICATION.md`](APPLICATION.md) | 应用 API 端点与前端结构 |
+| [`UPGRADE-PLAN.md`](UPGRADE-PLAN.md) | 架构 / 数据结构 / 设计模式升级记录 |
+| [`FRONTEND-RESEARCH.md`](FRONTEND-RESEARCH.md) | 前端升级：参考系统研究与设计决策 |
+| [`GIT-DATA.md`](GIT-DATA.md) | 题库的 Git 版本管理：三层资源与 2 GB PDF/PNG 的处理 |
 
 ## 常用命令
 

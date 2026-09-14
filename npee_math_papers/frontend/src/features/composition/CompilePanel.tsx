@@ -48,6 +48,18 @@ export function CompilePanel({
 
   return (
     <section className={classNames("compile-panel surface", ok && "is-ok", phase === "failed" && "is-error")}>
+      {/*
+        A long typeset run finishes while the user is looking elsewhere, so the
+        outcome is announced rather than only drawn. `polite` waits for a pause;
+        the visible panel is unchanged.
+      */}
+      <p className="visually-hidden" role="status" aria-live="polite">
+        {ok
+          ? `编译完成，生成 ${job?.artifacts.length ?? 0} 份 PDF。`
+          : phase === "failed"
+            ? `编译失败：${error || "未知原因"}`
+            : ""}
+      </p>
       <header className="compile-panel-head">
         <span className="compile-panel-icon">
           {busy ? <LoaderCircle size={18} className="is-spinning" /> : ok ? <CheckCircle2 size={18} /> : <AlertCircle size={18} />}

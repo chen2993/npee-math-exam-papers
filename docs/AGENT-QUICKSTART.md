@@ -92,13 +92,18 @@ npee-math-papers
 成功时 `artifacts` 给出 PDF 路径；失败时 `error` 给出原因。
 绑定校验在提交时同步完成，过期组卷立刻返回失败，不占用后台任务。
 
-### 工作流 C：批量导入既有 CSV
+### 工作流 C：从别的形态批量导入
 
-若你手上是旧格式的 CSV 题面，用维护脚本一次性迁移：
+题库只有一种写入路径：`npee_ingest_paper` / `npee_ingest_document`（schema 3.0 或旧 2.0，
+写入时自动转换）。若你手上是 CSV、旧 JSON 或其他形态，先在自己的脚本里转成题目数组，
+再逐套调用写入工具：
 
-```powershell
-python -m npee_math_papers.maintenance.migrate_papers --apply
+```text
+1. npee_validate_questions([...])          先自检
+2. npee_ingest_paper(series_key, year, subject, paper_no, questions, replace=...)
 ```
+
+写入后 `index/` 与 `release.json` 自动重建，不需要额外的迁移脚本。
 
 ### 工作流 D：TeX 调试（反斜杠 / 渲染核对）
 
