@@ -62,10 +62,31 @@ capture.json 现有字段：
 
 | 项 | 状态 |
 | --- | --- |
-| `papers/`、`registry.json`、`release.json`、`index/` | ✅ 已 `git add`（386 个文件） |
+| `papers/`、`registry.json`、`release.json`、`index/` | ✅ **已提交** |
 | `.gitattributes` | ✅ 新增：`* text=auto eol=lf` + PDF/PNG 标记 binary + LFS 规则 |
 | `.gitignore` | ✅ 注释改写，说明三层各自归属 |
-| `sources/`、`captures/` | ⏸ 仍忽略；LFS 规则已就位，随时可用 |
+| `sources/`、`captures/` | ✅ 忽略，**不上传 GitHub**；LFS 规则已就位，若将来要托管可启用 |
+
+### 仓库历史重置（2026-09-14）
+
+原 `.git` 有 **1690 MB**，其中绝大部分是首次提交时误入的
+`agent/workspace/**/source.pdf`（最大 81.3 MB）。这些 blob 无法通过普通删除移除。
+
+由于仓库**从未推送**（远端无任何分支），重置代价最低，因此：
+
+1. 把原 `.git` 打包为 `~/Desktop/jjb-git-history-20260914-181514.tar.gz`（1.65 GB），
+   并生成 `.sha256` 校验文件；
+2. **验证归档可恢复**：解压后 4661 文件 / 1,772,379,423 字节与原 `.git` 逐字节一致，
+   `git fsck` 退出 0，`git log` 与 4123 个文件树均可读出；
+3. 删除 `.git`，`git init -b main` 重建，重新配置 `origin` 与 `git lfs install --local`；
+4. 以当前工作区为**初始版本**提交（591 文件）。
+
+| 指标 | 之前 | 之后 |
+| --- | --- | --- |
+| `.git` 体积 | 1690 MB | **1.6 MB** |
+| 提交数 | 1 | 1（全新根提交） |
+| 已跟踪文件 | 4123（含 81 MB PDF） | **591**（无 >1 MB 文件） |
+| 题库 | 未跟踪 | **321 套全部跟踪** |
 
 ## 五、为什么必须锁 LF（实测）
 
