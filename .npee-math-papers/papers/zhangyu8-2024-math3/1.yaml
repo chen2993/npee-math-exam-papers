@@ -1,0 +1,316 @@
+schema_version: '3.0'
+paper:
+  series_key: zhangyu8
+  year: 2024
+  subject: math3
+  paper_no: 1
+content_hash: 590f9c410073c5416f72fd077756c8650b3e7042b376766937972ff111f0dd32
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知 $x=0$ 是函数 $f(x)=\dfrac{\int_0^x e^{t^2}\,\mathrm{d}t+ax}{x-b\sin x}$ 的第一类间断点，则 $(a,b)$ 取值不可以是\ExamSelection
+  choices:
+  - label: A
+    text: $(1,1)$
+    figures: []
+  - label: B
+    text: $(-1,1)$
+    figures: []
+  - label: C
+    text: $(1,-1)$
+    figures: []
+  - label: D
+    text: $(-1,-1)$
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设某商品的收益函数曲线为 $f_1(x)$，其边际收益函数曲线为 $f_2(x)$，且收益函数在 $[x,x+1]$ 上的平均值函数曲线为 $f_3(x)$，其中 $x$ 为销量，则以下 3 条曲线：对应关系正确的是\ExamSelection
+    figures:
+    - kind: tikz
+      latex: |-
+        \begin{tikzpicture}[>=stealth,scale=0.7]\draw[->] (0,0)--(3.5,0) node[right] {$x$};\draw[->] (0,-0.4)--(0,2) node[above] {$y$};\draw (0,0.45) .. controls (0.6,1.1) and (1.1,1.1) .. (1.8,0.75) .. controls (2.4,0.45) and (2.9,0.45) .. (3.2,0.5) node[right] {$y_1(x)$};\node[below left] at (0,0) {$O$};\end{tikzpicture}\quad \begin{tikzpicture}[>=stealth,scale=0.7]\draw[->] (0,0)--(3.5,0) node[right] {$x$};\draw[->] (0,-0.4)--(0,2) node[above] {$y$};\draw (0,0) .. controls (0.7,1.1) and (1.5,1.25) .. (2.2,1.05) .. controls (2.7,0.7) and (3,0.65) .. (3.2,0.6) node[right] {$y_2(x)$};\node[below left] at (0,0) {$O$};\end{tikzpicture}\quad \begin{tikzpicture}[>=stealth,scale=0.7]\draw[->] (0,0)--(3.5,0) node[right] {$x$};\draw[->] (0,-1.1)--(0,1.8) node[above] {$y$};\draw (0,1.1) .. controls (0.7,0.95) and (1.1,0.2) .. (1.7,-0.35) .. controls (2.2,-0.95) and (2.8,-0.85) .. (3.2,-0.85) node[right] {$y_3(x)$};\node[below left] at (0,0) {$O$};\end{tikzpicture}
+      path:
+      description: 三条函数曲线 y_1(x)、y_2(x)、y_3(x)
+      exception_reason:
+  choices:
+  - label: A
+    text: |-
+      $f_1(x)=y_2(x),\\ f_2(x)=y_1(x),\\ f_3(x)=y_3(x)$。
+    figures: []
+  - label: B
+    text: |-
+      $f_1(x)=y_2(x),\\ f_2(x)=y_3(x),\\ f_3(x)=y_1(x)$。
+    figures: []
+  - label: C
+    text: |-
+      $f_1(x)=y_3(x),\\ f_2(x)=y_2(x),\\ f_3(x)=y_1(x)$。
+    figures: []
+  - label: D
+    text: |-
+      $f_1(x)=y_3(x),\\ f_2(x)=y_1(x),\\ f_3(x)=y_2(x)$。
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x,y)=|x|+y|y|$，则\ExamSelection
+  choices:
+  - label: A
+    text: $f'_x(0,0)$ 存在，$f'_y(0,0)$ 存在。
+    figures: []
+  - label: B
+    text: $f'_x(0,0)$ 存在，$f'_y(0,0)$ 不存在。
+    figures: []
+  - label: C
+    text: $f'_x(0,0)$ 不存在，$f'_y(0,0)$ 存在。
+    figures: []
+  - label: D
+    text: $f'_x(0,0)$ 不存在，$f'_y(0,0)$ 不存在。
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      $\int_{-1}^{1}\mathrm{d}y\int_{-\dfrac{\pi}{2}}^{\arcsin y}|x|y^2\,\mathrm{d}x=$\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $-\dfrac{\pi^2}{12}$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{\pi^2}{12}$
+    figures: []
+  - label: C
+    text: |-
+      $-\dfrac{\pi^2}{6}$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{\pi^2}{6}$
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      多项式 $f(x)=\begin{vmatrix}x&-1&2x&-x\\2&x&2&1\\2&0&-x&-1\\-1&2&1&x\end{vmatrix}$ 的常数项为\ExamSelection
+  choices:
+  - label: A
+    text: $2$。
+    figures: []
+  - label: B
+    text: $4$。
+    figures: []
+  - label: C
+    text: $6$。
+    figures: []
+  - label: D
+    text: $8$。
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      $f(x_1,x_2,x_3)=-2x_1x_2-2x_1x_3+6x_2x_3$ 的正惯性指数为\ExamSelection
+  choices:
+  - label: A
+    text: $3$。
+    figures: []
+  - label: B
+    text: $2$。
+    figures: []
+  - label: C
+    text: $1$。
+    figures: []
+  - label: D
+    text: $0$。
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知 $A$ 为 $n$ 阶矩阵，$E$ 为 $n$ 阶单位矩阵，记矩阵 $\begin{pmatrix}O&A\\A^{T}&E\end{pmatrix}$，$\begin{pmatrix}O&A^{T}A\\A^{T}&E\end{pmatrix}$，$\begin{pmatrix}A^{T}&E\\A^{T}AA^{T}&A^{T}A\end{pmatrix}$ 的秩分别为 $r_1,r_2,r_3$，则\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $r_1=r_2\geq r_3$。
+    figures: []
+  - label: B
+    text: |-
+      $r_1=r_2\leq r_3$。
+    figures: []
+  - label: C
+    text: |-
+      $r_1=r_3\geq r_2$。
+    figures: []
+  - label: D
+    text: |-
+      $r_1=r_3\leq r_2$。
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $P[A\mid(A\cup BC)]=\dfrac{1}{2},\\ P(B)=P(C)=\dfrac{1}{2}$，其中 $A,B$ 互不相容，$B,C$ 相互独立，则 $P(A)=$\ExamSelection
+  choices:
+  - label: A
+    text: $1$。
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{3}{4}$。
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{1}{2}$。
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{1}{4}$。
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $X_1,X_2$ 相互独立，$X_1\sim\begin{pmatrix}1&0\\\dfrac{1}{2}&\dfrac{1}{2}\end{pmatrix}$，$X_2\sim N(0,1)$，$Y=2X_1X_2-X_2$，则 $Y$ 服从\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\Phi(y)$。
+    figures: []
+  - label: B
+    text: |-
+      $1-\Phi(y)$。
+    figures: []
+  - label: C
+    text: |-
+      $\Phi(2y)$。
+    figures: []
+  - label: D
+    text: |-
+      $1-\Phi(2y)$。
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设随机变量 $X\sim N(0,4)$，若 $X_1,X_2,\cdots,X_n\\ (n>2)$ 是来自总体 $X$ 的简单随机样本，则\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{1}{2n}\left(\sum_{i=1}^{n}X_i\right)^2\sim\chi^2(1)$。
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{1}{16}\sum_{i=1}^{n}X_i^2\sim\chi^2(n)$。
+    figures: []
+  - label: C
+    text: |-
+      $\sqrt{\dfrac{(n-1)X_n^2}{\sum_{i=1}^{n-1}X_i^2}}\sim t(n-1)$。
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{(n-1)X_1^2}{\sum_{i=2}^{n}X_i^2}\sim F(1,n-1)$。
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $\lim_{x\to0^+}\dfrac{\ln(e+x)-e^x}{\sqrt{1-\cos x}}=$ \ExamBlank。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      若反常积分 $\int_0^{+\infty}\dfrac{\ln x}{(1+x)x^{1-p}}\,\mathrm{d}x$ 收敛，则 $p$ 的取值范围为 \ExamBlank。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      已知函数 $f(x)=x\int_1^x\dfrac{e^{t^2}}{t}\,\mathrm{d}t$，则 $f(x)$ 在 $[0,1]$ 上的平均值为 \ExamBlank。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $z=\arctan[xy+\cos(x+y)]$，则 $\left.\mathrm{d}z\right|_{(0,\pi)}=$ \ExamBlank。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $B=\begin{pmatrix}0&1&0&0\\0&0&1&0\\0&0&0&1\\0&0&0&0\end{pmatrix}$，$A=E+B+B^2+B^3$，则 $A^{-1}=$ \ExamBlank。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      在区间 $[0,1]$ 上任取一点，将其分为两个区间，留下其中任一区间记其长度为 $X$，再从留下的区间上任取一点，将其分为两个区间，并取其中任一区间，记其长度为 $Y$，则 $E(Y)=$ \ExamBlank。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      $F(x)=\int_0^{\dfrac{\pi}{2}}|\sin x-\sin t|\,\mathrm{d}t\\ (x\geq0)$ 在 $x\to0^+$ 处的二次泰勒多项式为 $a+bx+cx^2$，求 $a,b,c$ 的值。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      已知 $f(x,y)$ 满足 $e^{-2x}\dfrac{\partial f}{\partial x}=4y+2y^2+2x+1$，且 $f(0,y)=2y+y^2$。求：
+  subparts:
+  - text: $f(x,y)$ 的表达式；
+  - text: $f(x,y)$ 的极值。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $0\leq x\leq1$ 时，$a_n(x)$ 满足 $x(1-x)a'_n(x)+[(n+2)x-n]a_n(x)=0,\\ n=1,2,\cdots,$ 且 $a_n\left(\dfrac{1}{2}\right)=\dfrac{1}{2^{n+2}}$。
+  subparts:
+  - text: 求 $a_n(x)$ 的表达式；
+  - text: |-
+      判别 $\displaystyle\sum_{n=1}^{\infty}a_n(x)\\ (0\leq x\leq1)$ 的敛散性。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 $f(x)$ 在 $(-\infty,+\infty)$ 上二阶导数连续，$f(1)\leq0,\\ \lim_{x\to-\infty}[f(x)-|x|]=0$，证明：
+  subparts:
+  - text: |-
+      存在 $\xi\in(1,+\infty)$，使得 $f'(\xi)>1$；
+  - text: |-
+      存在 $\eta\in(-\infty,+\infty)$，使得 $f''(\eta)=0$。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设二次型 $f(x_1,x_2,x_3)=x^T\begin{pmatrix}1&0&6\\4&4&4\\0&8&9\end{pmatrix}x$，其中 $x=\begin{pmatrix}x_1\\x_2\\x_3\end{pmatrix}$。
+  subparts:
+  - text: 用正交变换 $x=Qy$ 将其化为标准形，并求出 $Q$；
+  - text: |-
+      求 $g(x_1,x_2,x_3)=\dfrac{f(x_1,x_2,x_3)}{x_1^2+x_2^2+x_3^2}$ 的最大值，并求出一个最大值点，其中 $x_1^2+x_2^2+x_3^2\neq0$。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $X_1,X_2$ 为来自总体 $X\sim U[0,2\theta]$ 的简单随机样本，$Y_1,Y_2,Y_3$ 为来自总体 $Y\sim U[0,4\theta]$ 的简单随机样本，且两样本相互独立，其中 $\theta(\theta>0)$ 是未知参数。利用样本 $X_1,X_2,Y_1,Y_2,Y_3$，求 $\theta$ 的最大似然估计量 $\hat{\theta}$，并求 $D(\hat{\theta})$。

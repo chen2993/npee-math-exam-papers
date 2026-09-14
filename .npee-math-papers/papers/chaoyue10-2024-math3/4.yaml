@@ -1,0 +1,300 @@
+schema_version: '3.0'
+paper:
+  series_key: chaoyue10
+  year: 2024
+  subject: math3
+  paper_no: 4
+content_hash: c8c464d4668c18d92a6d317a879b9b47bc8bb7f60215f948871fba06dd9711ef
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $y=y(x)$ 在点 $x=0$ 附近由方程 $2x-\int_0^y e^{-t^2}\,\mathrm{d}t=xy$ 所确定，且 $y(x)=\lambda_1x+\lambda_2x^2+o(x^2)$（$x\to0$），则 $(\lambda_1,\lambda_2)=$\ExamSelection。
+  choices:
+  - label: A
+    text: $(2,2)$
+    figures: []
+  - label: B
+    text: $(2,-2)$
+    figures: []
+  - label: C
+    text: $(2,4)$
+    figures: []
+  - label: D
+    text: $(2,-4)$
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x,y)=\begin{cases}\dfrac{xy}{(x^2+y^2)^p},&x^2+y^2\ne0,\\0,&x^2+y^2=0,\end{cases}\quad g(x,y)=\begin{cases}\dfrac{1}{(xy)^q}\sin xy,&xy\ne0,\\0,&xy=0,\end{cases}$，$f(x,y)$ 和 $g(x,y)$ 在 $(0,0)$ 点连续的一个充分条件为\ExamSelection。
+  choices:
+  - label: A
+    text: $p<1,q<1$
+    figures: []
+  - label: B
+    text: $p<1,q>1$
+    figures: []
+  - label: C
+    text: $p>1,q<1$
+    figures: []
+  - label: D
+    text: $p>1,q>1$
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $0<x<1$，则下列结论中正确的是\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{\arcsin x^2}{x^2}\le\dfrac{\arcsin x}{x}<\left(\dfrac{\arcsin x}{x}\right)^2$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{\arcsin x}{x}<\left(\dfrac{\arcsin x}{x}\right)^2<\dfrac{\arcsin x^2}{x^2}$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{\arcsin x}{x}<\dfrac{\arcsin x^2}{x^2}<\left(\dfrac{\arcsin x}{x}\right)^2$
+    figures: []
+  - label: D
+    text: |-
+      $\left(\dfrac{\arcsin x}{x}\right)^2<\dfrac{\arcsin x}{x}<\dfrac{\arcsin x^2}{x^2}$
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设区域 $D_1:x^2+y^2\le1$，$D_2:x^2+2y^2\le2$，$D_3:2x^2+y^2\le2$，$D_4:|x|+|y|\le2$，记 $I_i=\iint_{D_i}(2-x^2-2y^2)\,\mathrm{d}\sigma,i=1,2,3,4$，则 $\max_{1\le i\le4}\{I_i\}=$\ExamSelection。
+  choices:
+  - label: A
+    text: $I_1$
+    figures: []
+  - label: B
+    text: $I_2$
+    figures: []
+  - label: C
+    text: $I_3$
+    figures: []
+  - label: D
+    text: $I_4$
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 是 $4\times3$ 的矩阵，$B=\begin{pmatrix}t&0&2\\0&2&0\\1&0&3\end{pmatrix}$，且秩 $r(A)=2,r(AB-A)=1$，则必有\ExamSelection。
+  choices:
+  - label: A
+    text: $B$ 可逆，$B-E$ 可逆
+    figures: []
+  - label: B
+    text: $B$ 可逆，$B-E$ 不可逆
+    figures: []
+  - label: C
+    text: $B$ 不可逆，$B-E$ 可逆
+    figures: []
+  - label: D
+    text: $B$ 不可逆，$B-E$ 不可逆
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 为 $4$ 阶矩阵，$|A|=0$，$B$ 为 $4\times3$ 的列满秩矩阵，$2AB+B=O$，则 $|4A+E|=$\ExamSelection。
+  choices:
+  - label: A
+    text: $-1$
+    figures: []
+  - label: B
+    text: $0$
+    figures: []
+  - label: C
+    text: $1$
+    figures: []
+  - label: D
+    text: $2$
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 为 $3\times4$ 实矩阵，$\lambda$ 是 $AA^{\mathrm T}$ 仅有的非零单特征值，对应的特征向量为 $\alpha=(1,-1,1)^{\mathrm T}$，$k_1,k_2$ 为任意常数，则方程组 $A^{\mathrm T}x=0$ 的通解可为\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $k_1(1,1,0)^{\mathrm{T}}+k_2(1,-1,0)^{\mathrm{T}}$
+    figures: []
+  - label: B
+    text: |-
+      $k_1(-1,1,0)^{\mathrm{T}}+k_2(0,1,1)^{\mathrm{T}}$
+    figures: []
+  - label: C
+    text: |-
+      $k_1(1,1,0)^{\mathrm{T}}+k_2(0,1,1)^{\mathrm{T}}$
+    figures: []
+  - label: D
+    text: |-
+      $k_1(1,1,0)^{\mathrm{T}}+k_2(1,0,1)^{\mathrm{T}}$
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设随机变量 $X\sim E(1),Y=\operatorname{sgn}(X-1)$，则 $P\{X<2\mid Y=1\}=$\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{e^2-1}{e^2}$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{1+e}{e^2+1}$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{e-1}{e^2+1}$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{e-1}{e}$
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设总体 $X\sim N(0,\pi)$，$X_1,X_2,\ldots,X_n$ 为来自总体 $X$ 的样本，以 $|X_i|$ 为半径作圆，所得各圆的面积和记为 $S$，则由中心极限定理知 $S$ 近似服从\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\chi^2(100)$
+    figures: []
+  - label: B
+    text: $t(100)$
+    figures: []
+  - label: C
+    text: |-
+      $N(100\pi^2,200\pi^4)$
+    figures: []
+  - label: D
+    text: |-
+      $N(100\pi,200\pi^2)$
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $(X,Y)\sim N(\mu_1,\mu_2,\sigma_1^2,\sigma_2^2,\rho)$（$|\rho|<1$），$U=X+Y,V=X-Y$，则 $U$ 与 $V$ 独立的充分必要条件是\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\mu_1^2\ne\mu_2^2$
+    figures: []
+  - label: B
+    text: |-
+      $\mu_1^2=\mu_2^2$
+    figures: []
+  - label: C
+    text: |-
+      $\sigma_1^2\ne\sigma_2^2$
+    figures: []
+  - label: D
+    text: |-
+      $\sigma_1^2=\sigma_2^2$
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $\lim_{x\to0}\dfrac{\sqrt{\cos x}-\sqrt[3]{\cos x}}{\ln(1+x^2)}=$\ExamBlank。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $a>0$，积分 $I=\int_{-\infty}^{+\infty}\dfrac{e^x}{(1+e^{2x})(1+e^{ax})}\,\mathrm{d}x=$\ExamBlank。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      二次积分 $\int_0^{\dfrac{\pi}{2}}\mathrm{d}\theta\int_0^1e^{r\sin\theta}r^2\cos\theta\,\mathrm{d}r=$\ExamBlank。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x)$ 在 $[0,1]$ 上具有一阶连续导数，$f(1)=0$，若 $f(x)$ 满足 $\int_0^1[f'(x)]^2\,\mathrm{d}x-6\int_0^1f(x)\,\mathrm{d}x+3=0$，则 $f(x)=$\ExamBlank。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      已知 $A$ 为 3 阶可逆矩阵，且 $A^2+2A=O$，3 阶矩阵 $B$ 满足 $2A^{-1}B=A^*+B$，则 $|B|=$\ExamBlank。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $X_1,X_2,\ldots,X_n$ 为来自总体 $X\sim N(2,\sigma^2)$ 的简单随机样本，设 $\sigma=c\sum_{i=1}^n|2X_i-4|$，若 $E\sigma=\sigma$，则 $c=$\ExamBlank。
+- number: 17
+  section: solution
+  points:
+  stem:
+    text: |-
+      已知函数 $f(x)$ 在点 $x=0$ 处二阶可导，且 $\lim_{x\to0}\dfrac{f(x)-1-2x^2}{x^2}=0$，求 $\lim_{x\to0}\dfrac{f(x)-f(\sin x)}{x^4}$。
+- number: 18
+  section: solution
+  points:
+  stem:
+    text: |-
+      设 $P(x)=x^2+ax+b$，问 $\int_{-1}^1P^2(x)\,\mathrm{d}x$ 是否有最大、最小值，若有，则求出最值，若没有，请说出理由。
+- number: 19
+  section: solution
+  points:
+  stem:
+    text: 已知曲线 $y=f(x)$（$x>0$）是微分方程 $2y''+y'-y=(4-6x)e^{-x}$ 的一条积分曲线，此曲线通过原点，且在原点的切线斜率为 0，试求：
+  subparts:
+  - text: 曲线 $y=f(x)$ 到 $x$ 轴的最大距离；
+  - text: |-
+      计算 $\int_0^{+\infty}f(x)\,\mathrm{d}x$。
+- number: 20
+  section: solution
+  points:
+  stem:
+    text: |-
+      （Ⅰ）设 $f(x)$ 在区间 $[0,1]$ 上具有连续导数，且 $f(0)=0$，证明级数 $\sum_{n=1}^{\infty}\int_0^{\frac1n}f(x)\,\mathrm{d}x$ 绝对收敛；（Ⅱ）判别级数 $\sum_{n=1}^{\infty}\left[\dfrac1n-\ln\left(\sin\dfrac1n+\cos\dfrac1n\right)\right]$ 的收敛性，若收敛，则进一步判断条件收敛还是绝对收敛。
+- number: 21
+  section: solution
+  points:
+  stem:
+    text: |-
+      设 $A,B$ 均为 3 阶方阵，其中 $A$ 为实对称矩阵，$A=(a_{ij})_{3\times3},a_{11}=2$，$B=\begin{pmatrix}1&0&-1\\-1&0&1\\0&2&0\end{pmatrix}$，且满足 $(A-E)B=O$。
+  subparts:
+  - text: 求矩阵 $A$；
+  - text: |-
+      求可逆矩阵 $P$，使 $P^{-1}AP=\Lambda$。
+- number: 22
+  section: solution
+  points:
+  stem:
+    text: |-
+      设随机变量 $X$ 与 $Y$ 相互独立，$X$ 在 $[0,2]$ 上服从均匀分布，$Y\sim E(1)$，令随机变量 $Z=\begin{cases}Y,&X\le1,\\X,&X>1.\end{cases}$，求：
+  subparts:
+  - text: $Z$ 的概率密度；
+  - text: |-
+      $\operatorname{Cov}(X,Z)$。

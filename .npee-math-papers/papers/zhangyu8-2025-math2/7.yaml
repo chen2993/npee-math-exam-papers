@@ -1,0 +1,322 @@
+schema_version: '3.0'
+paper:
+  series_key: zhangyu8
+  year: 2025
+  subject: math2
+  paper_no: 7
+content_hash: 6fef3cc129341a740fa57906ad3746e45e8ad1a109017e322b5d572f0a101f8b
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x)$ 在 $x=0$ 的某邻域内有定义，且 $\lim_{x\to1}\dfrac{x-f(x-1)-1}{\ln x}=1$，则以下结论：① $f(0)=0$；② $\lim_{x\to0}f(x)=0$；③ $\lim_{x\to0}\dfrac{f(x)}{x}=1$；④当 $x\to0$ 时，$f(x)$ 是 $x$ 的高阶无穷小。所有正确结论的序号为\ExamSelection
+  choices:
+  - label: A
+    text: ①②
+    figures: []
+  - label: B
+    text: ②④
+    figures: []
+  - label: C
+    text: ③④
+    figures: []
+  - label: D
+    text: ②③
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f''(x)\geqslant0(0\leqslant x\leqslant1)$，则\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\int_0^1f(x)\,\mathrm{d}x\geqslant f\left(\dfrac{2}{3}\right)$
+    figures: []
+  - label: B
+    text: |-
+      $\int_0^1f(x)\,\mathrm{d}x\leqslant f\left(\dfrac{2}{3}\right)$
+    figures: []
+  - label: C
+    text: |-
+      $\int_0^1f(x^2)\,\mathrm{d}x\geqslant f\left(\dfrac{1}{3}\right)$
+    figures: []
+  - label: D
+    text: |-
+      $\int_0^1f(x^2)\,\mathrm{d}x\leqslant f\left(\dfrac{1}{3}\right)$
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      某 $4$ 阶常系数线性齐次微分方程的特解为 $2x,xe^{\sqrt{2}x}$，则该方程为\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $y^{(4)}-2\sqrt{2}y'''+2y''=0$
+    figures: []
+  - label: B
+    text: |-
+      $y^{(4)}+2\sqrt{2}y'''-2y''=0$
+    figures: []
+  - label: C
+    text: |-
+      $y^{(4)}-\sqrt{2}y'''+2y''=0$
+    figures: []
+  - label: D
+    text: |-
+      $y^{(4)}+\sqrt{2}y'''-2y''=0$
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      曲线 $r(3\theta-\pi)=1$ 的斜渐近线为\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $y=\sqrt{2}x-\dfrac{3}{2}$
+    figures: []
+  - label: B
+    text: |-
+      $y=\sqrt{2}x+\dfrac{3}{2}$
+    figures: []
+  - label: C
+    text: |-
+      $y=\sqrt{3}x-\dfrac{2}{3}$
+    figures: []
+  - label: D
+    text: |-
+      $y=\sqrt{3}x+\dfrac{2}{3}$
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $y=\ln(1+x)^2+2^{1+x}$，则 $y^{(5)}(0)=$\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $48+2\ln^5 2$
+    figures: []
+  - label: B
+    text: |-
+      $-48+2\ln^5 2$
+    figures: []
+  - label: C
+    text: |-
+      $24+\ln^5 2$
+    figures: []
+  - label: D
+    text: |-
+      $-24+\ln^5 2$
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知 $f(x,y)=\begin{cases}x^2,&y=0,\\xy,&\text{其他},\end{cases}$ 以下结论：① $f(x,y)$ 在原点处连续；② $\left.\dfrac{\partial[f(x,y)]}{\partial x}\right|_{(0,0)}=0$ 且 $\left.\dfrac{\partial[f(x,y)]}{\partial y}\right|_{(0,0)}=0$；③ $\left.\mathrm{d}[f(x,y)]\right|_{(0,0)}=0$。所有正确结论的序号是\ExamSelection
+  choices:
+  - label: A
+    text: ①②
+    figures: []
+  - label: B
+    text: ②③
+    figures: []
+  - label: C
+    text: ①③
+    figures: []
+  - label: D
+    text: ①②③
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设平面区域 $D=\{(x,y)\mid x^2+2y^2\leqslant2\}$，记 $I_1=\iint_D\left(\dfrac{x^2}{2}+y^2\right)\,\mathrm{d}\sigma$，$I_2=\iint_D\left(x^2+\dfrac{y^2}{2}\right)\,\mathrm{d}\sigma$，$I_3=\iint_D\left(1-\sqrt{\dfrac{x^2}{2}+y^2}\right)\,\mathrm{d}\sigma$，则\ExamSelection
+  choices:
+  - label: A
+    text: $I_1>I_2>I_3$
+    figures: []
+  - label: B
+    text: $I_2>I_1>I_3$
+    figures: []
+  - label: C
+    text: $I_1>I_3>I_2$
+    figures: []
+  - label: D
+    text: $I_3>I_2>I_1$
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      $n$ 阶矩阵 $\mathbf{A}$ 经有限次初等行变换得到矩阵 $\mathbf{B}$，则\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\mathbf{A},\mathbf{B}$ 有相同的特征值
+    figures: []
+  - label: B
+    text: |-
+      $\mathbf{A}x=b,\mathbf{B}x=b$ 是同解方程组
+    figures: []
+  - label: C
+    text: |-
+      $r(\mathbf{A})=r(\mathbf{B})=r(\mathbf{A}:\mathbf{B})$
+    figures: []
+  - label: D
+    text: |-
+      $r(\mathbf{A})=r(\mathbf{B})=r(\mathbf{A}^{\mathrm{T}}:\mathbf{B}^{\mathrm{T}})$
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      下列矩阵中，不能相似对角化的是\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\mathbf{A}=\begin{pmatrix}1&a&0\\0&2&0\\-2&-2&-1\end{pmatrix}$
+    figures: []
+  - label: B
+    text: |-
+      $\mathbf{B}=\begin{pmatrix}1&a&0\\a&2&-2\\0&-2&-1\end{pmatrix}$
+    figures: []
+  - label: C
+    text: |-
+      $\mathbf{C}=\begin{pmatrix}0&1&0\\-1&2&a\\0&0&1\end{pmatrix}$
+    figures: []
+  - label: D
+    text: |-
+      $\mathbf{D}=\begin{pmatrix}1&1&a\\0&2&0\\0&0&2\end{pmatrix}$
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设可逆矩阵 $\mathbf{A}=\begin{pmatrix}2&1&1\\1&2&1\\1&1&a\end{pmatrix}$，$\boldsymbol{\alpha}=\begin{pmatrix}1\\b\\1\end{pmatrix}$，若 $\mathbf{A}^*\boldsymbol{\alpha}=\lambda\boldsymbol{\alpha}$，则\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $a=2$ 时，$\lambda=1$
+    figures: []
+  - label: B
+    text: |-
+      $a=2$ 时，$\lambda=4$
+    figures: []
+  - label: C
+    text: |-
+      $b=1$ 时，$\lambda=1$
+    figures: []
+  - label: D
+    text: |-
+      $b=1$ 时，$\lambda=4$
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $\lim_{x\to0^+}\int_x^{2x}\dfrac{\sin(t+\sin t)}{t^2}\,\mathrm{d}t=\ExamBlank$。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)$ 是以 $2$ 为周期的连续奇函数且 $\int_0^4(x+2)f(x)\,\mathrm{d}x=2$，则 $\int_0^2(2x+1)f(x)\,\mathrm{d}x=\ExamBlank$。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $f(x)=\left|x(x^2-4)-4\right|e^{-x}$ 在 $[-1,3]$ 上的最大值为 $\ExamBlank$。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      已知二元函数 $u=u(x,y),v=v(x,y)$ 由方程组 $\begin{cases}x+y+u+v=0,\\x^2+y^2+u^4+v^4=1\end{cases}$ 确定，且 $u(0,0)>0$，$v(0,0)<0$，则 $\left.\dfrac{\partial u}{\partial x}\right|_{x=0,y=0}=\ExamBlank$。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      边长为 $a$ 的正方形平板置于水面下，且一个顶点与水面相齐，其中一条对角线与水面垂直，如图所示。记水的密度为 $\rho$，重力加速度为 $g$，则其一侧所受的静水压力为 $\ExamBlank$。
+    figures:
+    - kind: tikz
+      latex: |-
+        \begin{tikzpicture}[scale=0.85,line cap=round,line join=round]\draw (-1.9,0)--(1.55,0);\draw (0,0)--(1,-1)--(0,-2)--(-1,-1)--cycle;\draw (0,0)--(0,-2);\draw (-1,-1)--(1,-1);\node[above left] at (-0.42,-0.42){$a$};\node[above right] at (0.42,-0.42){$a$};\node[below left] at (-0.42,-1.42){$a$};\node[below right] at (0.42,-1.42){$a$};\draw (-1.55,0.38)--(-1.15,0.38)--(-1.35,0)--cycle;\draw (-1.48,-0.12)--(-1.22,-0.12);\draw (-1.45,-0.22)--(-1.25,-0.22);\end{tikzpicture}
+      path:
+      description: 一个顶点与水平水面相齐、竖直对角线垂直于水面的正方形平板示意图
+      exception_reason:
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      已知 $\boldsymbol{\alpha}_1=(1,1,a)^{\mathrm{T}}$，$\boldsymbol{\alpha}_2=(1,a,1)^{\mathrm{T}}$，$\boldsymbol{\alpha}_3=(a,1,1)^{\mathrm{T}}$ 能由 $\boldsymbol{\beta}_1=(1,1,a)^{\mathrm{T}}$，$\boldsymbol{\beta}_2=(-2,a,4)^{\mathrm{T}}$，$\boldsymbol{\beta}_3=(-2,a,a)^{\mathrm{T}}$ 线性表示，但 $\boldsymbol{\beta}_1,\boldsymbol{\beta}_2,\boldsymbol{\beta}_3$ 不能由 $\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3$ 线性表示，则 $a=\ExamBlank$。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      计算 $\lim_{n\to\infty}\sum_{i=1}^n\sum_{j=1}^{n^2}\dfrac{1}{n^2\sqrt{n^2+ni+j}}$。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $f(x)$ 满足 $|f(x)-f(y)|<|x-y|$，对任意不同的 $x,y$ 均成立，且 $f(x_1)>x_1$，$f(x_1+1)<x_1+1$，$2x_{n+1}=x_n+f(x_n),n=1,2,\cdots$。
+  subparts:
+  - text: |-
+      证明 $f(x)=x$ 在 $(x_1,x_1+1)$ 内有唯一实根 $\xi$；
+  - text: |-
+      证明 $\{x_n\}$ 收敛于 $\xi$。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: 设平面曲线 $y=y(x)$ 满足 $y(0)=1$，$y'(0)=0$，且对曲线上任意点 $P(x,y)(x>0)$，沿曲线从点 $(0,1)$ 到点 $P(x,y)$ 的弧长等于该曲线在点 $P(x,y)$ 的切线斜率。
+  subparts:
+  - text: 求 $y(x)(x>0)$。
+  - text: |-
+      求 $y(x)$ 与 $x=\ln2$ 及坐标轴所围平面区域 $D$ 的形心。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      求二元函数 $f(x,y)=y(x^2+y^2+\sqrt{2}x-2)$ 在闭区域 $D=\{(x,y)\mid x^2+y^2\leqslant3\}$ 上的最大值与最小值。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $f(x)$ 在 $[0,x]$ 上具有三阶连续导数，$f'''(0)\neq0$。
+  subparts:
+  - text: |-
+      证明：存在 $\xi\in(0,x)$，使 $\int_0^x f(t)\,\mathrm{d}t=\dfrac{x[f(0)+f(x)]}{2}-\dfrac{x^3}{12}f''(\xi)$；
+  - text: |-
+      由（1），计算 $\lim_{x\to0^+}\dfrac{\xi}{x}$。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $\mathbf{A}=\begin{pmatrix}-4&2&10\\-4&3&a\\-3&1&7\end{pmatrix}$，若 $\mathbf{A}$ 的所有特征向量中只有一个线性无关的特征向量，$\mathbf{B}=\begin{pmatrix}2&1&0\\0&2&1\\0&0&2\end{pmatrix}$。
+  subparts:
+  - text: 求 $a$ 的值；
+  - text: |-
+      是否存在可逆矩阵 $\mathbf{P}$，使 $\mathbf{P}^{-1}\mathbf{A}\mathbf{P}=\mathbf{B}$？若存在，求出矩阵 $\mathbf{P}$；若不存在，说明理由。

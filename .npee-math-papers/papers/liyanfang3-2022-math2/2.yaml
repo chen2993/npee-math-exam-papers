@@ -1,0 +1,295 @@
+schema_version: '3.0'
+paper:
+  series_key: liyanfang3
+  year: 2022
+  subject: math2
+  paper_no: 2
+content_hash: 783265f24f0674f07cc8501b7494fd5b43be14b9584cdf11a80d284abdbe08b0
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      函数 $f(x)=\dfrac{\left(a-\arctan\dfrac{1}{x}\right)(e^x-b)}{x^2(x-b)}$（$b\ne0$）的可去间断点的个数最多为\ExamSelection
+  choices:
+  - label: A
+    text: $0$.
+    figures: []
+  - label: B
+    text: $1$.
+    figures: []
+  - label: C
+    text: $2$.
+    figures: []
+  - label: D
+    text: $3$.
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设数列 $\{a_n\}$ 满足 $a_n=\sqrt[n]{n}$，$n=1,2,\cdots$，则下列命题中，正确的是\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      数列 $\{a_n\}$ 能取到最小值，但取不到最大值.
+    figures: []
+  - label: B
+    text: |-
+      数列 $\{a_n\}$ 能取到最大值，但取不到最小值.
+    figures: []
+  - label: C
+    text: |-
+      数列 $\{a_n\}$ 既能取到最大值，又能取到最小值.
+    figures: []
+  - label: D
+    text: |-
+      数列 $\{a_n\}$ 既不能取到最大值，又不能取到最小值.
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $0<a<1$，$I_1=\int_0^{\dfrac{\pi}{2}}\dfrac{\sin ax}{\sin x}\,\mathrm{d}x$，$I_2=\int_0^{\dfrac{\pi}{2}}\dfrac{x}{\sin ax}\,\mathrm{d}x$，$I_3=\int_0^{\dfrac{\pi}{2}}\dfrac{a^2\sin x}{\sin ax}\,\mathrm{d}x$，则\ExamSelection
+  choices:
+  - label: A
+    text: $I_2>I_1>I_3$.
+    figures: []
+  - label: B
+    text: $I_2>I_3>I_1$.
+    figures: []
+  - label: C
+    text: $I_3>I_1>I_2$.
+    figures: []
+  - label: D
+    text: $I_1>I_2>I_3$.
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设定义在 $(-\infty,+\infty)$ 上的连续函数 $f(x)$ 的图形关于 $x=0$ 与 $x=1$ 均对称，则下列命题中，正确命题为\ExamSelection①若 $\int_0^1f(x)\,\mathrm{d}x=0$，则 $\int_0^x f(t)\,\mathrm{d}t$ 为周期函数。②若 $\int_0^2f(x)\,\mathrm{d}x=0$，则 $\int_0^x f(t)\,\mathrm{d}t$ 为周期函数。③$\int_0^x f(t)\,\mathrm{d}t-x\int_0^2f(t)\,\mathrm{d}t$ 为周期函数。④$\int_0^x f(t)\,\mathrm{d}t-\dfrac{x}{2}\int_0^2f(t)\,\mathrm{d}t$ 为周期函数。
+  choices:
+  - label: A
+    text: ②③.
+    figures: []
+  - label: B
+    text: ②④.
+    figures: []
+  - label: C
+    text: ①②③.
+    figures: []
+  - label: D
+    text: ①②④.
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $(-\infty,+\infty)$ 上的非负连续函数 $f(x)$ 满足 $f(x)f(1-x)=1$，则 $\int_0^1\dfrac{\left|x-\dfrac{1}{2}\right|}{1+f(x)}\,\mathrm{d}x=\ExamSelection$
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{1}{16}$.
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{1}{8}$.
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{1}{4}$.
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{1}{2}$.
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      某敞口长方体型鱼缸的底部由大理石制作，侧面由玻璃制作。已知大理石单位面积的成本为玻璃单位面积的成本的 6 倍。若长方体的体积为定值 $1\,\mathrm{m}^3$，则\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      当鱼缸的底边长均为 $\sqrt[3]{\dfrac{1}{3}}\,\mathrm{m}$，高为 $3^{\dfrac{2}{3}}\,\mathrm{m}$ 时，鱼缸的耗材成本最低.
+    figures: []
+  - label: B
+    text: |-
+      当鱼缸的底边长均为 $\sqrt[3]{\dfrac{1}{6}}\,\mathrm{m}$，高为 $6^{\dfrac{2}{3}}\,\mathrm{m}$ 时，鱼缸的耗材成本最低.
+    figures: []
+  - label: C
+    text: |-
+      当鱼缸的底边长均为 $\sqrt[3]{\dfrac{1}{3}}\,\mathrm{m}$，高为 $3^{\dfrac{2}{3}}\,\mathrm{m}$ 时，鱼缸的耗材成本最高.
+    figures: []
+  - label: D
+    text: |-
+      当鱼缸的底边长均为 $\sqrt[3]{\dfrac{1}{6}}\,\mathrm{m}$，高为 $6^{\dfrac{2}{3}}\,\mathrm{m}$ 时，鱼缸的耗材成本最高.
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $D_1=\{(x,y)\mid 0\leq y\leq x\leq\dfrac{\pi}{2}\}$，$D_2=\{(x,y)\mid 0\leq x\leq y\leq\dfrac{\pi}{2}\}$，$D_3=\{(x,y)\mid\dfrac{\pi}{2}\leq x\leq y\leq\pi\}$。记 $I_1=\iint_{D_1}e^{x^2}\cos y\,\mathrm{d}x\,\mathrm{d}y$，$I_2=\iint_{D_2}e^{x^2}\cos y\,\mathrm{d}x\,\mathrm{d}y$，$I_3=-\iint_{D_3}e^{x^2}\cos y\,\mathrm{d}x\,\mathrm{d}y$，则\ExamSelection
+  choices:
+  - label: A
+    text: $I_3>I_1>I_2$.
+    figures: []
+  - label: B
+    text: $I_3>I_2>I_1$.
+    figures: []
+  - label: C
+    text: $I_1>I_3>I_2$.
+    figures: []
+  - label: D
+    text: $I_2>I_1>I_3$.
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 为 $m\times n$ 矩阵，$B$ 为 $n\times m$ 矩阵，且 $m\ne n$。若 $A^{\mathrm{T}}A=E_n$，则\ExamSelection
+  choices:
+  - label: A
+    text: $Ax=0$ 必有非零解.
+    figures: []
+  - label: B
+    text: $Ax=b$ 必有解.
+    figures: []
+  - label: C
+    text: $r(AB)=r(B)$.
+    figures: []
+  - label: D
+    text: $r(BA)=r(B)$.
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 为 3 阶矩阵，$\alpha$ 为 3 维列向量，$A^2\alpha\ne0$，$A^3\alpha=0$，则下列命题中，错误的是\ExamSelection
+  choices:
+  - label: A
+    text: $A$ 只有 0 特征值.
+    figures: []
+  - label: B
+    text: $r(A)=2$.
+    figures: []
+  - label: C
+    text: $A$ 相似于对角矩阵.
+    figures: []
+  - label: D
+    text: $A$ 不是对称矩阵.
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 为 $n$ 阶实矩阵，$B=\begin{pmatrix}E&A\\A^{\mathrm{T}}&O\end{pmatrix}$，则下列命题中，正确命题的个数为\ExamSelection①$A^{\mathrm{T}}A=O$ 当且仅当 $A=O$。②$B$ 可逆当且仅当 $A$ 可逆。③$B$ 的正惯性指标 $\geq n$。④存在无穷多个非零向量 $\alpha$，使得 $\alpha^{\mathrm{T}}B\alpha=0$。
+  choices:
+  - label: A
+    text: $1$.
+    figures: []
+  - label: B
+    text: $2$.
+    figures: []
+  - label: C
+    text: $3$.
+    figures: []
+  - label: D
+    text: $4$.
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $\lim_{n\to\infty}\int_0^1\arctan n\sqrt{x}\,\mathrm{d}x=\ExamBlank$。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      当 $n>1$ 时，$\left.\left(\dfrac{12x^2-13x+3}{6x^2-7x+2}\right)^{(n)}\right|_{x=1}=\ExamBlank$。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      若可微函数 $z=f(x,y)$ 在极坐标变换下满足 $\dfrac{\partial z}{\partial r}=r$，则 $f_x'(1,0)+f_y'(0,1)=\ExamBlank$。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设函数 $y=y(x)$ 由参数方程 $\left\{\begin{array}{l}x=\int_0^u e^{t^2}\,\mathrm{d}t,\\y=\int_0^1\left|e^u-e^t\right|e^{\left|u^2-1\right|}\,\mathrm{d}t\end{array}\right.$ 所确定。若 $\int_0^{\dfrac{1}{2}}e^{x^2-\dfrac{1}{4}}\,\mathrm{d}x=a$，则 $\left.\dfrac{\mathrm{d}y}{\mathrm{d}x}\right|_{x=0}=\ExamBlank$。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $\int_0^{\dfrac{\sqrt{3}}{2}}\mathrm{d}y\int_{\dfrac{y}{\sqrt{3}}}^{\sqrt{1-y^2}}\dfrac{(x+y)^3-x^3}{\sqrt{x^2+y^2}}\,\mathrm{d}x+\int_{-\dfrac{\sqrt{3}}{2}}^0\mathrm{d}y\int_{-\dfrac{y}{\sqrt{3}}}^{\sqrt{1-y^2}}\dfrac{(x+y)^3-x^3}{\sqrt{x^2+y^2}}\,\mathrm{d}x=\ExamBlank$。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 为 $n$ 阶矩阵，$\alpha$ 为 $n$ 维列向量。已知 $|A|\ne0$，$b\ne0$ 且 $A^{\mathrm{T}}=-A$，$\left|\begin{matrix}A&\alpha\\ \alpha^{\mathrm{T}}&b\end{matrix}\right|=c$，则 $|A|=\ExamBlank$。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      设 $D=\{(x,y)\mid x^{\dfrac{2}{3}}+y^{\dfrac{2}{3}}\leq a^{\dfrac{2}{3}}\}$（$a>0$），二元函数 $f(x,y)$ 在 $D$ 上连续，且当 $(x,y)\ne(0,0)$ 时，$f(x,y)=\dfrac{e^{-\sqrt{x^2+y^2}}-1-\ln\left(1-\sqrt{x^2+y^2}\right)}{x^2+y^2}$。求 $\lim_{a\to0^+}\dfrac{\iint_D f(x,y)\,\mathrm{d}x\,\mathrm{d}y}{a^2}$。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      若 $u_1(x)\cos x+u_2(x)\sin x$ 为二阶常系数非齐次线性微分方程 $y''+y=g(x)$（$g(x)>0$）的一个解，且满足 $u_1'(x)\cos x+u_2'(x)\sin x=0$，$[u_1'(x)]^2+[u_2'(x)]^2=1$。
+  subparts:
+  - text: 若 $u_1(0)=1,u_2(0)=0$，求 $u_1(x),u_2(x)$。
+  - text: 若该方程的另一特解 $y(x)$ 满足 $y(0)=0,y'(0)=1$，求 $y(x)$。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $a_n=1+\dfrac{1}{\sqrt{2}}+\cdots+\dfrac{1}{\sqrt{n}}-2\sqrt{n}$，证明数列 $\{a_n\}$ 收敛。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $f(x,y)$ 为定义在全平面上的正值可微函数，满足 $f(0,0)=1$，$\dfrac{\partial f}{\partial y}=\dfrac{1}{e^y+e^{-y}}$。若对任意 $x$，都有 $\lim_{t\to0}\left[\dfrac{f(x+t,0)}{f(x,0)}\right]^{\dfrac{1}{t}}=e^{\dfrac{x-1}{x^2-2x+4}}$，求 $f(x,y)$。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      \relax
+  subparts:
+  - text: |-
+      证明：对于任意实数 $x$，均有 $e^{-x^2}\leq\dfrac{1}{1+x^2}$。
+  - text: |-
+      证明：$\int_0^{+\infty}e^{-x^2}\,\mathrm{d}x$ 收敛，且对任意正整数 $n$（$n\geq2$），均有 $\int_0^{+\infty}e^{-x^2}\,\mathrm{d}x\leq\dfrac{\pi\sqrt{n}}{2}\cdot\dfrac{(2n-3)!!}{(2n-2)!!}$。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: 设 3 阶矩阵 $A=(a_{ij})$ 满足 $A$ 的各列元素之和均为 1。
+  subparts:
+  - text: |-
+      若 $\xi$ 为各分量之和为 1 的 3 维列向量，求 $A\xi$ 的各分量之和。
+  - text: 若 $k$ 为任意正整数，证明：$A^k$ 的各列元素之和均为 1，且 1 为 $A^k$ 的一个特征值。
+  - text: |-
+      记 $\alpha=(1,1,1)^{\mathrm{T}}$，若 $\beta$ 为 $A^k$ 的属于特征值 $\lambda$（$\lambda\ne1$）的特征向量，求 $\alpha^{\mathrm{T}}\beta$。

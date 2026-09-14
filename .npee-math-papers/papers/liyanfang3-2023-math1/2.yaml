@@ -1,0 +1,307 @@
+schema_version: '3.0'
+paper:
+  series_key: liyanfang3
+  year: 2023
+  subject: math1
+  paper_no: 2
+content_hash: e835cf3de0c7e12119b0da09f6189e42e0c3866b32afd71179140089a17ae34c
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x)$ 在 $[0,+\infty)$ 上二阶可导，且 $f(0)=0$。下列命题中，正确命题的个数为\ExamSelection① 若在 $(0,+\infty)$ 上恒有 $f''(x)<0$，则 $\dfrac{f(x)}{x}$ 在 $(0,+\infty)$ 上单调减少。② 若 $\dfrac{f(x)}{x}$ 在 $(0,1]$ 上单调减少，则在 $(0,1]$ 上恒有 $f''(x)\leqslant 0$。③ 若 $\lim\limits_{x\to+\infty}\dfrac{f(x)}{x}$ 存在，则 $\lim\limits_{x\to+\infty}f'(x)$ 存在。④ 若在 $(0,+\infty)$ 上恒有 $f''(x)<0$，且 $\lim\limits_{x\to+\infty}\dfrac{f(x)}{x}$ 存在，则 $\lim\limits_{x\to+\infty}f'(x)$ 存在。
+  choices:
+  - label: A
+    text: $1$
+    figures: []
+  - label: B
+    text: $2$
+    figures: []
+  - label: C
+    text: $3$
+    figures: []
+  - label: D
+    text: $4$
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $y_1(x)=\dfrac{2\sin x+\cos x}{x}$，$y_2(x)=\dfrac{\sin x+2\cos x}{x}$ 是微分方程 $y''+p(x)y'+q(x)y=0$ 的两个解，则\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $p(x)=\dfrac{2}{x},q(x)=1$
+    figures: []
+  - label: B
+    text: |-
+      $p(x)=1,q(x)=\dfrac{2}{x}$
+    figures: []
+  - label: C
+    text: |-
+      $p(x)=\dfrac{1}{x},q(x)=2$
+    figures: []
+  - label: D
+    text: |-
+      $p(x)=2,q(x)=\dfrac{1}{x}$
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x,y)$ 连续，曲线 $C:y^2=x$ 在点 $(1,1)$ 处的切线为 $l_1$，在点 $(1,-1)$ 处的切线为 $l_2$。记曲线 $C$ 与 $l_1,l_2$ 所围成的平面区域为 $D$，则 $\iint\limits_D f(x,y)\,\mathrm{d}x\mathrm{d}y=$\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\displaystyle\int_{-1}^{1}\mathrm{d}x\int_{-\dfrac{1}{2}(x+1)}^{\dfrac{1}{2}(x+1)}f(x,y)\,\mathrm{d}y$
+    figures: []
+  - label: B
+    text: |-
+      $\displaystyle\int_{-1}^{1}\mathrm{d}y\int_{2y-1}^{y^2}f(x,y)\,\mathrm{d}x$
+    figures: []
+  - label: C
+    text: |-
+      $\displaystyle\int_{-1}^{0}\mathrm{d}x\int_{-\dfrac{1}{2}(x+1)}^{\dfrac{1}{2}(x+1)}f(x,y)\,\mathrm{d}y+2\int_{0}^{1}\mathrm{d}x\int_{\sqrt{x}}^{\dfrac{1}{2}(x+1)}f(x,y)\,\mathrm{d}y$
+    figures: []
+  - label: D
+    text: |-
+      $\displaystyle\int_{0}^{1}\mathrm{d}y\int_{2y-1}^{y^2}f(x,y)\,\mathrm{d}x+\int_{-1}^{0}\mathrm{d}y\int_{-2y-1}^{y^2}f(x,y)\,\mathrm{d}x$
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设二元函数 $f(x,y)$ 连续，$\varphi(x,y)$ 的全微分为 $\mathrm{d}z=(2x-y^2-2y)\mathrm{d}x+(-2xy-2x+y^3+3y)\mathrm{d}y$，且 $\varphi(0,0)=0$。若 $\lim\limits_{(x,y)\to(0,0)}\dfrac{f(x,y)}{\varphi(x,y)}=1$，则\ExamSelection
+  choices:
+  - label: A
+    text: 点 $(0,0)$ 是 $f(x,y)$ 的极大值点
+    figures: []
+  - label: B
+    text: 点 $(0,0)$ 是 $f(x,y)$ 的极小值点
+    figures: []
+  - label: C
+    text: 点 $(0,0)$ 不是 $f(x,y)$ 的极值点
+    figures: []
+  - label: D
+    text: 不能确定点 $(0,0)$ 是否为 $f(x,y)$ 的极值点
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设向量 $\alpha_1=(1,1,0,0)^{\mathrm{T}}$，$\alpha_2=(1,0,1,0)^{\mathrm{T}}$，$\alpha_3=(1,0,0,1)^{\mathrm{T}}$，$\alpha_4=(\lambda,1,x,x^2)^{\mathrm{T}}$，$\alpha_5=(\lambda,1,\dfrac{1}{x},\dfrac{1}{x^2})^{\mathrm{T}}$。若对所有 $x\neq 0$，向量组Ⅰ：$\alpha_1,\alpha_2,\alpha_3,\alpha_4$ 与向量组Ⅱ：$\alpha_1,\alpha_2,\alpha_3,\alpha_5$ 恒等价，则 $\lambda$ 的取值范围是\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\lambda<\dfrac{3}{4}$
+    figures: []
+  - label: B
+    text: |-
+      $\lambda<\dfrac{3}{4}$ 或 $\lambda=1$
+    figures: []
+  - label: C
+    text: |-
+      $\lambda>\dfrac{5}{4}$
+    figures: []
+  - label: D
+    text: |-
+      $\lambda>\dfrac{5}{4}$ 或 $\lambda=1$
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设平面 $S_1:x+y+z=1$，$S_2:2ax+(a+b)y+2bz=2$，$S_3:a^2x+aby+b^2z=1$。关于三平面的位置关系，正确的是\ExamSelection
+  choices:
+  - label: A
+    text: 不可能出现三平面重合
+    figures: []
+  - label: B
+    text: 不可能出现恰有两平面重合
+    figures: []
+  - label: C
+    text: 不可能出现三平面互异
+    figures: []
+  - label: D
+    text: 以上说法均不正确
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 为 3 阶非零矩阵，$A$ 的特征多项式为 $f(\lambda)$。下列命题中，错误的是\ExamSelection
+  choices:
+  - label: A
+    text: 若 $f(1)=0$，则方程组 $A^2x=x$ 有非零解
+    figures: []
+  - label: B
+    text: 若 $f(1)=0$，则方程组 $A^2x=Ax$ 有非零解
+    figures: []
+  - label: C
+    text: 若方程组 $A^3x=x$ 对所有 3 维向量 $x$ 均成立，则 $f(1)=0$
+    figures: []
+  - label: D
+    text: 若方程组 $A^3x=Ax$ 对所有 3 维向量 $x$ 均成立，则 $f(1)=0$
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设随机变量 $X$ 服从参数为 $\lambda$ 的指数分布，则 $X$ 的个位数字为 1 的概率是\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{e^{-\lambda}-e^{-2\lambda}}{1-e^{-10\lambda}}$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{e^{-\lambda}-e^{-2\lambda}}{1-e^{-2\lambda}}$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{e^{-\lambda}-e^{-10\lambda}}{1-e^{-10\lambda}}$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{e^{-\lambda}-e^{-10\lambda}}{1-e^{-2\lambda}}$
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设二维随机变量 $(X,Y)$ 的概率分布为 $\begin{array}{c|ccc}X\backslash Y&-1&0&1\\\hline-1&\dfrac{1}{3}&0&0\\0&0&\dfrac{1}{3}&0\\1&0&0&\dfrac{1}{3}\end{array}$，则下列关于随机变量 $X,Y$ 以及 $Y^2$ 的关系的命题中，正确的是\ExamSelection
+  choices:
+  - label: A
+    text: $X$ 与 $Y$ 相关，$X$ 与 $Y^2$ 不相关且独立
+    figures: []
+  - label: B
+    text: $X$ 与 $Y$ 不相关，$X$ 与 $Y^2$ 相关
+    figures: []
+  - label: C
+    text: $X$ 与 $Y$ 独立，$X$ 与 $Y^2$ 独立
+    figures: []
+  - label: D
+    text: $X$ 与 $Y$ 不独立，$X$ 与 $Y^2$ 不相关但不独立
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      用中心极限定理估计，投掷一百万次均匀骰子，所得点数的平均值最有可能出现的区间是\ExamSelection
+  choices:
+  - label: A
+    text: $[4.5,5.5]$
+    figures: []
+  - label: B
+    text: $[4,5]$
+    figures: []
+  - label: C
+    text: $[3.5,4.5]$
+    figures: []
+  - label: D
+    text: $[3,4]$
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x)=\displaystyle\int_0^x\sin x e^{t^2}\,\mathrm{d}t$，则 $\lim\limits_{x\to0}(2-\cos x)^{\dfrac{1}{f(x)}}=\ExamBlank$。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x)=\dfrac{[ax^2+(1-2a)x-2]^n}{e^{x-2}}$（$a\neq 0$）。若 $f^{(n)}(2)=2^n n!$，则 $a=\ExamBlank$。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $\lim\limits_{n\to\infty}\dfrac{1}{n^2}\sum\limits_{i=1}^{n}\sum\limits_{j=1}^{2n}e^{\max\left\{\dfrac{2i}{n},\dfrac{j}{n}\right\}}=\ExamBlank$。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $f(\alpha)=\displaystyle\oint_L\dfrac{x\,\mathrm{d}y-y\,\mathrm{d}x}{x^2\cos^2\alpha+y^2\sin^2\alpha}$（$0<\alpha<\dfrac{\pi}{2}$），其中 $L$ 为单位圆周 $x^2+y^2=1$，取逆时针方向，则 $f(\alpha)$ 的最小值为 $\ExamBlank$。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设矩阵 $A=\begin{pmatrix}0&1&0&0\\0&0&1&0\\0&0&0&1\\1&0&0&0\end{pmatrix}$，则使得 $A^k=E$ 成立的最小正整数为 $\ExamBlank$。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $A,B,C$ 为随机事件，$P(A)=\dfrac{1}{2}$，$P(B)=\dfrac{1}{3}$，$P(C)=\dfrac{1}{4}$，且 $A$ 与 $B$ 相互独立，$P(AC)=0$，$P(B\mid B\cup C)=\dfrac{2}{3}$，则 $A,B,C$ 中恰有两个事件发生的概率为 $\ExamBlank$。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      设 $I_n=\displaystyle\int_1^{+\infty}\dfrac{\sqrt{t-1}}{t^n}\,\mathrm{d}t$（$n\geqslant 2$）。
+  subparts:
+  - text: 计算 $I_2$；
+  - text: |-
+      求 $\lim\limits_{n\to\infty}\dfrac{I_{n+1}}{I_n}$。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      求幂级数 $\displaystyle\sum\limits_{n=0}^{\infty}\dfrac{(-1)^n(n+1)x^{2n}}{2n+1}$ 的收敛域及和函数 $S(x)$。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设某物体 $A$ 占据由曲面 $z=\sqrt{1-x^2-y^2}$ 以及 $z=\sqrt{x^2+y^2}$ 所围成的空间区域 $\Omega$，密度函数 $\rho(x,y,z)$ 满足 $\rho(x,y,z)=8z+\dfrac{2}{\pi}\sqrt{x^2+y^2}\iiint\limits_\Omega\rho(x,y,z)\,\mathrm{d}v$。
+  subparts:
+  - text: |-
+      求 $\rho(x,y,z)$；
+  - text: |-
+      设 $A$ 的质心坐标为 $(\bar{x},\bar{y},\bar{z})$，证明：$\dfrac{4}{15}<\bar{x}+\bar{y}+\bar{z}<1$。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: 设二元函数 $f(x,y)$ 具有连续偏导数，其偏导数满足恒等式 $yf'_x(x,y)-xf'_y(x,y)=0$。
+  subparts:
+  - text: |-
+      对正常数 $r$，令一元函数 $G_r(\theta)=f(r\cos\theta,r\sin\theta)$，求 $G'_r(\theta)$；
+  - text: |-
+      若函数 $y=f(x,0)$ 是方程 $x^2y''-2y=0$ 在 $(0,+\infty)$ 上的一个解，且 $f(0,1)=1$，求 $f(x,y)$ 的表达式。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $D=\begin{pmatrix}A&Q\\Q^{\mathrm{T}}&A\end{pmatrix}$ 为正定矩阵，其中 $A$ 为 $n$ 阶正定矩阵，特征值依次为 $0<\lambda_1\leqslant\cdots\leqslant\lambda_n$，$Q$ 为 $n$ 阶正交矩阵。
+  subparts:
+  - text: |-
+      证明：$A-Q^{\mathrm{T}}A^{-1}Q$ 为正定矩阵；
+  - text: |-
+      又若 $Q=(\alpha_1,\cdots,\alpha_n)$，$AQ=(\lambda_1\alpha_1,\cdots,\lambda_n\alpha_n)$，证明：$|A|>1$。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设随机变量 $X\sim U(0,1)$，当 $X=x$ 时，随机变量 $Y$ 的条件概率密度为 $f_{Y\mid X}(y\mid x)=\begin{cases}2xye^{-xy^2},&y>0,\\0,&\text{其他}\text{。}\end{cases}$
+  subparts:
+  - text: 求 $Y$ 的边缘概率密度；
+  - text: 求 $Z=XY^2$ 的概率密度函数，并求 $E(Z)$。

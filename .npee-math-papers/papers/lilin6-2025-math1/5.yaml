@@ -1,0 +1,307 @@
+schema_version: '3.0'
+paper:
+  series_key: lilin6
+  year: 2025
+  subject: math1
+  paper_no: 5
+content_hash: bfc741246dd73fd0eeee50866855cbc7ef5a73b45644627c69825fda11ca35cf
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      当 $x\to0$ 时，$x-(a+b\cos x)\sin x$ 与 $x^3$ 是等价无穷小，则\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $a=\dfrac{2}{3},b=\dfrac{5}{3}$
+    figures: []
+  - label: B
+    text: |-
+      $a=-\dfrac{2}{3},b=\dfrac{5}{3}$
+    figures: []
+  - label: C
+    text: |-
+      $a=\dfrac{2}{3},b=-\dfrac{5}{3}$
+    figures: []
+  - label: D
+    text: |-
+      $a=-\dfrac{2}{3},b=-\dfrac{5}{3}$
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f'(x)$ 严格单调递减，$\lim_{x\to0}\dfrac{f(x)}{x}$ 存在，记 $I=\int_0^1\,\mathrm{d}y\int_0^1\dfrac{f(x)}{x}\,\mathrm{d}x$，则正确的是\ExamSelection
+  choices:
+  - label: A
+    text: $f'(0)<I<f(1)$
+    figures: []
+  - label: B
+    text: $f(1)<I<f'(0)$
+    figures: []
+  - label: C
+    text: $I<f'(0)<f(1)$
+    figures: []
+  - label: D
+    text: $f(1)<f'(0)<I$
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $y_1=\mathrm{e}^{-x},y_2=2x$ 是常系数齐次线性微分方程 $y'''+ay''+by'+cy=0$ 的两个解，则该方程的通解可为\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $c_1\mathrm{e}^{-x}+c_2\mathrm{e}^x+c_3x$
+    figures: []
+  - label: B
+    text: |-
+      $c_1\mathrm{e}^{-x}+c_2+c_3x$
+    figures: []
+  - label: C
+    text: |-
+      $c_1\mathrm{e}^{-x}+c_2\mathrm{e}^x+c_3$
+    figures: []
+  - label: D
+    text: |-
+      $c_1\mathrm{e}^x+c_2x\mathrm{e}^x+c_3$
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $\sum_{n=1}^{\infty}u_n^2$ 收敛，则下列选项中错误的是\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\sum_{n=1}^{\infty}\dfrac{u_n}{n}$ 必收敛
+    figures: []
+  - label: B
+    text: |-
+      $\sum_{n=1}^{\infty}u_n^3$ 必收敛
+    figures: []
+  - label: C
+    text: |-
+      $\sum_{n=1}^{\infty}(-1)^nu_n$ 必收敛
+    figures: []
+  - label: D
+    text: |-
+      $\sum_{n=1}^{\infty}u_nu_{n+1}$ 必收敛
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $B=\begin{pmatrix}1&2&-1\\2&a&4\\3&5&a\end{pmatrix}(a>0)$，$A$ 是 $3$ 阶非零矩阵，且 $BA^{\mathrm T}=O$，$k_1,k_2$ 为任意常数，则方程组 $AX=0$ 的通解为\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $k_1\begin{pmatrix}1\\2\\-1\end{pmatrix}$
+    figures: []
+  - label: B
+    text: |-
+      $k_1\begin{pmatrix}1\\0\\0\end{pmatrix}+k_2\begin{pmatrix}2\\1\\0\end{pmatrix}$
+    figures: []
+  - label: C
+    text: |-
+      $k_1\begin{pmatrix}1\\2\\3\end{pmatrix}$
+    figures: []
+  - label: D
+    text: |-
+      $k_1\begin{pmatrix}1\\2\\-1\end{pmatrix}+k_2\begin{pmatrix}0\\-1\\6\end{pmatrix}$
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 为 $2$ 阶实矩阵，$\boldsymbol{\alpha}$ 与 $\boldsymbol{\beta}$ 是 $A$ 的两个单位实特征向量，且满足 $\lVert\boldsymbol{\alpha}+\boldsymbol{\beta}\rVert=\lVert\boldsymbol{\alpha}-\boldsymbol{\beta}\rVert$，则\ExamSelection
+  choices:
+  - label: A
+    text: $r(A)=1$
+    figures: []
+  - label: B
+    text: $r(A)=2$
+    figures: []
+  - label: C
+    text: $A$ 必相似于对角矩阵
+    figures: []
+  - label: D
+    text: $A$ 必与单位矩阵合同
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 是 $2$ 阶实对称矩阵，若对任意的 $2$ 维非零列向量 $X$，都有 $|X^{\mathrm T}AX|<|X^{\mathrm T}X|$，$X_1,X_2$ 均为 $2$ 维列向量，则二次型 $\begin{pmatrix}X_1\\X_2\end{pmatrix}^{\mathrm T}\begin{pmatrix}A+E&O\\O&E-A\end{pmatrix}\begin{pmatrix}X_1\\X_2\end{pmatrix}$ 的规范形为\ExamSelection
+  choices:
+  - label: A
+    text: $y_1^2+y_2^2-y_3^2-y_4^2$
+    figures: []
+  - label: B
+    text: $y_1^2+y_2^2+y_3^2-y_4^2$
+    figures: []
+  - label: C
+    text: $y_1^2+y_2^2+y_3^2+y_4^2$
+    figures: []
+  - label: D
+    text: $-y_1^2-y_2^2-y_3^2-y_4^2$
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知编号为 $1,2,3$ 的 $3$ 个袋子中各有 $3$ 个白球、$2$ 个黑球，从 $1,2$ 号袋子中各取出一个球放入 $3$ 号袋子中，则 $3$ 号袋子中白球个数 $X$ 的期望与方差分别为\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $EX=\dfrac{6}{5},DX=\dfrac{12}{25}$
+    figures: []
+  - label: B
+    text: |-
+      $EX=\dfrac{21}{5},DX=\dfrac{12}{25}$
+    figures: []
+  - label: C
+    text: |-
+      $EX=\dfrac{21}{5},DX=\dfrac{6}{5}$
+    figures: []
+  - label: D
+    text: |-
+      $EX=\dfrac{12}{5},DX=\dfrac{6}{5}$
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $(X,Y)\sim N(\mu,2\mu;\sigma_1^2,\sigma_2^2;0)$，且 $P\{X-Y\geq1\}=\dfrac{1}{2}$，则 $\mu=$\ExamSelection
+  choices:
+  - label: A
+    text: $0$
+    figures: []
+  - label: B
+    text: $-1$
+    figures: []
+  - label: C
+    text: $1$
+    figures: []
+  - label: D
+    text: $2$
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设随机变量 $X$ 与 $Y$ 相互独立，且 $X\sim B\left(1,\dfrac{1}{2}\right)$，$Y\sim N(0,1)$，则 $P\{XY\leq E(XY)\}=$\ExamSelection
+  choices:
+  - label: A
+    text: $0$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{1}{4}$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{1}{2}$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{3}{4}$
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      若积分 $I=\int_0^{+\infty}\left(\dfrac{1}{\sqrt{x^2+4}}-\dfrac{a}{x+2}\right)\,\mathrm{d}x$ 收敛，则 $I=$\ExamBlank。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设上半球面 $\Sigma:z=\sqrt{1-x^2-y^2}$，其密度 $\rho=z$，则 $\Sigma$ 的质心坐标 $\bar z=$\ExamBlank。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $f(x,y)$ 对任意的 $x,y\in\mathbb R$ 满足 $f(x,y)=\mathrm{e}^{x+y-2}+o(\rho)$，其中 $\rho=\sqrt{(x-1)^2+(y-1)^2}$，则 $\lim_{h\to0}\dfrac{f(1+2h,1)-f(1,1-2h)}{h}=$\ExamBlank。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      双纽线 $r^2=a^2\cos2\theta\ (a>0)$ 绕极轴旋转一周所得旋转曲面的面积为\ExamBlank。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $3$ 阶行列式 $|A|=1$，将 $A$ 的第 $1$ 列加到第 $2$ 列得 $B$，$B^*$ 是 $B$ 的伴随矩阵，则行列式 $|A^{-1}+B^*|=$\ExamBlank。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设随机事件 $A$ 与 $B$ 相互独立，$A$ 与 $C$ 互不相容，且 $P(A)=0.4$，$P(B)=P(C)=0.5$，则 $P\{(A-C)\mid(AB+C)\}=$\ExamBlank。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      设 $f(x)$ 满足 $f'(x)+f(x)=\mathrm{e}^{-x}$，$f(0)=0$。
+  subparts:
+  - text: 求 $y=f(x)$ 的极值与拐点；
+  - text: 当 $0<x_1<1<x_2$ 时，有 $f(x_1)=f(x_2)$，证明：$x_1+x_2>2$。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $D_t=\{(x,y)\mid0\leq x\leq t,0\leq y\leq x,t>0\}$，$f''(x)$ 连续，且 $f''(0)=1$，$I(t)=\iint_{D_t}\sqrt{(t-x)(t-y)}f''(y)\,\mathrm{d}x\,\mathrm{d}y$，求 $\lim_{t\to0^+}\dfrac{I(t)}{t^3}$。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $a_0=0,a_1=1,a_{n+1}=a_n+2a_{n-1}\ (n=1,2,\cdots)$，$S(x)=\sum_{n=1}^{\infty}\dfrac{a_n}{n!}x^n$，$x\in(-\infty,+\infty)$，求 $S(x)$ 满足的二阶微分方程，并求 $S(x)$ 及 $a_n$ 的表达式。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设球面 $x^2+y^2+z^2=4x\ (z\geq0)$ 的方向朝上，$L$ 为该球面与柱面 $x^2+y^2=2x$ 的交线，$L$ 的方向与 $L$ 所围曲面的方向符合右手法则。计算 $I=\oint_L(y^2+z^2)\,\mathrm{d}x+(z^2+x^2)\,\mathrm{d}y+(x^2+y^2)\,\mathrm{d}z$。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $3$ 阶矩阵 $A=(\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3)$，且满足 $\begin{pmatrix}\boldsymbol{\alpha}_1+\boldsymbol{\alpha}_3\\-\boldsymbol{\alpha}_1+2\boldsymbol{\alpha}_2\\\boldsymbol{\alpha}_2+\boldsymbol{\alpha}_3\end{pmatrix}=\begin{pmatrix}1&1&0\\0&-2&-1\\1&0&-1\end{pmatrix}$。
+  subparts:
+  - text: |-
+      若 $X=(x_1,x_2,x_3)^{\mathrm T}$，证明：$X^{\mathrm T}A^2X$ 为正定二次型；
+  - text: |-
+      求可逆矩阵 $P$，使得 $P^{-1}AP=A^{\mathrm T}$。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设随机变量 $X$ 与 $Y$ 相互独立，$X$ 服从参数为 $\lambda\ (\lambda>0)$ 的指数分布，$Y$ 的概率分布为 $P\{Y=-1\}=\dfrac{1}{3}$，$P\{Y=1\}=\dfrac{2}{3}$。记 $Z=XY$。
+  subparts:
+  - text: 求 $Z$ 的概率密度 $f_Z(z)$；
+  - text: |-
+      求 $\operatorname{Cov}(X,Z)$；
+  - text: |-
+      若 $Z_1,Z_2,\cdots,Z_n$ 为总体 $Z$ 的简单随机样本，求 $\lambda$ 的矩估计量 $\hat\lambda$。

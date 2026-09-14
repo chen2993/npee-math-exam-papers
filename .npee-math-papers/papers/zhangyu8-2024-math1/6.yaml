@@ -1,0 +1,296 @@
+schema_version: '3.0'
+paper:
+  series_key: zhangyu8
+  year: 2024
+  subject: math1
+  paper_no: 6
+content_hash: a0e300a9e669f3bdc10bd3c25183b3c7e233d95fd7d0fa0c61b4a588f92b22d6
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x)=\begin{cases}\cos|x|-1,&x\leq 0,\\x\ln x,&x>0,\end{cases}$ 则 $x=0$ 是 $f(x)$ 的\ExamSelection。
+  choices:
+  - label: A
+    text: 可导点，极值点
+    figures: []
+  - label: B
+    text: 不可导点，极值点
+    figures: []
+  - label: C
+    text: 可导点，非极值点
+    figures: []
+  - label: D
+    text: 不可导点，非极值点
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      若数项级数 $\sum_{n=1}^{\infty}a_n$ 条件收敛，则幂级数 $\sum_{n=1}^{\infty}na_n(x+2)^n$ 在 $x=-\sqrt{2}$ 处\ExamSelection。
+  choices:
+  - label: A
+    text: 绝对收敛
+    figures: []
+  - label: B
+    text: 条件收敛
+    figures: []
+  - label: C
+    text: 发散
+    figures: []
+  - label: D
+    text: 敛散性不能确定
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x,y)$ 在点 $(0,1)$ 的某邻域内一阶偏导数连续，$f(0,1)=0$，$f_y'(0,1)=1$，则 $f\left(x,\int_1^t\ln x\,\mathrm{d}x\right)=0$\ExamSelection。
+  choices:
+  - label: A
+    text: 在点 $(0,1)$ 附近可确定 $t=t(x)$，且 $t'(0)=-f_x'(0,1)$
+    figures: []
+  - label: B
+    text: 在点 $(0,1)$ 附近可确定 $t=t(x)$，且 $t'(0)=-1$
+    figures: []
+  - label: C
+    text: |-
+      在点 $(0,\mathrm{e})$ 附近可确定 $t=t(x)$，且 $t'(0)=-f_x'(0,1)$
+    figures: []
+  - label: D
+    text: |-
+      在点 $(0,\mathrm{e})$ 附近可确定 $t=t(x)$，且 $t'(0)=-1$
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      若微分方程 $y'+py=\mathrm{e}^{qx}$ 的任何积分曲线均有拐点，则\ExamSelection。
+  choices:
+  - label: A
+    text: $p+q>0$
+    figures: []
+  - label: B
+    text: $p+q<0$
+    figures: []
+  - label: C
+    text: |-
+      $p=-q\neq 0$
+    figures: []
+  - label: D
+    text: |-
+      $p+q\neq 0, pq\neq 0$
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知矩阵方程 $A=BC$，其中 $A=\begin{pmatrix}1&1&1\\1&-1&0\\0&1&1\end{pmatrix}$，则 $B,C$ 可以是\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\begin{pmatrix}\dfrac{1}{\sqrt{2}}&\dfrac{1}{\sqrt{3}}&-\dfrac{1}{\sqrt{6}}\\\dfrac{1}{\sqrt{2}}&-\dfrac{1}{\sqrt{3}}&\dfrac{1}{\sqrt{6}}\\0&\dfrac{1}{\sqrt{3}}&\dfrac{2}{\sqrt{6}}\end{pmatrix},\quad\begin{pmatrix}\sqrt{2}&0&0\\0&\sqrt{3}&0\\\dfrac{1}{\sqrt{2}}&\dfrac{2}{\sqrt{3}}&\dfrac{1}{\sqrt{6}}\end{pmatrix}$
+    figures: []
+  - label: B
+    text: |-
+      $\begin{pmatrix}\dfrac{1}{\sqrt{2}}&\dfrac{1}{\sqrt{3}}&-\dfrac{1}{\sqrt{6}}\\\dfrac{1}{\sqrt{3}}&-\dfrac{1}{\sqrt{3}}&\dfrac{1}{\sqrt{3}}\\\dfrac{1}{\sqrt{6}}&\dfrac{1}{\sqrt{3}}&\dfrac{1}{\sqrt{2}}\end{pmatrix},\quad\begin{pmatrix}\sqrt{2}&0&\dfrac{1}{\sqrt{2}}\\0&\sqrt{3}&\dfrac{2}{\sqrt{3}}\\0&0&\dfrac{1}{\sqrt{6}}\end{pmatrix}$
+    figures: []
+  - label: C
+    text: |-
+      $\begin{pmatrix}\dfrac{1}{\sqrt{2}}&\dfrac{1}{\sqrt{3}}&-\dfrac{1}{\sqrt{6}}\\\dfrac{1}{\sqrt{3}}&-\dfrac{1}{\sqrt{3}}&\dfrac{1}{\sqrt{3}}\\\dfrac{1}{\sqrt{6}}&\dfrac{1}{\sqrt{3}}&\dfrac{1}{\sqrt{2}}\end{pmatrix},\quad\begin{pmatrix}\sqrt{2}&0&0\\0&\sqrt{3}&\dfrac{2}{\sqrt{3}}\\0&0&\dfrac{1}{\sqrt{6}}\end{pmatrix}$
+    figures: []
+  - label: D
+    text: |-
+      $\begin{pmatrix}\dfrac{1}{\sqrt{2}}&\dfrac{1}{\sqrt{3}}&-\dfrac{1}{\sqrt{6}}\\\dfrac{1}{\sqrt{2}}&-\dfrac{1}{\sqrt{3}}&\dfrac{1}{\sqrt{6}}\\0&\dfrac{1}{\sqrt{3}}&\dfrac{2}{\sqrt{6}}\end{pmatrix},\quad\begin{pmatrix}\sqrt{2}&0&\dfrac{1}{\sqrt{2}}\\0&\sqrt{3}&\dfrac{2}{\sqrt{3}}\\0&0&\dfrac{1}{\sqrt{6}}\end{pmatrix}$
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 是 3 阶实矩阵，则“$A$ 是实对称矩阵”是“$A$ 有 3 个相互正交的特征向量”的\ExamSelection。
+  choices:
+  - label: A
+    text: 充分非必要条件
+    figures: []
+  - label: B
+    text: 必要非充分条件
+    figures: []
+  - label: C
+    text: 充分必要条件
+    figures: []
+  - label: D
+    text: 既非充分也非必要条件
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知三元二次型表示为 $f(\boldsymbol{x})=\boldsymbol{x}^{\mathrm{T}}\begin{pmatrix}1&1&0\\0&1&1\\0&0&1\end{pmatrix}\boldsymbol{x}$，则 $f$ 的规范形为\ExamSelection。
+  choices:
+  - label: A
+    text: $y_1^2-y_2^2+y_3^2$
+    figures: []
+  - label: B
+    text: $y_1^2+y_2^2+y_3^2$
+    figures: []
+  - label: C
+    text: $-y_1^2-y_2^2-y_3^2$
+    figures: []
+  - label: D
+    text: $y_1^2-y_2^2-y_3^2$
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      将 2 个红球和 1 个白球随机放入 3 个盒子中，每个盒子可放任意多个球，记 $X$ 为没有红球的盒子个数，则 $E(X)=$\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{17}{9}$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{4}{9}$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{3}{4}$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{4}{3}$
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设总体 $X$ 的数学期望 $E(X)=0$，方差 $D(X)=\sigma^2$，而 $X_1,X_2,\cdots,X_n(n>2)$ 是来自总体 $X$ 的简单随机样本，$\overline{X}=\dfrac{1}{n}\sum_{i=1}^nX_i$，$S^2=\dfrac{1}{n-1}\sum_{i=1}^n(X_i-\overline{X})^2$，则下列属于 $\sigma^2$ 的无偏估计量的是\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $n\overline{X}^2+S^2$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{1}{2}(n\overline{X}^2+S^2)$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{1}{3}(n\overline{X}^2+S^2)$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{1}{4}(n\overline{X}^2+S^2)$
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $X_1,X_2,\cdots,X_{25}$ 是来自总体 $N(\mu,\sigma^2)(\sigma>0)$ 的简单随机样本，$\Phi(x)$ 表示标准正态分布函数，考虑假设检验问题：$H_0:\mu\leq 10,H_1:\mu>10$，若该检验问题的拒绝域为 $W=\{\overline{X}>20\}$，其中 $\overline{X}=\dfrac{1}{25}\sum_{i=1}^{25}X_i$，则 $\mu=20.5$ 时，该检验犯第二类错误的概率为 $1-\Phi\left(\dfrac{1}{2}\right)$，则 $\sigma=$\ExamSelection。
+  choices:
+  - label: A
+    text: $5$
+    figures: []
+  - label: B
+    text: $6$
+    figures: []
+  - label: C
+    text: $7$
+    figures: []
+  - label: D
+    text: $8$
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $f(x,y,z)=x^2\int_1^y\mathrm{e}^t\,\mathrm{d}t+2z$ 在点 $(1,1,2)$ 处的梯度为\ExamBlank。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $\int_0^1\ln\dfrac{1}{1-x}\,\mathrm{d}x=$\ExamBlank。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)$ 为三次多项式，且 $f(x)+1$ 能被 $(x-1)^2$ 整除，$f(x)-1$ 能被 $(x+1)^2$ 整除，则 $f(x)=$\ExamBlank。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $\Sigma$ 为球面 $x^2+y^2+z^2=1$ 被锥面 $z=\sqrt{x^2+2y^2}$ 截得的小的那部分，则第一型曲面积分 $\iint_{\Sigma}z\,\mathrm{d}S=$\ExamBlank。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设矩阵 $A=\begin{pmatrix}1&2&4\\0&1&5\\0&0&3\end{pmatrix}$，$B=\begin{pmatrix}1&0&0\\3&1&0\\4&5&1\end{pmatrix}$，则 $|A^{-1}B^*-A^*B^{-1}|=$\ExamBlank。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $X_1,X_2,\cdots,X_n$ 是来自总体 $X$ 的简单随机样本，$Y=\max_{2\leq i\leq n}\{X_i\}$，已知 $X$ 的概率密度为 $f(x)=\begin{cases}\mathrm{e}^{-x},&x>0,\\0,&x\leq 0,\end{cases}$ 则 $P\{X_1Y-Y\leq 0\}=$\ExamBlank。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      对于任意二阶连续可导的函数 $f(u)$，$z=\int_0^y\mathrm{e}^{t^2}\,\mathrm{d}t+f(x+ay)$ 均是方程 $\dfrac{\partial^2z}{\partial x\partial y}+\dfrac{\partial^2z}{\partial y^2}=2y\mathrm{e}^{y^2}$ 的解，求 $a$ 的值。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      求曲线 $y=\mathrm{e}^{-\dfrac{x}{2}}\sqrt{\sin x}(x\geq 0)$ 绕 $x$ 轴旋转一周所成旋转体的体积。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      计算曲面积分：$I=\iint_{\Sigma}xy\,\mathrm{d}y\,\mathrm{d}z+y^2\,\mathrm{d}z\,\mathrm{d}x+z^2\,\mathrm{d}x\,\mathrm{d}y$，$\Sigma$ 为上半球面 $(x-1)^2+y^2+z^2=1(z\geq 0)$ 被锥面 $z^2=x^2+y^2$ 所截得的部分，$\Sigma$ 的法线方向向上。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $a_n=\int_0^{+\infty}\mathrm{e}^{-n^2x^2}\,\mathrm{d}x,n=1,2,\cdots$，求 $\sum_{n=1}^{\infty}(-1)^na_na_{n+2}$。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设实矩阵 $A=\begin{pmatrix}4&2\\a&-3\end{pmatrix}$，$B=\begin{pmatrix}2&2\\2&b\end{pmatrix}$，其中 $b$ 为正整数。
+  subparts:
+  - text: |-
+      若存在可逆矩阵 $P$，使得 $P^{\mathrm{T}}AP=B$，求出 $a,b$ 的值与矩阵 $P$；
+  - text: |-
+      对于 (1) 中的 $a,b$，是否存在正交矩阵 $Q$，使得 $Q^{\mathrm{T}}AQ=B$，若存在，求出 $Q$；若不存在，说明理由。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设某元件的使用寿命 $T$ 的分布函数 $F(t)$ 满足微分方程 $F'(t)+\dfrac{2t}{\theta^2}[F(t)-1]=0,t\geq 0$，$\theta$ 为大于 0 的常数，$F(0)=0$，且该元件性能 $Q(\theta)=\theta^2\left(\dfrac{\ln\theta}{2}-\dfrac{3}{4}\right)+\theta$。任取 $n$ 个此种元件做寿命试验，测得值分别为 $t_1,t_2,\cdots,t_n$。
+  subparts:
+  - text: |-
+      求 $\theta$ 的最大似然估计值 $\hat{\theta}$；
+  - text: |-
+      求该元件性能 $Q$ 的最大似然估计值 $\hat{Q}$。

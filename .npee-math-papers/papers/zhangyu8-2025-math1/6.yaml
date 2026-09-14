@@ -1,0 +1,295 @@
+schema_version: '3.0'
+paper:
+  series_key: zhangyu8
+  year: 2025
+  subject: math1
+  paper_no: 6
+content_hash: ec665ca2990742b670460163e50175d110e1125d6ca7407f1f5507772b932056
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知 $f(x)=\begin{cases}x^2\ln|x|+1,&0<|x|\leq 1,\\1,&x=0,\end{cases}$，则\ExamSelection
+  choices:
+  - label: A
+    text: $f(0)$ 是 $f(x)$ 在 $[-1,1]$ 上的最小值。
+    figures: []
+  - label: B
+    text: $f(0)$ 是 $f(x)$ 在 $[-1,1]$ 上的最大值。
+    figures: []
+  - label: C
+    text: $f(x)$ 在点 $x=0$ 处连续但不可导。
+    figures: []
+  - label: D
+    text: $f(x)$ 在点 $x=0$ 处二阶可导。
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设常数项级数 $\sum_{n=1}^{\infty}a_n$ 条件收敛，$r$ 是实数，则\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      当 $|r|\geq 1$ 时，$\sum_{n=1}^{\infty}a_{2n-1}r^{2n-1}$ 发散。
+    figures: []
+  - label: B
+    text: |-
+      当 $|r|\leq 1$ 时，$\sum_{n=1}^{\infty}a_{2n}r^{2n}$ 发散。
+    figures: []
+  - label: C
+    text: |-
+      当 $\sum_{n=1}^{\infty}a_{2n-1}r^{2n-1}$ 发散时，$|r|\geq 1$。
+    figures: []
+  - label: D
+    text: |-
+      当 $\sum_{n=1}^{\infty}a_{2n}r^{2n}$ 发散时，$|r|\leq 1$。
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(t)=\int_t^{2t}\mathrm{d}x\int_x^t e^{(x-y+1)^2}\mathrm{d}y$，则 $\lim_{t\to 0^+}\dfrac{f(t)}{t^2}=\ExamSelection$（公众号：风中羽小易）
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{e}{2}$。
+    figures: []
+  - label: B
+    text: |-
+      $-\dfrac{e}{2}$。
+    figures: []
+  - label: C
+    text: $2e$。
+    figures: []
+  - label: D
+    text: $-2e$。
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)$ 是 $[a,b]$ 上的单调有界且有间断点的函数，则以下结论（1）对任意 $x_0\in(a,b)$，$\lim_{x\to x_0^+}f(x)$ 存在；（2）$\lim_{x\to a^+}f(x),\lim_{x\to b^-}f(x)$ 存在；（3）$f(x)$ 只有第一类间断点；（4）$f(x)$ 可以取到 $f(a)$ 与 $f(b)$ 之间的任意值。正确结论的个数为\ExamSelection
+  choices:
+  - label: A
+    text: 1。
+    figures: []
+  - label: B
+    text: 2。
+    figures: []
+  - label: C
+    text: 3。
+    figures: []
+  - label: D
+    text: 4。
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 为 $n$ 阶实对称矩阵，$\boldsymbol{b}$ 为 $n$ 维实列向量，则 $A-\boldsymbol{b}\boldsymbol{b}^{\mathsf T}$ 正定是 $\boldsymbol{b}^{\mathsf T}A^{-1}\boldsymbol{b}<1$ 的\ExamSelection
+  choices:
+  - label: A
+    text: 必要非充分条件。
+    figures: []
+  - label: B
+    text: 充分非必要条件。
+    figures: []
+  - label: C
+    text: 充分必要条件。
+    figures: []
+  - label: D
+    text: 既非充分又非必要条件。
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $\boldsymbol{\alpha},\boldsymbol{\beta},\boldsymbol{\gamma}$ 为 $n$ 维列向量，以下结论不正确的是\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      若 $\boldsymbol{\gamma}$ 与 $\boldsymbol{\alpha},\boldsymbol{\beta}$ 均正交，则 $\boldsymbol{\gamma}$ 与 $\boldsymbol{\alpha}-\boldsymbol{\beta}$ 正交。
+    figures: []
+  - label: B
+    text: |-
+      若 $\|\boldsymbol{\alpha}+\boldsymbol{\beta}\|^2=\|\boldsymbol{\alpha}\|^2+\|\boldsymbol{\beta}\|^2$，则 $\boldsymbol{\alpha}$ 与 $\boldsymbol{\beta}$ 正交。
+    figures: []
+  - label: C
+    text: |-
+      若 $\|\boldsymbol{\alpha}-\boldsymbol{\beta}\|^2=\|\boldsymbol{\alpha}\|^2+\|\boldsymbol{\beta}\|^2$，则 $\boldsymbol{\alpha}$ 与 $\boldsymbol{\beta}$ 正交。
+    figures: []
+  - label: D
+    text: |-
+      若 $\boldsymbol{\alpha}$ 与 $\boldsymbol{\beta}$ 正交，则 $\boldsymbol{\alpha}$ 与 $\boldsymbol{\beta}$ 线性无关。
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A,B$ 为 $n$ 阶实对称矩阵，则下列结论不成立的是\ExamSelection
+  choices:
+  - label: A
+    text: $r(A-AB)=r(A)$。
+    figures: []
+  - label: B
+    text: |-
+      $r\left(AB^{\mathsf T}-AB^{\mathsf T}B\right)=r(AB^{\mathsf T})$。
+    figures: []
+  - label: C
+    text: |-
+      $r\left(\begin{pmatrix}BA\\B^{\mathsf T}BA\end{pmatrix}\right)=r(AB^{\mathsf T})$。
+    figures: []
+  - label: D
+    text: $r(A^{T}A;B^{T}A)=r(A)$。
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设随机事件 $A,B,C$，则下列条件中，使得 $P[(A-B)-C]=P[A-(B-C)]$ 成立的一个充分条件是\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $A\cap C=\varnothing$。
+    figures: []
+  - label: B
+    text: |-
+      $B=\varnothing$。
+    figures: []
+  - label: C
+    text: $P(A)=1$。
+    figures: []
+  - label: D
+    text: $P(C)=1$。
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设随机变量 $X,Y$ 独立同分布于 $E(\lambda)$，其中 $\lambda>0$，$F(x)$ 为 $X$ 的分布函数，则 $F(X)$ 同分布的是\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{2X}{X+Y}$。
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{X}{Y}$。
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{X+Y}{2X}$。
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{Y}{X+Y}$。
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知总体 $X$ 的期望 $E(X)=0$，方差 $D(X)=\sigma^2$，$X_1,X_2,\cdots,X_n$ 是来自总体 $X$ 的简单随机样本，其均值为 $\overline{X}$，给出下面各统计量：（1）$\dfrac{1}{n-1}\sum_{i=1}^n(X_i-\overline{X})^2$；（2）$\dfrac{1}{n+1}\sum_{i=1}^n(X_i-\overline{X})^2$；（3）$\dfrac{1}{n}\sum_{i=1}^nX_i^2$；（4）$\dfrac{1}{n+1}\sum_{i=1}^nX_i^2$。其中，可以作为 $\sigma^2$ 的无偏估计量的是\ExamSelection
+  choices:
+  - label: A
+    text: （1）（3）。
+    figures: []
+  - label: B
+    text: （1）（4）。
+    figures: []
+  - label: C
+    text: （2）（3）。
+    figures: []
+  - label: D
+    text: （2）（4）。
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      已知当 $x\to 0$ 时，$ax^3+\sqrt{1+x^2}-x\ln\left(1+\dfrac{x}{2}\right)+b$ 为等价无穷小，则 $ab=$\ExamBlank。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      已知曲面 $z=f(x,y)$ 由方程 $z-x\ln(1+z^2)+e^y=0$ 所确定，则该曲面在点 $(0,0,-1)$ 处的切平面方程为\ExamBlank。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $e^x+e^{-x}\leq 2e^{ax^2}$ 对任意实数 $x$ 均成立，则实数 $a$ 的取值范围是\ExamBlank。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      已知线段 $L:y=x(0\leq x\leq 1)$ 上每点的密度等于该点到原点的距离，则 $L$ 的质心 $(\overline{x},\overline{y})$ 为\ExamBlank。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 为 $3\times2$ 矩阵，$B$ 为 $2\times3$ 矩阵，$AB=\dfrac{1}{3}\begin{pmatrix}2&-1&-1\\-1&2&-1\\-1&-1&2\end{pmatrix}$，则 $BA=$\ExamBlank。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设连续型随机变量 $X$ 的函数 $e^{aX}$ 的期望为 $\dfrac{1}{1-a}$，$a\ne1$，则 $D(X)=$\ExamBlank。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      （本题满分 10 分）设 $D=\left\{(x,y)\mid\sqrt{1-x^2}\leq y\leq\sqrt{4-x^2},-x\leq y,y\geq0\right\}$，计算 $I=\iint_D\dfrac{\sqrt{x^2+y^2}}{x^2+2y^2}\mathrm{d}x\mathrm{d}y$。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: （本题满分 12 分）设 $g(x,y)$ 是函数 $f(x,y)=x+2y+xy$ 在点 $(x,y)$ 处的最大方向导数。
+  subparts:
+  - text: 求 $g(x,y)$ 的表达式；
+  - text: 求 $g(x,y)$ 在曲线 $C:x^2+y^2=5$ 上的最大值。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      （本题满分 12 分）设 $f(x)$ 在 $[a,b]$ 上连续，证明 $f(x)$ 是 $[a,b]$ 上的凸函数的充要条件是：对任意 $[x-c,x+c]\subset[a,b](c>0)$，均有 $f(x)\geq\dfrac{1}{2c}\int_{x-c}^{x+c}f(t)\mathrm{d}t$。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      （本题满分 12 分）设曲面 $\Sigma$ 是由直线 $L:\begin{cases}x=\dfrac{\sqrt{2}}{2}t-\dfrac{\sqrt{2}}{2}\\y=\dfrac{\sqrt{2}}{2}t+\dfrac{\sqrt{2}}{2}\\z=t\end{cases}(t\in[0,1])$ 绕 $z$ 轴旋转而得，$\Omega$ 是 $\Sigma$ 与平面 $z=0,z=1$ 所围成的立体，其密度为 $\mu(x,y,z)=\dfrac{z}{1+x^2+y^2}$，求：（1）曲面 $\Sigma$ 的直角坐标方程；（2）$\Omega$ 的质量。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      （本题满分 12 分）设 $A\begin{pmatrix}x_1\\x_2\end{pmatrix}=\begin{pmatrix}x_1+2x_2\\x_1-x_2\\2x_1+ax_2\end{pmatrix}$，$B\begin{pmatrix}x_1\\x_2\\x_3\end{pmatrix}=\begin{pmatrix}x_1+2x_2+3x_3\\bx_1-2x_2-3x_3\end{pmatrix}$。若 $A^{\mathsf T}\boldsymbol{x}=0$ 的解是 $B\boldsymbol{x}=0$ 的解且它们不同解，（1）求 $a,b$ 的值；（2）用正交矩阵 $Q$ 将 $f(x_1,x_2)=\boldsymbol{x}^{\mathsf T}B A\boldsymbol{x}$ 化为标准形。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      （本题满分 12 分）设二维总体随机变量 $(X,Y)$ 的概率密度为 $f(x,y)=2\theta^{-2}e^{-\dfrac{x+y}{\theta}}$，$0<x<y$，其中 $\theta>0$ 为未知参数，$(X_1,Y_1),(X_2,Y_2),\cdots,(X_n,Y_n)$ 为来自总体 $(X,Y)$ 的一组简单随机样本。
+  subparts:
+  - text: |-
+      求 $\theta$ 的最大似然估计量 $\hat{\theta}$；
+  - text: |-
+      求 $E(\hat{\theta})$。

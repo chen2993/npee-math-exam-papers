@@ -1,0 +1,330 @@
+schema_version: '3.0'
+paper:
+  series_key: liyanfang3
+  year: 2026
+  subject: math1
+  paper_no: 3
+content_hash: 22d2cf17cbee9eb1a5cec17f0f05f7932a795b32d1ad78146ef536bfb6a49b1d
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x),g(x)$ 连续，且 $f(x),g(x)$ 均为 $x\to0$ 时的无穷小量，满足 $0\leq f(x)\leq |g(x)|$，则\ExamSelection
+  choices:
+  - label: A
+    text: 若 $|g(x)|$ 在 $x=0$ 处可导，则 $f'(0)=0$。
+    figures: []
+  - label: B
+    text: 若 $|g(x)|$ 在 $x=0$ 处可导，则 $f'(0)$ 存在，但不等于 $0$。
+    figures: []
+  - label: C
+    text: 若 $g'(0)$ 存在，则 $f'(0)=0$。
+    figures: []
+  - label: D
+    text: 若 $g'(0)$ 存在，则 $f'(0)$ 存在，但不等于 $0$。
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x)$ 连续，则“存在 $\delta>0$，当 $x\in(x_0-\delta,x_0+\delta)$ 且 $x\ne x_0$ 时，$\lim_{t\to x_0}\dfrac{f(t)-f(x)}{(t-x)^2}\leq0$”是“$x_0$ 是 $f(x)$ 的极小值点”的\ExamSelection
+  choices:
+  - label: A
+    text: 充分不必要条件。
+    figures: []
+  - label: B
+    text: 必要不充分条件。
+    figures: []
+  - label: C
+    text: 充分必要条件。
+    figures: []
+  - label: D
+    text: 既不充分也不必要条件。
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设封闭曲面 $\Sigma_1:\left(x-\dfrac{1}{2}\right)^2+y^2+z^2=1$，$\Sigma_2:(x-1)^2+y^2+z^2=2$，$\Sigma_3:(x-1)^2+(y-2)^2+(z-3)^2=2$，均取外侧，记 $r=\sqrt{x^2+y^2+z^2}$，则第二类曲面积分 $I_i=\iint_{\Sigma_i}\left(\dfrac{x}{r^3}+x\right)\,\mathrm{d}y\mathrm{d}z+\left(\dfrac{y}{r^3}-2y\right)\,\mathrm{d}z\mathrm{d}x+\left(\dfrac{z}{r^3}+4z\right)\,\mathrm{d}x\mathrm{d}y$ 的大小关系为\ExamSelection
+  choices:
+  - label: A
+    text: $I_2>I_1>I_3$。
+    figures: []
+  - label: B
+    text: $I_3>I_1>I_2$。
+    figures: []
+  - label: C
+    text: $I_2>I_3>I_1$。
+    figures: []
+  - label: D
+    text: $I_3>I_2>I_1$。
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)$ 是周期为 $2\pi$ 的周期函数，且当 $x\in[-\pi,\pi]$ 时，$f(x)=\pi^2-x^2$，若 $f(x)=\dfrac{a_0}{2}+\sum_{n=1}^{\infty}a_n\cos nx$，则 $\sum_{n=1}^{\infty}(-1)^n(a_n-a_{2n})=$\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{7\pi^2}{12}$。
+    figures: []
+  - label: B
+    text: |-
+      $-\dfrac{7\pi^2}{12}$。
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{3\pi^2}{4}$。
+    figures: []
+  - label: D
+    text: |-
+      $-\dfrac{3\pi^2}{4}$。
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设矩阵 $A$ 的第一行为 $(1,-2,1)$，第二行元素的代数余子式 $A_{21},A_{22},A_{23}$ 分别为 $k,-k+2,2k-1$，则将 $A$ 的第二行元素换成 $(1,3,2)$ 后所得矩阵的行列式为\ExamSelection
+  choices:
+  - label: A
+    text: $-2$。
+    figures: []
+  - label: B
+    text: $2$。
+    figures: []
+  - label: C
+    text: $-6$。
+    figures: []
+  - label: D
+    text: $6$。
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $3$ 阶实对称矩阵 $A=(\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3)$，且 $\boldsymbol{\alpha}_1-\boldsymbol{\alpha}_2+\boldsymbol{\alpha}_3=(1,-1,1)^{\mathrm{T}}$。已知 $E-A=A^*$，且 $A^*$ 的一个元素 $A_{11}\ne0$。记三张平面的方程分别为 $\pi_i:\boldsymbol{\alpha}_i^{\mathrm{T}}\boldsymbol{x}=(-1)^i\ (i=1,2,3)$，则这三张平面可能的位置关系为\ExamSelection
+  choices:
+  - label: A
+    text: ''
+    figures:
+    - kind: tikz
+      latex: |-
+        \tdplotsetmaincoords{70}{115}\begin{tikzpicture}[baseline=-.5ex,tdplot_main_coords,scale=.45,line join=round,line cap=round]\tikzset{plane/.style={draw,fill=white,line width=.45pt},trace/.style={very thick,line width=.65pt}}\path[plane] (-1.55,-1.05,.85)--(1.55,-1.05,.85)--(1.55,1.05,.85)--(-1.55,1.05,.85)--cycle;\path[plane] (-1.55,-1.05,-.85)--(1.55,-1.05,-.85)--(1.55,1.05,-.85)--(-1.55,1.05,-.85)--cycle;\path[plane] (-1.55,0,-.95)--(1.55,0,-.95)--(1.55,0,1.05)--(-1.55,0,1.05)--cycle;\draw[trace] (-1.55,0,.85)--(1.55,0,.85);\draw[trace] (-1.55,0,-.85)--(1.55,0,-.85);\end{tikzpicture}
+      path:
+      description: 选择题图形选项
+      exception_reason:
+  - label: B
+    text: ''
+    figures:
+    - kind: tikz
+      latex: |-
+        \tdplotsetmaincoords{70}{115}\begin{tikzpicture}[baseline=-.5ex,tdplot_main_coords,scale=.45,line join=round,line cap=round]\tikzset{plane/.style={draw,fill=white,line width=.45pt},trace/.style={very thick,line width=.65pt}}\path[plane] (-1.45,-1.25,0)--(1.45,-1.25,0)--(1.45,1.25,0)--(-1.45,1.25,0)--cycle;\path[plane] (0,-1.25,-1.25)--(0,-1.25,1.25)--(0,1.25,1.25)--(0,1.25,-1.25)--cycle;\path[plane] (-1.45,0,-1.25)--(-1.45,0,1.25)--(1.45,0,1.25)--(1.45,0,-1.25)--cycle;\draw[trace] (-1.45,0,0)--(1.45,0,0);\draw[trace] (0,-1.25,0)--(0,1.25,0);\draw[trace] (0,0,-1.25)--(0,0,1.25);\end{tikzpicture}
+      path:
+      description: 选择题图形选项
+      exception_reason:
+  - label: C
+    text: ''
+    figures:
+    - kind: tikz
+      latex: |-
+        \tdplotsetmaincoords{70}{115}\begin{tikzpicture}[baseline=-.5ex,tdplot_main_coords,scale=.45,line join=round,line cap=round]\tikzset{plane/.style={draw,fill=white,line width=.45pt},trace/.style={very thick,line width=.65pt}}\coordinate (P) at (0,0,-.95);\coordinate (Q) at (0,0,.95);\path[plane] (P)--(-1.45,0,-.95)--(-1.45,0,.95)--(Q)--cycle;\path[plane] (P)--(0,-1.45,-.95)--(0,-1.45,.95)--(Q)--cycle;\path[plane] (P)--(1.20,.90,-.95)--(1.20,.90,.95)--(Q)--cycle;\draw[trace] (P)--(Q);\end{tikzpicture}
+      path:
+      description: 选择题图形选项
+      exception_reason:
+  - label: D
+    text: ''
+    figures:
+    - kind: tikz
+      latex: |-
+        \tdplotsetmaincoords{70}{115}\begin{tikzpicture}[baseline=-.5ex,tdplot_main_coords,scale=.45,line join=round,line cap=round]\tikzset{plane/.style={draw,fill=white,line width=.45pt},trace/.style={very thick,line width=.65pt}}\path[plane] (-1.35,-1.20,0)--(1.35,-1.20,0)--(1.35,1.20,0)--(-1.35,1.20,0)--cycle;\path[plane] (0,-1.20,-1.20)--(0,-1.20,1.20)--(0,1.20,1.20)--(0,1.20,-1.20)--cycle;\path[plane] (1,0,-1.20)--(0,1,-1.20)--(0,1,1.20)--(1,0,1.20)--cycle;\draw[trace] (0,-1.20,0)--(0,1.20,0);\draw[trace] (1,0,0)--(0,1,0);\draw[trace] (0,1,-1.20)--(0,1,1.20);\end{tikzpicture}
+      path:
+      description: 选择题图形选项
+      exception_reason:
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知二次型 $f(x_1,x_2,x_3)=x_1^2+2x_2^2+2x_3^2+4tx_1x_2+2x_1x_3$ 经可逆线性变换 $\boldsymbol{x}=P\boldsymbol{y}$ 可化为二次型 $g(y_1,y_2,y_3)=-2y_1y_2+2y_1y_3+2ty_2y_3$，则 $t$ 的取值范围是\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $(-\infty,-\dfrac{1}{2})$。
+    figures: []
+  - label: B
+    text: |-
+      $(-\dfrac{1}{2},0)$。
+    figures: []
+  - label: C
+    text: |-
+      $(0,\dfrac{1}{2})$。
+    figures: []
+  - label: D
+    text: |-
+      $(\dfrac{1}{2},+\infty)$。
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      某闯关游戏共设 $A,B,C$ 三关，各关之间相互独立，每关有两次闯关机会，第一次通过 $A,B,C$ 的概率分别为 $\dfrac{1}{2},\dfrac{1}{3},\dfrac{1}{4}$，在第一次失败的条件下，第二次通过 $A,B,C$ 的概率分别为 $\dfrac{2}{3},\dfrac{1}{2},\dfrac{1}{4}$，则某人通关时至多有一关需要闯关两次的概率为\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{29}{288}$。
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{41}{288}$。
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{29}{144}$。
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{41}{144}$。
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $X$ 服从参数为 $\dfrac{1}{2}$ 的指数分布，$Y=\sqrt{\dfrac{X}{2}}$，则 $P\{Y\leq E(Y)\}=$\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $1-\mathrm{e}^{-4\pi}$。
+    figures: []
+  - label: B
+    text: |-
+      $1-\mathrm{e}^{-16\pi}$。
+    figures: []
+  - label: C
+    text: |-
+      $1-\mathrm{e}^{-\dfrac{\pi}{4}}$。
+    figures: []
+  - label: D
+    text: |-
+      $1-\mathrm{e}^{-\dfrac{\pi}{16}}$。
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设总体 $X$ 的数学期望 $E(X)=1$，方差 $D(X)=2$，$X_1,X_2,\cdots,X_n$ 是来自该总体的一个简单随机样本，$\overline{X}$ 为样本均值。已知 $X_1-\overline{X}$ 与 $X_2-\overline{X}$ 的相关系数为 $-\dfrac{1}{99}$，则 $\overline{X}^2$ 的数学期望 $E(\overline{X}^2)=$\ExamSelection
+  choices:
+  - label: A
+    text: $1$。
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{101}{100}$。
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{51}{50}$。
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{101}{99}$。
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $\lim_{n\to\infty}\int_0^2\sqrt[n]{x^{\dfrac{n}{2}}+x^{2n}}\,\mathrm{d}x=$\ExamBlank。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      函数 $f(x)=\sin x\cos2x$ 在 $x=0$ 处的 $2n+1$ 阶导数 $f^{(2n+1)}(0)=$\ExamBlank。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      曲面 $z=\dfrac{1}{2}\ln(1+x^2+2y^2)$ 在点 $(1,-1,\ln2)$ 处的切平面方程为\ExamBlank。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设区域 $D$ 为圆心在原点的单位圆盘位于直线 $x+y=2a\left(\dfrac{1}{2}<a<\dfrac{\sqrt{2}}{2}\right)$ 上方的部分，记区域 $D$ 的形心坐标为 $(\overline{x},\overline{y})$，面积为 $S$，则 $(\overline{x}+\overline{y})S=$\ExamBlank。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $3$ 阶矩阵 $A=(a_{ij})$，其中 $a_{ij}=\min\{i,j\}$，记 $A$ 的特征值为 $\lambda_1,\lambda_2,\lambda_3$，则 $\lambda_1^2+\lambda_2^2+\lambda_3^2=$\ExamBlank。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $D_1,D_2$ 分别是以原点 $O$ 为圆心的单位圆位于第一、二象限部分的区域，独立地分别向 $D_1,D_2$ 内随机掷一点，记为 $A,B$，连接 $OA,OB$，则 $\angle AOB$ 的方差为\ExamBlank。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      设函数 $y=f(x)$ 由参数方程 $\begin{cases}x(t)=t^2+2t,\\y(t)=\int_0^t g(u)\,\mathrm{d}u\end{cases}\ (t\geq0)$ 所确定，其中 $g(t)$ 为可导函数，且 $g(0)=-4$。
+  subparts:
+  - text: |-
+      已知 $\dfrac{\mathrm{d}^2y}{\mathrm{d}x^2}=\dfrac{\sin t}{t+1}$，求 $y=f(x)$ 的表达式；
+  - text: |-
+      若当 $x\to0^+$ 时，$f(x)$ 是 $x^k$ 的同阶无穷小，求 $k$ 以及 $\lim_{x\to0^+}\dfrac{f(x)}{x^k}$。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设空间立体 $\Omega(x,y,z)$ 位于第一卦限，底面为长方形，底面的一个顶点位于原点，另外两个顶点分别位于 $x$ 轴正半轴与 $y$ 轴正半轴，$\Omega(x,y,z)$ 的顶部曲面满足方程 $z=1-x^2-2y^2$，问：$\Omega(x,y,z)$ 的体积是否存在最大值，如果有，请求出该最大值。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      已知有向曲线 $L$ 为曲面 $z=1-x^2-2y^2$ 与平面 $x+z=1$ 的交线，从 $z$ 轴正向往 $z$ 轴负向看去为逆时针方向，计算曲线积分 $I=\oint_L xyz\,\mathrm{d}x+xy^2\,\mathrm{d}y+x^2z\,\mathrm{d}z$。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $a_0=1,a_1=1,a_{n+1}=a_n+\dfrac{1}{2}a_{n-1},b_n=\dfrac{a_n}{2^n}$。
+  subparts:
+  - text: |-
+      证明 $\lim_{n\to\infty}\dfrac{a_{n+1}}{a_n}$ 存在，并求该极限；
+  - text: |-
+      证明 $\sum_{n=0}^{\infty}b_n$ 收敛，并求其和。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $a_1,a_2,a_3$ 互不相同，$\boldsymbol{\alpha}_1=(a_1,a_2,a_3)^{\mathrm{T}},\boldsymbol{\alpha}_2=(a_2,a_3,a_1)^{\mathrm{T}},\boldsymbol{\alpha}_3=(a_3,a_1,a_2)^{\mathrm{T}}$。已知 $A=(\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3)$ 为二次型 $f(x_1,x_2,x_3)=\boldsymbol{x}^{\mathrm{T}}A\boldsymbol{x}$ 对应的实对称矩阵，且 $\operatorname{tr}(A)=-4$。
+  subparts:
+  - text: |-
+      证明：$\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3$ 线性无关。
+  - text: 若 $|A|=196,f(4,-5,1)=-294$，求矩阵 $A$。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设随机变量 $X$ 的分布律为 $P\{X=k\}=\dfrac{1}{k(k+1)},k=1,2,\cdots$，当 $X=k$ 时，$Y$ 的条件概率密度 $f_{Y\mid X}(y\mid x)=\begin{cases}(k+1)y^k,&y\in(0,1),\\0,&\text{其他}\text{。}\end{cases}$
+  subparts:
+  - text: 求 $Y$ 的分布函数；
+  - text: 求 $E(Y)$。

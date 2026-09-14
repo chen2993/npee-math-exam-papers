@@ -1,0 +1,293 @@
+schema_version: '3.0'
+paper:
+  series_key: chaoyue10
+  year: 2025
+  subject: math2
+  paper_no: 10
+content_hash: 9aafb40fa87c7d4f65362d5c68842838ae3025347772774ccca419e22e76643a
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      当 $x\to0$ 时，下列无穷小量中阶数最高的是\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\int_{x^2}^{x^3}\sqrt{1-\sqrt{\cos t}}\,\mathrm{d}t$
+    figures: []
+  - label: B
+    text: |-
+      $\int_{\sin x}^{2x}\sin t^2\,\mathrm{d}t$
+    figures: []
+  - label: C
+    text: |-
+      $\int_x^{\sin x}(e^{t^2}-1)\,\mathrm{d}t$
+    figures: []
+  - label: D
+    text: |-
+      $\int_0^{1-\cos x}\ln(1+\sqrt{t})\,\mathrm{d}t$
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)=xe^x$，则 $\lim_{n\to\infty}\dfrac{1}{f^{(n)}(0)}\sum_{k=1}^n f\left[\dfrac{f^{(k)}(0)}{n}\right]=$\ExamSelection。
+  choices:
+  - label: A
+    text: $1$
+    figures: []
+  - label: B
+    text: $e$
+    figures: []
+  - label: C
+    text: $e^2$
+    figures: []
+  - label: D
+    text: $2e$
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)$ 在点 $x=1$ 处二阶可导，且 $f(1)\ne0$。若 $\lim_{x\to0}\left(\dfrac{f(\cos x)}{f(1)}\right)^{\dfrac{1}{x^4}}=e$，则下列说法错误的是\ExamSelection。
+  choices:
+  - label: A
+    text: $f'(1)=0$
+    figures: []
+  - label: B
+    text: 若 $f(1)>0$，则 $f(1)$ 是极大值
+    figures: []
+  - label: C
+    text: 若 $f(1)<0$，则 $f(1)$ 是极大值
+    figures: []
+  - label: D
+    text: $(1,f(1))$ 一定不是拐点
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      若反常积分 $\int_0^{+\infty}\dfrac{x^p(1-e^{-x})}{(1+x)^q}\,\mathrm{d}x$ 收敛，则\ExamSelection。
+  choices:
+  - label: A
+    text: $p>-2,q>1+p$
+    figures: []
+  - label: B
+    text: $p>-2,q>p$
+    figures: []
+  - label: C
+    text: $p<-2,q>p$
+    figures: []
+  - label: D
+    text: $p<-2,q>1+p$
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设变换 $\begin{cases}u=x+y,\\v=x-ay\end{cases}$ 将方程 $\dfrac{\partial^2z}{\partial x^2}+\dfrac{\partial^2z}{\partial y^2}=0$ 转换为 $\dfrac{\partial^2z}{\partial u^2}+\dfrac{\partial^2z}{\partial v^2}=0$ 的充分必要条件为 $a=$\ExamSelection。
+  choices:
+  - label: A
+    text: $0$
+    figures: []
+  - label: B
+    text: $1$
+    figures: []
+  - label: C
+    text: $2$
+    figures: []
+  - label: D
+    text: $3$
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      区域 $D$ 由 $r=1-\cos\theta\,(0\leq\theta\leq\pi)$ 以及 $\theta=\pi$ 所围，则 $\iint_D(x+y)\,\mathrm{d}\sigma=$\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{2}{3}+\dfrac{\pi}{8}$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{4}{3}-\dfrac{5}{8}\pi$
+    figures: []
+  - label: C
+    text: $0$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{7}{3}-\dfrac{3}{8}\pi$
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知 $x=0$ 是函数 $f(x)=\begin{cases}\dfrac{(a+x)^x-1}{b-\cos x},&x\ne0,\\0,&x=0\end{cases}\,(a>0)$ 的可去间断点，则常数 $a,b$ 的取值为\ExamSelection。
+  choices:
+  - label: A
+    text: $a=1,b$ 为任意实数
+    figures: []
+  - label: B
+    text: $b=1,a$ 为任意实数
+    figures: []
+  - label: C
+    text: |-
+      $a\ne1,b\ne1$
+    figures: []
+  - label: D
+    text: $a=1,b=1$
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 是 $4\times3$ 矩阵，$A$ 的列向量组线性无关，则下列结论中：① $A^{\mathrm{T}}x=0$ 有非零解；② 对任意 $3$ 维列向量 $\beta$，$A^{\mathrm{T}}x=\beta$ 有无穷多解；③ $A^{\mathrm{T}}Ax=0$ 只有零解；④ 对 $3\times3$ 矩阵 $B$ 和 $C$，若 $AB=AC$，则 $B=C$。正确的个数为\ExamSelection。
+  choices:
+  - label: A
+    text: $1$
+    figures: []
+  - label: B
+    text: $2$
+    figures: []
+  - label: C
+    text: $3$
+    figures: []
+  - label: D
+    text: $4$
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      对 $3$ 阶矩阵 $A$ 作如下初等变换：先将第 $1$ 行的 $2$ 倍加到第 $2$ 行上，再交换第 $1$ 行和第 $3$ 行得到 $B$，若 $|A|=2$，则 $AB^*=$\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\begin{pmatrix}0&0&-2\\4&-2&0\\-2&0&0\end{pmatrix}$
+    figures: []
+  - label: B
+    text: |-
+      $\begin{pmatrix}-2&0&0\\4&-2&0\\0&0&-2\end{pmatrix}$
+    figures: []
+  - label: C
+    text: |-
+      $\begin{pmatrix}0&0&-2\\0&-2&4\\-2&0&0\end{pmatrix}$
+    figures: []
+  - label: D
+    text: |-
+      $\begin{pmatrix}-2&0&0\\0&-2&4\\0&0&-2\end{pmatrix}$
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A,B$ 均为 $n$ 阶正定矩阵，则下列选项错误的是\ExamSelection。
+  choices:
+  - label: A
+    text: 存在可逆矩阵 $P$ 和 $Q$，使得 $PAQ=B$
+    figures: []
+  - label: B
+    text: |-
+      存在可逆矩阵 $P$，使得 $P^{\mathrm{T}}AP=B$
+    figures: []
+  - label: C
+    text: 存在可逆矩阵 $P$，使得 $P^{-1}ABP=BA$
+    figures: []
+  - label: D
+    text: 存在可逆矩阵 $Q$，使得 $Q^{-1}AQ=B$
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      函数 $y=y(x)$ 是由方程 $\begin{cases}x=e^t-|t|,\\y=e^t\end{cases}$ 确定，则曲线 $y=y(x),x\in(-\infty,e-1]$，直线 $x=e-1$，以及 $x$ 轴围成的图形绕 $x$ 轴旋转一周形成旋转体体积为\ExamBlank。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      计算 $\int_0^1\left[(e-1)\sqrt{\ln(1+ex-x)}+e^{x^2}\right]\,\mathrm{d}x=$\ExamBlank。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $\lim_{x\to0}\int_0^x\dfrac{e^{-(tx)^2}-1}{e^{\sin^5x}-1}\,\mathrm{d}t=$\ExamBlank。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      已知方程 $y''+y=\sin x+\cos x$ 的解均为方程 $y''+y'+ay=f(x)$ 的解，其中 $a$ 为常数，则 $f(x)=$\ExamBlank。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $f(u,v)$ 为可微函数，$z=z(x,y)$ 是由方程 $f(u,v)=0,u=x^2-yx,v=y^2-xz$ 确定的二元函数，且 $yf'_1+xf'_2\ne0$，则 $y\dfrac{\partial z}{\partial x}+\dfrac{x}{y}\dfrac{\partial z}{\partial y}=$\ExamBlank。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $3$ 阶方阵 $A$ 不可逆，$\alpha,\beta$ 是两个线性无关的 $3$ 维列向量，且 $A\alpha=\beta,A\beta=\alpha$，则 $\operatorname{tr}[(A+2E)^*]=$\ExamBlank。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      求曲线 $y=f(x)=x^2\left[\left(1+\dfrac{1}{x}\right)^x-e\right]\,(x>0)$ 的斜渐近线。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 $f(x)$ 在 $[0,1]$ 上二阶可导，满足 $\lim_{x\to0^+}\dfrac{f(x)-f(1)}{x^2}=2$。证明：
+  subparts:
+  - text: |-
+      存在 $\xi\in(0,1)$，有 $f''(\xi)=0$。
+  - text: |-
+      存在 $\eta\in(0,1)$，使得 $f'(\eta)=\dfrac{f(\eta)-f(0)}{\eta}$。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      求 $f(x,y)=\dfrac{4}{3}x^2+y^2+\dfrac{4}{3}x+y$ 在 $D:x^2+\dfrac{3}{4}y^2\leq1$ 内的最大值和最小值。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $D=\{(x,y)\mid0\leq x\leq\sqrt{\pi},0\leq y\leq\sqrt{\pi}\}$，记 $I_1=\iint_D\sin(\max\{x^2,y^2\})\,\mathrm{d}x\mathrm{d}y$，$I_2=\iint_D\sin(\min\{x^2,y^2\})\,\mathrm{d}x\mathrm{d}y$，证明 $I_2<I_1$。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $f(x)$ 在点 $x_0$ 某邻域内有一阶连续导数，记 $a_n=f\left(x_0+\dfrac{1}{n^2}\right)+f\left(x_0+\dfrac{2}{n^2}\right)+\cdots+f\left(x_0+\dfrac{n}{n^2}\right)-nf(x_0)$。
+  subparts:
+  - text: |-
+      证明：$\lim_{n\to\infty}a_n=\dfrac{1}{2}f'(x_0)$。
+  - text: |-
+      求 $\lim_{n\to\infty}\dfrac{(1+n^2)(2+n^2)\cdots(n+n^2)}{(n+1)^{2n}}$。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设二次型 $f(x_1,x_2,x_3)$ 的矩阵为 $A$，满足 $|A-2E|=0$ 且 $AB=O$，其中 $B=\begin{pmatrix}-1&-1&1\\1&0&1\\0&1&-2\end{pmatrix}$。用正交变换化该二次型为标准形，求出该正交变换和矩阵 $A$。

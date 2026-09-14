@@ -1,0 +1,293 @@
+schema_version: '3.0'
+paper:
+  series_key: chaoyue10
+  year: 2025
+  subject: math2
+  paper_no: 8
+content_hash: b5a0d66dc8235fa267f46e7f6f0146b14e67a231cc04d3324eeea2a8c2f32c86
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      当 $x\to0$ 时，$\left(\cos\dfrac{x}{3}\right)^3\left(\cos\dfrac{x}{5}\right)^5-\cos x$ 是 $x^2$ 的\ExamSelection。
+  choices:
+  - label: A
+    text: 高阶无穷小
+    figures: []
+  - label: B
+    text: 低阶无穷小
+    figures: []
+  - label: C
+    text: 同阶无穷小但不等价
+    figures: []
+  - label: D
+    text: 等价无穷小
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x)$ 与 $p(x)$ 具有任意阶导数，满足 $f''(x)+p(x)f'(x)+xf(x)=x+x^2$，$f'(0)=0$，$f(0)=1$，则\ExamSelection。
+  choices:
+  - label: A
+    text: $f(0)$ 为 $f(x)$ 的极大值
+    figures: []
+  - label: B
+    text: $f(0)$ 为 $f(x)$ 的极小值
+    figures: []
+  - label: C
+    text: 点 $(0,1)$ 为 $f(x)$ 的拐点
+    figures: []
+  - label: D
+    text: $f'(0)$ 为 $f(x)$ 的极大值
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x)$ 在 $(-\infty,+\infty)$ 内连续，则关于 $F(x)=\dfrac{1}{x}\int_0^x f(t)\,\mathrm{d}t$ $(x\ne0)$ 的下列四个结论：①若 $f(x)$ 为奇函数，则 $F(x)$ 也是奇函数；②若 $f(x)$ 是以 $T(T>0)$ 为周期的周期函数，则 $F(x)$ 也是以 $T$ 为周期的周期函数；③$F(x)$ 是 $(0,1)$ 内的有界函数；④若 $f(x)$ 在 $(0,+\infty)$ 为单调递增函数，则 $F(x)$ 在 $(0,+\infty)$ 也为单调递增函数中正确的个数是\ExamSelection。
+  choices:
+  - label: A
+    text: '1'
+    figures: []
+  - label: B
+    text: '2'
+    figures: []
+  - label: C
+    text: '3'
+    figures: []
+  - label: D
+    text: '4'
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)$ 在闭区间 $[0,1]$ 上可导，$f(0)=0$ 且 $f'(x)>0$，反常积分 $\int_0^1\dfrac{f(x)}{x^\alpha}\,\mathrm{d}x$ 和 $\int_1^{+\infty}\dfrac{\ln x}{x^\alpha}\,\mathrm{d}x$ 均收敛，则 $\alpha$ 的取值范围为\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $1<\alpha\leq2$
+    figures: []
+  - label: B
+    text: |-
+      $1<\alpha<2$
+    figures: []
+  - label: C
+    text: |-
+      $0\leq\alpha<2$
+    figures: []
+  - label: D
+    text: |-
+      $0<\alpha<2$
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f\left(x+2y,\dfrac{y}{x}\right)=\sin x\cdot\ln y$，则 $\left.\dfrac{2}{3}\dfrac{\partial f}{\partial x}\right|_{(1,1)}+\left.\dfrac{\partial f}{\partial y}\right|_{(1,1)}=$\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{1}{3}\sin\dfrac{1}{3}$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{1}{2}\sin\dfrac{1}{3}$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{2}{3}\sin\dfrac{1}{3}$
+    figures: []
+  - label: D
+    text: |-
+      $\sin\dfrac{1}{3}$
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设区域 $D_a:a^2\leq x^2+y^2\leq4a^2$，$a>0$，$F(a)=\iint_{D_a}\dfrac{x^2\sin\left[\pi(x^2+y^2)\right]}{(x^2+y^2)^{3/2}}\,\mathrm{d}\sigma$，且 $F(0)=0$，则 $F'_+(0)$=\ExamSelection。
+  choices:
+  - label: A
+    text: $0$
+    figures: []
+  - label: B
+    text: $a$
+    figures: []
+  - label: C
+    text: $a^2$
+    figures: []
+  - label: D
+    text: $4a^2$
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x)>0$ 且单调递增，则积分 $I_1=\int_0^{\pi/2}f(x)\sin x\,\mathrm{d}x$，$I_2=\int_0^{\pi/2}f(x)\cos x\,\mathrm{d}x$，$I_3=\int_0^{\pi/2}f(x)\tan x\,\mathrm{d}x$ 的大小顺序为\ExamSelection。
+  choices:
+  - label: A
+    text: $I_1>I_2>I_3$
+    figures: []
+  - label: B
+    text: $I_1>I_3>I_2$
+    figures: []
+  - label: C
+    text: $I_2>I_3>I_1$
+    figures: []
+  - label: D
+    text: $I_3>I_1>I_2$
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 为 $4\times5$ 阶矩阵，$B$ 为 $4$ 阶矩阵，若齐次线性方程组 $AA^{\mathrm T}x=0$ 仅有零解，$B'x=0$ 解向量组的秩为 $3$，则齐次线性方程组 $A^{\mathrm T}Bx=0$ 解向量组的秩为\ExamSelection。
+  choices:
+  - label: A
+    text: '4'
+    figures: []
+  - label: B
+    text: '3'
+    figures: []
+  - label: C
+    text: '2'
+    figures: []
+  - label: D
+    text: '1'
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      $P,Q$ 为 $3$ 阶矩阵，$P'$ 为 $P$ 的伴随矩阵，$|P|=2$，$|P-2Q|=6$，则 $|P'Q-E|=$\ExamSelection。
+  choices:
+  - label: A
+    text: $-3$
+    figures: []
+  - label: B
+    text: $-4$
+    figures: []
+  - label: C
+    text: $8$
+    figures: []
+  - label: D
+    text: $12$
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设四阶矩阵 $A=(a_{ij})_{4\times4}$ 满足 $\sum_{j=1}^4a_{ij}=0\ (i=1,2,3,4)$，$M_{ij}$ 与 $A_{ij}$ 分别为元素 $a_{ij}$ 的余子式和代数余子式，下列四个式子中必成立有\ExamSelection{}个。①$M_{21}+M_{22}+M_{23}+M_{24}=0$；②$A_{21}+A_{22}+A_{23}+A_{24}=0$；③$M_{21}=M_{22}=M_{23}=M_{24}$；④$A_{21}=A_{22}=A_{23}=A_{24}$
+  choices:
+  - label: A
+    text: '1'
+    figures: []
+  - label: B
+    text: '2'
+    figures: []
+  - label: C
+    text: '3'
+    figures: []
+  - label: D
+    text: '4'
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $\lim_{x\to0}\dfrac{\ln(e^x-\sin x)-x}{\arctan(\sqrt{1-x}-1)}=$ \ExamBlank。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)=\int_x^{\pi/2}\dfrac{\sin t}{t}\,\mathrm{d}t$，则 $\int_0^{\pi/2}(x+1)e^x\cdot f(x)\,\mathrm{d}x=$ \ExamBlank。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      平面曲线 $x=a\cos^3t$，$y=a\sin^3t$ $(a>0,0\leq t\leq\dfrac{\pi}{2})$ 和坐标轴围成的图形绕 $y$ 轴旋转一周形成的旋转体的体积 $V=$ \ExamBlank。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      若函数 $f(x)$ 满足方程 $f'(x)=f(\pi-x)$ 且 $f(0)=1$，则 $f(x)=$ \ExamBlank。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设函数 $u=x^2+y^2+yz$，函数 $y=y(x)$，$z=z(x)$ 由方程组 $\begin{cases}e^{xy}-y+z=2,\ e^x-xz=0\end{cases}$ 确定，则 $\mathrm{d}u(1,0,1)=$ \ExamBlank。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $A=\begin{pmatrix}2&3a-4&-3\\0&3&a+2\\0&-1&1\end{pmatrix}$，若 $A$ 的任意两个特征向量都线性相关，则 $a=$ \ExamBlank。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      设函数 $y=f_1(x),y=f_2(x)$ 在点 $x=0$ 的某邻域内连续单调递增，且 $f_1(0)=f_2(0)=0$，$x=\varphi_1(y),x=\varphi_2(y)$ 分别为 $y=f_1(x),y=f_2(x)$ 的反函数。如果当 $x\to0^+$ 时，$f_1(x)\sim f_2(x)\sim Ax^k$，其中常数 $A\ne0,k>0$。
+  subparts:
+  - text: |-
+      证明当 $y\to0^+$ 时，$\varphi_1(y)\sim\varphi_2(y)$；
+  - text: |-
+      设 $y=e^x-1-x-\dfrac{1}{2}x^2$，$x=\varphi_1(y)$ 为其反函数，求极限 $\lim_{x\to0^+}\dfrac{\varphi_1(x-\sin x)}{x}$。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      光滑凹曲线 $y=f(x)$，$\left(-\dfrac{\pi}{2}<x<\dfrac{\pi}{2}\right)$ 在原点处与 $x$ 轴相切，且该曲线在任一点 $(x,y)$ 处的曲率为 $e^{-y}$，求该曲线的方程 $y=f(x)$。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 $f(x,y)$ 具有二阶连续偏导数，当 $(x,y)\ne(0,0)$ 时，$f\ne0$，且 $f\cdot\dfrac{\partial^2f}{\partial x\partial y}=\dfrac{\partial f}{\partial x}\cdot\dfrac{\partial f}{\partial y}$。
+  subparts:
+  - text: |-
+      证明 $\dfrac{\partial f}{\partial x}=f\cdot\phi(x)$；
+  - text: |-
+      若 $\phi(x)=\dfrac{1}{x}$，$f(1,y)=y^3$，求 $z=f(x,y)$ 在条件 $x^2+y^2=1$ 下的最大值与最小值。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $D$ 是由 $x+y=2$ 与 $x$ 轴、$y$ 轴所围成的区域，计算 $I=\iint_D\left(e^{x-y}+\sin^3(x-y)\right)\,\mathrm{d}\sigma$。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: 证明：
+  subparts:
+  - text: 证明方程 $(x+1)^{x+1}=e^x$ 有唯一正根。
+  - text: |-
+      设 $0<x<1$，证明 $1<\left(1+\dfrac{1}{x}\right)^x(1+x)<4$。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: 已知二次型 $f(x_1,x_2,x_3)=ax_1^2-(b^2+1)x_2^2+ax_3^2+2x_1x_3$ 经可逆线性变换化为 $g(y_1,y_2,y_3)=(2a^2-1)y_1^2+(a^2+1)y_2^2+(a^2-2)y_3^2+2(a^2+1)y_1y_2-2(a^2-2)y_1y_3$，其中 $a,b$ 为实数。
+  subparts:
+  - text: 求二次型 $f(x_1,x_2,x_3)$ 的正负惯性指数；
+  - text: 当 $b=1$ 时，求正交变换 $x=Py$ 将二次型 $f(x_1,x_2,x_3)$ 化为标准形。

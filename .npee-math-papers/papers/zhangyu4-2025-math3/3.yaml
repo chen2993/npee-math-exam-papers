@@ -1,0 +1,299 @@
+schema_version: '3.0'
+paper:
+  series_key: zhangyu4
+  year: 2025
+  subject: math3
+  paper_no: 3
+content_hash: 7404cfa643a005b7b75aa826ac8830012780d9293cadd3e2885cd8588bc0d7bb
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      函数 $f(x)=\left|\dfrac{x}{x+1}\right|^{\dfrac{x+1}{x-1}}$ 的跳跃间断点个数为\ExamSelection
+  choices:
+  - label: A
+    text: $3$
+    figures: []
+  - label: B
+    text: $2$
+    figures: []
+  - label: C
+    text: $1$
+    figures: []
+  - label: D
+    text: $0$
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      $\displaystyle\sum_{n=1}^{\infty}ne^{-n}=$\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{1}{(e-1)^2}$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{e}{(e-1)^2}$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{1}{e^2-1}$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{e}{e^2-1}$
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x,y)$ 在点 $(0,0)$ 处及其附近有定义，则\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      当 $\displaystyle\lim_{\substack{x\to0\\y\to0}}\dfrac{f(x,y)}{\sqrt{x^2+y^2}}=0$ 时，$f(x,y)$ 在点 $(0,0)$ 处可微。
+    figures: []
+  - label: B
+    text: |-
+      当 $f(x,y)$ 在点 $(0,0)$ 处可微时，$\displaystyle\lim_{\substack{x\to0\\y\to0}}\dfrac{f(x,y)}{\sqrt{x^2+y^2}}=0$。
+    figures: []
+  - label: C
+    text: |-
+      当 $\displaystyle\lim_{\substack{x\to0\\y\to0}}\dfrac{f(x,y)-f(0,0)}{x^2+y^2}=0$ 时，$f(x,y)$ 在点 $(0,0)$ 处可微。
+    figures: []
+  - label: D
+    text: |-
+      当 $f(x,y)$ 在点 $(0,0)$ 处可微时，$\displaystyle\lim_{\substack{x\to0\\y\to0}}\dfrac{f(x,y)-f(0,0)}{x^2+y^2}=0$。
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)$ 连续，则 $\displaystyle\lim_{n\to\infty}\sum_{k=1}^{n}\dfrac{k-\dfrac{1}{2}+n}{n^2}f\left(\dfrac{2k-1}{2n}\right)=$\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\displaystyle\int_0^1\left(x+\dfrac{1}{2}\right)f(x)\,\mathrm{d}x$
+    figures: []
+  - label: B
+    text: |-
+      $\displaystyle\int_0^1\left(x+1-\dfrac{1}{2n}\right)f\left(x-\dfrac{1}{2n}\right)\,\mathrm{d}x$
+    figures: []
+  - label: C
+    text: |-
+      $\displaystyle\int_0^1(x+1)f(x)\,\mathrm{d}x$
+    figures: []
+  - label: D
+    text: |-
+      $\displaystyle\int_0^1\left(x+\dfrac{1}{2}+\dfrac{1}{n}\right)f\left(x-\dfrac{1}{n}\right)\,\mathrm{d}x$
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $\alpha_1=\begin{pmatrix}1\\0\\a\end{pmatrix},\alpha_2=\begin{pmatrix}0\\0\\b\end{pmatrix},\alpha_3=\begin{pmatrix}1\\-1\\c\end{pmatrix},\alpha_4=\begin{pmatrix}-1\\1\\d\end{pmatrix}$，其中 $a,b,c,d$ 为任意常数，则下列向量组线性相关的为\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\alpha_1,\alpha_2,\alpha_3$。
+    figures: []
+  - label: B
+    text: |-
+      $\alpha_1,\alpha_2,\alpha_4$。
+    figures: []
+  - label: C
+    text: |-
+      $\alpha_1,\alpha_3,\alpha_4$。
+    figures: []
+  - label: D
+    text: |-
+      $\alpha_2,\alpha_3,\alpha_4$。
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      若 $A=\begin{pmatrix}0&0&-1\\0&1&0\\-1&0&0\end{pmatrix}$ 与 $B=\begin{pmatrix}0&0&1\\x&1&y\\1&0&0\end{pmatrix}$ 相似，则\ExamSelection
+  choices:
+  - label: A
+    text: $x+y=0$。
+    figures: []
+  - label: B
+    text: $x+y=1$。
+    figures: []
+  - label: C
+    text: $x=y$。
+    figures: []
+  - label: D
+    text: $x=y+1$。
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 为 3 阶矩阵，$\boldsymbol b$ 为 3 维非零列向量，$A^*\boldsymbol x=\boldsymbol b$ 有 3 个线性无关的解向量，则 $A^{\mathsf T}A\boldsymbol x=A^{\mathsf T}\boldsymbol b$ 的线性无关的解向量的个数为\ExamSelection
+  choices:
+  - label: A
+    text: $2$ 或 $3$。
+    figures: []
+  - label: B
+    text: $1$ 或 $2$。
+    figures: []
+  - label: C
+    text: $2$。
+    figures: []
+  - label: D
+    text: $1$。
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A_1,A_2,B$ 为随机事件，$0<P(B)<1$，$P(B)=P(A_1)P(B\mid A_1)+P(A_2)P(B\mid A_2)$，则以下结论：① $A_1,A_2$ 是完备事件组；② $P(A_1\mid B)+P(A_2\mid B)=1$；③ $P(A_1\mid\overline B)+P(A_2\mid\overline B)=1$；④ $P(A_1\mid B)+P(A_2\mid B)=P((A_1\cup A_2)\mid B)$。正确结论的个数为\ExamSelection
+  choices:
+  - label: A
+    text: $1$。
+    figures: []
+  - label: B
+    text: $2$。
+    figures: []
+  - label: C
+    text: $3$。
+    figures: []
+  - label: D
+    text: $4$。
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设总体 $X,Y$ 相互独立且都服从正态分布 $N(1,\sigma^2)$，$\sigma>0$，$\overline X,\overline Y$ 是分别来自总体 $X,Y$ 且容量都为 $n$ 的样本的样本均值，则当 $n$ 固定时，概率 $P\{|\overline X-\overline Y|>\sigma\}$ 的值随 $\sigma$ 的增大而\ExamSelection
+  choices:
+  - label: A
+    text: 单调增大。
+    figures: []
+  - label: B
+    text: 单调减小。
+    figures: []
+  - label: C
+    text: 保持不变。
+    figures: []
+  - label: D
+    text: 增减不定。
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设总体 $X$ 的概率密度为 $f(x)=\begin{cases}\dfrac{2x}{\alpha^2},&0\leq x\leq\alpha,\\0,&\text{其他},\end{cases}$，其中 $\alpha(\alpha>1)$ 是未知参数，$X_1,X_2,\cdots,X_n$ 是来自总体 $X$ 的简单随机样本，记 $p=P\{0<X<\sqrt{\alpha}\}$，$X_{(1)}=\min\{X_1,X_2,\cdots,X_n\}$，$X_{(n)}=\max\{X_1,X_2,\cdots,X_n\}$，则 $p$ 的最大似然估计量 $\hat p$ 为\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\sqrt{X_{(1)}}$。
+    figures: []
+  - label: B
+    text: |-
+      $\sqrt{X_{(n)}}$。
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{1}{X_{(1)}}$。
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{1}{X_{(n)}}$。
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $\displaystyle\lim_{n\to\infty}n^2\ln\left(n\sin\dfrac{1}{n}\right)=$ \ExamBlank。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设隐函数 $z=f(x,y)$ 由方程 $xyz-\ln(yz)=-2$ 确定，则 $z''_{xy}(0,1)=$ \ExamBlank。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $x\geq-2$，则微分方程 $y'-\sqrt{y+x^2}=-2x$ 满足 $y(0)=1$ 的特解为 \ExamBlank。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      某消费者购买甲、乙两种商品的价格为 $P_x=1,P_y=4$，共花费 48 个单位的费用购买这两种商品。又知当购买量分别为 $x_0,y_0$ 时，消费的效用函数 $u=x^{\dfrac{1}{2}}y$ 取得最大值，则 $\left.\mathrm{d}u\right|_{(x_0,y_0)}=$ \ExamBlank。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $A=\begin{pmatrix}\dfrac{1}{2}&-\dfrac{\sqrt{3}}{2}\\\dfrac{\sqrt{3}}{2}&\dfrac{1}{2}\end{pmatrix}$，则 $A^{-9}=$ \ExamBlank。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设随机变量 $X,Y$ 独立同分布于几何分布 $G(p)(0<p<1)$，则 $E(\max\{X,Y\})=$ \ExamBlank。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      设 $\displaystyle f(x)=\lim_{n\to\infty}\dfrac{1+\sin x}{(1+n|\sin x|)^n}$，曲线 $f(x)$ 与直线 $x=\pm\pi$ 及 $x$ 轴所围平面有界区域 $D$ 绕 $x$ 轴旋转一周所得的旋转体体积为 $V$，求：
+  subparts:
+  - text: $f(x)$ 的表达式；
+  - text: $V$ 的值。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $z=\sin x+\cos y+\cos(x-y)$，$0\leq x\leq\dfrac{\pi}{2},0\leq y\leq\dfrac{\pi}{2}$，求 $z$ 的极值。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $f(x,y)$ 在 $D=\{(x,y)\mid x^2+y^2\leq1\}$ 上连续，$\displaystyle f(x,y)=e^{x^2+y^2}-\iint_D\dfrac{(2x^2+1)f(x,y)}{x^2+y^2+1}\,\mathrm{d}x\mathrm{d}y$，求 $\displaystyle\iint_Df(x,y)\,\mathrm{d}\sigma$。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $f(x)$ 与 $g(x)$ 在 $(0,+\infty)$ 内可导，$g(x)\neq0$，$f(1)=g(1)=\sqrt{3}$，$\displaystyle\lim_{x\to+\infty}f(x)=1$，且 $f(x)g'(x)+f'(x)g(x)=2+3x^2$，$f(x)g'(x)-f'(x)g(x)=6+3x^2$，求 $f(x)$ 的表达式。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      已知实矩阵 $A=\begin{pmatrix}2&2\\2&a\end{pmatrix},B=\begin{pmatrix}4&b\\3&1\end{pmatrix}$，$a$ 为正整数，且 $A$ 与 $B$ 合同。
+  subparts:
+  - text: 求 $a,b$ 的值；
+  - text: |-
+      求可逆矩阵 $D$，使得 $A=D^{\mathsf T}BD$。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: 设水平地面上车轮半径为 1，车轮表面有一记号点 $P$，$X$ 为随机停车时点 $P$ 到水平地面的高度，求：
+  subparts:
+  - text: $X$ 的概率密度；
+  - text: $E(X)$。

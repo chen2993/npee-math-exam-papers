@@ -1,0 +1,299 @@
+schema_version: '3.0'
+paper:
+  series_key: yubingsen5
+  year: 2024
+  subject: math3
+  paper_no: 2
+content_hash: 78058a5db7814185561b95730426e84bafb315c6ac995859bfc11f87f576b2db
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      方程 $\displaystyle\int_{-\pi}^{x}t\ln(2+\sin^2t)\,\mathrm{d}t=0$ 的实根个数为\ExamSelection。
+  choices:
+  - label: A
+    text: $1$
+    figures: []
+  - label: B
+    text: $2$
+    figures: []
+  - label: C
+    text: $3$
+    figures: []
+  - label: D
+    text: $4$
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)=\begin{cases}1,&0\leq x\leq1,\\2,&1<x<2,\\x,&2\leq x\leq3,\end{cases}$，$\displaystyle\Phi(x)=\int_0^xf(t)\,\mathrm{d}t$，$x\in[0,3]$，则 $\Phi(x)$\ExamSelection。
+  choices:
+  - label: A
+    text: 在 $x=1$ 处可导，在 $x=2$ 处可导
+    figures: []
+  - label: B
+    text: 在 $x=1$ 处可导，在 $x=2$ 处不可导
+    figures: []
+  - label: C
+    text: 在 $x=1$ 处不可导，在 $x=2$ 处可导
+    figures: []
+  - label: D
+    text: 在 $x=1$ 处不可导，在 $x=2$ 处不可导
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $p,q$ 为常数且 $0<p\leq q$，若反常积分 $\displaystyle\int_0^{+\infty}\dfrac{1}{x^p+x^q}\,\mathrm{d}x$ 收敛，则\ExamSelection。
+  choices:
+  - label: A
+    text: $p=q$
+    figures: []
+  - label: B
+    text: |-
+      $p<q\leq1$
+    figures: []
+  - label: C
+    text: $1<p<q$
+    figures: []
+  - label: D
+    text: $p<1<q$
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      函数 $f(x,y)$ 具有连续的偏导数，已知 $f'_x(x,y)>0$，$f'_y(x,y)<0$，如果 $a=f(1,1),b=f(1,-1),c=f(-1,1),d=f(-1,-1)$ 四个数中最大的是 $M$，最小的是 $m$，则有\ExamSelection。
+  choices:
+  - label: A
+    text: $M=a,m=d$
+    figures: []
+  - label: B
+    text: $M=b,m=c$
+    figures: []
+  - label: C
+    text: $M=b,m=d$
+    figures: []
+  - label: D
+    text: $M=a,m=c$
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A,B$ 为 $n$ 阶方阵，$E$ 为 $n$ 阶单位矩阵。若 $(A+B)^2=E$ 且 $B$ 可逆，则 $(E+AB^{-1})^{-1}=\ExamSelection$。
+  choices:
+  - label: A
+    text: $B(A+B)$
+    figures: []
+  - label: B
+    text: $A(A+B)$
+    figures: []
+  - label: C
+    text: $(A+B)B$
+    figures: []
+  - label: D
+    text: $(A+B)A$
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知向量组（I）：$\boldsymbol{\beta}_1=(0,1,-1)^{\mathsf T}$，$\boldsymbol{\beta}_2=(a,2,2)^{\mathsf T}$，$\boldsymbol{\beta}_3=(b,1,1)^{\mathsf T}$ 与向量组（II）：$\boldsymbol{\alpha}_1=(1,2,0)^{\mathsf T}$，$\boldsymbol{\alpha}_2=(3,1,5)^{\mathsf T}$，$\boldsymbol{\alpha}_3=(2,-1,5)^{\mathsf T}$ 的秩相等，且 $\boldsymbol{\beta}_3$ 可由 $\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2$ 线性表示，则\ExamSelection。
+  choices:
+  - label: A
+    text: $a=0,b=2$
+    figures: []
+  - label: B
+    text: $a=2,b=0$
+    figures: []
+  - label: C
+    text: $a=1,b=2$
+    figures: []
+  - label: D
+    text: $a=2,b=1$
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 为 $n$ 阶正定矩阵，$\boldsymbol{\alpha}$ 为 $n$ 维非零列向量，则\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      线性方程组 $\begin{pmatrix}A&\boldsymbol{\alpha}\\\boldsymbol{\alpha}^{\mathsf T}&0\end{pmatrix}x=0$ 的基础解系中含有 $1$ 个解向量
+    figures: []
+  - label: B
+    text: |-
+      线性方程组 $\begin{pmatrix}A&\boldsymbol{\alpha}\\\boldsymbol{\alpha}^{\mathsf T}&0\end{pmatrix}x=0$ 的基础解系中含有 $n-1$ 个解向量
+    figures: []
+  - label: C
+    text: |-
+      线性方程组 $\begin{pmatrix}A&\boldsymbol{\alpha}\\\boldsymbol{\alpha}^{\mathsf T}&0\end{pmatrix}x=0$ 的基础解系中含有 $n$ 个解向量
+    figures: []
+  - label: D
+    text: |-
+      线性方程组 $\begin{pmatrix}A&\boldsymbol{\alpha}\\\boldsymbol{\alpha}^{\mathsf T}&0\end{pmatrix}x=0$ 只有零解
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设随机事件 $A,B,C$ 两两独立，且 $P(A)=P(B)=\dfrac12$，$P(C)=\dfrac13$，$P(AB\mid C)=\dfrac13$，则在 $A$ 发生的条件下 $B$ 与 $C$ 都不发生的概率是\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\dfrac13$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac23$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac79$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac7{18}$
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设随机变量 $X\sim N(-1,1)$，其分布函数为 $F(x)$，$\Phi(x)$ 为标准正态分布的分布函数，则下列不正确的选项是\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $P\{X<-4\}=1-F(2)$
+    figures: []
+  - label: B
+    text: |-
+      $P\{X>-4\}=\Phi(3)$
+    figures: []
+  - label: C
+    text: $E(Xe^X)=0$
+    figures: []
+  - label: D
+    text: $E(e^X)=e^{-1}$
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $X_1,X_2,\cdots,X_n$（$n>1$）是来自总体 $X\sim N(\mu,\sigma^2)$ 的简单随机样本，其中 $\mu$ 未知，$\overline X$ 是样本均值，则下列选项中，满足数学期望为 $\sigma^2$ 的统计量是\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\dfrac1n\displaystyle\sum_{i=1}^{n}(X_i-\overline X)^2$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac1n\displaystyle\sum_{i=1}^{n}(X_i-\mu)^2$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac1{n-1}\displaystyle\sum_{i=1}^{n-1}(X_{i+1}-X_i)^2$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac1{2(n-1)}\displaystyle\sum_{i=1}^{n-1}(X_{i+1}-X_i)^2$
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)$ 是 $[0,1]$ 上的连续函数，且 $\displaystyle F(x)=\int_0^x|x-t|f(t)\,\mathrm{d}t$，则 $F'(0)+F'(1)=\ExamBlank$。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $\displaystyle\lim_{n\to\infty}\sum_{i=1}^{n}\dfrac{i\,e^{i/n}}{n^2+i}=\ExamBlank$。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x)$ 具有二阶连续导数，曲线 $y=f(x)$ 的图形既关于 $y$ 轴对称，也关于直线 $x=1$ 对称，则 $\displaystyle\int_{-2}^{2}(x-2024)f''(x)\,\mathrm{d}x=\ExamBlank$。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      差分方程 $2y_{t+1}-6y_t=5\cdot3^t$ 满足 $y_0=0$ 的特解为 $\ExamBlank$。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 为三阶实矩阵，$\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3$ 为线性无关的三维列向量，且 $A\boldsymbol{\alpha}_1=\boldsymbol{\alpha}_1+\boldsymbol{\alpha}_2$，$A\boldsymbol{\alpha}_2=\boldsymbol{\alpha}_2+\boldsymbol{\alpha}_3$，$A\boldsymbol{\alpha}_3=\boldsymbol{\alpha}_1+\boldsymbol{\alpha}_3$，则 $|A|=\ExamBlank$。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $X_1,X_2,\cdots,X_n$ 为来自总体 $X\sim N(1,1)$ 的简单随机样本，$\overline X$ 为样本均值。对任意的常数 $\alpha$（$0<\alpha<1$），自由度为 $n$ 的 $\chi^2$ 分布的上侧 $\alpha$ 分位点 $\chi^2_{\alpha}(n)$ 定义为 $P\{\chi^2>\chi^2_{\alpha}(n)\}=\alpha$。则 $\displaystyle P\left\{\chi^2_{0.9}(n-1)<\sum_{i=1}^{n}(X_i-\overline X)^2<\chi^2_{0.2}(n-1)\right\}=\ExamBlank$。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      设 $F(x)=\displaystyle\int_0^x\dfrac{t-\arctan t}{t}\,\mathrm{d}t$，$G(x)=\displaystyle\int_0^x\dfrac{\arcsin t-t}{t}\,\mathrm{d}t$，试求 $\displaystyle\lim_{x\to0}\dfrac{F(x)}{x^3}$，$\displaystyle\lim_{x\to0}\dfrac{G(x)}{x^3}$，$\displaystyle\lim_{x\to0}\dfrac{F(G(x))}{G(F(x))}$。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $z=f(e^x\cos y,e^x\sin y)+g(xy)$，其中 $f$ 具有二阶连续的偏导数，$g$ 二阶可导，求 $\dfrac{\partial^2z}{\partial x^2}+\dfrac{\partial^2z}{\partial y^2}$。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      \relax
+  subparts:
+  - text: |-
+      计算 $\displaystyle I=\int_0^{1/2}\mathrm{d}y\int_y^{1/2}\dfrac{\ln(1+x)}{x}\,\mathrm{d}x$。
+  - text: |-
+      求 $\dfrac{\ln(1+x)}{x}$ 关于 $x$ 的幂级数展开式，并利用（1）求 $\displaystyle\sum_{n=1}^{\infty}(-1)^{n-1}\dfrac{1}{n(n+1)2^n}$ 的和。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $f(x)$ 为连续函数，证明：对于任意实数 $a,b$（$a\ne b$），$\displaystyle\int_a^b f(x)\,\mathrm{d}x=(b-a)f\left(\dfrac{a+b}{2}\right)$ 的充分必要条件是 $f(x)=Ax+B$（$A,B$ 为常数）。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $A$ 为三阶方阵，并有可逆矩阵 $P=(p_1,p_2,p_3)$，$p_i$（$i=1,2,3$）为三维列向量，使得 $P^{-1}AP=\begin{pmatrix}1&0&0\\0&1&1\\0&0&1\end{pmatrix}$。
+  subparts:
+  - text: 证明：$p_1,p_2$ 为 $(E-A)x=0$ 的解，$p_3$ 为 $(E-A)x=-p_2$ 的解，且 $A$ 不可相似对角化。
+  - text: |-
+      当 $A=\begin{pmatrix}2&-1&-1\\2&-1&-2\\-1&1&2\end{pmatrix}$ 时，求可逆矩阵 $P$，使得 $P^{-1}AP=\begin{pmatrix}1&0&0\\0&1&1\\0&0&1\end{pmatrix}$。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设总体 $X$ 的密度函数为 $f(x)=\begin{cases}ax,&0\leq x<2,\\\dfrac{b}{x},&2\leq x\leq4,\\0,&\text{其他},\end{cases}$，其中正数 $a,b$ 均未知。样本观测值为 $\dfrac32,\dfrac{12}{5},\dfrac13,\dfrac45,\dfrac83,\dfrac52,\dfrac34,\dfrac54$。
+  subparts:
+  - text: |-
+      分别求 $a,b$ 的最大似然估计值 $\hat a,\hat b$。
+  - text: |-
+      令 $Y=\begin{cases}2X+1,&X\leq1,\\4-X,&1<X<3,\\2X-5,&X\geq3,\end{cases}$，求 $p=P\left\{Y\geq\dfrac14X^2+1\right\}$ 的最大似然估计值 $\hat p$。

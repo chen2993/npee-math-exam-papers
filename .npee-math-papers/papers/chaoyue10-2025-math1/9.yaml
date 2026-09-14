@@ -1,0 +1,306 @@
+schema_version: '3.0'
+paper:
+  series_key: chaoyue10
+  year: 2025
+  subject: math1
+  paper_no: 9
+content_hash: 4e3d651fa23ff2c11765c40236398bcc9372ceff6e6757f20d34a8b77cb4f44b
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x)=\int_0^x e^{t^2}\,\mathrm{d}t$，对任意的 $x\ne 0$，存在介于 $0$ 和 $x$ 之间的 $\xi$，有 $f(\xi)=\dfrac{f(x)+f(0)}{2}$，则 $\lim_{x\to 0}\dfrac{\xi}{x}=$\ExamSelection
+  choices:
+  - label: A
+    text: $0$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{1}{3}$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{1}{2}$
+    figures: []
+  - label: D
+    text: $1$
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x,y)=\begin{cases}1,&0<y\leq x^2\\0,&\text{其他，}\end{cases}$，则下列关于 $f(x,y)$ 在点 $(0,0)$ 的说法正确的有\ExamSelection{}个。①连续；②偏导数存在；③可微；④沿任意方向方向导数存在
+  choices:
+  - label: A
+    text: $1$
+    figures: []
+  - label: B
+    text: $2$
+    figures: []
+  - label: C
+    text: $3$
+    figures: []
+  - label: D
+    text: $4$
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      区域 $D$ 由 $r=1-\cos\theta\,(0\leq\theta\leq\pi)$ 以及 $\theta=\pi$ 所围，则 $\iint_D(x+y)\,\mathrm{d}\sigma=$\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{2}{3}+\dfrac{\pi}{8}$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{4}{3}-\dfrac{5}{8}\pi$
+    figures: []
+  - label: C
+    text: $0$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{7}{3}-\dfrac{3}{8}\pi$
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设在 $[0,1]$ 上连续函数 $f(x)\geq 0$，若曲线 $y=f(x)$ 在 $[0,1]$ 上构成的曲边梯形面积为 $1$，曲边梯形的形心为 $\left(\dfrac{1}{2},\dfrac{1}{2}\right)$，则该曲边梯形绕 $x$ 轴旋转一周形成的旋转体的体积和其绕 $y$ 轴旋转一周形成的旋转体体积和为\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\pi$
+    figures: []
+  - label: B
+    text: |-
+      $2\pi$
+    figures: []
+  - label: C
+    text: $1$
+    figures: []
+  - label: D
+    text: $2$
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $3$ 阶方阵 $A,B$ 满足方程 $A-2B^2=AB$，且 $B$ 可逆，则下列等式不正确的是\ExamSelection。
+  choices:
+  - label: A
+    text: $AB^{-1}=2B+A$
+    figures: []
+  - label: B
+    text: |-
+      $(B^{-1}-E)^{-1}=\dfrac{1}{2}B^{-1}A$
+    figures: []
+  - label: C
+    text: |-
+      $(E-B)^{-1}=\dfrac{1}{2}(A+2E)$
+    figures: []
+  - label: D
+    text: |-
+      $BA^{-1}B=\dfrac{1}{2}(E-B)$
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $\alpha_1,\alpha_2,\beta_1,\beta_2$ 为 $3$ 维列向量组，且 $\alpha_1,\alpha_2$ 线性无关，$\beta_1,\beta_2$ 也线性无关，则下列说法正确的是\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\alpha_1,\alpha_2$ 与 $\beta_1,\beta_2$ 是等价向量组
+    figures: []
+  - label: B
+    text: |-
+      方程组 $\begin{pmatrix}\alpha_1^T\\\alpha_2^T\end{pmatrix}x=0$ 与方程组 $\begin{pmatrix}\beta_1^T\\\beta_2^T\end{pmatrix}x=0$ 同解
+    figures: []
+  - label: C
+    text: |-
+      方程组 $\begin{pmatrix}\alpha_1^T\\\alpha_2^T\end{pmatrix}x=0$ 与方程组 $\begin{pmatrix}\beta_1^T\\\beta_2^T\end{pmatrix}x=0$ 必有非零公共解
+    figures: []
+  - label: D
+    text: |-
+      存在非零向量 $\xi$ 可由 $\alpha_1,\alpha_2$ 线性表示，也可由 $\beta_1,\beta_2$ 线性表示
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      下列矩阵与 $A=\begin{pmatrix}1&0&1\\0&2&2\\0&0&2\end{pmatrix}$ 相似的是\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\begin{pmatrix}2&1&2\\0&1&-2\\0&0&2\end{pmatrix}$
+    figures: []
+  - label: B
+    text: |-
+      $\begin{pmatrix}1&2&0\\1&3&0\\0&0&2\end{pmatrix}$
+    figures: []
+  - label: C
+    text: |-
+      $\begin{pmatrix}1&0&1\\1&2&1\\0&0&2\end{pmatrix}$
+    figures: []
+  - label: D
+    text: |-
+      $\begin{pmatrix}2&1&1\\1&3&0\\2&0&0\end{pmatrix}$
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设随机变量 $X$ 的概率分布为 $X\sim\begin{pmatrix}0&1&2\\a&b&c\end{pmatrix}$，其中 $a,b,c$ 均为常数，期望 $EX=\dfrac{2}{3}$，又 $n$ 维向量 $\alpha_1,\alpha_2,\alpha_3$ 线性无关。若 $\alpha_1+\alpha_2+\alpha_3$，$\alpha_2+X\alpha_3$，$X\alpha_1-2\alpha_3$ 线性相关的概率为 $\dfrac{1}{6}$，则 $(a,b,c)=$\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\left(\dfrac{1}{2},\dfrac{1}{6},\dfrac{1}{3}\right)$
+    figures: []
+  - label: B
+    text: |-
+      $\left(\dfrac{1}{2},\dfrac{1}{3},\dfrac{1}{6}\right)$
+    figures: []
+  - label: C
+    text: |-
+      $\left(\dfrac{1}{6},\dfrac{1}{6},\dfrac{2}{3}\right)$
+    figures: []
+  - label: D
+    text: |-
+      $\left(\dfrac{13}{24},\dfrac{1}{4},\dfrac{5}{24}\right)$
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设随机变量 $X_1,X_2,\cdots,X_n,\cdots$ 相互独立同分布，如果分布函数为 $F(x)=\dfrac{1}{2}+\dfrac{1}{\pi}\arctan\dfrac{x}{B}$，$-\infty<x<+\infty$。其中 $B$ 为大于 $0$ 的常数。则此序列\ExamSelection{}辛钦大数定律条件。
+  choices:
+  - label: A
+    text: 满足
+    figures: []
+  - label: B
+    text: $B$ 取适当值时满足
+    figures: []
+  - label: C
+    text: 不满足
+    figures: []
+  - label: D
+    text: 无法判断
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设总体 $X\sim N(\mu,1)$，$X_1,\cdots,X_n$ 为来自总体 $X$ 的简单随机样本。假设检验 $H_0:\mu\leq 0$，$H_1:\mu>0$，取拒绝域 $W=\{\overline{X}\geq c\}$，其中 $\overline{X}$ 为样本均值，那么对固定的样本容量 $n$，当 $\mu=1$ 时，犯第二类错误的概率 $\beta$\ExamSelection。
+  choices:
+  - label: A
+    text: 随 $c$ 的增大而减少
+    figures: []
+  - label: B
+    text: 随 $c$ 的增大而增大
+    figures: []
+  - label: C
+    text: 随 $c$ 的增大而保持不变
+    figures: []
+  - label: D
+    text: 无法判定
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)$ 在 $x=0$ 某邻域内二阶可导，$f(0)=1$，$f'(0)=2$，$f''(0)=6$，则 $\left.\dfrac{\mathrm{d}^2x}{\mathrm{d}y^2}\right|_{y=1}=$\ExamBlank。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $\{a_n\}$ 是单调递减的正项数列，且 $a_n<\dfrac{1}{n}$，则幂级数 $\sum_{n=1}^{\infty}\left(a_n+\dfrac{1}{n}\right)x^n$ 的收敛域为\ExamBlank。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $L:x^2+4y^2=4$，取逆时针方向，$\oint_L\dfrac{(x+|y|)\,\mathrm{d}x+x^3\,\mathrm{d}y}{x^2+4y^2}=$\ExamBlank。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      方程 $\dfrac{\mathrm{d}y}{\mathrm{d}x}-xy=-e^{-\dfrac{x^2}{2}}y^3$ 的通解为\ExamBlank。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $A=\begin{pmatrix}1&2&1\\0&5&0\end{pmatrix}$，$B$ 为 $3\times2$ 矩阵，已知 $AB=E$，则 $B=$\ExamBlank。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设总体 $X\sim N(\mu,1)$，$X_1,X_2,\cdots,X_{2n}$ 为来自总体 $X$ 的简单随机样本。样本均值 $\overline{X}=\dfrac{1}{2n}\sum_{i=1}^{2n}X_i$，令 $Y=\sum_{i=1}^{n}(X_i+X_{n+i}-2\overline{X})^2$，则 $Y^2$ 的期望 $E(Y^2)=$\ExamBlank。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      设函数 $f(x,y)$ 具有二阶连续偏导数，当 $(x,y)\ne(0,0)$ 时，$f'_x\ne 0$，且 $f\cdot\dfrac{\partial^2f}{\partial x\partial y}=\dfrac{\partial f}{\partial x}\cdot\dfrac{\partial f}{\partial y}$。
+  subparts:
+  - text: |-
+      证明 $\dfrac{\partial f}{\partial x}=f\cdot\varphi(x)$；
+  - text: |-
+      若 $\varphi(x)=\dfrac{1}{x}$，$f(1,y)=y^3$，求 $z=f(x,y)$ 在条件 $x^2+y^2=1$ 下的最大值与最小值。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      计算积分 $I=\int_{-1}^{1}\mathrm{d}z\iint_{x^2+y^2\leq 1-z^2}\dfrac{(\cos x+\sin y+\sqrt{3}z)^2}{(x^2+y^2+z^2)^2+1}\,\mathrm{d}x\mathrm{d}y$。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      函数 $f(x)$ 在 $[0,1]$ 上有二阶导数，$f(0)=0$。若 $f(x)$ 在 $[0,1]$ 上的最大值 $M>0$，证明存在 $\xi\in(0,1)$ 使得 $\xi f''(\xi)+2f'(\xi)>f(\xi)$。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设曲面 $\Sigma$ 为曲线段 $\begin{cases}z=e^y,\\x=0\end{cases}\,(0\leq y\leq 1)$ 绕 $z$ 轴旋转一周所得。取下侧，计算曲面积分 $I=\iint_{\Sigma}2xzx\,\mathrm{d}y\mathrm{d}z+yz\,\mathrm{d}z\mathrm{d}x+(x^2+z^2)\,\mathrm{d}x\mathrm{d}y$。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $A=\begin{pmatrix}0&-1&a\\-1&3&b\\a&b&0\end{pmatrix}$，$|A|=-40$，若 $A$ 的伴随矩阵 $A^*$ 有特征向量 $(1,-1,1)^T$。
+  subparts:
+  - text: 求实数 $a,b$；
+  - text: 正交变换 $x=Py$，化二次型 $f=x^TA^*x$ 为标准形；
+  - text: |-
+      若 $B=A+\lambda E$，问当 $\lambda$ 为何值时，方阵 $ABA$ 正定。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: 设随机变量 $X$ 服从参数为 $1$ 的指数分布，令 $Y=X^2$。
+  subparts:
+  - text: |-
+      计算 $P\{\min(X+Y,3X-Y)\leq 2\}$；
+  - text: 求 $(X,Y)$ 的分布函数 $F(x,y)$；
+  - text: 求 $Y$ 的分布函数。

@@ -1,0 +1,263 @@
+% Project-specific cover design. This file owns all branding, coordinates,
+% vector assets and live cover text; the examination class only supplies the
+% selected page geometry and the generic bookmark helper.
+\ifdefined\JJBCoverDesignLoaded
+  \expandafter\endinput
+\fi
+\def\JJBCoverDesignLoaded{}
+
+% Runtime dependencies are loaded by npee-math-exam in the preamble.  This
+% design fragment is included after \begin{document}, so it must not load
+% packages itself.
+\providecommand{\NPEECoverSeriesLabel}{}
+\providecommand{\NPEECoverTitleText}{}
+\providecommand{\NPEECoverTitleDisplay}{\NPEECoverTitleText}
+\providecommand{\NPEECoverSubtitleText}{}
+\providecommand{\NPEECourseUrl}{}
+
+\IfFontExistsTF{Microsoft YaHei Bold}{%
+  \newfontfamily\JJBCoverBadgeLatinFace{Microsoft YaHei Bold}%
+}{%
+  \newfontfamily\JJBCoverBadgeLatinFace{TeX Gyre Heros Bold}%
+}
+% Avoid the Windows Noto Sans SC variable font: xdvipdfmx may resolve it as an
+% unsupported TTC. Prefer fixed font families for reproducible cover output.
+\IfFontExistsTF{Microsoft YaHei}{%
+  \newCJKfontfamily\JJBCoverBadgeCJKFace{Microsoft YaHei}%
+}{%
+  \IfFontExistsTF{Noto Sans CJK SC}{%
+    \newCJKfontfamily\JJBCoverBadgeCJKFace{Noto Sans CJK SC}%
+  }{%
+    \newCJKfontfamily\JJBCoverBadgeCJKFace{FandolHei}%
+  }%
+}
+
+\definecolor{NPEEOriginalCoverInk}{HTML}{6357A1}
+\definecolor{NPEEOriginalCoverRibbon}{HTML}{6357A1}
+\definecolor{NPEEOriginalCoverBadgeSolid}{HTML}{6357A1}
+\definecolor{NPEEWordmarkSolid}{HTML}{B39CDE}
+\definecolor{NPEEReferenceScriptSolid}{HTML}{B5A7DC}
+
+\providecommand{\NPEECoverBadgeFont}{%
+  \JJBCoverBadgeLatinFace\JJBCoverBadgeCJKFace
+  \fontsize{26pt}{30pt}\selectfont}
+\providecommand{\NPEECoverTitleFont}{%
+  \sffamily\bfseries\fontsize{59pt}{68pt}\selectfont}
+\providecommand{\NPEECoverSubtitleFont}{%
+  \sffamily\bfseries\fontsize{35pt}{41pt}\selectfont}
+\providecommand{\NPEECoverEditorFont}{%
+  \sffamily\fontsize{28.4pt}{34pt}\selectfont}
+\providecommand{\NPEECoverRenderTitle}[1]{\scalebox{.968}[1.058]{#1}}
+\providecommand{\NPEECoverRenderSubtitle}[1]{\scalebox{1}[1.232]{#1}}
+\providecommand{\NPEECoverRenderSeriesLabel}[1]{\scalebox{.952}[1.102]{#1}}
+\providecommand{\JJBCoverSubjectBadge}{%
+  \colorbox{NPEEOriginalCoverInk}{%
+    \textcolor{white}{\sffamily\bfseries\fontsize{16pt}{18pt}\selectfont
+      \strut\NPEESubjectName}}}
+\newsavebox{\JJBCoverTitleBox}
+\newsavebox{\JJBCoverSubjectBox}
+\providecommand{\JJBCoverTitleWithSubject}{%
+  \sbox{\JJBCoverTitleBox}{\NPEECoverRenderTitle{\NPEECoverTitleDisplay}}%
+  \sbox{\JJBCoverSubjectBox}{\JJBCoverSubjectBadge}%
+  \usebox{\JJBCoverTitleBox}\kern5mm
+  \raisebox{\dimexpr(\ht\JJBCoverTitleBox-\dp\JJBCoverTitleBox-\ht\JJBCoverSubjectBox+\dp\JJBCoverSubjectBox)/2\relax}{\usebox{\JJBCoverSubjectBox}}}
+
+\providecommand{\NPEEAfourCoverTitleX}{-86mm}
+\providecommand{\NPEEAfourCoverTitleY}{82mm}
+\providecommand{\NPEEAfourCoverSubtitleX}{-86mm}
+\providecommand{\NPEEAfourCoverSubtitleY}{52mm}
+\providecommand{\NPEEAfourCoverEditorX}{-84.75mm}
+\providecommand{\NPEEAfourCoverEditorY}{18mm}
+
+\providecommand{\JJBCoverBookmarkText}{封面}
+\providecommand{\JJBCoverLogoLegendTop}{考研}
+\providecommand{\JJBCoverLogoLegendMiddle}{数学}
+\providecommand{\JJBCoverLogoLegendBottom}{系列}
+\providecommand{\JJBCoverQrCaption}{扫码领取资料}
+\providecommand{\JJBCoverPublisherName}{中国农业出版社}
+\providecommand{\JJBCoverPublisherLatinName}{CHINA AGRICULTURE PRESS}
+
+\newcommand{\JJBCoverSetBookmarkText}[1]{%
+  \renewcommand{\JJBCoverBookmarkText}{#1}}
+\newcommand{\JJBCoverSetLogoLegend}[3]{%
+  \renewcommand{\JJBCoverLogoLegendTop}{#1}%
+  \renewcommand{\JJBCoverLogoLegendMiddle}{#2}%
+  \renewcommand{\JJBCoverLogoLegendBottom}{#3}}
+\newcommand{\JJBCoverSetQrCaption}[1]{%
+  \renewcommand{\JJBCoverQrCaption}{#1}}
+\newcommand{\JJBCoverSetPublisher}[2]{%
+  \renewcommand{\JJBCoverPublisherName}{#1}%
+  \renewcommand{\JJBCoverPublisherLatinName}{#2}}
+\newcommand{\JJBCoverSetAfourTitlePosition}[2]{%
+  \renewcommand{\NPEEAfourCoverTitleX}{#1}%
+  \renewcommand{\NPEEAfourCoverTitleY}{#2}}
+\newcommand{\JJBCoverSetAfourSubtitlePosition}[2]{%
+  \renewcommand{\NPEEAfourCoverSubtitleX}{#1}%
+  \renewcommand{\NPEEAfourCoverSubtitleY}{#2}}
+\newcommand{\JJBCoverSetAfourEditorPosition}[2]{%
+  \renewcommand{\NPEEAfourCoverEditorX}{#1}%
+  \renewcommand{\NPEEAfourCoverEditorY}{#2}}
+
+\newlength{\JJBCoverReferenceHeight}
+\newlength{\JJBCoverReferenceWidth}
+\newlength{\JJBCoverDesignWidth}
+\newlength{\JJBCoverContentShift}
+\newlength{\JJBCoverRibbonReferenceHeight}
+\newlength{\JJBCoverRibbonHeight}
+\setlength{\JJBCoverReferenceHeight}{297mm}
+\setlength{\JJBCoverReferenceWidth}{210mm}
+\setlength{\JJBCoverRibbonReferenceHeight}{94.8mm}
+
+\makeatletter
+\pgfmathparse{\strip@pt\paperheight/\strip@pt\JJBCoverReferenceHeight}
+\xdef\JJBCoverDesignScale{\pgfmathresult}
+\makeatother
+\setlength{\JJBCoverDesignWidth}{\JJBCoverDesignScale\JJBCoverReferenceWidth}
+\setlength{\JJBCoverContentShift}{0pt}
+\ifNPEEAfour\else
+  \setlength{\JJBCoverContentShift}{%
+    \dimexpr(\paperwidth-\JJBCoverDesignWidth)/2\relax}
+\fi
+\setlength{\JJBCoverRibbonHeight}{%
+  \JJBCoverDesignScale\JJBCoverRibbonReferenceHeight}
+
+% Legacy cover wordmark asset retained as a public project-design primitive.
+% The current composition uses the reference wordmark below, but keeping this
+% traced path available prevents an asset/API regression for alternate covers.
+\newlength{\JJBCoverWordmarkUnitX}
+\newlength{\JJBCoverWordmarkUnitY}
+\setlength{\JJBCoverWordmarkUnitX}{\dimexpr132.64mm/1622\relax}
+\setlength{\JJBCoverWordmarkUnitY}{\dimexpr52.49mm/642\relax}
+\newcommand{\JJBCoverWordmarkLayerBegin}{%
+  \begin{scope}\pgfsetfillcolor{NPEEWordmarkSolid}\pgfseteorule}
+\newcommand{\JJBCoverWordmarkLayerEnd}{%
+  \pgfusepath{fill}\end{scope}}
+\newcommand{\JJBCoverPaintWordmark}[1]{%
+  \begin{scope}
+    \pgftransformshift{\pgfpointanchor{#1}{center}}%
+    \pgfsetxvec{\pgfpoint{\JJBCoverWordmarkUnitX}{0pt}}%
+    \pgfsetyvec{\pgfpoint{0pt}{\JJBCoverWordmarkUnitY}}%
+    \begingroup
+      \let\NPEECoverWordmarkLayerBegin\JJBCoverWordmarkLayerBegin
+      \let\NPEECoverWordmarkLayerEnd\JJBCoverWordmarkLayerEnd
+      \input{wordmark-path.tex}%
+    \endgroup
+  \end{scope}}
+
+\newlength{\JJBCoverReferenceWordmarkUnitX}
+\newlength{\JJBCoverReferenceWordmarkUnitY}
+\setlength{\JJBCoverReferenceWordmarkUnitX}{\dimexpr210mm/1080\relax}
+\setlength{\JJBCoverReferenceWordmarkUnitY}{\dimexpr297mm/1504\relax}
+
+\newcommand{\JJBCoverReferenceWordmarkLayerBegin}{%
+  \begin{scope}\pgfsetfillcolor{NPEEReferenceScriptSolid}\pgfseteorule}
+\newcommand{\JJBCoverReferenceWordmarkLayerEnd}{%
+  \pgfusepath{fill}\end{scope}}
+\newcommand{\JJBCoverPaintReferenceWordmark}[1]{%
+  \begin{scope}
+    \pgftransformshift{\pgfpointanchor{#1}{center}}%
+    \pgfsetxvec{\pgfpoint{\JJBCoverReferenceWordmarkUnitX}{0pt}}%
+    \pgfsetyvec{\pgfpoint{0pt}{\JJBCoverReferenceWordmarkUnitY}}%
+    \begingroup
+      \let\NPEEReferenceWordmarkLayerBegin\JJBCoverReferenceWordmarkLayerBegin
+      \let\NPEEReferenceWordmarkLayerEnd\JJBCoverReferenceWordmarkLayerEnd
+      \input{reference-wordmark-path.tex}%
+    \endgroup
+  \end{scope}}
+
+\newlength{\JJBCoverReferenceLogoUnitX}
+\newlength{\JJBCoverReferenceLogoUnitY}
+\setlength{\JJBCoverReferenceLogoUnitX}{\dimexpr52mm/1600\relax}
+\setlength{\JJBCoverReferenceLogoUnitY}{\dimexpr18.2mm/510\relax}
+\newcommand{\JJBCoverReferenceLogoLayerBegin}{%
+  \begin{scope}\pgfsetfillcolor{NPEEOriginalCoverInk}\pgfseteorule}
+\newcommand{\JJBCoverReferenceLogoLayerEnd}{%
+  \pgfusepath{fill}\end{scope}}
+\newcommand{\JJBCoverPaintReferenceLogo}[1]{%
+  \begin{scope}
+    \pgftransformshift{\pgfpointanchor{#1}{center}}%
+    \pgftransformxshift{-6mm}%
+    \pgfsetxvec{\pgfpoint{\JJBCoverReferenceLogoUnitX}{0pt}}%
+    \pgfsetyvec{\pgfpoint{0pt}{\JJBCoverReferenceLogoUnitY}}%
+    \begingroup
+      \let\NPEEReferenceLogoLayerBegin\JJBCoverReferenceLogoLayerBegin
+      \let\NPEEReferenceLogoLayerEnd\JJBCoverReferenceLogoLayerEnd
+      \input{official-logo-hq-path.tex}%
+    \endgroup
+  \end{scope}%
+  \node[anchor=west,text=NPEEOriginalCoverInk,
+    font=\sffamily\fontsize{5.2pt}{5.6pt}\selectfont,inner sep=0pt]
+    at ([xshift=22.4mm,yshift=8.6mm]#1) {\JJBCoverLogoLegendTop};
+  \node[anchor=west,text=NPEEOriginalCoverInk,
+    font=\sffamily\fontsize{5.2pt}{5.6pt}\selectfont,inner sep=0pt]
+    at ([xshift=22.4mm,yshift=2.0mm]#1) {\JJBCoverLogoLegendMiddle};
+  \node[anchor=west,text=NPEEOriginalCoverInk,
+    font=\sffamily\fontsize{5.2pt}{5.6pt}\selectfont,inner sep=0pt]
+    at ([xshift=22.4mm,yshift=-4.6mm]#1) {\JJBCoverLogoLegendBottom};}
+
+\newcommand{\JJBCoverPaintPlainRibbon}{%
+  \fill[NPEEOriginalCoverRibbon]
+    (current page.south west) rectangle
+    ([yshift=\JJBCoverRibbonHeight]current page.south east);}
+\newcommand{\JJBCoverPaintPaperScrollPattern}{%
+  \input{reference-ribbon-path.tex}}
+\newcommand{\JJBCoverPaintRibbon}{%
+  \JJBCoverPaintPlainRibbon
+  \begin{scope}[
+    x=\JJBCoverDesignScale mm,
+    y=\JJBCoverDesignScale mm,
+    shift={([xshift=\JJBCoverContentShift]current page.south west)}]
+  \end{scope}}
+
+\newcommand{\JJBCoverPaintFixedPaper}{%
+  \fill[white] (current page.south west) rectangle (current page.north east);}
+
+\providecommand{\NPEECoverPage}[2]{}
+\renewcommand{\NPEECoverPage}[2]{%
+  \thispagestyle{empty}%
+  \null
+  \begin{tikzpicture}[remember picture,overlay]
+    \clip (current page.south west) rectangle (current page.north east);
+    \JJBCoverPaintFixedPaper
+    \JJBCoverPaintRibbon
+    \ifNPEEAfour
+      \coordinate (jjb-cover-content-center) at
+        ([xshift=\JJBCoverContentShift]current page.center);
+      \begin{scope}[shift={(jjb-cover-content-center)},
+        scale=\JJBCoverDesignScale,transform shape]
+        \node[anchor=north west,text=NPEEOriginalCoverInk,
+          font=\NPEECoverTitleFont,inner sep=0pt]
+          at (\NPEEAfourCoverTitleX,\NPEEAfourCoverTitleY)
+          {\JJBCoverTitleWithSubject};
+        \node[anchor=north west,text=NPEEOriginalCoverInk,
+          font=\NPEECoverSubtitleFont,text width=191mm,align=left,inner sep=0pt]
+          at (\NPEEAfourCoverSubtitleX,\NPEEAfourCoverSubtitleY)
+          {\NPEECoverRenderSubtitle{#1}};
+        \node[anchor=north west,text=black,
+          font=\NPEECoverEditorFont,inner sep=0pt]
+          at (\NPEEAfourCoverEditorX,\NPEEAfourCoverEditorY) {#2};
+      \end{scope}
+      \begin{scope}[shift={(current page.center)},scale=\JJBCoverDesignScale]
+        \coordinate (jjb-cover-reference-wordmark-center) at (9.7mm,-89.4mm);
+        \JJBCoverPaintReferenceWordmark{jjb-cover-reference-wordmark-center}
+      \end{scope}
+    \else
+      \begin{scope}[shift={(current page.north west)},scale=\JJBCoverDesignScale]
+        \node[anchor=north west,text=NPEEOriginalCoverInk,
+          font=\NPEECoverTitleFont,inner sep=0pt]
+          at (19mm,-66mm) {\JJBCoverTitleWithSubject};
+        \node[anchor=north west,text=NPEEOriginalCoverInk,
+          font=\NPEECoverSubtitleFont,text width=191mm,align=left,inner sep=0pt]
+          at (19mm,-96mm) {\NPEECoverRenderSubtitle{#1}};
+        \node[anchor=north west,text=black,
+          font=\NPEECoverEditorFont,inner sep=0pt]
+          at (20.25mm,-130mm) {#2};
+      \end{scope}
+      \begin{scope}[shift={(current page.center)},scale=\JJBCoverDesignScale,
+        transform shape]
+        \coordinate (jjb-cover-reference-wordmark-center) at (9.7mm,-89.4mm);
+        \JJBCoverPaintReferenceWordmark{jjb-cover-reference-wordmark-center}
+      \end{scope}
+    \fi
+  \end{tikzpicture}%
+  \clearpage}

@@ -1,0 +1,303 @@
+schema_version: '3.0'
+paper:
+  series_key: zhangyu8
+  year: 2023
+  subject: math3
+  paper_no: 4
+content_hash: e8ebd71cccce0eda71540508c2961a65c12af0e63e266b2cf1f7ee79edc9726a
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $I=\lim_{x\to0}\left(\dfrac{e^x+e^{2x}+\cdots+e^{nx}}{n}\right)^{\dfrac{n}{x}}$，$J=\lim_{x\to+\infty}\left[\dfrac{x^n}{(x-1)(x-2)\cdots(x-n)}\right]^{\dfrac{1}{n}}$，其中 $n$ 为正整数，则\ExamSelection
+  choices:
+  - label: A
+    text: $I=J$。
+    figures: []
+  - label: B
+    text: $I=J^{-1}$。
+    figures: []
+  - label: C
+    text: $I=J^n$。
+    figures: []
+  - label: D
+    text: $I=J^{-n}$。
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设某商品的需求函数为 $Q=2010-2p$，$Q$ 为需求量（单位：件），$p$ 为价格（单位：元）。当 $p=505$ 时，有\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      若价格上涨 $1$ 元，则收益增加 $10$ 元；若价格上涨 $10\%$，则收益增加 $0.1\%$。
+    figures: []
+  - label: B
+    text: |-
+      若价格上涨 $1$ 元，则收益减少 $10$ 元；若价格上涨 $10\%$，则收益减少 $0.1\%$。
+    figures: []
+  - label: C
+    text: |-
+      若价格上涨 $1\%$，则收益增加 $10$ 元；若价格上涨 $10$ 元，则收益增加 $0.1\%$。
+    figures: []
+  - label: D
+    text: |-
+      若价格上涨 $1\%$，则收益减少 $10$ 元；若价格上涨 $10$ 元，则收益减少 $0.1\%$。
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $I_k=\int_{(k-1)\pi}^{k\pi}\left|\dfrac{\sin x}{x}\right|\,\mathrm{d}x$，$k=1,2,3$，则\ExamSelection
+  choices:
+  - label: A
+    text: $I_1<I_2<I_3$。
+    figures: []
+  - label: B
+    text: $I_2<I_3<I_1$。
+    figures: []
+  - label: C
+    text: $I_2<I_1<I_3$。
+    figures: []
+  - label: D
+    text: $I_3<I_2<I_1$。
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)$ 在点 $x=0$ 处的某一邻域有连续的二阶导数，且 $\lim_{x\to0}\dfrac{f(x)}{x}=0$，则级数 $\sum_{n=1}^{\infty}\sqrt{n}f\left(\dfrac{1}{n}\right)$\ExamSelection
+  choices:
+  - label: A
+    text: 绝对收敛。
+    figures: []
+  - label: B
+    text: 条件收敛。
+    figures: []
+  - label: C
+    text: 发散。
+    figures: []
+  - label: D
+    text: 不确定。
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $2$ 阶实对称矩阵 $A$ 有二重特征值 $\lambda$，$\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2$ 是 $A$ 对应于特征值 $\lambda$ 的两个正交的特征向量，且 $(\\|\boldsymbol{\alpha}_1\\|)^2=k_1\text{，}(\\|\boldsymbol{\alpha}_2\\|)^2=k_2$，则 $A+\boldsymbol{\alpha}_1\boldsymbol{\alpha}_1^{\mathrm T}$ 相似于对角矩阵\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\begin{pmatrix}\lambda&0\\0&\lambda\end{pmatrix}$。
+    figures: []
+  - label: B
+    text: |-
+      $\begin{pmatrix}\lambda+k_1&0\\0&\lambda\end{pmatrix}$。
+    figures: []
+  - label: C
+    text: |-
+      $\begin{pmatrix}\lambda&0\\0&\lambda+k_2\end{pmatrix}$。
+    figures: []
+  - label: D
+    text: |-
+      $\begin{pmatrix}\lambda+k_1&0\\0&\lambda+k_2\end{pmatrix}$。
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 为 $3$ 阶矩阵，已知线性方程组 $A\boldsymbol{x}=\begin{pmatrix}1\\2\\-1\end{pmatrix}$ 的通解为 $\boldsymbol{x}=\begin{pmatrix}1\\2\\-1\end{pmatrix}+k_1\begin{pmatrix}-1\\1\\0\end{pmatrix}+k_2\begin{pmatrix}1\\0\\1\end{pmatrix}$，其中 $k_1,k_2$ 为任意常数，则 $\operatorname{tr}[(A-E)^*]=$\ExamSelection
+  choices:
+  - label: A
+    text: $1$。
+    figures: []
+  - label: B
+    text: $-1$。
+    figures: []
+  - label: C
+    text: $5$。
+    figures: []
+  - label: D
+    text: $-5$。
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 是 $m\times n$ 矩阵，且 $n$ 维列向量组 $\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\cdots,\boldsymbol{\alpha}_s$ 线性无关，则下面对 $m$ 维列向量组 $A\boldsymbol{\alpha}_1,A\boldsymbol{\alpha}_2,\cdots,A\boldsymbol{\alpha}_s$ 的描述中：①若 $r(A)=n$，则向量组 $A\boldsymbol{\alpha}_1,A\boldsymbol{\alpha}_2,\cdots,A\boldsymbol{\alpha}_s$ 必线性无关；②若 $r(A)<n$，则向量组 $A\boldsymbol{\alpha}_1,A\boldsymbol{\alpha}_2,\cdots,A\boldsymbol{\alpha}_s$ 必线性相关\ExamSelection。
+  choices:
+  - label: A
+    text: ①正确，②也正确。
+    figures: []
+  - label: B
+    text: ①正确，但②不正确。
+    figures: []
+  - label: C
+    text: ①不正确，但②正确。
+    figures: []
+  - label: D
+    text: ①不正确，②也不正确。
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设随机变量 $X$ 服从正态分布 $N(2,4)$，$\Phi(x)$ 为标准正态分布的分布函数，则函数 $f(x)=\dfrac{1}{x^2+Xx+X}$ 在 $(-\infty,+\infty)$ 内处处连续的概率为\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\Phi(1)$。
+    figures: []
+  - label: B
+    text: |-
+      $1-\Phi(1)$。
+    figures: []
+  - label: C
+    text: |-
+      $2\Phi(1)-1$。
+    figures: []
+  - label: D
+    text: |-
+      $\Phi(1)-\Phi(0)$。
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $X,Y$ 均服从标准正态分布 $N(0,1)$，相关系数 $\rho_{XY}=\dfrac{1}{2}$，令 $Z_1=aX,Z_2=bX+cY$，若 $D(Z_1)=D(Z_2)=1$，且 $Z_1$ 与 $Z_2$ 不相关，则 $a,b,c$ 的取值不可以是\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $a=1,b=\dfrac{1}{\sqrt{3}},c=-\dfrac{2}{\sqrt{3}}$。
+    figures: []
+  - label: B
+    text: |-
+      $a=1,b=-\dfrac{1}{\sqrt{3}},c=\dfrac{2}{\sqrt{3}}$。
+    figures: []
+  - label: C
+    text: |-
+      $a=-1,b=\dfrac{1}{\sqrt{3}},c=-\dfrac{2}{\sqrt{3}}$。
+    figures: []
+  - label: D
+    text: |-
+      $a=-1,b=-\dfrac{1}{\sqrt{3}},c=-\dfrac{2}{\sqrt{3}}$。
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设总体 $X$ 在 $(a,b)$ 上服从均匀分布，其中 $a,b$ 为未知参数，若对于 $X$ 的一组样本观测值 $x_1,x_2,\cdots,x_{10}$，$a,b$ 的矩估计值分别为 $\hat a=2.6,\hat b=6.2$，则该样本的样本方差为\ExamSelection
+  choices:
+  - label: A
+    text: $0.972$。
+    figures: []
+  - label: B
+    text: $1.08$。
+    figures: []
+  - label: C
+    text: $1.2$。
+    figures: []
+  - label: D
+    text: $1.8$。
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      若某线性差分方程的通解为 $y_t=C\cdot2^t+t\cdot2^{t-1}$（$C$ 为任意常数），则该差分方程为$\ExamBlank$。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设函数 $y=y(x)$ 满足方程 $y''-2y'+5y=0$，且 $\lim_{x\to0}\dfrac{y(x)-2}{x}=2$，则 $\int y(x)\,\mathrm{d}x=\ExamBlank$。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设可微函数 $f(x)$ 及其反函数 $g(x)$ 满足关系式 $\int_1^{f(x)}g(t)\,\mathrm{d}t=\dfrac{1}{3}(x^{\dfrac{3}{2}}-8)$（$x>0$），则 $f(x)=\ExamBlank$。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      级数 $\sum_{n=1}^{\infty}\dfrac{2n+1}{2^n}$ 的和为\ExamBlank。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 为 $3$ 阶实对称矩阵，$|A+E|=0$，$\boldsymbol{\alpha}_1=(1,0,1)^{\mathrm T}$ 与 $\boldsymbol{\alpha}_2=(0,1,-1)^{\mathrm T}$ 均为齐次线性方程组 $A\boldsymbol{x}=0$ 的解，则方程组 $(A+E)\boldsymbol{x}=0$ 的通解为\ExamBlank。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      掷一颗骰子直到所有点数全部出现为止，则所需投掷次数 $Y$ 的数学期望为\ExamBlank。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      设函数 $y=y(x)$ 是由方程 $e^{-y}-y+\int_0^x(e^{-t^2}+1)\,\mathrm{d}t=1$ 所确定的。
+  subparts:
+  - text: 证明 $y(x)$ 是单调增加函数；
+  - text: |-
+      当 $x\to+\infty$ 时，曲线 $y=y'(x)$ 是否有水平渐近线？若有，求出其水平渐近线；若没有，说明理由。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: 证明：
+  subparts:
+  - text: |-
+      当 $0<x<1$ 时，$x-\dfrac{1}{x}<2\ln x$；
+  - text: |-
+      设 $f(x)$ 是 $(0,+\infty)$ 上的可微正值函数，且满足 $f(x)+f'(x)<0$，证明：当 $0<x<1$ 时，$xf(x)>\dfrac{1}{x}f\left(\dfrac{1}{x}\right)$。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $D=\{(x,y)\mid x^2+2y^2\leq4\}$，函数 $f(x,y)$ 具有二阶连续偏导数，满足 $f(x,0)=x^2$，$f_y'(x,0)=\sqrt{2}x$，$f_{yy}''(x,y)=4$，求 $f(x,y)$ 在闭区域 $D$ 上的最大值与最小值。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设幂级数 $\sum_{n=1}^{\infty}a_nx^{2n}$ 的和函数为 $S(x)$（$-\infty<x<+\infty$），已知 $S(x)$ 满足方程 $\int_0^xS(t)\,\mathrm{d}t+S'(x)=2\sin x$，且 $S(0)=0$，求：
+  subparts:
+  - text: $S(x)$ 的解析式；
+  - text: |-
+      级数 $\sum_{n=1}^{\infty}(2n+1)a_n$ 的和。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设二次型 $f(x_1,x_2,x_3)$ 的矩阵为 $A$，已知 $|A+E|=0,AB-2B=O$，其中 $B=\begin{pmatrix}-1&-1&-1\\1&0&2\\0&1&-1\end{pmatrix}$。求一个正交变换 $\boldsymbol{x}=Q\boldsymbol{y}$，将二次型 $f(x_1,x_2,x_3)$ 化为标准形，并求矩阵 $A$。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设总体 $X$ 的概率密度为 $f(x;\theta)=\begin{cases}\theta,&0<x<1,\\1-\theta,&1\leq x<2,\\0,&\text{其他，}\end{cases}$ 其中 $\theta$ 是未知参数（$0<\theta<1$）。$X_1,X_2,\cdots,X_n$ 为来自总体 $X$ 的简单随机样本，记 $N$ 为样本值 $x_1,x_2,\cdots,x_n$ 中小于 $1$ 的个数。求：
+  subparts:
+  - text: |-
+      $\theta$ 的矩估计量 $\hat\theta_M$ 及 $E(\hat\theta_M)$；
+  - text: |-
+      $\theta$ 的最大似然估计量 $\hat\theta_L$ 及 $E(\hat\theta_L)$。

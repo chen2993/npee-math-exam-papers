@@ -1,0 +1,310 @@
+schema_version: '3.0'
+paper:
+  series_key: liyanfang3
+  year: 2026
+  subject: math3
+  paper_no: 3
+content_hash: 222f3340dfb8f0f1c25eeca02cf834cf3cdac39d7e1e059488a86e11e6b4819e
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $x_0=a$, 对 $n\geq 1$, 令 $x_n=\begin{cases}\dfrac{x_{n-1}+x_{n-2}}{3},&n\text{为偶数},\\\dfrac{1+x_{n-1}}{2},&n\text{为奇数},\end{cases}$ 则下列关于数列 $\{x_n\}$ 的说法中, 正确的是\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\lim\limits_{n\to\infty}x_{2n},\lim\limits_{n\to\infty}x_{2n+1}$ 均不存在.
+    figures: []
+  - label: B
+    text: |-
+      $\lim\limits_{n\to\infty}x_{2n},\lim\limits_{n\to\infty}x_{2n+1}$ 均存在, 但不相等.
+    figures: []
+  - label: C
+    text: |-
+      $\lim\limits_{n\to\infty}x_n$ 存在, 其值与 $a$ 有关.
+    figures: []
+  - label: D
+    text: |-
+      $\lim\limits_{n\to\infty}x_n$ 存在, 其值与 $a$ 无关.
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      如图所示, 连续函数 $f(x)$ 的导函数 $f'(x)$ 的图形由一段直线 $y=x(x<1)$ 与一段抛物线组成. 已知 $f(0)=0$, $f(2)=-\dfrac{1}{2}$, 则下列说法中, 正确的是\ExamSelection。
+    figures:
+    - kind: tikz
+      latex: |-
+        \begin{tikzpicture}[x=0.7cm,y=0.7cm,>=stealth]\draw[->] (-1.1,0)--(4.1,0) node[right] {$x$};\draw[->] (0,-1.2)--(0,2.9) node[above] {$f'(x)$};\draw (-0.7,-0.7)--(1,1);\draw[densely dotted] (1,0)--(1,1);\draw[densely dotted] (0,1)--(1,1);\filldraw[fill=white] (1,1) circle (1.5pt);\filldraw[fill=white] (1,0) circle (1.5pt);\draw (1,0) parabola bend (2,-1) (3.35,0);\draw (3.35,0) parabola bend (3.7,0.45) (3.9,1.1);\node[below left] at (0,0) {$O$};\node[below] at (1,0) {$1$};\node[below] at (3.35,0) {$3$};\node[left] at (0,1) {$1$};\end{tikzpicture}
+      path:
+      description: 导函数图像
+      exception_reason:
+  choices:
+  - label: A
+    text: $f(x)$ 有两个极值点, 曲线 $y=f(x)$ 有两个拐点.
+    figures: []
+  - label: B
+    text: $f(x)$ 有三个极值点, 曲线 $y=f(x)$ 有一个拐点.
+    figures: []
+  - label: C
+    text: |-
+      $f(x)$ 在 $[0,3]$ 上的最大值为 $\dfrac{1}{2}$, 最小值为 $-\dfrac{3}{2}$.
+    figures: []
+  - label: D
+    text: |-
+      $f(x)$ 在 $[0,3]$ 上的最大值为 $\dfrac{1}{2}$, 最小值为 $-1$.
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x)=\lim\limits_{n\to\infty}\dfrac{2x^{n+2}}{\sqrt{1+x^{4n}}}$, $F(x)=\int_0^x f(t)\,\mathrm{d}t$, 则 $F(x)$ 的不可导点的个数为\ExamSelection。
+  choices:
+  - label: A
+    text: $0$
+    figures: []
+  - label: B
+    text: $1$
+    figures: []
+  - label: C
+    text: $2$
+    figures: []
+  - label: D
+    text: $3$
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设区域 $D=\{(x,y)\mid 0\leq x\leq\pi,0\leq y\leq\pi\}$, 函数 $f(x,y)=\cos x\sin(x-2y)$, 则下列说法中, 正确的是\ExamSelection。
+  choices:
+  - label: A
+    text: 区域 $D$ 内部没有 $f(x,y)$ 的驻点.
+    figures: []
+  - label: B
+    text: 区域 $D$ 内部有 $f(x,y)$ 的驻点, 这些驻点均不是极值点.
+    figures: []
+  - label: C
+    text: 区域 $D$ 内部有 $f(x,y)$ 的驻点, 这些驻点均是极值点, 但不是最值点.
+    figures: []
+  - label: D
+    text: 区域 $D$ 内部有 $f(x,y)$ 的驻点, 这些驻点均既是极值点, 也是最值点.
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设矩阵 $A=\begin{pmatrix}1&0&-1\\-1&1&-1\\1&-1&0\end{pmatrix}$, $P=\begin{pmatrix}0&0&-1\\0&1&0\\1&0&0\end{pmatrix}$, $Q=\begin{pmatrix}1&0&0\\0&1&0\\0&-1&1\end{pmatrix}$, 则 $\operatorname{tr}(P^{2025}AQ^{2026})=$\ExamSelection。
+  choices:
+  - label: A
+    text: $-1$
+    figures: []
+  - label: B
+    text: |-
+      $2\,025$
+    figures: []
+  - label: C
+    text: |-
+      $-2\,027$
+    figures: []
+  - label: D
+    text: |-
+      $2\,029$
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A,B$ 为 $3$ 阶非零矩阵, 已知 $AB=O$, 且矩阵方程 $AX=B$ 有解, 则下列说法中, 错误的是\ExamSelection。
+  choices:
+  - label: A
+    text: 方程组 $Ax=0$ 与 $B^{*}x=0$ 有非零公共解.
+    figures: []
+  - label: B
+    text: 方程组 $A^{*}x=0$ 与 $Bx=0$ 有非零公共解.
+    figures: []
+  - label: C
+    text: |-
+      方程组 $A^{\mathrm{T}}x=0$ 与 $B^{\mathrm{T}}x=0$ 有非零公共解.
+    figures: []
+  - label: D
+    text: |-
+      方程组 $Ax=0$ 与 $B^{\mathrm{T}}x=0$ 有非零公共解.
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $|a|<2$, 实对称矩阵 $A$ 的第二行与第三行分别为 $(-1,-2,a),(-1,a,-2)$, 且构成 $A$ 的行向量组的一个极大无关组, 若 $A-kE$ 为正定矩阵, 则 $k$ 的取值范围为\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $k<a-2+\dfrac{2}{a-2}$
+    figures: []
+  - label: B
+    text: $k<-a-2$
+    figures: []
+  - label: C
+    text: |-
+      $k>a-2+\dfrac{2}{a-2}$
+    figures: []
+  - label: D
+    text: $k>-a-2$
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $X$ 服从参数为 $\dfrac{1}{2}$ 的指数分布, $Y=\sqrt{\dfrac{X}{2}}$, 则 $P\{Y\leq E(Y^2)\}=$\ExamSelection。
+  choices:
+  - label: A
+    text: $1-e^{-4}$
+    figures: []
+  - label: B
+    text: |-
+      $1-e^{-\dfrac{1}{4}}$
+    figures: []
+  - label: C
+    text: |-
+      $1-e^{-\dfrac{1}{16}}$
+    figures: []
+  - label: D
+    text: $1-e^{-1}$
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $X,Y$ 均服从正态分布, $D(X)=1,D(Y)=2$, $X_1,X_2,\cdots,X_{10}$ 是来自总体 $X$ 的简单随机样本, 样本方差为 $S_1^2$, $Y_1,Y_2,\cdots,Y_{10}$ 是来自总体 $Y$ 的简单随机样本, 样本方差为 $S_2^2$, 两个样本相互独立, 则 $k$ 至少应为\ExamSelection 时, $P\{S_1^2>kS_2^2\}\leq0.01$. （注: $F_{0.01}(10,10)=4.85,F_{0.01}(9,9)=5.35$, 其中 $F_\alpha(n_1,n_2)$ 为 $F(n_1,n_2)$ 的上 $\alpha$ 分位数.）
+  choices:
+  - label: A
+    text: $2.425$
+    figures: []
+  - label: B
+    text: $2.675$
+    figures: []
+  - label: C
+    text: $4.85$
+    figures: []
+  - label: D
+    text: $5.35$
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设随机变量 $X$ 的概率密度为 $f(x;\theta)=\begin{cases}\dfrac{1}{(x-\theta)^2},&x>\theta+1,\\0,&\text{其他},\end{cases}$ 其中 $\theta>0$ 为未知参数, $X_1,X_2,\cdots,X_n$ 是来自总体 $X$ 的简单随机样本, 记 $\theta$ 的最大似然估计量为 $\hat\theta$, 则 $E(\hat\theta)=$\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{1}{n-1}+\theta$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{1}{n}+\theta$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{n}{n+1}+\theta$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{n-1}{n}+\theta$
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x)=x-2\sqrt{x+1}\sin(\sqrt{x+1}-1)-2\cos(\sqrt{x+1}-1)+2$, 若当 $x\to0^+$ 时, $f(x)$ 与 $x^k$ 是同阶无穷小, 则 $k=$\ExamBlank。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设生产某产品的平均成本 $\overline{C}(Q)=1+e^{\dfrac{Q}{4}}$, 其中 $Q$ 为产量, 则边际成本的最小值为\ExamBlank。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设区域 $D=\{(x,y)\mid-x\leq y\leq x,0\leq x\leq2\}$, 函数 $f(x,y)=\cos x\cos y+[x]\iint_Df(x,y)\,\mathrm{d}x\mathrm{d}y$, 其中 $[x]$ 表示不超过 $x$ 的最大整数, 则 $f(x,y)=$\ExamBlank。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      幂级数 $\sum\limits_{n=1}^{\infty}\dfrac{(2x)^{2n-1}}{2n-1}$ 的和函数 $S(x)=$\ExamBlank（请指出收敛域）。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      已知矩阵 $A=\begin{pmatrix}1&a&a^2&a^3\\a&ab&ab^2&ab^3\\a^2&a^2b&a^2b^2&a^2b^3\\a^3&a^3b&a^3b^2&a^3b^3\end{pmatrix}$, $M_{ij}$ 表示 $|A|$ 中 $(i,j)$ 元 $a_{ij}$ 的余子式, 则 $M_{11}+aM_{12}-bM_{13}-M_{14}=$\ExamBlank。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设随机变量 $X$ 的概率密度为 $f(x)=\begin{cases}\dfrac{1}{2}x\sin x,&0<x<\dfrac{\pi}{2},\\\dfrac{1}{\pi},&\dfrac{\pi}{2}<x<\pi,\\0,&\text{其他}.\end{cases}$ 令随机变量 $Y=\begin{cases}2X,&0<X<\dfrac{\pi}{2},\\\dfrac{\pi}{12},&\dfrac{\pi}{2}\leq X<\pi,\\0,&\text{其他}.\end{cases}$ 则 $P\left\{X+Y\leq\dfrac{3\pi}{4}\right\}=$\ExamBlank。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      求曲线 $y=\sqrt[3]{x^3-x^2e^{\dfrac{\arctan x}{x}}}$ 的所有渐近线。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设连续函数 $y(x)$ 在 $(0,+\infty)$ 上的导数小于 $0$, 且 $y(0)=0,y(1)=e^{-1}-1$. 过曲线 $y=y(x)(x\geq0)$ 上任意一点 $P(x,y)$ 作 $y$ 轴的垂线与 $y$ 轴交于点 $A$, 曲线 $y=y(x)$ 与直线 $AP$ 以及 $y$ 轴所围成区域的面积 $S$ 等于点 $P(x,y)$ 处的切线在 $y$ 轴上的截距的相反数。
+  subparts:
+  - text: 求 $y(x)$ 的表达式；
+  - text: 设曲线 $y=y(x)$ 与该曲线在点 $(1,y(1))$ 处的切线以及 $y$ 轴所围成的平面区域为 $D$, 求 $D$ 绕 $y$ 轴旋转一周所得旋转体的体积 $V$。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 $f(x,y)=\dfrac{\sin2x}{\sqrt{(1+y)(\cos^2x+2y)}}$, 区域 $D$ 由曲线 $y=\sin^2x\ (0\leq x\leq\dfrac{\pi}{2})$, $y=\cos^2x\ (0\leq x\leq\dfrac{\pi}{2})$ 以及 $x$ 轴所围成, 计算二重积分 $I=\iint_Df(x,y)\,\mathrm{d}x\mathrm{d}y$。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设具有二阶连续导数的函数 $f(x)$ 满足 $f(0)=f'(0)=0,\lim\limits_{x\to+\infty}f''(x)=0$. 证明：
+  subparts:
+  - text: |-
+      当 $x\geq0$ 时, 存在 $M>0$, $|f(x)|\leq\dfrac{M}{2}x^2$；
+  - text: |-
+      $\dfrac{1}{M}(1-e^{-\dfrac{M}{2}})\leq\lim\limits_{n\to\infty}\left[\dfrac{1}{n^2}e^{f(\dfrac{1}{n})}+\dfrac{2}{n^2}e^{f(\dfrac{2}{n})}+\cdots+\dfrac{n}{n^2}e^{f(1)}\right]\leq\dfrac{1}{M}(e^{\dfrac{M}{2}}-1)$。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设矩阵 $A=\begin{pmatrix}0&0&-2\\1&0&a\\a&-1&0\end{pmatrix}$, $B$ 为实对称矩阵, 且第一行第一列的元素为 $5$, 若 $A,B$ 满足 $AB+B-A-E=O$。
+  subparts:
+  - text: 求 $a$；
+  - text: |-
+      求正交变换 $x=Qy$, 将二次型 $f(x_1,x_2,x_3)=x^{\mathrm{T}}Bx$ 化为标准形。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: 某旅馆有一公共烘干机, 已知某日仅有甲、乙两客户入住, 他们会在晚 $7$ 点至晚 $11$ 点间到达该洗衣房使用烘干机, 到达时间相互独立, 且在这 $4$ 小时内各时刻到来的可能性都相等. 甲的使用时长为 $1$ 小时, 乙的使用时长为 $1.5$ 小时. 记甲的等待时长为 $Z$。
+  subparts:
+  - text: 求 $Z$ 的分布函数 $F_Z(z)$；
+  - text: 求 $Z$ 的数学期望 $E(Z)$。

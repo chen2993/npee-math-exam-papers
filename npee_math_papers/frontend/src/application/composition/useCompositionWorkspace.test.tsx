@@ -1,0 +1,123 @@
+import { act, renderHook } from "@testing-library/react";
+import { describe, expect, it, vi } from "vitest";
+
+import type { PaperSummary } from "../../domain/catalog/models";
+import type { CompositionDraftRepository } from "./ports";
+import { normalizeDraft, useCompositionWorkspace } from "./useCompositionWorkspace";
+
+function paper(no: number): PaperSummary {
+  return {
+    natural_key: `2024/math1/demo/${no}`,
+    bundle: "demo-2024-math1",
+    series_key: "demo",
+    series_name: "示例系列",
+    year: 2024,
+    subject: "math1",
+    paper_no: no,
+    question_count: 22,
+    section_counts: {},
+    content_hash: "abc",
+  };
+}
+
+function repository(seed: unknown[] = []): CompositionDraftRepository {
+  return { load: () => seed as never, save: vi.fn() };
+}
+
+describe("normalizeDraft", () => {
+  it("migrates the legacy natural-key selection into references", () => {
+    const draft = normalizeDraft({ name: "旧组卷", selected: ["2024/math1/demo/1"] } as never);
+    expect(draft.papers).toHaveLength(1);
+    expect(draft.papers[0]).toMatchObject({ series_key: "demo", year: 2024, paper_no: 1 });
+  });
+
+  it("drops unusable entries instead of throwing", () => {
+    const draft = normalizeDraft({ papers: [null, { junk: true }, { series_key: "a" }] } as never);
+    expect(draft.papers).toHaveLength(0);
+  });
+
+  it("forces a4 when the a4-blank spacing is restored", () => {
+    expect(normalizeDraft({ spacing: "a4-blank", layout: "a3" } as never).layout).toBe("a4");
+  });
+});
+
+describe("useCompositionWorkspace", () => {
+  it("starts with one draft even when storage is empty", () => {
+    const { result } = renderHook(() => useCompositionWorkspace(repository()));
+    expect(result.current.drafts).toHaveLength(1);
+    expect(result.current.activeDraft).toBeTruthy();
+  });
+
+  it("toggles a paper on and off", () => {
+    const { result } = renderHook(() => useCompositionWorkspace(repository()));
+    act(() => result.current.togglePaper(paper(1)));
+    expect(result.current.isSelected("2024/math1/demo/1")).toBe(true);
+    act(() => result.current.togglePaper(paper(1)));
+    expect(result.current.isSelected("2024/math1/demo/1")).toBe(false);
+  });
+
+  it("moves a paper up and down", () => {
+    const { result } = renderHook(() => useCompositionWorkspace(repository()));
+    act(() => result.current.togglePaper(paper(1)));
+    act(() => result.current.togglePaper(paper(2)));
+    act(() => result.current.movePaper(1, -1));
+    expect(result.current.activeDraft.papers.map((item) => item.paper_no)).toEqual([2, 1]);
+  });
+
+  it("reorders by index for drag-and-drop", () => {
+    const { result } = renderHook(() => useCompositionWorkspace(repository()));
+    act(() => result.current.togglePaper(paper(1)));
+    act(() => result.current.togglePaper(paper(2)));
+    act(() => result.current.togglePaper(paper(3)));
+    act(() => result.current.reorderPapers(2, 0));
+    expect(result.current.activeDraft.papers.map((item) => item.paper_no)).toEqual([3, 1, 2]);
+  });
+
+  it("keeps at least one draft", () => {
+    const { result } = renderHook(() => useCompositionWorkspace(repository()));
+    let removed = true;
+    act(() => {
+      removed = result.current.deleteActiveDraft();
+    });
+    expect(removed).toBe(false);
+    expect(result.current.drafts).toHaveLength(1);
+  });
+
+  it("duplicates the active draft with its papers", () => {
+    const { result } = renderHook(() => useCompositionWorkspace(repository()));
+    act(() => result.current.togglePaper(paper(1)));
+    act(() => result.current.duplicateActiveDraft());
+    expect(result.current.drafts).toHaveLength(2);
+    expect(result.current.activeDraft.papers).toHaveLength(1);
+  });
+
+  it("adds a batch without flipping already-selected papers off", () => {
+    // "Add this whole page" goes through addPapers rather than repeated toggles,
+    // because toggling a paper that is already selected would *remove* it.
+    const { result } = renderHook(() => useCompositionWorkspace(repository()));
+    act(() => result.current.togglePaper(paper(1)));
+    let added = 0;
+    act(() => {
+      added = result.current.addPapers([paper(1), paper(2), paper(3)]);
+    });
+    expect(added).toBe(2);
+    expect(result.current.activeDraft.papers.map((item) => item.paper_no)).toEqual([1, 2, 3]);
+  });
+
+  it("counts a duplicated paper only once when adding a batch", () => {
+    const { result } = renderHook(() => useCompositionWorkspace(repository()));
+    let added = 0;
+    act(() => {
+      added = result.current.addPapers([paper(1), paper(1), paper(2)]);
+    });
+    expect(added).toBe(2);
+    expect(result.current.activeDraft.papers).toHaveLength(2);
+  });
+
+  it("removes a batch by natural key", () => {
+    const { result } = renderHook(() => useCompositionWorkspace(repository()));
+    act(() => result.current.addPapers([paper(1), paper(2), paper(3)]));
+    act(() => result.current.removePapers(["2024/math1/demo/2", "2024/math1/demo/3"]));
+    expect(result.current.activeDraft.papers.map((item) => item.paper_no)).toEqual([1]);
+  });
+});

@@ -1,0 +1,301 @@
+schema_version: '3.0'
+paper:
+  series_key: zhangyu8
+  year: 2025
+  subject: math2
+  paper_no: 5
+content_hash: a7c601dde65ef65daee09238bcb7e2d59da40eb66ec85a50fe621b2de0201e81
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $x\to0$ 时，$\int_0^x\left(e^{t\cos t^2}-e^t\right)\,\mathrm{d}t$ 与 $ax^b$ 是等价无穷小量，则 $(a,b)=$\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\left(-\dfrac{1}{6},3\right)$
+    figures: []
+  - label: B
+    text: |-
+      $\left(-\dfrac{1}{24},4\right)$
+    figures: []
+  - label: C
+    text: |-
+      $\left(-\dfrac{1}{2},5\right)$
+    figures: []
+  - label: D
+    text: |-
+      $\left(-\dfrac{1}{12},6\right)$
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      $f(x)=\lim_{n\to\infty}n^x\left[\left(1+\dfrac{1}{n}\right)^n-e\right]$ 在 $x=1$ 处\ExamSelection。
+  choices:
+  - label: A
+    text: 左极限存在，右极限不存在
+    figures: []
+  - label: B
+    text: 左极限不存在，右极限存在
+    figures: []
+  - label: C
+    text: 左、右极限都存在，但不相等
+    figures: []
+  - label: D
+    text: 连续
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $a_n$ 是方程 $x=\tan\sqrt{x}$ 在 $\left(n\pi,n\pi+\dfrac{\pi}{2}\right)\,(n=1,2,\cdots)$ 内的根，则 $\lim_{n\to\infty}\left(\sqrt{a_{n+1}}-\sqrt{a_n}\right)=$\ExamSelection。
+  choices:
+  - label: A
+    text: $0$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{\sqrt{\pi}}{2}$
+    figures: []
+  - label: C
+    text: |-
+      $\sqrt{\pi}$
+    figures: []
+  - label: D
+    text: |-
+      $\pi$
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x),g(x)$ 在 $[a,b]$ 上连续，$(a,b)$ 内可导，$g'(x)>0$，则 $\forall x\in(a,b)$，“$\dfrac{f'(x)}{g'(x)}$ 严格单调递增”是“$\dfrac{f(x)-f(a)}{g(x)-g(a)}$ 严格单调递增”的\ExamSelection。
+  choices:
+  - label: A
+    text: 充分非必要条件
+    figures: []
+  - label: B
+    text: 必要非充分条件
+    figures: []
+  - label: C
+    text: 充分必要条件
+    figures: []
+  - label: D
+    text: 既非充分又非必要条件
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      $f(x)=\dfrac{1}{1+|x|}+\dfrac{1}{1+|x-a|}\,(a>0)$ 的最大值为\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{1+a}{2+a}$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{2+a}{1+a}$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{1+2a}{2+a}$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{2+a}{1+2a}$
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)=\begin{cases}x^2\sin\dfrac{1}{x},&x\ne0,\\0,&x=0,\end{cases}$ 记 $F(x)=g[f(x)]$，$g(x)$ 可导，则 $F(x)$ 在 $x=0$ 处\ExamSelection。
+  choices:
+  - label: A
+    text: 不连续
+    figures: []
+  - label: B
+    text: 可导且 $F'(0)=0$
+    figures: []
+  - label: C
+    text: 连续但不可导
+    figures: []
+  - label: D
+    text: |-
+      可导且 $F'(0)\ne0$
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x,y)$ 具有二阶连续偏导数，$f'_x(x,y)>0$，$f'_y(x,y)<0$，$f''_{xy}(x,y)>0$，$D$ 为平面有界闭区域，记 $I_1=\iint_D f\left[e^x,f''_{xy}(x_0,y)\right]\,\mathrm{d}\sigma$，$I_2=\iint_D f\left[x+1,f''_{yx}(x_0,y)\right]\,\mathrm{d}\sigma$，$I_3=\iint_D f\left[e^x,f'_y(x_0,y)\right]\,\mathrm{d}\sigma$，则\ExamSelection。
+  choices:
+  - label: A
+    text: $I_1>I_2>I_3$
+    figures: []
+  - label: B
+    text: $I_1>I_3>I_2$
+    figures: []
+  - label: C
+    text: $I_3>I_1>I_2$
+    figures: []
+  - label: D
+    text: $I_3>I_2>I_1$
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      $f(x_1,x_2,x_3)=x_1^2+2x_2^2+3x_3^2-4x_1x_2-4x_2x_3$ 的正惯性指数为\ExamSelection。
+  choices:
+  - label: A
+    text: $0$
+    figures: []
+  - label: B
+    text: $1$
+    figures: []
+  - label: C
+    text: $2$
+    figures: []
+  - label: D
+    text: $3$
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      $\boldsymbol{A},\boldsymbol{B}$ 均为 $n$ 阶矩阵，$|\boldsymbol{B}|\ne0$。设 $\boldsymbol{\alpha}$ 为 $n$ 维列向量，则“$\boldsymbol{\alpha}$ 是 $\boldsymbol{AB}$ 的特征向量”是“$\boldsymbol{B\alpha}$ 是 $\boldsymbol{BA}$ 的特征向量”的\ExamSelection。（公众号：风中羽小易）
+  choices:
+  - label: A
+    text: 充分必要条件
+    figures: []
+  - label: B
+    text: 充分非必要条件
+    figures: []
+  - label: C
+    text: 必要非充分条件
+    figures: []
+  - label: D
+    text: 既非充分又非必要条件
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知 $n$ 阶方阵 $\boldsymbol{A}$ 可逆且满足 $\boldsymbol{A}^{\mathrm{T}}=-\boldsymbol{A}$，则以下命题中正确的个数为\ExamSelection。
+  choices:
+  - label: A
+    text: $1$
+    figures: []
+  - label: B
+    text: $2$
+    figures: []
+  - label: C
+    text: $3$
+    figures: []
+  - label: D
+    text: $4$
+    figures: []
+  subparts:
+  - text: |-
+      对任意 $n$ 维列向量 $\boldsymbol{b}$，$\boldsymbol{b}^{\mathrm{T}}\boldsymbol{A}\boldsymbol{b}=0$
+  - text: |-
+      对任意 $n$ 维列向量 $\boldsymbol{b}$，$\boldsymbol{b}^{\mathrm{T}}\boldsymbol{A}^{-1}\boldsymbol{b}=0$
+  - text: |-
+      对任意 $n$ 维列向量 $\boldsymbol{b}$，$r\left(\boldsymbol{A}+\boldsymbol{b}\boldsymbol{b}^{\mathrm{T}}\right)=n$
+  - text: $n$ 可能为 $3$
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $\{a_n\}$ 非负有界，$b_n=\sum_{k=1}^n\dfrac{k}{a_n+n^2}$，则 $\lim_{n\to\infty}\dfrac{1}{b_n}=$\ExamBlank。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      曲线 $y=x^2$ 从点 $(1,1)$ 到点 $(2,4)$ 的一段弧绕 $y$ 轴旋转一周所得旋转体的表面积为\ExamBlank。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      已知连续曲线 $y=y(x)$ 上点 $(x,y)$ 处切线的斜率为 $\dfrac{1}{x\sqrt{x^2-1}}$，且曲线过点 $(-2,0)$，则该曲线方程为\ExamBlank。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      函数 $f(x)=\int_x^{x+\dfrac{\pi}{2}}|\sin t|\,\mathrm{d}t$ 在 $[0,\pi]$ 上的平均值为\ExamBlank。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x,y)$ 具有二阶连续偏导数，且满足 $\dfrac{\partial^2[f(x,y)]}{\partial x\partial y}=1$，$f(0,y)=\sin y$，$f(x,0)=\sin x$，则 $f\left(\dfrac{\pi}{2},\dfrac{\pi}{2}\right)=$\ExamBlank。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $\boldsymbol{\alpha}_1=\begin{pmatrix}1\\1\\a\end{pmatrix}$，$\boldsymbol{\alpha}_2=\begin{pmatrix}1\\a\\1\end{pmatrix}$，$\boldsymbol{\alpha}_3=\begin{pmatrix}a\\1\\1\end{pmatrix}$，$\boldsymbol{\alpha}_4=\begin{pmatrix}1\\a\\a^2\end{pmatrix}$，若 $\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3$ 与 $\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3,\boldsymbol{\alpha}_4$ 等价，则 $a$ 的取值范围是\ExamBlank。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      计算 $\lim_{x\to0}\dfrac{\int_0^x\left[e^{(t-x)^2}-1\right]\sin t\,\mathrm{d}t}{x^2(e^{x^2}-1)}$。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 $x=x(y)$ 满足 $y=\int\dfrac{4y^3}{4-y^6}\,\mathrm{d}x$，$L$ 为曲线 $x=x(y)\,(-2\leq y\leq-1)$，且 $x(-1)=-\dfrac{9}{16}$，记 $L$ 的长度为 $s$。
+  subparts:
+  - text: 求 $s$
+  - text: 求 $x$ 的最大值
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设曲线 $L_1:x^2+y^2=2y$ 内切于曲线 $L_2:\dfrac{x^2}{a^2}+\dfrac{y^2}{b^2}=1$，求 $a,b$ 的值，使 $L_2$ 所围面积最小。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设平面区域 $D=\{(x,y)\mid x^2+y^2\leq1,\,|y|\leq|x|\}$，计算 $\iint_D\dfrac{\sqrt{x^2y^2}}{\sqrt{x^2+y^2}+x^2-y^2}\,\mathrm{d}\sigma$。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 $f(x)$ 是 $[0,1]$ 上的连续函数，$\int_0^1f(x)\,\mathrm{d}x=0$，$\int_0^1xf(x)\,\mathrm{d}x=1$。记 $M=\max_{x\in[0,1]}\{|f(x)|\}$。证明：
+  subparts:
+  - text: |-
+      $\left|\int_0^1\left(x-\dfrac{1}{2}\right)f(x)\,\mathrm{d}x\right|\leq\dfrac{M}{4}$
+  - text: $M>4$
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $\boldsymbol{\alpha}_1=\begin{pmatrix}1-a\\a\\a+1\end{pmatrix}$，$\boldsymbol{\alpha}_2=\begin{pmatrix}1\\1\\a+1\end{pmatrix}$，$\boldsymbol{\alpha}_3=\begin{pmatrix}1\\0\\1\end{pmatrix}$，$\boldsymbol{\beta}=\begin{pmatrix}0\\1\\2(a-1)\end{pmatrix}$，$\boldsymbol{\gamma}=k_1\boldsymbol{\alpha}_1+k_2\boldsymbol{\alpha}_2+k_3\boldsymbol{\alpha}_3$。若 $\boldsymbol{\beta}$ 不能由 $\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3$ 线性表示，且 $\boldsymbol{\beta}^{\mathrm{T}}\boldsymbol{\alpha}_i=\boldsymbol{\gamma}^{\mathrm{T}}\boldsymbol{\alpha}_i$，$i=1,2$，求：
+  subparts:
+  - text: $a$ 的值
+  - text: |-
+      $\boldsymbol{\gamma}$

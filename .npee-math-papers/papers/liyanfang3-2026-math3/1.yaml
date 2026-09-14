@@ -1,0 +1,309 @@
+schema_version: '3.0'
+paper:
+  series_key: liyanfang3
+  year: 2026
+  subject: math3
+  paper_no: 1
+content_hash: 0a6115f078c683ca663c6cf35bf9dc35ee0336b843fe08b4ba15767d9187c0d5
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设曲线方程为 $y=x-\dfrac{1}{2}\ln\dfrac{2x^2}{1+x^2}$，则该曲线的渐近线的条数为\ExamSelection。
+  choices:
+  - label: A
+    text: $0$
+    figures: []
+  - label: B
+    text: $1$
+    figures: []
+  - label: C
+    text: $2$
+    figures: []
+  - label: D
+    text: $3$
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      当 $n\to\infty$ 时，下列无穷小量中，与 $\lim\limits_{n\to\infty}\int_0^{\dfrac{1}{n^2}}\mathrm{d}x\int_n^{\dfrac{1}{\sqrt{x}}}\dfrac{\sin xy}{y}\,\mathrm{d}y$ 等价的是\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $-\dfrac{1}{6n^3}$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{1}{6n^3}$
+    figures: []
+  - label: C
+    text: |-
+      $-\dfrac{1}{n}$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{1}{n}$
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x)$ 在 $[0,\pi]$ 上具有二阶连续导数，则下列条件中，是 $\int_0^\pi[f''(x)+f(x)]\sin x\,\mathrm{d}x>\int_0^\pi[f''(x)+f(x)]\cos x\,\mathrm{d}x$ 的充分条件的是\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $f(\pi)+f'(\pi)>0,\ f(0)+f'(0)>0$
+    figures: []
+  - label: B
+    text: |-
+      $f(\pi)+f'(\pi)>0,\ f(0)+f'(0)<0$
+    figures: []
+  - label: C
+    text: |-
+      $f(\pi)+f'(\pi)<0,\ f(0)+f'(0)>0$
+    figures: []
+  - label: D
+    text: |-
+      $f(\pi)+f'(\pi)<0,\ f(0)+f'(0)<0$
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $\sum_{n=1}^{\infty}a_n$ 为变号级数，令 $b_n=\begin{cases}a_n,&a_n\geqslant0,\\0,&a_n<0,\end{cases}\ c_n=\begin{cases}0,&a_n\geqslant0,\\-a_n,&a_n<0,\end{cases}$ 则下列命题中，正确的是：①若 $\sum_{n=1}^{\infty}a_n$ 绝对收敛，则 $\sum_{n=1}^{\infty}b_n$、$\sum_{n=1}^{\infty}c_n$ 都收敛。②若 $\sum_{n=1}^{\infty}a_n$ 条件收敛，则 $\sum_{n=1}^{\infty}b_n$、$\sum_{n=1}^{\infty}c_n$ 都发散。③若 $\sum_{n=1}^{\infty}a_n$ 绝对收敛，则 $\sum_{n=1}^{\infty}b_n$、$\sum_{n=1}^{\infty}c_n$ 必然一个收敛，一个发散。④若 $\sum_{n=1}^{\infty}a_n$ 条件收敛，则不能确定 $\sum_{n=1}^{\infty}b_n$、$\sum_{n=1}^{\infty}c_n$ 的敛散性。\ExamSelection
+  choices:
+  - label: A
+    text: ①②
+    figures: []
+  - label: B
+    text: ①④
+    figures: []
+  - label: C
+    text: ②③
+    figures: []
+  - label: D
+    text: ③④
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $3$ 阶非零矩阵 $A$ 满足 $2(A+A^{\mathrm T})=(A-A^{\mathrm T})^*$，则下列说法中，正确的是\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $A^*+(A^{\mathrm T})^*=O$
+    figures: []
+  - label: B
+    text: |-
+      $(A+A^{\mathrm T})^*=O$
+    figures: []
+  - label: C
+    text: |-
+      $A^*-(A^{\mathrm T})^*=O$
+    figures: []
+  - label: D
+    text: $(A-A^*)^*=O$
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A,B$ 为 $n$ 阶非零矩阵，则 $r(A+B)\leqslant r(A)$ 是矩阵方程 $AX=B$ 有解的\ExamSelection。
+  choices:
+  - label: A
+    text: 充分必要条件
+    figures: []
+  - label: B
+    text: 充分不必要条件
+    figures: []
+  - label: C
+    text: 必要不充分条件
+    figures: []
+  - label: D
+    text: 既不充分也不必要条件
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 为 $n$ 阶可逆矩阵，$\alpha$ 为 $n$ 维非零列向量，$E_n$ 为 $n$ 阶单位矩阵，矩阵 $B=\begin{pmatrix}E_n&A^{\mathrm T}\alpha\\\alpha^{\mathrm T}A&0\end{pmatrix}$，则下列说法中，错误的是\ExamSelection。
+  choices:
+  - label: A
+    text: 矩阵 $B$ 可逆
+    figures: []
+  - label: B
+    text: |-
+      存在非零列向量 $x$，使得 $x^{\mathrm T}Bx\geqslant0$
+    figures: []
+  - label: C
+    text: |-
+      存在非零列向量 $x$，使得 $x^{\mathrm T}Bx<0$
+    figures: []
+  - label: D
+    text: |-
+      二次型 $f=x^{\mathrm T}Bx$ 可化为规范形 $f=\sum_{i=1}^{n+1}y_i^2$
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设随机变量 $X$ 如下定义：投掷一枚均匀骰子，若掷得的点数为 $3$ 的倍数 $k$，则 $X$ 服从 $[0,\dfrac{1}{k}]$ 上的均匀分布，其他情况则 $X=1$。下列关于 $X$ 的分布函数 $F(x)$ 的说法中，正确的是\ExamSelection。
+  choices:
+  - label: A
+    text: $F(x)$ 是连续函数
+    figures: []
+  - label: B
+    text: $F(x)$ 有两个间断点
+    figures: []
+  - label: C
+    text: |-
+      $F\left(\dfrac{1}{4}\right)=\dfrac{7}{24}$
+    figures: []
+  - label: D
+    text: |-
+      $\int_{\dfrac{1}{6}}^{\dfrac{1}{3}}F(x)\,\mathrm{d}x=2\int_0^{\dfrac{1}{6}}F(x)\,\mathrm{d}x$
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $i=1,2$，$(X_i,Y_i)\sim N(0,0;1,1;\rho_i)$，$\varphi_i(x,y)$ 为 $(X_i,Y_i)$ 的概率密度，$\rho_1\neq\rho_2$ 且 $\rho_1,\rho_2$ 均不为零。已知 $f(x,y)=a\varphi_1(x,y)+b\varphi_2(x,y)\ (0<a<1)$ 为随机变量 $(X,Y)$ 的概率密度，则下列说法中，错误的是\ExamSelection。
+  choices:
+  - label: A
+    text: $a+b=1$
+    figures: []
+  - label: B
+    text: $X,Y$ 均服从 $N(0,1)$
+    figures: []
+  - label: C
+    text: |-
+      若 $X,Y$ 相关，则 $\rho_1,\rho_2$ 同号
+    figures: []
+  - label: D
+    text: |-
+      若 $X,Y$ 不相关，则 $\rho_1,\rho_2$ 异号
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $X\sim N(\mu,\sigma^2)$，$X_1,X_2,\cdots,X_{n+1}$ 是来自总体 $X$ 的简单随机样本，$\overline X_n=\dfrac{1}{n}\sum_{i=1}^nX_i$，则\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{X_{n+1}-\mu}{\sqrt{(X_1-\mu)^2+(X_2-\mu)^2}}\sim t(2)$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{X_{n+1}-\mu}{\sqrt{(X_1-\overline X_n)^2+(X_2-\overline X_{n-1})^2}}\sim t(2)$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{\sqrt n(X_{n+1}-\mu)}{\sqrt{\sum_{i=1}^n(X_i-\overline X_n)^2}}\sim t(n-1)$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{\sqrt{n(n-1)}(X_{n+1}-\overline X_n)}{\sqrt{(n+1)\sum_{i=1}^n(X_i-\overline X_n)^2}}\sim t(n-1)$
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设某商品的需求量为 $Q$，价格为 $p$，成本函数为 $C(Q)=10+\dfrac{Q^3}{3}$，需求函数为 $Q(p)=80-p$，则当商品取得最大利润时，需求弹性 $\eta=$\ExamBlank（$\eta>0$）。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      已知函数 $y=y(x)\ (x>0)$ 在任意点 $x$ 处的增量 $\Delta y=\dfrac{2xy+1}{x^3}\sin\alpha$，且当 $\Delta x\to0$ 时，$\alpha$ 是 $\Delta x$ 的等价无穷小，$y(1)=0$，则 $y(x)=$\ExamBlank。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $z=\arcsin(\sqrt{x+y}-x\cos y)$，则 $\left.\mathrm{d}z\right|_{(1,0)}=$\ExamBlank。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $\lim\limits_{n\to\infty}\dfrac{1}{n^3}\sum_{i=1}^n\sum_{j=1}^n\max\left\{\cos\dfrac{i}{n},\cos\dfrac{j}{n}\right\}\max\{i,j\}=$\ExamBlank。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $3$ 阶矩阵 $A=(a_{ij})$，其中 $a_{ij}=\max\{i,j\}$，记 $A$ 的特征值为 $\lambda_1,\lambda_2,\lambda_3$，则 $\lambda_1^2+\lambda_2^2+\lambda_3^2=$\ExamBlank。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $A,B,C$ 为三个随机事件，且 $A,B,C$ 两两相互独立，已知 $P(A)=P(B)=\dfrac{1}{3}$，$P(A\cup B\mid\overline A C)=\dfrac{1}{4}$，则 $P(\overline{AB}\mid C)=$\ExamBlank。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      设函数 $f(x)$ 连续且在 $x=0$ 处二阶可导，$f(x)+f(2x)=x+x^2$。求 $\lim\limits_{x\to0}\dfrac{3f(x)-2\arctan(1+x)+\dfrac{\pi}{2}}{1-\cos(\sin x)}$。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      将长为 $2\ \mathrm m$ 的铁丝分成三段，依次围成圆、正方形与正三角形。将圆绕其对称轴旋转一周围成一个球体，记其体积为 $V$，将正方形的面积记为 $S$，正三角形的周长记为 $L$，问：$u=LSV$ 是否存在最大值？若存在，求出最大值。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 $f(x)=\dfrac{3x-2}{2x^2-5x-3}$。
+  subparts:
+  - text: |-
+      求 $f(x)$ 的幂级数展开式 $\sum_{n=0}^{\infty}a_nx^n$，并指出该幂级数的收敛域；
+  - text: |-
+      求 $\sum_{n=1}^{\infty}n(a_{n+1}+2a_n)$。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 $f(x)$ 在 $[0,1]$ 上连续，在 $(0,1)$ 内二阶可导，$f(0)=0$，$f(1)=1$，且对任意 $x\in(0,1)$，$|f'(x)|\leqslant M$。证明：
+  subparts:
+  - text: |-
+      $\left|f\left(\dfrac{1}{2}\right)-\dfrac{1}{2}\right|<\dfrac{M}{2}$；
+  - text: |-
+      存在 $\eta\in(0,1)$，使得 $|f''(\eta)|<4(M+1)$。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      已知矩阵 $A=\begin{pmatrix}1&a&-2\\-2&1&a\\a&1&-2\end{pmatrix}$，$A^*$ 是 $A$ 的伴随矩阵，且 $(-2,4,1)^{\mathrm T}$ 是方程组 $(A^*-E)x=0$ 的一个解。
+  subparts:
+  - text: 求矩阵 $A$；
+  - text: 问：$A$ 是否能相似对角化？说明理由。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设随机变量 $X$ 的分布律为 $P\{X=k\}=\dfrac{1}{k(k+1)},\ k=1,2,\cdots$。随机变量 $Y$ 在 $X=k$ 的条件下的概率密度为 $f_{Y\mid X}(y\mid x)=\begin{cases}\dfrac{k+1}{(1+y)^{k+2}},&y>0,\\0,&\text{其他}\text{。}\end{cases}$
+  subparts:
+  - text: 求 $Y$ 的分布函数 $F_Y(y)$；
+  - text: |-
+      令 $Z=(X+1)\ln(Y+1)$，求随机变量 $Z$ 的概率密度 $f_Z(z)$ 以及数学期望 $E(Z)$。

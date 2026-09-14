@@ -1,0 +1,305 @@
+schema_version: '3.0'
+paper:
+  series_key: lilin6
+  year: 2025
+  subject: math2
+  paper_no: 6
+content_hash: 75cecaae80a94d1069d32e69c0497dd8c47d08d6c52c4354613d932f82e09fad
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      当 $x\to0^+$ 时，将 $\alpha=\tan x-x$，$\beta=\int_0^x(1-\cos\sqrt{t})\,\mathrm{d}t$，$\gamma=\left(1-\dfrac{1}{2}x^3\right)^x-1$ 排列，使后一个是前一个的高阶无穷小，则正确的排序是\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\alpha\text{，}\beta\text{，}\gamma$
+    figures: []
+  - label: B
+    text: |-
+      $\gamma\text{，}\beta\text{，}\alpha$
+    figures: []
+  - label: C
+    text: |-
+      $\beta\text{，}\alpha\text{，}\gamma$
+    figures: []
+  - label: D
+    text: |-
+      $\gamma\text{，}\alpha\text{，}\beta$
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)$ 在 $[0\text{，}1]$ 上可导，$f(x)>0$，$f'(x)<0$，$F(x)=\int_0^x f(t)\,\mathrm{d}t$，则在 $x\in(0\text{，}1)$ 内，有\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $xF(1)>2\int_0^1F(x)\,\mathrm{d}x$
+    figures: []
+  - label: B
+    text: |-
+      $F(1)>2\int_0^1F(x)\,\mathrm{d}x$
+    figures: []
+  - label: C
+    text: |-
+      $F(x)<2\int_0^1F(x)\,\mathrm{d}x$
+    figures: []
+  - label: D
+    text: |-
+      $F(x)>2\int_0^1F(x)\,\mathrm{d}x$
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设正数列 $\{x_n\}$ 和 $\{y_n\}$ 满足 $\lim_{n\to\infty}x_n^n=\lim_{n\to\infty}y_n^n=\mathrm{e}$，则 $\lim_{n\to\infty}n(x_n+y_n-2)=\ExamSelection$
+  choices:
+  - label: A
+    text: |-
+      $\mathrm{e}$
+    figures: []
+  - label: B
+    text: |-
+      $2\mathrm{e}$
+    figures: []
+  - label: C
+    text: $2$
+    figures: []
+  - label: D
+    text: $1$
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知 $I=\int_0^{+\infty}\left(\dfrac{1}{\sqrt{x^2+4}}-\dfrac{a}{x+2}\right)\,\mathrm{d}x$ 收敛，则\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $a=1\text{，}I=\ln4$
+    figures: []
+  - label: B
+    text: |-
+      $a>1\text{，}I=\ln2$
+    figures: []
+  - label: C
+    text: |-
+      $a=1\text{，}I=\ln2$
+    figures: []
+  - label: D
+    text: |-
+      $a<1\text{，}I=\ln4$
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $I_k=\int_{(k-1)\pi}^{k\pi}\mathrm{e}^{-x^2}\cos^2x\,\mathrm{d}x(k=1\text{，}2\text{，}3\text{，}4)$，则 $\max_{1\leqslant k\leqslant4}\{I_k\}=\ExamSelection$
+  choices:
+  - label: A
+    text: $I_1$
+    figures: []
+  - label: B
+    text: $I_2$
+    figures: []
+  - label: C
+    text: $I_3$
+    figures: []
+  - label: D
+    text: $I_4$
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $z=z(x\text{，}y)$ 由方程 $\dfrac{x}{z}=f\left(\dfrac{y}{z}\right)$ 确定，其中 $f$ 为可微函数，则 $x\dfrac{\partial z}{\partial x}+y\dfrac{\partial z}{\partial y}=\ExamSelection$
+  choices:
+  - label: A
+    text: $0$
+    figures: []
+  - label: B
+    text: $x$
+    figures: []
+  - label: C
+    text: $y$
+    figures: []
+  - label: D
+    text: $z$
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $D=\{(x\text{，}y)\mid(x-1)^2+(y-1)^2\leqslant1\}$，$I_k=\iint_D(x+y)^k\,\mathrm{d}x\,\mathrm{d}y$，$k=1\text{，}2\text{，}3$，则正确的是\ExamSelection
+  choices:
+  - label: A
+    text: $I_1<I_2<I_3$
+    figures: []
+  - label: B
+    text: $I_3<I_2<I_1$
+    figures: []
+  - label: C
+    text: $I_1<I_3<I_2$
+    figures: []
+  - label: D
+    text: $I_3<I_1<I_2$
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A=\begin{pmatrix}2&2\\2&a\end{pmatrix}$，$B=\begin{pmatrix}4&b\\3&1\end{pmatrix}$，若方程组 $AX=B$ 有解，$BY=A$ 无解，则\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $a\neq2$ 且 $b=\dfrac{4}{3}$
+    figures: []
+  - label: B
+    text: |-
+      $a\neq2$ 且 $b=\dfrac{3}{4}$
+    figures: []
+  - label: C
+    text: |-
+      $a=2$ 且 $b\neq\dfrac{4}{3}$
+    figures: []
+  - label: D
+    text: |-
+      $a=2$ 且 $b\neq\dfrac{3}{4}$
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 为 3 阶矩阵，3 维列向量组 $\boldsymbol{\alpha}_1\text{，}\boldsymbol{\alpha}_2\text{，}\boldsymbol{\alpha}_3$ 线性无关，$A(\boldsymbol{\alpha}_1\text{，}\boldsymbol{\alpha}_2\text{，}\boldsymbol{\alpha}_3)=(\boldsymbol{\alpha}_1\text{，}\boldsymbol{\alpha}_2\text{，}-\boldsymbol{\alpha}_3)$，记 $P=(\boldsymbol{\alpha}_1+\boldsymbol{\alpha}_3\text{，}\boldsymbol{\alpha}_2\text{，}-\boldsymbol{\alpha}_3)$，则 $P^{-1}AP=\ExamSelection$
+  choices:
+  - label: A
+    text: |-
+      $\begin{pmatrix}1&0&0\\0&1&0\\1&0&-1\end{pmatrix}$
+    figures: []
+  - label: B
+    text: |-
+      $\begin{pmatrix}1&0&0\\0&1&0\\2&0&-1\end{pmatrix}$
+    figures: []
+  - label: C
+    text: |-
+      $\begin{pmatrix}1&0&0\\0&-1&0\\2&0&1\end{pmatrix}$
+    figures: []
+  - label: D
+    text: |-
+      $\begin{pmatrix}1&0&0\\0&1&0\\-1&0&-1\end{pmatrix}$
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知二次型 $f(x_1\text{，}x_2\text{，}x_3)=ax_1^2+ax_2^2+(a-1)x_3^2+2x_1x_3-2x_2x_3$ 的规范形为 $y_1^2+y_2^2$，则 $a=\ExamSelection$
+  choices:
+  - label: A
+    text: $1$
+    figures: []
+  - label: B
+    text: $2$
+    figures: []
+  - label: C
+    text: $-1$
+    figures: []
+  - label: D
+    text: $-2$
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设函数 $y=y(x)$ 由 $\begin{cases}x=t^2-t\text{，}\\te^y+y+1=0\end{cases}$ 确定，则 $\left.\dfrac{\mathrm{d}^2y}{\mathrm{d}x^2}\right|_{t=0}=$ \ExamBlank。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设可微函数 $y=y(x)(y(x)\neq0)$ 满足 $y^2(x+\Delta x)-y^2(x)=-y^2(x)\Delta x+o(\Delta x)$，且 $y(1)=2$，则 $y(x)=$ \ExamBlank。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      微分方程 $xy'=xe^y-2(x>0)$ 满足 $y(1)=-\ln2$ 的解为 \ExamBlank。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)=\begin{cases}-\dfrac{1}{x}\text{，}x<0\text{，}\\1+\ln x\text{，}x>0\text{，}\end{cases}$ 若 $f(a)=f(b)\text{，}a<0<b$，则 $b-a$ 的最小值为 \ExamBlank。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $y=y(x)$ 满足 $y''+4y'+4y=e^{-x}$，$y(0)=1\text{，}y'(0)=-1$，则 $\int_0^{+\infty}y(x)\,\mathrm{d}x=$ \ExamBlank。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      已知 $n$ 阶行列式 $|A|=\begin{vmatrix}0&1&0&\cdots&0\\0&0&2&\cdots&0\\\vdots&\vdots&\vdots&\ddots&\vdots\\0&0&0&\cdots&n-1\\n&0&0&\cdots&0\end{vmatrix}$，则 $|A|$ 的第 $k$ 行元素的代数余子式之和 $A_{k1}+A_{k2}+\cdots+A_{kn}=$ \ExamBlank。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      设 $f''(x)$ 连续且 $f''(0)=1$，计算 $\lim_{t\to0^+}\dfrac{\int_0^t\dfrac{2}{3}(t-x)^2f''(x)\,\mathrm{d}x}{t^3}$。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $y=y(x)$ 满足 $xy'-(2x^2-1)y=x^3$（$x\geqslant1$），$y(1)=a$。
+  subparts:
+  - text: 求 $y(x)$。
+  - text: |-
+      若 $\lim_{x\to+\infty}\dfrac{y(x)}{x}$ 存在，求曲线 $y=y(x)$ 的斜渐近线方程。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      求 $f(x\text{，}y)=\dfrac{1}{y^2}\mathrm{e}^{-\dfrac{1}{2w^2}[(x-a)^2+(y-1)^2]}$（$y\neq0\text{，}a$ 为常数）的极值。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $D=\{(x\text{，}y)\mid4\leqslant x^2+y^2\leqslant9\text{，}x\geqslant0\text{，}y\geqslant0\}$，$f(x\text{，}y)$ 在 $D$ 上连续，且 $f(x\text{，}y)=\sin\left(\pi\sqrt{x^2+y^2}\right)+\dfrac{1}{\pi}\iint_D\dfrac{xf(x\text{，}y)}{x+y}\,\mathrm{d}x\,\mathrm{d}y$。求 $I=\iint_Df(x\text{，}y)\,\mathrm{d}x\,\mathrm{d}y$。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $f(x)$ 在 $[0\text{，}1]$ 上二阶可导，$f(0)=f(1)=0$，$f''(x)>0$，且 $f(x)$ 在 $[0\text{，}1]$ 上的最小值为 $m<0$。
+  subparts:
+  - text: |-
+      证明：方程 $nf'(x)=m$（$n$ 为正整数）在 $x\in(0\text{，}1)$ 内有唯一实根 $x_n$；
+  - text: |-
+      在第（I）问的基础上，证明：$\lim_{n\to\infty}x_n$ 存在，并求 $\lim_{n\to\infty}f(x_n)$。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      已知 $A=(\boldsymbol{\alpha}_1\text{，}\boldsymbol{\alpha}_2\text{，}\boldsymbol{\alpha}_3)$ 是 3 阶可逆矩阵，$B$ 是 3 阶矩阵，且 $BA=(\boldsymbol{\alpha}_1\text{，}-4\boldsymbol{\alpha}_3\text{，}-\boldsymbol{\alpha}_2)$。
+  subparts:
+  - text: 求 $B$ 的全部特征值；
+  - text: |-
+      求可逆矩阵 $P$ 和对角矩阵 $\Lambda$，使得 $P^{-1}BP=\Lambda$。

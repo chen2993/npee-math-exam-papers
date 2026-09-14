@@ -1,0 +1,298 @@
+schema_version: '3.0'
+paper:
+  series_key: lilin6
+  year: 2025
+  subject: math3
+  paper_no: 6
+content_hash: db9c126e671e18af1b6441ce848e0dc012939e976b1d04c6698d46e9ddf1d8d0
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $y=f(x)$ 在 $[0,+\infty)$ 上有二阶连续导数，且 $f''(x)>0$，若 $y=g(x)$ 是 $y=f(x)$ 在 $(0,+\infty)$ 内任意点 $x_0$ 处的切线方程，$F(x)=f(x)-g(x)$，则\ExamSelection
+  choices:
+  - label: A
+    text: $F(x)$ 在 $x_0$ 处取得最大值.
+    figures: []
+  - label: B
+    text: $F(x)$ 在 $x_0$ 处取得最小值.
+    figures: []
+  - label: C
+    text: $(x_0,F(x_0))$ 为 $y=F(x)$ 的拐点.
+    figures: []
+  - label: D
+    text: $F(x)$ 在 $x_0$ 处不取得极值.
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)$ 为连续函数，且 $\lim_{x\to 1}\dfrac{f(2x-1)}{x-1}=1$，则 $\lim_{t\to 0}\dfrac{f[(1+\sin t)^2]-f(1+\sin t)}{t}=\ExamSelection$
+  choices:
+  - label: A
+    text: $0$.
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{1}{2}$.
+    figures: []
+  - label: C
+    text: $1$.
+    figures: []
+  - label: D
+    text: $2$.
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)$ 在 $[0,1]$ 上可导，$f(x)>0$，$f'(x)<0$，$F(x)=\int_0^x f(t)\,\mathrm{d}t$，则在 $x\in(0,1)$ 内，有\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $xF(1)>2\int_0^1 F(x)\,\mathrm{d}x$.
+    figures: []
+  - label: B
+    text: |-
+      $F(1)>2\int_0^1 F(x)\,\mathrm{d}x$.
+    figures: []
+  - label: C
+    text: |-
+      $F(x)<2\int_0^1 F(x)\,\mathrm{d}x$.
+    figures: []
+  - label: D
+    text: |-
+      $F(x)>2\int_0^1 F(x)\,\mathrm{d}x$.
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设积分 $\int_1^{+\infty}\dfrac{\arctan(x-1)}{(x-1)^a}\,\mathrm{d}x$ 收敛，则 $a$ 的取值范围为\ExamSelection
+  choices:
+  - label: A
+    text: $1<a<2$.
+    figures: []
+  - label: B
+    text: $0<a<1$.
+    figures: []
+  - label: C
+    text: |-
+      $a\geqslant 2$.
+    figures: []
+  - label: D
+    text: $0<a<2$.
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 是 $3$ 阶非零矩阵，且 $A^2=O$，若非齐次线性方程组 $AX=b$ 有解，则 $AX=b$ 的线性无关解向量的个数为\ExamSelection
+  choices:
+  - label: A
+    text: $1$.
+    figures: []
+  - label: B
+    text: $2$.
+    figures: []
+  - label: C
+    text: $3$.
+    figures: []
+  - label: D
+    text: $4$.
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $\alpha_1=(1,2,1)^{\mathrm{T}}$，$\alpha_2=(2,3,a)^{\mathrm{T}}$，$\alpha_3=(1,a+2,-2)^{\mathrm{T}}$，$\beta_1=(1,3,4)^{\mathrm{T}}$，$\beta_2=(0,1,2)^{\mathrm{T}}$. 若 $\beta_1$ 可由 $\alpha_1,\alpha_2,\alpha_3$ 线性表示，$\beta_2$ 不能由 $\alpha_1,\alpha_2,\alpha_3$ 线性表示，则 $a=\ExamSelection$
+  choices:
+  - label: A
+    text: $-1$.
+    figures: []
+  - label: B
+    text: $3$.
+    figures: []
+  - label: C
+    text: $1$.
+    figures: []
+  - label: D
+    text: $-3$.
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设实矩阵 $A=\begin{bmatrix}2&2\\2&a\end{bmatrix}$ 与 $B=\begin{bmatrix}4&b\\3&1\end{bmatrix}$ 合同，则\ExamSelection
+  choices:
+  - label: A
+    text: $a>2,b=3$.
+    figures: []
+  - label: B
+    text: $a<2,b=3$.
+    figures: []
+  - label: C
+    text: $a>1,b=3$.
+    figures: []
+  - label: D
+    text: $a<1,b=3$.
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设随机变量 $X$ 在区间 $(0,1)$ 内服从均匀分布，$Y=-\ln\sqrt{1-X}$，则 $P\{Y\leqslant DY\}=\ExamSelection$
+  choices:
+  - label: A
+    text: |-
+      $1-\mathrm{e}^{-\dfrac{1}{2}}$.
+    figures: []
+  - label: B
+    text: |-
+      $1-\mathrm{e}^{-1}$.
+    figures: []
+  - label: C
+    text: |-
+      $1-\mathrm{e}^{-2}$.
+    figures: []
+  - label: D
+    text: |-
+      $1-\mathrm{e}^{-\dfrac{1}{4}}$.
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设二维随机变量 $(X,Y)$ 的概率密度为 $f(x,y)=\dfrac{1}{2\pi}\mathrm{e}^{-\dfrac{1}{2}(x^2+y^2)}$，$-\infty<x,y<+\infty$，则 $D(X^2+Y^2)=\ExamSelection$
+  choices:
+  - label: A
+    text: $1$.
+    figures: []
+  - label: B
+    text: $2$.
+    figures: []
+  - label: C
+    text: $3$.
+    figures: []
+  - label: D
+    text: $4$.
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设总体 $X$ 与 $Y$ 均服从 $N(0,\sigma^2)$（$\sigma>0$）. $X_1,X_2,\cdots,X_n$ 与 $Y_1,Y_2,\cdots,Y_n$ 分别为来自总体 $X$ 与 $Y$ 的简单随机样本，且 $X$ 与 $Y$ 相互独立，其样本均值与样本方差分别为 $\overline{X},S_1^2,\overline{Y},S_2^2$. 则下列选项中错误的是\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{\sqrt{n}(\overline{X}-\overline{Y})}{\sqrt{2}\sigma}\sim N(0,1)$.
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{n(\overline{X}-\overline{Y})^2}{2\sigma^2}\sim\chi^2(1)$.
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{(n-1)(S_1^2+S_2^2)}{\sigma^2}\sim\chi^2(2n-2)$.
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{n(\overline{X}-\overline{Y})^2}{S_1^2+S_2^2}\sim F(1,2n-1)$.
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)$ 非负连续，且 $f(x)\int_0^x f(x-t)\,\mathrm{d}t=\sin^4x$，则 $f(x)$ 在区间 $\left[0,\dfrac{\pi}{2}\right]$ 上的平均值为\ExamBlank.
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      级数 $\sum_{n=1}^{\infty}\int_n^{n+1}\dfrac{\mathrm{d}x}{x\sqrt{x-1}}$ 的和为\ExamBlank.
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $I=\int_0^1\dfrac{1}{3}x^{-\dfrac{2}{3}}\,\mathrm{d}x\int_{\arctan x}^{\dfrac{\pi}{4}}\csc 2y\,\mathrm{d}y=$\ExamBlank.
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设某商品的销售额 $X$ 是一个随机变量，$X$ 在 $(a,b)$（$b>a>0$）内服从均匀分布，销售利润函数为 $Y=\begin{cases}4X-2(h-X),&X\leqslant h,\\4h,&X>h,\end{cases}$（$a<h<b$）. 当期望销售利润最大时，$h=$\ExamBlank.
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设二次型 $f(x_1,x_2,x_3)=X^{\mathrm{T}}AX$（$A^{\mathrm{T}}=A$）在正交变换下的标准形为 $-2y_1^2+8y_2^2$，且 $E+B=AB$，其中 $B$ 为 $3$ 阶矩阵，则 $\operatorname{tr}(B^{-1}+2E)=$\ExamBlank.
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设随机事件 $A,B$ 满足 $P(A)=0.4$，$P(A\cup B)=0.7$，$P(\overline{B}\mid\overline{A})+P(\overline{B}\mid A)=1$，则 $P(\overline{A}\cup\overline{B})=$\ExamBlank.
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      设 $f''(x)$ 连续且 $f''(0)=1$，计算 $\lim_{t\to 0^+}\dfrac{\int_0^t\dfrac{2}{3}(t-x)^2f''(x)\,\mathrm{d}x}{t^3}$.
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $D=\{(x,y)\mid x^2+y^2\leqslant 4\}$，计算 $I=\iint_D|2x-x^2-y^2|\,\mathrm{d}x\,\mathrm{d}y$.
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $a_n=\int_0^{n\pi}\sqrt{1+\sin\dfrac{x}{n}}\,\mathrm{d}x$（$n=1,2,\cdots$），求 $\sum_{n=1}^{\infty}\dfrac{x^n}{a_na_{n+1}}$ 的收敛域及和函数.
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: 证明：
+  subparts:
+  - text: |-
+      方程 $x=\mathrm{e}^{\sin^n x}$（$n=1,2,\cdots$）在 $\left(\dfrac{\pi}{2},\mathrm{e}\right)$ 内有唯一实根 $x_n$；
+  - text: |-
+      在第（I）问的基础上，计算 $\lim_{n\to\infty}\left(\dfrac{\pi\sin x_n}{2x_n}\right)^{\dfrac{1}{x_n-\dfrac{\pi}{2}}}$.
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $3$ 阶实对称矩阵 $A=(\alpha_1,\alpha_2,\alpha_3)$ 有二重特征值 $\lambda_1=\lambda_2=1$，且 $\alpha_1+2\alpha_2-\alpha_3=0$，$A^*$ 是 $A$ 的伴随矩阵.
+  subparts:
+  - text: |-
+      求一个正交变换 $X=QY$ 将二次型 $f(x_1,x_2,x_3)=X^{\mathrm{T}}AX$ 化为标准形；
+  - text: 求方程组 $A^*X=0$ 的通解.
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设二维随机变量 $(X,Y)$ 的概率密度为 $f(x,y)=\begin{cases}\dfrac{2}{\theta^2}\mathrm{e}^{-\dfrac{2x+y}{\theta}},&x>0,y>0,\\0,&\text{其他},\end{cases}$ 其中 $\theta>0$.
+  subparts:
+  - text: 求 $X$ 与 $Y$ 的边缘概率密度 $f_X(x)$ 与 $f_Y(y)$；
+  - text: |-
+      求 $E[\min(X,Y)]$；
+  - text: |-
+      若 $X_1,X_2,\cdots,X_n$ 与 $Y_1,Y_2,\cdots,Y_m$ 分别为来自总体 $X$ 与总体 $Y$ 的简单随机样本，求 $\theta$ 的最大似然估计量 $\hat{\theta}$.

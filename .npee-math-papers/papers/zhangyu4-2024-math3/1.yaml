@@ -1,0 +1,316 @@
+schema_version: '3.0'
+paper:
+  series_key: zhangyu4
+  year: 2024
+  subject: math3
+  paper_no: 1
+content_hash: fdd675b6921cab678da6ae0989e5d9a43c74adc245393fac0220ca1818626813
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x)$ 在 $x=0$ 的某邻域内有定义，且 $\lim_{x\to 0}\dfrac{x-f(x)}{\sin x}=1$，则\ExamSelection
+  choices:
+  - label: A
+    text: $f(0)=0$。
+    figures: []
+  - label: B
+    text: |-
+      $\lim_{x\to 0}f(x)=f(0)$。
+    figures: []
+  - label: C
+    text: |-
+      $\lim_{x\to 0}\dfrac{f(x)}{x}=1$。
+    figures: []
+  - label: D
+    text: |-
+      当 $x\to 0$ 时，$f(x)$ 是 $x$ 的高阶无穷小。
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $\{a_n\}$ 为非零数列，则下列命题：①若 $\{\sin a_n\}$ 收敛，则 $\{a_n\}$ 收敛；②若 $\{\arcsin(\sin a_n)\}$ 收敛，则 $\{a_n\}$ 收敛；③若 $\{a_n\}$ 收敛，则 $\{\sin a_n\}$ 收敛；④若 $\{a_n\}$ 收敛，则 $\left\{\sin\dfrac{1}{a_n}\right\}$ 收敛。正确命题的个数为\ExamSelection
+  choices:
+  - label: A
+    text: 1。
+    figures: []
+  - label: B
+    text: 2。
+    figures: []
+  - label: C
+    text: 3。
+    figures: []
+  - label: D
+    text: 4。
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设级数 $\displaystyle\sum_{n=1}^{\infty}(-1)^n\sqrt n\tan\dfrac{1}{n^p}$ 绝对收敛，级数 $\displaystyle\sum_{n=1}^{\infty}(-1)^n\sin\dfrac{1}{n^{3-p}}$ 条件收敛，则\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $0<p\leq\dfrac{1}{2}$。
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{3}{2}<p<2$。
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{1}{2}<p\leq\dfrac{3}{2}$。
+    figures: []
+  - label: D
+    text: |-
+      $2\leq p<3$。
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      $\displaystyle\lim_{n\to\infty}\dfrac{1}{n}\sum_{i=1}^{n}\int_{1}^{i/n}\dfrac{\sin x}{x}\,\mathrm{d}x=$\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $1-2\cos 1$。
+    figures: []
+  - label: B
+    text: |-
+      $\cos 1-1$。
+    figures: []
+  - label: C
+    text: |-
+      $1-2\sin 1$。
+    figures: []
+  - label: D
+    text: |-
+      $\sin 1-1$。
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知 $\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3,\boldsymbol{\alpha}_4$ 是 3 维非零列向量，则下列命题：①若 $\boldsymbol{\alpha}_4$ 可由 $\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3$ 线性表示，则 $\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3+\boldsymbol{\alpha}_4$ 线性无关；②若 $\boldsymbol{\alpha}_4$ 可由 $\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3$ 线性表示，则 $r(\boldsymbol{\alpha}_1+\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3)=r(\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3,\boldsymbol{\alpha}_4)$；③若 $\boldsymbol{\alpha}_4$ 不能由 $\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3$ 线性表示，则 $\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3$ 线性相关；④若 $\boldsymbol{\alpha}_4$ 不能由 $\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3$ 线性表示，则 $2\leq r(\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3,\boldsymbol{\alpha}_4)\leq 3$。正确命题的个数为\ExamSelection
+  choices:
+  - label: A
+    text: 1。
+    figures: []
+  - label: B
+    text: 2。
+    figures: []
+  - label: C
+    text: 3。
+    figures: []
+  - label: D
+    text: 4。
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 是 $n$ 阶（$n\geq2$）可逆矩阵，将 $A$ 的第 1 行的 $(-1)$ 倍加到第 2 行得 $B$，则\ExamSelection
+  choices:
+  - label: A
+    text: 将 $A^*$ 的第 2 列的 1 倍加到第 1 列得 $B^*$。
+    figures: []
+  - label: B
+    text: 将 $A^*$ 的第 1 列的 $(-1)$ 倍加到第 2 列得 $B^*$。
+    figures: []
+  - label: C
+    text: 将 $A^*$ 的第 1 列的 $(-1)$ 倍加到第 2 列得 $-B^*$。
+    figures: []
+  - label: D
+    text: 将 $A^*$ 的第 2 列的 1 倍加到第 1 列得 $-B^*$。
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知 $A=\begin{pmatrix}1&1\\0&1\end{pmatrix},B=\begin{pmatrix}1&-1\\0&1\end{pmatrix},C,D$ 均为 2 阶矩阵，则\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\left|\begin{matrix}A&C\\B&D\end{matrix}\right|=|A||D-CA^{-1}B|$。
+    figures: []
+  - label: B
+    text: |-
+      $\left|\begin{matrix}A&C\\B&D\end{matrix}\right|=|AD-BC|$。
+    figures: []
+  - label: C
+    text: |-
+      $|E-AB|\ne|E-BA|$。
+    figures: []
+  - label: D
+    text: |-
+      $|D-CA^{-1}B||A|\ne|DA-CB|$。
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设总体 $X$ 的概率分布为 $P\{X=x\}=(x-1)p^2(1-p)^{x-2},\ x=2,3,\cdots,p$ 为参数且 $0<p<1$。现有来自总体 $X$ 的简单随机样本的观测值：$5,3,6,2,6$，则 $p$ 的矩估计值为\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\sqrt{\dfrac{5}{11}}$。
+    figures: []
+  - label: B
+    text: |-
+      $\sqrt{\dfrac{5}{22}}$。
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{5}{11}$。
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{5}{22}$。
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知总体 $X\sim N(\mu_1,4),Y\sim N(\mu_2,5),X$ 与 $Y$ 相互独立，$X_1,\cdots,X_8$ 和 $Y_1,\cdots,Y_{10}$ 是分别来自总体 $X$ 和 $Y$ 的两组简单随机样本，$S_X^2$ 与 $S_Y^2$ 分别为两组样本的样本方差，则\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{2S_X^2}{5S_Y^2}\sim F(7,9)$。
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{5S_X^2}{2S_Y^2}\sim F(7,9)$。
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{4S_X^2}{5S_Y^2}\sim F(7,9)$。
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{5S_X^2}{4S_Y^2}\sim F(7,9)$。
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $X$ 的概率密度为 $f_X(x)=\begin{cases}\dfrac{1}{2},&-1\leq x\leq0,\\\dfrac{1}{4},&0<x<2,\\0,&\text{其他},\end{cases}$，且 $Y=\begin{cases}1,&X\leq0,\\2,&X>0,\end{cases}$，则 $E[D(X\mid Y)]=$\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{1}{24}$。
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{5}{24}$。
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{7}{24}$。
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{9}{24}$。
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      以 $2,\cos x,\sin x$ 为特解的三阶常系数齐次线性微分方程为$\ExamBlank$。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $z=f(x,y)$ 由 $\displaystyle\int_1^{e^{x^2/2}}e^{-t^2/2}\,\mathrm{d}t+\ln(xy^2)=0$ 所确定，则 $\left.\mathrm{d}z\right|_{(1,-1)}=\ExamBlank$。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      平面区域 $D=\left\{(x,y)\mid\dfrac{1}{1+x^2}\leq y\leq\dfrac{1}{\sqrt{1+x^2}}\right\}$ 绕 $x$ 轴旋转一周形成的旋转体体积为$\ExamBlank$。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设某商品需求量为 $D$，供给量为 $S$，各自对价格 $p$ 的弹性分别为 3 和 2，且当 $p=1$ 时该商品的需求量和供给量的比为 $2:1$，则在供需平衡条件下的平衡价格为$\ExamBlank$。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      已知矩阵 $A=\begin{pmatrix}2&1&-1&1\\-1&2&1&1\\1&1&2&-1\\2&-1&1&1\end{pmatrix}$，则 $|(A^2-A-2E)(A+E)^{-1}|=\ExamBlank$。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设通过点 $A(0,1)$ 任意作直线与 $x$ 轴正向相交所成的角为 $\theta(0<\theta<\pi)$，则直线在 $x$ 轴上的截距 $X$ 的概率密度为$\ExamBlank$。
+    figures:
+    - kind: tikz
+      latex: |-
+        \begin{tikzpicture}[scale=.75,baseline=-.2em]\draw[->] (-1.4,0)--(1.7,0) node[right]{$x$};\draw[->] (0,-.2)--(0,1.8) node[above]{$y$};\draw (-1.05,-.05)--(.75,1.5);\fill (0,1) circle (1.2pt) node[above left]{$A$};\node[below left] at (0,0){$O$};\node[below] at (-.55,0){$X$};\node[right] at (.05,.78){$1$};\draw (.05,.18) arc (75:145:.18);\node at (-.18,.28){$\theta$};\end{tikzpicture}
+      path:
+      description: 过点 A(0,1) 的直线与 x 轴相交，标出截距 X、原点 O 和夹角 theta。
+      exception_reason:
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      已知函数 $f(x)=\dfrac{1}{x}-\dfrac{1}{e^x-1}$，记 $a=\lim_{x\to0^+}f(x)$。\NPEEQuestionContinuation (1) 求 $a$ 的值；\NPEEQuestionContinuation (2) 若当 $x\to0$ 时，$f(x)-a$ 与 $x^k$ 是同阶无穷小，求 $k$ 的值。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: 求函数 $u=xy+2xz$ 在约束条件 $x^2+y^2+z^2=10$ 下的最值。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设幂级数 $y(x)=\displaystyle\sum_{n=0}^{\infty}a_nx^n(-\infty<x<+\infty)$ 满足 $y''+2xy'+2y=0$，且 $y(0)=1,y'(0)=0$。
+  subparts:
+  - text: |-
+      证明：$a_{n+2}=-\dfrac{2}{n+2}a_n,n=0,1,2,\cdots$；
+  - text: 求 $y(x)$ 的表达式。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $f(x)$ 满足 $f'(x)+f^2(x)=0,f(0)=1$，计算二重积分 $\displaystyle\iint_D f\left(\dfrac{x}{y}\right)e^{f\left(\dfrac{x}{y}\right)}\,\mathrm{d}\sigma$，其中平面区域 $D=\{(x,y)\mid0\leq x\leq1-y,0<y<1\}$。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设多项式 $f(x_1,x_2,x_3)=x_1^2+x_2^2+x_3^2-2x_1x_3+x_2+\dfrac{1}{4}$。
+  subparts:
+  - text: 写出该多项式的二次型部分的矩阵 $A$；
+  - text: |-
+      求正交矩阵 $Q$，使 $Q^TAQ=\Lambda$；
+  - text: 求 $f(x_1,x_2,x_3)=0$ 的解。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设随机变量 $X$ 的概率密度为 $f(x)=\begin{cases}\lambda e^{-\lambda(x+2)},&x\geq-2,\\0,&x<-2,\end{cases}$，其中 $\lambda>0$，令 $Y=[X]$，这里 $[x]$ 表示不超过 $x$ 的最大整数。又设 $Y_1,Y_2,\cdots,Y_n$ 是来自总体 $Y$ 的简单随机样本。
+  subparts:
+  - text: 求 $Y$ 的分布律；
+  - text: |-
+      求 $\lambda$ 的最大似然估计量 $\hat{\lambda}$。

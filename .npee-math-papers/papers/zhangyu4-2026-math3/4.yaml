@@ -1,0 +1,298 @@
+schema_version: '3.0'
+paper:
+  series_key: zhangyu4
+  year: 2026
+  subject: math3
+  paper_no: 4
+content_hash: 37b8549931ae3076644cd6aac6e77334392a31bafa6d9da99648198a9267c8b0
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      若函数 $f(x)=\begin{cases}\dfrac{1-\cos\sqrt{x}}{a\ln(1+x)},&x>0,\\b,&x\leq 0\end{cases}$ 在 $x=0$ 处连续，则\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $ab=\dfrac{1}{2}$
+    figures: []
+  - label: B
+    text: |-
+      $ab=-\dfrac{1}{2}$
+    figures: []
+  - label: C
+    text: $ab=0$
+    figures: []
+  - label: D
+    text: $ab=2$
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x,y)=\begin{cases}\sin x\cos y,&x\neq 0,\\1-\cos y,&x=0,\end{cases}$ 则\ExamSelection
+  choices:
+  - label: A
+    text: $f'_x(0,0)=0$
+    figures: []
+  - label: B
+    text: |-
+      $\lim\limits_{x\to 0}\lim\limits_{y\to 0}f(x,y)=0$
+    figures: []
+  - label: C
+    text: $f''_{yx}(0,0)=1$
+    figures: []
+  - label: D
+    text: $f'_y(0,0)=1$
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知 $y_1=xe^x+e^{2x}$ 和 $y_2=xe^x+e^{-x}$ 是二阶常系数非齐次线性微分方程的两个解，则此方程为\ExamSelection
+  choices:
+  - label: A
+    text: $y''-y'+2y=e^x+2xe^x$
+    figures: []
+  - label: B
+    text: $y''-y'-2y=e^x-2xe^x$
+    figures: []
+  - label: C
+    text: $y''-y'+2y=e^{2x}-e^{-x}$
+    figures: []
+  - label: D
+    text: $y''-y'-2y=xe^x+e^{2x}$
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $R$ 为幂级数 $\sum\limits_{n=1}^{\infty}a_nx^n$ 的收敛半径，$r$ 是实数，则\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      当 $\sum\limits_{n=1}^{\infty}a_{2n+1}r^{2n+1}$ 发散时，$|r|\geq R$
+    figures: []
+  - label: B
+    text: |-
+      当 $\sum\limits_{n=1}^{\infty}a_{2n}r^{2n}$ 收敛时，$|r|\leq R$
+    figures: []
+  - label: C
+    text: |-
+      当 $|r|\geq R$ 时，$\sum\limits_{n=1}^{\infty}a_{2n+1}r^{2n+1}$ 发散
+    figures: []
+  - label: D
+    text: |-
+      当 $|r|\leq R$ 时，$\sum\limits_{n=1}^{\infty}a_{2n}r^{2n}$ 收敛
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $\alpha,\beta$ 是 2 阶实矩阵 $A$ 的两个实特征向量，$\|\alpha+\beta\|=\|\alpha-\beta\|$，则矩阵 $A$ 必为\ExamSelection
+  choices:
+  - label: A
+    text: 正定矩阵
+    figures: []
+  - label: B
+    text: 单位矩阵
+    figures: []
+  - label: C
+    text: 正交矩阵
+    figures: []
+  - label: D
+    text: 对称矩阵
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      二次型 $f(x_1,x_2,x_3)=x_1^2+2x_1x_2+2x_1x_3$ 的符号差（正惯性指数$-$负惯性指数）为\ExamSelection
+  choices:
+  - label: A
+    text: $2$
+    figures: []
+  - label: B
+    text: $1$
+    figures: []
+  - label: C
+    text: $0$
+    figures: []
+  - label: D
+    text: $-1$
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      若矩阵 $A=(a_{ij})_{n\times n}$，对 $i=1,2,\cdots,n$，均有 $|a_{ii}|>\sum\limits_{j\neq i}|a_{ij}|$，其中 $|a_{ij}|$ 表示元素 $a_{ij}$ 的绝对值，$\beta$ 为任一 $n$ 维列向量，则\ExamSelection
+  choices:
+  - label: A
+    text: $Ax=0$ 有非零解
+    figures: []
+  - label: B
+    text: |-
+      $Ax=\beta$ 有唯一解
+    figures: []
+  - label: C
+    text: |-
+      $Ax=\beta$ 不一定有解
+    figures: []
+  - label: D
+    text: $Ax=0$ 不一定有非零解
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设随机变量 $X\sim\begin{pmatrix}1&0\\p&1-p\end{pmatrix}$，$Y\sim B(2,p)$，$0<p<1$，$F_X(x)$，$F_Y(y)$ 分别为 $X,Y$ 的分布函数，则\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $P\{X\geq Y\}=1$
+    figures: []
+  - label: B
+    text: |-
+      $P\{X\leq Y\}=1$
+    figures: []
+  - label: C
+    text: |-
+      $F_X(z)\leq F_Y(z)$
+    figures: []
+  - label: D
+    text: |-
+      $F_X(z)\geq F_Y(z)$
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $(X,Y)$ 的概率密度为 $f(x,y)=\begin{cases}\dfrac{1}{8}(y^2-x^2)e^{-y},&|x|<y,\\0,&\text{其他},\end{cases}$ 则 $P\{0<X<2\mid Y=1\}=\ExamSelection$
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{1}{4}$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{1}{3}$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{1}{2}$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{2}{3}$
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $(X,Y)$ 服从二维正态分布 $N\left(0,0;1,4;\dfrac{1}{2}\right)$，则下列随机变量中与 $X$ 相互独立且同分布的是\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{\sqrt{3}}{3}(X+Y)$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{\sqrt{5}}{5}(X+Y)$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{\sqrt{3}}{3}(X-Y)$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{\sqrt{5}}{5}(X-Y)$
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设函数 $z=z(x,y)$ 由 $e^z+yz=2y-x$ 确定，则 $\left.\dfrac{\partial^2z}{\partial y^2}\right|_{(1,1)}=$\ExamBlank。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      曲线 $y=\sqrt[3]{x^3-2x^2+1}$ 的斜渐近线方程为\ExamBlank。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)=\dfrac{x^2}{e^x-1}$ 在 $x=0$ 处的 3 次泰勒多项式为 $ax^3+bx^2+cx$，则 $(a,b,c)=$\ExamBlank。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $D=\{(x,y)\mid |x|\leq 1,0\leq y\leq 2\}$，则 $\iint\limits_D\sqrt{|y-x^2|}\,\mathrm{d}\sigma=$\ExamBlank。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $\alpha_1,\alpha_2,\alpha_3,\alpha_4$ 是四元非齐次线性方程组 $Ax=b$ 的 4 个解向量，且 $\alpha_1+\alpha_2=(2,4,6,8)^{\mathrm{T}}$，$\alpha_2+\alpha_3+\alpha_4=(3,5,7,9)^{\mathrm{T}}$，$\alpha_1+2\alpha_2-\alpha_3=(2,0,0,2)^{\mathrm{T}}$，若秩 $r(A)=2$，则方程组 $Ax=b$ 的通解是\ExamBlank。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设事件 $A,B,C$ 相互独立，$P(A)=\dfrac{1}{2}$，$P(B)=P(C)=\dfrac{3}{4}$，则 $P(A\cup C\mid A\cup B)=$\ExamBlank。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      计算 $\displaystyle\int\dfrac{x^3+1}{x^4+2x^2+1}\,\mathrm{d}x$。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: 求函数 $z=e^{2x+3y}(8x^2-6xy+3y^2)$ 的极值。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $f(x)$ 在 $[0,1]$ 上具有三阶连续导数，$f'(0)=f''(0)=0$，证明存在 $\xi,\eta,\zeta\in(0,1)$，使得 $e^{\xi}f'''(\eta)=6e^{\zeta}f'(\xi)$。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      已知平面有界区域 $D=\{(r,\theta)\mid r\leq 4\cos\theta,r\leq 4\sin\theta\}$，计算 $\iint\limits_D r^3(\sin\theta-\cos\theta)^2\,\mathrm{d}r\,\mathrm{d}\theta$。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $A=\begin{pmatrix}a&1&-1\\1&a&-1\\-1&-1&a\end{pmatrix}$，$B^2=\begin{pmatrix}3&-1&1\\-1&3&1\\1&1&3\end{pmatrix}$。
+  subparts:
+  - text: |-
+      求正交矩阵 $P$，使 $P^{\mathrm{T}}AP=\Lambda$，并写出 $\Lambda$；
+  - text: 若 $B$ 为正定矩阵，求 $B^3$。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设某电池的使用寿命 $X$ 服从参数为 $\lambda$ 的指数分布，现有 10 件该种电池同时投入使用，记 $Y$ 为 10 件电池在使用了 $200\ \mathrm{h}$ 时失效的件数。
+  subparts:
+  - text: 求 $Y$ 的分布律；
+  - text: |-
+      已知使用了 $200\ \mathrm{h}$ 时，有 2 件电池失效，求电池平均寿命 $T$ 的最大似然估计值。

@@ -1,0 +1,296 @@
+schema_version: '3.0'
+paper:
+  series_key: chaoyue10
+  year: 2024
+  subject: math2
+  paper_no: 4
+content_hash: e36edf94f2f5f768a71c494e4681fc22274370375576e9e2bdafb434c5d79cc9
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $y=y(x)$ 在点 $x=0$ 附近由方程 $2x-\int_0^y e^{-t^2}\,\mathrm{d}t=xy$ 所确定，且 $y(x)=\lambda_1x+\lambda_2x^2+o(x^2)(x\to0)$，则 $(\lambda_1,\lambda_2)=$\ExamSelection。
+  choices:
+  - label: A
+    text: $(2,2)$
+    figures: []
+  - label: B
+    text: $(2,-2)$
+    figures: []
+  - label: C
+    text: $(2,4)$
+    figures: []
+  - label: D
+    text: $(2,-4)$
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x)=\begin{cases}x^\alpha\sin\dfrac{1}{x},&x\ne0,\\0,&x=0\end{cases}$ 在 $(-\infty,+\infty)$ 内可导，且 $f'(x)$ 连续，则 $\alpha$ 的取值范围为\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\alpha\geqslant1$
+    figures: []
+  - label: B
+    text: |-
+      $\alpha>1$
+    figures: []
+  - label: C
+    text: |-
+      $\alpha\geqslant2$
+    figures: []
+  - label: D
+    text: |-
+      $\alpha>2$
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $0<x<1$，则下列结论中正确的是\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{\arcsin x^2}{x^2}<\dfrac{\arcsin x}{x}<\left(\dfrac{\arcsin x}{x}\right)^2$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{\arcsin x}{x}<\left(\dfrac{\arcsin x}{x}\right)^2<\dfrac{\arcsin x^2}{x^2}$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{\arcsin x}{x}<\dfrac{\arcsin x^2}{x^2}<\left(\dfrac{\arcsin x}{x}\right)^2$
+    figures: []
+  - label: D
+    text: |-
+      $\left(\dfrac{\arcsin x}{x}\right)^2<\dfrac{\arcsin x}{x}<\dfrac{\arcsin x^2}{x^2}$
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      下列直线中，不是曲线 $y=(1+e^x)^{\dfrac{1}{x}}$ 的渐近线的为\ExamSelection。
+  choices:
+  - label: A
+    text: $y=0$
+    figures: []
+  - label: B
+    text: $y=1$
+    figures: []
+  - label: C
+    text: $y=e$
+    figures: []
+  - label: D
+    text: $x=0$
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)(0\leqslant x\leqslant a)$ 为正值可积函数且满足 $f(x)f(a-x)=a^2$，则 $\int_0^a f(x)\,\mathrm{d}x$ 的取值范围为\ExamSelection。
+  choices:
+  - label: A
+    text: $(0,a]$
+    figures: []
+  - label: B
+    text: $(0,a^2]$
+    figures: []
+  - label: C
+    text: |-
+      $[a,+\infty)$
+    figures: []
+  - label: D
+    text: |-
+      $[a^2,+\infty)$
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x,y)=\begin{cases}\dfrac{xy}{(x^2+y^2)^p},&x^2+y^2\ne0,\\0,&x^2+y^2=0,\end{cases}$ $g(x,y)=\begin{cases}\dfrac{1}{(xy)^q}\sin xy,&xy\ne0,\\0,&xy=0,\end{cases}$ $f(x,y)$ 和 $g(x,y)$ 在 $(0,0)$ 点连续的一个充分条件为\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $p<1,\ q<1$
+    figures: []
+  - label: B
+    text: |-
+      $p<1,\ q>1$
+    figures: []
+  - label: C
+    text: |-
+      $p>1,\ q<1$
+    figures: []
+  - label: D
+    text: |-
+      $p>1,\ q>1$
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设区域 $D_1:x^2+y^2\leqslant1$，$D_2:x^2+2y^2\leqslant2$，$D_3:2x^2+y^2\leqslant2$，$D_4:|x|+|y|\leqslant2$，记 $I_i=\iint_{D_i}(2-x^2-2y^2)\,\mathrm{d}\sigma,i=1,2,3,4$，则 $\max_{1\leqslant i\leqslant4}\{I_i\}=$\ExamSelection。
+  choices:
+  - label: A
+    text: $I_1$
+    figures: []
+  - label: B
+    text: $I_2$
+    figures: []
+  - label: C
+    text: $I_3$
+    figures: []
+  - label: D
+    text: $I_4$
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 是 $4\times3$ 的矩阵，$B=\begin{pmatrix}t&0&2\\0&2&0\\1&0&3\end{pmatrix}$，且秩 $r(A)=2,r(AB-A)=1$，则必有\ExamSelection。
+  choices:
+  - label: A
+    text: $B$ 可逆，$B-E$ 可逆
+    figures: []
+  - label: B
+    text: $B$ 可逆，$B-E$ 不可逆
+    figures: []
+  - label: C
+    text: $B$ 不可逆，$B-E$ 可逆
+    figures: []
+  - label: D
+    text: $B$ 不可逆，$B-E$ 不可逆
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 为 $4$ 阶矩阵，$|A|=0$，$B$ 为 $4\times3$ 的列满秩矩阵，$2AB+B=O$，则 $|4A+E|=$\ExamSelection。
+  choices:
+  - label: A
+    text: $-1$
+    figures: []
+  - label: B
+    text: $0$
+    figures: []
+  - label: C
+    text: $1$
+    figures: []
+  - label: D
+    text: $2$
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 为 $3\times4$ 实矩阵，$\lambda$ 是 $AA^{\mathrm{T}}$ 仅有的非零单特征值，对应的特征向量为 $\alpha=(1,-1,1)^{\mathrm{T}}$，$k_1,k_2$ 为任意常数，则方程组 $A^{\mathrm{T}}x=0$ 的通解可为\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $k_1(1,1,0)^{\mathrm{T}}+k_2(1,-1,0)^{\mathrm{T}}$
+    figures: []
+  - label: B
+    text: |-
+      $k_1(-1,1,0)^{\mathrm{T}}+k_2(0,1,1)^{\mathrm{T}}$
+    figures: []
+  - label: C
+    text: |-
+      $k_1(1,1,0)^{\mathrm{T}}+k_2(0,1,1)^{\mathrm{T}}$
+    figures: []
+  - label: D
+    text: |-
+      $k_1(1,1,0)^{\mathrm{T}}+k_2(1,0,1)^{\mathrm{T}}$
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $\lim_{x\to0}\dfrac{\sqrt{\cos x}-\sqrt[3]{\cos x}}{\ln(1+x^2)}=$\ExamBlank。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      心形线 $r=1+\cos\theta$ 在点 $\theta=\dfrac{2\pi}{3}$ 处的法线方程为\ExamBlank。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设函数 $z=z(x,y)$ 由 $xy=\int_0^z\dfrac{\mathrm{d}t}{\sqrt{1+t^2}}$ 确定，则 $\dfrac{\partial^2z}{\partial x^2}+\dfrac{\partial^2z}{\partial y^2}=$\ExamBlank。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      椭圆 $x^2+y^2-xy=1$ 上点到原点距离的最大值为\ExamBlank。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x)$ 在 $[0,1]$ 上具有一阶连续导数且 $f(1)=0$，若 $f(x)$ 满足 $\int_0^1[f'(x)]^2\,\mathrm{d}x-6\int_0^1f(x)\,\mathrm{d}x+3=0$，则 $f(x)=$\ExamBlank。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      已知 $A$ 为 $3$ 阶可逆矩阵，且 $A^2+2A=O$，$3$ 阶矩阵 $B$ 满足 $2A^{-1}B=A^*+B$，则 $|B|=$\ExamBlank。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      已知函数 $f(x)$ 在点 $x=0$ 处二阶可导，且 $\lim_{x\to0}\dfrac{f(x)-1-2x^2}{x^2}=0$，求 $\lim_{x\to0}\dfrac{f(x)-f(\sin x)}{x^4}$。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: 设 $f(x)$ 在区间 $[0,T](T>0)$ 上具有一阶连续导数，$f(0)=0$，$g(x)$ 在区间 $[0,T]$ 上连续。
+  subparts:
+  - text: |-
+      证明 $\int_0^T f'(t)\left[\int_t^Tg(x)\,\mathrm{d}x\right]\mathrm{d}t=\int_0^Tf(x)g(x)\,\mathrm{d}x$；
+  - text: |-
+      利用（Ⅰ）关系式计算积分 $I=\int_0^1\left(\int_t^1e^{-x^2}\,\mathrm{d}x\right)\mathrm{d}t$。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 $y=f(t)$ 有二阶连续导数且 $f(t)\ne0$，若 $f(0)=2,f'(0)=1$，$x=\int_0^t f(u)\,\mathrm{d}u$，且 $y^2\dfrac{\mathrm{d}^2y}{\mathrm{d}x^2}=\dfrac{\mathrm{d}y}{\mathrm{d}x}$，求 $f(t)$ 的表达式。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $P(x)=x^2+ax+b$，问 $\int_{-1}^1P^2(x)\,\mathrm{d}x$ 是否有最大、最小值，若有，则求出最值，若没有，请说出理由。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $f(x)$ 具有连续导数，且满足 $f(1)=1$。区域 $D$ 是由 $x$ 轴，$y$ 轴和 $x+y=1$ 所围区域，若 $f(x+y)=\dfrac{x}{1+x+y}+\iint_Dyf'(x+y)\,\mathrm{d}\sigma$，求 $\iint_Df(x+y)\,\mathrm{d}\sigma$。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $A,B$ 均为 $3$ 阶方阵，其中 $A$ 为实对称矩阵，$A=(a_{ij})_{3\times3},a_{11}=2$，$B=\begin{pmatrix}1&0&-1\\-1&0&1\\0&2&0\end{pmatrix}$，且满足 $(A-E)B=O$。
+  subparts:
+  - text: 求矩阵 $A$；
+  - text: |-
+      求可逆矩阵 $P$，使 $P^{-1}AP=\Lambda$。

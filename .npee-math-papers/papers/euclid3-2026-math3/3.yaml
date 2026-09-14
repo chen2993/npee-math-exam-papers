@@ -1,0 +1,303 @@
+schema_version: '3.0'
+paper:
+  series_key: euclid3
+  year: 2026
+  subject: math3
+  paper_no: 3
+content_hash: 9e9be082b0f5a7a3b48bee55b93bb9bf8b8b8ac6c09ef48c08d62428aecf9a9e
+questions:
+- number: 1
+  section: choice
+  points:
+  stem:
+    text: |-
+      下列函数中，在 $x=0$ 处不可导的是\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $f(x)=\int_0^{|x|}\dfrac{\sin t}{t}\,\mathrm{d}t$.
+    figures: []
+  - label: B
+    text: |-
+      $f(x)=\int_0^x\dfrac{\sin |t|}{|t|}\,\mathrm{d}t$.
+    figures: []
+  - label: C
+    text: |-
+      $f(x)=\int_0^{|x|}\ln(1+t)\,\mathrm{d}t$.
+    figures: []
+  - label: D
+    text: |-
+      $f(x)=\int_0^x\ln(1+|t|)\,\mathrm{d}t$.
+    figures: []
+- number: 2
+  section: choice
+  points:
+  stem:
+    text: |-
+      曲线 $f(x)=\dfrac{x^2e^{\dfrac{1}{1+x}}}{\ln(1+x)-x}$ \ExamSelection
+  choices:
+  - label: A
+    text: 仅 1 条铅直渐近线.
+    figures: []
+  - label: B
+    text: 仅 2 条铅直渐近线.
+    figures: []
+  - label: C
+    text: 有 1 条铅直渐近线和 1 条斜渐近线.
+    figures: []
+  - label: D
+    text: 有 2 条铅直渐近线和 1 条斜渐近线.
+    figures: []
+- number: 3
+  section: choice
+  points:
+  stem:
+    text: |-
+      积分 $\int_0^{\dfrac{\pi}{4}}\mathrm{d}\theta\int_0^{\tan\theta\sec\theta}\cos(r\cos\theta)r\,\mathrm{d}r+\int_{\dfrac{\pi}{4}}^{\dfrac{\pi}{2}}\mathrm{d}\theta\int_0^{\dfrac{1}{\sin\theta}}\cos(r\cos\theta)r\,\mathrm{d}r=$\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\sin 1$.
+    figures: []
+  - label: B
+    text: |-
+      $\cos^2 1$.
+    figures: []
+  - label: C
+    text: |-
+      $\sin 1-\cos 1$.
+    figures: []
+  - label: D
+    text: |-
+      $2(\sin 1-\cos 1)$.
+    figures: []
+- number: 4
+  section: choice
+  points:
+  stem:
+    text: |-
+      级数 $\sum_{n=1}^{\infty}\int_{n\pi}^{(n+1)\pi}\dfrac{\sin x}{\sqrt{x}}\,\mathrm{d}x$\ExamSelection
+  choices:
+  - label: A
+    text: 发散.
+    figures: []
+  - label: B
+    text: 条件收敛.
+    figures: []
+  - label: C
+    text: 绝对收敛.
+    figures: []
+  - label: D
+    text: 敛散性未知.
+    figures: []
+- number: 5
+  section: choice
+  points:
+  stem:
+    text: |-
+      设矩阵 $A=\begin{pmatrix}2&1&0\\1&2&1\\0&1&2\end{pmatrix},B=\begin{pmatrix}2&0&1\\0&2&0\\1&0&a\end{pmatrix},C=\begin{pmatrix}2&1&0\\1&2&1\\0&1&b\end{pmatrix}$，则下列命题必然不可能成立的是\ExamSelection
+  choices:
+  - label: A
+    text: $A$ 与 $B$ 等价.
+    figures: []
+  - label: B
+    text: $A$ 与 $B$ 相似.
+    figures: []
+  - label: C
+    text: $A$ 与 $C$ 相似.
+    figures: []
+  - label: D
+    text: $B$ 与 $C$ 等价.
+    figures: []
+- number: 6
+  section: choice
+  points:
+  stem:
+    text: |-
+      设 $A$ 为 $n$ 阶矩阵，$\alpha_1,\alpha_2,\alpha_3$ 为 $n$ 维列向量，则下列结论正确的是\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      若 $A$ 为可逆矩阵，则 $\alpha_1,A\alpha_2,A^2\alpha_3$ 线性无关.
+    figures: []
+  - label: B
+    text: |-
+      若 $\alpha_1,A\alpha_2,A^2\alpha_3$ 线性无关，则 $A$ 为可逆矩阵.
+    figures: []
+  - label: C
+    text: |-
+      若 $A^2\alpha_1,A^2\alpha_2,A^2\alpha_3$ 线性无关，则 $A\alpha_1,A\alpha_2,A\alpha_3$ 线性无关.
+    figures: []
+  - label: D
+    text: |-
+      若 $A\alpha_1,A\alpha_2,A\alpha_3$ 线性无关，则 $A^2\alpha_1,A^2\alpha_2,A^2\alpha_3$ 线性无关.
+    figures: []
+- number: 7
+  section: choice
+  points:
+  stem:
+    text: |-
+      设 $A$ 为 $m\times n$ 矩阵，且 $r(A)=n(m>n),(AA^T)^2=aAA^T$，则下列说法正确的是\ExamSelection $①\operatorname{tr}(AA^T)=a$；$②\operatorname{tr}(AA^T)=na$；$③AA^T$ 与单位矩阵 $E_m$ 合同；$④A^TA$ 与单位矩阵 $E_n$ 合同.
+  choices:
+  - label: A
+    text: ①③.
+    figures: []
+  - label: B
+    text: ①④.
+    figures: []
+  - label: C
+    text: ②③.
+    figures: []
+  - label: D
+    text: ②④.
+    figures: []
+- number: 8
+  section: choice
+  points:
+  stem:
+    text: |-
+      设随机变量 $X$ 服从参数为 2 的泊松分布，则 $P(X=k)(k=0,1,\cdots)$ 的最大值为\ExamSelection
+  choices:
+  - label: A
+    text: $2$.
+    figures: []
+  - label: B
+    text: $4e^{-2}$.
+    figures: []
+  - label: C
+    text: $e^{-2}$.
+    figures: []
+  - label: D
+    text: $2e^{-2}$.
+    figures: []
+- number: 9
+  section: choice
+  points:
+  stem:
+    text: |-
+      随机变量 $X_1,X_2,X_3$ 满足 $E(X_i)=0,D(X_i)=i^2(i=1,2,3)$，且两两之间相关系数均为 $\rho$，若 $D\left(\sum_{i=1}^3X_i\right)=3$，则 $\rho=$\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $-\dfrac{1}{2}$.
+    figures: []
+  - label: B
+    text: |-
+      $-\dfrac{1}{3}$.
+    figures: []
+  - label: C
+    text: $0$.
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{1}{2}$.
+    figures: []
+- number: 10
+  section: choice
+  points:
+  stem:
+    text: |-
+      设两总体 $X,Y$ 相互独立且都服从 $N(\mu,\sigma^2)$，而 $X_1,X_2,\cdots,X_n$ 与 $Y_1,Y_2,\cdots,Y_n$ 分别是来自总体 $X,Y$ 的简单随机样本，记它们的样本均值与样本方差分别为 $\overline{X},\overline{Y}$ 和 $S_X^2,S_Y^2$，则下列说法正确的是\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\sqrt{n}\dfrac{\overline{X}-\overline{Y}}{\sigma}\sim N(0,1)$.
+    figures: []
+  - label: B
+    text: |-
+      $2(n-1)\dfrac{S_X^2+S_Y^2}{\sigma^2}\sim\chi^2(2n-2)$.
+    figures: []
+  - label: C
+    text: |-
+      $\sqrt{n}\dfrac{\overline{X}-\overline{Y}}{\sqrt{S_X^2+S_Y^2}}\sim t(2n-2)$.
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{n(\overline{X}-\mu)^2}{S_X^2}\sim F(1,n)$.
+    figures: []
+- number: 11
+  section: fill
+  points:
+  stem:
+    text: |-
+      若 $\lim_{x\to0}\dfrac{f(x)-x}{x^3}=\dfrac{1}{2}$，则 $\lim_{x\to0}\dfrac{f^2(x)-x^2}{x\int_0^x\sin t^2\,\mathrm{d}t}=\ExamBlank$.
+- number: 12
+  section: fill
+  points:
+  stem:
+    text: |-
+      设函数 $z=z(x,y)$ 由方程 $(x-z)^y=\ln(xy)+y^2z$ 确定，则 $\left.\mathrm{d}z\right|_{(1,1)}=\ExamBlank$.
+- number: 13
+  section: fill
+  points:
+  stem:
+    text: |-
+      差分方程 $y_{t+1}+2y_t-(t+1)(-2)^t=0$ 满足 $y_0=-1$ 的特解是 $\ExamBlank$.
+- number: 14
+  section: fill
+  points:
+  stem:
+    text: |-
+      设函数 $f(x)=\ln\dfrac{1+x}{1-x}$，则 $\sum_{n=1}^{\infty}\dfrac{1}{f^{(2n-1)}(0)}=\ExamBlank$.
+- number: 15
+  section: fill
+  points:
+  stem:
+    text: |-
+      设 $A=\begin{pmatrix}a&1&-2\\4&1&-2\\0&1&-2\end{pmatrix}$，若方程组 $Ax=0$ 和 $A^*x=0$ 有非零公共解，则 $a=\ExamBlank$.
+- number: 16
+  section: fill
+  points:
+  stem:
+    text: |-
+      在独立重复射击游戏中，单次命中目标的概率为 $\dfrac{1}{2}$，第 $k$ 次射击的花销与 $k$ 的关系为 $f(k)=\begin{cases}4,&k=1,\\2,&k=2,\\1,&k\geqslant3,\end{cases}$ 则首次命中所需花销的期望为 $\ExamBlank$.
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      计算 $\iint_D\left(\dfrac{\sin x}{1+y^2}+y\cos x\right)\,\mathrm{d}x\,\mathrm{d}y$，其中 $D$ 是由 $y=\tan x,y=-1$ 和 $x=\dfrac{\pi}{4}$ 围成.
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      已知方程 $\dfrac{\ln(x+1)}{x^2}-\dfrac{1}{x(x+1)}=k$ 在区间 $(0,1)$ 内有实根，确定常数 $k$ 的取值范围.
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      求 $f(x,y)=\dfrac{\ln(x+y)}{x^2+y^2}$ 在区域 $D=\{(x,y)\mid x\geqslant0,y\geqslant0,x+y\geqslant1\}$ 上的最值.
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 $f(x)$ 在 $[0,1]$ 上有 2 阶连续导数，且 $f'(0)=f'(1)=0,|f''(x)|\leqslant M$，证明：
+  subparts:
+  - text: |-
+      $|f'(x)|\leqslant\dfrac{M}{2}$；
+  - text: |-
+      $|f(0)-f(1)|\leqslant\dfrac{M}{4}$.
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设矩阵 $A=\begin{pmatrix}2&-1&-1\\-1&2&1\\-1&1&2\end{pmatrix}$.
+  subparts:
+  - text: 求正交矩阵 $Q$，使得 $Q^T(A^*)^*Q$ 为对角矩阵；
+  - text: 求正定矩阵 $B$，使得 $B^2=(A^*)^*$.
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $X_1,X_2,\cdots,X_n$ 是来自总体 $X$ 的简单随机样本，记 $T=\min\{X_1,X_2,\cdots,X_n\}$. 若 $T$ 的分布函数为 $F(t)=\begin{cases}1-e^{-\dfrac{n(t-\mu)}{\theta}},&t\geqslant\mu,\\0,&t<\mu.\end{cases}$ 其中 $\mu,\theta$ 为未知参数，$\theta>0$.
+  subparts:
+  - text: 求 $X$ 的概率密度；
+  - text: |-
+      求 $\mu,\theta$ 的最大似然估计量 $\hat{\mu},\hat{\theta}$；
+  - text: |-
+      求 $E(\hat{\theta})$.

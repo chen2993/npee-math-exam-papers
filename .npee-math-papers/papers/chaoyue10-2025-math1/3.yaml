@@ -1,0 +1,298 @@
+schema_version: '3.0'
+paper:
+  series_key: chaoyue10
+  year: 2025
+  subject: math1
+  paper_no: 3
+content_hash: 033e0f312d3bf5ca022144e8e7c2a6608df088619883a2f555dbfd4a71850fe3
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      当 $x\to 0^+$ 时，下列式子正确的个数为：① $\dfrac{1}{\ln x}\sim\dfrac{1}{\ln\sin x}$；② $\int_0^x t^2\,\mathrm{d}t\sim\int_0^x\sin t^2\,\mathrm{d}t$；③ $(1+\sin x)^x-1\sim(1+x)^{\sin x}-1$。正确的个数为\ExamSelection。
+  choices:
+  - label: A
+    text: $0$
+    figures: []
+  - label: B
+    text: $1$
+    figures: []
+  - label: C
+    text: $2$
+    figures: []
+  - label: D
+    text: $3$
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设曲面 $\Sigma:z=x^2+y^2$，$0\leq z\leq 1$，取下侧，则 $\iint_{\Sigma}(x+y)\,\mathrm{d}y\mathrm{d}z+(z+2xy+2x^2)\,\mathrm{d}z\mathrm{d}x=\ExamSelection$。
+  choices:
+  - label: A
+    text: |-
+      $-\dfrac{\pi}{2}$
+    figures: []
+  - label: B
+    text: |-
+      $-\dfrac{\pi}{4}$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{\pi}{4}$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{\pi}{2}$
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      过点 $(1,2,0)$ 的直线 $L$ 与直线 $L_1:\dfrac{x-2}{1}=\dfrac{y}{2}=\dfrac{z-6}{-2}$ 相交，且平行于曲面 $\Sigma:z=x^2+2y^2$ 在点 $(1,1,3)$ 处的切平面，则直线 $L$ 的方程为\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{x-1}{2}=\dfrac{y-2}{0}=\dfrac{z}{4}$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{x-1}{2}=\dfrac{y-2}{-1}=\dfrac{z}{0}$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{x-1}{0}=\dfrac{y-2}{1}=\dfrac{z}{4}$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{x-1}{1}=\dfrac{y-2}{0}=\dfrac{z}{1}$
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)$ 在 $(0,+\infty)$ 内二阶可导，则下列说法正确的是\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      若 $f(x)$ 在 $(0,+\infty)$ 内有界，则 $\lim_{x\to+\infty}f'(x)=0$。
+    figures: []
+  - label: B
+    text: |-
+      若 $f(x)$ 和 $f'(x)$ 在 $(0,+\infty)$ 内均有界，则 $\lim_{x\to+\infty}f'(x)=0$。
+    figures: []
+  - label: C
+    text: |-
+      若 $f'(x)$ 在 $(0,+\infty)$ 内有界，则 $f(x)$ 在 $(0,+\infty)$ 内一定有界。
+    figures: []
+  - label: D
+    text: |-
+      若 $f(x),f''(x)$ 在 $(0,+\infty)$ 内有界，则 $f'(x)$ 在 $(0,+\infty)$ 内一定有界。
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A=\begin{pmatrix}\dfrac{3}{2}&-\dfrac{1}{2}\\\dfrac{1}{2}&\dfrac{1}{2}\end{pmatrix}$，向量 $\alpha$ 满足 $A\alpha=\begin{pmatrix}1\\1\end{pmatrix}+\alpha$，则 $A^{2025}\alpha$ 不可能为\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\begin{pmatrix}2025\\2023\end{pmatrix}$
+    figures: []
+  - label: B
+    text: |-
+      $\begin{pmatrix}2026\\2024\end{pmatrix}$
+    figures: []
+  - label: C
+    text: |-
+      $\begin{pmatrix}2027\\2025\end{pmatrix}$
+    figures: []
+  - label: D
+    text: |-
+      $\begin{pmatrix}2027\\2026\end{pmatrix}$
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $3$ 阶实对称矩阵 $A=(\alpha_1,\alpha_2,\alpha_3)$，且 $\alpha_1+\alpha_2+\alpha_3=(1,1,1)^\mathrm{T}$，又 $a\in\mathbb{R}$ 使得 $A^3+(a^5-1)A^2+2a^3A+aE=O$，$\operatorname{tr}(A)=1$，则下列结论中：① $r(A)=1$；② $A$ 的特征值为 $0,0,1$；③ $A$ 与矩阵 $\begin{pmatrix}1&0&0\\0&2&0\\0&0&0\end{pmatrix}$ 合同；④ $\begin{pmatrix}1\\1\\-2\end{pmatrix}$ 为 $Ax=0$ 的解。正确的个数为\ExamSelection。
+  choices:
+  - label: A
+    text: $1$
+    figures: []
+  - label: B
+    text: $2$
+    figures: []
+  - label: C
+    text: $3$
+    figures: []
+  - label: D
+    text: $4$
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      矩阵 $P$ 满足 $PP^\mathrm{T}=E$，则下列四个式子中必成立有\ExamSelection{}个：① $P$ 的行向量组为标准正交向量组；② $P$ 的列向量组为标准正交向量组；③ $P$ 为正交矩阵；④ $P$ 为可逆矩阵。
+  choices:
+  - label: A
+    text: $1$
+    figures: []
+  - label: B
+    text: $2$
+    figures: []
+  - label: C
+    text: $3$
+    figures: []
+  - label: D
+    text: $4$
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设随机变量 $X$ 与 $Y$ 独立同分布，且 $P(X=k)=\left(\dfrac{1}{2}\right)^k$，$k=1,2,\cdots$，$Z=\max\{X,Y\}$，则 $P(Z=3)=\ExamSelection$。
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{3}{8}$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{7}{32}$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{11}{64}$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{13}{64}$
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $X_1,X_2,\cdots,X_n,X_{n+1}$ 为来自总体 $X\sim N(\mu,\sigma^2)$ 的简单随机样本，$\overline{X}=\dfrac{1}{n}\sum_{i=1}^nX_i$，$T=a(X_{n+1}-\overline{X})^2$，若 $T\sim\chi^2(1)$，则 $a=\ExamSelection$。
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{n}{(n+1)\sigma^2}$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{n\sigma^2}{n+1}$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{n}{(n+1)\sigma}$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{n+1}{n\sigma}$
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设随机事件 $A$ 与 $B$ 互不相容，$B$ 与 $C$ 相互独立，且 $P(A)=P(B)=0.4,P(C)=0.5$，则 $P(C-A\mid A\cup BC)=\ExamSelection$。
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{1}{5}$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{1}{6}$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{1}{3}$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{1}{4}$
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设连续函数 $y=y(x)$ 是由方程 $1+xy=e^{x^2+y}$ 确定，且 $y(0)=0$，则极限 $\lim_{x\to0}\dfrac{y(x)}{x^2}=\ExamBlank$。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设函数 $z=z(x,y)$ 具有二阶连续偏导数，且 $\dfrac{\partial^2z}{\partial x^2}+\dfrac{\partial^2z}{\partial x\partial y}+\dfrac{\partial^2z}{\partial y^2}=2x$，令 $\xi=x+y,\eta=x-y$，则 $\left.3\dfrac{\partial^2z}{\partial\xi^2}+\dfrac{\partial^2z}{\partial\eta^2}\right|_{\xi=1,\eta=2}=\ExamBlank$。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      二次积分 $\int_{-1}^{1}\mathrm{d}x\int_{|x|}^{\sqrt{2-x^2}}\dfrac{x^2+y}{1+x^2+y^2}\mathrm{d}y=\ExamBlank$。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      函数 $y(x)$ 是微分方程 $y'''-3y''+3y'-y=0$ 的解，且 $y(x)$ 在点 $(0,0)$ 的曲率圆为 $(x-1)^2+(y-1)^2=2$，则 $y(x)=\ExamBlank$。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $A=\begin{pmatrix}1&1\\1&0\\1&-1\end{pmatrix}$，矩阵 $B_{2\times3}$ 满足 $BA=E$，则 $AB$ 的特征值为\ExamBlank。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $n(n>3)$ 个乒乓球中有 3 只黄球，$n-3$ 只白球，将其随机放入编号为 $1,2,\cdots,n$ 的 $n$ 个盒子中，一个盒子放入一个球。从第 1 号盒子开始逐个打开，直到出现两个黄球为止。记 $X$ 为所打开的盒子数，则 $EX=\ExamBlank$。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      设 $f_{yy}(x,y)=2$，且 $f_x(x,0)=2x-4,f(0,y)=-y^2$。\quad(Ⅰ) 求 $f(x,y)$；\quad(Ⅱ) 求函数 $f(x,y)$ 在区域 $D=\{(x,y)\mid x+y\leq4,y\geq0,x\geq0\}$ 上的最大值和最小值。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      求幂级数 $\sum_{n=1}^{\infty}\dfrac{x^n}{n(n+2)}$ 的收敛域以及和函数。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 $f(x)$ 在 $[-1,1]$ 上连续，在点 $x=0$ 处可导且 $f'(0)\neq0$。\quad(Ⅰ) 证明对任意 $x\in[0,1]$，存在 $\theta\in(0,1)$，使得 $\int_0^x f(t)\,\mathrm{d}t+\int_0^{-x}f(t)\,\mathrm{d}t=x[f(\theta x)-f(-\theta x)]$；\quad(Ⅱ) 求极限 $\lim_{x\to0^+}\theta$。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      已知曲线积分 $\int_L\left(yf\left(\dfrac{2y}{x}\right)-\dfrac{2xy^2}{x^2+4y^2}\right)\mathrm{d}x+\left(xf\left(\dfrac{2y}{x}\right)+\dfrac{2x^2y}{x^2+4y^2}\right)\mathrm{d}y$ 在第一象限内与路径无关，其中 $f(t)$ 具有连续导数，且 $f(1)=\dfrac{\pi}{4}$。\quad(Ⅰ) 求 $f(t)$；\quad(Ⅱ) 取 $L:y=x^2-2x+2$ 上 $(1,1)$ 到 $(2,2)$ 的一段，计算曲线积分 $I=\int_L\left(yf\left(\dfrac{2y}{x}\right)-\dfrac{2xy^2}{x^2+4y^2}\right)\mathrm{d}x+\left(xf\left(\dfrac{2y}{x}\right)+\dfrac{2x^2y}{x^2+4y^2}\right)\mathrm{d}y$。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $A$ 为 $2$ 阶实矩阵，且 $A^2+E=O$。证明：\quad(Ⅰ) $A^\mathrm{T}\neq A$；\quad(Ⅱ) 令 $P=(\alpha,A\alpha)$，$\alpha$ 为任意 $2$ 维非零列向量，证明 $P$ 可逆；\quad(Ⅲ) $A$ 与矩阵 $B=\begin{pmatrix}0&-1\\1&0\end{pmatrix}$ 相似。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $X$ 的概率密度为 $f(x)=\begin{cases}\dfrac{1}{4},&|x|\leq1,\\\dfrac{1}{8},&1<|x|\leq3,\\0,&\text{其他},\end{cases}$，令 $Y=g(X)=\begin{cases}X^2,&X<1,\\X^2-1,&X\geq1,\end{cases}$，求：\quad(Ⅰ) $P(-1<Y<2\mid X<1)$；\quad(Ⅱ) $Y$ 的分布函数 $F_Y(y)$。

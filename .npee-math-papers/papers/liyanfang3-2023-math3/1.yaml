@@ -1,0 +1,305 @@
+schema_version: '3.0'
+paper:
+  series_key: liyanfang3
+  year: 2023
+  subject: math3
+  paper_no: 1
+content_hash: b44f23a9dcfdfa3594f128dd5ba4cca90d9f01c86521d296a043b771d1af85c6
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      当 $x\to 0$ 时，若 $\alpha_1(x),\alpha_2(x),\beta_1(x),\beta_2(x)$ 都是非零无穷小量，且 $\alpha_1(x)\sim\alpha_2(x)$，$\beta_1(x)\sim\beta_2(x)$，则下列命题中，错误的是\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      若 $\alpha_1(x)\sim\beta_1(x)$，则 $\alpha_2(x)-\beta_2(x)=o(\alpha_2(x))$。
+    figures: []
+  - label: B
+    text: |-
+      若 $\alpha_1(x)-\beta_1(x)=o(\alpha_1(x))$，则 $\alpha_2(x)\sim\beta_2(x)$。
+    figures: []
+  - label: C
+    text: |-
+      若 $\alpha_1(x)\sim\beta_1(x)$，则 $\alpha_1(x)-\beta_1(x)\sim\alpha_2(x)-\beta_2(x)$。
+    figures: []
+  - label: D
+    text: |-
+      若 $\alpha_1(x)=o(\beta_1(x))$，则 $\alpha_1(x)-\beta_1(x)\sim\alpha_2(x)-\beta_2(x)$。
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      下列幂级数的和函数在区间 $(0,1)$ 内必有零点的是\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\displaystyle\sum_{n=1}^{\infty}\dfrac{(-1)^{n-1}}{n}x^n$。
+    figures: []
+  - label: B
+    text: |-
+      $\displaystyle\sum_{n=2}^{\infty}\dfrac{(-1)^n}{n(n-1)}x^n$。
+    figures: []
+  - label: C
+    text: |-
+      $\displaystyle\sum_{n=0}^{\infty}\dfrac{(-1)^n\pi^{2n}}{(2n)!}x^{2n}$。
+    figures: []
+  - label: D
+    text: |-
+      $\displaystyle\sum_{n=0}^{\infty}\dfrac{(-1)^n\pi^{2n+1}}{(2n+1)!(2n+1)}x^{2n+1}$。
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      若积分 $\displaystyle\int_0^1 x^a|\ln x|^b\,\mathrm{d}x$ 收敛，则\ExamSelection。
+  choices:
+  - label: A
+    text: $a>-1,b>-1$。
+    figures: []
+  - label: B
+    text: $a>-1,b<-1$。
+    figures: []
+  - label: C
+    text: $a<-1,b>-1$。
+    figures: []
+  - label: D
+    text: $a<-1,b<-1$。
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设可导函数 $f(x)$ 在 $[0,1]$ 上是方程 $y''-y'=0$ 的解，并且在 $(-\infty,0]$ 上满足 $f(x)=g(x)$。若 $f(1)>1$，则 $g(x)$ 可能为\ExamSelection。
+  choices:
+  - label: A
+    text: $x$。
+    figures: []
+  - label: B
+    text: $x^2$。
+    figures: []
+  - label: C
+    text: $x^3$。
+    figures: []
+  - label: D
+    text: $x^4$。
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 为 3 阶正交矩阵且 $A^3=E$。已知 $\alpha,\beta$ 均为 3 维非零向量，且满足 $\alpha,A\alpha$ 线性无关，$\alpha,A\alpha,A^2\alpha$ 线性相关，$\beta^{\mathrm{T}}\alpha=\beta^{\mathrm{T}}A\alpha=0$。下列命题中，错误的是\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\alpha,A^2\alpha$ 线性无关。
+    figures: []
+  - label: B
+    text: |-
+      $\beta,A\beta$ 线性无关。
+    figures: []
+  - label: C
+    text: |-
+      $\alpha,A\alpha,\beta$ 线性无关。
+    figures: []
+  - label: D
+    text: |-
+      $\beta,A\beta,A^2\beta$ 线性相关。
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 为 $n(n\geq 2)$ 阶矩阵，若 1 不是 $A$ 的特征值，且 $|A|=-1$，则下列命题中，正确的是\ExamSelection。① 2 不是 $A+A^{-1}$ 的特征值。② 2 不是 $A+A^*$ 的特征值。③ $-1$ 不是 $A+A^{\mathrm{T}}-AA^{\mathrm{T}}$ 的特征值。④ 1 不是 $A-A^*+AA^*$ 的特征值。
+  choices:
+  - label: A
+    text: ①②。
+    figures: []
+  - label: B
+    text: ③④。
+    figures: []
+  - label: C
+    text: ①④。
+    figures: []
+  - label: D
+    text: ②③。
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      现有两个命题：① $A^*$ 对称当且仅当 $A$ 对称；② $A^*$ 正定当且仅当 $A$ 正定。下列说法中，正确的是\ExamSelection。
+  choices:
+  - label: A
+    text: ①，② 均正确。
+    figures: []
+  - label: B
+    text: ① 正确，② 错误。
+    figures: []
+  - label: C
+    text: ① 错误，② 正确。
+    figures: []
+  - label: D
+    text: ①，② 均错误。
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设随机变量 $X_1,X_2$ 均服从参数为 $\lambda(\lambda>0)$ 的泊松分布，且相互独立。若 $k$ 为非负整数，则下列结论中，正确的是\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $P\{X_1+X_2=2k\}=\dfrac{\mathrm{e}^{-2\lambda}(2\lambda)^k}{k!}$。
+    figures: []
+  - label: B
+    text: |-
+      $P\{X_1+X_2=k\}=\dfrac{\mathrm{e}^{-2\lambda}(2\lambda)^k}{k!}$。
+    figures: []
+  - label: C
+    text: |-
+      $P\{X_1+X_2=2k\}=\dfrac{\mathrm{e}^{-\lambda}\lambda^k}{k!}$。
+    figures: []
+  - label: D
+    text: |-
+      $P\{X_1+X_2=k\}=\dfrac{\mathrm{e}^{-\lambda}\lambda^k}{k!}$。
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设总体 $X\sim N(\mu,\sigma^2)(\mu,\sigma>0)$，$X_1,X_2,\cdots,X_n$ 为来自该总体的简单随机样本，则样本均值 $\overline{X}$ 与总体均值 $\mu$ 的误差不超过 $\dfrac{\mu\sigma}{\sqrt{n}}$ 的概率 $p$\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      随着 $\mu$ 增加而增加。
+    figures: []
+  - label: B
+    text: |-
+      随着 $\mu$ 增加而减少。
+    figures: []
+  - label: C
+    text: 随着 $n$ 增加而增加。
+    figures: []
+  - label: D
+    text: 随着 $n$ 增加而减少。
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设总体 $X$ 的概率密度为 $f(x)=\begin{cases}\dfrac{x\mathrm{e}^{-x/\theta}}{\theta^2},&x>0,\\0,&x\leq 0,\end{cases}$ 其中 $\theta$ 为未知正参数，$X_1,X_2,\cdots,X_n$ 为来自该总体的简单随机样本。若 $\hat{\theta}$ 是参数 $\theta$ 的矩估计量，则 $D(\hat{\theta})=$\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{[E(\hat{\theta})]^2}{n}$。
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{[E(\hat{\theta})]^2}{2n}$。
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{[E(\hat{\theta})]^2}{3n}$。
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{[E(\hat{\theta})]^2}{4n}$。
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x)=x\ln x+\dfrac{\mathrm{e}}{6}x^3-\dfrac{\mathrm{e}}{2}x^2+\left(\dfrac{\mathrm{e}}{2}-1\right)x-\dfrac{\mathrm{e}}{6}$，$g(x)=x(\ln x-1)+\mathrm{e}^x-\mathrm{e}x$，则曲线 $y=f(x)$ 与 $y=g(x)$ 的公共切线的方程为\ExamBlank。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x)$ 的定义域为 $[0,c)$，其中 $c>1$，值域为 $[1,+\infty)$，$f(0)=1$，$f'(x)=|f(x)|^a$，则 $a$ 的取值范围是\ExamBlank。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设二元函数 $F(u,v)$ 具有一阶连续偏导数，$F'_1+\dfrac{1}{\sqrt{3}}F'_2\neq 0$，$z=z(x,y)$ 是由方程 $F\left(xyz,\sqrt{x^2+y^2+z^2}\right)=0$ 所确定的隐函数，且 $z(1,1)=1$，则 $\left.\mathrm{d}z\right|_{(1,1)}=$\ExamBlank。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $a_n=\displaystyle\int_1^{+\infty}x^{-\dfrac{3}{2}}\ln^n x\,\mathrm{d}x$，则 $\displaystyle\sum_{n=0}^{\infty}\dfrac{n!}{a_n}=$\ExamBlank。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $\begin{vmatrix}b^2+c^2&a^2+c^2&a^2+b^2\\a&b&c\\a^2&b^2&c^2\end{vmatrix}=$\ExamBlank。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设连续型随机变量 $X$ 的取值范围为 $(0,+\infty)$，$\theta$ 为连接点 $(0,0)$ 与点 $\left(X,\dfrac{1}{X}\right)$ 的线段和 $x$ 轴正半轴的夹角。若 $\theta$ 服从 $\left(0,\dfrac{\pi}{2}\right)$ 上的均匀分布，则当 $x\in(0,+\infty)$ 时，$X$ 的概率密度 $f_X(x)=$\ExamBlank。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      已知抛物线 $l_1:y=(x+1)^2$ 和 $l_2:y=ax^2+bx$ 相切于唯一的公共点 $P$，其中参数 $b\in(-\infty,0)$。记抛物线 $l_2$ 与 $x$ 轴所围图形的面积为 $A$，问：$A$ 是否存在最值？若存在，求出该最值。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设区域 $D=\{(x,y)\mid-1\leq x\leq 1,0\leq y\leq 1\}$，$[x^2-y]$ 表示不超过 $x^2-y$ 的最大整数，计算 $I=\displaystyle\iint_D(1-[x^2-y])\cdot\sqrt{|x^2-y|}\,\mathrm{d}x\,\mathrm{d}y$。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: 求下列极限：
+  subparts:
+  - text: |-
+      求 $\displaystyle\lim_{n\to\infty}\dfrac{1}{n^2}\left(\sqrt[4]{1}+\sqrt[4]{2}+\cdots+\sqrt[4]{n}\right)\left(\dfrac{1}{\sqrt[4]{1}}+\dfrac{1}{\sqrt[4]{2}}+\cdots+\dfrac{1}{\sqrt[4]{n}}\right)$；
+  - text: |-
+      求 $\displaystyle\lim_{n\to\infty}\left(\dfrac{1}{n^4+1}+\dfrac{2}{n^4+2}+\cdots+\dfrac{n}{n^4+n}\right)\left(\sqrt[4]{1}+\sqrt[4]{2}+\cdots+\sqrt[4]{n}\right)\left(\dfrac{1}{\sqrt[4]{1}}+\dfrac{1}{\sqrt[4]{2}}+\cdots+\dfrac{1}{\sqrt[4]{n}}\right)$。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $a>0$，函数 $f(x)$ 在 $[a,b]$ 上连续，在 $(a,b)$ 内可导。证明：若对任意 $x\in(a,b)$，都有 $f'(x)\neq 0$，则存在 $\xi_1,\xi_2\in(a,b)$，使得 $\dfrac{f'(\xi_1)}{f'(\xi_2)}=\dfrac{a^2+ab+b^2}{a+b}\cdot\dfrac{2\xi_1}{3\xi_2^2}$。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: 设 $A,B$ 均为 2 阶实对称矩阵，$A$ 的特征值为 $1,2$，$B$ 的特征值为 $2,3$。
+  subparts:
+  - text: |-
+      证明：当 $AB=BA$ 时，存在正交矩阵 $Q$，使得 $Q^{\mathrm{T}}AQ,Q^{\mathrm{T}}BQ$ 均为对角矩阵。
+  - text: |-
+      求 $\displaystyle\max_{x\neq 0}\dfrac{x^{\mathrm{T}}Bx}{x^{\mathrm{T}}Ax}$。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设区域 $D$ 由直线 $y=x,y=1$ 和 $x=\mathrm{e}$ 围成，二维随机变量 $(X,Y)$ 的联合概率密度为 $f(x,y)=\begin{cases}\dfrac{2}{xy},&(x,y)\in D,\\0,&\text{其他}\text{。}\end{cases}$
+  subparts:
+  - text: |-
+      求条件概率密度 $f_{X\mid Y}(x\mid y)$。
+  - text: |-
+      设 $a\in[1,2)$，记 $p_1(a)=\displaystyle\int_{-\infty}^{2}f_{X\mid Y}(x\mid a)\,\mathrm{d}x$，$p_2(a)$ 为当 $Y\geq a$ 时，事件 $\{|X|\leq 2\}$ 发生的概率，请问 $p_1(a)$ 和 $p_2(a)$ 是否存在最大值？若均存在，则这两个最大值是否相等？

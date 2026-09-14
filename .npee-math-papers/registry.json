@@ -1,0 +1,40 @@
+{
+  "schema_version": "3.0",
+  "catalogs": [
+    {
+      "id": "chaoyue10",
+      "name": "合工大超越十套卷",
+      "enabled": true
+    },
+    {
+      "id": "euclid3",
+      "name": "欧几里得三套卷",
+      "enabled": true
+    },
+    {
+      "id": "lilin6",
+      "name": "李林六套卷",
+      "enabled": true
+    },
+    {
+      "id": "liyanfang3",
+      "name": "李艳芳三套卷",
+      "enabled": true
+    },
+    {
+      "id": "yubingsen5",
+      "name": "余炳森五套卷",
+      "enabled": true
+    },
+    {
+      "id": "zhangyu4",
+      "name": "张宇四套卷",
+      "enabled": true
+    },
+    {
+      "id": "zhangyu8",
+      "name": "张宇八套卷",
+      "enabled": true
+    }
+  ]
+}

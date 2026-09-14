@@ -1,0 +1,306 @@
+schema_version: '3.0'
+paper:
+  series_key: chaoyue10
+  year: 2025
+  subject: math1
+  paper_no: 1
+content_hash: 39ec7c94ffd068f0971b83cdcd211f267a2b650f766a9de0280008c889e29cfd
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知函数 $f(x)=\dfrac{\int_0^x|\sin t|\,\mathrm{d}t}{x^\alpha}$ 在 $(0,+\infty)$ 内有界，则 $\alpha$ 的取值范围为\ExamSelection
+  choices:
+  - label: A
+    text: $[0,2]$
+    figures: []
+  - label: B
+    text: $[1,2]$
+    figures: []
+  - label: C
+    text: $(1,3]$
+    figures: []
+  - label: D
+    text: $[1,3)$
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设积分 $\int_L\dfrac{ax}{y^3}\mathrm{d}x+\dfrac{y^2-3x^2}{y^4}\mathrm{d}y$ 在上半平面 $(y>0)$ 上与路径无关，则 $\dfrac{ax}{y^3}\mathrm{d}x+\dfrac{y^2-3x^2}{y^4}\mathrm{d}y$ 的一个原函数 $u(x,y)=$\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $y^2+\dfrac{x^3}{y^3}-\dfrac{1}{y}$
+    figures: []
+  - label: B
+    text: |-
+      $x^2+\dfrac{x^3}{y^3}-\dfrac{1}{y}$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{x^2}{y^3}-\dfrac{1}{y}$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{x^2}{y}+\dfrac{x^3}{y^3}-\dfrac{1}{y}$
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      级数 $\sum_{n=1}^{\infty}\ln(1+u_n+u_n^2)$ 收敛，则下列选项一定正确的是\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\sum_{n=1}^{\infty}(-1)^nu_n$ 收敛
+    figures: []
+  - label: B
+    text: |-
+      $\sum_{n=1}^{\infty}u_n^2$ 收敛
+    figures: []
+  - label: C
+    text: |-
+      $\sum_{n=1}^{\infty}u_n$ 发散
+    figures: []
+  - label: D
+    text: |-
+      $\sum_{n=1}^{\infty}\dfrac{u_n}{n^2}$ 绝对收敛
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $M=\int_0^1e^x\mathrm{d}x$，$N=\int_0^{\dfrac{\pi}{2}}e^{\sin x}\mathrm{d}x$，$P=\int_0^{\dfrac{\pi}{4}}e^{\ln\sin x}\mathrm{d}x$，则\ExamSelection
+  choices:
+  - label: A
+    text: $P<M<N$
+    figures: []
+  - label: B
+    text: $P<N<M$
+    figures: []
+  - label: C
+    text: $M<P<N$
+    figures: []
+  - label: D
+    text: $N<P<M$
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A=(\alpha_1,\alpha_2,\alpha_3)$，$\alpha_1,\alpha_2,\alpha_3$ 为两两正交的三维非零列向量，$B=(\alpha_1-\alpha_2,\alpha_2+\lambda\alpha_3,\alpha_3-2\alpha_1)$，若 $|A|=|B|$，则实数 $\lambda=$\ExamSelection
+  choices:
+  - label: A
+    text: $-1$
+    figures: []
+  - label: B
+    text: $0$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{1}{2}$
+    figures: []
+  - label: D
+    text: $2$
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A,B,C$ 均为 $n$ 阶方阵，且 $A$ 可逆，则下列矩阵与 $\begin{pmatrix}A&B\\O&C\end{pmatrix}$ 的秩可能不相等的为\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\begin{pmatrix}A&O\\O&C\end{pmatrix}$
+    figures: []
+  - label: B
+    text: |-
+      $\begin{pmatrix}E&O\\A&C\end{pmatrix}$
+    figures: []
+  - label: C
+    text: |-
+      $\begin{pmatrix}A&BC\\O&C\end{pmatrix}$
+    figures: []
+  - label: D
+    text: |-
+      $\begin{pmatrix}A&O\\O&BC\end{pmatrix}$
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $P$ 为 3 阶可逆矩阵，且 $P^{\mathrm T}=P$，$P^*$ 为 $P$ 的伴随矩阵，$A$ 为 3 阶实对称矩阵，$x$ 为三维列向量，二次型 $x^{\mathrm T}Ax$ 经变换 $x=Py$ 化为二次型 $y^{\mathrm T}By$，则 $A,B$ 的关系为\ExamSelection
+  choices:
+  - label: A
+    text: 等价、相似、且合同
+    figures: []
+  - label: B
+    text: 等价、相似、未必合同
+    figures: []
+  - label: C
+    text: 等价、合同、未必相似
+    figures: []
+  - label: D
+    text: 合同、相似、未必等价
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      甲和乙进行乒乓球比赛，假设每局比赛甲胜的概率为 $\dfrac{2}{3}$，采取三局两胜制，若最终甲获胜，则比赛共进行了三局的概率为\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{2}{5}$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{3}{5}$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{1}{2}$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{2}{3}$
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设随机变量 $X$ 的概率密度函数为 $f(x)$，期望方差均存在，其中 $D(X)=\sigma^2$，随机变量 $Y$ 的概率密度函数为 $f(-y)$，且 $X$ 与 $Y$ 的相关系数为 $\dfrac{1}{2}$，记 $Z=X+Y$，则根据切比雪夫不等式得 $P{|Z|\geq3\sigma}\leq$\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{1}{3}$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{1}{9}$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{2}{3}$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{2}{9}$
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $X$ 为来自总体 $X\sim N(\mu,\sigma^2)$（$\sigma^2$ 已知）的一个容量为 $n$ 的简单随机样本的样本均值，若已知在置信水平 $1-2\alpha$ 下的置信区间的长度为 2，则在显著性水平 $\alpha$ 下，对于假设检验问题 $H_0:\mu\geq1,H_1:\mu<1$，若检验结果拒绝 $H_0$，则应有\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\bar{x}\in(-\infty,1)$
+    figures: []
+  - label: B
+    text: |-
+      $\bar{x}\in(-\infty,-1)$
+    figures: []
+  - label: C
+    text: |-
+      $\bar{x}\in(-\infty,0)$
+    figures: []
+  - label: D
+    text: |-
+      $\bar{x}\in(0,+\infty)$
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      当 $x\to0$ 时，$x\cos x-a\tan x$ 是 $x\ln(1+bx^2)$ 的等价无穷小，则 $ab=$\ExamBlank
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $(axy+e^{y^2})\mathrm{d}x+(2x^2+bxy e^{y^2})\mathrm{d}y$ 是函数 $u(x,y)$ 的全微分，且 $u(0,0)=0$。若 $D$ 是由 $y=x^2,y=1$ 所围区域位于第一象限部分，则 $\iint_Du(x,y)\mathrm{d}\sigma=$\ExamBlank
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      函数 $f(x)=\begin{cases}\dfrac{\int_0^x\sin t^2\mathrm{d}t}{x\ln(\cos x)},&-1\leq x<0,\\0,&x=0,\\\dfrac{(1+x)^{\dfrac{1}{x}}-e}{x},&0<x\leq1\end{cases}$ 的傅里叶级数 $\dfrac{a_0}{2}+\sum_{n=1}^{\infty}(a_n\cos n\pi x+b_n\sin n\pi x)$ 在 $x=0$ 处收敛于\ExamBlank
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      微分方程 $y''-2y'-3y=e^{3x}$ 满足 $y(0)=-\dfrac{1}{36},y'(0)=0,y''(0)=\dfrac{1}{4}$ 的特解为\ExamBlank
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $\xi_1=\begin{pmatrix}1\\0\\-1\end{pmatrix},\xi_2=\begin{pmatrix}-1\\1\\0\end{pmatrix},\xi_3=\begin{pmatrix}1\\1\\2\end{pmatrix}$ 以及 $\eta_1=\begin{pmatrix}1\\0\\-1\end{pmatrix},\eta_2=\begin{pmatrix}-1\\1\\0\end{pmatrix},\eta_3=\begin{pmatrix}3\\1\\0\end{pmatrix}$ 是 $V$ 的两组基，令 $\xi_1,\xi_2,\xi_3$ 到 $\eta_1,\eta_2,\eta_3$ 的过渡矩阵为 $P$，则 $P^n=$\ExamBlank
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设某箱中有 10 个产品，其中正品的个数为 $r$（$1<r<10$）。从中任取两个产品，记 $X$ 为两个产品中正品的个数，现对 $X$ 独立观察三次，结果为 $1,2,2$，则未知参数 $r$ 的极大似然估计值 $\widehat{r}=$\ExamBlank
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: （本题满分 10 分）求二元函数 $f(x,y)=(x^2+y^2)e^{-(x^2+y^2)}$ 的极值。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      （本题满分 12 分）若函数 $f(x,y)=\begin{cases}x\arctan^2y,&x\leq\dfrac{1}{\sqrt{1+y^2}},\\\dfrac{x^2y}{\sqrt{2}x+1},&x>\dfrac{1}{\sqrt{1+y^2}}\end{cases}$，区域 $D={(x,y)\mid0\leq x\leq1,0\leq y\leq1}$，计算二重积分 $\iint_Df(x,y)\mathrm{d}\sigma$。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      （本题满分 12 分）设函数 $f(x)$ 在 $[a,b]$ 上连续，在 $(a,b)$ 内可导，$f(a)<0,f(b)<0,\int_a^bf(x)\mathrm{d}x=0$。证明：
+  subparts:
+  - text: |-
+      存在不同的 $\xi_1,\xi_2\in(a,b)$，使得 $f(\xi_1)=f(\xi_2)=0$。
+  - text: |-
+      对任意的整数 $k(k>1)$，存在 $\eta\in(a,b)$，使得 $f'(\eta)+[f(\eta)]^k=0$。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      （本题满分 12 分）设曲面 $\Sigma:y=1-2x^2-2z^2 (0\leq y\leq1)$，取右侧，计算曲面积分 $I=\iint_\Sigma(xy^2+x)\mathrm{d}y\mathrm{d}z+(y^3-z^2)\mathrm{d}z\mathrm{d}x+(zy^2-x^2)\mathrm{d}x\mathrm{d}y$。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      （本题满分 12 分）设 $A$ 为 3 阶实对称矩阵，$|A|=0$，$A$ 的迹 $\operatorname{tr}(A)=4$，且 $A$ 有一个二重特征值，$\alpha=(1,-1,1)^{\mathrm T}$ 是单特征值所对应的特征向量。
+  subparts:
+  - text: 当单特征值不等于 0 时，求 $A$ 以及 $Ax=0$ 的通解；
+  - text: 当单特征值等于 0 时，求正定矩阵 $B$，使得 $A=B^2-2E$。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      （本题满分 12 分）已知随机变量 $(X,Y)$ 在区域 $D={(x,y)\mid x^2+y^2\leq1}$ 上服从均匀分布，$Z=\begin{cases}1,&X\geq Y,\\-1,&X<Y,\end{cases}\quad T=(X^2+Y^2)Z$。
+  subparts:
+  - text: 求 $T$ 的概率密度函数 $f_T(t)$；
+  - text: |-
+      求 $\operatorname{cov}(X^2+Y^2,Z)$。

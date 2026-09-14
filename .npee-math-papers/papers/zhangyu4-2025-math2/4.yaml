@@ -1,0 +1,311 @@
+schema_version: '3.0'
+paper:
+  series_key: zhangyu4
+  year: 2025
+  subject: math2
+  paper_no: 4
+content_hash: 992ca5ac4a30cb0815e76c664b23d9e8d7c91edc87093eebc76c8ac76ae7ebd2
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知函数 $f(x)=\dfrac{\displaystyle\int_0^x\ln(1+t^2)\,\mathrm{d}t}{x^\alpha}$ 在 $(0,+\infty)$ 上有界，则 $\alpha$ 的取值范围是\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $1<\alpha\leq3$。
+    figures: []
+  - label: B
+    text: |-
+      $0<\alpha\leq3$。
+    figures: []
+  - label: C
+    text: |-
+      $-1<\alpha<3$。
+    figures: []
+  - label: D
+    text: |-
+      $\alpha>3$。
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)=\sqrt{x}$，$\xi$ 是 $f(x)$ 在 $[a,a+1]\ (a>0)$ 上使用拉格朗日中值定理得到的中值，则 $\displaystyle\lim_{a\to0^+}(\xi-a)=$\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\dfrac14$。
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac13$。
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac12$。
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac1{\sqrt2}$。
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      反常积分\textcircled{1}$\displaystyle\int_0^{+\infty}\dfrac{|\sin x|}{\sqrt{x^3}}\,\mathrm{d}x$，\textcircled{2}$\displaystyle\int_0^{+\infty}\dfrac{1}{1+\sqrt{x}|\sin x|}\,\mathrm{d}x$的敛散性为\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      \textcircled{1}收敛，\textcircled{2}收敛。
+    figures: []
+  - label: B
+    text: |-
+      \textcircled{1}收敛，\textcircled{2}发散。
+    figures: []
+  - label: C
+    text: |-
+      \textcircled{1}发散，\textcircled{2}收敛。
+    figures: []
+  - label: D
+    text: |-
+      \textcircled{1}发散，\textcircled{2}发散。
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设数列 $\{a_n\},\{b_n\}$ 满足 $a_n+b_n=\dfrac\pi2$，$a_{n+1}=a_n+\cos a_n$，其中 $n=1,2,\ldots$，$a_1=1$，当 $n\to\infty$ 时，$b_n$ 与 $b_{n-1}^a$ 为同阶无穷小量，则 $a=$\ExamSelection
+  choices:
+  - label: A
+    text: $1$。
+    figures: []
+  - label: B
+    text: $2$。
+    figures: []
+  - label: C
+    text: $3$。
+    figures: []
+  - label: D
+    text: $5$。
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $u(x,y)=f(x+y)+f(x-y)+\displaystyle\int_{x-y}^{x+y}g(t)\,\mathrm{d}t$，其中函数 $f,g$ 具有二阶导数，则\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{\partial^2u}{\partial x^2}=-\dfrac{\partial^2u}{\partial y^2}$。
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{\partial^2u}{\partial x^2}=\dfrac{\partial^2u}{\partial y^2}$。
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{\partial^2u}{\partial x\partial y}=\dfrac{\partial^2u}{\partial y^2}$。
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{\partial^2u}{\partial x\partial y}=\dfrac{\partial^2u}{\partial x^2}$。
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设连续函数 $f(x)$ 在 $0$ 到 $x(x\ne0)$ 上的平均值为 $\overline{f}(x)=\dfrac1x\displaystyle\int_0^xf(t)\,\mathrm{d}t$，有以下结论：\textcircled{1}若 $f(x)$ 是奇函数，则 $\overline{f}(x)$ 是奇函数；\textcircled{2}若 $f(x)$ 是凹函数，则 $\overline{f}(x)$ 是凸函数；\textcircled{3}若 $f(x)$ 是周期函数，则 $\overline{f}(x)$ 是周期函数。其中所有的正确结论为\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      \textcircled{1}。
+    figures: []
+  - label: B
+    text: |-
+      \textcircled{1}\textcircled{2}。
+    figures: []
+  - label: C
+    text: |-
+      \textcircled{2}\textcircled{3}。
+    figures: []
+  - label: D
+    text: |-
+      \textcircled{3}。
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知 $y=\dfrac{x}{\ln x}$ 是微分方程 $y'=\dfrac{y}{x}+f\left(\dfrac{x}{y}\right)$ 的解，则 $f(x)$ 的表达式为\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\dfrac1{x^2}$。
+    figures: []
+  - label: B
+    text: $-x^2$。
+    figures: []
+  - label: C
+    text: $x^2$。
+    figures: []
+  - label: D
+    text: |-
+      $-\dfrac1{x^2}$。
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 为 $3\times4$ 矩阵，若 $AA^{\mathsf T}$ 的特征值之和为 $6$，$AA^{\mathsf T}$ 的每行元素之和均为 $2$，$A^{\mathsf T}A-E$ 不可逆，则 $|A^{\mathsf T}A+E|=$\ExamSelection
+  choices:
+  - label: A
+    text: $6$。
+    figures: []
+  - label: B
+    text: $24$。
+    figures: []
+  - label: C
+    text: $-6$。
+    figures: []
+  - label: D
+    text: $-24$。
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $\alpha_1=\begin{pmatrix}a\\1\\1\\1\end{pmatrix},\alpha_2=\begin{pmatrix}1\\a\\1\\1\end{pmatrix},\alpha_3=\begin{pmatrix}1\\1\\1\\a\end{pmatrix},\alpha_4=\begin{pmatrix}1\\a\\a\\a\end{pmatrix}$。若向量组 $\alpha_1,\alpha_2,\alpha_3$ 可由 $\alpha_1,\alpha_2,\alpha_4$ 线性表示，则 $a$ 的取值范围是\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\{a\mid a\in\mathbb R,a\ne0\}$。
+    figures: []
+  - label: B
+    text: |-
+      $\{a\mid a\in\mathbb R,a\ne0,a\ne1\}$。
+    figures: []
+  - label: C
+    text: |-
+      $\{a\mid a\in\mathbb R,a\ne1,a\ne-1\}$。
+    figures: []
+  - label: D
+    text: |-
+      $\{a\mid a\in\mathbb R,a\ne-1\}$。
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 是秩为 $2$ 的 $2\times5$ 矩阵，$B$ 是秩为 $3$ 的 $3\times5$ 矩阵，若 $AB^{\mathsf T}=O$，则对于齐次线性方程组 $Ax=0$ 的任一非零解 $b$ 有\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $A^{\mathsf T}y=b$ 有唯一解。
+    figures: []
+  - label: B
+    text: |-
+      $A^{\mathsf T}y=b$ 有无穷多解。
+    figures: []
+  - label: C
+    text: |-
+      $B^{\mathsf T}y=b$ 有唯一解。
+    figures: []
+  - label: D
+    text: |-
+      $B^{\mathsf T}y=b$ 有无穷多解。
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      若 $\begin{cases}x=\ln t,\\y=e^{t^2},\end{cases}$ 则 $\left.\dfrac{\mathrm{d}^2y}{\mathrm{d}x^2}\right|_{t=1}=\ExamBlank$。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      以 $e^{-x},2xe^{-x},3e^x$ 为特解的三阶常系数齐次线性微分方程为 $\ExamBlank$。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      曲线 $y=\ln(1-x^2)\left(0\leq x\leq\dfrac12\right)$ 的长度为 $\ExamBlank$。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设单位面积上的人口数 $f(x)$（单位：万人/$\mathrm{km}^2$）与 $g(x)=x^2+20$ 的乘积为常数 $a(a>0)$，$x$（单位：$\mathrm{km}$）为距分布中心的距离。若距分布中心 $x=2$ 的范围内人口数为 $\ln\dfrac65$（单位：万人），则 $a=\ExamBlank$。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      函数 $f(x,y)=(x^2+2x+y^2)e^y$ 的极值点是 $\ExamBlank$。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $n$ 阶矩阵 $A$ 满足 $|A|=1$，其元素 $a_{ij}=-a_{ji}$，$i,j=1,2,\ldots,n$，$n$ 维列向量 $x=(1,1,\ldots,1)^{\mathsf T}$，则 $x^{\mathsf T}A^*x=\ExamBlank$。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      求曲线 $y=\dfrac{1+\displaystyle\int_0^xe^{t^2}\,\mathrm{d}t}{1-e^{1/x}}\ (x>0)$ 的斜渐近线。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      过点 $(0,1)$ 的曲线 $y=f(x)$ 满足 $yy'+y^2=\cos x$，求 $y=f(x)$ 与 $x=0$、$x=\dfrac\pi2$ 及 $x$ 轴所围成的平面有界区域 $D$ 绕 $x$ 轴旋转一周所得旋转体的体积。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $f(x)=\cos x+ax\ (0\leq x\leq2\pi)$ 在 $x=\dfrac54\pi$ 处取得极小值，求：
+  subparts:
+  - text: $a$ 的值。
+  - text: $f(x)$ 的最值与曲线 $y=f(x)$ 的拐点。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 $f(x,y)$ 具有二阶连续偏导数，$D=\{(x,y)\mid0\leq x\leq1,0\leq y\leq1\}$，$f(x,1)=f(1,y)=a$，$\displaystyle\iint_Df(x,y)\,\mathrm{d}x\mathrm{d}y=b$，其中 $a,b$ 为常数，计算 $\displaystyle\iint_Dxyf''_{yx}(x,y)\,\mathrm{d}x\mathrm{d}y$。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      已知可微函数 $f(u,v)$ 满足 $\dfrac{\partial f(u,v)}{\partial u}+\dfrac{\partial f(u,v)}{\partial v}=e^{\cos v}(1-u\sin v)+u$，且 $f(u,0)=ue+\dfrac{u^2}{2}$。记 $g(x,y)=f(x,x-y)$。
+  subparts:
+  - text: |-
+      计算 $\dfrac{\partial g(x,y)}{\partial x}$。
+  - text: 求 $f(x,y)$ 的表达式。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $f(x)=(\alpha^{\mathsf T}x)^2+2(\beta^{\mathsf T}x)^2$，其中 $\alpha=\left(\dfrac1{\sqrt2},0,-\dfrac1{\sqrt2}\right)^{\mathsf T}$，$\beta=\left(\dfrac1{\sqrt3},\dfrac1{\sqrt3},\dfrac1{\sqrt3}\right)^{\mathsf T}$，$x=(x_1,x_2,x_3)^{\mathsf T}$。
+  subparts:
+  - text: 求正交矩阵 $Q$，将 $f(x)$ 化为标准形。
+  - text: |-
+      求一个实对称矩阵 $P$，使 $f(x)=x^{\mathsf T}P^2x$。

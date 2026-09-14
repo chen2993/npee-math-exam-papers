@@ -1,0 +1,297 @@
+schema_version: '3.0'
+paper:
+  series_key: yubingsen5
+  year: 2024
+  subject: math2
+  paper_no: 4
+content_hash: dd406ce53b20522cc99794a094024e65d67d28e6567ff98a2129ee8cd524d70c
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $\alpha>0,\beta\ne0$，且 $\lim_{x\to+\infty}\left[(x^{2\alpha}+x^\alpha)^{1/\alpha}-x^2\right]=\beta$，则 $(\alpha,\beta)=$\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\left(1,\dfrac{1}{2}\right)$
+    figures: []
+  - label: B
+    text: |-
+      $\left(2,\dfrac{1}{2}\right)$
+    figures: []
+  - label: C
+    text: $(1,2)$
+    figures: []
+  - label: D
+    text: $(2,1)$
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x)$ 具有四阶连续的导数，且 $\lim_{x\to0}\dfrac{f(x)}{x^4}=1$，则\ExamSelection。
+  choices:
+  - label: A
+    text: 点 $(0,0)$ 为曲线 $y=f'(x)$ 的拐点，点 $x=0$ 为 $f''(x)$ 的极小值点
+    figures: []
+  - label: B
+    text: 点 $(0,0)$ 为曲线 $y=f'(x)$ 的拐点，点 $x=0$ 为 $f''(x)$ 的极大值点
+    figures: []
+  - label: C
+    text: 点 $(0,0)$ 为曲线 $y=f''(x)$ 的拐点，点 $x=0$ 为 $f'(x)$ 的极小值点
+    figures: []
+  - label: D
+    text: 点 $(0,0)$ 为曲线 $y=f''(x)$ 的拐点，点 $x=0$ 为 $f'(x)$ 的极大值点
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $a>1$，曲线 $y=\ln(1+x^2)$ 与直线 $y=ax+b$\ExamSelection。
+  choices:
+  - label: A
+    text: 没有交点
+    figures: []
+  - label: B
+    text: 交点个数为 $1$
+    figures: []
+  - label: C
+    text: 交点个数为 $2$
+    figures: []
+  - label: D
+    text: 交点个数与 $b$ 有关
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      若 $f(x),g(x)$ 在 $[0,1]$ 上满足 $f''(x)>0,g''(x)<0$，且 $f(0)=g(0)=0,f(1)=g(1)=2$，则定积分 $I_1=\int_0^1f(x)\,\mathrm{d}x,I_2=\int_0^1g(x)\,\mathrm{d}x,I_3=\int_0^1 2x\,\mathrm{d}x$ 之间的大小关系为\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $I_1\ge I_2\ge I_3$
+    figures: []
+  - label: B
+    text: |-
+      $I_3\ge I_2\ge I_1$
+    figures: []
+  - label: C
+    text: |-
+      $I_2\ge I_3\ge I_1$
+    figures: []
+  - label: D
+    text: |-
+      $I_2\ge I_1\ge I_3$
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)=\ln(\tan x+\sec x)$，$I_1=\int_{-\dfrac{\pi}{3}}^{\dfrac{\pi}{3}}f(x)\,\mathrm{d}x$，$I_2=\int_{-\dfrac{\pi}{3}}^{\dfrac{\pi}{3}}\tan x\cdot f(x)\,\mathrm{d}x$，$I_3=\int_{-\dfrac{\pi}{3}}^{\dfrac{\pi}{3}}\tan^2x\cdot f(x)\,\mathrm{d}x$，则有\ExamSelection。
+  choices:
+  - label: A
+    text: $I_1=0,I_2=0,I_3>0$
+    figures: []
+  - label: B
+    text: $I_1=0,I_2>0,I_3=0$
+    figures: []
+  - label: C
+    text: $I_1>0,I_2=0,I_3>0$
+    figures: []
+  - label: D
+    text: $I_1>0,I_2>0,I_3=0$
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      若二阶连续可微函数 $f(x,y)$ 在点 $(x_0,y_0)$ 处取得极大值，则\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $f''_{xx}(x_0,y_0)\ge0,f''_{yy}(x_0,y_0)\ge0$
+    figures: []
+  - label: B
+    text: |-
+      $f''_{xx}(x_0,y_0)\le0,f''_{yy}(x_0,y_0)\le0$
+    figures: []
+  - label: C
+    text: |-
+      $f''_{xx}(x_0,y_0)\ge0,f''_{yy}(x_0,y_0)\le0$
+    figures: []
+  - label: D
+    text: |-
+      $f''_{xx}(x_0,y_0)\le0,f''_{yy}(x_0,y_0)\ge0$
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设连续函数 $f(x)$ 满足 $\int_0^x t[f(x-t)-e^{t^2}]\,\mathrm{d}t=0$，则 $\int_0^1\mathrm{d}x\int_0^x f(x)f(y)\,\mathrm{d}y=$\ExamSelection。
+  choices:
+  - label: A
+    text: $e$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{1}{2}e$
+    figures: []
+  - label: C
+    text: $e^2$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{1}{2}e^2$
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设矩阵 $A_{m\times n},B_{m\times s},C_{n\times s}$ 满足 $AC=B$，以下命题中正确的是\ExamSelection。
+  choices:
+  - label: A
+    text: 如果矩阵 $C$ 的列向量组线性无关，则矩阵 $B$ 的列向量组一定线性无关
+    figures: []
+  - label: B
+    text: 如果矩阵 $C$ 的行向量组线性无关，则矩阵 $B$ 的行向量组一定线性无关
+    figures: []
+  - label: C
+    text: 如果矩阵 $B$ 的列向量组线性无关，则矩阵 $C$ 的列向量组一定线性无关
+    figures: []
+  - label: D
+    text: 如果矩阵 $B$ 的行向量组线性无关，则矩阵 $C$ 的行向量组一定线性无关
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设二次型 $f(x_1,x_2,\ldots,x_n)=\sum_{i=1}^{m}(a_{i1}x_1+a_{i2}x_2+\cdots+a_{in}x_n)^2$，其中 $a_{ij}\in\mathbb R$，$i=1,2,\ldots,m;j=1,2,\ldots,n$，$A=(a_{ij})_{m\times n}$，则二次型 $f$ 的秩为\ExamSelection。
+  choices:
+  - label: A
+    text: $m$
+    figures: []
+  - label: B
+    text: $n$
+    figures: []
+  - label: C
+    text: $r(A)$
+    figures: []
+  - label: D
+    text: 无法确定
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 为 $m\times n$ 型实矩阵，$r(A)=n$，则\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $AA^{\mathsf T}$ 相似于 $m$ 阶单位矩阵 $E_m$
+    figures: []
+  - label: B
+    text: |-
+      $AA^{\mathsf T}$ 合同于 $m$ 阶单位矩阵 $E_m$
+    figures: []
+  - label: C
+    text: |-
+      $A^{\mathsf T}A$ 相似于 $n$ 阶单位矩阵 $E_n$
+    figures: []
+  - label: D
+    text: |-
+      $A^{\mathsf T}A$ 合同于 $n$ 阶单位矩阵 $E_n$
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $\lim_{x\to0}\left[\dfrac{1}{\ln(1+x)}-\dfrac{1}{\ln\left(x+\sqrt{1+x^2}\right)}\right]=$ \ExamBlank。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x)$ 在点 $x=0$ 处连续，且当 $x\ne0$ 时，$f(x)=(1+2x)^{1/x}$，则曲线 $y=f(x)$ 在 $x=0$ 对应点处的切线方程为 \ExamBlank。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $y=\dfrac{x-5}{x^2-1}$，则 $y^{(2024)}(0)=$ \ExamBlank。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      若 $(x^2+y'^2)y''=2xy',y(1)=y'(1)=1$，则 $y=$ \ExamBlank。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $\begin{cases}z=xf(y-x),\\x+y+ze^z=1\end{cases}$ 确定了 $y=y(x),z=z(x)$，其中 $f$ 为可导函数，且 $f(1)=1$，则 $\left.\dfrac{\mathrm{d}y}{\mathrm{d}x}\right|_{x=0}=$ \ExamBlank。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      若齐次线性方程组 $\begin{cases}x_1+x_2+x_4=0,\\ax_1+a^2x_3=0,\\ax_2+a^2x_4=0\end{cases}$ 的解都是方程 $x_1+x_2+x_3=0$ 的解，则 $a=$ \ExamBlank。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      设函数 $y=y(x)\,(x\ge0)$ 由方程 $y^3+xy-8=0$ 确定，求曲线 $y=y(x)$ 与直线 $x=7$ 以及两个坐标轴所围成的曲边梯形绕 $x$ 轴旋转一周所得旋转体的体积 $V$。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 $f(x)$ 在 $(-\infty,+\infty)$ 上连续，且满足 $f(x)=\sin x+\int_0^x t f(x-t)\,\mathrm{d}t$。
+  subparts:
+  - text: 求 $f(x)$。
+  - text: 若 $xy'+y=f(x)$，求 $y=y(x)$ 的表达式。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: 已知函数 $z=z(x,y)$ 由方程 $x^2-xy+2y^2-x-3y+ze^z=2(e^2-1)$ 确定，求 $z=z(x,y)$ 的极值。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $y=f(x)$ 在 $[0,1]$ 上非负可导，$x_0\in(0,1)$，且在 $[0,x_0]$ 上以 $f(x_0)$ 为高的矩形面积等于函数 $f(x)$ 在 $[x_0,1]$ 上的平均值。
+  subparts:
+  - text: |-
+      证明存在点 $\xi\in(x_0,1)$，使得 $f(\xi)=x_0f(x_0)$。
+  - text: |-
+      对于（1）中的 $\xi$，存在 $\eta\in(0,1)$ 使得 $(\xi-x_0)f'(\eta)=(x_0-1)f(x_0)$。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      某容器的外表面是 $y=x^2\,(0\le y\le H)$ 绕 $y$ 轴旋转所围成的曲面，其容积为 $450\pi\,\mathrm{m}^3$，其中盛满水。如果将水全部抽出，问至少需要做多少功？
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设有向量组（Ⅰ）$\alpha_1=(1,0,1)^{\mathsf T},\alpha_2=(1,1,2)^{\mathsf T},\alpha_3=(1,2,a)^{\mathsf T}$，（Ⅱ）$\beta_1=(-1,2,1)^{\mathsf T},\beta_2=(1,0,b)^{\mathsf T}$。
+  subparts:
+  - text: 问 $a,b$ 为何值时，向量组（Ⅱ）不能由向量组（Ⅰ）线性表示？
+  - text: |-
+      设 $A=\begin{pmatrix}1&1&1\\0&1&2\\1&2&a\end{pmatrix},B=\begin{pmatrix}-1&1\\2&0\\1&b\end{pmatrix}$，问 $a,b$ 为何值时，矩阵方程 $AX=B$ 有解；有解时求出其全部解。

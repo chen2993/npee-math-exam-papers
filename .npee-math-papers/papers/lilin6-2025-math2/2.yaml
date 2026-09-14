@@ -1,0 +1,298 @@
+schema_version: '3.0'
+paper:
+  series_key: lilin6
+  year: 2025
+  subject: math2
+  paper_no: 2
+content_hash: 7875c3802f2728457b80b1cde86e43a21c0a57c9199966c8cf27e11f8ae25c7b
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)=\lim_{n\to\infty}\dfrac{2x^{2n}-1}{x^{2n}+1}\sin\dfrac{1}{x}$，则 $f(x)$ 的第一类间断点的个数为\ExamSelection
+  choices:
+  - label: A
+    text: $0$
+    figures: []
+  - label: B
+    text: $1$
+    figures: []
+  - label: C
+    text: $2$
+    figures: []
+  - label: D
+    text: $3$
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)$ 在 $[0,+\infty)$ 上有连续的导数，且 $f'(x)>0$，当 $0<a<x<b$ 时，有\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $a\int_0^x f(t)\,\mathrm{d}t<x\int_0^a f(t)\,\mathrm{d}t$
+    figures: []
+  - label: B
+    text: |-
+      $b\int_0^x f(t)\,\mathrm{d}t<x\int_0^b f(t)\,\mathrm{d}t$
+    figures: []
+  - label: C
+    text: |-
+      $x\int_0^x f(t)\,\mathrm{d}t<b\int_0^b f(t)\,\mathrm{d}t$
+    figures: []
+  - label: D
+    text: |-
+      $x\int_0^x f(t)\,\mathrm{d}t>a\int_0^a f(t)\,\mathrm{d}t$
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)=\lim_{n\to\infty}\sqrt[n]{\sin^n x+\cos^n x}$，$x\in\left[0,\dfrac{\pi}{2}\right]$，若 $F(x)$ 为 $f(x)$ 在 $\left(0,\dfrac{\pi}{2}\right)$ 内的原函数，则在 $\left(0,\dfrac{\pi}{2}\right)$ 内\ExamSelection
+  choices:
+  - label: A
+    text: $F(x)$ 连续，$f(x)$ 可导。
+    figures: []
+  - label: B
+    text: $F(x)$ 不连续，$f(x)$ 不可导。
+    figures: []
+  - label: C
+    text: $F(x)$ 可导，$f(x)$ 可导。
+    figures: []
+  - label: D
+    text: $F(x)$ 可导，$f(x)$ 不可导。
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)$ 在 $x=1$ 的某邻域内连续，且 $\lim_{x\to0}\dfrac{\ln\left[f(x+1)+e^{x^2}\right]}{x^2}=2$，则 $x=1$ 是 $f(x)$ 的\ExamSelection
+  choices:
+  - label: A
+    text: 驻点且为极大值点。
+    figures: []
+  - label: B
+    text: 驻点且为极小值点。
+    figures: []
+  - label: C
+    text: 不可导点。
+    figures: []
+  - label: D
+    text: 可导点但不是驻点。
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)=\int_{-1}^{x}\sqrt{|t|}\,|\ln|t||\,\mathrm{d}t$，则正确的是\ExamSelection
+  choices:
+  - label: A
+    text: $f'(0)$ 不存在。
+    figures: []
+  - label: B
+    text: $f'(0)$ 存在，但 $f''(0)$ 不存在。
+    figures: []
+  - label: C
+    text: $f'(x)$ 在 $x=0$ 处不连续。
+    figures: []
+  - label: D
+    text: $f'(0)$ 与 $f''(0)$ 均存在。
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x,y)$ 的全微分为 $\mathrm{d}f(x,y)=\dfrac{axy^2}{(x^2+y^2)^2}\,\mathrm{d}x+\dfrac{-4yx^b}{(x^2+y^2)^2}\,\mathrm{d}y$（$x>0\text{，}y>0$），$f(x,y)$ 有二阶连续偏导数，则 $\left.\mathrm{d}f\right|_{(1,1)}=$\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\mathrm{d}x-\mathrm{d}y$
+    figures: []
+  - label: B
+    text: |-
+      $\mathrm{d}x+\mathrm{d}y$
+    figures: []
+  - label: C
+    text: |-
+      $2\mathrm{d}x-\mathrm{d}y$
+    figures: []
+  - label: D
+    text: |-
+      $-2\mathrm{d}x-\mathrm{d}y$
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $y_1=e^{-x}$，$y_2=2x$ 是常系数齐次线性微分方程 $y'''+ay''+by'+cy=0$ 的两个解，则该方程的通解可为\ExamSelection
+  choices:
+  - label: A
+    text: $c_1e^{-x}+c_2e^x+c_3x$
+    figures: []
+  - label: B
+    text: $c_1e^x+c_2+c_3x$
+    figures: []
+  - label: C
+    text: $c_1e^{-x}+c_2e^x+c_3$
+    figures: []
+  - label: D
+    text: $c_1e^{-x}+c_2xe^x+c_3$
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $n$ 维实列向量 $\alpha$ 满足 $\alpha^{\mathrm{T}}\alpha=1$，$A$，$B$，$E$ 均为 $n$ 阶矩阵，且 $(E-2\alpha\alpha^{\mathrm{T}})A=B$，则\ExamSelection
+  choices:
+  - label: A
+    text: $B$ 的列向量组与 $A$ 的列向量组等价。
+    figures: []
+  - label: B
+    text: $B$ 的行向量组与 $A$ 的行向量组等价。
+    figures: []
+  - label: C
+    text: |-
+      $B$ 的列向量组与 $E-2\alpha\alpha^{\mathrm{T}}$ 的列向量组等价。
+    figures: []
+  - label: D
+    text: |-
+      $B$ 的行向量组与 $E-2\alpha\alpha^{\mathrm{T}}$ 的行向量组等价。
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 是 $3$ 阶矩阵，$3$ 维列向量 $\alpha$ 不是方程组 $A^2X=0$ 的解，$A\alpha$ 是方程组 $A^2X=0$ 的解，则正确的是\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\alpha$，$A\alpha$ 线性相关。
+    figures: []
+  - label: B
+    text: |-
+      $\alpha$，$A^2\alpha$ 线性相关。
+    figures: []
+  - label: C
+    text: |-
+      $A\alpha$，$A^2\alpha$ 线性相关。
+    figures: []
+  - label: D
+    text: |-
+      $A\alpha$，$A^2\alpha$ 线性无关。
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $2$ 阶实对称矩阵 $A$ 有两个不同特征值 $\lambda_1$ 与 $\lambda_2$，$\alpha$ 与 $\beta$ 是 $2$ 维非零列向量，且满足 $(\lambda_1E-A)\alpha=0$，$(\lambda_2E-A^{\mathrm{T}})\beta=0$，则 $\alpha^{\mathrm{T}}A\beta+\beta^{\mathrm{T}}A\alpha=$\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\lambda_1+\lambda_2$
+    figures: []
+  - label: B
+    text: |-
+      $\lambda_2-\lambda_1$
+    figures: []
+  - label: C
+    text: |-
+      $2(\lambda_2+\lambda_1)$
+    figures: []
+  - label: D
+    text: $0$
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $\lim_{x\to\infty}\left(\dfrac{ax^2}{1+x}-bx-1\right)=\lim_{x\to\infty}[f(x+1)-f(x)]$，$\lim_{x\to\infty}f'(x)=0$，则曲线 $y=\dfrac{ax^2}{1+x}$ 的斜渐近线方程为\ExamBlank。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      双纽线 $r^2=a^2\cos 2\theta$（$a>0$）绕极轴旋转一周所得旋转曲面的面积为\ExamBlank。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $f(x,y)$ 对任意的 $(x,y)\in\mathbb{R}^2$ 满足 $f(x,y)=e^{x+y-2}+o(\rho)$，其中 $\rho=\sqrt{(x-1)^2+(y-1)^2}$，则 $\lim_{h\to0}\dfrac{f(1+2h,1)-f(1,1-2h)}{h}=$\ExamBlank。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设由曲线 $y=\dfrac{x}{\sqrt{1+nx^2}}$（$n$ 为正整数）与 $x=1$ 及 $x$ 轴所围区域绕 $x$ 轴旋转一周所得旋转体的体积为 $V_n$，则 $\lim_{n\to\infty}nV_n=$\ExamBlank。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      积分 $\int_0^1\mathrm{d}x\int_0^{1-x}e^{(x+y)^2}\,\mathrm{d}y=$\ExamBlank。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设二次型 $f(x_1,x_2,x_3)=X^{\mathrm{T}}AX$（$A^{\mathrm{T}}=A$）在正交变换下的标准形为 $-2y_1^2+8y_2^2$，且 $E+B=AB$，其中 $B$ 为 $3$ 阶矩阵，则 $\operatorname{tr}(B^{-1}+2E)=$\ExamBlank。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      已知当 $x\to0$ 时，$a\sin x+bx^2+\ln(1-2x+x^2)$ 与 $1-e^{5x^2}$ 是等价无穷小，求 $a,b$ 的值。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: 设 $f(x)$ 满足 $f'(x)+f(x)=e^{-x}$，$f(0)=0$。
+  subparts:
+  - text: 求 $y=f(x)$ 的极值与拐点；
+  - text: 当 $0<x_1<1<x_2$ 时，有 $f(x_1)=f(x_2)$，证明：$x_1+x_2>2$。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $(x-1)^2+y^2=1$ 内切于椭圆 $\dfrac{x^2}{a^2}+\dfrac{y^2}{b^2}=1$（$a>b>0$），求 $a,b$ 的值，使得椭圆的面积最小。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $D$ 是由曲线 $x|y|+|x|+y=1$ 与 $x$ 轴所围成的有界区域，计算 $I=\iint_D[2\ln(1+y)-y+x]\,\mathrm{d}x\,\mathrm{d}y$。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $y(x)$ 在 $[0,+\infty)$ 上有二阶连续的导数，点 $P(x,y)$（$x>0$）为曲线 $y=y(x)$ 上任意一点，沿曲线从点 $(0,1)$ 到点 $P(x,y)$ 的弧长在数值上等于该曲线在点 $P(x,y)$ 处的切线的斜率，且曲线在点 $(0,1)$ 处有水平切线。
+  subparts:
+  - text: 求 $y=y(x)$ 的表达式；
+  - text: |-
+      求曲线 $y=y(x)$ 从点 $\left(\ln 2,\dfrac{5}{4}\right)$ 到点 $\left(\ln 3,\dfrac{5}{3}\right)$ 的一段弧长。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $3$ 阶矩阵 $A=(\alpha_1,\alpha_2,\alpha_3)$，且满足 $\begin{bmatrix}\alpha_1+\alpha_3\\-\alpha_1+2\alpha_2\\\alpha_2+\alpha_3\end{bmatrix}=\begin{bmatrix}1&1&0\\0&-2&-1\\1&0&-1\end{bmatrix}$。
+  subparts:
+  - text: |-
+      若 $X=(x_1,x_2,x_3)^{\mathrm{T}}$，证明：$X^{\mathrm{T}}A^2X$ 为正定二次型；
+  - text: |-
+      求可逆矩阵 $P$，使得 $P^{-1}AP=A^{\mathrm{T}}$。

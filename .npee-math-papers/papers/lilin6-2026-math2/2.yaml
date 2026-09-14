@@ -1,0 +1,307 @@
+schema_version: '3.0'
+paper:
+  series_key: lilin6
+  year: 2026
+  subject: math2
+  paper_no: 2
+content_hash: 5c4c157ce17ba4c1ab8e3679325f97f214ddaec888b3634f9209f07345e17076
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      下列各题给出的四个选项中，只有一个选项是最符合题目要求的。设 $f(x)=\lim_{n\to\infty}\dfrac{\ln(e^n+x^n)}{n}\,(x>0)$，则 $F(x)=\int_1^x f(t)\,\mathrm{d}t$ 在区间 $[1,+\infty)$ 上\ExamSelection
+  choices:
+  - label: A
+    text: 不连续。
+    figures: []
+  - label: B
+    text: 连续但不可导。
+    figures: []
+  - label: C
+    text: 可导但二阶不可导。
+    figures: []
+  - label: D
+    text: 二阶可导。
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)$ 二阶可导，$f(0)=0$，$f'(0)>0$，$F(x)=\int_0^x tf(t)\,\mathrm{d}t$，则\ExamSelection
+  choices:
+  - label: A
+    text: $x=0$ 是 $F(x)$ 的极大值点。
+    figures: []
+  - label: B
+    text: $x=0$ 是 $F(x)$ 的极小值点。
+    figures: []
+  - label: C
+    text: $(0,F(0))$ 是 $y=F(x)$ 的拐点。
+    figures: []
+  - label: D
+    text: $(0,F(0))$ 不是 $y=F(x)$ 的拐点。
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $y=x\sin x$ 在 $[0,n\pi]$ 上与 $x$ 轴所围图形的面积为 $a_n(n=1,2,\cdots)$，则 $\lim_{n\to\infty}\sum_{k=1}^n\dfrac{1}{\sqrt{a_ka_{k+1}}}=$\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{1}{\sqrt{\pi}}$。
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{1}{\pi}$。
+    figures: []
+  - label: C
+    text: |-
+      $\pi$。
+    figures: []
+  - label: D
+    text: |-
+      $\sqrt{\pi}$。
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知平面区域 $D=\{(x,y)\mid0\leq x\leq1,0\leq y\leq1\}$，$I_1=\iint_D\max\{x^2+y^2,1\}\,\mathrm{d}x\mathrm{d}y$，$I_2=\iint_D\max\{1-x^2,y^2\}\,\mathrm{d}x\mathrm{d}y$，$I_3=\iint_D|x^2+y^2-1|\,\mathrm{d}x\mathrm{d}y$，则\ExamSelection
+  choices:
+  - label: A
+    text: $I_3<I_2<I_1$。
+    figures: []
+  - label: B
+    text: $I_2<I_1<I_3$。
+    figures: []
+  - label: C
+    text: $I_1<I_2<I_3$。
+    figures: []
+  - label: D
+    text: $I_2<I_3<I_1$。
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x,y)=\begin{cases}x\sin\dfrac{1}{y}+y\sin\dfrac{1}{x},&xy\ne0,\\0,&xy=0,\end{cases}$，则正确的是\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\lim_{x\to0}\lim_{y\to0}f(x,y)=0$。
+    figures: []
+  - label: B
+    text: |-
+      $\lim_{y\to0}\lim_{x\to0}f(x,y)=0$。
+    figures: []
+  - label: C
+    text: $f'_x(0,0)$ 与 $f'_y(0,0)$ 均不存在。
+    figures: []
+  - label: D
+    text: $f(x,y)$ 在 $(0,0)$ 处连续。
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      曲线 $r=\dfrac{1}{1+\cos\theta}$ 在 $\theta\in\left[-\dfrac{\pi}{2},\dfrac{\pi}{2}\right]$ 上的全长为\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\sqrt{2}$。
+    figures: []
+  - label: B
+    text: |-
+      $\sqrt{2}+\ln(1+\sqrt{2})$。
+    figures: []
+  - label: C
+    text: $2$。
+    figures: []
+  - label: D
+    text: |-
+      $\sqrt{2}+\ln(\sqrt{2}-1)$。
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      $\lim_{n\to\infty}\sin\dfrac{\pi}{n}\sum_{k=1}^n\ln\left(1+\dfrac{k}{n}\right)=$\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\pi\ln2$。
+    figures: []
+  - label: B
+    text: |-
+      $\pi(\ln2+1)$。
+    figures: []
+  - label: C
+    text: |-
+      $\pi(2\ln2-1)$。
+    figures: []
+  - label: D
+    text: |-
+      $\pi(2\ln2+1)$。
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A=\begin{pmatrix}a_1&a_2&a_3\\b_1&b_2&b_3\\c_1&c_2&c_3\end{pmatrix}$，$B=\begin{pmatrix}b_1&b_3&b_2\\a_1&a_3&a_2\\c_1+a_1&c_3+a_3&c_2+a_2\end{pmatrix}$，则\ExamSelection
+  choices:
+  - label: A
+    text: $|A|=-|B|$。
+    figures: []
+  - label: B
+    text: $2|A|=|B|$。
+    figures: []
+  - label: C
+    text: $|A|=2|B|$。
+    figures: []
+  - label: D
+    text: $|A|=|B|$。
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A,B$ 均为 $n$ 阶矩阵，$\alpha,\beta$ 均为 $n$ 维列向量。若 $\alpha$ 可由 $A$ 的列向量线性表示，$(\alpha^{\mathrm{T}},\beta^{\mathrm{T}})$ 不能由 $(A^{\mathrm{T}},B^{\mathrm{T}})$ 的行向量线性表示，则下列结论中正确的是\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $r(B,\beta)=r(B)$。
+    figures: []
+  - label: B
+    text: |-
+      $r(B,\beta)=r(B)+1$。
+    figures: []
+  - label: C
+    text: |-
+      $r\begin{pmatrix}A^{\mathrm{T}}&B^{\mathrm{T}}\\\alpha^{\mathrm{T}}&\beta^{\mathrm{T}}\end{pmatrix}=r(A^{\mathrm{T}},B^{\mathrm{T}})+1$。
+    figures: []
+  - label: D
+    text: |-
+      $r[(A,\alpha),B^{\mathrm{T}}]=r\left[(A^{\mathrm{T}},B^{\mathrm{T}})\begin{pmatrix}A\\B\end{pmatrix}\right]$。
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A=\begin{pmatrix}1&a&-1\\1&5&1\\4&12&6\end{pmatrix}$ 与 $B=\begin{pmatrix}2&0&0\\0&2&1\\0&0&b\end{pmatrix}$ 相似，则\ExamSelection
+  choices:
+  - label: A
+    text: $a=-3,b=8$。
+    figures: []
+  - label: B
+    text: $a=3,b=8$。
+    figures: []
+  - label: C
+    text: $a=2,b=8$。
+    figures: []
+  - label: D
+    text: $a=-2,b=8$。
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设曲线 $y=ax^2$ 与 $y=\ln x$ 相切，则 $\lim_{x\to\dfrac{1}{2e}}[1+(x-a)]^{\dfrac{1}{\sin(x-a)}}=$\ExamBlank。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $\int_0^1\mathrm{d}y\int_0^{1-\sqrt{2y-y^2}}\dfrac{\mathrm{d}x}{\sqrt{2-x}}=$\ExamBlank。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设连续函数 $f(x)$ 满足 $\int_0^1f(tx)\,\mathrm{d}t=f(x)+x\sin x$，且 $f(0)=1$，则 $f(x)$ 在区间 $[0,\pi]$ 上的平均值为\ExamBlank。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)$ 可导，对任意 $x,y$，有 $f(x+y)=\int_x^{x+y}\dfrac{t(t^2+1)}{f(t)}\,\mathrm{d}t+f(x)$，且 $f(1)=\sqrt{2}$，则 $f(x)=$\ExamBlank。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设微分方程 $y''+ay'+y=0$ 的每一个解 $y(x)$ 在 $[0,+\infty)$ 上有界，则实数 $a$ 的取值范围为\ExamBlank。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 是 3 阶矩阵，$\alpha$ 为 3 维列向量，$P=(\alpha,A\alpha,A^2\alpha)$ 为可逆矩阵，$B=P^{-1}AP$，且 $A^3\alpha+2A^2\alpha=3A\alpha$，则 $\operatorname{tr}(A+B)=$\ExamBlank。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      解答应写出文字说明、证明过程或演算步骤。设 $f(x)=\dfrac{(x-a)^2}{\ln x}\,(x>0)$，其中 $0<a<1$。若 $f(x)$ 的 3 个极值点为 $x_1,x_2,x_3$，且 $x_1<x_2<x_3$。
+  subparts:
+  - text: 求 $f(x)$ 的极大值；
+  - text: |-
+      证明：$x_1+x_3>\dfrac{2}{\sqrt{e}}$。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $f(x,y)$ 有三阶连续偏导数，且满足 $\mathrm{d}f(x,y)=axy^2\,\mathrm{d}x+\left(10x^2y+\dfrac{2}{5}ay^3\right)\,\mathrm{d}y$，$f(1,1)=6$。
+  subparts:
+  - text: 求 $f(x,y)$；
+  - text: 曲线 $f(x,y)=1$ 上任一点 $(x,y)$ 到原点的距离为 $d$，求 $d$ 的最小值。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设曲线 $(x^2+y^2)^{\dfrac{3}{2}}=2\sqrt{2}xy,x\geq0,y\geq0$ 所围区域为 $D$。计算 $I=\iint_D\left(x+2\sqrt{xy}-y\right)^2\,\mathrm{d}x\mathrm{d}y$。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: 设 $f(x)$ 在 $[0,1]$ 上二阶可导，且 $f''(x)>0$。
+  subparts:
+  - text: |-
+      证明：对于区间 $(0,1)$ 内的任意不同的两点 $x_1,x_2$，有 $f[\lambda x_1+(1-\lambda)x_2]<\lambda f(x_1)+(1-\lambda)f(x_2)(0<\lambda<1)$；
+  - text: |-
+      若 $\int_0^1f(x)\,\mathrm{d}x=0$，证明：对任意 $x\in[0,1]$，有 $|f(x)|\leq\max\{f(0),f(1)\}$。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $f(x)(x\geq0)$ 满足 $(a+x)f'(x)+f(x)=a$，$f(0)=1$，其中 $a\geq\dfrac{1}{2}$ 且 $a\ne1$。
+  subparts:
+  - text: 求 $f(x)$；
+  - text: |-
+      设 $x_1>0$，$x_{n+1}=f(x_n)(n=1,2,\cdots)$，证明 $\lim_{n\to\infty}x_n$ 存在，并求其值。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $A=\begin{pmatrix}1&-1&0\\-1&1+a^2&a\\0&a&1\end{pmatrix}(a\ne0)$，$X=(x_1,x_2,x_3)^{\mathrm{T}}$。
+  subparts:
+  - text: |-
+      若对 $\forall X\ne0$，有 $X^{\mathrm{T}}(A-kE)X\leq0$，求 $k$ 的最小值；
+  - text: |-
+      求可逆线性变换 $X=CY$，将二次型 $f(x_1,x_2,x_3)=X^{\mathrm{T}}AX$ 化为 $g(y_1,y_2,y_3)=y_1^2+y_2^2+y_3^2-2y_1y_2$。

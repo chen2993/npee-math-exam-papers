@@ -1,0 +1,329 @@
+schema_version: '3.0'
+paper:
+  series_key: zhangyu8
+  year: 2025
+  subject: math2
+  paper_no: 2
+content_hash: 5f08de5d9affca210507c6c1348627975f43a3bd60cbdf707ce11ddf2806a67b
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      当 $x\to0$ 时，$a\displaystyle\int_0^{x^2}\cos t^2\,\mathrm{d}t$ 与 $\sin x-b\ln(1+x)$ 是等价无穷小，则 $(a,b)=$\ExamSelection
+  choices:
+  - label: A
+    text: $(1,2)$
+    figures: []
+  - label: B
+    text: $(-1,2)$
+    figures: []
+  - label: C
+    text: |-
+      $(\dfrac{1}{2},1)$
+    figures: []
+  - label: D
+    text: |-
+      $(-\dfrac{1}{2},1)$
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)=\displaystyle\int_0^{|\sin x|}e^{t^2}\,\mathrm{d}t,g(x)=\int_0^{|x|}\sin t^2\,\mathrm{d}t$，则在 $(-\pi,\pi)$ 内，\ExamSelection
+  choices:
+  - label: A
+    text: $f(x)$ 是可导的奇函数
+    figures: []
+  - label: B
+    text: $g(x)$ 是可导的偶函数
+    figures: []
+  - label: C
+    text: $f(x)$ 是奇函数且 $f'(0)$ 不存在
+    figures: []
+  - label: D
+    text: $g(x)$ 是偶函数且 $g'(0)$ 不存在
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      一容器内侧由图中曲线绕 $y$ 轴旋转一周而成，现以 $3\mathrm{m}^3/\mathrm{s}$ 的速率向该容器内注水，直至注满为止，则水面高度 $h(t)$ 的图形为\ExamSelection
+    figures:
+    - kind: tikz
+      latex: |-
+        \begin{tikzpicture}[scale=0.9]\draw[->](-1.7,0)--(1.8,0)node[right]{$x$};\draw[->](0,-1.5)--(0,2.6)node[above]{$y$};\draw(0,1)circle(1);\draw(0,0)circle(1);\draw[dashed](-.87,.5)--(.87,.5);\node[left]at(0,2){$2$};\node[left]at(0,1){$1$};\node[left]at(0,.5){$\dfrac12$};\node[left]at(0,-1){$-1$};\node[right]at(.85,1.75){$x^2+y^2=2y$};\node[right]at(.7,-.85){$x^2+y^2=1$};\node[below left]at(0,0){$O$};\end{tikzpicture}
+      path:
+      description: 容器母线由圆 x^2+y^2=2y 与 x^2+y^2=1 的相应圆弧组成，虚线标出 y=1
+      exception_reason:
+  choices:
+  - label: A
+    text: ''
+    figures:
+    - kind: tikz
+      latex: |-
+        \begin{tikzpicture}[x=0.7cm,y=0.55cm]\draw[->](0,0)--(4.2,0)node[right]{$t(s)$};\draw[->](0,-1.3)--(0,2.5)node[above]{$h(m)$};\draw(0.12,-1)--(-0.12,-1)node[left]{$-1$};\draw(0.12,.5)--(-0.12,.5)node[left]{$\dfrac12$};\draw(0.12,1)--(-0.12,1)node[left]{$1$};\draw(0.12,2)--(-0.12,2)node[left]{$2$};\node[below]at(3.7,0){$\dfrac43\pi$};\draw[smooth]plot coordinates{(0,-1)(.5,-.75)(1,-.2)(1.35,.35)(1.8,.55)(2.25,.65)(2.7,1.05)(3.2,1.25)(3.65,2)};\end{tikzpicture}
+      path:
+      description: 选择题图形选项
+      exception_reason:
+  - label: B
+    text: ''
+    figures:
+    - kind: tikz
+      latex: |-
+        \begin{tikzpicture}[x=0.7cm,y=0.55cm]\draw[->](0,0)--(4.2,0)node[right]{$t(s)$};\draw[->](0,-1.3)--(0,2.5)node[above]{$h(m)$};\draw(0.12,-1)--(-0.12,-1)node[left]{$-1$};\draw(0.12,.5)--(-0.12,.5)node[left]{$\dfrac12$};\draw(0.12,1)--(-0.12,1)node[left]{$1$};\draw(0.12,2)--(-0.12,2)node[left]{$2$};\node[below]at(3.7,0){$\dfrac34\pi$};\draw[smooth]plot coordinates{(0,-1)(.5,-.85)(1,-.55)(1.35,.2)(1.8,.45)(2.2,.55)(2.55,1.3)(3.05,1.75)(3.5,2)};\end{tikzpicture}
+      path:
+      description: 选择题图形选项
+      exception_reason:
+  - label: C
+    text: ''
+    figures:
+    - kind: tikz
+      latex: |-
+        \begin{tikzpicture}[x=0.7cm,y=0.55cm]\draw[->](0,0)--(4.2,0)node[right]{$t(s)$};\draw[->](0,-1.3)--(0,2.5)node[above]{$h(m)$};\draw(0.12,-1)--(-0.12,-1)node[left]{$-1$};\draw(0.12,.5)--(-0.12,.5)node[left]{$\dfrac12$};\draw(0.12,1)--(-0.12,1)node[left]{$1$};\draw(0.12,2)--(-0.12,2)node[left]{$2$};\node[below]at(3.7,0){$\dfrac43\pi$};\draw[smooth]plot coordinates{(0,-1)(.45,-.5)(1,-.15)(1.6,.15)(2,.65)(2.15,1.2)(2.55,1.55)(3.1,1.7)(3.5,2)};\end{tikzpicture}
+      path:
+      description: 选择题图形选项
+      exception_reason:
+  - label: D
+    text: ''
+    figures:
+    - kind: tikz
+      latex: |-
+        \begin{tikzpicture}[x=0.7cm,y=0.55cm]\draw[->](0,0)--(4.2,0)node[right]{$t(s)$};\draw[->](0,-1.3)--(0,2.5)node[above]{$h(m)$};\draw(0.12,-1)--(-0.12,-1)node[left]{$-1$};\draw(0.12,.5)--(-0.12,.5)node[left]{$\dfrac12$};\draw(0.12,1)--(-0.12,1)node[left]{$1$};\draw(0.12,2)--(-0.12,2)node[left]{$2$};\node[below]at(3.7,0){$\dfrac34\pi$};\draw[smooth]plot coordinates{(0,-1)(.45,-.6)(1,-.15)(1.7,.15)(2.15,.65)(2.7,.9)(3.2,1.15)(3.5,2)};\end{tikzpicture}
+      path:
+      description: 选择题图形选项
+      exception_reason:
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $b>0>a$，则\ExamSelection
+  choices:
+  - label: A
+    text: $ae^a(e^b-1)>be^b(e^a-1)$
+    figures: []
+  - label: B
+    text: $ae^a(e^b-1)<be^b(e^a-1)$
+    figures: []
+  - label: C
+    text: $be^a(e^b-1)>ae^b(e^a-1)$
+    figures: []
+  - label: D
+    text: $be^a(e^b-1)<ae^b(e^a-1)$
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $z=z(x,y)$ 由 $\begin{cases}x=ue^v,\\y=uv,\ (u>0,v>1),\\z=v\end{cases}$ 所确定，则 $\dfrac{\partial^2z}{\partial x\partial y}=$\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{xy}{z(1-z)^3}$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{xy}{z(z-1)^3}$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{z}{xy(1-z)^3}$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{z}{xy(z-1)^3}$
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $a>1,I_1=\displaystyle\int_0^ae^{-x^2}\,\mathrm{d}x,I_2=\int_0^1ae^{-x^2}\,\mathrm{d}x,I_3=\int_0^1e^{-(ax)^2}\,\mathrm{d}x$，则\ExamSelection
+  choices:
+  - label: A
+    text: $I_1>I_3>I_2$
+    figures: []
+  - label: B
+    text: $I_1>I_2>I_3$
+    figures: []
+  - label: C
+    text: $I_2>I_1>I_3$
+    figures: []
+  - label: D
+    text: $I_2>I_3>I_1$
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(t)=\displaystyle\int_t^{2t}\mathrm{d}x\int_x^te^{(x-y+1)^2}\,\mathrm{d}y$，则 $\displaystyle\lim_{t\to0^+}\dfrac{f(t)}{t^2}=$\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{e}{2}$
+    figures: []
+  - label: B
+    text: |-
+      $-\dfrac{e}{2}$
+    figures: []
+  - label: C
+    text: $2e$
+    figures: []
+  - label: D
+    text: $-2e$
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 2 阶矩阵 $\mathbf{A}$ 的特征值均为实数，则\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $[\operatorname{tr}(\mathbf{A})]^2\geq|\mathbf{A}|$
+    figures: []
+  - label: B
+    text: |-
+      $[\operatorname{tr}(\mathbf{A})]^2\leq|\mathbf{A}|$
+    figures: []
+  - label: C
+    text: |-
+      $\left[\dfrac{\operatorname{tr}(\mathbf{A})}{2}\right]^2\geq|\mathbf{A}|$
+    figures: []
+  - label: D
+    text: |-
+      $\left[\dfrac{\operatorname{tr}(\mathbf{A})}{2}\right]^2\leq|\mathbf{A}|$
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $\mathbf{A}$ 是 $n$ 阶矩阵，$\mathbf{b}$ 是 $n$ 维列向量且与 $\mathbf{A}^{\mathrm{T}}\mathbf{x}=0$ 的解均正交，则\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\mathbf{A}^{\mathrm{T}}\mathbf{x}=0$ 的解与 $\mathbf{A}$ 的行向量正交
+    figures: []
+  - label: B
+    text: |-
+      $\mathbf{A}\mathbf{x}=0$ 的解与 $\mathbf{A}$ 的列向量正交
+    figures: []
+  - label: C
+    text: |-
+      $\mathbf{A}^{\mathrm{T}}\mathbf{x}=\mathbf{b}$ 有解
+    figures: []
+  - label: D
+    text: |-
+      $\mathbf{A}\mathbf{x}=\mathbf{b}$ 有解
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $\mathbf{A}$ 为 $n$ 阶实对称矩阵，则“$|\mathbf{A}|<0$”是“存在 $n$ 维非零列向量 $\boldsymbol{\alpha}$，使得 $\boldsymbol{\alpha}^{\mathrm{T}}\mathbf{A}\boldsymbol{\alpha}<0$”的\ExamSelection
+  choices:
+  - label: A
+    text: 充分非必要条件
+    figures: []
+  - label: B
+    text: 必要非充分条件
+    figures: []
+  - label: C
+    text: 充要条件
+    figures: []
+  - label: D
+    text: 既非充分又非必要条件
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设圆与曲线 $x=y^2$ 在 $(0,0)$ 处有公切线且它们关于 $y$ 的二阶导数值相同，则该圆的方程为\ExamBlank。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $\displaystyle\int\dfrac{\sqrt{3+2x-x^2}}{(x-1)^2}\,\mathrm{d}x=$\ExamBlank。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $x=t^3+2t+1,\displaystyle\int_0^{y+1}e^{-u^2}\,\mathrm{d}u=t$，则 $\left.\dfrac{\mathrm{d}^2y}{\mathrm{d}x^2}\right|_{t=0}=$\ExamBlank。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $y=y(x)$ 满足 $y''+2y'+y=e^{-x},y(0)=y'(0)=1$，则 $\displaystyle\int_0^{+\infty}x\,\mathrm{d}y=$\ExamBlank。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      曲线 $x^{\dfrac{2}{3}}+(ay)^{\dfrac{2}{3}}=1\ (a\in\mathbf{R})$ 的全长为 $\dfrac{14}{3}$，则 $a=$\ExamBlank。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $\mathbf{A}=\begin{pmatrix}a\\b\\a\end{pmatrix},\mathbf{P}=\begin{pmatrix}2&1&0\\0&2&1\\0&0&2\end{pmatrix}$，则 $\mathbf{P}^2\mathbf{A}\mathbf{P}^{-1}=$\ExamBlank。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      求曲线 $y=x^2\left[\dfrac{\left(1+\dfrac{1}{x}\right)^x}{e}-1\right]\ (x>0)$ 的斜渐近线。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设某光滑曲线的方程为 $f(x,y)=0\ (x>0,0<y\leq a)$。若该曲线的切线、坐标轴与过切点平行于 $x$ 轴的直线所围成梯形的面积恒为 $a^2$，且 $f(a,a)=0$。求：
+  subparts:
+  - text: 曲线的表达式；
+  - text: 曲线上横坐标的最小值。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $f(x,y)$ 是可微函数，$f(0,y)$ 在 $y=0$ 处的切线方程为 $y=z$，当 $x\to0$ 时，$\displaystyle\int_0^x\mathrm{d}u\int_0^{u^2}f(t,u)\,\mathrm{d}t$ 与 $ax^b$ 为等价无穷小量，求 $a,b$ 的值。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $f(x)$ 具有一阶连续导数，$\displaystyle\iint_Df(xy)\,\mathrm{d}\sigma=\int_0^x[f'(t)-xtf(x^2-t^2)]\,\mathrm{d}t,f(0)=a>0$，其中 $D$ 是 $y=|x|^3$ 与 $y=1$ 围成的有界闭区域，求 $\displaystyle\iint_Df(xy)\,\mathrm{d}\sigma$。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $f(x)$ 在 $[0,1]$ 上具有二阶导数，$f(0)=f(1)=0,f''(x)<0,0\leq f(x)\leq1$。记曲线 $y=f(x)$ 在 $[0,1]$ 上的长度为 $a$，证明：
+  subparts:
+  - text: |-
+      存在 $\xi\in(0,1)$，使得对任意 $x\in(0,\xi)$，有 $f'(x)>0$；
+  - text: $a<3$。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设二次型 $f(x_1,x_2)=x_1^2-4x_1x_2+4x_2^2$，$g(x_1,x_2)$ 的二次型矩阵为 $\mathbf{B}=\begin{pmatrix}1&-1\\-1&2\end{pmatrix}$。
+  subparts:
+  - text: |-
+      是否存在可逆矩阵 $\mathbf{D}$，使 $\mathbf{B}=\mathbf{D}^{\mathrm{T}}\mathbf{D}$？若存在，求出矩阵 $\mathbf{D}$，若不存在，请说明理由；
+  - text: |-
+      求 $\displaystyle\max_{\mathbf{x}\neq0}\dfrac{f(\mathbf{x})}{g(\mathbf{x})}$，其中 $\mathbf{x}=\begin{pmatrix}x_1\\x_2\end{pmatrix}$。

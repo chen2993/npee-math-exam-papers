@@ -1,0 +1,317 @@
+schema_version: '3.0'
+paper:
+  series_key: lilin6
+  year: 2026
+  subject: math1
+  paper_no: 4
+content_hash: 54d2f33ed2341fc7172cf4e0d018a61fc15e11c7a087b7e708f5948a371f0f63
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      一、选择题：1～10小题，每小题5分，共50分。下列每题给出的四个选项中，只有一个选项是最符合题目要求的。设 $\lim_{x\to+\infty}\dfrac{1}{x^b}\int_0^{x^2}\sqrt{1+t^4}\,\mathrm{d}t=a\ne0$，则\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $a=6,b=\dfrac{1}{3}$。
+    figures: []
+  - label: B
+    text: |-
+      $a=\dfrac{1}{3},b=6$。
+    figures: []
+  - label: C
+    text: |-
+      $a=-\dfrac{1}{3},b=-6$。
+    figures: []
+  - label: D
+    text: |-
+      $a=-6,b=-\dfrac{1}{3}$。
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知方程 $\int_1^x\dfrac{\ln t}{1+t}\,\mathrm{d}t+\int_1^{1/x}\dfrac{\ln t}{1+t}\,\mathrm{d}t=a(x>0)$ 有实根，则 $a$ 的取值范围为\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $(0,+\infty)$。
+    figures: []
+  - label: B
+    text: |-
+      $[0,+\infty)$。
+    figures: []
+  - label: C
+    text: $(0,1)$。
+    figures: []
+  - label: D
+    text: |-
+      $[1,+\infty)$。
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设可微函数 $f(x,y)$ 满足 $\dfrac{\partial f(x,y)}{\partial x}+f(x,y)=0$，且 $f(0,y)=1+y^2$，则 $\left.df\right|_{(0,1)}=$\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\mathrm{d}x-\mathrm{d}y$。
+    figures: []
+  - label: B
+    text: |-
+      $-2\mathrm{d}x+2\mathrm{d}y$。
+    figures: []
+  - label: C
+    text: |-
+      $2\mathrm{d}x-2\mathrm{d}y$。
+    figures: []
+  - label: D
+    text: |-
+      $2\mathrm{d}x+2\mathrm{d}y$。
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      下列级数中条件收敛的是\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\sum_{n=1}^{\infty}(-1)^n\left[\dfrac{1}{n\sqrt{n}}+\dfrac{1}{(n+1)^2}\right]$。
+    figures: []
+  - label: B
+    text: |-
+      $\sum_{n=1}^{\infty}(-1)^n\left[\dfrac{1}{\sqrt{n}}+\dfrac{(-1)^n}{n}\right]$。
+    figures: []
+  - label: C
+    text: |-
+      $\sum_{n=1}^{\infty}\dfrac{(-1)^n\sqrt{n}}{(n+1)\sqrt{n+2}}\sin\dfrac{1}{\sqrt{n}}$。
+    figures: []
+  - label: D
+    text: |-
+      $\sum_{n=1}^{\infty}\dfrac{(-1)^{n-1}}{n\ln(1+n)}$。
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 是 $m\times s$ 矩阵，$B$ 是 $s\times n$ 矩阵，则方程组 $ABX=0$ 与 $BX=0$ 同解的充分必要条件是\ExamSelection
+  choices:
+  - label: A
+    text: $r(A)=s$。
+    figures: []
+  - label: B
+    text: $r(AB)=r(B)$。
+    figures: []
+  - label: C
+    text: $r(A)=r(B)$。
+    figures: []
+  - label: D
+    text: $r(A)=m$。
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A=\begin{pmatrix}-1&1\\1&1\end{pmatrix}$，非零实列向量 $\alpha=(a,b)^\mathrm{T}$，$X=(x_1,x_2,x_3)^\mathrm{T}$，则二次型 $f(x_1,x_2,x_3)=X^\mathrm{T}\begin{pmatrix}A+\alpha\alpha^\mathrm{T}&\alpha\\\alpha^\mathrm{T}&1\end{pmatrix}X$ 的规范形为\ExamSelection
+  choices:
+  - label: A
+    text: $y_1^2+y_2^2+y_3^2$。
+    figures: []
+  - label: B
+    text: $-y_1^2-y_2^2-y_3^2$。
+    figures: []
+  - label: C
+    text: $y_1^2+y_2^2-y_3^2$。
+    figures: []
+  - label: D
+    text: $y_1^2-y_2^2-y_3^2$。
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      若实矩阵 $A$ 与 $B$ 合同，则下列命题一定成立的个数为 ① $\lvert A\rvert\lvert B\rvert\ge0$；② $A$ 与 $B$ 等价；③ $A$ 的行向量组与 $B$ 的行向量组等价；④ 若 $B$ 可相似对角化，则 $A$ 也可相似对角化\ExamSelection。
+  choices:
+  - label: A
+    text: $1$。
+    figures: []
+  - label: B
+    text: $2$。
+    figures: []
+  - label: C
+    text: $3$。
+    figures: []
+  - label: D
+    text: $4$。
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A_1,A_2,B$ 是随机事件，$0<P(B)<1$，且 $P[(A_1+A_2)\mid B]=P(A_1\mid B)+P(A_2\mid B)$，则\ExamSelection
+  choices:
+  - label: A
+    text: $P(A_1+A_2)=P(A_1)+P(A_2)$。
+    figures: []
+  - label: B
+    text: |-
+      $P(A_1+A_2)=P(A_1\mid B)+P(A_2\mid B)$。
+    figures: []
+  - label: C
+    text: $P(A_1B+A_2B)=P(A_1B)+P(A_2B)$。
+    figures: []
+  - label: D
+    text: |-
+      $P[(A_1+A_2)\mid\overline{B}]=P(A_1\mid\overline{B})+P(A_2\mid\overline{B})$。
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设随机变量 $X$ 在 $(0,1)$ 内服从均匀分布，则 $P\{1\le X^{\ln X}\le e\}=$\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{1}{e}$。
+    figures: []
+  - label: B
+    text: |-
+      $1-\dfrac{1}{e}$。
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{1}{\sqrt{e}}$。
+    figures: []
+  - label: D
+    text: |-
+      $1-\dfrac{1}{\sqrt{e}}$。
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $X_1,X_2,\cdots,X_n$ 为来自总体 $X$ 的简单随机样本，$X$ 服从参数 $\lambda=1$ 的泊松分布，$\Phi(x)$ 为 $N(0,1)$ 的分布函数，则 $\lim_{n\to\infty}P\left\{\sum_{k=1}^nX_k\le n\right\}=$\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\Phi(0)$。
+    figures: []
+  - label: B
+    text: |-
+      $\Phi\left(\dfrac{1}{2}\right)$。
+    figures: []
+  - label: C
+    text: |-
+      $\Phi(1)$。
+    figures: []
+  - label: D
+    text: |-
+      $\Phi(\sqrt{2})$。
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      二、填空题：11～16小题，每小题5分，共30分。设 $a_n=\left(\dfrac{n+2}{3n-2}\cdot\dfrac{n+4}{3n-4}\cdot\cdots\cdot\dfrac{n+2n}{3n-2n}\right)^{\dfrac{1}{n}}$，则 $\lim_{n\to\infty}a_n=\ExamBlank$。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)$ 连续，$\lim_{x\to0}\dfrac{\ln[f(x+1)+e^{x^2}]}{x}=1$，则 $\lim_{x\to0}\dfrac{f[(1+\tan x)^2]-f(1+\tan x)}{x}=\ExamBlank$。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $\sum_{k=1}^{\infty}\int_k^{k+1}\dfrac{\arctan x}{x^2}\,\mathrm{d}x=\ExamBlank$。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $\sum_{n=1}^{\infty}\dfrac{2n-1}{2^{2n-1}}$ 的和为 $\ExamBlank$。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $A,B$ 均为3阶矩阵，$A$ 的特征值为 $0,\dfrac{1}{2},\dfrac{1}{3}$，且 $B(E-A)=A$，其中 $E$ 为3阶单位矩阵，则 $\operatorname{tr}(A+B)=\ExamBlank$。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设总体 $X$ 与总体 $Y$ 相互独立，且都服从 $N(0,\sigma^2)(\sigma>0)$，$X_1,X_2,\cdots,X_n$ 与 $Y_1,Y_2,\cdots,Y_m$ 分别为来自总体 $X$ 与 $Y$ 的简单随机样本，若 $T=\dfrac{2\sum_{i=1}^nX_i}{\sqrt{\sum_{i=1}^mY_i^2}}$ 服从 $t$ 分布，则 $\dfrac{n}{m}=\ExamBlank$。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      三、解答题：17～22小题，共70分。解答应写出文字说明、证明过程或演算步骤。设 $M(x,y)$ 是曲线 $y=f(x)(y>0)$ 上任一点，曲线在点 $M$ 处的切线交 $y$ 轴于点 $P$，若 $\lvert MP\rvert=\lvert PO\rvert$，其中 $O$ 为坐标原点，且曲线过点 $(4,3)$。求 $y=f(x)$ 的表达式，并求 $f(x)$ 的极值。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $f(x)=\dfrac{(x-a)^2}{\ln x}(x>0)(0<a<1)$，若 $f(x)$ 的3个极值点为 $x_1,x_2,x_3$，且 $x_1<x_2<x_3$。
+  subparts:
+  - text: 求 $f(x)$ 的极大值；
+  - text: |-
+      证明：$x_1+x_3>\dfrac{2}{\sqrt{e}}$。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设曲面 $z=1+x^2+y^2$ 上点 $P_0(x_0,y_0,z_0)$ 处的切平面为 $\Pi$，$\Pi$ 与 $z=x^2+y^2$ 的交线为 $L$，从 $z$ 轴正向看 $L$ 是逆时针方向，切平面 $\Pi$ 与 $z=x^2+y^2$ 所围立体为 $\Omega$。
+  subparts:
+  - text: |-
+      计算 $I=\oint_L y\,\mathrm{d}x-x\,\mathrm{d}y+(z-x^2-y^2)\,\mathrm{d}z$；
+  - text: |-
+      求 $\Omega$ 的体积。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $f(x)$ 有连续导数，$f(x)$ 不恒为零，且 $\int_0^1 f(x)\,\mathrm{d}x=0$，记 $M=\max_{x\in[0,1]}\lvert f'(x)\rvert$。
+  subparts:
+  - text: |-
+      证明：对于 $\forall x\in[0,1]$，有 $\lvert f(x)\rvert\le\dfrac{1}{2}M$；
+  - text: |-
+      设 $D=\{(x,y)\mid0\le x\le1,0\le y\le x\}$，证明：$\left\lvert\iint_D f(y)\,\mathrm{d}x\,\mathrm{d}y\right\rvert\le\dfrac{1}{8}M$。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: 设二次型 $f(x_1,x_2,x_3)=2(x_1^2+x_2^2+x_3^2)+2a(x_1x_2+x_1x_3+x_2x_3)$，$a$ 为正整数。
+  subparts:
+  - text: 求正交变换 $X=QY$，将 $f(x_1,x_2,x_3)$ 化为标准形；
+  - text: |-
+      若存在可逆矩阵 $P$，对任意 $X=(x_1,x_2,x_3)^\mathrm{T}$，有 $f(x_1,x_2,x_3)=\lVert PX\rVert^2$，求 $a$ 的值及 $P$。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设随机变量 $X$ 与 $Y$ 相互独立，且服从同一分布 $N\left(\mu,\dfrac{\sigma^2}{2}\right)$，其中 $\sigma(\sigma>0)$ 是未知参数，记 $Z=X-Y$。
+  subparts:
+  - text: |-
+      若 $Z_1,Z_2,\cdots,Z_{2n}(n\ge2)$ 是总体 $Z$ 的简单随机样本，求 $\sigma^2$ 的最大似然估计量 $\hat{\sigma}^2$；
+  - text: |-
+      记 $U=\sum_{i=1}^{n+1}Z_i,V=\sum_{i=n}^{2n}Z_i$，利用（I）的 $\hat{\sigma}^2$，求相关系数 $\rho_{UV}$。

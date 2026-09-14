@@ -1,0 +1,15 @@
+{
+  "inline": [
+    "设 $x=\\dfrac{1}{2}$。",
+    "$\\begin{cases}a+b\\exp\\left(-\\dfrac{x^2}{2}\\right),&x>0,\\\\0,&x\\leq 0,\\end{cases}$",
+    "$\\begin{array}{c|ccc}X&0&1&2\\\\\\hline P&p&1-p&0\\end{array}$",
+    "$\\begin{vmatrix}a&b\\\\\\vdots&\\vdots\\\\c&d\\end{vmatrix}$",
+    "$\\begin{pmatrix}\\lambda&0\\\\0&\\lambda\\end{pmatrix}$",
+    "$f(x)=\\dfrac{1}{1+x}$，$x\\in(0,1)$。",
+    "$\\lim_{n\\to\\infty}\\dfrac{1}{n}=0$",
+    "$\\left.\\dfrac{\\mathrm{d}y}{\\mathrm{d}x}\\right|_{x=0}=1$",
+    "表面积 $m/s^2$ 与 $x^{2}$ 的关系。",
+    "$F(x)=\\begin{cases}0,&x<0,\\\\\\Phi(x),&x\\geq0,\\end{cases}$"
+  ],
+  "body": "% Generated body fragment; do not edit by hand.\n\\ExamSection{选择题}\n\n\\begin{ExamChoiceQuestion}[id=p001-q1,points=5,show-points=false]\n设 $f(x)=x^2$，则 $f'(1)=$\\ExamSelection。\n\\ExamChoices{$0$}{$1$}{$2$}{$3$}\n\\end{ExamChoiceQuestion}\n\n\\ExamSectionContinue{填空题}\n\n\\begin{ExamFillQuestion}[id=p001-q11,points=5,show-points=false]\n$\\displaystyle\\int_0^1\\dfrac{x}{1+x^2}\\,\\mathrm{d}x=$ \\ExamBlank。\n\\end{ExamFillQuestion}\n\n\\ExamSectionContinue{解答题}\n\n\\begin{ExamSolutionQuestion}[id=p001-q19]{12}\n（本题满分 12 分）证明 $\\lim\\limits_{n\\to\\infty}x_n$ 存在。\n\\ExamSubpart{p001-q19-s1}（I）证明 $\\{x_n\\}$ 单调有界；\n\\ExamSubpart{p001-q19-s2}（II）求该极限。\n\\end{ExamSolutionQuestion}\n"
+}

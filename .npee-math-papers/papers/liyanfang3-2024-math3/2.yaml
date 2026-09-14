@@ -1,0 +1,319 @@
+schema_version: '3.0'
+paper:
+  series_key: liyanfang3
+  year: 2024
+  subject: math3
+  paper_no: 2
+content_hash: 1b51b0298018e3b1a78c20d2bdb2d2b4aa565094953dfa8e31a765cb8ddff180
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      下列每题给出的四个选项中，只有一个选项是最符合题目要求的。设当 $\Delta x\to 0$ 时，$\alpha$ 是 $\Delta x$ 的高阶无穷小，正值函数 $y(x)$ 在 $[1,+\infty)$ 上有定义，且在任意点 $x$ 处的增量 $\Delta y=\dfrac{x^2+y^2}{xy}\Delta x+\alpha$，$y(1)=1$，则 $y(e)=$\ExamSelection。
+  choices:
+  - label: A
+    text: $1$
+    figures: []
+  - label: B
+    text: $e$
+    figures: []
+  - label: C
+    text: |-
+      $\sqrt{2}e$
+    figures: []
+  - label: D
+    text: |-
+      $\sqrt{3}e$
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      幂级数 $\sum_{n=1}^{\infty}\left[\ln\left(1+\dfrac{1}{n}\right)\right]^{n^2}x^n$ 的收敛区间为 $\ExamSelection$。
+  choices:
+  - label: A
+    text: |-
+      $\left(-\dfrac{1}{e},\dfrac{1}{e}\right)$
+    figures: []
+  - label: B
+    text: $(-1,1)$
+    figures: []
+  - label: C
+    text: $(-e,e)$
+    figures: []
+  - label: D
+    text: |-
+      $(-\infty,+\infty)$
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      下列反常积分中，发散的是 $\ExamSelection$。
+  choices:
+  - label: A
+    text: |-
+      $\int_0^1\dfrac{1}{\sqrt{x}}\sin^2\dfrac{1}{\sqrt{x}}\,\mathrm{d}x$
+    figures: []
+  - label: B
+    text: |-
+      $\int_0^1\dfrac{1-x^2}{(1-\sqrt{x})^2}\,\mathrm{d}x$
+    figures: []
+  - label: C
+    text: |-
+      $\int_0^1\ln\sin\sqrt{x}\,\mathrm{d}x$
+    figures: []
+  - label: D
+    text: |-
+      $\int_0^1\dfrac{\arccos\sqrt{x}}{1-x^3}\,\mathrm{d}x$
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设数列 $\{x_n\}$ 和 $\{y_n\}$ 满足 $\begin{cases}x_1=1,\\y_1=0\end{cases}$ 和 $\begin{cases}x_{n+1}=\dfrac{1}{2}x_n+ay_n,\\y_{n+1}=ax_n-\dfrac{1}{2}y_n\end{cases}$，则下列 $a$ 的取值中，能使得 $\lim_{n\to\infty}(|x_n|+|y_n|)=0$ 的个数为 $\ExamSelection$。① $-1$；② $-\dfrac{1}{2}$；③ $\dfrac{2}{3}$；④ $1$。
+  choices:
+  - label: A
+    text: $1$
+    figures: []
+  - label: B
+    text: $2$
+    figures: []
+  - label: C
+    text: $3$
+    figures: []
+  - label: D
+    text: $4$
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $n\geq 3$，且为奇数，$n$ 阶非零矩阵 $A$ 满足 $A=A^*$，则下列说法中，正确的是 $\ExamSelection$。
+  choices:
+  - label: A
+    text: $A=A^{-1}$
+    figures: []
+  - label: B
+    text: $A=A^2$
+    figures: []
+  - label: C
+    text: |-
+      $A^{\mathrm T}=A^*$
+    figures: []
+  - label: D
+    text: $|A|=-1$
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设矩阵 $A=\begin{pmatrix}2&0&a\\0&1&0\\b&a&0\end{pmatrix}$ 只有一个线性无关的特征向量 $\begin{pmatrix}b\\0\\a\end{pmatrix}$，则 $\ExamSelection$。
+  choices:
+  - label: A
+    text: $a=1,b=1$
+    figures: []
+  - label: B
+    text: $a=1,b=-1$
+    figures: []
+  - label: C
+    text: $a=-1,b=1$
+    figures: []
+  - label: D
+    text: $a=-1,b=-1$
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设矩阵 $A=\begin{pmatrix}1&1&1&1\\a&b&c&d\\a^2&b^2&c^2&d^2\end{pmatrix}$，其中 $a,b,c,d$ 互不相同，$M_i(i=1,2,3,4)$ 为 $A$ 删掉第 $i$ 列后所得 3 阶矩阵的行列式，$b=(1,a,a^2)^{\mathrm T}$。若 $\xi_1,\xi_2$ 是 $Ax=b$ 的两个不同的解，则 $\ExamSelection$。
+  choices:
+  - label: A
+    text: |-
+      存在非零常数 $k$，使得 $\xi_1-\xi_2=k(M_1,M_2,M_3,M_4)^{\mathrm T}$
+    figures: []
+  - label: B
+    text: |-
+      存在非零常数 $k$，使得 $\xi_1-\xi_2=k(-M_1,M_2,-M_3,M_4)^{\mathrm T}$
+    figures: []
+  - label: C
+    text: |-
+      存在非零常数 $k$，使得 $\xi_1+\xi_2=k(-M_1,-M_2,M_3,M_4)^{\mathrm T}+(2,0,0,0)^{\mathrm T}$
+    figures: []
+  - label: D
+    text: |-
+      存在非零常数 $k$，使得 $\xi_1+\xi_2=k(-M_1,M_2,-M_3,M_4)^{\mathrm T}+(1,0,0,0)^{\mathrm T}$
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      将 S,T,A,T,I,S,T,I,C,S 等十个字母随机地排成一行，记恰好排成 $\mathrm{STATISTICS}$ 的概率为 $p_1$，从这十个字母中随机抽取六个排成一行，记恰好排成 $\mathrm{STATIC}$ 的概率为 $p_2$，则 $\dfrac{p_1}{p_2}$ 等于 $\ExamSelection$。
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{1}{3}$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{1}{6}$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{1}{12}$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{1}{24}$
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设总体 $X\sim N(0,\sigma^2)$，$X_1,X_2,\cdots,X_n(n\geq 2)$ 为来自总体 $X$ 的简单随机样本，$\varepsilon_\alpha$ 与 $\delta_\alpha$ 满足 $\alpha=P\left\{|X|\geq\varepsilon_\alpha\right\}=P\left\{\left|\dfrac{1}{n}\sum_{i=1}^{n}X_i\right|\geq\delta_\alpha\right\}$，则 $\ExamSelection$。
+  choices:
+  - label: A
+    text: |-
+      $\varepsilon_\alpha=\sqrt{n}\delta_\alpha$
+    figures: []
+  - label: B
+    text: |-
+      $\sqrt{n}\varepsilon_\alpha=\delta_\alpha$
+    figures: []
+  - label: C
+    text: |-
+      $\varepsilon_\alpha=n\delta_\alpha$
+    figures: []
+  - label: D
+    text: |-
+      $n\varepsilon_\alpha=\delta_\alpha$
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设总体 $X$ 的分布律为 $P\left\{X=(-1)^n n+p\right\}=\dfrac{1}{n(n+1)}$，$n=1,2,\cdots$，其中 $p$ 为未知参数，$X_1,X_2,\cdots,X_n$ 为来自总体 $X$ 的简单随机样本，$\overline{X}$ 为样本均值，则 $p$ 的矩估计量 $\hat{p}=$ $\ExamSelection$。
+  choices:
+  - label: A
+    text: |-
+      $\overline{X}-\ln 2$
+    figures: []
+  - label: B
+    text: |-
+      $\overline{X}+\ln 2$
+    figures: []
+  - label: C
+    text: |-
+      $\overline{X}-\ln 2+1$
+    figures: []
+  - label: D
+    text: |-
+      $\overline{X}+\ln 2-1$
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设函数 $y=y(x)$ 由 $\begin{cases}x=\int_0^t f(u^2)\,\mathrm{d}u,\\y=[f(t)]^2\end{cases}$ 确定，其中 $f(t)$ 具有二阶导数，满足 $f(1)=f'(1)=f''(1)\ne 0$，则 $\left.\dfrac{\mathrm{d}^2y}{\mathrm{d}x^2}\right|_{t=1}=$ \ExamBlank。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      微分方程 $(1+y)\,\mathrm{d}x+[x-\ln(1+y)]\,\mathrm{d}y=0$ 满足条件 $y(-1)=0$ 的解为 $y=$ \ExamBlank。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x)=e^{\dfrac{\sin x}{2}}\sqrt{1+\left|\tan x\sec x\right|}$，区域 $D$ 由曲线 $y=f(x)$、直线 $x=\dfrac{\pi}{3}$ 以及两坐标轴围成，则区域 $D$ 绕 $x$ 轴旋转一周所得旋转体的体积为 \ExamBlank。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $\lim_{n\to\infty}\sum_{i=1}^{n}\sum_{j=-i}^{i}\dfrac{n(n+j)}{(n^2+i^2)(n^2+j^2)}=$ \ExamBlank。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $\boldsymbol{\alpha}=(1,2,1)^{\mathrm T},\boldsymbol{\beta}=(t,0,1)^{\mathrm T}$，$E$ 为 3 阶单位矩阵，则 $f(x_1,x_2,x_3)=x^{\mathrm T}(E+\boldsymbol{\alpha}\boldsymbol{\alpha}^{\mathrm T}+\boldsymbol{\alpha}\boldsymbol{\beta}^{\mathrm T})x$ 为正定二次型且仅当 $t$ 的取值范围是 \ExamBlank。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $X_1,X_2,\cdots,X_{100}$ 为来自总体 $X$ 的简单随机样本，总体 $X$ 的分布律为。已知利用中心极限定理可得 $P\left\{\sum_{i=1}^{100}X_i\leq 150\right\}$ 的近似值为 $\Phi(10\sqrt{2})$，其中 $\Phi(x)$ 表示标准正态分布的分布函数，则 $p=$ \ExamBlank。
+    figures:
+    - kind: tikz
+      latex: |-
+        \begin{tikzpicture}[baseline=(current bounding box.center)]\draw (0,0) rectangle (5.3,2);\draw (1.4,0) -- (1.4,2);\draw (3.1,0) -- (3.1,2);\draw (4.2,0) -- (4.2,2);\draw (0,1) -- (5.3,1);\node at (0.7,1.5) {$X$};\node at (2.25,1.5) {$0$};\node at (3.65,1.5) {$1$};\node at (4.75,1.5) {$2$};\node at (0.7,0.5) {$P$};\node at (2.25,0.5) {$1-\dfrac{3p}{2}$};\node at (3.65,0.5) {$p$};\node at (4.75,0.5) {$\dfrac{p}{2}$};\end{tikzpicture}
+      path:
+      description: 总体 X 的分布律表格
+      exception_reason:
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      解答应写出文字说明、证明过程或演算步骤。设 $\lim_{x\to 0}\dfrac{a x-\dfrac{\tan x}{\cos bx}}{a\tan x-\dfrac{x}{1+b x^2}}=-1$，其中 $a,b$ 为参数，且 $b\ne 0$，求 $a,b$。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 $f(x)=\begin{cases}x,&-1\leq x\leq 1,\\0,&\text{其他},\end{cases}$，而 $D$ 表示全平面，计算二重积分 $I=\iint_D f(x)f(\sqrt{y}-x)\,\mathrm{d}x\,\mathrm{d}y$。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      已知函数 $f(u,v)$ 可微，$g(x,y)=f(x+y,x-y)$，$\dfrac{\partial g(x,y)}{\partial x}=2x^2+2y^2-8x$，$\dfrac{\partial g(x,y)}{\partial y}=4xy$，且 $f(0,0)=1$。
+  subparts:
+  - text: 求 $f(u,v)$；
+  - text: 求 $f(u,v)$ 的极值。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 $f(s,x)=\int_x^s\dfrac{t^n}{1+t^n}\,\mathrm{d}t$，函数 $F_n(x)=\int_0^x\dfrac{s^{n-2}}{n-2}f(s,x)\,\mathrm{d}s$（$x\geq 0,n\geq 3$）。当 $x\to 0^+$ 时，$k_n$ 满足 $x^{k_n}$ 是 $F_n(x)$ 的同阶无穷小，记 $a_n=\lim_{x\to 0^+}\dfrac{F_n(x)}{x^{k_n}}$。
+  subparts:
+  - text: |-
+      证明：$a_n=-\dfrac{1}{4}\left[\dfrac{1}{(n-2)(n-1)}-\dfrac{1}{(n-1)n}\right]$；
+  - text: |-
+      求 $\displaystyle\sum_{n=3}^{\infty}a_n$。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 3 阶实对称矩阵 $A$ 只有两个不同的特征值，$|A|=-4$，$\operatorname{tr}(A)>0$，向量 $(2,0,1)^{\mathrm T}$ 为方程组 $(A^2-E)x=0$ 的一个解，其中 $E$ 为 3 阶单位矩阵。
+  subparts:
+  - text: 求 $A$ 的全部特征值；
+  - text: |-
+      求 $A^n\begin{pmatrix}-3\\1\\1\end{pmatrix}$。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $0<\theta<1$，随机变量 $X$ 服从 $[0,\theta]$ 上的均匀分布，随机变量 $Y$ 服从 $[\theta,1]$ 上的均匀分布，$X$ 与 $Y$ 相互独立。令 $Z=Y-X$。
+  subparts:
+  - text: |-
+      若当 $\theta=\theta_0$ 时，$D(Z)$ 最小，求 $\theta_0$，并求此时 $Z$ 的概率密度；
+  - text: |-
+      在第（I）问的基础上，求 $\operatorname{Cov}(Z,Z^2)$。

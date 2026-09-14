@@ -1,0 +1,312 @@
+schema_version: '3.0'
+paper:
+  series_key: chaoyue10
+  year: 2025
+  subject: math2
+  paper_no: 5
+content_hash: 7896cc881912a9e32ae648bea25669bdb6a79218f913c313bc4eecb12b5f25cb
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      函数 $y=y(x)$ 由方程 $|x|y+e^y=e$ 确定，则下列关于点 $x=0$ 说法正确的是\ExamSelection。
+  choices:
+  - label: A
+    text: 不可导点，$y(0)$ 是极大值
+    figures: []
+  - label: B
+    text: 不可导点，$y(0)$ 不是极值
+    figures: []
+  - label: C
+    text: 可导点，$y(0)$ 不是极值
+    figures: []
+  - label: D
+    text: 可导点，$y(0)$ 是极大值
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      下列说法错误的是\ExamSelection。
+  choices:
+  - label: A
+    text: 若 $F(x)$ 在 $[-a,a]$ 上可导，且 $F'(x)$ 为奇函数，则 $F(x)$ 一定是偶函数
+    figures: []
+  - label: B
+    text: 若 $F(x)$ 在 $[-a,a]$ 上可导，且 $F'(x)$ 为偶函数，$F(0)=0$，则 $F(x)$ 一定是奇函数
+    figures: []
+  - label: C
+    text: |-
+      若 $F(x)$ 在 $(-\infty,+\infty)$ 内可导，且 $F'(x)$ 是以 $T$ 为周期的函数，$F(T)=0$，则 $F(x)$ 一定是周期函数
+    figures: []
+  - label: D
+    text: 若 $F(x)$ 在 $(a,b)$ 内可导，且 $F'(x)$ 有界，则 $F(x)$ 在 $(a,b)$ 内一定有界
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x)=\sin x\cdot\int_0^x\dfrac{t^{2023}}{1+t}\,\mathrm{d}t$，则 $f^{(2024)}(0)=$\ExamSelection。
+  choices:
+  - label: A
+    text: $2024!$
+    figures: []
+  - label: B
+    text: $2025!$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{2025!}{2024}$
+    figures: []
+  - label: D
+    text: $0$
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      函数 $y=\int_0^x\dfrac{\left(\dfrac{\pi}{2}-t\right)^{\dfrac{1}{3}}}{1-\sin^3t}\,\mathrm{d}t$ 的定义域为\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\left(-\dfrac{3\pi}{2},\dfrac{5\pi}{2}\right)$
+    figures: []
+  - label: B
+    text: |-
+      $\left(-\dfrac{\pi}{2},\dfrac{3\pi}{2}\right)$
+    figures: []
+  - label: C
+    text: |-
+      $\left(-\dfrac{3\pi}{2},\dfrac{\pi}{2}\right)$
+    figures: []
+  - label: D
+    text: |-
+      $x\ne 2k\pi+\dfrac{\pi}{2},\ k=0,\pm1,\pm2,\cdots$
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $u=f(xyz)$，$f(0)=0$，$f'(1)=1$，且 $\dfrac{\partial^3u}{\partial x\partial y\partial z}=x^2y^2z^2f'''(xyz)$，则 $f(8)=$\ExamSelection。
+  choices:
+  - label: A
+    text: $2$
+    figures: []
+  - label: B
+    text: $4$
+    figures: []
+  - label: C
+    text: $6$
+    figures: []
+  - label: D
+    text: $8$
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      若二重积分 $\iint_D(x+y-1)\,\mathrm{d}x\mathrm{d}y>0$，则积分区域 $D$ 的图示应为\ExamSelection。
+  choices:
+  - label: A
+    text: ''
+    figures:
+    - kind: tikz
+      latex: |-
+        \begin{tikzpicture}[scale=0.75]\draw[->] (-0.15,0)--(1.35,0) node[right] {$x$};\draw[->] (0,-0.15)--(0,1.35) node[above] {$y$};\fill[gray!30] (0,0)--(0,1)--(1,1)--cycle;\draw (0,0)--(1,1) node[right] {$y=x$};\draw (0,1)--(1,1);\node at (0.32,0.72) {$D$};\end{tikzpicture}
+      path:
+      description: 选择题图形选项
+      exception_reason:
+  - label: B
+    text: ''
+    figures:
+    - kind: tikz
+      latex: |-
+        \begin{tikzpicture}[scale=0.75]\draw[->] (-0.15,0)--(1.35,0) node[right] {$x$};\draw[->] (0,-0.15)--(0,1.35) node[above] {$y$};\fill[gray!30] (0,0)--(0,1)--(1,0)--cycle;\draw (0,1)--(1,0);\node at (0.3,0.3) {$D$};\end{tikzpicture}
+      path:
+      description: 选择题图形选项
+      exception_reason:
+  - label: C
+    text: ''
+    figures:
+    - kind: tikz
+      latex: |-
+        \begin{tikzpicture}[scale=0.75]\draw[->] (-0.15,0)--(1.35,0) node[right] {$x$};\draw[->] (0,-0.15)--(0,1.35) node[above] {$y$};\fill[gray!30] (0,0)--(1,0)--(1,1)--cycle;\draw (0,0)--(1,1) node[above left] {$y=x$};\draw (1,0)--(1,1);\node at (0.72,0.32) {$D$};\end{tikzpicture}
+      path:
+      description: 选择题图形选项
+      exception_reason:
+  - label: D
+    text: ''
+    figures:
+    - kind: tikz
+      latex: |-
+        \begin{tikzpicture}[scale=0.75]\draw[->] (-0.15,0)--(1.35,0) node[right] {$x$};\draw[->] (0,-0.15)--(0,1.35) node[above] {$y$};\fill[gray!30] (0,1)--(1,1)--(1,0)--cycle;\draw (0,1)--(1,0);\draw (0,1)--(1,1)--(1,0);\node at (0.7,0.7) {$D$};\end{tikzpicture}
+      path:
+      description: 选择题图形选项
+      exception_reason:
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $\lim_{x\to0}\left(e^x+\dfrac{ax^2+bx}{1-x}\right)^{\dfrac{1}{x^2}}=1$，则\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $a=\dfrac12,b=1$
+    figures: []
+  - label: B
+    text: |-
+      $a=\dfrac12,b=-1$
+    figures: []
+  - label: C
+    text: |-
+      $a=-\dfrac12,b=1$
+    figures: []
+  - label: D
+    text: |-
+      $a=-\dfrac12,b=-1$
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 3 阶行列式 $|A|$ 中各列元素之和为 2，第一行元素的代数余子式之和 $A_{11}+A_{12}+A_{13}=2$，$A^*$、$A^{-1}$ 分别为 $A$ 的伴随矩阵和逆矩阵，则 $|A^*-2A^{-1}|=$\ExamSelection。
+  choices:
+  - label: A
+    text: $0$
+    figures: []
+  - label: B
+    text: $1$
+    figures: []
+  - label: C
+    text: $2$
+    figures: []
+  - label: D
+    text: $4$
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $\alpha_1,\alpha_2,\cdots,\alpha_s$ 为线性无关的 $n$ 维列向量组，$A$ 为 $n$ 阶矩阵，向量组 $A\alpha_1,A\alpha_2,\cdots,A\alpha_s$ 线性相关是 $r(A)<n$ 的\ExamSelection。
+  choices:
+  - label: A
+    text: 充分必要条件
+    figures: []
+  - label: B
+    text: 充分非必要条件
+    figures: []
+  - label: C
+    text: 必要非充分条件
+    figures: []
+  - label: D
+    text: 非充分非必要条件
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      二次型 $f(x_1,x_2,x_3)=(x_1+x_2-x_3)(x_1+2x_2+3x_3)$ 的规范型为\ExamSelection。
+  choices:
+  - label: A
+    text: $y_1^2+y_2^2$
+    figures: []
+  - label: B
+    text: $y_1^2-y_2^2$
+    figures: []
+  - label: C
+    text: $y_1^2-y_2^2+y_3^2$
+    figures: []
+  - label: D
+    text: $y_1^2+y_2^2+y_3^2$
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      极限 $\lim_{n\to\infty}\left(\dfrac{1}{\sqrt{n^2+1^2+1}}+\dfrac{1}{\sqrt{n^2+2^2+2}}+\cdots+\dfrac{1}{\sqrt{n^2+n^2+n}}\right)=$\ExamBlank。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      积分 $\int_{-1}^1\arctan(e^x)\,\mathrm{d}x=$\ExamBlank。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)=\int_0^1|t(t-x)|e^{t^2}\,\mathrm{d}t\ (0<x<1)$，若 $f(x_0)$ 是 $f(x)$ 的极值，则曲线 $y=f(x)$ 在点 $(x_0,f(x_0))$ 处的曲率为\ExamBlank。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      微分方程 $y'-y=\max\{x,1\}$ 满足 $y(0)=1$ 的特解为\ExamBlank。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设函数 $z=z(x,y)$ 满足 $\dfrac{\partial z}{\partial x}=-\sin y+\dfrac{1}{1-xy}$，且 $z(1,y)=\sin y$，则 $z(x,y)=$\ExamBlank。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $A=\begin{pmatrix}1&2&1&1\\2&1&3&1\\3&0&5&a\end{pmatrix}$，$\beta=\begin{pmatrix}1\\3\\1\end{pmatrix}$，$\beta$ 不能由 $A$ 的列向量线性表示，则 $A^{\mathrm T}Ax=0$ 的通解为\ExamBlank。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      设函数 $f(x)$ 在 $(0,+\infty)$ 内有连续二阶导数。令 $g(x)=x^2f(x)$ 且 $\lim_{x\to+\infty}g''(x)=1$，求 $\lim_{x\to+\infty}f(x)$ 和 $\lim_{x\to+\infty}xf'(x)$。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 $f(x)$ 和 $g(x)$ 可微且满足条件 $f'(x)=\dfrac12g(x)$，$g'(x)=\dfrac12f(x)$，$f(0)=0$，$g(x)\ne0$。
+  subparts:
+  - text: |-
+      求 $y=\dfrac{f(x)}{g(x)}$ 的表达式；
+  - text: |-
+      求曲线 $y=\dfrac{f(x)}{g(x)}$ 当 $x\geq0$ 时绕直线 $y=1$ 旋转一周所生成立体的体积。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      已知函数 $z=z(x,y)$ 在上半平面 $D=\{(x,y)\mid y>0\}$ 上可微，证明 $z=z(x,y)$ 满足方程 $y\dfrac{\partial z}{\partial x}+x\dfrac{\partial z}{\partial y}=0$ 的充要条件是 $z(x,y)=f(x^2-y^2)$，其中 $f$ 是可导函数。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      计算二重积分 $I=\int_0^2\mathrm{d}x\int_0^3\dfrac{1}{[1+\max\{3x,2y\}]^2}\,\mathrm{d}y$。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $a>0$，函数 $f(x)$ 在 $[0,a]$ 上可导，$f(0)=0$，$0<f'(x)<\dfrac12$。证明 $\left(\int_0^af(x)\,\mathrm{d}x\right)^{\dfrac32}\geq\dfrac32\int_0^af^2(x)\,\mathrm{d}x$。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 3 阶实对称矩阵 $A$ 有两个不同特征值，且 $A\begin{pmatrix}1\\0\\1\end{pmatrix}=\begin{pmatrix}-1\\0\\-1\end{pmatrix}$，$A$ 与 $B=\begin{pmatrix}a&1&1\\0&b&0\\0&0&2\end{pmatrix}\ (a\leq b)$ 相似。
+  subparts:
+  - text: 求 $a,b$；
+  - text: 求可逆矩阵 $P$，使得 $P^{-1}AP=B$。

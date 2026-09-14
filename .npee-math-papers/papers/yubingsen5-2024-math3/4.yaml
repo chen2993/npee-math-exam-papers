@@ -1,0 +1,304 @@
+schema_version: '3.0'
+paper:
+  series_key: yubingsen5
+  year: 2024
+  subject: math3
+  paper_no: 4
+content_hash: 3c345d49437ea946e5d688aae08fe6e189a21a9435651cde9e117c89c2f12c64
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $\alpha>0,\beta\ne 0$，且 $\lim_{x\to+\infty}\left[\left(x^{2\alpha}+x^\alpha\right)^{\dfrac{1}{\alpha}}-x^2\right]=\beta$，则 $(\alpha,\beta)=$\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\left(1,\dfrac{1}{2}\right)$
+    figures: []
+  - label: B
+    text: |-
+      $\left(2,\dfrac{1}{2}\right)$
+    figures: []
+  - label: C
+    text: $(1,2)$
+    figures: []
+  - label: D
+    text: $(2,1)$
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x)$ 具有四阶连续的导数，且 $\lim_{x\to0}\dfrac{f(x)}{x^4}=1$，则\ExamSelection。
+  choices:
+  - label: A
+    text: 点 $(0,0)$ 为曲线 $y=f'(x)$ 的拐点，点 $x=0$ 为 $f''(x)$ 的极小值点
+    figures: []
+  - label: B
+    text: 点 $(0,0)$ 为曲线 $y=f'(x)$ 的拐点，点 $x=0$ 为 $f''(x)$ 的极大值点
+    figures: []
+  - label: C
+    text: 点 $(0,0)$ 为曲线 $y=f''(x)$ 的拐点，点 $x=0$ 为 $f'(x)$ 的极小值点
+    figures: []
+  - label: D
+    text: 点 $(0,0)$ 为曲线 $y=f''(x)$ 的拐点，点 $x=0$ 为 $f'(x)$ 的极大值点
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $a>1$，曲线 $y=\ln(1+x^2)$ 与直线 $y=ax+b$\ExamSelection。
+  choices:
+  - label: A
+    text: 没有交点
+    figures: []
+  - label: B
+    text: 交点个数为 $1$
+    figures: []
+  - label: C
+    text: 交点个数为 $2$
+    figures: []
+  - label: D
+    text: 交点个数与 $b$ 有关
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设连续函数 $f(x)$ 满足 $\int_0^x t\left[f(x-t)-e^{t^2}\right]\,\mathrm{d}t=0$，则 $\int_0^1\mathrm{d}x\int_0^x f(x)f(y)\,\mathrm{d}y=$\ExamSelection。
+  choices:
+  - label: A
+    text: $e$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{1}{2}e$
+    figures: []
+  - label: C
+    text: $e^2$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{1}{2}e^2$
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设矩阵 $A_{m\times n},B_{m\times s},C_{n\times s}$ 满足 $AC=B$，以下命题中正确的是\ExamSelection。
+  choices:
+  - label: A
+    text: 如果矩阵 $C$ 的列向量组线性无关，则矩阵 $B$ 的列向量组一定线性无关
+    figures: []
+  - label: B
+    text: 如果矩阵 $C$ 的行向量组线性无关，则矩阵 $B$ 的行向量组一定线性无关
+    figures: []
+  - label: C
+    text: 如果矩阵 $B$ 的列向量组线性无关，则矩阵 $C$ 的列向量组一定线性无关
+    figures: []
+  - label: D
+    text: 如果矩阵 $B$ 的行向量组线性无关，则矩阵 $C$ 的行向量组一定线性无关
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设二次型 $f(x_1,x_2,\cdots,x_n)=\sum_{i=1}^m(a_{i1}x_1+a_{i2}x_2+\cdots+a_{in}x_n)^2$，其中 $a_{ij}\in\mathbf{R},i=1,2,\cdots,m;j=1,2,\cdots,n$，$A=(a_{ij})_{m\times n}$，则二次型 $f$ 的秩为\ExamSelection。
+  choices:
+  - label: A
+    text: $m$
+    figures: []
+  - label: B
+    text: $n$
+    figures: []
+  - label: C
+    text: $r(A)$
+    figures: []
+  - label: D
+    text: 无法确定
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 为 $m\times n$ 型实矩阵，$r(A)=n$，则\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $AA^{\mathrm{T}}$ 相似于 $m$ 阶单位矩阵 $E_m$
+    figures: []
+  - label: B
+    text: |-
+      $AA^{\mathrm{T}}$ 合同于 $m$ 阶单位矩阵 $E_m$
+    figures: []
+  - label: C
+    text: |-
+      $A^{\mathrm{T}}A$ 相似于 $n$ 阶单位矩阵 $E_n$
+    figures: []
+  - label: D
+    text: |-
+      $A^{\mathrm{T}}A$ 合同于 $n$ 阶单位矩阵 $E_n$
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设随机变量 $X\sim B(1,0.5),Y\sim B(1,0.5),P\{X+Y=1\}\ne0$，则 $P\{X=1\mid X+Y=1\}=$\ExamSelection。
+  choices:
+  - label: A
+    text: $0$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{1}{4}$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{1}{2}$
+    figures: []
+  - label: D
+    text: $1$
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设随机变量 $X\sim N(0,1)$，$\Phi(x)$ 为 $X$ 的分布函数，$Y=\begin{cases}0,&X<0,\\1,&X\geq0,\end{cases}$ 则 $Z=XY$ 的分布函数为\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $F_Z(z)=\Phi(z)$
+    figures: []
+  - label: B
+    text: |-
+      $F_Z(z)=\begin{cases}0,&z<0,\\1,&z\geq0,\end{cases}$
+    figures: []
+  - label: C
+    text: |-
+      $F_Z(z)=\begin{cases}0,&z<0,\\\Phi(z),&z\geq0,\end{cases}$
+    figures: []
+  - label: D
+    text: |-
+      $F_Z(z)=\begin{cases}0.5\Phi(z),&z<0,\\0.5+0.5\Phi(z),&z\geq0.\end{cases}$
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      某人打靶环数 $N$ 有三种结果：$A_1:8<N\leq10,A_2:5<N\leq8,A_3:0\leq N\leq5$，且三种结果发生的概率分别为 $\dfrac{1}{2},\dfrac{1}{3},\dfrac{1}{6}$，独立重复打靶 $3$ 次，$X$ 表示 $3$ 次打靶中结果 $A_1$ 发生的次数，$Y$ 表示 $3$ 次打靶中结果 $A_2$ 发生的次数，则 $X$ 与 $Y$ 的相关系数为\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $-\dfrac{2}{3}$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{\sqrt{2}}{2}$
+    figures: []
+  - label: C
+    text: |-
+      $-\dfrac{\sqrt{2}}{2}$
+    figures: []
+  - label: D
+    text: |-
+      $-\dfrac{1}{2}$
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $\lim_{x\to0}\left[\dfrac{1}{\ln(1+x)}-\dfrac{1}{\ln\left(x+\sqrt{1+x^2}\right)}\right]=$\ExamBlank。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $y=\dfrac{x-5}{x^2-1}$，则 $y^{(2024)}(0)=$\ExamBlank。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设函数 $y=y(x)$ 是方程 $y''+6y'+9y=0$ 满足 $y(0)=0,y'(0)=1$ 的解，则 $\int_0^{+\infty}y(x)\,\mathrm{d}x=$\ExamBlank。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $\begin{cases}z=xf(y-x),\\x+y+ze^z=1\end{cases}$ 确定了 $y=y(x),z=z(x)$，其中 $f$ 为可导函数，且 $f(1)=1$，则 $\left.\dfrac{\mathrm{d}y}{\mathrm{d}x}\right|_{x=0}=$\ExamBlank。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      若齐次线性方程组 $\begin{cases}x_1+x_2+x_4=0,\\ax_1+a^2x_3=0,\\ax_2+a^2x_4=0\end{cases}$ 的解都是方程 $x_1+x_2+x_3=0$ 的解，则 $a=$\ExamBlank。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设总体 $X\sim N(0,1)$，$X_1,X_2,\cdots,X_n$ 是来自总体 $X$ 的简单随机样本（其中 $n\geq2$），$\overline{X}$ 为样本均值，$S^2$ 为样本方差，则 $D(\overline{X}S^2)=$\ExamBlank。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      设函数 $y(x)(x\geq0)$ 由方程 $y^3+xy-8=0$ 确定，求曲线 $y=y(x)$ 与直线 $x=7$ 以及两个坐标轴所围曲边梯形绕 $x$ 轴旋转一周所得旋转体的体积 $V$。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 $f(x)$ 在 $(-\infty,+\infty)$ 上连续，且满足 $f(x)=\sin x+\int_0^x t\cdot f(x-t)\,\mathrm{d}t$，
+  subparts:
+  - text: 求 $f(x)$；
+  - text: |-
+      讨论 $\sum_{n=1}^{\infty}(-1)^n f\left(\dfrac{1}{n}\right)$ 的敛散性。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: 已知函数 $z=z(x,y)$ 由方程 $x^2-xy+2y^2-x-3y+ze^z=2(e^2-1)$ 确定，求 $z=z(x,y)$ 的极值。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $y=f(x)$ 在 $[0,1]$ 上非负可导，$x_0\in(0,1)$，且在 $[0,x_0]$ 上以 $f(x_0)$ 为高的矩形面积等于函数 $f(x)$ 在 $[x_0,1]$ 上的平均值。试证明：
+  subparts:
+  - text: |-
+      存在点 $\xi\in(x_0,1)$，使得 $f(\xi)=x_0f(x_0)$；
+  - text: |-
+      对于（1）中的 $\xi$，存在 $\eta\in(0,1)$ 使得 $(\xi-x_0)f'(\eta)=(x_0-1)f(x_0)$。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设有向量组（I）$\alpha_1=\begin{pmatrix}1\\0\\1\end{pmatrix},\alpha_2=\begin{pmatrix}1\\1\\2\end{pmatrix},\alpha_3=\begin{pmatrix}1\\2\\a\end{pmatrix}$，（II）$\beta_1=\begin{pmatrix}-1\\2\\1\end{pmatrix},\beta_2=\begin{pmatrix}1\\0\\b\end{pmatrix}$。
+  subparts:
+  - text: 问 $a,b$ 为何值时，向量组（II）不能由向量组（I）线性表示？
+  - text: |-
+      设 $A=\begin{pmatrix}1&1&1\\0&1&2\\1&2&a\end{pmatrix},B=\begin{pmatrix}-1&1\\2&0\\1&b\end{pmatrix}$，问 $a,b$ 为何值时，矩阵方程 $AX=B$ 有解，有解时，求出其全部解。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: 设 $(X,Y)$ 在 $D:0<x<1,0<y<x^2$ 内服从均匀分布。
+  subparts:
+  - text: |-
+      求 $P\left\{Y<\dfrac{1}{6}\mid X=\dfrac{1}{2}\right\}$；
+  - text: |-
+      令 $U=X,V=\dfrac{Y}{X^2}$，求 $(U,V)$ 的密度函数 $f_{UV}(u,v)$，并问 $U$ 和 $V$ 是否相互独立？

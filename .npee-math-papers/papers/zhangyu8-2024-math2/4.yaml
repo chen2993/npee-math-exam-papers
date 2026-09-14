@@ -1,0 +1,294 @@
+schema_version: '3.0'
+paper:
+  series_key: zhangyu8
+  year: 2024
+  subject: math2
+  paper_no: 4
+content_hash: 4049080345ab221f4cf6d37afe85104376768ae93c7ecd6a6cdae747010aaa77
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      函数 $f(x)=\dfrac{(e^{1/x}-1)|x|}{(x+1)\ln|x-1|}$ 的第一类间断点的个数为\ExamSelection
+  choices:
+  - label: A
+    text: $0$
+    figures: []
+  - label: B
+    text: $1$
+    figures: []
+  - label: C
+    text: $2$
+    figures: []
+  - label: D
+    text: $3$
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x)=\sqrt{\dfrac{1+x}{1-x}}$ 在 $x=0$ 处的 $2$ 次泰勒多项式为 $a+bx+cx^2$，则\ExamSelection
+  choices:
+  - label: A
+    text: $a=1,b=1,c=1$
+    figures: []
+  - label: B
+    text: |-
+      $a=1,b=1,c=\dfrac{1}{2}$
+    figures: []
+  - label: C
+    text: |-
+      $a=0,b=-1,c=\dfrac{1}{2}$
+    figures: []
+  - label: D
+    text: $a=0,b=-1,c=1$
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x)=ae^x-bx\,(a>0)$ 有两个零点，则 $\dfrac{b}{a}$ 的取值范围是\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\left(0,\dfrac{1}{e}\right)$
+    figures: []
+  - label: B
+    text: $(0,e)$
+    figures: []
+  - label: C
+    text: |-
+      $\left(\dfrac{1}{e},+\infty\right)$
+    figures: []
+  - label: D
+    text: |-
+      $(e,+\infty)$
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)$ 是 $(0,+\infty)$ 内的正值连续函数，且 $f'(x)<0$，$g(x)=\int_1^x f(t)\,\mathrm{d}t$，则 $g\left(\dfrac{1}{2}\right)$ 和 $g\left(\dfrac{3}{2}\right)$ 的可能取值是\ExamSelection
+  choices:
+  - label: A
+    text: $-2,1$
+    figures: []
+  - label: B
+    text: $-2,3$
+    figures: []
+  - label: C
+    text: $2,-1$
+    figures: []
+  - label: D
+    text: $2,-3$
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知 $\int_0^2\dfrac{1}{|\ln x|^a}\,\mathrm{d}x$ 收敛，$a$ 为常数，则\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $1<a\leq 2$
+    figures: []
+  - label: B
+    text: $a<1$
+    figures: []
+  - label: C
+    text: |-
+      $1\leq a<2$
+    figures: []
+  - label: D
+    text: $a>2$
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $I_1=\int_1^x\dfrac{2}{1+t^2}\,\mathrm{d}t$，$I_2=\int_1^x\dfrac{\ln t}{t-1}\,\mathrm{d}t$，$I_3=\int_1^x\dfrac{1}{\sqrt{t}}\,\mathrm{d}t$，且 $x>1$，则\ExamSelection
+  choices:
+  - label: A
+    text: $I_1<I_2<I_3$
+    figures: []
+  - label: B
+    text: $I_1<I_3<I_2$
+    figures: []
+  - label: C
+    text: $I_2<I_3<I_1$
+    figures: []
+  - label: D
+    text: $I_3<I_1<I_2$
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x,y)$ 在有界闭区域 $D$ 上连续，在 $D$ 内有一阶偏导数。若 $f(x,y)$ 在 $D$ 的边界 $\partial D$ 上的值均为 $0$，且 $\dfrac{\partial f(x,y)}{\partial x}+\dfrac{\partial f(x,y)}{\partial y}=f(x,y)$，则 $f(x,y)$\ExamSelection
+  choices:
+  - label: A
+    text: 在 $D$ 内有正的最大值
+    figures: []
+  - label: B
+    text: 在 $D$ 内有负的最小值
+    figures: []
+  - label: C
+    text: |-
+      只在 $D$ 的边界 $\partial D$ 上取到最大值
+    figures: []
+  - label: D
+    text: |-
+      在 $D$ 的边界 $\partial D$ 上可以取到最小值
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 为 $2$ 阶方阵，$\boldsymbol{\alpha}$ 为 $2$ 维非零列向量，且 $\boldsymbol{\alpha}$ 不是 $A$ 的特征向量，$P=(\boldsymbol{\alpha},A\boldsymbol{\alpha})$，$A^2\boldsymbol{\alpha}+A\boldsymbol{\alpha}-2\boldsymbol{\alpha}=\boldsymbol{0}$，若矩阵 $B$ 满足 $AP=PB$，则 $B=$\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\begin{pmatrix}-1&0\\1&2\end{pmatrix}$
+    figures: []
+  - label: B
+    text: |-
+      $\begin{pmatrix}0&1\\2&-1\end{pmatrix}$
+    figures: []
+  - label: C
+    text: |-
+      $\begin{pmatrix}-1&1\\0&2\end{pmatrix}$
+    figures: []
+  - label: D
+    text: |-
+      $\begin{pmatrix}0&2\\1&-1\end{pmatrix}$
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知向量组 $\boldsymbol{\alpha}_1=(1,2,-3)^{\mathrm{T}}$，$\boldsymbol{\alpha}_2=(3,0,-3)^{\mathrm{T}}$，$\boldsymbol{\alpha}_3=(9,6,-15)^{\mathrm{T}}$ 与向量组 $\boldsymbol{\beta}_1=(0,1,-1)^{\mathrm{T}}$，$\boldsymbol{\beta}_2=(3,a,1)^{\mathrm{T}}$，$\boldsymbol{\beta}_3=(1,1,b)^{\mathrm{T}}$ 等价，则 $a,b$ 的值分别为\ExamSelection
+  choices:
+  - label: A
+    text: $a=-4,b=2$
+    figures: []
+  - label: B
+    text: $a=4,b=-2$
+    figures: []
+  - label: C
+    text: $a=-4,b=-2$
+    figures: []
+  - label: D
+    text: $a=4,b=2$
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A=\begin{pmatrix}-3&0&0\\0&-1&2\\0&2&2\end{pmatrix}$，$B=\begin{pmatrix}0&3&0\\3&0&0\\0&0&k\end{pmatrix}$，若 $A$ 与 $B$ 合同但不相似，则常数 $k$ 的取值范围为\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $k>0$ 且 $k\neq 2$
+    figures: []
+  - label: B
+    text: |-
+      $k>0$ 且 $k\neq 3$
+    figures: []
+  - label: C
+    text: |-
+      $k<0$ 且 $k\neq-2$
+    figures: []
+  - label: D
+    text: |-
+      $k<0$ 且 $k\neq-3$
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设存在 $0<\theta<1$，使得 $\arcsin x=\dfrac{x}{\sqrt{1-(\theta x)^2}}$，$-1\leq x\leq 1$，则 $\lim_{x\to 0}\theta=$\ExamBlank。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $\int_{-1}^1\mathrm{d}x\int_{x^2}^{\sqrt{2-x^2}}(x+1)y\,\mathrm{d}y=$\ExamBlank。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $\int_1^e\cos(\ln x)\,\mathrm{d}x=$\ExamBlank。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $y=y(x)$ 满足 $y'+2(\ln x+1)y=0$，$y(1)=1$，则 $y(x)$ 在 $(0,1]$ 上的最大值为\ExamBlank。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      曲线 $r=e^\theta$ 从 $\theta=0$ 到 $\theta=1$ 的弧长为\ExamBlank。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      二次型 $f(x_1,x_2,x_3)=\sum_{1\leq i\leq j\leq 3}|i-j|x_ix_j$ 的规范形为\ExamBlank。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      设 $f(x)$ 是非负连续函数，且 $\lim_{x\to a}\dfrac{f^2(x)-a}{x^2-a^2}=1\,(a>0)$，求 $f'(a)$。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $f(x)=x\cdot a^x(1-a)$，$x>0$。
+  subparts:
+  - text: 当 $0<a<1$ 时，求 $f(x)$ 的最大值；
+  - text: |-
+      当 $x>0$，$0<y<1$ 时，证明 $xy^x(1-y)<\dfrac{1}{e}$。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      已知曲线 $L:y=e^{-x}\,(x\geq 0)$，设 $P$ 是 $L$ 上的动点，$V$ 是 $L$ 上从点 $A(0,1)$ 到点 $P$ 的一段弧绕 $x$ 轴旋转一周所得的旋转体体积，当 $P$ 运动到点 $\left(1,\dfrac{1}{e}\right)$ 时，沿 $x$ 轴正向的速度为 $1$，求此时 $V$ 关于时间 $t$ 的变化率。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设平面区域 $D=\{(x,y)\mid (x-1)^2+y^2\geq 1,(x-2)^2+y^2\leq 4,y\geq x\}$，计算 $\iint_D(x^2+y^2)\,\mathrm{d}\sigma$。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      已知 $f(x)$ 可导，且 $|f'(x)|\leq\dfrac{1}{e}$，方程 $f(x)=x$ 有唯一解 $x=0$，又 $x_{n+1}=f(x_n)$，$n=1,2,\cdots$。证明：当 $n\to\infty$ 时，$x_n$ 是 $e^{-n/2}$ 的高阶无穷小。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      若矩阵 $A$ 的伴随矩阵 $A^*=\begin{pmatrix}3&2&-2\\0&-1&0\\a&2&-3\end{pmatrix}$ 相似于矩阵 $B=\begin{pmatrix}-1&0&0\\-2&1&0\\0&0&-1\end{pmatrix}$，其中 $|A|>0$。
+  subparts:
+  - text: 求 $a$ 的值；
+  - text: 求 $A^{99}$。

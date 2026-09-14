@@ -1,0 +1,300 @@
+schema_version: '3.0'
+paper:
+  series_key: zhangyu8
+  year: 2025
+  subject: math3
+  paper_no: 8
+content_hash: 49db884aa5d7609432fda9b950f49029760d7c41b16966d0e0e6fd40986c5801
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      $f(x)=\dfrac{|\ln |x||}{x^2-1}$ 有\ExamSelection
+  choices:
+  - label: A
+    text: 两个跳跃间断点，一个无穷间断点。
+    figures: []
+  - label: B
+    text: 两个可去间断点，一个无穷间断点。
+    figures: []
+  - label: C
+    text: 一个可去间断点，一个跳跃间断点，一个无穷间断点。
+    figures: []
+  - label: D
+    text: 三个无穷间断点。
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x),g(x)$ 为连续函数，以下结论：\NPEEQuestionContinuation （1）若 $\lim_{x\to 0}\dfrac{f(x)}{g(x)}=1$，则 $f(x)$ 是 $g(x)$ 在 $x\to 0$ 时的等价无穷小；\NPEEQuestionContinuation （2）若 $f(x)$ 是 $g(x)$ 在 $x\to 0$ 时的等价无穷小，则 $\lim_{x\to 0}\dfrac{f(x)}{g(x)}=1$；\NPEEQuestionContinuation （3）若 $f(n)$ 是 $g(n)$ 在 $n\to\infty$ 时的等价无穷小，则 $\sum_{n=1}^{\infty}f(n)$ 与 $\sum_{n=1}^{\infty}g(n)$ 同敛散；\NPEEQuestionContinuation （4）若 $\sum_{n=1}^{\infty}f(n)$ 与 $\sum_{n=1}^{\infty}g(n)$ 同敛散，则 $f(n)$ 是 $g(n)$ 在 $n\to\infty$ 时的等价无穷小。\NPEEQuestionContinuation 正确结论的个数为\ExamSelection
+  choices:
+  - label: A
+    text: $1$。
+    figures: []
+  - label: B
+    text: $2$。
+    figures: []
+  - label: C
+    text: $3$。
+    figures: []
+  - label: D
+    text: $4$。
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知函数 $z=u(x,y)e^{ax+by}$，且 $u(x,y)=f(x)+g(y)$，其中 $f(x),g(y)$ 具有二阶连续导数，函数 $z=z(x,y)$ 满足 $\dfrac{\partial^2 z}{\partial x\partial y}-\dfrac{\partial z}{\partial x}-\dfrac{\partial z}{\partial y}+z=0$，则\ExamSelection
+  choices:
+  - label: A
+    text: $a=2,b=1$。
+    figures: []
+  - label: B
+    text: $a=1,b=1$。
+    figures: []
+  - label: C
+    text: $a=1,b=2$。
+    figures: []
+  - label: D
+    text: $a=2,b=2$。
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      $\displaystyle \int_{\dfrac{\pi}{3}}^{\dfrac{\pi}{2}}\mathrm{d}\theta\int_1^{\cos\theta}\dfrac{r\,\mathrm{d}r}{3\arcsin\dfrac{1}{r}-\pi}=$\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{\pi}{3}$。
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{\pi}{6}$。
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{1}{3}$。
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{1}{18}$。
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $\mathbf{A}=\begin{pmatrix}2&1&1\\1&2&1\\1&1&a\end{pmatrix}$ 可逆，且 $\mathbf{x}=\begin{pmatrix}1\\b\\1\end{pmatrix}$ 是 $\mathbf{A}$ 的特征向量，则\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\mathbf{A}$ 的迹为 $4$。
+    figures: []
+  - label: B
+    text: |-
+      $\mathbf{A}$ 的迹为 $16$。
+    figures: []
+  - label: C
+    text: |-
+      $\mathbf{A}^2$ 的迹为 $18$。
+    figures: []
+  - label: D
+    text: |-
+      $\mathbf{A}^3$ 的迹为 $18$。
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $\mathbf{A}$ 为 $n$ 阶矩阵，“对任意 $n$ 维列向量 $\boldsymbol{\alpha},\boldsymbol{\beta}$，均有 $\boldsymbol{\alpha}^{\mathrm{T}}\mathbf{A}^{\mathrm{T}}\mathbf{A}\boldsymbol{\beta}=\boldsymbol{\alpha}^{\mathrm{T}}\boldsymbol{\beta}$ 成立”是“$\mathbf{A}$ 为正交矩阵”的\ExamSelection
+  choices:
+  - label: A
+    text: 充分非必要条件。
+    figures: []
+  - label: B
+    text: 必要非充分条件。
+    figures: []
+  - label: C
+    text: 充要条件。
+    figures: []
+  - label: D
+    text: 既非充分又非必要条件。
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设二次型 $f=a\sum_{i=1}^{n}x_i^2+b\sum_{i=1}^{n}x_ix_{n-i+1}$，其中 $a,b$ 为实数，$n$ 为奇数，若 $f$ 正定，则\ExamSelection
+  choices:
+  - label: A
+    text: $a>|b|$。
+    figures: []
+  - label: B
+    text: $|a|>b$。
+    figures: []
+  - label: C
+    text: $a>b$。
+    figures: []
+  - label: D
+    text: |-
+      $a\geqslant|b|$。
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设随机变量 $X$ 服从参数为 $p(0<p<1)$ 的几何分布，则 $E\left(\dfrac{1}{X}\right)=$\ExamSelection
+  choices:
+  - label: A
+    text: $p(1-p)$。
+    figures: []
+  - label: B
+    text: |-
+      $-p\ln p$。
+    figures: []
+  - label: C
+    text: |-
+      $-(1-p)\ln p$。
+    figures: []
+  - label: D
+    text: |-
+      $-\dfrac{p\ln p}{1-p}$。
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设随机变量 $X_1,X_2,\cdots,X_n(n>1)$ 相互独立，且都服从参数 $\lambda=\dfrac{1}{2}$ 的泊松分布，$\Phi(x)$ 为标准正态分布的分布函数，则 $\lim_{n\to\infty}P\left\{\dfrac{2\sum_{i=1}^{n}X_i-n}{2\sqrt{n}}\leqslant 1\right\}=$\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\Phi(0)$。
+    figures: []
+  - label: B
+    text: |-
+      $\Phi(\sqrt{2})$。
+    figures: []
+  - label: C
+    text: |-
+      $\Phi\left(\dfrac{1}{2}\right)$。
+    figures: []
+  - label: D
+    text: |-
+      $\Phi(\sqrt{3})$。
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知随机变量 $X\sim U(0,4)$，实数 $c\in[0,4]$，且 $X$ 与 $|X-c|$ 不相关，则 $c=$\ExamSelection
+  choices:
+  - label: A
+    text: $1$。
+    figures: []
+  - label: B
+    text: $2$。
+    figures: []
+  - label: C
+    text: $3$。
+    figures: []
+  - label: D
+    text: $4$。
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $a_k=n+\dfrac{2k(k-1)}{2k-1} (k=1,2,\cdots,n)$，则 $\lim_{n\to\infty}\sum_{k=1}^{n}a_k^{-1}=$\ExamBlank。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      有特解 $2x^2$ 及 $\cos\sqrt{2}x$ 的 $5$ 阶常系数齐次线性微分方程为\ExamBlank。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      已知过点 $(a,1)(a>0)$ 的曲线 $y=f(x)$ 单调递减，且其上任意一点的切线在 $x$ 轴上的截距与该点横坐标的差的绝对值恒为 $a$，则 $f(x)=$\ExamBlank。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $\displaystyle \sum_{n=1}^{\infty}\sum_{m=1}^{n}\dfrac{m}{2^{n-1}}=$\ExamBlank。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $\mathbf{A}$ 为 $3\times 4$ 矩阵，若 $\mathbf{A}\mathbf{A}^{\mathrm{T}}$ 的特征值之和为 $1$，$\mathbf{A}\mathbf{A}^{\mathrm{T}}$ 的每行元素之和均为 $2$，$\mathbf{A}^{\mathrm{T}}\mathbf{A}-3\mathbf{E}$ 不可逆，则 $|\mathbf{A}^{\mathrm{T}}\mathbf{A}+3\mathbf{E}|=$\ExamBlank。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      已知两只灯泡的寿命独立同分布于期望为 $2$ 的指数分布。第一只灯泡先亮，若 $1$ 小时内第一只灯泡坏掉，则在第 $1$ 小时时第二只灯泡才亮；若 $1$ 小时内第一只灯泡未坏掉，则在第一只灯泡坏掉时，立即点亮第二只灯泡。令 $T$ 为从点亮第一只灯泡直到第二只灯泡坏掉的时间，则 $E(T)=$\ExamBlank。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      求通过点 $(1,1)$ 的直线 $y=f(x)$ 中，使得 $\int_0^1[x^2-f(x)]^2\,\mathrm{d}x$ 积分值最小的直线方程。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 $f(x)$ 在 $[0,1]$ 上具有二阶连续导数，$f(0)+f(1)=-\dfrac{1}{12}$，$f'\left(\dfrac{1}{2}\right)=2a>0$，$\max\{|f''(x)|\}=2b$，证明：
+  subparts:
+  - text: |-
+      $\int_0^1[f'(x)]^2\,\mathrm{d}x\geqslant 2\int_0^1f(x)\,\mathrm{d}x$；
+  - text: |-
+      $\int_0^1f(x)\,\mathrm{d}x\leqslant 2a^2+\dfrac{b^2}{6}$。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      求 $\displaystyle \sum_{n=1}^{\infty}\left[\dfrac{2+(-1)^n}{n\cdot 6^n}\right]^n$ 的值。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      已知平面区域 $D=\{(x,y)|(x-1)^2+y^2\leqslant 1\}$，计算二重积分 $I=\iint_D(x^2-3y^2)\,\mathrm{d}x\mathrm{d}y$。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $3$ 阶实对称矩阵 $\mathbf{A}$ 的特征值为 $\lambda_1=0,\lambda_2=\lambda_3=1$，$\lambda_1=0$ 所对应的特征向量为 $\boldsymbol{\beta}=(1,1,1)^{\mathrm{T}}$。求：
+  subparts:
+  - text: |-
+      $\mathbf{A}$；
+  - text: |-
+      $\mathbf{A}^{10}\mathbf{x}=\mathbf{A}\boldsymbol{\beta}$ 的全部解。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $X_1,X_2,\cdots,X_n$ 是来自总体 $X$ 的简单随机样本，总体 $X$ 的概率密度为 $f(x;\theta)=\dfrac{1}{2}(1+\theta x),-1<x<1,|\theta|\leqslant 1$，因观测设备精度不高，观察不到 $X_1,X_2,\cdots,X_n$ 的具体取值，只能观测到每个 $X_i$ 是否大于 $0$，记 $Y_i=\begin{cases}1,&X_i>0,\\0,&\text{其他},\end{cases}, i=1,\cdots,n$，求：
+  subparts:
+  - text: $E(Y_i),D(Y_i)$；
+  - text: |-
+      $\theta$ 的最大似然估计量。

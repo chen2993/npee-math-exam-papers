@@ -1,0 +1,299 @@
+schema_version: '3.0'
+paper:
+  series_key: yubingsen5
+  year: 2024
+  subject: math2
+  paper_no: 5
+content_hash: efdb4786bdbb1a28a4a83916fb13865ed85f9df919e0988bef0215f4ba12fd98
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)=\begin{cases}\dfrac{|x^2-1|}{x-1}|\ln x|^\alpha,&x\ne1,\\0,&x=1,\end{cases}$，其中常数 $\alpha>1$，则 $f(x)$ 在 $x=1$ 处\ExamSelection。
+  choices:
+  - label: A
+    text: 不连续
+    figures: []
+  - label: B
+    text: 连续但不可导
+    figures: []
+  - label: C
+    text: 可导但导函数不连续
+    figures: []
+  - label: D
+    text: 导函数连续
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(u)$ 为可导函数，曲线 $y=f\left(\dfrac{x+1}{x-1}\right)$ 过点 $\left(\dfrac{1}{2},4\right)$，且在该点处切线过原点 $(0,0)$，那么函数 $f(u)$ 在 $u=-3$ 处当 $u$ 取得增量 $\Delta u=-0.1$ 时相应的函数值增量的线性主部是\ExamSelection。
+  choices:
+  - label: A
+    text: $-0.2$
+    figures: []
+  - label: B
+    text: $0.2$
+    figures: []
+  - label: C
+    text: $-0.1$
+    figures: []
+  - label: D
+    text: $0.1$
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)$ 在 $x=0$ 处存在二阶导数，$f(0)=0$ 且 $\lim_{x\to0}\dfrac{f(x)+f'(x)}{x}=2$，则\ExamSelection。
+  choices:
+  - label: A
+    text: $f(0)$ 是 $f(x)$ 的极大值
+    figures: []
+  - label: B
+    text: $f(0)$ 是 $f(x)$ 的极小值
+    figures: []
+  - label: C
+    text: $(0,f(0))$ 是曲线 $y=f(x)$ 的拐点
+    figures: []
+  - label: D
+    text: 以上都不正确
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x)=\begin{cases}\sin x,&0\le x\le\dfrac{\pi}{2},\\0,&\dfrac{\pi}{2}<x\le\pi,\end{cases}$ $g(x)=\int_0^x t f(x-t)\,\mathrm{d}t$，则 $g(x)=$\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\begin{cases}x-\sin x,&0\le x\le\dfrac{\pi}{2},\\0,&\dfrac{\pi}{2}<x\le\pi\end{cases}$
+    figures: []
+  - label: B
+    text: |-
+      $\begin{cases}x\cos x,&0\le x\le\dfrac{\pi}{2},\\0,&\dfrac{\pi}{2}<x\le\pi\end{cases}$
+    figures: []
+  - label: C
+    text: |-
+      $\begin{cases}x-\sin x,&0\le x\le\dfrac{\pi}{2},\\\dfrac{\pi}{2}-1,&\dfrac{\pi}{2}<x\le\pi\end{cases}$
+    figures: []
+  - label: D
+    text: |-
+      $\begin{cases}x-\sin x,&0\le x\le\dfrac{\pi}{2},\\x-1,&\dfrac{\pi}{2}<x\le\pi\end{cases}$
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      在区间 $[-a,a]$（$a>0$）内，$f''(x)>0$，$|f(x)|\le x^2$，则 $\int_{-a}^{a}f(x)\,\mathrm{d}x$\ExamSelection。
+  choices:
+  - label: A
+    text: 大于零
+    figures: []
+  - label: B
+    text: 小于零
+    figures: []
+  - label: C
+    text: 等于零
+    figures: []
+  - label: D
+    text: 其符号无法确定
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $\varphi(x,y)\ne0$ 且具有连续的一阶偏导数，函数 $u(x,y)$ 的全微分 $\mathrm{d}u=\dfrac{y\,\mathrm{d}x+x\,\mathrm{d}y}{\varphi(x,y)}$，则下列等式成立的是\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $x\varphi_y'(x,y)=y\varphi_x'(x,y)$
+    figures: []
+  - label: B
+    text: |-
+      $x\varphi_y'(x,y)=-y\varphi_x'(x,y)$
+    figures: []
+  - label: C
+    text: |-
+      $x\varphi_x'(x,y)=y\varphi_y'(x,y)$
+    figures: []
+  - label: D
+    text: |-
+      $x\varphi_x'(x,y)=-y\varphi_y'(x,y)$
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x,y)=2y^2+g(x-y)$，若 $f(x,0)=x^2$，则 $f(x,y)$\ExamSelection。
+  choices:
+  - label: A
+    text: 既有极大值，也有极小值
+    figures: []
+  - label: B
+    text: 有极大值，没有极小值
+    figures: []
+  - label: C
+    text: 没有极大值，有极小值
+    figures: []
+  - label: D
+    text: 既没有极大值，也没有极小值
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $n(>3)$ 阶矩阵 $A$ 的伴随矩阵 $A^*\ne O$，$\xi_1,\xi_2$ 是非齐次线性方程组 $Ax=\beta$ 的两个不同的解，则齐次线性方程组 $Ax=0$ 的基础解系\ExamSelection。
+  choices:
+  - label: A
+    text: 含有 1 个解向量
+    figures: []
+  - label: B
+    text: 含有 2 个解向量
+    figures: []
+  - label: C
+    text: 含有 $n-1$ 个解向量
+    figures: []
+  - label: D
+    text: 含有 $n$ 个解向量
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设三阶矩阵 $A$ 有特征值 $\lambda_1=\lambda_2=-1,\lambda_3=2$，且 $A$ 不能相似于对角阵，则 $r(A+E)+r(A-E)+r(A-2E)=$\ExamSelection。
+  choices:
+  - label: A
+    text: $3$
+    figures: []
+  - label: B
+    text: $4$
+    figures: []
+  - label: C
+    text: $6$
+    figures: []
+  - label: D
+    text: $7$
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A,B$ 均为 $n$（$n>1$）阶方阵，满足 $\begin{pmatrix}A^{\mathsf T}A&O\\O&B^{\mathsf T}B\end{pmatrix}$ 为正定矩阵，给出如下五个命题：①齐次线性方程组 $Ax=0$ 与 $Bx=0$ 同解；②对任意的 $n$ 维非零列向量 $\alpha$，非齐次线性方程组 $Ax=\alpha$ 与 $Bx=\alpha$ 同解；③矩阵 $A,B$ 等价；④矩阵 $A,B$ 的列向量组等价；⑤矩阵 $A,B$ 的行向量组等价。其中正确的个数是\ExamSelection。
+  choices:
+  - label: A
+    text: 1 个
+    figures: []
+  - label: B
+    text: 2 个
+    figures: []
+  - label: C
+    text: 3 个
+    figures: []
+  - label: D
+    text: 4 个
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      由曲线 $y=\dfrac{e^{1/x}+e^x}{e^{1/x}-e^x}\cdot\dfrac{\int_x^2e^{-t^2}\,\mathrm{d}t}{x-2}$ 的跳跃间断点为 \ExamBlank。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      若曲线 $y=1-x^2$ 与 $x$ 轴围成的图形被抛物线 $y=ax^2$（$a>0$）分割成面积相等的三个部分，则 $a=$ \ExamBlank。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      已知函数 $F(u,v)$ 可微，$F_u'(0,0)=2,F_v'(0,0)=3$，函数 $z=f(x,y)$ 由方程 $F(2x-\cos y-e^z,x^2y+\sin z)=0$ 确定，且 $f(1,0)=0$，则 $f_x'(1,0)=$ \ExamBlank。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $\lim_{t\to0^+}\dfrac{1}{t^3}\int_0^{\dfrac{\pi}{4}}\mathrm{d}\theta\int_0^{t/\cos\theta}\dfrac{\sin(r^2\sin\theta\cos\theta)}{\sin\theta}\,\mathrm{d}r=$ \ExamBlank。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      已知 $y=2xe^{2x}$ 为二阶常系数线性齐次微分方程 $y''+py'+qy=0$ 的一个特解，则该微分方程为 \ExamBlank。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $\alpha$ 为 3 维非零列向量，$E$ 为三阶单位矩阵，$A=E-\alpha\alpha^{\mathsf T}$。若 $\alpha^{\mathsf T}\alpha=2$，则 $A$ 的迹 $\operatorname{tr}(A)=$ \ExamBlank。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      设函数 $f(x)$ 连续，$\varphi(x)=\int_0^1f(xt)\,\mathrm{d}t$，且 $\lim_{x\to0}\dfrac{f(x)}{x}=1$。
+  subparts:
+  - text: |-
+      求 $\varphi'(x)$。
+  - text: |-
+      问 $\varphi'(x)$ 在点 $x=0$ 处是否连续？
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: 设有抛物线 $L_1:y=x^2+1$，直线 $L_2:y=x$。
+  subparts:
+  - text: 求 $L_1$ 上的点到 $L_2$ 的最短距离 $d_1$。
+  - text: 求 $L_1$ 上的点和点 $P(5,0)$ 的最短距离 $d_2$。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 $f(x)$ 连续，$f(x)=x^2+x\int_0^{x^2}f(x^2-t)\,\mathrm{d}t+\iint_Df(xy)\,\mathrm{d}x\,\mathrm{d}y$，其中 $D$ 为以 $A(1,-1),B(-1,1),C(1,1)$ 为顶点的三角区域，若 $f(1)=0$。
+  subparts:
+  - text: |-
+      求 $\int_0^1f(x)\,\mathrm{d}x+\iint_Df(xy)\,\mathrm{d}x\,\mathrm{d}y$ 的值。
+  - text: |-
+      求 $\int_0^1f(x)\,\mathrm{d}x$ 的值。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      利用变换 $u=\tan y$ 将方程 $y''\sec^2y+2(y')^2\sec^2y\tan y+2y'\sec^2y-3\tan y=-3x+2$ 简化，并求出原方程的通解。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: 设 $x>0$。
+  subparts:
+  - text: |-
+      证明：$(x+1)^3-x^3=3[x+\theta(x)]^2$（①），其中 $0<\theta(x)<1$。
+  - text: |-
+      证明①中的 $\theta(x)$ 是 $x$（$0<x<1$）的减函数。
+  - text: |-
+      当 $0<x<1$ 时，证明①中的 $\theta(x)$ 满足 $\dfrac{1}{2}<\theta(x)<\dfrac{1}{\sqrt{3}}$。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: 设 3 阶实矩阵 $A$ 满足 $A^2-A-2E=O$，$|A|=2$。
+  subparts:
+  - text: 证明 $A$ 可以对角化。
+  - text: |-
+      如果 $A$ 为实对称矩阵，且 $\xi=(1,1,-1)^{\mathsf T}$ 是齐次线性方程组 $(A-2E)x=0$ 的一个解，求一个对称矩阵 $B$ 使得 $B^2=A+E$。

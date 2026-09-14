@@ -1,0 +1,310 @@
+schema_version: '3.0'
+paper:
+  series_key: zhangyu4
+  year: 2026
+  subject: math1
+  paper_no: 1
+content_hash: c4e0b6197bba92ddaee020693ef2e849f4170093b11146203f1bed72b9079f2b
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      当 $x\to0^+$ 时，下列无穷小量中，最高阶的是\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\displaystyle\int_0^{x^2}(e^{t^2}+1)\,\mathrm{d}t$
+    figures: []
+  - label: B
+    text: |-
+      $\displaystyle\int_0^x\ln(1+\sqrt{t^3})\,\mathrm{d}t$
+    figures: []
+  - label: C
+    text: |-
+      $\displaystyle\int_0^{\sin x}\cos t^2\,\mathrm{d}t$
+    figures: []
+  - label: D
+    text: |-
+      $\displaystyle\int_0^{1-\cos x}\sqrt{\arcsin^3t}\,\mathrm{d}t$
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      若微分方程 $y''+ay'+by=0$ 的解在 $(-\infty,+\infty)$ 上必为周期函数，则\ExamSelection
+  choices:
+  - label: A
+    text: $a=0,b>0$
+    figures: []
+  - label: B
+    text: $a=0,b<0$
+    figures: []
+  - label: C
+    text: |-
+      $a\ne0,b<0$
+    figures: []
+  - label: D
+    text: |-
+      $a\ne0,b>0$
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      $\displaystyle\int_{\dfrac{1}{4}}^{\dfrac{1}{2}}\mathrm{d}y\int_{\dfrac{1}{2}}^{\sqrt y}e^{\dfrac{y}{x}}\,\mathrm{d}x+\int_{\dfrac{1}{2}}^1\mathrm{d}y\int_y^{\sqrt y}e^{\dfrac{y}{x}}\,\mathrm{d}x=$\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{3e}{4}-\dfrac{\sqrt e}{2}$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{3e}{8}-\dfrac{\sqrt e}{2}$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{3e}{4}+\dfrac{\sqrt e}{2}$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{3e}{8}+\dfrac{\sqrt e}{2}$
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)=\arcsin x-\dfrac{x}{1+ax^2}$，$f'''(0)=2$，则 $a=$\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{1}{6}$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{1}{4}$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{1}{3}$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{1}{2}$
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设向量 $\beta$ 可由向量组 $\alpha_1,\alpha_2,\alpha_3,\alpha_4$ 线性表示，但不可由向量组（I）：$\alpha_1,\alpha_2,\alpha_3$ 线性表示，记向量组（II）：$\alpha_1,\alpha_2,\alpha_3,\beta$，则\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\alpha_4$ 不可由向量组（I）线性表示，也不可由向量组（II）线性表示。
+    figures: []
+  - label: B
+    text: |-
+      $\alpha_4$ 不可由向量组（I）线性表示，但可由向量组（II）线性表示。
+    figures: []
+  - label: C
+    text: |-
+      $\alpha_4$ 可由向量组（I）线性表示，也可由向量组（II）线性表示。
+    figures: []
+  - label: D
+    text: |-
+      $\alpha_4$ 可由向量组（I）线性表示，但不可由向量组（II）线性表示。
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 为 $n$ 阶矩阵，$A^*$ 是 $A$ 的伴随矩阵，齐次线性方程组 $Ax=0$ 有两个线性无关的解，则\ExamSelection
+  choices:
+  - label: A
+    text: $A^*x=0$ 的解均是 $Ax=0$ 的解。
+    figures: []
+  - label: B
+    text: $Ax=0$ 的解均是 $A^*x=0$ 的解。
+    figures: []
+  - label: C
+    text: $Ax=0$ 与 $A^*x=0$ 没有非零公共解。
+    figures: []
+  - label: D
+    text: $Ax=0$ 与 $A^*x=0$ 仅有两个非零公共解。
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设矩阵 $A=(a_{ij})_{n\times n}$ 的元素全大于零，且每行元素之和等于 $1$，以下结论：① $\lambda=1$ 是 $A$ 的特征值；② $(A-E)x=0$ 有非零解；③ $A$ 的每一个特征值 $\lambda$ 都满足 $|\lambda|\leqslant1$。正确结论的个数为\ExamSelection
+  choices:
+  - label: A
+    text: $0$
+    figures: []
+  - label: B
+    text: $1$
+    figures: []
+  - label: C
+    text: $2$
+    figures: []
+  - label: D
+    text: $3$
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设总体 $X$ 的概率分布如下：$\begin{array}{c|ccc}X&-1&0&1\\\hline P&\dfrac{1}{4}&\dfrac{1}{2}&\dfrac{1}{4}\end{array}$。从总体 $X$ 中抽取 $n$ 个简单随机样本，$N_1$ 表示 $n$ 个样本中取到 $-1$ 的个数，$N_2$ 表示 $n$ 个样本中取到 $0$ 的个数，$N_3$ 表示 $n$ 个样本中取到 $1$ 的个数，则 $N_1$ 与 $N_2$ 的相关系数为\ExamSelection
+  choices:
+  - label: A
+    text: $-1$
+    figures: []
+  - label: B
+    text: $1$
+    figures: []
+  - label: C
+    text: |-
+      $-\dfrac{\sqrt3}{3}$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{\sqrt3}{3}$
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $X_1,X_2,\cdots,X_{25}$ 是来自总体 $N(\mu,\sigma^2)$（$\sigma>0$）的简单随机样本，$\Phi(x)$ 表示标准正态分布函数，考虑假设检验问题：$H_0:\mu\leqslant10$，$H_1:\mu>10$，若该检验问题的拒绝域为 $W=\{\overline X>20\}$，其中 $\overline X=\dfrac{1}{25}\sum_{i=1}^{25}X_i$，当 $\mu=20.5$ 时，该检验犯第二类错误的概率为 $1-\Phi\left(\dfrac{1}{2}\right)$，则 $\sigma=$\ExamSelection
+  choices:
+  - label: A
+    text: $5$
+    figures: []
+  - label: B
+    text: $6$
+    figures: []
+  - label: C
+    text: $7$
+    figures: []
+  - label: D
+    text: $8$
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设总体 $X\sim U(0,\alpha)$，$Y\sim U(\alpha,2\alpha)$，$\alpha>0$ 为未知参数，$X,Y$ 相互独立。记 $Z_{(a,b)}=aX+bY$，则当 $\overline Z_{(k_1,k_2)}$ 是 $\alpha$ 的最有效的估计量时，有\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $k_1=\dfrac{1}{3},\ k_2=\dfrac{2}{3}$
+    figures: []
+  - label: B
+    text: |-
+      $k_1=\dfrac{2}{3},\ k_2=\dfrac{1}{3}$
+    figures: []
+  - label: C
+    text: |-
+      $k_1=\dfrac{1}{5},\ k_2=\dfrac{3}{5}$
+    figures: []
+  - label: D
+    text: |-
+      $k_1=\dfrac{1}{2},\ k_2=\dfrac{1}{2}$
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $\left.\operatorname{grad}\left(x^2y+\dfrac{z}{y}\right)\right|_{(1,1,2)}=$ \ExamBlank。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      曲线 $y=xe^{-\dfrac{1}{x+1}}$ 的斜渐近线方程为 \ExamBlank。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $\displaystyle\sum_{n=0}^{\infty}(-1)^n\dfrac{2n}{(2n+1)!}=$ \ExamBlank。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      微分方程 $(x-y-1)\,\mathrm{d}x+(x+4y-1)\,\mathrm{d}y=0$ 的通解为 \ExamBlank。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      已知方程组（I）$\begin{cases}x_2+ax_3=0,\\x_1+x_2+(a+1)x_3=0\end{cases}$ 的解均是方程组（II）$\begin{cases}x_1+x_2+2x_3=0,\\x_1+x_2+bx_3=0\end{cases}$ 的解，但方程组（I）与方程组（II）不同解。设矩阵 $A$ 为方程组（I）的系数矩阵，矩阵 $B$ 为方程组（II）的系数矩阵，则 $B^TA=$ \ExamBlank。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设总体 $X$ 的概率密度 $f(x)=\begin{cases}\mu x,&0\leqslant x<1,\\\theta x,&1\leqslant x\leqslant2,\\0,&\text{其他},\end{cases}$，$\mu,\theta$ 为未知参数且 $\mu>0$，$\theta>0$，$Y=e^X$，$X$ 的样本观测值为 $0.1,0.9,1.2,1.2$，则 $P\{Y<4\}$ 的最大似然估计值为 \ExamBlank。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      设曲面 $z=f(x,y)$ 过点 $(0,0,2)$，且 $\Delta z$ 关于 $x$ 的偏增量 $\Delta_xz=-2xe^{-y}\cdot\Delta x+o(\Delta x)$，$\Delta z$ 关于 $y$ 的偏增量 $\Delta_yz=e^{-y}(x^2-y-1)\Delta y+o(\Delta y)$，求 $z=f(x,y)$ 的表达式及 $z$ 的极值。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $f(x)=\begin{cases}x,&x<1,\\\ln x,&x>1,\end{cases}$，$g(x)=e^{x-1}$。
+  subparts:
+  - text: |-
+      求 $\varphi(x)=f[g(x)]$；
+  - text: |-
+      求在 $(-\infty,+\infty)$ 内的连续函数 $y$，使之在 $(-\infty,1]$ 与 $(1,+\infty)$ 内满足微分方程 $y'-y=\varphi(x)$，且 $y(0)=0$。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $f(x)$ 在 $[a,b]$ 上具有二阶连续导数，证明存在 $\xi\in(a,b)$，使得 $\displaystyle\int_a^bf(x)\,\mathrm{d}x=f\left(\dfrac{a+b}{2}\right)(b-a)+\dfrac{f''(\xi)}{24}(b-a)^3$；
+  subparts:
+  - text: |-
+      设 $g(x)$ 在 $[-1,1]$ 上具有三阶连续导数，且 $g(-1)=g(1)$，$g'(0)=0$，证明存在 $\eta\in(-1,1)$，使得 $g'''(\eta)=0$。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设非负函数 $f(x)$ 有连续的二阶导数，$f(0)=1$，$f'(0)=2$，对于任意的位于 $xOy$ 面上方的分片光滑闭曲面 $\Sigma$ 的内侧，都有 $\displaystyle\oiint_\Sigma z^2f'(x)\,\mathrm{d}y\,\mathrm{d}z-3yz^2\sqrt{f(x)}\,\mathrm{d}z\,\mathrm{d}x=0$，求 $f(x)$。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $A=\begin{pmatrix}1&1&1\\1&2&1\\1&1&2\end{pmatrix}$，$B=\begin{pmatrix}0&0&1\\0&2&1\\1&1&2\end{pmatrix}$。
+  subparts:
+  - text: 是否存在正交矩阵 $Q$，使得 $Q^TAQ=B$？若存在，求出 $Q$；若不存在，说明理由；
+  - text: 求可逆矩阵 $P$，使得 $P^TAP$，$P^TBP$ 均为对角矩阵。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设随机变量 $(X,Y)$ 的概率密度为 $f(x,y)=\begin{cases}a\left(x^2+\dfrac{xy}{2}\right),&0<x<1,0<y<2,\\0,&\text{其他}\text{。}\end{cases}$
+  subparts:
+  - text: 求 $a$ 的值；
+  - text: $X,Y$ 是否相互独立，说明理由；
+  - text: |-
+      计算 $P\left\{Y>1\mid X=\dfrac{1}{2}\right\}$。

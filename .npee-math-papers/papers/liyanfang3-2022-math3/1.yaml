@@ -1,0 +1,308 @@
+schema_version: '3.0'
+paper:
+  series_key: liyanfang3
+  year: 2022
+  subject: math3
+  paper_no: 1
+content_hash: 46353f343c81ee9457df4b4e66408c7144f3562cb172c2489df0db7e6974c015
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $\alpha_1=\ln(1+x)+\ln(1-x)$，$\alpha_2=2^{x^2+x}-1$，$\alpha_3=\sqrt{1+\tan x}-\sqrt{1+\sin x}$。当 $x\to0$ 时，以 $3$ 个无穷小量按照从低阶到高阶的排序是\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\alpha_1,\alpha_2,\alpha_3$
+    figures: []
+  - label: B
+    text: |-
+      $\alpha_2,\alpha_1,\alpha_3$
+    figures: []
+  - label: C
+    text: |-
+      $\alpha_1,\alpha_3,\alpha_2$
+    figures: []
+  - label: D
+    text: |-
+      $\alpha_2,\alpha_3,\alpha_1$
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      曲线 $y=\sqrt{2x^2+4x+1}$ 的渐近线的条数为\ExamSelection
+  choices:
+  - label: A
+    text: $1$
+    figures: []
+  - label: B
+    text: $2$
+    figures: []
+  - label: C
+    text: $3$
+    figures: []
+  - label: D
+    text: $4$
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $I_1=\int_{-1}^{1}e^{-\dfrac{x^2}{2}}\,\mathrm{d}x$，$I_2=\sqrt{2\pi}(1-e^{-1})$，$I_3=4(1-e^{-\dfrac{1}{2}})$，则 $I_1,I_2,I_3$ 的大小关系为\ExamSelection
+  choices:
+  - label: A
+    text: $I_3>I_1>I_2$
+    figures: []
+  - label: B
+    text: $I_1>I_3>I_2$
+    figures: []
+  - label: C
+    text: $I_2>I_1>I_3$
+    figures: []
+  - label: D
+    text: $I_2>I_3>I_1$
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $\{a_n\}$ 为正项数列，且级数 $\sum_{n=1}^{\infty}a_n^2$ 收敛，则以下级数中，收敛的是\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\sum_{n=1}^{\infty}a_n$
+    figures: []
+  - label: B
+    text: |-
+      $\sum_{n=1}^{\infty}(-1)^na_n$
+    figures: []
+  - label: C
+    text: |-
+      $\sum_{n=1}^{\infty}\dfrac{a_n}{n}$
+    figures: []
+  - label: D
+    text: |-
+      $\sum_{n=1}^{\infty}\dfrac{a_n}{\sqrt n}$
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A=(a_{ij})$ 为 $n$ 阶矩阵，且其元素满足 $a_{ij}=-a_{ji}$，$\beta$ 为 $n$ 维非零列向量，矩阵 $B=\begin{pmatrix}A&\beta\\\beta^{\mathsf T}&0\end{pmatrix}$，则\ExamSelection
+  choices:
+  - label: A
+    text: 若 $r(A)=n$，则 $n$ 为奇数，且 $r(B)=n$
+    figures: []
+  - label: B
+    text: 若 $r(A)=n$，则 $n$ 为奇数，且 $r(B)=n+1$
+    figures: []
+  - label: C
+    text: 若 $r(A)=n$，则 $n$ 为偶数，且 $r(B)=n$
+    figures: []
+  - label: D
+    text: 若 $r(A)=n$，则 $n$ 为偶数，且 $r(B)=n+1$
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设向量组 $A:\alpha_1,\alpha_2,\cdots,\alpha_n$ 包含 $n$ 个 $m$ 维向量（$n>m$），则\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      矩阵 $A=(\alpha_1,\alpha_2,\cdots,\alpha_n)$ 必可经过初等行变换化为矩阵 $({E},O)$ 或 $\begin{pmatrix}E&O\\O&O\end{pmatrix}$ 的形式。
+    figures: []
+  - label: B
+    text: |-
+      矩阵 $A=(\alpha_1,\alpha_2,\cdots,\alpha_n)$ 必可经过初等列变换化为矩阵 $({E},O)$ 或 $\begin{pmatrix}E&O\\O&O\end{pmatrix}$ 的形式。
+    figures: []
+  - label: C
+    text: |-
+      对任意的 $k_1,k_2,\cdots,k_{n-1}$，向量组 $B:\alpha_1+k_1\alpha_2,\alpha_2+k_2\alpha_3,\cdots,\alpha_{n-1}+k_{n-1}\alpha_n$ 必线性相关。
+    figures: []
+  - label: D
+    text: |-
+      一定存在 $\alpha_i$（$1\leq i\leq n$），使得 $\alpha_i$ 可由向量组 $A$ 中的其他向量线性表示。
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      若矩阵 $A,B$ 为正交矩阵，则下列命题中，正确命题的个数为\ExamSelection① $|A|=\pm1$。② 若 $A$ 存在实特征值，则必为 $\pm1$。③ $AB$ 也是正交矩阵。④ 若 $|A|=-|B|$，则 $A+B$ 必不可逆。
+  choices:
+  - label: A
+    text: $1$
+    figures: []
+  - label: B
+    text: $2$
+    figures: []
+  - label: C
+    text: $3$
+    figures: []
+  - label: D
+    text: $4$
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设二维随机变量 $(X,Y)$ 的联合概率密度函数 $f(x,y)=\begin{cases}\dfrac{1}{\pi},&x^2+y^2<1,\\0,&x^2+y^2\geq1,\end{cases}$，则随机变量 $X$ 与 $Y$\ExamSelection
+  choices:
+  - label: A
+    text: 不相关且不独立。
+    figures: []
+  - label: B
+    text: 不相关且独立。
+    figures: []
+  - label: C
+    text: 相关，且相关系数为正。
+    figures: []
+  - label: D
+    text: 相关，且相关系数为负。
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设总体 $X$ 服从正态分布 $N(\mu,\sigma^2)$（$\sigma>0$），$X_1,X_2,\cdots,X_{2n}$（$n\geq2$）为来自该总体的简单随机样本，其样本均值为 $\bar X=\dfrac{1}{2n}\sum_{i=1}^{2n}X_i$。记统计量 $Y_1=\sum_{i=1}^{2n}(X_i-\bar X)^2$，$Y_2=\sum_{i=1}^{2n}(X_i-X_{n+i})^2$，$Y_3=\sum_{i=1}^{n}(X_i+X_{n+i}-2\bar X)^2$，则这 $3$ 个统计量的数学期望 $E(Y_1),E(Y_2),E(Y_3)$ 的大小关系为\ExamSelection
+  choices:
+  - label: A
+    text: $E(Y_1)>E(Y_2)>E(Y_3)$
+    figures: []
+  - label: B
+    text: $E(Y_1)>E(Y_3)>E(Y_2)$
+    figures: []
+  - label: C
+    text: $E(Y_3)>E(Y_1)>E(Y_2)$
+    figures: []
+  - label: D
+    text: $E(Y_2)>E(Y_1)>E(Y_3)$
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设总体 $X$ 服从参数为 $p$ 的几何分布，$x_1,x_2,\cdots,x_n$ 为来自该总体的一组样本值，$\bar x$ 为其均值，则参数 $p$ 的矩估计值 $\hat p_1$ 和最大似然估计值 $\hat p_2$ 满足\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\hat p_1=\dfrac{1}{\bar x}<\hat p_2$
+    figures: []
+  - label: B
+    text: |-
+      $\hat p_1=\dfrac{1}{\bar x}>\hat p_2$
+    figures: []
+  - label: C
+    text: |-
+      $\hat p_1=\hat p_2=\dfrac{1}{\bar x}$
+    figures: []
+  - label: D
+    text: |-
+      $\hat p_1>\hat p_2>\dfrac{1}{\bar x}$
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)=x^2\cos 2x$，则 $f^{(10)}(0)=$\ExamBlank。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $\int\dfrac{(x\sin x+\cos x)^2}{\cos^2x}\,\mathrm{d}x=$\ExamBlank。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设某商品的需求函数为 $Q=1-P-P^2$（$0<P<\dfrac{\sqrt5-1}{2}$），其中 $Q,P$ 分别表示需求量和价格，则当收益最大时，需求弹性 $\varepsilon$（$\varepsilon>0$）为\ExamBlank。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $\lim_{x\to+\infty}\dfrac{\int_0^x\sqrt{t}\cos t\,\mathrm{d}t}{x}=$\ExamBlank。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $\left|\begin{matrix}2&1&&&\\1&2&1&&\\&\ddots&\ddots&\ddots&\\&&1&2&1\\&&&1&2\end{matrix}\right|_{n\times n}=$\ExamBlank。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      箱子中装有 $5$ 个相同的球，编号分别为 $1,2,3,4,5$，从中随机取出 $3$ 个，$X$ 表示所取出球的最大编号，则 $E(X)=$\ExamBlank。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: 本题满分 $10$ 分。
+  subparts:
+  - text: |-
+      求 $\lim_{x\to+\infty}\dfrac{\arctan 2x-\arctan x}{\dfrac{\pi}{2}-\arctan x}$。
+  - text: |-
+      若 $\lim_{x\to+\infty}x[1-f(x)]$ 不存在，而 $I=\lim_{x\to+\infty}\dfrac{\arctan 2x+[b-1-bf(x)]\arctan x}{\dfrac{\pi}{2}-\arctan x}$ 存在，试确定 $b$ 的值，并求 $I$。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设平面区域 $D=\{(x,y)\mid 3\leq x^2+y^2\leq8\}$。
+  subparts:
+  - text: |-
+      求 $\iint_D\dfrac{x^2}{\sqrt{1+x^2+y^2}}\,\mathrm{d}x\mathrm{d}y$。
+  - text: |-
+      证明：存在 $(\xi,\eta)\in D$，使得 $\xi^2=\dfrac{16}{15}\sqrt{\xi^2+\eta^2+1}$。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $f(x)$ 是定义在 $(0,+\infty)$ 上的具有二阶连续导数的函数，满足 $f(1)=f'(1)=1$，记 $u=f(\sqrt[3]{x^2+y^2})$。当 $\sqrt[3]{x^2+y^2}>0$ 时，$\dfrac{\partial^2u}{\partial x^2}+\dfrac{\partial^2u}{\partial y^2}=0$。
+  subparts:
+  - text: 记 $p=f'(x)$，求 $f'(x)$ 满足的微分方程。
+  - text: 求 $f(x)$ 的表达式。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      记 $a_n=\int_0^1x^2(\ln x)^n\,\mathrm{d}x$，$n=0,1,2,\cdots$。
+  subparts:
+  - text: |-
+      求 $\lim_{n\to\infty}\dfrac{(-1)^n}{a_n}$。
+  - text: |-
+      求 $\sum_{n=0}^{\infty}\dfrac{x^n}{a_n}$ 的收敛域，并计算其和函数。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设矩阵 $A=\begin{pmatrix}0&1&1\\1&0&1\\1&1&0\end{pmatrix}$，$P=\begin{pmatrix}0&1&0\\0&2&1\\1&0&3\end{pmatrix}$，$B=P^{-1}A^*P$，求 $B+E$ 的特征值与特征向量，其中 $A^*$ 为 $A$ 的伴随矩阵，$E$ 为 $3$ 阶单位矩阵。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      假设某咖啡店在任何长为 $t$（单位：小时）的时间内卖出的咖啡杯数 $N(t)$ 服从参数为 $\lambda t$ 的泊松分布。若一天内卖出 $100$ 杯咖啡，则当天该店净利润大于 $0$。
+  subparts:
+  - text: 求相继卖出两杯咖啡之间的时间间隔 $T_1$ 的概率密度。
+  - text: 记一天中，从开始营业到开始盈利的时间为 $T_2$，求 $T_2$ 的概率密度。
+  - text: |-
+      已知 $\lambda=20$，问长期来看，若要盈利，则该咖啡店需平均每天至少营业多少小时？

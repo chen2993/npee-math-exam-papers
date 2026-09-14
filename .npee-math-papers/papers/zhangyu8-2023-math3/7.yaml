@@ -1,0 +1,301 @@
+schema_version: '3.0'
+paper:
+  series_key: zhangyu8
+  year: 2023
+  subject: math3
+  paper_no: 7
+content_hash: f2c375714dd52dbc45f2bf4950335891227820bd47907f2f54b7dbf21580231d
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)=\begin{cases}e^x,&x\leq 0,\\x^2,&x>0,\end{cases}$ 则 $\lim\limits_{x\to0^+}\left[\int_{-\infty}^{x}f(t)\,\mathrm{d}t\right]^{\dfrac{1}{x(1-\cos x)}}=\ExamSelection$
+  choices:
+  - label: A
+    text: |-
+      $e^{\dfrac{2}{3}}$
+    figures: []
+  - label: B
+    text: |-
+      $e^{\dfrac{3}{2}}$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{2}{3}$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{3}{2}$
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $b>a>0$，函数 $f(x)$ 在 $[a,b]$ 上可导，且 $f'(x)<\dfrac{f(x)}{x}$，则当 $x\in(a,b)$ 时，有不等式\ExamSelection
+  choices:
+  - label: A
+    text: $xf(x)<af(a)$
+    figures: []
+  - label: B
+    text: $bf(x)<xf(b)$
+    figures: []
+  - label: C
+    text: $af(x)<xf(a)$
+    figures: []
+  - label: D
+    text: $xf(x)<bf(b)$
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $D=\{(x,y)\mid 0\leq x\leq 1,-1\leq y\leq 0\}$，$f(x)=\begin{cases}x^2,&0\leq x\leq 1,\\0,&\text{其他},\end{cases}$ 则 $\iint_D f(x)f(x-y)\,\mathrm{d}x\mathrm{d}y=\ExamSelection$
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{1}{36}$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{1}{21}$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{1}{18}$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{1}{15}$
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      若幂级数 $\sum\limits_{n=1}^{\infty}\dfrac{1}{n}(x-a)^n$ 在 $x=-5$ 处条件收敛，则 $x=-5$ 与 $x=-1$ 依次为幂级数 $\sum\limits_{n=1}^{\infty}\dfrac{(x-a)^{2n}}{a^n}$ 的\ExamSelection
+  choices:
+  - label: A
+    text: 收敛点，收敛点
+    figures: []
+  - label: B
+    text: 收敛点，发散点
+    figures: []
+  - label: C
+    text: 发散点，收敛点
+    figures: []
+  - label: D
+    text: 发散点，发散点
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A=\begin{pmatrix}a_1&b_1&c_1\\a_2&b_2&c_2\\a_3&b_3&c_3\end{pmatrix}$，$B=\begin{pmatrix}c_1&b_1+2a_1&a_1\\c_2&b_2+2a_2&a_2\\c_3&b_3+2a_3&a_3\end{pmatrix}$，$|A|=2$，则 $B^*A=\ExamSelection$
+  choices:
+  - label: A
+    text: |-
+      $\begin{pmatrix}0&0&-2\\0&-2&4\\2&0&0\end{pmatrix}$
+    figures: []
+  - label: B
+    text: |-
+      $\begin{pmatrix}0&0&2\\0&2&-4\\-2&0&0\end{pmatrix}$
+    figures: []
+  - label: C
+    text: |-
+      $\begin{pmatrix}0&0&2\\0&2&0\\2&-4&0\end{pmatrix}$
+    figures: []
+  - label: D
+    text: |-
+      $\begin{pmatrix}0&0&-2\\0&-2&0\\-2&4&0\end{pmatrix}$
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 为 $4$ 阶矩阵，$|A|=0$，$B$ 为 $4\times3$ 矩阵且列满秩，$AB+B=0$，则 $|2A+E|=\ExamSelection$
+  choices:
+  - label: A
+    text: $-1$
+    figures: []
+  - label: B
+    text: $0$
+    figures: []
+  - label: C
+    text: $1$
+    figures: []
+  - label: D
+    text: $2$
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      下列二次型中，是正定二次型的是\ExamSelection
+  choices:
+  - label: A
+    text: $f_1(x_1,x_2,x_3,x_4)=(x_1-x_2)^2+(x_2-x_3)^2+(x_3-x_4)^2+(x_4-x_1)^2$
+    figures: []
+  - label: B
+    text: $f_2(x_1,x_2,x_3,x_4)=(x_1+x_2)^2+(x_2+x_3)^2+(x_3+x_4)^2+(x_4+x_1)^2$
+    figures: []
+  - label: C
+    text: $f_3(x_1,x_2,x_3,x_4)=(x_1-x_2)^2+(x_2+x_3)^2+(x_3-x_4)^2+(x_4+x_1)^2$
+    figures: []
+  - label: D
+    text: $f_4(x_1,x_2,x_3,x_4)=(x_1-x_2)^2+(x_2+x_3)^2+(x_3+x_4)^2+(x_4+x_1)^2$
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设随机变量 $X$ 服从区间 $[-2,2]$ 上的均匀分布，$Y=\min\{X,1\}$，则 $Y$ 的分布函数在 $(-\infty,+\infty)$ 内\ExamSelection
+  choices:
+  - label: A
+    text: 有且仅有一个间断点
+    figures: []
+  - label: B
+    text: 有两个间断点
+    figures: []
+  - label: C
+    text: 至多有一个间断点
+    figures: []
+  - label: D
+    text: 没有间断点
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设总体 $X\sim N(\mu,\sigma^2)$，$X_1,X_2,\cdots,X_n\ (n>1)$ 是来自总体 $X$ 的一个简单随机样本，记 $\overline X,S^2$ 分别是样本均值和样本方差，则 $\mathrm E[(\overline X S^2)^2]=\ExamSelection$
+  choices:
+  - label: A
+    text: |-
+      $\left(\dfrac{\sigma^2}{n}+\mu^2\right)\left(\dfrac{2\sigma^4}{n}+\sigma^4\right)$
+    figures: []
+  - label: B
+    text: |-
+      $\left(\dfrac{\sigma^2}{n}+\mu^2\right)\left(\dfrac{2\sigma^4}{n-1}+\sigma^4\right)$
+    figures: []
+  - label: C
+    text: |-
+      $\left(\dfrac{\sigma^2}{n-1}+\mu^2\right)\left(\dfrac{2\sigma^4}{n}+\sigma^4\right)$
+    figures: []
+  - label: D
+    text: |-
+      $\left(\dfrac{\sigma^2}{n-1}+\mu^2\right)\left(\dfrac{2\sigma^4}{n-1}+\sigma^4\right)$
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $X_1,X_2,\cdots,X_9$ 是来自总体 $N(1,\sigma^2)$ 的简单随机样本，$\overline X$ 为其样本均值，$S^2$ 为其样本方差。记统计量 $T=\dfrac{3(\overline X-1)}{S}$，若 $P\{-2<T<0\}=0.3$，则 $P\{T>2\}=\ExamSelection$
+  choices:
+  - label: A
+    text: $0.1$
+    figures: []
+  - label: B
+    text: $0.2$
+    figures: []
+  - label: C
+    text: $0.3$
+    figures: []
+  - label: D
+    text: $0.4$
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $y=y(x)$ 由方程 $\arctan xy+e^{2y}(\cos x+\sin x)=1$ 所确定，则 $\lim\limits_{x\to0}\left[\dfrac{1-y(x)}{1+y(x)}\right]^{\dfrac{1}{x}}=$\ExamBlank。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $\int_0^2|x-1|^3\sqrt{x^2-2x+2}\,\mathrm{d}x=$\ExamBlank。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $a_n=\int_0^1x(1-x)^{n-1}\,\mathrm{d}x$，则 $\sum\limits_{n=1}^{\infty}(-1)^na_n=$\ExamBlank。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      交换积分次序：$\int_1^2\mathrm{d}x\int_{x^2}^{x}f(x,y)\,\mathrm{d}y=$\ExamBlank。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $A=\begin{pmatrix}1&2&0\\2&0&2\\0&2&-1\end{pmatrix}$，若存在可逆矩阵 $C$ 使得 $C^{\mathrm T}AC=\begin{pmatrix}1&0&0\\0&-1&0\\0&0&0\end{pmatrix}$，则 $C=$\ExamBlank。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      现有两个报警系统 $A$ 和 $B$，每个报警系统单独使用时，系统 $A$ 有效的概率为 $0.9$，系统 $B$ 有效的概率也为 $0.9$。在 $A$ 失灵的条件下，$B$ 失灵的概率为 $0.2$，则在 $B$ 失灵的条件下，$A$ 有效的概率为\ExamBlank。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      设函数 $f(x,y)$ 可微，$f_y(x,y)=xf(x,y)$，$f(1,0)=1$，且当 $x\neq0$ 时，$\lim\limits_{h\to0}\left[\dfrac{f(x+h,0)}{f(x,0)}\right]^{\dfrac{1}{h}}=e^{\dfrac{1}{x}}$，求 $f(x,y)$ 的表达式。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 $f(x)$ 可导，$f(0)=0$ 且 $f'(\ln x)=\begin{cases}1,&0<x\leq1,\\\sqrt{x},&x>1.\end{cases}$
+  subparts:
+  - text: 求 $f(x)$ 的表达式；
+  - text: 记曲线 $y=f(x)$，$y=-f(-x)$ 及直线 $x=1$ 围成的位于第一象限内的图形为 $D$，求 $D$ 的面积。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: 设 $u=f(x,y)$ 的所有二阶偏导数连续，试将下列表达式转换为极坐标系中的形式。
+  subparts:
+  - text: |-
+      $\left(\dfrac{\partial u}{\partial x}\right)^2+\left(\dfrac{\partial u}{\partial y}\right)^2$；
+  - text: |-
+      $\dfrac{\partial^2u}{\partial x^2}+\dfrac{\partial^2u}{\partial y^2}$。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设平面区域 $D=\{(x,y)\mid 0\leq x\leq2,0\leq y\leq2\}$。
+  subparts:
+  - text: |-
+      求 $I=\iint_D|xy-1|\,\mathrm{d}x\mathrm{d}y$；
+  - text: |-
+      设 $f(x,y)$ 在 $D$ 上连续，且 $\iint_Df(x,y)\,\mathrm{d}x\mathrm{d}y=0$，$\iint_Dxyf(x,y)\,\mathrm{d}x\mathrm{d}y=1$。证明：$\exists(\xi,\eta)\in D$，使 $|f(\xi,\eta)|\geq\dfrac{1}{I}$。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $A,B$ 是 $3$ 阶矩阵，$AB=2A-B$，如果 $\lambda_1,\lambda_2,\lambda_3$ 是 $A$ 的 $3$ 个不同特征值。证明：
+  subparts:
+  - text: $AB=BA$；
+  - text: 存在可逆矩阵 $P$，使得 $P^{-1}AP$ 与 $P^{-1}BP$ 均为对角矩阵。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      进行独立重复试验，每次试验成功的概率为 $p\ (0<p<1)$，以 $X$ 表示第二次成功以前失败的次数，设 $X_1,X_2,\cdots,X_n$ 为来自总体 $X$ 的简单随机样本，试求未知参数 $p$ 的矩估计量和最大似然估计量。

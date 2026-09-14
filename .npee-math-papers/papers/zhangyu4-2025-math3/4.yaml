@@ -1,0 +1,303 @@
+schema_version: '3.0'
+paper:
+  series_key: zhangyu4
+  year: 2025
+  subject: math3
+  paper_no: 4
+content_hash: e63a48bab9ec2c6d14f27ede0cc574dd6f76dec973fc6df9370d29632355b75c
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知函数 $f(x)=\dfrac{\int_0^x\ln(1+t^2)\,\mathrm{d}t}{x^\alpha}$ 在 $(0,+\infty)$ 上有界，则 $\alpha$ 的取值范围是\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $-1<\alpha<3$
+    figures: []
+  - label: B
+    text: |-
+      $1<\alpha\leq 3$
+    figures: []
+  - label: C
+    text: |-
+      $0<\alpha\leq 3$
+    figures: []
+  - label: D
+    text: $a>3$
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $u(x,y)=f(x+y)+f(x-y)+\int_{x-y}^{x+y}g(t)\,\mathrm{d}t$，其中函数 $f,g$ 具有二阶导数，则\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{\partial^2u}{\partial x^2}=-\dfrac{\partial^2u}{\partial y^2}$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{\partial^2u}{\partial x^2}=\dfrac{\partial^2u}{\partial y^2}$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{\partial^2u}{\partial x\partial y}=\dfrac{\partial^2u}{\partial y^2}$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{\partial^2u}{\partial x\partial y}=\dfrac{\partial^2u}{\partial x^2}$
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设级数 $\sum_{n=1}^{\infty}a_n,\sum_{n=1}^{\infty}b_n$ 均收敛，$a_n\leq c_n\leq b_n$，$n=1,2,\cdots$，则\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\sum_{n=1}^{\infty}c_n$ 收敛
+    figures: []
+  - label: B
+    text: |-
+      $\sum_{n=1}^{\infty}c_n$ 发散
+    figures: []
+  - label: C
+    text: |-
+      $\sum_{n=1}^{\infty}a_nc_n$ 收敛
+    figures: []
+  - label: D
+    text: |-
+      $\sum_{n=1}^{\infty}a_nc_n$ 发散
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设数列 $\{a_n\},\{b_n\}$ 满足 $a_n+b_n=\dfrac{\pi}{2}$，$a_{n+1}=a_n+\cos a_n$，其中 $n=1,2,\cdots$，$a_1=1$，当 $n\to\infty$ 时，$b_n$ 与 $b_{n-1}^a$ 为同阶无穷小量，则 $a=$\ExamSelection。
+  choices:
+  - label: A
+    text: $1$
+    figures: []
+  - label: B
+    text: $2$
+    figures: []
+  - label: C
+    text: $3$
+    figures: []
+  - label: D
+    text: $5$
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $\mathbf A$ 为 $3\times4$ 矩阵，若 $\mathbf A\mathbf A^{\mathrm T}$ 的特征值之和为 $6$，$\mathbf A\mathbf A^{\mathrm T}$ 的每行元素之和均为 $2$，$\mathbf A^{\mathrm T}\mathbf A-\mathbf E$ 不可逆，则 $|\mathbf A^{\mathrm T}\mathbf A+\mathbf E|=$\ExamSelection。
+  choices:
+  - label: A
+    text: $6$
+    figures: []
+  - label: B
+    text: $24$
+    figures: []
+  - label: C
+    text: $-6$
+    figures: []
+  - label: D
+    text: $-24$
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $\alpha_1=(a,1,1)^{\mathrm T}$，$\alpha_2=(1,a,1)^{\mathrm T}$，$\alpha_3=(1,1,a)^{\mathrm T}$，$\alpha_4=(1,a,a)^{\mathrm T}$。若向量组 $\alpha_1,\alpha_2,\alpha_3$ 可由 $\alpha_1,\alpha_2,\alpha_4$ 线性表示，则 $a$ 的取值范围是\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\{a\mid a\in\mathbf R,a\neq0\}$
+    figures: []
+  - label: B
+    text: |-
+      $\{a\mid a\in\mathbf R,a\neq0,a\neq1\}$
+    figures: []
+  - label: C
+    text: |-
+      $\{a\mid a\in\mathbf R,a\neq-1\}$
+    figures: []
+  - label: D
+    text: |-
+      $\{a\mid a\in\mathbf R,a\neq1,a\neq-1\}$
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 为 $3$ 阶矩阵，$\alpha_1,\alpha_2$ 为 $A$ 的属于特征值 $1$ 的线性无关的特征向量，$\alpha_3$ 为 $A$ 的属于特征值 $-1$ 的特征向量，则满足 $\mathbf P^{-1}A\mathbf P=\begin{pmatrix}1&0&0\\0&-1&0\\0&0&1\end{pmatrix}$ 的可逆矩阵 $\mathbf P$ 不可能为\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $(\alpha_1+\alpha_2,-\alpha_3,\alpha_2)$
+    figures: []
+  - label: B
+    text: |-
+      $(-\alpha_2,\alpha_3,\alpha_1-\alpha_2)$
+    figures: []
+  - label: C
+    text: |-
+      $(\alpha_1-\alpha_2,-\alpha_3,-\alpha_2)$
+    figures: []
+  - label: D
+    text: |-
+      $(\alpha_1-\alpha_3,\alpha_2,-\alpha_3)$
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设随机变量 $X$ 与 $Y$ 相互独立，且 $X$ 服从标准正态分布 $N(0,1)$，$Y$ 的概率分布为 $P\{Y=0\}=P\{Y=1\}=\dfrac{1}{2}$，记 $F_Z(z)$ 为随机变量 $Z=XY$ 的分布函数，则 $F_Z(z)$\ExamSelection。
+  choices:
+  - label: A
+    text: 连续
+    figures: []
+  - label: B
+    text: 有一个不为零的间断点
+    figures: []
+  - label: C
+    text: 有一个间断点 $z=0$
+    figures: []
+  - label: D
+    text: 有两个间断点
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设总体 $X$ 和 $Y$ 相互独立，且都服从正态分布 $N(0,2)$，$X_1,X_2,\cdots,X_n$ 和 $Y_1,Y_2,\cdots,Y_n$ 分别是来自总体 $X$ 和 $Y$ 且容量都为 $n$（$n\geq2$）的两个简单随机样本，样本均值、样本方差分别为 $\overline X,S_X^2$ 和 $\overline Y,S_Y^2$，则下列选项中不正确的是\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $P\{\overline X\leq\overline Y\}=\dfrac{1}{2}$
+    figures: []
+  - label: B
+    text: |-
+      $P\{S_X^2\leq S_Y^2\}=\dfrac{1}{2}$
+    figures: []
+  - label: C
+    text: |-
+      $E\left(\dfrac{\overline X-\overline Y}{\sqrt{S_X^2+S_Y^2}}\right)=0$
+    figures: []
+  - label: D
+    text: $E(S_X^2+S_Y^2)=2$
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设随机事件 $A,B,C$ 同时发生的概率与 $A,B,C$ 同时不发生的概率相等。若 $P(A)=P(B)=P(C)=a$，$2P(ABC)=P(AB)+P(AC)+P(BC)-\dfrac{1}{2}$，则 $a=$\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{1}{2}$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{1}{3}$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{2}{3}$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{1}{4}$
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      已知 $\lim_{x\to0}\left[\dfrac{ax-\ln(1+x)}{x}\right]^{\dfrac{1}{x}}=\sqrt e$，则 $a=$\ExamBlank。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      以 $e^{-x},2xe^{-x},3e^x$ 为特解的三阶常系数齐次线性微分方程为\ExamBlank。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $\int_0^1\mathrm{d}y\int_{y^2}^1\dfrac{xy}{\sqrt{1+x^3}}\,\mathrm{d}x=$\ExamBlank。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设函数 $z=z(x,y)$ 由方程 $e^z+xy\cos z+x=1$ 确定，则 $\left.\mathrm{d}z\right|_{(0,0)}=$\ExamBlank。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $n$ 阶矩阵 $\mathbf A$ 满足 $|\mathbf A|=1$，其元素 $a_{ij}=-a_{ji}$，$i,j=1,2,\cdots,n$，$n$ 维列向量 $\mathbf x=(1,1,\cdots,1)^{\mathrm T}$，则 $\mathbf x^{\mathrm T}\mathbf A^*\mathbf x=$\ExamBlank。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设总体 $X$ 的概率分布为 $\begin{pmatrix}0&1&2&3\\\theta^2&2\theta(1-\theta)&\theta^2&1-2\theta\end{pmatrix}$，其中 $\theta\left(0<\theta<\dfrac{1}{2}\right)$ 是未知参数，从总体中随机抽取一组样本，其经验分布函数为 $F_4(x)=\begin{cases}0,&x<0,\\\dfrac{1}{4},&0\leq x<1,\\\dfrac{1}{2},&1\leq x<2,\\\dfrac{3}{4},&2\leq x<3,\\1,&x\geq3,\end{cases}$ 则 $\theta$ 的最大似然估计值为\ExamBlank。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      求曲线 $y=\dfrac{1+\int_0^{\dfrac{1}{x}}e^{t^2}\,\mathrm{d}t}{1-e^{\dfrac{1}{x}}}$（$x>0$）的斜渐近线。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      过点 $(0,1)$ 的曲线 $y=f(x)$ 满足 $yy'+y^2=\cos x$，求 $y=f(x)$ 与 $x=0$，$x=\dfrac{\pi}{2}$ 及 $x$ 轴所围成的平面有界区域 $D$ 绕 $x$ 轴旋转一周所得旋转体的体积。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $f(x)=\sum_{n=0}^{\infty}a_nx^n$，且满足 $\int_x^{2x}f(t)\,\mathrm{d}t=e^x-1$，计算 $\lim_{n\to\infty}(n!a_n)^{\dfrac{1}{n}}$。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 $f(x,y)$ 具有二阶连续偏导数，$D=\{(x,y)\mid0\leq x\leq1,0\leq y\leq1\}$，$f(x,1)=f(1,y)=a$，$\iint_Df(x,y)\,\mathrm{d}x\mathrm{d}y=b$，其中 $a,b$ 为常数，计算 $\iint_Dxyf_{yx}^{\prime\prime}(x,y)\,\mathrm{d}x\mathrm{d}y$。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $f(\mathbf x)=(\boldsymbol\alpha^{\mathrm T}\mathbf x)^2+2(\boldsymbol\beta^{\mathrm T}\mathbf x)^2$，其中 $\boldsymbol\alpha=\left(\dfrac{1}{\sqrt2},0,-\dfrac{1}{\sqrt2}\right)^{\mathrm T}$，$\boldsymbol\beta=\left(\dfrac{1}{\sqrt3},\dfrac{1}{\sqrt3},\dfrac{1}{\sqrt3}\right)^{\mathrm T}$，$\mathbf x=(x_1,x_2,x_3)^{\mathrm T}$。
+  subparts:
+  - text: |-
+      求正交矩阵 $\mathbf Q$，将 $f(\mathbf x)$ 化为标准形；
+  - text: |-
+      求一个实对称矩阵 $\mathbf P$，使 $f(\mathbf x)=(\mathbf P\mathbf x)^{\mathrm T}(\mathbf P\mathbf x)$。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: 在区间 $(0,2)$ 上随机取一点，将该区间分成两段，较短一段的长度记为 $X$，令 $Y=|3X-1|$，求：
+  subparts:
+  - text: $X$ 的概率密度；
+  - text: $E(Y)$。

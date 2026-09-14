@@ -1,0 +1,317 @@
+schema_version: '3.0'
+paper:
+  series_key: yubingsen5
+  year: 2025
+  subject: math3
+  paper_no: 2
+content_hash: ee501ea52d6b3bb8934d8bc93fcbaeebc3ee4f96cb3eff2f6d59b17edaba8820
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      关于 $x$ 的方程 $\int_0^x\sqrt{1+t^2}\,\mathrm{d}t+\int_{\cos x}^0 e^{-t^2}\,\mathrm{d}t=0$ 的根的个数为\ExamSelection。
+  choices:
+  - label: A
+    text: $0$
+    figures: []
+  - label: B
+    text: $1$
+    figures: []
+  - label: C
+    text: $2$
+    figures: []
+  - label: D
+    text: $3$
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $y=f(x)$ 在闭区间 $[a,b]$ 上有定义，对于命题：①若 $y=f$ 在 $[a,b]$ 上无界，则 $y=f(x)$ 在 $[a,b]$ 上必不连续；②若 $y=f$ 在 $[a,b]$ 上可导，则导函数 $f'(x)$ 在 $[a,b]$ 上必有界；③若 $y=f$ 在 $[a,b]$ 上可积，则 $y=f(x)$ 在 $[a,b]$ 上必存在原函数。则以上三个命题中正确的个数是\ExamSelection。
+  choices:
+  - label: A
+    text: $0$
+    figures: []
+  - label: B
+    text: $1$
+    figures: []
+  - label: C
+    text: $2$
+    figures: []
+  - label: D
+    text: $3$
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $p,q$ 为常数且 $0<p\leq q$，若反常积分 $\int_0^{+\infty}\dfrac{1}{x^p+x^q}\,\mathrm{d}x$ 收敛，则\ExamSelection。
+  choices:
+  - label: A
+    text: $p=q$
+    figures: []
+  - label: B
+    text: |-
+      $p<q\leq1$
+    figures: []
+  - label: C
+    text: $1<p<q$
+    figures: []
+  - label: D
+    text: $p<1<q$
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设微分方程 $y''+qy=0$，当 $x\to+\infty$ 时有趋于零的非零解，则\ExamSelection。
+  choices:
+  - label: A
+    text: $q>0$
+    figures: []
+  - label: B
+    text: $q=0$
+    figures: []
+  - label: C
+    text: $q<0$
+    figures: []
+  - label: D
+    text: |-
+      $q\leq0$
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $\mathbf A,\mathbf B$ 为 $n$ 阶方阵，$\mathbf E$ 为 $n$ 阶单位矩阵. 若 $\mathbf A$ 为可逆的对称矩阵，且 $(\mathbf A-\mathbf B)^2=\mathbf E$，则 $(\mathbf E+\mathbf A^{-1}\mathbf B^{\mathsf T})^{\mathsf T}(\mathbf E-\mathbf B\mathbf A^{-1})^{-1}=$\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $(\mathbf A-\mathbf B)(\mathbf A+\mathbf B)$
+    figures: []
+  - label: B
+    text: |-
+      $(\mathbf A+\mathbf B)(\mathbf A-\mathbf B)$
+    figures: []
+  - label: C
+    text: |-
+      $(\mathbf B+\mathbf A)(\mathbf B-\mathbf A)$
+    figures: []
+  - label: D
+    text: |-
+      $(\mathbf B-\mathbf A)(\mathbf B+\mathbf A)$
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\cdots,\boldsymbol{\alpha}_r$ 是 $n\times r$ 矩阵 $\mathbf A$ 的列向量组，$\boldsymbol{\beta}_1,\boldsymbol{\beta}_2,\cdots,\boldsymbol{\beta}_s$ 是 $s$ 个 $n$ 维列向量. 若线性方程组 $\mathbf A\mathbf x=\boldsymbol{\beta}_i,\ i=1,2,\cdots,s$ 均有解，则下列成立的是\ExamSelection（公众号：风中羽小易）。
+  choices:
+  - label: A
+    text: |-
+      若向量组 $\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\cdots,\boldsymbol{\alpha}_r$ 线性无关，则 $r\geq s$
+    figures: []
+  - label: B
+    text: |-
+      若向量组 $\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\cdots,\boldsymbol{\alpha}_r$ 线性相关，则 $r<s$
+    figures: []
+  - label: C
+    text: |-
+      若向量组 $\boldsymbol{\beta}_1,\boldsymbol{\beta}_2,\cdots,\boldsymbol{\beta}_s$ 线性无关，则 $r\geq s$
+    figures: []
+  - label: D
+    text: |-
+      若向量组 $\boldsymbol{\beta}_1,\boldsymbol{\beta}_2,\cdots,\boldsymbol{\beta}_s$ 线性相关，则 $r<s$
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $\mathbf A$ 是 $n$ 阶正定矩阵，$\mathbf B$ 是 $n\times m$ 实矩阵，则 $\mathbf B^{\mathsf T}\mathbf A\mathbf B$ 是正定矩阵的充要条件是\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $r(\mathbf B)=m$
+    figures: []
+  - label: B
+    text: |-
+      $r(\mathbf B)=n$
+    figures: []
+  - label: C
+    text: |-
+      $r(\mathbf B)<m$
+    figures: []
+  - label: D
+    text: |-
+      $r(\mathbf B)<n$
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设随机事件 $A,B,C$ 两两独立，且 $P(A)=P(B)=\dfrac{1}{2}$，$P(C)=\dfrac{1}{3}$，$P(AB\mid C)=\dfrac{1}{3}$，则在 $A$ 发生的条件下 $B$ 与 $C$ 都不发生的概率是\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{1}{3}$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{2}{3}$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{7}{9}$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{7}{18}$
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设随机变量 $X\sim N(-1,1)$，其分布函数为 $F(x)$，$\Phi(x)$ 为标准正态分布的分布函数，则下列不正确的选项是\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $P\{X<-4\}=1-F(2)$
+    figures: []
+  - label: B
+    text: |-
+      $P\{X>-4\}=\Phi(3)$
+    figures: []
+  - label: C
+    text: |-
+      $E\left(Xe^X\right)=0$
+    figures: []
+  - label: D
+    text: |-
+      $E\left(e^X\right)=e^{-1}$
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $X_1,X_2,\cdots,X_n(n>1)$ 是来自总体 $X\sim N(\mu,\sigma^2)$ 的简单随机样本，其中 $\mu$ 未知，$\overline X$ 是样本均值，则下列选项中，满足数学期望为 $\sigma^2$ 的统计量的是\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{1}{n}\sum_{i=1}^n(X_i-\overline X)^2$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{1}{n}\sum_{i=1}^n(X_i-\mu)^2$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{1}{n-1}\sum_{i=1}^{n-1}(X_{i+1}-X_i)^2$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{1}{2(n-1)}\sum_{i=1}^{n-1}(X_{i+1}-X_i)^2$
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      函数 $f(x)=\dfrac{\left(e^{1/x}+e\right)^{\tan x}}{x\left(e^{1/x}-e\right)}$ 在 $[-\pi,\pi]$ 上的第一类间断点是\ExamBlank。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $\lim_{n\to\infty}\left\{\left[1+\dfrac{1}{n^2}\right]\left[1+\dfrac{2^2}{n^2}\right]\cdots\left[1+\dfrac{(n-1)^2}{n^2}\right]\right\}^{1/n}=$\ExamBlank。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      已知某产品的需求函数为 $P=10-\dfrac{Q}{5}$，成本函数为 $C=50+2Q$，则总利润最大时的产量 $Q=$\ExamBlank。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $u(x,y)=\int_0^1 f(t)\lvert xy-t\rvert\,\mathrm{d}t$，其中 $f(x)$ 在 $[0,1]$ 上连续，$0\leq x\leq1,0\leq y\leq1$，则 $\dfrac{\partial^2u}{\partial x^2}=$\ExamBlank。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $\mathbf A$ 为三阶实矩阵，$\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3$ 为线性无关的三维列向量，且 $\mathbf A\boldsymbol{\alpha}_1=\boldsymbol{\alpha}_1+\boldsymbol{\alpha}_2,\mathbf A\boldsymbol{\alpha}_2=\boldsymbol{\alpha}_2+\boldsymbol{\alpha}_3,\mathbf A\boldsymbol{\alpha}_3=\boldsymbol{\alpha}_1+\boldsymbol{\alpha}_3$，则 $\lvert\mathbf A\rvert=$\ExamBlank。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $X_1,X_2,\cdots,X_n$ 为来自总体 $X\sim N(1,1)$ 的简单随机样本，$\overline X$ 为样本均值. 对任意的常数 $\alpha(0<\alpha<1)$，自由度为 $n$ 的 $\chi^2$ 分布的上侧 $\alpha$ 分位点 $\chi_\alpha^2(n)$ 定义为 $P\{\chi^2>\chi_\alpha^2(n)\}=\alpha$，则 $P\left\{\chi_{0.9}^2(n-1)<\sum_{i=1}^n(X_i-\overline X)^2<\chi_{0.2}^2(n-1)\right\}=$\ExamBlank。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      设 $F(x)=\int_0^x\dfrac{t-\arctan t}{t}\,\mathrm{d}t,G(x)=\int_0^x\dfrac{\arcsin t-t}{t}\,\mathrm{d}t$，试求：
+  subparts:
+  - text: |-
+      $\lim_{x\to0}\dfrac{F(x)}{x^3}$；
+  - text: |-
+      $\lim_{x\to0}\dfrac{G(x)}{x^3}$；
+  - text: |-
+      $\lim_{x\to0}\dfrac{F[G(x)]}{G[F(x)]}$。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: 求函数 $f(x,y)=3(x-2y)^2+x^3-8y^3$ 的极值。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: （公众号：风中羽小易）
+  subparts:
+  - text: |-
+      计算 $I=\int_0^{1/2}\mathrm{d}y\int_y^{1/2}\dfrac{\ln(1+x)}{x}\,\mathrm{d}x$；
+  - text: |-
+      求 $\dfrac{\ln(1+x)}{x}$ 关于 $x$ 的幂级数展开式，并利用（1）求 $\sum_{n=1}^{\infty}(-1)^{n-1}\dfrac{1}{n(n+1)}\dfrac{1}{2^n}$ 的和。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $0<x<y<\dfrac{\pi}{2}$，证明 $(y-x)(\cot y+\cot x)>2(\ln\sin y-\ln\sin x)$。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设实矩阵 $\mathbf A=\begin{pmatrix}0&-1&4\\-1&3&a\\4&a&b\end{pmatrix}$，已知二次型 $\mathbf x^{\mathsf T}\mathbf A\mathbf x$ 可以经过正交变换 $\mathbf x=\mathbf Q\mathbf y$ 化为标准形，且 $\mathbf Q$ 的第一列为 $\dfrac{1}{\sqrt6}(1,2,1)^{\mathsf T}$，求：
+  subparts:
+  - text: 常数 $a,b$ 的值；
+  - text: |-
+      一个正交矩阵 $\mathbf Q$，使得 $\mathbf Q^{-1}\mathbf A\mathbf Q$ 为对角矩阵；
+  - text: |-
+      判断二次型 $\mathbf x^{\mathsf T}(\mathbf A+4\mathbf E)\mathbf x$ 是否为正定二次型，并说明理由。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设总体 $X$ 的密度函数为 $f(x)=\begin{cases}ax,&0\leq x<2,\\\dfrac{b}{x},&2\leq x\leq4,\\0,&\text{其他},\end{cases}$，其中正数 $a,b$ 均未知，样本观察值为 $\dfrac32,\dfrac{12}{5},\dfrac13,\dfrac45,\dfrac83,\dfrac52,\dfrac34,\dfrac54$。
+  subparts:
+  - text: |-
+      分别求 $a,b$ 的最大似然估计值 $\hat a,\hat b$；
+  - text: |-
+      令 $Y=\begin{cases}2X+1,&X\leq1,\\4-X,&1<X<3,\\2X-5,&X\geq3,\end{cases}$，求 $p=P\left\{Y\geq\dfrac14X^2+1\right\}$ 的最大似然估计值 $\hat p$。

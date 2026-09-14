@@ -1,0 +1,325 @@
+schema_version: '3.0'
+paper:
+  series_key: zhangyu4
+  year: 2024
+  subject: math2
+  paper_no: 1
+content_hash: 96b6e40b79e21556f55ec00c22b2d058eec0ba25b3b61c3070d37d85ac673518
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x)$ 在 $x=0$ 的某邻域内有定义，且 $\lim_{x\to 0}\dfrac{x-f(x)}{\sin x}=1$，则\ExamSelection
+  choices:
+  - label: A
+    text: $f(0)=0$。
+    figures: []
+  - label: B
+    text: |-
+      $\lim_{x\to 0}f(x)=f(0)$。
+    figures: []
+  - label: C
+    text: |-
+      $\lim_{x\to 0}\dfrac{f(x)}{x}=1$。
+    figures: []
+  - label: D
+    text: |-
+      当 $x\to 0$ 时，$f(x)$ 是 $x$ 的高阶无穷小。
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)=\int_0^1t\lvert t-x\rvert\,\mathrm{d}t$，则\ExamSelection
+  choices:
+  - label: A
+    text: $f'(0)$ 存在，但 $f'(x)$ 在 $x=0$ 处不连续。
+    figures: []
+  - label: B
+    text: $f'(x)$ 在 $x=0$ 处连续，但 $f''(0)$ 不存在。
+    figures: []
+  - label: C
+    text: $f'(1)$ 存在，但 $f'(x)$ 在 $x=1$ 处不连续。
+    figures: []
+  - label: D
+    text: $f'(x)$ 在 $x=1$ 处连续，但 $f''(1)$ 不存在。
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x)$ 可导，则给定 $a<b$，均有 $\dfrac{1}{b-a}\int_a^bf(x)\,\mathrm{d}x=f\left(\dfrac{a+b}{2}\right)$ 是 $f(x)$ 为直线的\ExamSelection
+  choices:
+  - label: A
+    text: 充分不必要条件。
+    figures: []
+  - label: B
+    text: 必要不充分条件。
+    figures: []
+  - label: C
+    text: 充要条件。
+    figures: []
+  - label: D
+    text: 既不充分也不必要条件。
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      $\lim_{n\to\infty}\dfrac{1}{n}\sum_{i=1}^n\int_1^{i/n}\dfrac{\sin x}{x}\,\mathrm{d}x=$\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $1-2\cos 1$。
+    figures: []
+  - label: B
+    text: |-
+      $\cos 1-1$。
+    figures: []
+  - label: C
+    text: |-
+      $1-2\sin 1$。
+    figures: []
+  - label: D
+    text: |-
+      $\sin 1-1$。
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      曲线 $r=\sqrt{2}e^\theta$ 在 $\theta=\pi$ 所对应点的切线方程为\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $y=x+\sqrt{2}e^\pi$。
+    figures: []
+  - label: B
+    text: |-
+      $y=x-\sqrt{2}e^\pi$。
+    figures: []
+  - label: C
+    text: |-
+      $y=x+e^\pi$。
+    figures: []
+  - label: D
+    text: |-
+      $y=x-e^\pi$。
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $\{a_n\}$ 为非零数列，则下列命题正确的是\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      若 $\{\sin a_n\}$ 收敛，则 $\{a_n\}$ 收敛。
+    figures: []
+  - label: B
+    text: |-
+      若 $\{\arcsin(\sin a_n)\}$ 收敛，则 $\{a_n\}$ 收敛。
+    figures: []
+  - label: C
+    text: |-
+      若 $\{a_n\}$ 收敛，则 $\{\sin a_n\}$ 收敛。
+    figures: []
+  - label: D
+    text: |-
+      若 $\{a_n\}$ 收敛，则 $\{\sin\dfrac{1}{a_n}\}$ 收敛。
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设某河流宽为 $2$，两岸是平行直线，如图所示，船只从点 $O(0,0)$ 出发，速度大小为 $1$，方向始终垂直于河岸，河中任一点处的水流速度大小与该点到两岸的距离的乘积成正比，比例系数为 $1$，则船只的航行路线方程为\ExamSelection
+    figures:
+    - kind: tikz
+      latex: |-
+        \begin{tikzpicture}[scale=0.75]\draw[->] (0,0)--(4.2,0) node[right] {$x$};\draw[->] (0,0)--(0,2.8) node[above] {$y$};\draw (0,2)--(4,2);\node[left] at (0,2) {$2$};\node[below left] at (0,0) {$O$};\draw[->] plot[smooth] coordinates {(0,0) (0.45,0.35) (1.3,0.55) (2.2,0.62) (3.1,0.66)};\fill (3.1,0.66) circle (2pt) node[below right] {$P(x,y)$};\fill (3.1,2) circle (2pt) node[above right] {$A$};\end{tikzpicture}
+      path:
+      description: 平行河岸、坐标轴、航行曲线及点 A、P(x,y)
+      exception_reason:
+  choices:
+  - label: A
+    text: |-
+      $x=y^3-\dfrac{y^2}{3}$。
+    figures: []
+  - label: B
+    text: |-
+      $x=y^2-\dfrac{y^3}{3}$。
+    figures: []
+  - label: C
+    text: |-
+      $y=x^3-\dfrac{x^2}{3}$。
+    figures: []
+  - label: D
+    text: |-
+      $y=x^2-\dfrac{x^3}{3}$。
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知 $\alpha_1,\alpha_2,\alpha_3,\alpha_4$ 是 $3$ 维非零列向量，则下列命题中：①若 $\alpha_4$ 可由 $\alpha_1,\alpha_2,\alpha_3$ 线性表示，则 $\alpha_1,\alpha_2,\alpha_3+\alpha_4$ 线性无关；②若 $\alpha_4$ 可由 $\alpha_1,\alpha_2,\alpha_3$ 线性表示，则 $r(\alpha_1+\alpha_2,\alpha_2,\alpha_3)=r(\alpha_1,\alpha_2,\alpha_3,\alpha_4)$；③若 $\alpha_4$ 不能由 $\alpha_1,\alpha_2,\alpha_3$ 线性表示，则 $\alpha_1,\alpha_2,\alpha_3$ 线性相关；④若 $\alpha_4$ 不能由 $\alpha_1,\alpha_2,\alpha_3$ 线性表示，则 $2\leq r(\alpha_1,\alpha_2,\alpha_3,\alpha_4)\leq 3$。正确命题的个数为\ExamSelection
+  choices:
+  - label: A
+    text: $1$。
+    figures: []
+  - label: B
+    text: $2$。
+    figures: []
+  - label: C
+    text: $3$。
+    figures: []
+  - label: D
+    text: $4$。
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 是 $n$ 阶（$n\geq 2$）可逆矩阵，将 $A$ 的第 $1$ 行的 $(-1)$ 倍加到第 $2$ 行得 $B$，则\ExamSelection
+  choices:
+  - label: A
+    text: 将 $A^*$ 的第 $1$ 列的 $(-1)$ 倍加到第 $2$ 列得 $B^*$。
+    figures: []
+  - label: B
+    text: 将 $A^*$ 的第 $2$ 列的 $1$ 倍加到第 $1$ 列得 $B^*$。
+    figures: []
+  - label: C
+    text: 将 $A^*$ 的第 $1$ 列的 $(-1)$ 倍加到第 $2$ 列得 $-B^*$。
+    figures: []
+  - label: D
+    text: 将 $A^*$ 的第 $2$ 列的 $1$ 倍加到第 $1$ 列得 $-B^*$。
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知 $A=\begin{pmatrix}1&1\\0&1\end{pmatrix},B=\begin{pmatrix}1&-1\\0&1\end{pmatrix},C,D$ 均为 $2$ 阶方阵，则\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\left|\begin{matrix}A&C\\B&D\end{matrix}\right|=|AD-BC|$。
+    figures: []
+  - label: B
+    text: |-
+      $\left|\begin{matrix}A&C\\B&D\end{matrix}\right|=|A||D-CA^{-1}B|$。
+    figures: []
+  - label: C
+    text: |-
+      $|E-AB|\ne|E-BA|$。
+    figures: []
+  - label: D
+    text: |-
+      $|D-CA^{-1}B||A|\ne|DA-CB|$。
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x)=\tan x-\dfrac{x^2}{1+ax}$，且 $f'''(0)=1$，则 $a=$ \ExamBlank。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $f(x)=\int_0^x\dfrac{t}{t^2+2t+2}\,\mathrm{d}t$ 在 $[0,1]$ 上的最大值为 \ExamBlank。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      曲线 $y=\dfrac{1}{9}\int_0^3x\sqrt{9-x^2}t^2\,\mathrm{d}t(x\geq 0)$ 的长度为 \ExamBlank。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      平面区域 $D=\left\{(x,y)\middle|\dfrac{1}{1+x^2}\leq y\leq\dfrac{1}{\sqrt{1+x^2}}\right\}$ 绕 $x$ 轴旋转一周形成的旋转体体积为 \ExamBlank。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $f(x,y)=\begin{cases}\dfrac{1-e^{-xy}}{x},&x\ne 0,\\y,&x=0,\end{cases}$，则 $\lim_{x\to 0}\left[\dfrac{\partial f(x,y)}{\partial x}-\dfrac{\partial f(0,1)}{\partial x}\right]=$ \ExamBlank。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      已知矩阵 $A=\begin{pmatrix}2&1&-1&1\\-1&2&1&1\\1&1&2&-1\\2&-1&1&1\end{pmatrix}$，则 $(A^2-A-2E)(A+E)^{-1}=$ \ExamBlank。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      设曲线 $s(x)=\int_0^x|\sin t|\,\mathrm{d}t(x>0)$。
+  subparts:
+  - text: |-
+      计算 $\lim_{x\to+\infty}\dfrac{s(x)}{x}$；
+  - text: 曲线 $s(x)$ 是否有斜渐近线？若有，求之；若没有，说明理由。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $f(x)$ 在 $[0,+\infty)$ 上二阶可导，$f''(x)<0$，任取 $0<x_1<x_2$，证明：
+  subparts:
+  - text: |-
+      $f(x_2)-f(x_1)=f'(\xi_2)x_2-f'(\xi_1)x_1$，其中 $0<\xi_1<x_1,0<\xi_2<x_2$，且 $\xi_1,\xi_2$ 均唯一；
+  - text: |-
+      在（1）的条件下，$\xi_1<\xi_2$。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: 已知回曲线 $L:y=y(x)$ 位于 $x$ 轴上方区域内，$y=y(x)$ 二阶可导，且 $L$ 上任一点 $P$ 处的法线与 $x$ 轴相交，其交点记为 $Q$，如果点 $P$ 处的曲率半径始终等于线段 $PQ$ 之长，并且 $L$ 在点 $(0,1)$ 处的切线与 $y$ 轴垂直，求：
+  subparts:
+  - text: $y=y(x)$ 的表达式；
+  - text: |-
+      $f(x)=\int_0^xy(t)\,\mathrm{d}t$ 的拐点。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 $f(x)=\ln\dfrac{e^x-1}{x}(x>0)$，数列 $\{x_n\}$ 满足 $x_{n+1}=f(x_n),n=1,2,\cdots$，且 $x_1=1$。证明：
+  subparts:
+  - text: $0<f(x)<x$；
+  - text: |-
+      $\{x_n\}$ 收敛，并求 $\lim_{n\to\infty}x_n$。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 $z=f(x,y)$ 一阶偏导数连续，且在平面任意有界区域 $D$ 上均有 $\iint_D(f'_x)^2\,\mathrm{d}\sigma=\iint_D[2xz f'_x-(xz)^2]\,\mathrm{d}\sigma$ 成立，且 $f(0,y)=e^{y^2/2}$，求：
+  subparts:
+  - text: $z=f(x,y)$ 的表达式；
+  - text: |-
+      $\dfrac{\ln z}{z}$ 的极值。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设多项式 $f(x_1,x_2,x_3)=x_1^2+x_2^2+x_3^2-2x_1x_3+x_2+\dfrac{1}{4}$。
+  subparts:
+  - text: 写出该多项式的二次型部分的矩阵 $A$；
+  - text: |-
+      求正交矩阵 $Q$，使得 $Q^TAQ=\Lambda$；
+  - text: 求 $f(x_1,x_2,x_3)=0$ 的解。

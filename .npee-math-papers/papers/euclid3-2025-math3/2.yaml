@@ -1,0 +1,312 @@
+schema_version: '3.0'
+paper:
+  series_key: euclid3
+  year: 2025
+  subject: math3
+  paper_no: 2
+content_hash: 71a304abaa518642bd93c8084031f7359143ef735417ee5618db1a58f62b9cc4
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)=x^3+ax^2+bx+1$，若 $f(x)$ 没有极值点，$(1,f(1))$ 是 $f(x)$ 的拐点，则\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $a=-3\text{，}b\leq3$
+    figures: []
+  - label: B
+    text: |-
+      $a=3\text{，}b\geq3$
+    figures: []
+  - label: C
+    text: |-
+      $a=-3\text{，}b\geq3$
+    figures: []
+  - label: D
+    text: |-
+      $a=3\text{，}b\leq3$
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      以 $y=e^x\cos x+x$ 为特解的最低阶常系数齐次线性微分方程为\ExamSelection
+  choices:
+  - label: A
+    text: $y'''-2y''+2y'=0$
+    figures: []
+  - label: B
+    text: $y^{(4)}+2y'''+2y''=0$
+    figures: []
+  - label: C
+    text: $y^{(4)}-2y'''+2y''=0$
+    figures: []
+  - label: D
+    text: $y^{(5)}-4y^{(4)}+8y'''-8y''=0$
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $\sum_{n=1}^{\infty}\dfrac{(x-a)^n}{n^{1+\dfrac{1}{n}}}$ 在 $x=0$ 处条件收敛，则 $\sum_{n=1}^{\infty}\dfrac{(x-a)^n}{n^{\dfrac{1}{n}}}$ 在 $x=\ln3$ 处\ExamSelection
+  choices:
+  - label: A
+    text: 绝对收敛
+    figures: []
+  - label: B
+    text: 条件收敛
+    figures: []
+  - label: C
+    text: 发散
+    figures: []
+  - label: D
+    text: 敛散性与 $a$ 有关
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设曲线 $f(x)=ax+b-\left(\dfrac{1}{4}-x^2\right)$，在区间 $\left[0,\dfrac{1}{2}\right]$ 上 $f(x)\geq0$，则当积分 $\int_0^{\dfrac{1}{2}}f(x)\,\mathrm{d}x$ 最小时\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $a=-\dfrac{1}{2}\text{，}b=\dfrac{5}{16}$
+    figures: []
+  - label: B
+    text: |-
+      $a=-\dfrac{1}{\sqrt{2}}\text{，}b=\dfrac{1}{\sqrt{6}}$
+    figures: []
+  - label: C
+    text: |-
+      $a=-\dfrac{1}{\sqrt{3}}\text{，}b=\dfrac{1}{3}$
+    figures: []
+  - label: D
+    text: |-
+      $a=-\dfrac{1}{6}\text{，}b=\dfrac{1}{3}$
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 是 $m\times n$ 矩阵，$B$ 是 $n\times m$ 矩阵（$m>n$），则下列选项错误的是\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $r(AA^{\mathrm{T}}A)=r(A)$
+    figures: []
+  - label: B
+    text: |-
+      $r(AA^{\mathrm{T}},A)=r(A)$
+    figures: []
+  - label: C
+    text: 若 $r(AB)=r(B)$，则 $r(A)=n$
+    figures: []
+  - label: D
+    text: 若 $r(AB)=r(B)$，则 $ABx=0$ 与 $Bx=0$ 同解
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $\alpha_1\text{，}\alpha_2\text{，}\alpha_3\text{，}\alpha_4$ 为 $4$ 维列向量，$[\alpha_1\text{，}\alpha_2\text{，}\alpha_3\text{，}\alpha_4]$ 经过初等行变换化为 $\begin{pmatrix}1&1&1&1\\0&1&2&a\\0&0&b&0\\0&0&0&0\end{pmatrix}$，其中 $ab=0$，则下列不可能是向量组 $\alpha_1\text{，}\alpha_2\text{，}\alpha_3\text{，}\alpha_4$ 的极大无关组的是\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\alpha_2\text{，}\alpha_3\text{，}\alpha_4$
+    figures: []
+  - label: B
+    text: |-
+      $\alpha_1\text{，}\alpha_3\text{，}\alpha_4$
+    figures: []
+  - label: C
+    text: |-
+      $\alpha_2\text{，}\alpha_4$
+    figures: []
+  - label: D
+    text: |-
+      $\alpha_3\text{，}\alpha_4$
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知 $4$ 阶方阵 $A=[\alpha_1\text{，}\alpha_2\text{，}\alpha_3\text{，}\alpha_4]$，$\alpha_1\text{，}\alpha_2\text{，}\alpha_3\text{，}\alpha_4$ 均为 $4$ 维列向量，$A$ 有三个不同的特征值，若 $\beta=\alpha_1+2\alpha_2+3\alpha_3+4\alpha_4=\alpha_1+\alpha_2+\alpha_3+\alpha_4=\alpha_2+3\alpha_3+2\alpha_4$，则 $Ax=\beta$ 的通解中满足 $x_1=x_3\text{，}3x_2=x_4$ 条件的解为 $x=$\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\begin{pmatrix}1\\2\\1\\6\end{pmatrix}$
+    figures: []
+  - label: B
+    text: |-
+      $\begin{pmatrix}2\\-2\\2\\-6\end{pmatrix}$
+    figures: []
+  - label: C
+    text: |-
+      $\begin{pmatrix}-1\\-2\\-1\\-6\end{pmatrix}$
+    figures: []
+  - label: D
+    text: |-
+      $\begin{pmatrix}-2\\1\\-2\\3\end{pmatrix}$
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A\text{，}B\text{，}C$ 为随机事件，$P(C)>0$，则\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $P(B-C)\geq P(A)+P(B)-P(A\overline{B}\overline{C})$
+    figures: []
+  - label: B
+    text: |-
+      $P(B\cup C)\geq P(AB)+P(AC)-P(BC)$
+    figures: []
+  - label: C
+    text: |-
+      $P(ABC)\geq P(A)+P(B)+P(C)-\dfrac{3}{2}$
+    figures: []
+  - label: D
+    text: |-
+      $P(AB\mid C)\geq P(A\mid C)+P(B\mid C)-\dfrac{1}{2}$
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知 $(X\text{，}Y)$ 服从二维正态分布 $N(0\text{，}0\text{；}\sigma^2\text{，}\sigma^2\text{；}\rho)$，其中 $\sigma>0\text{，}\rho\ne0$，则随机变量 $X+Y$ 与 $X-Y$ 一定\ExamSelection
+  choices:
+  - label: A
+    text: 相互独立且服从同一分布
+    figures: []
+  - label: B
+    text: 相互独立但服从于不同分布
+    figures: []
+  - label: C
+    text: 不相互独立但服从同一分布
+    figures: []
+  - label: D
+    text: 不相互独立且不服从于同一分布
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知随机变量 $X$ 的密度函数为 $f_X(x)=\begin{cases}\theta x^{\theta-1}\text{，}&0<x<1\text{，}\\0\text{，}&\text{其他}\text{，}\end{cases}$，$\theta>0$，则 $Y=-\dfrac{1}{2}\ln\lvert F(X)-1\rvert$ 的概率密度函数为\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $f_Y(y)=\begin{cases}\dfrac{1}{2}e^{-\dfrac{y}{2}}\text{，}&y>0\text{，}\\0\text{，}&\text{其他}\text{，}\end{cases}$
+    figures: []
+  - label: B
+    text: |-
+      $f_Y(y)=\begin{cases}2e^{-2y}\text{，}&y>0\text{，}\\0\text{，}&\text{其他}\text{，}\end{cases}$
+    figures: []
+  - label: C
+    text: |-
+      $f_Y(y)=\begin{cases}\dfrac{1}{3}e^{-\dfrac{y}{3}}\text{，}&y>0\text{，}\\0\text{，}&\text{其他}\text{，}\end{cases}$
+    figures: []
+  - label: D
+    text: |-
+      $f_Y(y)=\begin{cases}3e^{-3y}\text{，}&y>0\text{，}\\0\text{，}&\text{其他}\text{，}\end{cases}$
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x)=\begin{cases}(\sec x)^{\dfrac{1}{x^2}}\text{，}&-\dfrac{\pi}{2}<x<0\text{，}\\\dfrac{\ln\left(x+\sqrt{1+x^2}\right)-x}{x}\text{，}&0<x<\dfrac{\pi}{2}\text{，}\end{cases}$ 已知极限 $\lim_{x\to0}[k\arctan e^{\dfrac{1}{x}}+f(x)]$ 存在，则 $k=$\ExamBlank。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)=[(e^x-1)(e^{2x}-2)\cdots(e^{nx}-n)]^2$，其中 $n$ 为正整数，则 $f''(0)=$\ExamBlank。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $y=y(x)$ 是由方程 $y+xe^y=0$ 所确定的函数，$D$ 是由曲线 $y=y(x)$ 与两条直线 $x=e\text{，}y=0$ 围成的平面区域，则 $D$ 绕 $x$ 轴旋转一周所生成的旋转体体积为\ExamBlank。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      已知 $\dfrac{1}{(3-x)^2}=\sum_{n=0}^{\infty}a_n(x-1)^n$，其中 $x\in(-1\text{，}3)$，则 $\sum_{n=0}^{\infty}a_{2n}=$\ExamBlank。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 是 $3$ 阶实对称矩阵，$E-A$ 可经初等行变换化为矩阵 $\begin{pmatrix}1&0&1\\0&0&0\\0&0&0\end{pmatrix}$，设二次型 $f(x_1\text{，}x_2\text{，}x_3)=x^{\mathrm{T}}Ax$，则 $f(2\text{，}-1\text{，}-2)=$\ExamBlank。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设二维随机变量 $(X\text{，}Y)$ 的概率密度为 $f(x\text{，}y)=\begin{cases}\dfrac{1}{4}\text{，}&-1<x<1\text{，}-1<y<1\text{，}\\0\text{，}&\text{其他}\text{，}\end{cases}$，$[x]$ 指不超过 $x$ 的最大整数，则 $E(\min\{[X]\text{，}Y\})=$\ExamBlank。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      设函数 $f(x)\text{，}g(x)$ 满足 $f'(x)-g(x)+2\int_0^x f(t)\,\mathrm{d}t=0\text{，}g'(x)+2f(x)=0$，且 $f(0)=1\text{，}g(0)=-2$。
+  subparts:
+  - text: 求 $f(x)$ 的表达式；
+  - text: |-
+      求 $\int_0^{+\infty}[f(x)+g(x)]e^{-2x}\,\mathrm{d}x$。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设区域 $D=\{(x\text{，}y)\mid x^2+y^2\leq4\text{，}y\geq0\}$，证明：$4\pi\leq\iint_D\sqrt{x^2+2y^2-x^2y^2+4}\,\mathrm{d}x\mathrm{d}y\leq4\sqrt{3}\pi$。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $D$ 是由曲线 $y=1+\sqrt{1-x^2}$ 和直线 $y=-x\text{，}x=1$ 所围成的闭区域，连续函数 $f(x\text{，}y)$ 满足 $f(x\text{，}y)=xy^2+x\iint_Df(x\text{，}y)\,\mathrm{d}\sigma$，求 $\iint_D\dfrac{xyf(x\text{，}y)}{(x^2+y^2)^2}\,\mathrm{d}\sigma$。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $f(x)$ 在区间 $[0\text{，}1]$ 上可导且 $\int_0^1f(x)\,\mathrm{d}x=0$。
+  subparts:
+  - text: |-
+      若 $\lvert f(x)\rvert\leq1$，证明 $\left\lvert\int_0^xf(t)\,\mathrm{d}t\right\rvert\leq\dfrac{1}{2}$；
+  - text: |-
+      若 $\lvert f'(x)\rvert\leq1$，证明 $\left\lvert\int_0^xf(t)\,\mathrm{d}t\right\rvert\leq\dfrac{1}{8}$。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $3$ 阶实对称矩阵 $A$ 的对角线元素之和为 $2$，且满足 $EA^2=A\text{，}A(\alpha_1+\alpha_2)=\alpha_2$，其中 $\alpha_1=(1\text{，}a\text{，}0)^{\mathrm{T}}\text{，}\alpha_2=(1\text{，}-1\text{，}a)^{\mathrm{T}}$ 是 $A$ 的特征向量。
+  subparts:
+  - text: 求参数 $a$ 的值；
+  - text: |-
+      记 $x=(x_1\text{，}x_2\text{，}x_3)^{\mathrm{T}}$，$A^*$ 为 $A$ 的伴随矩阵，求方程 $x^{\mathrm{T}}A^*x=0$ 的全部解。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $X$ 的分布函数为 $F_X(x)=\begin{cases}0\text{，}&x<0\text{，}\\p^2\text{，}&0\leq x<1\text{，}\\2p-p^2\text{，}&1\leq x<2\text{，}\\1\text{，}&x\geq2\text{，}\end{cases}$，$0<p<1$，$X_1\text{，}X_2\text{，}\cdots\text{，}X_n$ 是来自总体 $X$ 的简单随机样本。
+  subparts:
+  - text: 求 $p$ 的矩估计量；
+  - text: 求 $p$ 的最大似然估计量。

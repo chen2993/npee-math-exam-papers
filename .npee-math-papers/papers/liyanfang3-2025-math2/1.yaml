@@ -1,0 +1,291 @@
+schema_version: '3.0'
+paper:
+  series_key: liyanfang3
+  year: 2025
+  subject: math2
+  paper_no: 1
+content_hash: 9869cbe993d81d180cf01b56f72fa03718313e937293bc7c1b8e236aebe7d22c
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $\alpha_1=\sin\sqrt{x}-\sin(2\sqrt{x}),\alpha_2=\mathrm{e}^{\sqrt[3]{x}}-\mathrm{e}^{\sqrt{x}},\alpha_3=\sqrt[3]{8+x}-\sqrt[3]{8-x}$。当 $x\to0^+$ 时，以上 3 个无穷小量按照从低阶到高阶的排序是\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\alpha_1,\alpha_2,\alpha_3$。
+    figures: []
+  - label: B
+    text: |-
+      $\alpha_2,\alpha_3,\alpha_1$。
+    figures: []
+  - label: C
+    text: |-
+      $\alpha_2,\alpha_1,\alpha_3$。
+    figures: []
+  - label: D
+    text: |-
+      $\alpha_3,\alpha_2,\alpha_1$。
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      下列关于曲线 $y=\sqrt{1+x^2}\mathrm{e}^{\tan\dfrac{1}{x}}$ 的渐近线的说法中，正确的是\ExamSelection
+  choices:
+  - label: A
+    text: 该曲线没有铅直渐近线。
+    figures: []
+  - label: B
+    text: $x=0$ 是该曲线的铅直渐近线。
+    figures: []
+  - label: C
+    text: 该曲线仅有一条斜渐近线。
+    figures: []
+  - label: D
+    text: 该曲线有两条斜渐近线。
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)$ 是在 $[-1,1]$ 上有一阶连续导数的偶函数，且当 $x\in(-1,0)$ 时，$f'(x)>0$，则曲线 $y=\int_0^x[(x-t)\sin t+\cos t]f(\sin t)\,\mathrm{d}t$ 在 $[0,2\pi]$ 上的拐点个数为\ExamSelection
+  choices:
+  - label: A
+    text: $0$。
+    figures: []
+  - label: B
+    text: $1$。
+    figures: []
+  - label: C
+    text: $2$。
+    figures: []
+  - label: D
+    text: $3$。
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)$ 为 $[a,+\infty)$ 上的二阶可导函数，$f''(x)>0,a<b<c$，若 $\dfrac{f(b)-f(a)}{b-a}=f'(\xi_1)$，$\dfrac{f(c)-f(a)}{c-a}=f'(\xi_2)$，则\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\xi_1<\xi_2$。
+    figures: []
+  - label: B
+    text: |-
+      $\xi_1=\xi_2$。
+    figures: []
+  - label: C
+    text: |-
+      $\xi_1>\xi_2$。
+    figures: []
+  - label: D
+    text: |-
+      无法确定 $\xi_1$ 与 $\xi_2$ 的大小关系。
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x)$ 为 $(-\infty,+\infty)$ 上的连续函数，满足对任意的 $x$，都有 $f(\pi-x)+f(\pi+x)=2$，$f\left(\dfrac{\pi}{2}-x\right)=f\left(\dfrac{\pi}{2}+x\right)$，则下列说法中，正确的是\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\int_{-\dfrac{\pi}{2}}^0f(x)\,\mathrm{d}x=\int_0^{\dfrac{\pi}{2}}f(x)\,\mathrm{d}x$。
+    figures: []
+  - label: B
+    text: |-
+      $\int_0^\pi f(x)\,\mathrm{d}x=\int_\pi^{2\pi}f(x)\,\mathrm{d}x$。
+    figures: []
+  - label: C
+    text: |-
+      $\int_{-\dfrac{3\pi}{2}}^0f(x)\,\mathrm{d}x=\int_0^{\dfrac{3\pi}{2}}f(x)\,\mathrm{d}x$。
+    figures: []
+  - label: D
+    text: |-
+      $\int_0^{2\pi}f(x)\,\mathrm{d}x=\int_{2\pi}^{4\pi}f(x)\,\mathrm{d}x$。
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知连续函数 $f(x,y)$ 满足 $\lim_{(x,y)\to(0,0)}\dfrac{f(x,y)-5x^2+2xy-2y^2}{x^2+y^2}=1$，则下列说法中，正确的是\ExamSelection
+  choices:
+  - label: A
+    text: 点 $(0,0)$ 是 $f(x,y)$ 的极大值点。
+    figures: []
+  - label: B
+    text: 点 $(0,0)$ 是 $f(x,y)$ 的极小值点。
+    figures: []
+  - label: C
+    text: 点 $(0,0)$ 不是 $f(x,y)$ 的极值点。
+    figures: []
+  - label: D
+    text: 根据已知条件无法判别点 $(0,0)$ 是否为 $f(x,y)$ 的极值点。
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      将区域 $|x|+|y|\leq1$ 在第 $i$ 象限中的部分记为 $D_i(i=1,2,3,4)$，$I_i=\iint_{D_i}\dfrac{x-y}{x^2+y^2+1}\mathrm{e}^{x^2}\,\mathrm{d}x\mathrm{d}y$，则下列二重积分中，值最大的是\ExamSelection
+  choices:
+  - label: A
+    text: $I_1$。
+    figures: []
+  - label: B
+    text: $I_2$。
+    figures: []
+  - label: C
+    text: $I_3$。
+    figures: []
+  - label: D
+    text: $I_4$。
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设列向量 $\boldsymbol{\alpha},\boldsymbol{\beta},\boldsymbol{\gamma}$ 满足 $\boldsymbol{\alpha}\boldsymbol{\beta}^{\mathrm T}+\boldsymbol{\beta}\boldsymbol{\gamma}^{\mathrm T}+\boldsymbol{\gamma}\boldsymbol{\alpha}^{\mathrm T}=\boldsymbol{O}$，则向量组 $\boldsymbol{\alpha},\boldsymbol{\beta},\boldsymbol{\gamma}$ 的秩最大可能为\ExamSelection
+  choices:
+  - label: A
+    text: $0$。
+    figures: []
+  - label: B
+    text: $1$。
+    figures: []
+  - label: C
+    text: $2$。
+    figures: []
+  - label: D
+    text: $3$。
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $\boldsymbol{A}$ 是 3 阶方阵，0 是 $\boldsymbol{A}$ 的单特征值，$\boldsymbol{\alpha}$ 是满足 $\boldsymbol{A}\boldsymbol{\alpha}=\boldsymbol{0}$ 的非零向量。若对满足 $\boldsymbol{\beta}^{\mathrm T}\boldsymbol{\alpha}=0$ 的 3 维列向量 $\boldsymbol{\beta}$，均有 $\boldsymbol{A}^2\boldsymbol{\beta}=\boldsymbol{\beta}$，则\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\boldsymbol{A},\boldsymbol{A}^2$ 均能相似对角化。
+    figures: []
+  - label: B
+    text: |-
+      $\boldsymbol{A}$ 不能相似对角化，$\boldsymbol{A}^2$ 能相似对角化。
+    figures: []
+  - label: C
+    text: |-
+      $\boldsymbol{A}$ 能相似对角化，$\boldsymbol{A}^2$ 不能相似对角化。
+    figures: []
+  - label: D
+    text: |-
+      $\boldsymbol{A},\boldsymbol{A}^2$ 均不能相似对角化。
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $a$ 为正参数，二次型 $f(x_1,x_2,x_3)=(x_1+x_2)^2+(ax_3-x_2)^2-(x_1-ax_2+2x_3)^2$，则下列关于 $f$ 的说法中，正确的是\ExamSelection
+  choices:
+  - label: A
+    text: $f$ 的秩必为 2。
+    figures: []
+  - label: B
+    text: $f$ 的秩必为 3。
+    figures: []
+  - label: C
+    text: $f$ 的正惯性指数必大于 1。
+    figures: []
+  - label: D
+    text: $f$ 的负惯性指数必大于 0。
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设函数 $y=y(x)$ 由方程 $\mathrm{e}^x+\tan(xy)=y\cos x$ 确定，则 $y''(0)=$\ExamBlank。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      微分方程 $\dfrac{xy'}{y}+2\ln y=\dfrac{1}{x\sqrt{x-x^2}}$ 满足条件 $y\left(\dfrac{1}{2}\right)=1$ 的解为 $y=$\ExamBlank。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $\lim_{n\to\infty}\dfrac{\sqrt[n]{(n^2+1)(n^2+2^2)\cdots(n^2+n^2)}}{n^2}=$\ExamBlank。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设曲线 $y=x^2+1(x\geq0)$ 上有一动点 $P(a,a^2+1)$，点 $P$ 沿曲线运动，速度始终沿曲线在点 $P$ 处的切线方向，且 $\dfrac{\mathrm{d}a}{\mathrm{d}t}>0$。以点 $(0,1)$ 为起点、点 $P$ 为终点的这段曲线与坐标轴以及直线 $x=a$ 所围成平面区域绕 $x$ 轴旋转一周得到一个旋转体，记该旋转体的体积为 $V$。若当点 $P$ 运动到点 $\left(\dfrac{1}{2},\dfrac{5}{4}\right)$ 时，点 $P$ 的速度为 $\dfrac{2}{\pi}$，则此时 $V$ 关于时间的变化率为\ExamBlank。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      函数 $f(x,y)=4x^2+3y^2-3x+2y$ 在椭圆 $\dfrac{x^2}{3}+\dfrac{y^2}{4}=1$ 上的最大值与最小值之差的绝对值为\ExamBlank。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设矩阵 $\boldsymbol{A}=\begin{pmatrix}\cos\theta&-\sin\theta&a\\\sin\theta&\cos\theta&b\\c&d&e\end{pmatrix}$ 为正交矩阵，且 $|\boldsymbol{A}|=-1$，则 $\boldsymbol{A}x=\begin{pmatrix}\cos\theta\\\sin\theta\\-1\end{pmatrix}$ 的解为 $x=$\ExamBlank。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      设函数 $f(x)=\begin{cases}\dfrac{1-\cos x}{x},&x\neq0,\\0,&x=0.\end{cases}$ 问：$f'(x),f''(x)$ 是否连续？
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设区域 $D$ 为圆 $(x-1)^2+y^2=1$ 与圆 $x^2+(y-1)^2=1$ 所围成的公共部分，计算 $\iint_Dxy(x-y+1)\mathrm{e}^{x^2+y^2}\,\mathrm{d}x\mathrm{d}y$。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      已知二元函数 $f(x,y)$ 有一阶连续偏导数，且满足 $f'_x(x,y)+f'_y(x,y)=0$，$f'_y(0,y)=\dfrac{1}{\mathrm{e}^y(1+\mathrm{e}^y)}$，$f(0,0)=\ln2-1$，求 $f(x,y)$ 的表达式。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 $y(x)$ 在 $[0,1)$ 上单调增加且满足 $y(0)=0$，过曲线 $y=y(x)$ 上任一点 $(x,y)$ 作该曲线的切线交直线 $x=1$ 于点 $(1,y_1)$。已知曲线 $y=y(x)$ 从点 $(0,0)$ 到点 $(x,y)$ 的弧长等于 $y_1$，$y_1>0$，且曲线 $y=y(x)$、$x$ 轴以及 $x=1$ 围成的平面图形的面积为 $\dfrac{1}{3}$。求 $y(x)$。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 $f(x)$ 在 $[-1,1]$ 上有三阶连续导数，且 $f(1)=f(-1)$。证明：存在 $\xi\in(-1,1)$，使得 $f'''(\xi)=-6f'(0)$。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $\boldsymbol{\alpha},\boldsymbol{\beta},\boldsymbol{\gamma}$ 是 3 阶矩阵 $\boldsymbol{A}$ 的 3 个特征向量，其中 $\boldsymbol{\beta}$ 与 $\boldsymbol{\gamma}$ 为属于不同特征值的特征向量，方程组 $\boldsymbol{A}x=\boldsymbol{\beta}+\boldsymbol{\gamma}$ 的通解为 $x=k\boldsymbol{\alpha}+\boldsymbol{\beta}+\dfrac{1}{3}\boldsymbol{\gamma}$，其中 $k$ 为任意常数。
+  subparts:
+  - text: |-
+      求方程组 $\boldsymbol{A}x=\boldsymbol{\beta}-\boldsymbol{\gamma}$ 的通解；
+  - text: |-
+      若 $\boldsymbol{\alpha}=(1,1,1)^{\mathrm T}$，且 $\boldsymbol{A}$ 的伴随矩阵 $\boldsymbol{A}^*$ 为对称矩阵，求 $\boldsymbol{A}^*$。

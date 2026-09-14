@@ -1,0 +1,21 @@
+# Line endings.
+#
+# The paper store is the authoritative data: its YAML carries LaTeX in literal
+# block scalars, so the bytes on disk are content, not formatting. `core.autocrlf`
+# defaults to `true` on Windows and would rewrite LF to CRLF on checkout, which
+# makes the working copy depend on each machine's git configuration.
+#
+# Measured: ruamel normalises line breaks, so the parsed questions and the
+# `content_hash` are unaffected today (14,258 literal blocks, 0 fields retain a
+# newline after parsing). Pinning LF keeps the *bytes* reproducible as well, so
+# the property holds by construction rather than by luck.
+* text=auto eol=lf
+
+# Provenance binaries are content-addressed, not text — never touch them.
+*.pdf binary
+*.png binary
+
+# Large provenance files live in Git LFS (see docs/GIT-DATA.md).
+# Patterns are inert until git-lfs is installed and `git lfs install` has run.
+/.npee-math-papers/sources/**/source.pdf filter=lfs diff=lfs merge=lfs -text
+/.npee-math-papers/captures/**/pages/*.png filter=lfs diff=lfs merge=lfs -text

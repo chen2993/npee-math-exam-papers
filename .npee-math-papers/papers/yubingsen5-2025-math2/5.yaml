@@ -1,0 +1,307 @@
+schema_version: '3.0'
+paper:
+  series_key: yubingsen5
+  year: 2025
+  subject: math2
+  paper_no: 5
+content_hash: 7c2dad3694cbfdccb466121a488ac812da782703aa57b60df7e406d3b81676f5
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)=\begin{cases}\left|\dfrac{x^2-1}{x-1}\right||\ln x|^\alpha,&x\ne 1,\\0,&x=1,\end{cases}$ 其中常数 $\alpha>1$，则 $f(x)$ 在 $x=1$ 处\ExamSelection。
+  choices:
+  - label: A
+    text: 不连续
+    figures: []
+  - label: B
+    text: 连续但不可导
+    figures: []
+  - label: C
+    text: 可导但导函数不连续
+    figures: []
+  - label: D
+    text: 导函数连续
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知函数 $y=f(x)$ 在区间 $[-1,1]$ 上有定义。对于区间 $(-1,1)$ 内任一点 $x$，当自变量 $x$ 取得增量 $\Delta x$（$x+\Delta x\in(-1,1)$）时，函数增量 $f(x+\Delta x)-f(x)=2(x-1)\Delta x+\alpha$，且 $\lim_{\Delta x\to0}\dfrac{\alpha}{\Delta x}=0$，极限 $\lim_{x\to0}\dfrac{f(x)-1}{x}$ 存在，则曲线 $y=f(x)$ 在点 $x=0$ 处的法线方程为\ExamSelection。
+  choices:
+  - label: A
+    text: $y=-2x+1$
+    figures: []
+  - label: B
+    text: $y=2x+1$
+    figures: []
+  - label: C
+    text: |-
+      $y=-\dfrac{1}{2}x+1$
+    figures: []
+  - label: D
+    text: |-
+      $y=\dfrac{1}{2}x+1$
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x)=\begin{cases}-(x+2)^3,&x<-1,\\x+1,&-1\leqslant x\leqslant1,\\(x^2-2x+2)e^{-x},&x>1,\end{cases}$ 则 $f(x)$\ExamSelection。
+  choices:
+  - label: A
+    text: 在点 $x=-2$ 处取极值
+    figures: []
+  - label: B
+    text: 在点 $x=-1$ 处取极值
+    figures: []
+  - label: C
+    text: 在点 $x=1$ 处取极值
+    figures: []
+  - label: D
+    text: 在点 $x=2$ 处取极值
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x)=\begin{cases}\sin x,&0\leqslant x\leqslant\dfrac{\pi}{2},\\0,&\dfrac{\pi}{2}<x\leqslant\pi,\end{cases}$ $g(x)=\int_0^x t f(x-t)\,\mathrm{d}t$，则 $g(x)=$\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\begin{cases}x-\sin x,&0\leqslant x\leqslant\dfrac{\pi}{2},\\0,&\dfrac{\pi}{2}<x\leqslant\pi,\end{cases}$
+    figures: []
+  - label: B
+    text: |-
+      $\begin{cases}x\cos x,&0\leqslant x\leqslant\dfrac{\pi}{2},\\0,&\dfrac{\pi}{2}<x\leqslant\pi,\end{cases}$
+    figures: []
+  - label: C
+    text: |-
+      $\begin{cases}x-\sin x,&0\leqslant x\leqslant\dfrac{\pi}{2},\\\dfrac{\pi}{2}-1,&\dfrac{\pi}{2}<x\leqslant\pi,\end{cases}$
+    figures: []
+  - label: D
+    text: |-
+      $\begin{cases}x-\sin x,&0\leqslant x\leqslant\dfrac{\pi}{2},\\x-1,&\dfrac{\pi}{2}<x\leqslant\pi.\end{cases}$
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设在区间 $[-a,a]$（$a>0$）内，$f''(x)>0$，$|f(x)|\leqslant x^2$，则 $\int_{-a}^a f(x)\,\mathrm{d}x$\ExamSelection。
+  choices:
+  - label: A
+    text: 大于零
+    figures: []
+  - label: B
+    text: 小于零
+    figures: []
+  - label: C
+    text: 等于零
+    figures: []
+  - label: D
+    text: 其符号无法确定
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $\varphi(x,y)\ne0$ 且具有连续的一阶偏导数，函数 $u(x,y)$ 的全微分 $\mathrm{d}u=\dfrac{y\,\mathrm{d}x+x\,\mathrm{d}y}{\varphi(x,y)}$，则下列等式成立的是\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $x\varphi_y'(x,y)=y\varphi_x'(x,y)$
+    figures: []
+  - label: B
+    text: |-
+      $x\varphi_y'(x,y)=-y\varphi_x'(x,y)$
+    figures: []
+  - label: C
+    text: |-
+      $x\varphi_x'(x,y)=y\varphi_y'(x,y)$
+    figures: []
+  - label: D
+    text: |-
+      $x\varphi_x'(x,y)=-y\varphi_y'(x,y)$
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      曲线 $y=\dfrac{(1+x)e^x}{e^x-1}$ 的渐近线条数为\ExamSelection（公众号：风中羽小易）。
+  choices:
+  - label: A
+    text: $1$
+    figures: []
+  - label: B
+    text: $2$
+    figures: []
+  - label: C
+    text: $3$
+    figures: []
+  - label: D
+    text: $4$
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设多项式 $f(x)=\begin{vmatrix}1&1&1\\2-x&3-2x&4-3x\\4-x^2&9-4x^2&16-9x^2\end{vmatrix}$，则\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      存在实数 $q\in(-1,1)$，使得 $f(q)=0$
+    figures: []
+  - label: B
+    text: |-
+      存在实数 $q\in(-1,1)$，使得 $f'(q)=0$
+    figures: []
+  - label: C
+    text: |-
+      对任意实数 $q\in(-1,1)$，均有 $f(q)=0$
+    figures: []
+  - label: D
+    text: |-
+      对任意实数 $q\in(-1,1)$，均有 $f'(q)=0$
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $\mathbf{A}$ 为三阶可逆矩阵，将 $\mathbf{A}$ 的第一、二列交换得到矩阵 $\mathbf{B}$，$\mathbf{A}^*,\mathbf{B}^*$ 分别为 $\mathbf{A},\mathbf{B}$ 的伴随矩阵，则\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      将 $\mathbf{A}^*$ 的第一、二行交换得到 $\mathbf{B}$
+    figures: []
+  - label: B
+    text: |-
+      将 $\mathbf{A}^*$ 的第一、二行交换得到 $-\mathbf{B}$
+    figures: []
+  - label: C
+    text: |-
+      将 $\mathbf{A}^*$ 的第一、二列交换得到 $\mathbf{B}^*$
+    figures: []
+  - label: D
+    text: |-
+      将 $\mathbf{A}^*$ 的第一、二列交换得到 $-\mathbf{B}$
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设三阶矩阵 $\mathbf{A}$ 有特征值 $\lambda_1=\lambda_2=-1,\lambda_3=2$，且 $\mathbf{A}$ 不能相似于对角阵，则 $r(\mathbf{A}+\mathbf{E})+r(\mathbf{A}-\mathbf{E})+r(\mathbf{A}-2\mathbf{E})=$\ExamSelection。
+  choices:
+  - label: A
+    text: $3$
+    figures: []
+  - label: B
+    text: $4$
+    figures: []
+  - label: C
+    text: $6$
+    figures: []
+  - label: D
+    text: $7$
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      曲线 $y=\tan x$ 在点 $\left(\dfrac{\pi}{4},1\right)$ 处的曲率圆方程为\ExamBlank。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      曲线 $y=\dfrac{e^{1/x}+e^x}{e^{1/x}-e^x}\cdot\dfrac{\int_x^2 e^{-t^2}\,\mathrm{d}t}{x-2}$ 的跳跃间断点为\ExamBlank。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设函数 $u=u(x,y)$ 具有二阶连续偏导数且满足 $\dfrac{\partial^2u}{\partial x^2}=\dfrac{\partial^2u}{\partial y^2}$，且 $u(x,3x)=x$，$u_1'(x,3x)=x^2$，则 $u_{11}''(x,3x)=$\ExamBlank。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $\lim_{t\to0^+}\dfrac{1}{t^3}\int_0^{\pi/4}\mathrm{d}\theta\int_0^{t/\cos\theta}\dfrac{\sin(r^2\sin\theta\cos\theta)}{\sin\theta}\,\mathrm{d}r=$\ExamBlank。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      已知 $y=2xe^{2x}$ 为二阶常系数线性齐次微分方程 $y''+py'+qy=0$ 的一个特解，则该微分方程为\ExamBlank。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      若三元实二次型 $f(x_1,x_2,x_3)=(x_1+a_1x_2)^2+(x_2+a_2x_3)^2+(a_1x_1+x_3)^2$ 不是正定的，则 $a_1a_2a_3=$\ExamBlank。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      （公众号：风中羽小易）求函数 $f(x,y)=(x^2+y^2)e^{-x-y}$ 在区域 $D=\{(x,y)\mid x\geqslant0,y\geqslant0,x^2+y^2\leqslant16\}$ 上的最大值及最小值。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      已知曲线 $L$ 的方程为 $\begin{cases}x=t^2+1,\\y=4t-t^2\end{cases}$（$t>0$），过点 $(-1,0)$ 引曲线 $L$ 的切线。
+  subparts:
+  - text: 求切点 $(x_0,y_0)$，并写出切线方程；
+  - text: |-
+      求此切线与曲线 $L$（对应于 $x\leqslant x_0$ 的部分）及 $x$ 轴所围成的平面图形面积 $S$，以及绕 $x$ 轴旋转一周的体积 $V_x$。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 $f(x)$ 连续，$f(x)=x^2+x\int_0^{x^2}f(x^2-t)\,\mathrm{d}t+\iint_D f(xy)\,\mathrm{d}x\mathrm{d}y$，其中 $D$ 为以 $A(1,-1),B(-1,1),C(1,1)$ 为顶点的三角区域。若 $f(1)=0$。
+  subparts:
+  - text: |-
+      求 $\int_0^1 f(x)\,\mathrm{d}x+\iint_D f(xy)\,\mathrm{d}x\mathrm{d}y$ 的值；
+  - text: |-
+      求 $\int_0^1 f(x)\,\mathrm{d}x$ 的值。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 $f(x),g(x)$ 连续，且满足 $\int_0^x f(t)\,\mathrm{d}t=2f(x)+g(x)+x$，$\int_0^x g(t)\,\mathrm{d}t=4f(x)-g(x)+1$，求 $f(x)$ 和 $g(x)$。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 $f(x)$ 连续，$\varphi(x)=\int_0^1 f(xt)\,\mathrm{d}t$，且 $\lim_{x\to0}\dfrac{f(x)}{x}=1$。
+  subparts:
+  - text: |-
+      求 $\varphi'(x)$；
+  - text: |-
+      问 $\varphi'(x)$ 在点 $x=0$ 处是否连续？
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设三阶实矩阵 $\mathbf{A}$ 满足 $\mathbf{A}^2-\mathbf{A}-2\mathbf{E}=\mathbf{O}$，$|\mathbf{A}|=2$。
+  subparts:
+  - text: |-
+      证明 $\mathbf{A}$ 可以对角化；
+  - text: |-
+      如果 $\mathbf{A}$ 为实对称矩阵，且 $\boldsymbol{\xi}=(1,1,-1)^{\mathrm{T}}$ 是齐次线性方程组 $(\mathbf{A}-2\mathbf{E})\mathbf{x}=\mathbf{0}$ 的一个解，求一个对称矩阵 $\mathbf{B}$，使得 $\mathbf{B}^2=\mathbf{A}+\mathbf{E}$。

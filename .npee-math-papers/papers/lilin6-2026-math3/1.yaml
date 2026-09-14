@@ -1,0 +1,318 @@
+schema_version: '3.0'
+paper:
+  series_key: lilin6
+  year: 2026
+  subject: math3
+  paper_no: 1
+content_hash: c2cd522e59e4657de2f064dfa900019398c9a8a9b750b478556b6b313b59330a
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      曲线 $y=\dfrac{1}{|x|-1}+\ln(1+e^{-x})$ 的渐近线的条数为\ExamSelection
+  choices:
+  - label: A
+    text: $1$
+    figures: []
+  - label: B
+    text: $2$
+    figures: []
+  - label: C
+    text: $3$
+    figures: []
+  - label: D
+    text: $4$
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      下列函数在 $x=0$ 处不可导的是\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $|x|\displaystyle\int_0^x\sin t^2\,\mathrm{d}t$
+    figures: []
+  - label: B
+    text: |-
+      $|\sin(x-\sin x)|$
+    figures: []
+  - label: C
+    text: |-
+      $\displaystyle\int_{-1}^x\sqrt{|t|}\ln|t|\,\mathrm{d}t$
+    figures: []
+  - label: D
+    text: |-
+      $\sqrt{e^{|x|}}$
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)$ 有一阶连续导数，且 $\displaystyle\lim_{x\to0}\dfrac{f(x)}{x}=1$，$a_n=f\left(\dfrac{1}{n}\right)$，$n=1,2,\cdots$，则\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\displaystyle\sum_{n=1}^{\infty}(-1)^{n-1}a_n$ 收敛，$\displaystyle\sum_{n=1}^{\infty}a_n$ 收敛
+    figures: []
+  - label: B
+    text: |-
+      $\displaystyle\sum_{n=1}^{\infty}(-1)^{n-1}a_n$ 发散，$\displaystyle\sum_{n=1}^{\infty}a_n^2$ 收敛
+    figures: []
+  - label: C
+    text: |-
+      $\displaystyle\sum_{n=1}^{\infty}(-1)^{n-1}a_n$ 发散，$\displaystyle\sum_{n=1}^{\infty}a_n$ 收敛
+    figures: []
+  - label: D
+    text: |-
+      $\displaystyle\sum_{n=1}^{\infty}(-1)^{n-1}a_n$ 收敛，$\displaystyle\sum_{n=1}^{\infty}a_n^2$ 收敛
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      如图所示，曲线段的方程为 $y=f(x)$，函数 $f(x)$ 在区间 $[0,a]$ 上有连续的导数，则定积分 $\dfrac{1}{2}\displaystyle\int_0^a[f(x)-xf'(x)]\,\mathrm{d}x$ 为\ExamSelection
+    figures:
+    - kind: tikz
+      latex: |-
+        \begin{tikzpicture}[scale=0.8,>=stealth]\draw[->] (-0.15,0)--(3.8,0) node[right] {$x$};\draw[->] (0,-0.15)--(0,3.1) node[above] {$y$};\coordinate (O) at (0,0);\coordinate (B) at (0,2.65);\coordinate (C) at (0,1.15);\coordinate (D) at (2.8,0);\coordinate (A) at (2.8,1.15);\draw (B)--(A)--(O);\draw (C)--(A)--(D);\draw (B) .. controls (1.5,2.7) and (2.35,2.05) .. (A);\node[below left] at (O) {$O$};\node[left] at (B) {$B(0,f(0))$};\node[left] at (C) {$C(0,f(a))$};\node[right] at (A) {$A(a,f(a))$};\node[below] at (D) {$D(a,0)$};\node[right] at (1.75,2.35) {$y=f(x)$};\end{tikzpicture}
+      path:
+      description: 坐标系内由曲线段 BA、线段 BA、OA、CA、AD 和坐标轴围成的图形
+      exception_reason:
+  choices:
+  - label: A
+    text: 曲边梯形 $ABOD$ 的面积
+    figures: []
+  - label: B
+    text: 梯形 $ABOD$ 的面积
+    figures: []
+  - label: C
+    text: 曲边三角形 $ACB$ 的面积
+    figures: []
+  - label: D
+    text: 曲边三角形 $AOB$ 的面积
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A=\begin{pmatrix}1&0&0\\0&-\dfrac{1}{2}&\dfrac{1}{2}\\0&\dfrac{1}{2}&-\dfrac{1}{2}\end{pmatrix}$，$B=\begin{pmatrix}1&-1&0\\2&-1&1\\0&1&1\end{pmatrix}$，$C=\begin{pmatrix}1&-1&0\\2&-2&0\\0&0&1\end{pmatrix}$，则下列选项中正确的是\ExamSelection
+  choices:
+  - label: A
+    text: $A$ 与 $C$ 合同
+    figures: []
+  - label: B
+    text: $A$ 与 $B$ 相似
+    figures: []
+  - label: C
+    text: $B$ 与 $C$ 相似
+    figures: []
+  - label: D
+    text: $B$ 与 $C$ 合同
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $n$ 阶非零实矩阵 $A$ 满足 $A^{\mathrm{T}}+A=O$，$B$ 为 $n$ 阶矩阵，矩阵 $\begin{pmatrix}A&E\\-B&B\end{pmatrix}$，$\begin{pmatrix}A-E&O\\A&AB\end{pmatrix}$，$\begin{pmatrix}A+E&O\\B&A-E\end{pmatrix}$ 的秩依次为 $r_1,r_2,r_3$，则\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $r_1\geqslant r_2\geqslant r_3$
+    figures: []
+  - label: B
+    text: |-
+      $r_3\geqslant r_2\geqslant r_1$
+    figures: []
+  - label: C
+    text: |-
+      $r_2\geqslant r_1\geqslant r_3$
+    figures: []
+  - label: D
+    text: |-
+      $r_3\geqslant r_1\geqslant r_2$
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设向量组（Ⅰ）$\boldsymbol{\alpha}_1=(1,1,2)^{\mathrm{T}}$，$\boldsymbol{\alpha}_2=(2,3,3)^{\mathrm{T}}$，（Ⅱ）$\boldsymbol{\beta}_1=(2,3,5)^{\mathrm{T}}$，$\boldsymbol{\beta}_2=(-1,0,1)^{\mathrm{T}}$，$k$ 为任意常数，则既可由向量组（Ⅰ）线性表示，又可由向量组（Ⅱ）线性表示的列向量 $\boldsymbol{\gamma}=$\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $k(2,1,3)^{\mathrm{T}}$
+    figures: []
+  - label: B
+    text: |-
+      $k(-2,1,3)^{\mathrm{T}}$
+    figures: []
+  - label: C
+    text: |-
+      $k(5,6,9)^{\mathrm{T}}$
+    figures: []
+  - label: D
+    text: |-
+      $k(-5,6,9)^{\mathrm{T}}$
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设每次试验只有两个结果 $A$ 与 $\overline{A}$，已知 $P(A)=p$（$0<p<1$），重复独立进行该试验直至 $A$ 与 $\overline{A}$ 都出现为止，且试验次数 $X$ 的数学期望为 $3$，则 $p=$\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{1}{2}$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{1}{3}$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{1}{4}$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{2}{3}$
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $(X,Y)\sim N\left(1,0;9,16;-\dfrac{1}{2}\right)$，$Z=\dfrac{1}{3}X+\dfrac{1}{2}Y$，则\ExamSelection
+  choices:
+  - label: A
+    text: $X$ 与 $Z$ 不相关
+    figures: []
+  - label: B
+    text: $X$ 与 $Z$ 不相互独立
+    figures: []
+  - label: C
+    text: $Y$ 与 $Z$ 不相关
+    figures: []
+  - label: D
+    text: $Y$ 与 $Z$ 相互独立
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      连续不间断独立地对同一目标射击，直到命中为止。设进行 $n$（$n\geqslant1$）轮射击，各轮射击的次数依次为 $k_1,k_2,\cdots,k_n$，且每次击中目标的概率均为 $p$（$0<p<1$），则 $p$ 的矩估计值与最大似然估计值分别为\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\widehat p=\dfrac{n}{\displaystyle\sum_{i=1}^n k_i},\ \widehat p=\dfrac{\displaystyle\sum_{i=1}^n k_i}{n}$
+    figures: []
+  - label: B
+    text: |-
+      $\widehat p=\dfrac{\displaystyle\sum_{i=1}^n k_i}{n},\ \widehat p=\dfrac{n}{\displaystyle\sum_{i=1}^n k_i}$
+    figures: []
+  - label: C
+    text: |-
+      $\widehat p=\dfrac{n}{\displaystyle\sum_{i=1}^n k_i},\ \widehat p=\dfrac{n}{\displaystyle\sum_{i=1}^n k_i}$
+    figures: []
+  - label: D
+    text: |-
+      $\widehat p=\dfrac{\displaystyle\sum_{i=1}^n k_i}{n},\ \widehat p=\dfrac{\displaystyle\sum_{i=1}^n k_i}{n}$
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $x,y\in\mathbf{R}$，且 $4x^2+4y^2-2xy-\dfrac{5}{8}=0$，则 $2x+y$ 的取值范围为\ExamBlank。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)$ 连续，$\displaystyle\lim_{x\to0}\dfrac{\ln[f(x+1)+e^{x^2}]}{x}=1$，则 $\displaystyle\lim_{x\to0}\dfrac{f[(1+\tan x)^2]-f(1+\tan x)}{x}=$\ExamBlank。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $\displaystyle\int_1^{+\infty}\dfrac{\mathrm{d}x}{x(a+x^3)}=\dfrac{1}{3}\ln2$（$a>0$），则 $a=$\ExamBlank。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      某商品的需求量 $Q$ 对价格 $P$ 的弹性为 $-P\ln4$，已知该商品的最大需求量为 $1 000$，则需求量关于价格的函数为 $Q=$\ExamBlank。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 的伴随矩阵 $A^*=\begin{pmatrix}1&0&0\\1&1&0\\1&1&1\end{pmatrix}$，$3$ 阶矩阵 $B$ 满足 $A^{-1}BA+BA+2E=O$，则行列式 $|B|=$\ExamBlank。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设二维随机变量 $(X,Y)$ 服从 $D$ 上的均匀分布，其中 $D=\{(x,y)\mid0\leqslant x\leqslant3,0\leqslant y\leqslant3\}$。记 $U=(X+Y)^2$，$V=(X-Y)^2$，则 $\operatorname{Cov}(U,V)=$\ExamBlank。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      设 $f(x)$ 为连续函数，$\displaystyle\lim_{x\to0}\dfrac{xf(x)-\ln(1+x)}{x^2}=1$，当 $x\to0$ 时，$\displaystyle\int_0^x2tf(x-t)\,\mathrm{d}t-x^2$ 与 $ax^n$（$a\neq0$）为等价无穷小，求 $f'(0)$ 及 $a$ 与 $n$ 的值。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $f(x,y)$ 有一阶连续的偏导数，在点 $(1,1)$ 的某邻域内，$f(x,y)=e^{x^2+y^2-2}+o(\rho)$，其中 $\rho=\sqrt{(x-1)^2+(y-1)^2}$。又 $g(x,y)=f(e^{x-y},xy)$。
+  subparts:
+  - text: |-
+      求 $\left.\mathrm{d}g(x,y)\right|_{(1,1)}$；
+  - text: |-
+      计算 $\displaystyle\lim_{t\to0}\dfrac{g(1+\sin t,1)-g(1,1-\tan t)}{t}$。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设上半平面的有界区域 $D=\{(x,y)\mid1\leqslant x^2+(y-|x|)^2\leqslant2,0\leqslant y\}$。计算 $I=\displaystyle\iint_D\dfrac{x+1}{2x^2+y^2}\,\mathrm{d}x\,\mathrm{d}y$。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设可导函数 $y=f(x)$ 满足 $[x-\ln(1+x)]y\,\mathrm{d}x-x^2\,\mathrm{d}y=0$（$x>0$），$f(1)=4$。
+  subparts:
+  - text: 证明：$y=f(x)$ 是凸函数；
+  - text: |-
+      若 $(1+x)^{\dfrac{1}{x}}+\left(1+\dfrac{1}{x}\right)^x\leqslant a$（$a>0$），求 $a$ 的最小值。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $A=(\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3)$ 为 $3$ 阶矩阵，交换 $A$ 的第 $1,2$ 行，再交换 $A$ 的第 $2,3$ 列得 $B$，其中 $B=\begin{pmatrix}0&-1&1\\1&1&1\\1&1&-1\end{pmatrix}$。
+  subparts:
+  - text: 求 $A$；
+  - text: |-
+      记 $\boldsymbol{\beta}_1=\boldsymbol{\alpha}_1$，$\boldsymbol{\beta}_2=\boldsymbol{\alpha}_2-k\boldsymbol{\beta}_1$，$\boldsymbol{\beta}_3=\boldsymbol{\alpha}_3-l_1\boldsymbol{\beta}_1-l_2\boldsymbol{\beta}_2$，若 $\boldsymbol{\beta}_1,\boldsymbol{\beta}_2,\boldsymbol{\beta}_3$ 两两正交，求 $k,l_1,l_2$；
+  - text: 求正交矩阵 $Q$ 及上三角矩阵 $T$，使得 $A=QT$。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设随机变量 $X$ 的概率密度为 $f(x)=\dfrac{1}{\pi(1+x^2)}$（$-\infty<x<+\infty$），$Y=\operatorname{arccot}X$，随机变量 $Z\sim N(0,1)$，且 $Y$ 与 $Z$ 相互独立。求：
+  subparts:
+  - text: $Y$ 的分布函数与概率密度；
+  - text: $U=Z+Y$ 的概率密度。

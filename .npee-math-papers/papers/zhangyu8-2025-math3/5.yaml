@@ -1,0 +1,293 @@
+schema_version: '3.0'
+paper:
+  series_key: zhangyu8
+  year: 2025
+  subject: math3
+  paper_no: 5
+content_hash: a25ce3e5141c7cf67b1ba638e6b97b393b59cd395692469e727a15935f651c21
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      曲线 $y=\dfrac{x^3}{x+1}\sin\dfrac{1}{x}$ 的斜渐近线方程为\ExamSelection。
+  choices:
+  - label: A
+    text: $y=x+1$。
+    figures: []
+  - label: B
+    text: $y=x-1$。
+    figures: []
+  - label: C
+    text: |-
+      $y=x+\dfrac{1}{2}$。
+    figures: []
+  - label: D
+    text: |-
+      $y=x-\dfrac{1}{2}$。
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x),g(x)$ 在 $[a,b]$ 上连续，$(a,b)$ 内可导，$g'(x)>0$，则 $\forall x\in(a,b)$，“$\dfrac{f'(x)}{g'(x)}$ 严格单调递增”是“$\dfrac{f(x)-f(a)}{g(x)-g(a)}$ 严格单调递增”的\ExamSelection。
+  choices:
+  - label: A
+    text: 充分必要条件。
+    figures: []
+  - label: B
+    text: 必要非充分条件。
+    figures: []
+  - label: C
+    text: 充分非必要条件。
+    figures: []
+  - label: D
+    text: 既非充分又非必要条件。
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $\sum_{n=1}^{\infty}u_n$ 为任意项级数，记 $a_n=\dfrac{1}{2}(u_n+|u_n|),b_n=\dfrac{1}{2}(u_n-|u_n|)$，则当 $\sum_{n=1}^{\infty}u_n$ 条件收敛时，以下结论正确的个数为\ExamSelection。$(1)\ \sum_{n=1}^{\infty}a_n$ 与 $\sum_{n=1}^{\infty}b_n$ 均收敛；$(2)\ \sum_{n=1}^{\infty}(a_n-b_n)$ 发散；$(3)\ \lim_{n\to\infty}\dfrac{\sum_{k=1}^{n}a_k}{\sum_{k=1}^{n}b_k}=-1$。
+  choices:
+  - label: A
+    text: $0$。
+    figures: []
+  - label: B
+    text: $1$。
+    figures: []
+  - label: C
+    text: $2$。
+    figures: []
+  - label: D
+    text: $3$。
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知 $f(x,y)=\begin{cases}x^2,&y=0,\\xy,&\text{其他},\end{cases}$，以下结论：$(1)\ f(x,y)$ 在原点处连续；$(2)\ \left.\dfrac{\partial f(x,y)}{\partial x}\right|_{(0,0)}=0,\left.\dfrac{\partial f(x,y)}{\partial y}\right|_{(0,0)}=0$；$(3)\ \left.\mathrm{d}[f(x,y)]\right|_{(0,0)}=0$。所有正确结论的序号是\ExamSelection。
+  choices:
+  - label: A
+    text: $(1)(2)$。
+    figures: []
+  - label: B
+    text: $(2)(3)$。
+    figures: []
+  - label: C
+    text: $(1)(3)$。
+    figures: []
+  - label: D
+    text: $(1)(2)(3)$。
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      $f(x_1,x_2,x_3)=x_1^2+2x_2^2+3x_3^2-4x_1x_2-4x_2x_3$ 的正惯性指数为\ExamSelection。
+  choices:
+  - label: A
+    text: $0$。
+    figures: []
+  - label: B
+    text: $1$。
+    figures: []
+  - label: C
+    text: $2$。
+    figures: []
+  - label: D
+    text: $3$。
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      $A,B$ 均为 $n$ 阶矩阵，$|B|\ne0$。设 $\boldsymbol{\alpha}$ 为 $n$ 维列向量，则“$\boldsymbol{\alpha}$ 是 $AB$ 的特征向量”是“$B\boldsymbol{\alpha}$ 是 $BA$ 的特征向量”的\ExamSelection。
+  choices:
+  - label: A
+    text: 充分必要条件。
+    figures: []
+  - label: B
+    text: 充分非必要条件。
+    figures: []
+  - label: C
+    text: 必要非充分条件。
+    figures: []
+  - label: D
+    text: 既非充分又非必要条件。
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知 $n$ 阶方阵 $A$ 可逆且满足 $A^{\mathrm T}=-A$，则以下命题正确的个数为\ExamSelection。$(1)\ $对任意 $n$ 维列向量 $\boldsymbol b$，有 $\boldsymbol b^{\mathrm T}A\boldsymbol b=0$；$(2)\ $对任意 $n$ 维列向量 $\boldsymbol b$，有 $\boldsymbol b^{\mathrm T}A^{-1}\boldsymbol b=0$；$(3)\ $对任意 $n$ 维列向量 $\boldsymbol b$，有 $r(A+\boldsymbol b\boldsymbol b^{\mathrm T})=n$；$(4)\ n$ 可能为 $3$。
+  choices:
+  - label: A
+    text: $1$。
+    figures: []
+  - label: B
+    text: $2$。
+    figures: []
+  - label: C
+    text: $3$。
+    figures: []
+  - label: D
+    text: $4$。
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设随机事件 $A,B$ 满足 $0<P(A)<1,0<P(B)<1$，则 $P(AB)>P(A)P(B)$ 的充分条件是\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $P(A\overline{B})>P(A)P(\overline{B})$。
+    figures: []
+  - label: B
+    text: |-
+      $P(\overline{A}\,\overline{B})>P(\overline{A})P(\overline{B})$。
+    figures: []
+  - label: C
+    text: |-
+      $P(B\mid\overline{A})>P(B\mid A)$。
+    figures: []
+  - label: D
+    text: |-
+      $P(A\mid\overline{B})>P(A\mid B)$。
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设随机变量 $X,Y$ 独立同分布于 $\begin{pmatrix}-1&1\\\dfrac{1}{2}&\dfrac{1}{2}\end{pmatrix}$，$Z_1=XY,Z_2=\dfrac{X}{Y}$，则\ExamSelection。
+  choices:
+  - label: A
+    text: $X,Y,Z_1$ 相互独立。
+    figures: []
+  - label: B
+    text: $X,Y,Z_2$ 相互独立。
+    figures: []
+  - label: C
+    text: $X,Z_1,Z_2$ 两两独立。
+    figures: []
+  - label: D
+    text: $X,Y,Z_2$ 不相互独立。
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设总体 $X$ 服从 $P\{X=x\}=\theta^x(1-\theta)^{1-x},x=0,1,0<\theta\leq\dfrac{1}{2}$。$X_1,X_2,\cdots,X_n$ 是来自总体 $X$ 的简单随机样本，$\overline{X}=\dfrac{1}{n}\sum_{i=1}^{n}X_i$，则 $\theta$ 的最大似然估计量为\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\min\left\{\dfrac{1}{2},\overline{X}\right\}$。
+    figures: []
+  - label: B
+    text: |-
+      $\max\left\{\dfrac{1}{2},\overline{X}\right\}$。
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{1}{2}$。
+    figures: []
+  - label: D
+    text: |-
+      $\overline{X}$。
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $\{a_n\}$ 非负有界，$b_n=\sum_{k=1}^{n}\dfrac{k}{a_n+n^2}$，则 $\lim_{n\to\infty}\dfrac{1}{b_n}=\ExamBlank$。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      函数 $f(x)=\int_{x}^{x+\dfrac{\pi}{2}}|\sin t|\,\mathrm{d}t$ 在 $[0,\pi]$ 上的平均值为 $\ExamBlank$。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x,y)$ 具有二阶连续偏导数，且满足 $\dfrac{\partial^2[f(x,y)]}{\partial x\partial y}=1,f(0,y)=\sin y,f(x,0)=\sin x$，则 $f\left(\dfrac{\pi}{2},\dfrac{\pi}{2}\right)=\ExamBlank$。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      已知连续曲线 $y=y(x)$ 上点 $(x,y)$ 处切线的斜率为 $\dfrac{1}{x\sqrt{x^2-1}}$，且曲线过点 $(-2,0)$，则该曲线方程为 $\ExamBlank$。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $\boldsymbol{\alpha}_1=\begin{pmatrix}1\\1\\a\end{pmatrix},\boldsymbol{\alpha}_2=\begin{pmatrix}1\\a\\1\end{pmatrix},\boldsymbol{\alpha}_3=\begin{pmatrix}a\\1\\1\end{pmatrix},\boldsymbol{\alpha}_4=\begin{pmatrix}1\\a\\a^2\end{pmatrix}$。若 $\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3$ 与 $\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3,\boldsymbol{\alpha}_4$ 等价，则 $a$ 的取值范围是 $\ExamBlank$。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      已知 $3$ 台机器的寿命均服从参数为 $\lambda$ 的指数分布，现 $3$ 台机器同时开始工作且相互独立，记 $X$ 为直到最后 $1$ 台机器坏掉的时间，已知 $E(X)=\dfrac{11}{3}$，则 $\lambda=\ExamBlank$。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      计算 $\lim_{x\to0}\dfrac{\int_{0}^{x}[e^{(t-x)^2}-1]\sin t\,\mathrm{d}t}{x^2(e^{x^2}-1)}$。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      已知函数 $f(x),g(x)$ 分别满足 $f'(x)=2\sqrt{f(x)},f(0)=1$；$g'(x)=\dfrac{g(x)}{x-2}+\dfrac{x-2}{x},g(1)=0$。求曲线 $f(x)+g(y)=0$ 所围图形绕直线 $x=-1$ 旋转一周所成旋转体体积。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设级数 $\sum_{n=1}^{\infty}(-1)^{n-1}a_n$（$a_n>0$）满足 $a_{n+1}<a_n,n=1,2,\cdots$，且 $\lim_{n\to\infty}a_n=0$。
+  subparts:
+  - text: |-
+      证明 $\sum_{n=1}^{\infty}(-1)^{n-1}a_n$ 收敛；
+  - text: |-
+      判别 $\sum_{n=2}^{\infty}\dfrac{(-1)^n}{\sqrt{n}+(-1)^n}$ 的敛散性，并说明理由。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设平面区域 $D=\{(x,y)\mid x^2+y^2\leq1,|y|\leq|x|\}$，计算 $I=\iint_D\dfrac{\sqrt{x^2y^2}}{\sqrt{x^2+y^2}+x^2-y^2}\,\mathrm{d}\sigma$。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $\boldsymbol{\alpha}_1=\begin{pmatrix}1-a\\a\\a+1\end{pmatrix},\boldsymbol{\alpha}_2=\begin{pmatrix}1\\1\\a+1\end{pmatrix},\boldsymbol{\alpha}_3=\begin{pmatrix}1\\0\\1\end{pmatrix},\boldsymbol{\beta}=\begin{pmatrix}0\\1\\2(a-1)\end{pmatrix},\boldsymbol{\gamma}=k_1\boldsymbol{\alpha}_1+k_2\boldsymbol{\alpha}_2+k_3\boldsymbol{\alpha}_3$，若 $\boldsymbol{\beta}$ 不能由 $\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3$ 线性表示，且 $\boldsymbol{\beta}^{\mathrm T}\boldsymbol{\alpha}_i=\boldsymbol{\gamma}^{\mathrm T}\boldsymbol{\alpha}_i,i=1,2$，求：
+  subparts:
+  - text: $a$ 的值；
+  - text: |-
+      $\boldsymbol{\gamma}$。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设两台秤的随机误差分别服从 $N(0,\sigma_1^2)$ 和 $N(0,\sigma_2^2)$，$\sigma_1,\sigma_2$ 均为大于 $0$ 的未知参数。将重量为 $1$ 的物体放于第一台秤上独立称两次，得 $X_1,X_2$；再放于第二台秤上独立称两次，得 $X_3,X_4$。
+  subparts:
+  - text: 求 $D(|X_1-X_2|)$；
+  - text: |-
+      在第一台秤上再称一次，得 $X_5$，求 $\sigma_1^2$ 的最大似然估计量 $\hat{\sigma}_1^2$，并计算 $D(\hat{\sigma}_1^2)$。

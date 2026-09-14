@@ -1,0 +1,310 @@
+schema_version: '3.0'
+paper:
+  series_key: zhangyu8
+  year: 2024
+  subject: math3
+  paper_no: 4
+content_hash: 2e9de0c67fc4765478790e86fac33a82634a4aee22b225df7e7cf44d3ad91403
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)$ 是 $(0,+\infty)$ 内的正值连续函数，且 $f'(x)<0$，$g(x)=\int_1^x f(t)\,\mathrm{d}t$，则 $g\left(\dfrac{1}{2}\right)$ 和 $g\left(\dfrac{3}{2}\right)$ 的可能取值是\ExamSelection
+  choices:
+  - label: A
+    text: $-2,1$
+    figures: []
+  - label: B
+    text: $-2,3$
+    figures: []
+  - label: C
+    text: $2,-1$
+    figures: []
+  - label: D
+    text: $2,-3$
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知 $\int_0^2 \dfrac{1}{|\ln x|^a}\,\mathrm{d}x$ 收敛，$a$ 为常数，则\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $1<a\leq 2$
+    figures: []
+  - label: B
+    text: $a<1$
+    figures: []
+  - label: C
+    text: |-
+      $1\leq a<2$
+    figures: []
+  - label: D
+    text: $a>2$
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $I_1=\int_1^x \dfrac{2}{1+t^2}\,\mathrm{d}t$，$I_2=\int_1^x \dfrac{\ln t}{t-1}\,\mathrm{d}t$，$I_3=\int_1^x \dfrac{1}{\sqrt{t}}\,\mathrm{d}t$，且 $x>1$，则\ExamSelection
+  choices:
+  - label: A
+    text: $I_1<I_2<I_3$
+    figures: []
+  - label: B
+    text: $I_1<I_3<I_2$
+    figures: []
+  - label: C
+    text: $I_2<I_3<I_1$
+    figures: []
+  - label: D
+    text: $I_3<I_1<I_2$
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x,y)$ 在有界闭区域 $D$ 上连续，在 $D$ 内有一阶偏导数。若 $f(x,y)$ 在 $D$ 的边界 $\partial D$ 上的值均为 $0$，且 $\dfrac{\partial f(x,y)}{\partial x}+\dfrac{\partial f(x,y)}{\partial y}=f(x,y)$，则 $f(x,y)$\ExamSelection
+  choices:
+  - label: A
+    text: 在 $D$ 内有正的最大值
+    figures: []
+  - label: B
+    text: 在 $D$ 内有负的最小值
+    figures: []
+  - label: C
+    text: |-
+      只在 $D$ 的边界 $\partial D$ 上取到最大值
+    figures: []
+  - label: D
+    text: |-
+      在 $D$ 的边界 $\partial D$ 上可以取到最小值
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 为 $2$ 阶方阵，$\alpha$ 为 $2$ 维非零列向量，且 $\alpha$ 不是 $A$ 的特征向量，$P=(\alpha,A\alpha)$，$A^2\alpha+A\alpha-2\alpha=0$，若矩阵 $B$ 满足 $AP=PB$，则 $B=$\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\begin{pmatrix}-1&0\\1&2\end{pmatrix}$
+    figures: []
+  - label: B
+    text: |-
+      $\begin{pmatrix}0&1\\2&-1\end{pmatrix}$
+    figures: []
+  - label: C
+    text: |-
+      $\begin{pmatrix}-1&1\\0&2\end{pmatrix}$
+    figures: []
+  - label: D
+    text: |-
+      $\begin{pmatrix}0&2\\1&-1\end{pmatrix}$
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知向量组 $\alpha_1=(1,2,-3)^{\mathrm T}$，$\alpha_2=(3,0,-3)^{\mathrm T}$，$\alpha_3=(9,6,-15)^{\mathrm T}$ 与向量组 $\beta_1=(0,1,-1)^{\mathrm T}$，$\beta_2=(3,a,1)^{\mathrm T}$，$\beta_3=(1,1,b)^{\mathrm T}$ 等价，则 $a,b$ 的值分别为\ExamSelection
+  choices:
+  - label: A
+    text: $-4,2$
+    figures: []
+  - label: B
+    text: $4,-2$
+    figures: []
+  - label: C
+    text: $-4,-2$
+    figures: []
+  - label: D
+    text: $4,2$
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A=\begin{pmatrix}-3&0&0\\0&-1&2\\0&2&2\end{pmatrix}$，$B=\begin{pmatrix}0&3&0\\3&0&0\\0&0&k\end{pmatrix}$，若 $A$ 与 $B$ 合同但不相似，则常数 $k$ 的取值范围为\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $k>0$ 且 $k\neq 2$
+    figures: []
+  - label: B
+    text: |-
+      $k>0$ 且 $k\neq 3$
+    figures: []
+  - label: C
+    text: |-
+      $k<0$ 且 $k\neq -2$
+    figures: []
+  - label: D
+    text: |-
+      $k<0$ 且 $k\neq -3$
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设随机变量 $X,Y$ 相互独立，且 $X\sim U(-2,4)$，$Y\sim\begin{pmatrix}-2&2\\\dfrac{3}{4}&\dfrac{1}{4}\end{pmatrix}$，则 $P\{XY>2\}=$\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{1}{6}$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{1}{4}$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{1}{3}$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{1}{2}$
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设二维随机变量 $(X,Y)$ 的概率密度为 $f(x,y)=\begin{cases}\dfrac{1}{4},&-1\leq x<1,0\leq y<2,\\0,&\text{其他},\end{cases}$ 则二次型 $g(x_1,x_2,x_3)=x_1^2+2x_2^2+Yx_3^2+2x_1x_2+2Xx_1x_3$ 正定的概率为\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{2}{3}$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{1}{2}$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{1}{3}$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{1}{4}$
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设随机变量 $X_1,X_2,\cdots,X_n,\cdots$ 相互独立且均服从 $U[1,4]$，$\Phi(x)$ 是标准正态分布的分布函数，则 $\lim_{n\to\infty}P\left\{\dfrac{2\sum_{i=1}^n X_i-5n}{\sqrt{n}}\leq x\right\}=$\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\Phi(x)$
+    figures: []
+  - label: B
+    text: |-
+      $\Phi(\sqrt{3}x)$
+    figures: []
+  - label: C
+    text: |-
+      $\Phi\left(\dfrac{x}{\sqrt{3}}\right)$
+    figures: []
+  - label: D
+    text: |-
+      $\Phi\left(\dfrac{2x}{\sqrt{3}}\right)$
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设存在 $0<\theta<1$，使得 $\arcsin x=\dfrac{x}{\sqrt{1-(\theta x)^2}}$，$-1\leq x\leq 1$，则 $\lim_{x\to 0}\theta=$\ExamBlank。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $\int_{-1}^1\mathrm{d}x\int_{x^2}^{\sqrt{2-x^2}}(x+1)y\,\mathrm{d}y=$\ExamBlank。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $\int_1^{\mathrm e}\cos(\ln x)\,\mathrm{d}x=$\ExamBlank。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $y=y(x)$ 满足 $y'+2(\ln x+1)y=0$，$y(1)=1$，则 $y(x)$ 在 $(0,1]$ 上的最大值为\ExamBlank。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      已知 $A=\begin{pmatrix}1&-1\\1&0\end{pmatrix}$，若 $(PA)^2=PA$，$P$ 为可逆矩阵，则 $P=$\ExamBlank。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $A,B,C$ 是 $3$ 个随机事件，其中 $A$ 与 $B$ 相互独立，$A$ 与 $C$ 互不相容，$P(A)=\dfrac{1}{2}$，$P(B)=\dfrac{1}{3}$，$P(C)=\dfrac{1}{4}$，$P(B\mid C)=\dfrac{1}{8}$，则 $P(C\mid A\cup B)=$\ExamBlank。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      设 $f(x)$ 是非负连续函数，且 $\lim_{x\to a}\dfrac{f^2(x)-a}{x^2-a^2}=1$（$a>0$），求 $f'(a)$。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $f(x)=x\cdot a^x(1-a)$，$x>0$。
+  subparts:
+  - text: 当 $0<a<1$ 时，求 $f(x)$ 的最大值；
+  - text: |-
+      当 $x>0$，$0<y<1$ 时，证明 $xy^x(1-y)<\dfrac{1}{\mathrm e}$。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 $y=y(x)$ 满足 $(1-x)y'+2y=0$，$y(0)=1$，$a_n(x)=\int_0^x y(t)\sin^n t\,\mathrm{d}t$，$n=1,2,\cdots$。
+  subparts:
+  - text: 求 $y(x)$ 的表达式；
+  - text: |-
+      证明 $\sum_{n=1}^{\infty}a_n(1)$ 收敛。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设平面区域 $D=\{(x,y)\mid (x-1)^2+y^2\geq 1,(x-2)^2+y^2\leq 4,y\geq x\}$，计算 $\iint_D(x^2+y^2)\,\mathrm{d}\sigma$。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      已知二次型 $f(x_1,x_2,x_3)=ax_1^2+ax_2^2+ax_3^2+2x_1x_2+2x_1x_3-2x_2x_3$ 对应的矩阵为 $A$，且其在正交变换 $\boldsymbol{x}=Q\boldsymbol{y}$ 下的标准形为 $y_1^2+y_2^2-2y_3^2$。
+  subparts:
+  - text: 求 $a$ 的值和正交矩阵 $Q$；
+  - text: |-
+      设矩阵 $B=\begin{pmatrix}1&0&0\\c&b&0\\-1&-1&1\end{pmatrix}$，若 $A$ 与 $B$ 相似，求 $b,c$ 的值，在此情形下，是否存在正交矩阵 $P$，使 $P^{\mathrm T}AP=B$，若存在，求 $P$，若不存在，请说明理由。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $X_0,X_1,X_2,\cdots,X_n$ 是来自总体 $X$ 的简单随机样本，$Y=\dfrac{1}{\max_{1\leq i\leq n}\{X_i\}}$，已知 $X$ 的概率密度为 $f(x)=\begin{cases}\mathrm e^{-x},&x>0,\\0,&x\leq 0.\end{cases}$
+  subparts:
+  - text: 求 $Y$ 的分布函数；
+  - text: |-
+      求 $P\{X_0Y-X_0-Y+1\leq 0\}$。

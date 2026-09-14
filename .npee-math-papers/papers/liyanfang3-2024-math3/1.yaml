@@ -1,0 +1,323 @@
+schema_version: '3.0'
+paper:
+  series_key: liyanfang3
+  year: 2024
+  subject: math3
+  paper_no: 1
+content_hash: 7c45313b5976d7e6b94d59c94cdea9985caafccc3c3b89e9f6591fefe4398caf
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      下列每题给出的四个选项中，只有一个选项是最符合题目要求的。当 $x\to 0$ 时，下列无穷小量中，最高阶的是\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\cos x-\sqrt{1-x^2}$。
+    figures: []
+  - label: B
+    text: |-
+      $\cos x-\sqrt{1-2x^2}$。
+    figures: []
+  - label: C
+    text: |-
+      $e^x-\sqrt{1+x}$。
+    figures: []
+  - label: D
+    text: |-
+      $e^x-\sqrt{1+2x}$。
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      曲线 $y=\dfrac{e^{\dfrac{1}{x}}(1+x)^{\dfrac{3}{2}}}{\sqrt{x}}$ 的斜渐近线方程为\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $y=x-\dfrac{1}{2}$。
+    figures: []
+  - label: B
+    text: |-
+      $y=x+\dfrac{3}{2}$。
+    figures: []
+  - label: C
+    text: |-
+      $y=x+\dfrac{5}{2}$。
+    figures: []
+  - label: D
+    text: |-
+      $y=x+\dfrac{9}{2}$。
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $D_k$ 是区域 $D=\{(x,y)\mid |x|+|y|\le e\}$ 在第 $k$ 象限的部分，记 $I_k=\iint_{D_k}\ln\dfrac{3+y}{3+x}\,\mathrm{d}x\,\mathrm{d}y$，则 $\max_{1\le k\le4}\{I_k\}=$\ExamSelection。
+  choices:
+  - label: A
+    text: $I_1$。
+    figures: []
+  - label: B
+    text: $I_2$。
+    figures: []
+  - label: C
+    text: $I_3$。
+    figures: []
+  - label: D
+    text: $I_4$。
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设有两个数列 $\{a_n\}$，$\{b_n\}$，则下列命题中，错误的是\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      若 $\sum_{n=1}^{\infty}a_n$，$\sum_{n=1}^{\infty}b_n$ 均条件收敛，则 $\sum_{n=1}^{\infty}\min\{a_n,b_n\}$ 可能条件收敛。
+    figures: []
+  - label: B
+    text: |-
+      若 $\sum_{n=1}^{\infty}a_n$，$\sum_{n=1}^{\infty}b_n$ 均条件收敛，则 $\sum_{n=1}^{\infty}\max\{a_n,b_n\}$ 可能发散。
+    figures: []
+  - label: C
+    text: |-
+      若 $\sum_{n=1}^{\infty}a_n$，$\sum_{n=1}^{\infty}b_n$ 均绝对收敛，则 $\sum_{n=1}^{\infty}\min\{a_n,b_n\}$ 可能绝对收敛。
+    figures: []
+  - label: D
+    text: |-
+      若 $\sum_{n=1}^{\infty}a_n$，$\sum_{n=1}^{\infty}b_n$ 均绝对收敛，则 $\sum_{n=1}^{\infty}\max\{a_n,b_n\}$ 可能条件收敛。
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $n\ge2$，向量组 I：$\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\cdots,\boldsymbol{\alpha}_n$，向量组 II：$\boldsymbol{\beta}_1,\boldsymbol{\beta}_2,\cdots,\boldsymbol{\beta}_n$，向量组 III：$\boldsymbol{\alpha}_1+\boldsymbol{\beta}_1,\boldsymbol{\alpha}_2+2\boldsymbol{\beta}_2,\cdots,\boldsymbol{\alpha}_n+n\boldsymbol{\beta}_n$ 的秩分别为 $r_1,r_2,r_3$，其中 $r_1=r_2=r$，则\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $r_3\ge r$。
+    figures: []
+  - label: B
+    text: |-
+      $r_3\le 2r$。
+    figures: []
+  - label: C
+    text: 向量组 I 和 II 等价。
+    figures: []
+  - label: D
+    text: |-
+      向量组 $\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\cdots,\boldsymbol{\alpha}_n,\boldsymbol{\beta}_1,\boldsymbol{\beta}_2,\cdots,\boldsymbol{\beta}_n$ 与向量组 III 等价。
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A,B$ 为 $n$ 阶矩阵，$E$ 为 $n$ 阶单位矩阵，则下列说法中，正确的是\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      若 $Ax=0$ 与 $Bx=0$ 只有零解，则 $\begin{pmatrix}A&B\\B&A\end{pmatrix}y=0$ 只有零解。
+    figures: []
+  - label: B
+    text: |-
+      若 $Ax=0$ 与 $Bx=0$ 没有非零公共解，则 $\begin{pmatrix}A&B\\B&A\end{pmatrix}y=0$ 只有零解。
+    figures: []
+  - label: C
+    text: |-
+      若 $Ax=0$ 与 $Bx=0$ 同解，则 $\begin{pmatrix}A^{\mathrm T}A&O\\E&B\end{pmatrix}y=0$ 只有零解。
+    figures: []
+  - label: D
+    text: |-
+      若 $Ax=0$ 与 $Bx=0$ 同解，则 $\begin{pmatrix}A^{\mathrm T}A&A^{\mathrm T}B\\O&B\end{pmatrix}y=0$ 与 $\begin{pmatrix}B^{\mathrm T}B&B^{\mathrm T}A\\O&A\end{pmatrix}y=0$ 同解。
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A=(a_{ij})$ 为 3 阶对角矩阵，且 $a_{11}=1$，将 $A$ 的第一行的 2 倍加到第二行得到矩阵 $B$，再对 $B$ 作初等变换 $T$ 得到矩阵 $C$，则下列说法中，正确的是\ExamSelection。
+  choices:
+  - label: A
+    text: 若 $T$ 为将 $B$ 的第二列的 $-2$ 倍加到第一列，则 $A$ 与 $C$ 相似且合同。
+    figures: []
+  - label: B
+    text: 若 $T$ 为将 $B$ 的第二列的 $-2$ 倍加到第一列，则 $A$ 与 $C$ 相似，但不合同。
+    figures: []
+  - label: C
+    text: 若 $T$ 为将 $B$ 的第一列的 2 倍加到第二列，则 $A$ 与 $C$ 合同且相似。
+    figures: []
+  - label: D
+    text: 若 $T$ 为将 $B$ 的第一列的 2 倍加到第二列，则 $A$ 与 $C$ 合同，但不相似。
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A,B,C$ 为三个随机事件，且 $P(A)=\dfrac{1}{2}$，$P(B)=\dfrac{1}{3}$，$P(C)=\dfrac{1}{4}$，$P(A\cap B\cap C)=0$，则 $A,B,C$ 一个都不发生的概率最大可取到\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{5}{12}$。
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{11}{24}$。
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{1}{2}$。
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{13}{24}$。
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设随机变量 $X$ 服从均值为 $\dfrac{1}{\lambda}$ 的指数分布，$D(X)$ 为 $X$ 的方差，记随机变量 $Y=e^{\dfrac{X}{D(X)}}$，则 $P\{Y\ge2\}=$\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{1}{\sqrt[\lambda]{2}}$。
+    figures: []
+  - label: B
+    text: |-
+      $\sqrt[\lambda]{2}$。
+    figures: []
+  - label: C
+    text: |-
+      $1-\dfrac{1}{\sqrt[\lambda]{2}}$。
+    figures: []
+  - label: D
+    text: |-
+      $1-\sqrt[\lambda]{2}$。
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设总体 $X$ 的数学期望为 0，方差为 $\sigma^2(\sigma>0)$，$X_1,X_2,\cdots,X_n(n\ge2)$ 为来自总体 $X$ 的简单随机样本，$\alpha$ 为非负实数，$p_\alpha=P\left\{\left|\dfrac{1}{n}\sum_{i=1}^nX_i\right|\ge\alpha\right\}$，则下列说法中，正确的是\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      若 $\alpha\ge\dfrac{\sigma}{\sqrt{n}}$，则 $p_\alpha\le\dfrac{1}{4}$。
+    figures: []
+  - label: B
+    text: |-
+      若 $\alpha\ge\dfrac{\sigma}{\sqrt{n}}$，则 $p_\alpha\ge\dfrac{1}{4}$。
+    figures: []
+  - label: C
+    text: |-
+      若 $\alpha\ge\dfrac{2\sigma}{\sqrt{n}}$，则 $p_\alpha\le\dfrac{1}{4}$。
+    figures: []
+  - label: D
+    text: |-
+      若 $\alpha\ge\dfrac{2\sigma}{\sqrt{n}}$，则 $p_\alpha\ge\dfrac{1}{4}$。
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      某企业为生产甲、乙两种型号的产品投入的固定成本为 $C_0$（万元）。设该企业生产甲、乙两种产品的产量分别为 $x$（件）和 $y$（件），且这两种产品的边际成本分别为 $30+x$（万元/件）与 $15+2y$（万元/件）。已知当总产量为 60 件时，最小总成本为 5 000（万元），则 $C_0=$\ExamBlank（万元）。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      差分方程 $\Delta^2y_x-y_x=2^{x+1}$ 的通解为 $y_x=$\ExamBlank。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $\lim_{n\to\infty}\sum_{k=1}^n\dfrac{k}{n^{\dfrac{3}{2}}\sqrt{4n-3k}}=$\ExamBlank。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设函数 $z(x,y)=\ln(x^2+y^2)f\left(\arctan\dfrac{y}{x}\right)$，其中 $f(u)$ 可导，若 $x\dfrac{\partial z}{\partial x}+y\dfrac{\partial z}{\partial y}=\int_0^y\dfrac{y}{x^2+t^2}\,\mathrm{d}t$，则 $f\left(\dfrac{\pi}{4}\right)=$\ExamBlank。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 3 阶矩阵 $A=(a_{ij})$，其中 $a_{ij}=i-j$，$E$ 为 3 阶单位矩阵。若 $\left|kE+AA^{*}\right|=-8$，则 $k=$\ExamBlank。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设随机变量 $X$ 的概率密度 $f(x)=\begin{cases}\dfrac{2}{\pi}\left(x\arctan x+\dfrac{1}{2}\right),&-1<x<1,\\0,&\text{其他}\end{cases}$，随机变量 $Y=\ln(1+X^2)$，则 $\operatorname{Cov}(3X+Y,X)=$\ExamBlank。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      解答应写出文字说明、证明过程或演算步骤。设函数 $f(x)=\dfrac{x}{1+2x}$，$x\in[0,1]$。定义函数列：$f_1(x)=f(x)$，$f_2(x)=f(f_1(x))$，$\cdots$，$f_n(x)=f(f_{n-1}(x))$，$\cdots$。记 $S_n$ 是由曲线 $y=f_n(x)$、直线 $x=1$ 及 $x$ 轴所围平面图形的面积。
+  subparts:
+  - text: 求 $f_n(x)$。
+  - text: |-
+      求极限 $\lim_{n\to\infty}nS_n$。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设平面区域 $D=\{(x,y)\mid x^2+y^2\le2,x\ge0,y\ge0\}$。已知函数 $f(x,y)$ 满足 $f(x,y)=\dfrac{\sin x^2\cos y^2}{1-\cos 2}+\max\{x^2,y\}\iint_Df(x,y)\,\mathrm{d}x\,\mathrm{d}y$。求函数 $f(x,y)$ 的表达式。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 $f(x)=\ln\dfrac{1+x}{1-x}$。
+  subparts:
+  - text: |-
+      求 $f(x)$ 在 $x=0$ 处的 $n(n\ge1)$ 阶导数 $f^{(n)}(0)$。
+  - text: |-
+      求 $\sum_{n=1}^{\infty}\dfrac{1}{f^{(2n-1)}(0)}$。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: 设函数 $f(x)$ 在 $[0,1]$ 上连续，在 $(0,1)$ 内可导，且 $f(x)$ 不恒等于 $x$。已知 $f(0)=0$，$f(1)=1$，证明：
+  subparts:
+  - text: |-
+      在 $(0,1)$ 内存在点 $\xi$，使得 $f'(\xi)=1$。
+  - text: |-
+      在 $(0,1)$ 内存在两个不同的点 $\eta_1,\eta_2$，使得 $f'(\eta_1)+f'(\eta_2)>2$。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设矩阵 $A=\begin{pmatrix}0&1&0&0\\-4&0&0&0\\0&0&1&a\\0&0&a&-2\end{pmatrix}$，其中 $a>0$。
+  subparts:
+  - text: 已知 $A$ 的一个特征值为 2，求 $a$。
+  - text: |-
+      求可逆线性变换 $x=Pz$，使二次型 $f(x_1,x_2,x_3,x_4)=x^{\mathrm T}A^2x$ 化为规范形 $z_1^2+z_2^2-z_3^2-z_4^2$。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $(X,Y)$ 是二维随机变量，$X$ 的边缘概率密度为 $f_X(x)=\begin{cases}\dfrac{3}{2}x^2-\dfrac{3}{4}x^3,&0<x<2,\\0,&\text{其他}\end{cases}$，在给定 $X=x(0<x<2)$ 的条件下 $Y$ 的条件概率密度为 $f_{Y\mid X}(y\mid x)=\begin{cases}\dfrac{2y}{2x-x^2},&x<y<\sqrt{2x},\\0,&\text{其他}\end{cases}$。
+  subparts:
+  - text: 求 $(X,Y)$ 的联合概率密度 $f(x,y)$。
+  - text: 求 $Y$ 的边缘概率密度 $f_Y(y)$。
+  - text: |-
+      求 $P\{\max\{X,Y\}\ge1\}$。

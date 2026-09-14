@@ -1,0 +1,308 @@
+schema_version: '3.0'
+paper:
+  series_key: chaoyue10
+  year: 2024
+  subject: math3
+  paper_no: 1
+content_hash: 82a8dafa71ba07d2164dd858540b6b1fa85963b4d7e15be632eddeee6340f5e4
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x)=\begin{cases}x^2,&x\leq 0,\\\ln x,&x>0,\end{cases}$ 则函数 $f(f(x))$\ExamSelection。
+  choices:
+  - label: A
+    text: 无极值点
+    figures: []
+  - label: B
+    text: 有一个极小值点，无极大值点
+    figures: []
+  - label: C
+    text: 有一个极大值点，无极小值点
+    figures: []
+  - label: D
+    text: 有一个极小值点和一个极大值点
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设有积分 $I_1=\int_0^1\dfrac{\sin x}{\sqrt{1-x^2}}\,\mathrm{d}x$，$I_2=\int_0^1\dfrac{\cos x}{\sqrt{1-x^2}}\,\mathrm{d}x$，则下列说法正确的是\ExamSelection。
+  choices:
+  - label: A
+    text: $I_1$ 发散，$I_2$ 收敛且 $I_2<1$
+    figures: []
+  - label: B
+    text: $I_1$ 收敛，$I_2$ 发散且 $I_1<1$
+    figures: []
+  - label: C
+    text: $I_1,I_2$ 均收敛且 $I_1<1,I_2<1$
+    figures: []
+  - label: D
+    text: $I_1,I_2$ 均收敛且 $I_1<1,I_2>1$
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x,y)=\begin{cases}\dfrac{x^2y}{x^2+y^2},&x^2+y^2\ne 0,\\0,&x^2+y^2=0,\end{cases}$ 则\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $f_{xy}^{\prime\prime}(0,0),f_{yx}^{\prime\prime}(0,0)$ 均存在
+    figures: []
+  - label: B
+    text: |-
+      $f_{xy}^{\prime\prime}(0,0),f_{yx}^{\prime\prime}(0,0)$ 均不存在
+    figures: []
+  - label: C
+    text: |-
+      $f_{xy}^{\prime\prime}(0,0)$ 存在，$f_{yx}^{\prime\prime}(0,0)$ 不存在
+    figures: []
+  - label: D
+    text: |-
+      $f_{xy}^{\prime\prime}(0,0)$ 不存在，$f_{yx}^{\prime\prime}(0,0)$ 存在
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $k$ 为实数，则下列说法正确的是\ExamSelection。①设正项级数 $\sum_{n=1}^{\infty}u_n$ 满足 $\dfrac{u_{n+1}}{u_n}<1$，则级数 $\sum_{n=1}^{\infty}u_n$ 收敛；②设级数 $\sum_{n=1}^{\infty}u_n$ 满足 $\left|\dfrac{u_{n+1}}{u_n}\right|\geq 1$，则级数 $\sum_{n=1}^{\infty}u_n$ 一定发散；③若 $\lim_{n\to\infty}\dfrac{a_n}{b_n}=k$，级数 $\sum_{n=1}^{\infty}b_n$ 绝对收敛，则 $\sum_{n=1}^{\infty}a_n$ 也绝对收敛；④若级数 $\sum_{n=1}^{\infty}a_n,\sum_{n=1}^{\infty}b_n(b_n\ne 0)$ 均绝对收敛，则 $\lim_{n\to\infty}\left|\dfrac{a_n}{b_n}\right|=k$。
+  choices:
+  - label: A
+    text: ①③
+    figures: []
+  - label: B
+    text: ②④
+    figures: []
+  - label: C
+    text: ①④
+    figures: []
+  - label: D
+    text: ②③
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A^*$ 为 $3$ 阶矩阵 $A$ 的伴随矩阵，先将 $A$ 的第一行与第三行对调得到 $B$，再将 $B$ 的第二列的 $-2$ 倍加到第一列得到 $E$，则 $[2A+(A^*)^*]^{-1}=$\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\begin{pmatrix}0&0&1\\0&1&2\\1&0&0\end{pmatrix}$
+    figures: []
+  - label: B
+    text: |-
+      $\begin{pmatrix}0&0&1\\0&1&-2\\1&0&0\end{pmatrix}$
+    figures: []
+  - label: C
+    text: |-
+      $\begin{pmatrix}0&0&1\\-2&1&0\\1&0&0\end{pmatrix}$
+    figures: []
+  - label: D
+    text: |-
+      $\begin{pmatrix}0&0&1\\1&-2&0\\0&1&0\end{pmatrix}$
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A,B$ 为 $n$ 阶可逆的实对称矩阵。① $A,B$ 的列向量组具有相同的线性相关性；② $A,B$ 的行向量组具有相同的线性相关性；③存在可逆矩阵 $P$，使 $P^{\mathrm{T}}A^2P=B^2$；④存在可逆矩阵 $P$，使 $P^{-1}ABP=BA$。以上说法正确的个数为\ExamSelection。
+  choices:
+  - label: A
+    text: $1$
+    figures: []
+  - label: B
+    text: $2$
+    figures: []
+  - label: C
+    text: $3$
+    figures: []
+  - label: D
+    text: $4$
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设二次型 $f(x_1,x_2,\cdots,x_n)=\sum_{i=1}^m(a_{i1}x_1+a_{i2}x_2+\cdots+a_{in}x_n)^2$ 的矩阵为 $B$，记 $A=(a_{ij})_{m\times n}$，则当\ExamSelection{}时，二次型 $f=x^{\mathrm{T}}Bx$ 为正定二次型。
+  choices:
+  - label: A
+    text: $r(f)=m$
+    figures: []
+  - label: B
+    text: $r(f)=n$
+    figures: []
+  - label: C
+    text: $r(f)=r(A)$
+    figures: []
+  - label: D
+    text: $m=n$
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设连续型随机变量 $X$ 的分布函数为 $F(x)$，$Y=F(X)$，则 $\mathrm{E}(Y^2)$ 为\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{1}{3}$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{1}{2}$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{1}{12}$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{1}{9}$
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      从 $1,2,3,4$ 中任取一个数，记为 $X$，再从 $0,1,\cdots,X$ 中任取两个数，记 $Y$ 为取到偶数的个数，则 $\mathrm{E}Y=$\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{17}{15}$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{14}{15}$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{13}{15}$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{11}{15}$
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设总体 $X$ 服从区间 $[a,b]$ 上的均匀分布，$a,b$ 未知。$x_1,x_2,\cdots,x_n$ 为来自总体 $X$ 的一个简单随机样本值，则区间长度 $b-a$ 的最大似然估计值为\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{1}{2}[\max\{x_1,\cdots,x_n\}+\min\{x_1,\cdots,x_n\}]$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{1}{2}[\max\{x_1,\cdots,x_n\}-\min\{x_1,\cdots,x_n\}]$
+    figures: []
+  - label: C
+    text: |-
+      $\max\{x_1,\cdots,x_n\}+\min\{x_1,\cdots,x_n\}$
+    figures: []
+  - label: D
+    text: |-
+      $\max\{x_1,\cdots,x_n\}-\min\{x_1,\cdots,x_n\}$
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $\lim_{n\to\infty}\dfrac{\sum_{k=1}^n\dfrac{1}{k}}{\ln n}=\ExamBlank$。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $xy=c_1e^x+c_2e^{2x}$ 是某二阶齐次线性微分方程的通解，则该方程为\ExamBlank。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $z=z(u,v)$ 由方程 $z=e^{uvz}$ 确定，$u=u(x),v=v(x)$ 由方程组 $\begin{cases}u^2+2v+e^x=2,\\u-v+x=1\end{cases}$ 确定，其中 $u>0$，则 $\left.\dfrac{\mathrm{d}z}{\mathrm{d}x}\right|_{x=0}=\ExamBlank$。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x)$ 可导，$f(0)=0$，且 $f(x)=\sin x^2+2x\int_0^1xf(x)\,\mathrm{d}x-x\lim_{x\to 0}\dfrac{f(x)}{x}$，则 $\int_0^1xf(x)\,\mathrm{d}x=\ExamBlank$。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $3$ 阶矩阵 $A=\begin{pmatrix}a&2&2\\0&1&2\\0&0&-1\end{pmatrix}$ 不能相似对角化，则 $a=\ExamBlank$。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设随机变量 $X$ 与 $Y$ 相互独立且均服从 $[0,2]$ 上的均匀分布，记 $U=\max\{X,Y\}$，$V=\min\{X,Y\}$，$F(u,v)$ 为 $(U,V)$ 的分布函数，则 $F(1,\dfrac{1}{2})=\ExamBlank$。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      函数 $y(x)$ 是方程 $y^{\prime\prime}-2y^{\prime}+y=f(x)$ 满足 $y(0)=1,y^{\prime}(0)=2$ 的特解，其中 $f(x)=\begin{cases}x+1,&x\leq 0,\\e^x,&x>0.\end{cases}$
+  subparts:
+  - text: 求 $y(x)$ 的表达式；
+  - text: 求曲线 $y(x)$ 的渐近线。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      求 $f(x,y)=x^3-x^2y+\dfrac{5}{6}y^2+\dfrac{1}{3}y^3$ 的极值。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: 设函数 $f(x)$ 在 $[0,1]$ 上二阶可导，且 $f(0)=0$，$f(1)=1$。证明：
+  subparts:
+  - text: |-
+      存在 $\xi\in(0,1)$，使 $f^{\prime}(\xi)=1$；
+  - text: |-
+      存在 $\eta\in(0,1)$，使 $\eta f^{\prime\prime}(\eta)+f^{\prime}(\eta)=1$。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $f(x,y)=\begin{cases}\sqrt{\dfrac{1-x^2-y^2}{1+x^2+y^2}},&y\leq x,\\x^2y,&y>x,\end{cases}$，$D:x^2+y^2\leq 1,x\geq 0$，计算积分 $\iint_Df(x,y)\,\mathrm{d}\sigma$。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $A$ 为 $3$ 阶矩阵，$\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3$ 为 $3$ 维列向量，已知 $A\boldsymbol{\alpha}_1=\boldsymbol{\alpha}_2,A^2\boldsymbol{\alpha}_1=\boldsymbol{\alpha}_3,A^3\boldsymbol{\alpha}_1=0,\boldsymbol{\alpha}_3\ne 0$，
+  subparts:
+  - text: |-
+      证明：对任意常数 $k$，向量组 $k\boldsymbol{\alpha}_1+\boldsymbol{\alpha}_2,-\boldsymbol{\alpha}_2+\boldsymbol{\alpha}_3,\boldsymbol{\alpha}_1-k\boldsymbol{\alpha}_3$ 线性无关；
+  - text: 求 $A$ 所有特征值与特征向量，问 $A$ 能否相似于一个对角阵？说明理由；
+  - text: |-
+      求线性方程组 $A^{\mathrm{T}}Ax=A^{\mathrm{T}}\boldsymbol{\alpha}_3$ 的通解。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设随机变量 $Y\sim N(0,1)$，在给定 $Y=y$（$-\infty<y<+\infty$）的条件下随机变量 $X\sim N(\dfrac{y}{2},\dfrac{3}{4})$，记 $U=X+2Y,V=\dfrac{5}{2}X-2Y$，求：
+  subparts:
+  - text: $(X,Y)$ 的概率密度 $f(x,y)$；
+  - text: |-
+      协方差 $\mathrm{Cov}(U,V)$；
+  - text: 判断 $U$ 和 $V$ 的独立性，并说明理由。

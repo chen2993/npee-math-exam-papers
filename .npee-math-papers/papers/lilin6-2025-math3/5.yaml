@@ -1,0 +1,300 @@
+schema_version: '3.0'
+paper:
+  series_key: lilin6
+  year: 2025
+  subject: math3
+  paper_no: 5
+content_hash: fbcc99d8831014260de29b101c429bbe13ee1e94ee65712c63369f76759f6e25
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      当 $t\to 0^+$ 时，$f(t)=\int_0^t \,\mathrm{d}x\int_x^t \sin^2(xy)\,\mathrm{d}y$ 是关于 $t$ 的 $n$ 阶无穷小，则 $n=$\ExamSelection
+  choices:
+  - label: A
+    text: $3$
+    figures: []
+  - label: B
+    text: $4$
+    figures: []
+  - label: C
+    text: $5$
+    figures: []
+  - label: D
+    text: $6$
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x,y)$ 有二阶连续偏导数，且满足 $f_{xx}''(x,y)=f_{yy}''(x,y)$，$f(x,2x)=x$，$f_x'(x,2x)=x^2$，则 $f_{xx}''(x,2x)=$\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $-\dfrac{4}{3}x$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{4x}{3}$
+    figures: []
+  - label: C
+    text: |-
+      $-\dfrac{5x}{3}$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{5x}{3}$
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      积分 $I=\int_{\dfrac{\pi}{2}}^{\pi}\mathrm{d}\theta\int_0^{\sin\theta}f(r\cos\theta,r\sin\theta)r\,\mathrm{d}r=$\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\int_0^{-\dfrac{1}{2}}\mathrm{d}x\int_{\dfrac{1}{2}-\sqrt{\dfrac{1}{4}-x^2}}^{\dfrac{1}{2}+\sqrt{\dfrac{1}{4}-x^2}}f(x,y)\,\mathrm{d}y$
+    figures: []
+  - label: B
+    text: |-
+      $\int_0^1\mathrm{d}y\int_0^{\sqrt{y-y^2}}f(x,y)\,\mathrm{d}x$
+    figures: []
+  - label: C
+    text: |-
+      $\int_0^1\mathrm{d}r\int_{\dfrac{\pi}{2}}^{\pi-\arcsin r}f(r\cos\theta,r\sin\theta)r\,\mathrm{d}\theta$
+    figures: []
+  - label: D
+    text: |-
+      $\int_0^1\mathrm{d}r\int_{\dfrac{\pi}{2}}^{\arcsin r}f(r\cos\theta,r\sin\theta)r\,\mathrm{d}\theta$
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知 $a_n>0$ ($n=1,2,\cdots$)，且 $\sum_{n=1}^{\infty}(-1)^{n-1}a_n$ 条件收敛，$b_n=2a_{2n-1}-a_{2n}$，则级数 $\sum_{n=1}^{\infty}b_n$\ExamSelection
+  choices:
+  - label: A
+    text: 绝对收敛
+    figures: []
+  - label: B
+    text: 条件收敛
+    figures: []
+  - label: C
+    text: 发散
+    figures: []
+  - label: D
+    text: 敛散性取决于 $a_n$ 的具体形式
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 是 $n$ ($n\geqslant 3$) 阶矩阵，$A^*$ 是 $A$ 的伴随矩阵，线性方程组 $AX=0$ 有两个线性无关的解，则\ExamSelection
+  choices:
+  - label: A
+    text: $AX=0$ 与 $A^*X=0$ 同解
+    figures: []
+  - label: B
+    text: $A^*X=0$ 的解均是 $AX=0$ 的解
+    figures: []
+  - label: C
+    text: $AX=0$ 的解均是 $A^*X=0$ 的解
+    figures: []
+  - label: D
+    text: $AX=0$ 与 $A^*X=0$ 没有非零公共解
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A,B,C$ 均为 $3$ 阶矩阵，$r(C)=1$，$r(B)=2$，且满足 $(A+E)C=O$，$B(A^{\mathrm{T}}-2E)=O$，则与 $A$ 相似的为\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\begin{pmatrix}2&1&0\\0&2&1\\0&0&1\end{pmatrix}$
+    figures: []
+  - label: B
+    text: |-
+      $\begin{pmatrix}-1&1&0\\0&-1&1\\0&0&2\end{pmatrix}$
+    figures: []
+  - label: C
+    text: |-
+      $\begin{pmatrix}-2&0&0\\0&-2&0\\0&0&1\end{pmatrix}$
+    figures: []
+  - label: D
+    text: |-
+      $\begin{pmatrix}-1&0&0\\0&2&0\\0&0&2\end{pmatrix}$
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 是 $2$ 阶实对称矩阵，若对任意的 $2$ 维非零列向量 $X$，都有 $|X^{\mathrm{T}}AX|<|X^{\mathrm{T}}X|$，$X_1,X_2$ 均为 $2$ 维列向量，则二次型 $\begin{bmatrix}X_1\\X_2\end{bmatrix}^{\mathrm{T}}\begin{bmatrix}A+E&O\\O&E-A\end{bmatrix}\begin{bmatrix}X_1\\X_2\end{bmatrix}$ 的规范形为\ExamSelection
+  choices:
+  - label: A
+    text: $y_1^2+y_2^2-y_3^2-y_4^2$
+    figures: []
+  - label: B
+    text: $y_1^2+y_2^2+y_3^2-y_4^2$
+    figures: []
+  - label: C
+    text: $y_1^2+y_2^2+y_3^2+y_4^2$
+    figures: []
+  - label: D
+    text: $-y_1^2-y_2^2-y_3^2-y_4^2$
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $X_1,X_2,\cdots,X_n$ ($n>1$) 为来自总体 $X\sim N(\mu,\sigma^2)$ ($\sigma>0$) 的简单随机样本，$\overline{X}=\dfrac{1}{n}\sum_{i=1}^nX_i$，则相关系数 $\rho_{X_1,\overline{X}}=$\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{1}{\sqrt{n}}$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{1}{n}$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{\sigma^2}{n}$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{\sigma^2}{\sqrt{n}}$
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      随机从数集 $\{1,2,3,4,5\}$ 中有放回地取出 $n$ 个数 $X_1,X_2,\cdots,X_n$，则当 $n\to\infty$ 时，$\dfrac{1}{n}\sum_{i=1}^nX_i$ 与 $\dfrac{1}{n}\sum_{i=1}^nX_i^2$ 依概率依次收敛于\ExamSelection
+  choices:
+  - label: A
+    text: $3,11$
+    figures: []
+  - label: B
+    text: |-
+      $3,\dfrac{1}{5}$
+    figures: []
+  - label: C
+    text: $5,3$
+    figures: []
+  - label: D
+    text: $5,11$
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $X_1,X_2,\cdots,X_n$ 为来自总体 $N(\mu,\sigma^2)$ ($\sigma>0$) 的简单随机样本，$\overline{X}=\dfrac{1}{n}\sum_{i=1}^nX_i$，$S_1^2=\sum_{i=1}^n(X_i-\mu)^2$，$S_2^2=\sum_{i=1}^n(X_i-\overline{X})^2$，则下列选项正确的是\ExamSelection
+  choices:
+  - label: A
+    text: $E(S_1^2)=n$
+    figures: []
+  - label: B
+    text: |-
+      $E(S_2^2)=n\sigma^2$
+    figures: []
+  - label: C
+    text: |-
+      $D(S_1^2)=2n\sigma^4$
+    figures: []
+  - label: D
+    text: |-
+      $D(S_2^2)=(2n-1)\sigma^4$
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $y=y(x)$ 是 $(x-2y)\,\mathrm{d}x+x\,\mathrm{d}y=0$ 的一个解，$y=y(x)$ 与直线 $x=0$，$x=1$ 及 $x$ 轴围成的平面图形为 $D$，若 $D$ 绕 $x$ 轴旋转一周所得旋转体的体积最小，则 $y(x)=$\ExamBlank
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)$ 在 $x=0$ 处连续，且 $\lim_{x\to0}[e^x+f(x)]^{\dfrac{1}{x}}=e^2$，则 $\lim_{n\to\infty}nf\left(\dfrac{2}{n}\right)=$\ExamBlank
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      已知某产品生产 $x$ 单位的边际单位成本为 $\left[\dfrac{C(x)}{x}\right]'=-\dfrac{100}{x^2}$，当产量为 $1$ 个单位时，成本为 $102$，若边际收益为 $R'(x)=12-0.1x$，且 $R(0)=0$，则利润最大时的平均价格为\ExamBlank
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $a>0$，$\int_1^{+\infty}\dfrac{\mathrm{d}x}{(x^2+2x)^a}$ 发散，且 $\sum_{n=1}^{\infty}\left(\dfrac{1}{n}-\sin\dfrac{1}{n}\right)^a$ 收敛，则 $a$ 的取值范围为\ExamBlank
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 是 $2$ 阶矩阵，线性方程组 $AX=\begin{bmatrix}3\\2\end{bmatrix}$ 的通解为 $k(-2,1)^{\mathrm{T}}+(3,-4)^{\mathrm{T}}$。若 $\beta=(5,-10)^{\mathrm{T}}$，则 $\beta^{\mathrm{T}}A\beta=$\ExamBlank
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设随机变量 $X$ 的概率密度为 $f(x)=\begin{cases}\dfrac{1}{2}x^2e^{-x},&x>0,\\0,&x\leqslant0,\end{cases}$ 则由切比雪夫不等式有 $P\{0<X<6\}\geqslant$\ExamBlank
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      设 $y=y(x)$ 满足 $xy'-(2x^2-1)y=x^3$ ($x\geqslant1$)，$y(1)=a$。
+  subparts:
+  - text: 求 $y(x)$；
+  - text: |-
+      若 $\lim_{x\to+\infty}\dfrac{y(x)}{x}$ 存在，求曲线 $y=y(x)$ 的斜渐近线方程。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      已知曲线 $ax^2+2xy+by^2=1$ 上的点 $\left(\dfrac{1}{2},-\dfrac{1}{2}\right)$ 使得 $x^2+y^2$ 取得最大值，求 $a,b$ 的值。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $D=\{(x,y)\mid x^2+y^2\leqslant1,x\geqslant0,y\geqslant0\}$，计算 $I=\iint_D(x-y+xye^{x^2-y^2})\,\mathrm{d}x\,\mathrm{d}y$。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $a_0=0$，$a_1=1$，$a_{n+1}=a_n+2a_{n-1}$ ($n=1,2,\cdots$)，$S(x)=\sum_{n=1}^{\infty}\dfrac{a_n}{n!}x^n$，$x\in(-\infty,+\infty)$，求 $S(x)$ 满足的二阶微分方程，并求 $S(x)$ 及 $a_n$ 的表达式。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: 设二次型 $f(x_1,x_2,x_3)=(x_1+x_2)^2+(x_2-x_3)^2+(x_1+ax_3)^2$。已知 $f(x_1,x_2,x_3)=0$ 有非零解。
+  subparts:
+  - text: 求 $a$ 的值及 $f(x_1,x_2,x_3)=0$ 的全部解；
+  - text: 求正交变换 $X=QY$ 将二次型 $f(x_1,x_2,x_3)$ 化为标准形。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设随机变量 $X$ 与 $Y$ 相互独立，$X\sim E(\lambda)$ ($\lambda>0$)，$Y$ 的分布律为 $P\{X=0\}=P\{X=1\}=\dfrac{1}{2}$。记 $Z=X-Y$。
+  subparts:
+  - text: 求 $Z$ 的分布函数与概率密度；
+  - text: 问 $X$ 与 $Z$ 是否相关？说明理由；
+  - text: 求 $E|Z|$。

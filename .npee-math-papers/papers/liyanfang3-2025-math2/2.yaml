@@ -1,0 +1,300 @@
+schema_version: '3.0'
+paper:
+  series_key: liyanfang3
+  year: 2025
+  subject: math2
+  paper_no: 2
+content_hash: 8ccb8ba544a60f9e98484bda8c21210502fd7fd25b49f663d9916e3c444fa7dc
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知 $a$ 为非零常数，函数 $f(x)=\begin{cases}\dfrac{\int_0^x(1-\sqrt{1-2\sin^2 t})\,\mathrm{d}t}{x^k(1-\cos x)},&x\in\left(-\dfrac{\pi}{4},\dfrac{\pi}{4}\right)\setminus\{0\},\\a,&x=0\end{cases}$ 在 $x=0$ 处连续，则 $a=$\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{2}{3}$
+    figures: []
+  - label: B
+    text: |-
+      $-\dfrac{2}{3}$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{3}{2}$
+    figures: []
+  - label: D
+    text: |-
+      $-\dfrac{3}{2}$
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x)=\begin{cases}(x^2+x)\mathrm{e}^{\dfrac{1}{x}},&x\neq 0,\\0,&x=0,\end{cases}$ 则下列说法中，正确的是\ExamSelection
+  choices:
+  - label: A
+    text: 曲线 $y=f(x)$ 恰有一个拐点，函数 $f(x)$ 有两个凹区间，一个凸区间
+    figures: []
+  - label: B
+    text: 曲线 $y=f(x)$ 恰有两个拐点，函数 $f(x)$ 有两个凹区间，一个凸区间
+    figures: []
+  - label: C
+    text: 曲线 $y=f(x)$ 恰有一个拐点，函数 $f(x)$ 有一个凹区间，一个凸区间
+    figures: []
+  - label: D
+    text: 曲线 $y=f(x)$ 恰有两个拐点，函数 $f(x)$ 有一个凹区间，两个凸区间
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $I=\int_0^1\dfrac{\ln(1+x)}{1+x}\,\mathrm{d}x$，$J=\int_0^1\dfrac{\ln(1+x)}{1+x^2}\,\mathrm{d}x$，$K=\int_0^1\dfrac{\ln(1+x^2)}{\mathrm{e}^x}\,\mathrm{d}x$，则\ExamSelection
+  choices:
+  - label: A
+    text: $I>J>K$
+    figures: []
+  - label: B
+    text: $J>I>K$
+    figures: []
+  - label: C
+    text: $I>K>J$
+    figures: []
+  - label: D
+    text: $J>K>I$
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $q$ 为非零常数，若积分 $\int_1^{+\infty}\dfrac{x^q-1}{(x^2-x)^p}\,\mathrm{d}x$ 收敛，则必有\ExamSelection
+  choices:
+  - label: A
+    text: $q>0$
+    figures: []
+  - label: B
+    text: $q<0$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{1}{2}<p<2$
+    figures: []
+  - label: D
+    text: |-
+      $0<p<\dfrac{1}{2}$
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x,y)$ 可微，且 $f(x,x^2)=x^2+x^3-x^5-x^6$，$f(x^3,x)=x^6-x^5+x^4-x^3$，则 $\mathrm{d}f(1,1)=$\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $2\mathrm{d}x-4\mathrm{d}y$
+    figures: []
+  - label: B
+    text: |-
+      $-4\mathrm{d}x+2\mathrm{d}y$
+    figures: []
+  - label: C
+    text: |-
+      $2\mathrm{d}x-6\mathrm{d}y$
+    figures: []
+  - label: D
+    text: |-
+      $-6\mathrm{d}x+2\mathrm{d}y$
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x)$ 在 $(-\infty,+\infty)$ 上二阶可导，满足 $f'(1)f'(-1)<0$，且对任意 $x$，$f(0)f''(x)<0$，则 $f(x)$ 在 $(-\infty,+\infty)$ 上\ExamSelection
+  choices:
+  - label: A
+    text: 没有零点
+    figures: []
+  - label: B
+    text: 恰有一个零点
+    figures: []
+  - label: C
+    text: 恰有两个零点
+    figures: []
+  - label: D
+    text: 恰有三个零点
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      记 $I_1=\lim_{n\to\infty}\sum_{i=1}^n\sum_{j=1}^{n-i}\dfrac{i}{(n^2+1)(n+i+j)^2}$，$I_2=\lim_{n\to\infty}\sum_{i=1}^n\sum_{j=1}^{n-i}\dfrac{j}{(n^2+1)(n+i+j)^3}$，$I_3=\lim_{n\to\infty}\sum_{i=1}^n\sum_{j=n-i}^n\dfrac{i}{(n^2+1)(n+i+j)}$，则下列说法中，正确的是\ExamSelection
+  choices:
+  - label: A
+    text: $I_1>I_2$
+    figures: []
+  - label: B
+    text: $I_1<I_2$
+    figures: []
+  - label: C
+    text: $I_1>I_3$
+    figures: []
+  - label: D
+    text: $I_1<I_3$
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $n$ 维列向量组 $\boldsymbol{\alpha}_1+\boldsymbol{\beta}_1,\boldsymbol{\alpha}_2+\boldsymbol{\beta}_2,\cdots,\boldsymbol{\alpha}_m+\boldsymbol{\beta}_m$ 线性相关，则下列说法中，正确的是\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      若 $\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\cdots,\boldsymbol{\alpha}_m$ 线性相关，则 $\boldsymbol{\beta}_1,\boldsymbol{\beta}_2,\cdots,\boldsymbol{\beta}_m$ 也必线性相关
+    figures: []
+  - label: B
+    text: |-
+      若 $\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\cdots,\boldsymbol{\alpha}_m$ 线性无关，则 $\boldsymbol{\beta}_1,\boldsymbol{\beta}_2,\cdots,\boldsymbol{\beta}_m$ 也必线性无关
+    figures: []
+  - label: C
+    text: |-
+      若 $\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\cdots,\boldsymbol{\alpha}_m$ 线性相关，则 $\boldsymbol{\beta}_1,\boldsymbol{\beta}_2,\cdots,\boldsymbol{\beta}_m$ 必线性无关
+    figures: []
+  - label: D
+    text: |-
+      若 $\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\cdots,\boldsymbol{\alpha}_m$ 线性无关，则 $\boldsymbol{\beta}_1,\boldsymbol{\beta}_2,\cdots,\boldsymbol{\beta}_m$ 可能线性相关，也可能线性无关
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $\mathbf{A}$ 为 $4$ 阶实矩阵，已知 $\mathbf{A}^{\mathrm{T}}\mathbf{A}$ 有 $4$ 个不同的特征值，且 $\boldsymbol{\beta}_i(i=1,2,3,4)$ 为 $\mathbf{A}^{\mathrm{T}}\mathbf{A}$ 的属于特征值 $\lambda_i(i=1,2,3,4)$ 的特征向量。$\lVert\boldsymbol{\alpha}\rVert$ 表示向量 $\boldsymbol{\alpha}$ 的长度。令 $\mathbf{B}=\begin{pmatrix}\boldsymbol{\beta}_1^{\mathrm{T}}\\\boldsymbol{\beta}_2^{\mathrm{T}}\end{pmatrix}$，则下列选项中，是方程组 $\mathbf{B}\mathbf{x}=\begin{pmatrix}1\\1\end{pmatrix}$ 的通解为\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $k_1\boldsymbol{\beta}_1+k_2\boldsymbol{\beta}_2+\boldsymbol{\beta}_3+\boldsymbol{\beta}_4$，其中 $k_1,k_2$ 为任意常数
+    figures: []
+  - label: B
+    text: |-
+      $k_1\boldsymbol{\beta}_1+k_2\boldsymbol{\beta}_2+\dfrac{\boldsymbol{\beta}_3}{\lVert\boldsymbol{\beta}_3\rVert^2}+\dfrac{\boldsymbol{\beta}_4}{\lVert\boldsymbol{\beta}_4\rVert^2}$，其中 $k_1,k_2$ 为任意常数
+    figures: []
+  - label: C
+    text: |-
+      $k_1\boldsymbol{\beta}_3+k_2\boldsymbol{\beta}_4+\boldsymbol{\beta}_1+\boldsymbol{\beta}_2$，其中 $k_1,k_2$ 为任意常数
+    figures: []
+  - label: D
+    text: |-
+      $k_1\boldsymbol{\beta}_3+k_2\boldsymbol{\beta}_4+\dfrac{\boldsymbol{\beta}_1}{\lVert\boldsymbol{\beta}_1\rVert^2}+\dfrac{\boldsymbol{\beta}_2}{\lVert\boldsymbol{\beta}_2\rVert^2}$，其中 $k_1,k_2$ 为任意常数
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设矩阵 $\mathbf{A},\mathbf{B},\mathbf{C}$ 为同阶矩阵，且 $\mathbf{A},\mathbf{B}$ 可逆，矩阵 $\mathbf{M}=\begin{pmatrix}\mathbf{A}&\mathbf{C}\\\mathbf{O}&\mathbf{B}\end{pmatrix}$，$\mathbf{M}_1=\begin{pmatrix}\mathbf{A}&\mathbf{A}^{-1}\mathbf{C}\\\mathbf{O}&\mathbf{B}\end{pmatrix}$，$\mathbf{M}_2=\begin{pmatrix}\mathbf{A}&\mathbf{A}^{-1}\mathbf{C}\mathbf{B}\\\mathbf{O}&\mathbf{B}\end{pmatrix}$，则\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\mathbf{M}_1,\mathbf{M}_2$ 均与 $\mathbf{M}$ 相似
+    figures: []
+  - label: B
+    text: |-
+      $\mathbf{M}_1$ 与 $\mathbf{M}$ 相似，$\mathbf{M}_2$ 与 $\mathbf{M}$ 不相似
+    figures: []
+  - label: C
+    text: |-
+      $\mathbf{M}_1$ 与 $\mathbf{M}$ 不相似，$\mathbf{M}_2$ 与 $\mathbf{M}$ 相似
+    figures: []
+  - label: D
+    text: |-
+      $\mathbf{M}_1,\mathbf{M}_2$ 均不与 $\mathbf{M}$ 相似
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设曲线 $L$ 由参数方程 $\begin{cases}x=\csc 2t,\\y=\ln\tan t\end{cases}\left(\dfrac{\pi}{6}\leq t\leq\dfrac{\pi}{3}\right)$ 确定，则曲线 $L$ 的弧长 $s=$\ExamBlank。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x)=\dfrac{x}{x^2-x+1}$，则 $f^{(1000)}(0)=$\ExamBlank。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      已知 $\sin^4x-\dfrac{3}{8}$ 为 $y^{(4)}+ay'''+by''+cy'+dy=0$ 的解，则 $a+b+c+d=$\ExamBlank。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      已知函数 $f(u)$ 连续，$z(x,y)=f(\sin x+\cos y)-\sin(x+y)$，$z(0,0)=0$。若 $\dfrac{\partial z}{\partial x}+\dfrac{\partial z}{\partial y}=\sin 2x-\sin 2y$，则 $f(u)=$\ExamBlank。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x)$ 在 $[0,1]$ 上连续，且 $\int_0^1\dfrac{f(x)}{\sqrt{1-x^2}}\,\mathrm{d}x=1$，则 $\int_0^{\dfrac{\pi}{2}}\mathrm{d}x\int_{\dfrac{\pi}{2}}^x f(\sin x)f(\sin y)\,\mathrm{d}y=$\ExamBlank。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $\mathbf{A},\mathbf{B}$ 均为 $3$ 阶非零矩阵，若 $\mathbf{A}\mathbf{B}=\mathbf{O}$ 且矩阵 $\mathbf{A}+\mathbf{E}$ 与 $\mathbf{B}$ 相似，则 $|\operatorname{tr}(\mathbf{A})|+|\operatorname{tr}(\mathbf{B})|=$\ExamBlank。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      设函数 $f(x)$ 在 $[0,+\infty)$ 上连续，且 $f(0)=0$，$f'(0)=1$，曲线 $L_a$ 的极坐标方程为 $\rho=a\theta$（$\theta\in[0,\pi]$），其中 $a>0$，记该曲线与 $\theta=\pi$ 所围成的区域为 $D_a$，求 $\lim_{a\to0^+}\dfrac{a\iint_{D_a}f(\sqrt{x^2+y^2})\,\mathrm{d}x\mathrm{d}y}{\arcsin a^4+\sqrt{1-a^8}-1}$。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: 设 $D$ 是由曲线 $x^4+y^2+x^2y-1=0$ 围成的有界闭区域，求函数 $f(x,y)=x^2(1-x^2-y^2-x^2y)$ 在区域 $D$ 上的最小值。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      已知函数 $f(x)$ 在 $\left[0,\dfrac{\pi}{2}\right]$ 上连续，且满足 $f(x)=\sqrt{1-\sin 2x}-\int_0^{\dfrac{\pi}{2}}f(x)\sin x\,\mathrm{d}x$。
+  subparts:
+  - text: 求函数 $f(x)$ 的表达式；
+  - text: |-
+      记曲线 $y=f(x)$ 与 $y=-\dfrac{1}{4}\tan x$ 以及 $y$ 轴所围区域为 $D$，求区域 $D$ 绕直线 $y=-\dfrac{1}{4}$ 旋转一周所得旋转体的体积 $V$。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      已知当物体表面与周围存在温度差时，物体温度对时间的变化率与温度差成正比。设某一物体的初始温度为 $10^\circ\mathrm{C}$，将其置于一个高温且恒温的环境中，$5\mathrm{min}$ 后该物体的温度升为 $15^\circ\mathrm{C}$，$10\mathrm{min}$ 后升为 $18^\circ\mathrm{C}$，问：环境的温度为多少？
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $a>b>0$，函数 $f(x)$ 是定义在 $[0,+\infty)$ 上的二阶可导函数，且 $f(0)=a-b$，$f'(0)=-a$，$f''(x)\leq\dfrac{2a}{(x+1)^3}$。证明：$f(x)$ 在 $\left(0,\dfrac{a-b}{b}\right]$ 上存在唯一的零点。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设矩阵 $\mathbf{A}=\begin{pmatrix}1&a&0\\a&2&b\\0&b&1\end{pmatrix}$，且 $\boldsymbol{\alpha}=(-1,1,1)^{\mathrm{T}}$ 是矩阵 $\mathbf{A}$ 的属于特征值 $\lambda$ 的一个特征向量。
+  subparts:
+  - text: 求 $a,b$；
+  - text: |-
+      求正交变换 $\mathbf{x}=\mathbf{Q}\mathbf{y}$ 将二次型 $f(x_1,x_2,x_3)=\mathbf{x}^{\mathrm{T}}\mathbf{A}\mathbf{x}$ 化为标准形；
+  - text: 求 $f(x_1,x_2,x_3)=0$ 的解。

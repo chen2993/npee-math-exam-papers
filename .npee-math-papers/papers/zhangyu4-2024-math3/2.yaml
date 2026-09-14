@@ -1,0 +1,309 @@
+schema_version: '3.0'
+paper:
+  series_key: zhangyu4
+  year: 2024
+  subject: math3
+  paper_no: 2
+content_hash: 892015e372157bd48d4cef34745faacd08750524790af8a3c6c2ed75e3c1f3ec
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x)$ 与 $g(x)$ 在 $(-\infty,+\infty)$ 上均有 1 个间断点，则 $f[g(x)]$ 在 $(-\infty,+\infty)$ 上\ExamSelection
+  choices:
+  - label: A
+    text: 仅有 1 个间断点。
+    figures: []
+  - label: B
+    text: 仅有 2 个间断点。
+    figures: []
+  - label: C
+    text: 间断点个数不超过 2。
+    figures: []
+  - label: D
+    text: 间断点个数可为无穷多个。
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      当 $x\to 0$ 时，连续函数 $f(x)=1+x-\cos\sqrt[3]{x}+o(x)$，$o(x)$ 表示 $x$ 的高阶无穷小，则\ExamSelection
+  choices:
+  - label: A
+    text: $f'(0)=1$。
+    figures: []
+  - label: B
+    text: |-
+      $f'(0)=\dfrac{1}{3}$。
+    figures: []
+  - label: C
+    text: $f'(0)$ 不存在。
+    figures: []
+  - label: D
+    text: $f'(0)$ 与 $o(x)$ 有关。
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      函数 $f(x,y)=x+y\sin x$\ExamSelection
+  choices:
+  - label: A
+    text: 有极大值点，没有极小值点。
+    figures: []
+  - label: B
+    text: 没有极大值点，有极小值点。
+    figures: []
+  - label: C
+    text: 既有极大值点，也有极小值点。
+    figures: []
+  - label: D
+    text: 既没有极大值点，也没有极小值点。
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知级数 $\sum_{n=2}^{\infty}a_n$ 条件收敛，则下列级数中必定绝对收敛的是\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\sum_{n=2}^{\infty}\dfrac{a_n}{n}$。
+    figures: []
+  - label: B
+    text: |-
+      $\sum_{n=2}^{\infty}\dfrac{a_n}{\ln n}$。
+    figures: []
+  - label: C
+    text: |-
+      $\sum_{n=2}^{\infty}a_n(e^{1/n}-1)$。
+    figures: []
+  - label: D
+    text: |-
+      $\sum_{n=2}^{\infty}a_n\left(\cos\dfrac{1}{n}-1\right)$。
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A,B$ 均为 3 阶可逆矩阵，$A^*,B^*$ 分别为 $A,B$ 的伴随矩阵，则 $\begin{pmatrix}O&A\\B&C\end{pmatrix}$ 的伴随矩阵为\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\begin{pmatrix}-B^*CA^*&-\lvert A\rvert B^*\\lvert B\rvert A^*&O\end{pmatrix}$。
+    figures: []
+  - label: B
+    text: |-
+      $\begin{pmatrix}B^*CA^*&-\lvert A\rvert B^*\\-\lvert B\rvert A^*&O\end{pmatrix}$。
+    figures: []
+  - label: C
+    text: |-
+      $\begin{pmatrix}-A^*CB^*&\lvert A\rvert B^*\\lvert B\rvert A^*&O\end{pmatrix}$。
+    figures: []
+  - label: D
+    text: |-
+      $\begin{pmatrix}A^*CB^*&\lvert A\rvert B^*\\-\lvert B\rvert A^*&O\end{pmatrix}$。
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A,B$ 均为 3 阶矩阵，$\xi,\eta$ 均为 3 维非零列向量，非齐次线性方程组 $Ax=\xi$ 与 $Bx=\eta$ 均有解，则它们同解的充分必要条件为\ExamSelection
+  choices:
+  - label: A
+    text: $A$ 的行向量组与 $B$ 的行向量组等价。
+    figures: []
+  - label: B
+    text: |-
+      $(A\mid\xi)$ 的行向量组与 $(B\mid\eta)$ 的行向量组等价。
+    figures: []
+  - label: C
+    text: $A$ 的列向量组与 $B$ 的列向量组等价。
+    figures: []
+  - label: D
+    text: |-
+      $(A\mid\xi)$ 的列向量组与 $(B\mid\eta)$ 的列向量组等价。
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设二次型 $f(x_1,x_2,x_3)=x_1^2-2x_2^2+3x_3^2-4x_1x_2$，$g(y_1,y_2,y_3)=ay_2^2-6y_1y_3$，若存在可逆线性变换将 $f$ 化为 $g$，但不存在正交变换将 $f$ 化为 $g$，则 $a$ 的取值范围是\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $a>0$ 且 $a\ne 2$。
+    figures: []
+  - label: B
+    text: |-
+      $a<0$ 且 $a\ne-2$。
+    figures: []
+  - label: C
+    text: |-
+      $a>0$ 且 $a\ne 3$。
+    figures: []
+  - label: D
+    text: |-
+      $a<0$ 且 $a\ne-3$。
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设随机变量 $X,Y$ 的二阶矩 $E(X^2),E(Y^2)$ 均存在，则\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $[\operatorname{Cov}^2(X,Y)]^{1/2}>\sqrt{D(X)}\sqrt{D(Y)}$。
+    figures: []
+  - label: B
+    text: |-
+      $\lvert E(X)\rvert>[E(X^2)]^{1/2}$。
+    figures: []
+  - label: C
+    text: |-
+      $[E(X^2)]^{1/2}[E(Y^2)]^{1/2}\geq\lvert E(XY)\rvert$。
+    figures: []
+  - label: D
+    text: |-
+      $[E(\lvert X+Y\rvert^2)]^{1/2}\geq[E(X^2)]^{1/2}+[E(Y^2)]^{1/2}$。
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $X,Y$ 为随机变量，且 $X\sim N(1,9),Y\sim N(1,4)$，若 $X$ 与 $Y$ 相互独立，$X_1,X_2,X_3$ 与 $Y_1,Y_2,Y_3,Y_4$ 分别为来自总体 $X$ 和 $Y$ 的简单随机样本，$\overline{X}$ 与 $\overline{Y}$ 为其样本均值，则 $E(\lvert\overline{X}-\overline{Y}\rvert)=\ExamSelection$
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{2\sqrt{2}}{\sqrt{\pi}}$。
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{2}{\sqrt{\pi}}$。
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{\sqrt{2}}{\sqrt{\pi}}$。
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{1}{\sqrt{\pi}}$。
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设总体 $X$ 服从 $(0,1)$ 上的均匀分布，$X_1,X_2,\ldots,X_{16}$ 是来自总体 $X$ 的简单随机样本。根据中心极限定理，$P\left\{\prod_{i=1}^{16}X_i\leq e^{-15}\right\}$ 约为\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\Phi(0)$。
+    figures: []
+  - label: B
+    text: |-
+      $\Phi\left(\dfrac{1}{4}\right)$。
+    figures: []
+  - label: C
+    text: |-
+      $\Phi\left(\dfrac{1}{2}\right)$。
+    figures: []
+  - label: D
+    text: |-
+      $\Phi(1)$。
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      已知 $f(x)=\lim_{n\to\infty}\sum_{i=1}^{n}\dfrac{1-x}{nx+(1-x)i}(0<x<1)$，则 $x^2f(x)$ 的拐点为$\ExamBlank$。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      已知函数 $f(x,y)$ 满足 $\mathrm{d}[f(x,y)]=\dfrac{(x+2y)\,\mathrm{d}x+y\,\mathrm{d}y}{(x+y)^2}$，$f(1,1)=\ln 2-\dfrac{1}{2}$，则 $f(2,2)=$ $\ExamBlank$。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $\sum_{n=1}^{\infty}\dfrac{(-1)^{n-1}}{n}=$ $\ExamBlank$。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设需求函数为 $Q=\dfrac{1}{10}P_A^{\dfrac{3}{4}}P_B^{-\dfrac{7}{8}}M^{\dfrac{1}{4}}$，$P_A,P_B$ 分别为 $A,B$ 两种商品的价格，$M$ 为收入。若 $\dfrac{\partial(\ln Q)}{\partial(\ln M)}=\dfrac{1}{4}$，则需求的收入弹性为$\ExamBlank$。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      已知 $A=\begin{pmatrix}1&0&0\\0&1&-1\\2&0&0\end{pmatrix}$，若 $(PA)^2=PA$，且 $P$ 可逆，则 $P$ 可以为$\ExamBlank$。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $X$ 的分布律为 $P\{X=k\}=\dfrac{1}{a^k},\ k=1,2,\ldots$，则事件“$X$ 可以被 3 整除”发生的概率为$\ExamBlank$。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      计算 $\lim_{x\to+\infty}\dfrac{\ln\left(\int_0^x e^{t^2}\,\mathrm{d}t\right)}{x^2}$。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $f(x)$ 在 $[0,+\infty)$ 上二阶可导，$f''(x)<0$，任取 $0<x_1<x_2$，证明：
+  subparts:
+  - text: |-
+      $f(x_2)-f(x_1)=f'(\xi_2)x_2-f'(\xi_1)x_1$，其中 $0<\xi_1<x_1,0<\xi_2<x_2$，且 $\xi_1,\xi_2$ 唯一；
+  - text: |-
+      在（1）的条件下，$\xi_1<\xi_2$。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $D=\{(x,y)\mid x^2+y^2\leq 2x\}$，计算 $\iint_D\lvert x-y\rvert\,\mathrm{d}\sigma$。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $\dfrac{x^2-x-1}{x^2(x+1)}=\sum_{n=0}^{\infty}a_n(x-1)^n$，$x\in(0,2)$，求 $a_n$ 的表达式。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: 某产品当前的市场占有率为 80%，经调研，正使用该产品的用户中有 80% 仍会继续购买，当前未使用该产品的用户中有 20% 将会购买，设第 $n$ 年时，购买的用户比例为 $x_n$，不购买的用户比例为 $y_n$。
+  subparts:
+  - text: |-
+      求 $\begin{pmatrix}x_n\\y_n\end{pmatrix}$ 的表达式；
+  - text: 按此趋势，求该产品最终的市场占有率。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设随机变量 $(X,Y)$ 服从区域 $D=\{(x,y)\mid 0\leq x\leq1,1-\sqrt{2x-x^2}\leq y\leq\sqrt{1-x^2}\}$ 上的均匀分布。记 $Z=\begin{cases}1,&X+Y>1,\\0,&X+Y\leq1,\end{cases}$，$U=XZ$ 的分布函数为 $F_U(u)$。
+  subparts:
+  - text: 证明 $X$ 与 $Z$ 不独立；
+  - text: |-
+      计算 $F_U\left(\dfrac{1}{2}\right)$。

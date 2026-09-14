@@ -1,0 +1,293 @@
+schema_version: '3.0'
+paper:
+  series_key: chaoyue10
+  year: 2025
+  subject: math2
+  paper_no: 7
+content_hash: 1ad0ab2ceee60453050d215df269c658a5c4ae91e2dce11dab36f5ad796a07e2
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $g(x)=2^{x-1}$，$f(x)=\left\{\begin{array}{ll}\dfrac{(x-1)(1-g(x))}{1+g(x)},&x\ne 1,\\0,&x=1\end{array}\right.$，则\ExamSelection。
+  choices:
+  - label: A
+    text: $f(x)$ 在 $x=1$ 处不连续
+    figures: []
+  - label: B
+    text: $f(x)$ 在 $x=1$ 处可导
+    figures: []
+  - label: C
+    text: $f(x)$ 在 $x=1$ 处取极大值
+    figures: []
+  - label: D
+    text: $f(x)$ 在 $x=1$ 处取极小值
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设数列 $x_n=n^2\left(\sqrt{\cos\dfrac{1}{n}}-\cos\dfrac{1}{n}\right)$，则\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      当 $n\to\infty$ 时，$x_n$ 为无穷大量
+    figures: []
+  - label: B
+    text: |-
+      当 $n\to\infty$ 时，$x_n$ 为无穷小量
+    figures: []
+  - label: C
+    text: |-
+      $\{x_n\}$ 无界但不是无穷大量
+    figures: []
+  - label: D
+    text: |-
+      $\{x_n\}$ 有界
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      对任意实数 $x$，$f(x)$ 满足 $f(x)=f(x+2)$，$f(0)=\dfrac{1}{8}$，又在 $(-1,1)$ 内，$f'(x)=|x|$。则 $f\left(\dfrac{7}{2}\right)=$\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{1}{2}$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{1}{4}$
+    figures: []
+  - label: C
+    text: |-
+      $-\dfrac{1}{4}$
+    figures: []
+  - label: D
+    text: $0$
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设有定积分 $I_1=\int_0^{2\pi}e^{-x^2}\sin x\,\mathrm{d}x$，$I_2=\int_0^{2\pi}e^{-x^2}\cos x\,\mathrm{d}x$，则有\ExamSelection。
+  choices:
+  - label: A
+    text: $I_1>0,I_2>0$
+    figures: []
+  - label: B
+    text: $I_1>0,I_2<0$
+    figures: []
+  - label: C
+    text: $I_1<0,I_2>0$
+    figures: []
+  - label: D
+    text: $I_1<0,I_2<0$
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $u=x\arctan\dfrac{z}{y}$，则 $\dfrac{\partial^2u}{\partial x^2}+\dfrac{\partial^2u}{\partial y^2}+\dfrac{\partial^2u}{\partial z^2}=$\ExamSelection。
+  choices:
+  - label: A
+    text: $0$
+    figures: []
+  - label: B
+    text: $u$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{4xyz}{(y^2+z^2)^2}$
+    figures: []
+  - label: D
+    text: |-
+      $-\dfrac{4xyz}{(y^2+z^2)^2}$
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      $\int_0^1\mathrm{d}x\int_0^1\dfrac{1}{1+\max\{x^2,y^2\}}\,\mathrm{d}y=$\ExamSelection。
+  choices:
+  - label: A
+    text: $e^2$
+    figures: []
+  - label: B
+    text: |-
+      $\ln2$
+    figures: []
+  - label: C
+    text: $e^3$
+    figures: []
+  - label: D
+    text: |-
+      $\ln3$
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      $\lim_{n\to\infty}\dfrac{1}{\ln^2n}\left(\dfrac{\ln3}{3}+\dfrac{\ln4}{4}+\cdots+\dfrac{\ln n}{n}\right)=$\ExamSelection。
+  choices:
+  - label: A
+    text: $0$
+    figures: []
+  - label: B
+    text: $1$
+    figures: []
+  - label: C
+    text: |-
+      $+\infty$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{1}{2}$
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 3 阶方阵 $A=(\alpha_1,\alpha_2,\alpha_3)$，$\alpha_1,\alpha_2,\alpha_3$ 为三维列向量，$B=(\alpha_1,\alpha_2+2\alpha_3,\alpha_3)$，$B^*$ 为 $B$ 的伴随矩阵，若 $|A|=2$，则 $B^*A=$\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\begin{pmatrix}2&0&0\\0&2&0\\0&4&2\end{pmatrix}$
+    figures: []
+  - label: B
+    text: |-
+      $\begin{pmatrix}2&0&0\\0&2&0\\0&-4&2\end{pmatrix}$
+    figures: []
+  - label: C
+    text: |-
+      $\begin{pmatrix}2&0&0\\0&2&4\\0&0&2\end{pmatrix}$
+    figures: []
+  - label: D
+    text: |-
+      $\begin{pmatrix}2&0&0\\0&2&-4\\0&0&2\end{pmatrix}$
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $\alpha_1=(1,1,2)^\mathrm{T}$，$\alpha_2=(1,0,-1)^\mathrm{T}$，$\alpha_3=(2,0,a)^\mathrm{T}$，$\alpha_4=(0,1,b)^\mathrm{T}$，若 $\alpha_4$ 可由 $\alpha_1,\alpha_2,\alpha_3$ 线性表示，但 $\alpha_3$ 不能由 $\alpha_1,\alpha_2,\alpha_4$ 表示，则 $a,b$ 的取值为\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $a\ne-2,b\ne3$
+    figures: []
+  - label: B
+    text: |-
+      $a=-2,b\ne3$
+    figures: []
+  - label: C
+    text: |-
+      $a\ne-2,b=3$
+    figures: []
+  - label: D
+    text: $a=-2,b=3$
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 3 阶方阵 $A$ 为正交实对称矩阵，且 $|A|<0$，$\alpha_1=(0,\sqrt2+1,-1)^\mathrm{T}$ 是 $A$ 的属于特征值 $-1$ 的特征向量，$A^*$ 为 $A$ 的伴随矩阵，若方阵 $B$ 满足 $A^*B=|A|E+A^*$，则 $Bx=0$ 的一个基础解系为\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\begin{pmatrix}0\\1\\\sqrt2+1\end{pmatrix}$
+    figures: []
+  - label: B
+    text: |-
+      $\begin{pmatrix}0\\\sqrt2+1\\-1\end{pmatrix}$
+    figures: []
+  - label: C
+    text: |-
+      $\begin{pmatrix}0\\1\\\sqrt2+1\end{pmatrix},\begin{pmatrix}0\\\sqrt2+1\\-1\end{pmatrix}$
+    figures: []
+  - label: D
+    text: |-
+      $\begin{pmatrix}1\\0\\0\end{pmatrix},\begin{pmatrix}0\\1\\\sqrt2+1\end{pmatrix}$
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设函数 $y=y(x)$ 由方程 $x^2+xy+y^2-x=0$ 确定的满足 $y(1)=-1$ 的可导函数，则 $\lim_{x\to1}\dfrac{(x-1)^2}{y(x)+1}=$ \ExamBlank。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $g(x)=\left\{\begin{array}{ll}2e^{x^2},&x\leq0,\\4-2e^{x^2},&x>0,\end{array}\right.$ 则 $\int_{-5}^{5}g(x)\,\mathrm{d}x=$ \ExamBlank。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设单位圆的内接正 $n$ 边形与该圆之间部分的面积为 $A_n$，则 $\lim_{n\to\infty}n^2A_n=$ \ExamBlank。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $y_1=e^x-e^{-x}\sin2x,y_2=e^x$ 是某二阶齐次非齐次线性方程的两个解，则该微分方程是 \ExamBlank。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设函数 $u=f(x,y,xyz)$，函数 $z=z(x,y)$ 由方程 $e^{xy}=\int_y^z g(xy+z-t)\,\mathrm{d}t$ 所确定，其中 $f$ 具有连续偏导数，$g$ 连续，求 $x\dfrac{\partial u}{\partial x}-y\dfrac{\partial u}{\partial y}=$ \ExamBlank。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 为 4 阶方阵，$\alpha_1,\alpha_2,\alpha_3,\alpha_4$ 为线性无关的 $n$ 维列向量，且 $A\alpha_1=2\alpha_1+\alpha_2+\alpha_3+\alpha_4$，$A\alpha_2=\alpha_1+2\alpha_2+\alpha_3+\alpha_4$，$A\alpha_3=\alpha_1+\alpha_2+2\alpha_3+\alpha_4$，$A\alpha_4=\alpha_1+\alpha_2+\alpha_3+2\alpha_4$，则 $r[A-5E]=$ \ExamBlank。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      （本题满分 10 分）设函数 $y=y(x)$ 满足 $y(x)=x^3-x\int_1^x\dfrac{y(t)}{t^2}\,\mathrm{d}t+y'(x)(x>0)$，并且 $\lim_{x\to+\infty}\dfrac{y(x)}{x^3}$ 存在，求 $y(x)$。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      （本题满分 12 分）设 $f(x),g(x)$ 在 $[-a,a]$ 上连续，若 $f(x)=f(-x),g(x)+g(-x)=m$（$m$ 为常数），（Ⅰ）证明 $\int_{-a}^{a}f(x)g(x)\,\mathrm{d}x=\dfrac{m}{2}\int_{-a}^{a}f(x)\,\mathrm{d}x$；（Ⅱ）计算 $I=\int_{-\pi}^{\pi}\dfrac{x\sin x}{(e^x+1)(1+\cos^2x)}\,\mathrm{d}x$。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: （本题满分 12 分）设函数 $z=z(x,y)$ 是由方程 $2(x^2-1)y+y^2z^2+z=0$ 确定的隐函数，求 $z(x,y)$ 的极值。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      （本题满分 12 分）设区域 $D=\{(x,y)\mid x^2+y^2\leq4\}$，计算二重积分 $I=\iint_D\max\{\sqrt{4-x^2-y^2},\sqrt3(x^2+y^2)\}\,\mathrm{d}x\mathrm{d}y$。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      （本题满分 12 分）设 $x_1>0,x_{n+1}=\sqrt{1+x_n}\ln(1+x_n),n=1,2,\cdots$。（Ⅰ）证明当 $x>0$ 时，$\ln(1+x)<\dfrac{x}{\sqrt{1+x}}$；（Ⅱ）证明 $\lim_{n\to\infty}x_n$ 存在，并求之。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      （本题满分 12 分）设 $f(x_1,x_2,x_3)=(2x_1+x_2-x_3)^2+(x_1+2x_2+x_3)^2+(-x_1+x_2+2x_3)^2$，记 $A=\begin{pmatrix}2&1&-1\\1&2&1\\-1&1&2\end{pmatrix}$。（Ⅰ）求 $f=0$ 的通解；（Ⅱ）证明二次型 $f$ 的矩阵为 $AA^\mathrm{T}$；（Ⅲ）求正交变换 $x=Py$ 化二次型 $f$ 为标准形。

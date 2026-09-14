@@ -1,0 +1,305 @@
+schema_version: '3.0'
+paper:
+  series_key: lilin6
+  year: 2025
+  subject: math1
+  paper_no: 3
+content_hash: 4b1a3855762a0318db8fbf351e4c606bffe953e9b0fdf4846c98ba52cce4cda9
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)=\begin{cases}\dfrac{x e^{1/x}}{1+e^{1/x}},&x\ne 0,\\0,&x=0,\end{cases}$ 则 $x=0$ 是 $f'(x)$ 的\ExamSelection
+  choices:
+  - label: A
+    text: 可去间断点
+    figures: []
+  - label: B
+    text: 跳跃间断点
+    figures: []
+  - label: C
+    text: 振荡间断点
+    figures: []
+  - label: D
+    text: 无穷间断点
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $\alpha$ 和 $\beta$ 均为非零常向量，$\|\beta\|=2$，且 $\alpha$ 与 $\beta$ 之间的夹角为 $\dfrac{\pi}{3}$，则 $\lim_{x\to 0}\dfrac{\|\alpha+x\beta\|-\|\alpha\|}{x}=$\ExamSelection
+  choices:
+  - label: A
+    text: $0$
+    figures: []
+  - label: B
+    text: $1$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{1}{2}$
+    figures: []
+  - label: D
+    text: $2$
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x,y)=\begin{cases}|xy|\ln(x^2+y^2),&(x,y)\ne(0,0),\\0,&(x,y)=(0,0),\end{cases}$ 则 $f(x,y)$ 在点 $(0,0)$ 处\ExamSelection
+  choices:
+  - label: A
+    text: 连续但 $f'_x(0,0)$ 与 $f'_y(0,0)$ 不存在
+    figures: []
+  - label: B
+    text: $f'_x(0,0)$ 与 $f'_y(0,0)$ 存在但不可微
+    figures: []
+  - label: C
+    text: 连续但不可微
+    figures: []
+  - label: D
+    text: 可微
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $\Sigma$ 为曲面 $z=\sqrt{x^2+y^2}$ 的下侧，$P=P(x,y,z),Q=Q(x,y,z)$ 均为连续函数，则 $\iint_\Sigma P\,\mathrm{d}y\mathrm{d}z-Q\,\mathrm{d}z\mathrm{d}x=$\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\iint_D\left(-\dfrac{x}{z}P+\dfrac{y}{z}Q\right)\mathrm{d}x\mathrm{d}y$
+    figures: []
+  - label: B
+    text: |-
+      $\iint_D\left(-\dfrac{x}{z}P-\dfrac{y}{z}Q\right)\mathrm{d}x\mathrm{d}y$
+    figures: []
+  - label: C
+    text: |-
+      $\iint_D\left(\dfrac{x}{z}P-\dfrac{y}{z}Q\right)\mathrm{d}x\mathrm{d}y$
+    figures: []
+  - label: D
+    text: |-
+      $\iint_D\left(\dfrac{x}{z}P+\dfrac{y}{z}Q\right)\mathrm{d}x\mathrm{d}y$
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知 $3$ 阶实对称矩阵 $A$ 与矩阵 $B=\begin{bmatrix}0&1&0\\1&0&0\\0&0&2\end{bmatrix}$ 合同，则二次型 $X^{\mathrm T}AX$ 的规范形为\ExamSelection
+  choices:
+  - label: A
+    text: $y_1^2+y_2^2-y_3^2$
+    figures: []
+  - label: B
+    text: $-y_1^2-y_2^2-y_3^2$
+    figures: []
+  - label: C
+    text: $y_1^2-y_2^2-y_3^2$
+    figures: []
+  - label: D
+    text: $y_1^2+y_2^2+y_3^2$
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 是 $n(n\geq 3)$ 阶矩阵，$A'$ 是 $A$ 的伴随矩阵，线性方程组 $AX=0$ 有两个线性无关的解，则\ExamSelection
+  choices:
+  - label: A
+    text: $AX=0$ 与 $A'X=0$ 同解
+    figures: []
+  - label: B
+    text: $A'X=0$ 的解均是 $AX=0$ 的解
+    figures: []
+  - label: C
+    text: $AX=0$ 的解均是 $A'X=0$ 的解
+    figures: []
+  - label: D
+    text: $AX=0$ 与 $A'X=0$ 没有非零公共解
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 是 $3$ 阶实对称矩阵，$E$ 是 $3$ 阶单位矩阵，且 $|A|=-2,A'=-A-E$，其中 $A'$ 是 $A$ 的伴随矩阵，若二次型 $f(x_1,x_2,x_3)=X^{\mathrm T}(A'+aE)X=1$ 在空间直角坐标系下表示椭球面，则\ExamSelection
+  choices:
+  - label: A
+    text: $a>2$
+    figures: []
+  - label: B
+    text: $a>-2$
+    figures: []
+  - label: C
+    text: $a<2$
+    figures: []
+  - label: D
+    text: $a<-2$
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设随机变量 $X$ 与 $Y$ 均服从正态分布 $N(0,\sigma^2)(\sigma>0)$，且 $P\{X\leq 1,Y\leq -1\}=\dfrac{1}{4}$，则 $P\{X>1,Y>-1\}=$\ExamSelection
+  choices:
+  - label: A
+    text: $1$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{1}{4}$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{1}{2}$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{3}{4}$
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $X_1,X_2,\cdots,X_n$ 为来自总体 $X$ 的简单随机样本，$X$ 服从参数为 $\lambda=\dfrac{1}{2}$ 的泊松分布，$\Phi(x)$ 为 $N(0,1)$ 的分布函数，则 $\lim_{n\to\infty}P\left\{\dfrac{2\sum_{i=1}^nX_i-n}{2\sqrt n}\leq 1\right\}=$\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\Phi\left(\dfrac{1}{2}\right)$
+    figures: []
+  - label: B
+    text: |-
+      $\Phi(\sqrt{2})$
+    figures: []
+  - label: C
+    text: |-
+      $\Phi(\sqrt{3})$
+    figures: []
+  - label: D
+    text: |-
+      $\Phi(1)$
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $X_1,X_2,\cdots,X_n(n>1)$ 为来自总体 $N(\mu,\sigma^2)$ 的简单随机样本，$\overline X$ 为样本均值，$S^2$ 为样本方差，则 $\mu\sigma^2$ 的无偏估计量为\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\overline X^2S$
+    figures: []
+  - label: B
+    text: |-
+      $\overline XS$
+    figures: []
+  - label: C
+    text: |-
+      $\overline XS^2$
+    figures: []
+  - label: D
+    text: |-
+      $\overline X^2S^2$
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设函数 $y=y(x)$ 由 $\begin{cases}x=\displaystyle\int_0^t2e^{-s^2}\,\mathrm{d}s,\\y=\displaystyle\int_0^t\sin(t-s)\,\mathrm{d}s\end{cases}$ 确定，则曲线 $y=y(x)$ 在 $t=0$ 对应点处的曲率半径为\ExamBlank。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $\displaystyle\int_{1/2}^{+\infty}\dfrac{6x}{x^3+1}\,\mathrm{d}x=$\ExamBlank。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $u=\ln(x^2+y^2+z^2)$，则 $\left.\operatorname{div}(\operatorname{grad}u)\right|_{(1,1,1)}=$\ExamBlank。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设平面曲线 $L$ 为 $x^2+y^2=R^2(R>0)$，取逆时针方向，则 $I(R)=\oint_L(y^3+3x)\,\mathrm{d}x+(3x-x^3)\,\mathrm{d}y$ 的最大值为\ExamBlank。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设列向量组 $\alpha_1,\alpha_2,\alpha_3$ 与 $\beta_1,\beta_2,\beta_3$ 分别是 $3$ 维向量空间 $R^3$ 的两组基，且 $\beta_1=\alpha_1,\beta_2=\alpha_1+2\alpha_2,\beta_3=\alpha_1+2\alpha_2+3\alpha_3$，则 $\beta_1,\beta_2,\beta_3$ 到 $\alpha_1,\alpha_2,\alpha_3$ 的过渡矩阵为\ExamBlank。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $X_1,X_2,\cdots,X_n$ 为来自总体 $N(0,1)$ 的简单随机样本，$\overline X$ 为样本均值，$S^2$ 为样本方差，记 $T=\dfrac{1}{n}(\overline X-S)$，则 $E(T^2)=\ExamBlank$。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      设 $f(x)$ 在 $[1,+\infty)$ 上可导，$f(1)=2$，且满足 $\lim_{t\to0}\dfrac{f\left[(x+t)^2\right]-f(x^2+t)}{(2x-1)t}=1-2\ln x$。求 $f(x)$ 及 $f(x)$ 的极值。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设可微函数 $f(x,y)$ 满足 $\mathrm{d}f(x,y)=(3x^2-2ax)\mathrm{d}x+(3y^2-2ay)\mathrm{d}y(a>0)$，且 $f(0,0)=0$。
+  subparts:
+  - text: 求 $f(x,y)$；
+  - text: 若 $f(x,y)$ 有极小值 $-8$，求 $a$ 的值。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $f(x)(x\geq0)$ 为非负连续函数，当 $x\geq0$ 时，有 $\displaystyle\int_0^x4t f(x^2)f(x^2-t^2)\,\mathrm{d}t=x^6$。
+  subparts:
+  - text: 求 $f(x)$ 的表达式；
+  - text: |-
+      求级数 $\displaystyle\sum_{n=1}^{\infty}2^{1-n}f(n^2)$ 的和。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: 设 $f(x)$ 在 $[0,1]$ 上二阶可导，$f(0)=f(1)=0$，$f''(x)>0$，且 $f(x)$ 在 $[0,1]$ 上的最小值为 $m<0$。
+  subparts:
+  - text: |-
+      证明：方程 $nf'(x)=m(n$ 为正整数$)$ 在 $x\in(0,1)$ 内有唯一实根 $x_n$；
+  - text: |-
+      在第（I）问的基础上，证明：$\displaystyle\lim_{n\to\infty}x_n$ 存在，并求 $\displaystyle\lim_{n\to\infty}f(x_n)$。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设矩阵 $A=\begin{bmatrix}a&1&1\\0&a-1&0\\1&1&a\end{bmatrix}$ 不可逆，$\beta=\begin{bmatrix}b\\1\\1\end{bmatrix}$。已知方程组 $A^{\mathrm T}X=0$ 的解均是 $\beta^{\mathrm T}X=0$ 的解。
+  subparts:
+  - text: 求 $a,b$ 的值；
+  - text: |-
+      求可逆矩阵 $P$，使得 $P^{-1}AP=\Lambda$。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设随机变量 $X_1,X_2,X_3$ 相互独立，且均服从参数为 $\lambda(\lambda>0)$ 的指数分布。$X=\min(X_1,X_2)$，$Y$ 的分布为 $P\{Y=-1\}=\dfrac{1}{3},P\{Y=1\}=\dfrac{2}{3}$，且 $X$ 与 $Y$ 相互独立，记 $T=\max(X,X_3)$。
+  subparts:
+  - text: 求 $Z=XY$ 的概率密度 $f_Z(z)$；
+  - text: |-
+      若 $T_1,T_2,\cdots,T_n$ 为来自总体 $T$ 的简单随机样本，求 $\lambda$ 的矩估计量 $\hat{\lambda}$。

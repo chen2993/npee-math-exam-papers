@@ -1,0 +1,320 @@
+schema_version: '3.0'
+paper:
+  series_key: zhangyu8
+  year: 2025
+  subject: math1
+  paper_no: 7
+content_hash: 892c0dc868942f69e620281eb5e06fb3ecee5a3527dce4c22dbd0aed02ca5ace
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      $f(x)=\dfrac{|\ln |x||}{x^2-1}$ 有\ExamSelection。
+  choices:
+  - label: A
+    text: 两个跳跃间断点，一个无穷间断点。
+    figures: []
+  - label: B
+    text: 两个可去间断点，一个无穷间断点。
+    figures: []
+  - label: C
+    text: 一个可去间断点，一个跳跃间断点，一个无穷间断点。
+    figures: []
+  - label: D
+    text: 三个无穷间断点。
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      以下结论，正确的是\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      若 $\sum_{n=0}^{\infty}a_n^2$ 收敛，则 $\sum_{n=0}^{\infty}a_n^3$ 收敛。
+    figures: []
+  - label: B
+    text: |-
+      若 $\sum_{n=0}^{\infty}a_n^2$ 发散，则 $\sum_{n=0}^{\infty}a_n^3$ 发散。
+    figures: []
+  - label: C
+    text: |-
+      若 $\sum_{n=0}^{\infty}a_n^3$ 收敛，则 $\sum_{n=0}^{\infty}a_n^4$ 收敛。
+    figures: []
+  - label: D
+    text: |-
+      若 $\sum_{n=0}^{\infty}a_n^3$ 发散，则 $\sum_{n=0}^{\infty}a_n^4$ 发散。
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设曲面 $z_1=f(x,y)$ 与 $z_2=g(x,y)$ 在点 $(1,0)$ 处的切平面 $\pi_1$ 与 $\pi_2$ 的交线与 $xOy$ 面相交于点 $\left(-\dfrac{1}{2},-\dfrac{1}{2},0\right)$，$f(1,0)=f'_x(1,0)=1$，$g(1,0)=g'_x(1,0)=-1$，则\ExamSelection。
+  choices:
+  - label: A
+    text: $f'_y(1,0)=1$，$g'_y(1,0)=1$。
+    figures: []
+  - label: B
+    text: $f'_y(1,0)=-1$，$g'_y(1,0)=1$。
+    figures: []
+  - label: C
+    text: $f'_y(1,0)=1$，$g'_y(1,0)=-1$。
+    figures: []
+  - label: D
+    text: $f'_y(1,0)=-1$，$g'_y(1,0)=-1$。
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知函数 $f(x)$ 在区间 $(0,+\infty)$ 上可导，则\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      若 $\lim_{x\to+\infty}f'(x)=0$，则 $\lim_{x\to+\infty}\dfrac{f(x)}{x}=0$。
+    figures: []
+  - label: B
+    text: |-
+      若 $\lim_{x\to+\infty}\dfrac{f(x)}{x}=0$，则 $\lim_{x\to+\infty}f'(x)=0$。
+    figures: []
+  - label: C
+    text: |-
+      若 $\lim_{x\to+\infty}f'(x)$ 存在，则 $f(x)$ 在 $x\to+\infty$ 时有渐近线。
+    figures: []
+  - label: D
+    text: |-
+      若 $f(x)$ 在 $x\to+\infty$ 时有渐近线，则 $\lim_{x\to+\infty}f'(x)$ 存在。
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      $n$ 阶矩阵 $\mathbf{A}$ 经有限次初等行变换得到矩阵 $\mathbf{B}$，则\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\mathbf{A},\mathbf{B}$ 有相同的特征值。
+    figures: []
+  - label: B
+    text: |-
+      $\mathbf{A}x=b,\mathbf{B}x=b$ 是同解方程组。
+    figures: []
+  - label: C
+    text: |-
+      $r(\mathbf{A})=r(\mathbf{B})=r(\mathbf{A}:\mathbf{B})$。
+    figures: []
+  - label: D
+    text: |-
+      $r(\mathbf{A})=r(\mathbf{B})=r(\mathbf{A}^{\mathrm{T}}:\mathbf{B}^{\mathrm{T}})$。
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      下列矩阵中，不能相似对角化的是\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\mathbf{A}=\begin{pmatrix}1&a&0\\0&2&0\\-2&-2&-1\end{pmatrix}$
+    figures: []
+  - label: B
+    text: |-
+      $\mathbf{B}=\begin{pmatrix}1&a&0\\a&2&-2\\0&-2&-1\end{pmatrix}$。
+    figures: []
+  - label: C
+    text: |-
+      $\mathbf{C}=\begin{pmatrix}0&1&0\\-1&2&a\\0&0&1\end{pmatrix}$。
+    figures: []
+  - label: D
+    text: |-
+      $\mathbf{D}=\begin{pmatrix}1&1&a\\0&2&0\\0&0&2\end{pmatrix}$
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设可逆矩阵 $\mathbf{A}=\begin{pmatrix}2&1&1\\1&2&1\\1&1&a\end{pmatrix}$，$\boldsymbol{\alpha}=\begin{pmatrix}1\\b\\1\end{pmatrix}$，若 $\mathbf{A}^{*}\boldsymbol{\alpha}=\lambda\boldsymbol{\alpha}$，则\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $a=2$ 时，$\lambda=1$。
+    figures: []
+  - label: B
+    text: |-
+      $a=2$ 时，$\lambda=4$。
+    figures: []
+  - label: C
+    text: |-
+      $b=1$ 时，$\lambda=1$。
+    figures: []
+  - label: D
+    text: |-
+      $b=1$ 时，$\lambda=4$。
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $X,Y$ 独立同分布于参数为 $\lambda(\lambda>0)$ 的指数分布，则在 $X+Y=z(z>0)$ 的条件下，$X$ 的数学期望和方差分别为\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{z}{2\lambda},\dfrac{z}{2\lambda^2}$。
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{1}{\lambda^2},\dfrac{1}{\lambda^4}$。
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{z}{\lambda^2},\dfrac{z}{\lambda^4}$。
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{z}{2},\dfrac{z^2}{12}$。
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设随机变量 $X,Y$ 独立同分布于 $N(0,1)$，$Z=\dfrac{X}{Y}$，则与 $Z$ 同分布的是\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{|X|}{2Y}$。
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{X}{|Y|}$。
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{\sqrt{2}X}{\sqrt{X^2+Y^2}}$。
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{\sqrt{2}Y}{\sqrt{X^2+Y^2}}$。
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知总体 $X$ 的概率密度为 $f(x)=\dfrac{1}{2}\mathrm{e}^{-|x-\theta|},-\infty<x<+\infty$，$x_1\leq x_2\leq\cdots\leq x_{10}$ 是来自该总体的简单随机样本的观察值，则 $\theta$ 的最大似然估计值为\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{x_5}{2}$。
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{x_6}{2}$。
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{x_5+x_6}{2}$。
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{x_6-x_5}{2}$。
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)$ 是以 $2$ 为周期的连续奇函数且 $\int_0^4(x+2)f(x)\,\mathrm{d}x=2$，则 $\int_0^2(2x+1)f(x)\,\mathrm{d}x=$\ExamBlank。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      已知二元函数 $u=u(x,y),v=v(x,y)$ 由方程组 $\begin{cases}x+y+u+v=0,\\x^2+y^2+u^4+v^4=1\end{cases}$ 确定，且 $u(0,0)>0$，$v(0,0)<0$，则 $\left.\dfrac{\partial u}{\partial x}\right|_{(0,0)}=$\ExamBlank。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $\sum_{n=1}^{\infty}\dfrac{1}{(n+1)2^n}=$\ExamBlank。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)=\dfrac{1+\mathrm{e}^x}{1+x}$，则 $f^{(5)}(0)=$\ExamBlank。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      若 $\boldsymbol{\alpha}_1=(1,1,a)^{\mathrm{T}}$，$\boldsymbol{\alpha}_2=(1,a,1)^{\mathrm{T}}$，$\boldsymbol{\alpha}_3=(a,1,1)^{\mathrm{T}}$ 能由 $\boldsymbol{\beta}_1=(1,1,a)^{\mathrm{T}}$，$\boldsymbol{\beta}_2=(-2,a,4)^{\mathrm{T}}$，$\boldsymbol{\beta}_3=(-2,a,a)^{\mathrm{T}}$ 线性表示，但 $\boldsymbol{\beta}_1,\boldsymbol{\beta}_2,\boldsymbol{\beta}_3$ 不能由 $\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3$ 线性表示，则常数 $a=$\ExamBlank。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设随机变量 $X,Y,Z$ 满足 $D(X)=D(Z)$，$D(Y)=4D(X)$，相关系数 $\rho_{XY}=-1$，$\rho_{XZ}=\dfrac{1}{2}$，则 $X$ 与 $Y+Z$ 的相关系数 $\rho_{X(Y+Z)}$ 为\ExamBlank。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      计算 $\lim_{x\to0}\dfrac{\int_0^x\left[\mathrm{e}^{(t-x)^2}-1\right]\sin t\,\mathrm{d}t}{x^2\ln(1+x^2)}$。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      求二元函数 $f(x,y)=y\left(x^2+y^2+\sqrt{2x-2}\right)$ 在闭区域 $D=\{(x,y)\mid x^2+y^2\leq3\}$ 上的最大值与最小值。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $f(x)$ 在 $[0,x]$ 上具有三阶连续导数，$f'''\ne0$。
+  subparts:
+  - text: |-
+      证明：存在 $\xi\in(0,x)$，使 $\int_0^x f(t)\,\mathrm{d}t=\dfrac{x[f(0)+f(x)]}{2}-\dfrac{x^3}{12}f''(\xi)$；
+  - text: |-
+      由（1），计算 $\lim_{x\to0^+}\dfrac{\xi}{x}$。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 $f(x,y)$ 在平面 $\mathbb{R}^2$ 上存在连续偏导数，且只有唯一一零点 $O(0,0)$，对任何包围 $O(0,0)$ 的光滑正向闭曲线 $C$，曲线积分 $\oint_C\dfrac{x\,\mathrm{d}y-y\,\mathrm{d}x}{f(x,y)}=m$，$m$ 为正常数。
+  subparts:
+  - text: |-
+      证明：对任何不包围 $O(0,0)$ 的光滑闭曲线 $L$，曲线积分 $\oint_L\dfrac{x\,\mathrm{d}y-y\,\mathrm{d}x}{f(x,y)}=0$；
+  - text: |-
+      若 $f(x,y)=g(x)+h(y)$，且 $g'(1)\cdot h'(1)=4\pi^2$，求 $m$ 的值。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $\mathbf{A}=\begin{pmatrix}-4&2&10\\-4&3&a\\-3&1&7\end{pmatrix}$，且 $\mathbf{A}$ 的所有特征向量中只有一个线性无关的特征向量，$\mathbf{B}=\begin{bmatrix}2&1&0\\0&2&1\\0&0&2\end{bmatrix}$。
+  subparts:
+  - text: $a$ 的值；
+  - text: |-
+      是否存在可逆矩阵 $\mathbf{P}$，使 $\mathbf{P}^{-1}\mathbf{A}\mathbf{P}=\mathbf{B}$？若存在，求出矩阵 $\mathbf{P}$；若不存在，说明理由。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      在长度为 $1$ 的直杆上任取一点，将直杆分成两段，设 $X,Y$ 分别是较短与较长的部分的长度，令 $Z=\dfrac{X}{Y}$。
+  subparts:
+  - text: 求 $Z$ 的概率密度；
+  - text: |-
+      求 $Z$ 和 $\dfrac{1}{Z}$ 的数学期望。

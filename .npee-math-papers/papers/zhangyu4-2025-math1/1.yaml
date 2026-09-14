@@ -1,0 +1,317 @@
+schema_version: '3.0'
+paper:
+  series_key: zhangyu4
+  year: 2025
+  subject: math1
+  paper_no: 1
+content_hash: 1094a7575cf8213f72a37a45f39eb0bf61b7b09f075a81218427f1441fe719a2
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x)$ 满足 $\lim_{x\to 0}\dfrac{x-f(x)}{\sin x}=1$，则\ExamSelection
+  choices:
+  - label: A
+    text: $f(0)=0$。
+    figures: []
+  - label: B
+    text: $f'(0)=0$。
+    figures: []
+  - label: C
+    text: |-
+      $\lim_{x\to 0}\dfrac{f(x)}{x^3}=1$。
+    figures: []
+  - label: D
+    text: |-
+      $\lim_{x\to 0}\dfrac{f(x)}{x}=0$。
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $\sum_{n=1}^{\infty}a_n\cdot 2^n$ 条件收敛，则 $\sum_{n=1}^{\infty}na_n(x-1)^n$ 在点 $x=2$ 处\ExamSelection
+  choices:
+  - label: A
+    text: 绝对收敛。
+    figures: []
+  - label: B
+    text: 条件收敛。
+    figures: []
+  - label: C
+    text: 发散。
+    figures: []
+  - label: D
+    text: 敛散性不确定。
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设连续函数 $f(x)$ 在 $0$ 到 $x(x\ne 0)$ 上的平均值为 $\overline{f}(x)=\dfrac{1}{x}\int_0^x f(t)\,\mathrm{d}t$，则以下结论：①若 $f(x)$ 是奇函数，则 $\overline{f}(x)$ 是奇函数；②若 $f(x)$ 是偶函数，则 $\overline{f}(x)$ 是凸函数；③若 $f(x)$ 是周期函数，则 $\overline{f}(x)$ 是周期函数。所有正确结论的序号为\ExamSelection
+  choices:
+  - label: A
+    text: ①
+    figures: []
+  - label: B
+    text: ①②
+    figures: []
+  - label: C
+    text: ②③
+    figures: []
+  - label: D
+    text: ③
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $L$ 为取正向的圆 $x^2+y^2=m,m>0$，则曲线积分 $\oint_L\dfrac{(e^{x^2}-x^2y)\,\mathrm{d}x+(xy^2-\sin y^2)\,\mathrm{d}y}{x^2+y^2}=\ExamSelection$
+  choices:
+  - label: A
+    text: |-
+      $\pi m$。
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{1}{2}\pi m$。
+    figures: []
+  - label: C
+    text: |-
+      $-\dfrac{1}{2}\pi m$。
+    figures: []
+  - label: D
+    text: |-
+      $-\pi m$。
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      在空间直角坐标系 $O-xyz$ 中，三个平面 $\pi_1:ax+y-z=1,\pi_2:x+y+bz=a,\pi_3:x+ay-z=1$ 的位置关系如图所示，则\ExamSelection
+    figures:
+    - kind: tikz
+      latex: |-
+        \tdplotsetmaincoords{70}{115}\begin{tikzpicture}[tdplot_main_coords,scale=.74,xscale=1.28,line join=round,line cap=round]\tikzset{plane/.style={draw,fill=white,line width=.5pt},trace/.style={very thick,line width=.72pt}}\coordinate (P) at (0,0,-1.45);\coordinate (Q) at (0,0,1.45);\path[plane] (P)--(-1.75,0,-1.45)--(-1.75,0,1.45)--(Q)--cycle;\path[plane] (P)--(0,-1.75,-1.45)--(0,-1.75,1.45)--(Q)--cycle;\path[plane] (P)--(1.35,.95,-1.45)--(1.35,.95,1.45)--(Q)--cycle;\draw[trace] (P)--(Q);\end{tikzpicture}
+      path:
+      description: 三个平面相交的位置关系示意图
+      exception_reason:
+  choices:
+  - label: A
+    text: |-
+      $a=1,b\ne -1$。
+    figures: []
+  - label: B
+    text: $a=1,b=-1$。
+    figures: []
+  - label: C
+    text: |-
+      $a\ne -2,b=2$。
+    figures: []
+  - label: D
+    text: $a=-2,b=2$。
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $3$ 阶非零矩阵 $A$ 满足 $A_{ij}+a_{ij}=0(i,j=1,2,3)$，则下列结论不正确的是\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $(A-E)\boldsymbol{x}=0$ 有非零解。
+    figures: []
+  - label: B
+    text: |-
+      $(A+E)\boldsymbol{x}=0$ 有非零解。
+    figures: []
+  - label: C
+    text: |-
+      $(A+E)^2\boldsymbol{x}=0$ 有非零解。
+    figures: []
+  - label: D
+    text: |-
+      $(A^2-E)\boldsymbol{x}=0$ 有非零解。
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      $n$ 阶矩阵 $A$ 与 $B$ 相似的充分非必要条件是\ExamSelection
+  choices:
+  - label: A
+    text: $A^*$ 与 $B^*$ 相似
+    figures: []
+  - label: B
+    text: |-
+      $|\lambda E-A|=|\lambda E-B|$。
+    figures: []
+  - label: C
+    text: $A$ 与 $B$ 的各阶主子式之和分别相等。
+    figures: []
+  - label: D
+    text: $A^{-1}$ 与 $B^{-1}$ 相似。
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $X_1,X_2$ 为来自总体 $N(\mu,k\sigma^2)$ 的简单随机样本，其中 $\sigma(\sigma>0)$ 是未知参数，$k$ 为正常数，$|X_1-X_2|$ 是 $\sigma$ 的无偏估计，则 $k=\ExamSelection$
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{\pi}{2}$。
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{\pi}{4}$。
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{\sqrt{2\pi}}{2}$。
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{\sqrt{\pi}}{2}$。
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      一本 $100$ 页的书，共有 $20$ 个错字，每个错字等可能出现在每页，按照泊松定理，在给定的一页上至少有 $2$ 个错字的概率约为\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $1-\dfrac{5}{6}e^{-\dfrac{1}{5}}$。
+    figures: []
+  - label: B
+    text: |-
+      $1-\dfrac{5}{6}e^{-\dfrac{2}{5}}$。
+    figures: []
+  - label: C
+    text: |-
+      $1-\dfrac{6}{5}e^{-\dfrac{1}{5}}$。
+    figures: []
+  - label: D
+    text: |-
+      $1-\dfrac{6}{5}e^{-\dfrac{2}{5}}$。
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设两组数据分别来自两个方差相同且相互独立的正态总体 $X\sim N(\mu_1,\sigma^2)$ 与 $Y\sim N(\mu_2,\sigma^2)$。现检验两组数据的均值“有显著差异”，且犯第一类错误的概率为 $\alpha$，则应\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      在置信度为 $1-\alpha$ 下，检验 $H_0:\mu_1\ne\mu_2;H_1:\mu_1=\mu_2$。
+    figures: []
+  - label: B
+    text: |-
+      在置信度为 $1-\dfrac{\alpha}{2}$ 下，检验 $H_0:\mu_1\ne\mu_2;H_1:\mu_1=\mu_2$。
+    figures: []
+  - label: C
+    text: |-
+      在置信度为 $1-\alpha$ 下，检验 $H_0:\mu_1=\mu_2;H_1:\mu_1\ne\mu_2$。
+    figures: []
+  - label: D
+    text: |-
+      在置信度为 $1-\dfrac{\alpha}{2}$ 下，检验 $H_0:\mu_1=\mu_2;H_1:\mu_1\ne\mu_2$。
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      过原点的曲线 $y=y(x)$ 满足 $\dfrac{\mathrm{d}y}{\mathrm{d}x}=(x+y)^2$，则 $\lim_{x\to 0}\dfrac{y(x)}{x^3}=\ExamBlank$。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $a>0,\Gamma$ 是空间圆周 $\left\{\begin{array}{l}x^2+y^2+z^2=a^2,\\x+y+z=0,\end{array}\right.$，且 $\oint_\Gamma(x^2+y^2)\,\mathrm{d}s=\pi$，则 $a=\ExamBlank$。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $z=\ln\left(e^{-x}+\dfrac{x^2}{y}\right)$ 在点 $(1,1)$ 处沿 $\boldsymbol{l}=(1,0)$ 的方向导数为 $\ExamBlank$。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $\Sigma$ 为曲面 $\dfrac{x^2}{4}+\dfrac{y^2}{4}+z^2=1$ 的外侧，则 $\oiint_\Sigma x^2\,\mathrm{d}y\mathrm{d}z+z\,\mathrm{d}x\mathrm{d}y=\ExamBlank$。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $|A|=\begin{vmatrix}2&-1&2&3\\0&1&-1&0\\2&3&4&5\\1&1&1&1\end{vmatrix}$，则 $A_{31}+M_{32}+A_{33}+M_{34}=\ExamBlank$。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      在 $21\sim90$ 的整数中随机地取一个数，则取到的整数既不能被 $2$ 整除，又不能被 $9$ 整除的概率为 $\ExamBlank$。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      设函数 $x=x(y)$ 由方程 $y=\int_a^{x+y}e^{-u^2}\,\mathrm{d}u$ 所确定，$x(0)=1$，求：
+  subparts:
+  - text: $a$ 的值；
+  - text: $x''(0)$。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      已知 $\dfrac{1}{(1+x)^2}-\ln(2+x)=\sum_{n=0}^{\infty}a_nx^n(-1<x<1)$，求 $a_n$。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设曲线 $\Gamma$ 为曲面 $x^2+y^2+z^2=1$ 与平面 $y=z$ 的交线，从 $z$ 轴正向往下看为逆时针方向，计算 $\oint_\Gamma y^2\sin x\,\mathrm{d}x+xyz\,\mathrm{d}z$。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设曲面 $S$ 的方程为 $(x+1)^2+y^2+z^2=4$，从原点向该曲面上任一点 $P$ 处的切平面作垂线，垂足为点 $Q$。当点 $P$ 在曲面 $S$ 上运动时，点 $Q$ 的轨迹形成闭曲面 $\Sigma$。求：
+  subparts:
+  - text: |-
+      $\Sigma$ 的方程；
+  - text: |-
+      $\Sigma$ 所围成闭区域 $\Omega$ 的形心横坐标 $\bar{x}$。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $\left\{\begin{array}{l}x_n=x_{n-1}+2y_{n-1},\\y_n=4x_{n-1}+3y_{n-1},\end{array}\right.$，$A=\begin{pmatrix}1&2\\4&3\end{pmatrix}$，$2$ 阶矩阵 $B=(\boldsymbol{\beta}_1,\boldsymbol{\beta}_2)$ 满足 $B(A-B)=O$。
+  subparts:
+  - text: |-
+      当 $\left\{\begin{array}{l}x_0=1,\\y_0=2\end{array}\right.$ 时，求 $x_{100},y_{100}$；
+  - text: |-
+      用 $\boldsymbol{\beta}_1,\boldsymbol{\beta}_2$ 的线性组合表示 $B^{10}$。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: 在区间 $(0,2)$ 上随机取一点，将该区间分成两段，较短一段的长度记为 $X$，令 $Y=|3X-1|$，求：
+  subparts:
+  - text: $X$ 的概率密度；
+  - text: $E(Y)$。

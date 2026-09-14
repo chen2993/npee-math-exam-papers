@@ -1,0 +1,300 @@
+schema_version: '3.0'
+paper:
+  series_key: liyanfang3
+  year: 2023
+  subject: math3
+  paper_no: 2
+content_hash: 2fc755561ba8879374a76cf00bd806ea933f0878757155f92622315c3099d1dd
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x)$ 为 $(-\infty,+\infty)$ 上的单调增加的正值函数，且 $f'(0)$ 存在，则下列关于极限 $I_1=\lim_{x\to0^+}\left[\dfrac{f(x)}{f(0)}\right]^{\dfrac{1}{x}}$ 和 $I_2=\lim_{x\to0^+}\left(\dfrac{1}{x}\right)^{f(x)-f(0)}$ 的结论中，正确的是\ExamSelection
+  choices:
+  - label: A
+    text: $I_1$ 与 $I_2$ 是否存在均与 $f(x)$ 的表达式有关。
+    figures: []
+  - label: B
+    text: $I_1$ 与 $I_2$ 均存在，且 $I_1>I_2$。
+    figures: []
+  - label: C
+    text: $I_1$ 与 $I_2$ 均存在，且 $I_1<I_2$。
+    figures: []
+  - label: D
+    text: 以上说法均不正确。
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $0<a<1$，$I_1=\int_0^{\dfrac{\pi}{4}}\dfrac{\sin ax}{\sin x}\,\mathrm{d}x$，$I_2=\int_0^{\dfrac{\pi}{4}}\dfrac{\tan ax}{\tan x}\,\mathrm{d}x$，则\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $I_1>\dfrac{\pi}{4}a>I_2$。
+    figures: []
+  - label: B
+    text: |-
+      $I_2>\dfrac{\pi}{4}a>I_1$。
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{\pi}{4}a>I_1>I_2$。
+    figures: []
+  - label: D
+    text: |-
+      $I_1>I_2>\dfrac{\pi}{4}a$。
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设数列 $\{b_n\}$ 为正项数列，数列 $\{c_n\}$ 中每一项为 $\dfrac{1}{2}$ 或者 $-1$。若级数 $\sum_{n=1}^{\infty}a_n$ 条件收敛，则下列选项中，收敛半径可能大于 $1$ 的幂级数是\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\displaystyle\sum_{n=1}^{\infty}b_na_nx^n$。
+    figures: []
+  - label: B
+    text: |-
+      $\displaystyle\sum_{n=1}^{\infty}c_na_nx^n$。
+    figures: []
+  - label: C
+    text: |-
+      $\displaystyle\sum_{n=1}^{\infty}|a_n|x^n$。
+    figures: []
+  - label: D
+    text: |-
+      $\displaystyle\sum_{n=1}^{\infty}a_nx^n$。
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设二元函数 $f(x,y)$ 在点 $(1,1)$ 处连续，且满足 $\lim_{(x,y)\to(1,1)}\dfrac{f(x,y)}{x^3+y^3-\dfrac{9}{2}(x^2+y^2)+6(x+y)-5}=1$，则下列结论中，正确的是\ExamSelection
+  choices:
+  - label: A
+    text: 点 $(1,1)$ 是 $f(x,y)$ 的极大值点。
+    figures: []
+  - label: B
+    text: 点 $(1,1)$ 是 $f(x,y)$ 的极小值点。
+    figures: []
+  - label: C
+    text: 点 $(1,1)$ 不是 $f(x,y)$ 的极值点。
+    figures: []
+  - label: D
+    text: 无法确定点 $(1,1)$ 是否为 $f(x,y)$ 的极值点。
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 为非零矩阵，$\alpha_1,\alpha_2,\alpha_3$ 是齐次线性方程组 $Ax=0$ 的一个基础解系，$k,l,m$ 是非零常数，则下列各组向量中仍为 $Ax=0$ 的基础解系的是\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $k\alpha_1^{T}\alpha_2\alpha_3,\ l\alpha_2^{T}\alpha_3\alpha_1,\ m\alpha_3^{T}\alpha_1\alpha_2$。
+    figures: []
+  - label: B
+    text: |-
+      $\alpha_1^{T}\alpha_2\alpha_3+k\alpha_2^{T}\alpha_3\alpha_1,\ \alpha_2^{T}\alpha_3\alpha_1+l\alpha_3^{T}\alpha_1\alpha_2,\ \alpha_3^{T}\alpha_1\alpha_2+m\alpha_1^{T}\alpha_2\alpha_3$。
+    figures: []
+  - label: C
+    text: |-
+      $k\alpha_1+l\alpha_2,\ l\alpha_2+m\alpha_3,\ m\alpha_3+k\alpha_1$。
+    figures: []
+  - label: D
+    text: |-
+      $k\alpha_1+l\alpha_2+m\alpha_3,\ l\alpha_1+m\alpha_2+k\alpha_3,\ m\alpha_1+k\alpha_2+l\alpha_3$。
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 为 $3$ 阶非零实对称矩阵，则下列命题中，错误的是\ExamSelection
+  choices:
+  - label: A
+    text: $A+E$ 是否可逆取决于 $A$ 的表示。
+    figures: []
+  - label: B
+    text: $A^2-A+E$ 是否可逆取决于 $A$ 的表示。
+    figures: []
+  - label: C
+    text: |-
+      $r(A+E)+r(A^2-A+E)\geqslant3$。
+    figures: []
+  - label: D
+    text: |-
+      $r(A+E)+r(A^2-A+E)\leqslant6$。
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 为 $n$ 阶正定矩阵，特征值为 $\lambda_n\geqslant\lambda_{n-1}\geqslant\cdots\geqslant\lambda_1>1$，$Q$ 为正交矩阵，则下列命题中，正确命题的个数是\ExamSelection\quad ①$A+Q^TA^{-1}Q$ 是正定矩阵；\quad ②$A+Q^TA^{-1}Q$ 的最小特征值为 $\lambda_1+\dfrac{1}{\lambda_1}$；\quad ③$A+Q^TA^{-1}Q$ 的最大特征值为 $\lambda_n+\dfrac{1}{\lambda_n}$；\quad ④若 $\alpha$ 为 $A$ 的特征向量，则 $Q^T\alpha$ 为 $Q^TA^{-1}Q$ 的特征向量。
+  choices:
+  - label: A
+    text: $1$。
+    figures: []
+  - label: B
+    text: $2$。
+    figures: []
+  - label: C
+    text: $3$。
+    figures: []
+  - label: D
+    text: $4$。
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设某题库中共有 $1000$ 道不同的题，编号 $1\sim1000$，每次上机，系统随机从题库中抽取 $20$ 道题作为练习，$X$ 为小明上机练习 $10$ 次后所做过的不同题目的数量，则 $E(X)=$\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $1000\cdot0.98^{10}$。
+    figures: []
+  - label: B
+    text: |-
+      $1000\cdot(1-0.98^{10})$。
+    figures: []
+  - label: C
+    text: |-
+      $1000\cdot0.99^{10}$。
+    figures: []
+  - label: D
+    text: |-
+      $1000\cdot(1-0.99^{10})$。
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x)$ 为某随机变量 $X$ 的概率密度，则下列函数中，不可能为概率密度的是\ExamSelection
+  choices:
+  - label: A
+    text: $f_1(x)=f(x-1)$。
+    figures: []
+  - label: B
+    text: $f_2(x)=f(2x)$。
+    figures: []
+  - label: C
+    text: |-
+      $f_3(x)=\begin{cases}\dfrac{f(x)}{x},&x\neq0,\\0,&x=0.\end{cases}$
+    figures: []
+  - label: D
+    text: |-
+      $f_4(x)=\begin{cases}e^{xf(x)},&f(x)\neq0,\\0,&f(x)=0.\end{cases}$
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设随机变量 $X$ 服从正态分布 $N(0,\sigma^2)$，$X_1,X_2,\cdots,X_n$ 为来自总体 $X$ 的简单随机样本，利用这个样本估计 $\sigma^2$ 和 $\sigma$。记 $\widehat{\sigma^2}$ 为 $\sigma^2$ 的最大似然估计量，$\widehat{\sigma}$ 为 $\sigma$ 的最大似然估计量，则下列结论中，正确的是\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $D(\widehat{\sigma^2})>D(\widehat{\sigma}^{\,2})$。
+    figures: []
+  - label: B
+    text: |-
+      $D(\widehat{\sigma^2})<D(\widehat{\sigma}^{\,2})$。
+    figures: []
+  - label: C
+    text: |-
+      $E(\widehat{\sigma^2})>[E(\widehat{\sigma})]^2$。
+    figures: []
+  - label: D
+    text: |-
+      $E(\widehat{\sigma^2})<[E(\widehat{\sigma})]^2$。
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $\lim_{x\to+\infty}\dfrac{\int_{1/x}^{1}\sin xt\ln xt\,\mathrm{d}t}{\int_{1/x}^{1}\dfrac{1}{t}\,\mathrm{d}t}=$\ExamBlank。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设某种商品的需求函数为 $Q(p)=16p^{-2}$，总成本函数为 $C(Q)=2+Q$，则该商品能取得的最大利润为\ExamBlank{}万元。（需求 $Q$ 的单位为万件，单价 $p$ 的单位为元，成本 $C$ 的单位为万元）
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      记曲线 $y=\arcsin x^2$ 与直线 $x=1$ 以及 $x$ 轴所围区域为 $D_1$，与直线 $y=\dfrac{\pi}{2}$ 以及 $y$ 轴所围区域为 $D_2$。若 $D_1$ 绕 $x$ 轴旋转一周所得旋转体与 $D_2$ 绕 $y$ 轴旋转一周所得旋转体的体积之和为 $a$，则 $D_2$ 绕 $x$ 轴旋转一周所得旋转体的体积为\ExamBlank。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      差分方程 $y_{t+1}-5y_t=5$ 和 $y_{t+1}-y_t=5^t$ 的公共解为\ExamBlank。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $3$ 阶矩阵 $A$ 为上三角矩阵，向量 $\alpha=(1,1,1)^T$ 满足 $A\alpha=3\alpha$，$A^T\alpha=3\alpha$，$A$ 的各特征值之和为 $3$，则 $|A|=$\ExamBlank。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $X,Y,Z$ 为相互独立的随机变量，其中 $X,Y$ 服从 $[0,1]$ 上的均匀分布，$Z$ 服从 $[0,2]$ 上的均匀分布，则 $X,Y,Z$ 三者中 $Z$ 严格最大的概率是\ExamBlank。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      设定义在 $(-\infty,+\infty)$ 上的函数 $f(x)$ 满足 $f(x+2)=2f(x)$，且当 $x\in[-1,1)$ 时，$f(x)=-x$。求 $\lim_{x\to+\infty}\dfrac{\int_1^x|f(t)|\,\mathrm{d}t}{2^x}$。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设曲线 $y=\sqrt{2x-x^2}$ 与坐标轴围成的区域为 $D_1$，$x=\sqrt{2y-y^2}$ 与坐标轴围成的区域为 $D_2$，$D=D_1\cup D_2$，记函数 $\operatorname{sgn}(x)=\begin{cases}1,&x>0,\\0,&x=0,\\-1,&x<0.\end{cases}$ 计算 $I=\iint_D[(x^2-y^2)\operatorname{sgn}(y-x)+(x^2+y^2)](\sec^2x-\tan^2y)\,\mathrm{d}x\mathrm{d}y$。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 $\arctan x$ 是二阶常系数线性微分方程 $y''+cy=g(x)$ 的一个特解。若存在一个不同于 $\arctan x$ 的有界奇函数 $f(x)$，它也是该方程的一个解，求常数 $c$ 的取值范围。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $\{u_n\}$ 为一个收敛数列，$u_1=a>0$，$u_{n+1}=\dfrac{1}{2}u_n(u_n^2+1)\ (n=1,2,\cdots)$。
+  subparts:
+  - text: |-
+      求 $a$ 的取值范围和 $\lim_{n\to\infty}u_n$。
+  - text: |-
+      证明：级数 $\sum_{n=1}^{\infty}u_n(u_n-u_{n+1})$ 收敛。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: 设矩阵 $A$ 为二次型 $f(x_1,x_2,x_3)=x^TAx$ 对应的实对称矩阵，满足 $r(E+A)=1$。若当 $x_1^2+x_2^2+x_3^2=1$ 时，$f(x_1,x_2,x_3)$ 的最大值为 $2$，且 $f(1,-1,1)=6$，求矩阵 $A$。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: 设有一个均匀的骰子，随机变量 $X$ 表示连续两次掷出此骰子得到的较大点数。在 $X$ 为奇数的条件下，随机变量 $Y$ 服从均匀分布 $U(0,2)$，在 $X$ 为偶数的条件下，随机变量 $Y$ 服从均匀分布 $U(1,2)$。
+  subparts:
+  - text: 求 $Y$ 的分布函数 $F_Y(y)$；
+  - text: 求 $E(Y)$。

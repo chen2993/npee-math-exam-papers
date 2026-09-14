@@ -1,0 +1,298 @@
+schema_version: '3.0'
+paper:
+  series_key: zhangyu8
+  year: 2026
+  subject: math2
+  paper_no: 4
+content_hash: b78ec332f422d73c8bbc4c75ae60dd054e92e56a806c63bb18ccbeae4a27ec1d
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x)$ 在 $x=0$ 的某邻域内有定义，且 $\lim_{x\to 0}\dfrac{x-f(x)}{\ln(1+x)}=1$，则以下叙述：①$f(0)=0$；②$\lim_{x\to 0}f(x)=f(0)$；③$\lim_{x\to 0}\dfrac{f(x)}{x}=1$；④当 $x\to 0$ 时，$f(x)$ 是 $x$ 的高阶无穷小。正确叙述的个数为\ExamSelection。
+  choices:
+  - label: A
+    text: $1$
+    figures: []
+  - label: B
+    text: $2$
+    figures: []
+  - label: C
+    text: $3$
+    figures: []
+  - label: D
+    text: $4$
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      函数 $f(x,y)=x^2+y^2$ 在约束条件 $(x-1)^3=y^2$ 下\ExamSelection。
+  choices:
+  - label: A
+    text: 有最大值，无最小值
+    figures: []
+  - label: B
+    text: 无最大值，无最小值
+    figures: []
+  - label: C
+    text: 有最大值，有最小值
+    figures: []
+  - label: D
+    text: 无最大值，有最小值
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)$ 在 $[0,1]$ 上可积，则 $\lim_{n\to\infty}\sum_{i=0}^{n-1}\ln\left[1+\dfrac{1}{n}f\left(\dfrac{i}{n}\right)\right]=$\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\displaystyle\int_0^1\ln\left[1+\dfrac{f(x)}{n}\right]\,\mathrm{d}x$
+    figures: []
+  - label: B
+    text: |-
+      $\displaystyle\int_0^1\ln[1+f(x)]\,\mathrm{d}x$
+    figures: []
+  - label: C
+    text: |-
+      $\displaystyle\int_0^1f(x)\,\mathrm{d}x$
+    figures: []
+  - label: D
+    text: |-
+      $\displaystyle\int_0^1f^2(x)\,\mathrm{d}x$
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $z=z(x,y)$ 由 $z+\ln z=\displaystyle\int_x^y e^{-t^2}\,\mathrm{d}t$ 确定，则 $\dfrac{\partial z}{\partial x}+\dfrac{\partial z}{\partial y}=$\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{z}{z+1}(e^{-x^2}-e^{-y^2})$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{z}{z+1}(e^{-x^2}+e^{-y^2})$
+    figures: []
+  - label: C
+    text: |-
+      $-\dfrac{z}{z+1}(e^{-x^2}-e^{-y^2})$
+    figures: []
+  - label: D
+    text: |-
+      $-\dfrac{z}{z+1}(e^{-x^2}+e^{-y^2})$
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      如果对于微分方程 $y''-(2k-4)y'+ky=0$ 的任一解 $y(x)$，反常积分 $\displaystyle\int_0^{+\infty}y(x)\,\mathrm{d}x$ 均收敛，则 $k$ 的取值范围为\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $(-\infty,1]$
+    figures: []
+  - label: B
+    text: $(0,1]$
+    figures: []
+  - label: C
+    text: |-
+      $(-\infty,2)$
+    figures: []
+  - label: D
+    text: $(0,2)$
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      函数 $f(x)$ 在 $x=0$ 的某邻域内有定义，则“$\lim_{x\to 0}\dfrac{|f(x)|}{x}$ 存在”是“$\lim_{x\to 0}\dfrac{f(x)}{x}=0$”的\ExamSelection。
+  choices:
+  - label: A
+    text: 充分必要条件
+    figures: []
+  - label: B
+    text: 充分非必要条件
+    figures: []
+  - label: C
+    text: 必要非充分条件
+    figures: []
+  - label: D
+    text: 既非充分也非必要条件
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x),g(x)$ 在 $x=0$ 的某去心邻域内有定义且不为零，若当 $x\to 0$ 时，$f(x)$ 是 $g(x)$ 的高阶无穷小，则当 $x\to 0$ 时，对于以下结论：①$f(x)+g(x)=o(f(x))$；②$f(x)g(x)=o(g^2(x))$；③$f(x)=o(\ln[1+g(x)])$；④$f(x)=o(g^2(x))$。正确结论的个数为\ExamSelection。
+  choices:
+  - label: A
+    text: $1$
+    figures: []
+  - label: B
+    text: $2$
+    figures: []
+  - label: C
+    text: $3$
+    figures: []
+  - label: D
+    text: $4$
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      以下矩阵乘积的结果为 $\begin{pmatrix}1&-1&2\\2&1&3\\3&1&4\end{pmatrix}$ 的是\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\begin{pmatrix}1&0&0\\2&1&0\\3&\dfrac{4}{3}&2\end{pmatrix}\begin{pmatrix}1&-1&2\\0&3&-1\\0&0&-\dfrac{2}{3}\end{pmatrix}$
+    figures: []
+  - label: B
+    text: |-
+      $\begin{pmatrix}1&0&0\\2&-1&0\\3&\dfrac{4}{3}&1\end{pmatrix}\begin{pmatrix}1&-1&2\\0&-3&-1\\0&0&-\dfrac{2}{3}\end{pmatrix}$
+    figures: []
+  - label: C
+    text: |-
+      $\begin{pmatrix}1&0&0\\2&1&0\\3&\dfrac{4}{3}&1\end{pmatrix}\begin{pmatrix}1&0&0\\0&3&0\\0&0&-\dfrac{2}{3}\end{pmatrix}\begin{pmatrix}1&-1&2\\0&1&-\dfrac{1}{3}\\0&0&1\end{pmatrix}$
+    figures: []
+  - label: D
+    text: |-
+      $\begin{pmatrix}1&0&0\\2&-1&0\\3&\dfrac{4}{3}&1\end{pmatrix}\begin{pmatrix}1&0&0\\0&-3&0\\0&0&-\dfrac{2}{3}\end{pmatrix}\begin{pmatrix}1&-1&2\\0&1&-\dfrac{1}{3}\\0&0&1\end{pmatrix}$
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设二次型 $f(x_1,x_2,x_3)=ax_1x_2+x_1x_3-x_2x_3$ 的正惯性指数为 $2$，负惯性指数为 $1$，则以下结论可能成立的是\ExamSelection。
+  choices:
+  - label: A
+    text: $a=-1$
+    figures: []
+  - label: B
+    text: $a=1$
+    figures: []
+  - label: C
+    text: |-
+      $a\geq 0$
+    figures: []
+  - label: D
+    text: $a<0$
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A,B$ 均为 $2$ 阶矩阵，$|A|\ne|B|,|A|<0,|B|<0,C=\begin{pmatrix}A&D\\O&B\end{pmatrix}$，$D$ 为任意 $2$ 阶矩阵，则“$\operatorname{tr}(A)=\operatorname{tr}(B)$”是“$C$ 可以相似对角化”的\ExamSelection。
+  choices:
+  - label: A
+    text: 充分非必要条件
+    figures: []
+  - label: B
+    text: 必要非充分条件
+    figures: []
+  - label: C
+    text: 充分必要条件
+    figures: []
+  - label: D
+    text: 既非充分也非必要条件
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $\lim_{x\to 0}\left(\dfrac{\arctan x}{x}\right)^{\dfrac{1}{\tan^2x}}=$\ExamBlank。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $y=y(x)$ 满足 $xy'=\sqrt{1-x^2},\ y(1)=0$，则 $\displaystyle\int_0^1y(x)\,\mathrm{d}x=$\ExamBlank。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      已知函数 $y=y(x)$ 由 $\begin{cases}x=\arctan(t+1),\\2t-\displaystyle\int_1^{y+t^2}e^{-u^2}\,\mathrm{d}u=0\end{cases}$ 确定，则 $\left.\dfrac{\mathrm{d}y}{\mathrm{d}x}\right|_{t=0}=$\ExamBlank。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $\displaystyle\int_0^1\mathrm{d}x\int_0^{\sqrt{x}}e^{-\dfrac{y^2}{2}}\,\mathrm{d}y=$\ExamBlank。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      已知曲线上任一点的切线在 $y$ 轴上的截距与法线在 $x$ 轴上的截距之比为 $3:1$，则该曲线方程为\ExamBlank。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $a_1=\begin{pmatrix}4\\1\\2\end{pmatrix},\ a_2=\begin{pmatrix}1\\1\\-1\end{pmatrix},\ a_3=\begin{pmatrix}-2\\0\\4\end{pmatrix},\ a_4=\begin{pmatrix}7\\2\\-3\end{pmatrix},\ A=(a_1,a_2,a_3,a_4)$，则 $Ax=a_2+3a_4$ 的通解为\ExamBlank。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      设 $f'(e^x)=\sin x$，求 $f(x)$ 的表达式。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $y=y(x)$ 满足 $[(1+x)y-1]\mathrm{d}x+x(1+x)\mathrm{d}y=0$，$y(1)=\ln 2$。
+  subparts:
+  - text: 求 $y=y(x)$ 的表达式及定义域；
+  - text: |-
+      记 $f(x)=\displaystyle\int_{-1}^x y(|t|)\,\mathrm{d}t$，求 $f'(0)$。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 $f(x)$ 在 $[0,1]$ 上连续，$g(x)$ 在 $[0,1]$ 上可积且非负。证明：存在一点 $\xi\in(0,1)$，使 $\displaystyle\int_0^1f(x)g(x)\,\mathrm{d}x=f(\xi)\int_0^1g(x)\,\mathrm{d}x$。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $f(x,y)$ 在 $D=\{(x,y)\mid x^2+y^2\leq 1\}$ 上连续，$f(x,y)=e^{x^2+y^2}-\displaystyle\iint_D\dfrac{(2x^2+1)f(x,y)}{x^2+y^2+1}\,\mathrm{d}x\mathrm{d}y$，求 $\displaystyle\iint_Df(x,y)\,\mathrm{d}x\mathrm{d}y$。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $z=z(u,v)$ 具有二阶连续偏导数，且 $z=z(x-y,x+2y)$ 满足 $2\dfrac{\partial^2z}{\partial x^2}+\dfrac{\partial^2z}{\partial x\partial y}-\dfrac{\partial^2z}{\partial y^2}=2\dfrac{\partial z}{\partial x}-\dfrac{\partial z}{\partial y}$，$\dfrac{\mathrm{d}[z(0,v)]}{\mathrm{d}v}=\dfrac{1}{3}z(0,v)+e^{\dfrac{v}{3}}$，$z(u,0)=\sin u$。
+  subparts:
+  - text: |-
+      证明 $\dfrac{\partial^2z}{\partial u\partial v}=\dfrac{1}{3}\dfrac{\partial z}{\partial u}$；
+  - text: 求 $z=z(u,v)$ 的表达式。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $A=\begin{pmatrix}1&-2&3\\0&1&-1\\1&2&0\end{pmatrix}$，$\beta=\begin{pmatrix}-4\\1\\-3\end{pmatrix}$，$B=\begin{pmatrix}-2&1&3\\1&0&-1\\2&1&0\end{pmatrix}$，$(A,\beta)=BC$。
+  subparts:
+  - text: |-
+      求 $Ax=\beta$ 的解，并求出 $C$；
+  - text: |-
+      求满足 $(A,\beta)Y=E$ 的所有 $Y$。

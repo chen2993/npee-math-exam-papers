@@ -1,0 +1,315 @@
+schema_version: '3.0'
+paper:
+  series_key: liyanfang3
+  year: 2022
+  subject: math1
+  paper_no: 1
+content_hash: 06f61b5ca020f6f7247c2c50c3c46020b01e8d78ec2b0b083802c29b4aef8fc2
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $\alpha_1=\sqrt{1+\tan x}-\sqrt{1+\sin x},\alpha_2=\int_0^{x^4}\dfrac{1}{\sqrt{1-t^2}}\,\mathrm{d}t,\alpha_3=\int_0^x\mathrm{d}u\int_0^{u^2}\arctan t\,\mathrm{d}t$。当 $x\to0$ 时，以上 3 个无穷小量按照从低阶到高阶的排序是\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\alpha_1,\alpha_2,\alpha_3$
+    figures: []
+  - label: B
+    text: |-
+      $\alpha_1,\alpha_3,\alpha_2$
+    figures: []
+  - label: C
+    text: |-
+      $\alpha_2,\alpha_1,\alpha_3$
+    figures: []
+  - label: D
+    text: |-
+      $\alpha_3,\alpha_1,\alpha_2$
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      曲线 $y=x\ln\dfrac{x}{x-1}+\ln[x(x-1)]$ 的渐近线的条数为\ExamSelection。
+  choices:
+  - label: A
+    text: $0$
+    figures: []
+  - label: B
+    text: $1$
+    figures: []
+  - label: C
+    text: $2$
+    figures: []
+  - label: D
+    text: $3$
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      若 $\dfrac{\sin\xi}{\xi},\dfrac{\sin\eta}{\eta}$ 分别为 $\dfrac{\sin x}{x}$ 在 $(0,1)$ 和 $(0,a)$（$0<a<1$）上的平均值，其中 $\xi\in(0,1),\eta\in(0,a)$，则 $\xi$ 与 $\eta$ 的大小关系为\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\xi<\eta$
+    figures: []
+  - label: B
+    text: |-
+      $\xi=\eta$
+    figures: []
+  - label: C
+    text: |-
+      $\xi>\eta$
+    figures: []
+  - label: D
+    text: 从已知条件无法确定
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x,y)$ 在点 $(x_0,y_0)$ 处连续，则下列命题中，正确的是\ExamSelection。
+  choices:
+  - label: A
+    text: 若 $f(x,y)$ 在点 $(x_0,y_0)$ 处沿 $(1,0)$ 与沿 $(-1,0)$ 的方向导数均存在，则偏导数 $f'_x(x_0,y_0)$ 存在
+    figures: []
+  - label: B
+    text: 若偏导数 $f'_x(x_0,y_0)$ 存在，则 $f(x,y)$ 在点 $(x_0,y_0)$ 处沿 $(-1,0)$ 的方向导数等于 $-f'_x(x_0,y_0)$
+    figures: []
+  - label: C
+    text: 若偏导数 $f'_x(x_0,y_0),f'_y(x_0,y_0)$ 均存在，则 $f(x,y)$ 在点 $(x_0,y_0)$ 处沿任意方向的方向导数均存在
+    figures: []
+  - label: D
+    text: 若 $f(x,y)$ 在点 $(x_0,y_0)$ 处沿任意方向的方向导数均存在，则 $f(x,y)$ 在点 $(x_0,y_0)$ 处的偏导数均存在
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 为 $n\times m$ 矩阵，且 $m\ne n$。若 $AA^{\mathrm{T}}=E_n$，则\ExamSelection。
+  choices:
+  - label: A
+    text: $Ax=0$ 只有零解
+    figures: []
+  - label: B
+    text: $Ax=b$ 必有解
+    figures: []
+  - label: C
+    text: |-
+      $A^{\mathrm{T}}x=b$ 必有解
+    figures: []
+  - label: D
+    text: |-
+      若 $m$ 维列向量组 $\beta_1,\beta_2,\cdots,\beta_s$ 线性无关，则 $A\beta_1,A\beta_2,\cdots,A\beta_s$ 必线性无关
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $n$ 阶矩阵 $A=E-k\alpha\alpha^{\mathrm{T}}$，其中 $k\ne0,\alpha\ne0$。若 $A^2=E$，则下列命题中，错误的是\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $n-\operatorname{tr}(A)$ 为偶数
+    figures: []
+  - label: B
+    text: $|A|=-1$
+    figures: []
+  - label: C
+    text: $A$ 可相似对角化
+    figures: []
+  - label: D
+    text: $A$ 有 $n-1$ 个线性无关的属于特征值 $-1$ 的特征向量
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设二次型 $f(x,y,z)=(x-y)^2+(y-z)^2+(z-x)^2$，其对应的对称矩阵为 $A$。在自然基 $e_1,e_2,e_3$ 下，二次曲面 $S$ 的曲面方程为 $f(x,y,z)=3$。该曲面方程在正交变换 $\begin{pmatrix}x\\y\\z\end{pmatrix}=Q\begin{pmatrix}u\\v\\w\end{pmatrix}$ 下化为 $\lambda_1u^2+\lambda_2v^2+\lambda_3w^2=3$，其中 $\lambda_1\geqslant\lambda_2\geqslant\lambda_3$。该变换将 $e_1,e_2,e_3$ 分别变为 $\alpha_1,\alpha_2,\alpha_3$。下列命题中，正确的是\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $(e_1,e_2,e_3)=(\alpha_1,\alpha_2,\alpha_3)Q$
+    figures: []
+  - label: B
+    text: |-
+      $S$ 为柱面，在原坐标系下，$S$ 的母线的单位方向向量坐标为 $\dfrac{1}{\sqrt{2}}(-1,1,0)^{\mathrm{T}}$
+    figures: []
+  - label: C
+    text: |-
+      $S$ 为柱面，在原坐标系下，$S$ 的母线的单位方向向量坐标为 $\dfrac{1}{\sqrt{2}}(-1,0,1)^{\mathrm{T}}$
+    figures: []
+  - label: D
+    text: |-
+      $S$ 为柱面，在原坐标系下，$S$ 的母线的单位方向向量坐标为 $\dfrac{1}{\sqrt{3}}(1,1,1)^{\mathrm{T}}$
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设随机变量 $X$ 的分布函数与概率密度分别为 $F(x),f(x)$，且对于任意实数 $x,F(x)\ne1$，则下列反常积分中，发散的是\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\int_0^{+\infty}\dfrac{f(x)}{\sqrt{1+F^2(x)}}\,\mathrm{d}x$
+    figures: []
+  - label: B
+    text: |-
+      $\int_0^{+\infty}\dfrac{f(x)}{\sqrt{1-F^2(x)}}\,\mathrm{d}x$
+    figures: []
+  - label: C
+    text: |-
+      $\int_0^{+\infty}\dfrac{f(x)}{1+F^2(x)}\,\mathrm{d}x$
+    figures: []
+  - label: D
+    text: |-
+      $\int_0^{+\infty}\dfrac{f(x)}{1-F^2(x)}\,\mathrm{d}x$
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设随机变量 $X,Y$ 独立同分布，$P\{X=0\}=p,P\{X=1\}=1-p=q,0<p<1$。令 $Z=\begin{cases}1,&X+Y\text{ 为偶数},\\0,&X+Y\text{ 为奇数}\text{。}\end{cases}$ 记 $p_0=P\{Z=0\},p_1=P\{Z=1\}$，则下列命题中，正确的是\ExamSelection。
+  choices:
+  - label: A
+    text: 若 $X,Z$ 不独立，则 $p_0<p_1$
+    figures: []
+  - label: B
+    text: 若 $X,Z$ 不独立，则 $p_0=p_1$
+    figures: []
+  - label: C
+    text: 若 $X,Z$ 不独立，则 $p_0>p_1$
+    figures: []
+  - label: D
+    text: $X,Z$ 是否独立与 $p_0,p_1$ 的大小关系无关
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设随机变量 $X$ 满足 $E(X)=E(X^3)=0,E(X^2)=1,D(X^2)=2$，则根据切比雪夫不等式，$P\{|X^2+2X-1|\geqslant5\}\leqslant$\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{3}{25}$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{4}{25}$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{1}{5}$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{6}{25}$
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $\displaystyle\lim_{n\to\infty}\dfrac{\sqrt{1}+\sqrt{2}+\cdots+\sqrt{n}}{\sqrt{n^3+n}}=$\ExamBlank。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      已知多项式 $f(x)$ 为三次多项式，且 $f(x)=0$ 与 $y'''-(k+2)y''+(2k+1)y'-ky=0$（$k\ne1$）的特征方程同根，且根的重数相同。若 $\displaystyle\lim_{x\to k}\dfrac{f(x)}{x-k}=1$，且 $f(2)=-\dfrac{1}{4}$，则 $k=$\ExamBlank。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      函数 $f(x)=\displaystyle\sum_{n=1}^{\infty}\left(\dfrac{x}{1-x}\right)^n$ 在 $x=\dfrac{1}{4}$ 处的幂级数展开式为\ExamBlank。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设向量场 $A(x,y,z)=(z^2,x^2,y^2)$，以点 $M_0(1,1,0)$ 为圆心，$\varepsilon$ 为半径，在 $xOy$ 面上作一圆盘 $\Sigma_{\varepsilon}$，面积为 $\sigma_{\varepsilon}$，$\Gamma$ 为该圆盘的正向边界，$\tau$ 为 $\Gamma$ 上点 $(x,y,z)$ 处的单位切向量，则 $\displaystyle\lim_{\varepsilon\to0^+}\dfrac{1}{\sigma_{\varepsilon}}\oint_{\Gamma}A\cdot\tau\,\mathrm{d}s=$\ExamBlank。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $\alpha=(1,0,2)^{\mathrm{T}},\beta=(4,1,-2)^{\mathrm{T}}$，记 $A=\alpha\beta^{\mathrm{T}}$，则 $(E+A)^n=$\ExamBlank。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      通过点 $(1,0)$ 随机作直线与 $x$ 轴成 $\alpha$ 角，$-\dfrac{\pi}{2}<\alpha<\dfrac{\pi}{2}$。记该直线在 $y$ 轴上的截距为 $Y$，则 $Y$ 的概率密度 $f_Y(y)=$\ExamBlank。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      设函数 $f(x)$ 在 $(0,+\infty)$ 上可导，$f(1)=0$，且满足 $x(x+1)f'(x)-(x+1)f(x)+\int_1^x f(t)\,\mathrm{d}t=x-1$。求 $\displaystyle\int_1^2 f(x)\,\mathrm{d}x-3f(2)+\lim_{x\to1}\dfrac{\displaystyle\int_1^x\dfrac{\sin (t-1)^2}{t-1}\,\mathrm{d}t}{f(x)}$。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设某半球体型物体 $A$ 占据空间区域 $\Omega:0\leqslant z\leqslant\sqrt{1-x^2-y^2}$。密度函数 $\rho(x,y,z)$ 满足 $\rho(x,y,z)=4z+\dfrac{2}{\pi}\sqrt{x^2+y^2}\iiint_{\Omega}\rho(x,y,z)\,\mathrm{d}v$。
+  subparts:
+  - text: |-
+      求 $\rho(x,y,z)$；
+  - text: |-
+      求 $A$ 的质心坐标 $(\bar{x},\bar{y},\bar{z})$。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: 设二元函数 $f(x,y)$ 具有一阶连续偏导数，且满足 $f(0,0)=0,f'_1(0,0)=1$ 以及对于任意 $x$，都有 $f'_2(x,y)>0$。
+  subparts:
+  - text: |-
+      设 $\varphi(x)$ 的导函数连续，当 $x>0$ 时，$\varphi(x)>0$，且满足 $\displaystyle\lim_{x\to0}\dfrac{\varphi(x)}{x}=0$，证明：对所有的 $0\leqslant\xi\leqslant\varphi(x)$，都有 $\displaystyle\lim_{x\to0^+}\dfrac{f(x,\xi)}{x}=1$。
+  - text: |-
+      设 $n>1$，若当 $x\to0^+$ 时，$\displaystyle\int_0^{x^n}\mathrm{d}u\int_x^{u^{1/n}}f(t,u)\,\mathrm{d}t$ 与 $1-\cos x^2$ 是同阶无穷小，求 $n$。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $\{a_n\}$ 为单调增加的无界正项数列，$f(x)$ 为 $[a_1,+\infty)$ 上的单调增加正值函数，且 $\displaystyle\int_{a_1}^{+\infty}\dfrac{\mathrm{d}x}{xf(x)}<+\infty$。证明：
+  subparts:
+  - text: |-
+      级数 $\displaystyle\sum_{n=1}^{\infty}\dfrac{a_{n+1}-a_n}{a_{n+1}f(a_{n+1})}$ 收敛；
+  - text: |-
+      若 $a_1=1$，则级数 $\displaystyle\sum_{n=1}^{\infty}\dfrac{\sqrt{a_n}(a_{n+1}-a_n)}{a_{n+1}(1+a_n)}$ 收敛，且其值小于 $\dfrac{\pi+1}{2}$。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $A$ 为 3 阶实对称矩阵，$\alpha=\begin{pmatrix}1\\0\\1\end{pmatrix}$ 为属于特征值 3 的一个特征向量。
+  subparts:
+  - text: 若 $A$ 满足 $r(3E-A)>1$，且 $A^2-4A+3E=O$，求 $A$。
+  - text: |-
+      $A$ 为第（I）问中所求矩阵，$B=\begin{pmatrix}3&0&0\\0&1&1\\0&0&1\end{pmatrix}$。是否存在可逆矩阵 $P$ 为矩阵方程 $AX-XB=O$ 的解？若存在，求 $P$，若不存在，说明理由。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设总体 $X$ 服从均匀分布 $U(\theta,a)$，$a$ 为已知参数。$X_1,X_2,\cdots,X_n$ 为来自总体 $X$ 的一个简单随机样本。
+  subparts:
+  - text: |-
+      求 $\theta$ 的矩估计量 $\hat{\theta}_1$ 与最大似然估计量 $\hat{\theta}_2$；
+  - text: |-
+      判断 $\hat{\theta}_1$ 与 $\hat{\theta}_2$ 的无偏性。

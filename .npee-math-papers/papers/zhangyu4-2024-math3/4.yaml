@@ -1,0 +1,306 @@
+schema_version: '3.0'
+paper:
+  series_key: zhangyu4
+  year: 2024
+  subject: math3
+  paper_no: 4
+content_hash: cac34cbd20a5a640691efa40fd053cf0f1e38843bb8c9becb15fe4eaba596278
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      曲线 $y=2^{\dfrac{1}{x}}+\ln(e^{2x}+1)\ (x>0)$ 的斜渐近线为\ExamSelection
+  choices:
+  - label: A
+    text: $y=x+e$
+    figures: []
+  - label: B
+    text: $y=2x+1$
+    figures: []
+  - label: C
+    text: $y=x-e$
+    figures: []
+  - label: D
+    text: $y=2x-1$
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知函数 $f(x)$ 一阶导数连续，$\max_{0\leq x\leq 1}\{|f'(x)|\}=M,f(0)=0$，则\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $0\leq\int_0^1|f(x)|\,\mathrm{d}x\leq\dfrac{M}{2}$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{M}{2}\leq\int_0^1|f(x)|\,\mathrm{d}x\leq M$
+    figures: []
+  - label: C
+    text: |-
+      $M\leq\int_0^1|f(x)|\,\mathrm{d}x\leq\dfrac{3M}{2}$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{3M}{2}\leq\int_0^1|f(x)|\,\mathrm{d}x\leq 2M$
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      若 $f(x,y)$ 在点 $(0,0)$ 的全微分 $\mathrm{d}f=0$，则点 $(0,0)$ 处的全增量 $\Delta f$ 可以为\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\sqrt{|\Delta x\Delta y|}$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{\Delta x\Delta y}{\sqrt{(\Delta x)^2+(\Delta y)^2}}$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{\sin[(\Delta x)^2-(\Delta y)^2]}{\sqrt{(\Delta x)^2+(\Delta y)^2}}$
+    figures: []
+  - label: D
+    text: |-
+      $[(\Delta x)^2+(\Delta y)^2]\sin\dfrac{1}{(\Delta x)^2+(\Delta y)^2}$
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $p(x)$ 为正值连续函数，则方程 $y'+p(x)y=0$ 的所有积分曲线上横坐标相同的点的切线\ExamSelection
+  choices:
+  - label: A
+    text: 相交于一点
+    figures: []
+  - label: B
+    text: 平行但不重合
+    figures: []
+  - label: C
+    text: 或者相交于一点，或者互相重合
+    figures: []
+  - label: D
+    text: 重合
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知 $\eta_1,\eta_2$ 是线性方程组 $\begin{cases}ax_1+x_2+2x_3=b,\\x_1+cx_2-x_3=1,\\2x_1+x_2-2x_3=-1\end{cases}$ 的两个不同解，$k,k_1,k_2$ 为任意常数，则该线性方程组的通解是\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $(k_1+1)\eta_1+k_2\eta_2$
+    figures: []
+  - label: B
+    text: |-
+      $(k_1-1)\eta_1+k_2\eta_2$
+    figures: []
+  - label: C
+    text: |-
+      $(k+1)\eta_1-k\eta_2$
+    figures: []
+  - label: D
+    text: |-
+      $(k-1)\eta_1-k\eta_2$
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      若向量组 $\alpha_1=(1,1,a)^{\mathrm T},\alpha_2=(1,a,1)^{\mathrm T},\alpha_3=(a,1,1)^{\mathrm T}$ 可由向量组 $\beta_1=(1,1,a)^{\mathrm T},\beta_2=(-2,a,4)^{\mathrm T},\beta_3=(-2,a,a)^{\mathrm T}$ 线性表示，但向量组 $\beta_1,\beta_2,\beta_3$ 不能由向量组 $\alpha_1,\alpha_2,\alpha_3$ 线性表示，则 $a=$\ExamSelection
+  choices:
+  - label: A
+    text: $1$
+    figures: []
+  - label: B
+    text: $2$
+    figures: []
+  - label: C
+    text: $-1$
+    figures: []
+  - label: D
+    text: $-2$
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      若 $f(x_1,x_2,x_3)=(ax_1+2x_2-3x_3)^2+(x_2-2x_3)^2+(x_1+ax_2-x_3)^2$ 是正定二次型，则 $a$ 的取值范围是\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $a\neq 1$
+    figures: []
+  - label: B
+    text: |-
+      $a\neq-\dfrac{1}{2}$
+    figures: []
+  - label: C
+    text: |-
+      $a\neq 1$ 或 $a\neq-\dfrac{1}{2}$
+    figures: []
+  - label: D
+    text: |-
+      $a\neq 1$ 且 $a\neq-\dfrac{1}{2}$
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知总体 $X$ 服从标准正态分布，$X_1,X_2$ 是来自总体 $X$ 的简单随机样本。记 $Y=X_1^2+X_2^2$，$F(y)$ 是 $Y$ 的分布函数，给出以下结论：①$Y\sim E(\dfrac{1}{2})$；②$Y\sim\chi^2(2)$；③$E[F(Y)]=\dfrac{1}{2}$；④$\dfrac{Y}{2X_1^2}\sim F(2,1)$。正确结论的个数为\ExamSelection
+  choices:
+  - label: A
+    text: $1$
+    figures: []
+  - label: B
+    text: $2$
+    figures: []
+  - label: C
+    text: $3$
+    figures: []
+  - label: D
+    text: $4$
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设随机变量 $X$ 的概率密度为 $f(x)=\begin{cases}\dfrac{1}{2}\cos\dfrac{x}{2},&0<x<\pi,\\0,&\text{其他},\end{cases}$，$Y$ 表示对 $X$ 的 4 次独立重复观察中观测值大于 $\dfrac{\pi}{3}$ 的次数，则能使 $P\{Y=k\}$ 最大的 $k$ 是\ExamSelection
+  choices:
+  - label: A
+    text: $1$
+    figures: []
+  - label: B
+    text: $2$
+    figures: []
+  - label: C
+    text: $3$
+    figures: []
+  - label: D
+    text: $4$
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设总体 $X$ 的概率分布为 $P\{X=x\}=\theta^{\dfrac{x-2}{3}}(1-\theta)^{\dfrac{x+1}{3}},x=-1,2,\theta$ 为未知参数 $(0<\theta<1)$，$X_1,X_2$ 为来自总体 $X$ 的简单随机样本，则 $\theta$ 的最大似然估计量 $\hat\theta$ 及 $E(\hat\theta)$ 依次为\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\hat\theta=\dfrac{1}{3}-\dfrac{1}{3}\sum_{i=1}^2X_i,E(\hat\theta)=\theta$
+    figures: []
+  - label: B
+    text: |-
+      $\hat\theta=\dfrac{1}{3}-\dfrac{2}{3}\sum_{i=1}^2X_i,E(\hat\theta)=2\theta-1$
+    figures: []
+  - label: C
+    text: |-
+      $\hat\theta=\dfrac{2}{3}-\dfrac{1}{6}\sum_{i=1}^2X_i,E(\hat\theta)=\theta$
+    figures: []
+  - label: D
+    text: |-
+      $\hat\theta=\dfrac{2}{3}-\dfrac{1}{3}\sum_{i=1}^2X_i,E(\hat\theta)=2\theta-1$
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      曲线 $y=x(x-1)^{\dfrac{1}{3}}$ 的拐点为\ExamBlank
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      曲线 $y=\dfrac{\sqrt{x\ln x}}{1+x^2}\ (x\geq1)$ 与 $x$ 轴之间的图形绕 $x$ 轴旋转一周的旋转体的体积为\ExamBlank
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $y_{x+2}-\Delta^2y_x=1$ 的通解为\ExamBlank
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $y=y(x)$ 及 $z=z(x)$ 由方程 $e^z-xyz=0$ 及 $xz^2=\ln y$ 所确定，则 $\left.\dfrac{\mathrm{d}z}{\mathrm{d}x}\right|_{x=\dfrac{1}{2}}=\ExamBlank$
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 3 阶实对称矩阵 $A=\begin{pmatrix}a_{11}&a_{12}&a_{13}\\a_{12}&a_{22}&a_{23}\\a_{13}&a_{23}&a_{33}\end{pmatrix}$，$f(x_1,x_2,x_3)=\left|\begin{matrix}a_{11}-x_1&a_{12}&a_{13}\\a_{12}&a_{22}-x_2&a_{23}\\a_{13}&a_{23}&a_{33}-x_3\end{matrix}\right|$，若属于 $A$ 的二重特征值 $-1$ 的特征向量为 $\alpha_1=(-1,-1,1)^{\mathrm T},\alpha_2=(1,-2,-1)^{\mathrm T}$，$f(1,1,1)=0$，则 $A=\ExamBlank$
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      已知随机变量 $X$ 服从参数为 1 的泊松分布，$Y\sim\begin{pmatrix}-1&1\\\dfrac{1}{3}&\dfrac{2}{3}\end{pmatrix}$，且 $X$ 与 $Y$ 相互独立。若 $n$ 维列向量组 $\alpha_1,\alpha_2,\alpha_3$ 线性无关，则 $\alpha_1+\alpha_2,\alpha_2+2\alpha_3,X\alpha_3+Y\alpha_1$ 也线性无关的概率为\ExamBlank
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      设函数 $f(x,y)$ 一阶偏导数连续，$f(x,y)\,\mathrm{d}x+x\,\mathrm{d}y$ 是某二元函数 $u(x,y)$ 的全微分，$u(0,0)=1$，且对于任意的 $t$，有 $1+\int_0^t f(x,1)\,\mathrm{d}x=\int_1^t f(x,t)\,\mathrm{d}x$。
+  subparts:
+  - text: |-
+      求 $\mathrm{d}u$。
+  - text: 求 $u(x,y)$ 的极值点。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $f(x)=\iint_{D(x)}\dfrac{v\ln\sqrt{u^2+v^2}}{u+v}\,\mathrm{d}u\mathrm{d}v$，$D(x)=\{(u,v)\mid\dfrac{1}{4}\leq u^2+v^2\leq x^2,u>0,v>0\}$（$x>\dfrac{1}{2}$），求曲线 $y(x)=\int_1^x f(t)\,\mathrm{d}t\ (x>\dfrac{1}{2})$ 的拐点。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      求 $\sum_{n=2}^{\infty}\dfrac{x^n}{n(n-1)}$ 的收敛域与和函数，并计算 $\sum_{n=2}^{\infty}\dfrac{1}{2^n n(n-1)}$。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: 设常数 $a>1,b>0$。证明：
+  subparts:
+  - text: |-
+      当 $x\to+\infty$ 时，$\dfrac{1}{a^x}=o\left(\dfrac{1}{x^b}\right)$；
+  - text: |-
+      微分方程 $y'+a^xy=x^b\ (x>0)$ 的任一解 $y(x)$ 满足 $\lim_{x\to+\infty}y(x)=0$。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设矩阵 $A=\begin{pmatrix}1&1\\1&2\end{pmatrix},B=\begin{pmatrix}1&-1\\-1&1\end{pmatrix}$。
+  subparts:
+  - text: 证明 $A$ 为正定矩阵；
+  - text: |-
+      求一个可逆矩阵 $P$，使得 $P^{\mathrm T}AP$ 与 $P^{\mathrm T}BP$ 均为对角矩阵。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设总体 $X$ 服从标准正态分布 $N(0,1)$，现取两个简单随机样本 $X_1,X_2$，为使所取数据具有全面性，若 $X_1$ 取自 $(-\infty,0]$，则令 $Y=|X_2|$；若 $X_1$ 取自 $(0,+\infty)$，则令 $Y=-|X_2|$。
+  subparts:
+  - text: 求 $Y$ 的概率密度；
+  - text: 计算 $P(Y=X_2)$ 的值；
+  - text: 讨论 $Y,X_2$ 的独立性与不相关性。

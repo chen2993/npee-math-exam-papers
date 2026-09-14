@@ -1,0 +1,289 @@
+schema_version: '3.0'
+paper:
+  series_key: chaoyue10
+  year: 2025
+  subject: math1
+  paper_no: 8
+content_hash: 68cc053b64f71136979a85fb62b1bd86375193e50ee38499c4dd0d32caf848c5
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      当 $x\to0$ 时，$\left(\cos\dfrac{x}{3}\right)^3\left(\cos\dfrac{x}{5}\right)^5-\cos x$ 是 $x^2$ 的\ExamSelection。
+  choices:
+  - label: A
+    text: 高阶无穷小
+    figures: []
+  - label: B
+    text: 低阶无穷小
+    figures: []
+  - label: C
+    text: 同阶无穷小但不等价
+    figures: []
+  - label: D
+    text: 等价无穷小
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f\left(x+2y,\dfrac{y}{x}\right)=\sin x\cdot\ln y$，则 $\left.\dfrac{2}{3}\dfrac{\partial f}{\partial x}\right|_{(1,1)}+\left.\dfrac{\partial f}{\partial y}\right|_{(1,1)}=$\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{1}{3}\sin\dfrac{1}{3}$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{1}{2}\sin\dfrac{1}{3}$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{2}{3}\sin\dfrac{1}{3}$
+    figures: []
+  - label: D
+    text: |-
+      $\sin\dfrac{1}{3}$
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $L:x^2+y^2=a^2$（$a>0$），取逆时针方向，$f(x,y)$ 具有二阶连续偏导数，且 $\dfrac{\partial^2f}{\partial x^2}+\dfrac{\partial^2f}{\partial y^2}=e^{x^2-y^2}$，则 $\oint_L\left(x^2+y^2\right)\left(\dfrac{\partial f}{\partial x}\,\mathrm{d}y-\dfrac{\partial f}{\partial y}\,\mathrm{d}x\right)=$\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\pi a^2$
+    figures: []
+  - label: B
+    text: |-
+      $a^2\pi(1-e^{-a^2})$
+    figures: []
+  - label: C
+    text: |-
+      $a^2\pi(e^{-a^2}-1)$
+    figures: []
+  - label: D
+    text: |-
+      $a^2e^{-a^2}\pi$
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)$ 在闭区间 $[0,1]$ 上可导，$f(0)=0$ 且 $f'(x)>0$，反常积分 $\int_0^1\dfrac{f(x)}{x^\alpha}\,\mathrm{d}x$ 和 $\int_1^{+\infty}\dfrac{\ln x}{x^\alpha}\,\mathrm{d}x$ 均收敛，则 $\alpha$ 的取值范围为\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $1<\alpha\leq2$
+    figures: []
+  - label: B
+    text: |-
+      $1<\alpha<2$
+    figures: []
+  - label: C
+    text: |-
+      $0\leq\alpha<2$
+    figures: []
+  - label: D
+    text: |-
+      $0<\alpha<2$
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 为 $4\times5$ 阶矩阵，$B$ 为 $4$ 阶矩阵，若齐次线性方程组 $AA^{\mathrm T}x=0$ 仅有零解，$B^*x=0$ 解向量组的秩为 $3$，则齐次线性方程组 $A^{\mathrm T}Bx=0$ 解向量组的秩为\ExamSelection。
+  choices:
+  - label: A
+    text: $4$
+    figures: []
+  - label: B
+    text: $3$
+    figures: []
+  - label: C
+    text: $2$
+    figures: []
+  - label: D
+    text: $1$
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      $P,Q$ 均为 $3$ 阶矩阵，$P^*$ 为 $P$ 的伴随矩阵，若 $|P|=2$，$|P-2Q|=6$，则 $|P^*Q-E|=$\ExamSelection。
+  choices:
+  - label: A
+    text: $-3$
+    figures: []
+  - label: B
+    text: $-4$
+    figures: []
+  - label: C
+    text: $8$
+    figures: []
+  - label: D
+    text: $12$
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设四阶矩阵 $A=(a_{ij})_{4\times4}$ 满足 $\sum_{j=1}^4a_{ij}=0$（$i=1,2,3,4$），$M_{ij}$ 与 $A_{ij}$ 分别为元素 $a_{ij}$ 的余子式和代数余子式，下列四个式子中必成立有\ExamSelection{}个。① $M_{21}+M_{22}+M_{23}+M_{24}=0$；② $A_{21}+A_{22}+A_{23}+A_{24}=0$；③ $M_{21}=M_{22}=M_{23}=M_{24}$；④ $A_{21}=A_{22}=A_{23}=A_{24}$。
+  choices:
+  - label: A
+    text: $1$
+    figures: []
+  - label: B
+    text: $2$
+    figures: []
+  - label: C
+    text: $3$
+    figures: []
+  - label: D
+    text: $4$
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设随机事件 $A,B,C$，$P(BC)>0$ 且 $P(B)<1$，则下列 3 个命题正确的个数为\ExamSelection。①若 $P(A\mid B)>P(A)$，$P(B\mid C)>P(B)$，则必有 $P(A\mid C)>P(A)$；②若 $P(A\mid\overline{B})>P(A)$，$P(A\mid\overline{C})>P(A)$，则必有 $P(A\mid BC)>P(A)$；③若 $P(A)>P(A\mid B)$，则必有 $P(A)<P(A\mid\overline{B})$。
+  choices:
+  - label: A
+    text: $0$
+    figures: []
+  - label: B
+    text: $1$
+    figures: []
+  - label: C
+    text: $2$
+    figures: []
+  - label: D
+    text: $3$
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设总体 $X\sim B(1,p)$，$X_1,\cdots,X_{1000}$ 是来自总体 $X$ 的简单随机样本，$\overline{X}$ 为样本均值，则下列结论不正确的是\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\sum_{i=1}^{1000}X_i\sim B(1000,p)$
+    figures: []
+  - label: B
+    text: |-
+      $\sum_{i=1}^{1000}X_i\mathrel{\overset{\text{近似}}{\sim}}N(1000p,1000p(1-p))$
+    figures: []
+  - label: C
+    text: |-
+      $\overline{X}\mathrel{\overset{\text{近似}}{\sim}}N(p,p(1-p))$
+    figures: []
+  - label: D
+    text: |-
+      $\lim_{n\to\infty}\overline{X}\xrightarrow{P}p$
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设随机变量 $X$ 的概率密度函数为 $f(x)$，则随机变量 $Y=|X|$ 的概率密度函数为\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $f_Y(y)=\begin{cases}\dfrac{f(y)-f(-y)}{2},&y>0,\\0,&y\leq0\end{cases}$
+    figures: []
+  - label: B
+    text: |-
+      $f_Y(y)=\begin{cases}f(y)-f(-y),&y>0,\\0,&y\leq0\end{cases}$
+    figures: []
+  - label: C
+    text: |-
+      $f_Y(y)=\begin{cases}\dfrac{f(y)+f(-y)}{2},&y>0,\\0,&y\leq0\end{cases}$
+    figures: []
+  - label: D
+    text: |-
+      $f_Y(y)=\begin{cases}f(y)+f(-y),&y>0,\\0,&y\leq0\end{cases}$
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $\lim_{x\to0}\dfrac{\ln(e^x-\sin x)-x}{\arctan(\sqrt{1-x}-1)}=$\ExamBlank。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      当 $x\geq0,y\geq0$ 时，若恒有 $x^2+y^2\leq ke^{x+y^2}$，则 $k$ 的最小值为\ExamBlank。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设区域 $\Omega$ 是由 $x^2+y^2=2x$，$z=1+x^2+y^2$ 以及 $z=0$ 所围成，则 $\Omega$ 的体积\ExamBlank。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      若函数 $f(x)$ 满足方程 $f(x)=f(\pi-x)$，且 $f(0)=1$，则 $f(x)=$\ExamBlank。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $A=\begin{pmatrix}2&3a-4&-3\\0&3&a+2\\0&-1&1\end{pmatrix}$，若 $A$ 的任意两个特征向量都线性相关，则 $a=$\ExamBlank。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设随机变量 $X_1,X_2$ 相互独立，且均服从参数为 $1$ 的指数分布，记 $Y=\max\{X_1,X_2\}-\min\{X_1,X_2\}$，则 $Y$ 的方差 $DY=$\ExamBlank。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      设锥面 $\Sigma$ 方程为 $z=\sqrt{4+x^2+4y^2}$，平面 $\pi$ 的方程为 $x+2y+2z=2$。若 $P(x,y,z)$ 是 $\Sigma$ 上到 $\pi$ 的距离最短的点，求以 $P$ 为球心，且与 $\pi$ 相切的球面上切点坐标。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      $L$ 为 $x^2+y^2=2x$（$y\geq0$）上从点 $O(0,0)$ 到 $A(2,0)$ 的一段弧，连续函数 $f(x)$ 满足 $f(x)=x^2+\int_L[(e^y-x^2y)\,\mathrm{d}x+x(f(y)+e^y)\,\mathrm{d}y]$，求 $f(x)$。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      （I）证明方程 $(x+1)^{x+1}=e^x$ 有唯一正根；（II）设 $0<x<1$，证明 $1<\left(1+\dfrac{1}{x}\right)^x(1+x)<4$。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      求幂级数 $\sum_{n=1}^{\infty}(n^2+2)x^{2n}$ 的收敛域以及和函数，并求和 $\sum_{n=1}^{\infty}\dfrac{n^2}{2^n}$。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: 已知二次型 $f(x_1,x_2,x_3)=ax_1^2-(b^2+1)x_2^2+ax_3^2+2x_1x_3$ 经可逆线性变换化为 $g(y_1,y_2,y_3)=(2a^2-1)y_1^2+(a^2+1)y_2^2+(a^2-2)y_3^2-2(a^2+1)y_1y_2-2(a^2-2)y_1y_3$，其中 $a,b$ 为实数。（I）求二次型 $f(x_1,x_2,x_3)$ 的正负惯性指数；（II）当 $b=1$ 时，求正交变换 $x=Py$ 将二次型 $f(x_1,x_2,x_3)$ 化为标准形。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设随机变量 $X\sim N(0,1),Y\sim N(0,1)$，且 $X$ 与 $Y$ 独立，记 $f(x,y)$ 为 $(X,Y)$ 的概率密度。设二维随机变量 $(U,V)$ 的概率密度 $g(u,v)=\begin{cases}f(u,v)+\dfrac{uv}{100},&u^2+v^2\leq1,\\f(u,v),&u^2+v^2>1\text{。}\end{cases}$（I）求 $f(x,y)$；（II）证明 $U\sim N(0,1),V\sim N(0,1)$；（III）问 $U$ 和 $V$ 是否不相关？

@@ -1,0 +1,309 @@
+schema_version: '3.0'
+paper:
+  series_key: liyanfang3
+  year: 2022
+  subject: math1
+  paper_no: 3
+content_hash: 05e4fa3353cf05e2aa1061415e160f3db11f7887e12acdb5767bd19bb425a376
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)=\begin{cases}x^4\sin\dfrac{1}{x},&x\ne 0,\\0,&x=0,\end{cases}$ 则使得 $f^{(n)}(x)$ 连续的最高阶数 $n$ 为\ExamSelection
+  choices:
+  - label: A
+    text: '0'
+    figures: []
+  - label: B
+    text: '1'
+    figures: []
+  - label: C
+    text: '2'
+    figures: []
+  - label: D
+    text: '3'
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A,B,C$ 为常数，则微分方程 $y''+2y'+5y=e^{-x}\cos^2x$ 有特解形式\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $e^{-x}(A\cos x+B\sin x)$
+    figures: []
+  - label: B
+    text: |-
+      $e^{-x}(Ax\cos x+Bx\sin x)$
+    figures: []
+  - label: C
+    text: |-
+      $e^{-x}(A+Bx\cos 2x+Cx\sin 2x)$
+    figures: []
+  - label: D
+    text: |-
+      $e^{-x}(Ax+B\cos 2x+C\sin 2x)$
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $a,b,c$ 为常数，$\Omega=\{(x,y,z)\mid x^2+y^2+z^2\leq a^2\}$，则 $\iiint_{\Omega}[(b+2c)x^2+(c-2b)y^2+(b+c+1)z^2]\,\mathrm{d}v$\ExamSelection
+  choices:
+  - label: A
+    text: 与 $c$ 有关但与 $a,b$ 无关
+    figures: []
+  - label: B
+    text: 与 $a,c$ 有关但与 $b$ 无关
+    figures: []
+  - label: C
+    text: 与 $b$ 有关但与 $a,c$ 无关
+    figures: []
+  - label: D
+    text: 与 $b,c$ 有关但与 $a$ 无关
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      若幂级数 $\sum_{n=1}^{\infty}a_nx^n$ 的收敛半径为 $R_1$，$\sum_{n=1}^{\infty}b_nx^n$ 的收敛半径为 $R_2$，则\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      若 $r\leq R_1R_2$，则 $\sum_{n=1}^{\infty}a_nb_nr^n$ 收敛
+    figures: []
+  - label: B
+    text: |-
+      若 $r\geq R_1R_2$，则 $\sum_{n=1}^{\infty}a_nb_nr^n$ 发散
+    figures: []
+  - label: C
+    text: |-
+      若 $\sum_{n=1}^{\infty}(a_n+b_n)r^n$ 收敛，则 $r\leq\min\{R_1,R_2\}$
+    figures: []
+  - label: D
+    text: |-
+      若 $\sum_{n=1}^{\infty}(a_n+b_n)r^n$ 发散，则 $r\geq\min\{R_1,R_2\}$
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 为实矩阵，则下列命题中，错误的是\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      不存在矩阵 $A$，使得 $\operatorname{tr}(A^2)<0$
+    figures: []
+  - label: B
+    text: |-
+      不存在矩阵 $A,B$，使得 $\operatorname{tr}(AB-BA)=1$
+    figures: []
+  - label: C
+    text: |-
+      不存在实对称矩阵 $A$，使得 $A^2=A$，但 $\operatorname{tr}(A)\ne r(A)$
+    figures: []
+  - label: D
+    text: |-
+      不存在非零矩阵 $A$，使得对任意矩阵 $B$，都有 $\operatorname{tr}(AB)=0$
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      若 $n$ 阶矩阵 $A$ 的各行、各列元素之和均为 $0$，则下列命题中，正确的是\ExamSelection①$A^*$ 必为实对称矩阵；②$A^*$ 的每个元素都相等；③若 $r(A)=n-1$，则 $A$ 必为实对称矩阵；④$Ax=0$ 与 $A^*x=0$ 必有非零公共解。
+  choices:
+  - label: A
+    text: ①②
+    figures: []
+  - label: B
+    text: ①②③
+    figures: []
+  - label: C
+    text: ①④
+    figures: []
+  - label: D
+    text: ①③④
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $S_i:a_ix+b_iy+c_iz=d_i$，$i=1,2,3,4$ 为四张不同的平面，且均不过原点。直线 $l_1$ 为 $S_1,S_2$ 的交线，直线 $l_2$ 为 $S_3,S_4$ 的交线。$l_1$ 与 $l_2$ 相交于一点。记 $\alpha_i=(a_i,b_i,c_i,d_i)^{\mathrm T}$，$i=1,2,3,4$，则下列命题中，正确命题的个数为\ExamSelection①$|\alpha_1,\alpha_2,\alpha_3,\alpha_4|=0$；②$r(\alpha_1,\alpha_2,\alpha_3,\alpha_4)=3$；③必存在非零向量 $w$ 与 $\alpha_1,\alpha_2,\alpha_3,\alpha_4$ 均正交；④必不存在非零向量 $w$，满足 $w$ 与 $\alpha_1,\alpha_2,\alpha_3$ 均正交，但不与 $\alpha_4$ 正交。
+  choices:
+  - label: A
+    text: '1'
+    figures: []
+  - label: B
+    text: '2'
+    figures: []
+  - label: C
+    text: '3'
+    figures: []
+  - label: D
+    text: '4'
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设箱中有 3 个相同的球，编号为 1,2,3。从中随机抽取 2 个，$X$ 表示所取球中的最小编号，$Y$ 表示所取球中的最大编号，则下列命题中，正确的是\ExamSelection
+  choices:
+  - label: A
+    text: $E(X)>E(Y),D(X)<D(Y)$
+    figures: []
+  - label: B
+    text: $E(X)<E(Y),D(X)<D(Y)$
+    figures: []
+  - label: C
+    text: $E(X)>E(Y),D(X)=D(Y)$
+    figures: []
+  - label: D
+    text: $E(X)<E(Y),D(X)=D(Y)$
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $X_1,X_2,\cdots,X_k,\cdots$ 为一列独立同分布的随机变量序列，且 $\{X_k\}$ 的分布律满足 $P\{X_k=2^{n-a\ln n}\}=2^{-n},n=1,2,\cdots$，则下列命题中，一定成立的是\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      当 $0<a<\dfrac{1}{\ln 2}$ 时，存在 $\mu>0$，对于任意 $\varepsilon>0$，有 $\lim_{n\to\infty}P\left\{\left|\dfrac{1}{n}\sum_{k=1}^{n}X_k-\mu\right|<\varepsilon\right\}=1$
+    figures: []
+  - label: B
+    text: |-
+      当 $a>\dfrac{1}{\ln 2}$ 时，存在 $\mu>0$，对于任意 $\varepsilon>0$，有 $\lim_{n\to\infty}P\left\{\left|\dfrac{1}{n}\sum_{k=1}^{n}X_k-\mu\right|<\varepsilon\right\}=1$
+    figures: []
+  - label: C
+    text: |-
+      当 $0<a<1$ 时，存在 $\mu>0$，对于任意 $\varepsilon>0$，有 $\lim_{n\to\infty}P\left\{\left|\dfrac{1}{n}\sum_{k=1}^{n}X_k-\mu\right|<\varepsilon\right\}=1$
+    figures: []
+  - label: D
+    text: |-
+      当 $a>1$ 时，存在 $\mu>0$，对于任意 $\varepsilon>0$，有 $\lim_{n\to\infty}P\left\{\left|\dfrac{1}{n}\sum_{k=1}^{n}X_k-\mu\right|<\varepsilon\right\}=1$
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设总体 $X$ 服从二项分布 $B(n,p)$，其中 $n,p$ 为未知参数，$X_1,X_2,\cdots,X_{100}$ 为样本容量等于 100 的简单随机样本。已知样本均值 $\overline X=50$，样本方差 $S^2=20$，则 $p$ 的矩估计值 $\hat p=$\ExamSelection
+  choices:
+  - label: A
+    text: '0.4'
+    figures: []
+  - label: B
+    text: '0.396'
+    figures: []
+  - label: C
+    text: '0.6'
+    figures: []
+  - label: D
+    text: '0.604'
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)$ 连续，且 $f(0)=0$，$f'(0)=\dfrac{1}{2}$，则 $\lim_{x\to0^+}\dfrac{\int_0^{\ln(1+x)}tf(t)\,\mathrm{d}t}{\left[\int_0^x\sqrt{f(t)}\,\mathrm{d}t\right]^2}=$ \ExamBlank。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $\int_{-1}^{0}\mathrm{d}y\int_{1}^{\dfrac{1-y}{2}}e^{(2x-1)^2}\,\mathrm{d}x=$ \ExamBlank。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)$ 是周期 $2\pi$ 的连续函数，$F(x)=\dfrac{1}{\pi}\int_{-\pi}^{\pi}f(t)f(x+t)\,\mathrm{d}t$。若 $f(x)=\sum_{n=1}^{\infty}b_n\sin nx$，则 $F(x)$ 的傅里叶级数展开式中，$\cos nx$ 的系数为 \ExamBlank。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $C$ 是从球面 $x^2+y^2+z^2=a^2$ 上任一点到另一球面 $x^2+y^2+z^2=b^2$ 上任一点的任一条光滑曲线（$a>0,b>0$），则 $\int_Cx\,\mathrm{d}x+y\,\mathrm{d}y+z\,\mathrm{d}z=$ \ExamBlank。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      矩阵 $A=\begin{pmatrix}1&4&-7\\2&8&-12\\3&12&-17\end{pmatrix}$ 的最小特征值为 \ExamBlank。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      某玩具商店推出一种卡通人物盲盒，3 种不同的卡通人物为一套，开盒必得其中一种卡通人物，各种人物出现的概率相等。若小明购买了 5 盒，则他集齐一套卡通人物的概率为 \ExamBlank。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      设旋转曲面 $\Sigma$ 由 $zOx$ 面上的曲线 $kx^2+z^2=4$ 绕 $z$ 轴旋转一周所得。已知点 $\left(\dfrac{1}{2},\dfrac{1}{2},c\right)$（$c>0$）位于曲面 $\Sigma$ 上，且该点处的切平面方程为 $2x+2y+cz=4$。
+  subparts:
+  - text: 求 $c$ 以及旋转曲面的方程。
+  - text: |-
+      设 $f(x,y,z)=xy+yz$，求 $f(x,y,z)$ 在曲面 $\Sigma$ 上的方向导数的最大值。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $\Sigma$ 为球心在原点的单位球面，$\Omega$ 为 $\Sigma$ 所围成的空间区域。函数 $f(x,y,z)$ 在 $\Omega$ 上具有 2 阶连续偏导数，且 $\dfrac{\partial^2f}{\partial x^2}+\dfrac{\partial^2f}{\partial y^2}+\dfrac{\partial^2f}{\partial z^2}=\varphi\left(\sqrt{x^2+y^2+z^2}\right)$，其中 $\varphi(r)$ 满足微分方程 $r\varphi''-2\varphi'+r\varphi=0$。已知 $\varphi(1)=e,\varphi'(1)=2e$。
+  subparts:
+  - text: |-
+      求 $\varphi(r)$。
+  - text: |-
+      求 $\iint_{\Sigma}\left(x\dfrac{\partial f}{\partial x}+y\dfrac{\partial f}{\partial y}+z\dfrac{\partial f}{\partial z}\right)\,\mathrm{d}S$。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $f(x)$ 在 $[a,b]$ 上连续，$g(x)$ 在 $[a,b]$ 上有连续导数，且 $g'(x)\ne0$。若 $\int_a^bf(x)\,\mathrm{d}x=0\text{，}\int_a^bf(x)g(x)\,\mathrm{d}x=0$，证明：至少存在两个不同的点 $\xi_1,\xi_2\in(a,b)$，使得 $f(\xi_1)=f(\xi_2)=0$。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $f(x)$ 为 $[0,1]$ 上单调减小的连续函数，且 $\int_0^1f(x)\,\mathrm{d}x=1$。记 $[x]$ 为不超过 $x$ 的最大整数。
+  subparts:
+  - text: |-
+      设 $k$ 为整数，求 $\int_{k-1}^{k}(x-[x])\,\mathrm{d}x$。
+  - text: |-
+      求 $\lim_{n\to\infty}\int_0^1(nx-[nx])f(x)\,\mathrm{d}x$。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      记 $n$ 元二次型 $f(x_1,x_2,\cdots,x_n)=\sum_{i=1}^{n}(x_i-\overline x)^2$，$\overline x=\dfrac{x_1+x_2+\cdots+x_n}{n}$，其对应的矩阵为 $A$。
+  subparts:
+  - text: 求 $r(A)$。
+  - text: |-
+      当 $n=3$ 时，找到一个可逆线性变换，将 $f(x_1,x_2,x_3)$ 化为标准形 $2y_1^2+\dfrac{3}{2}y_2^2$。
+  - text: $f(x_1,x_2,x_3)$ 为第（Ⅱ）问中的 3 元二次型，说明 $f(x)=0$ 的解构成 3 维向量空间的一个子空间，并指出其维数。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设随机变量 $\xi,\eta$ 均服从 $N(0,\sigma^2)$，且 $\xi,\eta$ 相互独立，其中 $\sigma^2$ 为未知参数。令随机变量 $Z=\sqrt{\xi^2+\eta^2}$。
+  subparts:
+  - text: 计算 $E(Z),D(Z)$。
+  - text: |-
+      设 $Z_1,Z_2,\cdots,Z_n$ 为来自总体 $Z$ 的一个简单随机样本，求 $\sigma^2$ 的最大似然估计量，并检验该估计是否为无偏估计。

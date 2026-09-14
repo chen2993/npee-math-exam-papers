@@ -1,0 +1,302 @@
+schema_version: '3.0'
+paper:
+  series_key: zhangyu8
+  year: 2023
+  subject: math1
+  paper_no: 7
+content_hash: 3f6b7b5321f934d022eb30ef885c6eba01ef81bacfeab613c2d949db026669f9
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)=\begin{cases}e^x,&x\leqslant 0,\\x^2,&x>0,\end{cases}$ 则 $\displaystyle \lim_{x\to 0^+}\left[\int_{-\infty}^{x}f(t)\,\mathrm{d}t\right]^{\dfrac{1}{x(1-\cos x)}}=$\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $e^{\dfrac{2}{3}}$
+    figures: []
+  - label: B
+    text: |-
+      $e^{\dfrac{3}{2}}$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{2}{3}$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{3}{2}$
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $\displaystyle \int_0^{+\infty}\dfrac{\sin x}{x}\,\mathrm{d}x=a$，则 $\displaystyle \int_0^{+\infty}\dfrac{\sin^2x}{x^2}\,\mathrm{d}x=$\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{1}{2}a$
+    figures: []
+  - label: B
+    text: $a$
+    figures: []
+  - label: C
+    text: $2a$
+    figures: []
+  - label: D
+    text: $a^2$
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $a_n>0$，$a_{n+1}<\dfrac{1}{2}a_n$（$n=1,2,3,\cdots$），若当 $n\to\infty$ 时，$na_n$ 与 $\dfrac{1}{2^n}$ 是同阶无穷小，则幂级数 $\displaystyle \sum_{n=1}^{\infty}4^na_n(x-1)^n$ 的收敛域为\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\left(\dfrac{1}{2},\dfrac{3}{2}\right)$
+    figures: []
+  - label: B
+    text: |-
+      $\left[\dfrac{1}{2},\dfrac{3}{2}\right)$
+    figures: []
+  - label: C
+    text: |-
+      $\left(\dfrac{1}{2},\dfrac{3}{2}\right]$
+    figures: []
+  - label: D
+    text: |-
+      $\left[\dfrac{1}{2},\dfrac{3}{2}\right]$
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x)$ 在 $[0,1]$ 上可导，且 $f(0)=0$，$|f'(x)|\leqslant\dfrac{1}{2}|f(x)|$，则在 $(0,1)$ 内 $f(x)$\ExamSelection。
+  choices:
+  - label: A
+    text: 恒为正
+    figures: []
+  - label: B
+    text: 恒为负
+    figures: []
+  - label: C
+    text: 恒为零
+    figures: []
+  - label: D
+    text: 有正有负也有零
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A=\begin{pmatrix}a_1&b_1&c_1\\a_2&b_2&c_2\\a_3&b_3&c_3\end{pmatrix}$，$B=\begin{pmatrix}c_1&b_1+2a_1&a_1\\c_2&b_2+2a_2&a_2\\c_3&b_3+2a_3&a_3\end{pmatrix}$，$|A|=2$，则 $B^*A=$\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\begin{pmatrix}0&0&-2\\0&-2&4\\2&0&0\end{pmatrix}$
+    figures: []
+  - label: B
+    text: |-
+      $\begin{pmatrix}0&0&2\\0&2&-4\\-2&0&0\end{pmatrix}$
+    figures: []
+  - label: C
+    text: |-
+      $\begin{pmatrix}0&0&2\\0&2&0\\2&-4&0\end{pmatrix}$
+    figures: []
+  - label: D
+    text: |-
+      $\begin{pmatrix}0&0&-2\\0&-2&0\\-2&4&0\end{pmatrix}$
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 为 $4$ 阶矩阵，$|A|=0$，$B$ 为列满秩的 $4\times3$ 矩阵，$AB+B=O$，则 $|2A+E|=$\ExamSelection。
+  choices:
+  - label: A
+    text: $-1$
+    figures: []
+  - label: B
+    text: $0$
+    figures: []
+  - label: C
+    text: $1$
+    figures: []
+  - label: D
+    text: $2$
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      下列二次型中，是正定二次型的是\ExamSelection。
+  choices:
+  - label: A
+    text: $f_1(x_1,x_2,x_3,x_4)=(x_1-x_2)^2+(x_2-x_3)^2+(x_3-x_4)^2+(x_4-x_1)^2$
+    figures: []
+  - label: B
+    text: $f_2(x_1,x_2,x_3,x_4)=(x_1+x_2)^2+(x_2+x_3)^2+(x_3+x_4)^2+(x_4+x_1)^2$
+    figures: []
+  - label: C
+    text: $f_3(x_1,x_2,x_3,x_4)=(x_1-x_2)^2+(x_2+x_3)^2+(x_3-x_4)^2+(x_4+x_1)^2$
+    figures: []
+  - label: D
+    text: $f_4(x_1,x_2,x_3,x_4)=(x_1-x_2)^2+(x_2+x_3)^2+(x_3+x_4)^2+(x_4+x_1)^2$
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设随机变量 $X$ 服从区间 $[-2,2]$ 上的均匀分布，$Y=\min\{X,1\}$，则 $Y$ 的分布函数在 $(-\infty,+\infty)$ 内\ExamSelection。
+  choices:
+  - label: A
+    text: 有且仅有一个间断点
+    figures: []
+  - label: B
+    text: 有两个间断点
+    figures: []
+  - label: C
+    text: 至多有一个间断点
+    figures: []
+  - label: D
+    text: 没有间断点
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设总体 $X\sim N(\mu,\sigma^2)$，$X_1,X_2,\cdots,X_n$（$n>1$）是来自总体 $X$ 的一个简单随机样本，记 $\overline{X}$，$S^2$ 分别是样本均值和样本方差，则 $\mathrm{E}[(\overline{X}S^2)^2]=$\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\left(\dfrac{\sigma^2}{n}+\mu^2\right)\left(\dfrac{2\sigma^4}{n}+\sigma^4\right)$
+    figures: []
+  - label: B
+    text: |-
+      $\left(\dfrac{\sigma^2}{n-1}+\mu^2\right)\left(\dfrac{2\sigma^4}{n}+\sigma^4\right)$
+    figures: []
+  - label: C
+    text: |-
+      $\left(\dfrac{\sigma^2}{n}+\mu^2\right)\left(\dfrac{2\sigma^4}{n-1}+\sigma^4\right)$
+    figures: []
+  - label: D
+    text: |-
+      $\left(\dfrac{\sigma^2}{n-1}+\mu^2\right)\left(\dfrac{2\sigma^4}{n-1}+\sigma^4\right)$
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $X_1,X_2,\cdots,X_9$ 是来自总体 $N(1,\sigma^2)$ 的简单随机样本，$\overline{X}$ 为其样本均值，$S^2$ 为其样本方差，记统计量 $T=\dfrac{3(\overline{X}-1)}{S}$，若 $P\{-2<T<0\}=0.3$，则 $P\{T>2\}=$\ExamSelection。
+  choices:
+  - label: A
+    text: $0.1$
+    figures: []
+  - label: B
+    text: $0.2$
+    figures: []
+  - label: C
+    text: $0.3$
+    figures: []
+  - label: D
+    text: $0.4$
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $y=y(x)$ 是由方程 $\arctan xy+e^{2y}(\cos x+\sin x)=1$ 确定的，则 $\displaystyle \lim_{x\to0}\left[\dfrac{1-y(x)}{1+y(x)}\right]^{\dfrac{1}{x}}=$\ExamBlank。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x)=\pi x+x^2$（$-\pi<x<\pi$）的傅里叶级数为 $\dfrac{a_0}{2}+\displaystyle \sum_{n=1}^{\infty}(a_n\cos nx+b_n\sin nx)$，则系数 $b_3=$\ExamBlank。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $a_n=\displaystyle \int_0^1x(1-x)^{n-1}\,\mathrm{d}x$，则 $\displaystyle \sum_{n=1}^{\infty}(-1)^na_n=$\ExamBlank。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      交换积分次序：$\displaystyle \int_1^2\mathrm{d}x\int_{x^2}^{x}f(x,y)\,\mathrm{d}y=$\ExamBlank。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设方程组 $\begin{cases}\lambda x_1+x_2+x_3=a,\\(\lambda-1)x_2=1,\\x_1+x_2+\lambda x_3=1\end{cases}$ 有两个不同解，则该方程组的通解为\ExamBlank。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      现有两个报警系统 $A$ 和 $B$，每个报警系统单独使用时，系统 $A$ 有效的概率为 $0.9$，系统 $B$ 有效的概率也为 $0.9$，在 $A$ 失灵的条件下，$B$ 失灵的概率为 $0.2$，则在 $B$ 失灵的条件下，$A$ 有效的概率为\ExamBlank。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      设函数 $f(x,y)$ 可微，$f'_y(x,y)=xf(x,y)$，$f(1,0)=1$，且当 $x\neq0$ 时，$\displaystyle \lim_{h\to0}\left[\dfrac{f(x+h,0)}{f(x,0)}\right]^{\dfrac{1}{h}}=e^{\dfrac{1}{x}}$，求 $f(x,y)$ 的表达式。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 $f(x)$ 可导，$f(0)=0$，且 $f'(\ln x)=\begin{cases}1,&0<x\leqslant1,\\\sqrt{x},&x>1.\end{cases}$
+  subparts:
+  - text: 求 $f(x)$ 的表达式；
+  - text: 记曲线 $y=f(x)$，$y=-f(-x)$ 及直线 $x=1$ 围成的位于第一象限内的图形为 $D$，求 $D$ 的面积。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: 设 $u=f(x,y)$ 的所有二阶偏导数连续，把下列表达式转换为极坐标系中的形式。
+  subparts:
+  - text: |-
+      $\left(\dfrac{\partial u}{\partial x}\right)^2+\left(\dfrac{\partial u}{\partial y}\right)^2$；
+  - text: |-
+      $\dfrac{\partial^2u}{\partial x^2}+\dfrac{\partial^2u}{\partial y^2}$。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设平面区域 $D=\{(x,y)\mid0\leqslant x\leqslant2,0\leqslant y\leqslant2\}$。
+  subparts:
+  - text: |-
+      求 $I=\displaystyle \iint_D|xy-1|\,\mathrm{d}x\,\mathrm{d}y$；
+  - text: |-
+      设 $f(x,y)$ 在 $D$ 上连续，且 $\displaystyle \iint_Df(x,y)\,\mathrm{d}x\,\mathrm{d}y=0$，$\displaystyle \iint_Dxyf(x,y)\,\mathrm{d}x\,\mathrm{d}y=1$。证明：$\exists(\xi,\eta)\in D$，使 $|f(\xi,\eta)|\geqslant\dfrac{1}{I}$。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $A,B$ 是 $3$ 阶矩阵，$AB=2A-B$，如果 $\lambda_1,\lambda_2,\lambda_3$ 是 $A$ 的 $3$ 个不同特征值。证明：
+  subparts:
+  - text: $AB=BA$；
+  - text: 存在可逆矩阵 $P$，使得 $P^{-1}AP$ 与 $P^{-1}BP$ 均为对角矩阵。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      进行独立重复试验，每次试验成功的概率为 $p$（$0<p<1$），以 $X$ 表示第二次成功以前失败的次数，设 $X_1,X_2,\cdots,X_n$ 为来自总体 $X$ 的简单随机样本，试求未知参数 $p$ 的矩估计量和最大似然估计量。

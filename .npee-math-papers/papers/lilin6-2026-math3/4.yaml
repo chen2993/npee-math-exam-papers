@@ -1,0 +1,304 @@
+schema_version: '3.0'
+paper:
+  series_key: lilin6
+  year: 2026
+  subject: math3
+  paper_no: 4
+content_hash: b913238eeaf13508600a02150afc4280c56f0a82055846e6b97cb296af6d8412
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      函数 $f(x)=\dfrac{x^2-x}{|x|(x^2-1)}e^{\dfrac{1}{x-\dfrac{1}{2}}}$ 的无穷间断点的个数为\ExamSelection。
+  choices:
+  - label: A
+    text: $0$。
+    figures: []
+  - label: B
+    text: $1$。
+    figures: []
+  - label: C
+    text: $2$。
+    figures: []
+  - label: D
+    text: $3$。
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $x\to0$ 时，有 $\cot x=\dfrac{1+ax^2}{x+bx^3}+o(x^5)$，则\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $a=\dfrac{2}{5},b=-\dfrac{1}{15}$。
+    figures: []
+  - label: B
+    text: |-
+      $a=-\dfrac{2}{5},b=\dfrac{1}{15}$。
+    figures: []
+  - label: C
+    text: |-
+      $a=-\dfrac{2}{5},b=-\dfrac{1}{15}$。
+    figures: []
+  - label: D
+    text: |-
+      $a=\dfrac{2}{5},b=\dfrac{1}{15}$。
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知连续函数 $f(x)$ 满足 $f(x+2)-f(x)=\sin x$，$\int_{0}^{2}f(x)\,\mathrm{d}x=0$，令 $I_1=\int_{1}^{3}f(x)\,\mathrm{d}x$，$I_2=\int_{2}^{4}f(x)\,\mathrm{d}x$，则\ExamSelection。
+  choices:
+  - label: A
+    text: $I_1>I_2>0$。
+    figures: []
+  - label: B
+    text: $I_2>I_1>0$。
+    figures: []
+  - label: C
+    text: $I_1>0>I_2$。
+    figures: []
+  - label: D
+    text: $I_1<I_2<0$。
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      下列级数中条件收敛的是\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\displaystyle\sum_{n=1}^{\infty}(-1)^n\left[\dfrac{1}{n\sqrt{n}}+\dfrac{1}{(n+1)^2}\right]$。
+    figures: []
+  - label: B
+    text: |-
+      $\displaystyle\sum_{n=1}^{\infty}(-1)^n\left[\dfrac{1}{\sqrt{n}}+\dfrac{(-1)^n}{n}\right]$。
+    figures: []
+  - label: C
+    text: |-
+      $\displaystyle\sum_{n=1}^{\infty}\dfrac{(-1)^n\sqrt{n}}{(n+1)\sqrt{n+2}}\sin\dfrac{1}{\sqrt{n}}$。
+    figures: []
+  - label: D
+    text: |-
+      $\displaystyle\sum_{n=1}^{\infty}\dfrac{(-1)^{n-1}}{n\ln(1+n)}$。
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A^\mathrm{T}=(\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\ldots,\boldsymbol{\alpha}_{n-1})$ 是 $n\times(n-1)$ 矩阵，$r(A^\mathrm{T})=n-1$，$\boldsymbol{\beta}_1,\boldsymbol{\beta}_2$ 是与 $\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\ldots,\boldsymbol{\alpha}_{n-1}$ 均正交的 $n$ 维列向量，$\boldsymbol{\beta}_1\ne\boldsymbol{\beta}_2$，$k$ 是任意常数，则方程组 $AX=0$ 的通解为\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $k\boldsymbol{\beta}_1$。
+    figures: []
+  - label: B
+    text: |-
+      $k\boldsymbol{\beta}_2$。
+    figures: []
+  - label: C
+    text: |-
+      $k(\boldsymbol{\beta}_1+\boldsymbol{\beta}_2)$。
+    figures: []
+  - label: D
+    text: |-
+      $k(\boldsymbol{\beta}_1-\boldsymbol{\beta}_2)$。
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A=\begin{pmatrix}-1&1\\1&1\end{pmatrix}$，非零实列向量 $\boldsymbol{\alpha}=(a,b)^\mathrm{T}$，$X=(x_1,x_2,x_3)^\mathrm{T}$，则二次型 $f(x_1,x_2,x_3)=X^\mathrm{T}\begin{pmatrix}A+\boldsymbol{\alpha}\boldsymbol{\alpha}^\mathrm{T}&\boldsymbol{\alpha}\\\boldsymbol{\alpha}^\mathrm{T}&1\end{pmatrix}X$ 的规范形为\ExamSelection。
+  choices:
+  - label: A
+    text: $y_1^2+y_2^2+y_3^2$。
+    figures: []
+  - label: B
+    text: $-y_1^2-y_2^2-y_3^2$。
+    figures: []
+  - label: C
+    text: $y_1^2+y_2^2-y_3^2$。
+    figures: []
+  - label: D
+    text: $y_1^2-y_2^2-y_3^2$。
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A,B,C$ 均为 $n$ 阶实矩阵，$A^\mathrm{T}=A$，若对任意 $n$ 维非零列向量 $X$，都有 $\operatorname{tr}(ABXX^\mathrm{T})+\operatorname{tr}(XX^\mathrm{T}AB)>0$。矩阵 $\begin{pmatrix}AB&O\\B&BC\end{pmatrix}$，$\begin{pmatrix}B&A\\O&AC\end{pmatrix}$，$\begin{pmatrix}A&C\\O&AB\end{pmatrix}$ 的秩依次为 $r_1,r_2,r_3$，则\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $r_1\ge r_2\ge r_3$。
+    figures: []
+  - label: B
+    text: |-
+      $r_1\ge r_3\ge r_2$。
+    figures: []
+  - label: C
+    text: |-
+      $r_3\ge r_1=r_2$。
+    figures: []
+  - label: D
+    text: |-
+      $r_2\ge r_3=r_1$。
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A_1,A_2$ 和 $B$ 是随机事件，$0<P(B)<1$，且 $P[(A_1+A_2)\mid B]=P(A_1\mid B)+P(A_2\mid B)$，则\ExamSelection。
+  choices:
+  - label: A
+    text: $P(A_1+A_2)=P(A_1)+P(A_2)$。
+    figures: []
+  - label: B
+    text: |-
+      $P(A_1+A_2)=P(A_1\mid B)+P(A_2\mid B)$。
+    figures: []
+  - label: C
+    text: $P(A_1B+A_2B)=P(A_1B)+P(A_2B)$。
+    figures: []
+  - label: D
+    text: |-
+      $P[(A_1+A_2)\mid\overline{B}]=P(A_1\mid\overline{B})+P(A_2\mid\overline{B})$。
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设随机变量 $X$ 在 $(0,1)$ 内服从均匀分布，则 $P\{1\le X^{\ln X}\le e\}=\ExamSelection$。
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{1}{e}$。
+    figures: []
+  - label: B
+    text: |-
+      $1-\dfrac{1}{e}$。
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{1}{\sqrt{e}}$。
+    figures: []
+  - label: D
+    text: |-
+      $1-\dfrac{1}{\sqrt{e}}$。
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $X_1,X_2,\ldots,X_n$ 为来自总体 $X$ 的简单随机样本，$X$ 服从参数 $\lambda=1$ 的泊松分布，$\Phi(x)$ 为 $N(0,1)$ 的分布函数，则 $\lim_{n\to\infty}P\left\{\displaystyle\sum_{k=1}^{n}X_k\le n\right\}=\ExamSelection$。
+  choices:
+  - label: A
+    text: |-
+      $\Phi(0)$。
+    figures: []
+  - label: B
+    text: |-
+      $\Phi\left(\dfrac{1}{2}\right)$。
+    figures: []
+  - label: C
+    text: |-
+      $\Phi(1)$。
+    figures: []
+  - label: D
+    text: |-
+      $\Phi(\sqrt{2})$。
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)=(x^2-4x+3)^n$，则 $f^{(n)}(1)=\ExamBlank$。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      已知某商品的需求函数为 $Q=8\,000-8P$（$P$ 表示价格），若使总收益最大，则该商品的价格 $P=\ExamBlank$。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设二阶常系数线性非齐次微分方程 $y''+ay'+by=ce^x$ 的一个特解为 $y=e^{2x}+(1+x)e^x$，则该方程的通解为\ExamBlank。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设函数 $F(u,v)$ 可微，$z=z(x,y)$ 由方程 $F\left(x+\dfrac{z}{y},y+\dfrac{z}{x}\right)=0$ 确定，则 $x\dfrac{\partial z}{\partial x}+y\dfrac{\partial z}{\partial y}=\ExamBlank$。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      已知线性方程组 $\begin{cases}ax_1+3x_2+x_3=1,\\bx_1+2x_2+x_3=2,\\x_2+2x_3=3,\\x_1+2x_2+3x_3=1\end{cases}$ 有解，其中 $a,b$ 为常数，若 $\begin{vmatrix}a&b&0&-1\\3&2&1&-2\\1&1&2&-3\\-1&-2&-3&2\end{vmatrix}=1$，则 $\begin{vmatrix}a&b&0\\3&2&1\\1&1&2\end{vmatrix}=\ExamBlank$。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设总体 $X$ 与总体 $Y$ 相互独立，且都服从 $N(0,\sigma^2)$（$\sigma>0$），$X_1,X_2,\ldots,X_n$ 与 $Y_1,Y_2,\ldots,Y_m$ 分别为来自总体 $X$ 与 $Y$ 的简单随机样本，若 $T=\dfrac{2\displaystyle\sum_{i=1}^{n}X_i}{\sqrt{\displaystyle\sum_{i=1}^{m}Y_i^2}}$ 服从 $t$ 分布，则 $\dfrac{n}{m}=\ExamBlank$。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      设 $a$（$a>-1$）为非零常数，$\lim_{x\to+\infty}\dfrac{\displaystyle\int_{1}^{x}\left[(t+a)^{1+\dfrac{1}{t}}-t^{1+\dfrac{1}{t+a}}\right]\,\mathrm{d}t}{x}=1$，求 $a$ 的值。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $x^2+y^2=1$（$x\ge0,y\ge0$）与 $x+y+xy=1$ 所围区域为 $D$。$f(x,y)=\begin{cases}x-y+1,&x+y\le1,\\\dfrac{(x+y)^2}{x^2+y^2},&x+y>1.\end{cases}$ 计算 $I=\iint_D f(x,y)\,\mathrm{d}x\,\mathrm{d}y$。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: 设 $M(x,y)$ 是曲线 $y=f(x)$（$y>0$）上任意一点，曲线在点 $M$ 处的切线交 $x$ 轴于点 $P$，若 $|MP|=|PO|$，其中 $O$ 为坐标原点，且曲线过点 $(4,3)$。求 $y=f(x)$ 的表达式，以及 $f(x)$ 的极值。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $f(x)$ 在 $[a,b]$ 上二阶可导，$M=\max_{x\in[a,b]}|f''(x)|$。证明：对任意 $x\in(a,b)$，均有 $\left|\dfrac{f(x)-f(a)}{x-a}-\dfrac{f(b)-f(a)}{b-a}\right|\le\dfrac{M}{2}(b-x)$。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 3 阶实对称矩阵 $A$ 有二重特征值 1，且 $(A-4E)\boldsymbol{\alpha}=0$，其中 $E$ 是单位矩阵，$\boldsymbol{\alpha}=(1,1,1)^\mathrm{T}$。
+  subparts:
+  - text: 求 $A$；
+  - text: |-
+      记 $X=(x_1,x_2,x_3)^\mathrm{T}$，利用正交变换将二次型 $f(x_1,x_2,x_3)=\begin{vmatrix}A&-X\\X^\mathrm{T}&0\end{vmatrix}$ 化为标准形。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设随机变量 $X$ 与 $Y$ 相互独立，且服从同一分布 $N\left(\mu,\dfrac{\sigma^2}{2}\right)$，其中 $\sigma$（$\sigma>0$）是未知参数，记 $Z=X-Y$。
+  subparts:
+  - text: |-
+      若 $Z_1,Z_2,\ldots,Z_{2n}$（$n\ge2$）是总体 $Z$ 的简单随机样本，求 $\sigma^2$ 的最大似然估计量 $\hat{\sigma}^{2}$；
+  - text: |-
+      记 $U=\displaystyle\sum_{i=1}^{n+1}Z_i,V=\displaystyle\sum_{i=n}^{2n}Z_i$，利用（Ⅰ）的 $\hat{\sigma}^{2}$ 求相关系数 $\rho_{UV}$。

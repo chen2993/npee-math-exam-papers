@@ -1,0 +1,27 @@
+# Reproducible XeLaTeX build files and frontend artifacts.
+/tmp/
+/**/build/
+/**/output/
+/**/node_modules/
+/npee_math_papers/frontend/dist/
+/npee_math_papers/frontend/vite.config.js
+/npee_math_papers/frontend/vite.config.d.ts
+/npee_math_papers/frontend/tsconfig.*.tsbuildinfo
+**/__pycache__/
+.pytest_cache/
+*.egg-info/
+
+# NPEE data root.
+# The authoritative text is committed: papers/, registry.json, release.json and
+# index/ total ~3 MB and are what the library *is*.
+#
+# The two provenance tiers are ~2 GB and are handled separately rather than
+# committed to the main object store:
+#   sources/   source PDFs, each pinned by sha256 in its source.json
+#   captures/  page images rendered from those PDFs
+# See docs/GIT-DATA.md for the transport decision and the reproducibility gap.
+/.npee-math-papers/sources/
+/.npee-math-papers/captures/
+/.npee-math-papers/staging/
+/.npee-math-papers/logs/
+/.npee-math-papers/**/*.tmp

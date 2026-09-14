@@ -1,0 +1,299 @@
+schema_version: '3.0'
+paper:
+  series_key: chaoyue10
+  year: 2025
+  subject: math3
+  paper_no: 2
+content_hash: 272955dd06a6e2154c004331ba7180b79ab2e938085ee76e2f857ba45396609a
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x)=\dfrac{x}{\tan x}\ln\left|x-\dfrac{\pi}{2}\right|$，则 $f(x)$ 在 $(-\pi,\pi)$ 内有\ExamSelection。
+  choices:
+  - label: A
+    text: 一个可去间断点，两个跳跃间断点
+    figures: []
+  - label: B
+    text: 两个可去间断点，一个跳跃间断点
+    figures: []
+  - label: C
+    text: 三个可去间断点
+    figures: []
+  - label: D
+    text: 两个无穷间断点，一个可去间断点
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $u_0=0,u_{n+1}=\sqrt{2+u_n}$，则级数 $\displaystyle\sum_{n=1}^{\infty}(-1)^n\sqrt{2-u_n}$\ExamSelection。
+  choices:
+  - label: A
+    text: 条件收敛
+    figures: []
+  - label: B
+    text: 绝对收敛
+    figures: []
+  - label: C
+    text: 发散
+    figures: []
+  - label: D
+    text: 无法判断
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $I_k=\displaystyle\iint_{D_k}(xy^2e^{-x^2}+x^2\sin(x^2+y^2))\,\mathrm{d}\sigma,k=1,2,3$，其中 $D_1:x^2+y^2\leq\dfrac{\pi}{2}$，$D_2:x^2+y^2\leq\pi$，$D_3:x^2+y^2\leq2\pi$，则 $I_1,I_2,I_3$ 三者的大小关系为\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $I_1\leq I_2\leq I_3$
+    figures: []
+  - label: B
+    text: |-
+      $I_3\leq I_2\leq I_1$
+    figures: []
+  - label: C
+    text: |-
+      $I_1\leq I_3\leq I_2$
+    figures: []
+  - label: D
+    text: |-
+      $I_3\leq I_1\leq I_2$
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $y=f(x)$ 是微分方程 $y'-P(x)y=\dfrac{1}{2}e^x-1$ 满足 $y(0)=1$ 的解，其中 $P(x)=\displaystyle\int_0^1|x-t|\,\mathrm{d}t$，则有\ExamSelection。
+  choices:
+  - label: A
+    text: 在点 $x=0$ 处 $f(x)$ 取极大值
+    figures: []
+  - label: B
+    text: 在点 $x=0$ 处 $f(x)$ 取极小值
+    figures: []
+  - label: C
+    text: $(0,f(0))$ 为曲线 $y=f(x)$ 的拐点
+    figures: []
+  - label: D
+    text: 点 $x=0$ 不是 $f(x)$ 的极值点，点 $(0,f(0))$ 也不是曲线 $y=f(x)$ 的拐点
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      若 $A$ 为三阶实对称矩阵，$b=(3,-6,-3)^{\mathrm T}$，非齐次线性方程组 $Ax=b$ 的通解为 $k_1(2,1,0)^{\mathrm T}+k_2(1,0,1)^{\mathrm T}+(-1,2,1)^{\mathrm T}$，其中 $k_1,k_2$ 为任意常数，则与矩阵 $A+E$ 合同的为\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\begin{pmatrix}1\\1\\1\end{pmatrix}$
+    figures: []
+  - label: B
+    text: |-
+      $\begin{pmatrix}-1\\-1\\-1\end{pmatrix}$
+    figures: []
+  - label: C
+    text: |-
+      $\begin{pmatrix}-1\\-1\\1\end{pmatrix}$
+    figures: []
+  - label: D
+    text: |-
+      $\begin{pmatrix}-1\\1\\1\end{pmatrix}$
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 为 $3$ 阶非零矩阵，$b$ 为 $3$ 维非零向量，$A^2=O$，则非齐次线性方程组 $A^{\mathrm T}Ax=A^{\mathrm T}b$ 线性无关的解向量的个数为\ExamSelection。
+  choices:
+  - label: A
+    text: $1$
+    figures: []
+  - label: B
+    text: $2$
+    figures: []
+  - label: C
+    text: $3$
+    figures: []
+  - label: D
+    text: $4$
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $\alpha_1,\alpha_2,\alpha_3$ 为 $n$ 维非零列向量，已知 $\alpha_1-\alpha_2+2\alpha_3=0$，则对任意的 $n$ 维列向量 $\beta$，下列向量组必线性相关的是\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\beta+\alpha_1,3\beta+\alpha_2,5\beta+\alpha_3$
+    figures: []
+  - label: B
+    text: |-
+      $3\beta+\alpha_1,5\beta+\alpha_2,\beta+\alpha_3$
+    figures: []
+  - label: C
+    text: |-
+      $5\beta+\alpha_1,\beta+\alpha_2,3\beta+\alpha_3$
+    figures: []
+  - label: D
+    text: |-
+      $\beta+\alpha_1,5\beta+\alpha_2,3\beta+\alpha_3$
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设随机变量 $X$ 与 $Y$ 独立，且 $X\sim E(1),Y\sim U[0,3]$，则 $P\{1<\max(X,Y)\leq2\}=\ExamSelection$。
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{1}{3}(1+e^{-1}-e^{-2})$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{1}{3}(1+e^{-1}-2e^{-2})$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{2}{3}(1-e^{-1}-e^{-2})$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{2}{3}(1+e^{-1}-2e^{-2})$
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设总体 $X\sim E(1)$，$(X_1,X_2,X_3)$ 为来自总体 $X$ 的简单随机样本，记 $T_1=\max_{1\leq i\leq3}X_i,T_2=\min_{1\leq i\leq3}X_i$，则 $E(T_1-T_2)=\ExamSelection$。
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{3}{2}$
+    figures: []
+  - label: B
+    text: $3$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{4}{3}$
+    figures: []
+  - label: D
+    text: $1$
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设总体 $X$ 服从参数为 $\lambda(\lambda>0)$ 的泊松分布，$X_1,\cdots,X_n(n\geq2)$ 为来自总体 $X$ 的简单随机样本，$\overline X$ 为样本均值，且 $E\left[\displaystyle\sum_{i=1}^n(X_i-\overline X)^2\right]=1-E(\overline X)$，则 $P\left\{\displaystyle\sum_{i=1}^nX_i\geq2\right\}=\ExamSelection$。
+  choices:
+  - label: A
+    text: $e^{-1}$
+    figures: []
+  - label: B
+    text: $2e^{-1}$
+    figures: []
+  - label: C
+    text: $1-e^{-1}$
+    figures: []
+  - label: D
+    text: $1-2e^{-1}$
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $\displaystyle\lim_{x\to0}\left(x+\sqrt{1+x^2}\right)^{\dfrac{1}{x-1}}=\ExamBlank$。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设函数 $z=x^2f\left(\dfrac{y}{x}\right)$，其中 $f$ 具有连续二阶导数，且 $\dfrac{\partial^2z}{\partial x^2}-\dfrac{y^2}{x^2}\dfrac{\partial^2z}{\partial y^2}=2\dfrac{y}{x},f(1)=0$，则 $f(x)=\ExamBlank$。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)=x^2e^{2x}+\dfrac{2x}{1-x^2}$，求 $f^{(6)}(0)=\ExamBlank$。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      已知 $f_x'(x,y)+f(x,y)=xy$，且 $f(0,y)=y$，则 $f(x,y)=\ExamBlank$。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 为 $3$ 阶非奇异矩阵，将 $A$ 的第二行乘 $4$，第三行乘 $(-2)$，再交换第一行和第二行，所得矩阵为 $C$，若 $AB=C$，则 $|B+E|=\ExamBlank$。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $(X_1,X_2)$ 为来自总体 $X\sim U[0,2]$ 的一个简单随机样本，$\overline X,S^2$ 分别是样本均值和样本方差，则 $\overline X$ 和 $S^2$ 的相关系数 $\rho=\ExamBlank$。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      设函数 $f(x)=\displaystyle\lim_{n\to\infty}\dfrac{6x(e^{n\pi}-\sin(e^{n\pi}))}{(1+x^2)e^{3n\pi}},x\in(-\infty,+\infty)$。
+  subparts:
+  - text: 求 $f(x)$；
+  - text: |-
+      求曲线 $y=f(x)$ 与两条直线 $x=1$ 和 $y=\dfrac{1}{2}x$ 所围成的所有封闭区域绕 $y$ 轴旋转一周形成的旋转体体积。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: 设函数 $z=z(x,y)$ 由方程 $x^3+2y^2+z^2-8yz-3x+23=0$ 确定，求 $z(x,y)$ 的极值。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      计算二重积分 $I=\displaystyle\iint_D\dfrac{(1+x^2)(x^2+y^2-xy)}{2+x^2+y^2}\,\mathrm{d}\sigma$，其中 $D=\{(x,y)\mid(x-1)^2+(y-1)^2\leq1\}$。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $f(x)$ 在 $[-a,a](a>0)$ 上有连续二阶导数，证明：在 $[-a,a]$ 上存在一点 $\xi$，使得 $\displaystyle\int_{-a}^{a}f(x)\,\mathrm{d}x=\dfrac{a}{2}[3f(0)-f(-a)]+\dfrac{5}{12}f''(\xi)a^3$。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $A$ 为 $3$ 阶矩阵，$\alpha_1,\alpha_2,\alpha_3$ 为线性无关的三维列向量，且 $A\alpha_1=2\alpha_1+\alpha_2+\alpha_3,A\alpha_2=\alpha_1+2\alpha_2-\alpha_3,A\alpha_3=3\alpha_3$。
+  subparts:
+  - text: 求 $A$ 的特征值及对应的线性无关的特征向量；
+  - text: 求 $(A^2-4A+E)^{-1}$。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设随机变量 $X,Y$ 独立，且均服从 $N(0,1)$，$(R,\Theta)$ 为 $(X,Y)$ 的极坐标表示，其中 $R\geq0,0\leq\Theta\leq2\pi$。
+  subparts:
+  - text: |-
+      求 $P\left\{R\leq1,\Theta\leq\dfrac{\pi}{2}\right\}$；
+  - text: |-
+      求 $(R,\Theta)$ 的密度函数 $f_{R,\Theta}(r,\theta)$，以及 $R$ 和 $\Theta$ 的边缘密度函数 $f_R(r)$ 和 $f_\Theta(\theta)$，并问 $R$ 和 $\Theta$ 是否相互独立？

@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "npee-math-papers"
+version = "3.0.0"
+description = "NPEE 考研数学题库：MCP 服务 + 题库数据库 + 组卷编译"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "Proprietary" }
+dependencies = [
+    "ruamel.yaml>=0.18",
+]
+
+[project.optional-dependencies]
+api = ["fastapi>=0.110", "uvicorn[standard]>=0.29"]
+mcp = ["mcp>=1.0"]
+dev = ["pytest>=8.0", "httpx>=0.27"]
+
+[project.scripts]
+npee-math-papers = "npee_math_papers.launcher.main:main"
+
+[tool.setuptools.packages.find]
+include = ["npee_math_papers*"]
+
+[tool.setuptools.package-data]
+npee_math_papers = ["tex/*.cls", "tex/*.md"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+filterwarnings = [
+    "ignore::DeprecationWarning:starlette.testclient",
+]

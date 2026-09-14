@@ -1,0 +1,314 @@
+schema_version: '3.0'
+paper:
+  series_key: euclid3
+  year: 2025
+  subject: math3
+  paper_no: 1
+content_hash: 94ccbcd126eacac77836f971417321520f9eeba92a7b8015fb4e48cebe1a2341
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x)=\lim_{n\to\infty}\dfrac{x^{2n+1}}{\ln|x|-x^{2n}-1}$，则函数 $\int_0^x f(t)\,\mathrm{d}t$ 不可导点的个数为\ExamSelection。
+  choices:
+  - label: A
+    text: $0$
+    figures: []
+  - label: B
+    text: $1$
+    figures: []
+  - label: C
+    text: $2$
+    figures: []
+  - label: D
+    text: $3$
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知函数 $f(x,y)=\begin{cases}(1+x^2+y^2)^{\dfrac{xy}{x^2+y^2}},&(x,y)\ne(0,0),\\1,&(x,y)=(0,0),\end{cases}$，则 $f(x,y)$ 在 $(0,0)$ 处\ExamSelection。
+  choices:
+  - label: A
+    text: 不连续
+    figures: []
+  - label: B
+    text: 连续，但偏导数不存在
+    figures: []
+  - label: C
+    text: 连续且偏导数存在，但不可微
+    figures: []
+  - label: D
+    text: 可微
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)=\int_0^x\dfrac{\sin t}{\pi-t}\,\mathrm{d}t$，$\bar f$ 是 $f(x)$ 在 $[0,\pi]$ 上的平均值，则\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{1}{2}f(\pi)<\bar f<f\left(\dfrac{\pi}{2}\right)$
+    figures: []
+  - label: B
+    text: |-
+      $f\left(\dfrac{\pi}{2}\right)<\bar f<\dfrac{1}{2}f(\pi)$
+    figures: []
+  - label: C
+    text: |-
+      $\bar f<f\left(\dfrac{\pi}{2}\right)<\dfrac{1}{2}f(\pi)$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{1}{2}f(\pi)<f\left(\dfrac{\pi}{2}\right)<\bar f$
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $a_n\geq0$，则下列命题中正确的是\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      若 $\lim_{n\to\infty}na_n=0$，则 $\sum_{n=1}^{\infty}a_n$ 收敛
+    figures: []
+  - label: B
+    text: |-
+      若 $\sum_{n=1}^{\infty}a_n$ 收敛，则 $\lim_{n\to\infty}na_n=0$
+    figures: []
+  - label: C
+    text: |-
+      若 $\sum_{n=1}^{\infty}a_n$ 收敛，则 $\sum_{n=1}^{\infty}a_n^2$ 收敛
+    figures: []
+  - label: D
+    text: |-
+      若 $\sum_{n=1}^{\infty}a_n^2$ 收敛，则 $\sum_{n=1}^{\infty}a_n$ 收敛
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设有两个方程组 $\text{（I）}\begin{cases}x_1+x_2+2x_3+x_4=2,\\2x_1+3x_2+5x_3+4x_4=2b,\\x_2+x_4=b-4,\end{cases}$，$\text{（II）}\begin{cases}x_1+x_2-x_4=2,\\3x_1+4x_2+2x_3=2,\\5x_1+6x_2+(a+4)x_3+ax_4=6,\end{cases}$，若方程组（I）的解均是（II）的解，但（I）与（II）有不同解，则\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $a=5\text{，}b=0$
+    figures: []
+  - label: B
+    text: |-
+      $a=5\text{，}b=4$
+    figures: []
+  - label: C
+    text: |-
+      $a=-2\text{，}b=0$
+    figures: []
+  - label: D
+    text: |-
+      $a=-2\text{，}b=4$
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A\text{，}B\text{，}C$ 为 $n$ 阶矩阵，则 $\begin{bmatrix}A&O\\C&B\end{bmatrix}$ 为正交矩阵是“$A\text{，}B$ 均为正交矩阵”的\ExamSelection。
+  choices:
+  - label: A
+    text: 充分不必要条件
+    figures: []
+  - label: B
+    text: 必要不充分条件
+    figures: []
+  - label: C
+    text: 充要条件
+    figures: []
+  - label: D
+    text: 既不充分也不必要条件
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      二次型 $f(x_1,x_2,x_3,x_4)=2\sum_{i=1}^4x_i^2-2\sum_{1\leq i<j\leq4}x_ix_j$ 的正惯性指数为\ExamSelection。
+  choices:
+  - label: A
+    text: $1$
+    figures: []
+  - label: B
+    text: $2$
+    figures: []
+  - label: C
+    text: $3$
+    figures: []
+  - label: D
+    text: $4$
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知二维随机变量 $(X,Y)$ 在区域 $D=\{(x,y)\mid |x|+|y|\leq3\}$ 上服从均匀分布，设 $U=\begin{cases}0,&Y-2X<0,\\1,&Y-2X\geq0,\end{cases}$，$V=\begin{cases}0,&2Y+X<0,\\1,&2Y+X\geq0,\end{cases}$，则\ExamSelection。
+  choices:
+  - label: A
+    text: $X$ 与 $Y$ 独立，$U$ 与 $V$ 不独立
+    figures: []
+  - label: B
+    text: $X$ 与 $Y$ 不独立，$U$ 与 $V$ 不独立
+    figures: []
+  - label: C
+    text: $X$ 与 $Y$ 不独立，$U$ 与 $V$ 独立
+    figures: []
+  - label: D
+    text: $X$ 与 $Y$ 独立，$U$ 与 $V$ 独立
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设总体 $X$ 的概率密度函数为 $f(x)=\begin{cases}2\theta,&-1\leq x<0,\\1-2\theta,&0\leq x<1,\\0,&\text{其他},\end{cases}$，其中 $\theta(0<\theta<\dfrac{1}{2})$ 为未知参数，现从这个总体中抽取 $n$ 个样本，经统计有 $m$ 个样本在 $(-1,0)$ 之间，则 $\theta$ 的最大似然估计为\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{m}{n}$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{m}{2n}$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{n-m}{n}$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{n-m}{2n}$
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $X_1\text{，}X_2\text{，}\cdots\text{，}X_n$ 为来自正态分布总体 $N(\mu,\sigma^2)(\sigma>0)$ 的简单随机样本，记 $\bar X=\dfrac{1}{n-1}\sum_{i=1}^nX_i$，$S=\sqrt{\dfrac{1}{n-1}\sum_{i=1}^n(X_i-\bar X)^2}$，则\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{\sqrt{n-1}}{\sqrt n}\cdot\dfrac{X_n-\bar X}{S}\sim t(n-1)$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{\sqrt{n-2}}{\sqrt n}\cdot\dfrac{X_n-\bar X}{S}\sim t(n-2)$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{n}{n-1}\cdot\dfrac{(X_n-\bar X)^2}{S^2}\sim F(1,n-1)$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{n}{n-2}\cdot\dfrac{(X_n-\bar X)^2}{S^2}\sim F(1,n-2)$
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x)=\sqrt[3]{27x^3+3x^2+\sqrt{x}}$，$g(x)$ 与 $f(x)$ 互为反函数，则曲线 $y=g(x)$ 的斜渐近线方程为\ExamBlank。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      已知某企业的生产函数为 $Q=A(K+1)^{\dfrac{1}{2}}e^{\dfrac{L}{5}}$，其中 $Q$ 是产量，$K$ 是劳力，$L$ 是资金，$A$ 为大于零的参数，设 $Q$ 对 $K$ 的弹性为 $E_K$，$Q$ 对 $L$ 的弹性为 $E_L$，则 $E_KE_L=$\ExamBlank。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设区域 $D=\{(x,y)\mid0<x<\dfrac{\pi}{2}\text{，}0<y<\dfrac{\pi}{2}\}$，则 $f(x,y)=\cos x+\sin y+\cos(x-y)$ 在 $D$ 上的极大值为\ExamBlank。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设连续函数 $f(x)$ 满足 $f(x+3)-f(x)=\int_1^x\dfrac{1}{ue^u}\,\mathrm{d}u$，$\int_0^3f(x)\,\mathrm{d}x=1$，则 $\int_1^4f(x)\,\mathrm{d}x=$\ExamBlank。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $3$ 阶矩阵 $A\text{，}B$，若 $|AB|=6$，$AB$ 的每一行元素之和为 $1$，$|BA-2E|=0$，则 $|BA+2E|=$\ExamBlank。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设随机变量 $X$ 的概率分布为 $P(X=k)=\dfrac{2}{3^{k+1}}$，$k=0\text{，}1\text{，}\cdots$，则 $E(X^2)=$\ExamBlank。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      \mbox{}
+  subparts:
+  - text: |-
+      当 $x>0$ 时，证明不等式 $\dfrac{x}{1+x}<\ln(1+x)<x$；
+  - text: |-
+      求极限 $\lim_{n\to\infty}\dfrac{(n^2+1)(n^2+2)\cdots(n^2+n)}{(n^2-1)(n^2-2)\cdots(n^2-n)}$。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      已知平面区域 $D=\{(x,y)\mid x^2+y^2\leq2(x+y)\text{，}x+y\geq2\}$，计算二重积分 $I=\iint_D|x^2-y^2|\,\mathrm{d}x\mathrm{d}y$。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 $f(x)=e^{x^2}\int_x^{+\infty}e^{-t^2}\,\mathrm{d}t$。证明：
+  subparts:
+  - text: |-
+      $f(x)$ 在 $[0,+\infty)$ 上有界；
+  - text: |-
+      方程 $f(x)=x$ 在 $(0,+\infty)$ 上有且仅有一个实根。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设幂级数 $\sum_{n=0}^{\infty}a_nx^n$ 在 $[0,+\infty)$ 内收敛，其和函数 $y(x)$ 满足 $y''-xy'-y=1\text{，}y(0)=0\text{，}y'(0)=1$。
+  subparts:
+  - text: |-
+      证明：$a_{n+2}=\dfrac{1}{n+2}a_n\text{，}n=1\text{，}2\text{，}\cdots$；
+  - text: |-
+      求 $\sum_{n=1}^{\infty}(a_{2n}a_{2n+1})x^n$ 在 $[0,+\infty)$ 上的和函数 $S(x)$。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $x_i$ 为三维列向量 $(i=1\text{，}2\text{，}\cdots)$，$A=\begin{bmatrix}2&a&0\\a^2&2&0\\0&0&a\end{bmatrix}$ 是二次型 $f_1(x_1)=x_1^{\mathsf{T}}Ax_1$ 的矩阵，且二次型 $f_n(x_n)$ 经可逆线性变换 $x_n=Ax_{n+1}$ 化为二次型 $f_{n+1}(x_{n+1})(n=1\text{，}2\text{，}\cdots)$。
+  subparts:
+  - text: 求 $a$ 的值；
+  - text: 求 $A^n$；
+  - text: |-
+      若 $x=\begin{bmatrix}5\\-5\\10\end{bmatrix}$，求 $f_{2025}(x)$。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设随机变量 $X\text{，}Y$ 相互独立，且 $X$ 和 $Y$ 均服从标准正态分布。
+  subparts:
+  - text: 求 $Z=X^2+Y^2$ 的概率密度 $f_Z(z)$；
+  - text: |-
+      设 $Z_1\text{，}Z_2$ 是来自总体 $Z$ 的简单随机样本，求 $T=\max\{Z_1\text{，}Z_2\}-\min\{Z_1\text{，}Z_2\}$ 的概率密度 $f_T(t)$。

@@ -1,0 +1,318 @@
+schema_version: '3.0'
+paper:
+  series_key: euclid3
+  year: 2025
+  subject: math2
+  paper_no: 2
+content_hash: cf69fa354670904322b5b5fd93cd77012e2cb63b909ed720236c150e0f2f01cb
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      当 $x\to 0$ 时，下列无穷小量中，与 $\int_0^x\mathrm{d}l\int_0^l t^2\arcsin u^2\,\mathrm{d}u$ 同阶的是\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\int_0^5\dfrac{\sin t}{t}\,\mathrm{d}t$
+    figures: []
+  - label: B
+    text: |-
+      $\int_0^{\ln(1+\sqrt{3})}(\tan t-t)\,\mathrm{d}t$
+    figures: []
+  - label: C
+    text: |-
+      $\int_0^{\pi\sin x}t^5\ln t\,\mathrm{d}t$
+    figures: []
+  - label: D
+    text: |-
+      $\int_0^{1-\cos x}\left[(1+t)^{\dfrac{1}{1-\cos x}}-e\right]\,\mathrm{d}t$
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      以 $y=e^x\cos x+x$ 为特解的最低阶常系数齐次线性微分方程为\ExamSelection
+  choices:
+  - label: A
+    text: $y'''-2y''+2y'=0$
+    figures: []
+  - label: B
+    text: $y^{(4)}+2y'''+2y''=0$
+    figures: []
+  - label: C
+    text: $y^{(4)}-2y'''+2y''=0$
+    figures: []
+  - label: D
+    text: $y^{(5)}-4y^{(4)}+8y'''-8y''=0$
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)=x^3+ax^2+bx+1$，若 $f(x)$ 没有极值点，$(1,f(1))$ 是 $f(x)$ 的拐点，则\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $a=-3,\ b\leq 3$
+    figures: []
+  - label: B
+    text: |-
+      $a=3,\ b\geq 3$
+    figures: []
+  - label: C
+    text: |-
+      $a=-3,\ b\geq 3$
+    figures: []
+  - label: D
+    text: |-
+      $a=3,\ b\leq 3$
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设曲线 $f(x)=ax+b-\left(\dfrac14-x^2\right)$，在区间 $\left[0,\dfrac12\right]$ 上 $f(x)\geq 0$，则当积分 $\int_0^{\dfrac12}f(x)\,\mathrm{d}x$ 最小时\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $a=-\dfrac12,\ b=\dfrac5{16}$
+    figures: []
+  - label: B
+    text: |-
+      $a=-\dfrac1{\sqrt2},\ b=\dfrac1{\sqrt6}$
+    figures: []
+  - label: C
+    text: |-
+      $a=\dfrac1{\sqrt3},\ b=\dfrac13$
+    figures: []
+  - label: D
+    text: |-
+      $a=-\dfrac16,\ b=\dfrac13$
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      以下四个命题中，正确的是\ExamSelection
+  choices:
+  - label: A
+    text: 若 $f(x)$ 在有界区间 $(a,b)$ 内可导且有界，则 $f'(x)$ 在 $(a,b)$ 内有界
+    figures: []
+  - label: B
+    text: 若 $f(x)$ 在有界区间 $(a,b)$ 内可导且无界，则 $f'(x)$ 在 $(a,b)$ 内无界
+    figures: []
+  - label: C
+    text: |-
+      若 $f(x)$ 在 $(a,+\infty)$ 上可导且 $\lim_{x\to+\infty}[f(x)-x]=0$，则 $\lim_{x\to+\infty}f'(x)=1$
+    figures: []
+  - label: D
+    text: |-
+      若 $f(x)$ 在 $(a,+\infty)$ 上可导且 $\lim_{x\to+\infty}\dfrac{f(x)}x=1$，则 $\lim_{x\to+\infty}f'(x)=1$
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      函数 $f(x)=\int_{-1}^{x}(1-|t|)\,\mathrm{d}t$ 的一个原函数为\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $F(x)=\begin{cases}\dfrac16(1+x)^3,&x<0,\\-\dfrac16x^3+\dfrac12x^2+\dfrac32x,&x\geq0\end{cases}$
+    figures: []
+  - label: B
+    text: |-
+      $F(x)=\begin{cases}\dfrac16(1+x)^3-\dfrac16,&x<0,\\-\dfrac16x^3+\dfrac12x^2+\dfrac32x,&x\geq0\end{cases}$
+    figures: []
+  - label: C
+    text: |-
+      $F(x)=\begin{cases}\dfrac16(1+x)^3,&x<0,\\-\dfrac16x^3+\dfrac12x^2+\dfrac12x,&x\geq0\end{cases}$
+    figures: []
+  - label: D
+    text: |-
+      $F(x)=\begin{cases}\dfrac16(1+x)^3-\dfrac16,&x<0,\\-\dfrac16x^3+\dfrac12x^2+\dfrac12x,&x\geq0\end{cases}$
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)$ 在 $[0,1]$ 上具有一阶连续导数，$2f(x)>f'(x)>0$ 且 $f(0)=1$，则\ExamSelection
+  choices:
+  - label: A
+    text: $f(1)>e^2$
+    figures: []
+  - label: B
+    text: |-
+      $\int_0^1(1-x)f'(x)\,\mathrm{d}x>3$
+    figures: []
+  - label: C
+    text: |-
+      $\int_0^1f(x)\,\mathrm{d}x<4$
+    figures: []
+  - label: D
+    text: |-
+      $\int_0^1\sqrt{f(x)}\,\mathrm{d}x<\dfrac e2$
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 是 $m\times n$ 矩阵，$B$ 是 $n\times m$ 矩阵（$m>n$），则下列选项错误的是\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $r(AA^{\mathsf T}A)=r(A)$
+    figures: []
+  - label: B
+    text: |-
+      $r(AA^{\mathsf T},A)=r(A)$
+    figures: []
+  - label: C
+    text: 若 $r(AB)=r(B)$，则 $r(A)=n$
+    figures: []
+  - label: D
+    text: 若 $r(AB)=r(B)$，则 $ABx=0$ 与 $Bx=0$ 同解
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $\alpha_1,\alpha_2,\alpha_3,\alpha_4$ 为 4 维列向量，$[\alpha_1,\alpha_2,\alpha_3,\alpha_4]$ 经过初等行变换化为 $\begin{pmatrix}1&1&1&1\\0&1&2&a\\0&0&b&0\\0&0&0&0\end{pmatrix}$，其中 $ab=0$，则下列不可能是向量组 $\alpha_1,\alpha_2,\alpha_3,\alpha_4$ 的极大无关组的是\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\alpha_2,\alpha_1,\alpha_4$
+    figures: []
+  - label: B
+    text: |-
+      $\alpha_1,\alpha_3,\alpha_4$
+    figures: []
+  - label: C
+    text: |-
+      $\alpha_2,\alpha_4$
+    figures: []
+  - label: D
+    text: |-
+      $\alpha_3,\alpha_4$
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 为 $n$ 阶矩阵，方程组 $Ax=\beta$ 有解，$\alpha$ 是 $A^{\mathsf T}y=0$ 的任意一个解，则\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\alpha$ 与 $\beta$ 线性相关
+    figures: []
+  - label: B
+    text: |-
+      $\alpha$ 与 $\beta$ 正交
+    figures: []
+  - label: C
+    text: |-
+      $\alpha$ 与 $\beta$ 线性无关且正交
+    figures: []
+  - label: D
+    text: |-
+      $\alpha$ 与 $\beta$ 线性无关但不正交
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x)=\begin{cases}(\sec x)^{\dfrac1{x^2}},&-\dfrac\pi2<x<0,\\\dfrac{\ln(x+\sqrt{1+x^2})-x}{x},&0<x<\dfrac\pi2\end{cases}$，已知极限 $\lim_{x\to0}\left[\arctan\dfrac1{e^x}+f(x)\right]$ 存在，则 $k=\ExamBlank$。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      已知光滑曲线 $y=f(x)$ 具有二阶连续导数，$f(0)=f'(0)=0$，$f''(0)\ne0$，设 $\varphi(x)$ 是曲线 $y=f(x)$ 在 $(x,f(x))$ 处的切线在 $x$ 轴上的截距，则 $\lim_{x\to0}\dfrac{f(\varphi(x))}{x^2}=\ExamBlank$。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      已知 $t=f(x,y,z)$，且 $z=z(x,y)$ 是由方程 $g(x+y,z)=0$ 所确定的隐函数，其中 $f$ 和 $g$ 有一阶连续偏导数且 $g'_2\ne0$，则 $\dfrac{\partial t}{\partial x}-\dfrac{\partial t}{\partial y}=\ExamBlank$。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)=[(e^x-1)(e^{2x}-2)\cdots(e^{nx}-n)]^2$，其中 $n$ 为正整数，则 $f''(0)=\ExamBlank$。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      反常积分 $\int_0^1\dfrac{\mathrm{d}x}{(1+x^2)\sqrt{1-x^2}}=\ExamBlank$。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 是 3 阶实对称矩阵，$E-A$ 可经初等行变换化为 $\begin{pmatrix}1&0&1\\0&0&0\\0&0&0\end{pmatrix}$，设二次型 $f(x_1,x_2,x_3)=x^{\mathsf T}Ax$，则 $f(2,-1,-2)=\ExamBlank$。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      设函数 $f(x),g(x)$ 满足 $f'(x)-g(x)+2\int_0^x f(t)\,\mathrm{d}t=0$，$g'(x)+2f(x)=0$，且 $f(0)=1,g(0)=-2$。
+  subparts:
+  - text: 求 $f(x)$ 的表达式。
+  - text: |-
+      求 $\int_0^{+\infty}[f(x)+g(x)]e^{-2x}\,\mathrm{d}x$。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设区域 $D=\{(x,y)\mid x^2+y^2\leq4,\ y\geq0\}$，证明：$4\pi\leq\iint_D\sqrt{x^2+2y^2-x^2y^2+4}\,\mathrm{d}x\mathrm{d}y\leq4\sqrt3\pi$。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 $y=y(x)$ 由方程 $\begin{cases}x=\ln\sin t,\\y=a\ln(\tan t+\sec t),\end{cases}\quad0<t<\dfrac\pi2$ 确定，其中常数 $a>0$，且满足方程 $\dfrac{\mathrm{d}^2y}{\mathrm{d}x^2}=\dfrac{ae^x}{1-e^{2x}}+e^x\left(\dfrac{\mathrm{d}y}{\mathrm{d}x}\right)^2$。
+  subparts:
+  - text: 求 $a$ 的值。
+  - text: |-
+      求该曲线相应于 $-\ln2\leq x\leq-\dfrac12\ln2$ 的弧长 $s$。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      已知平面区域 $D=\{(x,y)\mid x^2+y^2+x\leq\sqrt{x^2+y^2}\}$，计算二重积分 $I=\iint_D\dfrac{x^2+2xy-y^2}{x^2+y^2}\,\mathrm{d}x\mathrm{d}y$。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $f(x)$ 在区间 $[0,1]$ 上可导且 $\int_0^1f(x)\,\mathrm{d}x=0$。
+  subparts:
+  - text: |-
+      若 $|f(x)|\leq1$，证明 $\left|\int_0^xf(t)\,\mathrm{d}t\right|\leq\dfrac12$。
+  - text: |-
+      若 $|f'(x)|\leq1$，证明 $\left|\int_0^xf(t)\,\mathrm{d}t\right|\leq\dfrac18$。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 3 阶实对称矩阵 $A$ 的对角线元素之和为 2，且满足 $A^2=A$，$A(\alpha_1+\alpha_2)=\alpha_2$，其中 $\alpha_1=(1,a,0)^{\mathsf T}$，$\alpha_2=(1,-1,a)^{\mathsf T}$ 是 $A$ 的特征向量。
+  subparts:
+  - text: 求参数 $a$ 的值。
+  - text: |-
+      记 $x=(x_1,x_2,x_3)^{\mathsf T}$，$A^*$ 为 $A$ 的伴随矩阵，求方程 $x^{\mathsf T}A^*x=0$ 的全部解。

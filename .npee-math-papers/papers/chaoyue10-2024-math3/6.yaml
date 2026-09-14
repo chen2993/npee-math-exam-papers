@@ -1,0 +1,295 @@
+schema_version: '3.0'
+paper:
+  series_key: chaoyue10
+  year: 2024
+  subject: math3
+  paper_no: 6
+content_hash: 0bd526475da1e551846b827e2494fa0c63701c3b9fcdc40c2303d8ce19dcae72
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)$ 在 $x_0$ 的某一邻域内有定义，且 $\lim_{x\to x_0}\dfrac{f(x)-f(x_0)}{(x-x_0)^2}=1$，则 $f(x)$ 在 $x_0$ 处\ExamSelection。
+  choices:
+  - label: A
+    text: 有极小值
+    figures: []
+  - label: B
+    text: 有极大值
+    figures: []
+  - label: C
+    text: 无极值
+    figures: []
+  - label: D
+    text: 不能判定是否取得极值
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)=\int_0^{\sqrt{\sin x}}\tan t\,\mathrm{d}t$，$g(x)=\int_0^{\sqrt{\tan x}}\sin t\,\mathrm{d}t$，则当 $x\to0^+$ 时\ExamSelection。
+  choices:
+  - label: A
+    text: $f(x)$ 是 $g(x)$ 的高阶无穷小
+    figures: []
+  - label: B
+    text: $f(x)$ 是 $g(x)$ 的低阶无穷小
+    figures: []
+  - label: C
+    text: $f(x)$ 与 $g(x)$ 是同阶无穷小，但不是等价无穷小
+    figures: []
+  - label: D
+    text: $f(x)$ 与 $g(x)$ 是等价无穷小
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x,y)=\begin{cases}(xy+\lambda\sqrt{x^2+y^2})\arctan\dfrac{1}{x^2+y^2},&(x,y)\ne(0,0),\\0,&(x,y)=(0,0).\end{cases}$ 则下列说法中正确的有\ExamSelection{}个。① $f(x,y)$ 在点 $(0,0)$ 处的连续性与 $\lambda$ 的取值无关；② $f(x,y)$ 在点 $(0,0)$ 处的可偏导性与 $\lambda$ 的取值无关；③ $f(x,y)$ 在点 $(0,0)$ 处的可微性与 $\lambda$ 的取值有关；④ 若 $f(x,y)$ 在点 $(0,0)$ 处可偏导，那么 $f(x,y)$ 在点 $(0,0)$ 处可微。
+  choices:
+  - label: A
+    text: $1$
+    figures: []
+  - label: B
+    text: $2$
+    figures: []
+  - label: C
+    text: $3$
+    figures: []
+  - label: D
+    text: $4$
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      对于方程 $e^z+xyz+x+\cos x=2$，在点 $(0,1,0)$ 的某一邻域内，下列结论正确的是\ExamSelection。
+  choices:
+  - label: A
+    text: 由方程可确定两个具有连续偏导数的隐函数 $x=x(y,z)$ 和 $y=y(x,z)$
+    figures: []
+  - label: B
+    text: 由方程可确定两个具有连续偏导数的隐函数 $x=x(y,z)$ 和 $z=z(x,y)$
+    figures: []
+  - label: C
+    text: 由方程可确定两个具有连续偏导数的隐函数 $y=y(x,z)$ 和 $z=z(x,y)$
+    figures: []
+  - label: D
+    text: 由方程只可确定一个具有连续偏导数的隐函数 $z=z(x,y)$
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A,B$ 为 $n$ 阶实矩阵，关于 $AB$ 与 $BA$ 的关系，下列说法一定正确的是\ExamSelection。
+  choices:
+  - label: A
+    text: 特征值相同，且相似
+    figures: []
+  - label: B
+    text: 特征值相同，但未必相似
+    figures: []
+  - label: C
+    text: 特征值相同，且合同
+    figures: []
+  - label: D
+    text: 特征值未必相同
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知矩阵 $A=\begin{pmatrix}1&-1\\2&a\end{pmatrix}$，$B=\begin{pmatrix}3&b\\-1&2\end{pmatrix}$，则矩阵方程 $AX=B$ 有解但 $BY=A$ 无解的充分必要条件为\ExamSelection。
+  choices:
+  - label: A
+    text: $a=-2,b=-6$
+    figures: []
+  - label: B
+    text: |-
+      $a=-2,b\ne-6$
+    figures: []
+  - label: C
+    text: |-
+      $a\ne-2,b=-6$
+    figures: []
+  - label: D
+    text: |-
+      $a\ne-2,b\ne-6$
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $\alpha,\beta,\gamma$ 为两两正交的 $3$ 维列向量，且 $\lVert\alpha\rVert=1$，$\lVert\beta\rVert=2$，$\lVert\gamma\rVert=3$，则二次型 $f=x^{\mathrm T}(4\alpha\alpha^{\mathrm T}+\beta\beta^{\mathrm T}-\gamma\gamma^{\mathrm T})x$ 在正交变换 $x=Py$ 下的标准形为\ExamSelection。
+  choices:
+  - label: A
+    text: $4y_1^2+y_2^2-y_3^2$
+    figures: []
+  - label: B
+    text: $4y_1^2+2y_2^2-3y_3^2$
+    figures: []
+  - label: C
+    text: $4y_1^2+2y_2^2+3y_3^2$
+    figures: []
+  - label: D
+    text: $4y_1^2+4y_2^2-9y_3^2$
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $(X,Y)$ 的概率密度为 $f(x,y)$，$Z=|X|$ 的概率密度 $g(x)=$\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $g(x)=\int_{-\infty}^{+\infty}f(x,y)\,\mathrm{d}y-\int_{-\infty}^{+\infty}f(-x,y)\,\mathrm{d}y$
+    figures: []
+  - label: B
+    text: |-
+      $g(x)=\int_{-\infty}^{+\infty}f(x,y)\,\mathrm{d}y-\int_{-\infty}^{+\infty}f(x,-y)\,\mathrm{d}y$
+    figures: []
+  - label: C
+    text: |-
+      $g(x)=\begin{cases}\int_{-\infty}^{+\infty}f(x,y)\,\mathrm{d}y+\int_{-\infty}^{+\infty}f(-x,y)\,\mathrm{d}y,&x>0,\\0,&x\leq0.\end{cases}$
+    figures: []
+  - label: D
+    text: |-
+      $g(x)=\begin{cases}\int_{-\infty}^{+\infty}f(x,y)\,\mathrm{d}y+\int_{-\infty}^{+\infty}f(x,-y)\,\mathrm{d}y,&x>0,\\0,&x\leq0.\end{cases}$
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设随机变量 $X$ 的密度函数为 $f_X(x)=\begin{cases}xe^{-x},&x>0,\\0,&x\leq0,\end{cases}$ 在 $X=x$（$x>0$）条件下，随机变量 $Y\sim U(0,x)$，则方程组 $Yx^2-2Xx+1=0$ 无实根的概率为\ExamSelection。
+  choices:
+  - label: A
+    text: $1-e^{-1}$
+    figures: []
+  - label: B
+    text: $3e^{-1}-1$
+    figures: []
+  - label: C
+    text: $e^{-1}$
+    figures: []
+  - label: D
+    text: $1-2e^{-1}$
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设总体 $X\sim\begin{pmatrix}-1&0&1\\\dfrac{1}{3}&\dfrac{1}{3}&\dfrac{1}{3}\end{pmatrix}$，从总体中抽取样本容量为 $n$ 的简单随机样本，$X_1,X_2,X_3$ 分别表示简单随机样本中取到 $-1,0,1$ 的个数，则 $\operatorname{Cov}(X_1,X_2)=$\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $-\dfrac{1}{9}n$
+    figures: []
+  - label: B
+    text: |-
+      $-\dfrac{2}{9}n$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{1}{3}n$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{4}{9}n$
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)=e^x\sin x+x\sin x$，则 $f^{(2024)}(0)=$\ExamBlank。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      曲线 $f(x)=\dfrac{1}{1+e^x}$（$x\geq0$）与其渐近线及 $y$ 轴围成的曲边三角形的面积为\ExamBlank。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      极限 $I=\lim_{n\to\infty}\dfrac{1}{n^2}\sum_{i=1}^n\sum_{j=1}^{2n}e^{\max\left(\dfrac{4i^2}{n^2},\dfrac{j^2}{n^2}\right)}=$\ExamBlank。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $f(\cos^2x)=\dfrac{x}{\cos x}$，则 $\int_0^1\dfrac{\sqrt{x}}{\sqrt{1-x}}f(x)\,\mathrm{d}x=$\ExamBlank。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $A,B$ 为 $3$ 阶实矩阵，且 $r(A)=r(A,B)=r\begin{pmatrix}A\\B\end{pmatrix}=2$，$A^*$ 为 $A$ 的伴随矩阵，分块矩阵 $\begin{pmatrix}A&B\\O&A^*\end{pmatrix}$ 和 $\begin{pmatrix}A&O\\B&A^*\end{pmatrix}$ 的秩分别为 $r_1,r_2$，则 $r_1+r_2=$\ExamBlank。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设随机变量 $X$ 的概率密度为 $f(x)$，$D X=2$，随机变量 $Y$ 的概率密度为 $f(-y)$，且 $\rho_{XY}=-\dfrac{1}{3}$，则 $D(X-2Y)=$\ExamBlank。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      已知 $g(0)=f(0)=0$，$g'(0)=f'(0)=1$，且 $g''(x)-g'(x)=x-1$，$f''(x)-f'(x)\geq x-1$。
+  subparts:
+  - text: 求函数 $g(x)$ 的表达式；
+  - text: |-
+      证明当 $x>0$ 时，$f(x)\geq g(x)$。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      计算 $I=\iint_D\bigl||x+y|-1\bigr|\,\mathrm{d}x\mathrm{d}y$，其中 $D=\{(x,y)\mid x^2+y^2\leq1,0\leq x\leq1\}$。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $f(x)$ 在 $(0,+\infty)$ 内连续，$f(1)=1$，若对于任意的正数 $a,b$，积分 $\int_a^{ab}f(x)\,\mathrm{d}x$ 与 $a$ 无关，计算 $I=\int_0^{\dfrac{\pi}{2}}\dfrac{f(\sec^3x)}{\sin x+\cos x}\,\mathrm{d}x$。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: 按要求完成下列各问。
+  subparts:
+  - text: 求 $f(x)=e^x-e^{-x}$ 的麦克劳林级数展开式；
+  - text: |-
+      求数项级数 $\sum_{n=1}^{\infty}\dfrac{2^n}{(2n)!}$ 的和。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      记 $A=\begin{pmatrix}1&2&0\\2&2&a\\0&a&3\end{pmatrix}$，设 $\xi_1=\begin{pmatrix}-2\\2\\1\end{pmatrix}$ 是方阵 $A$ 的特征向量。
+  subparts:
+  - text: 求 $a$；
+  - text: 求方阵 $B$，使得 $A=B^3$。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设总体 $X$ 的概率密度为 $f(x)=\begin{cases}bx,&0\leq x<1,\\ax,&1\leq x\leq2,\\0,&\text{其他}.\end{cases}$ 测得样本观察值为 $0.5,0.8,1.5,1.5$。
+  subparts:
+  - text: 求 $a$ 与 $b$ 的极大似然估计值；
+  - text: |-
+      设 $Y=e^X$，求 $\mathrm P\{Y<2\}$ 的极大似然估计值。

@@ -1,0 +1,301 @@
+schema_version: '3.0'
+paper:
+  series_key: lilin6
+  year: 2025
+  subject: math2
+  paper_no: 1
+content_hash: 6ffbeb8a4cf7b9fd0bad2e02df2151e777127336989a26240a9ef5ad0fef9d5d
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $y=y(x)$ 是 $y''+2y'+y=e^{3x}$ 满足 $y(0)=y'(0)=0$ 的解，则当 $x\to0$ 时，与 $y(x)$ 为等价无穷小的是\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $1-e^{-\dfrac{x^2}{2}}$
+    figures: []
+  - label: B
+    text: |-
+      $2\sin x$
+    figures: []
+  - label: C
+    text: |-
+      $\ln(1+x^2)$
+    figures: []
+  - label: D
+    text: |-
+      $\ln\sqrt{1+x^2}$
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)$ 在 $[0,1]$ 上可导，且 $f'(x)>0$，$F(x)=\int_0^1\lvert f(x)-f(t)\rvert\,\mathrm{d}t$，则在 $[0,1]$ 上有\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $F(x)\leq F\left(\dfrac{1}{2}\right)$
+    figures: []
+  - label: B
+    text: |-
+      $F(x)\geq F\left(\dfrac{1}{2}\right)$
+    figures: []
+  - label: C
+    text: |-
+      $F\left(\dfrac{1}{2}\right)\geq F(0)$
+    figures: []
+  - label: D
+    text: |-
+      $F(1)\leq F\left(\dfrac{1}{2}\right)$
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设积分 $\int_0^{+\infty}\dfrac{x^{1-p}\arctan x}{2+x^p}\,\mathrm{d}x$（$p>0$）收敛，则 $p$ 的取值范围为\ExamSelection
+  choices:
+  - label: A
+    text: $1<p<3$
+    figures: []
+  - label: B
+    text: $2<p<3$
+    figures: []
+  - label: C
+    text: $1<p<2$
+    figures: []
+  - label: D
+    text: $0<p<3$
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f'(x)$ 严格单调递减，$\lim_{x\to0}\dfrac{f(x)}{x}$ 存在，记 $I=\int_0^1\mathrm{d}y\int_0^1\dfrac{f(x)}{x}\,\mathrm{d}x$，则正确的是\ExamSelection
+  choices:
+  - label: A
+    text: $f'(0)<I<f(1)$
+    figures: []
+  - label: B
+    text: $f(1)<I<f'(0)$
+    figures: []
+  - label: C
+    text: $I<f'(0)<f(1)$
+    figures: []
+  - label: D
+    text: $f(1)<f'(0)<I$
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x,y)=\begin{cases}\dfrac{x^2+y^2}{x^2+y^4}\sin(xy^2),&x^2+y^2\neq0,\\0,&x^2+y^2=0,\end{cases}$，则正确的是\ExamSelection
+  choices:
+  - label: A
+    text: $f''_{xy}(0,0)$ 存在，$f''_{yx}(0,0)$ 存在
+    figures: []
+  - label: B
+    text: $f''_{xy}(0,0)$ 不存在，$f''_{yx}(0,0)$ 存在
+    figures: []
+  - label: C
+    text: $f''_{xy}(0,0)$ 存在，$f''_{yx}(0,0)$ 不存在
+    figures: []
+  - label: D
+    text: $f''_{xy}(0,0)$ 不存在，$f''_{yx}(0,0)$ 不存在
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $c_1,c_2$ 为任意常数，则微分方程 $y'^2-yy''=0$ 的通解为\ExamSelection
+  choices:
+  - label: A
+    text: $y=c_1e^x+c_2e^{-x}$
+    figures: []
+  - label: B
+    text: $y=c_1+c_2e^x$
+    figures: []
+  - label: C
+    text: $y=c_2e^{c_1x}$
+    figures: []
+  - label: D
+    text: $y=c_2xe^{c_1x}$
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)$ 在 $[0,+\infty)$ 上正值连续，$\{c_n\}$（$n=1,2,\cdots$）为正值数列，记 $a_n=\int_0^{c_n}f(x)\,\mathrm{d}x$，$b_n=\int_{c_n}^{c_{n+1}}f(x)\,\mathrm{d}x$，则正确的是\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      当 $b_n<0$ 时，$\{a_n\}$ 必发散
+    figures: []
+  - label: B
+    text: |-
+      当 $b_n<0$ 时，$\{a_n\}$ 必收敛
+    figures: []
+  - label: C
+    text: |-
+      当 $b_n>0$ 时，$\{a_n\}$ 必发散
+    figures: []
+  - label: D
+    text: |-
+      当 $b_n>0$ 时，$\{a_n\}$ 必收敛
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 3 维列向量 $\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3$ 线性无关，$A=(a_{ij})_{3\times3}$ 满足 $A\boldsymbol{\alpha}_1=\boldsymbol{\alpha}_1$，$A\boldsymbol{\alpha}_2=\boldsymbol{\alpha}_2+\boldsymbol{\alpha}_3$，$A\boldsymbol{\alpha}_3=\boldsymbol{\alpha}_1+\boldsymbol{\alpha}_3$，$A_{ij}$ 是 $a_{ij}$ 的代数余子式，则 $A_{11}+A_{22}+A_{33}=$\ExamSelection
+  choices:
+  - label: A
+    text: $1$
+    figures: []
+  - label: B
+    text: $2$
+    figures: []
+  - label: C
+    text: $3$
+    figures: []
+  - label: D
+    text: $4$
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $n$ 阶非零实矩阵 $A$ 满足 $A^{\mathrm{T}}+A=O$，$X$ 为 $n$ 维实列向量，则正确的是\ExamSelection
+  choices:
+  - label: A
+    text: 方程组 $A X=X$ 有无穷多解
+    figures: []
+  - label: B
+    text: 方程组 $A X=-X$ 有无穷多解
+    figures: []
+  - label: C
+    text: 方程组 $A X=X$ 只有零解
+    figures: []
+  - label: D
+    text: 方程组 $A X=-X$ 无解
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 是 2 阶实对称矩阵，若对任意的 2 维非零列向量 $X$，都有 $\lvert X^{\mathrm{T}}AX\rvert<\lvert X^{\mathrm{T}}X\rvert$，$X_1,X_2$ 均为 2 维列向量，则二次型 $\begin{bmatrix}X_1\\X_2\end{bmatrix}^{\mathrm{T}}\begin{bmatrix}A+E&O\\O&E-A\end{bmatrix}\begin{bmatrix}X_1\\X_2\end{bmatrix}$ 的规范形为\ExamSelection
+  choices:
+  - label: A
+    text: $y_1^2+y_2^2-y_3^2-y_4^2$
+    figures: []
+  - label: B
+    text: $y_1^2+y_2^2+y_3^2-y_4^2$
+    figures: []
+  - label: C
+    text: $y_1^2+y_2^2+y_3^2+y_4^2$
+    figures: []
+  - label: D
+    text: -$y_1^2-y_2^2-y_3^2-y_4^2$
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $y=f(x)$ 由参数方程 $\begin{cases}x=t^2+1,\\y=4t-t^2\end{cases}$（$t\geq0$）确定，则曲线 $y=f(x)$ 在 $t=1$ 对应点处的曲率半径为\ExamBlank
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)=\lim_{t\to\infty}x\left(1+\dfrac{1}{t}\right)^{2xt}$，则曲线 $y=f(x)$ 的拐点为\ExamBlank
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设曲线的极坐标方程为 $r=\dfrac{1}{3\theta-\pi}$，则该曲线的斜渐近线方程为\ExamBlank
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)=\int_0^{1-x}e^{t(2-t)}\,\mathrm{d}t$，则曲线 $y=f(x)$ 在区间 $[0,1]$ 上与 $x,y$ 轴所围图形的面积为\ExamBlank
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设函数 $z=z(x,y)$ 由方程 $e^{xy}=\int_y^z f(xy+z-t)\,\mathrm{d}t$ 确定，其中 $f$ 连续，则 $x\dfrac{\partial z}{\partial x}-y\dfrac{\partial z}{\partial y}=$\ExamBlank
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $\boldsymbol{\alpha},\boldsymbol{\beta},\boldsymbol{\gamma}$ 均为 3 维列向量，记 $A=(\boldsymbol{\alpha},\boldsymbol{\beta},\boldsymbol{\gamma})$，$B=(\boldsymbol{\alpha}+2\boldsymbol{\beta},2\boldsymbol{\beta}+2\boldsymbol{\gamma},\boldsymbol{\beta}+3\boldsymbol{\gamma})$，且 $\lvert A\rvert=1$，则 $\lvert A^{-1}+B^{-1}\rvert=$\ExamBlank
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      （本题满分 10 分）设 $f(x)$ 有连续的二阶导数，且 $\lim_{x\to0}\dfrac{1-f(x)}{x^2}=\dfrac{1}{2}$，求 $\lim_{x\to+\infty}\left[f\left(\dfrac{1}{\sqrt{x}}\right)\right]^x$。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      （本题满分 12 分）设 $w=xy-z$，$z=z(x,y)$ 有二阶连续的偏导数，且满足 $\dfrac{\partial^2z}{\partial x^2}+2\dfrac{\partial^2z}{\partial x\partial y}+\dfrac{\partial^2z}{\partial y^2}=0$，作变换 $u=x+y$，$v=x-y$。
+  subparts:
+  - text: |-
+      求 $\dfrac{\partial^2w}{\partial u^2}$；
+  - text: |-
+      若 $\dfrac{\partial w(0,v)}{\partial u}=ve^{-v}$，$w(0,v)=\dfrac{v^2}{4}$，求 $z(x,y)$ 的表达式。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      （本题满分 12 分）设 $D=\{(x,y)\mid 1\leq x+y\leq2,\ x\geq0,\ y\geq0\}$，计算 $\iint_D\dfrac{y}{(2x^2+y^2)\sqrt{x^2+y^2}}\,\mathrm{d}x\mathrm{d}y$。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: （本题满分 12 分）设非负函数 $f(x)$ 在区间 $[0,1]$ 上有连续的二阶导数，且 $f(0)=1$，$f''(x)<0$，证明：
+  subparts:
+  - text: |-
+      当 $x\in[0,1]$ 时，有 $\int_0^xf(t)\,\mathrm{d}t\geq\dfrac{1}{2}[xf(x)+x]$；
+  - text: |-
+      $\int_0^1\left(\dfrac{2}{3}-x\right)f(x)\,\mathrm{d}x\geq\dfrac{1}{6}$。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      （本题满分 12 分）设 $f(x)$ 在 $(-\infty,+\infty)$ 内有连续的导数，$f(x)>0$，且满足 $f'(x)+\dfrac{2nx}{1+x^2}f(x)=0$（$n$ 为大于 1 的正整数），$f(0)=1$。
+  subparts:
+  - text: 求 $f(x)$ 的表达式；
+  - text: |-
+      记 $S_n$ 为曲线 $y=f(x)$ 与 $x$ 轴之间的无界区域的面积，求 $\lim_{n\to\infty}\left(\dfrac{S_n}{S_{n-1}}\right)^n$。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      （本题满分 12 分）设二次型 $f(x_1,x_2,x_3)=\boldsymbol{X}^{\mathrm{T}}A\boldsymbol{X}=a(x_1^2+x_2^2+x_3^2)-x_1x_2-x_1x_3-x_2x_3$ 的秩为 2，$A^{\mathrm{T}}=A$，$A^*$ 是 $A$ 的伴随矩阵。
+  subparts:
+  - text: 求 $a$ 的值；
+  - text: |-
+      求正交变换 $\boldsymbol{X}=Q\boldsymbol{Y}$ 将 $f(x_1,x_2,x_3)$ 化为标准形；
+  - text: |-
+      求方程 $\boldsymbol{X}^{\mathrm{T}}A^*\boldsymbol{X}=0$ 的全部解。

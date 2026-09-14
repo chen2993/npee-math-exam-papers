@@ -1,0 +1,300 @@
+schema_version: '3.0'
+paper:
+  series_key: zhangyu4
+  year: 2025
+  subject: math2
+  paper_no: 2
+content_hash: 9abc94c8358f3e2a6b490ac914685d102b43346b0d579632a431d427baa40f05
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      曲线 $y=\dfrac{1}{\ln(1+x)-\ln x}\ (x>0)$ 的斜渐近线为\ExamSelection
+  choices:
+  - label: A
+    text: $y=x-1$。
+    figures: []
+  - label: B
+    text: $y=x+1$。
+    figures: []
+  - label: C
+    text: |-
+      $y=x-\dfrac12$。
+    figures: []
+  - label: D
+    text: |-
+      $y=x+\dfrac12$。
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设数列 $\{a_n\},\{b_n\}$ 满足 $\{a_nb_n\}$ 收敛于 $0$，则当 $n$ 充分大时，下列结论：\textcircled{1}若 $\{a_n\}$ 无界，则 $\{b_n\}$ 有界；\textcircled{2}若 $\{a_n\}$ 发散，则 $\{b_n\}$ 发散；\textcircled{3}若 $\{b_n\}$ 无界，则 $\{a_n\}$ 为无穷小；\textcircled{4}若 $\{b_n\}$ 收敛，则 $\{a_n\}$ 为无穷小。正确结论的个数为\ExamSelection
+  choices:
+  - label: A
+    text: $0$。
+    figures: []
+  - label: B
+    text: $1$。
+    figures: []
+  - label: C
+    text: $2$。
+    figures: []
+  - label: D
+    text: $3$。
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x)$ 满足 $f(x+1)=2f(x)$，且当 $0<x\leq1$ 时，满足 $f(x)=x(1-x)^2$，则 $f(x)$ 在 $x=2$ 处\ExamSelection
+  choices:
+  - label: A
+    text: 间断。
+    figures: []
+  - label: B
+    text: 连续但不可导。
+    figures: []
+  - label: C
+    text: 可导且 $f'(2)=0$。
+    figures: []
+  - label: D
+    text: |-
+      可导且 $f'(2)\ne0$。
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x,y)$ 在点 $(0,0)$ 处及其附近有定义，则\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      当 $\displaystyle\lim_{\substack{x\to0\\y\to0}}\dfrac{f(x,y)}{\sqrt{x^2+y^2}}=0$ 时，$f(x,y)$ 在点 $(0,0)$ 处可微。
+    figures: []
+  - label: B
+    text: |-
+      当 $f(x,y)$ 在点 $(0,0)$ 处可微时，$\displaystyle\lim_{\substack{x\to0\\y\to0}}\dfrac{f(x,y)}{\sqrt{x^2+y^2}}=0$。
+    figures: []
+  - label: C
+    text: |-
+      当 $\displaystyle\lim_{\substack{x\to0\\y\to0}}\dfrac{f(x,y)-f(0,0)}{x^2+y^2}=0$ 时，$f(x,y)$ 在点 $(0,0)$ 处可微。
+    figures: []
+  - label: D
+    text: |-
+      当 $f(x,y)$ 在点 $(0,0)$ 处可微时，$\displaystyle\lim_{\substack{x\to0\\y\to0}}\dfrac{f(x,y)-f(0,0)}{x^2+y^2}=0$。
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      反常积分\textcircled{1}$\displaystyle\int_0^1\left(\ln\dfrac1x\right)^2\,\mathrm{d}x$，\textcircled{2}$\displaystyle\int_1^2\dfrac{1}{(\ln x)^{1/2}}\,\mathrm{d}x$的敛散性为\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      \textcircled{1}收敛，\textcircled{2}收敛。
+    figures: []
+  - label: B
+    text: |-
+      \textcircled{1}收敛，\textcircled{2}发散。
+    figures: []
+  - label: C
+    text: |-
+      \textcircled{1}发散，\textcircled{2}收敛。
+    figures: []
+  - label: D
+    text: |-
+      \textcircled{1}发散，\textcircled{2}发散。
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $D$ 是位于圆周 $r=2$ 以外和心形线 $r=2(1+\cos\theta)$ 以内的平面区域，则 $\displaystyle\iint_Dx\,\mathrm{d}x\mathrm{d}y=$\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{5\pi}{2}+\dfrac{16}{3}$。
+    figures: []
+  - label: B
+    text: |-
+      $5\pi+\dfrac{32}{3}$。
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{5\pi}{2}+\dfrac{10}{3}$。
+    figures: []
+  - label: D
+    text: |-
+      $5\pi+\dfrac{20}{3}$。
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $x\to0$ 时，$\sqrt{\cos x}=f(x)+o(x^3)$，则多项式 $f(x)$ 为\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $1-\dfrac12x^2$。
+    figures: []
+  - label: B
+    text: |-
+      $1+\dfrac12x^2$。
+    figures: []
+  - label: C
+    text: |-
+      $1-\dfrac14x^2$。
+    figures: []
+  - label: D
+    text: |-
+      $1+\dfrac14x^2$。
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A=\begin{pmatrix}1&0&a\\b&2&0\\0&c&3\end{pmatrix}$，其中 $abc=-6$，则 $A$ 的伴随矩阵 $A^*$ 有非零特征值\ExamSelection
+  choices:
+  - label: A
+    text: $-8$。
+    figures: []
+  - label: B
+    text: $8$。
+    figures: []
+  - label: C
+    text: $-11$。
+    figures: []
+  - label: D
+    text: $11$。
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 是 $3$ 阶实对称矩阵，且 $A^2-A=2E$，$|A|=2$，则二次型 $x^{\mathsf T}Ax$ 的符号差为\ExamSelection
+  choices:
+  - label: A
+    text: $-3$。
+    figures: []
+  - label: B
+    text: $1$。
+    figures: []
+  - label: C
+    text: $3$。
+    figures: []
+  - label: D
+    text: $-1$。
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      若 $A=\begin{pmatrix}0&0&-1\\0&1&0\\-1&0&0\end{pmatrix}$ 与 $B=\begin{pmatrix}0&0&1\\x&1&y\\1&0&0\end{pmatrix}$ 相似，则\ExamSelection
+  choices:
+  - label: A
+    text: $x+y=0$。
+    figures: []
+  - label: B
+    text: $x+y=1$。
+    figures: []
+  - label: C
+    text: $x=y$。
+    figures: []
+  - label: D
+    text: $x=y+1$。
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $\displaystyle\lim_{n\to\infty}\sum_{k=1}^{n}\dfrac{1}{\sqrt{kn}}=\ExamBlank$。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)=\dfrac{x}{1-x+x^2}$，则 $f^{(10)}(0)=\ExamBlank$。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $xy''+y'=0$ 满足 $y(1)=y'(1)$ 的解为 $\ExamBlank$。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)$ 在 $[0,1]$ 上连续，$\displaystyle\int_0^1 2x^2f(x)\,\mathrm{d}x\geq\int_0^1f^2(x)\,\mathrm{d}x+\dfrac15$，则 $f(x)=\ExamBlank$。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $y=y(x)\ (1\leq y\leq e)$ 由 $\ln y+2x-\dfrac12y^2=0$ 确定，则其弧长为 $\ExamBlank$。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $A=\begin{pmatrix}1&1\\0&1\end{pmatrix}$，$B=\begin{pmatrix}-1&1\\0&-1\end{pmatrix}$，则 $A^{2n}-B^{2n}=\ExamBlank$。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      计算 $\displaystyle\lim_{x\to0}\left[\dfrac{1+\int_0^x\dfrac{\sin t}{t}\,\mathrm{d}t}{x}-\dfrac{1}{\ln(1+x)}\right]$。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $z=z(u,v)$ 具有二阶连续偏导数，且 $z=z(x-2y,x+3y)$ 满足 $6\dfrac{\partial^2z}{\partial x^2}+\dfrac{\partial^2z}{\partial x\partial y}-\dfrac{\partial^2z}{\partial y^2}=3\dfrac{\partial z}{\partial x}-\dfrac{\partial z}{\partial y}$，$\dfrac{\mathrm{d}[z(0,v)]}{\mathrm{d}v}=\dfrac15z(0,v)+e^v$，$z(u,0)=u^2$。
+  subparts:
+  - text: |-
+      证明 $\dfrac{\partial^2z}{\partial u\partial v}=\dfrac15\dfrac{\partial z}{\partial u}$。
+  - text: 求 $z=z(u,v)$ 的表达式。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设平面区域 $D=\{(x,y)\mid x^2+y^4\leq1\}$，计算 $\displaystyle\iint_D|x|(y+|y|)\,\mathrm{d}x\mathrm{d}y$。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: 设函数 $f(x)$ 在 $[0,2]$ 上连续，在 $(0,2)$ 内二阶可导，$f''(x)>0$，且 $f(0)=1$，$f'(1)=0$，又曲线 $y=f(x)$ 上任一点 $(x,y)$ 处的曲率半径等于 $1$，$D$ 是由 $y=f(x)$ 与 $y=1$ 所围的平面有界区域。
+  subparts:
+  - text: 求 $f(x)$ 的表达式。
+  - text: 求 $D$ 的形心。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      一半径为 $a$ 的均匀半球形容器，开口向上平放于水平面上，水的密度为 $\rho$，重力加速度为 $g$，将容器盛满水，全部铅直抽出，所做的功为 $\dfrac{3}{20}\rho g\pi$，求 $a$ 的值。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设对任给 $y_1,y_2,y_3$，有 $A\begin{pmatrix}y_1\\y_2\\y_3\end{pmatrix}=\begin{pmatrix}y_1+2y_2\\4y_1+7y_2+y_3\\y_2-y_3\\2y_1+3y_2+ay_3\end{pmatrix}$，$\beta=(3,10,b,4)^{\mathsf T}$。
+  subparts:
+  - text: |-
+      $a,b$ 取何值时，$Ax=\beta$ 无解。
+  - text: |-
+      $a,b$ 取何值时，$Ax=\beta$ 有解，并求出全部解。

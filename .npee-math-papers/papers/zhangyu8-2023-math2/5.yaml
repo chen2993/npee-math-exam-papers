@@ -1,0 +1,306 @@
+schema_version: '3.0'
+paper:
+  series_key: zhangyu8
+  year: 2023
+  subject: math2
+  paper_no: 5
+content_hash: 1ac62c55ac6339d5561701757c29b19311d9ca12c3b2d790b107038c0cd6aa58
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      曲线 $y=e^{1/x}\sqrt{1+x^2}$ 的渐近线条数为\ExamSelection
+  choices:
+  - label: A
+    text: $0$。
+    figures: []
+  - label: B
+    text: $1$。
+    figures: []
+  - label: C
+    text: $2$。
+    figures: []
+  - label: D
+    text: $3$。
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $y=f(x)$ 二阶可导，$f(0)=0,f'(0)=1$，且满足微分方程 $y''+(1-x^2)y'=2e^x$，则极限 $\displaystyle\lim_{x\to0}\dfrac{(1-x)f(x)-\sin x}{x^2}$ 等于\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $-\dfrac32$。
+    figures: []
+  - label: B
+    text: |-
+      $-\dfrac12$。
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac12$。
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac32$。
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $y=x^4,y=x^4+1,y=x^4+x^2$ 是某二阶非齐次线性微分方程的三个特解，$y=\varphi(x)$ 是该方程满足初始条件 $\left.y\right|_{x=1}=-5,\left.y'\right|_{x=1}=-8$ 的特解，则在区间 $(0,1)$ 内\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      函数 $y=\varphi(x)$ 单调增加，且其图形是凹的。
+    figures: []
+  - label: B
+    text: |-
+      函数 $y=\varphi(x)$ 单调增加，且其图形是凸的。
+    figures: []
+  - label: C
+    text: |-
+      函数 $y=\varphi(x)$ 单调减少，且其图形是凹的。
+    figures: []
+  - label: D
+    text: |-
+      函数 $y=\varphi(x)$ 单调减少，且其图形是凸的。
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知函数 $f(x)=f(x+4),f(0)=0$，且在 $(-2,2)$ 内有 $f'(x)=|x|$，则 $f(19)=$\ExamSelection
+  choices:
+  - label: A
+    text: $-1$。
+    figures: []
+  - label: B
+    text: $1$。
+    figures: []
+  - label: C
+    text: |-
+      $-\dfrac12$。
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac12$。
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x)=\begin{cases}\sqrt{1-x},&x<0,\\0,&x=0,\\\sqrt{4+x},&x>0,\end{cases}$，$F(x)=\displaystyle\int_0^x f(t)\,\mathrm{d}t$，则函数 $F(x)$ 在 $x=0$ 处\ExamSelection
+  choices:
+  - label: A
+    text: 不连续。
+    figures: []
+  - label: B
+    text: 连续但不可导。
+    figures: []
+  - label: C
+    text: |-
+      可导，但 $F'(0)\ne f(0)$。
+    figures: []
+  - label: D
+    text: 可导，且 $F'(0)=f(0)$。
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $u=u(x,y)$ 具有二阶连续偏导数，函数 $F(s,t)$ 具有一阶连续偏导数，且 $\left(\dfrac{\partial F}{\partial s}\right)^2+\left(\dfrac{\partial F}{\partial t}\right)^2\ne0,F\left(\dfrac{\partial u}{\partial x},\dfrac{\partial u}{\partial y}\right)=0$，则有\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{\partial^2u}{\partial x^2}\cdot\dfrac{\partial^2u}{\partial y^2}=\left(\dfrac{\partial^2u}{\partial x\partial y}\right)^2$。
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{\partial^2u}{\partial x^2}\cdot\dfrac{\partial^2u}{\partial y^2}=-\left(\dfrac{\partial^2u}{\partial x\partial y}\right)^2$。
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{\partial^2u}{\partial x^2}+\dfrac{\partial^2u}{\partial y^2}=\left(\dfrac{\partial^2u}{\partial x\partial y}\right)^2$。
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{\partial^2u}{\partial x^2}-\dfrac{\partial^2u}{\partial y^2}=\left(\dfrac{\partial^2u}{\partial x\partial y}\right)^2$。
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      $\displaystyle\lim_{t\to0^+}\dfrac{1}{t^5}\int_0^t\mathrm{d}x\int_x^t(e^{x^2y^2}-1)\,\mathrm{d}y=$\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\dfrac1{36}$。
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac1{30}$。
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac1{18}$。
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac19$。
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 是 $3$ 阶实对称矩阵，特征值 $\lambda_1=-2,\lambda_2=1,\lambda_3=4$，且 $\xi_1=(1,2,2)^{\mathrm T}$ 是 $\lambda_1=-2$ 的特征向量，$\alpha$ 是 $3$ 维非零列向量，则“$\alpha$ 是 $\lambda_2=1$ 或 $\lambda_3=4$ 的特征向量”是“$\alpha$ 与 $\xi_1$ 正交”的\ExamSelection
+  choices:
+  - label: A
+    text: 充分非必要条件。
+    figures: []
+  - label: B
+    text: 必要非充分条件。
+    figures: []
+  - label: C
+    text: 充分必要条件。
+    figures: []
+  - label: D
+    text: 既非充分也非必要条件。
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 为 $2$ 阶实对称矩阵，$\alpha,\beta$ 分别为 $A$ 的属于特征值 $0,1$ 的单位特征向量，$k$ 为任意常数，则方程组 $\begin{pmatrix}A\\\beta^{\mathrm T}\end{pmatrix}x=\dfrac12\begin{pmatrix}\beta\\1\end{pmatrix}$ 的通解为\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $k\alpha+\dfrac12(\beta-\alpha)$。
+    figures: []
+  - label: B
+    text: |-
+      $k\alpha+\dfrac12(\alpha-\beta)$。
+    figures: []
+  - label: C
+    text: |-
+      $k\alpha+\beta$。
+    figures: []
+  - label: D
+    text: |-
+      $k\beta+\alpha$。
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      以下二次曲线表示椭圆的是\ExamSelection
+  choices:
+  - label: A
+    text: $x^2+4xy+2y^2=1$。
+    figures: []
+  - label: B
+    text: $x^2-4xy+2y^2=1$。
+    figures: []
+  - label: C
+    text: $x^2+2xy+4y^2=1$。
+    figures: []
+  - label: D
+    text: $x^2-2xy+y^2=1$。
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设函数 $y=y(x)$ 由 $\begin{cases}x=t^2-2t+1,\\e^y\sin t-y+1=0\end{cases}$ 确定，则 $\left.\dfrac{\mathrm{d}^2y}{\mathrm{d}x^2}\right|_{t=0}=$ \ExamBlank。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      使不等式 $x^2\leq e^{\alpha x}$ 对 $\forall x\in(0,+\infty)$ 成立的正数 $\alpha$ 的最小取值为 \ExamBlank。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      已知函数 $f(x,y)$ 连续，且满足 $\displaystyle\lim_{\substack{x\to1\\y\to0}}\dfrac{f(x,y)-2x+y+1}{\sqrt{(x-1)^2+y^2}}=0$，则 $\displaystyle\lim_{t\to0}\dfrac{f(1+t,0)-f(1,2t)}{t}=$ \ExamBlank。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      若微分方程 $\dfrac{\mathrm{d}y}{\mathrm{d}x}+(a+\sin^2x)y=0$ 的所有解都以 $\pi$ 为周期，则 $a=$ \ExamBlank。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $D$ 由曲线 $(x^2+y^2)^2=2xy$ 围成，则 $\displaystyle\iint_Dxy\,\mathrm{d}\sigma=$ \ExamBlank。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $A=\begin{pmatrix}1&1&-1\\-1&1&1\\1&-1&1\end{pmatrix}$，$3$ 阶方阵 $X$ 满足关系式 $2XA^*=4A^*XA^{-1}-(A^*)^2$，则 $|X|=$ \ExamBlank。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      设 $f(x)$ 在 $(0,+\infty)$ 内连续，$f(1)=1$，若对于任意的正数 $a,b$，积分 $\displaystyle\int_a^b f(x)\,\mathrm{d}x$ 与 $a$ 无关，计算 $\displaystyle I=\int_{-1}^1\dfrac{f(e^x+1)}{1+x^2}\,\mathrm{d}x$。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      求曲线 $\displaystyle f(x)=\int_{-\infty}^{+\infty}|x-t|e^{-t^2}\,\mathrm{d}t$ 在 $x\to+\infty$ 时的斜渐近线。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: 设函数 $p_1(x),p_2(x)$ 连续，$y_1(x),y_2(x)$ 是二阶齐次线性微分方程 $y''+p_1(x)y'+p_2(x)y=0$ 的两个线性无关解，记 $W(x)=y_1y_2'-y_2y_1'$，证明：
+  subparts:
+  - text: $W'(x)+p_1(x)W(x)=0$。
+  - text: |-
+      在任何区间 $I$ 上 $W(x)\ne0$。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $z=z(x,y)$ 满足方程 $y\dfrac{\partial z}{\partial x}-x\dfrac{\partial z}{\partial y}=(y-x)z$，作变换 $u=x^2+y^2,v=\dfrac1x-\dfrac1y,w=x+y-\ln z\ (x>0,y>0,z>0)$，已知 $w=w(u,v)$，求原方程经过变换后化为 $u,v,w$ 所满足的微分方程。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      已知函数 $f(x)$ 在 $(-\infty,+\infty)$ 上可微，且 $|f'(x)|<mf(x)\ (0<m<1)$，任取实数 $a_1$，定义 $a_{n+1}=\ln f(a_n)\ (n=1,2,\ldots)$，证明：
+  subparts:
+  - text: |-
+      方程 $x=\ln f(x)$ 在 $(-\infty,+\infty)$ 上必有唯一实根 $\xi$；
+  - text: |-
+      数列 $\{a_n\}$ 的极限就是（1）中的 $\xi$。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设三元二次型 $f=x^{\mathrm T}Ax$ 的二次型矩阵 $A$ 的特征值为 $\lambda_1=\lambda_2=1,\lambda_3=-1,\xi_3=(0,1,1)^{\mathrm T}$ 为对应于 $\lambda_3=-1$ 的特征向量。
+  subparts:
+  - text: |-
+      若 $3$ 维非零列向量 $\alpha$ 与 $\xi_3$ 正交，证明 $\alpha$ 是对应于 $\lambda_1=\lambda_2=1$ 的特征向量；
+  - text: |-
+      求 $f=x^{\mathrm T}Ax$ 的表达式。

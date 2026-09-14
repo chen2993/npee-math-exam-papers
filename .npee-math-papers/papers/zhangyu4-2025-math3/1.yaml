@@ -1,0 +1,294 @@
+schema_version: '3.0'
+paper:
+  series_key: zhangyu4
+  year: 2025
+  subject: math3
+  paper_no: 1
+content_hash: a047af0613c9095341b8fba4187e13a53e15f25edb02c9bf891e0536da125df0
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      当 $x\to 0$ 时，$\alpha(x),\beta(x)$ 是非零无穷小量，则下列命题：①若 $\alpha(x)\sim\beta(x)$，则 $\lim_{x\to0}[1+\alpha(x)]^{\dfrac{1}{\beta(x)}}=e$；②若 $\lim_{x\to0}[1+\alpha(x)]^{\dfrac{1}{\beta(x)}}=e$，则 $\alpha(x)\sim\beta(x)$；③若 $\alpha(x)-\beta(x)=o(\alpha(x))$，则 $\lim_{x\to0}\dfrac{1-\cos\alpha(x)}{\alpha(x)\beta(x)}=\dfrac{1}{2}$；④若 $\lim_{x\to0}\dfrac{1-\cos\alpha(x)}{\beta^2(x)}=\dfrac{1}{2}$，则 $\alpha(x)-\beta(x)=o(\beta(x))$。所有有真命题的序号为\ExamSelection
+  choices:
+  - label: A
+    text: ①③④
+    figures: []
+  - label: B
+    text: ②④
+    figures: []
+  - label: C
+    text: ①②③
+    figures: []
+  - label: D
+    text: ②③④
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $\sum_{n=1}^{\infty}a_n\cdot2^n$ 条件收敛，则 $\sum_{n=1}^{\infty}na_n(x-1)^n$ 在点 $x=2$ 处\ExamSelection
+  choices:
+  - label: A
+    text: 绝对收敛
+    figures: []
+  - label: B
+    text: 条件收敛
+    figures: []
+  - label: C
+    text: 发散
+    figures: []
+  - label: D
+    text: 收敛性不确定
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设连续函数 $f(x)$ 在 $0$ 到 $x(x\ne0)$ 上的平均值为 $\overline{f}(x)=\dfrac{1}{x}\int_0^x f(t)\,\mathrm{d}t$，则下结论：①若 $f(x)$ 是奇函数，则 $\overline{f}(x)$ 是奇函数；②若 $f(x)$ 是凹函数，则 $\overline{f}(x)$ 是凸函数；③若 $f(x)$ 是周期函数，则 $\overline{f}(x)$ 是周期函数；所有正确结论的序号为\ExamSelection
+  choices:
+  - label: A
+    text: ①
+    figures: []
+  - label: B
+    text: ①②
+    figures: []
+  - label: C
+    text: ②③
+    figures: []
+  - label: D
+    text: ③
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $t$ 时刻的成本为连续函数 $C(t)(0\le t\le1)$，若 $[0,t]$ 上的平均成本为 $C(t)\left(1-\dfrac{t}{2}\right)$，$C(0)=1$，则 $C(t)=$\ExamSelection
+  choices:
+  - label: A
+    text: $(1-t)^2$
+    figures: []
+  - label: B
+    text: $(2-t)^2/4$
+    figures: []
+  - label: C
+    text: $1/(1-t)^2$
+    figures: []
+  - label: D
+    text: $4/(2-t)^2$
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      若 $A,A^*,B$ 都是 $n(n>2)$ 阶非零矩阵，且 $A^*$ 是 $A$ 的伴随矩阵，$AB=O$，则 $r(B)=$\ExamSelection
+  choices:
+  - label: A
+    text: $1$
+    figures: []
+  - label: B
+    text: $n-1$
+    figures: []
+  - label: C
+    text: $n$
+    figures: []
+  - label: D
+    text: $n-1$ 或 $n$
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      若齐次线性方程组 $\left\{\begin{array}{l}x_1+ax_2+3x_3=0,\\2x_1+3x_2+5x_3=0,\\x_1+x_2+2x_3=0\end{array}\right.$ 和 $\left\{\begin{array}{l}x_1+bx_2+2x_3=0,\\2x_1+b^2x_2+3x_3=0\end{array}\right.$ 同解，则\ExamSelection
+  choices:
+  - label: A
+    text: $a=1,b=2$
+    figures: []
+  - label: B
+    text: $a=2,b=1$
+    figures: []
+  - label: C
+    text: $a=-1,b=2$
+    figures: []
+  - label: D
+    text: $a=2,b=-1$
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      $n$ 阶矩阵 $A$ 与 $B$ 相似的充分非必要条件是\ExamSelection
+  choices:
+  - label: A
+    text: $A^*$ 与 $B^*$ 相似
+    figures: []
+  - label: B
+    text: |-
+      $|\lambda E-A|=|\lambda E-B|$
+    figures: []
+  - label: C
+    text: $A$ 与 $B$ 的各阶主子式之和分别相等
+    figures: []
+  - label: D
+    text: $A^{-1}$ 与 $B^{-1}$ 相似
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $X_1,X_2$ 为来自总体 $N(\mu,k\sigma^2)$ 的简单随机样本，其中 $\sigma(\sigma>0)$ 是未知参数，$k$ 为正常数，$|X_1-X_2|$ 是 $\sigma$ 的无偏估计，则 $k=$\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{\sqrt{\pi}}{2}$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{\sqrt{2\pi}}{2}$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{\pi}{4}$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{\pi}{2}$
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $X_1,X_2,\cdots,X_n(n\ge2)$ 为来自正态总体 $N(0,u)(u>0)$ 的简单随机样本，记 $\overline{X}=\dfrac{1}{n}\sum_{i=1}^nX_i$，则下列结论中正确的是\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\sum_{i=1}^nX_i^2$ 服从 $\chi^2$ 分布
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{2(X_n-X_1)^2}{u}$ 服从 $\chi^2$ 分布
+    figures: []
+  - label: C
+    text: |-
+      $\sum_{i=1}^n(X_i-\overline{X})^2$ 服从 $\chi^2$ 分布
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{n\overline{X}^2}{u}$ 服从 $\chi^2$ 分布
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设总体 $X$ 为非负连续型随机变量，$X_1,X_2,\cdots,X_n$ 为来自总体 $X$ 的简单随机样本，记 $E(X_i^m)=\mu_m$，$A_k=\dfrac{1}{n}\sum_{i=1}^nX_i^k$，$m=1,2,\cdots,n,k=1,2,\cdots,n$，则\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $P\{|A_2-\mu_2|\le1\}\le1-\mu_2$
+    figures: []
+  - label: B
+    text: |-
+      $P\{A_2\le1\}\ge1-\mu_2$
+    figures: []
+  - label: C
+    text: |-
+      $P\{|A_2-\mu_2|\ge1\}\ge\dfrac{\mu_4-\mu_2^2}{n}$
+    figures: []
+  - label: D
+    text: |-
+      $P\{A_2\ge1\}\le\dfrac{\mu_4-\mu_2^2}{n}$
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      过原点的曲线 $y=y(x)$ 满足 $\dfrac{\mathrm{d}y}{\mathrm{d}x}=(x+y)^2$，则 $\lim_{x\to0}\dfrac{y(x)}{x^3}=$ \ExamBlank。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $\int_0^{\dfrac{1}{2}}\dfrac{x}{\sqrt{1-x^2}}\arcsin x\,\mathrm{d}x=$ \ExamBlank。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $\Delta_y^2y_x-y_x=1$ 的通解为 \ExamBlank。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)=\int_{x^3}^{x}e^{-y^2}\,\mathrm{d}y$，则 $\int_0^1x^2f(x)\,\mathrm{d}x=$ \ExamBlank。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $|A|=\left|\begin{array}{rrrr}2&-1&2&3\\0&1&-1&0\\2&3&4&5\\1&1&1&1\end{array}\right|$，则 $A_{31}+M_{32}+A_{33}+M_{34}=$ \ExamBlank。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      在 $21\sim90$ 的整数中随机地取一个数，则取到的整数既不能被 $2$ 整除，又不能被 $9$ 整除的概率为 \ExamBlank。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      设函数 $x=x(y)$ 由方程 $y=\int_a^{x+y}e^{-u^2}\,\mathrm{d}u$ 所确定，$x(0)=1$，求：
+  subparts:
+  - text: $a$ 的值；
+  - text: $x''(0)$。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $f(x)=\cos x+ax(0\le x\le2\pi)$ 在 $x=\dfrac{5}{4}\pi$ 取得极小值，求：
+  subparts:
+  - text: $a$ 的值；
+  - text: $f(x)$ 的最值与曲线 $y=f(x)$ 的拐点。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设平面区域 $D=\{(x,y)\mid x^2+y^2\le1\}$，计算 $I=\iint_D\left|x^2+y^2-\dfrac{\sqrt{2}}{2}(x+y)\right|\,\mathrm{d}\sigma$。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      已知 $\dfrac{1}{(1+x)^2}-\ln(2+x)=\sum_{n=0}^{\infty}a_nx^n(-1<x<1)$，求 $a_n$。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: 设实二次型 $f(x_1,x_2,x_3)=2x_1^2+2x_2^2+(1+a^2)x_3^2+2x_1x_2+2x_2x_3+2ax_1x_3=0$ 有非零解 $x$，$a$ 为参数。
+  subparts:
+  - text: 求 $x$；
+  - text: 求 $f(x_1,x_2,x_3)$ 的规范形。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设随机变量 $X$ 在区间 $(0,1)$ 上服从均匀分布，在 $X$ 取 $x(0<x<1)$ 的条件下，随机变量 $Y$ 服从参数为 $\dfrac{1}{x}$ 的指数分布，求：
+  subparts:
+  - text: $(X,Y)$ 的联合概率密度；
+  - text: $E(|X-Y|)$。

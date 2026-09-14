@@ -1,0 +1,299 @@
+schema_version: '3.0'
+paper:
+  series_key: zhangyu8
+  year: 2023
+  subject: math1
+  paper_no: 6
+content_hash: f2a1d0948066205c33bbc113038b81af30e19747d859f0cb414c0071d44fb5a9
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)$ 在 $x=0$ 处连续，且 $\lim_{x\to0}\dfrac{\ln(1-2x)+2xf'(x)}{x^2}=0$，则 $f'(0)$\ExamSelection
+  choices:
+  - label: A
+    text: 等于 $1$
+    figures: []
+  - label: B
+    text: 等于 $-1$
+    figures: []
+  - label: C
+    text: 不存在
+    figures: []
+  - label: D
+    text: 所给条件不足，无法判断
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      对于下列三个命题：①设 $f(x)$ 在 $x=x_0$ 处连续，在 $x=x_0$ 的某去心邻域内可导，若 $\lim_{x\to x_0}f'(x)$ 存在，则 $f(x)$ 在 $x=x_0$ 处可导且 $f'(x_0)=\lim_{x\to x_0}f'(x)$；②设 $f(x)$ 在 $x=x_0$ 处连续，在 $x=x_0$ 的某去心邻域内可导，若 $\lim_{x\to x_0^+}f'(x)$ 与 $\lim_{x\to x_0^-}f'(x)$ 均存在但不相等，则 $f'(x_0)$ 不存在；③设 $f(x)$ 在 $x=x_0$ 的某邻域内可导，若 $\lim_{x\to x_0^+}f'(x)$ 与 $\lim_{x\to x_0^-}f'(x)$ 均存在，则必有 $\lim_{x\to x_0}f'(x)$ 存在。所有真命题的序号为\ExamSelection
+  choices:
+  - label: A
+    text: ①②
+    figures: []
+  - label: B
+    text: ②③
+    figures: []
+  - label: C
+    text: ①③
+    figures: []
+  - label: D
+    text: ①②③
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设椭圆 $\dfrac{x^2}{2}+\dfrac{y^2}{4}=1$ 的弧长为 $S_1$，曲线 $y=\cos x$（$0\leq x\leq2\pi$）的弧长为 $S_2$，则\ExamSelection
+  choices:
+  - label: A
+    text: $S_1=S_2$
+    figures: []
+  - label: B
+    text: |-
+      $S_1=\sqrt{2}S_2$
+    figures: []
+  - label: C
+    text: $S_1=2S_2$
+    figures: []
+  - label: D
+    text: |-
+      $S_1=2\sqrt{2}S_2$
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $D=\{(x,y)\mid x^2+y^2>0\}$，$l$ 是 $D$ 内的任意一条逐段光滑的简单封闭曲线，则必有\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\displaystyle\oint_l\dfrac{(x-y)\,\mathrm{d}x+(x+y)\,\mathrm{d}y}{x^2+y^2}=0$
+    figures: []
+  - label: B
+    text: |-
+      $\displaystyle\oint_l\dfrac{(x-y)\,\mathrm{d}x+(x+y)\,\mathrm{d}y}{x^2+y^2}\neq0$
+    figures: []
+  - label: C
+    text: |-
+      $\displaystyle\oint_l\dfrac{xy(x\,\mathrm{d}y-y\,\mathrm{d}x)}{x^4+y^4}=0$
+    figures: []
+  - label: D
+    text: |-
+      $\displaystyle\oint_l\dfrac{xy(x\,\mathrm{d}y-y\,\mathrm{d}x)}{x^4+y^4}\neq0$
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A,B$ 都是 $5$ 阶矩阵，若齐次线性方程组 $A^*x=0$ 只有零解，齐次线性方程组 $B^*x=0$ 的解空间的维数为 $4$，则齐次线性方程组 $(AB)x=0$ 的解空间的维数为\ExamSelection
+  choices:
+  - label: A
+    text: $1$
+    figures: []
+  - label: B
+    text: $2$
+    figures: []
+  - label: C
+    text: $3$
+    figures: []
+  - label: D
+    text: $4$
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A=\begin{pmatrix}4&a&0\\-1&0&0\\a&b&2\end{pmatrix}$，若 $A$ 的任意两个特征向量都线性相关，则\ExamSelection
+  choices:
+  - label: A
+    text: $a=4,b=8$
+    figures: []
+  - label: B
+    text: |-
+      $a=4,b\neq8$
+    figures: []
+  - label: C
+    text: |-
+      $a\neq4,b=8$
+    figures: []
+  - label: D
+    text: |-
+      $a\neq4,b\neq8$
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      若二次型 $f(x_1,x_2,x_3)=(x_1,x_2,x_3)\begin{pmatrix}1&-2&1\\0&a&-2\\1&0&1\end{pmatrix}\begin{pmatrix}x_1\\x_2\\x_3\end{pmatrix}$ 的秩为 $1$，则二次型 $g(x_1,x_2,x_3)=ax_1^2+ax_2^2+ax_3^2+2x_1x_2+2x_1x_3$ 的规范形为\ExamSelection
+  choices:
+  - label: A
+    text: $y_1^2+y_2^2$
+    figures: []
+  - label: B
+    text: $y_1^2-y_2^2-y_3^2$
+    figures: []
+  - label: C
+    text: $y_1^2+y_2^2-y_3^2$
+    figures: []
+  - label: D
+    text: $y_1^2+y_2^2+y_3^2$
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设连续型随机变量 $X$ 的概率密度为 $f(x)$，分布函数为 $F(x)$。若 $f(x)F(x)=\begin{cases}2e^{-2x}-2e^{-4x},&x\geq0,\\0,&x<0,\end{cases}$ 则 $f(1)=$\ExamSelection
+  choices:
+  - label: A
+    text: $e^{-4}$
+    figures: []
+  - label: B
+    text: $2e^{-4}$
+    figures: []
+  - label: C
+    text: $e^{-2}$
+    figures: []
+  - label: D
+    text: $2e^{-2}$
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      从 $1,2,3,4$ 中任取一数记为 $X$，再从 $1,2,\cdots,X$ 中任取一数记为 $Y$，则 $E(Y)=$\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{5}{4}$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{4}{3}$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{3}{2}$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{7}{4}$
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设总体 $X$ 的概率密度为 $f(x)=\begin{cases}\lambda e^{-\lambda x},&x>0,\\0,&x\leq0,\end{cases}$ 参数 $\lambda>0$，又记 $Z$ 服从自由度为 $2$ 的 $\chi^2$ 分布，其概率密度为 $f_Z(z)=\begin{cases}\dfrac{1}{2}e^{-\dfrac{z}{2}},&z>0,\\0,&z\leq0,\end{cases}$ 已知 $X_1,X_2,\cdots,X_n$ 为 $X$ 的简单随机样本，则统计量 $2n\lambda\overline{X}$ 服从的分布是\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\chi^2(n)$
+    figures: []
+  - label: B
+    text: |-
+      $\chi^2(2n)$
+    figures: []
+  - label: C
+    text: $t(n)$
+    figures: []
+  - label: D
+    text: $t(2n)$
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      若直线 $y=2x-\dfrac{1}{2}$ 是曲线 $y=\sqrt{ax^2+bx+1}$ 的一条斜渐近线，则定积分 $\displaystyle\int_b^a\sqrt{(a-x)(x-b)}\,\mathrm{d}x$ 的值为\ExamBlank。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)=\lim_{n\to\infty}\left[\dfrac{n}{(n+x)^2}+\dfrac{n}{(n+2x)^2}+\cdots+\dfrac{n}{(n+nx)^2}\right]$，则 $f^{(99)}(0)=$\ExamBlank。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      曲线 $\Gamma:\begin{cases}2x^2+3y^2+z^2=9,\\z^2=3x^2+y^2\end{cases}$ 在点 $M(1,-1,2)$ 处的法平面与三坐标面所围成的四面体的体积为\ExamBlank。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $u=\ln f(x^2+y^2+z^2)$，其中函数 $f$ 具有二阶连续导数，$f(3)=3,f'(3)=5,f''(3)=2$，则 $\left.\operatorname{div}(\operatorname{grad}u)\right|_{(1,1,1)}=$\ExamBlank。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $f(x_1,x_2,\cdots,x_n)=x^{\mathrm T}Ax$ 为实二次型，$A=A^{\mathrm T}$，$f$ 的秩为 $r$，符号差为 $s$；若存在可逆矩阵 $C$，使 $C^{\mathrm T}AC=-A$，则 $(-1)^r=$\ExamBlank，$s=$\ExamBlank。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设随机变量 $X$ 与 $Y$ 相互独立，且 $X\sim U[2,4],Y\sim N(2,16)$，则 $\operatorname{Cov}[2X+XY,(Y-1)^2]=$\ExamBlank。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      设 $f(x)$ 在 $(0,+\infty)$ 内有定义，对任意 $x,y\in(0,+\infty)$，有 $f(xy)=yf(x)+xf(y)$，且 $f'(1)=2$。
+  subparts:
+  - text: |-
+      证明 $f'(x)-\dfrac{f(x)}{x}=2$；
+  - text: 求 $f(x)$；
+  - text: 求 $f(x)$ 的极值。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $\Sigma$ 是直线 $\dfrac{x-1}{2}=\dfrac{y}{1}=\dfrac{z}{-1}$ 绕 $y$ 轴旋转一周所形成的曲面，在曲面 $\Sigma$ 上求一点，使函数 $f(x,y,z)=x^2+y^2+z^2$ 在该点处沿方向 $l=(1,-1,0)$ 的方向导数最大。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      将幂级数 $\displaystyle\sum_{n=1}^{\infty}(-1)^n n(x-1)^n$ 的和函数展开成 $\left(x-\dfrac{1}{2}\right)$ 的幂级数。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      求 $I=\displaystyle\oiint_{\Sigma_{\text{外}}}\dfrac{e^z}{\sqrt{x^2+y^2}}\,\mathrm{d}x\,\mathrm{d}y$，$\Sigma$ 是由 $z=\sqrt{x^2+y^2},z=1,z=2$ 所围闭区域的边界曲面，取外侧。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $A$ 是 $3$ 阶矩阵，$\alpha_1,\alpha_2,\alpha_3$ 是线性无关的 $3$ 维列向量，且 $A\alpha_1=-\alpha_1-3\alpha_2-3\alpha_3$，$A\alpha_2=4\alpha_1+4\alpha_2+\alpha_3$，$A\alpha_3=-2\alpha_1+3\alpha_3$。
+  subparts:
+  - text: 求可逆矩阵 $P$，使得 $P^{-1}AP$ 为对角矩阵；
+  - text: 求 $A^*-E$ 的秩。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设总体 $X$ 的概率密度为 $f(x;\theta)=\begin{cases}(5-2\theta)x,&0\leq x<1,\\\theta-x,&1\leq x<2,\\0,&\text{其他},\end{cases}$ 其中 $\theta$ 为未知参数，$Y=\ln X$，$p=P\{Y<0\}$。取自总体 $X$ 的简单随机样本的观察值为 $0.2,0.5,0.8,1.7,1.7,1.7$，求：
+  subparts:
+  - text: |-
+      $\theta$ 的矩估计值；
+  - text: |-
+      $\theta$ 的最大似然估计值；
+  - text: $p$ 的最大似然估计值。

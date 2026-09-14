@@ -1,0 +1,303 @@
+schema_version: '3.0'
+paper:
+  series_key: zhangyu4
+  year: 2025
+  subject: math1
+  paper_no: 3
+content_hash: d538056aeef5a89cfbb0a8896a29185646995e3e9d7d394b4a4045b3ec3b630a
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      函数 $f(x)=\left|\dfrac{x}{x+1}\right|^{\dfrac{x+1}{x-1}}$ 的跳跃间断点个数为\ExamSelection
+  choices:
+  - label: A
+    text: '0'
+    figures: []
+  - label: B
+    text: '1'
+    figures: []
+  - label: C
+    text: '2'
+    figures: []
+  - label: D
+    text: '3'
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      $\displaystyle\sum_{n=1}^{\infty}ne^{-n}=$\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{1}{(e-1)^2}$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{e}{(e-1)^2}$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{1}{e^2-1}$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{e}{e^2-1}$
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x,y)$ 在点 $(0,0)$ 处及其附近有定义，则\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      当 $\displaystyle\lim_{\substack{x\to0\\y\to0}}\dfrac{f(x,y)}{\sqrt{x^2+y^2}}=0$ 时，$f(x,y)$ 在点 $(0,0)$ 处可微。
+    figures: []
+  - label: B
+    text: |-
+      当 $f(x,y)$ 在点 $(0,0)$ 处可微时，$\displaystyle\lim_{\substack{x\to0\\y\to0}}\dfrac{f(x,y)}{\sqrt{x^2+y^2}}=0$。
+    figures: []
+  - label: C
+    text: |-
+      当 $\displaystyle\lim_{\substack{x\to0\\y\to0}}\dfrac{f(x,y)-f(0,0)}{x^2+y^2}=0$ 时，$f(x,y)$ 在点 $(0,0)$ 处可微。
+    figures: []
+  - label: D
+    text: |-
+      当 $f(x,y)$ 在点 $(0,0)$ 处可微时，$\displaystyle\lim_{\substack{x\to0\\y\to0}}\dfrac{f(x,y)-f(0,0)}{x^2+y^2}=0$。
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $L_1,L_2$ 为两条均包含原点在其内部的同向简单闭曲线，若 $\displaystyle\oint_{L_1}\dfrac{2x\,\mathrm{d}x+y\,\mathrm{d}y}{x^2+y^2}=a$，$\displaystyle\oint_{L_2}\dfrac{2x\,\mathrm{d}x+y\,\mathrm{d}y}{x^2+y^2}=b$，则\ExamSelection
+  choices:
+  - label: A
+    text: $a-b=0$。
+    figures: []
+  - label: B
+    text: $a+b=0$。
+    figures: []
+  - label: C
+    text: $a,b$ 不一定相等，且 $b$ 与 $L_2$ 的形状有关。
+    figures: []
+  - label: D
+    text: $a,b$ 不一定相等，且 $b$ 与 $L_2$ 的形状无关。
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $\alpha_1=\begin{pmatrix}1\\0\\a\end{pmatrix},\alpha_2=\begin{pmatrix}0\\0\\b\end{pmatrix},\alpha_3=\begin{pmatrix}1\\-1\\c\end{pmatrix},\alpha_4=\begin{pmatrix}-1\\1\\d\end{pmatrix}$，其中 $a,b,c,d$ 为任意常数，则下列向量组线性相关的为\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\alpha_1,\alpha_2,\alpha_3$。
+    figures: []
+  - label: B
+    text: |-
+      $\alpha_2,\alpha_3,\alpha_4$。
+    figures: []
+  - label: C
+    text: |-
+      $\alpha_1,\alpha_3,\alpha_4$。
+    figures: []
+  - label: D
+    text: |-
+      $\alpha_1,\alpha_2,\alpha_4$。
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A,B$ 为 $n$ 阶矩阵，且 $A$ 满足 $A^2-A=3E$，则与 $\begin{pmatrix}A\\B\end{pmatrix}x=0$ 不同解的是\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\begin{pmatrix}A-B\\A+AB\end{pmatrix}x=0$。
+    figures: []
+  - label: B
+    text: |-
+      $\begin{pmatrix}A+B\\A+AB-B\end{pmatrix}x=0$。
+    figures: []
+  - label: C
+    text: |-
+      $\begin{pmatrix}A-B\\2A+B\end{pmatrix}x=0$。
+    figures: []
+  - label: D
+    text: |-
+      $\begin{pmatrix}A+B\\BA+B^2\end{pmatrix}x=0$。
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设二次型 $f(x_1,x_2,x_3)$ 在正交变换 $\boldsymbol{x}=P\boldsymbol{y}$ 下的标准形为 $y_1^2+y_2^2-2y_3^2$，其中 $P=(\boldsymbol{e}_1,\boldsymbol{e}_2,\boldsymbol{e}_3)$。若 $Q=(-\boldsymbol{e}_3,\boldsymbol{e}_1,\boldsymbol{e}_2)$，则 $f(x_1,x_2,x_3)$ 在正交变换 $\boldsymbol{x}=Q\boldsymbol{y}$ 下的标准形为\ExamSelection
+  choices:
+  - label: A
+    text: $-2y_1^2+y_2^2+y_3^2$。
+    figures: []
+  - label: B
+    text: $2y_1^2+y_2^2-y_3^2$。
+    figures: []
+  - label: C
+    text: $-2y_1^2-y_2^2+y_3^2$。
+    figures: []
+  - label: D
+    text: $2y_1^2-y_2^2+y_3^2$。
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设总体 $X$ 与 $Y$ 相互独立且都服从正态分布 $N(1,\sigma^2)$，$\sigma>0$，$\overline{X},\overline{Y}$ 是分别来自总体 $X,Y$ 且容量都为 $n$ 的样本的样本均值，则当 $n$ 固定时，概率 $P\{|\overline{X}-\overline{Y}|>\sigma\}$ 的值随 $\sigma$ 的增大而\ExamSelection
+  choices:
+  - label: A
+    text: 单调增大。
+    figures: []
+  - label: B
+    text: 单调减小。
+    figures: []
+  - label: C
+    text: 保持不变。
+    figures: []
+  - label: D
+    text: 增减不定。
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设总体 $X$ 的概率密度为 $f(x)=\begin{cases}\dfrac{2x}{\alpha^2},&0\leq x\leq\alpha,\\0,&\text{其他},\end{cases}$ 其中 $\alpha(\alpha>1)$ 是未知参数，$X_1,X_2,\cdots,X_n$ 是来自总体 $X$ 的简单随机样本，记 $p=P\{0<X<\sqrt{\alpha}\}$，$X_{(1)}=\min\{X_1,X_2,\cdots,X_n\}$，$X_{(n)}=\max\{X_1,X_2,\cdots,X_n\}$，则 $p$ 的最大似然估计量 $\hat p$ 为\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\sqrt{X_{(1)}}$。
+    figures: []
+  - label: B
+    text: |-
+      $\sqrt{X_{(n)}}$。
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{1}{X_{(1)}}$。
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{1}{X_{(n)}}$。
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设总体 $X$ 的期望存在且方差为 1，根据来自 $X$ 的容量为 36 的简单随机样本测得样本均值为 $a$，$\Phi(1.96)=0.975$，则 $X$ 的数学期望的置信度等于 0.95 的置信区间为\ExamSelection
+  choices:
+  - label: A
+    text: $(a-0.196,a+0.196)$。
+    figures: []
+  - label: B
+    text: $(a-0.327,a+0.327)$。
+    figures: []
+  - label: C
+    text: $(a-0.49,a+0.49)$。
+    figures: []
+  - label: D
+    text: $(a-0.025,a+0.025)$。
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $\displaystyle\lim_{n\to\infty}n^2\ln\left(n\sin\dfrac{1}{n}\right)=$\ExamBlank。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $u(x,y,z)=x^2y\boldsymbol{i}+e^yz\boldsymbol{j}+x\sqrt{1+z^2}\boldsymbol{k}$ 在点 $(1,0,1)$ 处的散度 $\operatorname{div}u=$\ExamBlank。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $x\geq-2$，则微分方程 $y'-\sqrt{y+x^2}=-2x$ 满足 $y(0)=1$ 的特解为\ExamBlank。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设曲线 $\Gamma$ 为曲面 $x^2+y^2+z^2=1$ 与平面 $x+y+z=1$ 的交线，则 $\displaystyle\oint_{\Gamma}(x^2+2y-z)\,\mathrm{d}s=$\ExamBlank。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $A=(a_{ij})$ 为 3 阶矩阵，$A_{ij}$ 为元素 $a_{ij}$ 的代数余子式。若 $A^{-1}$ 的每行元素之和均为 2，且 $|A|=3$，则 $A_{13}+A_{23}+A_{33}=$\ExamBlank。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设随机变量 $X,Y$ 独立同分布于几何分布 $G(p)$（$0<p<1$），则 $E(\max\{X,Y\})=$\ExamBlank。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      设 $f(x)=\displaystyle\int_1^x\sin t^2\,\mathrm{d}t,g(x)=\displaystyle\int_0^x f(t)\,\mathrm{d}t$。
+  subparts:
+  - text: 计算 $g(1)$；
+  - text: |-
+      证明：存在 $\xi\in(0,1)$，使得 $\displaystyle\int_1^\xi\sin t^2\,\mathrm{d}t=\xi(\cos 1-1)$。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      求 $f(x,y)=x^2(2+y^2)+y^2\ln y$ 的极值。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $f(x,y)$ 在 $D=\{(x,y)\mid x^2+y^2\leq1\}$ 上连续，$f(x,y)=e^{x^2+y^2}-\displaystyle\iint_D\dfrac{(2x^2+1)f(x,y)}{x^2+y^2+1}\,\mathrm{d}x\mathrm{d}y$，求 $\displaystyle\iint_Df(x,y)\,\mathrm{d}\sigma$。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $y=f(x)$（$x>0$）满足 $y''+\dfrac{y'}{2y^2}=0$，且曲线在点 $(1,1)$ 处的切线斜率为 $\dfrac{1}{2}$，该曲线位于 $0<x\leq1$ 的一段绕 $x$ 轴旋转一周所围成的曲面为 $\Sigma$。求：
+  subparts:
+  - text: $f(x)$ 的表达式；
+  - text: |-
+      曲面 $\Sigma$ 的面积。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $A=\begin{pmatrix}1&a&1\\2&-1&1\\0&1&b\end{pmatrix}$，$ab\neq0$，存在非零矩阵 $B$，使得 $r[B(A+E)]<r(B)$，$A^*=4A^{-1}$。
+  subparts:
+  - text: 求 $a,b$ 的值；
+  - text: 求可逆矩阵 $P$，使得 $P^{-1}(A^3+A^*)P$ 为对角矩阵。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: 设水平地面上车轮半径为 1，车轮表面有一记号点 $P$，$X$ 为随机停车时点 $P$ 到水平地面的高度，求：
+  subparts:
+  - text: $X$ 的概率密度；
+  - text: $D(X)$。

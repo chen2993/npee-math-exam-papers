@@ -1,0 +1,486 @@
+{
+  "schema_version": "1.0",
+  "bundle_count": 60,
+  "bundles": [
+    {
+      "bundle": "chaoyue10-2024-math1",
+      "series_key": "chaoyue10",
+      "series_name": "合工大超越十套卷",
+      "year": 2024,
+      "subject": "math1",
+      "paper_count": 10
+    },
+    {
+      "bundle": "chaoyue10-2024-math2",
+      "series_key": "chaoyue10",
+      "series_name": "合工大超越十套卷",
+      "year": 2024,
+      "subject": "math2",
+      "paper_count": 10
+    },
+    {
+      "bundle": "chaoyue10-2024-math3",
+      "series_key": "chaoyue10",
+      "series_name": "合工大超越十套卷",
+      "year": 2024,
+      "subject": "math3",
+      "paper_count": 10
+    },
+    {
+      "bundle": "chaoyue10-2025-math1",
+      "series_key": "chaoyue10",
+      "series_name": "合工大超越十套卷",
+      "year": 2025,
+      "subject": "math1",
+      "paper_count": 10
+    },
+    {
+      "bundle": "chaoyue10-2025-math2",
+      "series_key": "chaoyue10",
+      "series_name": "合工大超越十套卷",
+      "year": 2025,
+      "subject": "math2",
+      "paper_count": 10
+    },
+    {
+      "bundle": "chaoyue10-2025-math3",
+      "series_key": "chaoyue10",
+      "series_name": "合工大超越十套卷",
+      "year": 2025,
+      "subject": "math3",
+      "paper_count": 10
+    },
+    {
+      "bundle": "euclid3-2025-math1",
+      "series_key": "euclid3",
+      "series_name": "欧几里得三套卷",
+      "year": 2025,
+      "subject": "math1",
+      "paper_count": 3
+    },
+    {
+      "bundle": "euclid3-2025-math2",
+      "series_key": "euclid3",
+      "series_name": "欧几里得三套卷",
+      "year": 2025,
+      "subject": "math2",
+      "paper_count": 3
+    },
+    {
+      "bundle": "euclid3-2025-math3",
+      "series_key": "euclid3",
+      "series_name": "欧几里得三套卷",
+      "year": 2025,
+      "subject": "math3",
+      "paper_count": 3
+    },
+    {
+      "bundle": "euclid3-2026-math1",
+      "series_key": "euclid3",
+      "series_name": "欧几里得三套卷",
+      "year": 2026,
+      "subject": "math1",
+      "paper_count": 3
+    },
+    {
+      "bundle": "euclid3-2026-math2",
+      "series_key": "euclid3",
+      "series_name": "欧几里得三套卷",
+      "year": 2026,
+      "subject": "math2",
+      "paper_count": 3
+    },
+    {
+      "bundle": "euclid3-2026-math3",
+      "series_key": "euclid3",
+      "series_name": "欧几里得三套卷",
+      "year": 2026,
+      "subject": "math3",
+      "paper_count": 3
+    },
+    {
+      "bundle": "lilin6-2025-math1",
+      "series_key": "lilin6",
+      "series_name": "李林六套卷",
+      "year": 2025,
+      "subject": "math1",
+      "paper_count": 6
+    },
+    {
+      "bundle": "lilin6-2025-math2",
+      "series_key": "lilin6",
+      "series_name": "李林六套卷",
+      "year": 2025,
+      "subject": "math2",
+      "paper_count": 6
+    },
+    {
+      "bundle": "lilin6-2025-math3",
+      "series_key": "lilin6",
+      "series_name": "李林六套卷",
+      "year": 2025,
+      "subject": "math3",
+      "paper_count": 6
+    },
+    {
+      "bundle": "lilin6-2026-math1",
+      "series_key": "lilin6",
+      "series_name": "李林六套卷",
+      "year": 2026,
+      "subject": "math1",
+      "paper_count": 6
+    },
+    {
+      "bundle": "lilin6-2026-math2",
+      "series_key": "lilin6",
+      "series_name": "李林六套卷",
+      "year": 2026,
+      "subject": "math2",
+      "paper_count": 6
+    },
+    {
+      "bundle": "lilin6-2026-math3",
+      "series_key": "lilin6",
+      "series_name": "李林六套卷",
+      "year": 2026,
+      "subject": "math3",
+      "paper_count": 6
+    },
+    {
+      "bundle": "liyanfang3-2022-math1",
+      "series_key": "liyanfang3",
+      "series_name": "李艳芳三套卷",
+      "year": 2022,
+      "subject": "math1",
+      "paper_count": 3
+    },
+    {
+      "bundle": "liyanfang3-2022-math2",
+      "series_key": "liyanfang3",
+      "series_name": "李艳芳三套卷",
+      "year": 2022,
+      "subject": "math2",
+      "paper_count": 3
+    },
+    {
+      "bundle": "liyanfang3-2022-math3",
+      "series_key": "liyanfang3",
+      "series_name": "李艳芳三套卷",
+      "year": 2022,
+      "subject": "math3",
+      "paper_count": 3
+    },
+    {
+      "bundle": "liyanfang3-2023-math1",
+      "series_key": "liyanfang3",
+      "series_name": "李艳芳三套卷",
+      "year": 2023,
+      "subject": "math1",
+      "paper_count": 3
+    },
+    {
+      "bundle": "liyanfang3-2023-math2",
+      "series_key": "liyanfang3",
+      "series_name": "李艳芳三套卷",
+      "year": 2023,
+      "subject": "math2",
+      "paper_count": 3
+    },
+    {
+      "bundle": "liyanfang3-2023-math3",
+      "series_key": "liyanfang3",
+      "series_name": "李艳芳三套卷",
+      "year": 2023,
+      "subject": "math3",
+      "paper_count": 3
+    },
+    {
+      "bundle": "liyanfang3-2024-math1",
+      "series_key": "liyanfang3",
+      "series_name": "李艳芳三套卷",
+      "year": 2024,
+      "subject": "math1",
+      "paper_count": 3
+    },
+    {
+      "bundle": "liyanfang3-2024-math2",
+      "series_key": "liyanfang3",
+      "series_name": "李艳芳三套卷",
+      "year": 2024,
+      "subject": "math2",
+      "paper_count": 3
+    },
+    {
+      "bundle": "liyanfang3-2024-math3",
+      "series_key": "liyanfang3",
+      "series_name": "李艳芳三套卷",
+      "year": 2024,
+      "subject": "math3",
+      "paper_count": 3
+    },
+    {
+      "bundle": "liyanfang3-2025-math1",
+      "series_key": "liyanfang3",
+      "series_name": "李艳芳三套卷",
+      "year": 2025,
+      "subject": "math1",
+      "paper_count": 3
+    },
+    {
+      "bundle": "liyanfang3-2025-math2",
+      "series_key": "liyanfang3",
+      "series_name": "李艳芳三套卷",
+      "year": 2025,
+      "subject": "math2",
+      "paper_count": 3
+    },
+    {
+      "bundle": "liyanfang3-2025-math3",
+      "series_key": "liyanfang3",
+      "series_name": "李艳芳三套卷",
+      "year": 2025,
+      "subject": "math3",
+      "paper_count": 3
+    },
+    {
+      "bundle": "liyanfang3-2026-math1",
+      "series_key": "liyanfang3",
+      "series_name": "李艳芳三套卷",
+      "year": 2026,
+      "subject": "math1",
+      "paper_count": 3
+    },
+    {
+      "bundle": "liyanfang3-2026-math2",
+      "series_key": "liyanfang3",
+      "series_name": "李艳芳三套卷",
+      "year": 2026,
+      "subject": "math2",
+      "paper_count": 3
+    },
+    {
+      "bundle": "liyanfang3-2026-math3",
+      "series_key": "liyanfang3",
+      "series_name": "李艳芳三套卷",
+      "year": 2026,
+      "subject": "math3",
+      "paper_count": 3
+    },
+    {
+      "bundle": "yubingsen5-2024-math1",
+      "series_key": "yubingsen5",
+      "series_name": "余炳森五套卷",
+      "year": 2024,
+      "subject": "math1",
+      "paper_count": 5
+    },
+    {
+      "bundle": "yubingsen5-2024-math2",
+      "series_key": "yubingsen5",
+      "series_name": "余炳森五套卷",
+      "year": 2024,
+      "subject": "math2",
+      "paper_count": 5
+    },
+    {
+      "bundle": "yubingsen5-2024-math3",
+      "series_key": "yubingsen5",
+      "series_name": "余炳森五套卷",
+      "year": 2024,
+      "subject": "math3",
+      "paper_count": 5
+    },
+    {
+      "bundle": "yubingsen5-2025-math1",
+      "series_key": "yubingsen5",
+      "series_name": "余炳森五套卷",
+      "year": 2025,
+      "subject": "math1",
+      "paper_count": 5
+    },
+    {
+      "bundle": "yubingsen5-2025-math2",
+      "series_key": "yubingsen5",
+      "series_name": "余炳森五套卷",
+      "year": 2025,
+      "subject": "math2",
+      "paper_count": 5
+    },
+    {
+      "bundle": "yubingsen5-2025-math3",
+      "series_key": "yubingsen5",
+      "series_name": "余炳森五套卷",
+      "year": 2025,
+      "subject": "math3",
+      "paper_count": 5
+    },
+    {
+      "bundle": "zhangyu4-2024-math1",
+      "series_key": "zhangyu4",
+      "series_name": "张宇四套卷",
+      "year": 2024,
+      "subject": "math1",
+      "paper_count": 4
+    },
+    {
+      "bundle": "zhangyu4-2024-math2",
+      "series_key": "zhangyu4",
+      "series_name": "张宇四套卷",
+      "year": 2024,
+      "subject": "math2",
+      "paper_count": 4
+    },
+    {
+      "bundle": "zhangyu4-2024-math3",
+      "series_key": "zhangyu4",
+      "series_name": "张宇四套卷",
+      "year": 2024,
+      "subject": "math3",
+      "paper_count": 4
+    },
+    {
+      "bundle": "zhangyu4-2025-math1",
+      "series_key": "zhangyu4",
+      "series_name": "张宇四套卷",
+      "year": 2025,
+      "subject": "math1",
+      "paper_count": 4
+    },
+    {
+      "bundle": "zhangyu4-2025-math2",
+      "series_key": "zhangyu4",
+      "series_name": "张宇四套卷",
+      "year": 2025,
+      "subject": "math2",
+      "paper_count": 4
+    },
+    {
+      "bundle": "zhangyu4-2025-math3",
+      "series_key": "zhangyu4",
+      "series_name": "张宇四套卷",
+      "year": 2025,
+      "subject": "math3",
+      "paper_count": 4
+    },
+    {
+      "bundle": "zhangyu4-2026-math1",
+      "series_key": "zhangyu4",
+      "series_name": "张宇四套卷",
+      "year": 2026,
+      "subject": "math1",
+      "paper_count": 4
+    },
+    {
+      "bundle": "zhangyu4-2026-math2",
+      "series_key": "zhangyu4",
+      "series_name": "张宇四套卷",
+      "year": 2026,
+      "subject": "math2",
+      "paper_count": 4
+    },
+    {
+      "bundle": "zhangyu4-2026-math3",
+      "series_key": "zhangyu4",
+      "series_name": "张宇四套卷",
+      "year": 2026,
+      "subject": "math3",
+      "paper_count": 4
+    },
+    {
+      "bundle": "zhangyu8-2023-math1",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2023,
+      "subject": "math1",
+      "paper_count": 8
+    },
+    {
+      "bundle": "zhangyu8-2023-math2",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2023,
+      "subject": "math2",
+      "paper_count": 8
+    },
+    {
+      "bundle": "zhangyu8-2023-math3",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2023,
+      "subject": "math3",
+      "paper_count": 8
+    },
+    {
+      "bundle": "zhangyu8-2024-math1",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2024,
+      "subject": "math1",
+      "paper_count": 8
+    },
+    {
+      "bundle": "zhangyu8-2024-math2",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2024,
+      "subject": "math2",
+      "paper_count": 8
+    },
+    {
+      "bundle": "zhangyu8-2024-math3",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2024,
+      "subject": "math3",
+      "paper_count": 8
+    },
+    {
+      "bundle": "zhangyu8-2025-math1",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2025,
+      "subject": "math1",
+      "paper_count": 8
+    },
+    {
+      "bundle": "zhangyu8-2025-math2",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2025,
+      "subject": "math2",
+      "paper_count": 8
+    },
+    {
+      "bundle": "zhangyu8-2025-math3",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2025,
+      "subject": "math3",
+      "paper_count": 8
+    },
+    {
+      "bundle": "zhangyu8-2026-math1",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2026,
+      "subject": "math1",
+      "paper_count": 8
+    },
+    {
+      "bundle": "zhangyu8-2026-math2",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2026,
+      "subject": "math2",
+      "paper_count": 8
+    },
+    {
+      "bundle": "zhangyu8-2026-math3",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2026,
+      "subject": "math3",
+      "paper_count": 8
+    }
+  ]
+}

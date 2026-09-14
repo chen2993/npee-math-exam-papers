@@ -1,0 +1,298 @@
+schema_version: '3.0'
+paper:
+  series_key: zhangyu8
+  year: 2023
+  subject: math3
+  paper_no: 6
+content_hash: 2478c95dc40d31567be4d5125f8a1d29854798f597480e980d0800b536fa1c67
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)$ 在 $x=0$ 处连续，且 $\lim_{x\to0}\dfrac{\ln(1-2x)+2xf(x)}{x^2}=0$，则 $f'(0)$\ExamSelection
+  choices:
+  - label: A
+    text: 等于 $1$。
+    figures: []
+  - label: B
+    text: 等于 $-1$。
+    figures: []
+  - label: C
+    text: 不存在。
+    figures: []
+  - label: D
+    text: 所给条件不足，无法判断。
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      下列三个命题：① 设 $f(x)$ 在 $x=x_0$ 处连续，在 $x=x_0$ 的某去心邻域内可导，若 $\lim_{x\to x_0}f'(x)$ 存在，则 $f(x)$ 在 $x=x_0$ 处可导且 $f'(x_0)=\lim_{x\to x_0}f'(x)$；② 设 $f(x)$ 在 $x=x_0$ 处连续，在 $x=x_0$ 的某去心邻域内可导，若 $\lim_{x\to x_0^+}f'(x)$ 与 $\lim_{x\to x_0^-}f'(x)$ 均存在但不相等，则 $f'(x_0)$ 不存在；③ 设 $f(x)$ 在 $x=x_0$ 的某邻域内可导，若 $\lim_{x\to x_0^+}f'(x)$ 与 $\lim_{x\to x_0^-}f'(x)$ 均存在，则必有 $\lim_{x\to x_0}f'(x)$ 存在。是真命题的序号为\ExamSelection
+  choices:
+  - label: A
+    text: ①②。
+    figures: []
+  - label: B
+    text: ②③。
+    figures: []
+  - label: C
+    text: ①③。
+    figures: []
+  - label: D
+    text: ①②③。
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $\varphi(x)$ 与 $\psi(x)$ 均具有二阶连续导数，$u=x\varphi(x+ay)+y\psi(x+ay)$，若 $\dfrac{\partial^2u}{\partial x^2}-2\dfrac{\partial^2u}{\partial x\partial y}+\dfrac{\partial^2u}{\partial y^2}=0$，则 $a=$\ExamSelection
+  choices:
+  - label: A
+    text: $-1$。
+    figures: []
+  - label: B
+    text: $1$。
+    figures: []
+  - label: C
+    text: $-2$。
+    figures: []
+  - label: D
+    text: $2$。
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $u_n>0\ (n=1,2,\cdots)$，$S_n$ 为级数 $\sum_{n=1}^{\infty}u_n$ 的部分和，则级数 $\sum_{n=1}^{\infty}\left(\dfrac{1}{S_n}-\dfrac{1}{S_{n+1}}\right)$ 与 $\sum_{n=1}^{\infty}\dfrac{u_n}{S_n^2}$ 的敛散性为\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\sum_{n=1}^{\infty}\left(\dfrac{1}{S_n}-\dfrac{1}{S_{n+1}}\right)$ 与 $\sum_{n=1}^{\infty}\dfrac{u_n}{S_n^2}$ 都收敛。
+    figures: []
+  - label: B
+    text: |-
+      $\sum_{n=1}^{\infty}\left(\dfrac{1}{S_n}-\dfrac{1}{S_{n+1}}\right)$ 与 $\sum_{n=1}^{\infty}\dfrac{u_n}{S_n^2}$ 都发散。
+    figures: []
+  - label: C
+    text: |-
+      $\sum_{n=1}^{\infty}\left(\dfrac{1}{S_n}-\dfrac{1}{S_{n+1}}\right)$ 收敛，$\sum_{n=1}^{\infty}\dfrac{u_n}{S_n^2}$ 发散。
+    figures: []
+  - label: D
+    text: |-
+      $\sum_{n=1}^{\infty}\left(\dfrac{1}{S_n}-\dfrac{1}{S_{n+1}}\right)$ 发散，$\sum_{n=1}^{\infty}\dfrac{u_n}{S_n^2}$ 收敛。
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $\alpha,\beta,\delta,\gamma$ 均为 3 维列向量，$A=(\alpha,2\delta,3\gamma)$，$B=(\beta,\delta,\gamma)$，$|A|=6$，$|B|=-2$，则 $|(A+B)(A-B)|=$\ExamSelection
+  choices:
+  - label: A
+    text: $-72$。
+    figures: []
+  - label: B
+    text: $72$。
+    figures: []
+  - label: C
+    text: $-36$。
+    figures: []
+  - label: D
+    text: $36$。
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A=\begin{pmatrix}4&a&0\\-1&0&0\\a&b&2\end{pmatrix}$，若 $A$ 的任意两个特征向量都线性相关，则\ExamSelection
+  choices:
+  - label: A
+    text: $a=4,b=8$。
+    figures: []
+  - label: B
+    text: |-
+      $a=4,b\ne8$。
+    figures: []
+  - label: C
+    text: |-
+      $a\ne4,b=8$。
+    figures: []
+  - label: D
+    text: |-
+      $a\ne4,b\ne8$。
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      若二次型 $f(x_1,x_2,x_3)=(x_1,x_2,x_3)\begin{pmatrix}1&-2&1\\0&a&-2\\1&0&1\end{pmatrix}\begin{pmatrix}x_1\\x_2\\x_3\end{pmatrix}$ 的秩为 $1$，则二次型 $g(x_1,x_2,x_3)=ax_1^2+ax_2^2+ax_3^2+2x_1x_2+2x_1x_3$ 的规范形为\ExamSelection
+  choices:
+  - label: A
+    text: $y_1^2+y_2^2$。
+    figures: []
+  - label: B
+    text: $y_1^2-y_2^2-y_3^2$。
+    figures: []
+  - label: C
+    text: $y_1^2+y_2^2-y_3^2$。
+    figures: []
+  - label: D
+    text: $y_1^2+y_2^2+y_3^2$。
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设连续型随机变量 $X$ 的概率密度为 $f(x)$，分布函数为 $F(x)$。若 $f(x)F(x)=\begin{cases}2e^{-2x}-2e^{-4x},&x\geq0,\\0,&x<0,\end{cases}$ 则 $f(1)=$\ExamSelection
+  choices:
+  - label: A
+    text: $e^{-2}$。
+    figures: []
+  - label: B
+    text: $2e^{-2}$。
+    figures: []
+  - label: C
+    text: $e^{-4}$。
+    figures: []
+  - label: D
+    text: $2e^{-4}$。
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      在 $\triangle ABC$ 中任取一点 $P$，记 $\triangle ABC$ 与 $\triangle ABP$ 的面积分别为 $S$ 和 $S_1$，则 $E(S_1)=$\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\dfrac14S$。
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac15S$。
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac12S$。
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac13S$。
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $X_i\ (i=1,2,3,4)$ 是相互独立且概率密度均为 $f(x)\ (-\infty<x<+\infty)$ 的随机变量，则 $P\{\min\{X_1,X_2\}>\max\{X_3,X_4\}\}=$\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{3}{15}$。
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{2}{15}$。
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac16$。
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{4}{15}$。
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $A_n$ 为由曲线 $y=2n^2-x^2$ 与直线 $y=n\pi$（$n$ 为正整数）所围闭区域的面积，则 $\lim_{n\to\infty}A_n\left(\tan\dfrac1n-\sin\dfrac1n\right)=$\ExamBlank。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x)$ 在 $(-\infty,+\infty)$ 内可导，且满足 $e^xf(x)-2\int_0^x e^tf(t)\,\mathrm{d}t=1-x$，则 $\int_{-\infty}^{+\infty}\dfrac{1}{f(x)}\,\mathrm{d}x=$\ExamBlank。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设某产品的需求函数为 $Q=Q(p)$，它对价格的弹性为 $\varepsilon$，$0<\varepsilon<1$。已知产品收益 $R$ 对价格的边际为 $s$，则产品的产量应是\ExamBlank。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)=\lim_{n\to\infty}\left[\dfrac{n}{(n+x)^2}+\dfrac{n}{(n+2x)^2}+\cdots+\dfrac{n}{(n+nx)^2}\right]$，则 $f^{(999)}(0)=$\ExamBlank。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设向量 $\xi$ 可由 $\alpha_1=(1,2,1)^{\mathrm T},\alpha_2=(2,3,3)^{\mathrm T}$ 线性表出，也可由 $\beta_1=(-3,-2,-1)^{\mathrm T},\beta_2=(-1,0,1)^{\mathrm T}$ 线性表出，则 $\xi=$\ExamBlank。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设随机变量 $X$ 与 $Y$ 独立，且 $X\sim U(2,4)$，$Y\sim N(2,16)$，则 $\operatorname{Cov}[2X+XY,(Y-1)^2]=$\ExamBlank。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      证明：当 $0<x<1$ 时，$(1-x)^{\dfrac{1}{x}}<\dfrac1e-\dfrac{x}{2e}$。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: 设 $z=z(x,y)$ 是由方程 $x^2-xy+y^2-yz-z^2+12=0$ 所确定的函数，求 $z=z(x,y)$ 的极值。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $f(x)$ 在 $(0,+\infty)$ 内有定义，对任意 $x,y\in(0,+\infty)$，有 $f(xy)=yf(x)+xf(y)$，且 $f'(1)=2$。
+  subparts:
+  - text: |-
+      证明：$f'(x)-\dfrac{f(x)}{x}=2$；
+  - text: 求 $f(x)$；
+  - text: 求 $f(x)$ 的极值。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设平面区域 $D$：$\dfrac14\cos\theta\leq r\leq\dfrac12\cos\theta$，$\dfrac14\sin\theta\leq r\leq\dfrac12\sin\theta$，求二重积分 $\iint_D\dfrac{1}{xy}\,\mathrm{d}x\,\mathrm{d}y$。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $A$ 是 3 阶矩阵，$\alpha_1,\alpha_2,\alpha_3$ 是线性无关的 3 维列向量，且 $A\alpha_1=-\alpha_1-3\alpha_2-3\alpha_3$，$A\alpha_2=4\alpha_1+4\alpha_2+\alpha_3$，$A\alpha_3=-2\alpha_1+3\alpha_3$。
+  subparts:
+  - text: 求可逆矩阵 $P$，使得 $P^{-1}AP$ 为对角矩阵；
+  - text: 求 $A^*-6E$ 的秩。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设总体 $X$ 的概率密度为 $f(x;\theta)=\begin{cases}(5-2\theta)x,&0\leq x<1,\\\theta-x,&1\leq x\leq2,\\0,&\text{其他},\end{cases}$ 其中 $\theta$ 为未知参数，$Y=\ln X$，$p=P\{Y<0\}$。取自总体 $X$ 的简单随机样本的观察值为 $0.2,0.5,0.8,1.7,1.7,1.7$，求：
+  subparts:
+  - text: |-
+      $\theta$ 的矩估计值；
+  - text: |-
+      $\theta$ 的最大似然估计值；
+  - text: $p$ 的最大似然估计值。

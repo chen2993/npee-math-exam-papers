@@ -1,0 +1,299 @@
+schema_version: '3.0'
+paper:
+  series_key: zhangyu8
+  year: 2024
+  subject: math2
+  paper_no: 2
+content_hash: 6a10aab43c2e0c94d3ffbe896420cf19caad0ed6df8c2af4983e46382b9eebb4
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      当 $x\to 0$ 时，$\arcsin x-x$ 与 $ax^b$ 是等价无穷小，则 $(a,b)=$\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\left(-\dfrac{1}{6},2\right)$
+    figures: []
+  - label: B
+    text: |-
+      $\left(\dfrac{1}{6},2\right)$
+    figures: []
+  - label: C
+    text: |-
+      $\left(-\dfrac{1}{6},3\right)$
+    figures: []
+  - label: D
+    text: |-
+      $\left(\dfrac{1}{6},3\right)$
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $y=f(x)$ 由 $\begin{cases}x=2t+|t|,\\y=|t|\tan t\end{cases}$ 所确定，则在 $\left(-\dfrac{\pi}{2},\dfrac{\pi}{2}\right)$ 内\ExamSelection
+  choices:
+  - label: A
+    text: $f(x)$ 连续，$f'(0)$ 不存在
+    figures: []
+  - label: B
+    text: $f'(0)$ 存在，$f'(x)$ 在 $x=0$ 处不连续
+    figures: []
+  - label: C
+    text: $f'(x)$ 连续，$f''(0)$ 不存在
+    figures: []
+  - label: D
+    text: $f''(0)$ 存在，$f''(x)$ 在 $x=0$ 处不连续
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设一正方形边长为 $1$，作其内切圆，以四个切点为顶点作第二个正方形，对第二个正方形作其内切圆，再以其四个切点为顶点作第三个正方形，以此类推，记第 $n$ 个正方形的面积为 $a_n$，则 $\displaystyle\lim_{n\to\infty}\sum_{k=1}^{n}a_k=$\ExamSelection
+  choices:
+  - label: A
+    text: $2$
+    figures: []
+  - label: B
+    text: |-
+      $2\sqrt{2}$
+    figures: []
+  - label: C
+    text: |-
+      $4\sqrt{2}$
+    figures: []
+  - label: D
+    text: |-
+      $+\infty$
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      若二阶常系数齐次微分方程 $y''+ay'+by=0$ 的解在 $(-\infty,+\infty)$ 上均有周期性，则\ExamSelection
+  choices:
+  - label: A
+    text: $a<0,b<0$
+    figures: []
+  - label: B
+    text: $a>0,b>0$
+    figures: []
+  - label: C
+    text: $a=0,b<0$
+    figures: []
+  - label: D
+    text: $a=0,b>0$
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $Q(x,y)=\dfrac{x}{y^2},y>0$，$P(x,y)\,\mathrm{d}x+Q(x,y)\,\mathrm{d}y$ 是某二元函数的全微分，则 $P(x,y)$ 可取为\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $y^2-\dfrac{x^2}{y^3}$
+    figures: []
+  - label: B
+    text: |-
+      $x^2-\dfrac{1}{y}$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{1}{y^2}-\dfrac{x^2}{y^3}$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{1}{x^2}-\dfrac{1}{y}$
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知某圆柱体底面半径与高随时间变化的速率分别为 $2\ \mathrm{cm/s},-3\ \mathrm{cm/s}$，且圆柱体的体积与表面积随时间变化的速率分别为 $-100\pi\ \mathrm{cm^3/s},40\pi\ \mathrm{cm^2/s}$，则圆柱体的底面半径与高分别为\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $5\ \mathrm{cm},5\ \mathrm{cm}$
+    figures: []
+  - label: B
+    text: |-
+      $10\ \mathrm{cm},5\ \mathrm{cm}$
+    figures: []
+  - label: C
+    text: |-
+      $5\ \mathrm{cm},10\ \mathrm{cm}$
+    figures: []
+  - label: D
+    text: |-
+      $10\ \mathrm{cm},10\ \mathrm{cm}$
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)$ 在 $[-1,1]$ 上二阶可导，且 $f''(x)>0,f(0)=-1$，则\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\displaystyle\int_{-1}^{1}f(x)\,\mathrm{d}x>0$
+    figures: []
+  - label: B
+    text: |-
+      $\displaystyle\int_{-1}^{1}f(x)\,\mathrm{d}x<0$
+    figures: []
+  - label: C
+    text: |-
+      $\displaystyle\int_{-1}^{1}f(x)\,\mathrm{d}x>-2$
+    figures: []
+  - label: D
+    text: |-
+      $\displaystyle\int_{-1}^{1}f(x)\,\mathrm{d}x<-2$
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $3$ 维列向量组 $\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3$ 与 $\boldsymbol{\beta}_1,\boldsymbol{\beta}_2,\boldsymbol{\beta}_3$ 等价，记 $A=(\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3),B=(\boldsymbol{\beta}_1,\boldsymbol{\beta}_2,\boldsymbol{\beta}_3)$，则下列结论中 ①$Ax=0$ 与 $Bx=0$ 同解；②$A^{\mathrm{T}}x=0$ 与 $B^{\mathrm{T}}x=0$ 同解；③$\begin{pmatrix}A\\B\end{pmatrix}x=0$ 与 $Ax=0$ 同解；④$\begin{pmatrix}A^{\mathrm{T}}\\B^{\mathrm{T}}\end{pmatrix}x=0$ 与 $A^{\mathrm{T}}x=0$ 同解。所有正确结论的序号是\ExamSelection
+  choices:
+  - label: A
+    text: ①②
+    figures: []
+  - label: B
+    text: ①③
+    figures: []
+  - label: C
+    text: ②④
+    figures: []
+  - label: D
+    text: ①②③④
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A,B,C$ 均为 $n$ 阶矩阵，$r(AB)\leq r(BA)$，记 $\begin{pmatrix}O&AB\\B&CB\end{pmatrix},\begin{pmatrix}B&BC\\AB&O\end{pmatrix},\begin{pmatrix}BA&BAC\\O&B\end{pmatrix}$ 的秩分别为 $r_1,r_2,r_3$，则\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $r_2\leq r_3\leq r_1$
+    figures: []
+  - label: B
+    text: |-
+      $r_2\leq r_1\leq r_3$
+    figures: []
+  - label: C
+    text: |-
+      $r_1\leq r_2\leq r_3$
+    figures: []
+  - label: D
+    text: |-
+      $r_3\leq r_2\leq r_1$
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      $f(x_1,x_2,x_3)=x_1x_2+x_1x_3-3x_2x_3$ 的规范形为\ExamSelection
+  choices:
+  - label: A
+    text: $z_1^2+z_2^2-z_3^2$
+    figures: []
+  - label: B
+    text: $z_1^2+z_2^2-3z_3^2$
+    figures: []
+  - label: C
+    text: $z_1^2+z_2^2+z_3^2$
+    figures: []
+  - label: D
+    text: $z_1^2-z_2^2-z_3^2$
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      曲线 $y=\sqrt{x}$ 与 $y=x^2$ 所围平面有界区域绕直线 $y=x$ 旋转一周所得旋转体的体积为\ExamBlank。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      已知函数 $f(x)=x^2\ln(2-x)$，则当 $n\geq 3$ 时，$f^{(n)}(0)=$\ExamBlank。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $\displaystyle\lim_{n\to\infty}\dfrac{1}{n}\sum_{i=1}^{n}[\ln(3n-2i)-\ln(n+2i)]=$\ExamBlank。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(u)$ 可导，$z=f(\cos y-\cos x)+xy$，则 $\dfrac{1}{\sin x}\cdot\dfrac{\partial z}{\partial x}+\dfrac{1}{\sin y}\cdot\dfrac{\partial z}{\partial y}=$\ExamBlank。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      已知 $f(x)=\begin{cases}e^x,&0\leq x\leq 1,\\0,&\text{其他},\end{cases}$ 则 $\displaystyle\int_{-\infty}^{+\infty}\mathrm{d}x\int_{-\infty}^{+\infty}f(y)f(x-y)\,\mathrm{d}y=$\ExamBlank。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      已知 $3$ 阶方阵 $A$ 的特征值为 $1,2,3$，且 $A$ 相似于 $B$，则矩阵 $B$ 的伴随矩阵 $B^*$ 的迹 $\operatorname{tr}(B^*)=$\ExamBlank。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      求极限 $\displaystyle\lim_{x\to 0}\left[\dfrac{1+\int_0^x(1+t)^{\dfrac{1}{t}}\,\mathrm{d}t}{x}-\dfrac{1}{\sin x}\right]$。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      已知 $f(x,y)$ 满足 $e^{-2x}\dfrac{\partial f}{\partial x}=4y+2y^3+2x+1$，且 $f(0,y)=2y+y^2$。求：
+  subparts:
+  - text: $f(x,y)$ 的表达式；
+  - text: $f(x,y)$ 的极值。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      已知函数 $y=y(x)$ 可导，将区间 $[0,x]$ 上以 $y=y(x)$ 为曲边的曲边梯形面积记为 $S$，在 $[0,x]$ 上的弧长为 $aS\ (a>0)$，且 $y(0)=\dfrac{1}{a}$，求曲线 $y=y(x)$ 的表达式。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设数列 $\{x_n\}$ 满足：$0<x_n<\dfrac{\pi}{2},x_n\cos x_{n+1}=\sin x_n,n=1,2,\cdots$。证明 $\{x_n\}$ 收敛，并求 $\displaystyle\lim_{n\to\infty}x_n$。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设平面区域 $D=\{(x,y)\mid x+y\leq 1,x\geq 0,y\geq 0\}$，计算 $\displaystyle\iint_D\dfrac{e^{-(x+y)}}{\sqrt{xy}}\,\mathrm{d}\sigma$。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      已知矩阵 $A=\begin{pmatrix}1&1&1&1\\1&1&1&1\\2&1&0&-1\\-1&0&1&2\end{pmatrix},B=\begin{pmatrix}1&1\\1&1\\0&1\\1&0\end{pmatrix}$，矩阵 $C$ 满足 $A=BC$。
+  subparts:
+  - text: 求矩阵 $C$；
+  - text: 计算 $A^{10}$。

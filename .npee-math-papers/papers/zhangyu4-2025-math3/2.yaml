@@ -1,0 +1,307 @@
+schema_version: '3.0'
+paper:
+  series_key: zhangyu4
+  year: 2025
+  subject: math3
+  paper_no: 2
+content_hash: b2644fb249cda308aa29ae4e5fd72247b87a3f08b03a32d3434d505a5c223197
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      以下条件，使得 $\{a_n\}$ 收敛的是\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\{a_{2n}\}$，$\{a_{2n+1}\}$ 均收敛。
+    figures: []
+  - label: B
+    text: |-
+      $\{a_{3n}\}$，$\{a_{3n+1}\}$，$\{a_{3n+2}\}$ 均收敛。
+    figures: []
+  - label: C
+    text: |-
+      $\{a_{2n-1}\}$，$\{a_{2n}\}$，$\{a_{2n+1}\}$ 均收敛。
+    figures: []
+  - label: D
+    text: |-
+      $\{a_{2n}\}$，$\{a_{2n+1}\}$，$\{a_{3n}\}$ 均收敛。
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)$ 在 $x=0$ 处连续，下列结论：$①$若 $f'_-(0)$ 存在，则 $f'(0)$ 存在；$②$若 $\lim_{x\to0^-}f'(x)$ 存在，则 $\lim_{x\to0^+}f'(x)$ 存在；$③$若 $f'_-(0)$ 与 $f'_+(0)$ 均存在，则 $f'(0)$ 存在；$④$若 $\lim_{x\to0^-}f'(x)$ 存在，则 $f'(0)$ 存在。正确结论的个数为\ExamSelection
+  choices:
+  - label: A
+    text: $0$
+    figures: []
+  - label: B
+    text: $1$
+    figures: []
+  - label: C
+    text: $2$
+    figures: []
+  - label: D
+    text: $3$
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设正项级数 $\sum_{n=1}^{\infty}a_n$ 收敛，常数 $k>0$，则 $\sum_{n=1}^{\infty}(-1)^n\cdot\dfrac{\sqrt{a_{2n}}}{n+k}$\ExamSelection
+  choices:
+  - label: A
+    text: 绝对收敛
+    figures: []
+  - label: B
+    text: 条件收敛
+    figures: []
+  - label: C
+    text: 发散
+    figures: []
+  - label: D
+    text: 敛散性与 $k$ 有关
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x,y)$ 满足 $\mathrm{d}[f(x,y)]=\dfrac{x\,\mathrm{d}y-y\,\mathrm{d}x}{x^2+y^2}$，$f(1,1)=\dfrac{\pi}{4}$，则 $f(\sqrt{3},0)=$\ExamSelection
+  choices:
+  - label: A
+    text: $0$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{\pi}{4}$
+    figures: []
+  - label: C
+    text: |-
+      $-\dfrac{3\pi}{4}$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{3\pi}{4}$
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A=\begin{pmatrix}1&0&a\\b&2&0\\0&c&3\end{pmatrix}$，其中 $abc=-6$，则 $A$ 的伴随矩阵 $A^*$ 有非零特征值\ExamSelection
+  choices:
+  - label: A
+    text: $-8$
+    figures: []
+  - label: B
+    text: $8$
+    figures: []
+  - label: C
+    text: $-11$
+    figures: []
+  - label: D
+    text: $11$
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 是 $3$ 阶实对称矩阵，且 $A^2-A=2E$，$|A|=2$，则二次型 $x^{\mathrm T}Ax$ 的符号差为\ExamSelection
+  choices:
+  - label: A
+    text: $-3$
+    figures: []
+  - label: B
+    text: $-1$
+    figures: []
+  - label: C
+    text: $1$
+    figures: []
+  - label: D
+    text: $3$
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $2$ 阶矩阵 $A$ 满足 $a_{ij}+a_{ji}=0, i,j=1,2$。实矩阵 $P=(\boldsymbol{\alpha},A\boldsymbol{\alpha})$，其中 $A\boldsymbol{\alpha}$ 为非零列向量，则\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\begin{pmatrix}A+A^{\mathrm T}&O\\E&P\end{pmatrix}x=0$ 只有零解。
+    figures: []
+  - label: B
+    text: |-
+      $\begin{pmatrix}A+E&O\\E&P\end{pmatrix}x=0$ 有非零解。
+    figures: []
+  - label: C
+    text: |-
+      $\begin{pmatrix}O&A+A^{\mathrm T}\\P&E\end{pmatrix}x=\begin{pmatrix}\boldsymbol{\alpha}\\A\boldsymbol{\alpha}\end{pmatrix}$ 有无穷多解。
+    figures: []
+  - label: D
+    text: |-
+      $\begin{pmatrix}O&A+E\\P&E\end{pmatrix}x=\begin{pmatrix}\boldsymbol{\alpha}\\A\boldsymbol{\alpha}\end{pmatrix}$ 有唯一解。
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设随机变量 $X$ 的分布函数为 $F(x)=\begin{cases}1-e^{-\sqrt{\lambda}x},&x>0,\\0,&\text{其他}\end{cases}$（$\lambda>0$），记 $p_1=P\{X>x\}, p_2=P\{X>x+t\mid X>t\}, p_3=P\{X>x-t\mid X>t\}$，其中 $x>2t>0$，则\ExamSelection
+  choices:
+  - label: A
+    text: $p_3>p_2>p_1$
+    figures: []
+  - label: B
+    text: $p_3>p_1>p_2$
+    figures: []
+  - label: C
+    text: $p_3=p_2>p_1$
+    figures: []
+  - label: D
+    text: $p_3>p_1=p_2$
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设随机试验 $E$ 有三种两两不相容的结果 $A,B,C$，且每次试验三种结果发生的概率分别为 $\dfrac{1}{6},\dfrac{1}{3},\dfrac{1}{2}$。将试验 $E$ 独立重复做 $2$ 次，$X$ 表示 $2$ 次试验中结果 $A$ 发生的次数，$Y$ 表示 $2$ 次试验中结果 $B$ 发生的次数，则 $X$ 与 $Y$ 的相关系数为\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $-\dfrac{1}{5}$
+    figures: []
+  - label: B
+    text: |-
+      $-\dfrac{\sqrt{5}}{5}$
+    figures: []
+  - label: C
+    text: |-
+      $-\dfrac{\sqrt{10}}{10}$
+    figures: []
+  - label: D
+    text: |-
+      $-\dfrac{1}{10}$
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      长为 $a$（$0<a<1$）的直杆任意截取一段，再将剩下的部分截为两段，则这三段直杆能构成三角形的概率为\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{1}{4}$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{a}{4}$
+    figures: []
+  - label: C
+    text: |-
+      $\ln 2-\dfrac{1}{2}$
+    figures: []
+  - label: D
+    text: |-
+      $a\left(\ln 2-\dfrac{1}{2}\right)$
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $\lim_{n\to\infty}\sum_{k=1}^{n}\dfrac{1}{\sqrt{kn}}=\ExamBlank$
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)=\dfrac{x}{1-x+x^2}$，则 $f^{(10)}(0)=\ExamBlank$
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $xy''+y'=0$ 满足 $y(1)=y'(1)$ 的解为\ExamBlank
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)$ 在 $[0,1]$ 上连续，$\int_0^1 2x^2f(x)\,\mathrm{d}x\geq\int_0^1f^2(x)\,\mathrm{d}x+\dfrac{1}{5}$，则 $f(x)=\ExamBlank$
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $A=\begin{pmatrix}1&1\\0&1\end{pmatrix},B=\begin{pmatrix}-1&1\\0&-1\end{pmatrix}$，则 $A^{2n}-B^{2n}=\ExamBlank$
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设随机变量 $X$ 的概率密度为 $f(x)=\begin{cases}a^{-x}\ln a,&x>0,\\0,&\text{其他}\end{cases}$（$a>1$）。对 $X$ 进行独立重复观测，直到第 $2$ 个大于 $2$ 的观测值出现时停止，记 $Y$ 为观测次数，$P\{X>2\}=\dfrac{1}{9}$，则 $E(Y)=\ExamBlank$
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      求 $f(x,y)=x^2(2+y^2)+y^2\ln y$ 的极值。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设连续函数 $f(x)$ 满足 $\int_0^x f(x-t)e^{-\dfrac{t}{n}}\,\mathrm{d}t=\sin x,x\in\mathbb{R}$。求：
+  subparts:
+  - text: $f(x)$ 的表达式；
+  - text: |-
+      $\displaystyle\sum_{n=1}^{\infty}\dfrac{f\left(\dfrac{\pi}{2}\right)}{4^{n+1}}$。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 $f(x)$ 在 $[-\pi,\pi]$ 上二阶可导且 $|f(x)|\leq\min\{1+\cos x,1-\cos x\}$，$f'(0)\geq0$，证明：
+  subparts:
+  - text: $f'(0)=0$；
+  - text: |-
+      存在 $\xi\in(0,\pi)$，使得 $f''(\xi)=f(\xi)$。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $D=\{(x,y)\mid x\geq0,y\geq0\}$，计算 $\iint_D\dfrac{\mathrm{d}x\,\mathrm{d}y}{e^x+e^y}$。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设对任给 $y_1,y_2,y_3$，有 $A\begin{pmatrix}y_1\\y_2\\y_3\end{pmatrix}=\begin{pmatrix}y_1+2y_2\\4y_1+7y_2+y_3\\y_2-y_3\\2y_1+3y_2+ay_3\end{pmatrix}$，$\boldsymbol{\beta}=(3,10,b,4)^{\mathrm T}$。
+  subparts:
+  - text: |-
+      $a,b$ 取何值时，$Ax=\boldsymbol{\beta}$ 无解；
+  - text: |-
+      $a,b$ 取何值时，$Ax=\boldsymbol{\beta}$ 有解，并求出全部解。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设总体 $X$ 的概率密度为 $f(x)=\begin{cases}\dfrac{2x}{\theta^2},&0<x\leq\theta,\\0,&\text{其他},\end{cases}$ 其中 $\theta$ 是未知参数，$X_1,X_2,\cdots,X_n$ 为来自总体 $X$ 的简单随机样本。
+  subparts:
+  - text: |-
+      求 $\theta$ 的矩估计量 $\hat{\theta}_1$ 及 $D(\hat{\theta}_1)$；
+  - text: |-
+      求 $\theta$ 的最大似然估计量 $\hat{\theta}_2$ 及 $D(\hat{\theta}_2)$。

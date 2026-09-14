@@ -1,0 +1,302 @@
+schema_version: '3.0'
+paper:
+  series_key: zhangyu8
+  year: 2026
+  subject: math3
+  paper_no: 3
+content_hash: bc96e1062ee4da79394c23708ea53c0d3a26f7cae878777c148a96d5bb2b18a9
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x,y)=\begin{cases}(y-e^{-1/x^2})(y-3e^{-1/x^2}),&x\ne0,\\y^2,&x=0,\end{cases}$ 则点 $(0,0)$\ExamSelection。
+  choices:
+  - label: A
+    text: 是 $f(x,x)$ 的极小值点，也是 $f(x,y)$ 的极小值点
+    figures: []
+  - label: B
+    text: 是 $f(x,x)$ 的极小值点，不是 $f(x,y)$ 的极小值点
+    figures: []
+  - label: C
+    text: 不是 $f(x,x)$ 的极小值点，是 $f(x,y)$ 的极小值点
+    figures: []
+  - label: D
+    text: 不是 $f(x,x)$ 的极小值点，也不是 $f(x,y)$ 的极小值点
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x)$ 具有二阶导数，$f'(x)>0,f''(x)<0$，记 $I_1=\int_{-\pi}^{\pi}f(x)\sin x\,\mathrm{d}x$，$I_2=\int_{-\pi}^{\pi}f(x)\cos x\,\mathrm{d}x$，则\ExamSelection。
+  choices:
+  - label: A
+    text: $I_1>0,I_2<0$
+    figures: []
+  - label: B
+    text: $I_1<0,I_2>0$
+    figures: []
+  - label: C
+    text: $I_1<0,I_2<0$
+    figures: []
+  - label: D
+    text: $I_1>0,I_2>0$
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知 $y'(x)+\dfrac{a}{x}y(x)=\dfrac{|\sin x|}{x^a}$（$x>0$）的解均有界，且 $\lim_{x\to0^+}y(x)=0$，则 $a$ 的取值范围是\ExamSelection。
+  choices:
+  - label: A
+    text: $(0,1)$
+    figures: []
+  - label: B
+    text: $(0,1]$
+    figures: []
+  - label: C
+    text: $[1,2)$
+    figures: []
+  - label: D
+    text: $(1,2]$
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $p$ 为常数，若级数 $\sum_{n=1}^{\infty}\dfrac{(\sqrt{n+1}-\sqrt n)^p}{n}$ 与 $\sum_{n=1}^{\infty}\left[\dfrac{1}{n^p}-\dfrac{1}{(n+1)^p}\right]$ 均收敛，则\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $-2<p\leq-1$
+    figures: []
+  - label: B
+    text: |-
+      $-1\leq p<0$
+    figures: []
+  - label: C
+    text: |-
+      $-1<p\leq0$
+    figures: []
+  - label: D
+    text: $p>0$
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A=\begin{pmatrix}a_{11}&a_{12}&a_{13}\\a_{21}&a_{22}&a_{23}\\a_{31}&a_{32}&a_{33}\end{pmatrix}$，$B=\begin{pmatrix}a_{21}&a_{22}&a_{23}\\a_{11}&a_{12}&a_{13}\\a_{31}+a_{11}&a_{32}+a_{12}&a_{33}+a_{13}\end{pmatrix}$，$P_1=\begin{pmatrix}0&1&0\\1&0&0\\0&0&1\end{pmatrix}$，$P_2=\begin{pmatrix}1&0&1\\0&1&0\\0&0&1\end{pmatrix}$，则\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $AP_1^{\mathrm T}P_2^{\mathrm T}=B$
+    figures: []
+  - label: B
+    text: |-
+      $AP_2^{\mathrm T}P_1^{\mathrm T}=B$
+    figures: []
+  - label: C
+    text: |-
+      $P_1^{\mathrm T}P_2^{\mathrm T}A=B$
+    figures: []
+  - label: D
+    text: |-
+      $P_2^{\mathrm T}P_1^{\mathrm T}A=B$
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 3 阶矩阵 $A,B$ 满足 $r(BA)<r(AB)$，对于以下结论：① $ABx=0$ 与 $BAx=0$ 有非零公共解；② $ABAx=0$ 与 $BABx=0$ 有非零公共解。正确的说法是\ExamSelection。
+  choices:
+  - label: A
+    text: ①正确，②正确
+    figures: []
+  - label: B
+    text: ①正确，②错误
+    figures: []
+  - label: C
+    text: ①错误，②正确
+    figures: []
+  - label: D
+    text: ①错误，②错误
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $D=\begin{vmatrix}5x&1&2&3\\x&x&1&2\\1&2&x&3\\x&1&2&2x\end{vmatrix}$，则 $D$ 的展开式中 $x^3$ 的系数与 $x^4$ 的系数分别为\ExamSelection。
+  choices:
+  - label: A
+    text: $-5,10$
+    figures: []
+  - label: B
+    text: $-5,-10$
+    figures: []
+  - label: C
+    text: $5,-10$
+    figures: []
+  - label: D
+    text: $5,10$
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $X_1,X_2,\cdots,X_{10}$ 是来自标准正态总体 $X$ 的简单随机样本，$Y=\dfrac{9}{10}\left(X_{10}-\dfrac{1}{9}\sum_{i=1}^{9}X_i\right)^2$，则 $D(Y)=$\ExamSelection。
+  choices:
+  - label: A
+    text: $1$
+    figures: []
+  - label: B
+    text: $2$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{1}{100}$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{81}{100}$
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设随机变量 $X$ 的概率分布为 $P\{X=1\}=a,P\{X=2\}=1-a$。在给定 $X=i$ 的条件下，随机变量 $Y$ 服从均匀分布 $U(0,i)$（$i=1,2$），且当 $0\leq y<1$ 时，$Y$ 的分布函数为 $F_Y(y)=\dfrac{2}{3}y$，则 $a=$\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{1}{3}$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{2}{3}$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{1}{2}$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{1}{4}$
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $(X_1,Y_1),(X_2,Y_2),\cdots,(X_n,Y_n)$ 是来自总体 $(X,Y)$ 的简单随机样本，且 $(X,Y)\sim f(x,y)=\begin{cases}\dfrac{1}{2\theta^2}e^{-\dfrac{2x+y}{2\theta}},&x>0,y>0,\\0,&\text{其他},\end{cases}$ 其中 $\theta$ 为大于 0 的参数。记 $\overline X=\dfrac{1}{n}\sum_{i=1}^{n}X_i,\overline Y=\dfrac{1}{n}\sum_{j=1}^{n}Y_j$，则 $\theta$ 的最大似然估计量 $\hat\theta$ 与 $D(\hat\theta)$ 分别为\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\overline X+\dfrac{\overline Y}{2},\dfrac{\theta^2}{4n}$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{\overline X}{2}+\dfrac{\overline Y}{4},\dfrac{\theta^2}{2n}$
+    figures: []
+  - label: C
+    text: |-
+      $\overline X+\dfrac{\overline Y}{2},\dfrac{\theta^2}{2n}$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{\overline X}{2}+\dfrac{\overline Y}{4},\dfrac{\theta^2}{4n}$
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $y=\ln\sqrt{\dfrac{1-x}{1+x^2}}$，则 $y'|_{x=0}=$\ExamBlank。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      微分方程 $y'=(x+1)\sec y-\tan y$ 的通解为\ExamBlank。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $D$ 是第一象限内在曲线 $y=4x^2$ 与 $y=9x^2$ 之间的区域，则 $\iint_D xe^{-y^2}\,\mathrm{d}x\mathrm{d}y=$\ExamBlank。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)=\dfrac{1+x+x^2}{1-x+x^2}$，则 $f^{(4)}(0)=$\ExamBlank。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $A=\begin{pmatrix}a&2&0\\0&4&0\\0&1&1\end{pmatrix}$ 与 $B=\begin{pmatrix}2&b&c\\c&2&b\\b&c&2\end{pmatrix}$ 相似，则实向量 $(a,b,c)=$\ExamBlank。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设有 40 个盒子，100 个球，每个球等可能地放入任一盒子中，则指定某一个盒子中最有可能出现的球的个数为\ExamBlank。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      求曲线 $y=x^3\left(e^{1/x}+e^{-1/x}-2\right)$ 的全部渐近线。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      求函数 $f(x,y)=x^2\left(2x^2-4y-\dfrac{1}{7}x^5\right)+y^2$ 的极值。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $f(x)$ 在 $[0,1]$ 上二阶可导，$|f''(x)|\leq M,x\in[0,1],M>0,f(0)=f(1)=0$。证明：
+  subparts:
+  - text: |-
+      $|f'(x)|\leq\dfrac{M}{2},x\in[0,1]$；
+  - text: |-
+      若 $f\left(\dfrac{1}{2}\right)=0$，则 $|f'(x)|<\dfrac{M}{2},x\in[0,1]$。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      计算 $\iint_D\dfrac{2x+y}{x^{3/2}}\,\mathrm{d}x\mathrm{d}y$，其中 $D$ 是抛物线 $y^2=2x$ 和直线 $x+y=4$，$x+y=12$ 所围成的区域。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $f(\boldsymbol{x})=(\boldsymbol{\alpha}^{\mathrm T}\boldsymbol{x})^2+k(\boldsymbol{\beta}^{\mathrm T}\boldsymbol{x})^2$ 的二次型矩阵的迹为 3，其中 $\boldsymbol{\alpha}=\left(\dfrac{1}{\sqrt2},0,-\dfrac{1}{\sqrt2}\right)^{\mathrm T}$，$\boldsymbol{\beta}=\left(\dfrac{1}{\sqrt3},\dfrac{1}{\sqrt3},\dfrac{1}{\sqrt3}\right)^{\mathrm T}$，$\boldsymbol{x}=(x_1,x_2,x_3)^{\mathrm T}$。
+  subparts:
+  - text: |-
+      求 $k$ 的值，并求正交矩阵 $Q$，将 $f(\boldsymbol{x})$ 化为标准形；
+  - text: |-
+      求一个实对称矩阵 $P$，使 $f(\boldsymbol{x})=(P\boldsymbol{x})^{\mathrm T}P\boldsymbol{x}$。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设随机变量 $X\sim U(0,1)$，当 $X=x$ 时，$Y\sim B(2,x)$，求：
+  subparts:
+  - text: |-
+      $P\{Y=k\mid X=x\},k=0,1,2$；
+  - text: |-
+      $\rho_{XY}$。

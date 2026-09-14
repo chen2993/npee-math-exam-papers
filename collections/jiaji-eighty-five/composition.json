@@ -1,0 +1,183 @@
+{
+  "schema_version": "2.0",
+  "composition_id": "jiaji-eighty-five",
+  "metadata": {
+    "title": "贾基八十五套卷",
+    "subtitle": null,
+    "year": 2027,
+    "subject_scope": ["math1", "math2", "math3"],
+    "revision": 1,
+    "notes": "正式组卷包。"
+  },
+  "catalog": {
+    "sources": [
+      {"id": "chaoyue10"},
+      {"id": "euclid3"},
+      {"id": "lilin6"},
+      {"id": "liyanfang3"},
+      {"id": "yubingsen5"},
+      {"id": "zhangyu4"},
+      {"id": "zhangyu8"}
+    ]
+  },
+  "document": {
+    "cover": {
+      "enabled": true,
+      "kind": "tex",
+      "path": "cover.tex",
+      "preamble": "cover-preamble.tex",
+      "bookmark_title": "封面",
+      "number_pages": false
+    },
+    "opening": {
+      "show": true,
+      "candidate_info": false,
+      "notices": false
+    },
+    "toc": {
+      "enabled": true,
+      "title": "目录",
+      "include_groups": true,
+      "include_papers": true
+    },
+    "layout": "both",
+    "theme": "print",
+    "spacing": "both",
+    "hooks": {
+      "before_collection": ["hook-before-collection.tex"]
+    },
+    "solution": {
+      "structure": "pair-first",
+      "pair_count": 2
+    }
+  },
+  "groups": [
+    {
+      "id": "beginner",
+      "title": "入门",
+      "order_index": 1,
+      "papers": [
+        {"year": 2024, "subject": "$subject", "series_key": "yubingsen5", "paper_no": 1, "bookmark_title": "2024余炳森五套卷第1套", "display_title": "2024余炳森五套卷第1套"},
+        {"year": 2024, "subject": "$subject", "series_key": "yubingsen5", "paper_no": 2, "bookmark_title": "2024余炳森五套卷第2套", "display_title": "2024余炳森五套卷第2套"},
+        {"year": 2024, "subject": "$subject", "series_key": "yubingsen5", "paper_no": 3, "bookmark_title": "2024余炳森五套卷第3套", "display_title": "2024余炳森五套卷第3套"},
+        {"year": 2024, "subject": "$subject", "series_key": "yubingsen5", "paper_no": 4, "bookmark_title": "2024余炳森五套卷第4套", "display_title": "2024余炳森五套卷第4套"},
+        {"year": 2024, "subject": "$subject", "series_key": "yubingsen5", "paper_no": 5, "bookmark_title": "2024余炳森五套卷第5套", "display_title": "2024余炳森五套卷第5套"},
+        {"year": 2024, "subject": "$subject", "series_key": "zhangyu8", "paper_no": 1, "bookmark_title": "2024张宇八套卷第1套", "display_title": "2024张宇八套卷第1套"},
+        {"year": 2024, "subject": "$subject", "series_key": "zhangyu8", "paper_no": 2, "bookmark_title": "2024张宇八套卷第2套", "display_title": "2024张宇八套卷第2套"},
+        {"year": 2024, "subject": "$subject", "series_key": "zhangyu8", "paper_no": 3, "bookmark_title": "2024张宇八套卷第3套", "display_title": "2024张宇八套卷第3套"},
+        {"year": 2024, "subject": "$subject", "series_key": "zhangyu8", "paper_no": 4, "bookmark_title": "2024张宇八套卷第4套", "display_title": "2024张宇八套卷第4套"},
+        {"year": 2024, "subject": "$subject", "series_key": "zhangyu8", "paper_no": 5, "bookmark_title": "2024张宇八套卷第5套", "display_title": "2024张宇八套卷第5套"},
+        {"year": 2024, "subject": "$subject", "series_key": "zhangyu8", "paper_no": 6, "bookmark_title": "2024张宇八套卷第6套", "display_title": "2024张宇八套卷第6套"},
+        {"year": 2024, "subject": "$subject", "series_key": "zhangyu8", "paper_no": 7, "bookmark_title": "2024张宇八套卷第7套", "display_title": "2024张宇八套卷第7套"},
+        {"year": 2024, "subject": "$subject", "series_key": "zhangyu8", "paper_no": 8, "bookmark_title": "2024张宇八套卷第8套", "display_title": "2024张宇八套卷第8套"},
+        {"year": 2025, "subject": "$subject", "series_key": "yubingsen5", "paper_no": 1, "bookmark_title": "2025余炳森五套卷第1套", "display_title": "2025余炳森五套卷第1套"},
+        {"year": 2025, "subject": "$subject", "series_key": "yubingsen5", "paper_no": 2, "bookmark_title": "2025余炳森五套卷第2套", "display_title": "2025余炳森五套卷第2套"},
+        {"year": 2025, "subject": "$subject", "series_key": "yubingsen5", "paper_no": 3, "bookmark_title": "2025余炳森五套卷第3套", "display_title": "2025余炳森五套卷第3套"},
+        {"year": 2025, "subject": "$subject", "series_key": "yubingsen5", "paper_no": 4, "bookmark_title": "2025余炳森五套卷第4套", "display_title": "2025余炳森五套卷第4套"},
+        {"year": 2025, "subject": "$subject", "series_key": "yubingsen5", "paper_no": 5, "bookmark_title": "2025余炳森五套卷第5套", "display_title": "2025余炳森五套卷第5套"},
+        {"year": 2025, "subject": "$subject", "series_key": "zhangyu4", "paper_no": 1, "bookmark_title": "2025张宇四套卷第1套", "display_title": "2025张宇四套卷第1套"},
+        {"year": 2025, "subject": "$subject", "series_key": "zhangyu4", "paper_no": 4, "bookmark_title": "2025张宇四套卷第4套", "display_title": "2025张宇四套卷第4套"},
+        {"year": 2025, "subject": "$subject", "series_key": "lilin6", "paper_no": 1, "bookmark_title": "2025李林六套卷第1套", "display_title": "2025李林六套卷第1套"},
+        {"year": 2025, "subject": "$subject", "series_key": "lilin6", "paper_no": 2, "bookmark_title": "2025李林六套卷第2套", "display_title": "2025李林六套卷第2套"},
+        {"year": 2025, "subject": "$subject", "series_key": "lilin6", "paper_no": 3, "bookmark_title": "2025李林六套卷第3套", "display_title": "2025李林六套卷第3套"},
+        {"year": 2025, "subject": "$subject", "series_key": "lilin6", "paper_no": 4, "bookmark_title": "2025李林六套卷第4套", "display_title": "2025李林六套卷第4套"},
+        {"year": 2025, "subject": "$subject", "series_key": "lilin6", "paper_no": 5, "bookmark_title": "2025李林六套卷第5套", "display_title": "2025李林六套卷第5套"},
+        {"year": 2025, "subject": "$subject", "series_key": "lilin6", "paper_no": 6, "bookmark_title": "2025李林六套卷第6套", "display_title": "2025李林六套卷第6套"},
+        {"year": 2025, "subject": "$subject", "series_key": "chaoyue10", "paper_no": 1, "bookmark_title": "2025超越十套卷第1套", "display_title": "2025超越十套卷第1套"},
+        {"year": 2026, "subject": "$subject", "series_key": "zhangyu4", "paper_no": 1, "bookmark_title": "2026张宇四套卷第1套", "display_title": "2026张宇四套卷第1套"},
+        {"year": 2026, "subject": "$subject", "series_key": "zhangyu4", "paper_no": 2, "bookmark_title": "2026张宇四套卷第2套", "display_title": "2026张宇四套卷第2套"},
+        {"year": 2026, "subject": "$subject", "series_key": "zhangyu4", "paper_no": 3, "bookmark_title": "2026张宇四套卷第3套", "display_title": "2026张宇四套卷第3套"},
+        {"year": 2026, "subject": "$subject", "series_key": "zhangyu4", "paper_no": 4, "bookmark_title": "2026张宇四套卷第4套", "display_title": "2026张宇四套卷第4套"}
+      ]
+    },
+    {
+      "id": "intermediate",
+      "title": "进阶",
+      "order_index": 2,
+      "papers": [
+        {"year": 2024, "subject": "$subject", "series_key": "chaoyue10", "paper_no": 2, "bookmark_title": "2024超越十套卷第2套", "display_title": "2024超越十套卷第2套"},
+        {"year": 2024, "subject": "$subject", "series_key": "chaoyue10", "paper_no": 3, "bookmark_title": "2024超越十套卷第3套", "display_title": "2024超越十套卷第3套"},
+        {"year": 2024, "subject": "$subject", "series_key": "chaoyue10", "paper_no": 4, "bookmark_title": "2024超越十套卷第4套", "display_title": "2024超越十套卷第4套"},
+        {"year": 2024, "subject": "$subject", "series_key": "chaoyue10", "paper_no": 5, "bookmark_title": "2024超越十套卷第5套", "display_title": "2024超越十套卷第5套"},
+        {"year": 2024, "subject": "$subject", "series_key": "chaoyue10", "paper_no": 6, "bookmark_title": "2024超越十套卷第6套", "display_title": "2024超越十套卷第6套"},
+        {"year": 2024, "subject": "$subject", "series_key": "chaoyue10", "paper_no": 7, "bookmark_title": "2024超越十套卷第7套", "display_title": "2024超越十套卷第7套"},
+        {"year": 2024, "subject": "$subject", "series_key": "chaoyue10", "paper_no": 8, "bookmark_title": "2024超越十套卷第8套", "display_title": "2024超越十套卷第8套"},
+        {"year": 2024, "subject": "$subject", "series_key": "chaoyue10", "paper_no": 9, "bookmark_title": "2024超越十套卷第9套", "display_title": "2024超越十套卷第9套"},
+        {"year": 2025, "subject": "$subject", "series_key": "chaoyue10", "paper_no": 6, "bookmark_title": "2025超越十套卷第6套", "display_title": "2025超越十套卷第6套"},
+        {"year": 2025, "subject": "$subject", "series_key": "chaoyue10", "paper_no": 7, "bookmark_title": "2025超越十套卷第7套", "display_title": "2025超越十套卷第7套"},
+        {"year": 2025, "subject": "$subject", "series_key": "chaoyue10", "paper_no": 8, "bookmark_title": "2025超越十套卷第8套", "display_title": "2025超越十套卷第8套"},
+        {"year": 2025, "subject": "$subject", "series_key": "chaoyue10", "paper_no": 9, "bookmark_title": "2025超越十套卷第9套", "display_title": "2025超越十套卷第9套"},
+        {"year": 2023, "subject": "$subject", "series_key": "zhangyu8", "paper_no": 1, "bookmark_title": "2023张宇八套卷第1套", "display_title": "2023张宇八套卷第1套"},
+        {"year": 2023, "subject": "$subject", "series_key": "zhangyu8", "paper_no": 2, "bookmark_title": "2023张宇八套卷第2套", "display_title": "2023张宇八套卷第2套"},
+        {"year": 2023, "subject": "$subject", "series_key": "zhangyu8", "paper_no": 3, "bookmark_title": "2023张宇八套卷第3套", "display_title": "2023张宇八套卷第3套"},
+        {"year": 2023, "subject": "$subject", "series_key": "zhangyu8", "paper_no": 4, "bookmark_title": "2023张宇八套卷第4套", "display_title": "2023张宇八套卷第4套"},
+        {"year": 2023, "subject": "$subject", "series_key": "zhangyu8", "paper_no": 5, "bookmark_title": "2023张宇八套卷第5套", "display_title": "2023张宇八套卷第5套"},
+        {"year": 2023, "subject": "$subject", "series_key": "zhangyu8", "paper_no": 6, "bookmark_title": "2023张宇八套卷第6套", "display_title": "2023张宇八套卷第6套"},
+        {"year": 2023, "subject": "$subject", "series_key": "zhangyu8", "paper_no": 7, "bookmark_title": "2023张宇八套卷第7套", "display_title": "2023张宇八套卷第7套"},
+        {"year": 2023, "subject": "$subject", "series_key": "zhangyu8", "paper_no": 8, "bookmark_title": "2023张宇八套卷第8套", "display_title": "2023张宇八套卷第8套"},
+        {"year": 2024, "subject": "$subject", "series_key": "zhangyu4", "paper_no": 1, "bookmark_title": "2024张宇四套卷第1套", "display_title": "2024张宇四套卷第1套"},
+        {"year": 2024, "subject": "$subject", "series_key": "zhangyu4", "paper_no": 2, "bookmark_title": "2024张宇四套卷第2套", "display_title": "2024张宇四套卷第2套"},
+        {"year": 2024, "subject": "$subject", "series_key": "zhangyu4", "paper_no": 3, "bookmark_title": "2024张宇四套卷第3套", "display_title": "2024张宇四套卷第3套"},
+        {"year": 2024, "subject": "$subject", "series_key": "zhangyu4", "paper_no": 4, "bookmark_title": "2024张宇四套卷第4套", "display_title": "2024张宇四套卷第4套"},
+        {"year": 2026, "subject": "$subject", "series_key": "zhangyu8", "paper_no": 1, "bookmark_title": "2026张宇八套卷第1套", "display_title": "2026张宇八套卷第1套"},
+        {"year": 2026, "subject": "$subject", "series_key": "zhangyu8", "paper_no": 2, "bookmark_title": "2026张宇八套卷第2套", "display_title": "2026张宇八套卷第2套"},
+        {"year": 2026, "subject": "$subject", "series_key": "zhangyu8", "paper_no": 3, "bookmark_title": "2026张宇八套卷第3套", "display_title": "2026张宇八套卷第3套"},
+        {"year": 2026, "subject": "$subject", "series_key": "zhangyu8", "paper_no": 4, "bookmark_title": "2026张宇八套卷第4套", "display_title": "2026张宇八套卷第4套"},
+        {"year": 2026, "subject": "$subject", "series_key": "zhangyu8", "paper_no": 5, "bookmark_title": "2026张宇八套卷第5套", "display_title": "2026张宇八套卷第5套"},
+        {"year": 2026, "subject": "$subject", "series_key": "zhangyu8", "paper_no": 6, "bookmark_title": "2026张宇八套卷第6套", "display_title": "2026张宇八套卷第6套"},
+        {"year": 2026, "subject": "$subject", "series_key": "zhangyu8", "paper_no": 7, "bookmark_title": "2026张宇八套卷第7套", "display_title": "2026张宇八套卷第7套"},
+        {"year": 2026, "subject": "$subject", "series_key": "zhangyu8", "paper_no": 8, "bookmark_title": "2026张宇八套卷第8套", "display_title": "2026张宇八套卷第8套"}
+      ]
+    },
+    {
+      "id": "hard",
+      "title": "难",
+      "order_index": 3,
+      "papers": [
+        {"year": 2022, "subject": "$subject", "series_key": "liyanfang3", "paper_no": 1, "bookmark_title": "2022李艳芳三套卷第1套", "display_title": "2022李艳芳三套卷第1套"},
+        {"year": 2022, "subject": "$subject", "series_key": "liyanfang3", "paper_no": 2, "bookmark_title": "2022李艳芳三套卷第2套", "display_title": "2022李艳芳三套卷第2套"},
+        {"year": 2022, "subject": "$subject", "series_key": "liyanfang3", "paper_no": 3, "bookmark_title": "2022李艳芳三套卷第3套", "display_title": "2022李艳芳三套卷第3套"},
+        {"year": 2023, "subject": "$subject", "series_key": "liyanfang3", "paper_no": 1, "bookmark_title": "2023李艳芳三套卷第1套", "display_title": "2023李艳芳三套卷第1套"},
+        {"year": 2023, "subject": "$subject", "series_key": "liyanfang3", "paper_no": 2, "bookmark_title": "2023李艳芳三套卷第2套", "display_title": "2023李艳芳三套卷第2套"},
+        {"year": 2023, "subject": "$subject", "series_key": "liyanfang3", "paper_no": 3, "bookmark_title": "2023李艳芳三套卷第3套", "display_title": "2023李艳芳三套卷第3套"},
+        {"year": 2024, "subject": "$subject", "series_key": "liyanfang3", "paper_no": 1, "bookmark_title": "2024李艳芳三套卷第1套", "display_title": "2024李艳芳三套卷第1套"},
+        {"year": 2024, "subject": "$subject", "series_key": "liyanfang3", "paper_no": 2, "bookmark_title": "2024李艳芳三套卷第2套", "display_title": "2024李艳芳三套卷第2套"},
+        {"year": 2024, "subject": "$subject", "series_key": "liyanfang3", "paper_no": 3, "bookmark_title": "2024李艳芳三套卷第3套", "display_title": "2024李艳芳三套卷第3套"},
+        {"year": 2025, "subject": "$subject", "series_key": "liyanfang3", "paper_no": 1, "bookmark_title": "2025李艳芳三套卷第1套", "display_title": "2025李艳芳三套卷第1套"},
+        {"year": 2025, "subject": "$subject", "series_key": "liyanfang3", "paper_no": 2, "bookmark_title": "2025李艳芳三套卷第2套", "display_title": "2025李艳芳三套卷第2套"},
+        {"year": 2025, "subject": "$subject", "series_key": "liyanfang3", "paper_no": 3, "bookmark_title": "2025李艳芳三套卷第3套", "display_title": "2025李艳芳三套卷第3套"},
+        {"year": 2026, "subject": "$subject", "series_key": "liyanfang3", "paper_no": 1, "bookmark_title": "2026李艳芳三套卷第1套", "display_title": "2026李艳芳三套卷第1套"},
+        {"year": 2026, "subject": "$subject", "series_key": "liyanfang3", "paper_no": 2, "bookmark_title": "2026李艳芳三套卷第2套", "display_title": "2026李艳芳三套卷第2套"},
+        {"year": 2026, "subject": "$subject", "series_key": "liyanfang3", "paper_no": 3, "bookmark_title": "2026李艳芳三套卷第3套", "display_title": "2026李艳芳三套卷第3套"},
+        {"year": 2025, "subject": "$subject", "series_key": "euclid3", "paper_no": 1, "bookmark_title": "2025欧几里得三套卷第1套", "display_title": "2025欧几里得三套卷第1套"},
+        {"year": 2025, "subject": "$subject", "series_key": "euclid3", "paper_no": 2, "bookmark_title": "2025欧几里得三套卷第2套", "display_title": "2025欧几里得三套卷第2套"},
+        {"year": 2025, "subject": "$subject", "series_key": "euclid3", "paper_no": 3, "bookmark_title": "2025欧几里得三套卷第3套", "display_title": "2025欧几里得三套卷第3套"},
+        {"year": 2026, "subject": "$subject", "series_key": "euclid3", "paper_no": 1, "bookmark_title": "2026欧几里得三套卷第1套", "display_title": "2026欧几里得三套卷第1套"},
+        {"year": 2026, "subject": "$subject", "series_key": "euclid3", "paper_no": 2, "bookmark_title": "2026欧几里得三套卷第2套", "display_title": "2026欧几里得三套卷第2套"},
+        {"year": 2026, "subject": "$subject", "series_key": "euclid3", "paper_no": 3, "bookmark_title": "2026欧几里得三套卷第3套", "display_title": "2026欧几里得三套卷第3套"},
+        {"year": 2025, "subject": "$subject", "series_key": "zhangyu8", "paper_no": 2, "bookmark_title": "2025张宇八套卷第2套", "display_title": "2025张宇八套卷第2套"},
+        {"year": 2024, "subject": "$subject", "series_key": "chaoyue10", "paper_no": 1, "bookmark_title": "2024超越十套卷第1套", "display_title": "2024超越十套卷第1套"},
+        {"year": 2025, "subject": "$subject", "series_key": "chaoyue10", "paper_no": 10, "bookmark_title": "2025超越十套卷第10套", "display_title": "2025超越十套卷第10套"},
+        {"year": 2026, "subject": "$subject", "series_key": "lilin6", "paper_no": 2, "bookmark_title": "2026李林六套卷第2套", "display_title": "2026李林六套卷第2套"},
+        {"year": 2026, "subject": "$subject", "series_key": "lilin6", "paper_no": 3, "bookmark_title": "2026李林六套卷第3套", "display_title": "2026李林六套卷第3套"},
+        {"year": 2026, "subject": "$subject", "series_key": "lilin6", "paper_no": 4, "bookmark_title": "2026李林六套卷第4套", "display_title": "2026李林六套卷第4套"}
+      ]
+    }
+  ],
+  "compile": {
+    "engine": "xelatex",
+    "passes": 3,
+    "subjects": ["math1", "math2", "math3"],
+    "targets": [
+      {"layout": "a3", "theme": "print", "spacing": "compact", "enabled": true, "answers": false, "output_suffix": null},
+      {"layout": "a3", "theme": "print", "spacing": "spaced", "enabled": true, "answers": false, "output_suffix": null},
+      {"layout": "a4", "theme": "print", "spacing": "compact", "enabled": true, "answers": false, "output_suffix": null},
+      {"layout": "a4", "theme": "print", "spacing": "spaced", "enabled": true, "answers": false, "output_suffix": null}
+    ],
+    "output": {
+      "directory": "build/output",
+      "filename_template": "[{layout}][{subject_label}][{spacing_label}] {title}.pdf",
+      "overwrite": true
+    }
+  }
+}

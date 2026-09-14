@@ -1,0 +1,311 @@
+schema_version: '3.0'
+paper:
+  series_key: euclid3
+  year: 2025
+  subject: math2
+  paper_no: 1
+content_hash: ea7fd4a2b348f2b141eba701cda5c90e5b3b6e02bce2fe0500dfedfcca281f4d
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x)=\lim_{a\to0}\dfrac{x^{a+1}}{\ln|x|-\mathrm{e}^{2x}-1}$，则函数 $\int_0^x f(t)\,\mathrm{d}t$ 不可导点的个数为\ExamSelection
+  choices:
+  - label: A
+    text: $0$
+    figures: []
+  - label: B
+    text: $1$
+    figures: []
+  - label: C
+    text: $2$
+    figures: []
+  - label: D
+    text: $3$
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知动点 $P$ 在函数 $y=y(x)$ 上运动，记原点到 $P$ 之间的距离为 $l$。若 $P$ 点横坐标对时间的变化率为常数 $v_0$，当 $P$ 运动到 $x=2$ 处时，该点切线为 $y=3x+2$，则此时 $l$ 对时间 $t$ 的变化率是\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{5\sqrt{17}}{17}v_0$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{5\sqrt{2}}{2}v_0$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{13\sqrt{17}}{17}v_0$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{13\sqrt{2}}{2}v_0$
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知函数 $f(x,y)=\begin{cases}(1+x^2+y^2)^{\dfrac{xy}{x^2+y^2}},&(x,y)\ne(0,0),\\1,&(x,y)=(0,0),\end{cases}$，则 $f(x,y)$ 在 $(0,0)$ 处\ExamSelection
+  choices:
+  - label: A
+    text: 不连续
+    figures: []
+  - label: B
+    text: 连续，但偏导数不存在
+    figures: []
+  - label: C
+    text: 连续且偏导数存在，但不可微
+    figures: []
+  - label: D
+    text: 可微
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)=\int_0^x\dfrac{\sin t}{\pi-t}\,\mathrm{d}t$，$\bar f$ 是 $f(x)$ 在 $[0,\pi]$ 上的平均值，则\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{1}{2}f(\pi)<\bar f<f\left(\dfrac{\pi}{2}\right)$
+    figures: []
+  - label: B
+    text: |-
+      $f\left(\dfrac{\pi}{2}\right)<\bar f<\dfrac{1}{2}f(\pi)$
+    figures: []
+  - label: C
+    text: |-
+      $\bar f<f\left(\dfrac{\pi}{2}\right)<\dfrac{1}{2}f(\pi)$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{1}{2}f(\pi)<f\left(\dfrac{\pi}{2}\right)<\bar f$
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)$ 在 $(-\infty,+\infty)$ 上有定义，对任意 $x,y$ 恒有 $f(x+y)=\dfrac{f(x)}{\mathrm{e}^y}+\dfrac{f(y)}{\mathrm{e}^x}$，又 $f(x)$ 在点 $x=0$ 处可导，且 $f'(0)=1$，则 $f(x)$ 的极大值为\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\mathrm{e}$
+    figures: []
+  - label: B
+    text: |-
+      $\mathrm{e}^{-1}$
+    figures: []
+  - label: C
+    text: $1$
+    figures: []
+  - label: D
+    text: $-1$
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x,y)$ 是连续函数，则 $\int_0^1\mathrm{d}x\int_{-2\sqrt{x}}^{\sqrt{2x-x^2}}f(x,y)\,\mathrm{d}y=$\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\int_{-1}^{-2}\mathrm{d}y\int_{\dfrac{y^2}{4}}^1f(x,y)\,\mathrm{d}x+\int_0^{-1}\mathrm{d}y\int_{\dfrac{y^2}{4}}^{1+\sqrt{1-y^2}}f(x,y)\,\mathrm{d}x$
+    figures: []
+  - label: B
+    text: |-
+      $\int_{-2}^{-1}\mathrm{d}y\int_{\dfrac{y^2}{4}}^1f(x,y)\,\mathrm{d}x+\int_{-1}^0\mathrm{d}y\int_{\dfrac{y^2}{4}}^{1+\sqrt{1-y^2}}f(x,y)\,\mathrm{d}x$
+    figures: []
+  - label: C
+    text: |-
+      $\int_{-\dfrac{\pi}{2}}^{-\arctan\dfrac{1}{2}}\mathrm{d}\theta\int_{2\cos\theta}^{4\cot\theta\csc\theta}f(r\cos\theta,r\sin\theta)r\,\mathrm{d}r+\int_{-\arctan\dfrac{1}{2}}^{-\dfrac{\pi}{4}}\mathrm{d}\theta\int_{2\cos\theta}^{\sec\theta}f(r\cos\theta,r\sin\theta)r\,\mathrm{d}r$
+    figures: []
+  - label: D
+    text: |-
+      $\int_{-\dfrac{\pi}{2}}^{-\arctan2}\mathrm{d}\theta\int_{2\cos\theta}^{4\cot\theta\csc\theta}f(r\cos\theta,r\sin\theta)r\,\mathrm{d}r+\int_{-\arctan2}^{-\dfrac{\pi}{4}}\mathrm{d}\theta\int_{2\cos\theta}^{\sec\theta}f(r\cos\theta,r\sin\theta)r\,\mathrm{d}r$
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设非负函数 $f(x)$ 在 $(0,+\infty)$ 上连续，$x=0$ 为 $f(x)$ 的瑕点，则下列命题中正确的是\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      若 $\int_0^1f(x)\,\mathrm{d}x$ 收敛，则 $\int_0^1f^2(x)\,\mathrm{d}x$ 收敛
+    figures: []
+  - label: B
+    text: |-
+      若 $\int_0^1f^2(x)\,\mathrm{d}x$ 收敛，则 $\int_0^1f(x)\,\mathrm{d}x$ 收敛
+    figures: []
+  - label: C
+    text: |-
+      若 $\int_0^{+\infty}f(x)\,\mathrm{d}x$ 收敛，则 $\int_0^{+\infty}f^2(x)\,\mathrm{d}x$ 收敛
+    figures: []
+  - label: D
+    text: |-
+      若 $\int_0^{+\infty}f^2(x)\,\mathrm{d}x$ 收敛，则 $\int_0^{+\infty}f(x)\,\mathrm{d}x$ 收敛
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设有两个方程组 $\text{（I）}\begin{cases}x_1+x_2+2x_3+x_4=2,\\2x_1+3x_2+5x_3+4x_4=2b,\\x_2+x_4=b-4,\end{cases}$，$\text{（II）}\begin{cases}x_1+x_2-x_4=2,\\3x_1+4x_2+2x_3=2,\\5x_1+6x_2+(a+4)x_3+ax_4=6.\end{cases}$ 若方程组（I）的解均是（II）的解，但（I）与（II）有不同解，则\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $a=5\text{，}b=0$
+    figures: []
+  - label: B
+    text: |-
+      $a=5\text{，}b=4$
+    figures: []
+  - label: C
+    text: |-
+      $a=-2\text{，}b=0$
+    figures: []
+  - label: D
+    text: |-
+      $a=-2\text{，}b=4$
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A,B,C$ 为 $n$ 阶矩阵，则“$\begin{bmatrix}A&O\\C&B\end{bmatrix}$ 为正交矩阵”是“$A,B$ 均为正交矩阵”的\ExamSelection
+  choices:
+  - label: A
+    text: 充分不必要条件
+    figures: []
+  - label: B
+    text: 必要不充分条件
+    figures: []
+  - label: C
+    text: 充要条件
+    figures: []
+  - label: D
+    text: 既不充分也不必要条件
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      二次型 $f(x_1,x_2,x_3,x_4)=2\sum_{i=1}^4x_i^2-2\sum_{1\leq i<j\leq4}x_ix_j$ 的正惯性指数为\ExamSelection
+  choices:
+  - label: A
+    text: $1$
+    figures: []
+  - label: B
+    text: $2$
+    figures: []
+  - label: C
+    text: $3$
+    figures: []
+  - label: D
+    text: $4$
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      曲线 $\begin{cases}x=\arctan t,\\y=\ln(1+t^2)\end{cases}$ 在 $t=0$ 对应点处的曲率圆方程为\ExamBlank。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $f(x,y)=(4x-x^2)(2y-y^2)$ 的极大值为\ExamBlank。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      微分方程 $y''(y'-x+1)=1$ 满足 $y'(0)=0\text{，}y(1)=\dfrac{3}{2}$ 的解为\ExamBlank。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      曲线 $x^2(\ln y-\ln x)=y$ 的斜渐近线方程为\ExamBlank。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设连续函数 $f(x)$ 满足 $f(x+3)-f(x)=\int_x^{x+3}\dfrac{1}{u\mathrm{e}^u}\,\mathrm{d}u\text{，}\int_0^3f(x)\,\mathrm{d}x=1$，则 $\int_1^4f(x)\,\mathrm{d}x=$\ExamBlank。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $3$ 阶矩阵 $A\text{、}B$，若 $|AB|=6\text{，}AB$ 的每一行元素之和为 $1\text{，}|BA-2E|=0$，则 $|BA+2E|=$\ExamBlank。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      \relax
+  subparts:
+  - text: |-
+      当 $x>0$ 时，证明不等式 $\dfrac{x}{1+x}<\ln(1+x)<x$；
+  - text: |-
+      求极限 $\lim_{n\to\infty}\dfrac{(n^2+1)(n^2+2)\cdots(n^2+n)}{(n^2-1)(n^2-2)\cdots(n^2-n)}$。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设曲线方程为 $y=\sqrt{x}\mathrm{e}^{-\dfrac{x}{2}}$，现将另一曲线 $y=k\sqrt{x}\left(\dfrac{1}{\mathrm{e}}<k<1\right)$ 与该曲线围成的图形绕 $x$ 轴旋转一周所形成的旋转体体积记为 $V_1$，将曲线 $y=k\sqrt{x}$，$y=\sqrt{x}\mathrm{e}^{-\dfrac{x}{2}}$ 与直线 $x=2$ 围成的图形绕 $x$ 轴旋转一周所形成的旋转体体积记为 $V_2$，令 $V=V_1+V_2$，试求 $k$ 的值，使 $V$ 取得最小值。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      已知平面区域 $D=\{(x,y)\mid x^2+y^2\leq2(x+y)\text{，}x+y\geq2\}$，计算二重积分 $I=\iint_D|x^2-y^2|\,\mathrm{d}x\mathrm{d}y$。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 $f(x)=\mathrm{e}^{x^2}\int_x^{+\infty}\mathrm{e}^{-t^2}\,\mathrm{d}t$。证明：
+  subparts:
+  - text: |-
+      $f(x)$ 在 $[0,+\infty)$ 上有界；
+  - text: |-
+      方程 $f(x)=x$ 在 $(0,+\infty)$ 上有且仅有一个实根。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $f(x,y)$ 在 $D=\{(x,y)\mid x^2+y^2\leq1\}$ 上具有连续的偏导数，且在边界上的取值为 $0$。设对任意的 $t>0$，均有 $f(tx,ty)=tf(x,y)$ 且 $f(0,0)=1$。
+  subparts:
+  - text: 证明：$xf'_x(x,y)+yf'_y(x,y)=f(x,y)$。
+  - text: |-
+      计算 $\lim_{\varepsilon\to+0}\iint_{D_\varepsilon}\dfrac{f(x,y)}{x^2+y^2}\,\mathrm{d}x\mathrm{d}y$，其中 $D_\varepsilon=\{(x,y)\mid\varepsilon^2\leq x^2+y^2\leq1\}$。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $x_i$ 为三维列向量 $(i=1,2,\cdots)$，$A=\begin{bmatrix}2&a&0\\a^2&2&0\\0&0&a\end{bmatrix}$ 是二次型 $f_1(x_1)=x_1^{\mathrm{T}}Ax_1$ 的矩阵，且二次型 $f_n(x_n)$ 经可逆线性变换 $x_n=Ax_{n+1}$ 化为二次型 $f_{n+1}(x_{n+1})$ $(n=1,2,\cdots)$。
+  subparts:
+  - text: 求 $a$ 的值；
+  - text: 求 $A^n$；
+  - text: |-
+      若 $x=\begin{pmatrix}5\\-5\\10\end{pmatrix}$，求 $f_{2025}(x)$。

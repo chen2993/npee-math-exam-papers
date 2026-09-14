@@ -1,0 +1,305 @@
+schema_version: '3.0'
+paper:
+  series_key: zhangyu8
+  year: 2025
+  subject: math3
+  paper_no: 1
+content_hash: c54d83eb8b459e4350c3fd26eda196614327d8cb9ac75525a9c1babbc939b099
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x)$ 在区间 $(-1,1)$ 内有定义，且在点 $x=0$ 处连续，则以下结论：$(1)$ 当 $\lim_{x\to0}\dfrac{f(x)}{\sqrt[3]{x}}=0$ 时，$f(x)$ 在点 $x=0$ 处可导；$(2)$ 当 $\lim_{x\to0}\dfrac{f(x)}{x^2}=0$ 时，$f(x)$ 在点 $x=0$ 处可导；$(3)$ 当 $f(x)$ 在点 $x=0$ 处可导时，$\lim_{x\to0}\dfrac{f(x)}{\sqrt[3]{x}}=0$。所有正确结论的序号为\ExamSelection。
+  choices:
+  - label: A
+    text: $(1)$
+    figures: []
+  - label: B
+    text: $(2)$
+    figures: []
+  - label: C
+    text: $(2)(3)$
+    figures: []
+  - label: D
+    text: $(1)(2)$
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设正项数列 $\{a_n\},\{b_n\},\{c_n\}$，则“$\sum_{n=1}^{\infty}\dfrac{a_n}{c_n}$ 与 $\sum_{n=1}^{\infty}\dfrac{c_n}{b_n}$ 均收敛”是“$\sum_{n=1}^{\infty}\dfrac{a_n}{b_n}$ 收敛”的\ExamSelection。
+  choices:
+  - label: A
+    text: 充分非必要条件
+    figures: []
+  - label: B
+    text: 必要非充分条件
+    figures: []
+  - label: C
+    text: 充要条件
+    figures: []
+  - label: D
+    text: 既非充分又非必要条件
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      函数 $f(x,y)=x+4y$ 在条件 $\dfrac{x^2}{2}-x+y^2=1$ 下的最大值是\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $2+2\sqrt{2}$
+    figures: []
+  - label: B
+    text: |-
+      $1+3\sqrt{2}$
+    figures: []
+  - label: C
+    text: |-
+      $2+2\sqrt{3}$
+    figures: []
+  - label: D
+    text: |-
+      $1+3\sqrt{3}$
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      函数 $f(x)=\dfrac{\ln|1-x|}{(\mathrm{e}^x-1)(x+2)}$ 的第二类间断点的个数为\ExamSelection。
+  choices:
+  - label: A
+    text: $0$
+    figures: []
+  - label: B
+    text: $1$
+    figures: []
+  - label: C
+    text: $2$
+    figures: []
+  - label: D
+    text: $3$
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 为 $3$ 阶矩阵，若 $|E-A|=-2,|-E-A|=2,|2E-A|=3$，则 $|3E-A|=$\ExamSelection。
+  choices:
+  - label: A
+    text: $21$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{62}{3}$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{64}{3}$
+    figures: []
+  - label: D
+    text: $20$
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A=\begin{pmatrix}-1&2\\2&-3\\-1&3\end{pmatrix},\boldsymbol{b}=\begin{pmatrix}4\\1\\2\end{pmatrix}$，若对任意 $2$ 维实列向量 $\boldsymbol{x}$，均有 $\|\boldsymbol{b}-A\boldsymbol{x}_0\|\leq\|\boldsymbol{b}-A\boldsymbol{x}\|$，则 $\boldsymbol{x}_0=$\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\begin{pmatrix}-3\\-2\end{pmatrix}$
+    figures: []
+  - label: B
+    text: |-
+      $\begin{pmatrix}3\\-2\end{pmatrix}$
+    figures: []
+  - label: C
+    text: |-
+      $\begin{pmatrix}-3\\2\end{pmatrix}$
+    figures: []
+  - label: D
+    text: |-
+      $\begin{pmatrix}3\\2\end{pmatrix}$
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $\boldsymbol{\alpha}_1=\begin{pmatrix}1\\-1\\a\end{pmatrix},\boldsymbol{\alpha}_2=\begin{pmatrix}-1\\0\\1\end{pmatrix},\boldsymbol{\alpha}_3=\begin{pmatrix}1\\b\\1\end{pmatrix}$ 是 $3$ 阶实矩阵 $A$ 的 $3$ 个互异特征值的特征向量，则“$(a,b)=(1,2)$”是“A 为对称矩阵”的\ExamSelection。
+  choices:
+  - label: A
+    text: 充要条件
+    figures: []
+  - label: B
+    text: 充分非必要条件
+    figures: []
+  - label: C
+    text: 必要非充分条件
+    figures: []
+  - label: D
+    text: 既非充分又非必要条件
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设随机变量 $X_1,X_2,X_3$ 的概率密度图像分别如图（a），图（b），图（c）所示，则\ExamSelection。
+    figures:
+    - kind: tikz
+      latex: |-
+        \begin{tikzpicture}[x=1.1cm,y=1.1cm,>=stealth]\draw[->] (-1.5,0)--(1.5,0) node[right] {$x$};\draw[->] (0,-0.1)--(0,1.35) node[above] {$f_1(x)$};\draw (-1,0)--(0,1)--(1,0);\node[below] at (-1,0) {$-1$};\node[below] at (0,0) {$0$};\node[below] at (1,0) {$1$};\end{tikzpicture}\quad\begin{tikzpicture}[x=1.1cm,y=1.1cm,>=stealth]\draw[->] (-1.5,0)--(1.5,0) node[right] {$x$};\draw[->] (0,-0.1)--(0,1.35) node[above] {$f_2(x)$};\draw[dashed] (-1,0)--(-1,0.85);\draw[dashed] (1,0)--(1,0.85);\draw (-1,0.85)--(1,0.85);\draw[fill=white] (-1,0.85) circle (0.06);\draw[fill=white] (1,0.85) circle (0.06);\node[below] at (-1,0) {$-1$};\node[below] at (0,0) {$0$};\node[below] at (1,0) {$1$};\end{tikzpicture}\quad\begin{tikzpicture}[x=1.1cm,y=1.1cm,>=stealth]\draw[->] (-1.5,0)--(1.5,0) node[right] {$x$};\draw[->] (0,-0.1)--(0,1.35) node[above] {$f_3(x)$};\draw[dashed] (-1,0)--(-1,0.85);\draw[dashed] (1,0)--(1,0.85);\draw (-1,0.85)--(0,0)--(1,0.85);\draw[fill=white] (-1,0.85) circle (0.06);\draw[fill=white] (1,0.85) circle (0.06);\node[below] at (-1,0) {$-1$};\node[below] at (0,0) {$0$};\node[below] at (1,0) {$1$};\end{tikzpicture}
+      path:
+      description: 三个概率密度函数图像：三角形、区间均匀分布和V形图像
+      exception_reason:
+  choices:
+  - label: A
+    text: $D(X_1)<D(X_2)<D(X_3)$
+    figures: []
+  - label: B
+    text: $D(X_1)<D(X_3)<D(X_2)$
+    figures: []
+  - label: C
+    text: $D(X_2)<D(X_1)<D(X_3)$
+    figures: []
+  - label: D
+    text: $D(X_2)<D(X_3)<D(X_1)$
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设总体 $X\sim U(a,b),a,b$ 为未知参数。$X_1,X_2,\cdots,X_n(n>1)$ 为来自总体 $X$ 的简单随机样本，$X_{(1)}=\min\{X_1,X_2,\cdots,X_n\},X_{(n)}=\max\{X_1,X_2,\cdots,X_n\},\overline{X}=\dfrac{1}{n}\sum_{i=1}^nX_i,S_1^2=\dfrac{1}{n}\sum_{i=1}^n(X_i-\overline{X})^2$，令 $L=b-a$，则 $L$ 的矩估计量与最大似然估计量分别为\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\overline{X}+\sqrt{3}S_1,X_{(n)}-X_{(1)}$
+    figures: []
+  - label: B
+    text: |-
+      $\overline{X}+\sqrt{3}S_1,\dfrac{X_{(n)}-X_{(1)}}{2}$
+    figures: []
+  - label: C
+    text: |-
+      $2\sqrt{3}S_1,X_{(n)}-X_{(1)}$
+    figures: []
+  - label: D
+    text: |-
+      $2\sqrt{3}S_1,\dfrac{X_{(n)}-X_{(1)}}{2}$
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设在条件 $X=x$ 下，$Y$ 服从正态分布 $N(x,x^2)$，$X$ 的边缘分布为 $U(0,1)$，则 $X,Y$ 的相关系数为\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{\sqrt{5}}{12}$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{\sqrt{5}}{5}$
+    figures: []
+  - label: C
+    text: |-
+      $-\dfrac{\sqrt{5}}{12}$
+    figures: []
+  - label: D
+    text: |-
+      $-\dfrac{\sqrt{5}}{5}$
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $\lim_{x\to\infty}(x^{\dfrac{2}{x}}-1)^{\dfrac{2}{\ln x}}=$\ExamBlank。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      微分方程 $\dfrac{\mathrm{d}y}{\mathrm{d}x}=\dfrac{x+2y-3}{x+1}$ 满足 $y(0)=2$ 的解为\ExamBlank。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      已知 $\int_a^{2\ln 2}\dfrac{\mathrm{d}x}{\sqrt{\mathrm{e}^x-1}}=\dfrac{\pi}{6}$，则 $a=$\ExamBlank。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)=\int_0^{x-1}\ln(x+t+1)\,\mathrm{d}t$，则 $f^{(5)}(1)=$\ExamBlank。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      已知 $A,B$ 均为 $4$ 阶矩阵，$r(AA^{\mathrm{T}})=3,|AB|=\begin{vmatrix}2&a&0&-a\\-a&2&-5&b\\b&0&b&-2\\0&-2&4&0\end{vmatrix}$ 且 $\begin{vmatrix}2&a&-a\\-a&2&b\\b&0&-2\end{vmatrix}=5$，则 $\begin{vmatrix}-a&-5&b\\2&0&-a\\b&b&-2\end{vmatrix}=$\ExamBlank。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设甲、乙两种检验设备均有 $90\%$ 的正确检出率且相互独立，现有一批合格率为 $10\%$ 的产品，从中任取一件产品，经两种检验设备检验均为合格，则该产品是合格品的概率为\ExamBlank。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      若曲线 $y=\dfrac{1}{\mathrm{e}^x-1}$ 与 $y=\dfrac{1}{x}+k$ 在第一象限相交，求 $k$ 的取值范围。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      求不定积分 $\int\dfrac{\mathrm{d}x}{(\sqrt{x}+1)(x+3)}$。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 $f(x)$ 是 $[0,1]$ 上的连续函数，$\int_0^1f(x)\,\mathrm{d}x=0,\int_0^1xf(x)\,\mathrm{d}x=1$。记 $M=\max_{x\in[0,1]}|f(x)|$，证明：
+  subparts:
+  - text: |-
+      $\left|\int_0^1\left(x-\dfrac{1}{2}\right)f(x)\,\mathrm{d}x\right|\leq\dfrac{M}{4}$
+  - text: $M>4$
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设平面有界区域 $D$ 是由曲线 $2x^2+y^2=2\sqrt{x^2+y^2}$ 与坐标轴围成的第一象限的部分，计算 $\iint_D\dfrac{1}{\sqrt{1-x^2}}\,\mathrm{d}\sigma$。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设矩阵 $A=\begin{pmatrix}a&0&-2\\1&a&-1\\-1&-1&a\end{pmatrix},B=\begin{pmatrix}a-1&1&0\\0&a-1&0\\0&0&a+2\end{pmatrix}$。
+  subparts:
+  - text: $A$ 能否相似对角化？说明理由；
+  - text: 是否存在可逆矩阵 $P$，使得 $P^{-1}AP=B$？若存在，求出所有的 $P$，若不存在，说明理由。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设随机变量 $X$ 满足 $P\{X>x\}=\left(\dfrac{a}{x}\right)^k$，其中 $a$ 为 $x$ 的最小值，且 $a>0,k$ 为大于 $0$ 的常数。
+  subparts:
+  - text: 求 $X$ 的概率密度；
+  - text: $X$ 的数学期望、方差是否存在？说明理由。

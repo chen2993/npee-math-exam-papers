@@ -1,0 +1,306 @@
+schema_version: '3.0'
+paper:
+  series_key: lilin6
+  year: 2025
+  subject: math3
+  paper_no: 1
+content_hash: 82c56dcba44cd3e2caa1b3c898e6a0d1516d3c007f762219764aaede8222b78c
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)=\lim_{n\to\infty}\dfrac{2x^{2n}-1}{x^{2n}+1}\sin\dfrac{1}{x}$，则 $f(x)$ 的第一类间断点的个数为\ExamSelection。
+  choices:
+  - label: A
+    text: $0$
+    figures: []
+  - label: B
+    text: $1$
+    figures: []
+  - label: C
+    text: $2$
+    figures: []
+  - label: D
+    text: $3$
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x,y)=\begin{cases}\dfrac{x^2+y^2}{x^2+y^4}\sin(xy^2),&x^2+y^2\ne0,\\0,&x^2+y^2=0,\end{cases}$ 则正确的是\ExamSelection。
+  choices:
+  - label: A
+    text: $f''_{xy}(0,0)$ 存在，$f''_{yx}(0,0)$ 存在
+    figures: []
+  - label: B
+    text: $f''_{xy}(0,0)$ 不存在，$f''_{yx}(0,0)$ 存在
+    figures: []
+  - label: C
+    text: $f''_{xy}(0,0)$ 存在，$f''_{yx}(0,0)$ 不存在
+    figures: []
+  - label: D
+    text: $f''_{xy}(0,0)$ 不存在，$f''_{yx}(0,0)$ 不存在
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)$ 有一阶连续导数，且 $\lim_{x\to0}\dfrac{f(x)}{x}=1$，$a_n=f\left(\dfrac{1}{n}\right)$（$n=1,2,\cdots$），则\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\sum_{n=1}^{\infty}(-1)^{n-1}a_n$ 收敛，$\sum_{n=1}^{\infty}a_n$ 收敛
+    figures: []
+  - label: B
+    text: |-
+      $\sum_{n=1}^{\infty}(-1)^{n-1}a_n$ 发散，$\sum_{n=1}^{\infty}a_n^2$ 收敛
+    figures: []
+  - label: C
+    text: |-
+      $\sum_{n=1}^{\infty}(-1)^{n-1}a_n$ 发散，$\sum_{n=1}^{\infty}a_n$ 收敛
+    figures: []
+  - label: D
+    text: |-
+      $\sum_{n=1}^{\infty}(-1)^{n-1}a_n$ 收敛，$\sum_{n=1}^{\infty}a_n^2$ 收敛
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $y_1=\mathrm{e}^{-x}$，$y_2=2x$ 是常系数齐次线性微分方程 $y'''+ay''+by'+cy=0$ 的两个解，则该方程的通解可为\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $c_1\mathrm{e}^{-x}+c_2\mathrm{e}^x+c_3x$
+    figures: []
+  - label: B
+    text: |-
+      $c_1\mathrm{e}^{-x}+c_2+c_3x$
+    figures: []
+  - label: C
+    text: |-
+      $c_1\mathrm{e}^{-x}+c_2\mathrm{e}^x+c_3$
+    figures: []
+  - label: D
+    text: |-
+      $c_1\mathrm{e}^{-x}+c_2x\mathrm{e}^x+c_3$
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $n$ 阶非零实矩阵 $A$ 满足 $A^{\mathrm{T}}+A=O$，$X$ 为 $n$ 维实列向量，则正确的是\ExamSelection。
+  choices:
+  - label: A
+    text: 方程组 $AX=X$ 有无穷多解
+    figures: []
+  - label: B
+    text: 方程组 $AX=-X$ 有无穷多解
+    figures: []
+  - label: C
+    text: 方程组 $AX=X$ 只有零解
+    figures: []
+  - label: D
+    text: 方程组 $AX=-X$ 无解
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 3 维列向量 $\alpha_1,\alpha_2,\alpha_3$ 线性无关，3 阶矩阵 $A$ 满足 $A\alpha_1=\alpha_1$，$A\alpha_2=\alpha_2-\alpha_3$，$A\alpha_3=\alpha_3-\alpha_1$，则 $A$ 的伴随矩阵 $A^*$ 的迹 $\operatorname{tr}(A^*)=$\ExamSelection。
+  choices:
+  - label: A
+    text: $1$
+    figures: []
+  - label: B
+    text: $-1$
+    figures: []
+  - label: C
+    text: $3$
+    figures: []
+  - label: D
+    text: $-3$
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $\alpha_1=(1,2)^{\mathrm{T}}$，$\alpha_2=(a,1)^{\mathrm{T}}$，$X=(x_1,x_2)^{\mathrm{T}}$。若二次型 $f(x_1,x_2)=(\alpha_1^{\mathrm{T}}X)^2+(\alpha_2^{\mathrm{T}}X)^2$ 经可逆线性变换化为 $g(y_1,y_2)=y_1^2+y_2^2+2y_1y_2$，则 $a=$\ExamSelection。
+  choices:
+  - label: A
+    text: $0$
+    figures: []
+  - label: B
+    text: $1$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{1}{2}$
+    figures: []
+  - label: D
+    text: $2$
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设二维随机变量 $(X,Y)$ 在区域 $D$ 上服从均匀分布，其中 $D=\{(x,y)\mid0\leq x\leq2,0\leq y\leq4-x^2\}$，记 $A=\{X\leq1\}$，$B=\{Y\leq3\}$，则随机事件 $A,B$ 中恰好有一个发生的概率为\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{1}{16}$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{7}{16}$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{5}{16}$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{3}{16}$
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设随机变量 $X$ 与 $Y$ 相互独立，且 $X\sim B\left(1,\dfrac{1}{2}\right)$，$Y\sim N(0,1)$，则 $P\{XY\leq E(XY)\}=$\ExamSelection。
+  choices:
+  - label: A
+    text: $0$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{1}{4}$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{1}{2}$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{3}{4}$
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $X_1,X_2,\cdots,X_{10}$ 是来自总体 $N(\mu,\sigma^2)$（$\sigma>0$）的简单随机样本，$\overline{X}$ 是样本均值，记 $Y=\dfrac{1}{10}\sum_{i=1}^{10}(X_i-\overline{X})^2$，$T=\dfrac{\overline{X}-\mu}{\sqrt{Y}}$，若 $P\{T\geq a\}=0.05$，则 $P\{|3T|\geq3a\}=$\ExamSelection。
+  choices:
+  - label: A
+    text: $0.05$
+    figures: []
+  - label: B
+    text: $0.10$
+    figures: []
+  - label: C
+    text: $0.20$
+    figures: []
+  - label: D
+    text: $0.30$
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $(1+ax\sin y+3x^2y^2)\,\mathrm{d}x+(bx^3y-x^2\cos y)\,\mathrm{d}y$ 为函数 $f(x,y)$ 的全微分，则 $a+b=$\ExamBlank。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      差分方程 $3y_t-3y_{t-1}=t\cdot3^t+1$ 的通解为\ExamBlank。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      级数 $\sum_{n=1}^{\infty}\dfrac{1}{(2n)!}=$\ExamBlank。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设曲线 $xy=1$（$x>0$）上的点 $P_0(x_0,y_0)$ 使得 $x^2+2y^2$ 达到最小值，则点 $P_0$ 的坐标为\ExamBlank。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $A,B$ 均为 $n$ 阶矩阵，$|B|=1$，且 $(A-E)^{-1}=B^*-E$，其中 $B^*$ 为 $B$ 的伴随矩阵，则 $|A^{-1}+B|=$\ExamBlank。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $X_1,X_2,\cdots,X_n$ 为来自总体 $X\sim B(N,p)$（$0<p<1$）的简单随机样本，则 $p$ 的最大似然估计量 $\widehat{p}=$\ExamBlank。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      设 $f(x)$ 可导，且满足 $f(x)=xf(-x)+\int_0^{-x}f(t)\,\mathrm{d}t+\dfrac{1}{2}x^2$。
+  subparts:
+  - text: 求 $f(x)$；
+  - text: 求 $f(x)$ 的单调区间与极值。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $D=\{(x,y)\mid(x-1)^2+(y-1)^2\leq1,x^2+y^2\leq1\}$，计算 $I=\iint_D(2x-y^2)\,\mathrm{d}x\mathrm{d}y$。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $w=xy-z$，$z=z(x,y)$ 有二阶连续的偏导数，且满足 $\dfrac{\partial^2z}{\partial x^2}+2\dfrac{\partial^2z}{\partial x\partial y}+\dfrac{\partial^2z}{\partial y^2}=0$，作变换 $u=x+y$，$v=x-y$。
+  subparts:
+  - text: |-
+      求 $\dfrac{\partial^2w}{\partial u^2}$；
+  - text: |-
+      若 $\dfrac{\partial w(0,v)}{\partial u}=v\mathrm{e}^{-v}$，$w(0,v)=\dfrac{v^2}{4}$，求 $z(x,y)$ 的表达式。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: 设非负函数 $f(x)$ 在区间 $[0,1]$ 上有连续的二阶导数，且 $f(0)=1$，$f''(x)<0$，证明：
+  subparts:
+  - text: |-
+      当 $x\in[0,1]$ 时，有 $\int_0^xf(t)\,\mathrm{d}t\geq\dfrac{1}{2}[xf(x)+x]$；
+  - text: |-
+      $\int_0^1\left(\dfrac{2}{3}-x\right)f(x)\,\mathrm{d}x\geq\dfrac{1}{6}$。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设矩阵 $A=\begin{bmatrix}a&1&1\\0&a-1&0\\1&1&a\end{bmatrix}$ 不可逆，$\beta=\begin{bmatrix}b\\1\\1\end{bmatrix}$。已知方程组 $A^{\mathrm{T}}X=0$ 的解均是 $\beta^{\mathrm{T}}X=0$ 的解。
+  subparts:
+  - text: 求 $a,b$ 的值；
+  - text: |-
+      求可逆矩阵 $P$，使得 $P^{-1}AP=\Lambda$。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设随机变量 $X$ 与 $Y$ 相互独立，且均服从 $N(0,1)$，记 $U=\begin{cases}1,&X^2+Y^2>1,\\0,&X^2+Y^2\leq1,\end{cases}$ $V=\begin{cases}1,&X^2+Y^2>2,\\0,&X^2+Y^2\leq2.\end{cases}$
+  subparts:
+  - text: 求 $(U,V)$ 的概率分布；
+  - text: |-
+      求 $\rho_{UV}$。

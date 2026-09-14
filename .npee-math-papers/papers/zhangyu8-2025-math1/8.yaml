@@ -1,0 +1,301 @@
+schema_version: '3.0'
+paper:
+  series_key: zhangyu8
+  year: 2025
+  subject: math1
+  paper_no: 8
+content_hash: 1dfe6f577cf39507ec3819cc5f6ef6845f611326ee7bf09b0316840dcea62887
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      函数 $f(x)=\dfrac{\ln|1-x|}{(e^x-1)(x+2)}$ 的第二类间断点的个数为\ExamSelection。
+  choices:
+  - label: A
+    text: $0$
+    figures: []
+  - label: B
+    text: $1$
+    figures: []
+  - label: C
+    text: $2$
+    figures: []
+  - label: D
+    text: $3$
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x),g(x)$ 为连续函数，以下结论：\par （1）若 $\lim_{x\to0}\dfrac{f(x)}{g(x)}=1$，则 $f(x)$ 是 $g(x)$ 在 $x\to0$ 时的等价无穷小；\par （2）若 $f(x)$ 是 $g(x)$ 在 $x\to0$ 时的等价无穷小，则 $\lim_{x\to0}\dfrac{f(x)}{g(x)}=1$；\par （3）若 $f(n)$ 是 $g(n)$ 在 $n\to\infty$ 时的等价无穷小，则 $\sum_{n=1}^{\infty}f(n)$ 与 $\sum_{n=1}^{\infty}g(n)$ 同敛散；\par （4）若 $\sum_{n=1}^{\infty}f(n)$ 与 $\sum_{n=1}^{\infty}g(n)$ 同敛散，则 $f(n)$ 是 $g(n)$ 在 $n\to\infty$ 时的等价无穷小。\par 正确结论的个数为\ExamSelection。
+  choices:
+  - label: A
+    text: $1$
+    figures: []
+  - label: B
+    text: $2$
+    figures: []
+  - label: C
+    text: $3$
+    figures: []
+  - label: D
+    text: $4$
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知函数 $z=u(x,y)e^{ax+by}$，且 $u(x,y)=f(x)+g(y)$，其中 $f(x),g(y)$ 具有二阶连续导数，函数 $z=z(x,y)$ 满足 $\dfrac{\partial^2z}{\partial x\partial y}-\dfrac{\partial z}{\partial x}-\dfrac{\partial z}{\partial y}+z=0$，则\ExamSelection。
+  choices:
+  - label: A
+    text: $a=2,b=1$
+    figures: []
+  - label: B
+    text: $a=1,b=1$
+    figures: []
+  - label: C
+    text: $a=1,b=2$
+    figures: []
+  - label: D
+    text: $a=2,b=2$
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      $\displaystyle\int_{\dfrac{\pi}{3}}^{\dfrac{\pi}{2}}\mathrm{d}\theta\int_1^{\dfrac{1}{\cos\theta}}\dfrac{r\,\mathrm{d}r}{3\arcsin\dfrac{1}{r}-\pi}=$\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{\pi}{3}$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{\pi}{6}$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{1}{3}$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{1}{18}$
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $\mathbf A=\begin{pmatrix}2&1&1\\1&2&1\\1&1&a\end{pmatrix}$ 可逆，且 $\mathbf x=\begin{pmatrix}1\\b\\1\end{pmatrix}$ 是 $\mathbf A$ 的特征向量，则\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\mathbf A$ 的迹为 $4$
+    figures: []
+  - label: B
+    text: |-
+      $\mathbf A$ 的迹为 $16$
+    figures: []
+  - label: C
+    text: |-
+      $\mathbf A^2$ 的迹为 $18$
+    figures: []
+  - label: D
+    text: |-
+      $\mathbf A^3$ 的迹为 $18$
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $\mathbf A$ 是 $3\times2$ 矩阵，且 $\mathbf A^{\mathrm T}\mathbf A=\mathbf E$，$\boldsymbol{\alpha}$ 为 $3$ 维列向量，$\boldsymbol{\beta}=\mathbf A^{\mathrm T}\boldsymbol{\alpha}$，则以下结论：\par （1）$\mathbf A$ 的列向量正交；（2）$\mathbf A\mathbf x=\boldsymbol{\beta}$ 无解；（3）$\mathbf A^{\mathrm T}\boldsymbol{\alpha}=\mathbf A^{\mathrm T}\boldsymbol{\beta}$；（4）$\boldsymbol{\beta}$ 与 $\boldsymbol{\alpha}-\boldsymbol{\beta}$ 正交。\par 所有正确结论的序号为\ExamSelection。
+  choices:
+  - label: A
+    text: （1）（3）
+    figures: []
+  - label: B
+    text: （2）（4）
+    figures: []
+  - label: C
+    text: （1）（2）（3）
+    figures: []
+  - label: D
+    text: （1）（3）（4）
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $\mathbf A$ 是 $3$ 阶秩为 $2$ 的实对称矩阵，$\boldsymbol{\alpha},\boldsymbol{\beta}$ 是 $3$ 维非零列向量，$\mathbf B=\begin{pmatrix}\mathbf A&\boldsymbol{\beta}\\\boldsymbol{\alpha}^{\mathrm T}&1\end{pmatrix}$，则 $r(\mathbf B)=2$ 是方程组 $\begin{cases}\mathbf A\mathbf x=\boldsymbol{\beta},\\\boldsymbol{\alpha}^{\mathrm T}\mathbf x=1\end{cases}$ 有解的\ExamSelection。
+  choices:
+  - label: A
+    text: 充分非必要条件
+    figures: []
+  - label: B
+    text: 必要非充分条件
+    figures: []
+  - label: C
+    text: 充分必要条件
+    figures: []
+  - label: D
+    text: 既非充分又非必要条件
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设随机变量 $X$ 服从参数为 $p(0<p<1)$ 的几何分布，则 $E\left(\dfrac{1}{X}\right)=$\ExamSelection。
+  choices:
+  - label: A
+    text: $p(1-p)$
+    figures: []
+  - label: B
+    text: |-
+      $-p\ln p$
+    figures: []
+  - label: C
+    text: |-
+      $-(1-p)\ln p$
+    figures: []
+  - label: D
+    text: |-
+      $-\dfrac{p\ln p}{1-p}$
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设随机变量 $X_1,X_2,\cdots,X_n(n>1)$ 相互独立，且都服从参数为 $\lambda=\dfrac{1}{2}$ 的泊松分布，$\Phi(x)$ 为标准正态分布函数，则 $\lim_{n\to\infty}P\left\{\dfrac{2\sum_{i=1}^nX_i-n}{2\sqrt n}\leq1\right\}=$\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\Phi(0)$
+    figures: []
+  - label: B
+    text: |-
+      $\Phi(\sqrt2)$
+    figures: []
+  - label: C
+    text: |-
+      $\Phi\left(\dfrac{1}{2}\right)$
+    figures: []
+  - label: D
+    text: |-
+      $\Phi(\sqrt3)$
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知随机变量 $X\sim U(0,4)$，实数 $c\in[0,4]$，且 $X$ 与 $|X-c|$ 不相关，则 $c=$\ExamSelection。
+  choices:
+  - label: A
+    text: $1$
+    figures: []
+  - label: B
+    text: $2$
+    figures: []
+  - label: C
+    text: $3$
+    figures: []
+  - label: D
+    text: $4$
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $a_k=n+\dfrac{2k(k-1)}{2k-1}(k=1,2,\cdots,n)$，则 $\lim_{n\to\infty}\sum_{k=1}^na_k^{-1}=$\ExamBlank。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      函数 $f(x,y)=xe^y$ 在点 $(1,0)$ 处的二阶泰勒多项式为\ExamBlank。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $x>0$，$I=\int_Lx(1+y\sin x)\,\mathrm{d}x+\dfrac{f(x)}{x}\,\mathrm{d}y$ 与路径 $L$ 无关，$f(x)$ 有连续导数且 $f\left(\dfrac{\pi}{2}\right)=0$。当 $L$ 是从点 $A\left(\dfrac{\pi}{2},1\right)$ 到点 $B(\pi,0)$ 的任一曲线时，$I=$\ExamBlank。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $\displaystyle\sum_{n=1}^{\infty}\sum_{m=1}^n\dfrac{m}{2^{n-1}}=$\ExamBlank。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $\mathbf A$ 为 $3\times4$ 矩阵，若 $\mathbf A\mathbf A^{\mathrm T}$ 的特征值之和为 $1$，$\mathbf A\mathbf A^{\mathrm T}$ 的每行元素之和均为 $2$，$\mathbf A^{\mathrm T}\mathbf A-3\mathbf E$ 不可逆，则 $|\mathbf A^{\mathrm T}\mathbf A+3\mathbf E|=$\ExamBlank。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      已知两只灯泡的寿命独立同分布于期望为 $2$ 的指数分布。第一只灯泡先亮，若 $1$ 小时内第一只灯泡坏掉，则在第 $1$ 小时时第二只灯泡才亮；若 $1$ 小时内第一只灯泡未坏掉，则在第一只灯泡坏掉时，立即点亮第二只灯泡。令 $T$ 为从点亮第一只灯泡直到第二只灯泡坏掉的时间，则 $E(T)=$\ExamBlank。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      设函数 $f(x)$ 满足 $f'(x)=f\left(\dfrac{2}{x}\right)(x>0)$。
+  subparts:
+  - text: 证明 $x^2f''(x)+2f(x)=0(x>0)$；
+  - text: 求 $f(x)$。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      \mbox{}
+  subparts:
+  - text: |-
+      证明：设 $f(x)$ 连续，当 $f(x)$ 单调减少时，$\sum_{k=1}^{n-1}f(k+1)\leq\int_1^nf(x)\,\mathrm{d}x$；
+  - text: |-
+      计算 $\lim_{n\to\infty}\sum_{k=1}^{n^2}\dfrac{n}{n^2+k^2}$。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      求 $\displaystyle\sum_{n=1}^{\infty}\dfrac{[2+(-1)^n]^n}{n\cdot6^n}$ 的值。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $a,b$ 为实数，函数 $f(x,y)=ax^2+by^2$ 在点 $(1,1)$ 处沿方向 $\mathbf l=\mathbf i+\mathbf j$ 的方向导数最大，最大值为 $2\sqrt2$。若 $\Sigma$ 为曲面 $x^2+z^2=2z$ 被曲面 $z=\sqrt{f(x,y)}$ 所截取的部分。
+  subparts:
+  - text: 求 $a,b$ 的值；
+  - text: |-
+      计算 $\iint_{\Sigma}z\,\mathrm{d}S$。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设实二次型 $f(x_1,x_2,x_3)=(x_1-x_2+x_3)^2+(x_2+x_3)^2+(x_1+ax_3)^2$，且 $f(x_1,x_2,x_3)=0$ 有无穷多解，其中 $a$ 是参数。若 $\boldsymbol{\eta}_1$ 为二次型矩阵最大特征值对应的单位特征向量，且 $\mathbf x^{\mathrm T}\boldsymbol{\eta}_1=0$，求：
+  subparts:
+  - text: $a$ 的值；
+  - text: |-
+      $\displaystyle\max_{\mathbf x\ne\mathbf0}\dfrac{f(\mathbf x)}{\mathbf x^{\mathrm T}\mathbf x}$。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $X_1,X_2,\cdots,X_n$ 是来自总体 $X$ 的简单随机样本，总体 $X$ 的概率密度为 $f(x;\theta)=\dfrac{1}{2}(1+\theta x),-1<x<1,|\theta|\leq1$，因观测设备精度不高，观察不到 $X_1,X_2,\cdots,X_n$ 的具体取值，只能观察到每个 $X_i$ 是否大于 $0$，记 $Y_i=\begin{cases}1,&X_i>0,\\0,&\text{其他},\end{cases}i=1,\cdots,n$，$\overline Y=\dfrac{1}{n}\sum_{i=1}^nY_i$，求 $\theta$ 的最大似然估计量。

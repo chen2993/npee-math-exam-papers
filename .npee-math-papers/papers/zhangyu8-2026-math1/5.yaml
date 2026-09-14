@@ -1,0 +1,298 @@
+schema_version: '3.0'
+paper:
+  series_key: zhangyu8
+  year: 2026
+  subject: math1
+  paper_no: 5
+content_hash: 34f23ef6bf76502e654f68bf5bb9c2ddccfa8da0d1383b62e42c486233729d55
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f\left(\dfrac{1}{x}\right)=x+\sqrt{1+x^2}\ (x\ne 0)$，则 $x=0$ 是 $f(x)$ 的\ExamSelection
+  choices:
+  - label: A
+    text: 连续点
+    figures: []
+  - label: B
+    text: 跳跃间断点
+    figures: []
+  - label: C
+    text: 可去间断点
+    figures: []
+  - label: D
+    text: 第二类间断点
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x,y)=x^2+y^2(1+x)^3$，则\ExamSelection
+  choices:
+  - label: A
+    text: 点 $(0,0)$ 是 $f(x,y)$ 的唯一极小值点，也是其最小值点
+    figures: []
+  - label: B
+    text: 点 $(0,0)$ 是 $f(x,y)$ 的唯一极大值点，也是其最大值点
+    figures: []
+  - label: C
+    text: 点 $(0,0)$ 是 $f(x,y)$ 的唯一极小值点，但不是其最小值点
+    figures: []
+  - label: D
+    text: 点 $(0,0)$ 是 $f(x,y)$ 的唯一极大值点，但不是其最大值点
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      若数列 $\{x_n\}$，$\{y_n\}$ 满足 $\lim_{n\to\infty}x_ny_n=\infty$，则以下结论：① $\lim_{n\to\infty}x_n=\infty$ 可 $\implies\lim_{n\to\infty}y_n=\infty$；② $\lim_{n\to\infty}x_n=\infty$ 且 $\lim_{n\to\infty}y_n=\infty$；③ $x_n$ 与 $y_n$ 中一个是无穷大量，另一个是无穷小量；④ 当 $x_n$ 是非零无穷小量时，$\lim_{n\to\infty}y_n=\infty$。正确结论的个数为\ExamSelection
+  choices:
+  - label: A
+    text: '1'
+    figures: []
+  - label: B
+    text: '2'
+    figures: []
+  - label: C
+    text: '3'
+    figures: []
+  - label: D
+    text: '4'
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设数列 $\{a_n\}$，$\{b_n\}$ 满足 $0\leq a_{n+1}\leq a_n+b_n$，$n\in\mathbb N_+$，则“$\{a_n\}$ 收敛”是“$\sum_{n=1}^{\infty}b_n$ 收敛”的\ExamSelection
+  choices:
+  - label: A
+    text: 充分非必要条件
+    figures: []
+  - label: B
+    text: 必要非充分条件
+    figures: []
+  - label: C
+    text: 充分必要条件
+    figures: []
+  - label: D
+    text: 既非充分也非必要条件
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设二次型 $f(x_1,x_2,x_3)=4x_1^2+x_2^2+ax_3^2+2x_1x_2-4x_1x_3+2x_2x_3$ 与 $g(y_1,y_2,y_3)=2y_1^2+by_2^2$ 合同，则\ExamSelection
+  choices:
+  - label: A
+    text: $a=3,b>0$
+    figures: []
+  - label: B
+    text: $a=3,b<0$
+    figures: []
+  - label: C
+    text: $a=4,b>0$
+    figures: []
+  - label: D
+    text: $a=4,b<0$
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A,B$ 为 $n$ 阶矩阵，且 $A^2-A=3E$，则与 $\begin{pmatrix}A\\B\end{pmatrix}x=0$ 不一定同解的是\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\begin{pmatrix}A-B\\A+AB\end{pmatrix}x=0$
+    figures: []
+  - label: B
+    text: |-
+      $\begin{pmatrix}A+B\\A+AB-B\end{pmatrix}x=0$
+    figures: []
+  - label: C
+    text: |-
+      $\begin{pmatrix}A-B\\2A+B\end{pmatrix}x=0$
+    figures: []
+  - label: D
+    text: |-
+      $\begin{pmatrix}A+B\\BA+B^2\end{pmatrix}x=0$
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A=\begin{pmatrix}1&0&a\\b&2&0\\0&c&3\end{pmatrix}$，其中 $abc=-6$，则 $|A|$ 的伴随矩阵 $A^*$ 有非零特征值\ExamSelection
+  choices:
+  - label: A
+    text: $-8$
+    figures: []
+  - label: B
+    text: $8$
+    figures: []
+  - label: C
+    text: $-11$
+    figures: []
+  - label: D
+    text: $11$
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $X,Y$ 与 $X+Y$ 均服从同一种分布，其中 $X,Y$ 相互独立，则下列分布一定可以成立的是\ExamSelection
+  choices:
+  - label: A
+    text: 均匀分布
+    figures: []
+  - label: B
+    text: 泊松分布
+    figures: []
+  - label: C
+    text: 指数分布
+    figures: []
+  - label: D
+    text: 二项分布
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $X_1,X_2,\cdots,X_n$ 是来自总体 $X\sim B\left(1,\dfrac{1}{5}\right)$ 的简单随机样本，$\bar X=\dfrac{1}{n}\sum_{i=1}^nX_i$，若 $E\left[\left(\bar X-\dfrac{1}{5}\right)^2\right]<0.01$，则样本容量 $n$ 的最小值为\ExamSelection
+  choices:
+  - label: A
+    text: '17'
+    figures: []
+  - label: B
+    text: '18'
+    figures: []
+  - label: C
+    text: '19'
+    figures: []
+  - label: D
+    text: '20'
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知 $0<P(A)<1$ 且 $P(B+C\mid A)=P(B\mid A)+P(C\mid A)$，则以下结论：① $P(B+C)=P(B)+P(C)$；② $P(B+C)=P(B\mid A)+P(C\mid A)$；③ $P(B+C\mid\overline A)=P(B\mid\overline A)+P(C\mid\overline A)$；④ $P(BA+CA)=P(BA)+P(CA)$。正确结论的个数为\ExamSelection
+  choices:
+  - label: A
+    text: '1'
+    figures: []
+  - label: B
+    text: '2'
+    figures: []
+  - label: C
+    text: '3'
+    figures: []
+  - label: D
+    text: '4'
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $\lim_{x\to 0}\dfrac{\sqrt{1+2x}-\sqrt[3]{1+3x}}{\ln(1+x^2)}=$ \ExamBlank。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      微分方程 $y'=\dfrac{1}{xy(1+xy^2)}$ 满足 $y(1)=0$ 的解为 \ExamBlank。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $\boldsymbol F(x,y,z)=|x|\cos y\boldsymbol i-y\sin z\boldsymbol j+z\boldsymbol k$，则 $\operatorname{rot}\boldsymbol F(1,1,0)=$ \ExamBlank。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $\lim_{n\to\infty}\sum_{i=1}^{n}\dfrac{1}{\sqrt{in}}=$ \ExamBlank。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $A=\begin{pmatrix}1&1\\0&1\end{pmatrix}$，$B=\begin{pmatrix}-1&1\\0&-1\end{pmatrix}$，则 $A^9-B^9=$ \ExamBlank。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设随机变量 $X\sim N(0,\sigma^2)$，$\sigma>0$，使得 $P\left\{e^{\dfrac{1}{2}}<X<e\right\}$ 最大的 $\sigma^2=$ \ExamBlank。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      设 $f(x,y)$ 在 $D=\{(x,y)\mid x^2+y^2\leq 1\}$ 上连续，$f(x,y)=e^{x^2+y^2}-\iint_D\dfrac{(2x^2+1)f(x,y)}{x^2+y^2+1}\,\mathrm{d}x\,\mathrm{d}y$，求 $\iint_Df(x,y)\,\mathrm{d}x\,\mathrm{d}y$。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $y=y(x)$ 满足 $(xy-1)\,\mathrm{d}x+x^2\,\mathrm{d}y=0$，$x>0$，$y(1)=0$，求
+  subparts:
+  - text: $y=y(x)$ 的表达式
+  - text: 曲线 $y=y(x)$ 的拐点及渐近线
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 $f(x)$ 在 $[a,b]$ 上可导，$c\in(a,b)$，证明
+  subparts:
+  - text: |-
+      存在一点 $\xi\in(a,c)$，使得 $f(c)-f(a)=f'(\xi)(c-a)$
+  - text: |-
+      存在一点 $\eta\in(a,b)$，使得 $f(b)-f(a)=f'(\eta)(b-a)$ 且 $\eta\geq\xi$
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设锥面 $\Sigma$ 的顶点为原点，准线为曲线 $\Gamma:\left\{\begin{array}{l}z=y^2,\\x=1\end{array}\right.\ (|y|\leq 1)$。
+  subparts:
+  - text: |-
+      求 $\Sigma$ 的方程
+  - text: |-
+      计算 $I=\iint_\Sigma2x^2\,\mathrm{d}y\,\mathrm{d}z+xy\,\mathrm{d}z\,\mathrm{d}x+(z+1)\,\mathrm{d}x\,\mathrm{d}y$，$\Sigma$ 取上侧
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设向量 $\boldsymbol{\alpha}_1=\begin{pmatrix}1\\0\\1\end{pmatrix}$，$\boldsymbol{\alpha}_2=\begin{pmatrix}0\\1\\1\end{pmatrix}$，$\boldsymbol{\alpha}_3=\begin{pmatrix}1\\1\\0\end{pmatrix}$。
+  subparts:
+  - text: |-
+      将 $\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3$ 化成正交单位向量组 $\boldsymbol{\gamma}_1,\boldsymbol{\gamma}_2,\boldsymbol{\gamma}_3$
+  - text: |-
+      若 $(\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3)=(\boldsymbol{\gamma}_1,\boldsymbol{\gamma}_2,\boldsymbol{\gamma}_3)C$，求 $C$
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设总体 $X$ 的概率密度为 $f(x;b)=\begin{cases}ae^{-2(x-b)},&x\geq b,\\0,&x<b,\end{cases}$ 其中 $b>0$，$X_1,X_2,\cdots,X_n$ 是来自总体 $X$ 的简单随机样本。
+  subparts:
+  - text: 求 $a$ 的值
+  - text: |-
+      求 $b$ 的矩估计量 $\hat b_M$ 与最大似然估计量 $\hat b_L$
+  - text: |-
+      $\hat b_L$ 是否为 $b$ 的无偏估计量

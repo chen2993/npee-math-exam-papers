@@ -1,0 +1,301 @@
+schema_version: '3.0'
+paper:
+  series_key: euclid3
+  year: 2025
+  subject: math1
+  paper_no: 1
+content_hash: fc47105a2b527f5ba40a5e13d4d4fcb11dc13cda1b09a7a2a461c6ed62b0bc7f
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x)=\lim_{n\to\infty}\dfrac{x^{2n+1}}{\ln|x|-x^{2n}-1}$，则函数 $\int_0^x f(t)\,\mathrm{d}t$ 不可导点的个数为\ExamSelection
+  choices:
+  - label: A
+    text: $0$
+    figures: []
+  - label: B
+    text: $1$
+    figures: []
+  - label: C
+    text: $2$
+    figures: []
+  - label: D
+    text: $3$
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知函数 $f(x,y)=\begin{cases}(1+x^2+y^2)^{\dfrac{xy}{x^2+y^2}},&(x,y)\ne(0,0),\\1,&(x,y)=(0,0),\end{cases}$ 则 $f(x,y)$ 在 $(0,0)$ 处\ExamSelection
+  choices:
+  - label: A
+    text: 不连续
+    figures: []
+  - label: B
+    text: 连续，但偏导数不存在
+    figures: []
+  - label: C
+    text: 连续且偏导数存在，但不可微
+    figures: []
+  - label: D
+    text: 可微
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)=\int_x^\pi\dfrac{\sin t}{\pi-t}\,\mathrm{d}t$，$\bar f$ 是 $f(x)$ 在 $[0,\pi]$ 上的平均值，则\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{1}{2}f(\pi)<\bar f<f\left(\dfrac{\pi}{2}\right)$
+    figures: []
+  - label: B
+    text: |-
+      $f\left(\dfrac{\pi}{2}\right)<\bar f<\dfrac{1}{2}f(\pi)$
+    figures: []
+  - label: C
+    text: |-
+      $\bar f<f\left(\dfrac{\pi}{2}\right)<\dfrac{1}{2}f(\pi)$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{1}{2}f(\pi)<f\left(\dfrac{\pi}{2}\right)<\bar f$
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      $\int_0^1\mathrm{d}x\int_0^x\mathrm{d}y\int_0^y e^{(z-1)^3}\,\mathrm{d}z=$\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{e^2-1}{3e}$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{e^2-1}{6e}$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{e-1}{3e}$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{e-1}{6e}$
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设有两个方程组（I）$\begin{cases}x_1+x_2+2x_3+x_4=2,\\2x_1+3x_2+5x_3+4x_4=2b,\\x_2+x_4=b-4,\end{cases}$（II）$\begin{cases}x_1+x_2-x_4=2,\\3x_1+4x_2+2x_3=2,\\5x_1+6x_2+(a+4)x_3+ax_4=6.\end{cases}$ 若方程组（I）的解均是（II）的解，但（I）与（II）有不同解，则\ExamSelection
+  choices:
+  - label: A
+    text: $a=5,b=0$
+    figures: []
+  - label: B
+    text: $a=5,b=4$
+    figures: []
+  - label: C
+    text: $a=-2,b=0$
+    figures: []
+  - label: D
+    text: $a=-2,b=4$
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A,B,C$ 为 $n$ 阶矩阵，则 $\begin{bmatrix}A&O\\C&B\end{bmatrix}$ 为正交矩阵是“$A,B$ 均为正交矩阵”的\ExamSelection
+  choices:
+  - label: A
+    text: 充分不必要条件
+    figures: []
+  - label: B
+    text: 必要不充分条件
+    figures: []
+  - label: C
+    text: 充要条件
+    figures: []
+  - label: D
+    text: 既不充分也不必要条件
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      空间直角坐标系下 $(x_1+x_2+x_3)(3x_1+5x_2+7x_3)=1$ 所表示的二次曲面是\ExamSelection
+  choices:
+  - label: A
+    text: 柱面
+    figures: []
+  - label: B
+    text: 单叶双曲面
+    figures: []
+  - label: C
+    text: 双叶双曲面
+    figures: []
+  - label: D
+    text: 锥面
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知二维随机变量 $(X,Y)$ 在区域 $D=\{(x,y)\mid |x|+|y|\leqslant3\}$ 上服从均匀分布，设 $U=\begin{cases}0,&Y-2X<0,\\1,&Y-2X\geqslant0,\end{cases}$ $V=\begin{cases}0,&2Y+X<0,\\1,&2Y+X\geqslant0.\end{cases}$ 则\ExamSelection
+  choices:
+  - label: A
+    text: $X$ 与 $Y$ 独立，$U$ 与 $V$ 不独立
+    figures: []
+  - label: B
+    text: $X$ 与 $Y$ 不独立，$U$ 与 $V$ 不独立
+    figures: []
+  - label: C
+    text: $X$ 与 $Y$ 不独立，$U$ 与 $V$ 独立
+    figures: []
+  - label: D
+    text: $X$ 与 $Y$ 独立，$U$ 与 $V$ 独立
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设总体 $X$ 服从 $[-\theta,\theta]$ 上的均匀分布，$\theta$（$\theta>0$）为未知参数，$X_1,X_2,\cdots,X_n$ 是取自 $X$ 的一个样本，记 $\hat\theta=a\cdot\max_{1\leqslant i\leqslant n}\{|X_i|\}$，若 $E(\hat\theta)=\theta$，则 $a=$\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{n-1}{n}$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{n}{n-1}$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{n+1}{n}$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{n}{n+1}$
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      关于假设检验的两类错误，以下说法错误的是\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      通常用检验的显著性水平 $\alpha$ 来表示在检验中允许犯第一类错误的概率
+    figures: []
+  - label: B
+    text: 两类错误之和可以大于 $1$
+    figures: []
+  - label: C
+    text: 在假设检验问题中，第二类错误是指当 $H_0$ 为假时，接受 $H_0$
+    figures: []
+  - label: D
+    text: 增大样本容量 $n$ 一定可以同时降低犯两类错误的概率
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      已知二元函数 $f(x,y)=\begin{cases}2y+\dfrac{2xy}{\sqrt{x^2+y^2}},&(x,y)\ne(0,0),\\0,&(x,y)=(0,0),\end{cases}$ 则 $f(x,y)$ 在 $(0,0)$ 处的最大方向导数为\ExamBlank。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $\lim_{n\to\infty}\sum_{i=1}^n\sin\dfrac{2}{n}\cos^2\dfrac{(i-1)\pi}{2n}=$\ExamBlank。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设连续函数 $f(x)$ 满足 $f(x+3)-f(x)=\int_1^x\dfrac{1}{ue^u}\,\mathrm{d}u$，$\int_0^3f(x)\,\mathrm{d}x=1$，则 $\int_1^4f(x)\,\mathrm{d}x=$\ExamBlank。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      微分方程 $x\dfrac{\mathrm{d}y}{\mathrm{d}x}+y-xy=x^2y^2e^x$（$x>0$）满足 $y(1)=-2e^{-1}$ 的解为\ExamBlank。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $3$ 阶矩阵 $A,B$，若 $|AB|=6$，$AB$ 的每一行元素之和为 $1$，$|BA-2E|=0$，则 $|BA+2E|=$\ExamBlank。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设随机变量 $X$ 的概率分布为 $P(X=k)=\dfrac{2}{3^{k+1}}$，$k=0,1,\cdots$，则 $E(X^2)=$\ExamBlank。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      已知平面区域 $D=\{(x,y)\mid 1-\sqrt{1-y^2}\leqslant x\leqslant\sqrt{1-y^2}\}$，计算 $\iint_D\sqrt{x^2+y^2}\,\mathrm{d}x\,\mathrm{d}y$。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 $f(x)=e^{x^2}\int_x^{+\infty}e^{-t^2}\,\mathrm{d}t$。证明：
+  subparts:
+  - text: |-
+      $f(x)$ 在 $[0,+\infty)$ 上有界；
+  - text: |-
+      方程 $f(x)=x$ 在 $(0,+\infty)$ 上有且仅有一个实根。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      计算曲面积分 $I=\oiint_\Sigma(x\arcsin x+y\cos y+z\sec z)\,\mathrm{d}S$，其中 $\Sigma$ 为 $x^2+y^2+z^2=1$。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设幂级数 $\sum_{n=0}^{\infty}a_nx^n$ 在 $[0,+\infty)$ 内收敛，其和函数 $y(x)$ 满足 $y''-xy'-y=1$，$y(0)=0$，$y'(0)=1$。
+  subparts:
+  - text: |-
+      证明：$a_{n+2}=\dfrac{1}{n+2}a_n$，$n=1,2,\cdots$；
+  - text: |-
+      求 $\sum_{n=1}^{\infty}(a_{2n}a_{2n+1})x^n$ 在 $[0,+\infty)$ 上的和函数 $S(x)$。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $x_i$ 为三维列向量（$i=1,2,\cdots$），$A=\begin{bmatrix}2&a&0\\a^2&2&0\\0&0&a\end{bmatrix}$ 是二次型 $f_1(x_1)=x_1^{\mathrm{T}}Ax_1$ 的矩阵，且二次型 $f_n(x_n)$ 经可逆线性变换 $x_n=Ax_{n+1}$ 可化为二次型 $f_{n+1}(x_{n+1})$（$n=1,2,\cdots$）。
+  subparts:
+  - text: 求 $a$ 的值；
+  - text: 求 $A^n$；
+  - text: |-
+      若 $x=\begin{pmatrix}5\\-5\\10\end{pmatrix}$，求 $f_{2025}(x)$。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: 设随机变量 $X,Y$ 相互独立，且 $X$ 和 $Y$ 均服从标准正态分布。
+  subparts:
+  - text: 求 $Z=X^2+Y^2$ 的概率密度 $f_Z(z)$；
+  - text: |-
+      设 $Z_1,Z_2$ 是来自总体 $Z$ 的简单随机样本，求 $T=\max\{Z_1,Z_2\}-\min\{Z_1,Z_2\}$ 的概率密度 $f_T(t)$。

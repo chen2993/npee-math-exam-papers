@@ -1,0 +1,304 @@
+schema_version: '3.0'
+paper:
+  series_key: chaoyue10
+  year: 2025
+  subject: math3
+  paper_no: 10
+content_hash: f3a8e3e236fb2bfb35542266e0a991dfdc7de19b862f27bcf2bf69ad2baa22ae
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      当 $x\to 0$ 时，下列无穷小量中阶数最高的是\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\displaystyle\int_{x^2}^{x^3}\sqrt{1-\sqrt{\cos t}}\,\mathrm{d}t$
+    figures: []
+  - label: B
+    text: |-
+      $\displaystyle\int_{\sin x}^{2x}\sin^2t\,\mathrm{d}t$
+    figures: []
+  - label: C
+    text: |-
+      $\displaystyle\int_x^{\sin x}(e^{t^2}-1)\,\mathrm{d}t$
+    figures: []
+  - label: D
+    text: |-
+      $\displaystyle\int_0^{1-\cos x}\ln(1+\sqrt{t})\,\mathrm{d}t$
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(u,v)$ 为可微函数，$z=z(x,y)$ 是由方程 $f(u,v)=0$，$u=x^2-yz$，$v=y^2-xz$ 确定的二元函数，且 $yf'_1+xf'_2\ne 0$，则 $\dfrac{y}{x}\dfrac{\partial z}{\partial x}+\dfrac{x}{y}\dfrac{\partial z}{\partial y}=$\ExamSelection。
+  choices:
+  - label: A
+    text: $0$
+    figures: []
+  - label: B
+    text: |-
+      $2-\dfrac{z(x^2f'_1+y^2f'_2)}{xy(yf'_1+xf'_2)}$
+    figures: []
+  - label: C
+    text: $f'_1-f'_2$
+    figures: []
+  - label: D
+    text: $f'_1+f'_2$
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设数列 $u_n=\begin{cases}1,&n=k^2,\\\dfrac{1}{n^2},&n\in\mathbb{Z}^+,\ n\ne k^2,\end{cases}\ k=1,2,\cdots$，则下列结论正确的是\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\displaystyle\sum_{n=1}^{\infty}u_n$ 收敛，$\displaystyle\sum_{n=1}^{\infty}\dfrac{u_n}{1+nu_n}$ 也收敛
+    figures: []
+  - label: B
+    text: |-
+      $\displaystyle\sum_{n=1}^{\infty}u_n$ 发散，$\displaystyle\sum_{n=1}^{\infty}\dfrac{u_n}{1+nu_n}$ 收敛
+    figures: []
+  - label: C
+    text: |-
+      $\displaystyle\sum_{n=1}^{\infty}u_n$ 收敛，$\displaystyle\sum_{n=1}^{\infty}\dfrac{u_n}{1+nu_n}$ 发散
+    figures: []
+  - label: D
+    text: |-
+      $\displaystyle\sum_{n=1}^{\infty}u_n$ 发散，$\displaystyle\sum_{n=1}^{\infty}\dfrac{u_n}{1+nu_n}$ 也发散
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)$ 在点 $x=1$ 处二阶可导，且 $f(1)\ne 0$，若 $\displaystyle\lim_{x\to 0}\left(\dfrac{f(\cos x)}{f(1)}\right)^{\dfrac{1}{x^4}}=e$，则下列说法错误的是\ExamSelection。
+  choices:
+  - label: A
+    text: $f'(1)=0$
+    figures: []
+  - label: B
+    text: 若 $f(1)>0$，则 $f(1)$ 是极大值
+    figures: []
+  - label: C
+    text: 若 $f(1)<0$，则 $f(1)$ 是极大值
+    figures: []
+  - label: D
+    text: $(1,f(1))$ 一定不是拐点
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 是 $4\times 3$ 矩阵，$A$ 的列向量组线性无关，则下列结论中：① $A^{\mathrm{T}}x=0$ 有非零解；② 对任意 $3$ 维列向量 $\beta$，$A^{\mathrm{T}}x=\beta$ 有无穷多解；③ $A^{\mathrm{T}}Ax=0$ 只有零解；④ 对 $4\times 3$ 矩阵 $B$ 和 $C$，若 $AB=AC$，则 $B=C$。正确的个数为\ExamSelection。
+  choices:
+  - label: A
+    text: $1$
+    figures: []
+  - label: B
+    text: $2$
+    figures: []
+  - label: C
+    text: $3$
+    figures: []
+  - label: D
+    text: $4$
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      对 $3$ 阶矩阵 $A$ 作如下初等变换：先将第 $1$ 行的 $2$ 倍加到第 $2$ 行上，再交换第 $1$ 行和第 $3$ 行得到 $B$，若 $|A|=2$，则 $AB^*=$\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\begin{pmatrix}0&0&-2\\4&-2&0\\-2&0&0\end{pmatrix}$
+    figures: []
+  - label: B
+    text: |-
+      $\begin{pmatrix}-2&0&0\\4&-2&0\\0&0&-2\end{pmatrix}$
+    figures: []
+  - label: C
+    text: |-
+      $\begin{pmatrix}0&0&-2\\0&-2&4\\-2&0&0\end{pmatrix}$
+    figures: []
+  - label: D
+    text: |-
+      $\begin{pmatrix}-2&0&0\\0&-2&4\\0&0&-2\end{pmatrix}$
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A,B$ 均为 $n$ 阶正定矩阵，则下列选项错误的是\ExamSelection。
+  choices:
+  - label: A
+    text: 存在可逆矩阵 $P$ 和 $Q$，使得 $PAQ=B$
+    figures: []
+  - label: B
+    text: |-
+      存在可逆矩阵 $P$，使得 $P^{\mathrm{T}}AP=B$
+    figures: []
+  - label: C
+    text: 存在可逆矩阵 $P$，使得 $P^{-1}ABP=BA$
+    figures: []
+  - label: D
+    text: 存在可逆矩阵 $Q$，使得 $Q^{-1}AQ=B$
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      下列函数中，为某随机变量 $X$ 的分布函数的是\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $F(x)=\dfrac{1+\operatorname{sgn}(x)}{2}$
+    figures: []
+  - label: B
+    text: |-
+      $F(x)=\dfrac{x}{x+e^{-x}}$
+    figures: []
+  - label: C
+    text: |-
+      $F(x)=\dfrac{1}{1+e^x}$
+    figures: []
+  - label: D
+    text: |-
+      $F(x)=\dfrac{1}{1+e^{-x}}$
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $(X,Y)\sim N\left(\mu,\mu;\sigma^2,\sigma^2;-\dfrac{1}{2}\right)$，则 $P\{|X-Y|<1\}$\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      随 $\mu$ 增加而增加，与 $\sigma$ 的取值无关
+    figures: []
+  - label: B
+    text: |-
+      随 $\mu$ 增加而减小，与 $\sigma$ 的取值无关
+    figures: []
+  - label: C
+    text: |-
+      与 $\mu$ 的取值无关，随 $\sigma$ 增加而增加
+    figures: []
+  - label: D
+    text: |-
+      与 $\mu$ 的取值无关，随 $\sigma$ 增加而减小
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设有随机变量 $X$ 和二阶可导函数 $g(x)$，若 $g''(x)<0$，$EX$ 和 $Eg(X)$ 均存在，则\ExamSelection。
+  choices:
+  - label: A
+    text: $Eg(X)=g(EX)$
+    figures: []
+  - label: B
+    text: |-
+      $Eg(X)\geq g(EX)$
+    figures: []
+  - label: C
+    text: |-
+      $Eg(X)\leq g(EX)$
+    figures: []
+  - label: D
+    text: $Eg(X)$ 和 $g(EX)$ 的大小关系不确定
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      计算 $\displaystyle\int_0^1\left[(e-1)\sqrt{\ln(1+ex-x)}+e^{x^2}\right]\,\mathrm{d}x=$\ExamBlank。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设数列 $\{a_n\}$ 满足 $a_0=0$，$a_1=1$，$a_n=\dfrac{1}{n-1}[(n-2)a_{n-1}+a_{n-2}]$，$n=2,3,\cdots$，则 $\displaystyle\sum_{n=0}^{\infty}\dfrac{a_{n+1}}{2^n}=$\ExamBlank。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $\displaystyle\lim_{x\to 0}\int_0^x\dfrac{e^{-(tx)^2}-1}{e^{\sin^5x}-1}\,\mathrm{d}t=$\ExamBlank。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      已知方程 $y'+y=\sin x+\cos x$ 的解均为方程 $y''+y'+ay=f(x)$ 的解，其中 $a$ 为常数，则 $f(x)=$\ExamBlank。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $3$ 阶方阵 $A$ 不可逆，$\alpha,\beta$ 是两个线性无关的 $3$ 维列向量，且 $A\alpha=\beta$，$A\beta=\alpha$，则 $\operatorname{tr}[(A+2E)^*]=$\ExamBlank。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $(X_1,X_2,\cdots,X_n)$ 为来自总体 $X\sim P(\lambda)$ 的一个简单随机样本，若 $E\dfrac{1}{n}\displaystyle\sum_{i=1}^n a^{X_i}=e^\lambda$，则常数 $a=$\ExamBlank。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      求曲线 $y=f(x)=x^2\left[\left(1+\dfrac{1}{x}\right)^x-e\right](x>0)$ 的斜渐近线。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 $f(x)$ 在 $[0,1]$ 上二阶可导，满足 $\displaystyle\lim_{x\to 0^+}\dfrac{f(x)-f(1)}{x^2}=2$。证明：
+  subparts:
+  - text: |-
+      存在 $\xi\in(0,1)$，有 $f''(\xi)=0$；
+  - text: |-
+      存在 $\eta\in(0,1)$，使得 $f'(\eta)=\dfrac{f(\eta)-f(0)}{\eta}$。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      求 $f(x,y)=\dfrac{4}{3}x^2+y^2+\dfrac{4}{3}x$ 在 $D:x^2+\dfrac{3}{4}y^2\leq 1$ 上的最大值和最小值。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $D=\{(x,y)\mid 0\leq x\leq\sqrt{\pi},\ 0\leq y\leq\sqrt{\pi}\}$，记 $I_1=\displaystyle\iint_D\sin(\max\{x^2,y^2\})\,\mathrm{d}x\mathrm{d}y$，$I_2=\displaystyle\iint_D\sin(\min\{x^2,y^2\})\,\mathrm{d}x\mathrm{d}y$，证明 $I_2<I_1$。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设二次型 $f(x_1,x_2,x_3)$ 的矩阵为 $A$，满足 $|A-2E|=0$ 且 $AB=0$，其中 $B=\begin{pmatrix}-1&-1&1\\1&0&1\\0&1&-2\end{pmatrix}$。用正交变换化该二次形为标准形，求出该正交变换和矩阵 $A$。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设随机变量 $X$ 在 $(0,\pi)$ 上服从均匀分布，$Y$ 的分布律为 $P\{Y=i\}=\dfrac{|i|}{2}$，$i=-1,1$，且 $X$ 和 $Y$ 相互独立，记 $U=\sin X$，$V=Y+U$。
+  subparts:
+  - text: 求 $U$ 的概率密度函数 $f_U(u)$；
+  - text: 求 $V$ 的概率密度函数 $f_V(v)$；
+  - text: |-
+      求协方差 $\operatorname{Cov}(U,V)$。

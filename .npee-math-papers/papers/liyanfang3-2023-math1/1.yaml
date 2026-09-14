@@ -1,0 +1,299 @@
+schema_version: '3.0'
+paper:
+  series_key: liyanfang3
+  year: 2023
+  subject: math1
+  paper_no: 1
+content_hash: ae53ee3349fcd61438ffd02720a6aad7b1040976ce604a1bd87b6fb600dd8aac
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $\alpha_1=\sqrt{x+\sqrt{x}},\alpha_2=\sqrt[3]{x}\arctan(x+\sqrt{x}),\alpha_3=1-\cos\sqrt{x}$。当 $x\to0^+$ 时，以上 3 个无穷小量按照从低阶到高阶的排序是\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\alpha_1,\alpha_2,\alpha_3$。
+    figures: []
+  - label: B
+    text: |-
+      $\alpha_1,\alpha_3,\alpha_2$。
+    figures: []
+  - label: C
+    text: |-
+      $\alpha_2,\alpha_1,\alpha_3$。
+    figures: []
+  - label: D
+    text: |-
+      $\alpha_3,\alpha_1,\alpha_2$。
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $y(x)=\lim_{t\to0}\left[1-\dfrac{\ln(1-t)}{x^2}\right]^{\dfrac{x}{\sin t}}$，下列关于曲线 $y=y(x)$ 的渐近线的说法中，正确的是\ExamSelection。①该曲线无渐近线。②该曲线有铅直渐近线。③该曲线有水平渐近线。④该曲线有斜渐近线。
+  choices:
+  - label: A
+    text: ②。
+    figures: []
+  - label: B
+    text: ③。
+    figures: []
+  - label: C
+    text: ②③。
+    figures: []
+  - label: D
+    text: ②④。
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $p\geqslant0$，若级数 $\displaystyle\sum_{n=1}^{\infty}\int_0^{\dfrac{1}{n}}\dfrac{x^p}{1+x^q}\,\mathrm{d}x$ 发散，则\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $p>0,q\geqslant0$。
+    figures: []
+  - label: B
+    text: $p>0,q<0$。
+    figures: []
+  - label: C
+    text: |-
+      $p=0,q\geqslant0$。
+    figures: []
+  - label: D
+    text: $p=0,q<0$。
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x,y)=\begin{cases}(xy+a|x|+b\sqrt{|y|})\arctan\dfrac{1}{|x|+y^2},&(x,y)\neq(0,0),\\0,&(x,y)=(0,0),\end{cases}$ 则下列说法中，错误的是\ExamSelection。
+  choices:
+  - label: A
+    text: 函数 $f(x,y)$ 在点 $(0,0)$ 处的连续性与 $a,b$ 的取值无关。
+    figures: []
+  - label: B
+    text: 函数 $f(x,y)$ 在点 $(0,0)$ 处的偏导数是否存在与 $a,b$ 的取值无关。
+    figures: []
+  - label: C
+    text: 函数 $f(x,y)$ 在点 $(0,0)$ 处的可微性与 $a,b$ 的取值有关。
+    figures: []
+  - label: D
+    text: 若函数 $f(x,y)$ 在点 $(0,0)$ 处的偏导数存在，则 $f(x,y)$ 在点 $(0,0)$ 处可微。
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 为 $n(n\geqslant2)$ 阶矩阵，$B$ 为 $n$ 阶可逆矩阵，$b$ 为 $n$ 维列向量。下列命题中，错误的是\ExamSelection。
+  choices:
+  - label: A
+    text: 若方程组 $Ax=b$ 有解，则方程组 $ABx=b$ 有解。
+    figures: []
+  - label: B
+    text: 若方程组 $Ax=b$ 有解，则方程组 $BAx=b$ 有解。
+    figures: []
+  - label: C
+    text: 若方程组 $Ax=0$ 有非零解，则方程组 $ABx=0$ 有非零解。
+    figures: []
+  - label: D
+    text: 若方程组 $Ax=0$ 有非零解，则方程组 $BAx=0$ 有非零解。
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 为 3 阶正交矩阵，且 $A^3=E$。若 $\alpha,\beta$ 均为非零向量，且 $\alpha,A\alpha$ 线性无关，$\alpha,A\alpha,A^2\alpha$ 线性相关，$\beta^{\mathrm T}\alpha=\beta^{\mathrm T}A\alpha=0$，则\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\beta$ 与 $A\beta,A^2\alpha$ 均正交。
+    figures: []
+  - label: B
+    text: |-
+      $\beta$ 与 $A\beta$ 正交，不与 $A^2\alpha$ 正交。
+    figures: []
+  - label: C
+    text: |-
+      $A\beta$ 与 $\alpha,A\alpha$ 均正交。
+    figures: []
+  - label: D
+    text: |-
+      $A\beta$ 与 $\alpha$ 正交，不与 $A\alpha$ 正交。
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设二次型 $f(x_1,x_2,x_3)=x_1^2+x_2^2+2x_3^2+2ax_1x_3-2x_2x_3$。若二次曲面 $f(x_1,x_2,x_3)=1$ 上的点到坐标原点的距离有最大值，则 $a$ 可能为\ExamSelection。
+  choices:
+  - label: A
+    text: $0$。
+    figures: []
+  - label: B
+    text: $1$。
+    figures: []
+  - label: C
+    text: $2$。
+    figures: []
+  - label: D
+    text: $3$。
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设相互独立的随机变量 $X$ 和 $Y$ 的分布函数分别为 $F_X(x)$ 和 $F_Y(y)$。若这两个函数各有 2 个间断点，则随机变量 $XY$ 的分布函数的间断点的个数不可能是\ExamSelection。
+  choices:
+  - label: A
+    text: $0$。
+    figures: []
+  - label: B
+    text: $2$。
+    figures: []
+  - label: C
+    text: $3$。
+    figures: []
+  - label: D
+    text: $4$。
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设二维随机变量 $(X,Y)$ 服从二维正态分布 $N(\mu_1,\mu_2;\sigma^2,1;\rho)$，则随机变量 $X+Y$ 与 $X-Y$ 是否相关\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      仅取决于 $\rho$ 的值。
+    figures: []
+  - label: B
+    text: |-
+      仅取决于 $\sigma^2$ 的值。
+    figures: []
+  - label: C
+    text: |-
+      取决于 $\rho,\sigma^2$ 的值。
+    figures: []
+  - label: D
+    text: 以上说法均不正确。
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      在一盒骰子中既有正常的均匀骰子，也有灌铅骰子，灌铅骰子掷出六点的概率为 $0.9$，掷出其余五个点数的概率相等。从盒中取一枚骰子检验。原假设 $H_0$：这是一枚均匀骰子。备择假设 $H_1$：这是一枚灌铅骰子。检验法则为，连续投掷这枚骰子 $n$ 次，若连续掷出 $n$ 个六点，则拒绝 $H_0$，否则接受 $H_0$。下列命题中，正确的是\ExamSelection。
+  choices:
+  - label: A
+    text: 当 $n=2$ 时，犯第一类错误的概率是 $0.21$。
+    figures: []
+  - label: B
+    text: 当 $n=2$ 时，犯第二类错误的概率是 $0.21$。
+    figures: []
+  - label: C
+    text: 若 $n$ 越大，则犯第二类错误的概率就越小。
+    figures: []
+  - label: D
+    text: 当 $n=3$ 时，此检验法则是一个显著性水平为 $0.01$ 的检验法则。
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $\displaystyle\lim_{n\to\infty}\sum_{k=1}^n\dfrac{1}{n+k-\sin^2n}=$\ExamBlank。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x,y)=e^{x+y}$，点 $(a,b)$ 为圆周 $x^2+y^2=1$ 上的动点，$D$ 为中心在原点的正方形。若要使积分 $I(a,b)=\displaystyle\iint_D f(a+x,b+y)\,\mathrm{d}x\,\mathrm{d}y$ 最大，则 $(a,b)$ 应取\ExamBlank。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设数列 $\{a_n\}$ 满足 $a_0=1,a_{n+1}=\sin a_n$，则幂级数 $\displaystyle\sum_{n=1}^{\infty}\left(a_n+\dfrac{1}{n}\right)x^n$ 的收敛域为\ExamBlank。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      在定向为逆时针方向的椭圆 $C: \dfrac{1}{4}x^2+y^2=1$ 上选取一段曲线 $L$，使得曲线积分 $\displaystyle\int_L\mathrm{d}x+2\mathrm{d}y$ 最大，则这个最大值为\ExamBlank。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 为可相似对角化的 4 阶矩阵，$\alpha$ 为 4 维非零列向量。若 $\alpha,A\alpha,A^2\alpha,A^3\alpha$ 线性无关，则 $A$ 的不同特征值的个数为\ExamBlank。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设点 $P$ 的坐标 $(X,Y)$ 服从单位圆盘 $D:x^2+y^2\leqslant1$ 上的均匀分布，以点 $P$ 为圆心，作能够包含于 $D$ 的最大圆，记此圆的最高点的纵坐标为 $H$，则 $H$ 的数学期望为\ExamBlank。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      设函数 $f(x)=\begin{cases}x^a\sin\dfrac{1}{x},&x>0,\\b,&x=0,\\\dfrac{1-\cos x}{(-x)^{a-2}},&x<0,\end{cases}$ 有连续的导函数，求 $a$ 的取值范围。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设非负函数 $y(x)$ 在 $(0,+\infty)$ 内可导且单调减少。记曲线 $y=y(x)$ 上任意一点 $P$ 处的切线与 $x$ 轴，$y$ 轴的交点分别为 $P_x,P_y$。若 $|PP_x|=2|PP_y|$，且曲线上横坐标为 1 的点处的切线斜率为 $-1$，求：
+  subparts:
+  - text: 曲线 $y=y(x)$ 的方程；
+  - text: 曲线 $y=y(x)$ 在点 $(2,y(2))$ 处的曲率半径。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $\Sigma$ 为曲面 $4x^2+y^2+z^2=1$（$z\geqslant0$）的下侧，计算曲面积分 $I=\displaystyle\iint_{\Sigma}(x+2y)\,\mathrm{d}y\,\mathrm{d}z+\dfrac{z}{\sqrt{x^2+y^2+z^2}}\,\mathrm{d}z\,\mathrm{d}x+\left(x^2-\dfrac{y}{\sqrt{x^2+y^2+z^2}}\right)\,\mathrm{d}x\,\mathrm{d}y$。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $a$ 为常数，反常积分 $\displaystyle\int_0^{+\infty}\dfrac{x^a\arctan x^b}{\sqrt{1+x^c}}\,\mathrm{d}x$ 对任意正实数 $b,c$ 均收敛。
+  subparts:
+  - text: 求 $a$ 的值。
+  - text: |-
+      证明：$\dfrac{\sqrt{2}\pi^2}{8}\leqslant\displaystyle\int_0^{+\infty}\dfrac{x^a\arctan x}{\sqrt{1+x^2}}\,\mathrm{d}x\leqslant\dfrac{\pi(\pi+2)}{8}$。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: 设 $A,B$ 均为 2 阶实对称矩阵，$A$ 的特征值为 $1,2$，$B$ 的特征值为 $2,3$。证明：
+  subparts:
+  - text: |-
+      若存在 $\xi$，使得 $\dfrac{\xi^{\mathrm T}A\xi}{\xi^{\mathrm T}\xi}=2$，则 $\xi$ 为 $A$ 的属于特征值 2 的特征向量；
+  - text: |-
+      若存在 $\xi$，使得 $\dfrac{\xi^{\mathrm T}A\xi}{\xi^{\mathrm T}\xi}=2,\dfrac{\xi^{\mathrm T}B\xi}{\xi^{\mathrm T}\xi}=3$，则 $AB=BA$。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设总体 $X$ 的概率密度函数为 $f(x)=\begin{cases}\alpha e^{-\alpha(x-\beta)},&x\geqslant\beta,\\0,&\text{其他},\end{cases}$ 其中 $\alpha$ 为已知正常数，$\beta$ 为未知正参数，$X_1,X_2,\cdots,X_n$ 是来自总体 $X$ 的简单随机样本。
+  subparts:
+  - text: |-
+      求 $\beta$ 的最大似然估计量 $\hat{\beta}$；
+  - text: |-
+      判断 $\hat{\beta}$ 是否为无偏估计。

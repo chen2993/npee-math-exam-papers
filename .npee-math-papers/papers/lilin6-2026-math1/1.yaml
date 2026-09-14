@@ -1,0 +1,312 @@
+schema_version: '3.0'
+paper:
+  series_key: lilin6
+  year: 2026
+  subject: math1
+  paper_no: 1
+content_hash: c6149d50cebcdaeead97c5f65fe03897b7b8ace975029a5802b4def5fba779fa
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      $f(x)=\dfrac{(x^2-x)|x+1|e^{-\dfrac{1}{x}}}{\int_1^x t^2\sin t\,\mathrm{d}t}$ $(x\in[-\pi,\pi])$ 的第一类间断点的个数为\ExamSelection
+  choices:
+  - label: A
+    text: $0$
+    figures: []
+  - label: B
+    text: $1$
+    figures: []
+  - label: C
+    text: $2$
+    figures: []
+  - label: D
+    text: $3$
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      下列函数在 $x=0$ 处不可导的是\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $|x|\int_0^x\sin t^2\,\mathrm{d}t$。
+    figures: []
+  - label: B
+    text: |-
+      $|\sin(x-\sin x)|$。
+    figures: []
+  - label: C
+    text: |-
+      $\int_{-1}^x\sqrt{|t|}\ln|t|\,\mathrm{d}t$。
+    figures: []
+  - label: D
+    text: |-
+      $\sqrt{e^{|x|}}$。
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f'(u)\ne0$，且 $x_0^2+y_0^2\ne0$，则曲面 $z=f(\sqrt{x^2+y^2})$ 上点 $M_0(x_0,y_0,z_0)$ 处的法线与 $x$ 轴的位置关系是\ExamSelection
+  choices:
+  - label: A
+    text: 垂直相交。
+    figures: []
+  - label: B
+    text: 相交但不垂直。
+    figures: []
+  - label: C
+    text: 平行。
+    figures: []
+  - label: D
+    text: 异面直线。
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)$ 有一阶连续导数，且 $\lim_{x\to0}\dfrac{f(x)}{x}=1$，$a_n=f\left(\dfrac{1}{n}\right)$，$n=1,2,\cdots$，则\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\displaystyle\sum_{n=1}^{\infty}(-1)^{n-1}a_n$ 收敛，$\displaystyle\sum_{n=1}^{\infty}a_n$ 收敛。
+    figures: []
+  - label: B
+    text: |-
+      $\displaystyle\sum_{n=1}^{\infty}(-1)^{n-1}a_n$ 发散，$\displaystyle\sum_{n=1}^{\infty}a_n^2$ 收敛。
+    figures: []
+  - label: C
+    text: |-
+      $\displaystyle\sum_{n=1}^{\infty}(-1)^{n-1}a_n$ 发散，$\displaystyle\sum_{n=1}^{\infty}a_n$ 收敛。
+    figures: []
+  - label: D
+    text: |-
+      $\displaystyle\sum_{n=1}^{\infty}(-1)^{n-1}a_n$ 收敛，$\displaystyle\sum_{n=1}^{\infty}a_n^2$ 收敛。
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 是 $3$ 阶实对称矩阵，$\boldsymbol{\alpha}=(-1,1,1)^{\mathrm T}$ 满足 $(A-2E)\boldsymbol{\alpha}=0$，且 $r(A)=1$，则方程组 $AX=0$ 的基础解系为\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $(1,1,0)^{\mathrm T},(1,0,1)^{\mathrm T}$。
+    figures: []
+  - label: B
+    text: |-
+      $(1,1,1)^{\mathrm T},(1,-1,0)^{\mathrm T}$。
+    figures: []
+  - label: C
+    text: |-
+      $(1,1,-1)^{\mathrm T},(-1,0,1)^{\mathrm T}$。
+    figures: []
+  - label: D
+    text: |-
+      $(1,1,0)^{\mathrm T},(-1,0,1)^{\mathrm T}$。
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A=\begin{pmatrix}1&0&0\\0&-\dfrac{1}{2}&\dfrac{1}{2}\\0&\dfrac{1}{2}&-\dfrac{1}{2}\end{pmatrix},B=\begin{pmatrix}1&-1&0\\2&-1&1\\0&1&1\end{pmatrix},C=\begin{pmatrix}1&-1&0\\2&-2&0\\0&0&1\end{pmatrix}$，则下列选项中正确的是\ExamSelection
+  choices:
+  - label: A
+    text: $A$ 与 $C$ 合同。
+    figures: []
+  - label: B
+    text: $A$ 与 $B$ 相似。
+    figures: []
+  - label: C
+    text: $B$ 与 $C$ 相似。
+    figures: []
+  - label: D
+    text: $B$ 与 $C$ 合同。
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 是 $3$ 阶实对称矩阵，$B=(\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3)$ 是 $3$ 阶可逆矩阵，且 $AB=(\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2-2\boldsymbol{\alpha}_3,\boldsymbol{\alpha}_3-2\boldsymbol{\alpha}_2)$，记 $X=(x_1,x_2,x_3)^{\mathrm T}$，则二次型 $f(x_1,x_2,x_3)=\operatorname{tr}(AXX^{\mathrm T})$ 的规范形为\ExamSelection
+  choices:
+  - label: A
+    text: $y_1^2-y_2^2-y_3^2$。
+    figures: []
+  - label: B
+    text: $y_1^2+y_2^2-y_3^2$。
+    figures: []
+  - label: C
+    text: $y_1^2+y_2^2+y_3^2$。
+    figures: []
+  - label: D
+    text: $-y_1^2-y_2^2-y_3^2$。
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设每次试验只有两个结果 $A$ 与 $\overline{A}$，已知 $P(A)=p(0<p<1)$，重复独立进行该实验直至 $A$ 与 $\overline{A}$ 都出现为止，且试验次数 $X$ 的数学期望为 $3$，则 $p=$\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{1}{2}$。
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{1}{3}$。
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{1}{4}$。
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{2}{3}$。
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $(X,Y)\sim N\left(\begin{matrix}1,0;9,16;\\-\dfrac{1}{2}\end{matrix}\right)$，$Z=\dfrac{1}{3}X+\dfrac{1}{2}Y$，则\ExamSelection
+  choices:
+  - label: A
+    text: $X$ 与 $Z$ 不相关。
+    figures: []
+  - label: B
+    text: $X$ 与 $Z$ 不相互独立。
+    figures: []
+  - label: C
+    text: $Y$ 与 $Z$ 不相关。
+    figures: []
+  - label: D
+    text: $Y$ 与 $Z$ 相互独立。
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      连续不间断独立地对同一目标射击，直到命中为止。设进行 $n$ $(n\geq1)$ 轮射击，各轮射击的次数依次为 $k_1,k_2,\cdots,k_n$，且每次击中目标的概率均为 $p(0<p<1)$，则 $p$ 的矩估计值与最大似然估计值分别为\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\hat p=\dfrac{n}{\sum_{i=1}^n k_i}$，$\hat p=\dfrac{\sum_{i=1}^n k_i}{n}$。
+    figures: []
+  - label: B
+    text: |-
+      $\hat p=\dfrac{\sum_{i=1}^n k_i}{n}$，$\hat p=\dfrac{n}{\sum_{i=1}^n k_i}$。
+    figures: []
+  - label: C
+    text: |-
+      $\hat p=\dfrac{n}{\sum_{i=1}^n k_i}$，$\hat p=\dfrac{n}{\sum_{i=1}^n k_i}$。
+    figures: []
+  - label: D
+    text: |-
+      $\hat p=\dfrac{\sum_{i=1}^n k_i}{n}$，$\hat p=\dfrac{\sum_{i=1}^n k_i}{n}$。
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)$ 是连续函数，且 $\lim_{x\to+\infty}f(x)=\dfrac{1}{e}$，若正数 $a$ 满足 $\lim_{x\to+\infty}\left(\cos\dfrac{a}{x}\right)^{x^2}=\lim_{x\to+\infty}\int_x^{x+1}f(t)\,\mathrm{d}t$，则 $a=$\ExamBlank。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $L:x^2+\dfrac{y^2}{4}=1$，取逆时针方向，则 $I=\oint_L(4x^2+y^2)(|y|\,\mathrm{d}x+x\,\mathrm{d}y)=$\ExamBlank。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x,y)$ 可微，曲面 $z=f(x,y)$ 与坐标面 $xOy$ 的交线为 $\left\{\begin{array}{l}y=\displaystyle\int_0^x(e^{-t^2}+\sin t^2)\,\mathrm{d}t,\\z=0,\end{array}\right.$ 且 $f'_x(0,0)=1$，则 $\left.\mathrm{d}z\right|_{(0,0)}=$\ExamBlank。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设微分方程 $y''+ay'+y=0$ 的每一个解 $y(x)$ 在 $[0,+\infty)$ 上有界，则实数 $a$ 的取值范围为\ExamBlank。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 是 $3$ 阶矩阵，$\boldsymbol{\alpha}$ 为 $3$ 维列向量，$P=(\boldsymbol{\alpha},A\boldsymbol{\alpha},A^2\boldsymbol{\alpha})$ 为可逆矩阵，$B=P^{-1}AP$，且 $A^3\boldsymbol{\alpha}+2A^2\boldsymbol{\alpha}=3A\boldsymbol{\alpha}$，则 $\operatorname{tr}(A+B)=$\ExamBlank。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设二维随机变量 $(X,Y)$ 服从 $D$ 上的均匀分布，其中 $D=\{(x,y)\mid0\leq x\leq3,0\leq y\leq3\}$，记 $U=(X+Y)^2,V=(X-Y)^2$，则 $\operatorname{Cov}(U,V)=$\ExamBlank。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      设可微函数 $f(x,y)$ 在点 $P(x,y)$ 处沿 $l_1=(1,1)$ 的方向导数为 $\sqrt{2}(x-xy^2+2y-x^2y)$，沿 $l_2=(0,-2)$ 的方向导数为 $2x^2y-4y$。
+  subparts:
+  - text: 求 $f(x,y)$ 在点 $M(2,1)$ 处的最大方向导数；
+  - text: 若 $f(1,1)=2$，求 $f(x,y)$ 的极值。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $\Sigma$ 为曲面 $x=2-x^2-y^2$ $(x\geq0,y\geq0)$ 被柱面 $x^2+y^2=1$ 所截出部分的上侧，计算 $I=\iint_\Sigma yz\,\mathrm{d}x\,\mathrm{d}y+zx\,\mathrm{d}y\,\mathrm{d}z+xy\,\mathrm{d}z\,\mathrm{d}x$。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $f(x)$ 满足 $e^{f(x)}[f'(x)-1]=x-1$ $(x\geq0),f(0)=0$，数列 $\{a_n\}$ 满足 $a_1=1,a_{n+1}=f(a_n)$ $(n=1,2,\cdots)$。
+  subparts:
+  - text: |-
+      证明：$\displaystyle\lim_{n\to\infty}a_n$ 存在，并求其值；
+  - text: |-
+      求 $\displaystyle\sum_{n=1}^{\infty}a_nx^n$ 的收敛域及 $\displaystyle\sum_{n=1}^{\infty}a_n$ 的和。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $f(x)$ 在 $(-\infty,+\infty)$ 内有二阶连续的导数，且对 $\forall x,y\in(-\infty,+\infty)$ 满足 $f\left(\sqrt{\dfrac{x^2+y^2}{2}}\right)=\sqrt{f(x)f(y)}$，$f(x)$ 在 $(0,+\infty)$ 内严格单调递增。证明：
+  subparts:
+  - text: |-
+      对 $\forall x,y\in(-\infty,+\infty)$，有 $f\left(\dfrac{x+y}{2}\right)\leq\dfrac{f(x)+f(y)}{2}$；
+  - text: |-
+      对 $\forall x\in(-\infty,+\infty)$，有 $f''(x)\geq0$；
+  - text: |-
+      $\displaystyle\int_{-1}^{1}f(x)\,\mathrm{d}x\leq f(0)+f(1)$。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设矩阵 $A=\begin{pmatrix}a&1&1\\1&a&1\\1&1&a\end{pmatrix}$ 有二重特征值 $1$，二次型 $f(x_1,x_2,x_3)=X^{\mathrm T}AX$，其中 $X=(x_1,x_2,x_3)^{\mathrm T}$。
+  subparts:
+  - text: 求 $a$ 的值，并求正交变换 $X=QY$ 将 $f(x_1,x_2,x_3)$ 化为标准形；
+  - text: |-
+      设 $g(x_1,x_2,x_3)=\begin{vmatrix}0&X^{\mathrm T}\\-X&A\end{vmatrix}$，若对 $\forall X\ne0$，有 $f(x_1,x_2,x_3)\leq kg(x_1,x_2,x_3)$，求 $k$ 的最小取值。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设随机变量 $X$ 的概率密度为 $f(x)=\dfrac{1}{\pi(1+x^2)}$ $(-\infty<x<+\infty)$，$Y=\operatorname{arccot}X$，随机变量 $Z\sim N(0,1)$，且 $Y$ 与 $Z$ 相互独立。
+  subparts:
+  - text: 求 $Y$ 的分布函数与概率密度；
+  - text: 求 $U=Z+Y$ 的概率密度。

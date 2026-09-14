@@ -1,0 +1,311 @@
+schema_version: '3.0'
+paper:
+  series_key: euclid3
+  year: 2025
+  subject: math3
+  paper_no: 3
+content_hash: 29c8280c4433c97de067e0b045ea9316c0e56fc7b71174f3341549fef865a1ae
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知 $f(x)$ 在 $x=0$ 处连续，且满足 $\lim_{x\to0}\dfrac{f(x)}{x^2}=1$，则\ExamSelection
+  choices:
+  - label: A
+    text: $f'(0)=0$
+    figures: []
+  - label: B
+    text: |-
+      $\lim_{x\to0}f'(x)=0$
+    figures: []
+  - label: C
+    text: |-
+      $\lim_{x\to0}\dfrac{f'(x)}{x}=2$
+    figures: []
+  - label: D
+    text: $f''(0)=2$
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设奇函数 $f(x)$ 在 $(-\infty,+\infty)$ 上有连续导数，$f(1)=0$，且对任意的 $x$ 均有 $f(x+2)=f(x)-f(2)$，则下列说法错误的是\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\int_0^x[\cos f(t)+f'(t+2)]\,\mathrm{d}t$ 是奇函数
+    figures: []
+  - label: B
+    text: |-
+      $\int_0^x[\sin f(t)+f(t+1)]\,\mathrm{d}t$ 是偶函数
+    figures: []
+  - label: C
+    text: |-
+      $\int_0^x f(t)\,\mathrm{d}t-\dfrac{x}{2}\int_0^2\cos f(t)\,\mathrm{d}t$ 是周期函数
+    figures: []
+  - label: D
+    text: |-
+      $\int_0^x f(t)\,\mathrm{d}t-\dfrac{x}{2}\int_0^2\sin f(t)\,\mathrm{d}t$ 是周期函数
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设区域 $D=\{(x,y)\mid |x|+|y|\leq1\}$，$D_1$ 是 $D$ 在第一象限的部分，$f(x,y)$ 在 $D$ 上连续，则等式 $\iint_Df(x,y)\,\mathrm{d}\sigma=4\iint_{D_1}f(x,y)\,\mathrm{d}\sigma$ 成立的充分条件是\ExamSelection
+  choices:
+  - label: A
+    text: $f(-x,-y)=f(x,y)$
+    figures: []
+  - label: B
+    text: $f(-x,-y)=-f(x,y)$
+    figures: []
+  - label: C
+    text: $f(-x,y)=f(x,-y)=-f(x,y)$
+    figures: []
+  - label: D
+    text: $f(-x,y)=f(x,-y)=f(x,y)$
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      下列命题错误的是\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      若 $\lim_{n\to\infty}\dfrac{n^{\dfrac{1}{n^2+1}}-1}{u_n}=1$，则级数 $\sum_{n=1}^{\infty}u_n$ 收敛
+    figures: []
+  - label: B
+    text: |-
+      若 $\alpha\geq1$，则级数 $\sum_{n=1}^{\infty}\dfrac{n}{1+2^\alpha+3^\alpha+\cdots+n^\alpha}$ 收敛
+    figures: []
+  - label: C
+    text: |-
+      级数 $\sum_{n=1}^{\infty}n^2\tan\left(\dfrac{\pi}{e^n}\right)[\sin(n!)]$ 绝对收敛
+    figures: []
+  - label: D
+    text: |-
+      级数 $\sum_{n=1}^{\infty}(-1)^n\dfrac{n+\pi}{n^2}$ 条件收敛
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设二次型 $f(x_1,x_2,x_3)=\boldsymbol{x}^{\mathrm{T}}A\boldsymbol{x}=x_1^2+ax_2^2+x_3^2+2x_1x_2-2ax_1x_3-2x_2x_3$，已知矩阵 $B=\begin{pmatrix}1&-1&1\\-1&1&-1\\1&-1&1\end{pmatrix}$，$C=\begin{pmatrix}-1&0&0\\0&1&0\\0&0&-1\end{pmatrix}$，$D=\begin{pmatrix}1-a&0&1\\0&a-1&0\\0&0&a+2\end{pmatrix}$，$A$ 为二次型的矩阵，以下命题正确的为\ExamSelection
+  choices:
+  - label: A
+    text: ①②
+    figures: []
+  - label: B
+    text: ③④
+    figures: []
+  - label: C
+    text: ①②③
+    figures: []
+  - label: D
+    text: ①②④
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设向量组 $\boldsymbol{\alpha}_1\text{，}\boldsymbol{\alpha}_2$ 为 $n$ 维非零列向量（$n\geq2$），关于向量组（I）$k\boldsymbol{\alpha}_1+\boldsymbol{\alpha}_2\text{，}k\boldsymbol{\alpha}_2-\boldsymbol{\alpha}_1$；（II）$\boldsymbol{\alpha}_1+k\boldsymbol{\alpha}_2\text{，}\boldsymbol{\alpha}_2+k\boldsymbol{\alpha}_1$，下列结论正确的是\ExamSelection
+  choices:
+  - label: A
+    text: 若向量组（I）线性无关，则向量组（II）也线性无关
+    figures: []
+  - label: B
+    text: 若向量组（II）线性无关，则向量组（I）也线性无关
+    figures: []
+  - label: C
+    text: 向量组（I）必线性无关
+    figures: []
+  - label: D
+    text: 向量组（II）必线性无关
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 是 $3$ 阶实对称矩阵，$|A-E|=|A-2E|=0$，且 $A$ 的各行元素的后 $2$ 个分量之和为 $0$，则下列说法正确的个数是\ExamSelection
+  choices:
+  - label: A
+    text: $1$
+    figures: []
+  - label: B
+    text: $2$
+    figures: []
+  - label: C
+    text: $3$
+    figures: []
+  - label: D
+    text: $4$
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知盒中有 $2$ 个白球 $4$ 个黑球，从中有放回地随机取球，直到第 $4$ 次取到白球时停止，则取球总次数的数学期望是\ExamSelection
+  choices:
+  - label: A
+    text: $6$
+    figures: []
+  - label: B
+    text: $8$
+    figures: []
+  - label: C
+    text: $10$
+    figures: []
+  - label: D
+    text: $12$
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      下列二元函数中，能够作为分布函数的是\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $F(x,y)=\begin{cases}1,&x+y>0.8,\\0,&\text{其他}\end{cases}$
+    figures: []
+  - label: B
+    text: |-
+      $F(x,y)=\begin{cases}\int_0^x\int_0^y e^{-(u+v)}\,\mathrm{d}u\,\mathrm{d}v,&x>0,y>0,\\0,&\text{其他}\end{cases}$
+    figures: []
+  - label: C
+    text: |-
+      $F(x,y)=\int_{-\infty}^x\int_{-\infty}^y e^{-(u+v)}\,\mathrm{d}u\,\mathrm{d}v$
+    figures: []
+  - label: D
+    text: |-
+      $F(x,y)=\begin{cases}e^{-(x+y)},&x>0,y>0,\\0,&\text{其他}\end{cases}$
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $X_1\text{，}X_2$ 是来自标准正态分布 $N(0,1)$ 的简单随机样本，令 $U=\dfrac{X_1+X_2}{2}$，$V=\dfrac{X_1-X_2}{2}$，$W=\dfrac{X_1^2+X_2^2}{2}$，则下列说法错误的是\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $2V^2\sim\chi^2(1)$
+    figures: []
+  - label: B
+    text: |-
+      $2W\sim\chi^2(2)$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{2U^2}{W}\sim F(1,2)$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{U^2}{V^2}\sim F(1,1)$
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $\lim_{x\to0}\dfrac{\cos x-1+f(x)}{x^3}=6$，则 $\lim_{x\to0}\dfrac{f(x)}{x-\ln(1+x)}=\ExamBlank$。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设函数 $u(x,y)$ 的全微分 $\mathrm{d}u=[f(x)+2e^x]\sin y\,\mathrm{d}x+f'(x)\cos y\,\mathrm{d}y$，其中 $f(x)$ 具有二阶连续导数，$f(0)=-2$，$f'(0)=-1$，$u(0,0)=0$，则 $u(x,y)=\ExamBlank$。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      差分方程 $\Delta y_t=(2t+1)(3^t+1)$ 的通解为\ExamBlank。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设幂级数 $\left(\sum_{n=1}^{\infty}x^n\right)^3$ 在区间 $(-1,1)$ 上的和函数为 $f(x)$，则 $f^{(10)}(0)=\ExamBlank$。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $\boldsymbol{\xi}_1=(1,2,3)^{\mathrm{T}}$，$\boldsymbol{\xi}_2=(3,2,1)^{\mathrm{T}}$ 是齐次方程组 $A\boldsymbol{x}=0$ 的基础解系，$\boldsymbol{\alpha}=(a,b,1)^{\mathrm{T}}$ 是方程组 $\begin{cases}A\boldsymbol{x}=0,\\x_1+x_2+x_3=1\end{cases}$ 的解，则 $ab=\ExamBlank$。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      如图所示，在原点任意发射粒子，粒子发射方向与 $x$ 正半轴的角度为 $\theta(0<\theta<\pi)$，粒子射中形状为半圆形的挡板的 $A$ 点，半圆曲线的表达式为 $x^2+y^2=1(y>0)$，则 $A$ 点横坐标 $X$ 的概率密度为\ExamBlank。
+    figures:
+    - kind: tikz
+      latex: |-
+        \begin{tikzpicture}[scale=0.8]\draw[->] (-1.25,0)--(1.35,0) node[right] {$x$};\draw[->] (0,-0.1)--(0,1.25) node[above] {$y$};\draw (-1,0) arc (180:0:1);\fill (0,0) circle (1.2pt) node[below] {$O$};\coordinate (A) at (0.72,0.694);\draw[dashed] (0,0)--(A)--(0.72,0);\fill (A) circle (1.2pt) node[above right] {$A$};\draw (0.3,0) arc (0:44:0.3) node[midway,right] {$\theta$};\end{tikzpicture}
+      path:
+      description: 上半单位圆、坐标轴、原点到圆弧点 A 的发射方向及其横坐标投影。
+      exception_reason:
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      设区域 $D$ 由 $y=x^2$，$y=-x^2$ 和 $x=1$ 所围成，计算二重积分 $I=\iint_D(\sqrt{1-x^2}+y)\sqrt{x^3-y^2}\,\mathrm{d}x\mathrm{d}y$。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: 设 $f(x)$ 在 $[a,b]$ 上具有连续导数。
+  subparts:
+  - text: |-
+      证明：存在 $\xi\in[a,b]$，使 $\int_a^bf(x)\,\mathrm{d}x=f(b)(b-a)-\dfrac{f'(\xi)}{2}(b-a)^2$；
+  - text: |-
+      若 $f(x)$ 在 $x=a$ 处二阶导存在且 $f'(a)=0$，$f''(a)\ne0$，求 $\lim_{b\to a^+}\dfrac{\xi-a}{b-a}$。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: 已知函数 $z=z(x,y)$ 由方程 $e^{-xy^2+z}+x^2+y^2z=3$ 确定，求 $z=z(x,y)$ 的极值。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 $f_n(x)=\dfrac{2n}{e}\left[e^x-\left(1+\dfrac{x}{n}\right)^n\right]$。
+  subparts:
+  - text: |-
+      证明：对任意的正整数 $n$，在区间 $[0,1]$ 内都有 $0\leq f_n(x)\leq x^2e^{x-1}$ 成立；
+  - text: |-
+      设数列 $\{a_n\}$ 满足 $a_1=1$，$a_{n+1}=\int_0^{a_n}f_n(x)\,\mathrm{d}x$。证明 $\lim_{n\to\infty}a_n$ 存在，并求此极限。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      已知二次型 $f(x_1,x_2,x_3)=\boldsymbol{x}^{\mathrm{T}}A\boldsymbol{x}$ 在正交变换 $\boldsymbol{x}=Q\boldsymbol{y}$ 下的标准形为 $4y_1^2+y_2^2+y_3^2$ 且 $Q$ 的第一列为 $\dfrac{1}{\sqrt{3}}(1,-1,-1)^{\mathrm{T}}$。
+  subparts:
+  - text: 求二次型矩阵 $A$；
+  - text: |-
+      若 $\boldsymbol{x}=(1,1,1)^{\mathrm{T}}$，求 $\lim_{n\to\infty}\dfrac{1}{4^n}\sum_{k=1}^n\boldsymbol{x}^{\mathrm{T}}A^k\boldsymbol{x}$ 的值。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $X$ 的密度函数 $f(x)=\dfrac{1}{2\lambda}e^{-\dfrac{|x|}{\lambda}}$（$-\infty<x<+\infty$），其中 $\lambda>0$，设 $Y=\begin{cases}1,&|X|\leq1,\\-1,&|X|>1\end{cases}$，$Z=XY$。
+  subparts:
+  - text: 求 $Z$ 的密度函数；
+  - text: |-
+      设 $Z_1\text{，}Z_2\text{，}\cdots\text{，}Z_n$ 为来自总体 $Z$ 的简单随机样本，求 $\lambda$ 的最大似然估计 $\hat{\lambda}$。

@@ -1,0 +1,318 @@
+schema_version: '3.0'
+paper:
+  series_key: zhangyu4
+  year: 2024
+  subject: math1
+  paper_no: 1
+content_hash: 5748480845e99cf6a8e83f89e0745556025b308037289d886a15d957b6403684
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $\{a_n\}$ 为非零数列，下列命题正确的是\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      若 $\{\sin a_n\}$ 收敛，则 $\{a_n\}$ 收敛。
+    figures: []
+  - label: B
+    text: |-
+      若 $\{\arcsin(\sin a_n)\}$ 收敛，则 $\{a_n\}$ 收敛。
+    figures: []
+  - label: C
+    text: |-
+      若 $\{a_n\}$ 收敛，则 $\{\sin\dfrac{1}{a_n}\}$ 收敛。
+    figures: []
+  - label: D
+    text: |-
+      若 $\{a_n\}$ 收敛，则 $\{\sin a_n\}$ 收敛。
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x)=\dfrac{(x-1)(x-2)^2(x-3)^3}{x}$，则 $f''(2)=\ExamSelection$
+  choices:
+  - label: A
+    text: $2$。
+    figures: []
+  - label: B
+    text: $-2$。
+    figures: []
+  - label: C
+    text: $1$。
+    figures: []
+  - label: D
+    text: $-1$。
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知级数 $\sum_{n=1}^{\infty}(-1)^{n-1}u_n$ 条件收敛，$u_n>0$，则级数 $\sum_{n=1}^{\infty}(u_{2n}-2u_{2n-1})$\ExamSelection
+  choices:
+  - label: A
+    text: 发散。
+    figures: []
+  - label: B
+    text: 绝对收敛。
+    figures: []
+  - label: C
+    text: 条件收敛。
+    figures: []
+  - label: D
+    text: 敛散性无法判断。
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设空间曲面 $\Sigma_1:z=\dfrac{x^3+y^3}{3}$，$\Sigma_2:z=\dfrac{x^2-y^2}{2}$，$\Sigma_3:z=\dfrac{x^2y^2}{2}$ 被柱面 $x^2+y^2=1$ 所截部分的面积分别为 $S_1,S_2,S_3$，则\ExamSelection
+  choices:
+  - label: A
+    text: $S_1>S_2>S_3$。
+    figures: []
+  - label: B
+    text: $S_2>S_1>S_3$。
+    figures: []
+  - label: C
+    text: $S_3>S_1>S_2$。
+    figures: []
+  - label: D
+    text: $S_3>S_2>S_1$。
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知 $\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3,\boldsymbol{\alpha}_4$ 是 3 维非零列向量，则下列命题\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      若 $\boldsymbol{\alpha}_4$ 可由 $\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3$ 线性表示，则 $\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3,\boldsymbol{\alpha}_4$ 线性无关；
+    figures: []
+  - label: B
+    text: |-
+      若 $\boldsymbol{\alpha}_4$ 可由 $\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3$ 线性表示，则 $r(\boldsymbol{\alpha}_1+\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3)=r(\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3,\boldsymbol{\alpha}_4)$；
+    figures: []
+  - label: C
+    text: |-
+      若 $\boldsymbol{\alpha}_4$ 不能由 $\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3$ 线性表示，则 $\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3$ 线性相关；
+    figures: []
+  - label: D
+    text: |-
+      若 $\boldsymbol{\alpha}_4$ 不能由 $\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3$ 线性表示，则 $2\leq r(\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3,\boldsymbol{\alpha}_4)\leq3$。
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A,B$ 均为 3 阶矩阵，$\boldsymbol{\xi},\boldsymbol{\eta}$ 均为 3 维非零列向量，非齐次线性方程组 $Ax=\boldsymbol{\xi}$ 与 $Bx=\boldsymbol{\eta}$ 均有解，则它们同解的充分必要条件为\ExamSelection
+  choices:
+  - label: A
+    text: $A$ 的行向量组与 $B$ 的行向量组等价。
+    figures: []
+  - label: B
+    text: |-
+      $(A\mid\boldsymbol{\xi})$ 的行向量组与 $(B\mid\boldsymbol{\eta})$ 的行向量组等价。
+    figures: []
+  - label: C
+    text: $A$ 的列向量组与 $B$ 的列向量组等价。
+    figures: []
+  - label: D
+    text: |-
+      $(A\mid\boldsymbol{\xi})$ 的列向量组与 $(B\mid\boldsymbol{\eta})$ 的列向量组等价。
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知 $A=\begin{pmatrix}1&1\\0&1\end{pmatrix}$，$B=\begin{pmatrix}1&-1\\0&1\end{pmatrix}$，$C,D$ 均为 2 阶矩阵，则\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\left|\begin{matrix}A&C\\B&D\end{matrix}\right|=|AD-BC|$。
+    figures: []
+  - label: B
+    text: |-
+      $\left|\begin{matrix}A&C\\B&D\end{matrix}\right|=|A||D-CA^{-1}B|$。
+    figures: []
+  - label: C
+    text: |-
+      $|E-AB|\neq|E-BA|$。
+    figures: []
+  - label: D
+    text: |-
+      $|D-CA^{-1}B||A|\neq|DA-CB|$。
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设总体 $X$ 的概率分布为 $P\{X=x\}=(x-1)p^2(1-p)^{x-2}$，$x=2,3,\cdots$，$p$ 为参数且 $0<p<1$。现有来自总体 $X$ 的简单随机样本的观测值 $5,3,6,2,6$，则 $p$ 的矩估计值为\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\sqrt{\dfrac{5}{11}}$。
+    figures: []
+  - label: B
+    text: |-
+      $\sqrt{\dfrac{5}{22}}$。
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{5}{11}$。
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{5}{22}$。
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知总体 $X\sim N(\mu_1,4)$，$Y\sim N(\mu_2,5)$，$X$ 与 $Y$ 相互独立，$X_1,\cdots,X_8$ 和 $Y_1,\cdots,Y_{10}$ 是分别来自总体 $X$ 和 $Y$ 的两组简单随机样本，$S_X^2$ 与 $S_Y^2$ 分别为两组样本的样本方差，则\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{2S_X^2}{5S_Y^2}\sim F(7,9)$。
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{5S_X^2}{2S_Y^2}\sim F(7,9)$。
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{4S_X^2}{5S_Y^2}\sim F(7,9)$。
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{5S_X^2}{4S_Y^2}\sim F(7,9)$。
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $X$ 的概率密度为 $f_X(x)=\begin{cases}\dfrac{1}{2},&-1\leq x\leq0,\\\dfrac{1}{4},&0<x<2,\\0,&\text{其他，}\end{cases}$ 且 $Y=\begin{cases}1,&X\leq0,\\2,&X>0,\end{cases}$，则 $E[D(X\mid Y)]=\ExamSelection$
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{1}{24}$。
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{5}{24}$。
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{7}{24}$。
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{9}{24}$。
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $f(x,y,z)=xy+yz+xz$ 在点 $(1,0,-1)$ 处方向导数的最小值为$\ExamBlank$。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $\sum_{n=1}^{\infty}(-1)^n\dfrac{2^{n+1}}{n!}=\ExamBlank$。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $\Sigma$ 为曲面 $z=\sqrt{1-x^2-y^2}$ 被曲面 $x^2+y^2=x$ 所截部分的上侧，则 $\iint_{\Sigma}xy^2\,\mathrm{d}z\,\mathrm{d}x+z^2\,\mathrm{d}x\,\mathrm{d}y=\ExamBlank$。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      微分方程 $y'+xy=xy^3$ 满足条件 $y(0)=\dfrac{\sqrt{2}}{2}$ 的特解为$\ExamBlank$。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      已知矩阵 $A=\begin{pmatrix}2&1&-1&1\\-1&2&1&1\\1&1&2&-1\\2&-1&1&1\end{pmatrix}$，则 $(A^2-A-2E)(A+E)^{-1}=\ExamBlank$。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设通过点 $A(0,1)$ 任意作直线与 $x$ 轴正向相交所成的角为 $\theta(0<\theta<\pi)$，如图所示，则直线在 $x$ 轴上的截距 $X$ 的概率密度为$\ExamBlank$。
+    figures:
+    - kind: tikz
+      latex: |-
+        \begin{tikzpicture}[>=stealth,scale=0.75]\draw[->] (-2.2,0)--(1.5,0) node[right] {$x$};\draw[->] (0,-0.25)--(0,2.1) node[above] {$y$};\draw (-1.9,-0.5)--(0.85,1.55);\draw (-1.1,0) arc (0:36:1.1);\node at (-0.8,0.22) {$\theta$};\node[left] at (-0.02,1.22) {$A$};\node[right] at (0.08,1.02) {$1$};\node[below] at (-1.05,-0.03) {$X$};\node[below left] at (-0.05,0) {$O$};\end{tikzpicture}
+      path:
+      description: 点 A(0,1) 处直线与 x 轴相交的示意图
+      exception_reason:
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      已知函数 $f(x)=\dfrac{1}{x}-\dfrac{1}{e^{1/x}-1}$，记 $a=\lim_{x\to0}f(x)$。
+  subparts:
+  - text: 求 $a$ 的值；
+  - text: |-
+      若当 $x\to0$ 时，$f(x)-a$ 与 $x^k$ 是同阶无穷小，求 $k$ 的值。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: 求函数 $u=xy+2xz$ 在约束条件 $x^2+y^2+z^2=10$ 下的最值。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      已知 $z^2\,\mathrm{d}x+ayx\,\mathrm{d}y+(y^2+2zx+z^2)\,\mathrm{d}z$ 是某三元函数 $u(x,y,z)$ 的全微分，且 $u(1,1,0)=1$，求：
+  subparts:
+  - text: $a$ 的值；
+  - text: $u(x,y,z)$ 的表达式。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设空间有界区域 $\Omega$ 由锥面 $x^2-yz=0$ 和平面 $z=1,y=z$ 围成，求 $\Omega$ 的形心坐标。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: 设多项式 $f(x_1,x_2,x_3)=x_1^2+x_2^2+x_3^2-2x_1x_3+x_2$。
+  subparts:
+  - text: 写出该多项式的二次型部分的矩阵 $A$；
+  - text: |-
+      求正交矩阵 $Q$，使得 $Q^{\mathrm{T}}AQ=\Lambda$；
+  - text: $f(x_1,x_2,x_3)=0$ 表示什么曲面？请说明理由。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设连续型总体 $X$ 的分布函数为 $F(x;\theta)=\begin{cases}1-e^{-x/\theta},&x\geq0,\\0,&\text{其他，}\end{cases}$，其中 $\theta(\theta>0)$ 为未知参数，$X_1,X_2,\cdots,X_n$ 为来自总体 $X$ 的简单随机样本。
+  subparts:
+  - text: |-
+      求 $\theta$ 的最大似然估计量；
+  - text: |-
+      若假设检验：$H_0:\theta=1,H_1:\theta=2$，从总体中抽取简单随机样本 $X_1,X_2$，拒绝域为 $W=\{X_1+X_2\leq1\}$，求犯第一类错误的概率。

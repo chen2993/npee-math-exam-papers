@@ -1,0 +1,295 @@
+schema_version: '3.0'
+paper:
+  series_key: zhangyu8
+  year: 2023
+  subject: math3
+  paper_no: 1
+content_hash: 4a564c07aa34290d515b63ea20338dd6aa7dedca0c56e588b8f21e25b9ee34a1
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      当 $x\to 0$ 时，$x-\ln(x+\sqrt{1+x^2})\sim cx^k$，则 $c,k$ 分别是\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{1}{3},3$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{1}{6},3$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{1}{3},2$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{1}{6},2$
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)$ 满足微分方程 $f'(x)+xf'(x)=\ln(1+x)-\dfrac{\arctan x}{x+1}$，且 $f(x)$ 有驻点 $x=x_0>0$，则\ExamSelection
+  choices:
+  - label: A
+    text: $x_0$ 不是 $f(x)$ 的极值点。
+    figures: []
+  - label: B
+    text: $x_0$ 是 $f(x)$ 的极大值点。
+    figures: []
+  - label: C
+    text: $x_0$ 是 $f(x)$ 的极小值点。
+    figures: []
+  - label: D
+    text: 无法判断 $x_0$ 是否是 $f(x)$ 的极值点。
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      曲线 $f(x)=\int_x^{\sqrt{3}}t\sin t^2\,\mathrm{d}t$ 与直线 $x=0,x=\sqrt{3},y=0$ 所围平面图形绕 $y$ 轴旋转一周所形成的旋转体的体积为\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{1}{3}\pi\sin 3-\pi\cos 3$
+    figures: []
+  - label: B
+    text: |-
+      $-\dfrac{1}{3}\pi\sin 3-\pi\cos 3$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{2}{3}\pi\sin 3-2\pi\cos 3$
+    figures: []
+  - label: D
+    text: |-
+      $-\pi\cos 3-\pi\sin 3$
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      $\lim_{n\to\infty}\dfrac{\pi}{2n^4}\sum_{i=1}^{n}\sum_{j=1}^{n}i^2\sin\dfrac{\pi j}{2n}=$\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{1}{2}$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{1}{3}$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{1}{4}$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{1}{5}$
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设矩阵 $A=\begin{pmatrix}1&-3&1&-2\\2&-5&-2&-2\\0&-4&5&1\\-3&9&-6&7\end{pmatrix}$，$M_{3j}$ 是 $A$ 的第 3 行第 $j$ 列元素的余子式 $(j=1,2,3,4)$，则 $M_{31}+3M_{32}-2M_{33}+2M_{34}=$\ExamSelection
+  choices:
+  - label: A
+    text: $0$。
+    figures: []
+  - label: B
+    text: $1$。
+    figures: []
+  - label: C
+    text: $-2$。
+    figures: []
+  - label: D
+    text: $-3$。
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 是 3 阶矩阵，将 $A$ 的第 2 列加到第 3 列得矩阵 $B$，再将 $B$ 的第 3 行的 $-1$ 倍加到第 2 行得 $\begin{pmatrix}1&1&0\\0&2&0\\0&2&a\end{pmatrix}$，其中 $a$ 为常数，则 $A$ 的 3 个特征值为\ExamSelection
+  choices:
+  - label: A
+    text: $1,-1,2$。
+    figures: []
+  - label: B
+    text: $1,2,-2$。
+    figures: []
+  - label: C
+    text: $1,2,a$。
+    figures: []
+  - label: D
+    text: $1,a,-a$。
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A,B$ 都是 $n$ 阶矩阵，$r(A+B)=n$，则有\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $r\begin{pmatrix}A\\B\end{pmatrix}=n,r(A\mid B)=n$。
+    figures: []
+  - label: B
+    text: |-
+      $r\begin{pmatrix}A\\B\end{pmatrix}<n,r(A\mid B)=n$。
+    figures: []
+  - label: C
+    text: |-
+      $r\begin{pmatrix}A\\B\end{pmatrix}<n,r(A\mid B)<n$。
+    figures: []
+  - label: D
+    text: |-
+      $r\begin{pmatrix}A\\B\end{pmatrix}=n,r(A\mid B)<n$。
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设连续型随机变量 $X_1,X_2$ 的概率密度分别为 $f_1(x),f_2(x)$，其分布函数分别为 $F_1(x),F_2(x)$，记 $g_1(x)=f_1(x)F_2(x)+f_2(x)F_1(x),g_2(x)=f_1(x)F_1(x)+f_2(x)F_2(x),g_3(x)=\dfrac{1}{2}[f_1(x)+f_2(x)],g_4(x)=\sqrt{f_1(x)f_2(x)}$，则 $g_1(x),g_2(x),g_3(x),g_4(x)$ 这 4 个函数中一定能作为概率密度的共有\ExamSelection
+  choices:
+  - label: A
+    text: 1 个。
+    figures: []
+  - label: B
+    text: 2 个。
+    figures: []
+  - label: C
+    text: 3 个。
+    figures: []
+  - label: D
+    text: 4 个。
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设随机变量 $X,Y$ 相互独立，且 $X\sim E(a),Y\sim E(b)(a>0,b>0,a\ne b)$，则服从 $E(a+b)$ 的随机变量是\ExamSelection
+  choices:
+  - label: A
+    text: $X+Y$。
+    figures: []
+  - label: B
+    text: $XY$。
+    figures: []
+  - label: C
+    text: |-
+      $\max\{X,Y\}$。
+    figures: []
+  - label: D
+    text: |-
+      $\min\{X,Y\}$。
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $X_1,X_2,\ldots,X_{10}$ 为来自总体 $X$ 的简单随机样本，$E(X)$ 与 $D(X)$ 都存在，且 $\overline{X}=\dfrac{1}{10}\sum_{i=1}^{10}X_i$，若 $E(X_1\overline{X})=35,D(X_1-\overline{X})=90$，则 $E(X^2)=$\ExamSelection
+  choices:
+  - label: A
+    text: 100。
+    figures: []
+  - label: B
+    text: 125。
+    figures: []
+  - label: C
+    text: 150。
+    figures: []
+  - label: D
+    text: 175。
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)=\sqrt[3]{x\sin^2x}(-\pi<x<\pi)$，则 $f'(x)=$ \ExamBlank。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)=\int_{-x}^{x}\dfrac{\sin\pi t}{t}\,\mathrm{d}t,x\ne0$，则 $\int x^2f'(x)\,\mathrm{d}x=$ \ExamBlank。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      已知方程 $e^x=kx$ 有且仅有一个实根，则 $k$ 的取值范围为 \ExamBlank。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $\lim_{n\to\infty}\left(\dfrac{1}{2}+\dfrac{3}{2^2}+\dfrac{5}{2^3}+\cdots+\dfrac{2n-1}{2^n}\right)=$ \ExamBlank。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $Ax=0$ 有基础解系 $\alpha_1=(1,1,2,1)^{\mathrm T},\alpha_2=(0,-3,1,0)^{\mathrm T}$，$Bx=0$ 有基础解系 $\beta_1=(1,3,0,2)^{\mathrm T},\beta_2=(1,2,-1,a)^{\mathrm T}$，若 $Ax=0$ 和 $Bx=0$ 均没有非零公共解，则参数 $a$ 满足条件 \ExamBlank。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设随机变量 $X_1,X_2,\ldots,X_9$ 独立同分布，其方差为 $\sigma^2(\sigma>0)$，又设 $U=\sum_{i=1}^{7}X_i,V=\sum_{i=3}^{9}X_i$，则 $U$ 与 $V$ 的相关系数 $\rho_{UV}=$ \ExamBlank。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      设 $y=y(x)$ 是由方程 $y^3+xy+x^2-2x+1=0$ 在点 $(1,0)$ 的某邻域内确定的可微函数，求 $\lim_{x\to1}\dfrac{\int_1^x y(t)\,\mathrm{d}t}{(x-1)^3}$。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $f(x)$ 二阶可导，且 $f(0)=0,f'(0)=0$，若 $g(x,y)=\int_0^y f(xt)\,\mathrm{d}t$ 满足方程 $\dfrac{\partial^2g}{\partial x\partial y}-xyg(x,y)=xy^2\sin xy$，求 $g(x,y)$。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      计算 $\iint_D\dfrac{1-x^2y^3}{(x+\sqrt{1-y^2})^2}\,\mathrm{d}x\mathrm{d}y$，其中 $D=\{(x,y)\mid x^2+y^2\leq1,-x\leq y\leq x\}$。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      求幂级数 $\sum_{n=1}^{\infty}\dfrac{x^n}{4n-3}$ 的和函数 $(x\geq0)$。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: 设 $A$ 是 $n$ 阶可逆矩阵，$A^*$ 是 $A$ 的伴随矩阵，且有 $ABA^*=2BA^{-1}+E$，试证明：
+  subparts:
+  - text: $AB=BA$；
+  - text: $B$ 与 $A$ 有完全相同的特征向量；
+  - text: $B$ 与 $A$ 是否相似？请说明理由。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设随机变量 $X$ 与 $Y$ 相互独立，$X$ 的概率分布为 $P\{X=k\}=\dfrac{k}{3}(k=1,2)$，$Y$ 的概率密度为 $f_Y(y)=\begin{cases}y,&0\leq y<1,\\2-y,&1\leq y<2,\\0,&\text{其他，}\end{cases}$，记 $Z=Y-X$，求：
+  subparts:
+  - text: |-
+      $P\{Z\leq0\mid X<2\},P\{Z\leq0\}$；
+  - text: $Z$ 的概率密度。

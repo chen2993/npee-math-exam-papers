@@ -1,0 +1,308 @@
+schema_version: '3.0'
+paper:
+  series_key: liyanfang3
+  year: 2024
+  subject: math3
+  paper_no: 3
+content_hash: 45352d1c0a3b8a3f7424510441befd842f92b8583a2b9e3e6e816325b776ef5a
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      微分方程 $y''+y=2x\cos^2 x$ 的特解可设为 $y^*=$\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $(Ax+B)\cos^2 x$。
+    figures: []
+  - label: B
+    text: |-
+      $Ax+B+(Cx+D)\cos^2 x$。
+    figures: []
+  - label: C
+    text: |-
+      $(Ax+B)\cos 2x+(Cx+D)\sin 2x$。
+    figures: []
+  - label: D
+    text: |-
+      $Ax+B+(Cx+D)\cos 2x+(Ex+F)\sin 2x$。
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $n$ 为正整数，函数 $f(x)=(x-1)^{2n+1}g(x)$，其中 $g(x)$ 连续且 $g(1)\ne 0$，则下列说法中，正确的是\ExamSelection。
+  choices:
+  - label: A
+    text: $x=1$ 是 $f(x)$ 的极小值点。
+    figures: []
+  - label: B
+    text: $x=1$ 是 $f(x)$ 的极大值点。
+    figures: []
+  - label: C
+    text: $x=1$ 不是 $f(x)$ 的极值点。
+    figures: []
+  - label: D
+    text: $x=1$ 是否为 $f(x)$ 的极值点与 $g(x)$ 的表达式有关。
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x)$ 在 $(0,+\infty)$ 内连续，且 $\int_1^{+\infty}f(x)\,\mathrm{d}x$ 发散，且 $\lim_{x\to+\infty}xf(x)$ 存在，定义在 $[0,+\infty)$ 上的函数 $g(x)=\begin{cases}\dfrac{f\left(\dfrac{1}{x}\right)}{x},&x>0,\\0,&x=0,\end{cases}$，则\ExamSelection。
+  choices:
+  - label: A
+    text: $x=0$ 必是 $g(x)$ 的第一类间断点。
+    figures: []
+  - label: B
+    text: $x=0$ 必是 $g(x)$ 的第二类间断点。
+    figures: []
+  - label: C
+    text: $x=0$ 必是 $g(x)$ 的连续点。
+    figures: []
+  - label: D
+    text: 由已知条件无法判定 $g(x)$ 在 $x=0$ 处的连续性。
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $I_1=\int_0^{\dfrac{\pi}{2}}\sqrt{1+\sin^2 x}\,\mathrm{d}x$，$I_2=\int_0^{\dfrac{\pi}{2}}\sqrt{1-\sin^6 x}\,\mathrm{d}x$，则\ExamSelection。
+  choices:
+  - label: A
+    text: $1<I_2<I_1<2$。
+    figures: []
+  - label: B
+    text: $1<I_2<2<I_1$。
+    figures: []
+  - label: C
+    text: $I_2<1<I_1<2$。
+    figures: []
+  - label: D
+    text: $1<I_1<2<I_2$。
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 为 $m\times n$ 矩阵，$m>n$，且非齐次线性方程组 $Ax=b$ 有唯一一解 $x_0$，则\ExamSelection。
+  choices:
+  - label: A
+    text: $x_0=A^{-1}b$。
+    figures: []
+  - label: B
+    text: |-
+      $x_0=A^{\mathrm T}b$。
+    figures: []
+  - label: C
+    text: |-
+      $A^{\mathrm T}A$ 可逆。
+    figures: []
+  - label: D
+    text: |-
+      $AA^{\mathrm T}$ 可逆。
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $\boldsymbol{\alpha}$ 为 3 维非零列向量，已知矩阵 $A=\begin{pmatrix}a&a&b\\a&b&a\\b&a&a\end{pmatrix}$（$ab\ne 0$）与 $\boldsymbol{\alpha}\boldsymbol{\alpha}^{\mathrm T}$ 合同，则下列矩阵中，与 $A$ 相似的是\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\begin{pmatrix}a&0&0\\0&0&0\\0&0&0\end{pmatrix}$。
+    figures: []
+  - label: B
+    text: |-
+      $\begin{pmatrix}2a&0&0\\0&0&0\\0&0&0\end{pmatrix}$。
+    figures: []
+  - label: C
+    text: |-
+      $\begin{pmatrix}3a&0&0\\0&0&0\\0&0&0\end{pmatrix}$。
+    figures: []
+  - label: D
+    text: |-
+      $\begin{pmatrix}4a&0&0\\0&0&0\\0&0&0\end{pmatrix}$。
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 3 阶矩阵 $A$ 满足 $A=A^{-1}$，则下列关于矩阵 $A$ 的说法中，正确的是\ExamSelection。
+  choices:
+  - label: A
+    text: $A$ 必须有特征值 1。
+    figures: []
+  - label: B
+    text: $A$ 必须有特征值 $-1$。
+    figures: []
+  - label: C
+    text: $A$ 必相似于对角矩阵。
+    figures: []
+  - label: D
+    text: 以上说法均不正确。
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设随机变量 $X$ 与 $Y$ 相互独立，其中 $X$ 为连续型随机变量，其分布函数为 $F_X(x)$，$Y$ 为离散型随机变量，其分布函数 $F_Y(y)$ 共有 4 个间断点。记 $F_Z(z)$ 为随机变量 $Z=XY$ 的分布函数，则函数 $F_Z(z)$ 的间断点个数至多为\ExamSelection。
+  choices:
+  - label: A
+    text: $1$。
+    figures: []
+  - label: B
+    text: $2$。
+    figures: []
+  - label: C
+    text: $3$。
+    figures: []
+  - label: D
+    text: $4$。
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $X,Y$ 为相互独立的随机变量，$0<p,q<1$，且 $p+q=1$，$P\{X=0\}=p$，$P\{X=1\}=q$，$P\{Y=0\}=q$，$P\{Y=-1\}=p$，则\ExamSelection。
+  choices:
+  - label: A
+    text: $X+Y$ 与 $X-Y$ 的相关性与 $p,q$ 的取值有关。
+    figures: []
+  - label: B
+    text: $X+Y$ 与 $X-Y$ 的独立性与 $p,q$ 的取值有关。
+    figures: []
+  - label: C
+    text: $X+Y$ 与 $X-Y$ 的相关性、独立性与 $p,q$ 的取值均无关，且 $X+Y$ 与 $X-Y$ 相关，不独立。
+    figures: []
+  - label: D
+    text: $X+Y$ 与 $X-Y$ 的相关性、独立性与 $p,q$ 的取值均无关，且 $X+Y$ 与 $X-Y$ 不相关，不独立。
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设总体 $X\sim N(\mu,\sigma^2)$，$X_1,X_2,\cdots,X_n$ 是来自总体 $X$ 的简单随机样本，样本均值 $\overline{X}=\dfrac{1}{n}\sum_{i=1}^{n}X_i$，样本方差 $S^2=\dfrac{1}{n-1}\sum_{i=1}^{n}(X_i-\overline{X})^2$，则 $\dfrac{n(\overline{X}-\mu)^2}{S^2}$ 服从的分布为\ExamSelection。
+  choices:
+  - label: A
+    text: $F(n-1,1)$。
+    figures: []
+  - label: B
+    text: $F(1,n-1)$。
+    figures: []
+  - label: C
+    text: $F(n,1)$。
+    figures: []
+  - label: D
+    text: $F(1,n)$。
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $\lim_{x\to+\infty}\dfrac{\ln x}{x}\left(\dfrac{1}{\sqrt[x]{x}-1}-\dfrac{1}{\sqrt[2x]{x}-1}\right)=\ExamBlank$。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设函数 $y=f(x)$ 由方程 $(x+y)^x=\cos\dfrac{xy}{2}$（$x+y>0$）确定，则 $\lim_{n\to+\infty}nf\left(\dfrac{n+1}{n}\right)=\ExamBlank$。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设区域 $D_t=\{(x,y)\mid |x|+|y|\leq t\}$，函数 $f(x,y)=(x^2+y^2)^{\sin^2(xy)}$，则 $\lim_{t\to0+}\dfrac{\iint_{D_t}f(x,y)\,\mathrm{d}x\,\mathrm{d}y}{t\arctan t}=\ExamBlank$。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      记幂级数 $\sum_{n=1}^{\infty}\dfrac{\left(\dfrac{1}{2}-x\right)^n}{n}$ 的和函数为 $f(x)$，则 $f(x)$ 在 $x=0$ 处的幂级数展开式为\ExamBlank（请指出该幂级数的收敛区间）。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      已知矩阵 $A=\begin{pmatrix}1&0&x&0\\0&-x&x&x^2\\-x&x+1&x&x^3\\1&0&x&x^4\end{pmatrix}$，记 $A$ 的所有元素的代数余子式之和为 $f(x)$，则 $f(x)=0$ 的非零解为\ExamBlank。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      已知一批电子元件的寿命小于等于 200 小时的概率为 0.05。设有 80 只新的电子元件同时开始独立工作，则由泊松定理估计，200 小时后至少有 78 只电子元件仍正常工作的概率的近似值为\ExamBlank（要求精确到小数点后第三位）。
+    figures:
+    - kind: tikz
+      latex: |-
+        \begin{tikzpicture}[x=1.05cm,y=0.55cm,baseline=(current bounding box.center)]\node[anchor=west] at (0,2.25) {【附表】};\draw (0,0) rectangle (9,2);\foreach \x in {1,2,3,4,5,6,7,8}{\draw (\x,0)--(\x,2);}\draw (0,1)--(9,1);\node at (0.5,1.5) {$\lambda$};\node at (1.5,1.5) {$1$};\node at (2.5,1.5) {$2$};\node at (3.5,1.5) {$3$};\node at (4.5,1.5) {$4$};\node at (5.5,1.5) {$5$};\node at (6.5,1.5) {$6$};\node at (7.5,1.5) {$7$};\node at (8.5,1.5) {$\cdots$};\node at (0.5,0.5) {$e^{-\lambda}$};\node at (1.5,0.5) {$0.368$};\node at (2.5,0.5) {$0.135$};\node at (3.5,0.5) {$0.050$};\node at (4.5,0.5) {$0.018$};\node at (5.5,0.5) {$0.007$};\node at (6.5,0.5) {$0.002$};\node at (7.5,0.5) {$0.001$};\node at (8.5,0.5) {$\cdots$};\end{tikzpicture}
+      path:
+      description: |-
+        附表：$\lambda$ 与 $e^{-\lambda}$ 的对应近似值。
+      exception_reason:
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      设 $C$ 为某产品的成本，$Q$ 为需求量（即产量），$p$ 为单价，已知该产品的成本函数为 $C(Q)=Q^2+10Q+5$（元），需求函数为 $Q(p)=50-\dfrac{p}{2}$（件）。
+  subparts:
+  - text: |-
+      求需求对价格的弹性 $\varepsilon_p$（$\varepsilon_p>0$）以及收益最大时的需求弹性；
+  - text: 求收益最大时的产量及最大收益；
+  - text: 求利润最大时的产量及最大利润。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      当 $x>0,y>0$ 时，求函数 $u=xy(1-z)$ 在条件 $\dfrac{5}{4}z=x^2+y^2$ 以及 $z^2=2xy$ 下的最小值。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设数列 $\{a_n\}$ 满足 $a_0=1$，且当 $n\geq 1$ 时，$2na_n=\left(n+\dfrac{3}{2}\right)a_{n-1}$。
+  subparts:
+  - text: |-
+      求幂级数 $\sum_{n=0}^{\infty}a_nx^n$ 的收敛半径 $R$；
+  - text: |-
+      求幂级数 $\sum_{n=0}^{\infty}a_nx^n$ 在 $(-R,R)$ 上的和函数。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      证明：$\ln 2-\dfrac{1}{2}<\int_0^1\dfrac{\ln(1+x)}{\sqrt{x}+1}\,\mathrm{d}x<\dfrac{5}{3}-2\ln 2$。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设矩阵 $A=\begin{pmatrix}1&-1&0\\0&1&-1\\1&a&-1\end{pmatrix}$，且二次型 $f(x_1,x_2,x_3)=\boldsymbol{x}^{\mathrm T}A^{\mathrm T}A\boldsymbol{x}$ 不是正定二次型。
+  subparts:
+  - text: 求 $a$；
+  - text: |-
+      求正交变换 $\boldsymbol{x}=Q\boldsymbol{y}$ 将 $f(x_1,x_2,x_3)$ 化为标准形。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $X_1,X_2,\cdots,X_n$ 是来自均值为 0、方差为 $\sigma^2$ 的正态分布总体 $X$ 的简单随机样本，$Y_1,Y_2,\cdots,Y_n$ 是来自均值为 0、方差为 $2\sigma^2$ 的正态分布总体 $Y$ 的简单随机样本，且两样本相互独立，其中 $\sigma$（$\sigma>0$）是未知参数。
+  subparts:
+  - text: |-
+      利用样本 $X_1,X_2,\cdots,X_n,Y_1,Y_2,\cdots,Y_n$，求 $\sigma^2$ 的最大似然估计量 $\hat{\sigma}^2$；
+  - text: |-
+      求 $E\left((\hat{\sigma}^2)^2\right)$。

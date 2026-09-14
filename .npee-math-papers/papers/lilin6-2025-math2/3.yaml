@@ -1,0 +1,305 @@
+schema_version: '3.0'
+paper:
+  series_key: lilin6
+  year: 2025
+  subject: math2
+  paper_no: 3
+content_hash: 1a6c7c46a99392c0c83e45ce335103e56b154c2e37f2b1abd3d2c24383a23fca
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)$ 是连续函数，且 $\lim_{x\to 0}\dfrac{f(x)}{\cos x-1}=1$，当 $x\to 0$ 时，$\int_0^{\sin^2 x}f(t)\,\mathrm{d}t$ 与 $ax^n$ 是等价无穷小，则\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $a=-1,\ n=5$
+    figures: []
+  - label: B
+    text: |-
+      $a=1,\ n=5$
+    figures: []
+  - label: C
+    text: |-
+      $a=-\dfrac{1}{6},\ n=6$
+    figures: []
+  - label: D
+    text: |-
+      $a=\dfrac{1}{6},\ n=6$
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)=\begin{cases}\dfrac{xe^{\dfrac{1}{x}}}{1+e^{\dfrac{1}{x}}},&x\ne 0,\\0,&x=0,\end{cases}$ 则 $x=0$ 是 $f'(x)$ 的\ExamSelection。
+  choices:
+  - label: A
+    text: 可去间断点
+    figures: []
+  - label: B
+    text: 跳跃间断点
+    figures: []
+  - label: C
+    text: 振荡间断点
+    figures: []
+  - label: D
+    text: 无穷间断点
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)$ 为连续函数，且 $\lim_{x\to 1}\dfrac{f(2x-1)}{x-1}=1$，则 $\lim_{t\to 0}\dfrac{f[(1+\sin t)^2]-f(1+\sin t)}{t}=$\ExamSelection。
+  choices:
+  - label: A
+    text: $0$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{1}{2}$
+    figures: []
+  - label: C
+    text: $1$
+    figures: []
+  - label: D
+    text: $2$
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设常数 $a>0$，当 $x\in(1,+\infty)$ 时，$\ln x<x^a$，则 $a$ 的取值范围为\ExamSelection。
+  choices:
+  - label: A
+    text: $(0,e]$
+    figures: []
+  - label: B
+    text: |-
+      $(0,\dfrac{1}{e})$
+    figures: []
+  - label: C
+    text: |-
+      $[e,+\infty)$
+    figures: []
+  - label: D
+    text: |-
+      $[\dfrac{1}{e},+\infty)$
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)$ 有连续的二阶导数，曲线 $y=f(x)$ 在其上点 $(0,1)$ 处的曲率圆方程为 $x^2+\left(y-\dfrac{3}{2}\right)^2=\dfrac{1}{4}$，则 $f(x)$ 在 $x=0$ 处的二次泰勒多项式为\ExamSelection。
+  choices:
+  - label: A
+    text: $1-x^2$
+    figures: []
+  - label: B
+    text: $1+x^2$
+    figures: []
+  - label: C
+    text: |-
+      $1-\dfrac{1}{2}x^2$
+    figures: []
+  - label: D
+    text: $1+2x^2$
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设正值函数 $f(x)$ 二阶可导，满足 $f(x)f''(x)>[f'(x)]^2$，且 $f(0)=1$，$f'(0)=1$，则正确的是\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $e^{-x}f(x)\geqslant 1$
+    figures: []
+  - label: B
+    text: $e^{-x}f(x)<1$
+    figures: []
+  - label: C
+    text: |-
+      $xf(x)\geqslant 1$
+    figures: []
+  - label: D
+    text: $xf(x)<1$
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x,y)=\begin{cases}|xy|\ln(x^2+y^2),&(x,y)\ne(0,0),\\0,&(x,y)=(0,0),\end{cases}$ 则 $f(x,y)$ 在点 $(0,0)$ 处\ExamSelection。
+  choices:
+  - label: A
+    text: 连续但 $f'_x(0,0)$ 与 $f'_y(0,0)$ 不存在
+    figures: []
+  - label: B
+    text: $f'_x(0,0)$ 与 $f'_y(0,0)$ 存在但不可微
+    figures: []
+  - label: C
+    text: 连续但不可微
+    figures: []
+  - label: D
+    text: 可微
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设向量组 $\alpha_1,\alpha_2,\alpha_3,\beta$ 线性无关，而向量组 $\alpha_1,\alpha_2,\alpha_3,\gamma$ 线性相关，$k$ 为任意常数，则正确的是\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\alpha_1,\alpha_2,\alpha_3,k\beta+\gamma$ 线性相关
+    figures: []
+  - label: B
+    text: |-
+      $\alpha_1,\alpha_2,\alpha_3,k\beta+\gamma$ 线性无关
+    figures: []
+  - label: C
+    text: |-
+      $\alpha_1,\alpha_2,\alpha_3,\beta+k\gamma$ 线性相关
+    figures: []
+  - label: D
+    text: |-
+      $\alpha_1,\alpha_2,\alpha_3,\beta+k\gamma$ 线性无关
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 是 $n(n\geqslant 3)$ 阶矩阵，$A^*$ 是 $A$ 的伴随矩阵，线性方程组 $AX=0$ 有两个线性无关的解，则\ExamSelection。
+  choices:
+  - label: A
+    text: $AX=0$ 与 $A^*X=0$ 同解
+    figures: []
+  - label: B
+    text: $A^*X=0$ 的解均是 $AX=0$ 的解
+    figures: []
+  - label: C
+    text: $AX=0$ 的解均是 $A^*X=0$ 的解
+    figures: []
+  - label: D
+    text: $AX=0$ 与 $A^*X=0$ 没有非零公共解
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A=\begin{bmatrix}-1&-1&0\\0&2&0\\0&0&-3\end{bmatrix}$，$B=\begin{bmatrix}-1&0&0\\0&1&1\\0&1&-1\end{bmatrix}$，$C=\begin{bmatrix}1&0&0\\0&-1&0\\0&0&-1\end{bmatrix}$，则\ExamSelection。
+  choices:
+  - label: A
+    text: $A$ 与 $C$ 相似
+    figures: []
+  - label: B
+    text: $A$ 与 $B$ 合同
+    figures: []
+  - label: C
+    text: $B$ 与 $C$ 合同
+    figures: []
+  - label: D
+    text: $B$ 与 $C$ 相似
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $D$ 是曲线 $y=\sqrt{x}$ 与 $y=ax (a>0)$ 所围成的有界区域，若 $D$ 绕 $x$ 轴旋转一周与绕 $y$ 轴旋转一周所得旋转体的体积相等，则 $a=$\ExamBlank。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设函数 $y=y(x)$ 由方程 $\arctan\dfrac{x}{y}=\ln\sqrt{\dfrac{x^2+y^2}{2}}+\dfrac{\pi}{4} (x>0, y>0)$ 确定，则 $y(x)$ 的极大值为\ExamBlank。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $\int_1^{+\infty}\dfrac{1}{\sqrt{x}}\ln\dfrac{x+1}{x}\,\mathrm{d}x=$\ExamBlank。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $y(x)$ 是微分方程 $(x^2+2)y''=2xy'$ 的解，当 $x\to 0$ 时，$y(x)$ 与 $\ln(1+x)$ 是等价无穷小，则 $y(x)=$\ExamBlank。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)$ 有连续的导数，且 $f(1)-f(0)=1$，则 $I=\int_0^1\mathrm{d}x\int_0^x\dfrac{f'(y)}{\sqrt{(1-x)(x-y)}}\,\mathrm{d}y=$\ExamBlank。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 是 $2$ 阶矩阵，线性方程组 $AX=\begin{pmatrix}3\\2\end{pmatrix}$ 的通解为 $k(-2,1)^{\mathrm{T}}+(3,-4)^{\mathrm{T}}$。若 $\beta=(5,-10)^{\mathrm{T}}$，则 $\beta^{\mathrm{T}}A\beta=$\ExamBlank。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      设平面曲线 $L$ 过点 $\left(\dfrac{1}{2},0\right)$，$L$ 上任意点 $P(x,y) (x>0)$ 到原点的距离等于该点处的切线在 $y$ 轴上的截距。
+  subparts:
+  - text: 求 $L$ 的方程；
+  - text: 求 $L$ 位于第一象限部分的一条切线，使该切线与 $L$ 以及两坐标轴所围的面积最小。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: 设 $f(x)$ 满足 $(1-x)f'(x)+nf(x)=n(1-x)^{n+1}$（$n$ 为正整数），且 $f(0)=0$。
+  subparts:
+  - text: |-
+      记 $M(n)$ 为 $f(x)$ 在 $(0,1)$ 内的最大值，求 $\lim_{n\to\infty}M(n)$；
+  - text: |-
+      证明：$M(n)<\dfrac{1}{e}$。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $D=\{(x,y)\mid x^2+y^2\leqslant 1, x\geqslant 0, y\geqslant 0\}$，计算 $I=\iint_D(x-y+xye^{x^2-y^2})\,\mathrm{d}x\,\mathrm{d}y$。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设曲线 $y=\sin x$ 在 $x\in[0,n\pi] (n=1,2,\cdots)$ 上与 $x$ 轴所围成的区域为 $D$，$D$ 绕 $y$ 轴旋转一周所得旋转体的体积为 $a_n$。
+  subparts:
+  - text: 求 $a_n$；
+  - text: |-
+      求极限 $\lim_{n\to\infty}\sum_{k=1}^n\dfrac{2k\pi^2}{a_n}\sin\dfrac{k\pi}{2n}$。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $f(x)$ 有连续的二阶导数，$f''(x)>0$ 且 $f(0)=0$，$f'(0)=0$，曲线 $y=f(x)$ 上点 $(x,f(x)) (x\ne 0)$ 处的切线在 $x$ 轴上的截距为 $u(x)$。
+  subparts:
+  - text: |-
+      证明：当 $x\to 0^+$ 时，$u(x)$ 与 $\dfrac{1}{2}x$ 是等价无穷小；
+  - text: |-
+      求 $\lim_{x\to 0^+}\dfrac{\int_0^{u(x)}f(t)\,\mathrm{d}t}{\int_0^x f(t)\,\mathrm{d}t}$。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $A=\begin{bmatrix}a&0\\-1&a\\-1&0\end{bmatrix}$，$B=\begin{bmatrix}-1&0&a\\-1&1&a\end{bmatrix}$，已知方程组 $ABX=0$ 与 $BX=0$ 同解。
+  subparts:
+  - text: 求 $a$ 的取值范围；
+  - text: |-
+      当 $AB$ 为实对称矩阵时，求正交变换 $X=QY$，将二次型 $f(x_1,x_2,x_3)=X^{\mathrm{T}}ABX$ 化为标准形。

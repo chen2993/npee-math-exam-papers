@@ -1,0 +1,315 @@
+schema_version: '3.0'
+paper:
+  series_key: zhangyu4
+  year: 2026
+  subject: math1
+  paper_no: 3
+content_hash: e9132b3c41203968a35d20d5296d3861bbbfb5c1a6e789e5e7ceb94e7d938c3d
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      函数 $f(x)=\dfrac{\left(e^{\dfrac{1}{x-1}}-1\right)|x|}{(x+1)\ln|x-1|}$ 的第一类间断点的个数为\ExamSelection。
+  choices:
+  - label: A
+    text: $0$
+    figures: []
+  - label: B
+    text: $1$
+    figures: []
+  - label: C
+    text: $2$
+    figures: []
+  - label: D
+    text: $3$
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $z=z(x,y)$ 是由方程 $\int_{2x-3y}^{z}f(2x-3y+z-t)\,\mathrm{d}t=\sin(2x-3y+z)$ 所确定的函数，其中 $f$ 为大于 $1$ 的连续函数，则\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $3\dfrac{\partial z}{\partial x}+2\dfrac{\partial z}{\partial y}=0$
+    figures: []
+  - label: B
+    text: |-
+      $3\dfrac{\partial z}{\partial x}-2\dfrac{\partial z}{\partial y}=0$
+    figures: []
+  - label: C
+    text: |-
+      $2\dfrac{\partial z}{\partial x}+3\dfrac{\partial z}{\partial y}=0$
+    figures: []
+  - label: D
+    text: |-
+      $2\dfrac{\partial z}{\partial x}-3\dfrac{\partial z}{\partial y}=0$
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $a$ 与 $b$ 都是常数，若反常积分 $\int_0^{+\infty}\dfrac{x^a(1-e^{-x})}{(1+x)^b}\,\mathrm{d}x$ 收敛，则 $a$ 与 $b$ 的取值范围为\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $a<-2,\ b>a+1$
+    figures: []
+  - label: B
+    text: |-
+      $a<-2,\ b<a+1$
+    figures: []
+  - label: C
+    text: |-
+      $a>-2,\ b<a+1$
+    figures: []
+  - label: D
+    text: |-
+      $a>-2,\ b>a+1$
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设椭球面 $\Sigma:x^2+y^2+z^2-yz=1$，则其在 $xOy$ 面上的投影区域为\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $x^2+\dfrac{5}{4}y^2\leq 1$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{3}{4}x^2+y^2\leq 1$
+    figures: []
+  - label: C
+    text: |-
+      $x^2+\dfrac{3}{4}y^2\leq 1$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{5}{4}x^2+y^2\leq 1$
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知 $\alpha_1=(1,2)^{\mathrm T}$，$\alpha_2=(a,1)^{\mathrm T}$，$\boldsymbol{x}=(x_1,x_2)^{\mathrm T}$，若二次型 $f(x_1,x_2)=\sum_{i=1}^{2}[\alpha_i,\boldsymbol{x}]^2$ 正定，其中 $[\alpha_i,\boldsymbol{x}]$ 表示向量 $\alpha_i,\boldsymbol{x}$ 的内积 $(i=1,2)$，则 $a$ 的取值范围是\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $(-\infty,\dfrac{1}{2})\cup(\dfrac{1}{2},+\infty)$
+    figures: []
+  - label: B
+    text: |-
+      $(-\infty,-\dfrac{1}{2})\cup(-\dfrac{1}{2},+\infty)$
+    figures: []
+  - label: C
+    text: |-
+      $(-\dfrac{1}{2},\dfrac{1}{2})$
+    figures: []
+  - label: D
+    text: |-
+      $\{\dfrac{1}{2}\}$
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      下列矩阵中，可以经过若干次初等行变换得到矩阵 $\begin{pmatrix}1&1&0&1\\0&1&0&0\\0&0&0&0\end{pmatrix}$ 的是\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\begin{pmatrix}1&1&0&1\\1&2&1&3\\2&3&1&4\end{pmatrix}$
+    figures: []
+  - label: B
+    text: |-
+      $\begin{pmatrix}1&1&0&1\\1&1&2&5\\1&1&1&3\end{pmatrix}$
+    figures: []
+  - label: C
+    text: |-
+      $\begin{pmatrix}1&0&0&1\\0&1&0&3\\0&1&0&0\end{pmatrix}$
+    figures: []
+  - label: D
+    text: |-
+      $\begin{pmatrix}1&1&0&1\\1&2&0&1\\2&3&0&2\end{pmatrix}$
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $\alpha_1=(a_1,a_2,a_3)^{\mathrm T}$，$\alpha_2=(b_1,b_2,b_3)^{\mathrm T}$，$\alpha_3=(c_1,c_2,c_3)^{\mathrm T}$（其中 $a_i^2+b_i^2\ne 0$，$i=1,2,3$），则三条直线 $a_ix+b_iy+c_i=0\ (i=1,2,3)$ 交于一点的充分必要条件是\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\alpha_1,\alpha_2,\alpha_3$ 线性相关
+    figures: []
+  - label: B
+    text: |-
+      $\alpha_1,\alpha_2,\alpha_3$ 线性相关，但 $\alpha_1,\alpha_2$ 线性无关
+    figures: []
+  - label: C
+    text: |-
+      向量组 $\alpha_1,\alpha_2,\alpha_3$ 的秩等于向量组 $\alpha_1,\alpha_2$ 的秩
+    figures: []
+  - label: D
+    text: |-
+      $\alpha_1,\alpha_2,\alpha_3$ 线性无关
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设随机变量 $X$ 服从参数为 $\lambda\ (\lambda>0)$ 的指数分布，若 $P\{X>D(X)\}=[P\{X>E(X)\}]^3$，则 $\lambda=$\ExamSelection。
+  choices:
+  - label: A
+    text: $3$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{3}{2}$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{2}{3}$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{1}{3}$
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设随机变量 $X$ 与 $Y$ 相互独立，$D(X)\cdot D(Y)\ne 0$，以下结论：① $3X+1$ 与 $4Y-2$ 相关；② $X+Y$ 与 $X-Y$ 不相关；③ $X+Y$ 与 $2Y+1$ 相互独立；④ $e^X$ 与 $2Y+1$ 相互独立。正确结论的个数为\ExamSelection。
+  choices:
+  - label: A
+    text: $1$
+    figures: []
+  - label: B
+    text: $2$
+    figures: []
+  - label: C
+    text: $3$
+    figures: []
+  - label: D
+    text: $4$
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设总体 $X$ 服从 $\begin{pmatrix}1&0\\p&1-p\end{pmatrix}$，$p\in(0,1)$ 为未知参数。给出假设检验 $H_0:p=k$，$H_1:p=1-k$，$k$ 为常数，对样本 $X_1,X_2$，拒绝域为 $W=\{X_1+X_2<1\}$，则犯第二类错误的概率为\ExamSelection。
+  choices:
+  - label: A
+    text: $k^2$
+    figures: []
+  - label: B
+    text: $(1-k)^2$
+    figures: []
+  - label: C
+    text: $1-k^2$
+    figures: []
+  - label: D
+    text: $1-(1-k)^2$
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $\lim_{x\to 0}\dfrac{(1+\sin^2x)^2-\cos^2x}{\ln(1+x^2)}=$\ExamBlank。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      微分方程 $3(x+y-1)\,\mathrm{d}x+(x+y)\,\mathrm{d}y=0$ 的通解为\ExamBlank。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设连续函数 $f(x)$ 满足 $f(x+1)-f(x)=x^2$，$\int_0^1f(x)\,\mathrm{d}x=0$，则 $\int_1^2f(x)\,\mathrm{d}x=$\ExamBlank。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $L$ 是平面 $x+y+z=0$ 与球面 $x^2+y^2+z^2=1$ 的交线，从 $Oz$ 正向往下看为逆时针方向，则曲线积分 $I=\oint_L\dfrac{(x+1)\,\mathrm{d}x+(y+1)\,\mathrm{d}y+z\,\mathrm{d}z}{x^2+y^2+z^2}=$\ExamBlank。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 为 $3$ 阶矩阵，若 $|E-A|=|E+A|=1$，$|2E-A|=2$，则 $|3E-A|=$\ExamBlank。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设三个随机事件 $A,B,C$ 两两独立且 $P(A)=P(B)=P(C)$，若 $ABC$ 为不可能事件，则 $P(\overline A\,\overline B\,\overline C)$ 的最小值为\ExamBlank。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      计算 $\lim_{n\to\infty}\sum_{k=1}^{n}\dfrac{k}{n^2}\ln\left(1+\dfrac{k^2}{n^2}\right)$。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $f(x)$ 在 $[0,1]$ 上可导，$F(x)$ 是 $f(x)$ 的一个原函数，且 $F(0)=0$。若 $\int_0^1f(x)\,\mathrm{d}x=\int_0^1F(x)\,\mathrm{d}x=0$，证明：
+  subparts:
+  - text: |-
+      $\int_0^1xf(x)\,\mathrm{d}x=0$；
+  - text: |-
+      存在 $\xi\in(0,1)$，使得 $f'(\xi)=0$。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $u=\dfrac{x}{y}$，$v=x$，$w=xz-y$，$z=z(x,y)$ 具有二阶连续偏导数。
+  subparts:
+  - text: |-
+      将函数 $z=z(x,y)$ 的方程 $y\dfrac{\partial^2z}{\partial y^2}+x\dfrac{\partial^2z}{\partial x\partial y}+2\dfrac{\partial z}{\partial y}=\dfrac{1}{x}-\dfrac{x}{y}$ 化为 $w=w(u,v)$ 的方程；
+  - text: 若 $w'_u(u,0)=1$，$w(1,v)=v^2$，求 $w=w(u,v)$ 的表达式。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设薄片形物体 $\Sigma$ 是半球面 $z=\sqrt{1-x^2-y^2}$ 被圆锥面 $z=\sqrt{x^2+y^2}$ 截下的上半部分，$\Sigma$ 上任一点的密度为该点到 $xOy$ 平面距离的倒数，求 $\Sigma$ 的质量 $M$。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设某高校每年有 $\dfrac{1}{6}$ 的职工由行政岗转为教师岗，有 $\dfrac{1}{4}$ 的职工由教师岗转为行政岗。若该高校职工总数不变，记 $n$ 年后行政岗人数与教师岗人数占总职工人数的比例分别为 $x_n$ 与 $y_n$，$x_n+y_n=1$。
+  subparts:
+  - text: |-
+      求关系式 $\begin{pmatrix}x_{n+1}\\y_{n+1}\end{pmatrix}=A\begin{pmatrix}x_n\\y_n\end{pmatrix}$ 中的矩阵 $A$；
+  - text: |-
+      设 $\begin{pmatrix}x_0\\y_0\end{pmatrix}=\begin{pmatrix}\dfrac{1}{2}\\\dfrac{1}{2}\end{pmatrix}$，求 $\begin{pmatrix}x_n\\y_n\end{pmatrix}$。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设随机变量 $(X,Y)$ 服从区域 $D=\{(x,y)\mid 0\leq x\leq 1,\ 1-\sqrt{2x-x^2}\leq y\leq\sqrt{1-x^2}\}$ 上的均匀分布，记 $Z=\begin{cases}1,&X+Y>1,\\0,&X+Y\leq 1,\end{cases}$ $U=XZ$ 的分布函数为 $F_U(u)$。
+  subparts:
+  - text: 证明 $X$ 与 $Z$ 不相互独立；
+  - text: |-
+      计算 $F_U\left(\dfrac{1}{2}\right)$ 的值。

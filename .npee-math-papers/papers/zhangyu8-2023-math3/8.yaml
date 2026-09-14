@@ -1,0 +1,306 @@
+schema_version: '3.0'
+paper:
+  series_key: zhangyu8
+  year: 2023
+  subject: math3
+  paper_no: 8
+content_hash: aed24fd937235d280105b27871754a105e041af7a601759ad3926648fc1aab35
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设当 $x\to x_0$ 时，$\alpha(x)$ 与 $\beta(x)$ 是等价无穷小，且 $\alpha(x)\ne\beta(x)$，则 $x\to x_0$ 时，与 $\alpha(x)-\beta(x)$ 等价的无穷小是\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $2^{\alpha(x)}-2^{\beta(x)}$
+    figures: []
+  - label: B
+    text: |-
+      $\sqrt{1+\alpha(x)}-\sqrt{1+\beta(x)}$
+    figures: []
+  - label: C
+    text: |-
+      $\cos\alpha(x)-\cos\beta(x)$
+    figures: []
+  - label: D
+    text: |-
+      $\ln[1+\alpha(x)]-\ln[1+\beta(x)]$
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x)$ 在点 $x=0$ 处二阶可导，且 $f''(0)<0$，又 $\lim_{x\to0}\dfrac{f(x)}{x}=0$，则存在正数 $\delta$，使得函数 $f(x)$\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      在 $(-\delta,\delta)$ 上单调增加
+    figures: []
+  - label: B
+    text: |-
+      在 $(-\delta,\delta)$ 上单调减少
+    figures: []
+  - label: C
+    text: |-
+      在 $(-\delta,0]$ 上单调增加，在 $[0,\delta)$ 上单调减少
+    figures: []
+  - label: D
+    text: |-
+      在 $(-\delta,0]$ 上单调减少，在 $[0,\delta)$ 上单调增加
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $z=z(x,y)$ 是由方程 $\int_{2-3y}^{z}f(2x-3y+z-t)\,\mathrm{d}t=\sin(2x-3y+z)$ 所确定的函数，其中 $f$ 为连续函数，则\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $3\dfrac{\partial z}{\partial x}+2\dfrac{\partial z}{\partial y}=0$
+    figures: []
+  - label: B
+    text: |-
+      $3\dfrac{\partial z}{\partial x}-2\dfrac{\partial z}{\partial y}=0$
+    figures: []
+  - label: C
+    text: |-
+      $2\dfrac{\partial z}{\partial x}+3\dfrac{\partial z}{\partial y}=0$
+    figures: []
+  - label: D
+    text: |-
+      $2\dfrac{\partial z}{\partial x}-3\dfrac{\partial z}{\partial y}=0$
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $D=\{(x,y)\mid 0\leq x\leq t,0\leq y\leq t\}(t>0)$，直线 $x+y=t$ 将 $D$ 分成 $D_1,D_2$ 两部分（$D_1$ 位于直线 $x+y=t$ 下方），函数 $f(x)$ 在 $(-\infty,+\infty)$ 上连续，在点 $x=0$ 处可导，且 $f(0)=0$，$f'(0)\ne0$。令 $F_1(t)=\iint_{D_1}f(x)\,\mathrm{d}x\mathrm{d}y,F_2(t)=\iint_{D_2}f(x)\,\mathrm{d}x\mathrm{d}y$，则 $\lim_{t\to0^+}\dfrac{F_1(t)}{F_2(t)}=$\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{1}{4}$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{1}{2}$
+    figures: []
+  - label: C
+    text: $1$
+    figures: []
+  - label: D
+    text: $2$
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 为 $(n+1)\times n$ 矩阵，$\boldsymbol{\beta}$ 为 $n+1$ 维列向量，则行列式 $\lvert A,\boldsymbol{\beta}\rvert=0$ 是方程组 $Ax=\boldsymbol{\beta}$ 有解的\ExamSelection
+  choices:
+  - label: A
+    text: 充分必要条件
+    figures: []
+  - label: B
+    text: 充分非必要条件
+    figures: []
+  - label: C
+    text: 必要非充分条件
+    figures: []
+  - label: D
+    text: 既非充分也非必要条件
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设矩阵 $A$ 的行列式 $\lvert A\rvert=2$，则 $[A+(A^*)^{-1}]^{-1}=$\ExamSelection
+  choices:
+  - label: A
+    text: $A^{-1}+A^*$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{1}{3}A^*$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{1}{3}A^{-1}$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{1}{3}A$
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A,B$ 均为 $n$ 阶非零矩阵，且满足 $A^2+A=B^2+B=O$，则 $A,B$ 必有公共特征值\ExamSelection
+  choices:
+  - label: A
+    text: $-1$
+    figures: []
+  - label: B
+    text: $1$
+    figures: []
+  - label: C
+    text: $0$
+    figures: []
+  - label: D
+    text: $0$ 与 $-1$
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      下列结论中不正确的是\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      若 $X\sim N(\mu,\sigma^2)$，则 $2X\sim N(2\mu,4\sigma^2)$
+    figures: []
+  - label: B
+    text: |-
+      若 $X\sim U(a,b)$，则 $2X\sim U(2a,2b)$
+    figures: []
+  - label: C
+    text: |-
+      若 $X\sim E(\lambda)$，则 $2X\sim E(\dfrac{\lambda}{2})$
+    figures: []
+  - label: D
+    text: |-
+      若 $X\sim P(\lambda)$，则 $2X\sim P(2\lambda)$
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知 $U\sim U(0,1)$，存在一个单调递增连续函数 $g(x)$ 使得 $X=g(U)$ 具有概率密度 $f(x)=\begin{cases}(\alpha+1)x^\alpha,&0\leq x\leq1,\\0,&\text{其他},\end{cases}$ 其中 $\alpha$ 为大于 $-1$ 的常数，则 $g(U)=$\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $U^{1/\alpha}$
+    figures: []
+  - label: B
+    text: |-
+      $U^{1/(\alpha+1)}$
+    figures: []
+  - label: C
+    text: |-
+      $U^\alpha$
+    figures: []
+  - label: D
+    text: |-
+      $U^{\alpha+1}$
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设随机变量 $X_i(i=1,2)$ 服从同一分布 $\begin{array}{c|ccc}X_i&-1&0&1\\\hline P&\dfrac{1}{4}&\dfrac{1}{2}&\dfrac{1}{4}\end{array}$，且满足 $P\{X_1X_2=0\}=1$，则 $X_1$ 与 $X_2$\ExamSelection
+  choices:
+  - label: A
+    text: 独立且不相关
+    figures: []
+  - label: B
+    text: 独立且相关
+    figures: []
+  - label: C
+    text: 不独立且相关
+    figures: []
+  - label: D
+    text: 不独立且不相关
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      曲线 $y=f(x)=2\int_0^x x e^{-t^2}\,\mathrm{d}t+e^{-x^2}$ 在 $x\to+\infty$ 时的斜渐近线方程为\ExamBlank。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $\int_{-1}^{1}\dfrac{x^2e^x}{e^x+1}\sqrt{2-x^2}\,\mathrm{d}x=$\ExamBlank。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设函数 $u(x),v(x)$ 在 $(-\infty,+\infty)$ 上可导，$f(x,y)=u(x+2y)+v(x-2y)$，且 $f(x,0)=\sin2x,\left.\dfrac{\partial f}{\partial y}\right|_{y=0}=0$，则 $u(x)=$\ExamBlank。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      积分 $\int_{-1}^{1}\mathrm{d}y\int_{-1}^{y}y\sqrt{1+x^2-y^2}\,\mathrm{d}x=$\ExamBlank。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $A=\begin{pmatrix}-1&3&4\\1&-2&-3\end{pmatrix}$，$B$ 是 $3\times2$ 矩阵，$E$ 是 $2$ 阶单位矩阵，且满足 $AB=E$，则 $B=$\ExamBlank。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设总体 $X\sim f(x)=\dfrac{1}{2}e^{-|x-\mu|}(-\infty<x<+\infty)$，其中 $\mu$ 未知，利用来自总体 $X$ 的样本值 $1000,1100,1200$ 可求得 $\mu$ 的最大似然估计值为\ExamBlank。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      设 $a_0=4,a_1=1,a_{n-2}=n(n-1)a_n,n\geq2$。
+  subparts:
+  - text: |-
+      求幂级数 $\sum_{n=0}^{\infty}a_nx^n$ 的和函数 $S(x)$。
+  - text: 求 $S(x)$ 的极值。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      将 $x=x(y)$ 的微分方程 $\dfrac{\mathrm{d}^2x}{\mathrm{d}y^2}+(y+\sin x)\left(\dfrac{\mathrm{d}x}{\mathrm{d}y}\right)^3=0$ 化成 $y=y(x)$ 的微分方程，并求出满足初值条件 $x(0)=0,x'(0)=\dfrac{2}{3}$ 的特解 $y(x)$。
+  subparts:
+  - text: |-
+      利用（1）的结论，求由曲线 $x=x(y)$、直线 $y=y(\pi)$ 及 $y$ 轴围成的平面图形 $D$ 绕 $y$ 轴旋转一周而成的旋转体体积 $V$。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $f(x)$ 在区间 $[0,1]$ 上连续，且 $\int_0^1f(x)\,\mathrm{d}x\ne0$。证明：在区间 $(0,1)$ 内存在两个不同的点 $x_1,x_2$，使得 $\dfrac{\pi}{4}\int_0^1f(x)\,\mathrm{d}x=\left[\dfrac{1}{\sqrt{1-x_2^2}}\int_0^{x_2}f(t)\,\mathrm{d}t+f(x_2)\arcsin x_2\right](1-x_1)$。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $a,b,c,d$ 都是常数，$a>0,b>0$，且 $\begin{vmatrix}a&b\\c&d\end{vmatrix}\ne0$。又设平面区域 $D=\{(x,y)\mid1\leq ax+by\leq2,x\geq0,y\geq0\}$，求二重积分 $I=\iint_De^{\dfrac{cx+dy}{ax+by}}\,\mathrm{d}x\mathrm{d}y$。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设三元二次型 $f(x_1,x_2,x_3)=x^{\mathrm T}Ax$（$A$ 是 $3$ 阶实对称矩阵）经正交变换化为标准形 $2y_1^2-y_2^2-y_3^2$。又设 $3$ 阶矩阵 $B$ 满足 $\left(\dfrac{1}{2}A^*\right)^{-1}BA^{-1}=AB+4E_3$，且 $A^*\boldsymbol{\alpha}=\boldsymbol{\alpha}$，其中 $\boldsymbol{\alpha}=(1,1,-1)^{\mathrm T}$。求用正交变换 $x=Qy$，将二次型 $g(x_1,x_2,x_3)=x^{\mathrm T}(B^{\mathrm T}A^{-1})x$ 化为标准形，并写出这个标准形。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $\xi,\eta$ 为独立同分布的随机变量，$U=\min\{\xi,\eta\},V=\max\{\xi,\eta\}$。已知 $\xi$ 的分布函数与概率密度分别为 $F(x)$ 和 $f(x)$。
+  subparts:
+  - text: 求二维随机变量 $(U,V)$ 的概率密度 $g(u,v)$。
+  - text: |-
+      设 $F(x)=\begin{cases}1-e^{-\lambda x},&x>0,\\0,&x\leq0,\end{cases}$ 其中 $\lambda>0$，求 $P\{U+V\leq1\}$。

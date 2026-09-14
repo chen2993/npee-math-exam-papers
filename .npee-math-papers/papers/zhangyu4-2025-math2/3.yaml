@@ -1,0 +1,307 @@
+schema_version: '3.0'
+paper:
+  series_key: zhangyu4
+  year: 2025
+  subject: math2
+  paper_no: 3
+content_hash: 17750a1f7715f51e108a23c10b93614aa90f2ac413f1dc263d2ffed7b2796311
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      函数 $f(x)=\left|\dfrac{x}{x+1}\right|^{\dfrac{x+1}{x-1}}$ 的跳跃间断点个数为\ExamSelection
+  choices:
+  - label: A
+    text: $0$。
+    figures: []
+  - label: B
+    text: $1$。
+    figures: []
+  - label: C
+    text: $2$。
+    figures: []
+  - label: D
+    text: $3$。
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      $f(x)=\max\{1,|x|\}$ 的原函数为\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\begin{cases}-\dfrac12x^2+C,&x<-1,\\x+\dfrac12+C,&-1\leq x\leq1,\\\dfrac12x^2+1+C,&x>1.\end{cases}$
+    figures: []
+  - label: B
+    text: |-
+      $\begin{cases}-\dfrac12x^2+C,&x<-1,\\x+\dfrac12,&-1\leq x\leq1,\\\dfrac12x^2+1+C,&x>1.\end{cases}$
+    figures: []
+  - label: C
+    text: |-
+      $\begin{cases}-\dfrac12x^2+C,&x<-1,\\x+\dfrac12+C,&-1\leq x\leq1,\\\dfrac12x+1+C,&x>1.\end{cases}$
+    figures: []
+  - label: D
+    text: |-
+      $\begin{cases}-\dfrac12x+C,&x<-1,\\x+\dfrac12+C,&-1\leq x\leq1,\\\dfrac12x^2+1+C,&x>1.\end{cases}$
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $p,q$ 为正常数，若 $\displaystyle\int_0^1\dfrac{1}{x^p|\ln x|^q}\,\mathrm{d}x$ 收敛，则\ExamSelection
+  choices:
+  - label: A
+    text: $p>1,q>1$。
+    figures: []
+  - label: B
+    text: $p>1,q<1$。
+    figures: []
+  - label: C
+    text: $p<1,q>1$。
+    figures: []
+  - label: D
+    text: $p<1,q<1$。
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)$ 在 $[0,1]$ 上有定义，在 $(0,1)$ 内可导，$f(0)f(1)<0$，则存在 $\xi\in(0,1)$，使得\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $f(\xi)=0$。
+    figures: []
+  - label: B
+    text: |-
+      $f'(\xi)=0$。
+    figures: []
+  - label: C
+    text: |-
+      $\displaystyle\lim_{x\to\xi}[f(x)-f(\xi)]=0$。
+    figures: []
+  - label: D
+    text: |-
+      $f(1)-f(0)=f'(\xi)$。
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $y=y(x)\ (x>0)$ 是微分方程 $y'+y=\left(1+\dfrac1x\right)^x$ 的一个解，则 $y(x)$\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      有水平渐近线 $y=\dfrac1e$。
+    figures: []
+  - label: B
+    text: 有水平渐近线 $y=e$。
+    figures: []
+  - label: C
+    text: |-
+      有斜渐近线 $y=\dfrac1e x+\dfrac1e$。
+    figures: []
+  - label: D
+    text: |-
+      有斜渐近线 $y=ex+\dfrac1e$。
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x,y)$ 连续，则二次积分 $\displaystyle\int_{\dfrac{\pi}{2}}^{\pi}\mathrm{d}x\int_{\sin x}^{1}f(x,y)\,\mathrm{d}y=$\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\displaystyle\int_0^1\mathrm{d}y\int_{\pi+\arcsin y}^{\pi}f(x,y)\,\mathrm{d}x$。
+    figures: []
+  - label: B
+    text: |-
+      $\displaystyle\int_0^1\mathrm{d}y\int_{\pi-\arcsin y}^{\pi}f(x,y)\,\mathrm{d}x$。
+    figures: []
+  - label: C
+    text: |-
+      $\displaystyle\int_0^1\mathrm{d}y\int_{\dfrac{\pi}{2}}^{\pi+\arcsin y}f(x,y)\,\mathrm{d}x$。
+    figures: []
+  - label: D
+    text: |-
+      $\displaystyle\int_0^1\mathrm{d}y\int_{\dfrac{\pi}{2}}^{\pi-\arcsin y}f(x,y)\,\mathrm{d}x$。
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $x_{n+1}=\sin x_n,y_{n+1}=\sin y_n,n=0,1,2,\ldots,0<x_0<\dfrac{\pi}{2},0<y_0<\dfrac{\pi}{2}$，则当 $n\to\infty$ 时，\ExamSelection
+  choices:
+  - label: A
+    text: 若 $x_0<y_0$，则 $x_n$ 是比 $y_n$ 高阶的无穷小量。
+    figures: []
+  - label: B
+    text: 若 $x_0>y_0$，则 $x_n$ 是比 $y_n$ 低阶的无穷小量。
+    figures: []
+  - label: C
+    text: 若 $x_0<y_0$，则 $x_n$ 是与 $y_n$ 同阶非等价的无穷小量。
+    figures: []
+  - label: D
+    text: 若 $x_0>y_0$，则 $x_n$ 是与 $y_n$ 等价的无穷小量。
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $\alpha_1=\begin{pmatrix}1\\0\\a\end{pmatrix},\alpha_2=\begin{pmatrix}0\\0\\b\end{pmatrix},\alpha_3=\begin{pmatrix}1\\-1\\c\end{pmatrix},\alpha_4=\begin{pmatrix}-1\\1\\d\end{pmatrix}$，其中 $a,b,c,d$ 为任意常数，则下列向量组线性相关的是\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\alpha_1,\alpha_2,\alpha_3$。
+    figures: []
+  - label: B
+    text: |-
+      $\alpha_2,\alpha_3,\alpha_4$。
+    figures: []
+  - label: C
+    text: |-
+      $\alpha_1,\alpha_3,\alpha_4$。
+    figures: []
+  - label: D
+    text: |-
+      $\alpha_1,\alpha_2,\alpha_4$。
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $2$ 阶矩阵 $A$ 满足 $a_{ij}+a_{ji}=0,\ i,j=1,2$，实矩阵 $P=(\alpha,A\alpha)$，其中 $A\alpha$ 为非零列向量，则\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\begin{pmatrix}A+A^{\mathsf T}&O\\E&P\end{pmatrix}x=0$ 只有零解。
+    figures: []
+  - label: B
+    text: |-
+      $\begin{pmatrix}A+E&O\\E&P\end{pmatrix}x=0$ 有非零解。
+    figures: []
+  - label: C
+    text: |-
+      $\begin{pmatrix}O&A+A^{\mathsf T}\\P&E\end{pmatrix}x=\begin{pmatrix}\alpha\\A\alpha\end{pmatrix}$ 有无穷多解。
+    figures: []
+  - label: D
+    text: |-
+      $\begin{pmatrix}O&A+E\\P&E\end{pmatrix}x=\begin{pmatrix}\alpha\\A\alpha\end{pmatrix}$ 有唯一解。
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设二次型 $f(x_1,x_2,x_3)$ 在正交变换 $x=Py$ 下的标准形为 $y_1^2+y_2^2-2y_3^2$，其中 $P=(e_1,e_2,e_3)$。若 $Q=(-e_3,e_1,e_2)$，则 $f(x_1,x_2,x_3)$ 在正交变换 $x=Qy$ 下的标准形为\ExamSelection
+  choices:
+  - label: A
+    text: $2y_1^2-y_2^2+y_3^2$。
+    figures: []
+  - label: B
+    text: $2y_1^2+y_2^2-y_3^2$。
+    figures: []
+  - label: C
+    text: $-2y_1^2+y_2^2+y_3^2$。
+    figures: []
+  - label: D
+    text: $-2y_1^2-y_2^2+y_3^2$。
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $\displaystyle\lim_{n\to\infty}n^2\ln\left(n\sin\dfrac1n\right)=\ExamBlank$。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      质点在第一象限沿曲线 $y=x^{\dfrac32}$ 远离原点，已知质点与原点的距离以 $11\,\mathrm{cm/s}$ 的变化率增加，则当质点运动到 $x=3$ 时的水平速度为 $\ExamBlank$。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $x\geq-2$，则微分方程 $y'-\sqrt{y+x^2}=-2x$ 满足 $y(0)=1$ 的特解为 $\ExamBlank$。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      连续曲线 $y=\displaystyle\int_0^x\sqrt{\sin t}\,\mathrm{d}t$ 的长度为 $\ExamBlank$。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设函数 $z=f(x,y)$ 由方程 $xyz-\ln(yz)=-2$ 确定，则 $z''_{xy}(0,1)=\ExamBlank$。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $A=\begin{pmatrix}\dfrac12&-\dfrac{\sqrt3}{2}\\\dfrac{\sqrt3}{2}&\dfrac12\end{pmatrix}$，则 $A^{-9}=\ExamBlank$。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      设平面区域 $D=\left\{(x,y)\mid 0\leq y\leq\dfrac{\sqrt{x^2-1}}{x^2},\sqrt2\leq x\leq2\right\}$，求：
+  subparts:
+  - text: $D$ 的面积。
+  - text: $D$ 绕 $x$ 轴旋转一周所成旋转体的体积。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $f(x)$ 在 $\left[0,\dfrac32\pi\right]$ 上连续，在 $\left(0,\dfrac32\pi\right)$ 内是函数 $\dfrac{\sin x}{x}$ 的一个原函数，$f(0)=0$。
+  subparts:
+  - text: |-
+      证明 $f\left(\dfrac32\pi\right)>0$。
+  - text: |-
+      求方程 $\displaystyle\int_1^x\dfrac{\sin t}{t}\,\mathrm{d}t=\ln x^2$ 的实根个数。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $f(x,y)$ 在 $D=\{(x,y)\mid x^2+y^2\leq1\}$ 上连续，且 $f(x,y)=e^{x^2+y^2}-\displaystyle\iint_D\dfrac{(2x^2+1)f(x,y)}{x^2+y^2+1}\,\mathrm{d}x\mathrm{d}y$，求 $\displaystyle\iint_Df(x,y)\,\mathrm{d}\sigma$。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      求 $f(x,y)=x^2(2+y^2)+y^2\ln y$ 的极值。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设曲线 $y=f(x)\ (x>0)$ 满足 $[f'(x)]^2+1=2f(x)$，$f'(x)>0$，且 $f(1)=1$。在曲线 $y=f(x)$ 上任意一点 $P$ 处作切线，切线与 $x$ 轴交点为 $M$，又从点 $P$ 向 $x$ 轴作垂线，垂足为 $N$，求：
+  subparts:
+  - text: $f(x)$ 的表达式。
+  - text: 三角形 $PMN$ 面积的最小值。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $A=\begin{pmatrix}1&a&1\\2&-1&1\\0&1&b\end{pmatrix}$，$ab\ne0$，存在非零矩阵 $B$，使得 $r\left[B(A+E)\right]<r(B)$，且 $A^*=4A^{-1}$。
+  subparts:
+  - text: 求 $a,b$ 的值。
+  - text: 求可逆矩阵 $P$，使得 $P^{-1}(A^3+A^*)P$ 为对角矩阵。

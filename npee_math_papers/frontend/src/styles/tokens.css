@@ -1,0 +1,137 @@
+/*
+ * Design tokens.
+ *
+ * Every colour, radius, spacing step and font size used by the app is declared
+ * here exactly once. Components must consume these variables and never hard-code
+ * a hex value, so switching theme or density needs no component change.
+ *
+ * Structure borrowed from vue-vben-admin's preferences → CSS-variable pipeline:
+ * a typed preference object writes the few *user-facing* variables (accent,
+ * radius, font scale, density) onto :root, and the derived variables below are
+ * computed from them.
+ */
+
+:root {
+  color-scheme: light;
+
+  /* --- user-facing knobs (written by the preferences store) ---------------- */
+  --accent: #13776f;
+  --accent-hover: #0f625c;
+  --radius: 7px;
+  --font-size-base: 13px;
+  --density-gap: 18px;
+  --density-row: 64px;
+  --density-pad: 28px;
+
+  /* --- derived accents ----------------------------------------------------- */
+  --accent-soft: color-mix(in srgb, var(--accent) 12%, #ffffff);
+  --accent-ring: color-mix(in srgb, var(--accent) 40%, transparent);
+
+  --blue: #296b8d;
+  --blue-soft: #eaf2f7;
+  --amber: #9a6416;
+  --amber-soft: #fbf1dd;
+  --red: #a4443e;
+  --red-soft: #f9ebe9;
+  --green: #2f855a;
+  --green-soft: #e7f4ec;
+
+  /* --- surfaces ------------------------------------------------------------ */
+  --canvas: #f3f5f4;
+  --paper: #ffffff;
+  --paper-raised: #f7f9f8; /* table heads, toolbars */
+  --paper-sunken: #fbfcfc; /* hover rows, inset fields */
+  --nav: #17211f;
+  --nav-muted: #9eaaa6;
+  --nav-hover: #222e2b;
+  --nav-line: #2b3633;
+
+  /* --- text ---------------------------------------------------------------- */
+  --ink: #17201f;
+  --ink-2: #68736f; /* muted */
+  --ink-3: #8b9692; /* subtle */
+  --ink-on-accent: #ffffff;
+  --ink-on-nav: #ffffff;
+
+  /* --- lines --------------------------------------------------------------- */
+  --line: #dfe5e2;
+  --line-strong: #cdd6d2;
+  --line-soft: #edf0ef;
+
+  /* --- effects ------------------------------------------------------------- */
+  --shadow-xs: 0 1px 2px rgb(18 32 29 / 3%);
+  --shadow: 0 1px 2px rgb(18 32 29 / 5%), 0 8px 24px rgb(18 32 29 / 4%);
+  --shadow-lg: 0 12px 32px rgb(18 32 29 / 15%);
+
+  /* --- typography ---------------------------------------------------------- */
+  --font-sans: "Inter", "Segoe UI", "Microsoft YaHei", "Noto Sans CJK SC", system-ui, sans-serif;
+  --font-serif: Georgia, "Songti SC", "SimSun", serif;
+  --font-mono: ui-monospace, "Cascadia Mono", Consolas, monospace;
+
+  /* --- chrome -------------------------------------------------------------- */
+  --header-h: 70px;
+  --sidebar-w: 236px;
+  --sidebar-w-collapsed: 72px;
+}
+
+/* --- dark theme ------------------------------------------------------------ */
+[data-theme="dark"] {
+  color-scheme: dark;
+
+  --accent-soft: color-mix(in srgb, var(--accent) 26%, #0f1614);
+  --accent-ring: color-mix(in srgb, var(--accent) 55%, transparent);
+
+  --blue: #7fb4d1;
+  --blue-soft: #16242c;
+  --amber: #d8b072;
+  --amber-soft: #2a2114;
+  --red: #e08b84;
+  --red-soft: #2b1a19;
+  --green: #7bc79b;
+  --green-soft: #16241d;
+
+  --canvas: #101614;
+  --paper: #18201e;
+  --paper-raised: #1d2725;
+  --paper-sunken: #141c1a;
+  --nav: #0d1312;
+  --nav-muted: #8b9793;
+  --nav-hover: #1c2624;
+  --nav-line: #253330;
+
+  --ink: #e8eeec;
+  --ink-2: #a2aeaa;
+  --ink-3: #7d8985;
+
+  --line: #2b3735;
+  --line-strong: #3a4845;
+  --line-soft: #232e2c;
+
+  --shadow-xs: 0 1px 2px rgb(0 0 0 / 30%);
+  --shadow: 0 1px 2px rgb(0 0 0 / 35%), 0 8px 24px rgb(0 0 0 / 30%);
+  --shadow-lg: 0 12px 32px rgb(0 0 0 / 45%);
+}
+
+/* --- density --------------------------------------------------------------- */
+/* ``compact`` tightens vertical rhythm without touching type size. */
+[data-density="compact"] {
+  --density-gap: 12px;
+  --density-row: 50px;
+  --density-pad: 20px;
+}
+
+/* ``comfortable`` (default) keeps the current rhythm; ``spacious`` opens it up. */
+[data-density="spacious"] {
+  --density-gap: 24px;
+  --density-row: 74px;
+  --density-pad: 34px;
+}
+
+/* Font scale is a separate axis so text can be enlarged without extra padding. */
+[data-font-scale="small"] {
+  --font-size-base: 12px;
+}
+
+[data-font-scale="large"] {
+  --font-size-base: 14.5px;
+}

@@ -1,0 +1,312 @@
+schema_version: '3.0'
+paper:
+  series_key: zhangyu8
+  year: 2024
+  subject: math1
+  paper_no: 8
+content_hash: 8ef5edc81e51ba9e129206f7cb2d88bb40a1f9b9dccd03564cc9da457a0f7141
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      当 $x\to 0$ 时，以下无穷小中，阶数最高的是\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\int_0^{\sin x}(1+t)^{\dfrac{2}{t}}\,\mathrm{d}t$。
+    figures: []
+  - label: B
+    text: |-
+      $\int_0^{\ln(1+x^2)}\sqrt{\cos^3 t}\,\mathrm{d}t$。
+    figures: []
+  - label: C
+    text: |-
+      $\int_0^x(e^{\cos t}-e^{\sin t})\,\mathrm{d}t$。
+    figures: []
+  - label: D
+    text: |-
+      $\int_0^{x-\tan x}\arctan t\,\mathrm{d}t$。
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)$ 是 $[0,1]$ 上的可导函数，$f(0)=f(1)=1$，$\max_{0\leq x\leq 1}\{|f'(x)|\}=1$，则\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{1}{4}<\int_0^1f(x)\,\mathrm{d}x<\dfrac{1}{2}$。
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{1}{2}<\int_0^1f(x)\,\mathrm{d}x<\dfrac{3}{4}$。
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{3}{4}<\int_0^1f(x)\,\mathrm{d}x<\dfrac{5}{4}$。
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{5}{4}<\int_0^1f(x)\,\mathrm{d}x<\dfrac{7}{4}$。
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      若可导函数 $f(x)$ 满足 $f'(x)<2f(x)$，则当 $b>a>0$ 时，有\ExamSelection
+  choices:
+  - label: A
+    text: $b^2f(a)>a^2f(b)$。
+    figures: []
+  - label: B
+    text: |-
+      $b^2f(\ln a)>a^2f(\ln b)$。
+    figures: []
+  - label: C
+    text: $b^2f(a)<a^2f(b)$。
+    figures: []
+  - label: D
+    text: |-
+      $b^2f(\ln a)<a^2f(\ln b)$。
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $\sum_{n=0}^{\infty}a_nx^n$，$\sum_{n=0}^{\infty}b_nx^n$ 的收敛半径均为 $r(0<r<+\infty)$，则以下级数的收敛半径仍为 $r$ 的是\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\sum_{n=0}^{\infty}(a_n+b_n)x^n$。
+    figures: []
+  - label: B
+    text: |-
+      $\sum_{n=0}^{\infty}(a_n+nb_n)x^n$。
+    figures: []
+  - label: C
+    text: |-
+      $\sum_{n=0}^{\infty}\left(a_n+\dfrac{b_n}{2^n}\right)x^n$。
+    figures: []
+  - label: D
+    text: |-
+      $\sum_{n=0}^{\infty}\left(a_n+\dfrac{b_n}{n+1}\right)x^n$。
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 是 $3$ 阶矩阵，将 $A$ 的第 $2$ 列加到第 $3$ 列得矩阵 $B$，再将 $B$ 的第 $3$ 行的 $-1$ 倍加到第 $2$ 行得 $\begin{pmatrix}1&1&0\\0&2&0\\0&2&a\end{pmatrix}$，其中 $a$ 为常数，则 $A$ 的特征值为\ExamSelection
+  choices:
+  - label: A
+    text: $1,2,a$。
+    figures: []
+  - label: B
+    text: $1,2,-2$。
+    figures: []
+  - label: C
+    text: $1,-1,2$。
+    figures: []
+  - label: D
+    text: $1,a,-a$。
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知 $\begin{pmatrix}1&1&1\\1&2&1\\1&1&1\end{pmatrix}=\begin{pmatrix}1&1\\1&2\\1&1\end{pmatrix}A$，则 $A=$\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\begin{pmatrix}1&0&1\\0&1&0\end{pmatrix}$。
+    figures: []
+  - label: B
+    text: |-
+      $\begin{pmatrix}0&1&0\\1&0&1\end{pmatrix}$。
+    figures: []
+  - label: C
+    text: |-
+      $\begin{pmatrix}1&1&0\\0&0&1\end{pmatrix}$。
+    figures: []
+  - label: D
+    text: |-
+      $\begin{pmatrix}1&0&1\\0&0&1\end{pmatrix}$。
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 为 $n$ 阶矩阵，则以下不是“$A^{\mathrm T}A$ 正定”的充要条件的是\ExamSelection
+  choices:
+  - label: A
+    text: $A$ 为初等矩阵的乘积。
+    figures: []
+  - label: B
+    text: |-
+      $A$ 为 $\mathbb{R}^n$ 的某两个基之间的过渡矩阵。
+    figures: []
+  - label: C
+    text: $A$ 的行向量组线性无关。
+    figures: []
+  - label: D
+    text: $A$ 与 $n$ 阶单位矩阵 $E$ 相似。
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设总体 $X$ 中的未知参数 $\theta$ 有两个相互独立的无偏估计量 $\hat{\theta}_1$ 与 $\hat{\theta}_2$，且 $D(\hat{\theta}_2)=2D(\hat{\theta}_1)$，记 $\hat{\theta}=a\hat{\theta}_1+b\hat{\theta}_2$，则以下使得 $\hat{\theta}$ 最有效的是\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $a=\dfrac{1}{3},b=\dfrac{1}{3}$。
+    figures: []
+  - label: B
+    text: |-
+      $a=\dfrac{2}{3},b=\dfrac{1}{3}$。
+    figures: []
+  - label: C
+    text: |-
+      $a=\dfrac{1}{3},b=\dfrac{2}{3}$。
+    figures: []
+  - label: D
+    text: |-
+      $a=\dfrac{2}{3},b=\dfrac{2}{3}$。
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设总体 $X$ 服从参数为 $\lambda(\lambda>0)$ 的泊松分布，取容量为 $1$ 的简单随机样本 $X_1$，其样本值 $x_1=3$，则 $e^{-2\lambda}$ 的无偏估计量与无偏估计值分别为\ExamSelection
+  choices:
+  - label: A
+    text: $e^{-2X_1},e^{-6}$。
+    figures: []
+  - label: B
+    text: $e^{-X_1},e^{-3}$。
+    figures: []
+  - label: C
+    text: $1,1$。
+    figures: []
+  - label: D
+    text: $(-1)^{X_1},-1$。
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设总体 $X$ 服从参数为 $\lambda(\lambda>0)$ 的泊松分布，$X_1,X_2,\cdots,X_n$ 为来自总体 $X$ 的简单随机样本，且对任意的正数 $\varepsilon$，有 $\lim_{n\to\infty}P\left(\left|\dfrac{1}{n}\sum_{i=1}^nX_i^2-2\right|<\varepsilon\right)=1$，则 $D[|X-D(X)|]=\ExamSelection$
+  choices:
+  - label: A
+    text: |-
+      $1-\dfrac{2}{e}$。
+    figures: []
+  - label: B
+    text: |-
+      $1+\dfrac{2}{e}$。
+    figures: []
+  - label: C
+    text: |-
+      $1-\dfrac{4}{e^2}$。
+    figures: []
+  - label: D
+    text: |-
+      $1+\dfrac{4}{e^2}$。
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设存在 $0<\theta<1$，使得 $\int_0^xe^t\,\mathrm{d}t=xe^{\theta x}$，$x>0$，则 $\lim_{x\to 0^+}\theta=$\ExamBlank。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)=\dfrac{\ln|x|}{2x^2-\ln|x|}$，则 $f'(-1)=$\ExamBlank。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x,y)$ 在区域 $D=\{(x,y)\mid x^2+4y^2\leq 4\}$ 上二阶偏导数连续，$\partial D$ 是 $D$ 取正向的边界曲线，则 $\oint_{\partial D}[f'_x(x,y)-y]\,\mathrm{d}x+f'_y(x,y)\,\mathrm{d}y=$\ExamBlank。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $\Sigma$ 为曲面 $x^2+y^2+2z^2=1(z\geq 0)$ 的上侧，则 $\iint_{\Sigma}\sqrt{1-x^2-2z^2}\,\mathrm{d}x\,\mathrm{d}y=$\ExamBlank。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设平面 $\pi_1:ax+y+z=1$，$\pi_2:x+ay+z=1$，$\pi_3:x+y+az=-2$ 有无穷多个交点，则 $a=$\ExamBlank。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $X$ 服从参数为 $1$ 的指数分布，其分布函数为 $F(x)$，则 $E[F^2(X)+X^2]=$\ExamBlank。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      已知 $a_n=\int_0^1t^n|\ln t|\,\mathrm{d}t$，$n=1,2,\cdots$，计算 $\lim_{n\to\infty}(n^2a_n)^n$。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      在曲面 $\Sigma:x^2+2y^2+z^2=1$ 上求一点，使函数 $f(x,y,z)=2x^2+y^2+z$ 在该点沿方向 $\boldsymbol{n}$ 的方向导数最大，其中 $\boldsymbol{n}$ 是曲面 $\Sigma$ 在点 $P(1,-1,1)$ 的外侧法向量。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设数列 $\{a_n\}$，$\{b_n\}$ 满足 $\int_{a_n}^{\tan a_n}e^{x^2}\,\mathrm{d}x=\ln(1+b_n)^{b_n}$，$a_n>0$，$b_n>0$，$n=1,2,\cdots$，且级数 $\sum_{n=1}^{\infty}a_n$ 收敛。证明：
+  subparts:
+  - text: |-
+      $\lim_{n\to\infty}b_n=0$；
+  - text: |-
+      级数 $\sum_{n=1}^{\infty}\dfrac{b_n^2}{a_n^2}$ 收敛。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设曲面 $\Sigma:z=ax^2+y^2+b$ 在点 $(1,0,2)$ 处的切平面为 $\pi:z=2x$。
+  subparts:
+  - text: 求 $a,b$ 的值；
+  - text: |-
+      若切平面 $\pi$ 与曲面 $\Sigma$ 及圆柱面 $(x-1)^2+y^2=1$ 所围成的立体为 $\Omega$，求 $\Omega$ 的形心竖坐标。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: 已知二次型 $f(x_1,x_2,x_3)=x_1^2+x_2^2+ax_3^2-2x_1x_3$，且二次曲面 $f(x_1,x_2,x_3)=1$ 是柱面。
+  subparts:
+  - text: 求 $a$ 的值；
+  - text: 用正交变换将二次型 $f$ 化为标准形，并求所用的正交变换；
+  - text: 求此柱面母线的方向向量。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: 已知随机变量 $X$ 在区间 $(0,1)$ 上服从均匀分布，在 $X=x(0<x<1)$ 的条件下，随机变量 $Y$ 在区间 $(0,x)$ 上服从均匀分布。求：
+  subparts:
+  - text: $Y$ 的概率密度 $f_Y(y)$；
+  - text: |-
+      $X$ 与 $Y$ 的相关系数 $\rho_{XY}$。

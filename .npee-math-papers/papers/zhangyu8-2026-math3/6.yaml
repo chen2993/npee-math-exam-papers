@@ -1,0 +1,299 @@
+schema_version: '3.0'
+paper:
+  series_key: zhangyu8
+  year: 2026
+  subject: math3
+  paper_no: 6
+content_hash: 82f1d63f746235259d7b5655b6e2d7e0a0dde352b8dce2c8ea13a8144130c1d8
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      $f(x,y)=x^4+y^4-(x+y)^2$ 有\ExamSelection
+  choices:
+  - label: A
+    text: $2$ 个极小值点，$1$ 个极大值点。
+    figures: []
+  - label: B
+    text: $1$ 个极小值点，$1$ 个极大值点。
+    figures: []
+  - label: C
+    text: $3$ 个极小值点，无极大值点。
+    figures: []
+  - label: D
+    text: $2$ 个极小值点，无极大值点。
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x,y)$ 连续，且 $f(x,y)=f(y,x)=f(-x,y)$，则 $\int_{-2}^{2}\mathrm{d}x\int_{\sqrt{4-x^2}}^{2}f(x,y)\,\mathrm{d}y=$\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\int_0^2\left[\int_{-2}^{-\sqrt{4-y^2}}f(x,y)\,\mathrm{d}x+\int_{\sqrt{4-y^2}}^2f(x,y)\,\mathrm{d}x\right]\mathrm{d}y$。
+    figures: []
+  - label: B
+    text: |-
+      $2\int_0^2\left[\int_{\sqrt{4-y^2}}^2f(x,y)\,\mathrm{d}y\right]\mathrm{d}x$。
+    figures: []
+  - label: C
+    text: |-
+      $4\int_0^{\dfrac{\pi}{4}}\mathrm{d}\theta\int_2^{2\sec\theta}f(r\cos\theta,r\sin\theta)r\,\mathrm{d}r$。
+    figures: []
+  - label: D
+    text: |-
+      $4\int_0^{\arctan\dfrac{1}{2}}\mathrm{d}\theta\int_2^{2\sec\theta}f(r\cos\theta,r\sin\theta)r\,\mathrm{d}r$。
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      若级数 $\sum_{n=1}^{\infty}(-1)^{n+1}\dfrac{\sqrt{n+1}-\sqrt n}{n^p}$ 条件收敛，则 $p$ 的取值范围为\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\left(-1,\dfrac{1}{2}\right]$。
+    figures: []
+  - label: B
+    text: $(-1,1)$。
+    figures: []
+  - label: C
+    text: $(0,1)$。
+    figures: []
+  - label: D
+    text: |-
+      $\left(-\dfrac{1}{2},\dfrac{1}{2}\right]$。
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(t)$ 连续，令 $F(x,y)=\int_0^{y-x}(y-x-t)f(t)\,\mathrm{d}t$，则\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{\partial F}{\partial x}=\dfrac{\partial F}{\partial y},\dfrac{\partial^2F}{\partial x^2}=\dfrac{\partial^2F}{\partial y^2}$。
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{\partial F}{\partial x}=\dfrac{\partial F}{\partial y},\dfrac{\partial^2F}{\partial x^2}=-\dfrac{\partial^2F}{\partial y^2}$。
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{\partial F}{\partial x}=-\dfrac{\partial F}{\partial y},\dfrac{\partial^2F}{\partial x^2}=\dfrac{\partial^2F}{\partial y^2}$。
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{\partial F}{\partial x}=-\dfrac{\partial F}{\partial y},\dfrac{\partial^2F}{\partial x^2}=-\dfrac{\partial^2F}{\partial y^2}$。
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A,B$ 是 $n$ 阶矩阵，$A^*,B^*$ 分别是 $A,B$ 对应的伴随矩阵，则分块矩阵 $C=\begin{pmatrix}O&A\\B&O\end{pmatrix}$ 的伴随矩阵 $C^*=$\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\begin{pmatrix}O&|A|A^*\\|B|B^*&O\end{pmatrix}$。
+    figures: []
+  - label: B
+    text: |-
+      $\begin{pmatrix}O&(-1)^n|A|B^*\\(-1)^n|B|A^*&O\end{pmatrix}$。
+    figures: []
+  - label: C
+    text: |-
+      $\begin{pmatrix}O&|B|A^*\\|A|B^*&O\end{pmatrix}$。
+    figures: []
+  - label: D
+    text: |-
+      $\begin{pmatrix}O&(-1)^n|B|B^*\\(-1)^n|A|A^*&O\end{pmatrix}$。
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设矩阵 $A=\begin{pmatrix}1&-1&1\\-2&2&1\\1&-1&k\end{pmatrix}$，$r((3E-A)^2)<r(3E-A)$，其中 $E$ 是 $3$ 阶单位矩阵，则常数 $k=$\ExamSelection
+  choices:
+  - label: A
+    text: $3$。
+    figures: []
+  - label: B
+    text: $4$。
+    figures: []
+  - label: C
+    text: $5$。
+    figures: []
+  - label: D
+    text: $6$。
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $n$ 阶方阵 $A=(\alpha_1,\alpha_2,\cdots,\alpha_n)$，$B=(\beta_1,\beta_2,\cdots,\beta_n)$，$AB=(\gamma_1,\gamma_2,\cdots,\gamma_n)$，记向量组 I：$\alpha_1,\alpha_2,\cdots,\alpha_n$，向量组 II：$\beta_1,\beta_2,\cdots,\beta_n$，向量组 III：$\gamma_1,\gamma_2,\cdots,\gamma_n$。如果向量组 III 线性相关，则\ExamSelection
+  choices:
+  - label: A
+    text: 向量组 I 线性相关。
+    figures: []
+  - label: B
+    text: 向量组 II 线性相关。
+    figures: []
+  - label: C
+    text: 向量组 I 与 II 都线性相关。
+    figures: []
+  - label: D
+    text: 向量组 I 与 II 至少有一个线性相关。
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设随机变量 $(X_1,X_2)\sim N(0,0;\sigma_1^2,\sigma_2^2;\rho)$，$\sigma_1\ne\sigma_2$，若 $Y_1=X_1\cos\alpha+X_2\sin\alpha$ 与 $Y_2=X_2\cos\alpha-X_1\sin\alpha$ 相互独立，$\cos2\alpha\ne0$，则 $\tan2\alpha=$\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\rho\dfrac{\sigma_1^2\sigma_2^2}{\sigma_1^2-\sigma_2^2}$。
+    figures: []
+  - label: B
+    text: |-
+      $\rho\dfrac{\sigma_1^2\sigma_2^2}{\sigma_2^2-\sigma_1^2}$。
+    figures: []
+  - label: C
+    text: |-
+      $2\rho\dfrac{\sigma_1\sigma_2}{\sigma_1^2-\sigma_2^2}$。
+    figures: []
+  - label: D
+    text: |-
+      $2\rho\dfrac{\sigma_1\sigma_2}{\sigma_2^2-\sigma_1^2}$。
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $X_1,X_2$ 是取自正态总体 $X\sim N(1,1)$ 的简单随机样本，则 $\dfrac{X_1-1}{|1-X_2|}$ 服从\ExamSelection
+  choices:
+  - label: A
+    text: $t(1)$。
+    figures: []
+  - label: B
+    text: $F(1,1)$。
+    figures: []
+  - label: C
+    text: |-
+      $\chi^2(1)$。
+    figures: []
+  - label: D
+    text: $N(1,1)$。
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $X_1,\cdots,X_n$ 与 $Y_1,\cdots,Y_n$ 是来自正态总体 $N(\mu,\sigma^2)$ 的两个相互独立的简单随机样本，$\overline X=\dfrac{1}{n}\sum_{i=1}^nX_i$，$\overline Y=\dfrac{1}{n}\sum_{i=1}^nY_i$，且满足 $P\{|\overline X-\overline Y|>\sigma\}\leqslant0.05$，$\Phi(1.96)=0.975$，则样本容量 $n$ 的最小值为\ExamSelection
+  choices:
+  - label: A
+    text: $7$。
+    figures: []
+  - label: B
+    text: $8$。
+    figures: []
+  - label: C
+    text: $9$。
+    figures: []
+  - label: D
+    text: $10$。
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $x\to0$ 时，$\ln\dfrac{2+x}{2+\sin x}$ 与 $x^n$ 为同阶无穷小，则 $n=$\ExamBlank。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $y\geqslant-2$，则微分方程 $x'-\sqrt{x+y^2}=-2y$ 满足 $x(0)=1$ 的特解为\ExamBlank。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      方程 $2y_{t+1}-y_t=3\left(\dfrac{1}{2}\right)^t$ 的通解为\ExamBlank。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $z=f(u)$ 可导，$u=u(x,y)$ 由方程 $u=\varphi(u)+\int_y^xP(t)\,\mathrm{d}t$ 所确定，其中函数 $P$ 连续，$\varphi$ 有连续导数，且 $\varphi'(u)\ne1$，则 $P(x)\dfrac{\partial z}{\partial y}+P(y)\dfrac{\partial z}{\partial x}=$\ExamBlank。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 是 $4$ 阶矩阵，$A$ 的伴随矩阵 $A^*=\begin{pmatrix}1&0&1&0\\0&2&0&2\\0&0&1&1\\0&0&0&4\end{pmatrix}$，$b=(1,1,1,1)^{\mathrm T}$，则方程组 $Ax=b$ 的解为\ExamBlank。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设总体 $X$ 的概率密度为 $f(x)=\begin{cases}\dfrac{\beta x}{\alpha^2},&0\leq x\leq\alpha,\\0,&\text{其他},\end{cases}$ 其中 $\alpha(\alpha>1)$ 是未知参数，$X_1,X_2,\cdots,X_n$ 是来自总体 $X$ 的简单随机样本，记 $p=P\{0<X<\sqrt{\alpha}\}$，$X_{(1)}=\min\{X_1,X_2,\cdots,X_n\}$，$X_{(n)}=\max\{X_1,X_2,\cdots,X_n\}$，则 $p$ 的最大似然估计量 $\widehat{p}$ 为\ExamBlank。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      某公司投资 $2\,000$ 万元建成一条生产线，投产后，在时间 $t$（单位：年）的边际成本和边际收益分别为 $G(t)=5+2t^{\dfrac{2}{3}}$（百万元/年），$\Phi(t)=17-t^{\dfrac{2}{3}}$（百万元/年），试确定该生产线在何时停产可获得最大利润？最大利润是多少？
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $y=y(x)$ 满足微分方程 $(xy'-2)\ln x+y=0$，$y(e)=2$。
+  subparts:
+  - text: 求 $y=y(x)$ 的表达式及其定义域；
+  - text: 求函数 $y=y(x)$ 的极值。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 $f(x)$ 在 $(a,b)$ 上二次可微，证明：对任意 $x\in(a,b)$ 及适当小的正数 $h$（使 $x+h,x-h\in(a,b)$），不等式 $f(x)\leqslant\dfrac{1}{2}[f(x+h)+f(x-h)]$ 成立的充要条件是 $f''(x)\geqslant0,x\in(a,b)$。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      计算 $\iint_D\ln(xy)\,\mathrm{d}x\mathrm{d}y$，其中 $D=\{(x,y)\mid1\leqslant xy\leqslant2,x\leqslant y\leqslant4x,x>0\}$。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      已知实矩阵 $A=\begin{pmatrix}1&1\\1&a\end{pmatrix}$，$B=\begin{pmatrix}4&b\\3&1\end{pmatrix}$，其中 $a$ 为非负整数，且 $A$ 与 $B$ 合同。
+  subparts:
+  - text: 求 $a,b$ 的值；
+  - text: |-
+      求可逆矩阵 $D$，使得 $A=D^{\mathrm T}BD$。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设随机变量 $X$ 满足 $|X|\leqslant1$，$P\{X=-1\}=\dfrac{1}{4}$，$P\{X=1\}=\dfrac{1}{2}$，当 $|X|<1$ 时，$X$ 服从 $(-1,1)$ 上的均匀分布，与 $X$ 相互独立的随机变量 $Y$ 服从参数为 $1$ 的指数分布，令 $Z=X+Y$。求
+  subparts:
+  - text: $X$ 的分布函数 $F_X(x)$；
+  - text: $Z$ 的分布函数 $F_Z(z)$。

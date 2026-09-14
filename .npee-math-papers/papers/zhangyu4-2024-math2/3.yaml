@@ -1,0 +1,289 @@
+schema_version: '3.0'
+paper:
+  series_key: zhangyu4
+  year: 2024
+  subject: math2
+  paper_no: 3
+content_hash: 9f3250a965be83363c87017e7219d1c6042166f09b1801eeed2a1a3e16a06b6d
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      若函数 $f(x)$ 在 $\mathbb{R}$ 上连续，$g(x)=\int_0^{2x}f\left(x+\dfrac{t}{2}\right)\,\mathrm{d}t$，则当 $x\to0^+$ 时，$g(x)$ 是 $\sqrt{x}$ 的\ExamSelection
+  choices:
+  - label: A
+    text: 高阶无穷小
+    figures: []
+  - label: B
+    text: 低阶无穷小
+    figures: []
+  - label: C
+    text: 等价无穷小
+    figures: []
+  - label: D
+    text: 同阶非等价无穷小
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x)$ 在 $(0,+\infty)$ 上可导，给出下列命题：①若曲线 $y=f(x)$ 有水平渐近线 $y=1$，则 $\lim_{x\to+\infty}f'(x)=0$；②若曲线 $y=f(x)$ 有斜渐近线 $y=x$，则 $\lim_{x\to+\infty}f'(x)=1$；③若 $\lim_{x\to+\infty}\dfrac{f(x)}{x}=1$，则曲线 $y=f(x)$ 的斜渐近线斜率为 $1$；④若曲线 $y=f(x)$ 的斜渐近线斜率为 $1$，则 $\lim_{x\to+\infty}\dfrac{f(x)}{x}=1$。正确命题的个数为\ExamSelection
+  choices:
+  - label: A
+    text: '1'
+    figures: []
+  - label: B
+    text: '2'
+    figures: []
+  - label: C
+    text: '3'
+    figures: []
+  - label: D
+    text: '4'
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设数列 $\{a_n\}$ 满足 $a_1>2,\ a_{n+1}=a_n-\dfrac{a_n-3}{a_n-2},\ n=1,2,3,\cdots$，则\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\{a_n\}$ 收敛于大于 $3$ 的数
+    figures: []
+  - label: B
+    text: |-
+      $\{a_n\}$ 收敛于 $3$
+    figures: []
+  - label: C
+    text: |-
+      $\{a_n\}$ 发散
+    figures: []
+  - label: D
+    text: |-
+      $\{a_n\}$ 的敛散性与 $a_1$ 有关
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $M=\int_{-1}^{1}\left(\dfrac{x}{1+x^2}+\cos^3x\right)\,\mathrm{d}x,N=\int_{-1}^{1}\left[\cos^4x+\ln\left(x+\sqrt{1+x^2}\right)\right]\,\mathrm{d}x,P=\int_{-1}^{1}(x^3-\cos^5x)\,\mathrm{d}x$，则\ExamSelection
+  choices:
+  - label: A
+    text: $N>M>P$
+    figures: []
+  - label: B
+    text: $P>M>N$
+    figures: []
+  - label: C
+    text: $M>N>P$
+    figures: []
+  - label: D
+    text: $M>P>N$
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x,y)=\begin{cases}xy,&|x|\geq|y|,\\-xy,&|x|<|y|,\end{cases}$，则 $f_{xy}(0,0)$ 和 $f_{yx}(0,0)$ 依次为\ExamSelection
+  choices:
+  - label: A
+    text: $1,1$
+    figures: []
+  - label: B
+    text: $1,-1$
+    figures: []
+  - label: C
+    text: $-1,1$
+    figures: []
+  - label: D
+    text: $-1,-1$
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      如图所示，从曲线 $y=f(x)$ 上任一点 $P$ 分别作切线交 $x$ 轴于点 $T$，作垂线交 $x$ 轴于点 $Q$，三角形 $PTQ$ 的面积为 $\dfrac{1}{2}$，则\ExamSelection
+    figures:
+    - kind: tikz
+      latex: |-
+        \begin{tikzpicture}[scale=0.8,>=stealth]\draw[->] (-0.2,0)--(3.4,0) node[right] {$x$};\draw[->] (0,-0.2)--(0,3.2) node[above] {$y$};\draw (0.4,1.25) .. controls (1.1,1.05) and (1.35,1.4) .. (2.1,2.7) node[right] {$y=f(x)$};\coordinate (P) at (1.55,1.7);\coordinate (T) at (0.75,0);\coordinate (Q) at (1.55,0);\draw (T)--(P)--(Q);\fill (P) circle (1.5pt) node[right] {$P(x,y)$};\fill (T) circle (1.2pt) node[below] {$T$};\fill (Q) circle (1.2pt) node[below] {$Q(x,0)$};\node[below left] at (0,0) {$O$};\end{tikzpicture}
+      path:
+      description: 曲线、点P处切线及其与x轴交点T，点P向x轴垂足Q
+      exception_reason:
+  choices:
+  - label: A
+    text: $y'=y$
+    figures: []
+  - label: B
+    text: $y'=-y$
+    figures: []
+  - label: C
+    text: $(y')^2=y$
+    figures: []
+  - label: D
+    text: $y'=y^2$
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $a_n=\sum_{i=1}^{n}\dfrac{\sqrt{i(i-1)}}{n^2+i(i-1)}\ (n=2,3,\cdots)$，则 $\lim_{n\to\infty}a_n=$\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $2\ln2$
+    figures: []
+  - label: B
+    text: |-
+      $2\ln\dfrac{1}{2}$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{1}{2}\ln\dfrac{1}{2}$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{1}{2}\ln2$
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A^*$ 为 $3$ 阶非零矩阵，且 $A^*=(\alpha_1,\alpha_2,\alpha_3),\alpha_1=\alpha_3,\alpha_2+\alpha_3=0,k,k_1,k_2$ 均为任意常数，则 $Ax=0$ 的通解为\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $k(\alpha_1+\alpha_2)$
+    figures: []
+  - label: B
+    text: |-
+      $k(\alpha_1+\alpha_3)$
+    figures: []
+  - label: C
+    text: |-
+      $k_1\alpha_1+k_2\alpha_2$
+    figures: []
+  - label: D
+    text: |-
+      $k_1\alpha_1+k_2\alpha_3$
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A_1,A_2,B_1,B_2$ 均为 $n$ 阶方阵，给出以下结论：①若 $\begin{pmatrix}A_1&O\\O&A_2\end{pmatrix}$ 相似于 $\begin{pmatrix}B_1&O\\O&B_2\end{pmatrix}$，则 $A_1$ 相似于 $B_1$，$A_2$ 相似于 $B_2$；②若 $A_1$ 相似于 $B_1$，$A_2$ 相似于 $B_2$，则 $\begin{pmatrix}A_1&O\\O&A_2\end{pmatrix}$ 相似于 $\begin{pmatrix}B_1&O\\O&B_2\end{pmatrix}$；③若 $\begin{pmatrix}A_1&O\\O&A_2\end{pmatrix}$ 合同于 $\begin{pmatrix}B_1&O\\O&B_2\end{pmatrix}$，则 $A_1$ 合同于 $B_1$，$A_2$ 合同于 $B_2$；④若 $A_1$ 合同于 $B_1$，$A_2$ 合同于 $B_2$，则 $\begin{pmatrix}A_2&O\\O&A_1\end{pmatrix}$ 合同于 $\begin{pmatrix}B_1&O\\O&B_2\end{pmatrix}$。正确结论的个数为\ExamSelection
+  choices:
+  - label: A
+    text: '1'
+    figures: []
+  - label: B
+    text: '2'
+    figures: []
+  - label: C
+    text: '3'
+    figures: []
+  - label: D
+    text: '4'
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知二次型 $f(x_1,x_2,x_3)$ 在正交变换 $x=Qy$ 下化为 $y_1^2-y_2^2$，其中 $Q=(e_1,e_2,e_3)$。若 $P=(e_2,-e_3,e_1)$，则 $f(x_1,x_2,x_3)$ 在变换 $x=Py$ 下化为\ExamSelection
+  choices:
+  - label: A
+    text: $z_1^2+z_2^2+z_3^2$
+    figures: []
+  - label: B
+    text: $z_1^2-z_2^2+z_3^2$
+    figures: []
+  - label: C
+    text: $-z_1^2+z_3^2$
+    figures: []
+  - label: D
+    text: $-z_1^2-z_3^2$
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x)=\dfrac{(x-1)(x-2)^2(x-3)^3}{x}$，则 $f''(2)=$ \ExamBlank。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $f(x)=\int_0^{x^2}(t-1)\sqrt{t}e^{\sqrt{t}}\,\mathrm{d}t$ 的极小值为 \ExamBlank。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      曲线 $L:y=x^2-\dfrac{1}{8}\ln x\left(\dfrac{1}{2}<x<2\right)$ 的弧长为 \ExamBlank。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      若可微函数 $z=f(x,y)$ 在平面区域 $D=\{(x,y)\mid x^2+y^2\leq5\}$ 上的最大值点为 $(1,2)$，且 $f(1,2)=M$，则曲线 $f(x,y)=M$ 在点 $(1,2)$ 处的切线方程为 \ExamBlank。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $\int_0^1\mathrm{d}y\int_y^1\left(\dfrac{\sin x^2}{x}-\sin y^2\right)\,\mathrm{d}x=$ \ExamBlank。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      若正定矩阵 $A$ 满足 $A^2=\begin{pmatrix}2&1\\1&2\end{pmatrix}$，则 $A=$ \ExamBlank。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      已知一容器的外表面由 $y=|x|^3\ (0\leq y\leq1)$ 绕 $y$ 轴旋转而成，现在该容器盛满了水，水的密度为 $\rho$，重力加速度为 $g$，将容器内的水全部抽出至少需做多少功？
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      已知函数 $f(x)$ 在 $x=0$ 处具有一阶导数，且 $\lim_{x\to0}\dfrac{xf(x)+e^{x^2}\sin x}{x^2}=1$。求 $f(x)$ 在 $x=0$ 处的切线方程。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 $f(x)=\int_0^1|t(t-x)|e^{-t^2}\,\mathrm{d}t,\ 0\leq x\leq1$，求 $f(x)$ 在极值点处的曲率。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 $f(x)$ 在区间 $[0,3]$ 上连续，证明：\NPEEQuestionContinuation (1) 若 $\int_0^1f(x)\,\mathrm{d}x=e^2\int_0^3f(x)\,\mathrm{d}x$，则存在 $c\in(1,3)$，使得 $\int_0^c f(x)\,\mathrm{d}x+f(c)=0$；\NPEEQuestionContinuation (2) 若 $\int_0^1f(x)\,\mathrm{d}x=\int_0^2f(x)\,\mathrm{d}x=1$，则存在两个不同的点 $\xi,\eta\in(1,3)$，使得 $e^\xi\left[\int_0^\xi f(x)\,\mathrm{d}x+f(\xi)\right]=e^{\eta-1}$。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $f(x)$ 满足 $f'(x)+f^2(x)=0,f(0)=1$，计算二重积分 $\iint_D f\left(\dfrac{x}{y}\right)e^{f\left(\dfrac{y}{x}\right)}\,\mathrm{d}\sigma$，其中平面区域 $D=\{(x,y)\mid 0\leq x\leq1-y,\ 0<y<1\}$。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      已知 $3$ 维列向量 $\xi_1$ 是 $3$ 阶实对称矩阵 $A$ 的属于特征值 $1$ 的特征向量，$|A+E|=0,\ |A|=1,\ \eta$ 是 $3$ 维非零列向量，$[\xi_1,\eta]=0$。\NPEEQuestionContinuation (1) 证明 $\eta$ 是 $A$ 的特征向量；\NPEEQuestionContinuation (2) 记 $\alpha=\dfrac{\xi_1}{\|\xi_1\|}=\begin{pmatrix}a_1\\a_2\\a_3\end{pmatrix},\ \beta=\dfrac{\eta}{\|\eta\|}=\begin{pmatrix}b_1\\b_2\\b_3\end{pmatrix}$，证明二次型 $f(x_1,x_2,x_3)=(a_1x_1+a_2x_2+a_3x_3)^2-(b_1x_1+b_2x_2+b_3x_3)^2$ 在正交变换下的标准形为 $y_1^2-y_2^2$。

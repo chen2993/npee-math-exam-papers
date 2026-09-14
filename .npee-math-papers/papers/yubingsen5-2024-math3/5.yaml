@@ -1,0 +1,300 @@
+schema_version: '3.0'
+paper:
+  series_key: yubingsen5
+  year: 2024
+  subject: math3
+  paper_no: 5
+content_hash: 9b3b356fda527ef7d2c0c19067d6469220b13661e9a8a5d34d6c489d72874bd7
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)=\begin{cases}\left|\dfrac{x^2-1}{x-1}\right||\ln x|^\alpha,&x\ne 1,\\0,&x=1,\end{cases}$ 其中常数 $\alpha>1$，则 $f(x)$ 在 $x=1$ 处\ExamSelection。
+  choices:
+  - label: A
+    text: 不连续
+    figures: []
+  - label: B
+    text: 连续但不可导
+    figures: []
+  - label: C
+    text: 可导但导函数不连续
+    figures: []
+  - label: D
+    text: 导函数连续
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)$ 在 $x=0$ 处存在二阶导数，$f(0)=0$ 且 $\lim_{x\to 0}\dfrac{f(x)+f'(x)}{x}=2$，则\ExamSelection。
+  choices:
+  - label: A
+    text: $f(0)$ 是 $f(x)$ 的极大值
+    figures: []
+  - label: B
+    text: $f(0)$ 是 $f(x)$ 的极小值
+    figures: []
+  - label: C
+    text: $(0,f(0))$ 是曲线 $y=f(x)$ 的拐点
+    figures: []
+  - label: D
+    text: 以上都不正确
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设在区间 $[-a,a]$（$a>0$）内，$f''(x)>0$，$|f(x)|\leq x^2$，则 $\int_{-a}^{a}f(x)\,\mathrm{d}x$\ExamSelection。
+  choices:
+  - label: A
+    text: 大于零
+    figures: []
+  - label: B
+    text: 小于零
+    figures: []
+  - label: C
+    text: 等于零
+    figures: []
+  - label: D
+    text: 其符号无法确定
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $\varphi(x,y)\ne 0$ 且具有连续的一阶偏导数，函数 $u(x,y)$ 的全微分 $\mathrm{d}u=\dfrac{y\,\mathrm{d}x+x\,\mathrm{d}y}{\varphi(x,y)}$，则下列等式成立的是\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $x\varphi'_y(x,y)=y\varphi'_x(x,y)$
+    figures: []
+  - label: B
+    text: |-
+      $x\varphi'_y(x,y)=-y\varphi'_x(x,y)$
+    figures: []
+  - label: C
+    text: |-
+      $x\varphi'_x(x,y)=y\varphi'_y(x,y)$
+    figures: []
+  - label: D
+    text: |-
+      $x\varphi'_x(x,y)=-y\varphi'_y(x,y)$
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $n(>3)$ 阶矩阵 $A$ 的伴随矩阵 $A^*\ne O$，$\xi_1,\xi_2$ 是非齐次线性方程组 $A\boldsymbol{x}=\boldsymbol{\beta}$ 的两个不同的解，则齐次线性方程组 $A\boldsymbol{x}=\boldsymbol{0}$ 的基础解系\ExamSelection。
+  choices:
+  - label: A
+    text: 含有 1 个解向量
+    figures: []
+  - label: B
+    text: 含有 2 个解向量
+    figures: []
+  - label: C
+    text: 含有 $n-1$ 个解向量
+    figures: []
+  - label: D
+    text: 含有 $n$ 个解向量
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设三阶矩阵 $A$ 有特征值 $\lambda_1=\lambda_2=-1,\lambda_3=2$，且 $A$ 不能相似于对角阵，则 $r(A+E)+r(A-E)+r(A-2E)=$\ExamSelection。
+  choices:
+  - label: A
+    text: '3'
+    figures: []
+  - label: B
+    text: '4'
+    figures: []
+  - label: C
+    text: '6'
+    figures: []
+  - label: D
+    text: '7'
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A,B$ 均为 $n(n>1)$ 阶方阵，满足 $\begin{pmatrix}A^{\mathrm{T}}A&O\\O&B^{\mathrm{T}}B\end{pmatrix}$ 为正定矩阵，给出如下五个命题：①齐次线性方程组 $A\boldsymbol{x}=\boldsymbol{0}$ 与 $B\boldsymbol{x}=\boldsymbol{0}$ 同解；②对任意的 $n$ 维非零列向量 $\boldsymbol{a}$，非齐次线性方程组 $A\boldsymbol{x}=\boldsymbol{a}$ 与 $B\boldsymbol{x}=\boldsymbol{a}$ 同解；③矩阵 $A,B$ 等价；④矩阵 $A,B$ 的列向量组等价；⑤矩阵 $A,B$ 的行向量组等价。其中正确的个数是\ExamSelection。
+  choices:
+  - label: A
+    text: 1 个
+    figures: []
+  - label: B
+    text: 2 个
+    figures: []
+  - label: C
+    text: 3 个
+    figures: []
+  - label: D
+    text: 4 个
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设三个产品中次品的平均个数为 $\dfrac{3}{2}$，现从中任取一个产品，则该产品是次品的概率为\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{1}{6}$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{1}{3}$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{1}{2}$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{2}{3}$
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设连续型随机变量 $(X,Y)$ 的密度函数和分布函数分别为 $f(x,y),F(x,y)$，关于 $X$ 的边缘概率密度和边缘分布函数分别为 $f_X(x),F_X(x)$，则下列四个命题：①$0\leq f(x,y)\leq 1$；②$f(x,y)\leq f_X(x)$；③$0\leq F(x,y)\leq 1$；④$F(x,y)\leq F_X(x)$，中，正确的个数为\ExamSelection。
+  choices:
+  - label: A
+    text: 1 个
+    figures: []
+  - label: B
+    text: 2 个
+    figures: []
+  - label: C
+    text: 3 个
+    figures: []
+  - label: D
+    text: 4 个
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设总体 $X\sim U(-\theta,\theta)$，其中未知参数 $\theta>0$，$X_1,X_2,\cdots,X_n$ 为来自总体 $X$ 的简单随机样本，则 $\theta$ 的最大似然估计量 $\hat{\theta}=$\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\displaystyle\max_{1\leq i\leq n}X_i$
+    figures: []
+  - label: B
+    text: |-
+      $-\displaystyle\min_{1\leq i\leq n}X_i$
+    figures: []
+  - label: C
+    text: |-
+      $\displaystyle\max_{1\leq i\leq n}|X_i|$
+    figures: []
+  - label: D
+    text: |-
+      $\displaystyle\min_{1\leq i\leq n}|X_i|$
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      曲线 $y=\dfrac{e^{1/x}+e^x}{e^{1/x}-e^x}\cdot\dfrac{\displaystyle\int_x^2e^{-t^2}\,\mathrm{d}t}{x-2}$ 的跳跃间断点为\ExamBlank。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      若曲线 $y=1-x^2$ 与 $x$ 轴围成的图形被折线 $y=ax^2$（$a>0$）分割成面积相等的三个部分，则 $a=$\ExamBlank。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      已知函数 $F(u,v)$ 可微，$F'_u(0,0)=2,F'_v(0,0)=3$，函数 $z=f(x,y)$ 由方程 $F(2x-\cos y-e^z,x^2y+\sin z)=0$ 确定，且有 $f(1,0)=0$，则 $f'_x(1,0)=$\ExamBlank。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      某商品的需求价格弹性 $\dfrac{EQ}{Ep}=\dfrac{2p^2}{75-p^2}>0$，且 $Q(5)=50$，则需求函数 $Q=$\ExamBlank。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $\boldsymbol{\alpha}$ 为 3 维非零向量，$E$ 为三阶单位矩阵，$A=E-\boldsymbol{\alpha}\boldsymbol{\alpha}^{\mathrm{T}}$。若 $\boldsymbol{\alpha}^{\mathrm{T}}\boldsymbol{\alpha}=2$，则 $A$ 的迹 $\operatorname{tr}(A)=$\ExamBlank。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $DX=1,DY=2,D(2X-Y)=D(X+2Y)$，则 $2X-Y$ 和 $X+2Y$ 的相关系数为\ExamBlank。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: 设有抛物线 $L_1:y=x^2+1$、直线 $L_2:y=x$。
+  subparts:
+  - text: 求 $L_1$ 上的点到 $L_2$ 的最短距离 $d_1$；
+  - text: 求 $L_1$ 上的点到点 $P(5,0)$ 的最短距离 $d_2$。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      求级数 $\sum_{n=1}^{+\infty}\dfrac{[2+(-1)^n]^n}{n}x^n$ 的收敛域并求级数 $\sum_{n=1}^{+\infty}\dfrac{[2+(-1)^n]^n}{n6^n}$ 的和。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 $f(x)$ 连续，$f(x)=x^2+x\displaystyle\int_0^{x^2}f(x^2-t)\,\mathrm{d}t+\displaystyle\iint_Df(xy)\,\mathrm{d}x\,\mathrm{d}y$，其中 $D$ 为以 $A(1,-1),B(-1,1),C(1,1)$ 为顶点的三角区域，若 $f(1)=0$，
+  subparts:
+  - text: |-
+      求 $\displaystyle\int_0^1f(x)\,\mathrm{d}x+\displaystyle\iint_Df(xy)\,\mathrm{d}x\,\mathrm{d}y$ 的值；
+  - text: |-
+      求 $\displaystyle\int_0^1f(x)\,\mathrm{d}x$ 的值。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $x>0$，证明：$(x+1)^3-x^3=3[x+\theta(x)]^2$ ①，其中 $0<\theta(x)<1$。
+  subparts:
+  - text: |-
+      证明 ① 中的 $\theta(x)$ 是 $x(0<x<1)$ 的减函数；
+  - text: |-
+      当 $0<x<1$ 时，证明 ① 中的 $\theta(x)$ 满足 $\dfrac{1}{2}<\theta(x)<\dfrac{1}{\sqrt{3}}$。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: 设 3 阶实矩阵 $A$ 满足 $A^2-A-2E=O$，$|A|=2$。
+  subparts:
+  - text: 证明 $A$ 可以对角化；
+  - text: |-
+      如果 $A$ 为实对称矩阵，且 $\boldsymbol{\xi}=(1,1,-1)^{\mathrm{T}}$ 是齐次线性方程组 $(A-2E)\boldsymbol{x}=\boldsymbol{0}$ 的一个解，求一个对称矩阵 $B$ 使得 $B^2=A+E$。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设随机变量 $X$ 在区间 $(-1,1)$ 内取值，且 $P\{X=0\}=\dfrac{1}{3}$，当事件 $\{X\in(-1,0)\cup(0,1)\}$ 发生时，$X$ 在 $(-1,0)\cup(0,1)$ 内的任一子区间上取值的条件概率与该子区间的长度成正比。
+  subparts:
+  - text: 求 $X$ 的分布函数 $F(x)$；
+  - text: 求 $Y=F(X)$ 的分布函数 $F_Y(y)$。

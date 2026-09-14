@@ -1,0 +1,295 @@
+schema_version: '3.0'
+paper:
+  series_key: chaoyue10
+  year: 2025
+  subject: math2
+  paper_no: 2
+content_hash: 560a09a177faf92de8f574d97baddc21a82f3d43ad4f4e64013eb5363f5bac28
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x)=\dfrac{x}{\tan x}\ln\left|x-\dfrac{\pi}{2}\right|$，则 $f(x)$ 在 $(-\pi,\pi)$ 内有\ExamSelection。
+  choices:
+  - label: A
+    text: 一个可去间断点，两个跳跃间断点
+    figures: []
+  - label: B
+    text: 两个可去间断点，一个跳跃间断点
+    figures: []
+  - label: C
+    text: 三个可去间断点
+    figures: []
+  - label: D
+    text: 两个无穷间断点，一个可去间断点
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)$ 在 $(-\infty,+\infty)$ 内连续，$F(x)=\int_0^x\left(\arctan x-\arctan t-\dfrac{t}{1+t^2}\right)f(t)\,\mathrm{d}t$。下列说法正确的个数为\ExamSelection。\NPEEQuestionContinuation ① 若 $f(x)$ 为奇函数，则 $F(x)$ 为奇函数\NPEEQuestionContinuation ② 若 $f(x)$ 为偶函数，则 $F(x)$ 为偶函数\NPEEQuestionContinuation ③ 若 $f(x)$ 为单调递增函数，则 $F(x)$ 为单调递增函数\NPEEQuestionContinuation ④ 若 $f(x)$ 为单调递增函数，则 $F(x)$ 为单调递减函数
+  choices:
+  - label: A
+    text: $1$
+    figures: []
+  - label: B
+    text: $2$
+    figures: []
+  - label: C
+    text: $3$
+    figures: []
+  - label: D
+    text: $4$
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)=\int_0^1\sin(x^2t^2)\,\mathrm{d}t$，则 $\int_0^1xf(x)\,\mathrm{d}x=$\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\int_0^1(1-x)\sin x^2\,\mathrm{d}x$
+    figures: []
+  - label: B
+    text: |-
+      $\int_0^1\sin x^2\,\mathrm{d}x$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{1}{2}\int_0^1(1-x^2)\sin x^2\,\mathrm{d}x$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{1}{2}\int_0^1\sin x^2\,\mathrm{d}x$
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $y=f(x)$ 是微分方程 $y'-P(x)y=\dfrac{1}{2}e^x-1$ 满足 $y(0)=1$ 的解，其中 $P(x)=\int_0^1|x-t|\,\mathrm{d}t$，则有\ExamSelection。
+  choices:
+  - label: A
+    text: 在点 $x=0$ 处 $f(x)$ 取极大值
+    figures: []
+  - label: B
+    text: 在点 $x=0$ 处 $f(x)$ 取极小值
+    figures: []
+  - label: C
+    text: $(0,f(0))$ 为曲线 $y=f(x)$ 的拐点
+    figures: []
+  - label: D
+    text: 点 $x=0$ 不是 $f(x)$ 的极值点，点 $(0,f(0))$ 也不是曲线 $y=f(x)$ 的拐点
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设可微函数 $u(x,y)$ 满足 $\dfrac{\partial u}{\partial x}-\dfrac{\partial u}{\partial y}=2x\cos(x+y)$，令 $g(x,y)=u(x+y,x-y)$，有 $g(x,0)=0$，则 $u(1,0)=$\ExamSelection。
+  choices:
+  - label: A
+    text: $0$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{1}{2}\cos 1$
+    figures: []
+  - label: C
+    text: |-
+      $\cos 1$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{3}{4}\cos 1$
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $I_k=\iint_{D_k}(xy^2e^{-x^2}+x^2\sin(x^2+y^2))\,\mathrm{d}\sigma$，$k=1,2,3$，其中 $D_1:x^2+y^2\leq\dfrac{\pi}{2}$，$D_2:x^2+y^2\leq\pi$，$D_3:x^2+y^2\leq2\pi$，则 $I_1,I_2,I_3$ 三者的大小关系为\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $I_1\leq I_2\leq I_3$
+    figures: []
+  - label: B
+    text: |-
+      $I_3\leq I_2\leq I_1$
+    figures: []
+  - label: C
+    text: |-
+      $I_1\leq I_3\leq I_2$
+    figures: []
+  - label: D
+    text: |-
+      $I_3\leq I_1\leq I_2$
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x)$ 在 $x=0$ 的某个邻域内连续，且 $f(0)=1$，令 $F(x)=\int_0^x t^2f(t)\,\mathrm{d}t$，$G(x)=(1+x)^x-1$，那么当 $x\to0$ 得时候 $F(x)$ 是 $G(x)$ 的\ExamSelection。
+  choices:
+  - label: A
+    text: 高阶无穷小
+    figures: []
+  - label: B
+    text: 低阶无穷小
+    figures: []
+  - label: C
+    text: 同阶但非等价无穷小
+    figures: []
+  - label: D
+    text: 等价无穷小
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      若 $A$ 为三阶实对称阵，$b=(3,-6,-3)^{\mathrm T}$，非齐次线性方程组 $Ax=b$ 的通解为 $k_1(2,1,0)^{\mathrm T}+k_2(1,0,1)^{\mathrm T}+(-1,2,1)^{\mathrm T}$，其中 $k_1,k_2$ 为任意常数，则与矩阵 $A+E$ 合同的为\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\begin{pmatrix}1&0&0\\0&1&0\\0&0&1\end{pmatrix}$
+    figures: []
+  - label: B
+    text: |-
+      $\begin{pmatrix}-1&0&0\\0&-1&0\\0&0&-1\end{pmatrix}$
+    figures: []
+  - label: C
+    text: |-
+      $\begin{pmatrix}-1&0&0\\0&-1&0\\0&0&1\end{pmatrix}$
+    figures: []
+  - label: D
+    text: |-
+      $\begin{pmatrix}-1&0&0\\0&1&0\\0&0&1\end{pmatrix}$
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 为 $3$ 阶非零矩阵，$b$ 为 $3$ 维非零列向量，$A^2=O$，则非齐次线性方程组 $A^{\mathrm T}Ax=A^{\mathrm T}b$ 线性无关的解向量的个数为\ExamSelection。
+  choices:
+  - label: A
+    text: $1$
+    figures: []
+  - label: B
+    text: $2$
+    figures: []
+  - label: C
+    text: $3$
+    figures: []
+  - label: D
+    text: $4$
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $\alpha_1,\alpha_2,\alpha_3$ 为 $n$ 维非零列向量，已知 $\alpha_1-\alpha_2+2\alpha_3=0$，则对任意的 $n$ 维列向量 $\beta$，下列向量组必线性相关的是\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\beta+\alpha_1,3\beta+\alpha_2,5\beta+\alpha_3$
+    figures: []
+  - label: B
+    text: |-
+      $3\beta+\alpha_1,5\beta+\alpha_2,\beta+\alpha_3$
+    figures: []
+  - label: C
+    text: |-
+      $5\beta+\alpha_1,\beta+\alpha_2,3\beta+\alpha_3$
+    figures: []
+  - label: D
+    text: |-
+      $\beta+\alpha_1,5\beta+\alpha_2,3\beta+\alpha_3$
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $\lim_{x\to0}\left(x+\sqrt{1+x^2}\right)^{\dfrac{1}{x-1}}=$ \ExamBlank。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设函数 $y=y(x),z=z(x),x\in[-1,1]$，由方程组 $\begin{cases}x^2+y^2+z^2=2\\z^2=2x+2y\end{cases}$（$y\geq-1,z\geq0$）确定，则 $\int_{-1}^1y(x)z^2(x)\,\mathrm{d}x=$ \ExamBlank。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)=x^2e^{2x}+\dfrac{2x}{1-x^2}$，求 $f^{(6)}(0)=$ \ExamBlank。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      已知 $f_x'(x,y)+f(x,y)=xy$，且 $f(0,y)=y$，则 $f(x,y)=$ \ExamBlank。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设函数 $z=x^2f\left(\dfrac{y}{x}\right)$，其中 $f$ 具有连续二阶导数，且 $\dfrac{\partial^2z}{\partial x^2}-\dfrac{y^2}{x^2}\dfrac{\partial^2z}{\partial y^2}=2\dfrac{y}{x}$，$f(1)=0$，则 $f(x)=$ \ExamBlank。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 为 $3$ 阶非奇异矩阵，将 $A$ 的第二行乘 $4$，第三行乘 $(-2)$，再交换第一行和第二行，所得矩阵为 $C$，若 $AB=C$，则 $|B+E|=$ \ExamBlank。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      已知曲线 $f(x)=\dfrac{x^{a+x}}{(b+x)^x}$（$x>0,b>0$）有一条斜渐近线 $y=\dfrac{x}{e^2}+c$，求 $a,b,c$ 的值。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $f(x)=\lim_{n\to\infty}\dfrac{6x\left(e^{n\pi}-\sin(e^{n\pi})\right)}{(1+x^2)e^{3n\pi}}$，$x\in(-\infty,+\infty)$。
+  subparts:
+  - text: 求 $f(x)$；
+  - text: |-
+      求曲线 $y=f(x)$ 与两条直线 $x=1$ 和 $y=\dfrac{1}{2}x$ 所围成的所有封闭区域绕 $y$ 轴旋转一周形成的旋转体体积。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: 设 $z=z(x,y)$ 由方程 $x^3+2y^2+z^2-8yz-3x+23=0$ 确定的隐函数，求 $z(x,y)$ 的极值。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      计算二重积分 $I=\iint_D\dfrac{(1+x^2)(x^2+y^2-xy)}{2+x^2+y^2}\,\mathrm{d}\sigma$，其中 $D=\{(x,y)\mid(x-1)^2+(y-1)^2\leq1\}$。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $f(x)$ 在 $[-a,a]$（$a>0$）上有连续二阶导数，证明：在 $[-a,a]$ 上存在一点 $\xi$，使 $\int_0^a f(x)\,\mathrm{d}x=\dfrac{a}{2}[3f(0)-f(-a)]+\dfrac{5}{12}f''(\xi)a^3$。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $A$ 为 $3$ 阶矩阵，$\alpha_1,\alpha_2,\alpha_3$ 为线性无关的三维列向量，且 $A\alpha_1=2\alpha_1+\alpha_2+\alpha_3$，$A\alpha_2=\alpha_1+2\alpha_2-\alpha_3$，$A\alpha_3=3\alpha_3$。
+  subparts:
+  - text: 求 $A$ 的特征值及对应的线性无关的特征向量；
+  - text: 求 $(A^2-4A+E)^{-1}$。

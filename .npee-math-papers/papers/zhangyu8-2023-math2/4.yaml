@@ -1,0 +1,299 @@
+schema_version: '3.0'
+paper:
+  series_key: zhangyu8
+  year: 2023
+  subject: math2
+  paper_no: 4
+content_hash: b358768c5603a1d0bf6c69cba465a2cf9e3425a68110a29bd855e9e195d9bb11
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $I=\lim_{x\to0}\left(\dfrac{e^x+e^{2x}+\cdots+e^{nx}}{n}\right)^{\dfrac{n}{x}}$，$J=\lim_{x\to+\infty}\left[\dfrac{x^n}{(x-1)(x-2)\cdots(x-n)}\right]^x$，其中 $n$ 为正整数，则\ExamSelection
+  choices:
+  - label: A
+    text: $I=J$
+    figures: []
+  - label: B
+    text: $I=J^{-1}$
+    figures: []
+  - label: C
+    text: $I=J^n$
+    figures: []
+  - label: D
+    text: $I=J^{-n}$
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)$ 是 $\dfrac{\sin x}{x}$ 的一个原函数，且 $f(1)=0$，则 $\int_0^1xf(x)\,\mathrm{d}x=\ExamSelection$
+  choices:
+  - label: A
+    text: |-
+      $-\dfrac{1}{2}\cos1-\dfrac{1}{2}\sin1$
+    figures: []
+  - label: B
+    text: |-
+      $-\dfrac{1}{2}\cos1+\dfrac{1}{2}\sin1$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{1}{2}\cos1+\dfrac{1}{2}\sin1$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{1}{2}\cos1-\dfrac{1}{2}\sin1$
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      若 $f(x)=x-\ln^2x+k\ln x-1$ 为增函数，则常数 $k$ 的取值范围为\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $k\geq2\ln2-2$
+    figures: []
+  - label: B
+    text: |-
+      $k\geq2\ln2+2$
+    figures: []
+  - label: C
+    text: |-
+      $k\geq2\ln2-1$
+    figures: []
+  - label: D
+    text: |-
+      $k\geq2\ln2+1$
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      函数 $f(x)=(x-1)^2(x-2)^2(x-3)^2$ 的极值点个数为\ExamSelection
+  choices:
+  - label: A
+    text: $3$
+    figures: []
+  - label: B
+    text: $4$
+    figures: []
+  - label: C
+    text: $5$
+    figures: []
+  - label: D
+    text: $6$
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $I_k=\int_{(k-1)\pi}^{k\pi}\left|\dfrac{\sin x}{x}\right|\,\mathrm{d}x$，$k=1,2,3$，则\ExamSelection
+  choices:
+  - label: A
+    text: $I_1<I_2<I_3$
+    figures: []
+  - label: B
+    text: $I_2<I_3<I_1$
+    figures: []
+  - label: C
+    text: $I_2<I_1<I_3$
+    figures: []
+  - label: D
+    text: $I_3<I_2<I_1$
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      对于下列 $4$ 个反常积分：① $\int_0^{+\infty}e^{-x}\sin x\,\mathrm{d}x$；② $\int_0^{+\infty}\dfrac{\arctan x}{x^2}\,\mathrm{d}x$；③ $\int_0^1\dfrac{\mathrm{d}x}{x^2\sqrt{1-x^2}}$；④ $\int_0^1\dfrac{\ln(1+\sqrt{x})}{x}\,\mathrm{d}x$。其中收敛的是\ExamSelection
+  choices:
+  - label: A
+    text: ①③
+    figures: []
+  - label: B
+    text: ②③
+    figures: []
+  - label: C
+    text: ①④
+    figures: []
+  - label: D
+    text: ②④
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $D=\{(x,y)\mid t^2\leq x^2+y^2\leq\pi\}\ (t\geq0)$，$f(t)=\iint_D\sqrt{x^2+y^2}\sin(x^2+y^2)\,\mathrm{d}x\mathrm{d}y$，则函数 $f(t)$ 在 $[0,\sqrt{\pi}]$ 上的平均值为\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\pi^2$
+    figures: []
+  - label: B
+    text: |-
+      $2\pi^2$
+    figures: []
+  - label: C
+    text: |-
+      $\pi\sqrt{\pi}$
+    figures: []
+  - label: D
+    text: |-
+      $2\pi\sqrt{\pi}$
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 是 $m\times n$ 矩阵，且 $n$ 维列向量组 $\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\cdots,\boldsymbol{\alpha}_s$ 线性无关，则下列对 $m$ 维列向量组 $A\boldsymbol{\alpha}_1,A\boldsymbol{\alpha}_2,\cdots,A\boldsymbol{\alpha}_s$ 的描述：①若 $r(A)=n$，则向量组 $A\boldsymbol{\alpha}_1,A\boldsymbol{\alpha}_2,\cdots,A\boldsymbol{\alpha}_s$ 必线性无关；②若 $r(A)<n$，则向量组 $A\boldsymbol{\alpha}_1,A\boldsymbol{\alpha}_2,\cdots,A\boldsymbol{\alpha}_s$ 必线性相关。正确的是\ExamSelection
+  choices:
+  - label: A
+    text: ①正确，②也正确
+    figures: []
+  - label: B
+    text: ①正确，但②不正确
+    figures: []
+  - label: C
+    text: ①不正确，但②正确
+    figures: []
+  - label: D
+    text: ①不正确，②也不正确
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $2$ 阶实对称矩阵 $A$ 有二重特征值 $\lambda$，$\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2$ 是 $A$ 对应于特征值 $\lambda$ 的两个正交的特征向量，且 $(\lVert\boldsymbol{\alpha}_1\rVert)^2=k_1$，$(\lVert\boldsymbol{\alpha}_2\rVert)^2=k_2$，则 $A+\boldsymbol{\alpha}_1\boldsymbol{\alpha}_1^{\mathrm{T}}$ 相似于对角矩阵\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\begin{pmatrix}\lambda&0\\0&\lambda\end{pmatrix}$
+    figures: []
+  - label: B
+    text: |-
+      $\begin{pmatrix}\lambda+k_1&0\\0&\lambda\end{pmatrix}$
+    figures: []
+  - label: C
+    text: |-
+      $\begin{pmatrix}\lambda&0\\0&\lambda+k_2\end{pmatrix}$
+    figures: []
+  - label: D
+    text: |-
+      $\begin{pmatrix}\lambda+k_1&0\\0&\lambda+k_2\end{pmatrix}$
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 为 $3$ 阶矩阵，已知线性方程组 $Ax=\begin{pmatrix}1\\2\\-1\end{pmatrix}$ 的通解为 $x=\begin{pmatrix}1\\0\\0\end{pmatrix}+k_1\begin{pmatrix}2\\1\\0\end{pmatrix}+k_2\begin{pmatrix}1\\0\\1\end{pmatrix}$，其中 $k_1,k_2$ 为任意常数，则齐次线性方程组 $(A+A^{\mathrm{T}})x=0$ 的一个基础解系为\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\begin{pmatrix}1\\0\\1\end{pmatrix}$
+    figures: []
+  - label: B
+    text: |-
+      $\begin{pmatrix}1\\1\\0\end{pmatrix}$
+    figures: []
+  - label: C
+    text: |-
+      $\begin{pmatrix}0\\1\\1\end{pmatrix}$
+    figures: []
+  - label: D
+    text: |-
+      $\begin{pmatrix}1\\1\\1\end{pmatrix}$
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $\lim_{n\to\infty}\left[\left(1+\dfrac{1}{n^2}\right)\left(1+\dfrac{4}{n^2}\right)\cdots\left(1+\dfrac{n^2}{n^2}\right)\right]^{\dfrac{1}{n}}=\ExamBlank$。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      已知 $\left[f\left(\dfrac{1}{x}\right)\right]'=\dfrac{\ln(x^2-1)}{x^2}$，则当 $n>2$ 时，$f^{(n)}(x)=\ExamBlank$。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设函数 $y=y(x)$ 满足方程 $y''-2y'+5y=0$，且 $\lim_{x\to0}\dfrac{y(x)-2}{x}=2$，则 $\int y(x)\,\mathrm{d}x=\ExamBlank$。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      曲线 $y=e^{-\dfrac{x}{2}}\sqrt{\sin x}$ 在 $[0,2\pi]$ 上与 $x$ 轴围成的图形绕 $x$ 轴旋转一周所成的旋转体的体积为 $\ExamBlank$。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $z=\int_0^{x^2y}f(t,e^y)\,\mathrm{d}t$，其中 $f$ 一阶偏导连续，则 $\dfrac{\partial^2z}{\partial x\partial y}=\ExamBlank$。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 为 $3$ 阶实对称矩阵，$\lvert A+E\rvert=0$，$\boldsymbol{\alpha}_1=(1,0,1)^{\mathrm{T}}$ 与 $\boldsymbol{\alpha}_2=(0,1,-1)^{\mathrm{T}}$ 均为齐次线性方程组 $Ax=0$ 的解，则矩阵 $A$ 的所有元素之和为 $\ExamBlank$。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      设函数 $y=y(x)$ 是由方程 $e^{-y}-y+\int_0^x(e^{-t^2}+1)\,\mathrm{d}t=1$ 确定的。
+  subparts:
+  - text: 证明 $y(x)$ 是单调增加函数；
+  - text: |-
+      当 $x\to+\infty$ 时，曲线 $y'(x)$ 是否有水平渐近线？若有，求出其水平渐近线；若没有，说明理由。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      确定常数 $k$ 的取值范围，使方程 $x-\arctan x=kx^3$ 在 $(0,1]$ 内有实根。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 $f(x,y)$ 具有二阶连续偏导数，且满足 $f(x,0)=x^2$，$f'_y(x,0)=\sqrt{2}x$，$f''_{yy}(x,y)=4$，求 $f(x,y)$ 在限制条件 $x^2+2y^2=4$ 下的最大值与最小值。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      \mbox{}
+  subparts:
+  - text: |-
+      设 $f(x)$ 在 $[a,b]$ 上可导，若 $f'_+(a)\ne f'_-(b)$，证明对于任意的介于 $f'_+(a)$ 与 $f'_-(b)$ 之间的 $\mu$，存在 $\xi\in(a,b)$，使得 $f'(\xi)=\mu$；
+  - text: |-
+      设 $f(x)$ 在区间 $[-1,1]$ 上三阶可导，证明：存在 $\xi\in(-1,1)$，使得 $\dfrac{f'''(\xi)}{6}=\dfrac{f(1)-f(-1)}{2}-f'(0)$。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $f(x)$ 连续，证明：$\iint_{|y|\leq x\leq1}f(\sqrt{x^2+y^2})\,\mathrm{d}x\mathrm{d}y=\pi\int_0^1xf(x)\,\mathrm{d}x+\int_1^{\sqrt{2}}\left(\pi-4\arccos\dfrac{1}{x}\right)xf(x)\,\mathrm{d}x$。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设二次型 $f(x_1,x_2,x_3)$ 的矩阵为 $A$，已知 $\lvert A+E\rvert=0$，$AB-2B=O$，其中 $B=\begin{pmatrix}-1&-1&-1\\1&0&2\\0&1&-1\end{pmatrix}$。求一个正交变换 $x=Qy$，将二次型 $f(x_1,x_2,x_3)$ 化为标准形，并求矩阵 $A$。

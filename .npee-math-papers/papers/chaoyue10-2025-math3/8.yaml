@@ -1,0 +1,306 @@
+schema_version: '3.0'
+paper:
+  series_key: chaoyue10
+  year: 2025
+  subject: math3
+  paper_no: 8
+content_hash: 989672e5ed888feadd685851d79d284eaffc6bdc0b9e8ef5200f70ca78aed424
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      当 $x\to 0$ 时，$(\cos\dfrac{x}{3})^3(\cos\dfrac{x}{5})^5-\cos x$ 是 $x^2$ 的\ExamSelection。
+  choices:
+  - label: A
+    text: 高阶无穷小
+    figures: []
+  - label: B
+    text: 低阶无穷小
+    figures: []
+  - label: C
+    text: 同阶无穷小但不等价
+    figures: []
+  - label: D
+    text: 等价无穷小
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x+2y,\dfrac{y}{x})=\sin x\cdot\ln y$，则 $\left.\dfrac{2}{3}\dfrac{\partial f}{\partial x}\right|_{(1,1)}+\left.\dfrac{\partial f}{\partial y}\right|_{(1,1)}=$\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{1}{3}\sin\dfrac{1}{3}$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{1}{2}\sin\dfrac{1}{3}$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{2}{3}\sin\dfrac{1}{3}$
+    figures: []
+  - label: D
+    text: |-
+      $\sin\dfrac{1}{3}$
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设区域 $D_a:a^2\leq x^2+y^2\leq 4a^2,a>0$，$F(a)=\iint_{D_a}\dfrac{x^2\sin[\pi(x^2+y^2)]}{(x^2+y^2)^{3/2}}\,\mathrm{d}\sigma$，且 $F(0)=0$，则 $F'_+(0)=$\ExamSelection。
+  choices:
+  - label: A
+    text: $0$
+    figures: []
+  - label: B
+    text: $a$
+    figures: []
+  - label: C
+    text: $a^2$
+    figures: []
+  - label: D
+    text: $4a^2$
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)$ 在闭区间 $[0,1]$ 上可导，$f(0)=0$ 且 $f'(x)>0$，反常积分 $\int_0^1\dfrac{f(x)}{x^\alpha}\,\mathrm{d}x$ 和 $\int_1^{+\infty}\dfrac{\ln x}{x^\alpha}\,\mathrm{d}x$ 均收敛，则 $\alpha$ 的取值范围为\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $1<\alpha\leq 2$
+    figures: []
+  - label: B
+    text: |-
+      $1<\alpha<2$
+    figures: []
+  - label: C
+    text: |-
+      $0\leq\alpha<2$
+    figures: []
+  - label: D
+    text: |-
+      $0<\alpha<2$
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 为 $4\times 5$ 阶矩阵，$B$ 为 $4$ 阶矩阵，若齐次线性方程组 $AA^\mathrm{T}x=0$ 仅有零解，$B^\mathrm{T}x=0$ 解向量组的秩为 $3$，则齐次线性方程组 $A^\mathrm{T}Bx=0$ 解向量组的秩为\ExamSelection。
+  choices:
+  - label: A
+    text: $4$
+    figures: []
+  - label: B
+    text: $3$
+    figures: []
+  - label: C
+    text: $2$
+    figures: []
+  - label: D
+    text: $1$
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      $P,Q$ 为 $3$ 阶矩阵，$P^*$ 为 $P$ 的伴随矩阵，$|P|=2$，$|P-2Q|=6$，则 $|P^*Q-E|=$\ExamSelection。
+  choices:
+  - label: A
+    text: $-3$
+    figures: []
+  - label: B
+    text: $-4$
+    figures: []
+  - label: C
+    text: $8$
+    figures: []
+  - label: D
+    text: $12$
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设四阶矩阵 $A=(a_{ij})_{4\times 4}$ 满足 $\sum_{j=1}^{4}a_{ij}=0\ (i=1,2,3,4)$，$M_{ij}$ 与 $A_{ij}$ 分别为元素 $a_{ij}$ 的余子式和代数余子式，下列四个式子中必成立有\ExamSelection{}个。$\quad$① $M_{21}+M_{22}+M_{23}+M_{24}=0$；② $A_{21}+A_{22}+A_{23}+A_{24}=0$；③ $M_{21}=M_{22}=M_{23}=M_{24}$；④ $A_{21}=A_{22}=A_{23}=A_{24}$
+  choices:
+  - label: A
+    text: $1$
+    figures: []
+  - label: B
+    text: $2$
+    figures: []
+  - label: C
+    text: $3$
+    figures: []
+  - label: D
+    text: $4$
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设随机事件 $A,B,C$，$P(BC)>0$ 且 $P(B)<1$，则下列 3 个命题：①若 $P(A|B)>P(A),P(B|C)>P(B)$，则必有 $P(A|C)>P(A)$；②若 $P(A|B)>P(A),P(A|C)>P(A)$，则必有 $P(A|BC)>P(A)$；③若 $P(A)>P(A|B)$，则必有 $P(A)<P(A|\overline{B})$。正确的个数为\ExamSelection。
+  choices:
+  - label: A
+    text: $0$
+    figures: []
+  - label: B
+    text: $1$
+    figures: []
+  - label: C
+    text: $2$
+    figures: []
+  - label: D
+    text: $3$
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设总体 $X\sim B(1,p)$，$X_1,\cdots,X_{1000}$ 是来自总体 $X$ 的简单随机样本，$\overline{X}$ 为样本均值，则下列结论不正确的是\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\sum_{i=1}^{1000}X_i\sim B(1000,p)$
+    figures: []
+  - label: B
+    text: |-
+      $\sum_{i=1}^{1000}X_i\mathop{\sim}^{\text{近似}}N(1000p,1000p(1-p))$
+    figures: []
+  - label: C
+    text: |-
+      $\overline{X}\mathop{\sim}^{\text{近似}}N(p,p(1-p))$
+    figures: []
+  - label: D
+    text: |-
+      $\lim_{n\to\infty}\overline{X}\mathop{=}^{P}p$
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设随机变量 $X$ 的概率密度函数为 $f(x)$，则随机变量 $Y=|X|$ 的概率密度函数为\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $f_Y(y)=\begin{cases}\dfrac{f(y)-f(-y)}{2},&y>0,\\0,&y\leq 0.\end{cases}$
+    figures: []
+  - label: B
+    text: |-
+      $f_Y(y)=\begin{cases}f(y)-f(-y),&y>0,\\0,&y\leq 0.\end{cases}$
+    figures: []
+  - label: C
+    text: |-
+      $f_Y(y)=\begin{cases}\dfrac{f(y)+f(-y)}{2},&y>0,\\0,&y\leq 0.\end{cases}$
+    figures: []
+  - label: D
+    text: |-
+      $f_Y(y)=\begin{cases}f(y)+f(-y),&y>0,\\0,&y\leq 0.\end{cases}$
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $\lim_{x\to 0}\dfrac{\ln(e^x-\sin x)-x}{\arctan(\sqrt{1-x}-1)}=$\ExamBlank。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)=\int_x^{\pi/2}\dfrac{\sin t}{t}\,\mathrm{d}t$，则 $\int_0^{\pi/2}(x+1)e^x\cdot f(x)\,\mathrm{d}x=$\ExamBlank。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $f(x,y)=\begin{cases}\dfrac{1}{e^x+e^y},&x\geq 0,y\geq 0,\\0,&\text{其他},\end{cases}$，$D$ 为全平面，则 $\iint_D f(x,y)\,\mathrm{d}\sigma=$\ExamBlank。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      若函数 $f(x)$ 满足方程 $f'(x)=f(\pi-x)$ 且 $f(0)=1$，则 $f(x)=$\ExamBlank。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $A=\begin{pmatrix}2&3a-4&-3\\0&3&a+2\\0&-1&1\end{pmatrix}$，若 $A$ 的任意两个特征向量都线性相关，则 $a=$\ExamBlank。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设随机变量 $X_1,X_2$ 相互独立，且均服从参数为 $1$ 的指数分布，记 $Y=\max\{X_1,X_2\}-\min\{X_1,X_2\}$，则 $Y$ 的方差 $DY=$\ExamBlank。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      设函数 $y=f_1(x),y=f_2(x)$ 在点 $x=0$ 的某邻域内连续单调增，且 $f_1(0)=f_2(0)=0$，$x=\varphi_1(y),x=\varphi_2(y)$ 分别为 $y=f_1(x),y=f_2(x)$ 的反函数。如果当 $x\to 0^+$ 时，$f_1(x)\sim f_2(x)\sim Ax^k$，其中常数 $A\neq 0,k>0$。
+  subparts:
+  - text: |-
+      证明当 $y\to 0^+$ 时，$\varphi_1(y)\sim\varphi_2(y)$。
+  - text: |-
+      设 $y=e^x-1-x-\dfrac{1}{2}x^2$，$x=\varphi_1(y)$ 为其反函数，求极限 $\lim_{x\to 0^+}\dfrac{\varphi_1(x-\sin x)}{x}$。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 $f(x,y)$ 具有二阶连续偏导数，当 $(x,y)\neq(0,0)$ 时，$f\neq 0$，且 $f\cdot\dfrac{\partial^2f}{\partial x\partial y}=\dfrac{\partial f}{\partial x}\dfrac{\partial f}{\partial y}$。
+  subparts:
+  - text: |-
+      证明 $\dfrac{\partial f}{\partial x}=f\cdot\varphi(x)$。
+  - text: |-
+      若 $\varphi(x)=\dfrac{1}{x},f(1,y)=y^3$，求 $z=f(x,y)$ 在条件 $x^2+y^2=1$ 下的最大值与最小值。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      求级数 $\sum_{n=1}^{\infty}(n^2+2)x^{2n}$ 的收敛域以及和函数，并求和 $\sum_{n=1}^{\infty}\dfrac{n^2}{2^n}$。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: 证明：
+  subparts:
+  - text: 证明方程 $(x+1)^{x+1}=ex$ 有唯一正根。
+  - text: |-
+      设 $0<x<1$，证明 $1<\left(1+\dfrac{1}{x}\right)^x(1+x)<4$。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: 已知二次型 $f(x_1,x_2,x_3)=ax_1^2-(b^2+1)x_2^2+ax_3^2+2x_1x_3$ 经可逆线性变换化为 $g(y_1,y_2,y_3)=(2a^2-1)y_1^2+(a^2+1)y_2^2+(a^2-2)y_3^2+2(a^2+1)y_1y_2-2(a^2-2)y_1y_3$，其中 $a,b$ 为实数。
+  subparts:
+  - text: 求二次型 $f(x_1,x_2,x_3)$ 的正负惯性指数。
+  - text: 当 $b=1$ 时，求正交变换 $x=Py$ 将二次型 $f(x_1,x_2,x_3)$ 化为标准形。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设随机变量 $X\sim N(0,1),Y\sim N(0,1)$，且 $X$ 与 $Y$ 独立，记 $f(x,y)$ 为 $(X,Y)$ 的概率密度。设二维随机变量 $(U,V)$ 的概率密度 $g(u,v)=\begin{cases}f(u,v)+\dfrac{uv}{100},&u^2+v^2\leq 1,\\f(u,v),&u^2+v^2>1\text{。}\end{cases}$
+  subparts:
+  - text: 求 $f(x,y)$。
+  - text: |-
+      证明 $U\sim N(0,1),V\sim N(0,1)$。
+  - text: 问 $U$ 和 $V$ 是否相互独立？

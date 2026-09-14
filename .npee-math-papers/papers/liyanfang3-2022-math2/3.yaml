@@ -1,0 +1,318 @@
+schema_version: '3.0'
+paper:
+  series_key: liyanfang3
+  year: 2022
+  subject: math2
+  paper_no: 3
+content_hash: d75610fb49fdc00317e5eaedd774636eba795bb026d2c2dc63a29c30ffb47f55
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $\alpha_1=\int_0^{x^2}\mathrm{d}u\int_0^u\arctan t\,\mathrm{d}t,\alpha_2=\int_0^x\mathrm{d}u\int_0^{u^2}\arctan t\,\mathrm{d}t,\alpha_3=\int_0^x\mathrm{d}u\int_0^u\arctan t^2\,\mathrm{d}t$。当 $x\to0$ 时，以上 3 个无穷小量按照从高阶到低阶的排序是\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\alpha_1,\alpha_2,\alpha_3$
+    figures: []
+  - label: B
+    text: |-
+      $\alpha_1,\alpha_3,\alpha_2$
+    figures: []
+  - label: C
+    text: |-
+      $\alpha_3,\alpha_1,\alpha_2$
+    figures: []
+  - label: D
+    text: |-
+      $\alpha_3,\alpha_2,\alpha_1$
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x)=\begin{cases}\arctan\dfrac{x+1}{x-1}+a,&x>1,\\c,&x=1,\\\arctan\dfrac{x+1}{x-1}+b,&x<1,\end{cases}$ 可导，则 $f'(1)=$\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $-\dfrac{1}{2}$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{1}{2}$
+    figures: []
+  - label: C
+    text: $1$
+    figures: []
+  - label: D
+    text: 与 $a,b$ 的值有关
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      若 $f(x)$ 为区间 $I$ 上的连续函数，且 $f(x)$ 的值域包含于 $I,x_1,x_2$ 为 $I$ 中任意两个不同的点，则\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      若在区间 $I$ 上，$f(x)<0,f''(x)>0$，则 $f^2\left(\dfrac{x_1+x_2}{2}\right)<\dfrac{f^2(x_1)+f^2(x_2)}{2}$
+    figures: []
+  - label: B
+    text: |-
+      若在区间 $I$ 上，$f'(x)<0,f''(x)>0$，则 $f^2\left(\dfrac{x_1+x_2}{2}\right)<\dfrac{f^2(x_1)+f^2(x_2)}{2}$
+    figures: []
+  - label: C
+    text: |-
+      若在区间 $I$ 上，$f(x)>0,f''(x)>0$，则 $f\left(f\left(\dfrac{x_1+x_2}{2}\right)\right)<\dfrac{f(f(x_1))+f(f(x_2))}{2}$
+    figures: []
+  - label: D
+    text: |-
+      若在区间 $I$ 上，$f'(x)>0,f''(x)>0$，则 $f\left(f\left(\dfrac{x_1+x_2}{2}\right)\right)<\dfrac{f(f(x_1))+f(f(x_2))}{2}$
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      若 $\dfrac{e^{\xi^2}-1}{\xi},\dfrac{e^{\eta^2}-1}{\eta}$ 分别为 $\dfrac{e^{x^2}-1}{x}$ 在 $(0,1)$ 和 $(0,a)\,(0<a<1)$ 上的平均值，其中 $\xi\in(0,1),\eta\in(0,a)$，则 $\xi$ 与 $\eta$ 的大小关系为\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\xi<\eta$
+    figures: []
+  - label: B
+    text: |-
+      $\xi=\eta$
+    figures: []
+  - label: C
+    text: |-
+      $\xi>\eta$
+    figures: []
+  - label: D
+    text: 从已知条件无法确定
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      考虑积分 $\int_0^{+\infty}\dfrac{x^{p-1}}{\ln(1+x)}\,\mathrm{d}x$，则该积分\ExamSelection
+  choices:
+  - label: A
+    text: 当 $p>1$ 时收敛
+    figures: []
+  - label: B
+    text: 当 $p<0$ 时收敛
+    figures: []
+  - label: C
+    text: 不论 $p$ 为何值均收敛
+    figures: []
+  - label: D
+    text: 不论 $p$ 为何值均发散
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x,y)$ 连续，则 $\int_0^{\dfrac{1}{2}}\mathrm{d}y\int_{-\sqrt{2y-y^2}}^0f(x,y)\,\mathrm{d}x+\int_{\dfrac{1}{2}}^1\mathrm{d}y\int_{-\sqrt{1-y^2}}^0f(x,y)\,\mathrm{d}x=$\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\int_0^{\dfrac{\sqrt{3}}{2}}\mathrm{d}x\int_{1-\sqrt{1-x^2}}^{\sqrt{1-x^2}}f(x,y)\,\mathrm{d}y$
+    figures: []
+  - label: B
+    text: |-
+      $\int_0^{\dfrac{\sqrt{3}}{2}}\mathrm{d}x\int_{\sqrt{1-x^2}}^{1-\sqrt{1-x^2}}f(x,y)\,\mathrm{d}y$
+    figures: []
+  - label: C
+    text: |-
+      $\int_{\dfrac{\pi}{2}}^{\dfrac{5\pi}{6}}\mathrm{d}\theta\int_0^1f(r\cos\theta,r\sin\theta)r\,\mathrm{d}r+\int_{\dfrac{5\pi}{6}}^{\pi}\mathrm{d}\theta\int_0^{2\sin\theta}f(r\cos\theta,r\sin\theta)r\,\mathrm{d}r$
+    figures: []
+  - label: D
+    text: |-
+      $\int_0^{\dfrac{\pi}{6}}\mathrm{d}\theta\int_0^1f(r\cos\theta,r\sin\theta)r\,\mathrm{d}r+\int_{\dfrac{\pi}{6}}^{\dfrac{\pi}{2}}\mathrm{d}\theta\int_0^{2\sin\theta}f(r\cos\theta,r\sin\theta)r\,\mathrm{d}r$
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知函数 $f(x,y)=x^2+2kxy+y^2$ 在点 $(0,0)$ 处取得极值，则参数 $k$ 的取值范围是\ExamSelection
+  choices:
+  - label: A
+    text: $[-1,1]$
+    figures: []
+  - label: B
+    text: |-
+      $[-1,0)\cup(0,1]$
+    figures: []
+  - label: C
+    text: $(-1,1)$
+    figures: []
+  - label: D
+    text: |-
+      $(-1,0)\cup(0,1)$
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设向量组 $A:\alpha_1,\alpha_2,\cdots,\alpha_n$ 包含 $n$ 个 $m$ 维向量 $(n>m)$，则下列命题中，正确的是\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      若 $\alpha_1\ne0$，则 $\alpha_1$ 必能由其他向量线性表示
+    figures: []
+  - label: B
+    text: |-
+      若 $\alpha_1\ne0$，则必存在 $2\leq k\leq n$，使得 $\alpha_k$ 能由 $\alpha_1,\alpha_2,\cdots,\alpha_{k-1}$ 线性表示
+    figures: []
+  - label: C
+    text: |-
+      矩阵 $A=(\alpha_1,\alpha_2,\cdots,\alpha_n)$ 必可经过初等行变换化为矩阵 $(E,0)$ 或 $\begin{pmatrix}E&0\\0&0\end{pmatrix}$ 的形式
+    figures: []
+  - label: D
+    text: |-
+      矩阵 $A=(\alpha_1,\alpha_2,\cdots,\alpha_n)$ 必可经过初等列变换化为矩阵 $(E,0)$ 或 $\begin{pmatrix}E&0\\0&0\end{pmatrix}$ 的形式
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A=\begin{pmatrix}a&2a&1-3a\\1&2&-2\\\dfrac{a}{3}&\dfrac{2}{3}a&1-a\end{pmatrix}$，且 $f(x)=x^3-3x^2+2x$，则下列命题中，错误的是\ExamSelection
+  choices:
+  - label: A
+    text: $r(A)=2$
+    figures: []
+  - label: B
+    text: $|A|=0$
+    figures: []
+  - label: C
+    text: $f(A)=0$
+    figures: []
+  - label: D
+    text: $r(A),|A|,f(A)$ 至少有一个与 $a$ 的取值有关
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 为 $n$ 阶方阵，$E$ 为 $n$ 阶单位矩阵，则下列条件中，为 $E-A$ 可逆的充分条件的是\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $A^{\mathrm{T}}A=E,|A|=-1$
+    figures: []
+  - label: B
+    text: |-
+      $A^{\mathrm{T}}A=E,|A|=1$
+    figures: []
+  - label: C
+    text: |-
+      $A^{\mathrm{T}}=-A$
+    figures: []
+  - label: D
+    text: |-
+      存在某 $n$ 维列向量 $\alpha$ 使得 $A=\alpha\alpha^{\mathrm{T}}$
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      曲线 $y+xy-e^x+e^y=0$ 在点 $(0,y(0))$ 处的曲率为\ExamBlank。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      若 $x\sin x,e^{2x}$ 均为某常系数齐次线性微分方程的解，则满足该要求的最低阶微分方程为\ExamBlank。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      如图所示，在距离海岸边点 $A\,180\,\mathrm{m}$ 的点 $P$ 处有一灯塔，灯塔上的探照灯光以每秒 $r$ 弧度（rad）的速率匀速转动，探照光线与 $PA$ 的所成夹角为 $\theta$。若灯光经过岸边距离点 $A\,60\,\mathrm{m}$ 处的点 $B$ 时，速率为 $30\,\mathrm{m/s}$，则 $r=$\ExamBlank。
+    figures:
+    - kind: tikz
+      latex: |-
+        \begin{tikzpicture}[scale=0.7,>=stealth]\draw (0,0)--(5,0);\draw (5,-0.6)--(5,2.6);\draw (0,0)--(5,2);\draw (4.75,0)--(4.75,0.25)--(5,0.25);\draw[<->] (0,-0.35)--(5,-0.35) node[midway,below] {$180\,\mathrm{m}$};\draw (0.75,0) arc[start angle=0,end angle=22,radius=0.75] node[midway,right] {$\theta$};\fill (0,0) circle (1.2pt) node[left] {$P$};\fill (5,0) circle (1.2pt) node[right] {$A$};\fill (5,2) circle (1.2pt) node[right] {$B$};\end{tikzpicture}
+      path:
+      description: 点 P、A、B 构成的直角三角形，PA 长 180 m，PB 为探照光线。
+      exception_reason:
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $y=f(x)$ 是定义在 $[0,+\infty)$ 上的正值函数，且对于任意的 $a>0,x=0,x=a,y=f(x)$ 与 $x$ 轴所围成的图形绕 $x$ 轴旋转一周与绕 $y$ 轴旋转一周所形成的旋转体体积相同，则 $y=f(x)$ 与 $y=x^3$ 所围成的图形面积为\ExamBlank。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $\int_0^1\mathrm{d}x\int_x^0\cos(1-y)^2\,\mathrm{d}y=$\ExamBlank。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $a_1,a_2,a_3$ 为互不相等的实数，则 $\left|\begin{matrix}3&3&3\\3a_1+5&3a_2+5&3a_3+5\\3a_1^2+5a_1+7&3a_2^2+5a_2+7&3a_3^2+5a_3+7\end{matrix}\right|=$\ExamBlank。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      设平面区域 $D$ 由直线 $y=x,y=-x,y=1$ 与 $y=2$ 围成。求二重积分 $\iint_D\dfrac{1+xy}{x^2+y^2}\,\mathrm{d}x\mathrm{d}y$。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设有二阶连续偏导数的函数 $u=u(s,t)$ 满足 $\dfrac{\partial^2u}{\partial s^2}=-\dfrac{\partial^2u}{\partial t^2}$ 以及 $u(x,2x)=x^2,u'_1(x,2x)=4x$。求 $u''_{11}(x,2x)$ 和 $u''_{12}(x,2x)$。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: 请完成下列各题。
+  subparts:
+  - text: |-
+      证明：对 $x>0,x-\dfrac{1}{3}x^3<\arctan x<x$。
+  - text: |-
+      求 $\lim_{n\to\infty}\sum_{k=1}^n\arctan\dfrac{n}{n^2+k^2}$。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $y=y(x)\,(x>0)$ 为 $xOy$ 平面上过点 $(1,0)$ 的一条曲线，其上任意一点 $P(x,y)$ 处的切线与 $y$ 轴的夹角 $\alpha\left(0<\alpha<\dfrac{\pi}{2}\right)$ 等于原点与 $P$ 的连线 $OP$ 与该切线的夹角。
+  subparts:
+  - text: 求曲线 $y=y(x)$ 的方程；
+  - text: |-
+      若某种镜面的表面为由曲线 $y=y(x)\,(0<x\leq\sqrt{3})$ 绕 $y$ 轴旋转一周所得旋转曲面，求该镜面的表面积。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      证明：在区间 $\left[0,\dfrac{\pi}{2}\right]$ 上存在三个不同的点 $x_1,x_2,x_3$，使得 $[e^{-x_1}(\cos x_1-\sin x_1)]x_3=[e^{-x_2}(\cos x_2-\sin x_2)]\left(\dfrac{\pi}{2}-x_3\right)$。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 2 阶矩阵 $A$ 有两个不同的特征值 $1,2$，分别对应特征向量 $\alpha_1,\alpha_2$。记 $Q=(\alpha_1,\alpha_2),B=\begin{pmatrix}0&-2\\1&3\end{pmatrix},\beta=\alpha_1+\alpha_2$。
+  subparts:
+  - text: |-
+      证明：$P_1=(\beta,A\beta)$ 为矩阵方程 $AX=XB$ 的一个可逆解。
+  - text: |-
+      求常数 $k_1,k_2$，满足 $k_1\ne k_2$，使得可逆矩阵 $P_2$ 满足 $P_2^{-1}Q=\begin{pmatrix}k_1&k_2\\1&1\end{pmatrix}$，且也是矩阵方程 $AX=XB$ 的一个解。
+  - text: 设 $P_2$ 为第（II）问中所定义矩阵，求 $r(P_1-P_2)$。

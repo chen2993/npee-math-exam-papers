@@ -1,0 +1,5463 @@
+{
+  "schema_version": "1.0",
+  "paper_count": 321,
+  "papers": [
+    {
+      "natural_key": "2024/math1/chaoyue10/1",
+      "bundle": "chaoyue10-2024-math1",
+      "series_key": "chaoyue10",
+      "series_name": "合工大超越十套卷",
+      "year": 2024,
+      "subject": "math1",
+      "paper_no": 1,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "00948c2b4c3d3c0bc9278b20558e717af65e143234b40be5045f5ef93b5756b3"
+    },
+    {
+      "natural_key": "2024/math1/chaoyue10/2",
+      "bundle": "chaoyue10-2024-math1",
+      "series_key": "chaoyue10",
+      "series_name": "合工大超越十套卷",
+      "year": 2024,
+      "subject": "math1",
+      "paper_no": 2,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "bb38731a981d2c4035242bf2abfc4594cdc594a37f3da4e90eebe855bb2ae810"
+    },
+    {
+      "natural_key": "2024/math1/chaoyue10/3",
+      "bundle": "chaoyue10-2024-math1",
+      "series_key": "chaoyue10",
+      "series_name": "合工大超越十套卷",
+      "year": 2024,
+      "subject": "math1",
+      "paper_no": 3,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "79f935f8871ed405f5d7c99d8acf8e779743efd2e702bd66dacde0d847d617c2"
+    },
+    {
+      "natural_key": "2024/math1/chaoyue10/4",
+      "bundle": "chaoyue10-2024-math1",
+      "series_key": "chaoyue10",
+      "series_name": "合工大超越十套卷",
+      "year": 2024,
+      "subject": "math1",
+      "paper_no": 4,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "784896b4c5238c458c2a26701f29eadaea9243f5ca9e0a6caebbeb92381ec95b"
+    },
+    {
+      "natural_key": "2024/math1/chaoyue10/5",
+      "bundle": "chaoyue10-2024-math1",
+      "series_key": "chaoyue10",
+      "series_name": "合工大超越十套卷",
+      "year": 2024,
+      "subject": "math1",
+      "paper_no": 5,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "50f13afe90264121e6269c5ad103fb45c285d616c39274dea8cc6e19d4431080"
+    },
+    {
+      "natural_key": "2024/math1/chaoyue10/6",
+      "bundle": "chaoyue10-2024-math1",
+      "series_key": "chaoyue10",
+      "series_name": "合工大超越十套卷",
+      "year": 2024,
+      "subject": "math1",
+      "paper_no": 6,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "e1b135ec32b6ad6fa2117e67a8021d8e170ef965a2ae793df2f9f2e8ac21b21e"
+    },
+    {
+      "natural_key": "2024/math1/chaoyue10/7",
+      "bundle": "chaoyue10-2024-math1",
+      "series_key": "chaoyue10",
+      "series_name": "合工大超越十套卷",
+      "year": 2024,
+      "subject": "math1",
+      "paper_no": 7,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "895807606ae5105ee655240c41c61461d346505724c854c06ed7d3a3a64e3935"
+    },
+    {
+      "natural_key": "2024/math1/chaoyue10/8",
+      "bundle": "chaoyue10-2024-math1",
+      "series_key": "chaoyue10",
+      "series_name": "合工大超越十套卷",
+      "year": 2024,
+      "subject": "math1",
+      "paper_no": 8,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "9f1c7428eba2a972b174d4f742fc36e1811f22df99adf8233eca32cd5eb79142"
+    },
+    {
+      "natural_key": "2024/math1/chaoyue10/9",
+      "bundle": "chaoyue10-2024-math1",
+      "series_key": "chaoyue10",
+      "series_name": "合工大超越十套卷",
+      "year": 2024,
+      "subject": "math1",
+      "paper_no": 9,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "685e0c7b0769965889262e08ac1c604ea201560383f78b45f0a4d0ddcfa24c80"
+    },
+    {
+      "natural_key": "2024/math1/chaoyue10/10",
+      "bundle": "chaoyue10-2024-math1",
+      "series_key": "chaoyue10",
+      "series_name": "合工大超越十套卷",
+      "year": 2024,
+      "subject": "math1",
+      "paper_no": 10,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "8e7c97480c3d52cf8267b7f6b11f99ccb01826dd2a376e7561e19ddf9888f97b"
+    },
+    {
+      "natural_key": "2024/math2/chaoyue10/1",
+      "bundle": "chaoyue10-2024-math2",
+      "series_key": "chaoyue10",
+      "series_name": "合工大超越十套卷",
+      "year": 2024,
+      "subject": "math2",
+      "paper_no": 1,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "61abe56ad0eda288e9de590a0f29fb6a2e46717c549eadafae31388696c3c2ce"
+    },
+    {
+      "natural_key": "2024/math2/chaoyue10/2",
+      "bundle": "chaoyue10-2024-math2",
+      "series_key": "chaoyue10",
+      "series_name": "合工大超越十套卷",
+      "year": 2024,
+      "subject": "math2",
+      "paper_no": 2,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "27c26fc9e1eb9b10baebb01c2eb4f2e2b3a5338543f4b12a8fd96354a4145da8"
+    },
+    {
+      "natural_key": "2024/math2/chaoyue10/3",
+      "bundle": "chaoyue10-2024-math2",
+      "series_key": "chaoyue10",
+      "series_name": "合工大超越十套卷",
+      "year": 2024,
+      "subject": "math2",
+      "paper_no": 3,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "5cc34afa80db53cffe6cee5963760b034db5aa97ada6133901d2581fc3fc6a86"
+    },
+    {
+      "natural_key": "2024/math2/chaoyue10/4",
+      "bundle": "chaoyue10-2024-math2",
+      "series_key": "chaoyue10",
+      "series_name": "合工大超越十套卷",
+      "year": 2024,
+      "subject": "math2",
+      "paper_no": 4,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "e36edf94f2f5f768a71c494e4681fc22274370375576e9e2bdafb434c5d79cc9"
+    },
+    {
+      "natural_key": "2024/math2/chaoyue10/5",
+      "bundle": "chaoyue10-2024-math2",
+      "series_key": "chaoyue10",
+      "series_name": "合工大超越十套卷",
+      "year": 2024,
+      "subject": "math2",
+      "paper_no": 5,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "ad64bb02310490402feed6fb1e809932fd887fd0059facff77f838966944fcc7"
+    },
+    {
+      "natural_key": "2024/math2/chaoyue10/6",
+      "bundle": "chaoyue10-2024-math2",
+      "series_key": "chaoyue10",
+      "series_name": "合工大超越十套卷",
+      "year": 2024,
+      "subject": "math2",
+      "paper_no": 6,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "9bcc0f3fd7d300743996410656922332cca8e109e3601248ba0cce8e30b816af"
+    },
+    {
+      "natural_key": "2024/math2/chaoyue10/7",
+      "bundle": "chaoyue10-2024-math2",
+      "series_key": "chaoyue10",
+      "series_name": "合工大超越十套卷",
+      "year": 2024,
+      "subject": "math2",
+      "paper_no": 7,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "5331472057f9c0f0f43b824c32abb6384888d86a467801518a1ed831e5ca8a02"
+    },
+    {
+      "natural_key": "2024/math2/chaoyue10/8",
+      "bundle": "chaoyue10-2024-math2",
+      "series_key": "chaoyue10",
+      "series_name": "合工大超越十套卷",
+      "year": 2024,
+      "subject": "math2",
+      "paper_no": 8,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "2fe6c456dd405a2ccdaf9b614f566e979a0a09775227c08b16c9644578b6339a"
+    },
+    {
+      "natural_key": "2024/math2/chaoyue10/9",
+      "bundle": "chaoyue10-2024-math2",
+      "series_key": "chaoyue10",
+      "series_name": "合工大超越十套卷",
+      "year": 2024,
+      "subject": "math2",
+      "paper_no": 9,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "807cf87b6c2deda001cb0479f16f9cbf750207f00dfac1c3fce5060085663ab8"
+    },
+    {
+      "natural_key": "2024/math2/chaoyue10/10",
+      "bundle": "chaoyue10-2024-math2",
+      "series_key": "chaoyue10",
+      "series_name": "合工大超越十套卷",
+      "year": 2024,
+      "subject": "math2",
+      "paper_no": 10,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "8abbbea28fb360fd91eb1baa2222dabab08ab23d63f9aa44406a7178d6e6949c"
+    },
+    {
+      "natural_key": "2024/math3/chaoyue10/1",
+      "bundle": "chaoyue10-2024-math3",
+      "series_key": "chaoyue10",
+      "series_name": "合工大超越十套卷",
+      "year": 2024,
+      "subject": "math3",
+      "paper_no": 1,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "82a8dafa71ba07d2164dd858540b6b1fa85963b4d7e15be632eddeee6340f5e4"
+    },
+    {
+      "natural_key": "2024/math3/chaoyue10/2",
+      "bundle": "chaoyue10-2024-math3",
+      "series_key": "chaoyue10",
+      "series_name": "合工大超越十套卷",
+      "year": 2024,
+      "subject": "math3",
+      "paper_no": 2,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "8a931902f672a01b13756bc29c040b5b1f3a80b1fd57b90ff638714fa525c788"
+    },
+    {
+      "natural_key": "2024/math3/chaoyue10/3",
+      "bundle": "chaoyue10-2024-math3",
+      "series_key": "chaoyue10",
+      "series_name": "合工大超越十套卷",
+      "year": 2024,
+      "subject": "math3",
+      "paper_no": 3,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "495f76561f5c8eb4962d0ba098030c0a58b152d171c0d3fb755879fa0c5c0656"
+    },
+    {
+      "natural_key": "2024/math3/chaoyue10/4",
+      "bundle": "chaoyue10-2024-math3",
+      "series_key": "chaoyue10",
+      "series_name": "合工大超越十套卷",
+      "year": 2024,
+      "subject": "math3",
+      "paper_no": 4,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "c8c464d4668c18d92a6d317a879b9b47bc8bb7f60215f948871fba06dd9711ef"
+    },
+    {
+      "natural_key": "2024/math3/chaoyue10/5",
+      "bundle": "chaoyue10-2024-math3",
+      "series_key": "chaoyue10",
+      "series_name": "合工大超越十套卷",
+      "year": 2024,
+      "subject": "math3",
+      "paper_no": 5,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "9e6093fdc8b25b111512e54b07bf07de6bb96371a5dbe48413336af161e656e4"
+    },
+    {
+      "natural_key": "2024/math3/chaoyue10/6",
+      "bundle": "chaoyue10-2024-math3",
+      "series_key": "chaoyue10",
+      "series_name": "合工大超越十套卷",
+      "year": 2024,
+      "subject": "math3",
+      "paper_no": 6,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "0bd526475da1e551846b827e2494fa0c63701c3b9fcdc40c2303d8ce19dcae72"
+    },
+    {
+      "natural_key": "2024/math3/chaoyue10/7",
+      "bundle": "chaoyue10-2024-math3",
+      "series_key": "chaoyue10",
+      "series_name": "合工大超越十套卷",
+      "year": 2024,
+      "subject": "math3",
+      "paper_no": 7,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "cecae340305c0334f8942355467db34cfed4f1ab6ce0c0fa36f1c03b803fdfa1"
+    },
+    {
+      "natural_key": "2024/math3/chaoyue10/8",
+      "bundle": "chaoyue10-2024-math3",
+      "series_key": "chaoyue10",
+      "series_name": "合工大超越十套卷",
+      "year": 2024,
+      "subject": "math3",
+      "paper_no": 8,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "fa46833a1c5d76216465dc08edf14bf0a4049583d38d91ad63fe8cb784655123"
+    },
+    {
+      "natural_key": "2024/math3/chaoyue10/9",
+      "bundle": "chaoyue10-2024-math3",
+      "series_key": "chaoyue10",
+      "series_name": "合工大超越十套卷",
+      "year": 2024,
+      "subject": "math3",
+      "paper_no": 9,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 1,
+      "content_hash": "373a37892454cbb798918eb5fa3b5ca0450dc54086538b7554e76bc7efe4553d"
+    },
+    {
+      "natural_key": "2024/math3/chaoyue10/10",
+      "bundle": "chaoyue10-2024-math3",
+      "series_key": "chaoyue10",
+      "series_name": "合工大超越十套卷",
+      "year": 2024,
+      "subject": "math3",
+      "paper_no": 10,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "ad55c9cf9fd2a717aa536ad2e3fba80a4da5c38fee401d18bc328db7797c7ead"
+    },
+    {
+      "natural_key": "2025/math1/chaoyue10/1",
+      "bundle": "chaoyue10-2025-math1",
+      "series_key": "chaoyue10",
+      "series_name": "合工大超越十套卷",
+      "year": 2025,
+      "subject": "math1",
+      "paper_no": 1,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "39ec7c94ffd068f0971b83cdcd211f267a2b650f766a9de0280008c889e29cfd"
+    },
+    {
+      "natural_key": "2025/math1/chaoyue10/2",
+      "bundle": "chaoyue10-2025-math1",
+      "series_key": "chaoyue10",
+      "series_name": "合工大超越十套卷",
+      "year": 2025,
+      "subject": "math1",
+      "paper_no": 2,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "3b936656d6a0abaf714a299df70a081e1addf26da85760fbf5ba6cc548b167fe"
+    },
+    {
+      "natural_key": "2025/math1/chaoyue10/3",
+      "bundle": "chaoyue10-2025-math1",
+      "series_key": "chaoyue10",
+      "series_name": "合工大超越十套卷",
+      "year": 2025,
+      "subject": "math1",
+      "paper_no": 3,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "033e0f312d3bf5ca022144e8e7c2a6608df088619883a2f555dbfd4a71850fe3"
+    },
+    {
+      "natural_key": "2025/math1/chaoyue10/4",
+      "bundle": "chaoyue10-2025-math1",
+      "series_key": "chaoyue10",
+      "series_name": "合工大超越十套卷",
+      "year": 2025,
+      "subject": "math1",
+      "paper_no": 4,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "e9a77a0e16be043c257ec6e4cb2db953a9769b8fdd8dd8ca2001d72d550dc14f"
+    },
+    {
+      "natural_key": "2025/math1/chaoyue10/5",
+      "bundle": "chaoyue10-2025-math1",
+      "series_key": "chaoyue10",
+      "series_name": "合工大超越十套卷",
+      "year": 2025,
+      "subject": "math1",
+      "paper_no": 5,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "064b7868e4fab0cc0674bdd226de960667369a58e8e95250bea5ed435d80078c"
+    },
+    {
+      "natural_key": "2025/math1/chaoyue10/6",
+      "bundle": "chaoyue10-2025-math1",
+      "series_key": "chaoyue10",
+      "series_name": "合工大超越十套卷",
+      "year": 2025,
+      "subject": "math1",
+      "paper_no": 6,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "f57fe98c0187476364d80992321a46219245404bd3fa9e3ee87c7d02cb9a4b39"
+    },
+    {
+      "natural_key": "2025/math1/chaoyue10/7",
+      "bundle": "chaoyue10-2025-math1",
+      "series_key": "chaoyue10",
+      "series_name": "合工大超越十套卷",
+      "year": 2025,
+      "subject": "math1",
+      "paper_no": 7,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "5ac517372d4c77f70bffbd6f66ca80a2e051bea5a4c2bf315f013fc89bc32e64"
+    },
+    {
+      "natural_key": "2025/math1/chaoyue10/8",
+      "bundle": "chaoyue10-2025-math1",
+      "series_key": "chaoyue10",
+      "series_name": "合工大超越十套卷",
+      "year": 2025,
+      "subject": "math1",
+      "paper_no": 8,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "68cc053b64f71136979a85fb62b1bd86375193e50ee38499c4dd0d32caf848c5"
+    },
+    {
+      "natural_key": "2025/math1/chaoyue10/9",
+      "bundle": "chaoyue10-2025-math1",
+      "series_key": "chaoyue10",
+      "series_name": "合工大超越十套卷",
+      "year": 2025,
+      "subject": "math1",
+      "paper_no": 9,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "4e3d651fa23ff2c11765c40236398bcc9372ceff6e6757f20d34a8b77cb4f44b"
+    },
+    {
+      "natural_key": "2025/math1/chaoyue10/10",
+      "bundle": "chaoyue10-2025-math1",
+      "series_key": "chaoyue10",
+      "series_name": "合工大超越十套卷",
+      "year": 2025,
+      "subject": "math1",
+      "paper_no": 10,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "b5e59f6cc69c41f5298b17758f1427a764871f1d1a127ddeeee1b09760f6159f"
+    },
+    {
+      "natural_key": "2025/math2/chaoyue10/1",
+      "bundle": "chaoyue10-2025-math2",
+      "series_key": "chaoyue10",
+      "series_name": "合工大超越十套卷",
+      "year": 2025,
+      "subject": "math2",
+      "paper_no": 1,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "a57b21701fc18a2014828e1c9d96722b781cb409ded10e0fe82fb42d3cd89755"
+    },
+    {
+      "natural_key": "2025/math2/chaoyue10/2",
+      "bundle": "chaoyue10-2025-math2",
+      "series_key": "chaoyue10",
+      "series_name": "合工大超越十套卷",
+      "year": 2025,
+      "subject": "math2",
+      "paper_no": 2,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "560a09a177faf92de8f574d97baddc21a82f3d43ad4f4e64013eb5363f5bac28"
+    },
+    {
+      "natural_key": "2025/math2/chaoyue10/3",
+      "bundle": "chaoyue10-2025-math2",
+      "series_key": "chaoyue10",
+      "series_name": "合工大超越十套卷",
+      "year": 2025,
+      "subject": "math2",
+      "paper_no": 3,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "2e032255c648f521fc5e07e5338066c52ef3422ea2aca87e9fae2decfef601fe"
+    },
+    {
+      "natural_key": "2025/math2/chaoyue10/4",
+      "bundle": "chaoyue10-2025-math2",
+      "series_key": "chaoyue10",
+      "series_name": "合工大超越十套卷",
+      "year": 2025,
+      "subject": "math2",
+      "paper_no": 4,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "ae4e3d2398458409e4071f7c9d89c5017d706b0b49bc0dca13bb8fd9abe88a37"
+    },
+    {
+      "natural_key": "2025/math2/chaoyue10/5",
+      "bundle": "chaoyue10-2025-math2",
+      "series_key": "chaoyue10",
+      "series_name": "合工大超越十套卷",
+      "year": 2025,
+      "subject": "math2",
+      "paper_no": 5,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 4,
+      "content_hash": "7896cc881912a9e32ae648bea25669bdb6a79218f913c313bc4eecb12b5f25cb"
+    },
+    {
+      "natural_key": "2025/math2/chaoyue10/6",
+      "bundle": "chaoyue10-2025-math2",
+      "series_key": "chaoyue10",
+      "series_name": "合工大超越十套卷",
+      "year": 2025,
+      "subject": "math2",
+      "paper_no": 6,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "21b61d8fc5a49c7d383fe033ff7b3de9c781f4380e95ccae34f58175faeaf713"
+    },
+    {
+      "natural_key": "2025/math2/chaoyue10/7",
+      "bundle": "chaoyue10-2025-math2",
+      "series_key": "chaoyue10",
+      "series_name": "合工大超越十套卷",
+      "year": 2025,
+      "subject": "math2",
+      "paper_no": 7,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "1ad0ab2ceee60453050d215df269c658a5c4ae91e2dce11dab36f5ad796a07e2"
+    },
+    {
+      "natural_key": "2025/math2/chaoyue10/8",
+      "bundle": "chaoyue10-2025-math2",
+      "series_key": "chaoyue10",
+      "series_name": "合工大超越十套卷",
+      "year": 2025,
+      "subject": "math2",
+      "paper_no": 8,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "b5a0d66dc8235fa267f46e7f6f0146b14e67a231cc04d3324eeea2a8c2f32c86"
+    },
+    {
+      "natural_key": "2025/math2/chaoyue10/9",
+      "bundle": "chaoyue10-2025-math2",
+      "series_key": "chaoyue10",
+      "series_name": "合工大超越十套卷",
+      "year": 2025,
+      "subject": "math2",
+      "paper_no": 9,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "712de4c3f07a189b96fb6e7e2375e95cd0e4cfc23826d1a9cd52ad8996d7a402"
+    },
+    {
+      "natural_key": "2025/math2/chaoyue10/10",
+      "bundle": "chaoyue10-2025-math2",
+      "series_key": "chaoyue10",
+      "series_name": "合工大超越十套卷",
+      "year": 2025,
+      "subject": "math2",
+      "paper_no": 10,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "9aafb40fa87c7d4f65362d5c68842838ae3025347772774ccca419e22e76643a"
+    },
+    {
+      "natural_key": "2025/math3/chaoyue10/1",
+      "bundle": "chaoyue10-2025-math3",
+      "series_key": "chaoyue10",
+      "series_name": "合工大超越十套卷",
+      "year": 2025,
+      "subject": "math3",
+      "paper_no": 1,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "c76a1c5376d6ff5c96648899d6227a8cb6ed154bad079a57ed98f5239e0c92f7"
+    },
+    {
+      "natural_key": "2025/math3/chaoyue10/2",
+      "bundle": "chaoyue10-2025-math3",
+      "series_key": "chaoyue10",
+      "series_name": "合工大超越十套卷",
+      "year": 2025,
+      "subject": "math3",
+      "paper_no": 2,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "272955dd06a6e2154c004331ba7180b79ab2e938085ee76e2f857ba45396609a"
+    },
+    {
+      "natural_key": "2025/math3/chaoyue10/3",
+      "bundle": "chaoyue10-2025-math3",
+      "series_key": "chaoyue10",
+      "series_name": "合工大超越十套卷",
+      "year": 2025,
+      "subject": "math3",
+      "paper_no": 3,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "9e069253a51024e808288d16f42f97e1d2ce9a084b62f8cb7275ee46b900cdbd"
+    },
+    {
+      "natural_key": "2025/math3/chaoyue10/4",
+      "bundle": "chaoyue10-2025-math3",
+      "series_key": "chaoyue10",
+      "series_name": "合工大超越十套卷",
+      "year": 2025,
+      "subject": "math3",
+      "paper_no": 4,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "201e3d36ad293db2f8b97b91797787f16df673a10e8915da490f4230a4bd3a9d"
+    },
+    {
+      "natural_key": "2025/math3/chaoyue10/5",
+      "bundle": "chaoyue10-2025-math3",
+      "series_key": "chaoyue10",
+      "series_name": "合工大超越十套卷",
+      "year": 2025,
+      "subject": "math3",
+      "paper_no": 5,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 4,
+      "content_hash": "d25976388e638658ee4eb9ef1078d03b7c52c7c81eae4b0cbe4c0ed3927cc908"
+    },
+    {
+      "natural_key": "2025/math3/chaoyue10/6",
+      "bundle": "chaoyue10-2025-math3",
+      "series_key": "chaoyue10",
+      "series_name": "合工大超越十套卷",
+      "year": 2025,
+      "subject": "math3",
+      "paper_no": 6,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "1873b22695a2ba22c4f234557e2625126a905af53e399039b267e0532640d148"
+    },
+    {
+      "natural_key": "2025/math3/chaoyue10/7",
+      "bundle": "chaoyue10-2025-math3",
+      "series_key": "chaoyue10",
+      "series_name": "合工大超越十套卷",
+      "year": 2025,
+      "subject": "math3",
+      "paper_no": 7,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "3cb90784aecfe34fcab3a8045e8d0431f4b8bdaf7a1635d6ecfd121581731c37"
+    },
+    {
+      "natural_key": "2025/math3/chaoyue10/8",
+      "bundle": "chaoyue10-2025-math3",
+      "series_key": "chaoyue10",
+      "series_name": "合工大超越十套卷",
+      "year": 2025,
+      "subject": "math3",
+      "paper_no": 8,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "989672e5ed888feadd685851d79d284eaffc6bdc0b9e8ef5200f70ca78aed424"
+    },
+    {
+      "natural_key": "2025/math3/chaoyue10/9",
+      "bundle": "chaoyue10-2025-math3",
+      "series_key": "chaoyue10",
+      "series_name": "合工大超越十套卷",
+      "year": 2025,
+      "subject": "math3",
+      "paper_no": 9,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "705d52a0c818df6ab14dcc97beb252523392addc1df3517a633e87de66c5980f"
+    },
+    {
+      "natural_key": "2025/math3/chaoyue10/10",
+      "bundle": "chaoyue10-2025-math3",
+      "series_key": "chaoyue10",
+      "series_name": "合工大超越十套卷",
+      "year": 2025,
+      "subject": "math3",
+      "paper_no": 10,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "f3a8e3e236fb2bfb35542266e0a991dfdc7de19b862f27bcf2bf69ad2baa22ae"
+    },
+    {
+      "natural_key": "2025/math1/euclid3/1",
+      "bundle": "euclid3-2025-math1",
+      "series_key": "euclid3",
+      "series_name": "欧几里得三套卷",
+      "year": 2025,
+      "subject": "math1",
+      "paper_no": 1,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "fc47105a2b527f5ba40a5e13d4d4fcb11dc13cda1b09a7a2a461c6ed62b0bc7f"
+    },
+    {
+      "natural_key": "2025/math1/euclid3/2",
+      "bundle": "euclid3-2025-math1",
+      "series_key": "euclid3",
+      "series_name": "欧几里得三套卷",
+      "year": 2025,
+      "subject": "math1",
+      "paper_no": 2,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "1093954ada6601622e1e0873b30f7505891d2930cebcbaf6aae8726626825efb"
+    },
+    {
+      "natural_key": "2025/math1/euclid3/3",
+      "bundle": "euclid3-2025-math1",
+      "series_key": "euclid3",
+      "series_name": "欧几里得三套卷",
+      "year": 2025,
+      "subject": "math1",
+      "paper_no": 3,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 1,
+      "content_hash": "6a91f29fff8f542b4bd19f5b95f717e6d4afb259477b2dcf0d163d3302738b9c"
+    },
+    {
+      "natural_key": "2025/math2/euclid3/1",
+      "bundle": "euclid3-2025-math2",
+      "series_key": "euclid3",
+      "series_name": "欧几里得三套卷",
+      "year": 2025,
+      "subject": "math2",
+      "paper_no": 1,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "ea7fd4a2b348f2b141eba701cda5c90e5b3b6e02bce2fe0500dfedfcca281f4d"
+    },
+    {
+      "natural_key": "2025/math2/euclid3/2",
+      "bundle": "euclid3-2025-math2",
+      "series_key": "euclid3",
+      "series_name": "欧几里得三套卷",
+      "year": 2025,
+      "subject": "math2",
+      "paper_no": 2,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "cf69fa354670904322b5b5fd93cd77012e2cb63b909ed720236c150e0f2f01cb"
+    },
+    {
+      "natural_key": "2025/math2/euclid3/3",
+      "bundle": "euclid3-2025-math2",
+      "series_key": "euclid3",
+      "series_name": "欧几里得三套卷",
+      "year": 2025,
+      "subject": "math2",
+      "paper_no": 3,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "3346866758af9198f0aaaea8534b85be5e40cdf8f5e6ccc0e3e48a5c0d2b3578"
+    },
+    {
+      "natural_key": "2025/math3/euclid3/1",
+      "bundle": "euclid3-2025-math3",
+      "series_key": "euclid3",
+      "series_name": "欧几里得三套卷",
+      "year": 2025,
+      "subject": "math3",
+      "paper_no": 1,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "94ccbcd126eacac77836f971417321520f9eeba92a7b8015fb4e48cebe1a2341"
+    },
+    {
+      "natural_key": "2025/math3/euclid3/2",
+      "bundle": "euclid3-2025-math3",
+      "series_key": "euclid3",
+      "series_name": "欧几里得三套卷",
+      "year": 2025,
+      "subject": "math3",
+      "paper_no": 2,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "71a304abaa518642bd93c8084031f7359143ef735417ee5618db1a58f62b9cc4"
+    },
+    {
+      "natural_key": "2025/math3/euclid3/3",
+      "bundle": "euclid3-2025-math3",
+      "series_key": "euclid3",
+      "series_name": "欧几里得三套卷",
+      "year": 2025,
+      "subject": "math3",
+      "paper_no": 3,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 1,
+      "content_hash": "29c8280c4433c97de067e0b045ea9316c0e56fc7b71174f3341549fef865a1ae"
+    },
+    {
+      "natural_key": "2026/math1/euclid3/1",
+      "bundle": "euclid3-2026-math1",
+      "series_key": "euclid3",
+      "series_name": "欧几里得三套卷",
+      "year": 2026,
+      "subject": "math1",
+      "paper_no": 1,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 1,
+      "content_hash": "4facddb946ddf67f1aa85f7a078a70c674b8e793de5027fbc98ba792b204f492"
+    },
+    {
+      "natural_key": "2026/math1/euclid3/2",
+      "bundle": "euclid3-2026-math1",
+      "series_key": "euclid3",
+      "series_name": "欧几里得三套卷",
+      "year": 2026,
+      "subject": "math1",
+      "paper_no": 2,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "926f92615d9b409a393b0db874efc7096d1da38e738ad65cca4cb1be08f18d50"
+    },
+    {
+      "natural_key": "2026/math1/euclid3/3",
+      "bundle": "euclid3-2026-math1",
+      "series_key": "euclid3",
+      "series_name": "欧几里得三套卷",
+      "year": 2026,
+      "subject": "math1",
+      "paper_no": 3,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "0916a711e051efe6af5f5a3d33b17c85419c482448f7b389052094b1badb5e78"
+    },
+    {
+      "natural_key": "2026/math2/euclid3/1",
+      "bundle": "euclid3-2026-math2",
+      "series_key": "euclid3",
+      "series_name": "欧几里得三套卷",
+      "year": 2026,
+      "subject": "math2",
+      "paper_no": 1,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 1,
+      "content_hash": "dc465a7e8a4d6c37446f37441a2aadd064ccb4525a1e883af98b1ba101737638"
+    },
+    {
+      "natural_key": "2026/math2/euclid3/2",
+      "bundle": "euclid3-2026-math2",
+      "series_key": "euclid3",
+      "series_name": "欧几里得三套卷",
+      "year": 2026,
+      "subject": "math2",
+      "paper_no": 2,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "214340c5887ad70b1c9de8c7bb4ae64e67c491ec0499f0d985831572d3a46548"
+    },
+    {
+      "natural_key": "2026/math2/euclid3/3",
+      "bundle": "euclid3-2026-math2",
+      "series_key": "euclid3",
+      "series_name": "欧几里得三套卷",
+      "year": 2026,
+      "subject": "math2",
+      "paper_no": 3,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 1,
+      "content_hash": "a6fe75b03001beedbaed328ef268a494b767da5cf007e30b832335f139fed479"
+    },
+    {
+      "natural_key": "2026/math3/euclid3/1",
+      "bundle": "euclid3-2026-math3",
+      "series_key": "euclid3",
+      "series_name": "欧几里得三套卷",
+      "year": 2026,
+      "subject": "math3",
+      "paper_no": 1,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 1,
+      "content_hash": "88f0d7b7b7f43b5e6def32427487e317eeff75fb6ceb85bbb0f62f7a72ee6352"
+    },
+    {
+      "natural_key": "2026/math3/euclid3/2",
+      "bundle": "euclid3-2026-math3",
+      "series_key": "euclid3",
+      "series_name": "欧几里得三套卷",
+      "year": 2026,
+      "subject": "math3",
+      "paper_no": 2,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 1,
+      "content_hash": "c602c35894a2c85483299f76e51eac9e788233e969a3904aac8ccdd3857562fd"
+    },
+    {
+      "natural_key": "2026/math3/euclid3/3",
+      "bundle": "euclid3-2026-math3",
+      "series_key": "euclid3",
+      "series_name": "欧几里得三套卷",
+      "year": 2026,
+      "subject": "math3",
+      "paper_no": 3,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "9e9be082b0f5a7a3b48bee55b93bb9bf8b8b8ac6c09ef48c08d62428aecf9a9e"
+    },
+    {
+      "natural_key": "2025/math1/lilin6/1",
+      "bundle": "lilin6-2025-math1",
+      "series_key": "lilin6",
+      "series_name": "李林六套卷",
+      "year": 2025,
+      "subject": "math1",
+      "paper_no": 1,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "0b4e33fcaf0890277c5fa11a66494967188338c80f510923708bd7ee352aa710"
+    },
+    {
+      "natural_key": "2025/math1/lilin6/2",
+      "bundle": "lilin6-2025-math1",
+      "series_key": "lilin6",
+      "series_name": "李林六套卷",
+      "year": 2025,
+      "subject": "math1",
+      "paper_no": 2,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "2962720d6bc9ef86c42345e6f4e320ab32cbd42f0642ae1946fff69aaf463edf"
+    },
+    {
+      "natural_key": "2025/math1/lilin6/3",
+      "bundle": "lilin6-2025-math1",
+      "series_key": "lilin6",
+      "series_name": "李林六套卷",
+      "year": 2025,
+      "subject": "math1",
+      "paper_no": 3,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "4b1a3855762a0318db8fbf351e4c606bffe953e9b0fdf4846c98ba52cce4cda9"
+    },
+    {
+      "natural_key": "2025/math1/lilin6/4",
+      "bundle": "lilin6-2025-math1",
+      "series_key": "lilin6",
+      "series_name": "李林六套卷",
+      "year": 2025,
+      "subject": "math1",
+      "paper_no": 4,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "f076fdc1ea8101630949eda5e3613856df79138c302ec59db170c5bf82de1d2e"
+    },
+    {
+      "natural_key": "2025/math1/lilin6/5",
+      "bundle": "lilin6-2025-math1",
+      "series_key": "lilin6",
+      "series_name": "李林六套卷",
+      "year": 2025,
+      "subject": "math1",
+      "paper_no": 5,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "bfc741246dd73fd0eeee50866855cbc7ef5a73b45644627c69825fda11ca35cf"
+    },
+    {
+      "natural_key": "2025/math1/lilin6/6",
+      "bundle": "lilin6-2025-math1",
+      "series_key": "lilin6",
+      "series_name": "李林六套卷",
+      "year": 2025,
+      "subject": "math1",
+      "paper_no": 6,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "117cc5551de1b03c511286bf0c4310fc9e24ddde67e22fca4645467024cb4afb"
+    },
+    {
+      "natural_key": "2025/math2/lilin6/1",
+      "bundle": "lilin6-2025-math2",
+      "series_key": "lilin6",
+      "series_name": "李林六套卷",
+      "year": 2025,
+      "subject": "math2",
+      "paper_no": 1,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "6ffbeb8a4cf7b9fd0bad2e02df2151e777127336989a26240a9ef5ad0fef9d5d"
+    },
+    {
+      "natural_key": "2025/math2/lilin6/2",
+      "bundle": "lilin6-2025-math2",
+      "series_key": "lilin6",
+      "series_name": "李林六套卷",
+      "year": 2025,
+      "subject": "math2",
+      "paper_no": 2,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "7875c3802f2728457b80b1cde86e43a21c0a57c9199966c8cf27e11f8ae25c7b"
+    },
+    {
+      "natural_key": "2025/math2/lilin6/3",
+      "bundle": "lilin6-2025-math2",
+      "series_key": "lilin6",
+      "series_name": "李林六套卷",
+      "year": 2025,
+      "subject": "math2",
+      "paper_no": 3,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "1a6c7c46a99392c0c83e45ce335103e56b154c2e37f2b1abd3d2c24383a23fca"
+    },
+    {
+      "natural_key": "2025/math2/lilin6/4",
+      "bundle": "lilin6-2025-math2",
+      "series_key": "lilin6",
+      "series_name": "李林六套卷",
+      "year": 2025,
+      "subject": "math2",
+      "paper_no": 4,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "cb9d787373e644026e342300169244efddf8b7e991c651981faae530a78328db"
+    },
+    {
+      "natural_key": "2025/math2/lilin6/5",
+      "bundle": "lilin6-2025-math2",
+      "series_key": "lilin6",
+      "series_name": "李林六套卷",
+      "year": 2025,
+      "subject": "math2",
+      "paper_no": 5,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "5ffe216f09b2985f8f810db645e914d820fd29a0b3eb0435c5977aaa8aadf47e"
+    },
+    {
+      "natural_key": "2025/math2/lilin6/6",
+      "bundle": "lilin6-2025-math2",
+      "series_key": "lilin6",
+      "series_name": "李林六套卷",
+      "year": 2025,
+      "subject": "math2",
+      "paper_no": 6,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "75cecaae80a94d1069d32e69c0497dd8c47d08d6c52c4354613d932f82e09fad"
+    },
+    {
+      "natural_key": "2025/math3/lilin6/1",
+      "bundle": "lilin6-2025-math3",
+      "series_key": "lilin6",
+      "series_name": "李林六套卷",
+      "year": 2025,
+      "subject": "math3",
+      "paper_no": 1,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "82c56dcba44cd3e2caa1b3c898e6a0d1516d3c007f762219764aaede8222b78c"
+    },
+    {
+      "natural_key": "2025/math3/lilin6/2",
+      "bundle": "lilin6-2025-math3",
+      "series_key": "lilin6",
+      "series_name": "李林六套卷",
+      "year": 2025,
+      "subject": "math3",
+      "paper_no": 2,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "5404ad2ea37b744a3b6ed192eeaa6d7457330caaae8278f4f68bb98c99fefc38"
+    },
+    {
+      "natural_key": "2025/math3/lilin6/3",
+      "bundle": "lilin6-2025-math3",
+      "series_key": "lilin6",
+      "series_name": "李林六套卷",
+      "year": 2025,
+      "subject": "math3",
+      "paper_no": 3,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "163fd13385ed9f2107cbab47ecda355b426e943ac7478f9e6f7aab2089e1dd70"
+    },
+    {
+      "natural_key": "2025/math3/lilin6/4",
+      "bundle": "lilin6-2025-math3",
+      "series_key": "lilin6",
+      "series_name": "李林六套卷",
+      "year": 2025,
+      "subject": "math3",
+      "paper_no": 4,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "ac9cff4383c8e73c362f5cbff5c9a81b77fda02fea4f59466c57d386a7430d84"
+    },
+    {
+      "natural_key": "2025/math3/lilin6/5",
+      "bundle": "lilin6-2025-math3",
+      "series_key": "lilin6",
+      "series_name": "李林六套卷",
+      "year": 2025,
+      "subject": "math3",
+      "paper_no": 5,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "fbcc99d8831014260de29b101c429bbe13ee1e94ee65712c63369f76759f6e25"
+    },
+    {
+      "natural_key": "2025/math3/lilin6/6",
+      "bundle": "lilin6-2025-math3",
+      "series_key": "lilin6",
+      "series_name": "李林六套卷",
+      "year": 2025,
+      "subject": "math3",
+      "paper_no": 6,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "db9c126e671e18af1b6441ce848e0dc012939e976b1d04c6698d46e9ddf1d8d0"
+    },
+    {
+      "natural_key": "2026/math1/lilin6/1",
+      "bundle": "lilin6-2026-math1",
+      "series_key": "lilin6",
+      "series_name": "李林六套卷",
+      "year": 2026,
+      "subject": "math1",
+      "paper_no": 1,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "c6149d50cebcdaeead97c5f65fe03897b7b8ace975029a5802b4def5fba779fa"
+    },
+    {
+      "natural_key": "2026/math1/lilin6/2",
+      "bundle": "lilin6-2026-math1",
+      "series_key": "lilin6",
+      "series_name": "李林六套卷",
+      "year": 2026,
+      "subject": "math1",
+      "paper_no": 2,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "837e7a961ede65c6acdabe123e38a13b92404ee2540f4f2e715c8b8e3879a945"
+    },
+    {
+      "natural_key": "2026/math1/lilin6/3",
+      "bundle": "lilin6-2026-math1",
+      "series_key": "lilin6",
+      "series_name": "李林六套卷",
+      "year": 2026,
+      "subject": "math1",
+      "paper_no": 3,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "1f7a0a3a61390ff91924f010fb85ca0938d2526f18ea20f8a753502579574d08"
+    },
+    {
+      "natural_key": "2026/math1/lilin6/4",
+      "bundle": "lilin6-2026-math1",
+      "series_key": "lilin6",
+      "series_name": "李林六套卷",
+      "year": 2026,
+      "subject": "math1",
+      "paper_no": 4,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "54d2f33ed2341fc7172cf4e0d018a61fc15e11c7a087b7e708f5948a371f0f63"
+    },
+    {
+      "natural_key": "2026/math1/lilin6/5",
+      "bundle": "lilin6-2026-math1",
+      "series_key": "lilin6",
+      "series_name": "李林六套卷",
+      "year": 2026,
+      "subject": "math1",
+      "paper_no": 5,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 1,
+      "content_hash": "d30b3ab1b6f32bcc8f47749e31a9f607a29bf25d318ede524bc633de2a5581ec"
+    },
+    {
+      "natural_key": "2026/math1/lilin6/6",
+      "bundle": "lilin6-2026-math1",
+      "series_key": "lilin6",
+      "series_name": "李林六套卷",
+      "year": 2026,
+      "subject": "math1",
+      "paper_no": 6,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 1,
+      "content_hash": "9cf0c867d857f1aa56c481eaa24bd9968735fc21706f30d405537b1520cf6cac"
+    },
+    {
+      "natural_key": "2026/math2/lilin6/1",
+      "bundle": "lilin6-2026-math2",
+      "series_key": "lilin6",
+      "series_name": "李林六套卷",
+      "year": 2026,
+      "subject": "math2",
+      "paper_no": 1,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 1,
+      "content_hash": "63af18e5eeb8ab78df8f73ddc718881b38e1d070cb325aaec2568773ebfce0e4"
+    },
+    {
+      "natural_key": "2026/math2/lilin6/2",
+      "bundle": "lilin6-2026-math2",
+      "series_key": "lilin6",
+      "series_name": "李林六套卷",
+      "year": 2026,
+      "subject": "math2",
+      "paper_no": 2,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "5c4c157ce17ba4c1ab8e3679325f97f214ddaec888b3634f9209f07345e17076"
+    },
+    {
+      "natural_key": "2026/math2/lilin6/3",
+      "bundle": "lilin6-2026-math2",
+      "series_key": "lilin6",
+      "series_name": "李林六套卷",
+      "year": 2026,
+      "subject": "math2",
+      "paper_no": 3,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "6c25055baae3921e2b7b76f5bad0149a016a64cae5cc1d72561ed6af126873af"
+    },
+    {
+      "natural_key": "2026/math2/lilin6/4",
+      "bundle": "lilin6-2026-math2",
+      "series_key": "lilin6",
+      "series_name": "李林六套卷",
+      "year": 2026,
+      "subject": "math2",
+      "paper_no": 4,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "93e264250ce4bf0d84bdb4a9c2772eac541a850e853685d909d77e549aaf6291"
+    },
+    {
+      "natural_key": "2026/math2/lilin6/5",
+      "bundle": "lilin6-2026-math2",
+      "series_key": "lilin6",
+      "series_name": "李林六套卷",
+      "year": 2026,
+      "subject": "math2",
+      "paper_no": 5,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 1,
+      "content_hash": "e124909c7a3d95560962ae65378765409ff9a4cf036a873b82a57f5778176163"
+    },
+    {
+      "natural_key": "2026/math2/lilin6/6",
+      "bundle": "lilin6-2026-math2",
+      "series_key": "lilin6",
+      "series_name": "李林六套卷",
+      "year": 2026,
+      "subject": "math2",
+      "paper_no": 6,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "5b6312c959094b14c51844f5986dc832fe3213906e5cf0d7780fbd66576ff33e"
+    },
+    {
+      "natural_key": "2026/math3/lilin6/1",
+      "bundle": "lilin6-2026-math3",
+      "series_key": "lilin6",
+      "series_name": "李林六套卷",
+      "year": 2026,
+      "subject": "math3",
+      "paper_no": 1,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 1,
+      "content_hash": "c2cd522e59e4657de2f064dfa900019398c9a8a9b750b478556b6b313b59330a"
+    },
+    {
+      "natural_key": "2026/math3/lilin6/2",
+      "bundle": "lilin6-2026-math3",
+      "series_key": "lilin6",
+      "series_name": "李林六套卷",
+      "year": 2026,
+      "subject": "math3",
+      "paper_no": 2,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "23bb7d76de195314f075fb2e6e31939dbc05e2f7be9f7b86615988fbc5c977f8"
+    },
+    {
+      "natural_key": "2026/math3/lilin6/3",
+      "bundle": "lilin6-2026-math3",
+      "series_key": "lilin6",
+      "series_name": "李林六套卷",
+      "year": 2026,
+      "subject": "math3",
+      "paper_no": 3,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "a2eed1b8a03b93b20927a22f0c2399674405b4d06095d99aa341dddb65bfd4a4"
+    },
+    {
+      "natural_key": "2026/math3/lilin6/4",
+      "bundle": "lilin6-2026-math3",
+      "series_key": "lilin6",
+      "series_name": "李林六套卷",
+      "year": 2026,
+      "subject": "math3",
+      "paper_no": 4,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "b913238eeaf13508600a02150afc4280c56f0a82055846e6b97cb296af6d8412"
+    },
+    {
+      "natural_key": "2026/math3/lilin6/5",
+      "bundle": "lilin6-2026-math3",
+      "series_key": "lilin6",
+      "series_name": "李林六套卷",
+      "year": 2026,
+      "subject": "math3",
+      "paper_no": 5,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "2b6a1f4432d9849f3834b5e2e8a1fe45d323ff672815dade6b505e44dee9dc15"
+    },
+    {
+      "natural_key": "2026/math3/lilin6/6",
+      "bundle": "lilin6-2026-math3",
+      "series_key": "lilin6",
+      "series_name": "李林六套卷",
+      "year": 2026,
+      "subject": "math3",
+      "paper_no": 6,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "a44486186f3d42ad170bcfbeec49ede3946cda43882b52ad150e2933049e9254"
+    },
+    {
+      "natural_key": "2022/math1/liyanfang3/1",
+      "bundle": "liyanfang3-2022-math1",
+      "series_key": "liyanfang3",
+      "series_name": "李艳芳三套卷",
+      "year": 2022,
+      "subject": "math1",
+      "paper_no": 1,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "06f61b5ca020f6f7247c2c50c3c46020b01e8d78ec2b0b083802c29b4aef8fc2"
+    },
+    {
+      "natural_key": "2022/math1/liyanfang3/2",
+      "bundle": "liyanfang3-2022-math1",
+      "series_key": "liyanfang3",
+      "series_name": "李艳芳三套卷",
+      "year": 2022,
+      "subject": "math1",
+      "paper_no": 2,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "fda95d767087352ec6e984d51fdb61a4dfa8f6d5f9c1048fba6fd5b220203e05"
+    },
+    {
+      "natural_key": "2022/math1/liyanfang3/3",
+      "bundle": "liyanfang3-2022-math1",
+      "series_key": "liyanfang3",
+      "series_name": "李艳芳三套卷",
+      "year": 2022,
+      "subject": "math1",
+      "paper_no": 3,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "05e4fa3353cf05e2aa1061415e160f3db11f7887e12acdb5767bd19bb425a376"
+    },
+    {
+      "natural_key": "2022/math2/liyanfang3/1",
+      "bundle": "liyanfang3-2022-math2",
+      "series_key": "liyanfang3",
+      "series_name": "李艳芳三套卷",
+      "year": 2022,
+      "subject": "math2",
+      "paper_no": 1,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "e703ecb3b16fdc1a4bb4871d2c1dded5ec7a6a012dda7234ae71b1055f255fef"
+    },
+    {
+      "natural_key": "2022/math2/liyanfang3/2",
+      "bundle": "liyanfang3-2022-math2",
+      "series_key": "liyanfang3",
+      "series_name": "李艳芳三套卷",
+      "year": 2022,
+      "subject": "math2",
+      "paper_no": 2,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "783265f24f0674f07cc8501b7494fd5b43be14b9584cdf11a80d284abdbe08b0"
+    },
+    {
+      "natural_key": "2022/math2/liyanfang3/3",
+      "bundle": "liyanfang3-2022-math2",
+      "series_key": "liyanfang3",
+      "series_name": "李艳芳三套卷",
+      "year": 2022,
+      "subject": "math2",
+      "paper_no": 3,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 1,
+      "content_hash": "d75610fb49fdc00317e5eaedd774636eba795bb026d2c2dc63a29c30ffb47f55"
+    },
+    {
+      "natural_key": "2022/math3/liyanfang3/1",
+      "bundle": "liyanfang3-2022-math3",
+      "series_key": "liyanfang3",
+      "series_name": "李艳芳三套卷",
+      "year": 2022,
+      "subject": "math3",
+      "paper_no": 1,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "46353f343c81ee9457df4b4e66408c7144f3562cb172c2489df0db7e6974c015"
+    },
+    {
+      "natural_key": "2022/math3/liyanfang3/2",
+      "bundle": "liyanfang3-2022-math3",
+      "series_key": "liyanfang3",
+      "series_name": "李艳芳三套卷",
+      "year": 2022,
+      "subject": "math3",
+      "paper_no": 2,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "8d971f7a3ce8d826ee73ac99396705a4f3821635d1149614ca0fe1b94783ac39"
+    },
+    {
+      "natural_key": "2022/math3/liyanfang3/3",
+      "bundle": "liyanfang3-2022-math3",
+      "series_key": "liyanfang3",
+      "series_name": "李艳芳三套卷",
+      "year": 2022,
+      "subject": "math3",
+      "paper_no": 3,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "2767a1449bfdcb16cd27e16964bdaa21fee22ca887d9c7685c17ebb4c7f8d5e4"
+    },
+    {
+      "natural_key": "2023/math1/liyanfang3/1",
+      "bundle": "liyanfang3-2023-math1",
+      "series_key": "liyanfang3",
+      "series_name": "李艳芳三套卷",
+      "year": 2023,
+      "subject": "math1",
+      "paper_no": 1,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "ae53ee3349fcd61438ffd02720a6aad7b1040976ce604a1bd87b6fb600dd8aac"
+    },
+    {
+      "natural_key": "2023/math1/liyanfang3/2",
+      "bundle": "liyanfang3-2023-math1",
+      "series_key": "liyanfang3",
+      "series_name": "李艳芳三套卷",
+      "year": 2023,
+      "subject": "math1",
+      "paper_no": 2,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "e835cf3de0c7e12119b0da09f6189e42e0c3866b32afd71179140089a17ae34c"
+    },
+    {
+      "natural_key": "2023/math1/liyanfang3/3",
+      "bundle": "liyanfang3-2023-math1",
+      "series_key": "liyanfang3",
+      "series_name": "李艳芳三套卷",
+      "year": 2023,
+      "subject": "math1",
+      "paper_no": 3,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "e131b3f1a77a34cd00360f4f653cff9f26248cd7b74891c664dfdbc3654becf6"
+    },
+    {
+      "natural_key": "2023/math2/liyanfang3/1",
+      "bundle": "liyanfang3-2023-math2",
+      "series_key": "liyanfang3",
+      "series_name": "李艳芳三套卷",
+      "year": 2023,
+      "subject": "math2",
+      "paper_no": 1,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "d351e0757a1db67e0bf0bd9fa100f606ecd341df5aa474e4abc956fff900dff7"
+    },
+    {
+      "natural_key": "2023/math2/liyanfang3/2",
+      "bundle": "liyanfang3-2023-math2",
+      "series_key": "liyanfang3",
+      "series_name": "李艳芳三套卷",
+      "year": 2023,
+      "subject": "math2",
+      "paper_no": 2,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "3371a3d91a4d210c306ce24c45f9d6222de2c87c3083f8c343fbebac36d11e0e"
+    },
+    {
+      "natural_key": "2023/math2/liyanfang3/3",
+      "bundle": "liyanfang3-2023-math2",
+      "series_key": "liyanfang3",
+      "series_name": "李艳芳三套卷",
+      "year": 2023,
+      "subject": "math2",
+      "paper_no": 3,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "58b7b2fb9e8cc218f52d9105abbc280bdb9c5a6e498d0ad9500f5780eef947f2"
+    },
+    {
+      "natural_key": "2023/math3/liyanfang3/1",
+      "bundle": "liyanfang3-2023-math3",
+      "series_key": "liyanfang3",
+      "series_name": "李艳芳三套卷",
+      "year": 2023,
+      "subject": "math3",
+      "paper_no": 1,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "b44f23a9dcfdfa3594f128dd5ba4cca90d9f01c86521d296a043b771d1af85c6"
+    },
+    {
+      "natural_key": "2023/math3/liyanfang3/2",
+      "bundle": "liyanfang3-2023-math3",
+      "series_key": "liyanfang3",
+      "series_name": "李艳芳三套卷",
+      "year": 2023,
+      "subject": "math3",
+      "paper_no": 2,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "2fc755561ba8879374a76cf00bd806ea933f0878757155f92622315c3099d1dd"
+    },
+    {
+      "natural_key": "2023/math3/liyanfang3/3",
+      "bundle": "liyanfang3-2023-math3",
+      "series_key": "liyanfang3",
+      "series_name": "李艳芳三套卷",
+      "year": 2023,
+      "subject": "math3",
+      "paper_no": 3,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "1523d43ce52398718e1301f482a836ce3bcde2e7c7019d11849dd173216511df"
+    },
+    {
+      "natural_key": "2024/math1/liyanfang3/1",
+      "bundle": "liyanfang3-2024-math1",
+      "series_key": "liyanfang3",
+      "series_name": "李艳芳三套卷",
+      "year": 2024,
+      "subject": "math1",
+      "paper_no": 1,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "53aa6cd93382645a23c16ac9e556b3c8b21b626e92e3e0d67418b483f3d764ea"
+    },
+    {
+      "natural_key": "2024/math1/liyanfang3/2",
+      "bundle": "liyanfang3-2024-math1",
+      "series_key": "liyanfang3",
+      "series_name": "李艳芳三套卷",
+      "year": 2024,
+      "subject": "math1",
+      "paper_no": 2,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 1,
+      "content_hash": "38dcd091381e38503daa7e953f93b429f3a091bbd8a0c1e94961230d2bea0f0c"
+    },
+    {
+      "natural_key": "2024/math1/liyanfang3/3",
+      "bundle": "liyanfang3-2024-math1",
+      "series_key": "liyanfang3",
+      "series_name": "李艳芳三套卷",
+      "year": 2024,
+      "subject": "math1",
+      "paper_no": 3,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "0244854c15f08572ef3c88e1aeaeeb1c6d4a2da1af8f608e72ec134179f60492"
+    },
+    {
+      "natural_key": "2024/math2/liyanfang3/1",
+      "bundle": "liyanfang3-2024-math2",
+      "series_key": "liyanfang3",
+      "series_name": "李艳芳三套卷",
+      "year": 2024,
+      "subject": "math2",
+      "paper_no": 1,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "bf67ce13cec73c6adf4c4e73ad3f90471527fbfe48c4f60967adb6474a5a2025"
+    },
+    {
+      "natural_key": "2024/math2/liyanfang3/2",
+      "bundle": "liyanfang3-2024-math2",
+      "series_key": "liyanfang3",
+      "series_name": "李艳芳三套卷",
+      "year": 2024,
+      "subject": "math2",
+      "paper_no": 2,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "86c3aa3c7aab624bd53fe997de6582d4d5d9a9409eaad02d3cc1b2b14fc88036"
+    },
+    {
+      "natural_key": "2024/math2/liyanfang3/3",
+      "bundle": "liyanfang3-2024-math2",
+      "series_key": "liyanfang3",
+      "series_name": "李艳芳三套卷",
+      "year": 2024,
+      "subject": "math2",
+      "paper_no": 3,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 1,
+      "content_hash": "155893bb5798333053cae5dd990957da35bb52d72c7ad377aa5728b1ac52c6f1"
+    },
+    {
+      "natural_key": "2024/math3/liyanfang3/1",
+      "bundle": "liyanfang3-2024-math3",
+      "series_key": "liyanfang3",
+      "series_name": "李艳芳三套卷",
+      "year": 2024,
+      "subject": "math3",
+      "paper_no": 1,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "7c45313b5976d7e6b94d59c94cdea9985caafccc3c3b89e9f6591fefe4398caf"
+    },
+    {
+      "natural_key": "2024/math3/liyanfang3/2",
+      "bundle": "liyanfang3-2024-math3",
+      "series_key": "liyanfang3",
+      "series_name": "李艳芳三套卷",
+      "year": 2024,
+      "subject": "math3",
+      "paper_no": 2,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 1,
+      "content_hash": "1b51b0298018e3b1a78c20d2bdb2d2b4aa565094953dfa8e31a765cb8ddff180"
+    },
+    {
+      "natural_key": "2024/math3/liyanfang3/3",
+      "bundle": "liyanfang3-2024-math3",
+      "series_key": "liyanfang3",
+      "series_name": "李艳芳三套卷",
+      "year": 2024,
+      "subject": "math3",
+      "paper_no": 3,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 1,
+      "content_hash": "45352d1c0a3b8a3f7424510441befd842f92b8583a2b9e3e6e816325b776ef5a"
+    },
+    {
+      "natural_key": "2025/math1/liyanfang3/1",
+      "bundle": "liyanfang3-2025-math1",
+      "series_key": "liyanfang3",
+      "series_name": "李艳芳三套卷",
+      "year": 2025,
+      "subject": "math1",
+      "paper_no": 1,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "e9ed1318a15154b3c4551b54c6b3a5ab7854d017b0745c8f90c2babe369c8973"
+    },
+    {
+      "natural_key": "2025/math1/liyanfang3/2",
+      "bundle": "liyanfang3-2025-math1",
+      "series_key": "liyanfang3",
+      "series_name": "李艳芳三套卷",
+      "year": 2025,
+      "subject": "math1",
+      "paper_no": 2,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "3571196451e5a16f7a5d829b7c9d678b13061a233d599a4403cbc97c02fd2a17"
+    },
+    {
+      "natural_key": "2025/math1/liyanfang3/3",
+      "bundle": "liyanfang3-2025-math1",
+      "series_key": "liyanfang3",
+      "series_name": "李艳芳三套卷",
+      "year": 2025,
+      "subject": "math1",
+      "paper_no": 3,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "42f92e9baa01a52a97776be64aa85dc120b872f9abd0aeaab63b1e73ee8918fa"
+    },
+    {
+      "natural_key": "2025/math2/liyanfang3/1",
+      "bundle": "liyanfang3-2025-math2",
+      "series_key": "liyanfang3",
+      "series_name": "李艳芳三套卷",
+      "year": 2025,
+      "subject": "math2",
+      "paper_no": 1,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "9869cbe993d81d180cf01b56f72fa03718313e937293bc7c1b8e236aebe7d22c"
+    },
+    {
+      "natural_key": "2025/math2/liyanfang3/2",
+      "bundle": "liyanfang3-2025-math2",
+      "series_key": "liyanfang3",
+      "series_name": "李艳芳三套卷",
+      "year": 2025,
+      "subject": "math2",
+      "paper_no": 2,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "8ccb8ba544a60f9e98484bda8c21210502fd7fd25b49f663d9916e3c444fa7dc"
+    },
+    {
+      "natural_key": "2025/math2/liyanfang3/3",
+      "bundle": "liyanfang3-2025-math2",
+      "series_key": "liyanfang3",
+      "series_name": "李艳芳三套卷",
+      "year": 2025,
+      "subject": "math2",
+      "paper_no": 3,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "2e5bdc54de7859be5e77e8afa51e80c60fb159c71d35264fe78ab7ee11fb7a97"
+    },
+    {
+      "natural_key": "2025/math3/liyanfang3/1",
+      "bundle": "liyanfang3-2025-math3",
+      "series_key": "liyanfang3",
+      "series_name": "李艳芳三套卷",
+      "year": 2025,
+      "subject": "math3",
+      "paper_no": 1,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "1177eed9c5749571aa653f90ffd92c8bbb1a29ecfbd13b804bdc22a6006b2824"
+    },
+    {
+      "natural_key": "2025/math3/liyanfang3/2",
+      "bundle": "liyanfang3-2025-math3",
+      "series_key": "liyanfang3",
+      "series_name": "李艳芳三套卷",
+      "year": 2025,
+      "subject": "math3",
+      "paper_no": 2,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "5b645aaac83496cd2880d98a625dea0d4c18c22d309968fef84ce971d5362a67"
+    },
+    {
+      "natural_key": "2025/math3/liyanfang3/3",
+      "bundle": "liyanfang3-2025-math3",
+      "series_key": "liyanfang3",
+      "series_name": "李艳芳三套卷",
+      "year": 2025,
+      "subject": "math3",
+      "paper_no": 3,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "39e1ac4d18d44ded39cc4e729fd4e0a0f105d1c18bf4f5f6ffef3d1c0b7fb29d"
+    },
+    {
+      "natural_key": "2026/math1/liyanfang3/1",
+      "bundle": "liyanfang3-2026-math1",
+      "series_key": "liyanfang3",
+      "series_name": "李艳芳三套卷",
+      "year": 2026,
+      "subject": "math1",
+      "paper_no": 1,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "2a299eeaccc80c93898b9fe9eab065c4f80dc325c61b7375b3c889c81187443e"
+    },
+    {
+      "natural_key": "2026/math1/liyanfang3/2",
+      "bundle": "liyanfang3-2026-math1",
+      "series_key": "liyanfang3",
+      "series_name": "李艳芳三套卷",
+      "year": 2026,
+      "subject": "math1",
+      "paper_no": 2,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "8c05d11d58875d6eda92e08f1de79dabb9cd09fa5684477c8bd4a1a7a04750b6"
+    },
+    {
+      "natural_key": "2026/math1/liyanfang3/3",
+      "bundle": "liyanfang3-2026-math1",
+      "series_key": "liyanfang3",
+      "series_name": "李艳芳三套卷",
+      "year": 2026,
+      "subject": "math1",
+      "paper_no": 3,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 4,
+      "content_hash": "22d2cf17cbee9eb1a5cec17f0f05f7932a795b32d1ad78146ef536bfb6a49b1d"
+    },
+    {
+      "natural_key": "2026/math2/liyanfang3/1",
+      "bundle": "liyanfang3-2026-math2",
+      "series_key": "liyanfang3",
+      "series_name": "李艳芳三套卷",
+      "year": 2026,
+      "subject": "math2",
+      "paper_no": 1,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "b146086a9439c222c6dd8dfbeab2ec3c01ba9d5d977cd9138f0f06d6975f2e71"
+    },
+    {
+      "natural_key": "2026/math2/liyanfang3/2",
+      "bundle": "liyanfang3-2026-math2",
+      "series_key": "liyanfang3",
+      "series_name": "李艳芳三套卷",
+      "year": 2026,
+      "subject": "math2",
+      "paper_no": 2,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "af808412897678b7839c3fe3f74e814116d315e954ad2d8e72b4fe0db65fc1d5"
+    },
+    {
+      "natural_key": "2026/math2/liyanfang3/3",
+      "bundle": "liyanfang3-2026-math2",
+      "series_key": "liyanfang3",
+      "series_name": "李艳芳三套卷",
+      "year": 2026,
+      "subject": "math2",
+      "paper_no": 3,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "1fe5586d56540195463534cfcd6a15f4eb379e5bf3b9e8b04bb4ba7aadef5c8d"
+    },
+    {
+      "natural_key": "2026/math3/liyanfang3/1",
+      "bundle": "liyanfang3-2026-math3",
+      "series_key": "liyanfang3",
+      "series_name": "李艳芳三套卷",
+      "year": 2026,
+      "subject": "math3",
+      "paper_no": 1,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "0a6115f078c683ca663c6cf35bf9dc35ee0336b843fe08b4ba15767d9187c0d5"
+    },
+    {
+      "natural_key": "2026/math3/liyanfang3/2",
+      "bundle": "liyanfang3-2026-math3",
+      "series_key": "liyanfang3",
+      "series_name": "李艳芳三套卷",
+      "year": 2026,
+      "subject": "math3",
+      "paper_no": 2,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "74389fc433eaabeab67446f58db3a389bf7ca46794594b799b787483590cded8"
+    },
+    {
+      "natural_key": "2026/math3/liyanfang3/3",
+      "bundle": "liyanfang3-2026-math3",
+      "series_key": "liyanfang3",
+      "series_name": "李艳芳三套卷",
+      "year": 2026,
+      "subject": "math3",
+      "paper_no": 3,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 1,
+      "content_hash": "222f3340dfb8f0f1c25eeca02cf834cf3cdac39d7e1e059488a86e11e6b4819e"
+    },
+    {
+      "natural_key": "2024/math1/yubingsen5/1",
+      "bundle": "yubingsen5-2024-math1",
+      "series_key": "yubingsen5",
+      "series_name": "余炳森五套卷",
+      "year": 2024,
+      "subject": "math1",
+      "paper_no": 1,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "7c89a641f56f09d33968ebca7425e3e7bf47e8e02d10458dfc8772b3a743fcc3"
+    },
+    {
+      "natural_key": "2024/math1/yubingsen5/2",
+      "bundle": "yubingsen5-2024-math1",
+      "series_key": "yubingsen5",
+      "series_name": "余炳森五套卷",
+      "year": 2024,
+      "subject": "math1",
+      "paper_no": 2,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "dd271846cd4c48e002d0c4917aeca7cae0c8afe53c553b7e55f836228327bd7a"
+    },
+    {
+      "natural_key": "2024/math1/yubingsen5/3",
+      "bundle": "yubingsen5-2024-math1",
+      "series_key": "yubingsen5",
+      "series_name": "余炳森五套卷",
+      "year": 2024,
+      "subject": "math1",
+      "paper_no": 3,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "b64f8967bbdb0cf6e29cc2f6e17cbd71bad136c1f635f4e748419546afda2b90"
+    },
+    {
+      "natural_key": "2024/math1/yubingsen5/4",
+      "bundle": "yubingsen5-2024-math1",
+      "series_key": "yubingsen5",
+      "series_name": "余炳森五套卷",
+      "year": 2024,
+      "subject": "math1",
+      "paper_no": 4,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "0f13aa814b9874395d05980eab91797e0d4a5260a841e6c4fdc2eb4637b64b71"
+    },
+    {
+      "natural_key": "2024/math1/yubingsen5/5",
+      "bundle": "yubingsen5-2024-math1",
+      "series_key": "yubingsen5",
+      "series_name": "余炳森五套卷",
+      "year": 2024,
+      "subject": "math1",
+      "paper_no": 5,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "9bb161513efc2aa1dec5000451990a6edd42b398da269931d2db6f26b4585700"
+    },
+    {
+      "natural_key": "2024/math2/yubingsen5/1",
+      "bundle": "yubingsen5-2024-math2",
+      "series_key": "yubingsen5",
+      "series_name": "余炳森五套卷",
+      "year": 2024,
+      "subject": "math2",
+      "paper_no": 1,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "8123f1de507093d0cf2cd77c599323293c6f084c5e85b57b11a650241ec9479a"
+    },
+    {
+      "natural_key": "2024/math2/yubingsen5/2",
+      "bundle": "yubingsen5-2024-math2",
+      "series_key": "yubingsen5",
+      "series_name": "余炳森五套卷",
+      "year": 2024,
+      "subject": "math2",
+      "paper_no": 2,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "9f4da3d9d24aeba0ef6ac6f60861069f35f655416ecc598e59c39875dd609f3d"
+    },
+    {
+      "natural_key": "2024/math2/yubingsen5/3",
+      "bundle": "yubingsen5-2024-math2",
+      "series_key": "yubingsen5",
+      "series_name": "余炳森五套卷",
+      "year": 2024,
+      "subject": "math2",
+      "paper_no": 3,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 1,
+      "content_hash": "54dc822d2292bd453ab80e9585d44b575c0941a587039a60cf342954345abba0"
+    },
+    {
+      "natural_key": "2024/math2/yubingsen5/4",
+      "bundle": "yubingsen5-2024-math2",
+      "series_key": "yubingsen5",
+      "series_name": "余炳森五套卷",
+      "year": 2024,
+      "subject": "math2",
+      "paper_no": 4,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "dd406ce53b20522cc99794a094024e65d67d28e6567ff98a2129ee8cd524d70c"
+    },
+    {
+      "natural_key": "2024/math2/yubingsen5/5",
+      "bundle": "yubingsen5-2024-math2",
+      "series_key": "yubingsen5",
+      "series_name": "余炳森五套卷",
+      "year": 2024,
+      "subject": "math2",
+      "paper_no": 5,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "efdb4786bdbb1a28a4a83916fb13865ed85f9df919e0988bef0215f4ba12fd98"
+    },
+    {
+      "natural_key": "2024/math3/yubingsen5/1",
+      "bundle": "yubingsen5-2024-math3",
+      "series_key": "yubingsen5",
+      "series_name": "余炳森五套卷",
+      "year": 2024,
+      "subject": "math3",
+      "paper_no": 1,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "f48854998e1dff3107d67a3df9ade5f9724b6c200212c1f8f5322ee186ad4cc4"
+    },
+    {
+      "natural_key": "2024/math3/yubingsen5/2",
+      "bundle": "yubingsen5-2024-math3",
+      "series_key": "yubingsen5",
+      "series_name": "余炳森五套卷",
+      "year": 2024,
+      "subject": "math3",
+      "paper_no": 2,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "78058a5db7814185561b95730426e84bafb315c6ac995859bfc11f87f576b2db"
+    },
+    {
+      "natural_key": "2024/math3/yubingsen5/3",
+      "bundle": "yubingsen5-2024-math3",
+      "series_key": "yubingsen5",
+      "series_name": "余炳森五套卷",
+      "year": 2024,
+      "subject": "math3",
+      "paper_no": 3,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 1,
+      "content_hash": "2f1d339b48976ebbd32d25dd8532bd75411c1753a36cc8ad13a31a3fba66fc30"
+    },
+    {
+      "natural_key": "2024/math3/yubingsen5/4",
+      "bundle": "yubingsen5-2024-math3",
+      "series_key": "yubingsen5",
+      "series_name": "余炳森五套卷",
+      "year": 2024,
+      "subject": "math3",
+      "paper_no": 4,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "3c345d49437ea946e5d688aae08fe6e189a21a9435651cde9e117c89c2f12c64"
+    },
+    {
+      "natural_key": "2024/math3/yubingsen5/5",
+      "bundle": "yubingsen5-2024-math3",
+      "series_key": "yubingsen5",
+      "series_name": "余炳森五套卷",
+      "year": 2024,
+      "subject": "math3",
+      "paper_no": 5,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "9b3b356fda527ef7d2c0c19067d6469220b13661e9a8a5d34d6c489d72874bd7"
+    },
+    {
+      "natural_key": "2025/math1/yubingsen5/1",
+      "bundle": "yubingsen5-2025-math1",
+      "series_key": "yubingsen5",
+      "series_name": "余炳森五套卷",
+      "year": 2025,
+      "subject": "math1",
+      "paper_no": 1,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "7f8169bfe8553f3d773f3c5d51023e817511bbb912df41568f076018a645662e"
+    },
+    {
+      "natural_key": "2025/math1/yubingsen5/2",
+      "bundle": "yubingsen5-2025-math1",
+      "series_key": "yubingsen5",
+      "series_name": "余炳森五套卷",
+      "year": 2025,
+      "subject": "math1",
+      "paper_no": 2,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "1de4cff3a7a3413d7101c77c186433b6a8313aaf5df8531f8f5c17230ea2d444"
+    },
+    {
+      "natural_key": "2025/math1/yubingsen5/3",
+      "bundle": "yubingsen5-2025-math1",
+      "series_key": "yubingsen5",
+      "series_name": "余炳森五套卷",
+      "year": 2025,
+      "subject": "math1",
+      "paper_no": 3,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "60b66dcff93e2fd510f2163e8e8b062962d56c91c20f33843ba67e206923abc1"
+    },
+    {
+      "natural_key": "2025/math1/yubingsen5/4",
+      "bundle": "yubingsen5-2025-math1",
+      "series_key": "yubingsen5",
+      "series_name": "余炳森五套卷",
+      "year": 2025,
+      "subject": "math1",
+      "paper_no": 4,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "dcc98a08f60f434985035cb5485ee43c2f5abf0c333183887b10386fbde99308"
+    },
+    {
+      "natural_key": "2025/math1/yubingsen5/5",
+      "bundle": "yubingsen5-2025-math1",
+      "series_key": "yubingsen5",
+      "series_name": "余炳森五套卷",
+      "year": 2025,
+      "subject": "math1",
+      "paper_no": 5,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "6280941f5dffc8a449c1c61641fbd61932e131cdc7c7b7ae3bdf67051eaed763"
+    },
+    {
+      "natural_key": "2025/math2/yubingsen5/1",
+      "bundle": "yubingsen5-2025-math2",
+      "series_key": "yubingsen5",
+      "series_name": "余炳森五套卷",
+      "year": 2025,
+      "subject": "math2",
+      "paper_no": 1,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "92bc6c21e8a7761f74c0f7617c9f02474c6e8251f2cd12d377b306a3eed458b5"
+    },
+    {
+      "natural_key": "2025/math2/yubingsen5/2",
+      "bundle": "yubingsen5-2025-math2",
+      "series_key": "yubingsen5",
+      "series_name": "余炳森五套卷",
+      "year": 2025,
+      "subject": "math2",
+      "paper_no": 2,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "34eadf00001b5027ffe4cd8e2c8ada3e61aa892b42524615aaced7abd653b609"
+    },
+    {
+      "natural_key": "2025/math2/yubingsen5/3",
+      "bundle": "yubingsen5-2025-math2",
+      "series_key": "yubingsen5",
+      "series_name": "余炳森五套卷",
+      "year": 2025,
+      "subject": "math2",
+      "paper_no": 3,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 1,
+      "content_hash": "7750296a6729abde4fd88b21e1754c4f796c575e1ca212e3a5f99ff118569e8f"
+    },
+    {
+      "natural_key": "2025/math2/yubingsen5/4",
+      "bundle": "yubingsen5-2025-math2",
+      "series_key": "yubingsen5",
+      "series_name": "余炳森五套卷",
+      "year": 2025,
+      "subject": "math2",
+      "paper_no": 4,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "a09885efe0a988d1347970f160b4eb33e223d7e462373db9154b3e0275691ac3"
+    },
+    {
+      "natural_key": "2025/math2/yubingsen5/5",
+      "bundle": "yubingsen5-2025-math2",
+      "series_key": "yubingsen5",
+      "series_name": "余炳森五套卷",
+      "year": 2025,
+      "subject": "math2",
+      "paper_no": 5,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "7c2dad3694cbfdccb466121a488ac812da782703aa57b60df7e406d3b81676f5"
+    },
+    {
+      "natural_key": "2025/math3/yubingsen5/1",
+      "bundle": "yubingsen5-2025-math3",
+      "series_key": "yubingsen5",
+      "series_name": "余炳森五套卷",
+      "year": 2025,
+      "subject": "math3",
+      "paper_no": 1,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "90a77da1ed4862ee00be7b26ddef1d11955250c18a9a93156b02c690140ff4ca"
+    },
+    {
+      "natural_key": "2025/math3/yubingsen5/2",
+      "bundle": "yubingsen5-2025-math3",
+      "series_key": "yubingsen5",
+      "series_name": "余炳森五套卷",
+      "year": 2025,
+      "subject": "math3",
+      "paper_no": 2,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "ee501ea52d6b3bb8934d8bc93fcbaeebc3ee4f96cb3eff2f6d59b17edaba8820"
+    },
+    {
+      "natural_key": "2025/math3/yubingsen5/3",
+      "bundle": "yubingsen5-2025-math3",
+      "series_key": "yubingsen5",
+      "series_name": "余炳森五套卷",
+      "year": 2025,
+      "subject": "math3",
+      "paper_no": 3,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "e73ef51592dee2732994d159a67d11c9251e9c8883e25e447a1f835b56734007"
+    },
+    {
+      "natural_key": "2025/math3/yubingsen5/4",
+      "bundle": "yubingsen5-2025-math3",
+      "series_key": "yubingsen5",
+      "series_name": "余炳森五套卷",
+      "year": 2025,
+      "subject": "math3",
+      "paper_no": 4,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "53a878227f309e7cc48b2b1ec699deca9f985e31c8d464e51a8934baccf2450f"
+    },
+    {
+      "natural_key": "2025/math3/yubingsen5/5",
+      "bundle": "yubingsen5-2025-math3",
+      "series_key": "yubingsen5",
+      "series_name": "余炳森五套卷",
+      "year": 2025,
+      "subject": "math3",
+      "paper_no": 5,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "5dd8323baccb55a40bb094acbd85410c37d4a5b4dbc847e20b854003e45ba791"
+    },
+    {
+      "natural_key": "2024/math1/zhangyu4/1",
+      "bundle": "zhangyu4-2024-math1",
+      "series_key": "zhangyu4",
+      "series_name": "张宇四套卷",
+      "year": 2024,
+      "subject": "math1",
+      "paper_no": 1,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 1,
+      "content_hash": "5748480845e99cf6a8e83f89e0745556025b308037289d886a15d957b6403684"
+    },
+    {
+      "natural_key": "2024/math1/zhangyu4/2",
+      "bundle": "zhangyu4-2024-math1",
+      "series_key": "zhangyu4",
+      "series_name": "张宇四套卷",
+      "year": 2024,
+      "subject": "math1",
+      "paper_no": 2,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "9b426bec0fffd59498f650d70aaadba8859381359b3618114bbf343a3512dfc7"
+    },
+    {
+      "natural_key": "2024/math1/zhangyu4/3",
+      "bundle": "zhangyu4-2024-math1",
+      "series_key": "zhangyu4",
+      "series_name": "张宇四套卷",
+      "year": 2024,
+      "subject": "math1",
+      "paper_no": 3,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 1,
+      "content_hash": "95abf959c02450ef9d370aac43bb84cb28e003c35ab6d499e96751269823c9aa"
+    },
+    {
+      "natural_key": "2024/math1/zhangyu4/4",
+      "bundle": "zhangyu4-2024-math1",
+      "series_key": "zhangyu4",
+      "series_name": "张宇四套卷",
+      "year": 2024,
+      "subject": "math1",
+      "paper_no": 4,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "3ea78300e33a108a2a050e9e991fa96f629df97ae0339c2bc72884ed5d5723f7"
+    },
+    {
+      "natural_key": "2024/math2/zhangyu4/1",
+      "bundle": "zhangyu4-2024-math2",
+      "series_key": "zhangyu4",
+      "series_name": "张宇四套卷",
+      "year": 2024,
+      "subject": "math2",
+      "paper_no": 1,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 1,
+      "content_hash": "96b6e40b79e21556f55ec00c22b2d058eec0ba25b3b61c3070d37d85ac673518"
+    },
+    {
+      "natural_key": "2024/math2/zhangyu4/2",
+      "bundle": "zhangyu4-2024-math2",
+      "series_key": "zhangyu4",
+      "series_name": "张宇四套卷",
+      "year": 2024,
+      "subject": "math2",
+      "paper_no": 2,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "7e7cb90a084a59a5de7ca2b337824ff6fbf8ad37bf1770f416ac95187c0df332"
+    },
+    {
+      "natural_key": "2024/math2/zhangyu4/3",
+      "bundle": "zhangyu4-2024-math2",
+      "series_key": "zhangyu4",
+      "series_name": "张宇四套卷",
+      "year": 2024,
+      "subject": "math2",
+      "paper_no": 3,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 1,
+      "content_hash": "9f3250a965be83363c87017e7219d1c6042166f09b1801eeed2a1a3e16a06b6d"
+    },
+    {
+      "natural_key": "2024/math2/zhangyu4/4",
+      "bundle": "zhangyu4-2024-math2",
+      "series_key": "zhangyu4",
+      "series_name": "张宇四套卷",
+      "year": 2024,
+      "subject": "math2",
+      "paper_no": 4,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "0dd053a559268d2784f05ba95fedd271eca478584324eed1e77ac614018c7c9a"
+    },
+    {
+      "natural_key": "2024/math3/zhangyu4/1",
+      "bundle": "zhangyu4-2024-math3",
+      "series_key": "zhangyu4",
+      "series_name": "张宇四套卷",
+      "year": 2024,
+      "subject": "math3",
+      "paper_no": 1,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 1,
+      "content_hash": "fdd675b6921cab678da6ae0989e5d9a43c74adc245393fac0220ca1818626813"
+    },
+    {
+      "natural_key": "2024/math3/zhangyu4/2",
+      "bundle": "zhangyu4-2024-math3",
+      "series_key": "zhangyu4",
+      "series_name": "张宇四套卷",
+      "year": 2024,
+      "subject": "math3",
+      "paper_no": 2,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "892015e372157bd48d4cef34745faacd08750524790af8a3c6c2ed75e3c1f3ec"
+    },
+    {
+      "natural_key": "2024/math3/zhangyu4/3",
+      "bundle": "zhangyu4-2024-math3",
+      "series_key": "zhangyu4",
+      "series_name": "张宇四套卷",
+      "year": 2024,
+      "subject": "math3",
+      "paper_no": 3,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "26f9c5fbf88552fa1617bd8bc3261ae17af921512f502f10dc9e632016a72996"
+    },
+    {
+      "natural_key": "2024/math3/zhangyu4/4",
+      "bundle": "zhangyu4-2024-math3",
+      "series_key": "zhangyu4",
+      "series_name": "张宇四套卷",
+      "year": 2024,
+      "subject": "math3",
+      "paper_no": 4,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "cac34cbd20a5a640691efa40fd053cf0f1e38843bb8c9becb15fe4eaba596278"
+    },
+    {
+      "natural_key": "2025/math1/zhangyu4/1",
+      "bundle": "zhangyu4-2025-math1",
+      "series_key": "zhangyu4",
+      "series_name": "张宇四套卷",
+      "year": 2025,
+      "subject": "math1",
+      "paper_no": 1,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 1,
+      "content_hash": "1094a7575cf8213f72a37a45f39eb0bf61b7b09f075a81218427f1441fe719a2"
+    },
+    {
+      "natural_key": "2025/math1/zhangyu4/2",
+      "bundle": "zhangyu4-2025-math1",
+      "series_key": "zhangyu4",
+      "series_name": "张宇四套卷",
+      "year": 2025,
+      "subject": "math1",
+      "paper_no": 2,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "be465865c1baeac15533ea46c4f8e375bd4f1156bae9120057a2dcd4a57066e0"
+    },
+    {
+      "natural_key": "2025/math1/zhangyu4/3",
+      "bundle": "zhangyu4-2025-math1",
+      "series_key": "zhangyu4",
+      "series_name": "张宇四套卷",
+      "year": 2025,
+      "subject": "math1",
+      "paper_no": 3,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "d538056aeef5a89cfbb0a8896a29185646995e3e9d7d394b4a4045b3ec3b630a"
+    },
+    {
+      "natural_key": "2025/math1/zhangyu4/4",
+      "bundle": "zhangyu4-2025-math1",
+      "series_key": "zhangyu4",
+      "series_name": "张宇四套卷",
+      "year": 2025,
+      "subject": "math1",
+      "paper_no": 4,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "21c9b2fd1124d1208b0b4f99cba28a792f0b1e7427ae9704fbe4bd057a952eb5"
+    },
+    {
+      "natural_key": "2025/math2/zhangyu4/1",
+      "bundle": "zhangyu4-2025-math2",
+      "series_key": "zhangyu4",
+      "series_name": "张宇四套卷",
+      "year": 2025,
+      "subject": "math2",
+      "paper_no": 1,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "0a0b4c9d58600f49847cc1cd19495eae0d2ba203bc539a2f900bbc4d61189d21"
+    },
+    {
+      "natural_key": "2025/math2/zhangyu4/2",
+      "bundle": "zhangyu4-2025-math2",
+      "series_key": "zhangyu4",
+      "series_name": "张宇四套卷",
+      "year": 2025,
+      "subject": "math2",
+      "paper_no": 2,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "9abc94c8358f3e2a6b490ac914685d102b43346b0d579632a431d427baa40f05"
+    },
+    {
+      "natural_key": "2025/math2/zhangyu4/3",
+      "bundle": "zhangyu4-2025-math2",
+      "series_key": "zhangyu4",
+      "series_name": "张宇四套卷",
+      "year": 2025,
+      "subject": "math2",
+      "paper_no": 3,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "17750a1f7715f51e108a23c10b93614aa90f2ac413f1dc263d2ffed7b2796311"
+    },
+    {
+      "natural_key": "2025/math2/zhangyu4/4",
+      "bundle": "zhangyu4-2025-math2",
+      "series_key": "zhangyu4",
+      "series_name": "张宇四套卷",
+      "year": 2025,
+      "subject": "math2",
+      "paper_no": 4,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "992ca5ac4a30cb0815e76c664b23d9e8d7c91edc87093eebc76c8ac76ae7ebd2"
+    },
+    {
+      "natural_key": "2025/math3/zhangyu4/1",
+      "bundle": "zhangyu4-2025-math3",
+      "series_key": "zhangyu4",
+      "series_name": "张宇四套卷",
+      "year": 2025,
+      "subject": "math3",
+      "paper_no": 1,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "a047af0613c9095341b8fba4187e13a53e15f25edb02c9bf891e0536da125df0"
+    },
+    {
+      "natural_key": "2025/math3/zhangyu4/2",
+      "bundle": "zhangyu4-2025-math3",
+      "series_key": "zhangyu4",
+      "series_name": "张宇四套卷",
+      "year": 2025,
+      "subject": "math3",
+      "paper_no": 2,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "b2644fb249cda308aa29ae4e5fd72247b87a3f08b03a32d3434d505a5c223197"
+    },
+    {
+      "natural_key": "2025/math3/zhangyu4/3",
+      "bundle": "zhangyu4-2025-math3",
+      "series_key": "zhangyu4",
+      "series_name": "张宇四套卷",
+      "year": 2025,
+      "subject": "math3",
+      "paper_no": 3,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "7404cfa643a005b7b75aa826ac8830012780d9293cadd3e2885cd8588bc0d7bb"
+    },
+    {
+      "natural_key": "2025/math3/zhangyu4/4",
+      "bundle": "zhangyu4-2025-math3",
+      "series_key": "zhangyu4",
+      "series_name": "张宇四套卷",
+      "year": 2025,
+      "subject": "math3",
+      "paper_no": 4,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "e63a48bab9ec2c6d14f27ede0cc574dd6f76dec973fc6df9370d29632355b75c"
+    },
+    {
+      "natural_key": "2026/math1/zhangyu4/1",
+      "bundle": "zhangyu4-2026-math1",
+      "series_key": "zhangyu4",
+      "series_name": "张宇四套卷",
+      "year": 2026,
+      "subject": "math1",
+      "paper_no": 1,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "c4e0b6197bba92ddaee020693ef2e849f4170093b11146203f1bed72b9079f2b"
+    },
+    {
+      "natural_key": "2026/math1/zhangyu4/2",
+      "bundle": "zhangyu4-2026-math1",
+      "series_key": "zhangyu4",
+      "series_name": "张宇四套卷",
+      "year": 2026,
+      "subject": "math1",
+      "paper_no": 2,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "778d49c2e1d9dace322d2559e6cf5aaf0c27ea6300a49e1632d0ae22d5be532b"
+    },
+    {
+      "natural_key": "2026/math1/zhangyu4/3",
+      "bundle": "zhangyu4-2026-math1",
+      "series_key": "zhangyu4",
+      "series_name": "张宇四套卷",
+      "year": 2026,
+      "subject": "math1",
+      "paper_no": 3,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "e9132b3c41203968a35d20d5296d3861bbbfb5c1a6e789e5e7ceb94e7d938c3d"
+    },
+    {
+      "natural_key": "2026/math1/zhangyu4/4",
+      "bundle": "zhangyu4-2026-math1",
+      "series_key": "zhangyu4",
+      "series_name": "张宇四套卷",
+      "year": 2026,
+      "subject": "math1",
+      "paper_no": 4,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "b08fe4c48e28a84ceaa217bcafd3b3a8a7103a30b6c39098ad26883d0e49d431"
+    },
+    {
+      "natural_key": "2026/math2/zhangyu4/1",
+      "bundle": "zhangyu4-2026-math2",
+      "series_key": "zhangyu4",
+      "series_name": "张宇四套卷",
+      "year": 2026,
+      "subject": "math2",
+      "paper_no": 1,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 1,
+      "content_hash": "c1646985baacb0c4b9c0f3210039cb2024ac2510cd93a2195a8faf0516fa054c"
+    },
+    {
+      "natural_key": "2026/math2/zhangyu4/2",
+      "bundle": "zhangyu4-2026-math2",
+      "series_key": "zhangyu4",
+      "series_name": "张宇四套卷",
+      "year": 2026,
+      "subject": "math2",
+      "paper_no": 2,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "fd994b2bf5f767cae2a2993f9d1c5f13650976f447eb129c2002f8a69d4c386d"
+    },
+    {
+      "natural_key": "2026/math2/zhangyu4/3",
+      "bundle": "zhangyu4-2026-math2",
+      "series_key": "zhangyu4",
+      "series_name": "张宇四套卷",
+      "year": 2026,
+      "subject": "math2",
+      "paper_no": 3,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "b2a158006f0dcf4502168a75ef5a918f81cc2b745e4a922073ce62ef8a4b8052"
+    },
+    {
+      "natural_key": "2026/math2/zhangyu4/4",
+      "bundle": "zhangyu4-2026-math2",
+      "series_key": "zhangyu4",
+      "series_name": "张宇四套卷",
+      "year": 2026,
+      "subject": "math2",
+      "paper_no": 4,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "7470a7b5235d2d877f0d1c85874b591465541eea0be8625a82d78edd44e51a7b"
+    },
+    {
+      "natural_key": "2026/math3/zhangyu4/1",
+      "bundle": "zhangyu4-2026-math3",
+      "series_key": "zhangyu4",
+      "series_name": "张宇四套卷",
+      "year": 2026,
+      "subject": "math3",
+      "paper_no": 1,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "8e14a992f8bb5d33c9edfbff27c57e7c8c6aee01e617dbef55c1e0d224646d2e"
+    },
+    {
+      "natural_key": "2026/math3/zhangyu4/2",
+      "bundle": "zhangyu4-2026-math3",
+      "series_key": "zhangyu4",
+      "series_name": "张宇四套卷",
+      "year": 2026,
+      "subject": "math3",
+      "paper_no": 2,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "1e375328b17242f361abf8b0acdfeab2a8eec2434032359d0f684eaf0fc53131"
+    },
+    {
+      "natural_key": "2026/math3/zhangyu4/3",
+      "bundle": "zhangyu4-2026-math3",
+      "series_key": "zhangyu4",
+      "series_name": "张宇四套卷",
+      "year": 2026,
+      "subject": "math3",
+      "paper_no": 3,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "02dff68d110247c94389bb4d842e89666965bcd636600c8ba4a0a6bed7a840b3"
+    },
+    {
+      "natural_key": "2026/math3/zhangyu4/4",
+      "bundle": "zhangyu4-2026-math3",
+      "series_key": "zhangyu4",
+      "series_name": "张宇四套卷",
+      "year": 2026,
+      "subject": "math3",
+      "paper_no": 4,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "37b8549931ae3076644cd6aac6e77334392a31bafa6d9da99648198a9267c8b0"
+    },
+    {
+      "natural_key": "2023/math1/zhangyu8/1",
+      "bundle": "zhangyu8-2023-math1",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2023,
+      "subject": "math1",
+      "paper_no": 1,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "2602765238d5663b2123b913db768f6e48beb4a9de25a43410ab89d9c3037c61"
+    },
+    {
+      "natural_key": "2023/math1/zhangyu8/2",
+      "bundle": "zhangyu8-2023-math1",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2023,
+      "subject": "math1",
+      "paper_no": 2,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 1,
+      "content_hash": "1beee6942919d2c3e6dce296295ce8a4eb701536aff78f6f62328d8aec28204e"
+    },
+    {
+      "natural_key": "2023/math1/zhangyu8/3",
+      "bundle": "zhangyu8-2023-math1",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2023,
+      "subject": "math1",
+      "paper_no": 3,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 1,
+      "content_hash": "f42300cebc86af150c61166a839c28e40ec4b0670abd0e8c95e25ecadc05fd15"
+    },
+    {
+      "natural_key": "2023/math1/zhangyu8/4",
+      "bundle": "zhangyu8-2023-math1",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2023,
+      "subject": "math1",
+      "paper_no": 4,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "671956e060bf542408d7f25edde04102dbbd9282ca1e1db77104577b60926ab4"
+    },
+    {
+      "natural_key": "2023/math1/zhangyu8/5",
+      "bundle": "zhangyu8-2023-math1",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2023,
+      "subject": "math1",
+      "paper_no": 5,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "997429d56bba71dbbfc0bccf2ba00aced5fc010d3d593423ec5feeb02a5bdbac"
+    },
+    {
+      "natural_key": "2023/math1/zhangyu8/6",
+      "bundle": "zhangyu8-2023-math1",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2023,
+      "subject": "math1",
+      "paper_no": 6,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "f2a1d0948066205c33bbc113038b81af30e19747d859f0cb414c0071d44fb5a9"
+    },
+    {
+      "natural_key": "2023/math1/zhangyu8/7",
+      "bundle": "zhangyu8-2023-math1",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2023,
+      "subject": "math1",
+      "paper_no": 7,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "3f6b7b5321f934d022eb30ef885c6eba01ef81bacfeab613c2d949db026669f9"
+    },
+    {
+      "natural_key": "2023/math1/zhangyu8/8",
+      "bundle": "zhangyu8-2023-math1",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2023,
+      "subject": "math1",
+      "paper_no": 8,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 1,
+      "content_hash": "e8d5561920f0a965742e39c9f528485eb4b482a30edb04172f8363571d833a18"
+    },
+    {
+      "natural_key": "2023/math2/zhangyu8/1",
+      "bundle": "zhangyu8-2023-math2",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2023,
+      "subject": "math2",
+      "paper_no": 1,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "a7030fd836320124208c0cc1956da9d85ed1b79f0a2200d5d5b0f93d282c9b3a"
+    },
+    {
+      "natural_key": "2023/math2/zhangyu8/2",
+      "bundle": "zhangyu8-2023-math2",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2023,
+      "subject": "math2",
+      "paper_no": 2,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "c8daad59002398a6a8c117902c6cb5b3c6373bd07a8498cf8625cd49ff50d6b0"
+    },
+    {
+      "natural_key": "2023/math2/zhangyu8/3",
+      "bundle": "zhangyu8-2023-math2",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2023,
+      "subject": "math2",
+      "paper_no": 3,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 2,
+      "content_hash": "e0e1b3a3592a61e9261b27be8957b9627190a815a69615119541b3a778d231e3"
+    },
+    {
+      "natural_key": "2023/math2/zhangyu8/4",
+      "bundle": "zhangyu8-2023-math2",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2023,
+      "subject": "math2",
+      "paper_no": 4,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "b358768c5603a1d0bf6c69cba465a2cf9e3425a68110a29bd855e9e195d9bb11"
+    },
+    {
+      "natural_key": "2023/math2/zhangyu8/5",
+      "bundle": "zhangyu8-2023-math2",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2023,
+      "subject": "math2",
+      "paper_no": 5,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "1ac62c55ac6339d5561701757c29b19311d9ca12c3b2d790b107038c0cd6aa58"
+    },
+    {
+      "natural_key": "2023/math2/zhangyu8/6",
+      "bundle": "zhangyu8-2023-math2",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2023,
+      "subject": "math2",
+      "paper_no": 6,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "f415470ea307e11caa78fc3f25c21422af2417802776a983d5ceaf140f465caa"
+    },
+    {
+      "natural_key": "2023/math2/zhangyu8/7",
+      "bundle": "zhangyu8-2023-math2",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2023,
+      "subject": "math2",
+      "paper_no": 7,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "6a2e28070745c5b2fc64c7555ac96687f52fb787b1a2f2966b8ad8ba2f2c2735"
+    },
+    {
+      "natural_key": "2023/math2/zhangyu8/8",
+      "bundle": "zhangyu8-2023-math2",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2023,
+      "subject": "math2",
+      "paper_no": 8,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "763f7b0ad3f16ae84b824c71d12384b344983b9f4abc65763b6754095a53091f"
+    },
+    {
+      "natural_key": "2023/math3/zhangyu8/1",
+      "bundle": "zhangyu8-2023-math3",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2023,
+      "subject": "math3",
+      "paper_no": 1,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "4a564c07aa34290d515b63ea20338dd6aa7dedca0c56e588b8f21e25b9ee34a1"
+    },
+    {
+      "natural_key": "2023/math3/zhangyu8/2",
+      "bundle": "zhangyu8-2023-math3",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2023,
+      "subject": "math3",
+      "paper_no": 2,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 1,
+      "content_hash": "d7ba34605027a9633bda5b0bc6738c66f6b02d41638f8f4cd3b37136141c780f"
+    },
+    {
+      "natural_key": "2023/math3/zhangyu8/3",
+      "bundle": "zhangyu8-2023-math3",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2023,
+      "subject": "math3",
+      "paper_no": 3,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 1,
+      "content_hash": "6a74a869883c5bfad7ba11e31db43fa4cdca3ab436a7711786396de724f9779a"
+    },
+    {
+      "natural_key": "2023/math3/zhangyu8/4",
+      "bundle": "zhangyu8-2023-math3",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2023,
+      "subject": "math3",
+      "paper_no": 4,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "e8ebd71cccce0eda71540508c2961a65c12af0e63e266b2cf1f7ee79edc9726a"
+    },
+    {
+      "natural_key": "2023/math3/zhangyu8/5",
+      "bundle": "zhangyu8-2023-math3",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2023,
+      "subject": "math3",
+      "paper_no": 5,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "9f0679f15288a8f71fa97eadacc94624bc6abc6043f41accf2fe6753b117537c"
+    },
+    {
+      "natural_key": "2023/math3/zhangyu8/6",
+      "bundle": "zhangyu8-2023-math3",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2023,
+      "subject": "math3",
+      "paper_no": 6,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "2478c95dc40d31567be4d5125f8a1d29854798f597480e980d0800b536fa1c67"
+    },
+    {
+      "natural_key": "2023/math3/zhangyu8/7",
+      "bundle": "zhangyu8-2023-math3",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2023,
+      "subject": "math3",
+      "paper_no": 7,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "f2c375714dd52dbc45f2bf4950335891227820bd47907f2f54b7dbf21580231d"
+    },
+    {
+      "natural_key": "2023/math3/zhangyu8/8",
+      "bundle": "zhangyu8-2023-math3",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2023,
+      "subject": "math3",
+      "paper_no": 8,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "aed24fd937235d280105b27871754a105e041af7a601759ad3926648fc1aab35"
+    },
+    {
+      "natural_key": "2024/math1/zhangyu8/1",
+      "bundle": "zhangyu8-2024-math1",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2024,
+      "subject": "math1",
+      "paper_no": 1,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 1,
+      "content_hash": "baaa56e8f34687db2893d2c2981086e57fbf7883a3c89dded6cd7ff7e242f2f6"
+    },
+    {
+      "natural_key": "2024/math1/zhangyu8/2",
+      "bundle": "zhangyu8-2024-math1",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2024,
+      "subject": "math1",
+      "paper_no": 2,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "ef8d788471c7cbc6487e468b2dd1aed144d962da13da7d83f4af50a023f899a9"
+    },
+    {
+      "natural_key": "2024/math1/zhangyu8/3",
+      "bundle": "zhangyu8-2024-math1",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2024,
+      "subject": "math1",
+      "paper_no": 3,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "d660ae1db951d5431c9bd553bc943693c4e229027340ec46474de4ec70af426f"
+    },
+    {
+      "natural_key": "2024/math1/zhangyu8/4",
+      "bundle": "zhangyu8-2024-math1",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2024,
+      "subject": "math1",
+      "paper_no": 4,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "1a5558d34d6c83bec578cbb1e64ed13b49fda68e656c4f804c8ea19d9d020043"
+    },
+    {
+      "natural_key": "2024/math1/zhangyu8/5",
+      "bundle": "zhangyu8-2024-math1",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2024,
+      "subject": "math1",
+      "paper_no": 5,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "91ad6c8349fed8713105c7d3ad489c0fec2ef2289e8371758a784c4b30b3a2fe"
+    },
+    {
+      "natural_key": "2024/math1/zhangyu8/6",
+      "bundle": "zhangyu8-2024-math1",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2024,
+      "subject": "math1",
+      "paper_no": 6,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "a0e300a9e669f3bdc10bd3c25183b3c7e233d95fd7d0fa0c61b4a588f92b22d6"
+    },
+    {
+      "natural_key": "2024/math1/zhangyu8/7",
+      "bundle": "zhangyu8-2024-math1",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2024,
+      "subject": "math1",
+      "paper_no": 7,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 1,
+      "content_hash": "8bc95ddbccf8cf59439300e43f9d440376f8305d5842975680e44216ff69c40b"
+    },
+    {
+      "natural_key": "2024/math1/zhangyu8/8",
+      "bundle": "zhangyu8-2024-math1",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2024,
+      "subject": "math1",
+      "paper_no": 8,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "8ef5edc81e51ba9e129206f7cb2d88bb40a1f9b9dccd03564cc9da457a0f7141"
+    },
+    {
+      "natural_key": "2024/math2/zhangyu8/1",
+      "bundle": "zhangyu8-2024-math2",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2024,
+      "subject": "math2",
+      "paper_no": 1,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 1,
+      "content_hash": "b27f957aa8ff9ddf62306458d6bff1071209bc3e2b2fc717ac07a572aa4bd5ec"
+    },
+    {
+      "natural_key": "2024/math2/zhangyu8/2",
+      "bundle": "zhangyu8-2024-math2",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2024,
+      "subject": "math2",
+      "paper_no": 2,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "6a10aab43c2e0c94d3ffbe896420cf19caad0ed6df8c2af4983e46382b9eebb4"
+    },
+    {
+      "natural_key": "2024/math2/zhangyu8/3",
+      "bundle": "zhangyu8-2024-math2",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2024,
+      "subject": "math2",
+      "paper_no": 3,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "3e47d38a2fad8cab067092487d1c4d059f90bdc0d10f52d96916f1c7c533f7bb"
+    },
+    {
+      "natural_key": "2024/math2/zhangyu8/4",
+      "bundle": "zhangyu8-2024-math2",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2024,
+      "subject": "math2",
+      "paper_no": 4,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "4049080345ab221f4cf6d37afe85104376768ae93c7ecd6a6cdae747010aaa77"
+    },
+    {
+      "natural_key": "2024/math2/zhangyu8/5",
+      "bundle": "zhangyu8-2024-math2",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2024,
+      "subject": "math2",
+      "paper_no": 5,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "37509bf42e8f023ee554ff622aa7497446d83b2962a5ca55e60db1ee7b0d9d5b"
+    },
+    {
+      "natural_key": "2024/math2/zhangyu8/6",
+      "bundle": "zhangyu8-2024-math2",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2024,
+      "subject": "math2",
+      "paper_no": 6,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "109a090a817d7644954133d8f258e839923ec4cf67e8adcd7c486d0e6265eec3"
+    },
+    {
+      "natural_key": "2024/math2/zhangyu8/7",
+      "bundle": "zhangyu8-2024-math2",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2024,
+      "subject": "math2",
+      "paper_no": 7,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 1,
+      "content_hash": "4c6fee83aa3c389cdff2833b8f10198f9647d318a69185f1ddf08c5858b1b7dd"
+    },
+    {
+      "natural_key": "2024/math2/zhangyu8/8",
+      "bundle": "zhangyu8-2024-math2",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2024,
+      "subject": "math2",
+      "paper_no": 8,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "7b108d5a71d7ee4cb2b05f5d07cd268baaf92b1b1585a788261f9e49a921b56c"
+    },
+    {
+      "natural_key": "2024/math3/zhangyu8/1",
+      "bundle": "zhangyu8-2024-math3",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2024,
+      "subject": "math3",
+      "paper_no": 1,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 1,
+      "content_hash": "590f9c410073c5416f72fd077756c8650b3e7042b376766937972ff111f0dd32"
+    },
+    {
+      "natural_key": "2024/math3/zhangyu8/2",
+      "bundle": "zhangyu8-2024-math3",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2024,
+      "subject": "math3",
+      "paper_no": 2,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "146749469e1b3b45d2762327b90713b0cb514cd3bb68b17a688402f325ed924c"
+    },
+    {
+      "natural_key": "2024/math3/zhangyu8/3",
+      "bundle": "zhangyu8-2024-math3",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2024,
+      "subject": "math3",
+      "paper_no": 3,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "aaf159db63b5cb9437c03c0a6ef8b58309fb004e3728a7446ca9470ceee0bbb0"
+    },
+    {
+      "natural_key": "2024/math3/zhangyu8/4",
+      "bundle": "zhangyu8-2024-math3",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2024,
+      "subject": "math3",
+      "paper_no": 4,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "2e9de0c67fc4765478790e86fac33a82634a4aee22b225df7e7cf44d3ad91403"
+    },
+    {
+      "natural_key": "2024/math3/zhangyu8/5",
+      "bundle": "zhangyu8-2024-math3",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2024,
+      "subject": "math3",
+      "paper_no": 5,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "5418718900dabb427b0b8b7773506049e7165353eff7f8087d212a251e8c273e"
+    },
+    {
+      "natural_key": "2024/math3/zhangyu8/6",
+      "bundle": "zhangyu8-2024-math3",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2024,
+      "subject": "math3",
+      "paper_no": 6,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "1d93db2c17f0646f525f14bdb968025cd72eb6b0250f7ee813d87db12d8402c1"
+    },
+    {
+      "natural_key": "2024/math3/zhangyu8/7",
+      "bundle": "zhangyu8-2024-math3",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2024,
+      "subject": "math3",
+      "paper_no": 7,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "9841da98021dfca2e70a1bd70c214e90d6f804efab5b7277eeb94a49057ce42a"
+    },
+    {
+      "natural_key": "2024/math3/zhangyu8/8",
+      "bundle": "zhangyu8-2024-math3",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2024,
+      "subject": "math3",
+      "paper_no": 8,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "07764d00fe78b3f8714f6d5c0515ab96727a43a61f9704b2d232fcd385f62f97"
+    },
+    {
+      "natural_key": "2025/math1/zhangyu8/1",
+      "bundle": "zhangyu8-2025-math1",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2025,
+      "subject": "math1",
+      "paper_no": 1,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 1,
+      "content_hash": "0a76e8ab872be13c5bde456a4a7729b96ee4ebe9705b529049f8e5c1aa369128"
+    },
+    {
+      "natural_key": "2025/math1/zhangyu8/2",
+      "bundle": "zhangyu8-2025-math1",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2025,
+      "subject": "math1",
+      "paper_no": 2,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "2e20b2e6a4d402dc5dfab2341d4d0e81b40bcb01581cf253644f14a64c9cf65e"
+    },
+    {
+      "natural_key": "2025/math1/zhangyu8/3",
+      "bundle": "zhangyu8-2025-math1",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2025,
+      "subject": "math1",
+      "paper_no": 3,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 2,
+      "content_hash": "75bbd114a5dba685a7ea10ada2047f0f9200d816fdbd25c3034837f4b907931f"
+    },
+    {
+      "natural_key": "2025/math1/zhangyu8/4",
+      "bundle": "zhangyu8-2025-math1",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2025,
+      "subject": "math1",
+      "paper_no": 4,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 1,
+      "content_hash": "49acac8f15a03b68a4d562b02e1ae7d14da1fcd96e7e082d5179e1b68b164fe7"
+    },
+    {
+      "natural_key": "2025/math1/zhangyu8/5",
+      "bundle": "zhangyu8-2025-math1",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2025,
+      "subject": "math1",
+      "paper_no": 5,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "267e85998aead1de624d61dae0e7e94ec5557f8135fca395c73080409a7d08fd"
+    },
+    {
+      "natural_key": "2025/math1/zhangyu8/6",
+      "bundle": "zhangyu8-2025-math1",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2025,
+      "subject": "math1",
+      "paper_no": 6,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "ec665ca2990742b670460163e50175d110e1125d6ca7407f1f5507772b932056"
+    },
+    {
+      "natural_key": "2025/math1/zhangyu8/7",
+      "bundle": "zhangyu8-2025-math1",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2025,
+      "subject": "math1",
+      "paper_no": 7,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "892c0dc868942f69e620281eb5e06fb3ecee5a3527dce4c22dbd0aed02ca5ace"
+    },
+    {
+      "natural_key": "2025/math1/zhangyu8/8",
+      "bundle": "zhangyu8-2025-math1",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2025,
+      "subject": "math1",
+      "paper_no": 8,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "1dfe6f577cf39507ec3819cc5f6ef6845f611326ee7bf09b0316840dcea62887"
+    },
+    {
+      "natural_key": "2025/math2/zhangyu8/1",
+      "bundle": "zhangyu8-2025-math2",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2025,
+      "subject": "math2",
+      "paper_no": 1,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "c275327057057ca65b3584061baae485a74cec4728a88ad7776adb4a51d36535"
+    },
+    {
+      "natural_key": "2025/math2/zhangyu8/2",
+      "bundle": "zhangyu8-2025-math2",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2025,
+      "subject": "math2",
+      "paper_no": 2,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 5,
+      "content_hash": "5f08de5d9affca210507c6c1348627975f43a3bd60cbdf707ce11ddf2806a67b"
+    },
+    {
+      "natural_key": "2025/math2/zhangyu8/3",
+      "bundle": "zhangyu8-2025-math2",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2025,
+      "subject": "math2",
+      "paper_no": 3,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 1,
+      "content_hash": "2239a888f3eb54a30be6c730a120c4be9741e9cd4a9d823569191b27879cf9bf"
+    },
+    {
+      "natural_key": "2025/math2/zhangyu8/4",
+      "bundle": "zhangyu8-2025-math2",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2025,
+      "subject": "math2",
+      "paper_no": 4,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 1,
+      "content_hash": "db89c8fafd1a6da84bca77de6a99202880af971bd10c755be0d52485fdfb3397"
+    },
+    {
+      "natural_key": "2025/math2/zhangyu8/5",
+      "bundle": "zhangyu8-2025-math2",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2025,
+      "subject": "math2",
+      "paper_no": 5,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "a7c601dde65ef65daee09238bcb7e2d59da40eb66ec85a50fe621b2de0201e81"
+    },
+    {
+      "natural_key": "2025/math2/zhangyu8/6",
+      "bundle": "zhangyu8-2025-math2",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2025,
+      "subject": "math2",
+      "paper_no": 6,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 1,
+      "content_hash": "02d03d8598722bf754f909374f40d1995f58c9d231064840b38afd10aa097bd6"
+    },
+    {
+      "natural_key": "2025/math2/zhangyu8/7",
+      "bundle": "zhangyu8-2025-math2",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2025,
+      "subject": "math2",
+      "paper_no": 7,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 1,
+      "content_hash": "6fef3cc129341a740fa57906ad3746e45e8ad1a109017e322b5d572f0a101f8b"
+    },
+    {
+      "natural_key": "2025/math2/zhangyu8/8",
+      "bundle": "zhangyu8-2025-math2",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2025,
+      "subject": "math2",
+      "paper_no": 8,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "4dd8cd40bc96b7b0321c6ffc7bf997747d5c648260479a37831b6482ece94bf0"
+    },
+    {
+      "natural_key": "2025/math3/zhangyu8/1",
+      "bundle": "zhangyu8-2025-math3",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2025,
+      "subject": "math3",
+      "paper_no": 1,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 1,
+      "content_hash": "c54d83eb8b459e4350c3fd26eda196614327d8cb9ac75525a9c1babbc939b099"
+    },
+    {
+      "natural_key": "2025/math3/zhangyu8/2",
+      "bundle": "zhangyu8-2025-math3",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2025,
+      "subject": "math3",
+      "paper_no": 2,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "f3b8d323d5e3d1de934aa6639f282e03a83d12cdb6176942ff1c9f65f4ddc02d"
+    },
+    {
+      "natural_key": "2025/math3/zhangyu8/3",
+      "bundle": "zhangyu8-2025-math3",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2025,
+      "subject": "math3",
+      "paper_no": 3,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 1,
+      "content_hash": "2b93dd4f5c72fb7f2861de8720961cb8624c76e4ef4d8b6c2ad42ea138e965aa"
+    },
+    {
+      "natural_key": "2025/math3/zhangyu8/4",
+      "bundle": "zhangyu8-2025-math3",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2025,
+      "subject": "math3",
+      "paper_no": 4,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 1,
+      "content_hash": "cc698fc60d98991cabde404db4703f0a9d06cb28c509136a9fe1942151ec407c"
+    },
+    {
+      "natural_key": "2025/math3/zhangyu8/5",
+      "bundle": "zhangyu8-2025-math3",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2025,
+      "subject": "math3",
+      "paper_no": 5,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "a25ce3e5141c7cf67b1ba638e6b97b393b59cd395692469e727a15935f651c21"
+    },
+    {
+      "natural_key": "2025/math3/zhangyu8/6",
+      "bundle": "zhangyu8-2025-math3",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2025,
+      "subject": "math3",
+      "paper_no": 6,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "f3b1eef506b3deb14a317f0866bc60ec30c8181d644311083866ef57109144c9"
+    },
+    {
+      "natural_key": "2025/math3/zhangyu8/7",
+      "bundle": "zhangyu8-2025-math3",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2025,
+      "subject": "math3",
+      "paper_no": 7,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "2f0d70f5221cc9b7bcb273e4e9899379fa4a9e06f95666857983637710e4f420"
+    },
+    {
+      "natural_key": "2025/math3/zhangyu8/8",
+      "bundle": "zhangyu8-2025-math3",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2025,
+      "subject": "math3",
+      "paper_no": 8,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "49db884aa5d7609432fda9b950f49029760d7c41b16966d0e0e6fd40986c5801"
+    },
+    {
+      "natural_key": "2026/math1/zhangyu8/1",
+      "bundle": "zhangyu8-2026-math1",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2026,
+      "subject": "math1",
+      "paper_no": 1,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "77c4aad83541a23316f9e4a8db289fbc05a9fd4ce3c56bc1d63409689c187d9b"
+    },
+    {
+      "natural_key": "2026/math1/zhangyu8/2",
+      "bundle": "zhangyu8-2026-math1",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2026,
+      "subject": "math1",
+      "paper_no": 2,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "18869aa3dec4fdb8fbb27a62a4909b1b56ea56669bff9b3192853eca1209a58b"
+    },
+    {
+      "natural_key": "2026/math1/zhangyu8/3",
+      "bundle": "zhangyu8-2026-math1",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2026,
+      "subject": "math1",
+      "paper_no": 3,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "68a7814cbcc41d3e80b2c08bd967a0f2d8c2041dcf723b9bc08f06581b1ea879"
+    },
+    {
+      "natural_key": "2026/math1/zhangyu8/4",
+      "bundle": "zhangyu8-2026-math1",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2026,
+      "subject": "math1",
+      "paper_no": 4,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 1,
+      "content_hash": "d4a34f76cc55d07872b30eea277b75b6a62db8557f7085d50d087873f6ea8564"
+    },
+    {
+      "natural_key": "2026/math1/zhangyu8/5",
+      "bundle": "zhangyu8-2026-math1",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2026,
+      "subject": "math1",
+      "paper_no": 5,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "34f23ef6bf76502e654f68bf5bb9c2ddccfa8da0d1383b62e42c486233729d55"
+    },
+    {
+      "natural_key": "2026/math1/zhangyu8/6",
+      "bundle": "zhangyu8-2026-math1",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2026,
+      "subject": "math1",
+      "paper_no": 6,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "8e1741af68d6b16d27ce19fe9594741e901a78d2e23bc5b458bbe56dbdc19942"
+    },
+    {
+      "natural_key": "2026/math1/zhangyu8/7",
+      "bundle": "zhangyu8-2026-math1",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2026,
+      "subject": "math1",
+      "paper_no": 7,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "9bd77fea12ffc8a376ea5c188058e061fe73c0be85ab9ae156898d83a8ea5cda"
+    },
+    {
+      "natural_key": "2026/math1/zhangyu8/8",
+      "bundle": "zhangyu8-2026-math1",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2026,
+      "subject": "math1",
+      "paper_no": 8,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "85f455e0417074625fa6b5c9da752854248818a9ecf7e0c772fcc4f1b2f6eac4"
+    },
+    {
+      "natural_key": "2026/math2/zhangyu8/1",
+      "bundle": "zhangyu8-2026-math2",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2026,
+      "subject": "math2",
+      "paper_no": 1,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "87b094c8d000bd27c99be006cf2f0e7ea078ea50779f35001451c87b066f491a"
+    },
+    {
+      "natural_key": "2026/math2/zhangyu8/2",
+      "bundle": "zhangyu8-2026-math2",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2026,
+      "subject": "math2",
+      "paper_no": 2,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "e753d48b4b8c1b1a8e65427a39ba6fc00345243d8dbcd7ca19199defdb0395bb"
+    },
+    {
+      "natural_key": "2026/math2/zhangyu8/3",
+      "bundle": "zhangyu8-2026-math2",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2026,
+      "subject": "math2",
+      "paper_no": 3,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "af076c01e8ee8e61ffc469afe3a9b65161aea2b5ff3139de1dc4afc78ab953d3"
+    },
+    {
+      "natural_key": "2026/math2/zhangyu8/4",
+      "bundle": "zhangyu8-2026-math2",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2026,
+      "subject": "math2",
+      "paper_no": 4,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "b78ec332f422d73c8bbc4c75ae60dd054e92e56a806c63bb18ccbeae4a27ec1d"
+    },
+    {
+      "natural_key": "2026/math2/zhangyu8/5",
+      "bundle": "zhangyu8-2026-math2",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2026,
+      "subject": "math2",
+      "paper_no": 5,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "3c37d37443ec3eb8d44649d3a4b51d0cbab3c2a6b79f6d2c8948156060c49da6"
+    },
+    {
+      "natural_key": "2026/math2/zhangyu8/6",
+      "bundle": "zhangyu8-2026-math2",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2026,
+      "subject": "math2",
+      "paper_no": 6,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "211cf227156f65f5c48ca3fffff16941aad38a2160b88ca2e8c983f9659ea9bd"
+    },
+    {
+      "natural_key": "2026/math2/zhangyu8/7",
+      "bundle": "zhangyu8-2026-math2",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2026,
+      "subject": "math2",
+      "paper_no": 7,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "b726ac2c357fabc044386ef427b521560c809387da12b5372c5172525edd012c"
+    },
+    {
+      "natural_key": "2026/math2/zhangyu8/8",
+      "bundle": "zhangyu8-2026-math2",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2026,
+      "subject": "math2",
+      "paper_no": 8,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "44330fd1f35e443c9eebb8816844615774bb3cde6dfcf60b07fcde070de01041"
+    },
+    {
+      "natural_key": "2026/math3/zhangyu8/1",
+      "bundle": "zhangyu8-2026-math3",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2026,
+      "subject": "math3",
+      "paper_no": 1,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "13c7329b33d066750d5c5a6e982baa01b37722770de031d9edbdedc2522a5e0e"
+    },
+    {
+      "natural_key": "2026/math3/zhangyu8/2",
+      "bundle": "zhangyu8-2026-math3",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2026,
+      "subject": "math3",
+      "paper_no": 2,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "501eebad0b1ce4366b70321e46af83d33547fbdbb21d1af8c2fc3a4e3c044c36"
+    },
+    {
+      "natural_key": "2026/math3/zhangyu8/3",
+      "bundle": "zhangyu8-2026-math3",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2026,
+      "subject": "math3",
+      "paper_no": 3,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "bc96e1062ee4da79394c23708ea53c0d3a26f7cae878777c148a96d5bb2b18a9"
+    },
+    {
+      "natural_key": "2026/math3/zhangyu8/4",
+      "bundle": "zhangyu8-2026-math3",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2026,
+      "subject": "math3",
+      "paper_no": 4,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "a74ebaa9c5646cd796769fa05f05dfdaac9ccec0d5e8112f42c414553d343067"
+    },
+    {
+      "natural_key": "2026/math3/zhangyu8/5",
+      "bundle": "zhangyu8-2026-math3",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2026,
+      "subject": "math3",
+      "paper_no": 5,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "95956cbee2300de73cd0d29a8a45fe6f327fe47e1a0f3bdb32e7156a5d0e4965"
+    },
+    {
+      "natural_key": "2026/math3/zhangyu8/6",
+      "bundle": "zhangyu8-2026-math3",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2026,
+      "subject": "math3",
+      "paper_no": 6,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "82f1d63f746235259d7b5655b6e2d7e0a0dde352b8dce2c8ea13a8144130c1d8"
+    },
+    {
+      "natural_key": "2026/math3/zhangyu8/7",
+      "bundle": "zhangyu8-2026-math3",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2026,
+      "subject": "math3",
+      "paper_no": 7,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "692fdfd79cb0cea66a1c56f5e574906ff62a27e814daab60c4af6e3f1498650a"
+    },
+    {
+      "natural_key": "2026/math3/zhangyu8/8",
+      "bundle": "zhangyu8-2026-math3",
+      "series_key": "zhangyu8",
+      "series_name": "张宇八套卷",
+      "year": 2026,
+      "subject": "math3",
+      "paper_no": 8,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "76e872859d91f99696aa008eee7a1241432c2d33b7b54c6ec27e16fbe676ee58"
+    }
+  ]
+}

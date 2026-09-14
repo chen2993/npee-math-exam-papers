@@ -1,0 +1,311 @@
+schema_version: '3.0'
+paper:
+  series_key: zhangyu8
+  year: 2024
+  subject: math1
+  paper_no: 7
+content_hash: 8bc95ddbccf8cf59439300e43f9d440376f8305d5842975680e44216ff69c40b
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知 $f(x)=\begin{cases}1,&x\text{ 是整数},\\-1,&x\text{ 不是整数},\end{cases}$ 则 $\displaystyle \lim_{x\to\infty}\int_0^{\dfrac{1}{x}}f(x)e^{-t^2}\,\mathrm{d}t=$\ExamSelection
+  choices:
+  - label: A
+    text: $e^{-1}$
+    figures: []
+  - label: B
+    text: $e$
+    figures: []
+  - label: C
+    text: $0$
+    figures: []
+  - label: D
+    text: $1$
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x,y)=\begin{cases}\sin x\cos y,&x\ne0,\\1-\cos y,&x=0,\end{cases}$ 则\ExamSelection
+  choices:
+  - label: A
+    text: $f_x'(0,0)=0$
+    figures: []
+  - label: B
+    text: |-
+      $\displaystyle \lim_{x\to0}\lim_{y\to0}f(x,y)=0$
+    figures: []
+  - label: C
+    text: $f_{xx}''(0,0)=1$
+    figures: []
+  - label: D
+    text: $f_y'(0,0)=1$
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x,y)=e^{-(x^2+2y^2)}$，曲线 $y=y(x)$ 上任一点 $P$ 的切线方向始终指向 $f(x,y)$ 变化率最大的方向，且 $y(1)=2$，则 $y(x)=$\ExamSelection
+  choices:
+  - label: A
+    text: $2x^2$
+    figures: []
+  - label: B
+    text: $x^2+x$
+    figures: []
+  - label: C
+    text: $e^{-x^2+1}+x$
+    figures: []
+  - label: D
+    text: $2e^{-x^2+1}$
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      级数 $\displaystyle \sum_{n=1}^{\infty}a_n$ 收敛是级数 $a_1-a_1+a_2-a_2+\cdots+a_n-a_n+\cdots$ 收敛的\ExamSelection
+  choices:
+  - label: A
+    text: 充分非必要条件
+    figures: []
+  - label: B
+    text: 必要非充分条件
+    figures: []
+  - label: C
+    text: 充要条件
+    figures: []
+  - label: D
+    text: 既非充分也非必要条件
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设方程组 $\begin{cases}x_1+ax_2-2x_3=0,\\x_1+2x_2+x_3=1,\\2x_1+3x_2+(a+2)x_3=3\end{cases}$ 的系数矩阵为 $A$，自由项为 $b$，若 $Ax=b$ 无解，$A^{\mathrm T}Ax=A^{\mathrm T}b$ 有解，则 $a=$\ExamSelection
+  choices:
+  - label: A
+    text: $-1$
+    figures: []
+  - label: B
+    text: $1$
+    figures: []
+  - label: C
+    text: $-3$
+    figures: []
+  - label: D
+    text: $3$
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      以下矩阵中，与 $\begin{pmatrix}0&1&0&0\\0&0&0&0\\0&0&1&1\\0&0&0&1\end{pmatrix}$ 相似的是\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\begin{pmatrix}0&0&1&0\\0&1&0&0\\0&0&0&0\\0&0&0&1\end{pmatrix}$
+    figures: []
+  - label: B
+    text: |-
+      $\begin{pmatrix}0&1&0&0\\0&1&0&1\\0&0&0&0\\0&0&0&0\end{pmatrix}$
+    figures: []
+  - label: C
+    text: |-
+      $\begin{pmatrix}1&0&0&0\\0&0&1&0\\0&0&0&0\\0&0&0&1\end{pmatrix}$
+    figures: []
+  - label: D
+    text: |-
+      $\begin{pmatrix}0&1&0&0\\0&0&0&0\\1&0&1&1\\1&-1&0&1\end{pmatrix}$
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $\alpha_i=(a_i,b_i,c_i)^{\mathrm T}(i=1,2,3)$ 均为非零列向量，且直线 $\dfrac{x-a_1}{a_2}=\dfrac{y-b_1}{b_2}=\dfrac{z-c_1}{c_2}$ 过点 $(a_3,b_3,c_3)$，则可能是三个平面 $\pi_i:\alpha_i^{\mathrm T}\begin{pmatrix}x\\y\\z\end{pmatrix}=1(i=1,2,3)$ 的位置关系的所有序号是\ExamSelection
+    figures:
+    - kind: tikz
+      latex: |-
+        \tdplotsetmaincoords{70}{115}\begin{tikzpicture}[tdplot_main_coords,scale=.78,line join=round,line cap=round]\tikzset{plane/.style={draw,fill=white,line width=.45pt},trace/.style={very thick,line width=.65pt}}\begin{scope}[xshift=0cm]\node at (-1.35,0,1.75) {$①$};\coordinate (P) at (0,0,-.90);\coordinate (Q) at (0,0,.90);\path[plane] (P)--(-1.15,0,-.90)--(-1.15,0,.90)--(Q)--cycle;\path[plane] (P)--(0,-1.15,-.90)--(0,-1.15,.90)--(Q)--cycle;\path[plane] (P)--(1.00,.72,-.90)--(1.00,.72,.90)--(Q)--cycle;\draw[trace] (P)--(Q);\end{scope}\begin{scope}[xshift=3.70cm]\node at (-1.30,0,1.75) {$②$};\path[plane] (-1.25,-.95,.62)--(1.25,-.95,.62)--(1.25,.95,.62)--(-1.25,.95,.62)--cycle;\path[plane] (-1.25,-.95,-.72)--(1.25,-.95,-.72)--(1.25,.95,-.72)--(-1.25,.95,-.72)--cycle;\end{scope}\begin{scope}[xshift=7.40cm]\node at (-1.30,0,1.75) {$③$};\path[plane] (-1.35,-1.20,0)--(1.35,-1.20,0)--(1.35,1.20,0)--(-1.35,1.20,0)--cycle;\path[plane] (-1.35,-1.20,-.50)--(1.35,-1.20,-.50)--(1.35,1.20,1.90)--(-1.35,1.20,1.90)--cycle;\path[plane] (-1.35,-1.20,1.90)--(1.35,-1.20,1.90)--(1.35,1.20,-.50)--(-1.35,1.20,-.50)--cycle;\draw[trace] (-1.35,-.70,0)--(1.35,-.70,0);\draw[trace] (-1.35,.70,0)--(1.35,.70,0);\draw[trace] (-1.35,0,.70)--(1.35,0,.70);\end{scope}\begin{scope}[xshift=11.10cm]\node at (-1.30,0,1.75) {$④$};\path[plane] (-1.35,-.95,.75)--(1.35,-.95,.75)--(1.35,.95,.75)--(-1.35,.95,.75)--cycle;\path[plane] (-1.35,-.95,-.75)--(1.35,-.95,-.75)--(1.35,.95,-.75)--(-1.35,.95,-.75)--cycle;\path[plane] (-1.50,0,-1.05)--(1.50,0,-1.05)--(1.50,0,1.05)--(-1.50,0,1.05)--cycle;\draw[trace] (-1.35,0,.75)--(1.35,0,.75);\draw[trace] (-1.35,0,-.75)--(1.35,0,-.75);\end{scope}\end{tikzpicture}
+      path:
+      description: 四组三平面位置关系示意图
+      exception_reason:
+  choices:
+  - label: A
+    text: $①③$
+    figures: []
+  - label: B
+    text: $②③$
+    figures: []
+  - label: C
+    text: $②④$
+    figures: []
+  - label: D
+    text: $①③④$
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $X_1,X_2$ 是取自正态总体 $X\sim N(1,1)$ 的简单随机样本，则 $\dfrac{X_1-1}{|1-X_2|}$ 服从\ExamSelection
+  choices:
+  - label: A
+    text: $N(1,1)$
+    figures: []
+  - label: B
+    text: |-
+      $\chi^2(1)$
+    figures: []
+  - label: C
+    text: $t(1)$
+    figures: []
+  - label: D
+    text: $F(1,1)$
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      一平面质点从原点出发，每次走一个单位，只有向上、向右两种走法，且向上走的概率为 $p(0<p<1)$，现质点走到了点 $(3,2)$，则这 $5$ 步按照：右，上，右，上，右的方式走的概率为\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{3}{20}$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{1}{13}$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{1}{20}$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{1}{10}$
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $X$ 服从参数为 $1$ 的泊松分布，则 $E\left(\dfrac{1}{X+1}\right)=$\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{1}{e}$
+    figures: []
+  - label: B
+    text: |-
+      $1-\dfrac{1}{e}$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{2}{e}$
+    figures: []
+  - label: D
+    text: |-
+      $1+\dfrac{1}{e}$
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $g(x)=x^2$，$g^{-1}[f(x)]=-x^2+2x+3$，且 $f(x)>0$，则 $\displaystyle \int_0^1\dfrac{1}{f(x)}\,\mathrm{d}x=$\ExamBlank
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      已知函数 $f(x,y)=e^{-x}(ax+b-y^2)$，若 $f(-1,0)$ 为其极大值，则 $a,b$ 满足\ExamBlank。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $\displaystyle \lim_{x\to+\infty}\left[\sqrt{\dfrac{(1+x)^3}{x}}-x\right]=$ \ExamBlank。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $\Sigma$ 为曲面 $z=\sqrt{1-x^2-y^2}$，$\alpha,\beta$ 分别为曲面 $\Sigma$ 的外法线向量与 $x$ 轴，$z$ 轴的夹角，则 $\displaystyle \iint_{\Sigma}(x|y|\cos\alpha+z^2\cos\beta)\,\mathrm{d}S=$ \ExamBlank。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      已知 $A$ 有 $0$ 特征值，$AB=\begin{pmatrix}a&0&1&1\\1&a&1&0\\1&2&a&0\\a&b&0&2\end{pmatrix}$，且 $\begin{vmatrix}1&a&1\\1&2&a\\a&b&0\end{vmatrix}=2$，则 $\begin{vmatrix}a&0&1\\1&a&1\\1&2&a\end{vmatrix}=$ \ExamBlank。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $(X,Y)\sim f(x,y)=\dfrac{1}{2\sqrt{2\pi}}e^{-\dfrac{x^2+2y^2}{4}}$，$-\infty<x,y<+\infty$，$Z=X^2-Y^2$，则 $E(Z)=$ \ExamBlank。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      计算 $\displaystyle \lim_{n\to\infty}\sum_{i=1}^n\dfrac{1}{\sqrt{|2i(n-2i)|}}$。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设曲线 $y=x^{\dfrac{1}{n}}$ 与其在点 $(1,1)$ 处的切线和 $y$ 轴所围成的平面图形的面积为 $a_n$，其中 $n=2,3,\cdots$。
+  subparts:
+  - text: 求 $a_n$ 的表示式；
+  - text: |-
+      求幂级数 $\displaystyle \sum_{n=2}^{\infty}a_nx^n$ 的收敛域与和函数 $S(x)$。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 $\displaystyle \int_0^x f(t)\,\mathrm{d}t$ 在 $[0,1]$ 上二阶导数连续，$\displaystyle \int_0^1f(x)\,\mathrm{d}x=1$，$\displaystyle \int_0^{\dfrac{1}{2}}f(x)\,\mathrm{d}x>\dfrac{1}{4}$，证明：
+  subparts:
+  - text: |-
+      存在 $\xi\in(0,1)$，使得 $f'(\xi)\leq2$；
+  - text: |-
+      若当 $0<x<1$ 时，$f'(x)\ne2$，则 $\displaystyle \int_0^x f(t)\,\mathrm{d}t>x^2$。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设曲线 $L$ 是 $xOy$ 平面上有界单连通闭区域 $D$ 的正向边界，当曲线 $L$ 的方程为 $x^2+y^2=1$ 时，$\displaystyle I=\oint_L\left(ax+\dfrac{a}{3}x^3-\dfrac{1}{2}xe^{x^2+y^2}\right)\,\mathrm{d}y+\left(\dfrac{1}{2}ye^{x^2+y^2}-\dfrac{a}{3}y^3\right)\,\mathrm{d}x$ 的值最大，求
+  subparts:
+  - text: 常数 $a$ 的值；
+  - text: $I$ 的最大值。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      已知 $A$ 为 $3$ 阶矩阵，$E$ 为 $3$ 阶单位矩阵，且 $(aE+A)^2=\begin{pmatrix}1&0&1\\0&2&0\\1&0&1\end{pmatrix}$，$\operatorname{tr}(A)=2\sqrt{2}+3a$，$a$ 为常数。
+  subparts:
+  - text: 求矩阵 $A$；
+  - text: 若 $A$ 正定，求 $a$ 的取值范围。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设某手机每天销售量 $X$（单位：万台）的概率分布律为 $X\sim\begin{pmatrix}10&15&20\\\theta^2&\theta(1-\theta)&1-\theta\end{pmatrix}$，其中 $0<\theta<1$ 为未知参数，且每天的退货率为 $5\%$，现有一周的销售量：$15,10,10,15,20,20,15$。
+  subparts:
+  - text: |-
+      求 $\theta$ 的最大似然估计值 $\widehat{\theta}$；
+  - text: |-
+      记 $Y$ 为每天的退货量，根据 (1) 中的 $\widehat{\theta}$，求 $E(Y)$。

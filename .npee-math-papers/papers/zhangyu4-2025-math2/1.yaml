@@ -1,0 +1,302 @@
+schema_version: '3.0'
+paper:
+  series_key: zhangyu4
+  year: 2025
+  subject: math2
+  paper_no: 1
+content_hash: 0a0b4c9d58600f49847cc1cd19495eae0d2ba203bc539a2f900bbc4d61189d21
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x)$ 满足 $\lim_{x\to0}\dfrac{x-f(x)}{\sin x}=1$，则\ExamSelection
+  choices:
+  - label: A
+    text: $f(0)=0$。
+    figures: []
+  - label: B
+    text: $f'(0)=0$。
+    figures: []
+  - label: C
+    text: |-
+      $\lim_{x\to0}\dfrac{f(x)}{x^3}=1$。
+    figures: []
+  - label: D
+    text: |-
+      $\lim_{x\to0}\dfrac{f(x)}{x}=0$。
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      当 $x\to0$ 时，$\alpha(x),\beta(x)$ 是非零无穷小量，则下列命题：\textcircled{1}若 $\alpha(x)\sim\beta(x)$，则 $\lim_{x\to0}[1+\alpha(x)]^{1/\beta(x)}=e$；\textcircled{2}若 $\lim_{x\to0}[1+\alpha(x)]^{1/\beta(x)}=e$，则 $\alpha(x)\sim\beta(x)$；\textcircled{3}若 $\alpha(x)-\beta(x)=o(\alpha(x))$，则 $\lim_{x\to0}\dfrac{1-\cos\alpha(x)}{\alpha(x)\beta(x)}=\dfrac12$；\textcircled{4}若 $\lim_{x\to0}\dfrac{1-\cos\alpha(x)}{\beta^2(x)}=\dfrac12$，则 $\alpha(x)-\beta(x)=o(\beta(x))$。所有真命题的序号为\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      \textcircled{1}\textcircled{3}\textcircled{4}
+    figures: []
+  - label: B
+    text: |-
+      \textcircled{1}\textcircled{2}\textcircled{3}
+    figures: []
+  - label: C
+    text: |-
+      \textcircled{2}\textcircled{4}
+    figures: []
+  - label: D
+    text: |-
+      \textcircled{2}\textcircled{3}\textcircled{4}
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)$ 在 $x=0$ 处连续，下列结论：\textcircled{1}若 $f'_-(0)$ 存在，则 $f'_+(0)$ 存在；\textcircled{2}若 $\lim_{x\to0^-}f'(x)$ 存在，则 $\lim_{x\to0^+}f'(x)$ 存在；\textcircled{3}若 $f'_-(0)$ 与 $f'_+(0)$ 均存在，则 $f'(0)$ 存在；\textcircled{4}若 $\lim_{x\to0}f'(x)$ 存在，则 $f'(0)$ 存在。正确结论的个数为\ExamSelection
+  choices:
+  - label: A
+    text: 1。
+    figures: []
+  - label: B
+    text: 2。
+    figures: []
+  - label: C
+    text: 3。
+    figures: []
+  - label: D
+    text: 4。
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)$ 连续，则 $\lim_{n\to\infty}\sum_{k=1}^{n}\dfrac{k-\dfrac12+n}{n^2}f\left(\dfrac{2k-1}{2n}\right)=\ExamSelection$
+  choices:
+  - label: A
+    text: |-
+      $\displaystyle\int_0^1\left(x+\dfrac12\right)f(x)\,\mathrm{d}x$。
+    figures: []
+  - label: B
+    text: |-
+      $\displaystyle\int_0^1\left(x+1-\dfrac{1}{2n}\right)f\left(x-\dfrac{1}{2n}\right)\,\mathrm{d}x$。
+    figures: []
+  - label: C
+    text: |-
+      $\displaystyle\int_0^1(x+1)f(x)\,\mathrm{d}x$。
+    figures: []
+  - label: D
+    text: |-
+      $\displaystyle\int_0^1\left(x+\dfrac12+\dfrac1n\right)f\left(x-\dfrac1n\right)\,\mathrm{d}x$。
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      $I_1=\displaystyle\int_0^{2\pi}\dfrac{\sin x}{x}\,\mathrm{d}x$，$I_2=\displaystyle\int_0^{2\pi}\dfrac{\sin x}{2\pi-x}\,\mathrm{d}x$，$I_3=\displaystyle\int_0^{2\pi}\dfrac{\sin x}{x(2\pi-x)}\,\mathrm{d}x$，则\ExamSelection
+  choices:
+  - label: A
+    text: $I_3<I_1<I_2$。
+    figures: []
+  - label: B
+    text: $I_3<I_2<I_1$。
+    figures: []
+  - label: C
+    text: $I_2<I_3<I_1$。
+    figures: []
+  - label: D
+    text: $I_1<I_2<I_3$。
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x,y)$ 满足 $\mathrm{d}f(x,y)=\dfrac{x\,\mathrm{d}y-y\,\mathrm{d}x}{x^2+y^2}$，$f(1,1)=\dfrac{\pi}{4}$，则 $f(\sqrt3,0)=\ExamSelection$
+  choices:
+  - label: A
+    text: $0$。
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{\pi}{4}$。
+    figures: []
+  - label: C
+    text: |-
+      $-\dfrac{3\pi}{4}$。
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{3\pi}{4}$。
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      一质量为 $m$ 的飞机，着陆时的水平速度为 $v(0)$。经测试，减速伞打开后，飞机所受的总阻力与飞机的速度成正比，比例系数为 $k(k>0)$。从飞机接触跑道开始计时，设 $t$ 时刻飞机的滑行距离为 $x(t)$，速度为 $v(t)$，则飞机在滑行至总位移的一半时的速度为\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{v(0)}{3}$。
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{v(0)}{2}$。
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{v(0)}{\sqrt3}$。
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{v(0)}{\sqrt2}$。
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      若 $A,A^*,B$ 都是 $n(n>2)$ 阶非零矩阵，且 $A^*$ 是 $A$ 的伴随矩阵，$AB=O$，则 $r(B)=\ExamSelection$
+  choices:
+  - label: A
+    text: $1$。
+    figures: []
+  - label: B
+    text: $n-1$。
+    figures: []
+  - label: C
+    text: $n$。
+    figures: []
+  - label: D
+    text: $n-1$ 或 $n$。
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 为 $n$ 阶矩阵，则\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\begin{pmatrix}A&O\\E&A^{\mathsf T}A\end{pmatrix}x=0$ 只有零解。
+    figures: []
+  - label: B
+    text: |-
+      $\begin{pmatrix}O&A\\A^{\mathsf T}A&AA^{\mathsf T}A\end{pmatrix}x=0$ 只有零解。
+    figures: []
+  - label: C
+    text: |-
+      $\begin{pmatrix}A&A^{\mathsf T}A\\O&A^{\mathsf T}A\end{pmatrix}x=0$ 与 $\begin{pmatrix}A^{\mathsf T}A&A\\O&A\end{pmatrix}x=0$ 同解。
+    figures: []
+  - label: D
+    text: |-
+      $\begin{pmatrix}AA^{\mathsf T}A&A^{\mathsf T}A\\O&A\end{pmatrix}x=0$ 与 $\begin{pmatrix}A^{\mathsf T}A^2&A\\O&A^{\mathsf T}A\end{pmatrix}x=0$ 同解。
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      $n$ 阶矩阵 $A$ 与 $B$ 相似的充分非必要条件是\ExamSelection
+  choices:
+  - label: A
+    text: $A^*$ 与 $B^*$ 相似。
+    figures: []
+  - label: B
+    text: |-
+      $|\lambda E-A|=|\lambda E-B|$。
+    figures: []
+  - label: C
+    text: $A$ 与 $B$ 的各阶主子式之和分别相等。
+    figures: []
+  - label: D
+    text: $A^{-1}$ 与 $B^{-1}$ 相似。
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      过原点的曲线 $y=y(x)$ 满足 $\dfrac{\mathrm{d}y}{\mathrm{d}x}=(x+y)^2$，则 $\lim_{x\to0}\dfrac{y(x)}{x^3}=\ExamBlank$。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $\displaystyle\int_0^{\dfrac{1}{2}}\dfrac{x\arcsin x}{\sqrt{1-x^2}}\,\mathrm{d}x=\ExamBlank$。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设函数 $z=z(x,y)$ 由方程 $e^z+xy\cos z+x=1$ 确定，则 $\left.\mathrm{d}z\right|_{(0,0)}=\ExamBlank$。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)=(1+x)\ln x^3$，则 $n\geq2$ 时，$f^{(n)}(1)=\ExamBlank$。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)=\displaystyle\int_{x^3}^{x}e^{-y^2}\,\mathrm{d}y$，则 $\displaystyle\int_0^1x^2f(x)\,\mathrm{d}x=\ExamBlank$。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $|A|=\begin{vmatrix}2&-1&2&3\\0&1&-1&0\\2&3&4&5\\1&1&1&1\end{vmatrix}$，则 $A_{31}+M_{32}+A_{33}+M_{34}=\ExamBlank$。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      设 $f(x)$ 具有一阶连续导数，且 $f'(0)=0$，$f''(0)=\lim_{x\to0}\dfrac{f(x)-f(\ln(1+x))}{ax^b}$ 存在且不为 $0$，求 $a,b$ 的值。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $f(x)=\displaystyle\int_1^x\sin t^2\,\mathrm{d}t$，$g(x)=\displaystyle\int_0^xf(t)\,\mathrm{d}t$。
+  subparts:
+  - text: 计算 $g(1)$。
+  - text: |-
+      证明：存在 $\xi\in(0,1)$，使得 $\displaystyle\int_1^\xi\sin t^2\,\mathrm{d}t=\xi(\cos1-1)$。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 $y(x)$ 具有二阶导数，曲线 $l:y=y(x)$ 与直线 $y=x$ 相切于原点，且曲线 $l$ 在点 $(x,y)$ 处切线的倾角 $\theta$ 关于 $x$ 的变化率与曲线 $l$ 在该点的切线斜率相等。求 $y(x)$ 的表达式。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $f(x)(x>0)$ 具有一阶连续导数，$f(1)=0$，又 $z=f(e^x-e^y)$ 满足 $\dfrac{\partial z}{\partial x}+\dfrac{\partial z}{\partial y}=1$，$u(x,y)=e^{(x^2+y^2)/2}$。
+  subparts:
+  - text: 求 $f(x)$ 的表达式。
+  - text: |-
+      求 $\dfrac{f(u)}{u}$ 的极值。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设平面区域 $D$ 由曲线 $\begin{cases}x=1-\cos t,\\y=t-\sin t\end{cases}\ (0\leq t\leq2\pi)$ 与 $y$ 轴围成，计算 $\displaystyle\iint_D(x+y)\,\mathrm{d}\sigma$。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: 设实二次型 $f(x_1,x_2,x_3)=2x_1^2+2x_2^2+(1+a^2)x_3^2+2x_1x_2+2x_2x_3+2ax_1x_3=0$ 有非零解 $x$，$a$ 为参数。
+  subparts:
+  - text: 求 $x$。
+  - text: 求 $f(x_1,x_2,x_3)$ 的规范形。

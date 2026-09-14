@@ -1,0 +1,295 @@
+schema_version: '3.0'
+paper:
+  series_key: chaoyue10
+  year: 2025
+  subject: math2
+  paper_no: 1
+content_hash: a57b21701fc18a2014828e1c9d96722b781cb409ded10e0fe82fb42d3cd89755
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知函数 $f(x)=\dfrac{\int_0^x|\sin t|\,\mathrm{d}t}{x^\alpha}$ 在 $(0,+\infty)$ 内有界，则 $\alpha$ 的取值范围为\ExamSelection。
+  choices:
+  - label: A
+    text: $[0,2]$
+    figures: []
+  - label: B
+    text: $[1,2]$
+    figures: []
+  - label: C
+    text: $(1,3]$
+    figures: []
+  - label: D
+    text: $[1,3)$
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      曲线 $y=\ln|1-e^{2x}|$ 有\ExamSelection{}条渐近线。
+  choices:
+  - label: A
+    text: $0$
+    figures: []
+  - label: B
+    text: $1$
+    figures: []
+  - label: C
+    text: $2$
+    figures: []
+  - label: D
+    text: $3$
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)$ 可导，$G(x)=(f(x)+2)(1+e^{-x}+|x|)$ 在 $x=0$ 可导，则下面结果正确的是\ExamSelection。
+  choices:
+  - label: A
+    text: $f(0)=-2$
+    figures: []
+  - label: B
+    text: $f(0)=-1$
+    figures: []
+  - label: C
+    text: $f(0)=0$
+    figures: []
+  - label: D
+    text: $f(0)=1$
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $M=\int_0^1e^x\,\mathrm{d}x$, $N=\int_0^{\dfrac{\pi}{2}}e^{\sin x}\,\mathrm{d}x$, $P=\int_0^{\dfrac{\pi}{2}}e^{\tan x}\,\mathrm{d}x$，则\ExamSelection。
+  choices:
+  - label: A
+    text: $P<M<N$
+    figures: []
+  - label: B
+    text: $P<N<M$
+    figures: []
+  - label: C
+    text: $M<P<N$
+    figures: []
+  - label: D
+    text: $N<P<M$
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设二元函数 $f(x,y)=\begin{cases}\dfrac{\sin(xy)}{\sqrt{x^2+y^2}},&x^2+y^2\ne0,\\0,&x^2+y^2=0,\end{cases}$ 则 $f(x,y)$ 在点 $(0,0)$ 处\ExamSelection。
+  choices:
+  - label: A
+    text: $f''_{xx}(0,0)$ 和 $f''_{yy}(0,0)$ 都存在
+    figures: []
+  - label: B
+    text: $f''_{xx}(0,0)$ 和 $f''_{yy}(0,0)$ 都不存在
+    figures: []
+  - label: C
+    text: $f''_{xx}(0,0)$ 存在，$f''_{yy}(0,0)$ 不存在
+    figures: []
+  - label: D
+    text: $f''_{xx}(0,0)$ 不存在，$f''_{yy}(0,0)$ 存在
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      将二次积分 $\int_0^1\mathrm{d}y\int_0^y f(x,y)\,\mathrm{d}x+\int_{\dfrac{\pi}{4}}^{\dfrac{\pi}{2}}\mathrm{d}\theta\int_{\sin\theta}^{2\sin\theta}f(r\cos\theta,r\sin\theta)\,r\,\mathrm{d}r$ 转化为直角坐标系下二次积分\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\int_1^2\mathrm{d}x\int_x^{\sqrt{2x-x^2}}f(x,y)\,\mathrm{d}y$
+    figures: []
+  - label: B
+    text: |-
+      $\int_0^1\mathrm{d}x\int_x^{1+\sqrt{1-x^2}}f(x,y)\,\mathrm{d}y$
+    figures: []
+  - label: C
+    text: |-
+      $\int_1^2\mathrm{d}y\int_0^{\sqrt{2y-y^2}}f(x,y)\,\mathrm{d}x$
+    figures: []
+  - label: D
+    text: |-
+      $\int_0^2\mathrm{d}y\int_y^{\sqrt{2y-y^2}}f(x,y)\,\mathrm{d}x$
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)$ 是以 $T$ 为周期的连续函数，$x\in(-\infty,+\infty)$，则下列说法中正确的个数为\ExamSelection。
+  choices:
+  - label: A
+    text: $1$
+    figures: []
+  - label: B
+    text: $2$
+    figures: []
+  - label: C
+    text: $3$
+    figures: []
+  - label: D
+    text: $4$
+    figures: []
+  subparts:
+  - text: |-
+      若 $\int_0^T f(x)\,\mathrm{d}x=0$，则 $\int_0^x f(t)\,\mathrm{d}t$ 是周期函数。
+  - text: |-
+      若 $f(x)$ 为奇函数，则 $\int_0^x f(t)\,\mathrm{d}t$ 是周期函数。
+  - text: |-
+      若 $\int_0^{+\infty}f(x)\,\mathrm{d}x=0$，则 $\int_0^x f(t)\,\mathrm{d}t$ 是周期函数。
+  - text: |-
+      $F(x)=\int_0^x f(t)\,\mathrm{d}t-\dfrac{x}{T}\int_0^T f(t)\,\mathrm{d}t$ 是周期函数。
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A=(\alpha_1,\alpha_2,\alpha_3)$，$\alpha_1,\alpha_2,\alpha_3$ 为两两正交的三维非零列向量，$B=(\alpha_1-\alpha_2,\alpha_2+\lambda\alpha_3,\alpha_3-2\alpha_1)$，若 $|A|=|B|$，则实数 $\lambda=$\ExamSelection。
+  choices:
+  - label: A
+    text: $-1$
+    figures: []
+  - label: B
+    text: $0$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{1}{2}$
+    figures: []
+  - label: D
+    text: $2$
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A,B,C$ 均为 $n$ 阶方阵，且 $A$ 可逆，则下列矩阵与 $\begin{pmatrix}A&B\\O&C\end{pmatrix}$ 的秩可能不相等的矩阵为\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\begin{pmatrix}A&O\\O&C\end{pmatrix}$
+    figures: []
+  - label: B
+    text: |-
+      $\begin{pmatrix}E&O\\A&C\end{pmatrix}$
+    figures: []
+  - label: C
+    text: |-
+      $\begin{pmatrix}A&BC\\O&C\end{pmatrix}$
+    figures: []
+  - label: D
+    text: |-
+      $\begin{pmatrix}A&O\\O&BC\end{pmatrix}$
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $P$ 为 $3$ 阶可逆矩阵，且 $P^T=P^{-1}$，$P\cdot P$ 为 $P$ 的伴随矩阵，$A$ 为 $3$ 阶实对称矩阵，$x$ 为三维列向量，二次型 $x^TAx$ 经变换 $x=Py$ 化为二次型 $y^TBy$，则 $A,B$ 的关系为\ExamSelection。
+  choices:
+  - label: A
+    text: 等价、相似、且合同
+    figures: []
+  - label: B
+    text: 等价、相似、未必合同
+    figures: []
+  - label: C
+    text: 等价、合同、未必相似
+    figures: []
+  - label: D
+    text: 合同、相似、未必等价
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      当 $x\to0$ 时，$x\cos x-a\tan x$ 是 $x\ln(1+bx^2)$ 的等价无穷小，则 $ab=$\ExamBlank。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      已知 $\begin{cases}x=\ln(1+e^{2t})\\y=t-\arctan(e^t)\end{cases}$，则 $\left.\dfrac{\mathrm{d}^2y}{\mathrm{d}x^2}\right|_{t=0}=$\ExamBlank。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $\varphi(x)=\dfrac{2}{\sqrt{\pi}}\int_0^xe^{-t^2}\,\mathrm{d}t$，则 $\int_0^{+\infty}[1-\varphi(x)]\,\mathrm{d}x=$\ExamBlank。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      微分方程 $y'''-2y''-3y'=e^{3x}$ 满足 $y(0)=-\dfrac{1}{36},y'(0)=0,y''(0)=\dfrac{1}{4}$ 的特解\ExamBlank。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $(axy+e^{y^2})\,\mathrm{d}x+(2x^2+bxy e^{y^2})\,\mathrm{d}y$ 是函数 $u(x,y)$ 的全微分，且 $u(0,0)=0$。若 $D$ 是由 $y=x^2,y=1$ 所围区域位于第一象限部分，则 $\iint_Du(x,y)\,\mathrm{d}\sigma=$\ExamBlank。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $\xi_1=\begin{pmatrix}1\\0\\-1\\0\end{pmatrix},\xi_2=\begin{pmatrix}-1\\1\\0\\1\end{pmatrix}$ 是齐次线性方程组 $Ax=0$ 的基础解系，$\eta_1=\begin{pmatrix}1\\2\\-1\\2\end{pmatrix},\eta_2=\begin{pmatrix}0\\1\\1\\1\end{pmatrix}$ 是齐次线性方程组 $Bx=0$ 的基础解系，则齐次线性方程组 $\begin{pmatrix}A\\B\end{pmatrix}x=0$ 的解为\ExamBlank。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      设函数 $y=f(x)$ 在点 $x=1$ 处可导，且它的图形在点 $(1,f(1))$ 处的切线方程为 $y=x-1$，求极限 $\lim_{x\to0}\dfrac{\int_0^{x^2}e^t\cdot f(1+e^{t^2}-e^t)\,\mathrm{d}t}{x^2\cdot\ln\cos x}$。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      计算 $\int\dfrac{x\ln\left(x+\sqrt{1+x^2}\right)}{(1-x^2)^2}\,\mathrm{d}x$。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: 求二元函数 $f(x,y)=(x^2+y^2)e^{-(x^2+2y^2)}$ 的极值。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      若函数 $f(x,y)=\begin{cases}x\arctan^2y,&x\leq\dfrac{1}{\sqrt{1+y^2}},\\\dfrac{x^2y}{\sqrt{2x+1}},&x>\dfrac{1}{\sqrt{1+y^2}},\end{cases}$，区域 $D=\{(x,y)\mid0\leq x\leq1,0\leq y\leq1\}$，计算二重积分 $\iint_Df(x,y)\,\mathrm{d}\sigma$。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $f(x)$ 在 $[a,b]$ 上连续，在 $(a,b)$ 内可导，$f(a)<0,f(b)<0$，$\int_a^bf(x)\,\mathrm{d}x=0$。试证：
+  subparts:
+  - text: |-
+      存在不同的 $\xi_1,\xi_2\in(a,b)$，使得 $f(\xi_1)=f(\xi_2)=0$；
+  - text: |-
+      对任意的整数 $k(k>1)$，存在 $\eta\in(a,b)$，使得 $f'(\eta)+[f(\eta)]^k=0$。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $A$ 为 $3$ 阶实对称矩阵，$|A|=0,A$ 的迹 $\operatorname{tr}(A)=4$，且 $A$ 有一个二重特征值，$\alpha=(1,-1,1)^T$ 是单特征值对应的特征向量。
+  subparts:
+  - text: 当单特征值不等于 $0$ 时，求 $A$ 以及 $Ax=0$ 的通解；
+  - text: 当单特征值等于 $0$ 时，求正定矩阵 $B$，使得 $A=B^2-2E$。

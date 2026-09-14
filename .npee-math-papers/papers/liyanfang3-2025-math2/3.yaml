@@ -1,0 +1,298 @@
+schema_version: '3.0'
+paper:
+  series_key: liyanfang3
+  year: 2025
+  subject: math2
+  paper_no: 3
+content_hash: 2e5bdc54de7859be5e77e8afa51e80c60fb159c71d35264fe78ab7ee11fb7a97
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x)=\lim_{n\to\infty}\left(e^{-\dfrac{[x]\cos\sqrt{4n^2+1}\pi}{x}}-e^{n[x]}\right)$，其中 $[x]$ 表示不超过 $x$ 的最大整数，则\ExamSelection。
+  choices:
+  - label: A
+    text: $x=0$ 是 $f(x)$ 的连续点。
+    figures: []
+  - label: B
+    text: $x=0$ 是 $f(x)$ 的可去间断点。
+    figures: []
+  - label: C
+    text: $x=0$ 是 $f(x)$ 的跳跃间断点。
+    figures: []
+  - label: D
+    text: $x=0$ 是 $f(x)$ 的无穷间断点。
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x)$ 在 $x=\dfrac{\pi}{2}$ 处连续，且 $\lim_{x\to\dfrac{\pi}{2}}\dfrac{f(x)}{|\cos x|}=1$，则\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\lim_{x\to\dfrac{\pi}{2}}f'(x)=1$。
+    figures: []
+  - label: B
+    text: |-
+      $f(x)$ 在 $x=\dfrac{\pi}{2}$ 处可导。
+    figures: []
+  - label: C
+    text: |-
+      $f(x)$ 在 $x=\dfrac{\pi}{2}$ 处的左导数为 $1$。
+    figures: []
+  - label: D
+    text: |-
+      $f(x)$ 在 $x=\dfrac{\pi}{2}$ 处的右导数为 $1$。
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $a\ne0$，则下列关于曲线 $l_1:y_1=e^{ax}$ 和曲线 $l_2:y_2=\dfrac{1}{1+ax^2}+ax$ 的说法中，错误的是\ExamSelection。
+  choices:
+  - label: A
+    text: 不论 $a$ 为何值，直线 $y=ax+1$ 必为 $l_1$ 与 $l_2$ 的公切线。
+    figures: []
+  - label: B
+    text: 曲线 $l_1$ 与 $l_2$ 在点 $(0,1)$ 处的曲率半径与 $a$ 有关。
+    figures: []
+  - label: C
+    text: 当 $a=2$ 时，$l_1$ 与 $l_2$ 在点 $(0,1)$ 处有相同的曲率与曲率圆。
+    figures: []
+  - label: D
+    text: 当 $a=-2$ 时，$l_1$ 与 $l_2$ 在点 $(0,1)$ 处有相同的曲率与曲率圆。
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x)$ 为 $[0,1]$ 上的可导函数，且 $|f'(x)|$ 在 $[0,1]$ 上的最大值为 $M$。若方程 $f(x)-x+1=0$，$f(x)+x-1=0$ 在 $(0,1)$ 内均有解，则对于满足条件的函数 $f(x)$，均有\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $|f(0)|+|f(1)|\leq M$。
+    figures: []
+  - label: B
+    text: |-
+      $|f(0)|+|f(1)|\geq M$。
+    figures: []
+  - label: C
+    text: $|f(0)|+|f(1)|=M$。
+    figures: []
+  - label: D
+    text: |-
+      $|f(0)|+|f(1)|\ne M$。
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $y_1(x),y_2(x),y_3(x)$ 分别为一阶非齐次线性微分方程 $y'+p(x)y=q(x)$ 的三个不同的解，已知 $y_1(0)=a,y_2(0)=b,y_3(0)=c$，则下列说法中，正确的是\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{y_3(x)-y_1(x)}{y_2(x)-y_1(x)}$ 是否为常数与 $p(x),q(x)$ 有关。
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{y_3(x)-y_1(x)}{y_2(x)-y_1(x)}$ 是否为常数与 $a,b,c$ 的取值有关。
+    figures: []
+  - label: C
+    text: |-
+      若 $a<b<c$，则 $\dfrac{y_3(x)-y_1(x)}{y_2(x)-y_1(x)}$ 必为大于 $0$ 的常数。
+    figures: []
+  - label: D
+    text: |-
+      若 $a<b<c$，则 $\dfrac{y_3(x)-y_1(x)}{y_2(x)-y_1(x)}$ 必为小于 $0$ 的常数。
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $D$ 是由曲线 $2xy=1$ 与直线 $x+y=\dfrac{3}{2}$ 所围成的封闭区域，已知函数 $f(x,y)$ 在区域 $D$ 上连续，则 $\iint_D f(x,y)\,\mathrm{d}x\mathrm{d}y=$\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $2\int_{\dfrac{\pi}{4}}^{\dfrac{\pi}{2}}\mathrm{d}\theta\int_{\dfrac{1}{\sqrt{\sin2\theta}}}^{\dfrac{3}{2(\sin\theta+\cos\theta)}}f(r\cos\theta,r\sin\theta)r\,\mathrm{d}r$
+    figures: []
+  - label: B
+    text: |-
+      $2\int_{\dfrac{\pi}{4}}^{\dfrac{\pi}{2}}\mathrm{d}\theta\int_{\dfrac{1}{\sqrt{2\sin2\theta}}}^{\dfrac{3}{2(\sin\theta+\cos\theta)}}f(r\cos\theta,r\sin\theta)r\,\mathrm{d}r$。
+    figures: []
+  - label: C
+    text: |-
+      $2\int_{\dfrac{\pi}{4}}^{\arctan2}\mathrm{d}\theta\int_{\dfrac{1}{\sqrt{\sin2\theta}}}^{\dfrac{3}{2(\sin\theta+\cos\theta)}}f(r\cos\theta,r\sin\theta)r\,\mathrm{d}r$
+    figures: []
+  - label: D
+    text: |-
+      $2\int_{\dfrac{\pi}{4}}^{\arctan2}\mathrm{d}\theta\int_{\dfrac{1}{\sqrt{2\sin2\theta}}}^{\dfrac{3}{2(\sin\theta+\cos\theta)}}f(r\cos\theta,r\sin\theta)r\,\mathrm{d}r$
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设二元函数 $f(x,y)=\begin{cases}(x+y)^2\sin\dfrac{1}{x+y},&x+y\ne0,\\0,&x+y=0,\end{cases}$ 则下列说法中，错误的是\ExamSelection。
+  choices:
+  - label: A
+    text: $f(x,y)$ 连续。
+    figures: []
+  - label: B
+    text: 当 $x+y=0$ 时，$f'_x(x,y)=0$。
+    figures: []
+  - label: C
+    text: $f'_x(x,y)$ 在点 $(0,0)$ 处不连续。
+    figures: []
+  - label: D
+    text: $f(x,y)$ 在点 $(0,0)$ 处不可微。
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $3$ 维列向量组 $\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3$ 与 $\boldsymbol{\beta}_1,\boldsymbol{\beta}_2,\boldsymbol{\beta}_3$ 满足 $\boldsymbol{\beta}_1=t\boldsymbol{\alpha}_1+\boldsymbol{\alpha}_2$，$\boldsymbol{\beta}_2=(t-1)\boldsymbol{\alpha}_1+t\boldsymbol{\alpha}_2+\boldsymbol{\alpha}_3$，$\boldsymbol{\beta}_3=(t-1)\boldsymbol{\alpha}_2+t\boldsymbol{\alpha}_3$，$\boldsymbol{A}$ 是 $3$ 阶矩阵，则 $t\ne0$ 是 $\boldsymbol{\beta}_1,\boldsymbol{\beta}_2,\boldsymbol{\beta}_3$ 为方程组 $\boldsymbol{A}\boldsymbol{x}=\boldsymbol{0}$ 的一个基础解系的\ExamSelection。
+  choices:
+  - label: A
+    text: 充分不必要条件。
+    figures: []
+  - label: B
+    text: 必要不充分条件。
+    figures: []
+  - label: C
+    text: 充分必要条件。
+    figures: []
+  - label: D
+    text: 既不是充分条件，也不是必要条件。
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设矩阵 $\boldsymbol{A}=\begin{pmatrix}a&b&b\\b&a&b\\b&b&a\end{pmatrix}$，$\boldsymbol{B}=\begin{pmatrix}b&b&a\\b&a&b\\a&b&b\end{pmatrix}$，$\boldsymbol{C}=\begin{pmatrix}b&a&b\\a&b&b\\b&b&a\end{pmatrix}$，$\boldsymbol{A},\boldsymbol{B},\boldsymbol{C}$ 均可逆，则\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\boldsymbol{A},\boldsymbol{B}$ 不相似但合同。
+    figures: []
+  - label: B
+    text: |-
+      $\boldsymbol{B},\boldsymbol{C}$ 既相似又合同。
+    figures: []
+  - label: C
+    text: |-
+      $\boldsymbol{A},\boldsymbol{C}$ 不相似但合同。
+    figures: []
+  - label: D
+    text: |-
+      $\boldsymbol{B},\boldsymbol{C}$ 不相似但合同。
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知二次型 $f(x_1,x_2,x_3)=2x_1^2+2x_2^2+x_3^2+2ax_1x_3+2bx_2x_3$ 可经正交变换化为标准形 $2ay_1^2-3by_2^2$，则下列选项中为 $f(x_1,x_2,x_3)$ 的规范形是\ExamSelection。
+  choices:
+  - label: A
+    text: $y_1^2$。
+    figures: []
+  - label: B
+    text: $-y_1^2$。
+    figures: []
+  - label: C
+    text: $y_1^2+y_2^2$。
+    figures: []
+  - label: D
+    text: $y_1^2-y_2^2$。
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x)$ 满足 $f(x)+2f\left(\dfrac{2}{x}\right)=x^2-\dfrac{1}{x^2}$，则曲线 $y=f(x)$ 在点 $(1,f(1))$ 处的切线方程为 $y=$\ExamBlank。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x)=\int_0^x\sqrt[3]{t-\dfrac{\pi}{4}}\sin2t\,\mathrm{d}t$，则 $f(x)$ 在 $[0,\pi]$ 上的最小值点为 $x=$\ExamBlank。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      曲线 $y=\cos x\left(x\in\left[-\dfrac{\pi}{2},\dfrac{\pi}{2}\right]\right)$ 与 $x$ 轴所围区域绕 $x$ 轴旋转一周所得旋转体的侧面积 $S=$\ExamBlank。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设函数 $z(x,y)$ 由方程 $\ln z+yz+\cos x=2$ 确定，则 $\left.\mathrm{d}z\right|_{(0,0)}=$\ExamBlank。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设函数 $f_n(x)=c_nx^{2n}e^{-\pi x^2}$，且满足 $\int_0^{+\infty}f_n(x)\,\mathrm{d}x=\dfrac{1}{2}$，其中 $c_n$ 为仅与 $n$ 有关的数。若 $c_0=1$，则 $c_4=$\ExamBlank。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设矩阵 $\boldsymbol{A}=\begin{pmatrix}0&t&1\\-1&0&1\\1&1&0\end{pmatrix}$ 相似于实对角矩阵，则 $t$ 的取值范围是\ExamBlank。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      设二元函数 $z(x,y)$ 有连续的偏导数，且 $\dfrac{\partial^2z}{\partial x\partial y}=x(e^y-1)$，$z(x,0)=0$，$z(0,y)=\dfrac{y^2}{2}-y$，求 $z(x,y)$ 的极值。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设区域 $D$ 由曲线 $x^3+y^3-6xy=0$（$x\geq0,y\geq0$）围成。
+  subparts:
+  - text: 求 $D$ 的面积；
+  - text: |-
+      若 $D$ 的形心的横坐标 $\bar{x}=a$，求 $\int_0^{+\infty}\dfrac{t^4}{(1+t^3)^3}\,\mathrm{d}t$，结果用 $a$ 表示。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 $f(x)$ 满足 $f'(1-x)=1-f(x)$，且 $\int_0^\pi[f(x)+(1+x)f'(x)]\,\mathrm{d}x=-2$，求 $f(x)$。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      证明：当 $0<x\leq1$ 时，$0<\dfrac{1}{\arcsin x}-\dfrac{\sqrt{1-x^2}}{x}\leq\dfrac{2}{\pi}$。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设数列 $\{x_n\}$ 满足 $x_1=\dfrac{1}{2}$，且对所有正整数 $n$，$\dfrac{1}{x_{n+1}}=\dfrac{2}{3}\left(\dfrac{1}{x_n}+\dfrac{1}{3-x_n}\right)$。
+  subparts:
+  - text: |-
+      证明 $\lim_{n\to\infty}x_n$ 存在，并求其值；
+  - text: |-
+      求 $\lim_{n\to\infty}2^{-n}\prod_{i=1}^n(3-x_i)$。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $3$ 阶矩阵 $\boldsymbol{A}$ 与非零向量 $\boldsymbol{\alpha}$ 满足 $\boldsymbol{A}\boldsymbol{\alpha}=\boldsymbol{\alpha}$，不同于 $\boldsymbol{\alpha}$ 的向量 $\boldsymbol{\beta}$ 满足 $\boldsymbol{A}\boldsymbol{\beta}=\boldsymbol{\alpha}$，向量 $\boldsymbol{\gamma}$ 满足 $\boldsymbol{A}\boldsymbol{\gamma}=\boldsymbol{\alpha}+\boldsymbol{\beta}$。求与 $\boldsymbol{A}^n$（$n\geq2$）相似的对角矩阵。

@@ -1,0 +1,310 @@
+schema_version: '3.0'
+paper:
+  series_key: liyanfang3
+  year: 2025
+  subject: math1
+  paper_no: 1
+content_hash: e9ed1318a15154b3c4551b54c6b3a5ab7854d017b0745c8f90c2babe369c8973
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x)$ 是 $\dfrac{\sin x}{1+x^2}$ 在 $[0,1]$ 上的一个原函数，$k$ 为非零常数，则下列说法中，正确的是（\ExamSelection）。
+  choices:
+  - label: A
+    text: |-
+      若 $\lim_{x\to0}\dfrac{f(x)}{x^k}$ 存在，则 $\lim_{x\to0}f(x)=0$。
+    figures: []
+  - label: B
+    text: |-
+      若 $\lim_{x\to0}\dfrac{f(x)}{x^k}$ 存在，则 $0<k\leq2$。
+    figures: []
+  - label: C
+    text: |-
+      若 $\lim_{x\to0}f(x)=0$，则 $\lim_{x\to0}\dfrac{f(x)}{\sqrt{x}}=0$。
+    figures: []
+  - label: D
+    text: |-
+      若 $\lim_{x\to0}f(x)=0$，则 $\lim_{x\to0}\dfrac{f(x)}{x^2}=1$。
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      曲线 $y=\sqrt{x^2-x\mathrm{e}^{-\dfrac{1}{x}}}$ 的渐近线的条数是（\ExamSelection）。
+  choices:
+  - label: A
+    text: $1$。
+    figures: []
+  - label: B
+    text: $2$。
+    figures: []
+  - label: C
+    text: $3$。
+    figures: []
+  - label: D
+    text: $4$。
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设一元函数 $f(t),g(t)$ 可导，令 $z(x,y)=f(x-y^2+1)g(x^2-y+1)$，若 $\left.\mathrm{d}z\right|_{(0,0)}=\mathrm{d}x+2\mathrm{d}y$，则 $\left.\mathrm{d}z\right|_{(1,1)}=$（\ExamSelection）。
+  choices:
+  - label: A
+    text: |-
+      $-\mathrm{d}x+\mathrm{d}y$。
+    figures: []
+  - label: B
+    text: |-
+      $\mathrm{d}x-\mathrm{d}y$。
+    figures: []
+  - label: C
+    text: |-
+      $-3\mathrm{d}x$。
+    figures: []
+  - label: D
+    text: |-
+      $\mathrm{d}y$。
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知数列 $\{x_n\}$ 满足 $x_1=\dfrac{1}{2}$，当 $n\geq1$ 时，$x_{n+1}=x_n^2$。设级数①为 $\sum_{n=1}^{\infty}\sqrt{x_n}$，级数②为 $\sum_{n=1}^{\infty}\ln\dfrac{2+x_n}{2+x_nx_{n+1}}$，则下列关于这两个级数的说法中，正确的是（\ExamSelection）。
+  choices:
+  - label: A
+    text: ①，②均收敛。
+    figures: []
+  - label: B
+    text: ①收敛，②发散。
+    figures: []
+  - label: C
+    text: ①发散，②收敛。
+    figures: []
+  - label: D
+    text: ①，②均发散。
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设矩阵 $A=(\alpha_1,\alpha_2,\cdots,\alpha_n)$，$B=(\beta_1,\beta_2,\cdots,\beta_n)$，$C=(\gamma_1,\gamma_2,\cdots,\gamma_n)$，$P,Q$ 为可逆矩阵，满足 $PA=B,AQ=C,\xi\ne0$，则下列说法中，正确的是（\ExamSelection）。
+  choices:
+  - label: A
+    text: |-
+      若 $k_1\alpha_1+k_2\alpha_2+\cdots+k_n\alpha_n=0$，则 $k_1\beta_1+k_2\beta_2+\cdots+k_n\beta_n=0$。
+    figures: []
+  - label: B
+    text: |-
+      若 $k_1\alpha_1+k_2\alpha_2+\cdots+k_n\alpha_n=\xi$，则 $k_1\beta_1+k_2\beta_2+\cdots+k_n\beta_n=\xi$。
+    figures: []
+  - label: C
+    text: |-
+      若 $k_1\alpha_1+k_2\alpha_2+\cdots+k_n\alpha_n=0$，则 $k_1\gamma_1+k_2\gamma_2+\cdots+k_n\gamma_n=0$。
+    figures: []
+  - label: D
+    text: |-
+      若 $k_1\alpha_1+k_2\alpha_2+\cdots+k_n\alpha_n=\xi$，则 $k_1\gamma_1+k_2\gamma_2+\cdots+k_n\gamma_n=\xi$。
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知矩阵 $A=\begin{pmatrix}x&1&-1\\-2&0&2\\0&1&y\end{pmatrix}$，$B=\begin{pmatrix}u&v&0\\0&1&0\\2&-2&2\end{pmatrix}$ 相似，则下列说法中，正确的是（\ExamSelection）。
+  choices:
+  - label: A
+    text: 仅能确定 $x$ 的取值。
+    figures: []
+  - label: B
+    text: 仅能确定 $x,y$ 的取值。
+    figures: []
+  - label: C
+    text: 仅能确定 $x,y,u$ 的取值。
+    figures: []
+  - label: D
+    text: $x,y,u,v$ 的取值均能确定。
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 为 $3$ 阶非零实对称矩阵，特征值只可能为 $1,-1,0$ 三者中的数，$\alpha$ 为非零列向量，且满足 $\alpha^{\mathrm{T}}A\alpha=0$。若对满足 $\beta^{\mathrm{T}}\alpha=0$ 的 $3$ 维非零列向量 $\beta$，均有 $\beta^{\mathrm{T}}A\beta\ne0$，则 $f=x^{\mathrm{T}}Ax$ 的规范形可能为（\ExamSelection）。
+  choices:
+  - label: A
+    text: $y_1^2+y_2^2-y_3^2$。
+    figures: []
+  - label: B
+    text: $y_1^2-y_2^2-y_3^2$。
+    figures: []
+  - label: C
+    text: $y_1^2-y_2^2$。
+    figures: []
+  - label: D
+    text: $y_1^2+y_2^2$。
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设随机变量 $X_1,X_2,X_3$ 相互独立且均服从二项分布 $B\left(2,\dfrac{1}{3}\right)$，随机变量 $Y=\max\{X_1,X_2,X_3\}$，则 $P\{Y=1\}=$（\ExamSelection）。
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{64}{729}$。
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{448}{729}$。
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{512}{729}$。
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{64}{81}$。
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设随机变量 $X$ 的概率密度为 $f(x)=\begin{cases}\dfrac{12x^2}{\theta^4}(\theta-x)\text{，}&0<x<\theta\text{，}\\0\text{，}&\text{其他}\text{，}\end{cases}$ 其中 $\theta>0$ 为未知参数，$X_1,X_2,\cdots,X_n$ 是来自总体 $X$ 的简单随机样本。记 $\hat{\theta}$ 为 $\theta$ 的矩估计量，$\overline{X}$ 为样本均值，则下列说法中，正确的是（\ExamSelection）。
+  choices:
+  - label: A
+    text: |-
+      $\hat{\theta}=\dfrac{5}{3}\overline{X},D(\hat{\theta})=\dfrac{\theta^2}{9n}$。
+    figures: []
+  - label: B
+    text: |-
+      $\hat{\theta}=\dfrac{3}{5}\overline{X},D(\hat{\theta})=\dfrac{\theta^2}{9n}$。
+    figures: []
+  - label: C
+    text: |-
+      $\hat{\theta}=\dfrac{5}{3}\overline{X},D(\hat{\theta})=\dfrac{\theta^2}{15n}$。
+    figures: []
+  - label: D
+    text: |-
+      $\hat{\theta}=\dfrac{3}{5}\overline{X},D(\hat{\theta})=\dfrac{\theta^2}{15n}$。
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设随机变量 $(X_1,Y_1)\sim N(\mu_1,\mu_2;\sigma_1^2,\sigma_2^2;\rho)$，$(X_2,Y_2)\sim N(\mu_1,\mu_2;\sigma_1^2,\sigma_2^2;-\rho)$，$g_1(x,y),g_2(x,y)$ 分别为 $(X_1,Y_1),(X_2,Y_2)$ 的联合概率密度。若随机变量 $(X,Y)$ 的联合概率密度 $f(x,y)$ 满足 $f(x,y)=\dfrac{1}{3}g_1(x,y)+\dfrac{2}{3}g_2(x,y)$，则 $X$ 与 $Y$ 的相关系数 $\rho_{XY}=$（\ExamSelection）。
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{1}{3}\rho$。
+    figures: []
+  - label: B
+    text: |-
+      $-\dfrac{1}{3}\rho$。
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{2}{3}\rho$。
+    figures: []
+  - label: D
+    text: |-
+      $-\dfrac{2}{3}\rho$。
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $\lim_{x\to0}\dfrac{(1+x)\sqrt{1+x^2}\cdots\sqrt[n]{1+x^n}-1}{(1-x)\sqrt{1-x^2}\cdots\sqrt[n]{1-x^n}-1}=\ExamBlank$。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $p\ne-2$，$\mathrm{e}^x,y_1(x)$ 为二阶常系数齐次线性微分方程 $y''+py'-(1+p)y=0$ 的两个解，且 $y_1'(x)\ne y_1(x)$，则 $y''+py'-(1+p)y=(p+2)\mathrm{e}^x$ 的通解为 $y=\ExamBlank$（结果用 $y_1(x)$ 表示）。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      函数 $f(x,y)=(y-x^2)(x-y^2)$ 的极值点是\ExamBlank。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设曲线 $L_R$ 为 $x^2+y^2=R^2$（$x\geq0,y\geq0,R>0$），起点为 $(R,0)$，终点为 $(0,R)$。若 $\lim_{R\to+\infty}\int_{L_R}\dfrac{x\,\mathrm{d}y-y\,\mathrm{d}x}{\left[x^2+y^2+\dfrac{1}{2}(x^2-y^2)\right]^k}=a\ne0$，则 $a+k=\ExamBlank$。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设矩阵 $A=\begin{pmatrix}a&a&2\\0&b&c\\0&0&0\end{pmatrix}$，$A^*$ 是 $A$ 的伴随矩阵，且 $A^*\begin{pmatrix}1\\1\\1\end{pmatrix}=\begin{pmatrix}-3\\-1\\2\end{pmatrix}$，则 $a+b+c=\ExamBlank$。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      独立地投掷一颗均匀骰子，根据切比雪夫不等式，投掷 $10$ 次的总点数之和 $X$ 满足 $25<X<45$ 的概率不小于\ExamBlank。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: 求下列极限：
+  subparts:
+  - text: |-
+      求极限 $\lim_{n\to\infty}\dfrac{1}{n}\sum_{i=1}^{n}\left(\dfrac{i}{n}\right)^{99}$；
+  - text: |-
+      求极限 $\lim_{n\to\infty}\dfrac{\ln(1+2+\cdots+n)^{99}}{\ln(1^{99}+2^{99}+\cdots+n^{99})}$。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $\Sigma$ 为曲面 $z=1-x^2-2y^2$（$z\geq0$）的上侧，$f(x)$ 是连续函数，计算 $I=\iint_{\Sigma}2y^2f(x+y)\,\mathrm{d}y\mathrm{d}z+xy\left[\dfrac{1}{4}-f(x-y)\right]\,\mathrm{d}z\mathrm{d}x+(z-xy^2)\,\mathrm{d}x\mathrm{d}y$。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 $y=f(x)$ 满足 $\dfrac{\mathrm{d}y}{\mathrm{d}x}+\dfrac{y}{x}=-2y^2\ln x$，且 $\int_0^1f(x)\,\mathrm{d}x=\dfrac{\pi}{2}$，求函数 $f(x)$ 的表达式。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设二元函数 $f(x,y)$ 在区域 $D=\{(x,y)\mid0\leq x\leq1,0\leq y\leq1\}$ 上有连续的偏导数 $\dfrac{\partial f}{\partial x},\dfrac{\partial f}{\partial y}$，且 $\left|\dfrac{\partial f}{\partial x}\right|\leq M\text{，}\left|\dfrac{\partial f}{\partial y}\right|\leq M$。已知 $f(0,0)=f(0,1)=f(1,0)=f(1,1)=0$，证明：
+  subparts:
+  - text: |-
+      在区域 $D$ 上，$|f(x,y)|\leq M(x+y)$；
+  - text: |-
+      $\left|\iint_Df(x,y)\,\mathrm{d}x\mathrm{d}y\right|\leq\dfrac{M}{2}$。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $A$ 为 $3$ 阶矩阵，矩阵 $B=\begin{pmatrix}1&2&3\\-1&b&1\\a&-4&2\end{pmatrix}$，已知 $A$ 的第一行为 $(1,2,c)$ 且各行元素之和相等，$AB=B$。
+  subparts:
+  - text: 求 $a,b,c$；
+  - text: 求矩阵 $A$。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设随机变量 $X$ 的概率分布为 $P\{X=k\}=\dfrac{1}{2^k},k=1,2,\cdots$，当 $X=k$ 时，随机变量 $Y$ 服从参数为 $k$ 的指数分布。令 $Z=XY$。
+  subparts:
+  - text: 求 $Z$ 的概率密度；
+  - text: |-
+      求 $X$ 与 $Y$ 的协方差 $\operatorname{Cov}(X,Y)$。

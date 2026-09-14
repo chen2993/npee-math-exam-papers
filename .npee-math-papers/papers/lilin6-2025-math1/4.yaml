@@ -1,0 +1,297 @@
+schema_version: '3.0'
+paper:
+  series_key: lilin6
+  year: 2025
+  subject: math1
+  paper_no: 4
+content_hash: f076fdc1ea8101630949eda5e3613856df79138c302ec59db170c5bf82de1d2e
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)$ 连续，且 $\lim_{x\to 2}\dfrac{\ln(x-1)}{f(3-x)}=1$，则曲线 $y=f(x)$ 在点 $(1,f(1))$ 处的切线方程为\ExamSelection
+  choices:
+  - label: A
+    text: $y=x-1$。
+    figures: []
+  - label: B
+    text: $y=1-x$。
+    figures: []
+  - label: C
+    text: $y=1+x$。
+    figures: []
+  - label: D
+    text: $y=-x-1$。
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设椭球面 $\Sigma:x^2+2y^2+3z^2=a^2(a>0)$ 与平面 $\Pi:x-2y+3z=6$ 相切，则 $a=$\ExamSelection
+  choices:
+  - label: A
+    text: $6$。
+    figures: []
+  - label: B
+    text: |-
+      $\sqrt{6}$。
+    figures: []
+  - label: C
+    text: $3$。
+    figures: []
+  - label: D
+    text: |-
+      $\sqrt{3}$。
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $a_n>0(n=1,2,\cdots)$，且 $\sum_{n=1}^{\infty}(-1)^{n-1}a_n$ 条件收敛，$b_n=2a_{2n-1}-a_{2n}$，则级数 $\sum_{n=1}^{\infty}b_n$\ExamSelection
+  choices:
+  - label: A
+    text: 绝对收敛。
+    figures: []
+  - label: B
+    text: 条件收敛。
+    figures: []
+  - label: C
+    text: 发散。
+    figures: []
+  - label: D
+    text: 敛散性不确定。
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x,y)$ 有一阶连续偏导数，且 $f(x,y)=1-x-y+o(\sqrt{(x-1)^2+(y-2)^2})$，$g(x,y)=f(x+y,xy)$，则全微分 $\mathrm{d}g\big|_{(1,0)}=$\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $-2\,\mathrm{d}y$。
+    figures: []
+  - label: B
+    text: |-
+      $-\mathrm{d}x$。
+    figures: []
+  - label: C
+    text: |-
+      $-\mathrm{d}x-2\,\mathrm{d}y$。
+    figures: []
+  - label: D
+    text: |-
+      $\mathrm{d}x-2\mathrm{d}y$。
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 3 维列向量 $\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3$ 线性无关，$A=(a_{ij})_{3\times3}$ 满足 $A\boldsymbol{\alpha}_1=\boldsymbol{\alpha}_1,A\boldsymbol{\alpha}_2=\boldsymbol{\alpha}_2+\boldsymbol{\alpha}_3,A\boldsymbol{\alpha}_3=\boldsymbol{\alpha}_1+\boldsymbol{\alpha}_3$，$A_{ij}$ 是 $a_{ij}$ 的代数余子式，则 $A_{11}+A_{22}+A_{33}=$\ExamSelection
+  choices:
+  - label: A
+    text: $1$。
+    figures: []
+  - label: B
+    text: $2$。
+    figures: []
+  - label: C
+    text: $3$。
+    figures: []
+  - label: D
+    text: $4$。
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设方程组 $AX=0$ 的基础解系为 $(1,3,-2)^{\mathrm{T}},(2,-1,3)^{\mathrm{T}}$，矩阵 $B$ 的行向量组与 $A$ 的行向量组等价，且 $B\boldsymbol{\alpha}=0$，其中 $\boldsymbol{\alpha}=(2,a,-2a-4)^{\mathrm{T}}$，则 $a=$\ExamSelection
+  choices:
+  - label: A
+    text: $6$。
+    figures: []
+  - label: B
+    text: $-6$。
+    figures: []
+  - label: C
+    text: $1$。
+    figures: []
+  - label: D
+    text: $-1$。
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $\boldsymbol{\alpha}_1=(1,2,1)^{\mathrm{T}},\boldsymbol{\alpha}_2=(2,3,a)^{\mathrm{T}},\boldsymbol{\alpha}_3=(1,a+2,-2)^{\mathrm{T}},\boldsymbol{\beta}_1=(1,3,4)^{\mathrm{T}},\boldsymbol{\beta}_2=(0,1,2)^{\mathrm{T}}$。若 $\boldsymbol{\beta}_1$ 可由 $\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3$ 线性表示，$\boldsymbol{\beta}_2$ 不能由 $\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3$ 线性表示，则 $a=$\ExamSelection
+  choices:
+  - label: A
+    text: $-1$。
+    figures: []
+  - label: B
+    text: $3$。
+    figures: []
+  - label: C
+    text: $1$。
+    figures: []
+  - label: D
+    text: $-3$。
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设二维随机变量 $(X,Y)$ 的概率密度为 $f(x,y)=\begin{cases}xe^{-x(1+y)},&x>0,y>0,\\0,&\text{其他},\end{cases}$ 则 $P\{X>2\mid X>EX\}=$\ExamSelection
+  choices:
+  - label: A
+    text: $e^{-1}$。
+    figures: []
+  - label: B
+    text: $e^{-2}$。
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{1}{2}$。
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{1}{2}e^{-1}$。
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设随机变量 $X$ 的概率密度为 $f(x),DX=1$，随机变量 $Y$ 的概率密度为 $f(-y)$，且 $\rho_{XY}=-\dfrac{1}{2}$，则 $D(X+Y)=$\ExamSelection
+  choices:
+  - label: A
+    text: $1$。
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{1}{2}$。
+    figures: []
+  - label: C
+    text: $2$。
+    figures: []
+  - label: D
+    text: |-
+      $\sqrt{2}$。
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $X_1,X_2,\cdots,X_{10}$ 是来自总体 $N(\mu,\sigma^2)(\sigma>0)$ 的简单随机样本，$\overline{X}$ 是样本均值，记 $Y=\dfrac{1}{10}\sum_{i=1}^{10}(X_i-\overline{X})^2,T=\dfrac{\overline{X}-\mu}{\sqrt{Y}}$，若 $P\{T\geq a\}=0.05$，则 $P\{|3T|\geq3a\}=$\ExamSelection
+  choices:
+  - label: A
+    text: $0.05$。
+    figures: []
+  - label: B
+    text: $0.10$。
+    figures: []
+  - label: C
+    text: $0.20$。
+    figures: []
+  - label: D
+    text: $0.30$。
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)$ 在 $(-1,+\infty)$ 内连续，且 $f(x)=\int_0^x e^{-f(t)}\,\mathrm{d}t$，则 $f^{(n)}(0)(n\geq2)=$\ExamBlank。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设平面区域 $D=\{(x,y)\mid\dfrac{1-x}{1+x}\leq y\leq\sqrt{1-x^2},0\leq x\leq1\}$，则 $D$ 绕 $y$ 轴旋转一周所得到旋转体的体积 $V=$\ExamBlank。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      级数 $\sum_{n=1}^{\infty}\int_n^{n+1}\dfrac{\mathrm{d}x}{x\sqrt{x-1}}$ 的和为\ExamBlank。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设平面曲线 $L$ 为 $r=1+\cos\theta$ 从 $\theta=0$ 到 $\theta=\dfrac{\pi}{2}$ 的一段弧，则 $I=\int_L(x+1)\,\mathrm{d}x+y\,\mathrm{d}y=$\ExamBlank。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $\boldsymbol{\alpha}_1=(1,1,1)^{\mathrm{T}},\boldsymbol{\alpha}_2=(1,0,-1)^{\mathrm{T}},\boldsymbol{\alpha}_3=(1,0,1)^{\mathrm{T}}$ 与 $\boldsymbol{\beta}_1=(1,2,1)^{\mathrm{T}},\boldsymbol{\beta}_2=(3,3,3)^{\mathrm{T}},\boldsymbol{\beta}_3=(2,4,3)^{\mathrm{T}}$ 是 $\mathbb{R}^3$ 的两组基，则在两组基下有相同坐标的向量为\ExamBlank。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设投篮测试规则为每人最多投 3 次，投中就停止，某人投篮测试中投篮的平均次数为 1.5 次，则该人投篮的命中率 $p$ 为\ExamBlank。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      设 $f(x)$ 二阶可导，且 $\lim_{x\to0}\dfrac{f(x)}{x^2}=1$。
+  subparts:
+  - text: 求 $f'(0)$ 和 $f''(0)$；
+  - text: |-
+      求 $\lim_{x\to0^+}\dfrac{f(x)-f[\ln(1+x)]}{x^3}$。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设直线段 $L:\begin{cases}y+z=-1,\\x=0\end{cases}(-1\leq z\leq0)$ 绕 $z$ 轴旋转一周所得曲面为 $S_1$，曲面 $S_2$ 为 $z=\sqrt{1-x^2-y^2}$，$S_1$ 与 $S_2$ 所围立体 $V$ 的全表面为 $S$。取内侧，计算 $I=\oiint_S\dfrac{x\,\mathrm{d}y\,\mathrm{d}z+y\,\mathrm{d}z\,\mathrm{d}x+z\,\mathrm{d}x\,\mathrm{d}y}{(x^2+y^2+z^2)^{\dfrac{3}{2}}}$。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      计算 $\lim_{n\to\infty}\sum_{k=1}^{n}\left(\dfrac{k}{nk+1}+\dfrac{k}{n^2}\right)\sin\dfrac{k\pi}{2n}$。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $y(x)$ 在 $[0,+\infty)$ 上有二阶连续的导数，点 $P(x,y)(x>0)$ 为曲线 $y=y(x)$ 上任意一点，沿曲线从点 $(0,1)$ 到点 $P(x,y)$ 的弧长在数值上等于该曲线在点 $P(x,y)$ 处的切线的斜率，且曲线在点 $(0,1)$ 处有水平切线。
+  subparts:
+  - text: 求 $y=y(x)$ 的表达式；
+  - text: |-
+      求曲线 $y=y(x)$ 从点 $(\ln2,\dfrac{5}{4})$ 到点 $(\ln3,\dfrac{5}{3})$ 的一段弧长。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $A$ 是 3 阶矩阵，$B=\begin{pmatrix}1&0&-1\\1&0&-1\\0&1&0\end{pmatrix}$，且满足 $(A+E)B=O,B^*A^{\mathrm{T}}=O$，其中 $B^*$ 是 $B$ 的伴随矩阵。
+  subparts:
+  - text: 证明：$r(B)+r(B^*)=3$；
+  - text: 证明：$A$ 相似于对角矩阵，并求 $A$。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $T$ 是连续型随机变量，且 $P\{T\leq a\}=\theta,P\{T>b\}=0,(0<\theta<\dfrac{1}{2},a<b)$。令 $X=\begin{cases}-1,&T\leq a,\\1,&T>a,\end{cases}$，$Y=\begin{cases}-1,&T\leq b,\\1,&T>b.\end{cases}$。
+  subparts:
+  - text: |-
+      求 $(X,Y)$ 的概率分布及 $\operatorname{Cov}(X+Y,X-Y)$；
+  - text: 求 $Z=X+Y$ 的概率分布；
+  - text: |-
+      在第（Ⅱ）问的基础上，若 $\theta(0<\theta<\dfrac{1}{2})$ 为未知参数，利用总体 $Z$ 的如下样本值：$-2,0,0,0,2,2$，求 $\theta$ 的矩估计和最大似然估计。

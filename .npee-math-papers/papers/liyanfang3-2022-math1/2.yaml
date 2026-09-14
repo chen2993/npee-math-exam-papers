@@ -1,0 +1,323 @@
+schema_version: '3.0'
+paper:
+  series_key: liyanfang3
+  year: 2022
+  subject: math1
+  paper_no: 2
+content_hash: fda95d767087352ec6e984d51fdb61a4dfa8f6d5f9c1048fba6fd5b220203e05
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)=\lim_{n\to\infty}\arctan\dfrac{1}{1+\sin^n x}$，则下列关于 $f(x)$ 的命题中，正确命题为\ExamSelection。 ① $f(x)$ 是周期为 $2\pi$ 的奇函数。 ② $f(x)$ 既有无穷多个可去间断点，又有无穷多个跳跃间断点。 ③ $f(x)$ 的最小值小于 $\dfrac{\pi}{6}$。 ④ $f(x)$ 的傅里叶级数收敛到一个常函数。
+  choices:
+  - label: A
+    text: ①②
+    figures: []
+  - label: B
+    text: ③④
+    figures: []
+  - label: C
+    text: ①③④
+    figures: []
+  - label: D
+    text: ②③④
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      关于反常积分 $\int_1^{+\infty}\dfrac{\mathrm{d}x}{(\ln x)^m(1+x^n)}$（$m>0,n>0$），下列命题中，正确的是\ExamSelection。
+  choices:
+  - label: A
+    text: 若该积分发散，则必有 $0<m<1,0<n<1$。
+    figures: []
+  - label: B
+    text: 若该积分收敛，则必有 $0<m<1,n>1$。
+    figures: []
+  - label: C
+    text: |-
+      若该积分发散，则必有 $m\geq 1,0<n<1$。
+    figures: []
+  - label: D
+    text: |-
+      若该积分收敛，则必有 $m\geq 1,n>1$。
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x,y)=|x-y|^\alpha g(x,y)$（$\alpha>0$），其中 $g(x,y)$ 在原点的某邻域内连续，则下列命题中，错误的是\ExamSelection。
+  choices:
+  - label: A
+    text: $f(x,y)$ 在原点处连续。
+    figures: []
+  - label: B
+    text: |-
+      若 $\alpha>1$，则 $f'_x(0,0),f'_y(0,0)$ 存在。
+    figures: []
+  - label: C
+    text: |-
+      若 $\alpha>1$，则 $f(x,y)$ 在原点处可微。
+    figures: []
+  - label: D
+    text: 若 $g(0,0)>0$，则 $f(x,y)$ 在原点处取得极小值。
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      下列命题中，正确的是\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      若正项级数 $\sum_{n=1}^{\infty}a_n$ 收敛，则 $\lim_{n\to\infty}na_n=0$。
+    figures: []
+  - label: B
+    text: |-
+      若正项级数 $\sum_{n=1}^{\infty}a_n$ 收敛，则 $\lim_{n\to\infty}n^2a_n=0$。
+    figures: []
+  - label: C
+    text: |-
+      若正项级数 $\sum_{n=1}^{\infty}a_n$ 收敛，则 $\sum_{n=1}^{\infty}\dfrac{\sqrt{a_n}}{n}$ 必收敛。
+    figures: []
+  - label: D
+    text: |-
+      若正项级数 $\sum_{n=1}^{\infty}a_n$ 收敛，则 $\sum_{n=1}^{\infty}\sqrt{\dfrac{a_n}{n}}$ 必收敛。
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      若向量组 $\alpha_1,\alpha_2,\cdots,\alpha_n$ 线性相关，其秩为 $r$，且 $\alpha_1 eq 0$，则\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\alpha_1$ 必能由其他向量线性表示
+    figures: []
+  - label: B
+    text: |-
+      $\alpha_1,\alpha_2,\cdots,\alpha_n$ 的极大无关组必包含 $\alpha_1$
+    figures: []
+  - label: C
+    text: |-
+      必存在 $2\leq k\leq n$，使得 $\alpha_k$ 能由 $\alpha_1,\alpha_2,\cdots,\alpha_{k-1}$ 线性表示
+    figures: []
+  - label: D
+    text: |-
+      必存在可逆矩阵 $P$，使得 $P(\alpha_1,\alpha_2,\cdots,\alpha_n)=(\beta_1,\beta_2,\cdots,\beta_n)$，且 $\beta_1,\beta_2,\cdots,\beta_r$ 恰为 $\beta_1,\beta_2,\cdots,\beta_n$ 的一个极大无关组
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $n$ 阶实矩阵 $A=(a_{ij})$ 满足 $a_{ij}+a_{ji}=0$，则下列命题中，正确命题的个数为\ExamSelection。 ① $A$ 为可逆矩阵。 ② $E+A$ 为可逆矩阵。 ③ 对于任意的非零向量 $x$，均有 $x^{\mathrm T}Ax=0$。 ④ 若 $A eq 0$，则 $A$ 不可能合同于一个非零对角矩阵。
+  choices:
+  - label: A
+    text: $0$
+    figures: []
+  - label: B
+    text: $1$
+    figures: []
+  - label: C
+    text: $2$
+    figures: []
+  - label: D
+    text: $3$
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 为 $n$ 阶实矩阵，$A eq A^{\mathrm T}$，$B=\begin{pmatrix}E&A\\A^{\mathrm T}&O\end{pmatrix}$，则\ExamSelection。
+  choices:
+  - label: A
+    text: $B$ 的正、负惯性指数分别为 $n,0$
+    figures: []
+  - label: B
+    text: |-
+      不存在非零向量 $\alpha$，使得 $\alpha^{\mathrm T}B\alpha=0$
+    figures: []
+  - label: C
+    text: |-
+      若对任意 $y eq 0$，都有 $y^{\mathrm T}A^{\mathrm T}Ay eq 0$，则对任意 $x eq 0$，都有 $x^{\mathrm T}Bx eq 0$
+    figures: []
+  - label: D
+    text: |-
+      若非零向量 $\alpha,\beta$ 满足 $A^{\mathrm T}\alpha=\alpha,A\beta=-\beta$，则 $(\alpha^{\mathrm T},\beta^{\mathrm T})B\begin{pmatrix}\alpha\\\beta\end{pmatrix}>0$
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A,B$ 为两随机事件，$0<P(A)<1,0<P(B)<1$，则事件 $A$ 与事件 $B$ 相互独立的充分必要条件为\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $P(B)=P(\overline B\mid A)$
+    figures: []
+  - label: B
+    text: |-
+      $P(A)+P(\overline B\mid A)=1$
+    figures: []
+  - label: C
+    text: |-
+      $P(\overline B\mid A)+P(B\mid\overline A)=1$
+    figures: []
+  - label: D
+    text: |-
+      $P(B\mid A)+P(B\mid\overline A)=1$
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设总体 $X$ 的概率密度函数为 $f(x)$，$X_1,X_2,\cdots,X_n$ 为来自总体 $X$ 的简单随机样本。$X_{(1)}=\min\{X_1,X_2,\cdots,X_n\}$，$X_{(n)}=\max\{X_1,X_2,\cdots,X_n\}$。若常数 $c$ 满足 $\int_{-\infty}^{c}f(x)\,\mathrm{d}x=\dfrac{1}{2}$，则 $P\{X_{(1)}<c<X_{(n)}\}=$\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $1-\dfrac{1}{2^{n-1}}$
+    figures: []
+  - label: B
+    text: |-
+      $1-\dfrac{1}{2^n}$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{1}{2^n}$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{1}{2^{n-1}}$
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $X_1,X_2,\cdots,X_n$ 为来自总体 $X\sim N(\mu_1,\sigma_1^2)$（$\sigma_1>0$）的简单随机样本，$Y_1,Y_2,\cdots,Y_m$ 为来自总体 $Y\sim N(\mu_2,\sigma_2^2)$（$\sigma_2>0$）的简单随机样本，样本方差分别为 $S_1^2,S_2^2$，则下列命题中，正确的是\ExamSelection。
+  choices:
+  - label: A
+    text: 若 $E(S_1^2)=E(S_2^2)$，则 $m=n$
+    figures: []
+  - label: B
+    text: |-
+      若 $D(S_1^2)=\dfrac{\sigma_1^4}{49},D(S_2^2)=\dfrac{\sigma_2^4}{50}$，则 $n=49,m=50$
+    figures: []
+  - label: C
+    text: |-
+      若 $\sigma_1^2=\sigma_2^2$，则 $\dfrac{\sqrt n(\overline X-\mu_1)}{S_2}\sim t(n-1)$
+    figures: []
+  - label: D
+    text: |-
+      若 $\sigma_1^2=\sigma_2^2$，则 $\dfrac{S_1^2}{S_2^2}\sim F(n-1,m-1)$
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      二元函数 $f(x,y)=x^3+y^3-xy$ 的极小值为\ExamBlank。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设曲面方程为 $z=w(x)e^{\sin(xy)}$，其中 $w=w(x)$（$w>0$）由方程 $x^2+w^2+e^{xw}=5$ 确定，则曲面在点 $(0,1,z(0,1))$ 处的切平面方程为\ExamBlank。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      微分方程 $y'+xy=x^3y^3$ 满足 $y(0)=1$ 的特解为\ExamBlank。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设向量场 $\boldsymbol A=xy\boldsymbol i+yz\boldsymbol j+zx\boldsymbol k$，$\Sigma$ 为曲面 $z=1-|x|-|y|$（$|x|+|y|\leq 1$）的上侧，则向量场 $\boldsymbol A$ 通过 $\Sigma$ 上侧的流量 $I=$\ExamBlank。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $3$ 阶矩阵 $A=(a_{ij})$ 满足各行元素之和均为 $2$，且 $|A|=\dfrac{1}{2}$。若矩阵 $B(t)=(a_{ij}+t)$，则 $|B(1)|=$\ExamBlank。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      已知某厂产品的次品率为 $1\%$，一箱中的产品数为 $100$。若一箱中次品数不超过 $x$ 的概率大于 $0.96$，则由泊松定理估计可得 $x$ 的最小值为\ExamBlank。（$e^{-1}\approx 0.368$）
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: 设 $f(x)$ 具有一阶连续导数，且 $f(0)=1,f(1)=a$。
+  subparts:
+  - text: |-
+      求使得 $1+\dfrac{a}{\sqrt 2}-\int_0^1\sqrt{1+[f'(x)]^2}\,\mathrm{d}x$ 取得最大值的 $f(x)$ 的表达式。
+  - text: |-
+      将 $1+\dfrac{a}{\sqrt 2}-\int_0^1\sqrt{1+[f'(x)]^2}\,\mathrm{d}x$ 取得的最大值记为 $g(a)$，当 $a$ 为何值时，$g(a)$ 取得最大值？并求出该最大值。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      \mbox{}
+  subparts:
+  - text: |-
+      证明：当 $x>0$ 时，$\dfrac{x}{1+x}<\ln(1+x)<x$。
+  - text: |-
+      设 $x_n=\left(1+\dfrac{n^2-n+1}{n^3}\right)\left(1+\dfrac{n^2-n+3}{n^3}\right)\cdots\left(1+\dfrac{n^2+n-1}{n^3}\right)$，求 $\lim_{n\to\infty}x_n$。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $u(x,y)=\arctan\dfrac{x}{y}$，$D$ 为由 $x^2+y^2=1,x^2+y^2=4,y=x,y=-x$ 所围成区域在上半平面中的部分，$L$ 为其正向边界。
+  subparts:
+  - text: |-
+      当 $y eq 0$ 时，计算 $\dfrac{\partial^2u}{\partial x^2}+\dfrac{\partial^2u}{\partial y^2}$；
+  - text: |-
+      求 $\oint_Lu(x,y)\dfrac{\partial u}{\partial n}\,\mathrm{d}s$，其中 $n$ 为 $L$ 的外法线方向。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: 设 $u_n(x)=(x^2-1)^n$，记 $p_n(x)$ 为 $u_n(x)$ 的 $n$ 阶导数。
+  subparts:
+  - text: 证明 $p_n(x)$ 为 $(1-x^2)y''-2xy'+n(n+1)y=0$ 的一个解；
+  - text: |-
+      计算 $\sum_{k=1}^{\infty}\dfrac{p_{2k}(0)}{p''_{2k}(0)}$。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $3$ 阶矩阵 $A$ 有 $3$ 个不同的特征值 $0,1,2$，$\alpha_1,\alpha_2,\alpha_3$ 分别为 $0,1,2$ 对应的一个特征向量。记 $\beta=\alpha_1+\alpha_2+\alpha_3$。
+  subparts:
+  - text: |-
+      证明 $\beta,A\beta,A^2\beta$ 线性无关；
+  - text: |-
+      确定 $a,b,c$，使得矩阵 $B=\begin{pmatrix}0&0&a\\1&0&b\\0&1&c\end{pmatrix}$ 与矩阵 $A$ 相似，并求可逆矩阵 $P$，使得 $P^{-1}AP=B$，并将结果用 $A,\beta$ 表示；
+  - text: 求 $B^{2022}$ 的各列元素之和。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: 设随机变量 $X$ 服从 $(1,2)$ 上的均匀分布。在 $X=x$ 的条件下，随机变量 $Y$ 的条件分布是参数为 $x$ 的指数分布。
+  subparts:
+  - text: 求 $(X,Y)$ 的联合概率密度；
+  - text: 求 $XY$ 的概率密度；
+  - text: |-
+      求 $\mathrm{Cov}(X,Y)$。

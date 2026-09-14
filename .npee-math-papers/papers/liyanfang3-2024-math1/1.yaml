@@ -1,0 +1,309 @@
+schema_version: '3.0'
+paper:
+  series_key: liyanfang3
+  year: 2024
+  subject: math1
+  paper_no: 1
+content_hash: 53aa6cd93382645a23c16ac9e556b3c8b21b626e92e3e0d67418b483f3d764ea
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知 $a_n=\dfrac{(-1)^{\left[\cos 2n\right]}}{n}$，其中 $n$ 为正整数，$\left[\cos 2n\right]$ 表示不超过 $\cos 2n$ 的最大整数，则数列 $\{a_n\}$\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      有最大值 $\dfrac{1}{2}$，有最小值 $-1$。
+    figures: []
+  - label: B
+    text: |-
+      有最大值 $1$，有最小值 $-\dfrac{1}{3}$。
+    figures: []
+  - label: C
+    text: |-
+      有最大值 $1$，有最小值 $-\dfrac{1}{2}$。
+    figures: []
+  - label: D
+    text: |-
+      有最大值 $\dfrac{1}{3}$，有最小值 $-1$。
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $0<a<1$，$I_1=\int_0^1\dfrac{e^{ax}-1}{e^x-1}\,\mathrm{d}x$，$I_2=\int_0^1\dfrac{\sqrt{ax}+1}{\sqrt{x}+1}\,\mathrm{d}x$，则\ExamSelection。
+  choices:
+  - label: A
+    text: $I_1<a<I_2$。
+    figures: []
+  - label: B
+    text: $I_2<a<I_1$。
+    figures: []
+  - label: C
+    text: $a<I_1<I_2$。
+    figures: []
+  - label: D
+    text: $I_1<I_2<a$。
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设正值函数 $f(x,y,z)$ 与 $g(x,y,z)$ 在点 $(0,0,0)$ 处的各个偏导数均存在且连续，$f(0,0,0)=g(0,0,0)=1$，$f(x,y,z)$ 在点 $(0,0,0)$ 处沿方向 $\boldsymbol{n}$ 的方向导数 $\left.\dfrac{\partial f}{\partial \boldsymbol{n}}\right|_{(0,0,0)}=1$，$g(x,y,z)$ 在点 $(0,0,0)$ 处沿方向 $\boldsymbol{n}$ 的方向导数 $\left.\dfrac{\partial g}{\partial \boldsymbol{n}}\right|_{(0,0,0)}=2$，则 $\left.\dfrac{\partial}{\partial \boldsymbol{n}}\left(\dfrac{1}{f}+\dfrac{1}{g}\right)\right|_{(0,0,0)}=$\ExamSelection。
+  choices:
+  - label: A
+    text: $1$。
+    figures: []
+  - label: B
+    text: $3$。
+    figures: []
+  - label: C
+    text: $-1$。
+    figures: []
+  - label: D
+    text: $-3$。
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x)$ 在 $(0,+\infty)$ 内可导，则下列命题中，正确的个数是\ExamSelection。① 若 $\lim_{x\to0^+}f(x)=\infty$，则 $\lim_{x\to0^+}f'(x)=\infty$。② 若 $\lim_{x\to0^+}f'(x)=\infty$，则 $\lim_{x\to0^+}f(x)=\infty$。③ 若 $\lim_{x\to+\infty}f(x)$ 存在且有限，则 $\lim_{x\to+\infty}f'(x)$ 存在且有限。④ 若 $\lim_{x\to+\infty}f'(x)$ 存在且有限，则 $\lim_{x\to+\infty}f(x)$ 存在且有限。
+  choices:
+  - label: A
+    text: $0$。
+    figures: []
+  - label: B
+    text: $1$。
+    figures: []
+  - label: C
+    text: $2$。
+    figures: []
+  - label: D
+    text: $3$。
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      若矩阵 $A$ 可经初等行变换化为 $B$，则\ExamSelection。
+  choices:
+  - label: A
+    text: 方程组 $Ax=0$ 与 $BB^{T}x=0$ 同解。
+    figures: []
+  - label: B
+    text: 方程组 $Bx=0$ 与 $AA^{T}x=0$ 同解。
+    figures: []
+  - label: C
+    text: 方程组 $A^{T}Ax=0$ 与 $B^{T}Bx=0$ 同解。
+    figures: []
+  - label: D
+    text: 方程组 $AA^{T}x=0$ 与 $BB^{T}x=0$ 同解。
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A,B$ 为 $n$（$n\geq2$）阶矩阵，则下列说法中，错误的是\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\begin{pmatrix}A&O\\O&B\end{pmatrix}$ 与 $\begin{pmatrix}B&O\\O&A\end{pmatrix}$ 相似。
+    figures: []
+  - label: B
+    text: |-
+      $\begin{pmatrix}O&A\\B&O\end{pmatrix}$ 与 $\begin{pmatrix}O&B\\A&O\end{pmatrix}$ 相似。
+    figures: []
+  - label: C
+    text: |-
+      $\begin{pmatrix}A&O\\O&B\end{pmatrix}$ 与 $\begin{pmatrix}O&A\\B&O\end{pmatrix}$ 相似。
+    figures: []
+  - label: D
+    text: |-
+      $\begin{pmatrix}A&O\\O&B\end{pmatrix}$ 与 $\begin{pmatrix}A&B-A\\O&B\end{pmatrix}$ 相似。
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设二次型 $f(x_1,x_2,x_3)=x_1^2+x_3^2-2x_1x_2+2ax_1x_3+2a^2x_2x_3$，则二次曲面 $f(x_1,x_2,x_3)=1$ 在可逆线性变换下不可能化为\ExamSelection。
+  choices:
+  - label: A
+    text: 单叶双曲面。
+    figures: []
+  - label: B
+    text: 双叶双曲面。
+    figures: []
+  - label: C
+    text: 椭圆柱面。
+    figures: []
+  - label: D
+    text: 双曲柱面。
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A,B$ 为两个随机事件，$0<P(A)=p<1$，$0<P(B)=q<1$，则下列结论中，错误的是\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $P(A\mid B)\leq\dfrac{p}{q}$。
+    figures: []
+  - label: B
+    text: |-
+      $P(\overline{A}\mid B)\leq\dfrac{p}{q}$。
+    figures: []
+  - label: C
+    text: |-
+      $P(A\mid B)\geq1+\dfrac{p-1}{q}$。
+    figures: []
+  - label: D
+    text: |-
+      $P(\overline{A}\mid B)\geq1-\dfrac{p}{q}$。
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设随机变量 $X$ 服从正态分布 $N(0,1)$，$Y$ 服从正态分布 $N(1,4)$，对给定的 $\alpha(0<\alpha<1)$，数 $u_\alpha$ 满足 $P\left\{Y>u_\alpha\right\}=\alpha$。若 $P\left\{\left|X\right|<x\right\}=\alpha$，则 $x$ 等于\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $u_{\dfrac{\alpha}{2}}$。
+    figures: []
+  - label: B
+    text: |-
+      $u_{\dfrac{1-\alpha}{2}}$。
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{1}{2}\left(u_{\dfrac{\alpha}{2}}-1\right)$。
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{1}{2}\left(u_{\dfrac{1-\alpha}{2}}-1\right)$。
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设随机变量序列 $X_1,X_2,\ldots,X_n,\ldots$ 独立同分布，其中 $X_i$（$i=1,2,\ldots$）服从参数为 $2,\dfrac{1}{2}$ 的二项分布 $B\left(2,\dfrac{1}{2}\right)$。若当 $n\to\infty$ 时，$\dfrac{1}{n}\sum_{i=1}^{n}X_i^k$ 依概率收敛于 $a_k$（$k=1,2,3$），则 $a_1+a_2+a_3=$\ExamSelection。
+  choices:
+  - label: A
+    text: $1$。
+    figures: []
+  - label: B
+    text: $3$。
+    figures: []
+  - label: C
+    text: $5$。
+    figures: []
+  - label: D
+    text: $7$。
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $\lim_{x\to0}\left(\dfrac{1}{x\arctan 2x}-\dfrac{1}{2\sin^2x}\right)=\ExamBlank$。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      已知函数 $f(x)=\dfrac{x+2}{(1-x)^4}$，则 $f^{(5)}(0)=\ExamBlank$。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)$ 是周期为 $2\pi$ 的周期函数，且当 $x\in(-\pi,\pi)$ 时，$f(x)=x\sin x$。若 $f(x)=\dfrac{a_0}{2}+\sum_{n=1}^{\infty}a_n\cos nx$，则 $\sum_{n=2}^{\infty}a_n=\ExamBlank$。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设曲线积分 $\int_L f'(x)\,\mathrm{d}y-4y f(x)\,\mathrm{d}x$ 与路径无关，其中 $f(x)$ 具有二阶连续导数，并且 $\lim_{x\to0}\dfrac{f(x)-1}{x^2}$ 存在，则 $f(x)=\ExamBlank$。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $A=(a_{ij})$ 为 3 阶非零矩阵，$A^*$ 为其伴随矩阵，$A_{ij}$ 为 $a_{ij}$ 的代数余子式。若 $a_{ij}+A_{ij}=1$（$i,j=1,2,3$），则 $\left|A^2-(A^*)^2\right|=\ExamBlank$。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      记半圆盘 $x^2+y^2\leq4\ (y\geq0)$ 中到 $x$ 轴的距离不超过 $\sqrt{2}$ 的点所构成的区域为 $D$。向区域 $D$ 中随机投掷一点，以该点为圆心，该点到 $x$ 轴的距离为半径作圆 $C$。记圆 $C$ 的面积为 $S$，则 $E(S)=\ExamBlank$。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      设曲线 $\sqrt{x}+\sqrt{y}=a$ 过点 $(1,1)$。
+  subparts:
+  - text: 求该曲线在点 $(1,1)$ 处的切线方程；
+  - text: 求该曲线的弧长 $s$。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 $z(x,y)$ 满足 $\mathrm{d}z=e^{ax}(xy+y+2y^2)\,\mathrm{d}x+e^{ax}(2by+x)\,\mathrm{d}y$，且 $z(0,0)=0$。
+  subparts:
+  - text: 求 $a,b$；
+  - text: 求 $z(x,y)$ 的极值。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $L$ 为 $Oyz$ 面上的一条曲线，其方程为 $z=\sqrt{4y-y^2-3}$，记 $L$ 绕 $y$ 轴旋转一周所得曲面为 $\Sigma$。
+  subparts:
+  - text: |-
+      求 $\Sigma$ 的方程；
+  - text: |-
+      计算曲面积分 $I=\iint_{\Sigma}(x^2+\sin xz)\,\mathrm{d}y\,\mathrm{d}z+(2y^2+3\cos xy)\,\mathrm{d}z\,\mathrm{d}x+3z(1+x\sin xy)\,\mathrm{d}x\,\mathrm{d}y$。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设定义在 $[-\pi,\pi]$ 上的函数 $f_n(x)=\int_0^x(\left|t-1\right|-\left|t\right|)\sin^{2n}t\,\mathrm{d}t$。
+  subparts:
+  - text: 求 $f_n(x)$ 的最大值点；
+  - text: |-
+      记 $\max_{-\pi\leq x\leq\pi}f_n(x)=a_n$，证明：$\sum_{n=0}^{\infty}a_n$ 收敛，且级数和小于 $\dfrac{3}{2}\ln 3-2\ln 2$。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      已知矩阵 $A=\begin{pmatrix}3&-2&1\\8&-5&2\\-2&1&a\end{pmatrix}$ 只有一个线性无关的特征向量。
+  subparts:
+  - text: 求 $a$ 的值以及 $A$ 的全部特征向量；
+  - text: |-
+      若 $\boldsymbol{\alpha}_1$ 为 $A$ 的一个特征向量，且 $\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3$ 满足 $A\boldsymbol{\alpha}_2=\boldsymbol{\alpha}_1-\boldsymbol{\alpha}_2$，$A\boldsymbol{\alpha}_3=\boldsymbol{\alpha}_2-\boldsymbol{\alpha}_3$，证明 $\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3$ 线性无关。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设区域 $D=\left\{(x,y)\mid 0\leq x\leq\sqrt{y},0\leq y\leq1\right\}$，二维随机变量 $(X,Y)$ 的联合概率密度为 $f(x,y)=\begin{cases}6xy,&(x,y)\in D,\\0,&\text{其他}.\end{cases}$
+  subparts:
+  - text: 判断 $X,Y$ 是否相互独立；
+  - text: |-
+      求 $Z=\sqrt{X^2+Y}$ 的分布函数。

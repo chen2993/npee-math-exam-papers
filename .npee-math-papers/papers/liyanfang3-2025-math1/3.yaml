@@ -1,0 +1,305 @@
+schema_version: '3.0'
+paper:
+  series_key: liyanfang3
+  year: 2025
+  subject: math1
+  paper_no: 3
+content_hash: 42f92e9baa01a52a97776be64aa85dc120b872f9abd0aeaab63b1e73ee8918fa
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)=\sqrt{1+\sqrt{x}}-\sqrt{1+\sin\sqrt{x}}$，$g(x)=\sqrt{1+\sqrt{x}}-\sqrt{1+\sqrt{\sin x}}$，则当 $x\to0^+$ 时，下列说法中，正确的是\ExamSelection
+  choices:
+  - label: A
+    text: $f(x)$ 是 $g(x)$ 的高阶无穷小。
+    figures: []
+  - label: B
+    text: $g(x)$ 是 $f(x)$ 的高阶无穷小。
+    figures: []
+  - label: C
+    text: $f(x)$ 与 $g(x)$ 是等价无穷小。
+    figures: []
+  - label: D
+    text: $f(x)$ 与 $g(x)$ 是同阶但不等价的无穷小。
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $p$ 为非零常数，则积分 $\int_0^1\dfrac{x^p-1}{x^p(1-x)^q}\,\mathrm{d}x$ 收敛当且仅当\ExamSelection
+  choices:
+  - label: A
+    text: $p<1,q<1$。
+    figures: []
+  - label: B
+    text: $p<1,q<2$。
+    figures: []
+  - label: C
+    text: $p<2,q<1$。
+    figures: []
+  - label: D
+    text: $p<2,q<2$。
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设数列 $\{a_n\},\{b_n\}$ 满足 $a_n>b_n>0$，幂级数 $\sum_{n=1}^{\infty}\dfrac{a_n}{b_n}x^n$ 的收敛半径为 $R_1$，幂级数 $\sum_{n=1}^{\infty}\dfrac{b_n}{a_n}x^n$ 的收敛半径为 $R_2$，则\ExamSelection
+  choices:
+  - label: A
+    text: $R_1>R_2$。
+    figures: []
+  - label: B
+    text: $R_1<R_2$。
+    figures: []
+  - label: C
+    text: |-
+      若 $r<R_1$，则 $r<\dfrac{1}{R_2}$。
+    figures: []
+  - label: D
+    text: 若 $r>R_1$，则 $r>R_2$。
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设空间曲线 $L$ 的参数方程为 $\begin{cases}x=\cos t,\\y=\sin t,\ t\in[-\pi,\pi],\\z=kt,\end{cases}$ 其中 $k$ 为非零常数。若 $f(x)$ 为连续的奇函数，则曲线积分 $I=\int_L\dfrac{xf(x)-yf(y)+f(z)}{\sqrt{x^2+y^2+k^2}}\,\mathrm{d}s$ 的值\ExamSelection
+  choices:
+  - label: A
+    text: 等于 $0$。
+    figures: []
+  - label: B
+    text: |-
+      等于 $-\pi$。
+    figures: []
+  - label: C
+    text: |-
+      等于 $\pi$。
+    figures: []
+  - label: D
+    text: 与 $f(x)$ 的表达式有关。
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A,B$ 均为 $2$ 阶可逆矩阵，$E$ 为 $2$ 阶单位矩阵，已知 $\begin{pmatrix}E&A\\B&O\end{pmatrix}$ 的伴随矩阵为 $\begin{pmatrix}O&k_1B^*\\k_2A^*&A^{-1}B^{-1}\end{pmatrix}$，则\ExamSelection
+  choices:
+  - label: A
+    text: $A^*=A^{-1}$。
+    figures: []
+  - label: B
+    text: $B^*=-B^{-1}$。
+    figures: []
+  - label: C
+    text: $(AB)^*=(AB)^{-1}$。
+    figures: []
+  - label: D
+    text: $(AB)^* = -(AB)^{-1}$。
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设空间直角坐标系 $O-xyz$ 中三张平面的方程为 $\pi_i:a_{i1}x+a_{i2}y+a_{i3}z=i-1\ (i=1,2,3)$。已知这三张平面的法向量均平行于向量 $(1,-1,1)$，则下列说法中，正确的是\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\pi_1$ 与 $\pi_2$ 重合。
+    figures: []
+  - label: B
+    text: |-
+      $\pi_2$ 与 $\pi_3$ 重合。
+    figures: []
+  - label: C
+    text: |-
+      $\pi_1$ 与 $\pi_2$ 平行，不重合。
+    figures: []
+  - label: D
+    text: |-
+      $\pi_2$ 与 $\pi_3$ 平行，不重合。
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设矩阵 $A,B$ 均为 $2$ 阶矩阵，且 $AB=BA$，则下列条件中，是行列式 $\left|\begin{matrix}A&B\\B&A\end{matrix}\right|=45$ 的充分条件的是\ExamSelection
+  choices:
+  - label: A
+    text: ①，②。
+    figures: []
+  - label: B
+    text: ①，③。
+    figures: []
+  - label: C
+    text: ②，③。
+    figures: []
+  - label: D
+    text: ①，②，③。
+    figures: []
+  subparts:
+  - text: $A$ 的特征值为 $2$ 和 $4$，$B$ 的特征值为 $1$ 和 $-1$。
+  - text: $A$ 的特征值为 $2$ 和 $0$，$B$ 的特征值为 $3$ 和 $3$。
+  - text: $A$ 的特征值为 $9$ 和 $1$，$B$ 的特征值为 $6$ 和 $0$。
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设随机事件 $A,B$ 相互独立，$P(A),P(B)$ 均大于 $0$，且 $P(B\mid A)=P(A\mid B)$，若 $P(B\mid A\cup B)=\dfrac{5}{7}$，则 $P(B)=$\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{1}{3}$。
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{2}{3}$。
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{2}{5}$。
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{3}{5}$。
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设总体 $X\sim N(\mu,\sigma^2)$，其中 $\sigma\ (\sigma>0)$ 是未知参数，$X_1,X_2,\cdots,X_n$ 是来自总体 $X$ 的简单随机样本。已知统计量 $Y=c\sum_{1\leq i<j\leq n}|X_j-X_i|$ 是 $\sigma$ 的无偏估计，则 $c=$\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{\sqrt{\pi}}{n(n+1)}$。
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{\sqrt{\pi}}{n(n-1)}$。
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{\sqrt{\pi}}{2n}$。
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{\sqrt{\pi}}{2(n-1)}$。
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设随机变量序列 $X_1,X_2,\cdots,X_n,\cdots$ 独立同分布，且满足 $E(X_i)=D(X_i)=1$。记 $\Phi(x)$ 为标准正态分布的分布函数，$Y_n=X_{n+1}-X_n$。已知 $\Phi(0.44)\approx0.67$，利用随机变量序列 $\{Y_n\}$ 以及中心极限定理估计，$-8.8\leq X_{201}-X_1\leq8.8$ 的概率约为\ExamSelection
+  choices:
+  - label: A
+    text: $0.33$。
+    figures: []
+  - label: B
+    text: $0.34$。
+    figures: []
+  - label: C
+    text: $0.66$。
+    figures: []
+  - label: D
+    text: $0.67$。
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $a_n=\int_0^1x\left[(1-x)^{\dfrac{1}{2}}+(1-x)+\cdots+(1-x)^{\dfrac{n}{2}}\right]\,\mathrm{d}x$，则 $\lim_{n\to\infty}a_n=$\ExamBlank。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x)=a|x|\ (-\pi\leq x\leq\pi)$ 的余弦级数展开式为 $\dfrac{a_0}{2}+\sum_{n=1}^{\infty}a_n\cos nx$，若 $\sum_{n=1}^{\infty}a_n=1$，则当 $n\geq1$ 时，$a_{2n-1}=$\ExamBlank。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设区域 $D$ 是由直线 $x+y=2$ 与两坐标轴所围成的平面区域，$[x+y]$ 表示不超过 $x+y$ 的最大整数，则 $\iint_D(x^2+y^2)[x+y]\,\mathrm{d}x\mathrm{d}y=$\ExamBlank。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设半径为 $1\ \mathrm{mm}$ 的球形雨滴的蒸发速度与其表面积成正比，$5\ \mathrm{min}$ 后体积仅剩原来的 $\dfrac{1}{8}$，则雨滴蒸发完共需\ExamBlank $\mathrm{min}$。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设当 $x_1,x_2$ 不全为 $0$ 时，$\left|\begin{matrix}x_1&x_1&-x_2^2\\-1&-2&x_2\\-a&-3&x_1\end{matrix}\right|$ 恒小于 $0$，则 $a$ 的取值范围是\ExamBlank。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      在区域 $D=\{(x,y)\mid0<x<1,1<y<2\}$ 内随机取点 $A$，与点 $B(0,-1)$，点 $C(1,0)$ 构成三角形 $ABC$。记该三角形的面积为 $S$，则 $S^2$ 的数学期望 $E(S^2)=$\ExamBlank。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      设函数 $f(x)$ 在 $x=0$ 处连续，且 $\lim_{x\to0}\dfrac{[\cos x\cdot f(x)+e^x-1][f(x)+x]}{x^2}=0$，问：$f(x)$ 在 $x=0$ 处是否可导？若可导，求 $f'(0)$。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: 已知函数 $f(x,y)=x^2+y^2+xy$，设 $T$ 是曲面 $z=f(x,y)$ 在点 $(0,1,1)$ 处的切平面，$D$ 为 $T$ 与坐标平面所围有界闭区域在 $xOy$ 面上的投影，求 $f(x,y)$ 在 $D$ 上的最大方向导数。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      记平面 $x+y+z=0$ 被圆柱面 $x^2+y^2=1$ 所截得的有限部分为 $\Sigma$，$\Sigma$ 取上侧。
+  subparts:
+  - text: |-
+      若点 $P(x,y,z)$ 为 $\Sigma$ 上的任意一点，求点 $P$ 的竖坐标 $z$ 的最大值 $z_1$ 和最小值 $z_0$；
+  - text: |-
+      $z_0$ 为第（I）问所求，记圆柱面 $x^2+y^2=1$ 位于 $\Sigma$ 与平面 $z=z_0$ 之间的部分为 $S$，$S$ 取外侧，则计算曲面积分 $I=\iint_Sxy^2\,\mathrm{d}y\mathrm{d}z+yz^2\,\mathrm{d}z\mathrm{d}x+zx^2\,\mathrm{d}x\mathrm{d}y$。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 $f(x)=\ln x+\dfrac{a}{x}$，其中 $a$ 为参数。已知函数 $f(x)$ 有两个不同的零点 $x_1,x_2$。
+  subparts:
+  - text: 求 $a$ 的取值范围。
+  - text: |-
+      证明：$\dfrac{x_1+x_2}{x_2-x_1}\ln\dfrac{x_1}{x_2}<-2$。
+  - text: |-
+      证明：$x_1x_2<\dfrac{1}{e^2}$。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: 设二次型 $f(x_1,x_2,x_3)=2x_1^2+2tx_2^2+x_3^2+2x_1x_3-2x_2x_3$，已知二次曲面方程 $f(x_1,x_2,x_3)=1$ 可经正交变换化为椭圆柱面方程。
+  subparts:
+  - text: 求参数 $t$；
+  - text: 求正交变换 $x=Qy$ 将二次曲面方程 $f(x_1,x_2,x_3)=1$ 化为椭圆柱面方程。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设区域 $D=\{(x,y)\mid0\leq x\leq1,0\leq y\leq1\}$，二维随机变量 $(X,Y)$ 的联合概率密度为 $f(x,y)=\begin{cases}c\max\{x,y\},&(x,y)\in D,\\0,&\text{其他},\end{cases}$，$Z=\max\{X,Y\}$。
+  subparts:
+  - text: 求 $c$；
+  - text: 求 $Z$ 的概率密度；
+  - text: 问 $X,Z$ 是否相互独立，并说明理由。

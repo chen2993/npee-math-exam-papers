@@ -1,0 +1,309 @@
+schema_version: '3.0'
+paper:
+  series_key: zhangyu8
+  year: 2026
+  subject: math1
+  paper_no: 4
+content_hash: d4a34f76cc55d07872b30eea277b75b6a62db8557f7085d50d087873f6ea8564
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x)$ 在 $x=0$ 的某邻域内有定义，且 $\lim_{x\to0}\dfrac{x-f(x)}{\ln(1+x)}=1$，则以下叙述：①$f(0)=0$；②$\lim_{x\to0}f(x)=f(0)$；③$\lim_{x\to0}\dfrac{f(x)}{x}=1$；④当 $x\to0$ 时，$f(x)$ 是 $x$ 的高阶无穷小。正确叙述的个数为\ExamSelection
+  choices:
+  - label: A
+    text: 1。
+    figures: []
+  - label: B
+    text: 2。
+    figures: []
+  - label: C
+    text: 3。
+    figures: []
+  - label: D
+    text: 4。
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      函数 $f(x,y)=x^2+y^2$ 在约束条件 $(x-1)^3=y^2$ 下\ExamSelection
+  choices:
+  - label: A
+    text: 有最大值，无最小值。
+    figures: []
+  - label: B
+    text: 无最大值，有最小值。
+    figures: []
+  - label: C
+    text: 有最大值，有最小值。
+    figures: []
+  - label: D
+    text: 无最大值，无最小值。
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)$ 在 $[0,1]$ 上可积，则 $\lim_{n\to\infty}\sum_{i=0}^{n-1}\ln\left[1+\dfrac{1}{n}f\left(\dfrac{i}{n}\right)\right]=$\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\displaystyle\int_0^1\ln\left[1+\dfrac{f(x)}{n}\right]dx$。
+    figures: []
+  - label: B
+    text: |-
+      $\displaystyle\int_0^1\ln[1+f(x)]dx$。
+    figures: []
+  - label: C
+    text: |-
+      $\displaystyle\int_0^1f(x)dx$。
+    figures: []
+  - label: D
+    text: |-
+      $\displaystyle\int_0^1f^2(x)dx$。
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      若级数 $\sum_{n=1}^{\infty}|u_n|$ 发散，则\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\displaystyle\sum_{n=1}^{\infty}n|u_n|$ 收敛且 $\displaystyle\sum_{n=1}^{\infty}\dfrac{|v_n|}{n}$ 收敛。
+    figures: []
+  - label: B
+    text: |-
+      $\displaystyle\sum_{n=1}^{\infty}n|u_n|$ 发散且 $\displaystyle\sum_{n=1}^{\infty}\dfrac{|v_n|}{n}$ 收敛。
+    figures: []
+  - label: C
+    text: |-
+      $\displaystyle\sum_{n=1}^{\infty}n|u_n|$ 收敛或 $\displaystyle\sum_{n=1}^{\infty}\dfrac{v_n}{n}$ 发散。
+    figures: []
+  - label: D
+    text: |-
+      $\displaystyle\sum_{n=1}^{\infty}n|u_n|$ 发散或 $\displaystyle\sum_{n=1}^{\infty}\dfrac{v_n}{n}$ 发散。
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      以下矩阵乘积的结果为 $\begin{pmatrix}1&-1&2\\2&1&3\\3&1&4\end{pmatrix}$ 的是\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\begin{pmatrix}1&0&0\\2&1&0\\3&\dfrac43&2\end{pmatrix}\begin{pmatrix}1&-1&2\\0&3&-1\\0&0&-\dfrac23\end{pmatrix}$。
+    figures: []
+  - label: B
+    text: |-
+      $\begin{pmatrix}1&0&0\\2&-1&0\\3&\dfrac43&1\end{pmatrix}\begin{pmatrix}1&-1&2\\0&-3&-1\\0&0&-\dfrac23\end{pmatrix}$。
+    figures: []
+  - label: C
+    text: |-
+      $\begin{pmatrix}1&0&0\\2&1&0\\3&\dfrac43&1\end{pmatrix}\begin{pmatrix}1&0&0\\0&3&0\\0&0&-\dfrac23\end{pmatrix}\begin{pmatrix}1&-1&2\\0&1&-\dfrac13\\0&0&1\end{pmatrix}$。
+    figures: []
+  - label: D
+    text: |-
+      $\begin{pmatrix}1&0&0\\2&-1&0\\3&\dfrac43&1\end{pmatrix}\begin{pmatrix}1&0&0\\0&-3&0\\0&0&-\dfrac23\end{pmatrix}\begin{pmatrix}1&-1&2\\0&1&-\dfrac13\\0&0&1\end{pmatrix}$。
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设二次型 $f(x_1,x_2,x_3)=ax_1x_2+x_1x_3-x_2x_3$ 的正惯性指数为 2，负惯性指数为 1，则以下结论可能成立的是\ExamSelection
+  choices:
+  - label: A
+    text: $a=-1$。
+    figures: []
+  - label: B
+    text: $a=1$。
+    figures: []
+  - label: C
+    text: |-
+      $a\geq0$。
+    figures: []
+  - label: D
+    text: $a<0$。
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      在空间直角坐标系 $O-xyz$ 中，三张平面 $\pi_1:ax+y-z=1$，$\pi_2:x+y+bz=a$，$\pi_3:x+ay-z=1$ 的位置关系如图所示，则\ExamSelection
+    figures:
+    - kind: tikz
+      latex: |-
+        \begin{tikzpicture}[scale=0.55]\draw (-1.5,0)--(-1.5,2.3)--(0.2,3.1)--(0.1,0.8)--cycle;\draw (0.1,0.8)--(1.8,0.1)--(1.7,2.5)--(0.2,3.1);\draw (0.2,3.1)--(0.5,4.1)--(1.2,4.45)--(1.15,3.35);\draw (-1.5,2.3)--(-0.9,3.35)--(0.2,3.1);\draw (-0.9,3.35)--(-0.7,4.2)--(0.5,4.1);\draw (1.7,2.5)--(1.15,3.35);\end{tikzpicture}
+      path:
+      description: 三张相交平面的位置关系示意图
+      exception_reason:
+  choices:
+  - label: A
+    text: $a=-2,b=2$。
+    figures: []
+  - label: B
+    text: |-
+      $a\ne-2,b=2$。
+    figures: []
+  - label: C
+    text: $a=1,b=-1$。
+    figures: []
+  - label: D
+    text: |-
+      $a=1,b\ne-1$。
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $F_n(x)=\dfrac{\nu_n(x)}{n}$，$x\in\mathbb R$，其中 $\nu_n(x)$ 表示从总体 $X$ 中取出的样本 $X_1,X_2,\cdots,X_n$ 的 $n$ 个观测值中不大于 $x$ 的观测值个数。$F(x)$ 是 $X$ 的分布函数，则以下结论：①$EF_n(x)=F(x)$；②$F_n(x)\xrightarrow{P}F(x)$；③$F_n(x)$ 是一个分布函数；④$F_n(x)$ 是一个统计量。正确结论的个数为\ExamSelection
+  choices:
+  - label: A
+    text: 1。
+    figures: []
+  - label: B
+    text: 2。
+    figures: []
+  - label: C
+    text: 3。
+    figures: []
+  - label: D
+    text: 4。
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $X_1,X_2,\cdots,X_n$ 是来自总体 $X$ 的简单随机样本，总体 $X$ 的概率分布为 $P\{X=k\}=-\dfrac{\theta^k}{k\ln(1-\theta)}$，$k=1,2,\cdots$，其中 $\theta(0<\theta<1)$ 是未知参数，$\mu_m=\dfrac1n\sum_{i=1}^nX_i^m,m=1,2,3$，则 $\theta$ 的矩估计量为\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $1+\dfrac{\mu_1}{\mu_2}$。
+    figures: []
+  - label: B
+    text: |-
+      $1-\dfrac{\mu_1}{\mu_2}$。
+    figures: []
+  - label: C
+    text: |-
+      $1+\dfrac{\mu_2}{\mu_3}$。
+    figures: []
+  - label: D
+    text: |-
+      $1-\dfrac{\mu_2}{\mu_3}$。
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $X,Y$ 独立同分布于 $N(0,\sigma^2)$，$X_1,\cdots,X_9$ 与 $Y_1,\cdots,Y_{11}$ 是分别来自总体 $X$ 与 $Y$ 的简单随机样本，样本方差分别为 $S_X^2$ 与 $S_Y^2$，记 $S_1^2=\dfrac12(S_X^2+S_Y^2)$，$S_2^2=\dfrac19(4S_X^2+5S_Y^2)$，则方差最小的是\ExamSelection
+  choices:
+  - label: A
+    text: $S_X^2$。
+    figures: []
+  - label: B
+    text: $S_Y^2$。
+    figures: []
+  - label: C
+    text: $S_1^2$。
+    figures: []
+  - label: D
+    text: $S_2^2$。
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $\displaystyle\lim_{x\to0}\left(\dfrac{\arctan x}{x}\right)^{\frac1{\tan^2x}}=$\ExamBlank。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $y=y(x)$ 满足 $xy'=\sqrt{1-x^2}$，$y(1)=0$，则 $\displaystyle\int_0^1y(x)dx=$\ExamBlank。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $z=\ln\left(e^{-y}+\dfrac{y^2}{x}\right)$ 在点 $(1,1)$ 处沿 $l=(1,0)$ 的方向导数为\ExamBlank。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $\Sigma$ 为曲面 $x^2+\dfrac{y^2}{4}+\dfrac{z^2}{4}=1$ 的外侧，则 $\displaystyle\oiint_\Sigma xz\,dy\,dz+z^2\,dx\,dy=$\ExamBlank。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $\alpha_1=\begin{pmatrix}4\\1\\2\end{pmatrix}$，$\alpha_2=\begin{pmatrix}1\\1\\-1\end{pmatrix}$，$\alpha_3=\begin{pmatrix}-2\\0\\4\end{pmatrix}$，$\alpha_4=\begin{pmatrix}7\\2\\-3\end{pmatrix}$，$A=(\alpha_1,\alpha_2,\alpha_3,\alpha_4)$，则 $Ax=\alpha_2+3\alpha_4$ 的通解为\ExamBlank。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      已知 $A$ 发生且 $B$ 不发生的概率为 $\dfrac12$，在 $A$ 发生或 $B$ 不发生的条件下 $B$ 发生的概率为 $\dfrac14$，若 $A$ 发生的概率为 $\dfrac7{10}$，则 $B$ 发生的概率为\ExamBlank。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      设 $f'(e^x)=\sin x$，求 $f(x)$ 的表达式。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $y=y(x)$ 满足 $[(1+x)y-1]dx+x(1+x)dy=0$，$y(1)=\ln2$。
+  subparts:
+  - text: 求 $y=y(x)$ 的表达式及定义域；
+  - text: |-
+      记 $f(x)=\displaystyle\int_{-1}^{x}y(|t|)dt$，求 $f'(0)$。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 $f(x)$ 在 $[0,1]$ 上连续，$g(x)$ 在 $[0,1]$ 上可积且非负。证明：存在一点 $\xi\in(0,1)$，使 $\displaystyle\int_0^1f(x)g(x)dx=f(\xi)\displaystyle\int_0^1g(x)dx$。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $\Gamma$ 为球面 $x^2+y^2+z^2=m^2$ 与平面 $x+z=m(m>0)$ 的交线，计算 $I=\displaystyle\oint_\Gamma xz(1+yz-xy)ds$。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $A=\begin{pmatrix}1&-2&3\\0&1&-1\\1&2&0\end{pmatrix}$，$\beta=\begin{pmatrix}-4\\1\\-3\end{pmatrix}$，$B=\begin{pmatrix}-2&1&3\\1&0&-1\\2&1&0\end{pmatrix}$，$(A,\beta)=BC$。
+  subparts:
+  - text: |-
+      求 $Ax=\beta$ 的解，并求出 $C$；
+  - text: |-
+      求满足 $(A,\beta)Y=E$ 的所有 $Y$。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $t(\geq0)$ 时刻已进入某商场的顾客人数是 $N_t$，$N_t$ 服从参数为 $\dfrac{t}{2}$ 的泊松分布，令 $T$ 表示第 1 个顾客到来的时刻。
+  subparts:
+  - text: 求 $T$ 的概率密度；
+  - text: |-
+      当 $T_1,T_2,\cdots,T_n,\cdots$ 独立同分布于总体 $T$ 时，$\displaystyle\dfrac1n\sum_{i=1}^nT_i^2$ 在 $n\to\infty$ 的条件下依概率收敛于 $a$，求 $a$ 的值。

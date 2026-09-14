@@ -1,0 +1,319 @@
+schema_version: '3.0'
+paper:
+  series_key: zhangyu8
+  year: 2025
+  subject: math1
+  paper_no: 3
+content_hash: 75bbd114a5dba685a7ea10ada2047f0f9200d816fdbd25c3034837f4b907931f
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $y=f(x)$ 由 $\begin{cases}x=\sqrt{t},\\y=\sin(\pi t)\end{cases}(t\geq 0)$ 确定，则 $\lim_{n\to\infty}\left[f\left(n+\dfrac{1}{n}\right)-f(n)\right]=$\ExamSelection
+  choices:
+  - label: A
+    text: $0$
+    figures: []
+  - label: B
+    text: $1$
+    figures: []
+  - label: C
+    text: |-
+      $\pi$
+    figures: []
+  - label: D
+    text: 不存在
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设常数 $m>0,n>0$，则 $\int_0^n\sqrt{x}\left[\dfrac{m}{x}\right]\,\mathrm{d}x$（$[\cdot]$ 是取整符号）的敛散性\ExamSelection
+  choices:
+  - label: A
+    text: 仅与 $m$ 有关
+    figures: []
+  - label: B
+    text: 仅与 $n$ 有关
+    figures: []
+  - label: C
+    text: 与 $m,n$ 均有关
+    figures: []
+  - label: D
+    text: 与 $m,n$ 均无关
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设任意阶可导函数 $f(x)$ 的图形如图所示，则下列级数：（1）$x+\dfrac{1}{2}x^2+\dfrac{1}{6}x^3+\cdots$；（2）$1-\dfrac{1}{2!}(x-x_1)-\dfrac{1}{4!}(x-x_1)^2+\cdots$；（3）$1+\dfrac{1}{2}(x-x_2)+\dfrac{1}{3}(x-x_2)^2+\cdots$。可能是 $f(x)$ 的泰勒级数的个数为\ExamSelection
+    figures:
+    - kind: tikz
+      latex: |-
+        \begin{tikzpicture}[x=0.8cm,y=0.8cm,>=stealth]\draw[->](-0.5,0)--(4.2,0) node[right]{$x$};\draw[->](0,-0.7)--(0,3.5) node[above]{$y$};\node[below left] at (0,0){$O$};\draw[dashed](1,0)--(1,1.15);\draw[dashed](2.6,0)--(2.6,2.45);\node[below] at (1,0){$x_1$};\node[below] at (2.6,0){$x_2$};\draw[thick] plot[smooth] coordinates {(0,0.8) (0.6,0.85) (1,1.15) (1.5,1.8) (2.1,2.25) (2.6,2.45) (3.3,2.55)};\end{tikzpicture}
+      path:
+      description: 标有原点及横坐标 x_1、x_2 的函数曲线示意图
+      exception_reason:
+  choices:
+  - label: A
+    text: $0$
+    figures: []
+  - label: B
+    text: $1$
+    figures: []
+  - label: C
+    text: $2$
+    figures: []
+  - label: D
+    text: $3$
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $u(x,y)$ 是方程 $\dfrac{\partial^2u}{\partial x^2}-\dfrac{\partial^2u}{\partial y^2}=0$ 的一个解，则 $\dfrac{\partial^2v}{\partial x^2}-\dfrac{\partial^2v}{\partial y^2}+\dfrac{2}{x}\dfrac{\partial v}{\partial x}=0$ 的一个解为\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{u(x,y)}{y}$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{u(x,y)}{x}$
+    figures: []
+  - label: C
+    text: $xu(x,y)$
+    figures: []
+  - label: D
+    text: $yu(x,y)$
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设二次型 $f=a\sum_{i=1}^n x_i^2+b\sum_{i=1}^n x_ix_{n-i+1}$，其中 $a,b$ 为实数，$n$ 为奇数，若 $f$ 正定，则\ExamSelection
+  choices:
+  - label: A
+    text: $a>|b|$
+    figures: []
+  - label: B
+    text: $|a|>b$
+    figures: []
+  - label: C
+    text: $a>b$
+    figures: []
+  - label: D
+    text: |-
+      $a\geq|b|$
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $\boldsymbol{A}$ 为 $n$ 阶矩阵，“对任意 $n$ 维列向量 $\boldsymbol{\alpha},\boldsymbol{\beta}$，均有 $\boldsymbol{\alpha}^{\mathrm T}\boldsymbol{A}^{\mathrm T}\boldsymbol{A}\boldsymbol{\beta}=\boldsymbol{\alpha}^{\mathrm T}\boldsymbol{\beta}$ 成立”是“$\boldsymbol{A}$ 为正交矩阵”的\ExamSelection
+  choices:
+  - label: A
+    text: 充分非必要条件
+    figures: []
+  - label: B
+    text: 必要非充分条件
+    figures: []
+  - label: C
+    text: 充分必要条件
+    figures: []
+  - label: D
+    text: 既非充分又非必要条件
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      三张平面 $\pi_i:a_ix+b_iy+c_iz=d_i(i=1,2,3)$ 在空间直角坐标系中的位置关系如图所示。记 $\boldsymbol{\alpha}_i=(a_i,b_i,c_i)^{\mathrm T}$，$\boldsymbol{\beta}_i=(a_i,b_i,c_i,d_i)^{\mathrm T}$，$\pi_1$ 与 $\pi_2$ 平行，$\pi_3$ 与它们相交，则\ExamSelection
+    figures:
+    - kind: tikz
+      latex: |-
+        \begin{tikzpicture}[x=0.7cm,y=0.7cm]\draw (0,2.2)--(2.7,1.5)--(4.5,2.1)--(1.8,2.8)--cycle;\draw (0,0.7)--(2.7,0)--(4.5,0.6)--(1.8,1.3)--cycle;\draw (1.7,-0.6)--(3.2,-0.2)--(3.0,3.7)--(1.5,3.3)--cycle;\draw[dashed](1.6,2.6)--(3.1,2.2);\draw[dashed](1.7,1.25)--(3.2,0.85);\node[right] at (4.15,1.9){$\pi_1$};\node[right] at (4.15,0.4){$\pi_2$};\node[above] at (2.8,3.5){$\pi_3$};\end{tikzpicture}
+      path:
+      description: 两张平行平面 pi_1、pi_2 与平面 pi_3 相交的位置关系图
+      exception_reason:
+  choices:
+  - label: A
+    text: |-
+      $r(\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3)=r(\boldsymbol{\beta}_1,\boldsymbol{\beta}_2,\boldsymbol{\beta}_3)=2$
+    figures: []
+  - label: B
+    text: |-
+      $r(\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3)=r(\boldsymbol{\beta}_1,\boldsymbol{\beta}_2,\boldsymbol{\beta}_3)=3$
+    figures: []
+  - label: C
+    text: |-
+      $r(\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2)=r(\boldsymbol{\beta}_1,\boldsymbol{\beta}_2)=1$
+    figures: []
+  - label: D
+    text: |-
+      $r(\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_3)=r(\boldsymbol{\beta}_1,\boldsymbol{\beta}_3)=2$
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      传输 $n$ 个字符组成的信息，每个字符在传输中出错的概率为 $0.001$，且相互独立，若要该信息传输出错的概率不超过 $0.01$，则 $n$ 最大为\ExamSelection
+  choices:
+  - label: A
+    text: $8$
+    figures: []
+  - label: B
+    text: $9$
+    figures: []
+  - label: C
+    text: $10$
+    figures: []
+  - label: D
+    text: $11$
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $X,Y$ 独立同分布于参数为 $\lambda$ 的指数分布，令 $Z=\max\{X,Y\}$，则与 $Z$ 同分布的是\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{X+Y}{2}$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{2X+Y}{2}$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{2X+Y}{3}$
+    figures: []
+  - label: D
+    text: $Y$
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $X_1,X_2,X_3,X_4$ 为来自总体 $N(1,\sigma^2)(\sigma>0)$ 的简单随机样本，$\overline{X}$ 为样本均值，$S^2$ 为样本方差，则下列结论中正确结论的个数为\ExamSelection
+  choices:
+  - label: A
+    text: $0$
+    figures: []
+  - label: B
+    text: $1$
+    figures: []
+  - label: C
+    text: $2$
+    figures: []
+  - label: D
+    text: $3$
+    figures: []
+  subparts:
+  - text: |-
+      $\dfrac{X_1-X_2}{|X_3+X_4-2|}\sim t(1)$
+  - text: |-
+      $\dfrac{4(\overline{X}-1)^2}{\sigma^2}\sim\chi^2(2)$
+  - text: |-
+      $\dfrac{4(\overline{X}-1)^2}{S^2}\sim F(1,3)$
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      极限 $\lim_{n\to\infty}\sum_{i=1}^n\dfrac{i-\dfrac{1}{2}}{n^4}\sqrt{n^4-\left(i-\dfrac{1}{2}\right)^4}=$\ExamBlank。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x)$ 可导，曲线 $y=f(x)$ 在其任一点处的斜率为 $(x^2-3x+a)e^x$，且曲线 $y=f(x)$ 无极值点，有拐点，则 $a$ 的取值范围是\ExamBlank。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)=\sin x$，若 $f(x)=\dfrac{a_0}{2}+\sum_{n=1}^{\infty}a_n\cos nx$，$x\in[0,\pi]$，则 $\lim_{n\to\infty}n^2\ln(1+a_{2n})=$\ExamBlank。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $y_1=(1-x)e^{2x},y_2=(2-x)e^{2x},y_3=(e^x-x)e^{2x}$ 是微分方程 $y''+ay'+by=f(x)$ 的三个解，则该微分方程为\ExamBlank。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $\boldsymbol{A}=\begin{pmatrix}a&-1\\-1&a\end{pmatrix}$，若任给 $2$ 维列向量 $\boldsymbol{\alpha}$，均有 $\boldsymbol{\alpha}^{\mathrm T}\boldsymbol{A}^{-1}\boldsymbol{\alpha}\geq\dfrac{(\boldsymbol{\beta}^{\mathrm T}\boldsymbol{\alpha})^2}{\boldsymbol{\beta}^{\mathrm T}\boldsymbol{A}\boldsymbol{\beta}}$，其中 $\boldsymbol{\beta}=\begin{pmatrix}1\\1\end{pmatrix}$，则 $a$ 的取值范围为\ExamBlank。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      已知在 $\theta$ 服从 $U(0,1)$ 的条件下，随机变量 $X$ 服从参数为 $\theta$ 的几何分布，现对 $X$ 做一次观测，则当 $X=3$ 时，$\theta$ 的数学期望为\ExamBlank。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: （本题满分 $10$ 分）
+  subparts:
+  - text: 写出 $e^x$ 的一阶带拉格朗日余项的麦克劳林公式
+  - text: |-
+      计算极限 $\lim_{n\to\infty}\sqrt[n]{\int_0^1e^{-\dfrac{x^2}{n}}\,\mathrm{d}x}$
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设平面区域 $D=\left\{(x,y)\mid |x|\leq y,x^2+y^2\leq\sqrt{x^2+y^2}+\dfrac{y}{2}\right\}$，计算 $\iint_D\dfrac{x+y}{\sqrt{x^2+y^2}}\,\mathrm{d}x\mathrm{d}y$。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 $f(x)$ 在 $[0,1]$ 上有一阶连续导数，$M=\max_{0\leq x\leq1}|f(x)|$，$f(0)=f(1)=0$，证明：
+  subparts:
+  - text: |-
+      $\left[\int_0^xf'(t)\,\mathrm{d}t\right]^2\leq x\int_0^x[f'(t)]^2\,\mathrm{d}t$，$x\in[0,1]$
+  - text: |-
+      $\sqrt{\int_0^1[f'(t)]^2\,\mathrm{d}t}\geq2M$
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      计算 $I=\oint_L(y-z)\,\mathrm{d}x+(z-x)\,\mathrm{d}y+(x-y)\,\mathrm{d}z$，其中 $L$ 是平面 $2x-4y+z-4=0$ 和曲面 $z=x^2+y^2$ 的交线，从 $z$ 轴正向看去，$L$ 为逆时针方向。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $\boldsymbol{\alpha}=\dfrac{1}{2}(1,1,1,1)^{\mathrm T}$，且 $\boldsymbol{A}=\boldsymbol{E}_4-2\boldsymbol{\alpha}\boldsymbol{\alpha}^{\mathrm T}$。
+  subparts:
+  - text: |-
+      求正交矩阵 $\boldsymbol{Q}$ 和对角矩阵 $\boldsymbol{\Lambda}$，使得 $\boldsymbol{Q}^{\mathrm T}\boldsymbol{A}\boldsymbol{Q}=\boldsymbol{\Lambda}$
+  - text: |-
+      $f(\boldsymbol{x})=\boldsymbol{x}^{\mathrm T}\boldsymbol{A}\boldsymbol{x}$（$\boldsymbol{x}\in\mathbb{R}^4$）是否有最大值和最小值，说明理由
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设两台秤的随机误差分别服从 $N(0,\sigma_1^2)$ 和 $N(0,\sigma_2^2)$，$\sigma_1,\sigma_2$ 均为大于 $0$ 的未知参数，将重量为 $1$ 的物体放于第一台秤上独立称两次，得 $X_1,X_2$；再放于第二台秤上独立称两次，得 $X_3,X_4$。
+  subparts:
+  - text: 求 $D(|X_1-X_2|)$
+  - text: |-
+      在第一台秤上再称一次，得 $X_5$，求 $\sigma_1^2$ 的最大似然估计量 $\widehat{\sigma}_1^2$，并计算 $D(\widehat{\sigma}_1^2)$

@@ -1,0 +1,294 @@
+schema_version: '3.0'
+paper:
+  series_key: yubingsen5
+  year: 2025
+  subject: math2
+  paper_no: 1
+content_hash: 92bc6c21e8a7761f74c0f7617c9f02474c6e8251f2cd12d377b306a3eed458b5
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知函数 $f(x)$ 在 $x=1$ 的某邻域内三阶可导，且 $\lim_{x\to1}\dfrac{f(x)-2}{(x-1)^2\ln x}=\dfrac13$，则\ExamSelection。
+  choices:
+  - label: A
+    text: $x=1$ 为函数 $f(x)$ 的极大值点
+    figures: []
+  - label: B
+    text: 点 $(1,2)$ 为曲线 $y=f(x)$ 的拐点
+    figures: []
+  - label: C
+    text: $x=1$ 为函数 $f(x)$ 的极小值点
+    figures: []
+  - label: D
+    text: 点 $(1,2)$ 不为曲线 $y=f(x)$ 的拐点
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)$ 是以 $T$ 为周期的连续函数，则下列函数中也是以 $T$ 为周期的函数是\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\displaystyle\int_0^x f(t)\,\mathrm{d}t$
+    figures: []
+  - label: B
+    text: |-
+      $\displaystyle\int_0^x f(-t)\,\mathrm{d}t$
+    figures: []
+  - label: C
+    text: |-
+      $\displaystyle\int_0^x[f(t)-f(-t)]\,\mathrm{d}t$
+    figures: []
+  - label: D
+    text: |-
+      $\displaystyle\int_0^x[f(t)+f(-t)]\,\mathrm{d}t$
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知函数 $f(x,y)=\begin{cases}\dfrac{x^2y}{x^2+y^2},&(x,y)\ne(0,0),\\0,&(x,y)=(0,0),\end{cases}$ 则以下四个命题：① $f(x,y)$ 在点 $(0,0)$ 处连续；② $f(x,y)$ 在点 $(0,0)$ 处偏导数存在；③ $f(x,y)$ 在点 $(0,0)$ 处沿任意方向的方向导数存在；④ $f(x,y)$ 在点 $(0,0)$ 处不可微。以上正确的个数为\ExamSelection。
+  choices:
+  - label: A
+    text: '1'
+    figures: []
+  - label: B
+    text: '2'
+    figures: []
+  - label: C
+    text: '3'
+    figures: []
+  - label: D
+    text: '4'
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $y=f(x)$ 是由 $\begin{cases}x=2t+\ln(1+t^2),\\y=\displaystyle\int_0^t(e^{u^3}-1)\,\mathrm{d}u\end{cases}$ 确定，则当 $x\to0$ 时，$f(x)\sim$\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\dfrac18x^2$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac1{24}x^3$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac1{64}x^4$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac1{160}x^5$
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      积分 $\displaystyle\int_{\sin^2\alpha}^{\sin^2\alpha+2\cos^2\alpha}(x-1)e^{x(x-2)}\,\mathrm{d}x$ 的值等于\ExamSelection。
+  choices:
+  - label: A
+    text: $0$
+    figures: []
+  - label: B
+    text: $1$
+    figures: []
+  - label: C
+    text: |-
+      $e^{\sin^4\alpha}$
+    figures: []
+  - label: D
+    text: |-
+      $e^{\cos^4\alpha}$
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $y(x)$ 是周期为 $\pi$ 的二阶可微的周期函数，则在下列方程中，$y(x)$ 不可能是其解的方程是\ExamSelection。
+  choices:
+  - label: A
+    text: $y''+4y=0$
+    figures: []
+  - label: B
+    text: $y''+y=0$
+    figures: []
+  - label: C
+    text: |-
+      $y''+4y=\sin 2x$
+    figures: []
+  - label: D
+    text: |-
+      $y''+y=\cos 2x$
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $D=\{(x,y)\mid 0\le x\le\sqrt{\dfrac{\pi}{2}},\,0\le y\le\sqrt{\dfrac{\pi}{2}}\}$，$I_1=\iint_D\sin(\max\{x^2,y^2\})\,\mathrm{d}x\mathrm{d}y$，$I_2=\iint_D\sin(\min\{x^2,y^2\})\,\mathrm{d}x\mathrm{d}y$，$I_3=\dfrac12\iint_D(\sin x^2+\sin y^2)\,\mathrm{d}x\mathrm{d}y$，则有\ExamSelection。
+  choices:
+  - label: A
+    text: $I_1=I_2=I_3$
+    figures: []
+  - label: B
+    text: $I_1=I_3>I_2$
+    figures: []
+  - label: C
+    text: $I_1>I_2=I_3$
+    figures: []
+  - label: D
+    text: $I_1>I_3>I_2$
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设向量 $\boldsymbol{\alpha}=(a,0,a)^{\mathrm T}$，$A=E-\boldsymbol{\alpha}\boldsymbol{\alpha}^{\mathrm T}$。若 $\operatorname{tr}(A)=1$，则 $A^{-1}=$\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $E+\boldsymbol{\alpha}\boldsymbol{\alpha}^{\mathrm T}$
+    figures: []
+  - label: B
+    text: |-
+      $E-\boldsymbol{\alpha}\boldsymbol{\alpha}^{\mathrm T}$
+    figures: []
+  - label: C
+    text: |-
+      $E+2\boldsymbol{\alpha}\boldsymbol{\alpha}^{\mathrm T}$
+    figures: []
+  - label: D
+    text: |-
+      $E-2\boldsymbol{\alpha}\boldsymbol{\alpha}^{\mathrm T}$
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $E$ 为三阶单位矩阵，$A=(a_{ij})$ 为三阶非零方阵，$A_{ij}$ 是 $|A|$ 中元素 $a_{ij}$ 的代数余子式。若 $A_{ij}=-a_{ij}$，$i,j=1,2,3$，则\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      齐次线性方程组 $(A+E)\boldsymbol{x}=0$ 只有零解
+    figures: []
+  - label: B
+    text: |-
+      齐次线性方程组 $(A-E)\boldsymbol{x}=0$ 只有零解
+    figures: []
+  - label: C
+    text: |-
+      齐次线性方程组 $(A+E)\boldsymbol{x}=0$ 有非零解
+    figures: []
+  - label: D
+    text: |-
+      齐次线性方程组 $(A-E)\boldsymbol{x}=0$ 有非零解
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 为三阶实矩阵，且满足 $A^2=E$，$E$ 为三阶单位矩阵。若 $|A|<0$，且向量 $(1,1,1)^{\mathrm T}$ 不是 $A$ 的特征向量，则 $A$ 相似于\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\begin{pmatrix}1&0&0\\0&1&0\\0&0&1\end{pmatrix}$
+    figures: []
+  - label: B
+    text: |-
+      $\begin{pmatrix}-1&0&0\\0&-1&0\\0&0&-1\end{pmatrix}$
+    figures: []
+  - label: C
+    text: |-
+      $\begin{pmatrix}-1&0&0\\0&-1&0\\0&0&1\end{pmatrix}$
+    figures: []
+  - label: D
+    text: |-
+      $\begin{pmatrix}-1&0&0\\0&1&0\\0&0&1\end{pmatrix}$
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设曲线 $y=f(x)$ 与曲线 $y=2\sin x-\ln(1+x)$ 在原点处相切，且有相同的曲率圆，则极限 $\displaystyle\lim_{n\to\infty}n f\left(\dfrac1n\right)^n=$ \ExamBlank。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $\displaystyle\lim_{n\to\infty}\int_0^n\dfrac{x}{n^2+x}\,\mathrm{d}x=$ \ExamBlank。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $\displaystyle\int_0^{+\infty}\dfrac{x-1}{x^3+1}\,\mathrm{d}x=$ \ExamBlank。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      星形线 $x^{\dfrac23}+y^{\dfrac23}=a^{\dfrac23}(a>0)$ 的全长是 \ExamBlank。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      已知 $f_{xx}''(x,y)=y$，$f_x'(x,x)=x^2+1$，$f(x,x)=\dfrac{x^3}{2}+x$，则 $f(x,y)=$ \ExamBlank。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      若三元实二次型 $f(x_1,x_2,x_3)=ax_1^2+ax_2^2+(a-1)x_3^2+2x_1x_3-2x_2x_3$ 的规范形为 $y_1^2+y_2^2$，则 $a=$ \ExamBlank。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      求极限 $\displaystyle\lim_{x\to0}\dfrac{\int_0^x\left(\int_0^{u^2}\arctan(1+t)\,\mathrm{d}t\right)\mathrm{d}u}{\sin x\int_0^1\tan(xt)^2\,\mathrm{d}t}$。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 $f(u)$ 在 $(0,+\infty)$ 内可导，$z=xf\left(\dfrac yx\right)+y$ 满足关系式 $x\dfrac{\partial z}{\partial x}-y\dfrac{\partial z}{\partial y}=2z$，且 $f(1)=1$，求曲线 $y=f(x)$ 的渐近线。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      计算二重积分 $I=\iint_D f(x,y)\,\mathrm{d}x\mathrm{d}y$，其中 $D=\{(x,y)\mid 0\le x\le2,\,|y|\le x\}$，$f(x,y)=\min_{t\ge1}(t^4-4x^3t+y^3)$。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 $f(x)$ 在 $[0,1]$ 上具有三阶连续导数。 (1) 证明：存在 $\xi\in[0,1]$，使得 $\displaystyle\int_0^1f(x)\,\mathrm{d}x=f\left(\dfrac12\right)+\dfrac1{24}f''(\xi)$； (2) 若 $|f'''(x)|\le1$，证明 $\displaystyle\left|f(1)-f(0)-f'\left(\dfrac12\right)\right|\le\dfrac1{24}$。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $f(x)$ 是单调可导函数，$f\left(-\dfrac\pi2\right)=-f\left(\dfrac\pi2\right)$，$g(x)$ 是 $f(x)$ 的反函数，且 $f(x)$ 满足 $\displaystyle\int_{-\pi/2}^{f(x)}g(t)\,\mathrm{d}t=\int_{-\pi/2}^{x}\left(\dfrac1{1+e^{-|t|}}+\dfrac{\sin t}{1+e^{-t/2}}\right)\sin t\,\mathrm{d}t$，求积分 $\displaystyle\int_{-\pi/2}^{\pi/2}f(x)\,\mathrm{d}x$ 的值。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      已知实矩阵 $A=\begin{pmatrix}3&2&-2\\-a&-1&a\\4&2&-3\end{pmatrix}$ 与对角矩阵相似，求：(1) 常数 $a$ 的值；(2) 一个可逆矩阵 $P$，使得 $P^{-1}AP$ 为对角矩阵；(3) 判断矩阵 $AA^{\mathrm T}$ 是否为正定矩阵，并说明理由。

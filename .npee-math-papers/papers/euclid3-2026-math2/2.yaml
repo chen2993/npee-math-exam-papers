@@ -1,0 +1,312 @@
+schema_version: '3.0'
+paper:
+  series_key: euclid3
+  year: 2026
+  subject: math2
+  paper_no: 2
+content_hash: 214340c5887ad70b1c9de8c7bb4ae64e67c491ec0499f0d985831572d3a46548
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $\alpha(x)=x^x-x^e,\beta(x)=e^x-e^e$，则当 $x\to e$ 时，有\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\alpha(x)$ 是 $\beta(x)$ 的高阶无穷小.
+    figures: []
+  - label: B
+    text: |-
+      $\beta(x)$ 是 $\alpha(x)$ 的高阶无穷小.
+    figures: []
+  - label: C
+    text: |-
+      $\alpha(x)$ 与 $\beta(x)$ 是等价无穷小.
+    figures: []
+  - label: D
+    text: |-
+      $\alpha(x)$ 是 $\beta(x)$ 的同阶但非等价无穷小.
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x)=\begin{cases}\sin x,&0\leq x\leq\dfrac{\pi}{2},\\0,&x>\dfrac{\pi}{2},\end{cases}$ $F(x)=\displaystyle\int_0^x(x-t)f(t)\,\mathrm{d}t$，则\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $x=\dfrac{\pi}{2}$ 是函数 $F(x)$ 的跳跃间断点.
+    figures: []
+  - label: B
+    text: |-
+      $x=\dfrac{\pi}{2}$ 是函数 $F(x)$ 的可去间断点.
+    figures: []
+  - label: C
+    text: |-
+      $F(x)$ 在 $x=\dfrac{\pi}{2}$ 处连续但不可导.
+    figures: []
+  - label: D
+    text: |-
+      $F(x)$ 在 $x=\dfrac{\pi}{2}$ 处可导.
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      若方程 $ae^x=1+x+\dfrac{x^2}{2}$ 恰有一个实根，则 $a$ 的取值范围是\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $a\leq 1$.
+    figures: []
+  - label: B
+    text: $a=1$.
+    figures: []
+  - label: C
+    text: $0<a<1$.
+    figures: []
+  - label: D
+    text: $a>0$.
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x,y)$ 连续，记累次积分 $\displaystyle\int_1^2\mathrm{d}x\int_{\sqrt{x}}^x f(x,y)\,\mathrm{d}y+\int_2^4\mathrm{d}x\int_{\sqrt{x}}^2 f(x,y)\,\mathrm{d}y$ 对应的二重积分的积分区域为 $D$，则区域 $D$ 绕 $y$ 轴旋转一周所得到的旋转体体积为\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{58}{15}\pi$.
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{31}{30}\pi$.
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{5}{6}\pi$.
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{17}{6}\pi$.
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x,y)$ 在 $(0,0)$ 处连续，且 $\displaystyle\lim_{(x,y)\to(0,0)}\dfrac{f(x,y)-xy}{x^2+y^2}=1$，则 $f(x,y)$\ExamSelection
+  choices:
+  - label: A
+    text: 在点 $(0,0)$ 处可微，且 $(0,0)$ 为极大值点.
+    figures: []
+  - label: B
+    text: 在点 $(0,0)$ 处可微，且 $(0,0)$ 为极小值点.
+    figures: []
+  - label: C
+    text: 在点 $(0,0)$ 处不可微，且 $(0,0)$ 不是极值点.
+    figures: []
+  - label: D
+    text: 在点 $(0,0)$ 处不可微，但 $(0,0)$ 是极值点.
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      下列反常积分收敛的是\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\displaystyle\int_{-1}^1\dfrac{\mathrm{d}x}{\arcsin x}$.
+    figures: []
+  - label: B
+    text: |-
+      $\displaystyle\int_{-1}^1\dfrac{\mathrm{d}x}{\arccos x}$.
+    figures: []
+  - label: C
+    text: |-
+      $\displaystyle\int_0^{\pi/2}\dfrac{\mathrm{d}x}{\ln\sin x}$.
+    figures: []
+  - label: D
+    text: |-
+      $\displaystyle\int_0^{\pi/2}\dfrac{\mathrm{d}x}{\ln\cos x}$.
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      下列说法正确的个数是\ExamSelection ①若 $\lim_{x\to0}f(x)=0$，则 $\lim_{x\to0}f(x)\sin\dfrac{1}{x}=0$；②若 $\lim_{x\to0}f(x)\sin\dfrac{1}{x}=0$，则 $\lim_{x\to0}f(x)=0$；③若 $f(x)$ 在 $x=0$ 的去心邻域内无界，则 $f(x)\sin\dfrac{1}{x}$ 在 $x=0$ 的去心邻域内无界；④若 $f(x)\sin\dfrac{1}{x}$ 在 $x=0$ 的去心邻域内无界，则 $f(x)$ 在 $x=0$ 的去心邻域内无界。
+  choices:
+  - label: A
+    text: '1.'
+    figures: []
+  - label: B
+    text: '2.'
+    figures: []
+  - label: C
+    text: '3.'
+    figures: []
+  - label: D
+    text: '4.'
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A,B,C$ 为 $n$ 阶方阵，则下列说法错误的是\ExamSelection
+  choices:
+  - label: A
+    text: 若 $ABx=0$ 的解都是 $Bx=0$ 的解，则 $r(AB)=r(B)$.
+    figures: []
+  - label: B
+    text: 若 $r(AB)=r(B)$，则 $ABx=0$ 的解都是 $Bx=0$ 的解.
+    figures: []
+  - label: C
+    text: 若 $r(AB)=r(B)$，则 $r(ABC)=r(BC)$.
+    figures: []
+  - label: D
+    text: 若 $r(ABC)=r(BC)$，则 $r(AB)=r(B)$.
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A=(\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3)$ 是 $3$ 阶实对称矩阵，$a_{11}$ 的代数余子式 $A_{11}=1$，$A^*$ 为 $A$ 的伴随矩阵。若 $\boldsymbol{\beta}=(1,0,1)^{\mathrm T}$ 是 $Ax=0$ 的一个基础解系，则 $A^*x=\boldsymbol{\beta}$ 的通解为\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $x=k_1\boldsymbol{\alpha}_1+k_2\boldsymbol{\alpha}_3+(1,0,1)^{\mathrm T}$，其中 $k_1,k_2$ 为任意常数.
+    figures: []
+  - label: B
+    text: |-
+      $x=k_1\boldsymbol{\alpha}_2+k_2\boldsymbol{\alpha}_3+(1,0,1)^{\mathrm T}$，其中 $k_1,k_2$ 为任意常数.
+    figures: []
+  - label: C
+    text: |-
+      $x=k_1\boldsymbol{\alpha}_2+k_2\boldsymbol{\alpha}_3+(1,0,0)^{\mathrm T}$，其中 $k_1,k_2$ 为任意常数.
+    figures: []
+  - label: D
+    text: |-
+      $x=k_1\boldsymbol{\alpha}_1+k_2\boldsymbol{\alpha}_3+(1,0,0)^{\mathrm T}$，其中 $k_1,k_2$ 为任意常数.
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设二次型 $f(x_1,x_2,x_3)$ 在正交变换 $x=Qy$ 下的标准形为 $2y_1^2+y_2^2-y_3^2$，其中 $Q=(e_1,e_2,e_3)$，若 $P=(e_1,-2e_3,e_2)$，则 $f(x_1,x_2,x_3)$ 在变换 $x=Py$ 下的标准形为\ExamSelection
+  choices:
+  - label: A
+    text: $2y_1^2-4y_2^2+y_3^2$.
+    figures: []
+  - label: B
+    text: $2y_1^2+4y_2^2+y_3^2$.
+    figures: []
+  - label: C
+    text: $2y_1^2-y_2^2+y_3^2$.
+    figures: []
+  - label: D
+    text: $2y_1^2+y_2^2+y_3^2$.
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      若 $\displaystyle\lim_{x\to+\infty}\left[(ax+b)\cos\dfrac{1}{\sqrt{x}}-x\right]=2$，则 $a+b=$\ExamBlank
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $f(x)=\dfrac{\ln(1+x)}{1+x^{2026}}$，则 $f^{(2026)}(0)=$\ExamBlank
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      由曲线 $\begin{cases}x=\ln(1+t),\\y-te^y=1\end{cases}$ 上对应于 $t=0$ 的点处的曲率为\ExamBlank
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设连续函数 $f(x)$ 满足 $x=f(x)+\displaystyle\int_0^{\pi-x}f(t)\,\mathrm{d}t$，则 $f(x)=$\ExamBlank
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设连续函数 $f(x)$ 满足 $f(2x)=2f(x)$，且 $\displaystyle\int_0^1xf(x)\,\mathrm{d}x=a$，则 $\displaystyle\int_1^2xf(x)\,\mathrm{d}x=$\ExamBlank
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      已知 $\boldsymbol{\alpha}_1=\begin{pmatrix}a\\1\\1\end{pmatrix},\boldsymbol{\alpha}_2=\begin{pmatrix}1\\a\\-1\end{pmatrix},\boldsymbol{\alpha}_3=\begin{pmatrix}1\\-1\\a\end{pmatrix},\boldsymbol{\alpha}_4=\begin{pmatrix}1\\1\\a\end{pmatrix}$，若 $\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3$ 线性相关，而 $\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3,\boldsymbol{\alpha}_4$ 线性无关，则 $a=$\ExamBlank
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      设 $xOy$ 坐标平面上，连续曲线 $L$ 过点 $A(1,0)$，其上任意点 $P(x,y)$（$x\neq0$）处切线斜率与直线 $OP$ 的斜率之差等于 $2x$。
+  subparts:
+  - text: 求 $L$ 的方程
+  - text: |-
+      当 $L$ 与直线 $y=a\left(x-\dfrac{1}{2}\right)$ 所围成的平面图形的面积最小时，求 $a$ 的值
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设定义在右半平面（$x>0$）的正值函数 $z(x,y)$ 具有二阶连续偏导数，并且满足 $z\cdot\dfrac{\partial^2z}{\partial x\partial y}=\dfrac{\partial z}{\partial x}\cdot\dfrac{\partial z}{\partial y}$，$z(x,0)=xe^{-\dfrac{x^2}{2}}$，$z(1,y)=e^{-\dfrac{1+y^2}{2}}$。
+  subparts:
+  - text: 求 $z(x,y)$ 的表达式
+  - text: 求 $z(x,y)$ 的极值
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设心形线 $r=1+\cos\theta$ 与圆 $r=2\cos\theta$ 在 $\theta\in\left[0,\dfrac{\pi}{2}\right]$ 范围内的部分与直线 $\theta=\dfrac{\pi}{2}$ 所围平面区域为 $D$。
+  subparts:
+  - text: 求 $D$ 的面积
+  - text: 求 $D$ 绕 $x$ 轴旋转一周所得旋转体的表面积
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设区域 $D=\{(x,y)\mid 0\leq x\leq2,0\leq y\leq1\}$，其中 $\left[(x-1)^2+y^2\right]$ 表示不超过 $(x-1)^2+y^2$ 的最大整数，求 $\displaystyle\iint_D(x+y)^2\left[(x-1)^2+y^2\right]\,\mathrm{d}x\mathrm{d}y$。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 $f(x)$ 在 $[0,+\infty)$ 上二阶可导，且 $f(0)=0$，$\displaystyle\lim_{x\to+\infty}[f(x)+xf'(x)]=1$，证明：
+  subparts:
+  - text: |-
+      存在 $\xi\in(0,+\infty)$，使得 $f(\xi)-f'(\xi)=0$
+  - text: |-
+      存在 $\eta\in(0,+\infty)$，使得 $f(\eta)-2f'(\eta)+f''(\eta)=0$
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设三阶实对称矩阵 $A$ 的特征值为 $\lambda_1=8,\lambda_2=\lambda_3=1,\lambda_1$ 的特征向量为 $\xi_1=(1,1,1)^{\mathrm T}$。
+  subparts:
+  - text: 求实对称矩阵 $B$，使得 $A=B^3$
+  - text: |-
+      求正交矩阵 $Q$，使得 $Q^{\mathrm T}AQ$，$Q^{\mathrm T}BQ$ 同时为对角矩阵
+  - text: |-
+      求 $\displaystyle\max_{x\neq0}\dfrac{x^{\mathrm T}Ax}{x^{\mathrm T}Bx}$，其中 $x=(x_1,x_2,x_3)^{\mathrm T}$

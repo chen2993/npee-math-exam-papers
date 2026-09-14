@@ -1,0 +1,291 @@
+schema_version: '3.0'
+paper:
+  series_key: liyanfang3
+  year: 2022
+  subject: math3
+  paper_no: 3
+content_hash: 2767a1449bfdcb16cd27e16964bdaa21fee22ca887d9c7685c17ebb4c7f8d5e4
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知二阶常系数非齐次线性微分方程 $y''+ay'+by=ce^x$ 的一个解为 $y=e^{2x}+(1+x)e^x$，则该方程的通解可为\ExamSelection。
+  choices:
+  - label: A
+    text: $(C_1+C_2x)e^x+e^{2x}$
+    figures: []
+  - label: B
+    text: $C_1e^{2x}+C_2e^x+xe^x$
+    figures: []
+  - label: C
+    text: $C_1e^{2x}+C_2xe^x+e^x$
+    figures: []
+  - label: D
+    text: $C_1e^{2x}+C_2(1+x)e^x$
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x)=\int_0^x(t^2-4t+3)e^{t^2}\,\mathrm{d}t$，$x\in[0,3]$，则下列命题中，正确的是\ExamSelection。
+  choices:
+  - label: A
+    text: $f(x)$ 为单调函数
+    figures: []
+  - label: B
+    text: $4e-9$ 为 $f(x)$ 的一个上界
+    figures: []
+  - label: C
+    text: $f(x)$ 的最小值为 $0$
+    figures: []
+  - label: D
+    text: $f(x)$ 不存在最大值
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x,y)=\begin{cases}\dfrac{xy^2}{\sqrt{x^2+y^2}},&(x,y)\ne(0,0),\\0,&(x,y)=(0,0),\end{cases}$ 则下列命题中，正确的是\ExamSelection。
+  choices:
+  - label: A
+    text: $f''_{xy}(0,0)$ 和 $f''_{yx}(0,0)$ 均不存在
+    figures: []
+  - label: B
+    text: $f''_{xy}(0,0)$ 不存在，但 $f''_{yx}(0,0)$ 存在
+    figures: []
+  - label: C
+    text: $f''_{xy}(0,0)$ 存在，但 $f''_{yx}(0,0)$ 不存在
+    figures: []
+  - label: D
+    text: $f''_{xy}(0,0)$ 和 $f''_{yx}(0,0)$ 均存在
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      若级数 $\sum_{n=1}^{\infty}u_n$ 收敛，则下列级数中，收敛级数的个数为\ExamSelection。① $\sum_{n=1}^{\infty}(u_{2n-1}-u_{2n})$；② $\sum_{n=1}^{\infty}(u_{n+1}^2-u_n^2)$；③ $\sum_{n=1}^{\infty}\dfrac{|u_n|}{n}$；④ $\sum_{n=1}^{\infty}\left(1-\dfrac{u_n}{u_{n+1}}\right)$。
+  choices:
+  - label: A
+    text: $1$
+    figures: []
+  - label: B
+    text: $2$
+    figures: []
+  - label: C
+    text: $3$
+    figures: []
+  - label: D
+    text: $4$
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      对于 $n$ 阶方阵 $A$ 和 $B$，下列命题中，正确的是\ExamSelection。
+  choices:
+  - label: A
+    text: 若 $AB$ 可逆，则 $E-AB$ 可逆
+    figures: []
+  - label: B
+    text: 若 $AB$ 不可逆，则 $E-AB$ 可逆
+    figures: []
+  - label: C
+    text: 若 $E-BA$ 可逆，则 $E-AB$ 可逆
+    figures: []
+  - label: D
+    text: 若 $E-BA$ 不可逆，则 $E-AB$ 可逆
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设矩阵 $A$ 为 $4\times2$ 矩阵，$B$ 为 $2\times4$ 矩阵，且满足 $AB=\begin{pmatrix}1&0&-1&0\\0&1&0&-1\\-1&0&1&0\\0&-1&0&1\end{pmatrix}$，则 $BA=$\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\begin{pmatrix}1&0\\0&3\end{pmatrix}$
+    figures: []
+  - label: B
+    text: |-
+      $\begin{pmatrix}2&0\\0&2\end{pmatrix}$
+    figures: []
+  - label: C
+    text: |-
+      $\begin{pmatrix}4&0\\0&0\end{pmatrix}$
+    figures: []
+  - label: D
+    text: 由已知条件不能确定
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $3$ 阶矩阵 $A=\begin{pmatrix}b-1&-1&1-a\\2&b-2&a-2\\-a&-a&b-1\end{pmatrix}$，$\alpha=\begin{pmatrix}a\\1\\b-1\end{pmatrix}$，$\beta=\begin{pmatrix}a+1\\2\\b+1\end{pmatrix}$ 均为 $Ax=b$ 的解，则下列命题中，错误的是\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $b=\begin{pmatrix}0\\1\\-1\end{pmatrix}$
+    figures: []
+  - label: B
+    text: |-
+      $(0,0,-1)^{\mathrm{T}}$ 是 $Ax=b$ 的解
+    figures: []
+  - label: C
+    text: $0$ 是 $A$ 的一个特征值
+    figures: []
+  - label: D
+    text: $r(A^*)=0$
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设随机事件 $A$，$B$ 和 $C$ 的概率均不为 $0$。若 $P[(A\cup B)\mid C]=1$，则下列命题中，正确的是\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $P(AB\mid C)=1$
+    figures: []
+  - label: B
+    text: |-
+      $P(AB\mid\overline{C})=1$
+    figures: []
+  - label: C
+    text: |-
+      $P(\overline{A\cup B}\mid C)=0$
+    figures: []
+  - label: D
+    text: |-
+      $P[(A\cup B)\mid\overline{C}]=0$
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设总体 $X$ 的概率分布为 $\begin{array}{c|ccc}X&0&1&2\\\hline P&p-p^2&p&1-2p+p^2\end{array}$，其中 $p(0<p<1)$ 是未知参数，利用来自该总体的样本值 $0,1,1,2,1,0,1,2$ 可得 $p$ 的矩估计值与最大似然估计值之和为\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{1}{2}$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{2}{3}$
+    figures: []
+  - label: C
+    text: $1$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{3}{2}$
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知 $X_1,X_2,\cdots,X_{10}$ 为来自总体 $N(\mu,1)$ 的简单随机样本。记 $\overline{X}=\dfrac{1}{10}\sum_{i=1}^{10}X_i$，则下列统计量服从参数为 $9$ 的 $t$ 分布的是\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{X_{10}-\mu}{\sqrt{\dfrac{1}{9}\sum_{i=1}^{9}(X_i-\mu)^2}}$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{\overline{X}-\mu}{\sqrt{\dfrac{1}{9}\sum_{i=1}^{9}(X_i-\mu)^2}}$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{X_{10}-\mu}{\sqrt{\dfrac{1}{9}\sum_{i=1}^{10}(X_i-\overline{X})^2}}$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{\overline{X}-\mu}{\sqrt{\dfrac{1}{9}\sum_{i=1}^{10}(X_i-\overline{X})^2}}$
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设当 $0<x\leq1$ 时，函数 $f(x)=x^{\sin x}$，对于其他 $x$，$f(x)=2f(x+1)-\ln k$。若 $f(x)$ 在 $x=0$ 处连续，则 $k=$\ExamBlank。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      已知曲线 $y=xe^x$，直线 $x=a$（$a>0$）与 $x$ 轴所围平面图形的面积为 $1$，则由上述平面图形绕 $x$ 轴旋转一周所成旋转体的体积为\ExamBlank。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      将函数 $f(x)=\int_0^{x/2}\left(\dfrac{\sin t}{t}\right)^2\,\mathrm{d}t$（$x\ne0$）展开成 $x$ 的幂级数为\ExamBlank。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      已知 $y_t=t^2$ 是差分方程 $y_{t+1}+ay_t=bt+c$ 的解，其中 $a,b,c$ 均为常数，则该方程的通解为\ExamBlank。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      已知 $A=\begin{pmatrix}a&1\\1&a\end{pmatrix}$，正定矩阵 $C$ 满足 $C^2=(a+2)E-A$，则 $C$ 的所有元素之和为\ExamBlank。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设随机变量 $X$ 和 $Y$ 的联合概率密度为 $f(x,y)=\begin{cases}e^{-(x+y)},&x>0,y>0,\\0,&\text{其他}\text{，}\end{cases}$ 记 $Z=X+Y$，则 $E(Z)=$\ExamBlank。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      计算 $\int_0^{\sqrt{3}}\dfrac{x^4\arctan x}{x^2+1}\,\mathrm{d}x$。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: 计算二元函数 $f(x,y)=xy(4-3x^2+y)$ 在闭区域 $D$ 上的最大值和最小值，其中区域 $D$ 是由曲线 $y=3x^2$，直线 $y=3$ 及 $y$ 轴所围成的区域位于第一象限的部分。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $a>0$，$f(a)=\int_0^{+\infty}\dfrac{1}{(ax^2+1)\sqrt{x^2+1}}\,\mathrm{d}x$。判断 $f'(1)$ 是否存在，若存在，试求其值。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $f(x)$ 为 $\left[-\dfrac{\pi}{2},\dfrac{\pi}{2}\right]$ 上的连续函数，满足 $f(-x)=f(x)$，且当 $x\in\left(0,\dfrac{\pi}{2}\right]$ 时，$f(x)=\dfrac{\sin x-x\cos x}{x(1-\cos x)}$。证明：$\dfrac{1}{2}\leq f(x)\leq\dfrac{2}{3}$。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设二次型 $f(x_1,x_2,x_3)=x_1^2+x_2^2+x_3^2+2ax_1x_2+2x_1x_3+4ax_2x_3$ 经过可逆线性变换 $\begin{pmatrix}x_1\\x_2\\x_3\end{pmatrix}=P\begin{pmatrix}y_1\\y_2\\y_3\end{pmatrix}$ 化为二次型 $g(y_1,y_2,y_3)=y_1^2+y_2^2+2y_3^2+2y_1y_2+2y_1y_3+2y_2y_3$。
+  subparts:
+  - text: 求 $a$ 的值；
+  - text: 求可逆矩阵 $P$。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: 将长度为 $l$ 的细棒随机分成 $3$ 段，记第 $1$ 段细棒的长度为 $X$，第 $2$ 段细棒的长度为 $Y$。
+  subparts:
+  - text: |-
+      计算在 $X=x$ 的条件下，$Y$ 的条件概率密度 $f_{Y\mid X}(y\mid x)$；
+  - text: 求这 $3$ 段细棒恰好能构成一个三角形的三边的概率。

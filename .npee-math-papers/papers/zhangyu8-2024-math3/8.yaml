@@ -1,0 +1,310 @@
+schema_version: '3.0'
+paper:
+  series_key: zhangyu8
+  year: 2024
+  subject: math3
+  paper_no: 8
+content_hash: 07764d00fe78b3f8714f6d5c0515ab96727a43a61f9704b2d232fcd385f62f97
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      当 $x\to 0$ 时，以下无穷小中，阶数最高的是\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\displaystyle \int_0^{\sin x}(1+t)^{\dfrac{2}{t}}\,\mathrm{d}t$
+    figures: []
+  - label: B
+    text: |-
+      $\displaystyle \int_0^{\ln(1+x^2)}\sqrt{\cos^3 t}\,\mathrm{d}t$
+    figures: []
+  - label: C
+    text: |-
+      $\displaystyle \int_0^x(\mathrm{e}^{\cos t}-\mathrm{e}^{\sin t})\,\mathrm{d}t$
+    figures: []
+  - label: D
+    text: |-
+      $\displaystyle \int_0^{x-\tan x}\arctan t\,\mathrm{d}t$
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)$ 是 $[0,1]$ 上的可导函数，$f(0)=f(1)=1$，$\displaystyle \max_{0\leq x\leq 1}\{|f'(x)|\}=1$，则\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\displaystyle \dfrac{1}{4}<\int_0^1 f(x)\,\mathrm{d}x<\dfrac{1}{2}$
+    figures: []
+  - label: B
+    text: |-
+      $\displaystyle \dfrac{1}{2}<\int_0^1 f(x)\,\mathrm{d}x<\dfrac{3}{4}$
+    figures: []
+  - label: C
+    text: |-
+      $\displaystyle \dfrac{3}{4}<\int_0^1 f(x)\,\mathrm{d}x<\dfrac{5}{4}$
+    figures: []
+  - label: D
+    text: |-
+      $\displaystyle \dfrac{5}{4}<\int_0^1 f(x)\,\mathrm{d}x<\dfrac{7}{4}$
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      若可导函数 $f(x)$ 满足 $f'(x)<2f(x)$，则当 $b>a>0$ 时，有\ExamSelection
+  choices:
+  - label: A
+    text: $b^2f(a)>a^2f(b)$
+    figures: []
+  - label: B
+    text: |-
+      $b^2f(\ln a)>a^2f(\ln b)$
+    figures: []
+  - label: C
+    text: $b^2f(a)<a^2f(b)$
+    figures: []
+  - label: D
+    text: |-
+      $b^2f(\ln a)<a^2f(\ln b)$
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $\displaystyle \sum_{n=0}^{\infty}a_nx^n$，$\displaystyle \sum_{n=0}^{\infty}b_nx^n$ 的收敛半径均为 $r(0<r<+\infty)$，则以下级数的收敛半径仍为 $r$ 的是\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\displaystyle \sum_{n=0}^{\infty}(a_n+b_n)x^n$
+    figures: []
+  - label: B
+    text: |-
+      $\displaystyle \sum_{n=0}^{\infty}(a_n+nb_n)x^n$
+    figures: []
+  - label: C
+    text: |-
+      $\displaystyle \sum_{n=0}^{\infty}\left(a_n+\dfrac{b_n}{2^n}\right)x^n$
+    figures: []
+  - label: D
+    text: |-
+      $\displaystyle \sum_{n=0}^{\infty}\left(a_n+\dfrac{b_n}{n+1}\right)x^n$
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 是 3 阶矩阵，将 $A$ 的第 2 列加到第 3 列得矩阵 $B$，再将 $B$ 的第 3 行的 $-1$ 倍加到第 2 行得 $\begin{pmatrix}1&1&0\\0&2&0\\0&2&a\end{pmatrix}$，其中 $a$ 为常数，则 $A$ 的特征值为\ExamSelection
+  choices:
+  - label: A
+    text: $1,2,a$
+    figures: []
+  - label: B
+    text: $1,2,-2$
+    figures: []
+  - label: C
+    text: $1,-1,2$
+    figures: []
+  - label: D
+    text: $1,a,-a$
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知 $\begin{pmatrix}1&1&1\\1&2&1\\1&1&1\end{pmatrix}=\begin{pmatrix}1&1\\1&2\\1&1\end{pmatrix}A$，则 $A=$\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\begin{pmatrix}1&0&1\\0&1&0\end{pmatrix}$
+    figures: []
+  - label: B
+    text: |-
+      $\begin{pmatrix}0&1&0\\1&0&1\end{pmatrix}$
+    figures: []
+  - label: C
+    text: |-
+      $\begin{pmatrix}1&1&0\\0&0&1\end{pmatrix}$
+    figures: []
+  - label: D
+    text: |-
+      $\begin{pmatrix}1&0&1\\0&0&1\end{pmatrix}$
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $\alpha,\beta$ 为 $n$ 维列向量，$P=(\alpha,\beta)$，$Q=(\alpha+\beta,2\alpha)$。若矩阵 $A$ 使得 $P^{\mathrm{T}}AP=\begin{pmatrix}1&0\\0&0\end{pmatrix}$，则 $Q^{\mathrm{T}}AQ=$\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\begin{pmatrix}1&4\\4&2\end{pmatrix}$
+    figures: []
+  - label: B
+    text: |-
+      $\begin{pmatrix}4&2\\2&1\end{pmatrix}$
+    figures: []
+  - label: C
+    text: |-
+      $\begin{pmatrix}1&2\\2&4\end{pmatrix}$
+    figures: []
+  - label: D
+    text: |-
+      $\begin{pmatrix}2&1\\1&4\end{pmatrix}$
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      独立重复抛掷一枚均匀硬币两次，记 $X_i=\begin{cases}1,&\text{出现正面},\\0,&\text{出现反面},\end{cases}\ i=1,2$，则 $X_1+X_2$ 与 $X_1-X_2$\ExamSelection
+  choices:
+  - label: A
+    text: 独立，不相关
+    figures: []
+  - label: B
+    text: 不独立，不相关
+    figures: []
+  - label: C
+    text: 独立，相关
+    figures: []
+  - label: D
+    text: 不独立，相关
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设总体 $X$ 服从参数为 1 的泊松分布，$X_1,X_2,\cdots,X_n$ 为来自总体 $X$ 的简单随机样本。记 $\nu_n(1)$ 为 $n$ 个观测值中不大于 1 的个数，则当 $n$ 充分大时，$\dfrac{\nu_n(1)}{n}$ 依概率收敛于\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{1}{\mathrm{e}}$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{2}{\mathrm{e}}$
+    figures: []
+  - label: C
+    text: |-
+      $1-\dfrac{1}{\mathrm{e}}$
+    figures: []
+  - label: D
+    text: |-
+      $1-\dfrac{2}{\mathrm{e}}$
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设随机变量 $X,Y$，且 $(X,Y)$ 的概率密度为 $f(x,y)=\dfrac{1}{4\pi}\mathrm{e}^{-\dfrac{x^2}{2}-\dfrac{(y-1)^2}{8}}$，则 $\dfrac{4X^2}{(Y-1)^2}$ 服从\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\chi^2(2)$
+    figures: []
+  - label: B
+    text: $t(1)$
+    figures: []
+  - label: C
+    text: $N(0,2^2)$
+    figures: []
+  - label: D
+    text: $F(1,1)$
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设存在 $0<\theta<1$，使得 $\displaystyle \int_0^x\mathrm{e}^t\,\mathrm{d}t=x\mathrm{e}^{\theta x}$，$x>0$，则 $\displaystyle \lim_{x\to 0^+}\theta=$\ExamBlank
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)=\dfrac{\ln|x|}{2x^2-\ln|x|}$，则 $f'(-1)=$\ExamBlank
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      已知 $f(x)$ 连续，$f(x^2+1)-f(x^2)=x\ (x>0)$，$\displaystyle \int_0^1f(x)\,\mathrm{d}x=1$，则 $\displaystyle \int_1^2f(x)\,\mathrm{d}x=$\ExamBlank
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $\displaystyle \int_0^1x^2\,\mathrm{d}x\int_x^1\mathrm{e}^{-y^2}\,\mathrm{d}y=$\ExamBlank
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 2 阶正交矩阵 $A$ 的主对角线元素满足 $a_{11}+2=a_{22}$，则 $A=$\ExamBlank
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $X$ 服从参数为 1 的指数分布，其分布函数为 $F(x)$，则 $\mathrm{E}[F^2(X)+X^2]=$\ExamBlank
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      已知 $a_n=\displaystyle \int_0^1t^n|\ln t|\,\mathrm{d}t$，$n=1,2,\cdots$，计算 $\displaystyle \lim_{n\to\infty}(n^2a_n)^n$。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设平面区域 $D=\{(x,y)\mid x^2+y^2\leq 4,x\leq 0\}$，求 $\displaystyle \iint_D(1+|x|+xy)\sqrt{4-x^2-y^2}\,\mathrm{d}x\mathrm{d}y$。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 $u=xz+ay^3\ (z\geq 0)$，且 $x^2+y^2+z^2=1$。
+  subparts:
+  - text: |-
+      当 $a=\dfrac{1}{3}$ 时，求 $u$ 的最大值；
+  - text: 当 $a=t$（$t$ 为变量）时，$u$ 是否有最大值，若有，求出最大值，若没有，说明理由。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设某商品库存费用 $S$（万元）对库存时间 $t$ 的变化率等于平均库存费用 $\dfrac{S}{t}$ 减去 $\dfrac{1}{t^2}$，且 $S(t_0)=S_0$，$t_0S_0>\dfrac{1}{2}$，求：
+  subparts:
+  - text: $S=S(t)$ 的表达式；
+  - text: 最佳库存时间。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: 已知二次型 $f(x_1,x_2,x_3)=x_1^2+x_2^2+ax_3^2-2x_1x_3$ 的正惯性指数为 2，负惯性指数为 0，求：
+  subparts:
+  - text: $a$ 的值；
+  - text: 用正交变换将二次型 $f$ 化为标准形，并求所用的正交变换。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      已知随机变量 $X$ 在区间 $(0,1)$ 上服从均匀分布，在 $X=x\ (0<x<1)$ 的条件下，随机变量 $Y$ 在区间 $(0,x)$ 上服从均匀分布。求：
+  subparts:
+  - text: $Y$ 的概率密度 $f_Y(y)$；
+  - text: |-
+      $X$ 与 $Y$ 的相关系数 $\rho_{XY}$。

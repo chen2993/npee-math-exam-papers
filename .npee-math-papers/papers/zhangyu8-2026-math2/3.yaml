@@ -1,0 +1,292 @@
+schema_version: '3.0'
+paper:
+  series_key: zhangyu8
+  year: 2026
+  subject: math2
+  paper_no: 3
+content_hash: af076c01e8ee8e61ffc469afe3a9b65161aea2b5ff3139de1dc4afc78ab953d3
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      下列选项中，极限存在的是\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\displaystyle \lim_{x\to 0}\dfrac{\sin x}{|x|}\arctan\dfrac{1}{|x|}$
+    figures: []
+  - label: B
+    text: |-
+      $\displaystyle \lim_{x\to 0}\dfrac{\sin x}{x}\arctan\dfrac{1}{x}$
+    figures: []
+  - label: C
+    text: |-
+      $\displaystyle \lim_{x\to 0}\dfrac{|\sin x|}{|x|}\arctan\dfrac{1}{x}$
+    figures: []
+  - label: D
+    text: |-
+      $\displaystyle \lim_{x\to 0}\dfrac{|\sin x|}{x}\arctan\dfrac{1}{x}$
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x)$ 具有二阶导数，$f'(x)>0,f''(x)<0$，记 $I_1=\int_{-\pi}^{\pi}f(x)\sin x\,\mathrm{d}x$，$I_2=\int_{-\pi}^{\pi}f(x)\cos x\,\mathrm{d}x$，则\ExamSelection。
+  choices:
+  - label: A
+    text: $I_1>0,I_2<0$
+    figures: []
+  - label: B
+    text: $I_1<0,I_2>0$
+    figures: []
+  - label: C
+    text: $I_1>0,I_2>0$
+    figures: []
+  - label: D
+    text: $I_1<0,I_2<0$
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知 $y'(x)+\dfrac{a}{x}y(x)=\dfrac{|\sin x|}{x^a}(x>0)$ 的解均有界，且 $\lim_{x\to 0^+}y(x)=0$，则 $a$ 的取值范围是\ExamSelection。
+  choices:
+  - label: A
+    text: $(0,1)$
+    figures: []
+  - label: B
+    text: $(0,1]$
+    figures: []
+  - label: C
+    text: $[1,2)$
+    figures: []
+  - label: D
+    text: $(1,2]$
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      曲线 $y=x+\dfrac{|\ln x|}{x}$\ExamSelection。
+  choices:
+  - label: A
+    text: 有铅直渐近线，也有斜渐近线
+    figures: []
+  - label: B
+    text: 有水平渐近线，也有斜渐近线
+    figures: []
+  - label: C
+    text: 有且仅有铅直渐近线
+    figures: []
+  - label: D
+    text: 有且仅有水平渐近线
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x)$ 在 $[0,1]$ 上连续，在 $(0,1)$ 内二阶可导，$f(0)=0$，$f'(x)$ 严格单调递增，则对任意 $x\in(0,1)$，有\ExamSelection。
+  choices:
+  - label: A
+    text: $f(x)>f'(0)x>f(1)x$
+    figures: []
+  - label: B
+    text: $f'(0)x>f(x)>f(1)x$
+    figures: []
+  - label: C
+    text: $f(1)x>f'(0)x>f(x)$
+    figures: []
+  - label: D
+    text: $f(1)x>f(x)>f'(0)x$
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x,y)=\begin{cases}(y-e^{-1/x^2})(y-3e^{-1/x^2}),&x\ne0,\\y^2,&x=0,\end{cases}$ 则点 $(0,0)$\ExamSelection。
+  choices:
+  - label: A
+    text: 是 $f(x,x)$ 的极小值点，也是 $f(x,y)$ 的极小值点
+    figures: []
+  - label: B
+    text: 是 $f(x,x)$ 的极小值点，不是 $f(x,y)$ 的极小值点
+    figures: []
+  - label: C
+    text: 不是 $f(x,x)$ 的极小值点，是 $f(x,y)$ 的极小值点
+    figures: []
+  - label: D
+    text: 不是 $f(x,x)$ 的极小值点，也不是 $f(x,y)$ 的极小值点
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $I_1=\iint_{0\leq x\leq1,\,0\leq y\leq1}(\sin x^2+\cos y^2)\,\mathrm{d}\sigma$，$I_2=\iint_{|x|+|y|\leq\dfrac{1}{2}}[2+\ln(\sqrt{x^2+y^2}+\dfrac{1}{2})]\,\mathrm{d}\sigma$，则\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $1\leq I_1\leq I_2$
+    figures: []
+  - label: B
+    text: |-
+      $I_1\leq I_2\leq1$
+    figures: []
+  - label: C
+    text: |-
+      $I_2\leq I_1\leq1$
+    figures: []
+  - label: D
+    text: |-
+      $I_2\leq1\leq I_1$
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A=\begin{pmatrix}a_{11}&a_{12}&a_{13}\\a_{21}&a_{22}&a_{23}\\a_{31}&a_{32}&a_{33}\end{pmatrix}$，$B=\begin{pmatrix}a_{21}&a_{22}&a_{23}\\a_{11}&a_{12}&a_{13}\\a_{31}+a_{11}&a_{32}+a_{12}&a_{33}+a_{13}\end{pmatrix}$，$P_1=\begin{pmatrix}0&1&0\\1&0&0\\0&0&1\end{pmatrix}$，$P_2=\begin{pmatrix}1&0&1\\0&1&0\\0&0&1\end{pmatrix}$，则\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $AP_1^9P_2^{\mathrm T}=B$
+    figures: []
+  - label: B
+    text: |-
+      $AP_2^{\mathrm T}P_1^9=B$
+    figures: []
+  - label: C
+    text: |-
+      $P_1^9P_2^{\mathrm T}A=B$
+    figures: []
+  - label: D
+    text: |-
+      $P_2^{\mathrm T}P_1^9A=B$
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $3$ 阶矩阵 $A,B$ 满足 $r(BA)<r(AB)$，对于以下结论：① $ABx=0$ 与 $BAx=0$ 有非零公共解；② $ABAx=0$ 与 $BABx=0$ 有非零公共解。正确的说法是\ExamSelection。
+  choices:
+  - label: A
+    text: ①错误，②正确
+    figures: []
+  - label: B
+    text: ①正确，②错误
+    figures: []
+  - label: C
+    text: ①正确，②正确
+    figures: []
+  - label: D
+    text: ①错误，②错误
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 为 $n$ 阶方阵，有下列结论：①若 $A$ 的全部顺序主子式为正，则 $A$ 正定；②若 $A$ 相似于对角矩阵 $\Lambda$，则 $A$ 与 $\Lambda$ 合同；③若 $A$ 与正定矩阵合同，则 $A$ 为正定矩阵。则正确结论的个数为\ExamSelection。
+  choices:
+  - label: A
+    text: $0$
+    figures: []
+  - label: B
+    text: $1$
+    figures: []
+  - label: C
+    text: $2$
+    figures: []
+  - label: D
+    text: $3$
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      若 $\begin{cases}x=\ln|t|,\\y=e^{-t^2},\end{cases}$ 则 $\left.\dfrac{\mathrm{d}^2y}{\mathrm{d}x^2}\right|_{t=\sqrt2}=$\ExamBlank。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      微分方程 $y'=(x+1)\sec y-\tan y$ 的通解为\ExamBlank。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $D$ 是第一象限内在曲线 $y=4x^2$ 与 $y=9x^2$ 之间的区域，则 $\iint_Dxe^{-y^2}\,\mathrm{d}x\mathrm{d}y=$\ExamBlank。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)=\dfrac{1+x+x^2}{1-x+x^2}$，则 $f^{(4)}(0)=$\ExamBlank。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $\displaystyle\int_0^{1/2}\dfrac{x\arcsin x}{\sqrt{1-x^2}}\,\mathrm{d}x=$\ExamBlank。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $A=\begin{pmatrix}a&2&0\\0&4&0\\0&1&1\end{pmatrix}$ 与 $B=\begin{pmatrix}2&b&c\\c&2&b\\b&c&2\end{pmatrix}$ 相似，则实向量 $(a,b,c)=$\ExamBlank。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      设函数 $y(x)$ 具有二阶导数，曲线 $l:y=y(x)$ 与 $y=x$ 的倾角 $\theta$ 关于 $x$ 的变化率与曲线 $l$ 在该点的切线斜率相等。求 $y(x)$ 的表达式。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      计算 $\lim_{n\to\infty}\sum_{i=1}^n\dfrac{1-\cos\dfrac{\pi}{\sqrt{n}}}{1+\cos\dfrac{i\pi}{2n}}$。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $f(x)$ 在 $[0,1]$ 上二阶可导，$|f''(x)|\leq M$，$x\in[0,1]$，$M>0$，$f(0)=f(1)=0$。证明：
+  subparts:
+  - text: |-
+      $|f'(x)|\leq\dfrac{M}{2}$，$x\in[0,1]$；
+  - text: |-
+      若 $f\left(\dfrac{1}{2}\right)=0$，则 $|f'(x)|<\dfrac{M}{2}$，$x\in[0,1]$。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      求函数 $f(x,y)=x^2\left(2x^2-4y-\dfrac{1}{7}x^5\right)+y^2$ 的极值。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      计算 $\iint_D\dfrac{2x+y}{x^{3/2}}\,\mathrm{d}x\mathrm{d}y$，其中 $D$ 是由抛物线 $y^2=2x$ 与直线 $x+y=4$，$x+y=12$ 所围成的区域。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $f(\boldsymbol{x})=(\boldsymbol{a}^T\boldsymbol{x})^2+k(\boldsymbol{\beta}^T\boldsymbol{x})^2$ 的二次型矩阵的迹为 $3$，其中 $\boldsymbol{a}=\left(\dfrac{1}{\sqrt{2}},0,-\dfrac{1}{\sqrt{2}}\right)^T$，$\boldsymbol{\beta}=\left(\dfrac{1}{\sqrt{3}},\dfrac{1}{\sqrt{3}},\dfrac{1}{\sqrt{3}}\right)^T$，$\boldsymbol{x}=(x_1,x_2,x_3)^T$。
+  subparts:
+  - text: |-
+      求 $k$ 的值，并求正交矩阵 $Q$，将 $f(\boldsymbol{x})$ 化为标准形；
+  - text: |-
+      求一个实对称矩阵 $P$，使 $f(\boldsymbol{x})=(P\boldsymbol{x})^TP\boldsymbol{x}$。

@@ -1,0 +1,312 @@
+schema_version: '3.0'
+paper:
+  series_key: chaoyue10
+  year: 2025
+  subject: math3
+  paper_no: 7
+content_hash: 3cb90784aecfe34fcab3a8045e8d0431f4b8bdaf7a1635d6ecfd121581731c37
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $g(x)=2^{\dfrac{1}{x-1}}$，$f(x)=\begin{cases}\dfrac{(x-1)(1-g(x))}{1+g(x)},&x\ne 1,\\0,&x=1,\end{cases}$ 则\ExamSelection。
+  choices:
+  - label: A
+    text: $f(x)$ 在 $x=1$ 处不连续
+    figures: []
+  - label: B
+    text: $f(x)$ 在 $x=1$ 处可导
+    figures: []
+  - label: C
+    text: $f(x)$ 在 $x=1$ 处取极大值
+    figures: []
+  - label: D
+    text: $f(x)$ 在 $x=1$ 处取极小值
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $z=\dfrac{2y}{x^2-y^2}$，则 $\left.\displaystyle\sum_{n=1}^{\infty}\dfrac{1}{n!}\cdot\dfrac{\partial^n z}{\partial y^n}\right|_{(3,1)}=$\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{3}{10}$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{1}{2}$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{11}{20}$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{3}{5}$
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      $\displaystyle\int_0^1\mathrm{d}x\int_0^1\dfrac{1}{1+\max\{x^2,y^2\}}\,\mathrm{d}y=$\ExamSelection。
+  choices:
+  - label: A
+    text: $e^2$
+    figures: []
+  - label: B
+    text: |-
+      $\ln 2$
+    figures: []
+  - label: C
+    text: $e^3$
+    figures: []
+  - label: D
+    text: |-
+      $\ln 3$
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设有定积分 $I_1=\displaystyle\int_0^{2\pi}e^{-x^2}\sin x\,\mathrm{d}x$，$I_2=\displaystyle\int_0^{2\pi}e^{-x^2}\cos x\,\mathrm{d}x$，则有\ExamSelection。
+  choices:
+  - label: A
+    text: $I_1>0,I_2>0$
+    figures: []
+  - label: B
+    text: $I_1>0,I_2<0$
+    figures: []
+  - label: C
+    text: $I_1<0,I_2>0$
+    figures: []
+  - label: D
+    text: $I_1<0,I_2<0$
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $3$ 阶方阵 $A=(\alpha_1,\alpha_2,\alpha_3)$，$\alpha_1,\alpha_2,\alpha_3$ 为三维列向量，$B=(\alpha_1,\alpha_2+2\alpha_3,\alpha_3)$，$B^*$ 为 $B$ 的伴随矩阵，若 $|A|=2$，则 $B^*A=$\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\begin{pmatrix}2&0&0\\0&2&0\\0&4&2\end{pmatrix}$
+    figures: []
+  - label: B
+    text: |-
+      $\begin{pmatrix}2&0&0\\0&2&0\\0&-4&2\end{pmatrix}$
+    figures: []
+  - label: C
+    text: |-
+      $\begin{pmatrix}2&0&0\\0&2&4\\0&0&2\end{pmatrix}$
+    figures: []
+  - label: D
+    text: |-
+      $\begin{pmatrix}2&0&0\\0&2&-4\\0&0&2\end{pmatrix}$
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $\alpha_1=(1,1,2)^T$，$\alpha_2=(1,0,-1)^T$，$\alpha_3=(2,0,a)^T$，$\alpha_4=(0,1,b)^T$，若 $\alpha_4$ 可由 $\alpha_1,\alpha_2,\alpha_3$ 线性表示，但 $\alpha_3$ 不能由 $\alpha_1,\alpha_2,\alpha_4$ 表示，则 $a,b$ 的取值为\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $a\ne-2,b\ne3$
+    figures: []
+  - label: B
+    text: |-
+      $a=-2,b\ne3$
+    figures: []
+  - label: C
+    text: |-
+      $a\ne-2,b=3$
+    figures: []
+  - label: D
+    text: $a=-2,b=3$
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $3$ 阶方阵 $A$ 为正交实对称矩阵，且 $|A|<0$，$\alpha_1=(0,\sqrt{2}+1,-1)^T$ 是 $A$ 的属于单特征值 $-1$ 的特征向量，$A^*$ 为 $A$ 的伴随矩阵，若方阵 $B$ 满足 $A^*B=|A|E+A^*$，则 $Bx=0$ 的一个基础解系为\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $\begin{pmatrix}0\\1\\\sqrt{2}+1\end{pmatrix}$
+    figures: []
+  - label: B
+    text: |-
+      $\begin{pmatrix}0\\\sqrt{2}+1\\-1\end{pmatrix}$
+    figures: []
+  - label: C
+    text: |-
+      $\begin{pmatrix}0\\1\\\sqrt{2}+1\end{pmatrix},\begin{pmatrix}0\\\sqrt{2}+1\\-1\end{pmatrix}$
+    figures: []
+  - label: D
+    text: |-
+      $\begin{pmatrix}1\\0\\0\end{pmatrix},\begin{pmatrix}0\\1\\\sqrt{2}+1\end{pmatrix}$
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设有随机变量 $X$ 和 $Y$，且 $X\geq Y$，记分布函数分别为 $F_X(x)$ 和 $F_Y(x)$，$(X,Y)$ 的分布函数为 $F(x,y)$，则\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $F_X(x)\geq F_Y(x),F(x,x)\leq F_X(x)$
+    figures: []
+  - label: B
+    text: |-
+      $F_X(x)\leq F_Y(x),F(x,x)\leq F_X(x)$
+    figures: []
+  - label: C
+    text: |-
+      $F_X(x)\geq F_Y(x),F(x,x)\leq F_Y(x)$
+    figures: []
+  - label: D
+    text: |-
+      $F_X(x)\leq F_Y(x),F(x,x)\leq F_Y(x)$
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      将长度为 $2$ 的细绳截成两段，分别围成圆和正方形，记 $X$ 表示圆的直径，$Y$ 表示正方形的面积，则 $\operatorname{Cov}(X,Y)=$\ExamSelection。
+  choices:
+  - label: A
+    text: |-
+      $-\dfrac{1}{12\pi}$
+    figures: []
+  - label: B
+    text: |-
+      $-\dfrac{1}{96\pi}$
+    figures: []
+  - label: C
+    text: |-
+      $-\dfrac{1}{24\pi}$
+    figures: []
+  - label: D
+    text: |-
+      $-\dfrac{1}{48\pi}$
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设随机变量 $X_1,X_2,X_3$ 为来自正态总体 $X\sim N(0,3)$ 的简单随机样本，则下列结论正确的个数是\ExamSelection。① $\dfrac{1}{3}(X_1^2+X_2^2+X_3^2)\sim\chi^2(3)$；② $\dfrac{1}{9}(X_1+X_2+X_3)^2\sim\chi^2(1)$；③ $\dfrac{X_1+X_2}{|X_1-X_2|}\sim t(1)$；④ $\dfrac{2X_1^2}{X_2^2+X_3^2}\sim F(1,2)$。
+  choices:
+  - label: A
+    text: $1$
+    figures: []
+  - label: B
+    text: $2$
+    figures: []
+  - label: C
+    text: $3$
+    figures: []
+  - label: D
+    text: $4$
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $g(x)=\begin{cases}2e^{x^2},&x\leq 0,\\4-2e^{x^2},&x>0,\end{cases}$ 则 $\displaystyle\int_{-5}^{5}g(x)\,\mathrm{d}x=$\ExamBlank。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设单位圆的内接正 $n$ 边形与该圆之间部分的面积为 $A_n$，则 $\displaystyle\lim_{n\to\infty}n^2A_n=$\ExamBlank。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设函数 $u=f(x,y,xyz)$，函数 $z=z(x,y)$ 由方程 $e^{xyz}=\displaystyle\int_{xy}^{z}g(xy+z-t)\,\mathrm{d}t$ 所确定，其中 $f$ 具有连续偏导数，$g$ 连续，求 $x\dfrac{\partial u}{\partial x}-y\dfrac{\partial u}{\partial y}=$\ExamBlank。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $y_1=e^x-e^{-x}\sin 2x$，$y_2=e^x$ 是某二阶常系数非齐次线性方程的两个解，则该微分方程是\ExamBlank。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 为 $4$ 阶方阵，$\alpha_1,\alpha_2,\alpha_3,\alpha_4$ 为线性无关的 $n$ 维向量，且 $A\alpha_1=2\alpha_1+\alpha_2+\alpha_3+\alpha_4$，$A\alpha_2=\alpha_1+2\alpha_2+\alpha_3+\alpha_4$，$A\alpha_3=\alpha_1+\alpha_2+2\alpha_3+\alpha_4$，$A\alpha_4=\alpha_1+\alpha_2+\alpha_3+2\alpha_4$，则 $r[A-5E]=$\ExamBlank。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设随机变量 $X\sim N(0,\sigma^2)$，若使得 $X$ 的取值落在区间 $(\dfrac{1}{2},1)$ 内的概率最大，则 $\sigma^2=$\ExamBlank。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: 设 $f(x),g(x)$ 在 $[-a,a]$ 上连续，若 $f(x)=f(-x)$，$g(x)+g(-x)=m$（$m$ 为常数），
+  subparts:
+  - text: |-
+      证明 $\displaystyle\int_{-a}^{a}f(x)g(x)\,\mathrm{d}x=\dfrac{m}{2}\int_{-a}^{a}f(x)\,\mathrm{d}x$；
+  - text: |-
+      计算 $I=\displaystyle\int_{-\pi}^{\pi}\dfrac{x\sin x}{(e^x+1)(1+\cos^2 x)}\,\mathrm{d}x$。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: 设函数 $z=z(x,y)$ 是由方程 $2(x^2-1)y+y^2z^2+z=0$ 确定的隐函数，求 $z(x,y)$ 的极值。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设区域 $D=\{(x,y)\mid x^2+y^2\leq 4\}$，计算二重积分 $I=\displaystyle\iint_D\max\{\sqrt{4-x^2-y^2},\sqrt{3}(x^2+y^2)\}\,\mathrm{d}x\,\mathrm{d}y$。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $x_1>0$，$x_{n+1}=\sqrt{1+x_n}\ln(1+x_n)$，$n=1,2,\cdots$，
+  subparts:
+  - text: |-
+      证明当 $x>0$ 时，$\ln(1+x)<\dfrac{x}{\sqrt{1+x}}$；
+  - text: |-
+      证明 $\displaystyle\lim_{n\to\infty}x_n$ 存在，并求之。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $f(x_1,x_2,x_3)=(2x_1+x_2-x_3)^2+(x_1+2x_2+x_3)^2+(-x_1+x_2+2x_3)^2$，记 $A=\begin{pmatrix}2&1&-1\\1&2&1\\-1&1&2\end{pmatrix}$，
+  subparts:
+  - text: 求 $f=0$ 的通解；
+  - text: 证明二次形 $f$ 的矩阵为 $AA^T$；
+  - text: 求正交变换 $x=Py$ 化二次型 $f$ 为标准形。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $(X,Y)$ 的概率密度 $f(x,y)$ 满足 $f(x,y)=f(y,x)$，在 $Y=y$（$-\infty<y<+\infty$）条件下，$X$ 的条件密度函数为 $f_{X\mid Y}(x\mid y)=ke^{-\dfrac{1}{2}(x-y)^2}$，$-\infty<x<+\infty$。
+  subparts:
+  - text: 求常数 $k$；
+  - text: |-
+      求 $f_{Y\mid X}(y\mid x)$；
+  - text: 求 $Y$ 的概率密度函数 $f_Y(y)$，以及 $(X,Y)$ 的联合密度函数 $f(x,y)$。

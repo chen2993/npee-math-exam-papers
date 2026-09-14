@@ -1,0 +1,304 @@
+schema_version: '3.0'
+paper:
+  series_key: zhangyu4
+  year: 2025
+  subject: math1
+  paper_no: 4
+content_hash: 21c9b2fd1124d1208b0b4f99cba28a792f0b1e7427ae9704fbe4bd057a952eb5
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      使得 $\int_1^x\dfrac{\sin t}{t}\,\mathrm{d}t>\ln x^3$ 成立的 $x$ 的取值范围是\ExamSelection
+  choices:
+  - label: A
+    text: $(0,1)$
+    figures: []
+  - label: B
+    text: |-
+      $(1,\dfrac{\pi}{2})$
+    figures: []
+  - label: C
+    text: |-
+      $(\dfrac{\pi}{2},\pi)$
+    figures: []
+  - label: D
+    text: |-
+      $(\pi,+\infty)$
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $u(x,y)=f(x+y)+f(x-y)+\int_{x-y}^{x+y}g(t)\,\mathrm{d}t$，其中函数 $f,g$ 具有二阶导数，则\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{\partial^2u}{\partial x^2}=-\dfrac{\partial^2u}{\partial y^2}$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{\partial^2u}{\partial x^2}=\dfrac{\partial^2u}{\partial y^2}$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{\partial^2u}{\partial x\partial y}=\dfrac{\partial^2u}{\partial y^2}$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{\partial^2u}{\partial x\partial y}=\dfrac{\partial^2u}{\partial x^2}$
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设级数 $\sum_{n=1}^{\infty}a_n$，$\sum_{n=1}^{\infty}b_n$ 均收敛，$a_n\leq c_n\leq b_n$，$n=1,2,\cdots$，则\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\sum_{n=1}^{\infty}c_n$ 收敛
+    figures: []
+  - label: B
+    text: |-
+      $\sum_{n=1}^{\infty}c_n$ 发散
+    figures: []
+  - label: C
+    text: |-
+      $\sum_{n=1}^{\infty}a_nc_n$ 收敛
+    figures: []
+  - label: D
+    text: |-
+      $\sum_{n=1}^{\infty}a_nc_n$ 发散
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设曲面 $\Sigma:x^2+y^2+z^2=z$，则 $\iint_{\Sigma}\dfrac{2x^2+z^2}{\sqrt{(2x)^2+(2y)^2+(2z-1)^2}}\,\mathrm{d}S=\ExamSelection$
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{\pi}{8}$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{\pi}{6}$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{\pi}{4}$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{\pi}{2}$
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 为 $3\times4$ 矩阵，若 $AA^{\mathrm{T}}$ 的特征值之和为 $6$，$AA^{\mathrm{T}}$ 的每行元素之和均为 $2$，$A^{\mathrm{T}}A-E$ 不可逆，则 $|A^{\mathrm{T}}A+E|=\ExamSelection$
+  choices:
+  - label: A
+    text: $6$
+    figures: []
+  - label: B
+    text: $24$
+    figures: []
+  - label: C
+    text: $-6$
+    figures: []
+  - label: D
+    text: $-24$
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $\alpha_1=\begin{pmatrix}a\\1\\1\end{pmatrix}$，$\alpha_2=\begin{pmatrix}1\\a\\1\end{pmatrix}$，$\alpha_3=\begin{pmatrix}1\\1\\a\end{pmatrix}$，$\alpha_4=\begin{pmatrix}1\\a\\a\end{pmatrix}$。若向量组 $\alpha_1,\alpha_2,\alpha_3$ 可由 $\alpha_1,\alpha_2,\alpha_4$ 线性表示，则 $a$ 的取值范围是\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\{a\mid a\in\mathbb{R},a\neq0\}$
+    figures: []
+  - label: B
+    text: |-
+      $\{a\mid a\in\mathbb{R},a\neq0,a\neq1\}$
+    figures: []
+  - label: C
+    text: |-
+      $\{a\mid a\in\mathbb{R},a\neq-1\}$
+    figures: []
+  - label: D
+    text: |-
+      $\{a\mid a\in\mathbb{R},a\neq1,a\neq-1\}$
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 是秩为 $2$ 的 $2\times5$ 矩阵，$B$ 是秩为 $3$ 的 $3\times5$ 矩阵，若 $AB^{\mathrm{T}}=O$，则对于齐次线性方程组 $Ax=0$ 的任一非零解 $b$ 有\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $A^{\mathrm{T}}y=b$ 有唯一解
+    figures: []
+  - label: B
+    text: |-
+      $A^{\mathrm{T}}y=b$ 有无穷多解
+    figures: []
+  - label: C
+    text: |-
+      $B^{\mathrm{T}}y=b$ 有唯一解
+    figures: []
+  - label: D
+    text: |-
+      $B^{\mathrm{T}}y=b$ 有无穷多解
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设随机变量 $X$ 的分布函数为 $F(x)=\begin{cases}1-e^{-\sqrt{\lambda x}},&x>0,\\0,&\text{其他},\end{cases}(\lambda>0)$，记 $p_1=P\{X>x\}$，$p_2=P\{X>x+t\mid X>t\}$，$p_3=P\{X>x-t\mid X>t\}$，其中 $x>2t>0$，则\ExamSelection
+  choices:
+  - label: A
+    text: $p_3>p_1=p_2$
+    figures: []
+  - label: B
+    text: $p_3>p_1>p_2$
+    figures: []
+  - label: C
+    text: $p_3=p_2>p_1$
+    figures: []
+  - label: D
+    text: $p_3>p_2>p_1$
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设总体 $X$ 和 $Y$ 相互独立，且都服从正态分布 $N(0,2)$，$X_1,X_2,\cdots,X_n$ 和 $Y_1,Y_2,\cdots,Y_n$ 分别是来自总体 $X$ 和 $Y$ 且容量都为 $n(n\geq2)$ 的两个简单随机样本，样本均值、样本方差分别为 $\overline{X},S_X^2$ 和 $\overline{Y},S_Y^2$，则下列选项中不正确的是\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $P\{\overline{X}\leq\overline{Y}\}=\dfrac{1}{2}$
+    figures: []
+  - label: B
+    text: |-
+      $P\{S_X^2\leq S_Y^2\}=\dfrac{1}{2}$
+    figures: []
+  - label: C
+    text: |-
+      $E\left(\dfrac{\overline{X}-\overline{Y}}{\sqrt{S_X^2+S_Y^2}}\right)=0$
+    figures: []
+  - label: D
+    text: $E(S_X^2+S_Y^2)=2$
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      假设检验中的显著性水平 $\alpha$ 是\ExamSelection
+  choices:
+  - label: A
+    text: 备择假设 $H_1$ 成立，经检验被拒绝的概率
+    figures: []
+  - label: B
+    text: 备择假设 $H_1$ 成立，经检验被接受的概率
+    figures: []
+  - label: C
+    text: 原假设 $H_0$ 成立，经检验被拒绝的概率
+    figures: []
+  - label: D
+    text: 原假设 $H_0$ 成立，经检验被接受的概率
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      若 $\begin{cases}x=\ln t,\\y=e^{t^2},\end{cases}$ 则 $\left.\dfrac{\mathrm{d}^2y}{\mathrm{d}x^2}\right|_{t=1}=\ExamBlank$。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      以 $e^{-x}$，$2xe^{-x}$，$3e^x$ 为特解的三阶常系数齐次线性微分方程为\ExamBlank。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $\int_0^1\mathrm{d}x\int_x^1\mathrm{d}y\int_y^1y\sqrt{1+z^4}\,\mathrm{d}z=\ExamBlank$。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设函数 $z=f(x,y)$ 在点 $(0,0)$ 附近有定义，$f(0,0)=1$ 且 $f_x'(0,0)=-1$，则曲线 $\begin{cases}z=f(x,y),\\y=0\end{cases}$ 在点 $(0,0,1)$ 处的法平面方程为\ExamBlank。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $n$ 阶矩阵 $A$ 满足 $|A|=1$，其元素 $a_{ij}=-a_{ji}$，$i,j=1,2,\cdots,n$，$n$ 维列向量 $\boldsymbol{x}=(1,1,\cdots,1)^{\mathrm{T}}$，则 $\boldsymbol{x}^{\mathrm{T}}A^*\boldsymbol{x}=\ExamBlank$。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设随机事件 $A,B,C$ 同时发生的概率与 $A,B,C$ 同时不发生的概率相等。若 $P(A)=P(B)=P(C)=a$，$2P(ABC)=P(AB)+P(AC)+P(BC)-\dfrac{1}{2}$，则 $a=\ExamBlank$。
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      设 $f(x)=\dfrac{\pi}{2}-x$，若 $f(x)=\dfrac{a_0}{2}+\sum_{n=1}^{\infty}a_n\cos nx$，$x\in[0,\pi]$，计算 $\lim_{n\to\infty}n^2\ln(1+a_{2n-1})$。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      过点 $(0,1)$ 的曲线 $y=f(x)$ 满足 $yy'+y^2=\cos x$，求 $y=f(x)$ 与 $x=0$，$x=\dfrac{\pi}{2}$ 及 $x$ 轴所围成平面有界区域 $D$ 绕 $x$ 轴旋转一周所得旋转体的体积。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $\Sigma$ 为 $z=y(0\leq z\leq1)$ 绕 $z$ 轴旋转一周所形成的曲面外侧，计算 $\iint_{\Sigma}x^2\,\mathrm{d}y\,\mathrm{d}z+(z^2-2z)\,\mathrm{d}x\,\mathrm{d}y$。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设连续函数 $f(x,y)$ 满足 $f(x,y)-x^2+y^2=\int_L\dfrac{xf(x,y)\,\mathrm{d}y+yf(x,y)\,\mathrm{d}x}{x^2+y^2}$，其中 $L$ 为从点 $A(-1,0)$ 到点 $B(1,0)$ 的上半圆周曲线 $x^2+y^2=1$，求 $f(x,y)$ 的表达式。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $f(\boldsymbol{x})=(\boldsymbol{\alpha}^{\mathrm{T}}\boldsymbol{x})^2+2(\boldsymbol{\beta}^{\mathrm{T}}\boldsymbol{x})^2$，其中 $\boldsymbol{\alpha}=\left(\dfrac{1}{\sqrt{2}},0,-\dfrac{1}{\sqrt{2}}\right)^{\mathrm{T}}$，$\boldsymbol{\beta}=\left(\dfrac{1}{\sqrt{3}},\dfrac{1}{\sqrt{3}},\dfrac{1}{\sqrt{3}}\right)^{\mathrm{T}}$，$\boldsymbol{x}=(x_1,x_2,x_3)^{\mathrm{T}}$。
+  subparts:
+  - text: |-
+      求正交矩阵 $Q$，将 $f(\boldsymbol{x})$ 化为标准形；
+  - text: |-
+      求一个实对称矩阵 $P$，使 $f(\boldsymbol{x})=\lVert P\boldsymbol{x}\rVert^2$。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设随机变量 $X$ 满足 $|X|\leq1$，$P\{X=-1\}=P\{X=1\}=\dfrac{1}{4}$，当 $|X|<1$ 时，$X$ 服从 $(-1,1)$ 上的均匀分布，$Y$ 服从参数为 $1$ 的指数分布，$X,Y$ 独立，令 $Z=X+Y$。求：
+  subparts:
+  - text: $X$ 的分布函数 $F_X(x)$；
+  - text: $Z$ 的分布函数 $F_Z(z)$。
