@@ -175,6 +175,7 @@ def validate_inline_tex(value: Any, field: str) -> str:
     text = re.sub(r"\\Exam(Selection|Blank)(?=[\u3400-\u9fff])", r"\\Exam\1{}", text)
     text = repair_cases_rows(text, field)
     text = OPERATOR_LIMIT_RE.sub(lambda match: f"\\{match.group(1)}", text)
+    text = repair_integral_limits(text)
     if "tikzpicture" in text and TIKZ_DOUBLE_COMMAND_RE.search(text):
         fail(f"{field} contains a doubled TikZ command slash; normalize the source paper.json first")
     unsafe_cjk = cjk_math_characters(text)
@@ -307,6 +308,52 @@ def repair_quoted_math_runs(text: str) -> str:
         r"\1$\2$",
         text,
     )
+
+#: A subscript that names the integration *domain* rather than a numeric bound:
+#: a capital Latin letter (``L``, ``C``, ``D``) optionally carrying a further
+#: sub/superscript, or a capital Greek command (``\Gamma``, ``\Sigma``, ``\Omega``).
+REGION_SUBSCRIPT_RE = re.compile(
+    r"^(?:[A-Z](?:\s*(?:_\{?[^{}\s]*\}?|\^\{?[^{}\s]*\}?))?"
+    r"|\\(?:Gamma|Sigma|Omega|Lambda|Phi|Pi|Theta|Delta|Xi|Psi|Upsilon)"
+    r"(?:\s*(?:_\{?[^{}\s]*\}?|\^\{?[^{}\s]*\}?))?)$"
+)
+
+#: A single ``\int`` plus its subscript, used by :func:`repair_integral_limits`.
+#: The lookbehind rejects only a preceding backslash, which is what distinguishes a
+#: real ``\int`` from the ``\\int`` row separator followed by the literal text
+#: "int". It deliberately does *not* reject a preceding letter: ``\displaystyle\int_L``
+#: is a legitimate construct, and the trailing ``(?![A-Za-z@])`` already stops the
+#: match from landing inside a longer control word.
+INTEGRAL_SUBSCRIPT_RE = re.compile(
+    r"(?<!\\)\\int(?![A-Za-z@])(?:\\limits)*"
+    r"(?P<sub>_\s*(?:\{[^{}]*\}|[^\s{]))"
+)
+
+def repair_integral_limits(text: str) -> str:
+    r"""Set the label of a domain integral directly below the integral sign.
+
+    The reference papers put a *numeric* bound at the lower right (``\int_0^1``,
+    ``\int_a^b``). That is also what keeps an integral nested in a fraction or a
+    matrix cell from growing tall, so those are deliberately left alone.
+
+    A subscript naming the *region* is a different thing: ``\int_L`` and
+    ``\oint_\Gamma`` read as "the integral over ``L``", and an examination paper
+    sets that label beneath the sign. The class already forces ``\limits`` on
+    every operator except ``\int`` (see the ``operators/int-limits`` switch), and
+    :data:`OPERATOR_LIMIT_RE` strips a duplicate, so this rule is what supplies
+    the explicit placement for the one operator the class leaves at the side.
+    """
+
+    def add_limits(match: re.Match[str]) -> str:
+        subscript = match.group("sub")
+        body = subscript.lstrip("_").strip()
+        if body.startswith("{") and body.endswith("}"):
+            body = body[1:-1]
+        if not REGION_SUBSCRIPT_RE.match(body.strip()):
+            return match.group(0)
+        return f"\\int\\limits{subscript}"
+
+    return INTEGRAL_SUBSCRIPT_RE.sub(add_limits, text)
 
 
 def repair_cases_rows(text: str, field: str) -> str:

@@ -41,8 +41,42 @@ function escapeHtml(value: string): string {
 
 function normalizeOperatorLimits(expression: string): string {
   return expression.replace(
-    /\\(limsup|liminf|iiiint|iiint|iint|oiiint|oiint|max|min|sup|inf|lim|sum|prod|bigcap|bigcup)(?![A-Za-z@])(?:\\limits)*/g,
+    // Must stay in step with the class, which forces \limits on exactly these
+    // operators (see the begindocument/end hook in npee-math-exam.cls). `oint`
+    // was missing here, so `\oint_L` rendered its label at the side in the
+    // browser while the PDF centred it below.
+    /\\(limsup|liminf|iiiint|iiint|iint|oiiint|oiint|oint|max|min|sup|inf|lim|sum|prod|bigcap|bigcup)(?![A-Za-z@])(?:\\limits)*/g,
     (match) => `${match.replace(/\\limits/g, "")}\\limits`,
+  );
+}
+
+/**
+ * 积分区域的上下限放在积分号正下方。
+ *
+ * 参考卷对**数值上下限**沿用期刊惯例写在右下角（`\int_0^1`、`\int_a^b`）——
+ * 这也让嵌在分式或矩阵格里的积分不会撑高行距，因此保持原样。**区域名**不同：
+ * `\int_L`、`\oint_\Gamma` 读作「在 L 上的积分」，考研卷把它排在积分号正下方。
+ *
+ * 类文件已为除 `\int` 以外的全部算子强制 `\limits`（见 `operators/int-limits`
+ * 开关），只有 `\int` 留给来源显式指定，所以这里补上。服务端
+ * `service/rendering/inline_tex.py` 的同名规则保证 PDF 与浏览器呈现一致。
+ */
+const REGION_SUBSCRIPT =
+  /^(?:[A-Z](?:\s*(?:_\{?[^{}\s]*\}?|\^\{?[^{}\s]*\}?))?|\\(?:Gamma|Sigma|Omega|Lambda|Phi|Pi|Theta|Delta|Xi|Psi|Upsilon)(?:\s*(?:_\{?[^{}\s]*\}?|\^\{?[^{}\s]*\}?))?)$/;
+
+function placeIntegralRegionLimits(expression: string): string {
+  return expression.replace(
+    // The lookbehind rejects only a preceding backslash: that is what separates a
+    // real `\int` from a `\\int` row separator plus literal text. A preceding
+    // *letter* must be allowed, because `\displaystyle\int_L` is legitimate; the
+    // trailing guard already prevents matching inside a longer control word.
+    /(?<!\\)\\int(?![A-Za-z@])(?:\\limits)*(?<sub>_\s*(?:\{[^{}]*\}|[^\s{]))/g,
+    (match, sub: string) => {
+      const raw = String(sub);
+      let body = raw.replace(/^_\s*/, "");
+      if (body.startsWith("{") && body.endsWith("}")) body = body.slice(1, -1);
+      return REGION_SUBSCRIPT.test(body.trim()) ? `\\int\\limits${raw}` : match;
+    },
   );
 }
 
@@ -80,7 +114,7 @@ export function renderTex(source: string): string | null {
   while ((match = pattern.exec(folded))) {
     result += escapeHtml(folded.slice(cursor, match.index));
     const raw = match[0].startsWith("\\(") ? match[0].slice(2, -2) : match[0].slice(1, -1);
-    result += katex.renderToString(normalizeOperatorLimits(raw), {
+    result += katex.renderToString(placeIntegralRegionLimits(normalizeOperatorLimits(raw)), {
       throwOnError: false,
       displayMode: false,
       macros: EXAM_MACROS,

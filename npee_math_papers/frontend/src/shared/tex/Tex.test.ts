@@ -67,4 +67,37 @@ describe("renderTex", () => {
     const html = renderTex("若 $a<b$ 则 <成立>");
     expect(html).toContain("&lt;成立&gt;");
   });
+
+  it("puts an integral's region label below the sign", () => {
+    // KaTeX marks stacked scripts with `mop op-limits`; a side-set subscript
+    // carries no such class. A domain subscript reads as "the integral over L",
+    // which an examination paper sets under the sign.
+    for (const source of [
+      "$\\int_L f$",
+      "$\\int_{L_1} f$",
+      "$\\int_{\\Gamma} g$",
+      // `\displaystyle` may sit between the relation and the integral.
+      "$\\displaystyle\\int_L f$",
+    ]) {
+      expect(renderTex(source)).toContain("mop op-limits");
+    }
+  });
+
+  it("centres the label of the operators the class forces \\limits on", () => {
+    // The class applies \limits to these in its begindocument/end hook, so the
+    // browser has to match it. `oint` was missing from the frontend's list, so a
+    // contour integral rendered its label at the side in the UI but centred in
+    // the PDF.
+    for (const source of ["$\\oint_L f$", "$\\oint_{\\Gamma} h$", "$\\iint_D f$", "$\\iiint_\\Omega g$", "$\\sum_{n=1}^{\\infty}a_n$"]) {
+      expect(renderTex(source)).toContain("mop op-limits");
+    }
+  });
+
+  it("leaves a numeric integral bound at the lower right", () => {
+    // The reference papers set a numeric range at the side, and keeping it there
+    // is what stops an integral inside a fraction from growing tall.
+    for (const source of ["$\\int_0^1 f$", "$\\int_a^b f$", "$\\int x\\,\\mathrm{d}x$"]) {
+      expect(renderTex(source)).not.toContain("mop op-limits");
+    }
+  });
 });

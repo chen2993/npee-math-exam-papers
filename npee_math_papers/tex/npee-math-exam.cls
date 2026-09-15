@@ -686,66 +686,61 @@
 % Feature section: mathematical operator conventions
 % -----------------------------------------------------------------------------
 
-% unicode-math defines the multiple-integral glyphs as Unicode math symbols.
-% Wrapping them as limited operators gives region labels the familiar
-% examination-mathematics layout. Explicit limits are intentional, so the
-% region appears directly below the integral sign even in inline displaystyle math.
-% The original glyphs are saved first, so the wrappers never recurse.
-\let\NPEEOriginalDoubleIntegral\iint
-\let\NPEEOriginalTripleIntegral\iiint
-\let\NPEEOriginalQuadrupleIntegral\iiiint
-\let\NPEEOriginalContourIntegral\oint
-% Standard LaTeX defines limits as ordinary (side-scripted) math operators
-% in inline mathematics.  Examination sources use compact inline formulas but
-% still expect the limit set directly below the operator, just as in display
-% mathematics.  Save the original token only for compatibility/debugging and
-% install a portable operator wrapper with explicit limits.
-\let\NPEEOriginalLimit\lim
-\protected\def\lim{\mathop{\mathrm{lim}}\limits}
-\let\NPEEOriginalLimitSup\limsup
-\protected\def\limsup{\mathop{\mathrm{lim\,sup}}\limits}
-\let\NPEEOriginalLimitInf\liminf
-\protected\def\liminf{\mathop{\mathrm{lim\,inf}}\limits}
-\let\NPEEOriginalSum\sum
-\let\NPEEOriginalProd\prod
-\let\NPEEOriginalBigcap\bigcap
-\let\NPEEOriginalBigcup\bigcup
-\protected\def\sum{\mathop{\displaystyle\NPEEOriginalSum}\limits}
-\protected\def\prod{\mathop{\displaystyle\NPEEOriginalProd}\limits}
-\protected\def\bigcap{\mathop{\displaystyle\NPEEOriginalBigcap}\limits}
-\protected\def\bigcup{\mathop{\displaystyle\NPEEOriginalBigcup}\limits}
-\let\NPEEOriginalMax\max
-\let\NPEEOriginalMin\min
-\let\NPEEOriginalSup\sup
-\let\NPEEOriginalInf\inf
-\protected\def\max{\mathop{\mathrm{max}}\limits}
-\protected\def\min{\mathop{\mathrm{min}}\limits}
-\protected\def\sup{\mathop{\mathrm{sup}}\limits}
-\protected\def\inf{\mathop{\mathrm{inf}}\limits}
-\protected\def\iint{\mathop{\displaystyle\NPEEOriginalDoubleIntegral}\limits}
-\protected\def\iiint{\mathop{\displaystyle\NPEEOriginalTripleIntegral}\limits}
-\protected\def\iiiint{\mathop{\displaystyle\NPEEOriginalQuadrupleIntegral}\limits}
-\protected\def\oint{\mathop{\displaystyle\NPEEOriginalContourIntegral}\limits}
+% The operator glyphs (sum, product, union, intersection and the multiple
+% integrals) belong to unicode-math, which installs them as Unicode math
+% characters from *its own* begindocument hook.  Two facts shape the code near
+% the end of this class:
+%
+%  1. Capturing the originals here, in the preamble, captures amsmath's legacy
+%     \mathchar instead.  Under Cambria Math that legacy code point renders as
+%     a Latin letter (sum shows up as "P", product as "Q", union as "S"),
+%     which is why the glyphs must be captured from the late hook below.
+%  2. Redefining the operators in \AtBeginDocument is not sufficient either.
+%     Hook code runs in registration order and unicode-math registers later
+%     than this class, so it reinstalled the bare characters and every wrapper
+%     defined earlier was discarded -- the limits silently went back to the
+%     side of the symbol.
+%
+% Both problems are solved in one place: capture *and* redefine from
+% begindocument/end, which runs after every package's begindocument hook.
+% \lim, \limsup, \max, \min, \sup and \inf are amsmath macros rather than
+% Unicode characters, so they are wrapped there too and stay consistent.
+%
+% Explicit limits are intentional: an examination formula keeps its region
+% directly below the operator even though the surrounding math is inline.
 
-% Some Cambria Math installations do not expose the optional surface/volume
-% contour glyphs.  Keep the public API available everywhere, using the closest
-% standard multiple-integral glyph as a portable fallback in that case.
-\@ifundefined{oiint}{%
-  \let\NPEEOriginalSurfaceIntegral\NPEEOriginalDoubleIntegral
-}{%
-  \let\NPEEOriginalSurfaceIntegral\oiint
-  \protected\def\oiint{\mathop{\displaystyle\NPEEOriginalSurfaceIntegral}\limits}
-}
-\@ifundefined{oiiint}{%
-  \let\NPEEOriginalVolumeContourIntegral\NPEEOriginalTripleIntegral
-}{%
-  \let\NPEEOriginalVolumeContourIntegral\oiiint
-  \protected\def\oiiint{\mathop{\displaystyle\NPEEOriginalVolumeContourIntegral}\limits}
+% Whether a single ``\int`` also puts its bound directly below the sign.
+%
+% Sums, products, the union/intersection family and the multiple integrals
+% (\iint, \iiint, \oint, ...) always set their scripts above and below: an
+% examination paper reads them that way, and those operators are wide enough
+% that a side-set subscript looks like a mistake.
+%
+% A single ``\int`` is the one place where the two conventions genuinely differ.
+% The reference papers follow the usual journal style and keep its bound at the
+% lower right (``\int_0^1``), which also keeps an integral inside a fraction or
+% a matrix cell from growing tall. Set this switch when a paper should instead
+% push every integral bound underneath:
+%
+%   \NPEEIntLimitstrue                    % from the preamble
+%   \ExamSetup{operators/int-limits=always}
+%
+% Note that ``\everymath{\displaystyle}`` is *not* a substitute: it only makes
+% the integral sign taller and leaves the bound at the upper/lower right. Only
+% ``\limits`` centres it above and below. It is also the more expensive choice
+% (measured on the 1156 integral-bearing stems in this library: +7 pages, versus
+% +17 for stacking every bound, which is what this switch does).
+%
+% The default reproduces the reference typography exactly, so switching it on
+% is an explicit editorial choice rather than something the class infers.
+\newif\ifNPEEIntLimits
+\NPEEIntLimitsfalse
+\NPEEDeclareSetupKeys{
+  operators/int-limits/.is choice,
+  operators/int-limits/auto/.code={\NPEEIntLimitsfalse},
+  operators/int-limits/always/.code={\NPEEIntLimitstrue},
 }
 
-% Public commands are useful when a source wants to make the intended region
-% explicit, while the redefinitions above keep existing ``\iint_D`` sources
-% compatible without per-question edits.
 \newcommand{\NPEEIntegralWithRegion}[2]{%
   \mathop{\displaystyle#1}\limits_{#2}%
 }
@@ -2523,13 +2518,30 @@
   \par\endgroup}
 \newcommand{\NPEEChoices}[4]{%
   \NPEEMeasureChoices{#1}{#2}{#3}{#4}%
-  % Keep normal body size; long alternatives move to two rows rather than
-  % being squeezed into four narrow cells.
-  \ifdim\NPEEChoiceWidest<.34\linewidth
+  % Pick the densest layout the widest alternative actually fits in.  The
+  % measurement covers the label as well (``A. '' plus the text), because the
+  % label is what occupies the left edge of every cell.
+  %
+  % The thresholds are the cell widths of the corresponding layout, discounted
+  % because a cell is a fraction of ``\linewidth - \NPEEChoiceIndent`` rather
+  % than of ``\linewidth``, and because the \hfill separators need slack:
+  %
+  %   * one row of four  -> cell .235\linewidth, usable ~.228
+  %   * two rows of two  -> cell .475\linewidth, usable ~.462
+  %   * anything longer  -> a line each, so a long option is never squeezed
+  %                         into a narrow cell and wrapped mid-formula
+  %
+  % Previously only the two-row case was reachable: ``\NPEEChoicesOneLine`` was
+  % defined but never selected, and the single two-row threshold was set at .34,
+  % so every alternative between .34 and the two-row cell width fell through to
+  % one-per-line even though it demonstrably fits two per row.
+  \ifdim\NPEEChoiceWidest<.22\linewidth
+    \NPEEChoicesOneLine{#1}{#2}{#3}{#4}%
+  \else\ifdim\NPEEChoiceWidest<.45\linewidth
     \NPEEChoicesTwoByTwo{#1}{#2}{#3}{#4}%
   \else
     \NPEEChoicesOnePerLine{#1}{#2}{#3}{#4}%
-  \fi}
+  \fi\fi}
 \newcommand{\NPEEGraphicChoices}[4]{%
   \par\vspace{\NPEEChoiceBeforeSkip}\noindent\hspace*{\NPEEChoiceIndent}%
   \begin{minipage}[t]{\dimexpr\linewidth-\NPEEChoiceIndent\relax}\noindent
@@ -3568,35 +3580,81 @@
 \providecommand{\ExamContourIntegral}{\NPEEContourIntegral}
 \providecommand{\ExamSurfaceIntegral}{\NPEESurfaceIntegral}
 \providecommand{\ExamVolumeContourIntegral}{\NPEEVolumeContourIntegral}
-% Re-apply the integral wrappers after all packages and publication profiles have
-% finished their math-symbol setup. unicode-math may restore multiple integrals as
-% active Unicode math characters during the preamble; the begin-document hook is
-% the stable point at which the public operators can be made limit-bearing.
-\AtBeginDocument{%
-  % Re-apply the limit wrappers after unicode-math has finished installing its
-  % operator table.  This keeps inline examination formulas consistent with
-  % the integral-region convention below.
+% Re-apply the operator wrappers from the very last begin-document hook.
+%
+% unicode-math installs its math characters from its *own* begindocument hook.
+% Hooks run in registration order and a package loaded after this class registers
+% later, so unicode-math's hook ran *after* the wrappers and restored \sum,
+% \prod, \bigcup, \iint, \oint ... to bare Unicode math characters. That silently
+% discarded every limited-operator definition, which is why sums and multiple
+% integrals printed their limits at the side instead of above and below.
+% begindocument/end runs after all of them, so what is defined here is what the
+% document body actually sees.
+\AddToHook{begindocument/end}{%
+  % Capture the operator tokens now that every package has finished installing
+  % its maths table, then reinstall them as limit-bearing operators.
+  \let\NPEEOriginalLimit\lim
+  \let\NPEEOriginalLimitSup\limsup
+  \let\NPEEOriginalLimitInf\liminf
   \protected\def\lim{\mathop{\mathrm{lim}}\limits}%
   \protected\def\limsup{\mathop{\mathrm{lim\,sup}}\limits}%
   \protected\def\liminf{\mathop{\mathrm{lim\,inf}}\limits}%
-  \protected\def\sum{\mathop{\displaystyle\NPEEOriginalSum}\limits}%
-  \protected\def\prod{\mathop{\displaystyle\NPEEOriginalProd}\limits}%
-  \protected\def\bigcap{\mathop{\displaystyle\NPEEOriginalBigcap}\limits}%
-  \protected\def\bigcup{\mathop{\displaystyle\NPEEOriginalBigcup}\limits}%
+  \let\NPEEOriginalMax\max
+  \let\NPEEOriginalMin\min
+  \let\NPEEOriginalSup\sup
+  \let\NPEEOriginalInf\inf
   \protected\def\max{\mathop{\mathrm{max}}\limits}%
   \protected\def\min{\mathop{\mathrm{min}}\limits}%
   \protected\def\sup{\mathop{\mathrm{sup}}\limits}%
   \protected\def\inf{\mathop{\mathrm{inf}}\limits}%
+  % Unicode-math's own glyphs.  Capturing them here (rather than in the
+  % preamble) is what keeps the sigma, product and union glyphs correct.
+  \let\NPEEOriginalSum\sum
+  \let\NPEEOriginalProd\prod
+  \let\NPEEOriginalBigcap\bigcap
+  \let\NPEEOriginalBigcup\bigcup
+  \protected\def\sum{\mathop{\displaystyle\NPEEOriginalSum}\limits}%
+  \protected\def\prod{\mathop{\displaystyle\NPEEOriginalProd}\limits}%
+  \protected\def\bigcap{\mathop{\displaystyle\NPEEOriginalBigcap}\limits}%
+  \protected\def\bigcup{\mathop{\displaystyle\NPEEOriginalBigcup}\limits}%
+  \let\NPEEOriginalDoubleIntegral\iint
+  \let\NPEEOriginalTripleIntegral\iiint
+  \let\NPEEOriginalQuadrupleIntegral\iiiint
+  \let\NPEEOriginalContourIntegral\oint
   \protected\def\iint{\mathop{\displaystyle\NPEEOriginalDoubleIntegral}\limits}%
   \protected\def\iiint{\mathop{\displaystyle\NPEEOriginalTripleIntegral}\limits}%
   \protected\def\iiiint{\mathop{\displaystyle\NPEEOriginalQuadrupleIntegral}\limits}%
   \protected\def\oint{\mathop{\displaystyle\NPEEOriginalContourIntegral}\limits}%
-  \ifcsname oiint\endcsname
+  % A single \int follows the reference papers and keeps its bound at the lower
+  % right unless the document asked for \limits explicitly (see the
+  % operators/int-limits switch above).  The flag is consulted on *use*, not
+  % here: generated documents call \ExamSetup after \begin{document}, which is
+  % later than this hook.
+  %
+  % ``\limits`` alone is enough to centre the bound above and below, and it is
+  % markedly cheaper than stacking the sign inside ``\mathop{\displaystyle}``
+  % (measured on the 1156 integral-bearing stems of this library: +17 pages
+  % versus +33).  The taller sign is a separate aesthetic question, and a
+  % document that wants it can still write ``\displaystyle\int`` itself.
+  \let\NPEEOriginalIntegral\int
+  \protected\def\NPEEIntWithLimits{\NPEEOriginalIntegral\limits}%
+  \let\NPEEIntWithoutLimits\NPEEOriginalIntegral
+  \protected\def\int{\ifNPEEIntLimits\NPEEIntWithLimits\else\NPEEIntWithoutLimits\fi}%
+  % The surface/volume contour glyphs are optional in some maths fonts; fall
+  % back to the closest standard multiple integral so the public API always
+  % exists.
+  \@ifundefined{oiint}{%
+    \let\NPEEOriginalSurfaceIntegral\NPEEOriginalDoubleIntegral
+  }{%
+    \let\NPEEOriginalSurfaceIntegral\oiint
     \protected\def\oiint{\mathop{\displaystyle\NPEEOriginalSurfaceIntegral}\limits}%
-  \fi
-  \ifcsname oiiint\endcsname
+  }%
+  \@ifundefined{oiiint}{%
+    \let\NPEEOriginalVolumeContourIntegral\NPEEOriginalTripleIntegral
+  }{%
+    \let\NPEEOriginalVolumeContourIntegral\oiiint
     \protected\def\oiiint{\mathop{\displaystyle\NPEEOriginalVolumeContourIntegral}\limits}%
-  \fi
+  }%
 }%
 
 \makeatother

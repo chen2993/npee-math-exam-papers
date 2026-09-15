@@ -50,6 +50,13 @@ function visibleHtml(html: string): string {
 describe("corpus rendering", () => {
   const files = paperFiles();
 
+  // These two cases render the whole library (321 papers, ~14k blocks) through
+  // KaTeX, so their cost is inherent and scales with the corpus rather than with
+  // the code under test. They were already running at 3.7s / 4.8s against the
+  // 5s default, which made the suite flaky on a loaded machine. The timeout is
+  // therefore a property of the test, not a workaround for a slow regression.
+  const CORPUS_TIMEOUT = 60_000;
+
   it.skipIf(files.length === 0)("renders every text block without a KaTeX error", () => {
     const failures: string[] = [];
     let blocks = 0;
@@ -67,7 +74,7 @@ describe("corpus rendering", () => {
     }
     expect(blocks).toBeGreaterThan(1000);
     expect(failures.slice(0, 5)).toEqual([]);
-  });
+  }, CORPUS_TIMEOUT);
 
   it.skipIf(files.length === 0)("never leaves a project command as literal text", () => {
     const leaked: string[] = [];
@@ -82,5 +89,5 @@ describe("corpus rendering", () => {
       }
     }
     expect(leaked.slice(0, 5)).toEqual([]);
-  });
+  }, CORPUS_TIMEOUT);
 });

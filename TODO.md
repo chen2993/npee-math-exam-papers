@@ -480,3 +480,85 @@ zhangyu8-2023-math3/8    zhangyu8-2025-math3/3
 | 文档引用 | `python build\doc-refs.py` | 三节全部「无」 |
 | 架构 / 审计 | `test-architecture.ps1` · `audit_store` | `Passed` · `PASS`（库级哈希 `b8737046…` 未变，321 套 / 7062 题） |
 | 空白检查 | `git diff --check` | 无错误 |
+
+---
+
+## 12. 题目数据排版修正（本轮完成）
+
+### 12.1 Σ／Π／⋃／∬ 的上下限落回正上正下（真实 bug）
+
+类文件里的算子包装**从来没有生效过**，原因有两层，且互相掩盖：
+
+| # | 问题 | 后果 |
+| --- | --- | --- |
+| 1 | 包装注册在 `\AtBeginDocument`。L3 钩子**按注册顺序**执行，而 `unicode-math` 在本类**之后**加载、注册得更晚，于是它把自己的 `\sum \prod \bigcup \iint \oint` 重新装回**裸 Unicode 数学字符**，把此前所有包装全部丢弃 | 上下限回到符号右下/右上 |
+| 2 | 在导言区用 `\let\NPEEOriginalSum\sum` 抓原始算子，抓到的是 **amsmath 的旧 `\mathchar`**（`\sum@` = `\mathchar"1350`）。Cambria Math 下该码位渲染成**拉丁字母**：`Σ`→`P`、`∏`→`Q`、`⋃`→`S`、`⋂`→`T` | 修好上下限的同时把字形改坏 |
+
+修法是**一处解决两个问题**：把「抓取原始算子」与「重装为带 limits 的算子」都搬到
+`begindocument/end`——它在所有包的 `begindocument` 之后运行，因此既能拿到
+unicode-math 的真字形，也不会再被覆盖。
+
+### 12.2 积分上下限：区域名落到正下方
+
+参考卷对**数值上下限**沿用期刊惯例写在右下角（`\int_0^1`、`\int_a^b`），这同时让
+嵌在分式或矩阵格里的积分不会撑高行距，因此保持原样。**区域名**不同：`\int_L`、
+`\oint_\Gamma` 读作「在 L 上的积分」，考研卷把它排在积分号正下方。
+
+| 位置 | 变化 |
+| --- | --- |
+| `service/rendering/inline_tex.py` | 新增 `repair_integral_limits()` 与 `REGION_SUBSCRIPT_RE`：仅当 `\int` 的下标是**区域名**（大写拉丁字母，可再带上下标；或大写希腊命令）时补 `\limits` |
+| `frontend/src/shared/tex/Tex.tsx` | 同名规则 `placeIntegralRegionLimits()`，保证 PDF 与浏览器呈现一致 |
+| 修掉的自身缺陷 | 第一版用 `(?<![A-Za-z\\])` 排除前导字母，导致 `\displaystyle\int_L`（`\displaystyle` 紧贴 `\int`）漏匹配；改为只排除前导反斜杠 |
+| 修掉的跨面不一致 | 前端 `normalizeOperatorLimits` 的操作符清单漏了 `oint`，于是 `\oint_L` 在 PDF 里居中、在浏览器里却在右侧 |
+
+### 12.3 选择题排版：四合一 / 二合一 / 每行一个
+
+`\NPEEChoicesOneLine`（四合一）**此前永远不可达**：`\NPEEChoices` 只在「二合一」与
+「每行一个」之间二选一，且唯一阈值是 `.34\linewidth`，于是凡是落在 `.34` 与「二合一
+单元格宽度」之间的选项都被判为「每行一个」，尽管它们明明放得下两个一行。
+
+| 位置 | 变化 |
+| --- | --- |
+| `tex/npee-math-exam.cls` | `\NPEEChoices` 改为三档阶梯：`<.22\linewidth` 四合一、`<.45\linewidth` 二合一、否则每行一个。阈值按对应版式的单元格宽度折算（四合一格 `.235\linewidth`、二合一格 `.475\linewidth`），并留出 `\hfill` 与 `\NPEEChoiceIndent` 的余量 |
+
+### 12.4 「全局 displaystyle」为什么没有采用
+
+`\everymath{\displaystyle}` **做不到**把上下限移到正下方，且代价更高：
+
+| 写法 | 结果 |
+| --- | --- |
+| `$\int_0^1 f$` | 上下限在右侧 |
+| `$\displaystyle\int_0^1 f$` | 积分号变大，**上下限仍在右上/右下**（字形坐标：`1` 的横向中心落在积分号右侧） |
+| `$\int\limits_0^1 f$` | 上下限真正居中于正上/正下 |
+
+在 1156 条含积分的真实题干上的页数代价：
+
+| 方案 | 页数 | 相对默认 |
+| --- | --- | --- |
+| 默认（现状） | 54 | — |
+| `\everymath{\displaystyle}` | 61 | +7 |
+| 类开关 `\NPEEIntLimitstrue`（`\limits` 实现） | 71 | +17 |
+| 开关 + `\everymath` | 86 | +32 |
+
+因此保留**类开关**（`\NPEEIntLimitstrue` / `\ExamSetup{operators/int-limits=always}`，
+也可经 `document.hooks.preamble` 的包内 `.tex` 生效），并用最省的 `\limits` 实现
+（`\mathop{\displaystyle}` 版本实测 +33 页，已弃用）。
+
+### 12.5 验收证据（实测）
+
+| 检查 | 命令 | 结果 |
+| --- | --- | --- |
+| 后端测试 | `python -m pytest tests` | **194 项通过**（+14：区域积分规则、数值上下限保持、幂等、类负责其他算子） |
+| 前端测试 | `npx vitest run` | **99 项通过**（+3：区域名落到下方、数值上下限留在右侧、类强制算子的集中判定） |
+| 前端类型 / 构建 | `npx tsc -b --force` · `npx vite build` | 无错误 · 成功 |
+| 全库语料测试不再抖动 | `corpus.test.ts` | 该用例本就渲染全库（321 套 / ~1.4 万块），实测 3.7s / 4.8s 逼近 vitest 默认 5s 上限；改为显式 60s 超时（属用例固有成本，非回归） |
+| 字形回归 | 修复前后 A/B 对比编译 | 修复前出现 `P/Q/S/T` 拉丁字母，修复后**无** |
+| 上下限位置 | 盒高/盒深 + 字形坐标 | Σ/∏/⋃/∬/∮ 全部正上正下；`\int_0^1` 保持右侧 |
+| 开关语义 | 5 种设置路径（导言区 / 正文 `\ExamSetup` / 再关闭） | 全部符合预期 |
+| 选择排版 | 全库 3207 道选择题 | **420 → 308 页（−26.7%），超框 0** |
+| 全库真编译 | `python -m npee_math_papers.maintenance.verify_compile --matrix --collections` | **321/321 通过，0 泄漏；2 个组卷包通过** |
+| 构建器扫描 | `python build\full-build-scan.py` | `papers=321 build_ok=321 build_fail=0` |
+| 题库审计 | `python -m npee_math_papers.maintenance.audit_store` | `PASS`，库级哈希 `b8737046…` 未变（321 套 / 7062 题） |
+| 架构 / 文档引用 / 空白 | `test-architecture.ps1` · `build\doc-refs.py` · `git diff --check` | `Passed` · 三节「无」 · 无错误 |
+
+> 题库 YAML **未改动**：以上全部是渲染层修复，`content_hash` 与库级哈希均不变。

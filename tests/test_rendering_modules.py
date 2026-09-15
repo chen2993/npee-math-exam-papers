@@ -10,6 +10,7 @@ from npee_math_papers.service.rendering.errors import CompositionError, fail
 from npee_math_papers.service.rendering.inline_tex import (
     repair_alignment_rows,
     repair_cases_rows,
+    repair_integral_limits,
     validate_inline_tex,
 )
 from npee_math_papers.service.rendering.paths import (
@@ -134,6 +135,71 @@ def test_cases_row_separator_is_restored_from_comma() -> None:
 def test_valid_inline_tex_is_unchanged() -> None:
     text = r"设 $f(x)=\dfrac{1}{2}$，求 $f'(1)$。"
     assert validate_inline_tex(text, "f") == text
+
+
+# --- domain-integral limits ------------------------------------------------
+
+@pytest.mark.parametrize(
+    "text",
+    [
+        r"$\int_L f$",
+        r"$\int_{L} f$",
+        r"$\int_{L_1} f$",
+        r"$\int_{\Gamma} g$",
+        r"$I=\int_C P\,\mathrm{d}x$",
+    ],
+)
+def test_a_region_label_moves_below_the_integral(text: str) -> None:
+    r"""A domain subscript reads as "the integral over L", so it sits below.
+
+    The reference papers put a bound at the lower right only for a *numeric*
+    range; an examination paper sets the region under the sign. This is the one
+    placement the class leaves to the source, because ``\int`` is the only
+    operator it does not force (see the ``operators/int-limits`` switch).
+    """
+
+    repaired = validate_inline_tex(text, "f")
+    assert r"\limits" in repaired
+
+
+@pytest.mark.parametrize(
+    "text",
+    [
+        r"$\int_0^1 f$",
+        r"$\int_a^b f$",
+        r"$\int_{-\infty}^{+\infty} f$",
+        r"$\int x\,\mathrm{d}x$",
+        r"$F(x)=\int_a^x f(t)\,\mathrm{d}t$",
+    ],
+)
+def test_a_numeric_bound_keeps_its_side_position(text: str) -> None:
+    """Numeric bounds stay at the lower right, as the reference papers set them.
+
+    Keeping them there is also what stops an integral nested in a fraction or a
+    matrix cell from growing tall.
+    """
+
+    assert validate_inline_tex(text, "f") == text
+
+
+def test_the_region_rule_is_idempotent() -> None:
+    once = repair_integral_limits(r"$\int_L f$")
+    assert repair_integral_limits(once) == once
+
+
+@pytest.mark.parametrize("text", [r"$\oint_{\Gamma} h$", r"$\iint_D f$", r"$\iiint_\Omega g$"])
+def test_the_class_owns_the_limits_of_the_other_operators(text: str) -> None:
+    r"""The class forces ``\limits`` on every operator except ``\int``.
+
+    A generated source therefore must not carry its own ``\limits`` for these:
+    the repair layer strips it so a record cannot end up with a doubled
+    ``\limits\limits`` once the class wrapper is applied. The region label has to
+    survive that stripping.
+    """
+
+    repaired = validate_inline_tex(text, "f")
+    assert r"\limits" not in repaired
+    assert "_" in repaired
 
 
 # --- render-model validation ----------------------------------------------
