@@ -32,6 +32,12 @@ import sys
 from collections import Counter
 from pathlib import Path
 
+# Both streams are reconfigured at import time: argparse prints the usage and this
+# module's Chinese docstring before main() runs, so a call inside main() would leave
+# `--help` and argument errors as mojibake on a non-UTF-8 console.
+sys.stdout.reconfigure(encoding="utf-8")
+sys.stderr.reconfigure(encoding="utf-8")
+
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT))
 
@@ -303,7 +309,6 @@ def build(service: NpeeService, series_key: str, year: int, subject: str) -> str
 
 def main() -> int:
     args = parse_args()
-    sys.stdout.reconfigure(encoding="utf-8")
     try:
         service = NpeeService.create(args.data_root)
     except NpeeError as error:

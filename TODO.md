@@ -659,7 +659,7 @@ python -m npee_math_papers.maintenance.extraction_brief --series lilin6 --year 2
 
 新增 `docs/EXTRACTION.md`，只写**不随 bundle 变化**的内容：边界、三角色分工
 （转写/入库/核对）、题目形状、排版约定、执行流程、报错对照、常见坑。bundle 的
-具体事实一律指向其生成的 `BRIEF.md`。`AGENT-QUICKSTART.md` 的工作流 A 与
+具体事实一律指向其生成的 `staging/<bundle>/BRIEF.md`。`AGENT-QUICKSTART.md` 的工作流 A 与
 `docs/README.md` 的角色阅读表都已接入。
 
 ### 14.4 顺带修掉的两处文档失真
@@ -674,7 +674,7 @@ python -m npee_math_papers.maintenance.extraction_brief --series lilin6 --year 2
 | 检查 | 命令 | 结果 |
 | --- | --- | --- |
 | 后端测试 | `python -m pytest tests` | **202 项通过**（+5：结构派生取众数、无对照时退回默认并标注、分值措辞、记号计数与题库一致、简报覆盖全部小节） |
-| 简报生成 | `extraction_brief --series lilin6 --year 2027 --subject math2 --write` | 生成 `BRIEF.md`；来源 sha256、capture 页码、22 题结构、8 条记号计数均与题库一致 |
+| 简报生成 | `extraction_brief --series lilin6 --year 2027 --subject math2 --write` | 生成 `staging/<bundle>/BRIEF.md`；来源 sha256、capture 页码、22 题结构、8 条记号计数均与题库一致 |
 | 边界情形 | 无 capture / 无对照套卷的 bundle | 正常生成，并给出「先登记来源/先建 capture」与默认结构警告 |
 | 工具清单一致 | 文档 vs `mcp/server.py` | 34 / 34，无缺漏 |
 | 文档引用 | `python build\doc-refs.py` | 三节全部「无」 |
