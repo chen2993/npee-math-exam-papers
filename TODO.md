@@ -621,3 +621,63 @@ A3 打印版等价性实测（同一组卷分别编 `a3+compact` 与 `a3+a4-blan
 | 组卷包校验 | `load_composition` | 3 个包全部通过，目标均为 4 个（A3/A4 × 紧凑/打印版） |
 | 全库构建 | `python build\full-build-scan.py` | `papers=324 build_ok=324 build_fail=0` |
 | 全版式真编译 | `python -m npee_math_papers.maintenance.verify_compile --matrix --collections` | **324/324 通过，0 泄漏；3 个组卷包通过** |
+
+---
+
+## 14. 提取文档规范化（本轮完成）
+
+### 14.1 问题：提取简报是逐份手写的，必然漂移
+
+按套卷提取题面时，每个子代理都要一份简报（自然键、来源哈希、capture 与页码、
+题目结构、schema 形状、排版约定、调用顺序、报错对照）。此前这些是**手写**的，
+同一批次里已经出现三类漂移：
+
+- 措辞不一致：同一件事在不同简报里写法不同；
+- 数字漂移：题目结构或分值抄错，甚至照搬另一个科目的结构；
+- 新 bundle 要从头抄，容易漏掉边界条款（禁止项、只写 staging 等）。
+
+### 14.2 做法：简报由题库事实生成
+
+新增 `npee_math_papers/maintenance/extraction_brief.py`：
+
+| 内容 | 来源 |
+| --- | --- |
+| 来源 PDF 与 sha256、页数 | `extraction.list_sources()` |
+| capture_id 与页码范围 | `extraction.list_captures()` |
+| 题数与分题型分值 | 同系列**同科目已完成**的对照套卷（取众数，个别 `points=null` 不污染结论） |
+| 记号写法与全库出现次数 | 在 `papers/` 上**实测**，因此是可复核的事实而非记忆 |
+| 无同类对照时 | 退回库级默认，并在简报里**显式标注**「这是默认结构，请复核」 |
+
+用法：
+
+```powershell
+python -m npee_math_papers.maintenance.extraction_brief --series lilin6 --year 2027 --subject math2 --write
+# -> .npee-math-papers/staging/lilin6-2027-math2/BRIEF.md
+```
+
+### 14.3 规范文档：所有 bundle 共用的部分单独成文
+
+新增 `docs/EXTRACTION.md`，只写**不随 bundle 变化**的内容：边界、三角色分工
+（转写/入库/核对）、题目形状、排版约定、执行流程、报错对照、常见坑。bundle 的
+具体事实一律指向其生成的 `BRIEF.md`。`AGENT-QUICKSTART.md` 的工作流 A 与
+`docs/README.md` 的角色阅读表都已接入。
+
+### 14.4 顺带修掉的两处文档失真
+
+| 文件 | 问题 | 处理 |
+| --- | --- | --- |
+| `docs/MCP-SETUP.md` | 工具数写的是 **28**，实际已是 34（TeX 诊断工具加入后没更新），照做会以为安装失败 | 改为 34 |
+| `docs/MCP-SETUP.md` | 工具清单**漏列**全部 6 个 TeX 诊断工具 | 补齐；已断言文档与 `server.py` 的 34 个工具一一对应 |
+
+### 14.5 验收证据（实测）
+
+| 检查 | 命令 | 结果 |
+| --- | --- | --- |
+| 后端测试 | `python -m pytest tests` | **202 项通过**（+5：结构派生取众数、无对照时退回默认并标注、分值措辞、记号计数与题库一致、简报覆盖全部小节） |
+| 简报生成 | `extraction_brief --series lilin6 --year 2027 --subject math2 --write` | 生成 `BRIEF.md`；来源 sha256、capture 页码、22 题结构、8 条记号计数均与题库一致 |
+| 边界情形 | 无 capture / 无对照套卷的 bundle | 正常生成，并给出「先登记来源/先建 capture」与默认结构警告 |
+| 工具清单一致 | 文档 vs `mcp/server.py` | 34 / 34，无缺漏 |
+| 文档引用 | `python build\doc-refs.py` | 三节全部「无」 |
+| 架构 / 审计 / 空白 | `test-architecture.ps1` · `audit_store` · `git diff --check` | `Passed` · `PASS` · 无错误 |
+
+> 本次只改文档与维护工具，**题库正文未改动**。

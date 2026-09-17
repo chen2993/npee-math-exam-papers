@@ -61,6 +61,17 @@ npee-math-papers
 
 若 PDF 已经渲染过，跳过第 2 步，直接从第 3 步开始。
 
+**批量提取整套系列**（多个子代理并行、需要转写/入库/核对分工）时，先读
+[`EXTRACTION.md`](EXTRACTION.md) 的规范，并生成该 bundle 的提取简报：
+
+```powershell
+python -m npee_math_papers.maintenance.extraction_brief --series lilin6 --year 2027 --subject math2 --write
+# -> .npee-math-papers/staging/lilin6-2027-math2/BRIEF.md
+```
+
+简报里的来源哈希、capture 与页码范围、题目结构均取自题库与来源记录，
+是**该 bundle 的权威事实**；规范文档只描述所有 bundle 共用的部分。
+
 ### 工作流 B：组卷出 PDF
 
 ```text
@@ -216,6 +227,7 @@ python -m npee_math_papers.maintenance.verify_compile         # 逐套单独编�
 python -m npee_math_papers.maintenance.verify_compile --limit 20 --json build/compile-verify.json
 python -m npee_math_papers.maintenance.verify_compile --matrix  # a4/a3 × 紧凑/宽松/打印版 + cream 主题 + 含答案
 python -m npee_math_papers.maintenance.verify_compile --matrix --collections  # 再加 collections/ 正式组卷包
+python -m npee_math_papers.maintenance.extraction_brief --series ... --year ... --subject ...   # 生成提取简报
 ```
 
 `verify_compile` 是"每套卷都能正常编译且渲染正确"的端到端证据：它把每套卷单独

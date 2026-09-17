@@ -55,7 +55,7 @@ npee_math_papers/                  Python 包
 │  ├─ features/                    页面（仪表盘/套卷/检索/组卷/版本/日志/偏好）
 │  └─ styles/                      tokens.css + app/features/responsive
 ├─ tex/                            LaTeX 排版类
-└─ maintenance/                    迁移、审计、环境检查
+└─ maintenance/                    迁移、审计、环境检查、提取简报生成
 
 collections/                       组卷配置（只引用自然键）
 .npee-math-papers/                 题库数据库

@@ -17,7 +17,7 @@ python -m pip install -r npee_math_papers/api/requirements.txt
 python -c "from npee_math_papers.mcp.server import build_server; print(len(build_server()._tool_manager._tools))"
 ```
 
-应输出 `28`。
+应输出 `34`。
 
 ## 二、传输方式
 
@@ -57,7 +57,7 @@ python -c "from npee_math_papers.mcp.server import build_server; print(len(build
   或用 `NPEE_DATA_ROOT` 显式指定数据根（上例已指定）。
 - `NPEE_DATA_ROOT` 指向仓库里的 `.npee-math-papers/`。省略时按包位置推导。
 
-改完重启 OpenCode，在工具列表里应看到 28 个 `npee_*` 工具。
+改完重启 OpenCode，在工具列表里应看到 34 个 `npee_*` 工具。
 
 ## 四、HTTP 方式配置
 
@@ -145,6 +145,14 @@ python -m npee_math_papers.mcp.server --http --port 8780
 维护
   npee_rebuild_index          重建索引与发布清单
   npee_release_manifest       发布清单与内容哈希
+
+TeX 调试
+  npee_check_tex              静态检查一段文本（丢反斜杠、块级数学、\frac…）
+  npee_scan_alignments        只扫描对齐环境内的反斜杠串异常
+  npee_audit_tex              全库静态扫描，按套卷汇报
+  npee_render_tex             用真实排版类渲染，拿 PDF/PNG 核对
+  npee_diagnose_field         逐字段诊断命令名泄漏 / 数学模式泄漏
+  npee_diagnose_paper         逐套卷诊断
 ```
 
 ## 八、注意

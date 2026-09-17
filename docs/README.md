@@ -8,6 +8,7 @@
 | 你是 | 先读 | 然后 |
 | --- | --- | --- |
 | Agent（要调 MCP） | [`AGENT-QUICKSTART.md`](AGENT-QUICKSTART.md) | [`MCP-SETUP.md`](MCP-SETUP.md) |
+| Agent（要提取题面） | [`EXTRACTION.md`](EXTRACTION.md) | `staging/<bundle>/BRIEF.md`（生成） |
 | 人类（要用网页） | [`HUMAN-GUIDE.md`](HUMAN-GUIDE.md) | — |
 | 开发者（要改代码） | [`ARCHITECTURE.md`](ARCHITECTURE.md) | [`APPLICATION.md`](APPLICATION.md) |
 
@@ -48,6 +49,7 @@ Agent 装 MCP：见 [`MCP-SETUP.md`](MCP-SETUP.md)。
 | 文件 | 内容 |
 | --- | --- |
 | [`AGENT-QUICKSTART.md`](AGENT-QUICKSTART.md) | Agent 上手指南：术语、任务地图、工作流、题目结构、报错处理 |
+| [`EXTRACTION.md`](EXTRACTION.md) | 提取规范：三个角色、题目形状、排版约定、流程与报错对照（每个 bundle 的具体事实见其生成的 `staging/<bundle>/BRIEF.md`） |
 | [`MCP-SETUP.md`](MCP-SETUP.md) | MCP 安装、OpenCode 配置、工具清单、排查 |
 | [`HUMAN-GUIDE.md`](HUMAN-GUIDE.md) | 人类使用指南：启动、四种界面、存储格式、常见问题 |
 | [`ARCHITECTURE.md`](ARCHITECTURE.md) | 分层架构、目录职责、数据流 |
