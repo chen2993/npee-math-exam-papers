@@ -17,7 +17,11 @@ from npee_math_papers.core.errors import ValidationError
 BLOCK_MATH_RE = re.compile(
     r"(?:\$\$|\\\[|\\\]|\\begin\{(?:equation\*?|align\*?|gather\*?|multline\*?|flalign\*?|displaymath)\})"
 )
-FRAC_RE = re.compile(r"(?<!d)\\frac\b")
+#: A fraction's size must match the math position it sits in: ``\frac`` is wrong in
+#: *body* text (too small beside display maths) and ``\dfrac`` is wrong in a
+#: *script* slot (too large: it re-inflates a fraction TeX deliberately shrank,
+#: which overflows the line). The position, not the command, decides -- see
+#: :func:`fraction_position_errors`, which classifies each occurrence.
 TIKZ_DOUBLE_COMMAND_RE = re.compile(
     r"(?<!\\)\\{2,}(?=(?:addplot|begin|clip|coordinate|draw|end|fill|filldraw|foreach|graph|matrix|node|path|pgfonlayer|pic|scope|shade|tikzset|tikzstyle|useasboundingbox)(?![A-Za-z]))"
 )
@@ -137,11 +141,132 @@ def cjk_text_in_math(value: str) -> list[str]:
     return findings
 
 
+def fraction_positions(text: str) -> list[tuple[str, str, int]]:
+    r"""Classify every explicit fraction by the math style it will be set in.
+
+    Returns ``(command, position, offset)`` for each ``\dfrac`` / ``\tfrac`` / bare
+    ``\frac``, where *position* is:
+
+    ``"script"``
+        inside a superscript or subscript group;
+    ``"nested"``
+        inside another fraction's numerator or denominator;
+    ``"body"``
+        anywhere else.
+
+    TeX sizes a fraction from the *current math style*, and both a script slot and
+    a fraction's numerator/denominator are already one level down. Writing
+    ``\dfrac`` there re-inflates the fraction instead of matching its surroundings,
+    so the line grows: measured on this class, ``x^{\dfrac{a}{b}}`` is 24.3pt tall
+    against 13.3pt for ``x^{\frac{a}{b}}``, and
+    ``\dfrac{\arctan\dfrac{1}{x}}{\sec x}`` is 30.6pt against 23.5pt with an inner
+    ``\frac``. Body text is the opposite case, where ``\frac`` looks shrunken
+    beside display maths.
+
+    The scan tracks, per open brace, what opened it -- ``^``/``_`` or a fraction
+    argument. ``\dfrac`` takes *two* arguments, and those arguments may themselves
+    contain fractions, so the outstanding-argument counters form a stack rather
+    than a single counter (a single counter is clobbered by the first nested
+    fraction, which then mis-classifies the outer denominator).
+    """
+
+    findings: list[tuple[str, str, int]] = []
+    groups: list[str] = []          # per open brace: "script" | "frac" | "other"
+    arg_counts: list[int] = []      # outstanding brace arguments, innermost last
+    pending_script = False          # this brace is a ^/_ argument
+    offset = 0
+    while offset < len(text):
+        char = text[offset]
+        if char == "\\":
+            match = re.match(r"\\([A-Za-z]+)", text[offset:])
+            if match:
+                name = match.group(1)
+                if name in {"dfrac", "tfrac", "frac"} and not (name == "frac" and text[offset - 1:offset] in {"d", "t"}):
+                    if any(kind == "script" for kind in groups):
+                        position = "script"
+                    elif any(kind == "frac" for kind in groups):
+                        position = "nested"
+                    else:
+                        position = "body"
+                    findings.append((name, position, offset))
+                    arg_counts.append(2)
+                offset += match.end()
+                pending_script = False
+                continue
+            offset += 2
+            continue
+        if char in "^_":
+            pending_script = True
+            offset += 1
+            continue
+        if char == "{":
+            if arg_counts and arg_counts[-1] > 0:
+                groups.append("frac")
+                arg_counts[-1] -= 1
+                if arg_counts[-1] == 0:
+                    arg_counts.pop()
+            elif pending_script:
+                groups.append("script")
+            else:
+                groups.append("other")
+            pending_script = False
+            offset += 1
+            continue
+        if char == "}":
+            if groups:
+                groups.pop()
+            offset += 1
+            continue
+        if not char.isspace():
+            # A single-token argument (``^2``, ``^\alpha``) ends here.
+            pending_script = False
+        offset += 1
+    return findings
+
+def fraction_position_errors(text: str) -> list[str]:
+    r"""Return one human-readable message per mis-sized fraction.
+
+    ``\frac`` is correct in a reduced slot (a script or another fraction's
+    argument) and ``\dfrac`` is correct in body text; either one used in the
+    other's place changes how tall the expression sets.
+    """
+
+    errors: list[str] = []
+    for command, position, _offset in fraction_positions(text):
+        if position == "body":
+            if command == "frac":
+                errors.append("\\frac in a body position; use \\dfrac (a script-size fraction looks shrunken next to display math)")
+            continue
+        where = "a superscript or subscript" if position == "script" else "another fraction's numerator or denominator"
+        if command in {"dfrac", "tfrac"}:
+            errors.append(
+                f"\\{command} is inside {where}; use \\frac there "
+                "(that slot is already a reduced style, so a display-size fraction overflows it)"
+            )
+    return errors
+
+def fraction_size_corrections(text: str) -> dict[int, str]:
+    """Return ``{offset: replacement command}`` for every mis-sized fraction.
+
+    Shared by the render repair and the frontend's TypeScript twin, so both
+    surfaces normalise a stored expression identically.
+    """
+
+    corrections: dict[int, str] = {}
+    for command, position, offset in fraction_positions(text):
+        if position == "body":
+            if command == "frac":
+                corrections[offset] = "dfrac"
+        elif command in {"dfrac", "tfrac"}:
+            corrections[offset] = "frac"
+    return corrections
+
 def validate_inline_tex(value: Any, context: str) -> str:
     """Validate and return one inline-TeX string.
 
-    Rejects block math, unresolved ``[待核]`` markers, ``\\frac`` (which must be
-    ``\\dfrac``), literal Unicode backslash escapes and unguarded CJK in math.
+    Rejects block math, unresolved ``[待核]`` markers, literal Unicode backslash
+    escapes and unguarded CJK in math. A fraction whose size does not match its
+    position is *not* rejected here: see :func:`fraction_position_errors`.
     """
 
     text = nonempty_string(value, context)
@@ -151,8 +276,10 @@ def validate_inline_tex(value: Any, context: str) -> str:
         fail(f"{context} contains block math; use inline math only")
     if PENDING_MARKER_RE.search(text):
         fail(f"{context} still contains a pending visual-review marker")
-    if FRAC_RE.search(text):
-        fail(f"{context} uses \\frac; use \\dfrac explicitly")
+    # Fraction *size* is not enforced here. The store re-validates on read, so a
+    # hard rejection would stop legacy records from loading at all; the renderer
+    # normalises the size (repair_fraction_sizes) and the audit reports it as a
+    # data-quality finding instead. See fraction_position_errors().
     unsafe_cjk = list(dict.fromkeys(cjk_text_in_math(text)))
     if unsafe_cjk:
         fragments = ", ".join(repr(fragment) for fragment in unsafe_cjk)

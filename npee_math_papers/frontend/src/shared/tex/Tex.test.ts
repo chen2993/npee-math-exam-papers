@@ -100,4 +100,32 @@ describe("renderTex", () => {
       expect(renderTex(source)).not.toContain("mop op-limits");
     }
   });
+
+  /**
+   * KaTeX even echoes the input in an `<annotation>` node, which is how the
+   * normalization can be observed: the visible tree alone cannot show whether
+   * `\\dfrac` was rewritten, because KaTeX would happily stack either one.
+   */
+  function mathAnnotation(source: string): string {
+    const match = /<annotation[^>]*>([\s\S]*?)<\/annotation>/.exec(renderTex(source) || "");
+    return match ? match[1] : "";
+  }
+
+  it("gives a fraction the size its position calls for", () => {
+    // A script slot is already script style, so `\\dfrac` there re-inflates the
+    // fraction and overflows the line; in body text `\\frac` looks shrunken.
+    expect(mathAnnotation("$x^{\\dfrac{1}{2}}$")).toContain("^{\\frac{1}{2}}");
+    expect(mathAnnotation("$\\int_0^{\\dfrac{\\pi}{2}}f$")).toContain("^{\\frac{\\pi}{2}}");
+    // Body positions keep display size.
+    expect(mathAnnotation("$\\dfrac{a}{b}$")).toContain("\\dfrac{a}{b}");
+    expect(mathAnnotation("$\\frac{a}{b}$")).toContain("\\dfrac{a}{b}");
+    // A fraction's numerator/denominator is already a reduced style too, so a
+    // nested \\dfrac has to shrink as well -- including the denominator, which
+    // is the second of the two arguments a fraction takes.
+    expect(mathAnnotation("$\\dfrac{\\arctan\\dfrac{1}{x}}{\\sec x}$")).toContain("\\arctan\\frac{1}{x}");
+    expect(mathAnnotation("$\\dfrac{a}{\\frac{b}{c}}$")).toContain("{\\frac{b}{c}}");
+    expect(mathAnnotation("$\\dfrac{\\dfrac{a}{b}}{\\dfrac{c}{d}}$")).toContain("{\\frac{a}{b}}");
+    // Already-correct input is left alone.
+    expect(mathAnnotation("$x^{\\frac{1}{2}}$")).toContain("^{\\frac{1}{2}}");
+  });
 });

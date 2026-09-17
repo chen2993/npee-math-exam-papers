@@ -39,6 +39,78 @@ function escapeHtml(value: string): string {
   return value.replace(/[&<>"']/g, (char) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[char] || char);
 }
 
+/**
+ * 分式大小必须与所处位置匹配。
+ *
+ * TeX/KaTeX 按**当前数学样式**决定分式大小。在上下标或积分上下限里样式已是
+ * script，此时 `\dfrac` 会把分式重新放大，反而撑出行高：本类实测
+ * `x^{\dfrac{a}{b}}` 高 24.3pt，而正文 `\dfrac{a}{b}` 只有 14.8pt，
+ * `x^{\frac{a}{b}}` 则是 13.3pt。正文位置反之——`\frac` 在展示数学旁显得过小。
+ *
+ * 因此判据是**位置**而不是命令：script 位置用 `\frac`，正文位置用 `\dfrac`。
+ * 服务端 `core/tex.py` 的 `fraction_positions` 与
+ * `service/rendering/inline_tex.py` 的 `repair_fraction_sizes` 是同一套判据的
+ * 实现，保证 PDF 与浏览器一致。
+ */
+function normalizeFractionSizes(expression: string): string {
+  // Mirror of core/tex.py's fraction_positions + fraction_size_corrections: a
+  // fraction's size must match the style TeX will set it in, and both a script
+  // slot and a fraction argument are already one level down.
+  const groups: Array<"script" | "frac" | "other"> = [];
+  const argCounts: number[] = [];   // outstanding brace args; \dfrac takes two
+  let pendingScript = false;
+  const edits: Array<{ start: number; end: number; text: string }> = [];
+  let i = 0;
+  while (i < expression.length) {
+    const char = expression[i];
+    if (char === "\\") {
+      const match = /^\\([A-Za-z]+)/.exec(expression.slice(i));
+      if (match) {
+        const name = match[1];
+        const isFraction = name === "dfrac" || name === "tfrac" || name === "frac";
+        const isBareFrac = name === "frac" && expression[i - 1] !== "d" && expression[i - 1] !== "t";
+        if (isFraction && (name !== "frac" || isBareFrac)) {
+          const reduced = groups.includes("script") || groups.includes("frac");
+          if (reduced && (name === "dfrac" || name === "tfrac")) {
+            edits.push({ start: i, end: i + match[0].length, text: "\\frac" });
+          } else if (!reduced && isBareFrac) {
+            edits.push({ start: i, end: i + match[0].length, text: "\\dfrac" });
+          }
+          argCounts.push(2);
+        }
+        i += match[0].length;
+        pendingScript = false;
+        continue;
+      }
+      i += 2;
+      continue;
+    }
+    if (char === "^" || char === "_") { pendingScript = true; i += 1; continue; }
+    if (char === "{") {
+      if (argCounts.length && argCounts[argCounts.length - 1] > 0) {
+        groups.push("frac");
+        argCounts[argCounts.length - 1] -= 1;
+        if (argCounts[argCounts.length - 1] === 0) argCounts.pop();
+      } else if (pendingScript) {
+        groups.push("script");
+      } else {
+        groups.push("other");
+      }
+      pendingScript = false;
+      i += 1;
+      continue;
+    }
+    if (char === "}") { groups.pop(); i += 1; continue; }
+    if (!/\s/.test(char)) pendingScript = false;
+    i += 1;
+  }
+  // Apply from the end so earlier offsets stay valid.
+  for (const edit of edits.reverse()) {
+    expression = expression.slice(0, edit.start) + edit.text + expression.slice(edit.end);
+  }
+  return expression;
+}
+
 function normalizeOperatorLimits(expression: string): string {
   return expression.replace(
     // Must stay in step with the class, which forces \limits on exactly these
@@ -114,7 +186,7 @@ export function renderTex(source: string): string | null {
   while ((match = pattern.exec(folded))) {
     result += escapeHtml(folded.slice(cursor, match.index));
     const raw = match[0].startsWith("\\(") ? match[0].slice(2, -2) : match[0].slice(1, -1);
-    result += katex.renderToString(placeIntegralRegionLimits(normalizeOperatorLimits(raw)), {
+    result += katex.renderToString(normalizeFractionSizes(placeIntegralRegionLimits(normalizeOperatorLimits(raw))), {
       throwOnError: false,
       displayMode: false,
       macros: EXAM_MACROS,

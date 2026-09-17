@@ -278,8 +278,12 @@ uses the same in-flow contract.
 ## Math and numbering conventions
 
 Use `$...$` or `\(...\)` for mathematics. With the `inlineonly` option, display
-math produces a diagnostic. Fractions use `\dfrac`; differentials use
-`\,\mathrm{d}x`; standard operators use `\sin`, `\cos`, `\ln`, `\lim`, etc.
+math produces a diagnostic. Fraction size follows position: `\dfrac` in body text,
+and `\frac` wherever the current style is already reduced -- a superscript,
+subscript, integral bound, or a fraction's own numerator/denominator. `\dfrac` in
+any of those slots re-inflates the fraction and overflows the line.
+Differentials use `\,\mathrm{d}x`; standard operators use `\sin`, `\cos`,
+`\ln`, `\lim`, etc.
 For integral regions use the semantic helpers:
 
 ```tex

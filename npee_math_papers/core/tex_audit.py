@@ -27,6 +27,8 @@ import re
 from dataclasses import dataclass
 from typing import Any, Iterable, Mapping
 
+from npee_math_papers.core.tex import fraction_positions
+
 # 常见的数学与排版命令；用于判断"一个有意义的词"是否本该是命令。
 KNOWN_COMMANDS = (
     "alpha", "beta", "gamma", "delta", "epsilon", "varepsilon", "zeta", "eta",
@@ -268,16 +270,30 @@ def check_text(text: str, field: str = "text") -> list[TexIssue]:
                 )
             )
 
-    # 5. \frac（应为 \dfrac）。
-    match = re.search(r"(?<!d)\\frac\b", text)
-    if match:
+    # 5. 分式大小与位置不符。
+    #
+    # 早期规则是「一律 \dfrac」，但 TeX 按**当前数学样式**决定分式大小。除了上下标
+    # 与积分上下限，分式自身的分子/分母也已经是降一级的样式；在这些位置上再用
+    # \dfrac 会把分式重新放大，反而撑出行高（实测 x^{\dfrac{a}{b}} 高 24.3pt，
+    # 正文 \dfrac{a}{b} 只有 14.8pt；\dfrac{\arctan\dfrac{1}{x}}{\sec x} 高
+    # 30.6pt，内层用 \frac 则是 23.5pt）。因此判据是**位置**而不是命令。
+    for command, position, offset in fraction_positions(text):
+        if position == "body":
+            if command != "frac":
+                continue
+            detail = "正文位置用了 \\frac，应改用 \\dfrac（script 体分式在正文里显得过小）"
+        else:
+            if command not in {"dfrac", "tfrac"}:
+                continue
+            where = "上下标/上下限" if position == "script" else "分式的分子或分母"
+            detail = f"{where}里用了 \\{command}，应改用 \\frac（该位置样式已降一级，显示体分式会撑出行高）"
         issues.append(
             TexIssue(
-                kind="use_frac",
+                kind="fraction_size",
                 field=field,
-                snippet=_context(text, match.start(), match.end()),
-                detail="使用了 \\frac；题库统一要求 \\dfrac",
-                position=match.start(),
+                snippet=_context(text, offset, offset + len(command) + 1),
+                detail=detail,
+                position=offset,
             )
         )
 

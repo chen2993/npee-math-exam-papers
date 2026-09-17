@@ -190,7 +190,8 @@ npee_diagnose_paper(series_key="zhangyu8", year=2023, subject="math3", paper_no=
 - `choice` 必须有 A/B/C/D 四个选项，标签顺序固定；`fill`/`solution` 不带 `choices`；
 - 图形归属明确：题干图放 `stem.figures`，选项图放该选项的 `figures`，子问图放该子问的 `figures`；
 - 图形优先用 `kind: "tikz"` 内嵌 LaTeX；确实无法重绘才用 `kind: "asset"` 并给出 `path` 与 `exception_reason`；
-- 行内公式用 `$...$`，分式用 `\dfrac`，禁止 `$$` 块级公式与 `\frac`。
+- 行内公式用 `$...$`，禁止 `$$` 块级公式。分式按**位置**选大小：正文用 `\dfrac`；
+  上下标、积分上下限、分式的分子/分母用 `\frac`（这些位置样式已降一级，`\dfrac` 会撑出行高）。
 
 ## 六、校验失败怎么办
 
@@ -199,7 +200,7 @@ npee_diagnose_paper(series_key="zhangyu8", year=2023, subject="math3", paper_no=
 | 报错 | 原因 | 处理 |
 | --- | --- | --- |
 | `contains block math` | 用了 `$$...$$` | 改为行内 `$...$` |
-| `uses \frac` | 用了 `\frac` | 改为 `\dfrac` |
+| `fraction_size` | 分式大小与位置不符 | 正文用 `\dfrac`；上下标/上下限/分式的分子分母用 `\frac` |
 | `pending visual-review marker` | 残留 `[待核]` | 补全或确认后删除 |
 | `paper already exists` | 自然键重复 | 确认后传 `replace=true` |
 | `content_hash ... changed` | 题库在组卷后变过 | 重新 `build_composition` 再编译 |

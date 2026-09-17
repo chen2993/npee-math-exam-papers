@@ -78,11 +78,18 @@ def test_block_math_rejected() -> None:
         validate_questions([raw], "q")
 
 
-def test_frac_rejected_in_favour_of_dfrac() -> None:
+def test_a_mis_sized_fraction_still_ingests() -> None:
+    """Legacy records must stay loadable.
+
+    The store re-validates on read, so a hard rejection here would make 233
+    existing papers unreadable. The size mismatch is normalised at render time and
+    reported by the audit instead.
+    """
+
     raw = make_fill_question()
     raw["stem"]["text"] = r"$\frac{1}{2}$"
-    with pytest.raises(ValidationError):
-        validate_questions([raw], "q")
+    [question] = validate_questions([raw], "q")
+    assert question.stem.text == r"$\frac{1}{2}$"
 
 
 def test_unknown_field_rejected() -> None:

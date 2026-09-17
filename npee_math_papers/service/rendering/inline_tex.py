@@ -16,6 +16,8 @@ import re
 from typing import Any
 
 from npee_math_papers.core.tex import (
+    fraction_positions,
+    fraction_size_corrections,
     BLOCK_MATH_RE,
     CJK_MATH_CHAR_RE,
     LITERAL_UNICODE_BACKSLASH_RE,
@@ -176,6 +178,7 @@ def validate_inline_tex(value: Any, field: str) -> str:
     text = repair_cases_rows(text, field)
     text = OPERATOR_LIMIT_RE.sub(lambda match: f"\\{match.group(1)}", text)
     text = repair_integral_limits(text)
+    text = repair_fraction_sizes(text)
     if "tikzpicture" in text and TIKZ_DOUBLE_COMMAND_RE.search(text):
         fail(f"{field} contains a doubled TikZ command slash; normalize the source paper.json first")
     unsafe_cjk = cjk_math_characters(text)
@@ -183,8 +186,14 @@ def validate_inline_tex(value: Any, field: str) -> str:
         fail(f"{field} contains CJK punctuation in math mode: {', '.join(unsafe_cjk)}; wrap it in \\text{{...}}")
     if BLOCK_MATH_RE.search(text):
         fail(f"{field} contains display math; use inline math only")
-    if re.search(r"(?<!d)\\frac\b", text):
-        fail(f"{field} uses \\frac; use \\dfrac")
+    # `repair_fraction_sizes` has already corrected the position mismatch above,
+    # so anything still wrong here is a size the repair does not handle.
+    fraction_errors = [
+        error for command, position, _offset in fraction_positions(text)
+        if (position, command) in {("script", "dfrac"), ("script", "tfrac"), ("body", "frac")}
+    ]
+    if fraction_errors:
+        fail(f"{field} has a fraction whose size does not match its position")
     # A few imported records end a final math placeholder as ``$x=\ExamBlank``
     # or contain a choice such as ``$4``.  Close only an odd, inline delimiter
     # count; this keeps the source data readable while preventing a TeX mode
@@ -242,9 +251,9 @@ def repair_alignment_rows(text: str) -> str:
         body = re.sub(
             # Capture only letters, so the token is a real command name. A greedy
             # ``[A-Za-z0-9]+`` would swallow the argument of a command that follows
-            # a row separator (``\\\dfrac38`` -> ``dfrac38``) and then wrongly strip
+            # a row separator (``\\dfrac38`` -> ``dfrac38``) and then wrongly strip
             # one backslash, turning a valid row separator plus ``\dfrac38`` into
-            # ``\\dfrac38`` — i.e. a row separator plus the literal text ``dfrac38``.
+            # ``\dfrac38`` — i.e. a row separator plus the literal text ``dfrac38``.
             r"(?<!\\)\\\\\\([A-Za-z]+)",
             lambda item: item.group(0)
             if item.group(1) in ALIGNMENT_ROW_COMMANDS
@@ -328,6 +337,38 @@ INTEGRAL_SUBSCRIPT_RE = re.compile(
     r"(?<!\\)\\int(?![A-Za-z@])(?:\\limits)*"
     r"(?P<sub>_\s*(?:\{[^{}]*\}|[^\s{]))"
 )
+
+def repair_fraction_sizes(text: str) -> str:
+    r"""Give each explicit fraction the size its position calls for.
+
+    TeX sizes a fraction from the *current* math style, and both a script slot
+    (superscript, subscript, integral bound) and a fraction's own numerator or
+    denominator are already one level down. ``\dfrac`` there re-inflates the
+    fraction instead of matching its surroundings, so the line grows: measured on
+    this class, ``x^{\dfrac{a}{b}}`` is 24.3pt tall against 13.3pt for
+    ``x^{\frac{a}{b}}``, and ``\dfrac{\arctan\dfrac{1}{x}}{\sec x}`` is 30.6pt
+    against 23.5pt with an inner ``\frac``. In body text the reverse holds, where
+    ``\frac`` looks shrunken beside display maths.
+
+    The store predates this rule, so several hundred fields carry the wrong size.
+    Rendering repairs them rather than rejecting them -- the same contract the
+    other ``repair_*`` helpers here follow: a stored record stays readable and
+    renders correctly, and only a *new* write is checked strictly.
+    """
+
+    corrections = fraction_size_corrections(text)
+    if not corrections:
+        return text
+    # Rewrite from the end so the earlier offsets stay valid. Each command name is
+    # ``frac``/``dfrac``/``tfrac``; offsets point at the backslash.
+    for offset in sorted(corrections, reverse=True):
+        name = corrections[offset]
+        # The existing command length is needed to know what to replace.
+        match = re.match(r"\\([A-Za-z]+)", text[offset:])
+        if not match:
+            continue
+        text = text[:offset] + "\\" + name + text[offset + match.end():]
+    return text
 
 def repair_integral_limits(text: str) -> str:
     r"""Set the label of a domain integral directly below the integral sign.
