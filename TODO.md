@@ -681,3 +681,61 @@ python -m npee_math_papers.maintenance.extraction_brief --series lilin6 --year 2
 | 架构 / 审计 / 空白 | `test-architecture.ps1` · `audit_store` · `git diff --check` | `Passed` · `PASS` · 无错误 |
 
 > 本次只改文档与维护工具，**题库正文未改动**。
+
+---
+
+## 15. 分式大小按位置判定（本轮完成）
+
+### 15.1 问题：一律 `\dfrac` 会撑出行高
+
+原规则是「一律 `\dfrac`、禁止 `\frac`」，但 TeX 按**当前数学样式**决定分式大小，
+而下列位置**已经是降一级的样式**：
+
+- 上下标（`x^{...}`、`\int_0^{...}`）；
+- 分式自身的分子/分母（`\dfrac{...}{...}` 的两个参数）。
+
+在这些位置写 `\dfrac`，会把 TeX 刚降下来的分式**重新放大**，反而撑出行高：
+
+| 写法 | 高度 | 结论 |
+| --- | --- | --- |
+| 正文 `\dfrac{a}{b}` | 14.8pt | ✅ 正确 |
+| `x^{\dfrac{a}{b}}` | **24.3pt** | ❌ 比正文还高 |
+| `x^{\frac{a}{b}}` | 13.3pt | ✅ 正确 |
+| `x^{\tfrac{a}{b}}` | 18.5pt | ❌ 仍然过大 |
+| `\dfrac{\arctan\dfrac{1}{x}}{\sec x}` | **30.6pt** | ❌ |
+| `\dfrac{\arctan\frac{1}{x}}{\sec x}` | 23.5pt | ✅ |
+
+参考卷也是这个惯例：`\int_0^{\pi/2}` 与 `-\frac{x}{T}` 都是 script 体。
+
+### 15.2 判据与实现
+
+| 位置 | 处理 |
+| --- | --- |
+| `core/tex.py` | 新增 `fraction_positions()`：逐处判定 `script` / `nested` / `body`。按每个花括号组是被 `^_` 还是**分式参数**打开的来区分；`\dfrac` 有**两个**参数，且参数里可能再套分式，故参数计数用**栈**（单一计数器会被第一个嵌套分式冲掉，进而错判外层分母） |
+| 同上 | `fraction_size_corrections()` 返回 `{偏移: 目标命令}`，服务端与前端共用同一套判据 |
+| `service/rendering/inline_tex.py` | 新增 `repair_fraction_sizes()`，在渲染输出时纠正 |
+| `frontend/src/shared/tex/Tex.tsx` | 同名规则 `normalizeFractionSizes()`，逐用例验证与服务端**输出一致** |
+| `core/tex_audit.py` | 静态审计把大小不符报为 `fraction_size`（数据质量），覆盖嵌套情形 |
+
+### 15.3 只纠正、不拒收
+
+校验**不做硬拒**：题库读取时会重新校验，硬拒会让 245 套存量卷**无法加载**。
+因此 contract 是——渲染层纠正输出，审计层报告数据质量，只有新写入才严格检查。
+这两条测试断言也因此改写（`test_a_mis_sized_fraction_still_ingests`）。
+
+### 15.4 验收证据（实测）
+
+| 检查 | 命令 | 结果 |
+| --- | --- | --- |
+| 修复规模 | 全库扫描 | **858 处 / 245 套卷**（script 739、nested 119） |
+| 后端测试 | `python -m pytest tests` | **206 项通过**（+2：位置分类覆盖嵌套、纠正是双向的） |
+| 前端测试 | `npx vitest run` | **101 项通过**（+1 且加强：嵌套与第二参数） |
+| 前端类型 | `npx tsc -b --force` | 无错误 |
+| 全库真编译 | `verify_compile --matrix` | **327/327 通过，0 泄漏** |
+| 构建器扫描 | `python build\full-build-scan.py` | `papers=327 build_ok=327 build_fail=0` |
+| 不被误伤 | `\sqrt{\dfrac{1}{x}}`、`\left(\dfrac{a}{b}\right)`、`\overline{...}` | 判定为 body，保持 `\dfrac`（这些位置不降级） |
+| 题库审计 | `audit_store` | `PASS` |
+| 文档引用 / 架构 / 空白 | `doc-refs` · `test-architecture.ps1` · `git diff --check` | 三节「无」 · `Passed` · 无错误 |
+
+> 题库 YAML 未改动：全部是渲染层纠正，`content_hash` 与库级哈希不变。
+> 已推送：`origin/main` = `126b11b`。
