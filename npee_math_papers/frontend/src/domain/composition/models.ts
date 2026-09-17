@@ -52,8 +52,22 @@ export function paperSummaryFromRef(ref: PaperRef): PaperSummary {
 
 export type Layout = "a3" | "a4" | "both";
 export type Theme = "print" | "cream" | "both";
-export type Spacing = "compact" | "spaced" | "a4-blank" | "both";
+export type Spacing = "compact" | "a4-blank" | "both";
 export type SolutionStructure = "pair-first" | "natural" | "full-page";
+
+/**
+ * The spacing modes a new draft can choose from.
+ *
+ * `a4-blank` is the *print deliverable* and is labelled 打印版. Its key keeps
+ * the historical spelling because that is what composition payloads already
+ * carry; it is deliberately layout-agnostic, so on A3 it is exactly the
+ * compact layout. `both` compiles the surviving pair, not a retired one.
+ *
+ * `spaced` (宽松版) is retired: it produced a second page rhythm that is no
+ * longer wanted. {@link normalizeSpacing} maps a draft that still names it
+ * onto `compact`, the surviving mode with the same body typography.
+ */
+export const PRODUCT_SPACINGS = ["compact", "a4-blank"] as const;
 
 export interface OpeningSettings {
   show: boolean;
@@ -100,7 +114,7 @@ export function createDraft(name = "新组卷"): CompositionDraft {
     createdAt: new Date().toISOString(),
     layout: "both",
     theme: "print",
-    spacing: "spaced",
+    spacing: "a4-blank",
     structure: "pair-first",
     pairCount: 2,
     toc: true,
@@ -118,13 +132,20 @@ export function createDraft(name = "新组卷"): CompositionDraft {
 }
 
 export function normalizeSpacing(value: unknown): CompositionDraft["spacing"] {
-  return value === "compact" || value === "spaced" || value === "a4-blank" || value === "both" ? value : "spaced";
+  // `spaced` is retired. A stored draft or an imported payload may still name
+  // it, and `compact` is the surviving mode with the same body typography, so
+  // the retired value migrates onto it rather than silently selecting a
+  // different rhythm.
+  if (value === "spaced") return "compact";
+  return value === "compact" || value === "a4-blank" || value === "both" ? value : "a4-blank";
 }
 
 function outputTargets(draft: CompositionDraft) {
-  const layouts = draft.spacing === "a4-blank" ? (["a4"] as const) : draft.layout === "both" ? (["a3", "a4"] as const) : [draft.layout];
+  // The print deliverable is layout-agnostic, so the chosen stocks are used as
+  // they stand; no spacing forces a particular paper size.
+  const layouts = draft.layout === "both" ? (["a3", "a4"] as const) : [draft.layout];
   const themes = draft.theme === "both" ? (["print", "cream"] as const) : [draft.theme];
-  const spacings = draft.spacing === "both" ? (["compact", "spaced"] as const) : [draft.spacing];
+  const spacings = draft.spacing === "both" ? PRODUCT_SPACINGS : [draft.spacing];
   return layouts.flatMap((layout) =>
     themes.flatMap((theme) => spacings.map((spacing) => ({ layout, theme, spacing, enabled: true, answers: false, output_suffix: null }))),
   );

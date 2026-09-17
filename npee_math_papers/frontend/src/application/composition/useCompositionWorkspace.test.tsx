@@ -36,8 +36,16 @@ describe("normalizeDraft", () => {
     expect(draft.papers).toHaveLength(0);
   });
 
-  it("forces a4 when the a4-blank spacing is restored", () => {
-    expect(normalizeDraft({ spacing: "a4-blank", layout: "a3" } as never).layout).toBe("a4");
+  it("keeps the stored stock for a restored print draft", () => {
+    // The print deliverable is layout-agnostic, so restoring one must not
+    // rewrite an A3 draft into A4 (which would drop the A3 output).
+    expect(normalizeDraft({ spacing: "a4-blank", layout: "a3" } as never).layout).toBe("a3");
+  });
+
+  it("migrates the retired spaced mode onto compact", () => {
+    // A draft stored before the change still names `spaced`; it must land on
+    // the surviving mode with the same body rhythm rather than being dropped.
+    expect(normalizeDraft({ spacing: "spaced" } as never).spacing).toBe("compact");
   });
 });
 

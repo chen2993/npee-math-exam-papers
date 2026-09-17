@@ -48,21 +48,22 @@ information opening page.
 | `eyecare`, `eye`, `cream` | `print` | Warm examination-paper palette |
 | `spaced` | `spaced` | Structured solution pagination: 17--18 share logical page 4, then one solution question per logical page |
 | `compact` | `spaced` | Natural flow for all sections, with the same body typography as `spaced` |
-| `a4-blank` | n/a | A4-only compact natural flow; every paper is padded with blank pages to at least four physical pages |
+| `a4-blank` | `spaced` | Print deliverable: compact natural flow, every paper padded to at least four physical pages. Layout-agnostic — on A3 it matches `compact` |
 | `inlineonly` | off | Diagnose display-math entry points |
 | `candidateinfo` / `nocandidateinfo` | on | Candidate information form in the paper opening page |
 | `candidatenotices` / `nocandidatenotices` | on | Notice block in the paper opening page |
 | `opening` / `noopening` | on | Paper opening page containing the paper title |
-| `watermark` / `nowatermark` | on | Exam-page watermark |
-| `securitymark` / `nosecuritymark` | on | Opening security mark |
+| `watermark` / `nowatermark` | off | Exam-page watermark (also needs non-empty `watermark/text`) |
+| `securitymark` / `nosecuritymark` | off | Opening security mark |
 | `answers` / `noanswers` | off | Inline answer/solution visibility |
 | `math1`, `math2`, `math3` | none | Compatibility selectors for old sources |
 
 The paper opening page is independent from the optional composition cover. Its
 title is always retained while the candidate form and notice block are controlled
 separately. With both blocks disabled, the title is placed at the top of the first
-paper column, so no empty opening page is created; the opening security mark
-remains independent. Cover, appendix, and back-matter pages should use their own
+paper column, so no empty opening page is created. Both overlays -- the exam-page
+watermark and the opening security mark -- default to *off*; a publication that
+wants either one opts in (see the `watermark`/`securitymark` options above). Cover, appendix, and back-matter pages should use their own
 project styles and can turn off exam overlays through the lifecycle commands below.
 
 ## Global setup
@@ -75,15 +76,15 @@ project styles and can turn off exam overlays through the lifecycle commands bel
   section/line-height=18.5pt,
   column/gap=14mm,
   column/rule=0pt,
-  spacing/mode=spaced,
+  spacing/mode=a4-blank,
   eyecare/paper-color={FFF9E2},
   eyecare/text-color={322D26},
-  watermark/show=true,
+  watermark/show=false,
   watermark/text={试卷库},
   watermark/angle=24,
   watermark/opacity=.12,
   watermark/font-size=24pt,
-  security/level=3,
+  security/level=3,   % 设置等级会同时显示密级标记
   security/text={内部资料},
   security/suffix={启用前},
   opening/show=true,

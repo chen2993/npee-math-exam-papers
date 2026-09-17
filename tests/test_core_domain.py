@@ -18,6 +18,39 @@ def test_sections_have_labels() -> None:
 def test_spacing_labels_cover_spacings() -> None:
     assert set(domain.SPACING_LABELS) == set(domain.SPACINGS)
 
+def test_product_spacings_are_a_subset_of_the_accepted_ones() -> None:
+    """The shipping product line is smaller than what the schema accepts.
+
+    ``spaced`` (宽松版) is retired but must keep validating, because
+    composition packages written before the change still name it. Keeping
+    the two sets distinct is what lets a payload read while the UI offers
+    only the modes that are actually compiled.
+    """
+
+    assert set(domain.PRODUCT_SPACINGS) < set(domain.SPACINGS)
+    assert "spaced" in domain.SPACINGS
+    assert "spaced" not in domain.PRODUCT_SPACINGS
+
+def test_print_spacing_is_labelled_like_a_deliverable() -> None:
+    """It reads 打印版 rather than being tied to one paper size.
+
+    The mode is layout-agnostic (A3 already floors at four logical pages),
+    so a label naming A4 would misdescribe what it produces on A3.
+    """
+
+    assert domain.SPACING_LABELS["a4-blank"] == "打印版"
+
+def test_no_spacing_is_layout_restricted() -> None:
+    """Every accepted spacing works on every stock.
+
+    The print deliverable used to be A4-only; it no longer is, and the
+    table that expresses such a rule is now empty. Naming it here keeps the
+    assumption explicit instead of leaving it implied by an empty dict.
+    """
+
+    assert domain.SPACING_LAYOUT_REQUIREMENTS == {}
+    assert set(domain.SPACING_LAYOUT_REQUIREMENTS) <= set(domain.SPACINGS)
+
 
 def test_is_valid_id_accepts_and_rejects() -> None:
     assert domain.is_valid_id("demo-2024")

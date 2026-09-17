@@ -26,24 +26,30 @@ from npee_math_papers.core.composition import (
     verify_bindings,
 )
 from npee_math_papers.core.errors import ValidationError
-from npee_math_papers.core.domain import SUBJECTS
+from npee_math_papers.core.domain import DEFAULT_SPACING, SUBJECTS
 from npee_math_papers.service.context import ServiceContext
 from npee_math_papers.service.jobs import CompileJob, CompileJobStore
 from npee_math_papers.service.tex_builder import BuildOptions, build as build_tex
+
+#: The stocks the print deliverable is produced on.
+PRINT_LAYOUTS: tuple[str, ...] = ("a3", "a4")
 
 DEFAULT_DOCUMENT = {
     "toc": {"enabled": True, "title": "目录", "include_groups": True, "include_papers": True},
     "layout": "a4",
     "theme": "print",
-    "spacing": "compact",
+    "spacing": DEFAULT_SPACING,
     "opening": {"show": True, "candidate_info": True, "notices": True},
     "solution": {"structure": "pair-first", "pair_count": 2},
 }
+
+#: Default compile matrix: the print deliverable on every paper stock.
 DEFAULT_COMPILE = {
     "engine": "xelatex",
     "passes": 3,
     "targets": [
-        {"layout": "a4", "theme": "print", "spacing": "compact", "enabled": True, "answers": False, "output_suffix": None}
+        {"layout": layout, "theme": "print", "spacing": DEFAULT_SPACING, "enabled": True, "answers": False, "output_suffix": None}
+        for layout in PRINT_LAYOUTS
     ],
     "output": {
         "directory": "build/output",

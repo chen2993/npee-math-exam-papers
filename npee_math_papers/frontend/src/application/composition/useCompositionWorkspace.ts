@@ -82,7 +82,9 @@ export function normalizeDraft(value: Partial<CompositionDraft> & { selected?: u
     ...value,
     id: typeof value.id === "string" && value.id ? value.id : defaults.id,
     name: typeof value.name === "string" ? value.name : defaults.name,
-    layout: spacing === "a4-blank" ? "a4" : normalizeLayout(value.layout),
+    // The print deliverable (a4-blank) is layout-agnostic: it no longer forces
+    // the A4 stock, so a stored A3 print draft keeps its paper size.
+    layout: normalizeLayout(value.layout),
     spacing,
     papers,
     opening: { ...defaults.opening, ...(value.opening ?? {}) },

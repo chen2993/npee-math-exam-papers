@@ -83,8 +83,15 @@
 \NPEECandidateNoticestrue
 \NPEEPaperOpeningtrue
 \NPEEOpeningPagefalse
-\NPEEWatermarkEnabledtrue
-\NPEEConfidentialMarkEnabledtrue
+% Both overlay features default to OFF.  A generic examination class must not
+% stamp a security classification on every sheet, and an empty-text watermark
+% has nothing to draw, so shipping them enabled only produced a visible
+% ``启用前★绝密`` mark on deliverables that never asked for one.  A publication
+% that wants either mark opts in explicitly (``watermark`` / ``securitymark``
+% class options, the ``watermark/show`` and ``security/show`` setup keys, or
+% ``\NPEEEnableWatermark`` / ``\NPEEEnableConfidentialMark``).
+\NPEEWatermarkEnabledfalse
+\NPEEConfidentialMarkEnabledfalse
 \NPEEConfidentialMarkPendingfalse
 \NPEEConfidentialMarkActivefalse
 \NPEESecurityCustomTextfalse
@@ -187,13 +194,16 @@
   \renewcommand{\NPEEThemeLabel}{print}}
 \DeclareOption{compact}{\NPEEAfourBlankfalse\NPEECompacttrue}
 \DeclareOption{spaced}{\NPEEAfourBlankfalse\NPEECompactfalse}
+% ``a4-blank`` is the print deliverable: compact natural flow, and every paper
+% is padded to at least four physical sheets so a handout always begins on a
+% fresh sheet.  The historical key is kept because it is the value stored in
+% composition files, but the mode is deliberately **layout-agnostic**: A3
+% already floors at four logical pages, so on A3 this option is exactly
+% equivalent to ``compact``.  It must therefore not force the A4 stock.
 \DeclareOption{a4-blank}{%
-  \NPEEAfourtrue
-  \NPEEAthreefalse
   \NPEEAfourBlanktrue
   \NPEECompacttrue
-  \NPEEAnswerLayoutfalse
-  \renewcommand{\NPEELayoutLabel}{a4}}
+  \NPEEAnswerLayoutfalse}
 \DeclareOption{inlineonly}{\NPEEInlineOnlytrue}
 \DeclareOption{candidateinfo}{\NPEECandidateInfotrue}
 \DeclareOption{nocandidateinfo}{\NPEECandidateInfofalse}
@@ -1430,7 +1440,16 @@
 \newcommand{\NPEEEnableConfidentialMark}{\NPEEConfidentialMarkEnabledtrue}
 
 \newcommand{\NPEEDisableConfidentialMark}{\NPEEConfidentialMarkEnabledfalse}
-\NPEESetSecurityLevel{3}
+% Establish the level-3 (绝密) *text* without switching the mark on.
+%
+% ``\NPEESetSecurityLevel`` is documented as "setting a level also shows the
+% mark", so calling it here enabled the opening security mark unconditionally --
+% every deliverable carried ``启用前★绝密`` even though the feature defaults to
+% off. The text is what a publication picks up when it *does* opt in, so it is
+% built directly and the visibility flag is left alone.
+\NPEERebuildSecurityText
+\renewcommand{\NPEESecurityLevel}{3}%
+\NPEEConfidentialMarkEnabledfalse
 \newcommand{\NPEEArmConfidentialMark}{%
   % Freeze the text at paper start.  Later configuration affects the next
   % paper, never the already armed opening sheet.

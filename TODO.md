@@ -562,3 +562,62 @@ unicode-math 的真字形，也不会再被覆盖。
 | 架构 / 文档引用 / 空白 | `test-architecture.ps1` · `build\doc-refs.py` · `git diff --check` | `Passed` · 三节「无」 · 无错误 |
 
 > 题库 YAML **未改动**：以上全部是渲染层修复，`content_hash` 与库级哈希均不变。
+
+---
+
+## 13. 产品线：打印版 / 去掉宽松版 / 去掉水印（本轮完成）
+
+### 13.1 水印与密级标记：默认关闭（真实 bug）
+
+「不要加水印」表面上只是改两个默认值，实际不是。类文件在导言区**末尾无条件**
+执行了一行：
+
+```tex
+\NPEESetSecurityLevel{3}
+```
+
+而该 setter 的契约是「设置等级即显示标记」——它内部会 `\NPEEEnableConfidentialMark`。
+所以无论把 `\NPEEConfidentialMarkEnabledfalse` 写在哪里，都会被这一行重新打开，
+每份产物都盖上「启用前 ★ 绝密」。
+
+| 位置 | 变化 |
+| --- | --- |
+| `tex/npee-math-exam.cls` | 该行改为直接重建等级 3 的**文本**（`\NPEERebuildSecurityText` + `\renewcommand{\NPEESecurityLevel}{3}`），不再调用「设置即显示」的 setter；`\NPEEWatermarkEnabledfalse` 与 `\NPEEConfidentialMarkEnabledfalse` 成为真正的默认值 |
+| `tex/CLASS-API.md` | 选项表默认值由 on 改为 off；示例改为 `watermark/show=false`；补注「设置 security/level 会同时显示标记」 |
+
+A/B 实测（同一组卷、同一构建路径，仅替换类文件）：
+
+| 类 | 结果 |
+| --- | --- |
+| 改动前 | 产物含「启用前 ★ 绝密」 |
+| 改动后 | 产物**不含**，正文照常渲染 |
+
+### 13.2 产品线：打印版取代宽松版
+
+| 项 | 变化 |
+| --- | --- |
+| `a4-blank`（存储键不变） | 显示标签由「A4留白版」改为**「打印版」**；不再强制 A4，改为**与纸张无关**（A3 本来就补足 4 个逻辑页，因此在 A3 上等同于 `compact`）。存储键保留，避免迁移已写好的组卷包 |
+| `spaced`（宽松版） | **退役**：仍是 schema 接受的存储值（旧组卷包继续可校验），但不再是默认、也不再出现在前端选项里。前端 `normalizeSpacing` 把存量 `spaced` 迁移到 `compact` |
+| 默认产物 | 由「A4紧凑版」1 份改为**A3打印版 + A4打印版** 2 份 |
+| `core/domain.py` | 新增 `PRODUCT_SPACINGS`（产品线）与 `DEFAULT_SPACING`，与 `SPACINGS`（schema 接受集）区分开；`SPACING_LAYOUT_REQUIREMENTS` 清空并转为通用规则表，校验层按数据查表而非硬编码 `a4-blank` |
+| `service/composition.py` | `DEFAULT_DOCUMENT` / `DEFAULT_COMPILE` 改用 `DEFAULT_SPACING` 与 `PRINT_LAYOUTS`，默认矩阵覆盖两种纸张 |
+| 前端 | `Spacing` 类型去掉 `spaced`；间距下拉改为「打印版 / 紧凑 / 两种间距」；页面与间距不再互相强制改写；新草稿默认打印版 |
+| 组卷包 | `jiaji-eighty-five`、`chaoyue10-2024-2025`、`2024-yubingsen5-math1` 的 `spaced` 目标改为 `a4-blank`，并补齐缺失的 A3 打印版；去重后每包 4 个目标 |
+| `maintenance/verify_compile.py` | 诊断矩阵补上 A3 打印版（`spaced` 保留其中，用于验证旧组卷包仍可编译） |
+| MCP / CLI | `npee_build_composition` 的 `spacing` 默认值与 `--spacing` 可选值改为引用共享词汇表，不再各写一份 |
+
+A3 打印版等价性实测（同一组卷分别编 `a3+compact` 与 `a3+a4-blank`）：
+**页数、纸张尺寸、文本层三者完全相同**。
+
+### 13.3 验收证据（实测）
+
+| 检查 | 命令 | 结果 |
+| --- | --- | --- |
+| 后端测试 | `python -m pytest tests` | **197 项通过**（+3：产品线与接受集分离、打印版标签、无纸张限制） |
+| 前端测试 | `npx vitest run` | **100 项通过**（+1：退役模式迁移；改写 2 项：打印版不再强制 A4、`both` 不含已退役模式） |
+| 前端类型 / 构建 | `npx tsc -b --force` · `npx vite build` | 无错误 · 成功 |
+| 默认产物 | 真实组卷编译 | `[A3][][打印版]` + `[A4][][打印版]` 各 1 份，均无「启用前 ★ 绝密」，正文完整 |
+| A3 等价性 | 两目标对照编译 | 页数 6 = 6、尺寸 1191×842 相同、文本层相同 |
+| 组卷包校验 | `load_composition` | 3 个包全部通过，目标均为 4 个（A3/A4 × 紧凑/打印版） |
+| 全库构建 | `python build\full-build-scan.py` | `papers=324 build_ok=324 build_fail=0` |
+| 全版式真编译 | `python -m npee_math_papers.maintenance.verify_compile --matrix --collections` | **324/324 通过，0 泄漏；3 个组卷包通过** |

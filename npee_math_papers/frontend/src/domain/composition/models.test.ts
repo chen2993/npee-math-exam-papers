@@ -55,14 +55,17 @@ describe("buildCompilePayload", () => {
   it("expands layout/theme/spacing into explicit targets", () => {
     const draft = { ...createDraft(), layout: "both" as const, theme: "both" as const, spacing: "both" as const };
     const payload = buildCompilePayload(draft);
-    // a3/a4 × print/cream × compact/spaced
+    // a3/a4 × print/cream × (compact + 打印版); `spaced` is retired
     expect(payload.compile.targets).toHaveLength(8);
+    expect(payload.compile.targets.some((target: { spacing: string }) => target.spacing === "spaced")).toBe(false);
   });
 
-  it("forces a4 when the a4-blank spacing is chosen", () => {
+  it("keeps the chosen stock when the print spacing is chosen", () => {
+    // The print deliverable works on both stocks, so it must not silently
+    // rewrite A3 into A4 (and thereby drop the A3 deliverable).
     const draft = { ...createDraft(), layout: "a3" as const, spacing: "a4-blank" as const };
     const payload = buildCompilePayload(draft);
-    expect(payload.compile.targets.every((target: { layout: string }) => target.layout === "a4")).toBe(true);
+    expect(payload.compile.targets.every((target: { layout: string }) => target.layout === "a3")).toBe(true);
   });
 
   it("keeps the composition id lowercase and dash-separated", () => {
@@ -73,7 +76,7 @@ describe("buildCompilePayload", () => {
 
 describe("outputTargetCount", () => {
   it("counts one file per layout × theme × spacing", () => {
-    expect(outputTargetCount(createDraft())).toBe(2); // a3 + a4, one theme, one spacing
+    expect(outputTargetCount(createDraft())).toBe(2); // a3 + a4 print, one theme, one spacing
   });
 
   it("reports the silent multiplication of 'both' on every axis", () => {

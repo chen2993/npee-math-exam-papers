@@ -75,14 +75,42 @@ LAYOUTS: tuple[str, ...] = ("a3", "a4")
 #: Supported colour themes.
 THEMES: tuple[str, ...] = ("print", "cream")
 
-#: Supported spacing modes; ``a4-blank`` additionally requires the a4 layout.
+#: Every spacing mode the composition schema accepts.
+#:
+#: This is the set of *stored* values, not the shipping product line: ``spaced``
+#: is retired and no longer offered, but composition packages written before the
+#: change still name it and must keep validating.
 SPACINGS: tuple[str, ...] = ("compact", "spaced", "a4-blank")
 
-#: Chinese label for each spacing mode.
-SPACING_LABELS: dict[str, str] = {"compact": "紧凑版", "spaced": "宽松版", "a4-blank": "A4留白版"}
+#: The spacing modes that make up the shipping product line, in display order.
+#:
+#: ``a4-blank`` is the *print deliverable*: a compact natural flow in which every
+#: paper is padded to at least four sheets, so a handout always begins on a fresh
+#: one. It is deliberately layout-agnostic -- A3 already floors at four logical
+#: pages, so there it is exactly ``compact`` -- which is why its label is 打印版
+#: rather than anything tied to A4. Its key keeps the historical spelling because
+#: that is the value already written into composition files.
+PRODUCT_SPACINGS: tuple[str, ...] = ("compact", "a4-blank")
+
+#: Chinese label for each spacing mode; also the `{spacing_label}` filename token.
+SPACING_LABELS: dict[str, str] = {"compact": "紧凑版", "spaced": "宽松版", "a4-blank": "打印版"}
+
+#: The spacing mode a new composition compiles with.
+#:
+#: The product line ships the print deliverable by default, so a caller that
+#: does not choose a rhythm gets the one the library is actually produced in.
+DEFAULT_SPACING = "a4-blank"
 
 #: Supported solution-flow structures.
 SOLUTION_STRUCTURES: tuple[str, ...] = ("pair-first", "natural", "full-page")
+
+#: Spacing modes restricted to one layout, as ``{spacing: layout}``.
+#:
+#: Currently empty: no spacing mode is layout-restricted. The print deliverable
+#: used to be A4-only, but it is now layout-agnostic (A3 already floors at four
+#: logical pages). The table stays as the single place to declare such a rule if
+#: a future mode needs one, so consumers never hardcode a spacing name.
+SPACING_LAYOUT_REQUIREMENTS: dict[str, str] = {}
 
 #: Injection points a composition package may hook.
 HOOK_PHASES: tuple[str, ...] = (
@@ -93,10 +121,6 @@ HOOK_PHASES: tuple[str, ...] = (
     "after_collection",
     "before_end_document",
 )
-
-#: Spacing modes that are only valid on the a4 layout.
-SPACING_LAYOUT_REQUIREMENTS: dict[str, str] = {"a4-blank": "a4"}
-
 
 # --- capture / sources -----------------------------------------------------
 
@@ -156,6 +180,7 @@ __all__ = [
     "ID_RE",
     "LAYOUTS",
     "PAPER_ORDERS",
+    "PRODUCT_SPACINGS",
     "PAPER_ORDER_KEYS",
     "SECTION_LABELS",
     "SECTIONS",
@@ -169,6 +194,7 @@ __all__ = [
     "SUBJECT_TEMPLATE",
     "THEMES",
     "DEFAULT_PAPER_ORDER",
+    "DEFAULT_SPACING",
     "is_valid_id",
     "normalize_paper_order",
     "subject_code",

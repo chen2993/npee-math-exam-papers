@@ -40,6 +40,7 @@ from npee_math_papers.core.domain import (  # noqa: E402
     LAYOUTS,
     SECTION_LABELS,
     SPACING_LABELS,
+    SPACINGS,
     SUBJECT_CODES,
     SUBJECT_LABELS,
     SUBJECTS,
@@ -150,7 +151,7 @@ def parse_args(argv: list[str] | None = None) -> BuildOptions:
     parser.add_argument("--dry-run", action="store_true", help="只生成 TeX，不调用 XeLaTeX")
     parser.add_argument("--clean", action="store_true", help="先清空本组卷的生成目录")
     parser.add_argument("--no-watermark", action="store_true", help="关闭本次编译水印")
-    parser.add_argument("--spacing", choices=("compact", "spaced", "a4-blank"), help="只编译指定版式")
+    parser.add_argument("--spacing", choices=SPACINGS, help="只编译指定版式")
     parser.add_argument("--layouts", choices=("a3", "a4", "both"), help="只编译指定纸张")
     args = parser.parse_args(argv)
     return BuildOptions(

@@ -540,14 +540,7 @@ function DocumentSettings({
           label="页面"
           value={draft.layout}
           onChange={(event) =>
-            onUpdate((current) => {
-              const layout = event.target.value as Layout;
-              return {
-                ...current,
-                layout,
-                ...(current.spacing === "a4-blank" && layout !== "a4" ? { spacing: "compact" as Spacing } : {}),
-              };
-            })
+            onUpdate((current) => ({ ...current, layout: event.target.value as Layout }))
           }
         >
           <option value="both">A3 + A4</option>
@@ -569,16 +562,10 @@ function DocumentSettings({
         <SelectField
           label="间距"
           value={draft.spacing}
-          onChange={(event) =>
-            onUpdate((current) => {
-              const spacing = event.target.value as Spacing;
-              return { ...current, spacing, ...(spacing === "a4-blank" ? { layout: "a4" as Layout } : {}) };
-            })
-          }
+          onChange={(event) => onUpdate((current) => ({ ...current, spacing: event.target.value as Spacing }))}
         >
-          <option value="spaced">有间隔</option>
+          <option value="a4-blank">打印版</option>
           <option value="compact">紧凑</option>
-          <option value="a4-blank">A4留白版</option>
           <option value="both">两种间距</option>
         </SelectField>
         <SelectField

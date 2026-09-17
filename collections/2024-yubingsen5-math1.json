@@ -27,7 +27,7 @@
     },
     "layout": "both",
     "theme": "print",
-    "spacing": "spaced",
+    "spacing": "a4-blank",
     "opening": {
       "show": true,
       "candidate_info": true,
@@ -94,7 +94,7 @@
       {
         "layout": "a4",
         "theme": "print",
-        "spacing": "spaced",
+        "spacing": "a4-blank",
         "enabled": true,
         "answers": false,
         "output_suffix": null
@@ -102,7 +102,7 @@
       {
         "layout": "a3",
         "theme": "print",
-        "spacing": "spaced",
+        "spacing": "a4-blank",
         "enabled": true,
         "answers": false,
         "output_suffix": null

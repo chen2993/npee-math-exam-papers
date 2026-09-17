@@ -25,6 +25,7 @@ import sys
 import time
 from typing import Any
 
+from npee_math_papers.core.domain import DEFAULT_SPACING
 from npee_math_papers.service import NpeeService
 from npee_math_papers.service.events import build_payload, default_event_log
 
@@ -479,7 +480,7 @@ def build_server() -> "FastMCP":
         title: str,
         selections: list[dict[str, Any]],
         layout: str = "a4",
-        spacing: str = "compact",
+        spacing: str = DEFAULT_SPACING,
         theme: str = "print",
         pin_hashes: bool = True,
     ) -> str:

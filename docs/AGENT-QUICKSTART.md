@@ -214,7 +214,7 @@ python -m npee_math_papers.maintenance.check_math_cjk         # 扫描数学模�
 python -m npee_math_papers.maintenance.check_environment      # 环境检查
 python -m npee_math_papers.maintenance.verify_compile         # 逐套单独编译 + 渲染泄漏检测
 python -m npee_math_papers.maintenance.verify_compile --limit 20 --json build/compile-verify.json
-python -m npee_math_papers.maintenance.verify_compile --matrix  # a4/a3 × 紧凑/宽松 + a4 留白 + cream 主题 + 含答案
+python -m npee_math_papers.maintenance.verify_compile --matrix  # a4/a3 × 紧凑/宽松/打印版 + cream 主题 + 含答案
 python -m npee_math_papers.maintenance.verify_compile --matrix --collections  # 再加 collections/ 正式组卷包
 ```
 
@@ -223,7 +223,7 @@ python -m npee_math_papers.maintenance.verify_compile --matrix --collections  # 
 `lambda`）。合法运算符（`\arcsin` 等）本身就会渲染成同样的 ASCII 词，因此该工具
 用数学斜体 Unicode 区分，避免把运算符误报为泄漏。
 
-`--matrix` 让每套卷在全部版式（a4/a3 × 紧凑/宽松 + a4 留白，另加 cream 主题与
+`--matrix` 让每套卷在全部版式（a4/a3 × 紧凑/宽松/打印版，另加 cream 主题与
 `answers=true` 含答案模式，共 7 个变体）下各编一份；
 `--collections` 还会编译 `collections/<id>/composition.json`（含封面、前言与 Hook
 等包内 `\input` 资源）。

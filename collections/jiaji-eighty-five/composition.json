@@ -170,9 +170,9 @@
     "subjects": ["math1", "math2", "math3"],
     "targets": [
       {"layout": "a3", "theme": "print", "spacing": "compact", "enabled": true, "answers": false, "output_suffix": null},
-      {"layout": "a3", "theme": "print", "spacing": "spaced", "enabled": true, "answers": false, "output_suffix": null},
+      {"layout": "a3", "theme": "print", "spacing": "a4-blank", "enabled": true, "answers": false, "output_suffix": null},
       {"layout": "a4", "theme": "print", "spacing": "compact", "enabled": true, "answers": false, "output_suffix": null},
-      {"layout": "a4", "theme": "print", "spacing": "spaced", "enabled": true, "answers": false, "output_suffix": null}
+      {"layout": "a4", "theme": "print", "spacing": "a4-blank", "enabled": true, "answers": false, "output_suffix": null}
     ],
     "output": {
       "directory": "build/output",

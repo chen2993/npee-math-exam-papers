@@ -16,6 +16,8 @@ from npee_math_papers.core.domain import (
     HOOK_PHASES,
     ID_RE,
     LAYOUTS,
+    SPACING_LAYOUT_REQUIREMENTS,
+    SPACINGS,
     SUBJECT_CODES,
     SUBJECT_LABELS,
     SUBJECTS,
@@ -153,10 +155,13 @@ def target_matrix(document: dict[str, Any], compile_config: dict[str, Any]) -> l
             fail(f"compile.targets[{index}].layout must be a3 or a4")
         if target.get("theme") not in {"print", "cream"}:
             fail(f"compile.targets[{index}].theme must be print or cream")
-        if target.get("spacing") not in {"compact", "spaced", "a4-blank"}:
+        if target.get("spacing") not in SPACINGS:
             fail(f"compile.targets[{index}].spacing is invalid")
-        if target.get("spacing") == "a4-blank" and target.get("layout") != "a4":
-            fail(f"compile.targets[{index}].a4-blank requires layout a4")
+        # A spacing mode that is restricted to one stock declares it in the
+        # shared table, so this rule is data rather than a hardcoded name.
+        required_layout = SPACING_LAYOUT_REQUIREMENTS.get(str(target.get("spacing")))
+        if required_layout is not None and target.get("layout") != required_layout:
+            fail(f"compile.targets[{index}].{target['spacing']} requires layout {required_layout}")
         clean.append(dict(target))
     if not clean:
         fail("compile.targets contains no enabled target")

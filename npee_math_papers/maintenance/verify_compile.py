@@ -19,7 +19,7 @@ Usage::
    python -m npee_math_papers.maintenance.verify_compile            # all papers
    python -m npee_math_papers.maintenance.verify_compile --limit 20
    python -m npee_math_papers.maintenance.verify_compile --json build/compile-verify.json
-   python -m npee_math_papers.maintenance.verify_compile --matrix   # a4/a3 x compact/spaced/a4-blank
+   python -m npee_math_papers.maintenance.verify_compile --matrix   # a4/a3 x compact/spaced/print
 """
 
 from __future__ import annotations
@@ -52,7 +52,9 @@ OPERATOR_WORDS = frozenset({
 EXCLUDE = frozenset({"text", "end", "begin", "left", "right", "quad", "qquad", "dot", "bar"})
 LEAK_NAMES = tuple(sorted({n for n in KNOWN_COMMANDS if len(n) >= 4 and n not in EXCLUDE and n not in OPERATOR_WORDS}))
 
-# 单套验证默认只编 a4-紧凑版；--matrix 覆盖全部版式（a4/a3 × 紧凑/宽松 + a4 留白）。
+# 单套验证默认只编 a4-紧凑版；--matrix 覆盖全部版式（a4/a3 × 紧凑/宽松/打印版）。
+# ``spaced``（宽松版）已退役但仍被 schema 接受，因此保留在诊断矩阵里：
+# 它验证旧组卷包依然能编译，而不是产品线的一部分。
 BASE_TARGETS = [
     {"layout": "a4", "theme": "print", "spacing": "compact", "enabled": True, "answers": False, "output_suffix": None},
 ]
@@ -61,6 +63,7 @@ MATRIX_TARGETS = [
     {"layout": "a4", "theme": "print", "spacing": "compact", "enabled": True, "answers": False, "output_suffix": "-a4-print-compact"},
     {"layout": "a4", "theme": "print", "spacing": "spaced", "enabled": True, "answers": False, "output_suffix": "-a4-print-spaced"},
     {"layout": "a4", "theme": "print", "spacing": "a4-blank", "enabled": True, "answers": False, "output_suffix": "-a4-print-blank"},
+    {"layout": "a3", "theme": "print", "spacing": "a4-blank", "enabled": True, "answers": False, "output_suffix": "-a3-print-blank"},
     {"layout": "a3", "theme": "print", "spacing": "compact", "enabled": True, "answers": False, "output_suffix": "-a3-print-compact"},
     {"layout": "a3", "theme": "print", "spacing": "spaced", "enabled": True, "answers": False, "output_suffix": "-a3-print-spaced"},
     {"layout": "a4", "theme": "cream", "spacing": "compact", "enabled": True, "answers": False, "output_suffix": "-a4-cream-compact"},
@@ -74,7 +77,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--limit", type=int, default=0, help="只验证前 N 套（0 = 全部）")
     parser.add_argument("--json", type=Path, help="把逐套结果写入 JSON")
     parser.add_argument("--keep", action="store_true", help="保留中间构建产物")
-    parser.add_argument("--matrix", action="store_true", help="覆盖全部版式（a4/a3 × 紧凑/宽松 + a4 留白）")
+    parser.add_argument("--matrix", action="store_true", help="覆盖全部版式（a4/a3 × 紧凑/宽松/打印版）")
     parser.add_argument("--collections", action="store_true", help="同时编译 collections/ 下的正式组卷包")
     return parser.parse_args()
 
