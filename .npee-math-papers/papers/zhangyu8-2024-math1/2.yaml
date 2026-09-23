@@ -4,7 +4,6 @@ paper:
   year: 2024
   subject: math1
   paper_no: 2
-content_hash: ef8d788471c7cbc6487e468b2dd1aed144d962da13da7d83f4af50a023f899a9
 questions:
 - number: 1
   section: choice
@@ -79,7 +78,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设平面曲线 $L:f(x,y)=1$ 过第一象限的点 $A$ 和第三象限的点 $B$，$f(x,y)$ 有一阶连续偏导数，$\Gamma$ 为 $L$ 上从点 $A$ 到点 $B$ 的一段弧，设 $I_1=\int_{\Gamma}f(x,y)\,\mathrm{d}x,I_2=\int_{\Gamma}f(x,y)\,\mathrm{d}y,I_3=\int_{\Gamma}f_x'(x,y)\,\mathrm{d}x+f_y'(x,y)\,\mathrm{d}y$，则\ExamSelection
+      设平面曲线 $L:f(x,y)=1$ 过第一象限的点 $A$ 和第三象限的点 $B$，$f(x,y)$ 有一阶连续偏导数，$\Gamma$ 为 $L$ 上从点 $A$ 到点 $B$ 的一段弧，设 $I_1=\int_{\Gamma}f(x,y)\,\mathrm{d}x,I_2=\int_{\Gamma}f(x,y)\,\mathrm{d}s,I_3=\int_{\Gamma}f_x'(x,y)\,\mathrm{d}x+f_y'(x,y)\,\mathrm{d}y$，则\ExamSelection
   choices:
   - label: A
     text: $I_1>I_3>I_2$
@@ -140,7 +139,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $3$ 维列向量组 $(\alpha_1,\alpha_2,\alpha_3)$ 与 $(\beta_1,\beta_2,\beta_3)$ 等价，记 $A=(\alpha_1,\alpha_2,\alpha_3),B=(\beta_1,\beta_2,\beta_3)$，则下列结论：①$Ax=0$ 与 $Bx=0$ 同解；②$A^{\mathsf T}x=0$ 与 $B^{\mathsf T}x=0$ 同解；③$\begin{pmatrix}A\\B\end{pmatrix}x=0$ 与 $Ax=0$ 同解；④$\begin{pmatrix}A^{\mathsf T}\\B^{\mathsf T}\end{pmatrix}x=0$ 与 $A^{\mathsf T}x=0$ 同解。所有正确结论的序号是\ExamSelection
+      设 $3$ 维列向量组 $(\alpha_1,\alpha_2,\alpha_3)$ 与 $(\beta_1,\beta_2,\beta_3)$ 等价，记 $A=(\alpha_1,\alpha_2,\alpha_3),B=(\beta_1,\beta_2,\beta_3)$，则下列结论：\n①$Ax=0$ 与 $Bx=0$ 同解；\n②$A^{\mathsf T}x=0$ 与 $B^{\mathsf T}x=0$ 同解；\n③$\begin{pmatrix}A\\B\end{pmatrix}x=0$ 与 $Ax=0$ 同解；\n④$\begin{pmatrix}A^{\mathsf T}\\B^{\mathsf T}\end{pmatrix}x=0$ 与 $A^{\mathsf T}x=0$ 同解。\n所有正确结论的序号是\ExamSelection
   choices:
   - label: A
     text: ①②
@@ -307,3 +306,4 @@ questions:
   subparts:
   - text: $X$ 的概率密度；
   - text: $E(Z)$。
+content_hash: 82b2a137d2de7531e2a5ce7d99f94890f02852d0886c1c93c7044bad05946a09

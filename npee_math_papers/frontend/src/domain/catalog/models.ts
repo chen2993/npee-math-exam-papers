@@ -1,5 +1,5 @@
 export type Subject = "math1" | "math2" | "math3";
-export type Section = "choice" | "fill" | "solution";
+type Section = "choice" | "fill" | "solution";
 
 /** 一个图形：内嵌绘图或已批准的资源文件。 */
 export interface Figure {
@@ -11,12 +11,12 @@ export interface Figure {
 }
 
 /** 一段可选带图的文本块，用于题干、选项与子问。 */
-export interface Block {
+interface Block {
   text: string;
   figures?: Figure[];
 }
 
-export interface Choice {
+interface Choice {
   label: string;
   text: string;
   figures?: Figure[];
@@ -87,7 +87,7 @@ export interface Bundle {
   paper_count: number;
 }
 
-export interface LibraryStats {
+interface LibraryStats {
   bundles: number;
   papers: number;
   questions: number;
@@ -109,24 +109,6 @@ export interface PaperPage {
   offset: number;
   count: number;
   papers: PaperSummary[];
-}
-
-export interface SearchMatch {
-  natural_key: string;
-  series_key: string;
-  series_name: string;
-  year: number;
-  subject: Subject;
-  paper_no: number;
-  number: number;
-  section: Section;
-  excerpt: string;
-}
-
-export interface SearchResult {
-  total: number;
-  limit: number;
-  matches: SearchMatch[];
 }
 
 /** 一次调用记录的请求体或响应体。 */
@@ -157,7 +139,7 @@ export interface LogEvent {
   response: EventPayload;
 }
 
-export interface LogStats {
+interface LogStats {
   path: string;
   events: number;
   bytes: number;
@@ -176,12 +158,6 @@ export interface LogQuery {
   kind?: string;
   status?: string;
   q?: string;
-}
-
-/** 一套卷在某次发布中的内容哈希（版本绑定用）。 */
-export interface ReleaseEntry {
-  natural_key: string;
-  content_hash: string;
 }
 
 export interface ReleaseManifest {
@@ -204,14 +180,6 @@ export interface CompileJob {
   report: Record<string, unknown>;
 }
 
-/** 某套卷中单道题及其所属套卷上下文。 */
-export interface QuestionContext {
-  natural_key: string;
-  series_name: string;
-  paper_no: number;
-  question: Question;
-}
-
 export const subjectNames: Record<Subject, string> = {
   math1: "数学一",
   math2: "数学二",
@@ -223,15 +191,3 @@ export const sectionNames: Record<Section, string> = {
   fill: "填空题",
   solution: "解答题",
 };
-
-/** 返回题目上所有图形，按题干、选项、子问顺序。 */
-export function questionFigures(question: Question): Figure[] {
-  const figures: Figure[] = [...(question.stem.figures || [])];
-  for (const choice of question.choices || []) {
-    figures.push(...(choice.figures || []));
-  }
-  for (const subpart of question.subparts || []) {
-    figures.push(...(subpart.figures || []));
-  }
-  return figures;
-}

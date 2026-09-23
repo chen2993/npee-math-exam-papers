@@ -4,7 +4,6 @@ paper:
   year: 2026
   subject: math1
   paper_no: 2
-content_hash: 8c05d11d58875d6eda92e08f1de79dabb9cd09fa5684477c8bd4a1a7a04750b6
 questions:
 - number: 1
   section: choice
@@ -74,7 +73,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设函数 $f(x,y)=\begin{cases}\dfrac{x|y|^{\dfrac{3}{2}}}{\sqrt{x^2+y^4}},&(x,y)\neq(0,0),\\0,&(x,y)=(0,0),\end{cases}$ 则下列命题中，正确的个数是\ExamSelection。①$f(x,y)$ 在点 $(0,0)$ 处连续。②$f(x,y)$ 在点 $(0,0)$ 处的两个偏导数均存在。③$f'_x(x,y)$ 在点 $(0,0)$ 处连续。④$f(x,y)$ 在点 $(0,0)$ 处可微。
+      设函数 $f(x,y)=\begin{cases}\dfrac{x|y|^{\dfrac{3}{2}}}{\sqrt{x^2+y^4}},&(x,y)\neq(0,0),\\0,&(x,y)=(0,0),\end{cases}$ 则下列命题中，正确的个数是\ExamSelection。\n①$f(x,y)$ 在点 $(0,0)$ 处连续。\n②$f(x,y)$ 在点 $(0,0)$ 处的两个偏导数均存在。\n③$f'_x(x,y)$ 在点 $(0,0)$ 处连续。\n④$f(x,y)$ 在点 $(0,0)$ 处可微。
   choices:
   - label: A
     text: $1$
@@ -312,3 +311,4 @@ questions:
       求 $D(\hat\theta_1^2)$，并判断 $\hat\theta_1^2$ 是否为 $\theta^2$ 的无偏估计；
   - text: |-
       求 $\theta$ 的最大似然估计量 $\hat\theta_2$。
+content_hash: f2478cf5ddfe1247c699920ff1171983467115380a18ae647a61d3d16b905a25

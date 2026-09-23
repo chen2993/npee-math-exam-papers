@@ -4,7 +4,6 @@ paper:
   year: 2023
   subject: math2
   paper_no: 2
-content_hash: 3371a3d91a4d210c306ce24c45f9d6222de2c87c3083f8c343fbebac36d11e0e
 questions:
 - number: 1
   section: choice
@@ -49,7 +48,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设函数 $F(x)=\int_0^x(x-2t)f(x-t)\,\mathrm{d}t$，其中 $f(x)$ 为连续函数，则下列命题中，正确的是\ExamSelection ①若 $f(x)$ 为单调减少函数，则 $F(x)$ 为单调减少函数；②若 $f(x)$ 为单调减少函数，则 $F(x)$ 为单调增加函数；③若 $f(x)$ 为奇函数，则 $F(x)$ 为奇函数；④若 $f(x)$ 为奇函数，则 $F(x)$ 为偶函数。
+      设函数 $F(x)=\int_0^x(x-2t)f(x-t)\,\mathrm{d}t$，其中 $f(x)$ 为连续函数，则下列命题中，正确的是\ExamSelection \n①若 $f(x)$ 为单调减少函数，则 $F(x)$ 为单调减少函数；\n②若 $f(x)$ 为单调减少函数，则 $F(x)$ 为单调增加函数；\n③若 $f(x)$ 为奇函数，则 $F(x)$ 为奇函数；\n④若 $f(x)$ 为奇函数，则 $F(x)$ 为偶函数。
   choices:
   - label: A
     text: ①③
@@ -278,3 +277,4 @@ questions:
   stem:
     text: |-
       设 $\boldsymbol{\alpha}_1$ 为 $3$ 阶矩阵 $A$ 的属于特征值 $1$ 的特征向量。$3$ 维列向量 $\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3$ 满足 $A\boldsymbol{\alpha}_2=-2\boldsymbol{\alpha}_3,A\boldsymbol{\alpha}_3=\boldsymbol{\alpha}_2+2\boldsymbol{\alpha}_3$，且 $\boldsymbol{\alpha}_3\neq\boldsymbol{0}$。证明：(I) $\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3$ 线性无关；(II) $A^3-3A^2+4A=2E$。
+content_hash: 30e74af18acdfe0d6dd0859d5ea0384809bf1236eb55a6ffb61ff17f754b26de

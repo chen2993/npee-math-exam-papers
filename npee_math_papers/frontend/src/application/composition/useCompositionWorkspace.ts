@@ -12,6 +12,7 @@ import type { PaperSummary } from "../../domain/catalog/models";
 import {
   createDraft,
   normalizeSpacing,
+  normalizePrintBlank,
   paperRefFromSummary,
   paperSummaryFromRef,
   type CompositionDraft,
@@ -82,10 +83,12 @@ export function normalizeDraft(value: Partial<CompositionDraft> & { selected?: u
     ...value,
     id: typeof value.id === "string" && value.id ? value.id : defaults.id,
     name: typeof value.name === "string" ? value.name : defaults.name,
-    // The print deliverable (a4-blank) is layout-agnostic: it no longer forces
-    // the A4 stock, so a stored A3 print draft keeps its paper size.
+    // The print deliverable is layout-agnostic: it no longer forces the A4
+    // stock, so a stored A3 print draft keeps its paper size.
     layout: normalizeLayout(value.layout),
     spacing,
+    // 旧草稿把留白写在 spacing 里（print / a4-blank），这里折算成独立的开关。
+    printBlank: normalizePrintBlank(value.printBlank, value.spacing),
     papers,
     opening: { ...defaults.opening, ...(value.opening ?? {}) },
     watermark: { ...defaults.watermark, ...(value.watermark ?? {}) },
@@ -95,8 +98,9 @@ export function normalizeDraft(value: Partial<CompositionDraft> & { selected?: u
 export function useCompositionWorkspace(repository: CompositionDraftRepository) {
   const [drafts, setDrafts] = useState<CompositionDraft[]>(() => {
     const saved = repository.load();
-    const normalized = saved.map(normalizeDraft).filter((draft) => draft.papers.length >= 0);
-    return normalized.length ? normalized : [createDraft("数学试卷集")];
+    // 草稿全部来自用户（导入 JSON / 打开组卷包 / 手动新建）。没有默认草稿，
+    // 否则空状态下界面上会挂着一个没人要的「数学试卷集」，还会让每个按钮都可用性存疑。
+    return saved.map(normalizeDraft).filter((draft) => draft.papers.length >= 0);
   });
   const [activeDraftId, setActiveDraftId] = useState(() => drafts[0]?.id ?? "");
 
@@ -272,11 +276,12 @@ export function useCompositionWorkspace(repository: CompositionDraftRepository) 
   }, [activeDraft, addDraft]);
 
   const deleteActiveDraft = useCallback(() => {
-    if (drafts.length <= 1 || !activeDraft) return false;
+    if (!activeDraft) return false;
     const index = drafts.findIndex((draft) => draft.id === activeDraft.id);
     const remaining = drafts.filter((draft) => draft.id !== activeDraft.id);
     setDrafts(remaining);
-    setActiveDraftId(remaining[Math.max(0, index - 1)].id);
+    // 删掉最后一个草稿后列表为空：此时没有「当前草稿」，界面显示空状态。
+    setActiveDraftId(remaining.length ? remaining[Math.max(0, index - 1)].id : "");
     return true;
   }, [drafts, activeDraft]);
 

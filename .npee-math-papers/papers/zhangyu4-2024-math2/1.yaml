@@ -4,7 +4,6 @@ paper:
   year: 2024
   subject: math2
   paper_no: 1
-content_hash: 96b6e40b79e21556f55ec00c22b2d058eec0ba25b3b61c3070d37d85ac673518
 questions:
 - number: 1
   section: choice
@@ -170,7 +169,7 @@ questions:
   points: 5
   stem:
     text: |-
-      已知 $\alpha_1,\alpha_2,\alpha_3,\alpha_4$ 是 $3$ 维非零列向量，则下列命题中：①若 $\alpha_4$ 可由 $\alpha_1,\alpha_2,\alpha_3$ 线性表示，则 $\alpha_1,\alpha_2,\alpha_3+\alpha_4$ 线性无关；②若 $\alpha_4$ 可由 $\alpha_1,\alpha_2,\alpha_3$ 线性表示，则 $r(\alpha_1+\alpha_2,\alpha_2,\alpha_3)=r(\alpha_1,\alpha_2,\alpha_3,\alpha_4)$；③若 $\alpha_4$ 不能由 $\alpha_1,\alpha_2,\alpha_3$ 线性表示，则 $\alpha_1,\alpha_2,\alpha_3$ 线性相关；④若 $\alpha_4$ 不能由 $\alpha_1,\alpha_2,\alpha_3$ 线性表示，则 $2\leq r(\alpha_1,\alpha_2,\alpha_3,\alpha_4)\leq 3$。正确命题的个数为\ExamSelection
+      已知 $\alpha_1,\alpha_2,\alpha_3,\alpha_4$ 是 $3$ 维非零列向量，则下列命题中：\n①若 $\alpha_4$ 可由 $\alpha_1,\alpha_2,\alpha_3$ 线性表示，则 $\alpha_1,\alpha_2,\alpha_3+\alpha_4$ 线性无关；\n②若 $\alpha_4$ 可由 $\alpha_1,\alpha_2,\alpha_3$ 线性表示，则 $r(\alpha_1+\alpha_2,\alpha_2,\alpha_3)=r(\alpha_1,\alpha_2,\alpha_3,\alpha_4)$；\n③若 $\alpha_4$ 不能由 $\alpha_1,\alpha_2,\alpha_3$ 线性表示，则 $\alpha_1,\alpha_2,\alpha_3$ 线性相关；\n④若 $\alpha_4$ 不能由 $\alpha_1,\alpha_2,\alpha_3$ 线性表示，则 $2\leq r(\alpha_1,\alpha_2,\alpha_3,\alpha_4)\leq 3$。\n正确命题的个数为\ExamSelection
   choices:
   - label: A
     text: $1$。
@@ -323,3 +322,4 @@ questions:
   - text: |-
       求正交矩阵 $Q$，使得 $Q^TAQ=\Lambda$；
   - text: 求 $f(x_1,x_2,x_3)=0$ 的解。
+content_hash: 555450b4c41f4b80ba2a3dec70f971cda60a80fa2db55349deb6a18bae40909f

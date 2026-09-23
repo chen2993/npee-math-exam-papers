@@ -4,7 +4,6 @@ paper:
   year: 2023
   subject: math2
   paper_no: 3
-content_hash: 58b7b2fb9e8cc218f52d9105abbc280bdb9c5a6e498d0ad9500f5780eef947f2
 questions:
 - number: 1
   section: choice
@@ -166,7 +165,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $A$ 为 $n(n\geq 3)$ 阶非零矩阵，则下列命题中，正确命题的个数是\ExamSelection。① 当 $r((A^*)^*)=r(A^*)$ 时，$r(A,A^*)\ne n-1$。② 当 $r((A^*)^*)=r(A^*)$ 时，$r(A-A^*)\ne n-1$。③ 当 $r((A^*)^*)<r(A^*)$ 时，$r(A,A^*)=n$。④ 当 $r((A^*)^*)<r(A^*)$ 时，$r(A-A^*)=n$。
+      设 $A$ 为 $n(n\geq 3)$ 阶非零矩阵，则下列命题中，正确命题的个数是\ExamSelection。\n① 当 $r((A^*)^*)=r(A^*)$ 时，$r(A,A^*)\ne n-1$。\n② 当 $r((A^*)^*)=r(A^*)$ 时，$r(A-A^*)\ne n-1$。\n③ 当 $r((A^*)^*)<r(A^*)$ 时，$r(A,A^*)=n$。\n④ 当 $r((A^*)^*)<r(A^*)$ 时，$r(A-A^*)=n$。
   choices:
   - label: A
     text: $0$
@@ -302,3 +301,4 @@ questions:
   - text: 求所有满足 $BA=E$ 的矩阵 $B$，并求 $AB$ 的特征值；
   - text: |-
       在满足 $BA=E$ 的基础上，找到一个矩阵 $B$，使得 $AB$ 有一个特征向量为 $\beta=(1,2,3)^{\mathrm{T}}$。
+content_hash: 2ffc3ea94e079e334a7079c5f92dc236f49508432a16e5a8c17860e10eb0a8d8

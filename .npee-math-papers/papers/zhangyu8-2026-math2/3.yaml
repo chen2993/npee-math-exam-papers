@@ -4,7 +4,6 @@ paper:
   year: 2026
   subject: math2
   paper_no: 3
-content_hash: af076c01e8ee8e61ffc469afe3a9b65161aea2b5ff3139de1dc4afc78ab953d3
 questions:
 - number: 1
   section: choice
@@ -175,7 +174,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $3$ 阶矩阵 $A,B$ 满足 $r(BA)<r(AB)$，对于以下结论：① $ABx=0$ 与 $BAx=0$ 有非零公共解；② $ABAx=0$ 与 $BABx=0$ 有非零公共解。正确的说法是\ExamSelection。
+      设 $3$ 阶矩阵 $A,B$ 满足 $r(BA)<r(AB)$，对于以下结论：\n① $ABx=0$ 与 $BAx=0$ 有非零公共解；\n② $ABAx=0$ 与 $BABx=0$ 有非零公共解。\n正确的说法是\ExamSelection。
   choices:
   - label: A
     text: ①错误，②正确
@@ -194,7 +193,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $A$ 为 $n$ 阶方阵，有下列结论：①若 $A$ 的全部顺序主子式为正，则 $A$ 正定；②若 $A$ 相似于对角矩阵 $\Lambda$，则 $A$ 与 $\Lambda$ 合同；③若 $A$ 与正定矩阵合同，则 $A$ 为正定矩阵。则正确结论的个数为\ExamSelection。
+      设 $A$ 为 $n$ 阶方阵，有下列结论：\n①若 $A$ 的全部顺序主子式为正，则 $A$ 正定；\n②若 $A$ 相似于对角矩阵 $\Lambda$，则 $A$ 与 $\Lambda$ 合同；\n③若 $A$ 与正定矩阵合同，则 $A$ 为正定矩阵。\n则正确结论的个数为\ExamSelection。
   choices:
   - label: A
     text: $0$
@@ -290,3 +289,4 @@ questions:
       求 $k$ 的值，并求正交矩阵 $Q$，将 $f(\boldsymbol{x})$ 化为标准形；
   - text: |-
       求一个实对称矩阵 $P$，使 $f(\boldsymbol{x})=(P\boldsymbol{x})^TP\boldsymbol{x}$。
+content_hash: 265e3378221b4cf99cfb64f078388ec45bd86b93f5f3197187f799f5f642019c

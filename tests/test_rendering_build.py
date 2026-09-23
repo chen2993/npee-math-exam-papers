@@ -50,7 +50,7 @@ def _composition(*, year: int | None = 2024) -> dict:
             "engine": "xelatex",
             "passes": 1,
             "targets": [
-                {"layout": "a4", "theme": "print", "spacing": "compact", "enabled": True, "answers": False, "output_suffix": None}
+                {"layout": "a4", "theme": "print", "spacing": "compact", "print": True, "enabled": True, "answers": False, "output_suffix": None}
             ],
             "output": {"directory": "build/demo-out", "filename_template": "x-{layout}-{spacing}.pdf", "overwrite": True},
         },
@@ -87,10 +87,17 @@ def test_dry_run_builds_tex_and_reports_targets(build_env) -> None:
     report = build(options)
     assert report["composition_id"] == "demo-comp"
     assert len(report["targets"]) == 1
-    main = package / "gen" / "a4-print-compact" / "main.tex"
+    # 工作目录标签带上留白标记，避免同一间距的两份产物互相覆盖。
+    main = package / "gen" / "a4-print-compact-print" / "main.tex"
     assert main.is_file()
     text = main.read_text(encoding="utf-8")
-    assert "\\documentclass[a4,print,compact]{npee-math-exam}" in text
+    # The theme value ``print`` is emitted as the class option token ``plain``:
+    # the token ``print`` means the blank-space switch, and one option token
+    # cannot carry two meanings.
+    assert "\\documentclass[a4,plain,compact,print]{npee-math-exam}" in text
+    # 间距与留白分头下发：答案版面交给间距策略，补页交给留白策略。
+    assert "\\NPEEApplyTargetSpacingPolicy{compact}" in text
+    assert "\\NPEEApplyTargetPrintPolicy{1}" in text
     assert "\\begin{document}" in text
 
 

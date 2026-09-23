@@ -4,14 +4,13 @@ paper:
   year: 2024
   subject: math2
   paper_no: 8
-content_hash: 2fe6c456dd405a2ccdaf9b614f566e979a0a09775227c08b16c9644578b6339a
 questions:
 - number: 1
   section: choice
   points: 5
   stem:
     text: |-
-      设函数 $f(x)=1+2x^2+o(x^2)$，$x\in\mathring{U}(0,\delta)$，且 $f(0)=1$，则下列命题：① $f'(x)=4x+o(x)$，$x\in\mathring{U}(0,\delta)$；② $f'(0)=0$；③ $f''(0)=4$；④ $f(x)$ 在 $(-\delta,\delta)$ 内为凹函数。正确的个数是\ExamSelection。
+      设函数 $f(x)=1+2x^2+o(x^2)$，$x\in\mathring{U}(0,\delta)$，且 $f(0)=1$，则下列命题：\n① $f'(x)=4x+o(x)$，$x\in\mathring{U}(0,\delta)$；\n② $f'(0)=0$；\n③ $f''(0)=4$；\n④ $f(x)$ 在 $(-\delta,\delta)$ 内为凹函数。\n正确的个数是\ExamSelection。
   choices:
   - label: A
     text: $1$
@@ -141,7 +140,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设曲线 $L:y=\cos x$，$L_1$ 与 $L_2$ 分别为 $L$ 上点 $\left(-\dfrac{\pi}{2},0\right)$ 与 $\left(\dfrac{\pi}{2},0\right)$ 处的切线，若函数 $f(x,y)$ 在 $L,L_1$ 与 $L_2$ 所围闭区域 $D$ 上连续，则下列等式成立的有：① $\iint_Df(x,y)\,\mathrm{d}\sigma=\int_{-\pi/2}^{\pi/2}\mathrm{d}x\int_{\cos x}^{\pi/2}f(x,y)\,\mathrm{d}y$；② $\iint_Df(x,y)\,\mathrm{d}\sigma=\int_0^{\pi/2}\mathrm{d}y\int_{y-\pi/2}^{\pi/2-y}f(x,y)\,\mathrm{d}x$；③ $\iint_Df(x,y)\,\mathrm{d}\sigma=2\int_0^1\mathrm{d}y\int_{\arccos y}^{\pi/2-y}f(x,y)\,\mathrm{d}x+\int_1^{\pi/2}\mathrm{d}y\int_{y-\pi/2}^{\pi/2-y}f(x,y)\,\mathrm{d}x$；④ $\iint_Df(x,y)\,\mathrm{d}\sigma=\int_{-\pi/2}^0\mathrm{d}x\int_{\cos x}^{\pi/2+x}f(x,y)\,\mathrm{d}y+\int_0^{\pi/2}\mathrm{d}x\int_{\cos x}^{\pi/2-x}f(x,y)\,\mathrm{d}y$。正确的有\ExamSelection{}个。
+      设曲线 $L:y=\cos x$，$L_1$ 与 $L_2$ 分别为 $L$ 上点 $\left(-\dfrac{\pi}{2},0\right)$ 与 $\left(\dfrac{\pi}{2},0\right)$ 处的切线，若函数 $f(x,y)$ 在 $L,L_1$ 与 $L_2$ 所围闭区域 $D$ 上连续，则下列等式成立的有：\n① $\iint_Df(x,y)\,\mathrm{d}\sigma=\int_{-\pi/2}^{\pi/2}\mathrm{d}x\int_{\cos x}^{\pi/2}f(x,y)\,\mathrm{d}y$；\n② $\iint_Df(x,y)\,\mathrm{d}\sigma=\int_0^{\pi/2}\mathrm{d}y\int_{y-\pi/2}^{\pi/2-y}f(x,y)\,\mathrm{d}x$；\n③ $\iint_Df(x,y)\,\mathrm{d}\sigma=2\int_0^1\mathrm{d}y\int_{\arccos y}^{\pi/2-y}f(x,y)\,\mathrm{d}x+\int_1^{\pi/2}\mathrm{d}y\int_{y-\pi/2}^{\pi/2-y}f(x,y)\,\mathrm{d}x$；\n④ $\iint_Df(x,y)\,\mathrm{d}\sigma=\int_{-\pi/2}^0\mathrm{d}x\int_{\cos x}^{\pi/2+x}f(x,y)\,\mathrm{d}y+\int_0^{\pi/2}\mathrm{d}x\int_{\cos x}^{\pi/2-x}f(x,y)\,\mathrm{d}y$。\n正确的有\ExamSelection{}个。
   choices:
   - label: A
     text: $1$
@@ -291,3 +290,4 @@ questions:
       $A\xi_1=0$，且 $B$ 的列向量组与 $\xi_1,\xi_2$ 等价；
   - text: |-
       求可逆矩阵 $P$，使 $P^{-1}AP=\Lambda$，$\Lambda$ 为对角阵。
+content_hash: 126979171f4e7369491eca09d58ed909f7d890222550d688acdd002ed9bc7c59

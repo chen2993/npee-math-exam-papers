@@ -4,7 +4,6 @@ paper:
   year: 2025
   subject: math1
   paper_no: 9
-content_hash: 4e3d651fa23ff2c11765c40236398bcc9372ceff6e6757f20d34a8b77cb4f44b
 questions:
 - number: 1
   section: choice
@@ -32,7 +31,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设函数 $f(x,y)=\begin{cases}1,&0<y\leq x^2\\0,&\text{其他，}\end{cases}$，则下列关于 $f(x,y)$ 在点 $(0,0)$ 的说法正确的有\ExamSelection{}个。①连续；②偏导数存在；③可微；④沿任意方向方向导数存在
+      设函数 $f(x,y)=\begin{cases}1,&0<y\leq x^2\\0,&\text{其他，}\end{cases}$，则下列关于 $f(x,y)$ 在点 $(0,0)$ 的说法正确的有\ExamSelection{}个。\n①连续；\n②偏导数存在；\n③可微；\n④沿任意方向方向导数存在
   choices:
   - label: A
     text: $1$
@@ -304,3 +303,4 @@ questions:
       计算 $P\{\min(X+Y,3X-Y)\leq 2\}$；
   - text: 求 $(X,Y)$ 的分布函数 $F(x,y)$；
   - text: 求 $Y$ 的分布函数。
+content_hash: 2f8ef5365f4667d6a18e62762749b668553a18b3f04267a98811fe161360ec8d

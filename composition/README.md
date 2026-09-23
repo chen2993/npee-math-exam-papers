@@ -1,9 +1,9 @@
-# 组卷包
+# 组卷包（composition）
 
 每套可复现组卷使用一个独立目录：
 
 ```text
-collections/<collection-id>/
+composition/<composition-id>/
 |- composition.json
 |- cover-preamble.tex
 |- cover.tex
@@ -16,6 +16,10 @@ collections/<collection-id>/
 `.npee-math-papers/papers/<series>-<year>-<subject>/<paper_no>.yaml` 读取，
 套卷由 `composition.json` 的引用（`series_key`/`year`/`subject`/`paper_no`）精确定位；
 题库是唯一事实源，组卷包本身不复制题面。
+
+包内可以放**只属于这一套卷的附件**，例如 `jiaji-eighty-five/errata/` 下的读者版勘误
+清单（LaTeX 源，编译产物输出到 `dist/<composition-id>/errata/`）。附件不参与组卷，
+构建器只读取包根目录下的 `*.tex` 与 `assets/`。
 
 所有可执行 `.tex` 文件，包括封面设计、矢量路径片段与 Hook，都和 `composition.json` 同级。`assets/`
 只保存图片、PDF、字体和其他非代码资源。`document.cover.path` 指向 `cover.tex`，它在

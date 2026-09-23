@@ -69,7 +69,8 @@ npee_math_papers/          Python 包
 ├─ frontend/               人类网页管理台（React + Vite）
 ├─ tex/                    LaTeX 排版类
 └─ maintenance/            迁移、审计、环境检查
-collections/               组卷配置（只引用自然键）
+composition/               组卷配置（只引用自然键）
+dist/                      编译产物（PDF，不入库）
 docs/                      文档
 .npee-math-papers/         题库数据库
 ```

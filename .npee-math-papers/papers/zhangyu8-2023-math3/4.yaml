@@ -4,7 +4,6 @@ paper:
   year: 2023
   subject: math3
   paper_no: 4
-content_hash: e8ebd71cccce0eda71540508c2961a65c12af0e63e266b2cf1f7ee79edc9726a
 questions:
 - number: 1
   section: choice
@@ -91,7 +90,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $2$ 阶实对称矩阵 $A$ 有二重特征值 $\lambda$，$\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2$ 是 $A$ 对应于特征值 $\lambda$ 的两个正交的特征向量，且 $(\\|\boldsymbol{\alpha}_1\\|)^2=k_1\text{，}(\\|\boldsymbol{\alpha}_2\\|)^2=k_2$，则 $A+\boldsymbol{\alpha}_1\boldsymbol{\alpha}_1^{\mathrm T}$ 相似于对角矩阵\ExamSelection
+      设 $2$ 阶实对称矩阵 $A$ 有二重特征值 $\lambda$，$\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2$ 是 $A$ 对应于特征值 $\lambda$ 的两个正交的特征向量，且 $(\|\boldsymbol{\alpha}_1\|)^2=k_1\text{，}(\|\boldsymbol{\alpha}_2\|)^2=k_2$，则 $A+\boldsymbol{\alpha}_1\boldsymbol{\alpha}_1^{\mathrm T}$ 相似于对角矩阵\ExamSelection
   choices:
   - label: A
     text: |-
@@ -133,7 +132,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $A$ 是 $m\times n$ 矩阵，且 $n$ 维列向量组 $\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\cdots,\boldsymbol{\alpha}_s$ 线性无关，则下面对 $m$ 维列向量组 $A\boldsymbol{\alpha}_1,A\boldsymbol{\alpha}_2,\cdots,A\boldsymbol{\alpha}_s$ 的描述中：①若 $r(A)=n$，则向量组 $A\boldsymbol{\alpha}_1,A\boldsymbol{\alpha}_2,\cdots,A\boldsymbol{\alpha}_s$ 必线性无关；②若 $r(A)<n$，则向量组 $A\boldsymbol{\alpha}_1,A\boldsymbol{\alpha}_2,\cdots,A\boldsymbol{\alpha}_s$ 必线性相关\ExamSelection。
+      设 $A$ 是 $m\times n$ 矩阵，且 $n$ 维列向量组 $\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\cdots,\boldsymbol{\alpha}_s$ 线性无关，则下面对 $m$ 维列向量组 $A\boldsymbol{\alpha}_1,A\boldsymbol{\alpha}_2,\cdots,A\boldsymbol{\alpha}_s$ 的描述中：\n①若 $r(A)=n$，则向量组 $A\boldsymbol{\alpha}_1,A\boldsymbol{\alpha}_2,\cdots,A\boldsymbol{\alpha}_s$ 必线性无关；\n②若 $r(A)<n$，则向量组 $A\boldsymbol{\alpha}_1,A\boldsymbol{\alpha}_2,\cdots,A\boldsymbol{\alpha}_s$ 必线性相关\ExamSelection。
   choices:
   - label: A
     text: ①正确，②也正确。
@@ -301,3 +300,4 @@ questions:
       $\theta$ 的矩估计量 $\hat\theta_M$ 及 $E(\hat\theta_M)$；
   - text: |-
       $\theta$ 的最大似然估计量 $\hat\theta_L$ 及 $E(\hat\theta_L)$。
+content_hash: 972ae372ed80623c59b51a2dcb33c39f2f09dbda28eb6d0bd342b5d98ffa4438

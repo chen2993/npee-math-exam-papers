@@ -17,7 +17,7 @@ python -m pip install -r npee_math_papers/api/requirements.txt
 python -c "from npee_math_papers.mcp.server import build_server; print(len(build_server()._tool_manager._tools))"
 ```
 
-应输出 `34`。
+应输出 `37`。
 
 ## 二、传输方式
 
@@ -57,7 +57,7 @@ python -c "from npee_math_papers.mcp.server import build_server; print(len(build
   或用 `NPEE_DATA_ROOT` 显式指定数据根（上例已指定）。
 - `NPEE_DATA_ROOT` 指向仓库里的 `.npee-math-papers/`。省略时按包位置推导。
 
-改完重启 OpenCode，在工具列表里应看到 34 个 `npee_*` 工具。
+改完重启 OpenCode，在工具列表里应看到 37 个 `npee_*` 工具。
 
 ## 四、HTTP 方式配置
 
@@ -137,6 +137,9 @@ python -m npee_math_papers.mcp.server --http --port 8780
 组卷
   npee_build_composition      生成组卷（封印版本）
   npee_validate_composition   校验组卷与版本绑定
+  npee_composition_packages   列出 composition/ 下的正式组卷包
+  npee_composition_package    读取一个组卷包的完整文档
+  npee_composition_package_save  把组卷文档写回包内（先校验再落盘）
   npee_composition_compile    编译 PDF（同步）
   npee_composition_submit     提交后台编译任务
   npee_composition_job        查询编译任务状态

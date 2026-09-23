@@ -4,7 +4,6 @@ paper:
   year: 2023
   subject: math1
   paper_no: 3
-content_hash: e131b3f1a77a34cd00360f4f653cff9f26248cd7b74891c664dfdbc3654becf6
 questions:
 - number: 1
   section: choice
@@ -114,7 +113,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $A$ 为 $3$ 阶非零矩阵，则下列条件中，不是 $Ax=0$ 与 $A^*x=0$ 有非零公共解的充分条件的个数是\ExamSelection① $r\begin{pmatrix}A\\A^*\end{pmatrix}<3$；② $r(A,A^*)<3$；③ $r(A)=2$，且 $A^*$ 是对称矩阵；④ $r(A)=2$，且 $A^*$ 不是对称矩阵。
+      设 $A$ 为 $3$ 阶非零矩阵，则下列条件中，不是 $Ax=0$ 与 $A^*x=0$ 有非零公共解的充分条件的个数是\ExamSelection\n① $r\begin{pmatrix}A\\A^*\end{pmatrix}<3$；\n② $r(A,A^*)<3$；\n③ $r(A)=2$，且 $A^*$ 是对称矩阵；\n④ $r(A)=2$，且 $A^*$ 不是对称矩阵。
   choices:
   - label: A
     text: $1$
@@ -306,3 +305,4 @@ questions:
   - text: 求常数 $C$；
   - text: |-
       求随机变量 $Z=\dfrac{Y}{X}$ 的分布函数。
+content_hash: 9a6374a8f24be95054f38754f1d065ed4a90ba9c9fe56e8d52590849d6ec77ce

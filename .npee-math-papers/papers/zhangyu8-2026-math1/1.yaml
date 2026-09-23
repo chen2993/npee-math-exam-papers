@@ -4,7 +4,6 @@ paper:
   year: 2026
   subject: math1
   paper_no: 1
-content_hash: 77c4aad83541a23316f9e4a8db289fbc05a9fd4ce3c56bc1d63409689c187d9b
 questions:
 - number: 1
   section: choice
@@ -53,7 +52,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设级数① $\displaystyle \sum_{n=1}^{\infty}\dfrac{1}{n^{1+\dfrac{1}{n}}}$，② $\displaystyle \sum_{n=2}^{\infty}\dfrac{1}{n^{1+\dfrac{1}{\sqrt{\ln n}}}}$，则\ExamSelection
+      设级数\n① $\displaystyle \sum_{n=1}^{\infty}\dfrac{1}{n^{1+\dfrac{1}{n}}}$，\n② $\displaystyle \sum_{n=2}^{\infty}\dfrac{1}{n^{1+\dfrac{1}{\sqrt{\ln n}}}}$，则\ExamSelection
   choices:
   - label: A
     text: ①收敛，②发散
@@ -72,7 +71,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $f(x)$ 在 $(0,+\infty)$ 内可导，以下结论：①若 $\displaystyle \lim_{x\to+\infty}f(x)$ 存在，则 $\displaystyle \lim_{x\to+\infty}f'(x)$ 存在；②若 $\displaystyle \lim_{x\to+\infty}f'(x)$ 存在，则 $\displaystyle \lim_{x\to+\infty}f(x)$ 存在；③若 $\displaystyle \lim_{x\to+\infty}f'(x)=a\neq 0$，则 $f(x)$ 在 $x\to+\infty$ 时无界；④若 $\displaystyle \lim_{x\to+\infty}f'(x)=0$，则 $f(x)$ 在 $x\to+\infty$ 时有界。正确的个数为\ExamSelection
+      设 $f(x)$ 在 $(0,+\infty)$ 内可导，以下结论：\n①若 $\displaystyle \lim_{x\to+\infty}f(x)$ 存在，则 $\displaystyle \lim_{x\to+\infty}f'(x)$ 存在；\n②若 $\displaystyle \lim_{x\to+\infty}f'(x)$ 存在，则 $\displaystyle \lim_{x\to+\infty}f(x)$ 存在；\n③若 $\displaystyle \lim_{x\to+\infty}f'(x)=a\neq 0$，则 $f(x)$ 在 $x\to+\infty$ 时无界；\n④若 $\displaystyle \lim_{x\to+\infty}f'(x)=0$，则 $f(x)$ 在 $x\to+\infty$ 时有界。\n正确的个数为\ExamSelection
   choices:
   - label: A
     text: $1$
@@ -299,3 +298,4 @@ questions:
       求 $P\{Y>0\}$；
   - text: |-
       若有 $N$ 组机器承接制作产品的任务，收益大于 $0$ 的组数记为 $M$，记 $N\sim P(2e^2)$，在 $N=n(n\geq1)$ 的条件下，$M\sim B(n,P\{Y>0\})$，求 $M$ 的概率分布。
+content_hash: 9266c3c85f9489ca4b72449c6bf0c158b13242d5838f506b2ad9920f3228c376

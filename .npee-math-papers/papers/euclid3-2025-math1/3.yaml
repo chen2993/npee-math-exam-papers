@@ -4,7 +4,6 @@ paper:
   year: 2025
   subject: math1
   paper_no: 3
-content_hash: 6a91f29fff8f542b4bd19f5b95f717e6d4afb259477b2dcf0d163d3302738b9c
 questions:
 - number: 1
   section: choice
@@ -93,7 +92,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设二次型 $f(x_1,x_2,x_3)=x^TAx=x_1^2+ax_2^2+x_3^2+2x_1x_2-2ax_1x_3-2x_2x_3$，已知矩阵 $B=\begin{pmatrix}1&-1&1\\-1&1&-1\\1&-1&1\end{pmatrix}$，$C=\begin{pmatrix}-1&0&0\\0&1&0\\0&0&-1\end{pmatrix}$，$D=\begin{pmatrix}1-a&0&1\\0&a-1&0\\0&0&a+2\end{pmatrix}$，$A$ 为二次型的矩阵。以下命题正确的为\ExamSelection
+      设二次型 $f(x_1,x_2,x_3)=x^TAx=x_1^2+ax_2^2+x_3^2+2x_1x_2-2ax_1x_3-2x_2x_3$，已知矩阵 $B=\begin{pmatrix}1&-1&1\\-1&1&-1\\1&-1&1\end{pmatrix}$，$C=\begin{pmatrix}-1&0&0\\0&1&0\\0&0&-1\end{pmatrix}$，$D=\begin{pmatrix}1-a&0&1\\0&a-1&0\\0&0&a+2\end{pmatrix}$，$A$ 为二次型的矩阵。以下命题正确的为\ExamSelection\n① $a=1$ 时，$A$ 与 $B$ 相似且合同；\n② $a=-3$ 时，$A$ 与 $C$ 合同，但不相似；\n③ $a>1$ 时，$A$ 与 $B+C$ 合同；\n④ 当 $a$ 取恰当值时，$A$ 可能与 $D$ 等价且合同。
   choices:
   - label: A
     text: ①②
@@ -107,11 +106,6 @@ questions:
   - label: D
     text: ①②④
     figures: []
-  subparts:
-  - text: $a=1$ 时，$A$ 与 $B$ 相似且合同；
-  - text: $a=-3$ 时，$A$ 与 $C$ 合同，但不相似；
-  - text: $a>1$ 时，$A$ 与 $B+C$ 合同；
-  - text: 当 $a$ 取恰当值时，$A$ 可能与 $D$ 等价且合同。
 - number: 6
   section: choice
   points: 5
@@ -140,7 +134,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $A$ 是 $3$ 阶实对称矩阵，$|A-E|=|A-2E|=0$，且 $A$ 的各元素的后 $2$ 个分量之和为 $0$，则下列说法中正确的个数是\ExamSelection
+      设 $A$ 是 $3$ 阶实对称矩阵，$|A-E|=|A-2E|=0$，且 $A$ 的各元素的后 $2$ 个分量之和为 $0$，则下列说法中正确的个数是\ExamSelection\n① $|A|=0$；\n② $A_{33}=1$；\n③ $r(A+A^*)=2$；\n④ $r(A,A^*)=3$
   choices:
   - label: A
     text: '1'
@@ -154,11 +148,6 @@ questions:
   - label: D
     text: '4'
     figures: []
-  subparts:
-  - text: ① $|A|=0$；
-  - text: ② $A_{33}=1$；
-  - text: ③ $r(A+A^*)=2$；
-  - text: ④ $r(A,A^*)=3$
 - number: 8
   section: choice
   points: 5
@@ -289,7 +278,12 @@ questions:
   points: 12
   stem:
     text: |-
-      设函数 $f_n(x)=\dfrac{2n}{e}\left[e^x-\left(1+\dfrac{x}{n}\right)^n\right]$。\par\begin{minipage}{\linewidth}(I)\ 证明：对任意的正整数 $n$，在区间 $[0,1]$ 内都有 $0\leq f_n(x)\leq x^2e^{x-1}$ 成立；\\(II)\ 设数列 $\{a_n\}$ 满足 $a_1=1$，$a_{n+1}=\int_0^{a_n}f_n(x)\,\mathrm{d}x$。证明 $\lim_{n\to\infty}a_n$ 存在，并求此极限。\end{minipage}\par
+      设函数 $f_n(x)=\dfrac{2n}{e}\left[e^x-\left(1+\dfrac{x}{n}\right)^n\right]$。
+  subparts:
+  - text: |-
+      证明：对任意的正整数 $n$，在区间 $[0,1]$ 内都有 $0\leq f_n(x)\leq x^2e^{x-1}$ 成立；
+  - text: |-
+      设数列 $\{a_n\}$ 满足 $a_1=1$，$a_{n+1}=\int_0^{a_n}f_n(x)\,\mathrm{d}x$。证明 $\lim_{n\to\infty}a_n$ 存在，并求此极限。
 - number: 21
   section: solution
   points: 12
@@ -302,3 +296,4 @@ questions:
   stem:
     text: |-
       设 $X$ 的密度函数 $f(x)=\dfrac{1}{2\lambda}e^{-\dfrac{|x|}{\lambda}}\ (-\infty<x<+\infty)$，其中 $\lambda>0$，设 $Y=\begin{cases}1,&|X|\leq 1,\\-1,&|X|>1,\end{cases}$，$Z=XY$。$(I)$ 求 $Z$ 的密度函数；$(II)$ 设 $Z_1,Z_2,\cdots,Z_n$ 为来自总体 $Z$ 的简单随机样本，求 $\lambda$ 的最大似然估计 $\hat{\lambda}$。
+content_hash: 2668bb7ddbb38d1e22793b7f088ebc516f683b54d2274af4ef70b165ac80ab90

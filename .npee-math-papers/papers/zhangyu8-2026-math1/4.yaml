@@ -4,14 +4,13 @@ paper:
   year: 2026
   subject: math1
   paper_no: 4
-content_hash: d4a34f76cc55d07872b30eea277b75b6a62db8557f7085d50d087873f6ea8564
 questions:
 - number: 1
   section: choice
   points: 5
   stem:
     text: |-
-      设函数 $f(x)$ 在 $x=0$ 的某邻域内有定义，且 $\lim_{x\to0}\dfrac{x-f(x)}{\ln(1+x)}=1$，则以下叙述：①$f(0)=0$；②$\lim_{x\to0}f(x)=f(0)$；③$\lim_{x\to0}\dfrac{f(x)}{x}=1$；④当 $x\to0$ 时，$f(x)$ 是 $x$ 的高阶无穷小。正确叙述的个数为\ExamSelection
+      设函数 $f(x)$ 在 $x=0$ 的某邻域内有定义，且 $\lim_{x\to0}\dfrac{x-f(x)}{\ln(1+x)}=1$，则以下叙述：\n①$f(0)=0$；\n②$\lim_{x\to0}f(x)=f(0)$；\n③$\lim_{x\to0}\dfrac{f(x)}{x}=1$；\n④当 $x\to0$ 时，$f(x)$ 是 $x$ 的高阶无穷小。\n正确叙述的个数为\ExamSelection
   choices:
   - label: A
     text: 1。
@@ -166,7 +165,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $F_n(x)=\dfrac{\nu_n(x)}{n}$，$x\in\mathbb R$，其中 $\nu_n(x)$ 表示从总体 $X$ 中取出的样本 $X_1,X_2,\cdots,X_n$ 的 $n$ 个观测值中不大于 $x$ 的观测值个数。$F(x)$ 是 $X$ 的分布函数，则以下结论：①$EF_n(x)=F(x)$；②$F_n(x)\xrightarrow{P}F(x)$；③$F_n(x)$ 是一个分布函数；④$F_n(x)$ 是一个统计量。正确结论的个数为\ExamSelection
+      设 $F_n(x)=\dfrac{\nu_n(x)}{n}$，$x\in\mathbb R$，其中 $\nu_n(x)$ 表示从总体 $X$ 中取出的样本 $X_1,X_2,\cdots,X_n$ 的 $n$ 个观测值中不大于 $x$ 的观测值个数。$F(x)$ 是 $X$ 的分布函数，则以下结论：\n①$EF_n(x)=F(x)$；\n②$F_n(x)\xrightarrow{P}F(x)$；\n③$F_n(x)$ 是一个分布函数；\n④$F_n(x)$ 是一个统计量。\n正确结论的个数为\ExamSelection
   choices:
   - label: A
     text: 1。
@@ -307,3 +306,4 @@ questions:
   - text: 求 $T$ 的概率密度；
   - text: |-
       当 $T_1,T_2,\cdots,T_n,\cdots$ 独立同分布于总体 $T$ 时，$\displaystyle\dfrac1n\sum_{i=1}^nT_i^2$ 在 $n\to\infty$ 的条件下依概率收敛于 $a$，求 $a$ 的值。
+content_hash: 9c3431145db571a39a0d47f3bfed9b23dc018959bbb1e0dea0a06ed293e6fefa

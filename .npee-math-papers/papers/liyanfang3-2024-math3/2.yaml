@@ -4,7 +4,6 @@ paper:
   year: 2024
   subject: math3
   paper_no: 2
-content_hash: 1b51b0298018e3b1a78c20d2bdb2d2b4aa565094953dfa8e31a765cb8ddff180
 questions:
 - number: 1
   section: choice
@@ -76,7 +75,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设数列 $\{x_n\}$ 和 $\{y_n\}$ 满足 $\begin{cases}x_1=1,\\y_1=0\end{cases}$ 和 $\begin{cases}x_{n+1}=\dfrac{1}{2}x_n+ay_n,\\y_{n+1}=ax_n-\dfrac{1}{2}y_n\end{cases}$，则下列 $a$ 的取值中，能使得 $\lim_{n\to\infty}(|x_n|+|y_n|)=0$ 的个数为 $\ExamSelection$。① $-1$；② $-\dfrac{1}{2}$；③ $\dfrac{2}{3}$；④ $1$。
+      设数列 $\{x_n\}$ 和 $\{y_n\}$ 满足 $\begin{cases}x_1=1,\\y_1=0\end{cases}$ 和 $\begin{cases}x_{n+1}=\dfrac{1}{2}x_n+ay_n,\\y_{n+1}=ax_n-\dfrac{1}{2}y_n\end{cases}$，则下列 $a$ 的取值中，能使得 $\lim_{n\to\infty}(|x_n|+|y_n|)=0$ 的个数为 $\ExamSelection$。\n① $-1$；\n② $-\dfrac{1}{2}$；\n③ $\dfrac{2}{3}$；\n④ $1$。
   choices:
   - label: A
     text: $1$
@@ -317,3 +316,4 @@ questions:
       若当 $\theta=\theta_0$ 时，$D(Z)$ 最小，求 $\theta_0$，并求此时 $Z$ 的概率密度；
   - text: |-
       在第（I）问的基础上，求 $\operatorname{Cov}(Z,Z^2)$。
+content_hash: 5d3d40233552c41d481ea48f3e214367a30bab24cf310234850012fda0f0ee05

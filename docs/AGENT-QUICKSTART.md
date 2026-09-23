@@ -226,8 +226,8 @@ python -m npee_math_papers.maintenance.check_math_cjk         # 扫描数学模�
 python -m npee_math_papers.maintenance.check_environment      # 环境检查
 python -m npee_math_papers.maintenance.verify_compile         # 逐套单独编译 + 渲染泄漏检测
 python -m npee_math_papers.maintenance.verify_compile --limit 20 --json build/compile-verify.json
-python -m npee_math_papers.maintenance.verify_compile --matrix  # a4/a3 × 紧凑/宽松/打印版 + cream 主题 + 含答案
-python -m npee_math_papers.maintenance.verify_compile --matrix --collections  # 再加 collections/ 正式组卷包
+python -m npee_math_papers.maintenance.verify_compile --matrix  # a4/a3 × 间距(紧凑/宽松) × 留白(开/关) + 历史键 + cream 主题 + 含答案
+python -m npee_math_papers.maintenance.verify_compile --matrix --compositions  # 再加 composition/ 正式组卷包
 python -m npee_math_papers.maintenance.extraction_brief --series ... --year ... --subject ...   # 生成提取简报
 ```
 
@@ -236,9 +236,10 @@ python -m npee_math_papers.maintenance.extraction_brief --series ... --year ... 
 `lambda`）。合法运算符（`\arcsin` 等）本身就会渲染成同样的 ASCII 词，因此该工具
 用数学斜体 Unicode 区分，避免把运算符误报为泄漏。
 
-`--matrix` 让每套卷在全部版式（a4/a3 × 紧凑/宽松/打印版，另加 cream 主题与
-`answers=true` 含答案模式，共 7 个变体）下各编一份；
-`--collections` 还会编译 `collections/<id>/composition.json`（含封面、前言与 Hook
+`--matrix` 让每套卷在全部组合（a4/a3 × 间距 compact/spaced × 留白 开/关，另加
+`spacing=print` 与 `a4-blank` 两个历史键以证明旧组卷包仍可编译，再加 cream 主题
+与 `answers=true` 含答案模式）下各编一份；
+`--compositions` 还会编译 `composition/<id>/composition.json`（含封面、前言与 Hook
 等包内 `\input` 资源）。
 
 ## 十、边界

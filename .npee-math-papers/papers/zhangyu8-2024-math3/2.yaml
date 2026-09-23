@@ -4,7 +4,6 @@ paper:
   year: 2024
   subject: math3
   paper_no: 2
-content_hash: 146749469e1b3b45d2762327b90713b0cb514cd3bb68b17a688402f325ed924c
 questions:
 - number: 1
   section: choice
@@ -103,7 +102,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 3 维列向量组 $\alpha_1,\alpha_2,\alpha_3$ 与 $\beta_1,\beta_2,\beta_3$ 等价，记 $A=(\alpha_1,\alpha_2,\alpha_3),B=(\beta_1,\beta_2,\beta_3)$，则下列结论：①$Ax=0$ 与 $Bx=0$ 同解；②$A^{\mathrm T}x=0$ 与 $B^{\mathrm T}x=0$ 同解；③$\begin{pmatrix}A\\B\end{pmatrix}x=0$ 与 $Ax=0$ 同解；④$\begin{pmatrix}A^{\mathrm T}\\B^{\mathrm T}\end{pmatrix}x=0$ 与 $A^{\mathrm T}x=0$ 同解。所有正确结论的序号是\ExamSelection。
+      设 3 维列向量组 $\alpha_1,\alpha_2,\alpha_3$ 与 $\beta_1,\beta_2,\beta_3$ 等价，记 $A=(\alpha_1,\alpha_2,\alpha_3),B=(\beta_1,\beta_2,\beta_3)$，则下列结论：\n①$Ax=0$ 与 $Bx=0$ 同解；\n②$A^{\mathrm T}x=0$ 与 $B^{\mathrm T}x=0$ 同解；\n③$\begin{pmatrix}A\\B\end{pmatrix}x=0$ 与 $Ax=0$ 同解；\n④$\begin{pmatrix}A^{\mathrm T}\\B^{\mathrm T}\end{pmatrix}x=0$ 与 $A^{\mathrm T}x=0$ 同解。\n所有正确结论的序号是\ExamSelection。
   choices:
   - label: A
     text: ①②
@@ -301,3 +300,4 @@ questions:
   subparts:
   - text: $X$ 的概率密度；
   - text: $E(Z)$。
+content_hash: 8e2f9bc55f4a300757a814f9e422aba227fb2f93fe377f1c90a557c14993f14a

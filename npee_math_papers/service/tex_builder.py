@@ -40,10 +40,11 @@ from npee_math_papers.core.domain import (  # noqa: E402
     LAYOUTS,
     SECTION_LABELS,
     SPACING_LABELS,
-    SPACINGS,
+    STORED_SPACINGS,
     SUBJECT_CODES,
     SUBJECT_LABELS,
     SUBJECTS,
+    target_label,
 )
 from npee_math_papers.service.rendering.errors import CompositionError, fail  # noqa: E402
 from npee_math_papers.service.rendering.content import (  # noqa: E402,F401
@@ -62,7 +63,7 @@ from npee_math_papers.service.rendering.document import (  # noqa: E402,F401
     make_main,
     matter_block,
     opening_settings,
-    solution_structure,
+    validate_solution_override,
     subject_output_name,
     target_matrix,
     watermark_lines,
@@ -151,7 +152,7 @@ def parse_args(argv: list[str] | None = None) -> BuildOptions:
     parser.add_argument("--dry-run", action="store_true", help="只生成 TeX，不调用 XeLaTeX")
     parser.add_argument("--clean", action="store_true", help="先清空本组卷的生成目录")
     parser.add_argument("--no-watermark", action="store_true", help="关闭本次编译水印")
-    parser.add_argument("--spacing", choices=SPACINGS, help="只编译指定版式")
+    parser.add_argument("--spacing", choices=STORED_SPACINGS, help="只编译指定间距（含历史写法）")
     parser.add_argument("--layouts", choices=("a3", "a4", "both"), help="只编译指定纸张")
     args = parser.parse_args(argv)
     return BuildOptions(
@@ -240,6 +241,7 @@ def _build_impl(options: BuildOptions, composition_path: Path) -> dict[str, Any]
     if isinstance(passes, bool) or not isinstance(passes, int) or not 1 <= passes <= 5:
         fail("compile.passes must be an integer from 1 to 5")
     targets = target_matrix(document, compile_config)
+    validate_solution_override(document)
     if options.spacing:
         targets = [target for target in targets if target["spacing"] == options.spacing]
     if options.layouts and options.layouts != "both":
@@ -325,7 +327,17 @@ def _build_impl(options: BuildOptions, composition_path: Path) -> dict[str, Any]
     generated: list[dict[str, Any]] = []
     for subject, rebuilt_groups in rebuilt_variants:
         for target in targets:
-            label_parts = [part for part in (subject, target["layout"], target["theme"], target["spacing"]) if part]
+            label_parts = [
+                part
+                for part in (
+                    subject,
+                    target["layout"],
+                    target["theme"],
+                    target["spacing"],
+                    "print" if target.get("print") else None,
+                )
+                if part
+            ]
             label = "-".join(label_parts)
             variant_dir = work_dir / label
             variant_dir.mkdir(parents=True, exist_ok=True)
@@ -338,7 +350,9 @@ def _build_impl(options: BuildOptions, composition_path: Path) -> dict[str, Any]
                 "layout": target["layout"].upper(),
                 "theme": target["theme"],
                 "spacing": target["spacing"],
-                "spacing_label": SPACING_NAMES[target["spacing"]],
+                "print": "print" if target.get("print") else "",
+                "print_label": "留白" if target.get("print") else "",
+                "spacing_label": target_label(target["spacing"], bool(target.get("print"))),
                 "title": metadata["title"],
                 "composition_id": composition_id,
                 "year": metadata["year"],
@@ -354,7 +368,7 @@ def _build_impl(options: BuildOptions, composition_path: Path) -> dict[str, Any]
     report = {
         "composition_id": composition_id,
         "work_dir": relative_tex_path(work_dir),
-        "targets": [{"subject": item["subject"], "layout": item["target"]["layout"], "theme": item["target"]["theme"], "spacing": item["target"]["spacing"], "pdf": str(item["pdf"].relative_to(ROOT)).replace("\\", "/")} for item in generated],
+        "targets": [{"subject": item["subject"], "layout": item["target"]["layout"], "theme": item["target"]["theme"], "spacing": item["target"]["spacing"], "print": bool(item["target"].get("print")), "pdf": str(item["pdf"].relative_to(ROOT)).replace("\\", "/")} for item in generated],
         "paper_count": sum(len(items) for _, groups_for_subject in rebuilt_variants for _, items in groups_for_subject),
     }
     (work_dir / "composition.report.json").write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
@@ -362,7 +376,13 @@ def _build_impl(options: BuildOptions, composition_path: Path) -> dict[str, Any]
         if options.verbose:
             for item in generated:
                 subject_label = item["subject"] or "fixed"
-                print(f"DRY-RUN {subject_label} {item['target']['layout']} {item['target']['theme']} {item['target']['spacing']} -> {item['pdf']}")
+                target = item["target"]
+                spacing_label = target_label(target["spacing"], bool(target.get("print")))
+                print(
+                    f"DRY-RUN {subject_label} {target['layout']} {target['theme']} "
+                    f"{target['spacing']}{'+留白' if target.get('print') else ''} "
+                    f"({spacing_label}) -> {item['pdf']}"
+                )
         return report
 
     executable = shutil.which(engine)

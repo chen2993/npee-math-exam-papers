@@ -4,7 +4,6 @@ paper:
   year: 2025
   subject: math3
   paper_no: 1
-content_hash: c76a1c5376d6ff5c96648899d6227a8cb6ed154bad079a57ed98f5239e0c92f7
 questions:
 - number: 1
   section: choice
@@ -258,24 +257,24 @@ questions:
   points: 10
   stem:
     text: |-
-      （本题满分 10 分）设函数 $y=f(x)$ 在点 $x=1$ 处可导，且它的图形在点 $(1,f(1))$ 处的切线方程为 $y=x-1$，求极限 $\displaystyle\lim_{x\to0}\dfrac{\int_0^{x^2}e^t\cdot f(1+e^{t^2}-e^t)\,\mathrm{d}t}{x^2\cdot\ln\cos x}$。
+      设函数 $y=f(x)$ 在点 $x=1$ 处可导，且它的图形在点 $(1,f(1))$ 处的切线方程为 $y=x-1$，求极限 $\displaystyle\lim_{x\to0}\dfrac{\int_0^{x^2}e^t\cdot f(1+e^{t^2}-e^t)\,\mathrm{d}t}{x^2\cdot\ln\cos x}$。
 - number: 18
   section: solution
   points: 12
   stem:
-    text: （本题满分 12 分）求二元函数 $f(x,y)=(x^2+y^2)e^{-(x^2+2y^2)}$ 的极值。
+    text: 求二元函数 $f(x,y)=(x^2+y^2)e^{-(x^2+2y^2)}$ 的极值。
 - number: 19
   section: solution
   points: 12
   stem:
     text: |-
-      （本题满分 12 分）若函数 $f(x,y)=\begin{cases}x\arctan^2y,&x<\dfrac{1}{\sqrt{1+y^2}},\\\dfrac{x^2y}{\sqrt{2}x+1},&x\geq\dfrac{1}{\sqrt{1+y^2}}\end{cases}$，区域 $D=\{(x,y)\mid0\leq x\leq1,0\leq y\leq1\}$，计算二重积分 $\displaystyle\iint_Df(x,y)\,\mathrm{d}\sigma$。
+      若函数 $f(x,y)=\begin{cases}x\arctan^2y,&x<\dfrac{1}{\sqrt{1+y^2}},\\\dfrac{x^2y}{\sqrt{2}x+1},&x\geq\dfrac{1}{\sqrt{1+y^2}}\end{cases}$，区域 $D=\{(x,y)\mid0\leq x\leq1,0\leq y\leq1\}$，计算二重积分 $\displaystyle\iint_Df(x,y)\,\mathrm{d}\sigma$。
 - number: 20
   section: solution
   points: 12
   stem:
     text: |-
-      （本题满分 12 分）设 $f(x)$ 在 $[a,b]$ 上连续，在 $(a,b)$ 内可导，$f(a)<0\ne f(b)<0$，$\displaystyle\int_a^bf(x)\,\mathrm{d}x=0$。试证：
+      设 $f(x)$ 在 $[a,b]$ 上连续，在 $(a,b)$ 内可导，$f(a)<0\ne f(b)<0$，$\displaystyle\int_a^bf(x)\,\mathrm{d}x=0$。试证：
   subparts:
   - text: |-
       存在不同的 $\xi_1,\xi_2\in(a,b)$，使得 $f(\xi_1)=f(\xi_2)=0$。
@@ -286,7 +285,7 @@ questions:
   points: 12
   stem:
     text: |-
-      （本题满分 12 分）设 $A$ 为 3 阶实对称矩阵，$|A|=0,A$ 的迹 $\operatorname{tr}(A)=4$，且 $A$ 有一个二重特征值，$\alpha=(1,-1,1)$ 是单特征值对应的特征向量。
+      设 $A$ 为 3 阶实对称矩阵，$|A|=0,A$ 的迹 $\operatorname{tr}(A)=4$，且 $A$ 有一个二重特征值，$\alpha=(1,-1,1)$ 是单特征值对应的特征向量。
   subparts:
   - text: 当单特征值不等于 0 时，求 $A$ 以及 $Ax=0$ 的通解；
   - text: 当单特征值等于 0 时，求正定矩阵 $B$，使得 $A=B^2-2E$。
@@ -295,8 +294,9 @@ questions:
   points: 12
   stem:
     text: |-
-      （本题满分 12 分）已知随机变量 $(X,Y)$ 在区域 $D=\{(x,y)\mid x^2+y^2\leq1\}$ 上服从均匀分布，$Z=\begin{cases}1,&X\geq Y,\\-1,&X<Y,\end{cases}\quad T=(X^2+Y^2)Z$。
+      已知随机变量 $(X,Y)$ 在区域 $D=\{(x,y)\mid x^2+y^2\leq1\}$ 上服从均匀分布，$Z=\begin{cases}1,&X\geq Y,\\-1,&X<Y,\end{cases}\quad T=(X^2+Y^2)Z$。
   subparts:
   - text: 求 $T$ 的概率密度函数 $f_T(t)$；
   - text: |-
       求 $\operatorname{cov}(X^2+Y^2,Z)$。
+content_hash: c23699694795d089d7a25059b79279778bb20fb4e0b0fa9126cccdf5fbb3cbcc

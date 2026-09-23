@@ -4,11 +4,10 @@ paper:
   year: 2026
   subject: math2
   paper_no: 2
-content_hash: af808412897678b7839c3fe3f74e814116d315e954ad2d8e72b4fe0db65fc1d5
 questions:
 - number: 1
   section: choice
-  points:
+  points: 5
   stem:
     text: |-
       设函数 $f(x)=\lim_{n\to\infty}\dfrac{2x^{n+2}}{\sqrt{1+x^{2n}}}$，$F(x)=\int_0^x f(t)\,\mathrm{d}t(x>-1)$，则下列说法中，正确的是\ExamSelection
@@ -31,7 +30,7 @@ questions:
     figures: []
 - number: 2
   section: choice
-  points:
+  points: 5
   stem:
     text: |-
       设函数 $f(x)$ 连续，且 $\int_0^{x^2}tf(x^2-t)\,\mathrm{d}t=1-\cos x^2$，则 $\int_0^1f(x)\,\mathrm{d}x=$\ExamSelection
@@ -54,7 +53,7 @@ questions:
     figures: []
 - number: 3
   section: choice
-  points:
+  points: 5
   stem:
     text: |-
       设 $f(x),g(x)$ 是区间 $I$ 上的凹函数，$F(x)=\max\{f(x),g(x)\}$，$G(x)=\min\{f(x),g(x)\}$，则\ExamSelection
@@ -73,7 +72,7 @@ questions:
     figures: []
 - number: 4
   section: choice
-  points:
+  points: 5
   stem:
     text: |-
       设函数 $f(x)$ 连续，$x_0$ 是 $f(x)$ 的极小值点，则\ExamSelection
@@ -94,10 +93,10 @@ questions:
     figures: []
 - number: 5
   section: choice
-  points:
+  points: 5
   stem:
     text: |-
-      设函数 $f(x),g(x)$ 在 $x=0$ 处连续，且当 $x\to0$ 时，$|f(x)|$ 与 $g(x)$ 是同阶无穷小，则下列命题中，正确命题的个数是\ExamSelection\quad ①$f(x)$ 与 $g(x)$ 是同阶无穷小。\quad ②若 $f'(0)$ 存在，则 $g'(0)$ 存在。\quad ③若 $g'(0)=0$，则 $f'(0)=0$。\quad ④若 $0\leqslant|f(x)|\leqslant x^2$，则 $g'(0)$ 存在。
+      设函数 $f(x),g(x)$ 在 $x=0$ 处连续，且当 $x\to0$ 时，$|f(x)|$ 与 $g(x)$ 是同阶无穷小，则下列命题中，正确命题的个数是\ExamSelection\quad \n①$f(x)$ 与 $g(x)$ 是同阶无穷小。\quad \n②若 $f'(0)$ 存在，则 $g'(0)$ 存在。\quad \n③若 $g'(0)=0$，则 $f'(0)=0$。\quad \n④若 $0\leqslant|f(x)|\leqslant x^2$，则 $g'(0)$ 存在。
   choices:
   - label: A
     text: $1$
@@ -113,7 +112,7 @@ questions:
     figures: []
 - number: 6
   section: choice
-  points:
+  points: 5
   stem:
     text: |-
       设区域 $D$ 为圆心位于原点的单位圆盘位于直线 $y=a(0<a<1)$ 上方的部分，记区域 $D$ 的面积为 $S$，形心纵坐标为 $\overline{y}$，则 $\overline{y}S=$\ExamSelection
@@ -136,7 +135,7 @@ questions:
     figures: []
 - number: 7
   section: choice
-  points:
+  points: 5
   stem:
     text: |-
       设函数 $f(x,y)=\begin{cases}\dfrac{x(x+y)}{\sqrt{x^2+y^2}},&(x,y)\ne(0,0),\\0,&(x,y)=(0,0),\end{cases}$，则下列说法中，正确的是\ExamSelection
@@ -157,7 +156,7 @@ questions:
     figures: []
 - number: 8
   section: choice
-  points:
+  points: 5
   stem:
     text: |-
       设 $3$ 阶矩阵 $A=(a_{ij})$，其中 $a_{ij}=\min\{i,j\}$，$A^*$ 是 $A$ 的伴随矩阵，则下列说法中，正确的是\ExamSelection
@@ -178,7 +177,7 @@ questions:
     figures: []
 - number: 9
   section: choice
-  points:
+  points: 5
   stem:
     text: |-
       设 $3$ 阶非零实矩阵 $A$ 满足 $A^3=-A$，则下列说法中，错误的是\ExamSelection
@@ -197,7 +196,7 @@ questions:
     figures: []
 - number: 10
   section: choice
-  points:
+  points: 5
   stem:
     text: |-
       设 $P$ 为 $3$ 阶可逆矩阵，将 $P$ 的第二列乘以 $4$，第三列乘以 $-1$，再交换第一列与第二列得到矩阵 $Q$。若 $Q=AP$，则\ExamSelection
@@ -216,37 +215,37 @@ questions:
     figures: []
 - number: 11
   section: fill
-  points:
+  points: 5
   stem:
     text: |-
       设 $k$ 为正整数，$\lim_{x\to+\infty}x^9\left(\sqrt{x^k+1}+\sqrt{x^k-1}-2x^{\dfrac{k}{2}}\right)=a\ne0$，则 $\dfrac{a}{k}=$ \ExamBlank。
 - number: 12
   section: fill
-  points:
+  points: 5
   stem:
     text: |-
       设函数 $f(x)=\left(\dfrac{x-1}{1+x^2}\right)^{n-1}\arctan x$，其中 $n$ 为大于 $1$ 的正整数，则 $f(x)$ 在 $x=1$ 处的 $n$ 阶导数 $f^{(n)}(1)=$ \ExamBlank。
 - number: 13
   section: fill
-  points:
+  points: 5
   stem:
     text: |-
       已知曲线 $y=(x-k)^2e^{-x}$ 的两个拐点处的切线互相垂直，则 $k=$ \ExamBlank。
 - number: 14
   section: fill
-  points:
+  points: 5
   stem:
     text: |-
       物理学知识告诉我们，一定量的气体在等温条件下，压强 $p$ 与体积 $V$ 的乘积是常数 $k$。设某圆筒内充满压强为 $p_0$ 的气体，筒内温度恒定，若推动筒中与底面大小相同的活塞将气体体积压缩至原来的一半需克服气体压力做功 $W$，则再做 $2W$ 的功可将气体体积压缩至原来的 \ExamBlank。
 - number: 15
   section: fill
-  points:
+  points: 5
   stem:
     text: |-
       设函数 $f(x,y)=\int_1^{xy}e^{g(t)}\,\mathrm{d}t$，其中 $g(t)(t>0)$ 可微，且 $g(1)=0$。已知 $\dfrac{\partial^2f}{\partial x^2}\dfrac{\partial^2f}{\partial y^2}-\dfrac{\partial^2f}{\partial x\partial y}\dfrac{\partial^2f}{\partial y\partial x}=0$，则 $f\left(\dfrac{1}{2},\dfrac{1}{2}\right)=$ \ExamBlank。
 - number: 16
   section: fill
-  points:
+  points: 5
   stem:
     text: |-
       已知 $A=\begin{pmatrix}-1&ab&ab^2&ab^3\\ab&a&-1&0\\ab^2&ab&a&-1\\ab^3&ab^2&ab&a\end{pmatrix}$，$M_{ij}$ 表示 $|A|$ 中 $(i,j)$ 元 $a_{ij}$ 的余子式，则 $aM_{11}+M_{12}=$ \ExamBlank。
@@ -255,13 +254,13 @@ questions:
   points: 10
   stem:
     text: |-
-      （本题满分 10 分）计算 $\lim_{n\to\infty}\dfrac{1}{n}\sum_{i=1}^{n}\sin^2\sqrt{\dfrac{(i-1)\pi^2+1}{4n}}$。
+      计算 $\lim_{n\to\infty}\dfrac{1}{n}\sum_{i=1}^{n}\sin^2\sqrt{\dfrac{(i-1)\pi^2+1}{4n}}$。
 - number: 18
   section: solution
   points: 12
   stem:
     text: |-
-      （本题满分 12 分）设 $k(x)$ 表示曲线 $y=\ln x$ 在任意一点 $(x,y)$ 处的曲率，$s(x)$ 表示曲线相应于区间 $[0,x]$ 上的一段弧长。令 $f(x)=\dfrac{\mathrm{d}k}{\mathrm{d}s}$。
+      设 $k(x)$ 表示曲线 $y=\ln x$ 在任意一点 $(x,y)$ 处的曲率，$s(x)$ 表示曲线相应于区间 $[0,x]$ 上的一段弧长。令 $f(x)=\dfrac{\mathrm{d}k}{\mathrm{d}s}$。
   subparts:
   - text: 求 $f(x)$ 的表达式；
   - text: 求 $f(x)$ 的最大值点与最小值点。
@@ -270,19 +269,19 @@ questions:
   points: 12
   stem:
     text: |-
-      （本题满分 12 分）设连续函数 $f(x)$ 满足 $f(x)+\int_0^{2(\pi-x)}f\left(\dfrac{t}{2}\right)\,\mathrm{d}t=\sin^2x$，求 $f(x)$ 的表达式。
+      设连续函数 $f(x)$ 满足 $f(x)+\int_0^{2(\pi-x)}f\left(\dfrac{t}{2}\right)\,\mathrm{d}t=\sin^2x$，求 $f(x)$ 的表达式。
 - number: 20
   section: solution
   points: 12
   stem:
     text: |-
-      （本题满分 12 分）设函数 $f(x,y)$ 连续，满足 $xf'_1(x,y)+yf'_2(x,y)=xy$，$f'_1(t,1-t)-f'_2(t,1-t)=\dfrac{1}{2}-t$，$f(0,1)=1$，区域 $D$ 由直线 $x+y=1$ 与坐标轴围成，求 $\iint_Df(x,y)\,\mathrm{d}x\mathrm{d}y$。
+      设函数 $f(x,y)$ 连续，满足 $xf'_1(x,y)+yf'_2(x,y)=xy$，$f'_1(t,1-t)-f'_2(t,1-t)=\dfrac{1}{2}-t$，$f(0,1)=1$，区域 $D$ 由直线 $x+y=1$ 与坐标轴围成，求 $\iint_Df(x,y)\,\mathrm{d}x\mathrm{d}y$。
 - number: 21
   section: solution
   points: 12
   stem:
     text: |-
-      （本题满分 12 分）设 $t\geqslant0$，$D_t=\{(x,y)\mid x^2+y^2\leqslant t^2\}$，$f(t)$ 为连续函数且恒大于零，$F(t)=\begin{cases}\dfrac{\iint_{D_t}f(x^2+y^2)\,\mathrm{d}x\mathrm{d}y}{\int_{-t}^{t}f(r^2)\,\mathrm{d}r},&t>0,\\0,&t=0.\end{cases}$
+      设 $t\geqslant0$，$D_t=\{(x,y)\mid x^2+y^2\leqslant t^2\}$，$f(t)$ 为连续函数且恒大于零，$F(t)=\begin{cases}\dfrac{\iint_{D_t}f(x^2+y^2)\,\mathrm{d}x\mathrm{d}y}{\int_{-t}^{t}f(r^2)\,\mathrm{d}r},&t>0,\\0,&t=0.\end{cases}$
   subparts:
   - text: 求 $F(t)$ 在 $t=0$ 处的右导数 $F'_+(0)$。
   - text: |-
@@ -294,7 +293,8 @@ questions:
   points: 12
   stem:
     text: |-
-      （本题满分 12 分）设矩阵 $A=\begin{pmatrix}-1&0&2a\\b&-1&-1\end{pmatrix}$，$B=\begin{pmatrix}-a&\dfrac{1}{2}&b-a\\0&\dfrac{1}{2}&b-2a\end{pmatrix}$，其中 $a,b$ 均不为零。记 $\alpha=\begin{pmatrix}0\\-1\end{pmatrix}$，$\beta=\begin{pmatrix}\dfrac{1}{2}\\1\\\dfrac{1}{2}\end{pmatrix}$，已知方程组 $Ax=\alpha$ 与 $Bx=\beta$ 至少有两个不同的公共解。
+      设矩阵 $A=\begin{pmatrix}-1&0&2a\\b&-1&-1\end{pmatrix}$，$B=\begin{pmatrix}-a&\dfrac{1}{2}&b-a\\0&\dfrac{1}{2}&b-2a\end{pmatrix}$，其中 $a,b$ 均不为零。记 $\alpha=\begin{pmatrix}0\\-1\end{pmatrix}$，$\beta=\begin{pmatrix}\dfrac{1}{2}\\1\\\dfrac{1}{2}\end{pmatrix}$，已知方程组 $Ax=\alpha$ 与 $Bx=\beta$ 至少有两个不同的公共解。
   subparts:
   - text: 求 $a,b$ 的值；
   - text: 求正交变换 $x=Qy$ 将二次型 $f(x_1,x_2,x_3)=x^TA^TBx$ 化为标准形。
+content_hash: 7b89116117165f9b5fb43012975d96944cc2e0e105eff4264c5898fe73366f2b

@@ -4,7 +4,6 @@ paper:
   year: 2025
   subject: math1
   paper_no: 6
-content_hash: f57fe98c0187476364d80992321a46219245404bd3fa9e3ee87c7d02cb9a4b39
 questions:
 - number: 1
   section: choice
@@ -33,7 +32,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设函数 $f(x,y)=\sqrt[3]{x^4+y^4}$，在点 $(0,0)$ 处下列命题正确的个数为\ExamSelection。①连续 ②可偏导 ③可微 ④偏导数连续
+      设函数 $f(x,y)=\sqrt[3]{x^4+y^4}$，在点 $(0,0)$ 处下列命题正确的个数为\ExamSelection。\n①连续 \n②可偏导 \n③可微 \n④偏导数连续
   choices:
   - label: A
     text: $1$
@@ -52,7 +51,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $A(x,y,z)=(y^2z+x)\boldsymbol{i}+xy^2\boldsymbol{j}+(2xy+z^2)\boldsymbol{k}$，则 $\operatorname{rot}(A)|_{(1,1,2)}=$\ExamSelection。
+      设 $A(x,y,z)=(y^2z+x)\boldsymbol{i}+xy^2z\boldsymbol{j}+(2xy+z^2)\boldsymbol{k}$，则 $\operatorname{rot}(A)|_{(1,1,2)}=$\ExamSelection。
   choices:
   - label: A
     text: $(1,-1,-2)$
@@ -151,7 +150,7 @@ questions:
   points: 5
   stem:
     text: |-
-      下列结论正确的个数为\ExamSelection。① 任意事件 $A,B,C$，均有 $P(ABC)\geq P(A)+P(B)+P(C)-2$。② 若 $0<P(A)<1,0<P(B)<1$，则 $P(B\mid A)>P(B\mid\overline{A})$ 的充要条件为 $P(A\mid B)>P(A\mid\overline{B})$。③ $P(A-B)P(B-A)\geq P(A)P(B)-P(AB)$。④ $P(A\cup\overline{B})P(A\overline{B})\leq P(A)P(B)$。
+      下列结论正确的个数为\ExamSelection。\n① 任意事件 $A,B,C$，均有 $P(ABC)\geq P(A)+P(B)+P(C)-2$。\n② 若 $0<P(A)<1,0<P(B)<1$，则 $P(B\mid A)>P(B\mid\overline{A})$ 的充要条件为 $P(A\mid B)>P(A\mid\overline{B})$。\n③ $P(A-B)P(B-A)\geq P(A)P(B)-P(AB)$。\n④ $P(A\cup\overline{B})P(A\overline{B})\leq P(A)P(B)$。
   choices:
   - label: A
     text: $1$
@@ -224,7 +223,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $l$ 是直线 $\begin{cases}x-2z-1=0,\\y-2z+4=0\end{cases}$ 在平面 $x+y-z=5$ 上的投影，$l$ 是 $l$ 的方向向量，且与 $z$ 轴夹角为锐角，则函数 $u=e^{xy}+\dfrac{y^2}{z^2}$ 在点 $P(0,0,1)$ 沿 $l$ 方向的方向导数为\ExamBlank。
+      设 $l$ 是直线 $\begin{cases}x-2z-1=0,\\y-2z+4=0\end{cases}$ 在平面 $x+y-z=5$ 上的投影，$l$ 是 $l$ 的方向向量，且与 $z$ 轴夹角为锐角，则函数 $u=e^{xy}+\dfrac{y}{z^2}$ 在点 $P(0,0,1)$ 沿 $l$ 方向的方向导数为\ExamBlank。
 - number: 14
   section: fill
   points: 5
@@ -247,7 +246,7 @@ questions:
   section: solution
   points: 10
   stem:
-    text: 已知函数 $f(x,y)$ 满足 $f'_y(x,y)=2(y+1)e^x$，$f'_x(x,0)=(x+1)e^x$，$f(0,y)=y^2+2y$，求 $f(x,y)$ 的极值。
+    text: 已知函数 $f(x,y)$ 满足 $f''_{xy}(x,y)=2(y+1)e^x$，$f'_x(x,0)=(x+1)e^x$，$f(0,y)=y^2+2y$，求 $f(x,y)$ 的极值。
 - number: 18
   section: solution
   points: 12
@@ -278,3 +277,4 @@ questions:
   stem:
     text: |-
       设随机变量 $X$ 的分布函数 $F_X(x)=\begin{cases}0,&x<0,\\\dfrac{1}{4}+\dfrac{x}{2},&0\leq x<1,\\1,&x\geq1,\end{cases}$，记事件 $A=\{0<X<1\}$，随机变量 $Y$ 服从参数为 $1$ 的指数分布，且 $X$ 和 $Y$ 独立，求：（I）在事件 $A$ 发生的条件下，随机变量 $X$ 的条件概率密度 $f_X(x\mid A)$；（II）$Z=X+Y$ 的分布函数。
+content_hash: 6aeea22987d512fe21306b1b0d3b05fd333b63101dcf5d260de829628a81de49

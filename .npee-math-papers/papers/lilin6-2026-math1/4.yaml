@@ -4,14 +4,13 @@ paper:
   year: 2026
   subject: math1
   paper_no: 4
-content_hash: 54d2f33ed2341fc7172cf4e0d018a61fc15e11c7a087b7e708f5948a371f0f63
 questions:
 - number: 1
   section: choice
   points: 5
   stem:
     text: |-
-      一、选择题：1～10小题，每小题5分，共50分。下列每题给出的四个选项中，只有一个选项是最符合题目要求的。设 $\lim_{x\to+\infty}\dfrac{1}{x^b}\int_0^{x^2}\sqrt{1+t^4}\,\mathrm{d}t=a\ne0$，则\ExamSelection
+      设 $\lim_{x\to+\infty}\dfrac{1}{x^b}\int_0^{x^2}\sqrt{1+t^4}\,\mathrm{d}t=a\ne0$，则\ExamSelection
   choices:
   - label: A
     text: |-
@@ -140,7 +139,7 @@ questions:
   points: 5
   stem:
     text: |-
-      若实矩阵 $A$ 与 $B$ 合同，则下列命题一定成立的个数为 ① $\lvert A\rvert\lvert B\rvert\ge0$；② $A$ 与 $B$ 等价；③ $A$ 的行向量组与 $B$ 的行向量组等价；④ 若 $B$ 可相似对角化，则 $A$ 也可相似对角化\ExamSelection。
+      若实矩阵 $A$ 与 $B$ 合同，则下列命题一定成立的个数为 \n① $\lvert A\rvert\lvert B\rvert\ge0$；\n② $A$ 与 $B$ 等价；\n③ $A$ 的行向量组与 $B$ 的行向量组等价；\n④ 若 $B$ 可相似对角化，则 $A$ 也可相似对角化\ExamSelection。
   choices:
   - label: A
     text: $1$。
@@ -226,7 +225,7 @@ questions:
   points: 5
   stem:
     text: |-
-      二、填空题：11～16小题，每小题5分，共30分。设 $a_n=\left(\dfrac{n+2}{3n-2}\cdot\dfrac{n+4}{3n-4}\cdot\cdots\cdot\dfrac{n+2n}{3n-2n}\right)^{\dfrac{1}{n}}$，则 $\lim_{n\to\infty}a_n=\ExamBlank$。
+      设 $a_n=\left(\dfrac{n+2}{3n-2}\cdot\dfrac{n+4}{3n-4}\cdot\cdots\cdot\dfrac{n+2n}{3n-2n}\right)^{\dfrac{1}{n}}$，则 $\lim_{n\to\infty}a_n=\ExamBlank$。
 - number: 12
   section: fill
   points: 5
@@ -262,7 +261,7 @@ questions:
   points: 10
   stem:
     text: |-
-      三、解答题：17～22小题，共70分。解答应写出文字说明、证明过程或演算步骤。设 $M(x,y)$ 是曲线 $y=f(x)(y>0)$ 上任一点，曲线在点 $M$ 处的切线交 $y$ 轴于点 $P$，若 $\lvert MP\rvert=\lvert PO\rvert$，其中 $O$ 为坐标原点，且曲线过点 $(4,3)$。求 $y=f(x)$ 的表达式，并求 $f(x)$ 的极值。
+      设 $M(x,y)$ 是曲线 $y=f(x)(y>0)$ 上任一点，曲线在点 $M$ 处的切线交 $y$ 轴于点 $P$，若 $\lvert MP\rvert=\lvert PO\rvert$，其中 $O$ 为坐标原点，且曲线过点 $(4,3)$。求 $y=f(x)$ 的表达式，并求 $f(x)$ 的极值。
 - number: 18
   section: solution
   points: 12
@@ -315,3 +314,4 @@ questions:
       若 $Z_1,Z_2,\cdots,Z_{2n}(n\ge2)$ 是总体 $Z$ 的简单随机样本，求 $\sigma^2$ 的最大似然估计量 $\hat{\sigma}^2$；
   - text: |-
       记 $U=\sum_{i=1}^{n+1}Z_i,V=\sum_{i=n}^{2n}Z_i$，利用（I）的 $\hat{\sigma}^2$，求相关系数 $\rho_{UV}$。
+content_hash: 1e6a0d8240f4d492b680158aee08abf9a17984703740f88fe89ab18d2dc86e76

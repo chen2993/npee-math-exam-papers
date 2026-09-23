@@ -4,11 +4,10 @@ paper:
   year: 2026
   subject: math2
   paper_no: 3
-content_hash: 1fe5586d56540195463534cfcd6a15f4eb379e5bf3b9e8b04bb4ba7aadef5c8d
 questions:
 - number: 1
   section: choice
-  points:
+  points: 5
   stem:
     text: |-
       函数 $f(x)=\lim_{t\to0}\left(\cos\dfrac{t}{x}\right)^{\dfrac{x}{t^2}}$ 在 $(-\infty,+\infty)$ 内\ExamSelection
@@ -27,7 +26,7 @@ questions:
     figures: []
 - number: 2
   section: choice
-  points:
+  points: 5
   stem:
     text: |-
       当 $x\to+\infty$ 时，无穷大量 $I_1=x^{\sqrt{x}},I_2=(\sqrt{x})^x,I_3=(\ln x)^{x^2}$ 按照从高阶到低阶的排序是\ExamSelection
@@ -46,10 +45,10 @@ questions:
     figures: []
 - number: 3
   section: choice
-  points:
+  points: 5
   stem:
     text: |-
-      已知反常积分：① $\int_1^{+\infty}\dfrac{\cos x^2}{x}\,\mathrm{d}x$；② $\int_1^{+\infty}\dfrac{\cos^2x}{x}\,\mathrm{d}x$，则下列说法中，正确的是\ExamSelection
+      已知反常积分：\n① $\int_1^{+\infty}\dfrac{\cos x^2}{x}\,\mathrm{d}x$；\n② $\int_1^{+\infty}\dfrac{\cos^2x}{x}\,\mathrm{d}x$，则下列说法中，正确的是\ExamSelection
   choices:
   - label: A
     text: ①收敛，②发散。
@@ -65,7 +64,7 @@ questions:
     figures: []
 - number: 4
   section: choice
-  points:
+  points: 5
   stem:
     text: |-
       设数列 $\{x_n\}$ 与 $\{y_n\}$ 满足 $\begin{cases}x_0=1,\\y_0=-1,\end{cases}$ 且 $\begin{cases}x_{n+1}=\dfrac{1}{2}x_n-y_n,\\y_{n+1}=x_n-\dfrac{1}{2}y_n,\end{cases}$ 则下列命题中，正确的是\ExamSelection
@@ -88,7 +87,7 @@ questions:
     figures: []
 - number: 5
   section: choice
-  points:
+  points: 5
   stem:
     text: |-
       设 $(0,+\infty)$ 上的函数 $f(x)$ 为微分方程 $y'-\dfrac{y}{x}=x^\alpha(\alpha\ne0)$ 的一个解，$f(1)=\beta,f'(x)$ 不是常数，则下列关于曲线 $y=f(x)$ 的说法中，正确的是\ExamSelection
@@ -110,7 +109,7 @@ questions:
     figures: []
 - number: 6
   section: choice
-  points:
+  points: 5
   stem:
     text: |-
       设函数 $f(x,y)=\begin{cases}\arctan\left(|x|^{\dfrac{3}{2}}y\right),&(x,y)\ne(0,0),\\0,&(x,y)=(0,0),\end{cases}$ 则下列说法中，正确的是\ExamSelection
@@ -133,7 +132,7 @@ questions:
     figures: []
 - number: 7
   section: choice
-  points:
+  points: 5
   stem:
     text: |-
       设函数 $f(t)$ 连续，记 $r=\sqrt{x^2+y^2}$，则 $\int_{-1}^0\mathrm{d}x\int_{-\sqrt{3}x}^{\sqrt{3}}f(\sqrt{x^2+y^2})\,\mathrm{d}y=$\ExamSelection
@@ -156,7 +155,7 @@ questions:
     figures: []
 - number: 8
   section: choice
-  points:
+  points: 5
   stem:
     text: |-
       设 $A,B$ 为 $n(n\geq3)$ 阶非零矩阵，则下列说法中，正确的是\ExamSelection
@@ -179,7 +178,7 @@ questions:
     figures: []
 - number: 9
   section: choice
-  points:
+  points: 5
   stem:
     text: |-
       设矩阵 $A=\begin{pmatrix}0&0&-2\\1&0&a\\a&-1&0\end{pmatrix}$，$B$ 为 $3$ 阶矩阵，且第一行第一列的元素为 $2$，若 $A,B$ 满足 $AB+B-A-E=O$，则下列关于 $A$ 的说法中，正确的是\ExamSelection
@@ -198,7 +197,7 @@ questions:
     figures: []
 - number: 10
   section: choice
-  points:
+  points: 5
   stem:
     text: |-
       设 $A$ 为 $n$ 阶实对称矩阵，$\alpha_1,\alpha_2,\cdots,\alpha_n$ 为 $n$ 个非零 $n$ 维实向量。若 $A$ 满足对任意非零 $n$ 维实向量 $x,y$，均有 $(x^TAy)^2<x^TAx\cdot y^TAy$，则“对任意 $i\ne j,\alpha_i^TA\alpha_j=0$”是“$\alpha_1,\alpha_2,\cdots,\alpha_n$ 线性无关”的\ExamSelection
@@ -217,37 +216,37 @@ questions:
     figures: []
 - number: 11
   section: fill
-  points:
+  points: 5
   stem:
     text: |-
       设函数 $f(x)$ 在 $x=0$ 处二阶可导，$f(x)-f(2x)=2(x+x^2)$，则 $f''(0)=\ExamBlank$。
 - number: 12
   section: fill
-  points:
+  points: 5
   stem:
     text: |-
       设函数 $y=y(x)$ 由方程 $\cos x\,e^{\arctan y}+\ln(1+x^2y^2)+\arcsin x=1$ 确定，则 $\lim_{x\to0}\dfrac{\int_0^xy(t)\,\mathrm{d}t}{e^{\sqrt{\cos x}-1}-1}=\ExamBlank$。
 - number: 13
   section: fill
-  points:
+  points: 5
   stem:
     text: |-
       $\int_{\dfrac{\pi}{3}}^{\dfrac{2\pi}{3}}\dfrac{\cos x-\sin2x}{x(\pi-x)}\,\mathrm{d}x=\ExamBlank$。
 - number: 14
   section: fill
-  points:
+  points: 5
   stem:
     text: |-
       设曲线 $L$ 位于第一象限，满足极坐标方程 $r=\sin2\theta$，$M$ 为 $L$ 上一点，其极坐标为 $\left(\dfrac{1}{2},\dfrac{5\pi}{12}\right)$，则点 $M$ 处的切线与极径 $OM$ 的夹角为 $\ExamBlank$（可用反正切函数表示）。
 - number: 15
   section: fill
-  points:
+  points: 5
   stem:
     text: |-
       设连续函数 $f(x,y)$ 满足 $\lim_{(x,y)\to(0,0)}\dfrac{f(x,y)+(x+1)^2+(y-2)^2}{|x|+|y|}=0$，且 $\dfrac{\partial f}{\partial x}=x+a,\dfrac{\partial f}{\partial y}=2y+b$，则 $f(x,y)$ 的极值点为 $\ExamBlank$。
 - number: 16
   section: fill
-  points:
+  points: 5
   stem:
     text: |-
       设 $A$ 为 $3$ 阶实对称矩阵，已知 $\alpha_1=(1,1,1)^T,\alpha_2=(1,2,-1)^T$ 是非齐次线性方程组 $Ax=\beta$ 的两个解，若 $\operatorname{tr}(A^*)=5$，则 $(A^*)^n=\ExamBlank$。
@@ -296,3 +295,4 @@ questions:
       $\alpha$ 是与 $\beta,\gamma$ 线性无关的属于 $A$ 的特征向量，求 $\xi$ 与 $\alpha,\beta,\gamma$ 满足什么线性关系时，方程组 $Ax=\xi$ 有解？
   - text: |-
       求所有可逆矩阵 $P$，使得 $P^{-1}AP=\begin{pmatrix}\dfrac{3}{2}&-\dfrac{1}{2}&0\\-\dfrac{1}{2}&\dfrac{3}{2}&0\\0&0&0\end{pmatrix}$，将 $P$ 用 $\alpha,\beta,\gamma$ 表示。
+content_hash: ad11a6e23c541cd7741e575c54b69d4e77d14ba96477ca1f1cbad23ac07bcd76

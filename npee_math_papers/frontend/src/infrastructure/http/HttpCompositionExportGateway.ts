@@ -1,4 +1,9 @@
-import type { CompilePayload, CompositionExportGateway } from "../../application/composition/ports";
+import type {
+  CompilePayload,
+  CompositionExportGateway,
+  CompositionPackageDocument,
+  CompositionPackageSummary,
+} from "../../application/composition/ports";
 import type { CompileJob } from "../../domain/catalog/models";
 import type { CompositionDownload } from "../../domain/composition/models";
 import { readError } from "./HttpError";
@@ -69,6 +74,35 @@ export class HttpCompositionExportGateway implements CompositionExportGateway {
       filename: this.filename(response.headers.get("Content-Disposition"), `${jobId}.pdf`),
       format: contentType.includes("zip") ? "zip" : "pdf",
     };
+  }
+
+  async packages(signal?: AbortSignal): Promise<CompositionPackageSummary[]> {
+    const response = await fetch(`${this.apiBaseUrl}/compositions/packages`, { cache: "no-store", signal });
+    if (!response.ok) throw await readError(response, "读取组卷包列表失败");
+    const payload = (await response.json()) as { packages?: CompositionPackageSummary[] };
+    return payload.packages ?? [];
+  }
+
+  async openPackage(compositionId: string, signal?: AbortSignal): Promise<CompositionPackageDocument> {
+    const response = await fetch(`${this.apiBaseUrl}/compositions/packages/${encodeURIComponent(compositionId)}`, {
+      cache: "no-store",
+      signal,
+    });
+    if (!response.ok) throw await readError(response, "读取组卷包失败");
+    return (await response.json()) as CompositionPackageDocument;
+  }
+
+  async savePackage(
+    compositionId: string,
+    composition: Record<string, unknown>,
+  ): Promise<CompositionPackageDocument> {
+    const response = await fetch(`${this.apiBaseUrl}/compositions/packages/${encodeURIComponent(compositionId)}`, {
+      method: "PUT",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(composition),
+    });
+    if (!response.ok) throw await readError(response, "保存组卷包失败");
+    return (await response.json()) as CompositionPackageDocument;
   }
 
   private filename(header: string | null, fallback: string): string {

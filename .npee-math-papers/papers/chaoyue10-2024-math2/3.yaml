@@ -4,7 +4,6 @@ paper:
   year: 2024
   subject: math2
   paper_no: 3
-content_hash: 5cc34afa80db53cffe6cee5963760b034db5aa97ada6133901d2581fc3fc6a86
 questions:
 - number: 1
   section: choice
@@ -30,7 +29,7 @@ questions:
   points: 5
   stem:
     text: |-
-      对于 $\{a_n\},n=1,2,\cdots$，以下命题：① 若 $0<a_n<1$，则 $\lim_{n\to\infty}a_n^n=0$；② 若 $\lim_{n\to\infty}\sqrt[n]{a_n}=1$，则 $\lim_{n\to\infty}a_n$ 必存在且大于 $0$；③ 若 $\lim_{n\to\infty}a_n=+\infty$，则 $\lim_{n\to\infty}\sqrt[n]{a_n}=+\infty$；④ 若 $a_n>0$，$\lim_{n\to\infty}a_n$ 存在且大于 $0$，则 $\lim_{n\to\infty}\sqrt[n]{a_n}=1$。不正确的序号为\ExamSelection。
+      对于 $\{a_n\},n=1,2,\cdots$，以下命题：\n① 若 $0<a_n<1$，则 $\lim_{n\to\infty}a_n^n=0$；\n② 若 $\lim_{n\to\infty}\sqrt[n]{a_n}=1$，则 $\lim_{n\to\infty}a_n$ 必存在且大于 $0$；\n③ 若 $\lim_{n\to\infty}a_n=+\infty$，则 $\lim_{n\to\infty}\sqrt[n]{a_n}=+\infty$；\n④ 若 $a_n>0$，$\lim_{n\to\infty}a_n$ 存在且大于 $0$，则 $\lim_{n\to\infty}\sqrt[n]{a_n}=1$。\n不正确的序号为\ExamSelection。
   choices:
   - label: A
     text: ①②
@@ -49,7 +48,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $f(x)$ 是在 $(-\infty,+\infty)$ 内以 $T$ 为周期的连续函数，以下命题中正确的个数为\ExamSelection。① 若 $\int_0^T f(x)\,\mathrm{d}x=0$，则 $\int_0^x f(t)\,\mathrm{d}t$ 是以 $T$ 为周期的函数；② 若 $f(x)$ 是奇函数，则 $\int_0^x f(t)\,\mathrm{d}t$ 是以 $T$ 为周期的函数；③ 若 $\int_0^{+\infty}f(x)\,\mathrm{d}x$ 收敛，则 $\int_0^x f(t)\,\mathrm{d}t$ 是以 $T$ 为周期的函数；④ 函数 $F(x)=\int_0^x[f(t)-f(-t)]\,\mathrm{d}t$ 是以 $T$ 为周期的函数。
+      设 $f(x)$ 是在 $(-\infty,+\infty)$ 内以 $T$ 为周期的连续函数，以下命题中正确的个数为\ExamSelection。\n① 若 $\int_0^T f(x)\,\mathrm{d}x=0$，则 $\int_0^x f(t)\,\mathrm{d}t$ 是以 $T$ 为周期的函数；\n② 若 $f(x)$ 是奇函数，则 $\int_0^x f(t)\,\mathrm{d}t$ 是以 $T$ 为周期的函数；\n③ 若 $\int_0^{+\infty}f(x)\,\mathrm{d}x$ 收敛，则 $\int_0^x f(t)\,\mathrm{d}t$ 是以 $T$ 为周期的函数；\n④ 函数 $F(x)=\int_0^x[f(t)-f(-t)]\,\mathrm{d}t$ 是以 $T$ 为周期的函数。
   choices:
   - label: A
     text: $1$
@@ -167,7 +166,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $A$ 为 $3$ 阶实对称可逆矩阵，将 $A$ 的第一行的 $2$ 倍加到第三行，再将第一行乘 $2$ 得到 $B$，将矩阵 $B$ 的第一列的 $2$ 倍加到第三列，再将第一列乘 $2$ 得到矩阵 $C$，则矩阵 $A^*$ 与 $C^{\mathrm{T}}$\ExamSelection。
+      设 $A$ 为 $3$ 阶实对称可逆矩阵，将 $A$ 的第一行的 $2$ 倍加到第三行，再将第一行乘 $2$ 得到 $B$，将矩阵 $B$ 的第一列的 $2$ 倍加到第三列，再将第一列乘 $2$ 得到矩阵 $C$，则矩阵 $A^*$ 与 $C^*$\ExamSelection。
   choices:
   - label: A
     text: 合同但不相似
@@ -285,3 +284,4 @@ questions:
       求正交变换 $x=Qy$，化二次型 $x^{\mathrm{T}}Ax$ 为标准形，并写出标准形。
   - text: |-
       若 $\boldsymbol{\gamma}=(1,0,4)^{\mathrm{T}}$，求 $A^{2024}\boldsymbol{\gamma}$。
+content_hash: 7ce02c7c21d51d7ebececd5a390ef9eecf18526424a4e4d58cfcf7dacc10b5ec

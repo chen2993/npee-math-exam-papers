@@ -436,6 +436,14 @@ code,
   gap: 7px;
 }
 
+/* Result total next to the page's own actions; keeps it out of the filter row,
+   where the growing search field left no room for it. */
+.title-count {
+  color: var(--ink-2);
+  font-size: 11px;
+  white-space: nowrap;
+}
+
 .eyebrow {
   display: block;
   margin-bottom: 5px;

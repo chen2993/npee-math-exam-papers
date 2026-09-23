@@ -4,7 +4,6 @@ paper:
   year: 2026
   subject: math1
   paper_no: 3
-content_hash: 68a7814cbcc41d3e80b2c08bd967a0f2d8c2041dcf723b9bc08f06581b1ea879
 questions:
 - number: 1
   section: choice
@@ -113,7 +112,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $3$ 阶矩阵 $A,B$ 满足 $r(BA)<r(AB)$，对于以下结论 ① $ABx=0$ 与 $BAx=0$ 有非零公共解；② $ABAx=0$ 与 $BABx=0$ 有非零公共解。正确的说法是\ExamSelection
+      设 $3$ 阶矩阵 $A,B$ 满足 $r(BA)<r(AB)$，对于以下结论 \n① $ABx=0$ 与 $BAx=0$ 有非零公共解；\n② $ABAx=0$ 与 $BABx=0$ 有非零公共解。\n正确的说法是\ExamSelection
   choices:
   - label: A
     text: ①正确，②正确。
@@ -132,7 +131,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $A$ 为 $n$ 阶方阵，有下列结论：①若 $A$ 的全部顺序主子式为正，则 $A$ 正定；②若 $A$ 相似于对角矩阵 $A$，则 $A$ 与 $A$ 合同；③若 $A$ 与正定矩阵合同，则 $A$ 为正定矩阵。则正确结论的个数为\ExamSelection
+      设 $A$ 为 $n$ 阶方阵，有下列结论：\n①若 $A$ 的全部顺序主子式为正，则 $A$ 正定；\n②若 $A$ 相似于对角矩阵 $A$，则 $A$ 与 $A$ 合同；\n③若 $A$ 与正定矩阵合同，则 $A$ 为正定矩阵。\n则正确结论的个数为\ExamSelection
   choices:
   - label: A
     text: $0$。
@@ -303,3 +302,4 @@ questions:
       $P\{Y=k\mid X=x\}$，$k=0,1,2$；
   - text: |-
       $\rho_{XY}$。
+content_hash: 6915d560cf82a3f63fc4680c3a195d6258fc55d89e58e1c309638c788a6fc580

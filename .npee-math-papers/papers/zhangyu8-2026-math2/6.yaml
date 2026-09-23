@@ -4,7 +4,6 @@ paper:
   year: 2026
   subject: math2
   paper_no: 6
-content_hash: 211cf227156f65f5c48ca3fffff16941aad38a2160b88ca2e8c983f9659ea9bd
 questions:
 - number: 1
   section: choice
@@ -53,7 +52,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $f(x)$ 在 $(0,+\infty)$ 内可导，$a$ 为常数。对于以下结论：①若 $\displaystyle \lim_{x\to+\infty}f'(x)=a$，则 $\displaystyle \lim_{x\to+\infty}\dfrac{f(x)}{x}=a$；②若 $\displaystyle \lim_{x\to+\infty}\dfrac{f(x)}{x}=a$，则 $\displaystyle \lim_{x\to+\infty}f'(x)=a$。下列说法中正确的是\ExamSelection
+      设 $f(x)$ 在 $(0,+\infty)$ 内可导，$a$ 为常数。对于以下结论：\n①若 $\displaystyle \lim_{x\to+\infty}f'(x)=a$，则 $\displaystyle \lim_{x\to+\infty}\dfrac{f(x)}{x}=a$；\n②若 $\displaystyle \lim_{x\to+\infty}\dfrac{f(x)}{x}=a$，则 $\displaystyle \lim_{x\to+\infty}f'(x)=a$。\n下列说法中正确的是\ExamSelection
   choices:
   - label: A
     text: ①正确，②错误。
@@ -291,3 +290,4 @@ questions:
   - text: 求 $a,b$ 的值；
   - text: |-
       求可逆矩阵 $D$，使得 $A=D^{\mathrm T}BD$。
+content_hash: b72e1576d8bffbfe16a74a278a2477b1dde506f50ab8148c1dcece1b7688b6b3

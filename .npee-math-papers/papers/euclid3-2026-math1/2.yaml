@@ -4,7 +4,6 @@ paper:
   year: 2026
   subject: math1
   paper_no: 2
-content_hash: 926f92615d9b409a393b0db874efc7096d1da38e738ad65cca4cb1be08f18d50
 questions:
 - number: 1
   section: choice
@@ -72,7 +71,7 @@ questions:
   points: 5
   stem:
     text: |-
-      下列说法正确的个数是\ExamSelection①若 $\lim_{x\to0}f(x)=0$，则 $\lim_{x\to0}f(x)\sin\dfrac{1}{x}=0$；②若 $\lim_{x\to0}f(x)\sin\dfrac{1}{x}=0$，则 $\lim_{x\to0}f(x)=0$；③若 $f(x)$ 在 $x=0$ 的去心邻域内无界，则 $f(x)\sin\dfrac{1}{x}$ 在 $x=0$ 的去心邻域内无界；④若 $f(x)\sin\dfrac{1}{x}$ 在 $x=0$ 的去心邻域内无界，则 $f(x)$ 在 $x=0$ 的去心邻域内无界。
+      下列说法正确的个数是\ExamSelection\n①若 $\lim_{x\to0}f(x)=0$，则 $\lim_{x\to0}f(x)\sin\dfrac{1}{x}=0$；\n②若 $\lim_{x\to0}f(x)\sin\dfrac{1}{x}=0$，则 $\lim_{x\to0}f(x)=0$；\n③若 $f(x)$ 在 $x=0$ 的去心邻域内无界，则 $f(x)\sin\dfrac{1}{x}$ 在 $x=0$ 的去心邻域内无界；\n④若 $f(x)\sin\dfrac{1}{x}$ 在 $x=0$ 的去心邻域内无界，则 $f(x)$ 在 $x=0$ 的去心邻域内无界。
   choices:
   - label: A
     text: $1$
@@ -300,3 +299,4 @@ questions:
   - text: 求 $U$ 的概率密度函数；
   - text: $U$ 与 $V$ 是否相互独立？说明理由；
   - text: 求 $Z=U+V$ 的分布函数。
+content_hash: b494769fcd1fa60ace5befbba7600078429ad419d54ea0fe985689a27031781b

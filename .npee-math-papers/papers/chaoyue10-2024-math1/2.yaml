@@ -4,14 +4,13 @@ paper:
   year: 2024
   subject: math1
   paper_no: 2
-content_hash: bb38731a981d2c4035242bf2abfc4594cdc594a37f3da4e90eebe855bb2ae810
 questions:
 - number: 1
   section: choice
   points: 5
   stem:
     text: |-
-      关于数列 $\{x_n\},\{y_n\}$ 有以下论断：① 若数列 $\{x_{2n}\}$ 和 $\{x_{2n-1}\}$ 都收敛，则数列 $\{x_n\}$ 收敛；② 若数列 $\{x_n+y_n\}$ 和 $\{x_n-y_n\}$ 都收敛，则数列 $\{x_n\},\{y_n\}$ 均收敛；③ 若数列 $\{x_n\}$ 和 $\{y_n\}$ 都发散，则数列 $\{x_n+y_n\}$ 可能收敛；④ 若数列 $\{x_ny_n\}$ 收敛，则数列 $\{x_n\}$ 和 $\{y_n\}$ 必有一个收敛。以上结论中正确的个数为\ExamSelection。
+      关于数列 $\{x_n\},\{y_n\}$ 有以下论断：\n① 若数列 $\{x_{2n}\}$ 和 $\{x_{2n-1}\}$ 都收敛，则数列 $\{x_n\}$ 收敛；\n② 若数列 $\{x_n+y_n\}$ 和 $\{x_n-y_n\}$ 都收敛，则数列 $\{x_n\},\{y_n\}$ 均收敛；\n③ 若数列 $\{x_n\}$ 和 $\{y_n\}$ 都发散，则数列 $\{x_n+y_n\}$ 可能收敛；\n④ 若数列 $\{x_ny_n\}$ 收敛，则数列 $\{x_n\}$ 和 $\{y_n\}$ 必有一个收敛。\n以上结论中正确的个数为\ExamSelection。
   choices:
   - label: A
     text: $1$
@@ -152,7 +151,7 @@ questions:
   points: 5
   stem:
     text: |-
-      以下 $4$ 个结论：① 设 $0<P(A)<1,P(B\mid A)+P(\overline{B}\mid\overline{A})=1$，则 $\overline{A}$ 与 $\overline{B}$ 相互独立；② 设 $A,B$ 相互独立，$P(C)=0$，则 $\overline{A},\overline{B},\overline{C}$ 必相互独立；③ 若 $A,B$ 互不相容，$P(C)>0$，则 $P(\overline{AB}\mid C)=1$；④ 若 $A,B,C$ 相互独立，则必有 $A$ 和 $B-C$ 独立。正确的个数为\ExamSelection。
+      以下 $4$ 个结论：\n① 设 $0<P(A)<1,P(B\mid A)+P(\overline{B}\mid\overline{A})=1$，则 $\overline{A}$ 与 $\overline{B}$ 相互独立；\n② 设 $A,B$ 相互独立，$P(C)=0$，则 $\overline{A},\overline{B},\overline{C}$ 必相互独立；\n③ 若 $A,B$ 互不相容，$P(C)>0$，则 $P(\overline{AB}\mid C)=1$；\n④ 若 $A,B,C$ 相互独立，则必有 $A$ 和 $B-C$ 独立。\n正确的个数为\ExamSelection。
   choices:
   - label: A
     text: $1$
@@ -198,7 +197,7 @@ questions:
   choices:
   - label: A
     text: |-
-      $\left|\dfrac{X_1-X_2}{X_3+X_4}\right|\sim t(2)$
+      $\dfrac{X_1-X_2}{|X_3+X_4|}\sim t(2)$
     figures: []
   - label: B
     text: |-
@@ -241,7 +240,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $A$ 是 $4$ 阶实矩阵，$(A+3E)x=0$ 的基础解系为 $\alpha_1,\alpha_2$，$(A-E)x=0$ 的基础解系为 $\alpha_1$，则 $r(A^4+2A^3-3E)=$\ExamBlank。
+      设 $A$ 是 $4$ 阶实矩阵，$(A+3E)x=0$ 的基础解系为 $\alpha_1,\alpha_2$，$(A-E)x=0$ 的基础解系为 $\alpha_1$，则 $r(A^2+2A-3E)=$\ExamBlank。
 - number: 16
   section: fill
   points: 5
@@ -258,7 +257,7 @@ questions:
   points: 12
   stem:
     text: |-
-      设 $f(t)$ 具有二阶连续导数，满足方程 $f''(t)+f'(t)=1$，且 $f(0)=f'(0)=0$，$L$ 是 $y=\sin x$ 从 $(0,0)$ 到 $(\pi,0)$ 的一段，计算积分 $I=\int_L e^xf'(y)\,\mathrm{d}x+e^x(2-f(x)-f(y))\,\mathrm{d}y$。
+      设 $f(t)$ 具有二阶连续导数，满足方程 $f''(t)+f(t)=1$，且 $f(0)=f'(0)=0$，$L$ 是 $y=\sin x$ 从 $(0,0)$ 到 $(\pi,0)$ 的一段，计算积分 $I=\int_L e^xf'(y)\,\mathrm{d}x+e^x(2-f(x)-f(y))\,\mathrm{d}y$。
 - number: 19
   section: solution
   points: 12
@@ -300,3 +299,4 @@ questions:
   - text: 求 $Z$ 的概率密度 $f_Z(z)$；
   - text: |-
       若 $\theta$ 未知，设 $Z_1,Z_2,\cdots,Z_n$ 为来自总体 $Z$ 的简单随机样本，求 $\theta$ 的最大似然估计量 $\hat{\theta}$。
+content_hash: fc2e75d4461df8c72f49d6fc4f3decb8dd7721b829a2fa674c99dc20770b8a4b

@@ -55,17 +55,29 @@ describe("buildCompilePayload", () => {
   it("expands layout/theme/spacing into explicit targets", () => {
     const draft = { ...createDraft(), layout: "both" as const, theme: "both" as const, spacing: "both" as const };
     const payload = buildCompilePayload(draft);
-    // a3/a4 × print/cream × (compact + 打印版); `spaced` is retired
+    // a3/a4 × print/cream × (紧凑 + 宽松)
     expect(payload.compile.targets).toHaveLength(8);
-    expect(payload.compile.targets.some((target: { spacing: string }) => target.spacing === "spaced")).toBe(false);
+    expect(payload.compile.targets.some((target: { spacing: string }) => target.spacing === "spaced")).toBe(true);
   });
 
-  it("keeps the chosen stock when the print spacing is chosen", () => {
-    // The print deliverable works on both stocks, so it must not silently
-    // rewrite A3 into A4 (and thereby drop the A3 deliverable).
-    const draft = { ...createDraft(), layout: "a3" as const, spacing: "a4-blank" as const };
+  it("keeps the chosen stock on every spacing", () => {
+    // 间距与纸张无关：宽松版同样能在 A3 上出，不该被悄悄改写成 A4。
+    const draft = { ...createDraft(), layout: "a3" as const, spacing: "spaced" as const };
     const payload = buildCompilePayload(draft);
     expect(payload.compile.targets.every((target: { layout: string }) => target.layout === "a3")).toBe(true);
+  });
+
+  it("sends spacing and blank space as two independent fields", () => {
+    // 留白不再藏在间距里：两者各写各的，后端按两个轴解释。
+    const draft = { ...createDraft(), spacing: "spaced" as const, printBlank: true };
+    for (const target of buildCompilePayload(draft).compile.targets as { spacing: string; print: boolean }[]) {
+      expect(target.spacing).toBe("spaced");
+      expect(target.print).toBe(true);
+    }
+    const tight = { ...createDraft(), spacing: "compact" as const, printBlank: false };
+    for (const target of buildCompilePayload(tight).compile.targets as { print: boolean }[]) {
+      expect(target.print).toBe(false);
+    }
   });
 
   it("keeps the composition id lowercase and dash-separated", () => {
@@ -92,8 +104,8 @@ describe("draftFromCompilePayload", () => {
       papers: [paperRefFromSummary(paper(1)), paperRefFromSummary(paper(2))],
       layout: "a4" as const,
       theme: "cream" as const,
-      spacing: "compact" as const,
-      structure: "natural" as const,
+      spacing: "spaced" as const,
+      printBlank: false,
       toc: false,
     };
     const restored = draftFromCompilePayload(buildCompilePayload(draft));
@@ -101,8 +113,8 @@ describe("draftFromCompilePayload", () => {
     expect(restored.papers.map((item) => item.natural_key)).toEqual(["2024/math1/demo/1", "2024/math1/demo/2"]);
     expect(restored.layout).toBe("a4");
     expect(restored.theme).toBe("cream");
-    expect(restored.spacing).toBe("compact");
-    expect(restored.structure).toBe("natural");
+    expect(restored.spacing).toBe("spaced");
+    expect(restored.printBlank).toBe(false);
     expect(restored.toc).toBe(false);
   });
 
@@ -120,6 +132,7 @@ describe("draftFromCompilePayload", () => {
       document: { layout: "bogus", structure: "bogus" },
     });
     expect(restored.layout).toBe("both");
-    expect(restored.structure).toBe("pair-first");
+    expect(restored.spacing).toBe("compact");
+    expect(restored.printBlank).toBe(true);
   });
 });

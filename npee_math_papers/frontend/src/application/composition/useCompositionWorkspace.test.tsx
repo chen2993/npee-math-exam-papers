@@ -37,15 +37,29 @@ describe("normalizeDraft", () => {
   });
 
   it("keeps the stored stock for a restored print draft", () => {
-    // The print deliverable is layout-agnostic, so restoring one must not
-    // rewrite an A3 draft into A4 (which would drop the A3 output).
-    expect(normalizeDraft({ spacing: "a4-blank", layout: "a3" } as never).layout).toBe("a3");
+    // 间距与纸张无关：恢复一份 A3 草稿不该把它改写成 A4（那会丢掉 A3 产物）。
+    expect(normalizeDraft({ spacing: "compact", printBlank: true, layout: "a3" } as never).layout).toBe("a3");
   });
 
-  it("migrates the retired spaced mode onto compact", () => {
-    // A draft stored before the change still names `spaced`; it must land on
-    // the surviving mode with the same body rhythm rather than being dropped.
-    expect(normalizeDraft({ spacing: "spaced" } as never).spacing).toBe("compact");
+  it("keeps the spaced rhythm now that it is a first-class mode", () => {
+    // 宽松版回到间距词表：解答题独占页面，与留白无关。
+    const draft = normalizeDraft({ spacing: "spaced" } as never);
+    expect(draft.spacing).toBe("spaced");
+    expect(draft.printBlank).toBe(true);
+  });
+
+  it("reads the old combined keys as compact plus blank space", () => {
+    // 旧草稿用 `print` / `a4-blank` 同时表达「紧凑 + 留白」，拆分后要还原成两个轴。
+    const legacyPrint = normalizeDraft({ spacing: "print" } as never);
+    expect(legacyPrint.spacing).toBe("compact");
+    expect(legacyPrint.printBlank).toBe(true);
+
+    const legacyBlank = normalizeDraft({ spacing: "a4-blank" } as never);
+    expect(legacyBlank.spacing).toBe("compact");
+    expect(legacyBlank.printBlank).toBe(true);
+
+    const tight = normalizeDraft({ spacing: "compact", printBlank: false } as never);
+    expect(tight.printBlank).toBe(false);
   });
 });
 

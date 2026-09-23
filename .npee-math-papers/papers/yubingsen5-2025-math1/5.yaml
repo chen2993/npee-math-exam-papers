@@ -4,7 +4,6 @@ paper:
   year: 2025
   subject: math1
   paper_no: 5
-content_hash: 6280941f5dffc8a449c1c61641fbd61932e131cdc7c7b7ae3bdf67051eaed763
 questions:
 - number: 1
   section: choice
@@ -70,7 +69,7 @@ questions:
   points: 5
   stem:
     text: |-
-      曲线 $y=\dfrac{(1+x)e^x}{e^x-1}$ 的渐近线条数为\ExamSelection（公众号：风中羽小易）。
+      曲线 $y=\dfrac{(1+x)e^x}{e^x-1}$ 的渐近线条数为\ExamSelection。
   choices:
   - label: A
     text: $1$
@@ -255,7 +254,7 @@ questions:
   points: 10
   stem:
     text: |-
-      （公众号：风中羽小易）求函数 $f(x,y)=(x^2+y^2)e^{-x-y}$ 在区域 $D=\{(x,y)\mid x\ge0,y\ge0,x^2+y^2\le16\}$ 上的最大值及最小值。
+      求函数 $f(x,y)=(x^2+y^2)e^{-x-y}$ 在区域 $D=\{(x,y)\mid x\ge0,y\ge0,x^2+y^2\le16\}$ 上的最大值及最小值。
 - number: 18
   section: solution
   points: 12
@@ -302,3 +301,4 @@ questions:
   subparts:
   - text: 求随机变量 $(X,Y)$ 的联合概率密度 $f(x,y)$；
   - text: 求 $U=X+Y+Z$ 的分布函数。
+content_hash: ebb65191a6c14e3a2133ba450f1d364fa44c6fcd3508a03b17860fd9a255b34a

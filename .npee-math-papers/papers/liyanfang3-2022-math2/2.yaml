@@ -4,7 +4,6 @@ paper:
   year: 2022
   subject: math2
   paper_no: 2
-content_hash: 783265f24f0674f07cc8501b7494fd5b43be14b9584cdf11a80d284abdbe08b0
 questions:
 - number: 1
   section: choice
@@ -72,7 +71,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设定义在 $(-\infty,+\infty)$ 上的连续函数 $f(x)$ 的图形关于 $x=0$ 与 $x=1$ 均对称，则下列命题中，正确命题为\ExamSelection①若 $\int_0^1f(x)\,\mathrm{d}x=0$，则 $\int_0^x f(t)\,\mathrm{d}t$ 为周期函数。②若 $\int_0^2f(x)\,\mathrm{d}x=0$，则 $\int_0^x f(t)\,\mathrm{d}t$ 为周期函数。③$\int_0^x f(t)\,\mathrm{d}t-x\int_0^2f(t)\,\mathrm{d}t$ 为周期函数。④$\int_0^x f(t)\,\mathrm{d}t-\dfrac{x}{2}\int_0^2f(t)\,\mathrm{d}t$ 为周期函数。
+      设定义在 $(-\infty,+\infty)$ 上的连续函数 $f(x)$ 的图形关于 $x=0$ 与 $x=1$ 均对称，则下列命题中，正确命题为\ExamSelection\n①若 $\int_0^1f(x)\,\mathrm{d}x=0$，则 $\int_0^x f(t)\,\mathrm{d}t$ 为周期函数。\n②若 $\int_0^2f(x)\,\mathrm{d}x=0$，则 $\int_0^x f(t)\,\mathrm{d}t$ 为周期函数。\n③$\int_0^x f(t)\,\mathrm{d}t-x\int_0^2f(t)\,\mathrm{d}t$ 为周期函数。\n④$\int_0^x f(t)\,\mathrm{d}t-\dfrac{x}{2}\int_0^2f(t)\,\mathrm{d}t$ 为周期函数。
   choices:
   - label: A
     text: ②③.
@@ -194,7 +193,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $A$ 为 $n$ 阶实矩阵，$B=\begin{pmatrix}E&A\\A^{\mathrm{T}}&O\end{pmatrix}$，则下列命题中，正确命题的个数为\ExamSelection①$A^{\mathrm{T}}A=O$ 当且仅当 $A=O$。②$B$ 可逆当且仅当 $A$ 可逆。③$B$ 的正惯性指标 $\geq n$。④存在无穷多个非零向量 $\alpha$，使得 $\alpha^{\mathrm{T}}B\alpha=0$。
+      设 $A$ 为 $n$ 阶实矩阵，$B=\begin{pmatrix}E&A\\A^{\mathrm{T}}&O\end{pmatrix}$，则下列命题中，正确命题的个数为\ExamSelection\n①$A^{\mathrm{T}}A=O$ 当且仅当 $A=O$。\n②$B$ 可逆当且仅当 $A$ 可逆。\n③$B$ 的正惯性指标 $\geq n$。\n④存在无穷多个非零向量 $\alpha$，使得 $\alpha^{\mathrm{T}}B\alpha=0$。
   choices:
   - label: A
     text: $1$.
@@ -293,3 +292,4 @@ questions:
   - text: 若 $k$ 为任意正整数，证明：$A^k$ 的各列元素之和均为 1，且 1 为 $A^k$ 的一个特征值。
   - text: |-
       记 $\alpha=(1,1,1)^{\mathrm{T}}$，若 $\beta$ 为 $A^k$ 的属于特征值 $\lambda$（$\lambda\ne1$）的特征向量，求 $\alpha^{\mathrm{T}}\beta$。
+content_hash: 5db92a4e2693dfe400b36ebe3d12a48967b107814a9cdc2d3daa5b2d75aa94c7

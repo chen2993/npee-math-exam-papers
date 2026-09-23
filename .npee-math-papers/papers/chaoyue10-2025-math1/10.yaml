@@ -4,7 +4,6 @@ paper:
   year: 2025
   subject: math1
   paper_no: 10
-content_hash: b5e59f6cc69c41f5298b17758f1427a764871f1d1a127ddeeee1b09760f6159f
 questions:
 - number: 1
   section: choice
@@ -99,7 +98,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $A$ 是 $4\times3$ 矩阵，$A$ 的列向量组线性无关，则下列结论中：① $A^{\mathrm{T}}x=0$ 有非零解；② 对任意 $3$ 维列向量 $\beta,A^{\mathrm{T}}x=\beta$ 有无穷多解；③ $A^{\mathrm{T}}Ax=0$ 只有零解；④ 对 $3\times5$ 矩阵 $B$ 和 $C$，若 $AB=AC$，则 $B=C$。正确的个数为\ExamSelection。
+      设 $A$ 是 $4\times3$ 矩阵，$A$ 的列向量组线性无关，则下列结论中：\n① $A^{\mathrm{T}}x=0$ 有非零解；\n② 对任意 $3$ 维列向量 $\beta,A^{\mathrm{T}}x=\beta$ 有无穷多解；\n③ $A^{\mathrm{T}}Ax=0$ 只有零解；\n④ 对 $3\times5$ 矩阵 $B$ 和 $C$，若 $AB=AC$，则 $B=C$。\n正确的个数为\ExamSelection。
   choices:
   - label: A
     text: $1$
@@ -305,3 +304,4 @@ questions:
   - text: 求 $V$ 的概率密度函数 $f_V(v)$；
   - text: |-
       求协方差 $\operatorname{cov}(U,V)$。
+content_hash: ff36ee4751d822bbfe73d27469ca580da2712159880fe41918d50b261b99fb5e

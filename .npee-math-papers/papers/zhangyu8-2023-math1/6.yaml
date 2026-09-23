@@ -4,7 +4,6 @@ paper:
   year: 2023
   subject: math1
   paper_no: 6
-content_hash: f2a1d0948066205c33bbc113038b81af30e19747d859f0cb414c0071d44fb5a9
 questions:
 - number: 1
   section: choice
@@ -30,7 +29,7 @@ questions:
   points: 5
   stem:
     text: |-
-      对于下列三个命题：①设 $f(x)$ 在 $x=x_0$ 处连续，在 $x=x_0$ 的某去心邻域内可导，若 $\lim_{x\to x_0}f'(x)$ 存在，则 $f(x)$ 在 $x=x_0$ 处可导且 $f'(x_0)=\lim_{x\to x_0}f'(x)$；②设 $f(x)$ 在 $x=x_0$ 处连续，在 $x=x_0$ 的某去心邻域内可导，若 $\lim_{x\to x_0^+}f'(x)$ 与 $\lim_{x\to x_0^-}f'(x)$ 均存在但不相等，则 $f'(x_0)$ 不存在；③设 $f(x)$ 在 $x=x_0$ 的某邻域内可导，若 $\lim_{x\to x_0^+}f'(x)$ 与 $\lim_{x\to x_0^-}f'(x)$ 均存在，则必有 $\lim_{x\to x_0}f'(x)$ 存在。所有真命题的序号为\ExamSelection
+      对于下列三个命题：\n①设 $f(x)$ 在 $x=x_0$ 处连续，在 $x=x_0$ 的某去心邻域内可导，若 $\lim_{x\to x_0}f'(x)$ 存在，则 $f(x)$ 在 $x=x_0$ 处可导且 $f'(x_0)=\lim_{x\to x_0}f'(x)$；\n②设 $f(x)$ 在 $x=x_0$ 处连续，在 $x=x_0$ 的某去心邻域内可导，若 $\lim_{x\to x_0^+}f'(x)$ 与 $\lim_{x\to x_0^-}f'(x)$ 均存在但不相等，则 $f'(x_0)$ 不存在；\n③设 $f(x)$ 在 $x=x_0$ 的某邻域内可导，若 $\lim_{x\to x_0^+}f'(x)$ 与 $\lim_{x\to x_0^-}f'(x)$ 均存在，则必有 $\lim_{x\to x_0}f'(x)$ 存在。\n所有真命题的序号为\ExamSelection
   choices:
   - label: A
     text: ①②
@@ -297,3 +296,4 @@ questions:
   - text: |-
       $\theta$ 的最大似然估计值；
   - text: $p$ 的最大似然估计值。
+content_hash: cac9929695ab0dc841afda6c099f9a16bffb6de2d18db887817de257355f89fc

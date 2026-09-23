@@ -4,7 +4,6 @@ paper:
   year: 2024
   subject: math2
   paper_no: 1
-content_hash: 61abe56ad0eda288e9de590a0f29fb6a2e46717c549eadafae31388696c3c2ce
 questions:
 - number: 1
   section: choice
@@ -179,7 +178,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $A,B$ 为 $n$ 阶可逆的实对称矩阵。① $A,B$ 的列向量组具有相同的线性相关性；② $A,B$ 的行向量组具有相同的线性相关性；③ 存在可逆矩阵 $P$，使 $P^TA^2P=B^2$；④ 存在可逆矩阵 $P$，使 $P^{-1}ABP=BA$。以上说法正确的个数为\ExamSelection。
+      设 $A,B$ 为 $n$ 阶可逆的实对称矩阵。\n① $A,B$ 的列向量组具有相同的线性相关性；\n② $A,B$ 的行向量组具有相同的线性相关性；\n③ 存在可逆矩阵 $P$，使 $P^TA^2P=B^2$；\n④ 存在可逆矩阵 $P$，使 $P^{-1}ABP=BA$。\n以上说法正确的个数为\ExamSelection。
   choices:
   - label: A
     text: $1$
@@ -301,3 +300,4 @@ questions:
   - text: 求 $A$ 所有特征值与特征向量，问 $A$ 能否相似于一个对角阵？说明理由。
   - text: |-
       求线性方程组 $A^TAx=A^T\alpha_3$ 的通解。
+content_hash: aa206a083778a91a8730bb48abcbecd8f6a942123329f22f8846cd7911e6b272

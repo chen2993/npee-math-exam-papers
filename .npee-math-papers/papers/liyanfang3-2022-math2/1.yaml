@@ -4,7 +4,6 @@ paper:
   year: 2022
   subject: math2
   paper_no: 1
-content_hash: e703ecb3b16fdc1a4bb4871d2c1dded5ec7a6a012dda7234ae71b1055f255fef
 questions:
 - number: 1
   section: choice
@@ -183,7 +182,7 @@ questions:
   points: 5
   stem:
     text: |-
-      若 $A,B$ 均为 $2$ 阶正交矩阵，且 $(A-B)x=0$ 的基础解系中仅包含 $1$ 个向量，则下列命题中，正确命题的个数为\ExamSelection①$A^{-1}B$ 与 $B^{-1}A$ 的特征值均相同。②$BA^{-1}$ 与 $B^{-1}A$ 存在不同的特征值。③$A^{-1}B$ 与 $B^{-1}A$ 存在公共的特征向量。④若 $A^{-1}B$ 相似于对角矩阵，则 $A,B$ 相似。
+      若 $A,B$ 均为 $2$ 阶正交矩阵，且 $(A-B)x=0$ 的基础解系中仅包含 $1$ 个向量，则下列命题中，正确命题的个数为\ExamSelection\n①$A^{-1}B$ 与 $B^{-1}A$ 的特征值均相同。\n②$BA^{-1}$ 与 $B^{-1}A$ 存在不同的特征值。\n③$A^{-1}B$ 与 $B^{-1}A$ 存在公共的特征向量。\n④若 $A^{-1}B$ 相似于对角矩阵，则 $A,B$ 相似。
   choices:
   - label: A
     text: $1$。
@@ -300,3 +299,4 @@ questions:
   - text: |-
       证明：若 $y_0=A^{-1}\beta$，则对任意 $3$ 维列向量 $x$，$f(x)\geq-y_0^T\beta$。
   - text: 求二次函数 $f(x_1,x_2,x_3)=x_1^2+2x_2^2+3x_3^2-2x_1x_2-2x_1x_3+4x_2x_3-2x_1-4x_2-6x_3$ 的最小值。
+content_hash: 9f1b01a1b1b1a5e3dc0a8d0bdf471bdee823fb94413b20ee001bb732d46855a5

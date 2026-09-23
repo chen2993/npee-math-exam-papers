@@ -4,14 +4,13 @@ paper:
   year: 2024
   subject: math2
   paper_no: 6
-content_hash: 109a090a817d7644954133d8f258e839923ec4cf67e8adcd7c486d0e6265eec3
 questions:
 - number: 1
   section: choice
   points: 5
   stem:
     text: |-
-      设函数 $f(x)$ 在 $x=0$ 处二阶可导，则下列命题中：①若 $\lim_{x\to 0}\dfrac{f(x)}{x^2}=1$，则 $\lim_{x\to 0}\dfrac{f'(x)}{x}=2$；②若 $\lim_{x\to 0}\dfrac{f'(x)}{x}=2$，则 $\lim_{x\to 0}\dfrac{f(x)}{x^2}=1$；③若 $\lim_{x\to 0}\dfrac{f(x)}{x^3}=1$，则 $\lim_{x\to 0}\dfrac{f'(x)}{x^2}=3$；④若 $\lim_{x\to 0}\dfrac{f'(x)}{x^2}=3$，则 $\lim_{x\to 0}\dfrac{f(x)}{x^3}=1$。所有不正确命题的序号为\ExamSelection
+      设函数 $f(x)$ 在 $x=0$ 处二阶可导，则下列命题中：\n①若 $\lim_{x\to 0}\dfrac{f(x)}{x^2}=1$，则 $\lim_{x\to 0}\dfrac{f'(x)}{x}=2$；\n②若 $\lim_{x\to 0}\dfrac{f'(x)}{x}=2$，则 $\lim_{x\to 0}\dfrac{f(x)}{x^2}=1$；\n③若 $\lim_{x\to 0}\dfrac{f(x)}{x^3}=1$，则 $\lim_{x\to 0}\dfrac{f'(x)}{x^2}=3$；\n④若 $\lim_{x\to 0}\dfrac{f'(x)}{x^2}=3$，则 $\lim_{x\to 0}\dfrac{f(x)}{x^3}=1$。\n所有不正确命题的序号为\ExamSelection
   choices:
   - label: A
     text: ①②
@@ -290,3 +289,4 @@ questions:
       若存在可逆矩阵 $P$，使得 $P^{\mathrm{T}}AP=B$，求出此时 $a,b$ 的值与矩阵 $P$；
   - text: |-
       对于（1）中的 $a,b$，是否存在正交矩阵 $Q$，使得 $Q^{\mathrm{T}}AQ=B$。若存在，求出 $Q$，若不存在，说明理由。
+content_hash: ea350b65e538cad2808f8dbe604c3c87fc77151750f8775638de519561df5cd5

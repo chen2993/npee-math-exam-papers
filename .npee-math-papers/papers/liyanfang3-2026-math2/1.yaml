@@ -4,11 +4,10 @@ paper:
   year: 2026
   subject: math2
   paper_no: 1
-content_hash: b146086a9439c222c6dd8dfbeab2ec3c01ba9d5d977cd9138f0f06d6975f2e71
 questions:
 - number: 1
   section: choice
-  points:
+  points: 5
   stem:
     text: |-
       当 $t\to 0^+$ 时，下列无穷小量中，与 $\int_0^{\sqrt{t}}\mathrm{d}y\int_{y^2}^{t}\dfrac{2x^2y}{1+xy^4}\,\mathrm{d}x$ 同阶的是\ExamSelection
@@ -27,10 +26,10 @@ questions:
     figures: []
 - number: 2
   section: choice
-  points:
+  points: 5
   stem:
     text: |-
-      已知质点以恒定速率沿曲线运动时，向心加速度大小为 $\dfrac{v^2}{\rho}$，其中 $v$ 为质点的运动速率，$\rho$ 为曲率半径。现有三条曲线光滑轨道 $O_i(i=1,2,3)$，$O_i$ 的方程分别为 ① $x^2+y^2=2$，② $y=\dfrac{1}{2}x^2+\dfrac{1}{2}$，③ $y=\dfrac{1}{x}$。当单位质点以恒定速率 $v$ 沿着下列光滑轨道运动时，质点在点 $(1,1)$ 处受到的向心力大小 $F_i(i=1,2,3)$ 按从大到小的顺序为\ExamSelection
+      已知质点以恒定速率沿曲线运动时，向心加速度大小为 $\dfrac{v^2}{\rho}$，其中 $v$ 为质点的运动速率，$\rho$ 为曲率半径。现有三条曲线光滑轨道 $O_i(i=1,2,3)$，$O_i$ 的方程分别为 \n① $x^2+y^2=2$，\n② $y=\dfrac{1}{2}x^2+\dfrac{1}{2}$，\n③ $y=\dfrac{1}{x}$。\n当单位质点以恒定速率 $v$ 沿着下列光滑轨道运动时，质点在点 $(1,1)$ 处受到的向心力大小 $F_i(i=1,2,3)$ 按从大到小的顺序为\ExamSelection
   choices:
   - label: A
     text: $F_1=F_3>F_2$。
@@ -46,7 +45,7 @@ questions:
     figures: []
 - number: 3
   section: choice
-  points:
+  points: 5
   stem:
     text: |-
       设 $k>0$，函数 $f(x)=(x+k)^{\dfrac{2}{3}}-(x-k)^{\dfrac{2}{3}}+4$ 没有零点，则 $k$ 的取值范围是\ExamSelection
@@ -67,7 +66,7 @@ questions:
     figures: []
 - number: 4
   section: choice
-  points:
+  points: 5
   stem:
     text: |-
       设 $I_1=\int_0^{\dfrac{\pi}{2}}\dfrac{\sin 2x}{1+e^{\sin x}}\,\mathrm{d}x,I_2=\int_0^{\dfrac{\pi}{2}}\dfrac{\sin x}{1+e^{\dfrac{\sin x}{2}}}\,\mathrm{d}x,I_3=\int_0^{\dfrac{\pi}{2}}\dfrac{\cos x}{1+e^{\sin x}}\,\mathrm{d}x$，则\ExamSelection
@@ -88,7 +87,7 @@ questions:
     figures: []
 - number: 5
   section: choice
-  points:
+  points: 5
   stem:
     text: |-
       设数列 $\{a_n\}$ 满足 $a_n<0,n=1,2,3,\cdots$，则 $\lim_{n\to\infty}a_n=0$ 是 $\lim_{n\to\infty}(1+a_n)e^{-a_n}=1$ 的\ExamSelection
@@ -107,7 +106,7 @@ questions:
     figures: []
 - number: 6
   section: choice
-  points:
+  points: 5
   stem:
     text: |-
       已知 $f(x,y)$ 在点 $(0,0)$ 的某个邻域内连续，且 $\lim_{(x,y)\to(0,0)}\dfrac{f(x,y)-2xy}{x^2+y^2}=\dfrac{1}{2}$，则\ExamSelection
@@ -126,7 +125,7 @@ questions:
     figures: []
 - number: 7
   section: choice
-  points:
+  points: 5
   stem:
     text: |-
       $\lim_{n\to\infty}\sum_{i=1}^{n}\sum_{j=1}^{n}\dfrac{(2i-1)^2j^4}{(2n^2-1)^4}=\ExamSelection$
@@ -149,7 +148,7 @@ questions:
     figures: []
 - number: 8
   section: choice
-  points:
+  points: 5
   stem:
     text: |-
       设 $A=(a_{ij})$ 为 3 阶正交矩阵，且 $|A|=-1,A_{ij}$ 为 $a_{ij}$ 的代数余子式，$A^*$ 是 $A$ 的伴随矩阵，则下列说法中，错误的是\ExamSelection
@@ -168,7 +167,7 @@ questions:
     figures: []
 - number: 9
   section: choice
-  points:
+  points: 5
   stem:
     text: |-
       设 $A$ 为 3 阶矩阵，3 维列向量 $\alpha,\beta$ 线性无关，已知 $A\alpha=\alpha+\beta,A^2\alpha=\alpha-\beta$，若 $B=(\alpha,A\alpha,A^2\alpha)$，则方程组 $Bx=A\beta$ 的通解为\ExamSelection
@@ -187,7 +186,7 @@ questions:
     figures: []
 - number: 10
   section: choice
-  points:
+  points: 5
   stem:
     text: |-
       设 $n$ 阶实对称矩阵 $A,B$ 均可逆，则下列说法中，正确的是\ExamSelection
@@ -210,37 +209,37 @@ questions:
     figures: []
 - number: 11
   section: fill
-  points:
+  points: 5
   stem:
     text: |-
       设 $x\in(0,\dfrac{\pi}{2})$，若 $\theta(x)\in(0,1)$ 满足 $\int_0^x\tan t\,\mathrm{d}t=x\tan(\theta(x)x)$，则 $\lim_{x\to0^+}\theta(x)=$ \ExamBlank。
 - number: 12
   section: fill
-  points:
+  points: 5
   stem:
     text: |-
       设函数 $y=y(x)\begin{cases}x=\operatorname{arccot}e^{-t},\\y=\ln(1+e^t)\end{cases}$ 确定，则 $\left.\dfrac{\mathrm{d}^2y}{\mathrm{d}x^2}\right|_{t=0}=$ \ExamBlank。
 - number: 13
   section: fill
-  points:
+  points: 5
   stem:
     text: |-
       已知反常积分 $\int_a^{+\infty}\dfrac{1}{x^2\sqrt{x^2+1}}\,\mathrm{d}x=1$，则 $a=$ \ExamBlank。
 - number: 14
   section: fill
-  points:
+  points: 5
   stem:
     text: |-
       设定义在 $[-\dfrac{\pi}{4},\dfrac{\pi}{4}]$ 上的函数 $y(x)$ 满足微分方程 $2y'=1-e^{x-2y}\tan^3x$，且 $y(0)=0$，则 $y(x)=$ \ExamBlank。
 - number: 15
   section: fill
-  points:
+  points: 5
   stem:
     text: |-
       将周长为 $2p$ 的平行四边形绕其一边旋转得到一个旋转体，当该旋转体取到最大体积时，平行四边形的较长的边长为 \ExamBlank。
 - number: 16
   section: fill
-  points:
+  points: 5
   stem:
     text: |-
       设矩阵 $A=\begin{pmatrix}0&1&2\\1&0&3\\2&-1&4\end{pmatrix}$，则 $A$ 的伴随矩阵 $A^*$ 的非零特征值为 \ExamBlank。
@@ -249,25 +248,25 @@ questions:
   points: 10
   stem:
     text: |-
-      （本题满分 10 分）求曲线 $y=\dfrac{\sqrt[3]{x^3-x^2}}{\arctan x}e^{\dfrac{\arctan x}{x}}$ 沿正无穷方向的斜渐近线。
+      求曲线 $y=\dfrac{\sqrt[3]{x^3-x^2}}{\arctan x}e^{\dfrac{\arctan x}{x}}$ 沿正无穷方向的斜渐近线。
 - number: 18
   section: solution
   points: 12
   stem:
     text: |-
-      （本题满分 12 分）设区域 $D$ 位于第一象限，由曲线 $x^{\dfrac{2}{3}}+y^{\dfrac{2}{3}}=1$ 与直线 $x=1,y=1$ 围成，函数 $f(x,y)=\begin{cases}1,&x+y\leq1,\\x+y,&x+y>1,\end{cases}$，计算二重积分 $I=\iint_Df(x,y)\,\mathrm{d}x\mathrm{d}y$。
+      设区域 $D$ 位于第一象限，由曲线 $x^{\dfrac{2}{3}}+y^{\dfrac{2}{3}}=1$ 与直线 $x=1,y=1$ 围成，函数 $f(x,y)=\begin{cases}1,&x+y\leq1,\\x+y,&x+y>1,\end{cases}$，计算二重积分 $I=\iint_Df(x,y)\,\mathrm{d}x\mathrm{d}y$。
 - number: 19
   section: solution
   points: 12
   stem:
     text: |-
-      （本题满分 12 分）设定义在 $[0,2\pi]$ 上的函数 $f(x)=\dfrac{\sin x}{\sqrt{5-4\cos\dfrac{x}{2}}}$，求 $f(x)$ 在 $(0,2\pi)$ 内的极值点个数。
+      设定义在 $[0,2\pi]$ 上的函数 $f(x)=\dfrac{\sin x}{\sqrt{5-4\cos\dfrac{x}{2}}}$，求 $f(x)$ 在 $(0,2\pi)$ 内的极值点个数。
 - number: 20
   section: solution
   points: 12
   stem:
     text: |-
-      （本题满分 12 分）设二元函数 $g(x,y)=f(x+y)+xy(x+y)$，其中 $f(u)$ 二阶可导，$f(1)=f'(1)=-\dfrac{3}{4}$。已知 $\dfrac{\partial^2g}{\partial x^2}\dfrac{\partial^2g}{\partial y^2}-\left(\dfrac{\partial^2g}{\partial x\partial y}\right)^2=2\left(\dfrac{\partial g}{\partial x}+\dfrac{\partial g}{\partial y}\right)$。
+      设二元函数 $g(x,y)=f(x+y)+xy(x+y)$，其中 $f(u)$ 二阶可导，$f(1)=f'(1)=-\dfrac{3}{4}$。已知 $\dfrac{\partial^2g}{\partial x^2}\dfrac{\partial^2g}{\partial y^2}-\left(\dfrac{\partial^2g}{\partial x\partial y}\right)^2=2\left(\dfrac{\partial g}{\partial x}+\dfrac{\partial g}{\partial y}\right)$。
   subparts:
   - text: 求 $g(x,y)$ 的表达式；
   - text: 求 $g(x,y)$ 的驻点并判断点 $(0,0)$ 是否为 $g(x,y)$ 的极值点，并给出理由。
@@ -276,14 +275,15 @@ questions:
   points: 12
   stem:
     text: |-
-      （本题满分 12 分）设数列 $\{x_n\}$ 满足 $0<x_1<1,2x_{n+1}\cos x_n=x_n-x_n^2,n=1,2,\cdots$。证明：数列 $\{x_n\}$ 收敛，并求 $\lim_{n\to\infty}x_n$。
+      设数列 $\{x_n\}$ 满足 $0<x_1<1,2x_{n+1}\cos x_n=x_n-x_n^2,n=1,2,\cdots$。证明：数列 $\{x_n\}$ 收敛，并求 $\lim_{n\to\infty}x_n$。
 - number: 22
   section: solution
   points: 12
   stem:
     text: |-
-      （本题满分 12 分）设 3 阶实对称矩阵 $A$ 的各行元素之和均为 0，已知对满足各分量之和等于 0 的向量 $\beta$，均有 $A^2\beta=\beta$，且 $\operatorname{tr}(A)=0$。
+      设 3 阶实对称矩阵 $A$ 的各行元素之和均为 0，已知对满足各分量之和等于 0 的向量 $\beta$，均有 $A^2\beta=\beta$，且 $\operatorname{tr}(A)=0$。
   subparts:
   - text: 求 $A$ 的所有特征值；
   - text: |-
       若向量 $\beta=(-2,1,1)^T$ 满足 $A\beta=\beta$，求 $A$。
+content_hash: 2e831a43a9315c9e223638f919a0b1777845239ca3bfcee3dc904919cd5e81be

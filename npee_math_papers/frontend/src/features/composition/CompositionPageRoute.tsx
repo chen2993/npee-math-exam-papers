@@ -17,24 +17,27 @@ import {
   GripVertical,
   ListPlus,
   Plus,
+  Save,
   Settings2,
   Sparkles,
   Trash2,
   X,
 } from "lucide-react";
 import { useMemo, useRef, useState } from "react";
+import { useQuery } from "@tanstack/react-query";
 
 import type { PaperOrder } from "../../application/catalog/ports";
+import type { CompositionPackageSummary } from "../../application/composition/ports";
 import { useOverview, usePapers } from "../../application/query/hooks";
 import { useAppServices } from "../../app/AppServices";
 import { useCompile, useWorkspace } from "../../app/CompositionWorkspace";
 import {
   buildCompilePayload,
+  draftFromCompositionDocument,
   draftFromCompilePayload,
   outputTargetCount,
   type CompositionDraft,
   type Layout,
-  type SolutionStructure,
   type Spacing,
   type Theme,
 } from "../../domain/composition/models";
@@ -60,7 +63,7 @@ import { EMPTY_PAPER_FILTERS, PaperFilters, type PaperFilterValue } from "../cat
 import { CompilePanel } from "./CompilePanel";
 
 export default function CompositionPageRoute() {
-  const { gateway } = useAppServices();
+  const { gateway, exportGateway } = useAppServices();
   const { preferences } = usePreferences();
   const workspace = useWorkspace();
   const toast = useToast();
@@ -74,7 +77,15 @@ export default function CompositionPageRoute() {
   const [pickerOffset, setPickerOffset] = useState(0);
   const [pickerFilters, setPickerFilters] = useState<PaperFilterValue>(EMPTY_PAPER_FILTERS);
   const [pickerOrder, setPickerOrder] = useState<PaperOrder>("series");
+  /** 当前草稿来自哪个组卷包（空表示它只存在于浏览器草稿里）。 */
+  const [openedPackage, setOpenedPackage] = useState<{ packageId: string; draftId: string } | null>(null);
   const importInput = useRef<HTMLInputElement>(null);
+
+  // 组卷包是仓库里的真实文件；列表很小，随页面加载一次即可。
+  const packages = useQuery({
+    queryKey: ["npee", "composition-packages"],
+    queryFn: ({ signal }) => exportGateway.packages(signal),
+  });
 
   const overview = useOverview(gateway);
   const papers = usePapers(gateway, {
@@ -140,6 +151,38 @@ export default function CompositionPageRoute() {
     }
   }
 
+  /** 打开仓库里的组卷包：把它读成草稿并作为新草稿加入，原包不被动过。 */
+  async function openPackage(compositionId: string) {
+    try {
+      const document = await exportGateway.openPackage(compositionId);
+      const imported = draftFromCompositionDocument(document.composition, compositionId);
+      const created = workspace.importDraft(imported);
+      // 写回权限绑定在这份草稿上：复制出的副本 id 不同，自然不会覆盖原包。
+      setOpenedPackage({ packageId: compositionId, draftId: created.id });
+      toast.notify(`已打开「${created.name}」，共 ${created.papers.length} 套`);
+    } catch (reason) {
+      toast.notify(reason instanceof Error ? reason.message : "打开组卷包失败", "error");
+    }
+  }
+
+  /**
+   * 把当前草稿写回它所属的组卷包。
+   *
+   * 只有"从某个包打开过"的草稿才允许写回，而且判据取的是**当前草稿 id**：
+   * 复制出来的草稿有新的 id，因此不会误覆盖原包。
+   */
+  async function saveToPackage() {
+    if (!draft || !openedPackage || draft.id !== openedPackage.draftId) return;
+    try {
+      const payload = buildCompilePayload(draft);
+      await exportGateway.savePackage(openedPackage.packageId, payload);
+      await packages.refetch();
+      toast.notify("已保存回组卷包");
+    } catch (reason) {
+      toast.notify(reason instanceof Error ? reason.message : "保存组卷包失败", "error");
+    }
+  }
+
   async function compile() {
     if (!draft || compileFlow.isBusy || !selectedCount) return;
     await compileFlow.start(buildCompilePayload(draft), draft.id);
@@ -189,6 +232,13 @@ export default function CompositionPageRoute() {
           </IconButton>
         </div>
         <div className="draft-toolbar-actions">
+          <IconButton
+            label="保存回组卷包"
+            disabled={!draft || openedPackage?.draftId !== draft.id}
+            onClick={() => void saveToPackage()}
+          >
+            <Save size={16} />
+          </IconButton>
           <IconButton
             label="复制当前组卷"
             onClick={() => {
@@ -249,6 +299,42 @@ export default function CompositionPageRoute() {
             }}
           />
         </div>
+      </div>
+
+      {/* 仓库里的正式组卷包。打开＝读成一份新草稿（原包不动），保存＝写回原包。 */}
+      <div className="package-strip">
+        <span className="package-strip-label">仓库组卷包</span>
+        {packages.isLoading ? <span className="package-strip-hint">读取中…</span> : null}
+        {packages.isError ? (
+          <span className="package-strip-hint">
+            {packages.error instanceof Error ? packages.error.message : "读取失败"}
+          </span>
+        ) : null}
+        {(packages.data ?? []).map((item: CompositionPackageSummary) => (
+          <button
+            key={item.composition_id}
+            type="button"
+            className={classNames(
+              "package-chip",
+              openedPackage?.packageId === item.composition_id && "is-open",
+            )}
+            title={`${item.composition_id} · ${item.paper_count} 套 · ${item.target_count} 个产物`}
+            onClick={() => void openPackage(item.composition_id)}
+          >
+            <strong>{item.title}</strong>
+            <small>
+              {item.paper_count} 套 · {item.target_count} 份
+            </small>
+          </button>
+        ))}
+        {!packages.isLoading && !packages.isError && !(packages.data ?? []).length ? (
+          <span className="package-strip-hint">composition/ 下还没有组卷包</span>
+        ) : null}
+        {draft && openedPackage?.draftId === draft.id ? (
+          <Button size="sm" variant="quiet" icon={<Save size={14} />} onClick={() => void saveToPackage()}>
+            保存回 {openedPackage.packageId}
+          </Button>
+        ) : null}
       </div>
 
       <CompilePanel
@@ -560,40 +646,25 @@ function DocumentSettings({
 
       <div className="setting-columns">
         <SelectField
-          label="间距"
+          label="间距（大题）"
           value={draft.spacing}
           onChange={(event) => onUpdate((current) => ({ ...current, spacing: event.target.value as Spacing }))}
+          hint="只影响解答题：紧凑为自然连排，宽松让每题独占页面以便书写。"
         >
-          <option value="a4-blank">打印版</option>
-          <option value="compact">紧凑</option>
+          <option value="compact">紧凑（连排）</option>
+          <option value="spaced">宽松（每题一页）</option>
           <option value="both">两种间距</option>
         </SelectField>
         <SelectField
-          label="解答结构"
-          value={draft.structure}
-          onChange={(event) => onUpdate((current) => ({ ...current, structure: event.target.value as SolutionStructure }))}
+          label="留白（打印）"
+          value={draft.printBlank ? "on" : "off"}
+          onChange={(event) => onUpdate((current) => ({ ...current, printBlank: event.target.value === "on" }))}
+          hint="与间距无关：每套卷补足整页、封面后加空白页、目录凑成偶数页。"
         >
-          <option value="pair-first">首组配对</option>
-          <option value="natural">自然流动</option>
-          <option value="full-page">逐题整页</option>
+          <option value="on">留白（打印交付）</option>
+          <option value="off">不留白（紧凑）</option>
         </SelectField>
       </div>
-
-      {/* Only "首组配对" reads pair_count; for the other structures the field had
-          no effect, so it is hidden rather than left as a dead control. */}
-      {draft.structure === "pair-first" ? (
-        <TextField
-          label="首组题数"
-          type="number"
-          min={1}
-          max={8}
-          value={draft.pairCount}
-          hint="配对结构的首组题数，其余结构不使用该值。"
-          onChange={(event) =>
-            onUpdate((current) => ({ ...current, pairCount: Math.min(8, Math.max(1, Number(event.target.value) || 2)) }))
-          }
-        />
-      ) : null}
 
       <CheckField label="生成目录" checked={draft.toc} onChange={(checked) => onUpdate((current) => ({ ...current, toc: checked }))} />
 

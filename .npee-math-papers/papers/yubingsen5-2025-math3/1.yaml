@@ -4,7 +4,6 @@ paper:
   year: 2025
   subject: math3
   paper_no: 1
-content_hash: 90a77da1ed4862ee00be7b26ddef1d11955250c18a9a93156b02c690140ff4ca
 questions:
 - number: 1
   section: choice
@@ -53,7 +52,7 @@ questions:
   points: 5
   stem:
     text: |-
-      已知函数 $f(x,y)=\begin{cases}\dfrac{x^2y}{x^2+y^2},&(x,y)\ne(0,0),\\0,&(x,y)=(0,0),\end{cases}$，则以下四个命题：① $f(x,y)$ 在点 $(0,0)$ 处连续；② $f(x,y)$ 在点 $(0,0)$ 处偏导数存在；③ $f(x,y)$ 在点 $(0,0)$ 处沿任意方向的方向导数存在；④ $f(x,y)$ 在点 $(0,0)$ 处不可微。以上正确的个数为\ExamSelection。
+      已知函数 $f(x,y)=\begin{cases}\dfrac{x^2y}{x^2+y^2},&(x,y)\ne(0,0),\\0,&(x,y)=(0,0),\end{cases}$，则以下四个命题：\n① $f(x,y)$ 在点 $(0,0)$ 处连续；\n② $f(x,y)$ 在点 $(0,0)$ 处偏导数存在；\n③ $f(x,y)$ 在点 $(0,0)$ 处沿任意方向的方向导数存在；\n④ $f(x,y)$ 在点 $(0,0)$ 处不可微。\n以上正确的个数为\ExamSelection。
   choices:
   - label: A
     text: $1$
@@ -311,3 +310,4 @@ questions:
       求条件概率密度 $f_{X\mid Y}(x\mid y)$；
   - text: |-
       设 $(X_1,Y_1),(X_2,Y_2),\cdots,(X_n,Y_n)$ 是来自总体 $(X,Y)$ 的简单随机样本，求参数 $\lambda$ 的最大似然估计量。
+content_hash: 5f1042d889b730473b1c2cc1a1a4bfba6c3d870ee16c38d9bff1120f1dc2c711

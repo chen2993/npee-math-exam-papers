@@ -4,14 +4,13 @@ paper:
   year: 2025
   subject: math1
   paper_no: 1
-content_hash: 0a76e8ab872be13c5bde456a4a7729b96ee4ebe9705b529049f8e5c1aa369128
 questions:
 - number: 1
   section: choice
   points: 5
   stem:
     text: |-
-      设函数 $f(x)$ 在区间 $(-1,1)$ 内有定义，且在点 $x=0$ 处连续，则以下结论：①当 $\lim_{x\to0}\dfrac{f(x)}{\sqrt[3]{x}}=0$ 时，$f(x)$ 在点 $x=0$ 处可导；②当 $\lim_{x\to0}\dfrac{f(x)}{x^2}=0$ 时，$f(x)$ 在点 $x=0$ 处可导；③当 $f(x)$ 在点 $x=0$ 处可导时，$\lim_{x\to0}\dfrac{f(x)}{\sqrt[3]{x}}=0$。所有正确结论的序号为\ExamSelection
+      设函数 $f(x)$ 在区间 $(-1,1)$ 内有定义，且在点 $x=0$ 处连续，则以下结论：\n①当 $\lim_{x\to0}\dfrac{f(x)}{\sqrt[3]{x}}=0$ 时，$f(x)$ 在点 $x=0$ 处可导；\n②当 $\lim_{x\to0}\dfrac{f(x)}{x^2}=0$ 时，$f(x)$ 在点 $x=0$ 处可导；\n③当 $f(x)$ 在点 $x=0$ 处可导时，$\lim_{x\to0}\dfrac{f(x)}{\sqrt[3]{x}}=0$。\n所有正确结论的序号为\ExamSelection
   choices:
   - label: A
     text: ①
@@ -261,19 +260,19 @@ questions:
       设甲、乙两种检验设备均有 $90\%$ 的正确检出率且相互独立，现有一批合格率为 $10\%$ 的产品，从中任取一件产品，经两种检验设备检验均为合格品，则该产品是合格品的概率为\ExamBlank
 - number: 17
   section: solution
-  points:
+  points: 10
   stem:
     text: |-
       若曲线 $y=\dfrac{1}{e^x-1}$ 与 $y=\dfrac{1}{x}+k$ 在第一象限相交，求 $k$ 的取值范围。
 - number: 18
   section: solution
-  points:
+  points: 12
   stem:
     text: |-
       设平面有界区域 $D$ 是由曲线 $2x^2+y^2=2\sqrt{x^2+y^2}$ 与坐标轴围成的第一象限的部分，计算 $\iint_D\dfrac{1}{\sqrt{1-x^2}}\,\mathrm d\sigma$。
 - number: 19
   section: solution
-  points:
+  points: 12
   stem:
     text: |-
       设 $[0,+\infty)$ 上的正值可导函数 $f(x),g(x),a(x)$ 满足 $f'(x)+g(x)\leqslant a(x)f(x)$，证明：
@@ -284,13 +283,13 @@ questions:
       若 $f(0)=1,a(x)=\dfrac{2}{\sqrt{f(x)}}$，则 $f(x)\leqslant2e^x-1-\int_0^xg(t)e^{x-t}\,\mathrm dt\ (x\geqslant0)$。
 - number: 20
   section: solution
-  points:
+  points: 12
   stem:
     text: |-
       计算 $\oint_L\dfrac{x\,\mathrm dy-y\,\mathrm dx}{x^2+y^2}$，其中 $L$ 为 $x^2+(y-1)^2=a^2,0<a\leqslant1$，取逆时针方向。
 - number: 21
   section: solution
-  points:
+  points: 12
   stem:
     text: |-
       设矩阵 $\boldsymbol A=\begin{pmatrix}a&0&-2\\1&a&-1\\-1&-1&a\end{pmatrix},\boldsymbol B=\begin{pmatrix}a-1&1&0\\0&a-1&0\\0&0&a+2\end{pmatrix}$。
@@ -301,10 +300,11 @@ questions:
       是否存在可逆矩阵 $\boldsymbol P$，使得 $\boldsymbol P^{-1}\boldsymbol A\boldsymbol P=\boldsymbol B$？若存在，求出所有的 $\boldsymbol P$；若不存在，请说明理由。
 - number: 22
   section: solution
-  points:
+  points: 12
   stem:
     text: |-
       设随机变量 $X$ 满足 $P\{X>x\}=\left(\dfrac{a}{x}\right)^k$，其中 $a$ 为 $x$ 的最小值，且 $a>0,k$ 为大于 $0$ 的常数。
   subparts:
   - text: 求 $X$ 的概率密度；
   - text: $X$ 的数学期望、方差是否存在？说明理由。
+content_hash: d42c8553414dd5a7a35fd0e7acc97a79df2481e75525d27336f1d5eea4f4dcd8

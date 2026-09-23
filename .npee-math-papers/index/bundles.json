@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "bundle_count": 60,
+  "bundle_count": 61,
   "bundles": [
     {
       "bundle": "chaoyue10-2024-math1",
@@ -144,6 +144,14 @@
       "series_name": "李林六套卷",
       "year": 2026,
       "subject": "math3",
+      "paper_count": 6
+    },
+    {
+      "bundle": "lilin6-2027-math2",
+      "series_key": "lilin6",
+      "series_name": "李林六套卷",
+      "year": 2027,
+      "subject": "math2",
       "paper_count": 6
     },
     {

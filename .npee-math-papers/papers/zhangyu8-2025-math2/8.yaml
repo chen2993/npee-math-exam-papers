@@ -4,14 +4,13 @@ paper:
   year: 2025
   subject: math2
   paper_no: 8
-content_hash: 4dd8cd40bc96b7b0321c6ffc7bf997747d5c648260479a37831b6482ece94bf0
 questions:
 - number: 1
   section: choice
   points: 5
   stem:
     text: |-
-      设函数 $f(x)$ 在点 $x=0$ 的某邻域内可导且 $f'(x)$ 在 $x=0$ 处连续，$\lim_{x\to0}\dfrac{f(x)}{x}=a>0$，则以下结论：① $f'(0)>0$；② $f(x)$ 在点 $x=0$ 的某个邻域内单调递增；③ $x=0$ 是 $g(x)=f(x)-ax$ 的极值点。正确结论的个数为\ExamSelection
+      设函数 $f(x)$ 在点 $x=0$ 的某邻域内可导且 $f'(x)$ 在 $x=0$ 处连续，$\lim_{x\to0}\dfrac{f(x)}{x}=a>0$，则以下结论：\n① $f'(0)>0$；\n② $f(x)$ 在点 $x=0$ 的某个邻域内单调递增；\n③ $x=0$ 是 $g(x)=f(x)-ax$ 的极值点。\n正确结论的个数为\ExamSelection
   choices:
   - label: A
     text: $0$
@@ -49,7 +48,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $f(x),g(x)$ 为连续函数，以下结论：①若 $\lim_{x\to0}\dfrac{f(x)}{g(x)}=1$，则 $f(x)$ 是 $g(x)$ 在 $x\to0$ 时的等价无穷小；②若 $f(x)$ 是 $g(x)$ 在 $x\to0$ 时的等价无穷小，则 $\lim_{x\to0}\dfrac{f(x)}{g(x)}=1$；③若 $f(n)$ 是 $g(n)$ 在 $n\to\infty$ 时的等价无穷小，则 $\sum_{n=1}^{\infty}f(n)$ 与 $\sum_{n=1}^{\infty}g(n)$ 同敛散；④若 $\sum_{n=1}^{\infty}f(n)$ 与 $\sum_{n=1}^{\infty}g(n)$ 同敛散，则 $f(n)$ 是 $g(n)$ 在 $n\to\infty$ 时的等价无穷小。正确结论的个数为\ExamSelection
+      设 $f(x),g(x)$ 为连续函数，以下结论：\n①若 $\lim_{x\to0}\dfrac{f(x)}{g(x)}=1$，则 $f(x)$ 是 $g(x)$ 在 $x\to0$ 时的等价无穷小；\n②若 $f(x)$ 是 $g(x)$ 在 $x\to0$ 时的等价无穷小，则 $\lim_{x\to0}\dfrac{f(x)}{g(x)}=1$；\n③若 $f(n)$ 是 $g(n)$ 在 $n\to\infty$ 时的等价无穷小，则 $\sum_{n=1}^{\infty}f(n)$ 与 $\sum_{n=1}^{\infty}g(n)$ 同敛散；\n④若 $\sum_{n=1}^{\infty}f(n)$ 与 $\sum_{n=1}^{\infty}g(n)$ 同敛散，则 $f(n)$ 是 $g(n)$ 在 $n\to\infty$ 时的等价无穷小。\n正确结论的个数为\ExamSelection
   choices:
   - label: A
     text: $1$
@@ -299,3 +298,4 @@ questions:
       $\mathbf{A}$；
   - text: |-
       $\mathbf{A}^{10}\mathbf{x}=\mathbf{A}\boldsymbol{\beta}$ 的全部解。
+content_hash: 14f87e0ee4e030413523acf88a4cc616a676da539e178f0ac904ee16f4989e4e

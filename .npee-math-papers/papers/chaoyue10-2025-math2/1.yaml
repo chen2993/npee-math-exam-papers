@@ -4,7 +4,6 @@ paper:
   year: 2025
   subject: math2
   paper_no: 1
-content_hash: a57b21701fc18a2014828e1c9d96722b781cb409ded10e0fe82fb42d3cd89755
 questions:
 - number: 1
   section: choice
@@ -129,7 +128,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $f(x)$ 是以 $T$ 为周期的连续函数，$x\in(-\infty,+\infty)$，则下列说法中正确的个数为\ExamSelection。
+      设 $f(x)$ 是以 $T$ 为周期的连续函数，$x\in(-\infty,+\infty)$，则下列说法中正确的个数为\ExamSelection。\n① 若 $\int_0^T f(x)\,\mathrm{d}x=0$，则 $\int_0^x f(t)\,\mathrm{d}t$ 是周期函数。\n② 若 $f(x)$ 为奇函数，则 $\int_0^x f(t)\,\mathrm{d}t$ 是周期函数。\n③ 若 $\int_0^{+\infty}f(x)\,\mathrm{d}x=0$，则 $\int_0^x f(t)\,\mathrm{d}t$ 是周期函数。\n④ $F(x)=\int_0^x f(t)\,\mathrm{d}t-\dfrac{x}{T}\int_0^T f(t)\,\mathrm{d}t$ 是周期函数。
   choices:
   - label: A
     text: $1$
@@ -143,15 +142,6 @@ questions:
   - label: D
     text: $4$
     figures: []
-  subparts:
-  - text: |-
-      若 $\int_0^T f(x)\,\mathrm{d}x=0$，则 $\int_0^x f(t)\,\mathrm{d}t$ 是周期函数。
-  - text: |-
-      若 $f(x)$ 为奇函数，则 $\int_0^x f(t)\,\mathrm{d}t$ 是周期函数。
-  - text: |-
-      若 $\int_0^{+\infty}f(x)\,\mathrm{d}x=0$，则 $\int_0^x f(t)\,\mathrm{d}t$ 是周期函数。
-  - text: |-
-      $F(x)=\int_0^x f(t)\,\mathrm{d}t-\dfrac{x}{T}\int_0^T f(t)\,\mathrm{d}t$ 是周期函数。
 - number: 8
   section: choice
   points: 5
@@ -293,3 +283,4 @@ questions:
   subparts:
   - text: 当单特征值不等于 $0$ 时，求 $A$ 以及 $Ax=0$ 的通解；
   - text: 当单特征值等于 $0$ 时，求正定矩阵 $B$，使得 $A=B^2-2E$。
+content_hash: e806d55cb7d1ed3094f5bdad71eb89d9ee021a58e7853964c10527368e688101

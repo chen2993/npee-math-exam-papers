@@ -4,7 +4,6 @@ paper:
   year: 2026
   subject: math2
   paper_no: 2
-content_hash: 214340c5887ad70b1c9de8c7bb4ae64e67c491ec0499f0d985831572d3a46548
 questions:
 - number: 1
   section: choice
@@ -142,7 +141,7 @@ questions:
   points: 5
   stem:
     text: |-
-      下列说法正确的个数是\ExamSelection ①若 $\lim_{x\to0}f(x)=0$，则 $\lim_{x\to0}f(x)\sin\dfrac{1}{x}=0$；②若 $\lim_{x\to0}f(x)\sin\dfrac{1}{x}=0$，则 $\lim_{x\to0}f(x)=0$；③若 $f(x)$ 在 $x=0$ 的去心邻域内无界，则 $f(x)\sin\dfrac{1}{x}$ 在 $x=0$ 的去心邻域内无界；④若 $f(x)\sin\dfrac{1}{x}$ 在 $x=0$ 的去心邻域内无界，则 $f(x)$ 在 $x=0$ 的去心邻域内无界。
+      下列说法正确的个数是\ExamSelection \n①若 $\lim_{x\to0}f(x)=0$，则 $\lim_{x\to0}f(x)\sin\dfrac{1}{x}=0$；\n②若 $\lim_{x\to0}f(x)\sin\dfrac{1}{x}=0$，则 $\lim_{x\to0}f(x)=0$；\n③若 $f(x)$ 在 $x=0$ 的去心邻域内无界，则 $f(x)\sin\dfrac{1}{x}$ 在 $x=0$ 的去心邻域内无界；\n④若 $f(x)\sin\dfrac{1}{x}$ 在 $x=0$ 的去心邻域内无界，则 $f(x)$ 在 $x=0$ 的去心邻域内无界。
   choices:
   - label: A
     text: '1.'
@@ -310,3 +309,4 @@ questions:
       求正交矩阵 $Q$，使得 $Q^{\mathrm T}AQ$，$Q^{\mathrm T}BQ$ 同时为对角矩阵
   - text: |-
       求 $\displaystyle\max_{x\neq0}\dfrac{x^{\mathrm T}Ax}{x^{\mathrm T}Bx}$，其中 $x=(x_1,x_2,x_3)^{\mathrm T}$
+content_hash: ccd77a18b5d59906270761465129b9382ba1198758a4365b90fd5f358e848956

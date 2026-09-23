@@ -4,7 +4,6 @@ paper:
   year: 2024
   subject: math2
   paper_no: 3
-content_hash: 9f3250a965be83363c87017e7219d1c6042166f09b1801eeed2a1a3e16a06b6d
 questions:
 - number: 1
   section: choice
@@ -30,7 +29,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设函数 $f(x)$ 在 $(0,+\infty)$ 上可导，给出下列命题：①若曲线 $y=f(x)$ 有水平渐近线 $y=1$，则 $\lim_{x\to+\infty}f'(x)=0$；②若曲线 $y=f(x)$ 有斜渐近线 $y=x$，则 $\lim_{x\to+\infty}f'(x)=1$；③若 $\lim_{x\to+\infty}\dfrac{f(x)}{x}=1$，则曲线 $y=f(x)$ 的斜渐近线斜率为 $1$；④若曲线 $y=f(x)$ 的斜渐近线斜率为 $1$，则 $\lim_{x\to+\infty}\dfrac{f(x)}{x}=1$。正确命题的个数为\ExamSelection
+      设函数 $f(x)$ 在 $(0,+\infty)$ 上可导，给出下列命题：\n①若曲线 $y=f(x)$ 有水平渐近线 $y=1$，则 $\lim_{x\to+\infty}f'(x)=0$；\n②若曲线 $y=f(x)$ 有斜渐近线 $y=x$，则 $\lim_{x\to+\infty}f'(x)=1$；\n③若 $\lim_{x\to+\infty}\dfrac{f(x)}{x}=1$，则曲线 $y=f(x)$ 的斜渐近线斜率为 $1$；\n④若曲线 $y=f(x)$ 的斜渐近线斜率为 $1$，则 $\lim_{x\to+\infty}\dfrac{f(x)}{x}=1$。\n正确命题的个数为\ExamSelection
   choices:
   - label: A
     text: '1'
@@ -182,7 +181,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $A_1,A_2,B_1,B_2$ 均为 $n$ 阶方阵，给出以下结论：①若 $\begin{pmatrix}A_1&O\\O&A_2\end{pmatrix}$ 相似于 $\begin{pmatrix}B_1&O\\O&B_2\end{pmatrix}$，则 $A_1$ 相似于 $B_1$，$A_2$ 相似于 $B_2$；②若 $A_1$ 相似于 $B_1$，$A_2$ 相似于 $B_2$，则 $\begin{pmatrix}A_1&O\\O&A_2\end{pmatrix}$ 相似于 $\begin{pmatrix}B_1&O\\O&B_2\end{pmatrix}$；③若 $\begin{pmatrix}A_1&O\\O&A_2\end{pmatrix}$ 合同于 $\begin{pmatrix}B_1&O\\O&B_2\end{pmatrix}$，则 $A_1$ 合同于 $B_1$，$A_2$ 合同于 $B_2$；④若 $A_1$ 合同于 $B_1$，$A_2$ 合同于 $B_2$，则 $\begin{pmatrix}A_2&O\\O&A_1\end{pmatrix}$ 合同于 $\begin{pmatrix}B_1&O\\O&B_2\end{pmatrix}$。正确结论的个数为\ExamSelection
+      设 $A_1,A_2,B_1,B_2$ 均为 $n$ 阶方阵，给出以下结论：\n①若 $\begin{pmatrix}A_1&O\\O&A_2\end{pmatrix}$ 相似于 $\begin{pmatrix}B_1&O\\O&B_2\end{pmatrix}$，则 $A_1$ 相似于 $B_1$，$A_2$ 相似于 $B_2$；\n②若 $A_1$ 相似于 $B_1$，$A_2$ 相似于 $B_2$，则 $\begin{pmatrix}A_1&O\\O&A_2\end{pmatrix}$ 相似于 $\begin{pmatrix}B_1&O\\O&B_2\end{pmatrix}$；\n③若 $\begin{pmatrix}A_1&O\\O&A_2\end{pmatrix}$ 合同于 $\begin{pmatrix}B_1&O\\O&B_2\end{pmatrix}$，则 $A_1$ 合同于 $B_1$，$A_2$ 合同于 $B_2$；\n④若 $A_1$ 合同于 $B_1$，$A_2$ 合同于 $B_2$，则 $\begin{pmatrix}A_2&O\\O&A_1\end{pmatrix}$ 合同于 $\begin{pmatrix}B_1&O\\O&B_2\end{pmatrix}$。\n正确结论的个数为\ExamSelection
   choices:
   - label: A
     text: '1'
@@ -273,8 +272,12 @@ questions:
   section: solution
   points: 12
   stem:
-    text: |-
-      设函数 $f(x)$ 在区间 $[0,3]$ 上连续，证明：\NPEEQuestionContinuation (1) 若 $\int_0^1f(x)\,\mathrm{d}x=e^2\int_0^3f(x)\,\mathrm{d}x$，则存在 $c\in(1,3)$，使得 $\int_0^c f(x)\,\mathrm{d}x+f(c)=0$；\NPEEQuestionContinuation (2) 若 $\int_0^1f(x)\,\mathrm{d}x=\int_0^2f(x)\,\mathrm{d}x=1$，则存在两个不同的点 $\xi,\eta\in(1,3)$，使得 $e^\xi\left[\int_0^\xi f(x)\,\mathrm{d}x+f(\xi)\right]=e^{\eta-1}$。
+    text: 设函数 $f(x)$ 在区间 $[0,3]$ 上连续，证明：
+  subparts:
+  - text: |-
+      若 $\int_0^1f(x)\,\mathrm{d}x=e^2\int_0^3f(x)\,\mathrm{d}x$，则存在 $c\in(1,3)$，使得 $\int_0^c f(x)\,\mathrm{d}x+f(c)=0$；
+  - text: |-
+      若 $\int_0^1f(x)\,\mathrm{d}x=\int_0^2f(x)\,\mathrm{d}x=1$，则存在两个不同的点 $\xi,\eta\in(1,3)$，使得 $e^\xi\left[\int_0^\xi f(x)\,\mathrm{d}x+f(\xi)\right]=e^{\eta-1}$。
 - number: 21
   section: solution
   points: 12
@@ -286,4 +289,10 @@ questions:
   points: 12
   stem:
     text: |-
-      已知 $3$ 维列向量 $\xi_1$ 是 $3$ 阶实对称矩阵 $A$ 的属于特征值 $1$ 的特征向量，$|A+E|=0,\ |A|=1,\ \eta$ 是 $3$ 维非零列向量，$[\xi_1,\eta]=0$。\NPEEQuestionContinuation (1) 证明 $\eta$ 是 $A$ 的特征向量；\NPEEQuestionContinuation (2) 记 $\alpha=\dfrac{\xi_1}{\|\xi_1\|}=\begin{pmatrix}a_1\\a_2\\a_3\end{pmatrix},\ \beta=\dfrac{\eta}{\|\eta\|}=\begin{pmatrix}b_1\\b_2\\b_3\end{pmatrix}$，证明二次型 $f(x_1,x_2,x_3)=(a_1x_1+a_2x_2+a_3x_3)^2-(b_1x_1+b_2x_2+b_3x_3)^2$ 在正交变换下的标准形为 $y_1^2-y_2^2$。
+      已知 $3$ 维列向量 $\xi_1$ 是 $3$ 阶实对称矩阵 $A$ 的属于特征值 $1$ 的特征向量，$|A+E|=0,\ |A|=1,\ \eta$ 是 $3$ 维非零列向量，$[\xi_1,\eta]=0$。
+  subparts:
+  - text: |-
+      证明 $\eta$ 是 $A$ 的特征向量；
+  - text: |-
+      记 $\alpha=\dfrac{\xi_1}{\|\xi_1\|}=\begin{pmatrix}a_1\\a_2\\a_3\end{pmatrix},\ \beta=\dfrac{\eta}{\|\eta\|}=\begin{pmatrix}b_1\\b_2\\b_3\end{pmatrix}$，证明二次型 $f(x_1,x_2,x_3)=(a_1x_1+a_2x_2+a_3x_3)^2-(b_1x_1+b_2x_2+b_3x_3)^2$ 在正交变换下的标准形为 $y_1^2-y_2^2$。
+content_hash: ad18c552bdb76e64d03a4f031df75b61dd3fbcb3603ef730092a0da7895acad4

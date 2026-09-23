@@ -4,7 +4,6 @@ paper:
   year: 2026
   subject: math3
   paper_no: 3
-content_hash: a2eed1b8a03b93b20927a22f0c2399674405b4d06095d99aa341dddb65bfd4a4
 questions:
 - number: 1
   section: choice
@@ -95,7 +94,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设非零实矩阵 $A$ 满足 $A^2=A$，$\boldsymbol{\beta}$ 为非零向量，现有两个方程组：(I) $A\boldsymbol{x}=\boldsymbol{\beta}$；(II) $A^{\mathrm T}A\boldsymbol{x}=A^{\mathrm T}\boldsymbol{\beta}$。下列结论正确的是 ① 若（I）有解，则 $\boldsymbol{\beta}$ 必是 $A$ 的特征向量；② 若（I）无解，则（II）无解；③ 无论（I）是否有解，（II）总有解；④ 若（I）（II）同解，则 $A$ 必为单位矩阵。\ExamSelection
+      设非零实矩阵 $A$ 满足 $A^2=A$，$\boldsymbol{\beta}$ 为非零向量，现有两个方程组：(I) $A\boldsymbol{x}=\boldsymbol{\beta}$；(II) $A^{\mathrm T}A\boldsymbol{x}=A^{\mathrm T}\boldsymbol{\beta}$。下列结论正确的是 \n① 若（I）有解，则 $\boldsymbol{\beta}$ 必是 $A$ 的特征向量；\n② 若（I）无解，则（II）无解；\n③ 无论（I）是否有解，（II）总有解；\n④ 若（I）（II）同解，则 $A$ 必为单位矩阵。\n\ExamSelection
   choices:
   - label: A
     text: ①②。
@@ -137,7 +136,7 @@ questions:
   points: 5
   stem:
     text: |-
-      若实矩阵 $A$ 与 $B$ 合同，则下列命题一定成立的个数为 ① $\lvert A\rvert\lvert B\rvert\ge0$；② $A$ 与 $B$ 等价；③ $A$ 的行向量组与 $B$ 的行向量组等价；④ 若 $B$ 可相似对角化，则 $A$ 也可相似对角化。\ExamSelection
+      若实矩阵 $A$ 与 $B$ 合同，则下列命题一定成立的个数为 \n① $\lvert A\rvert\lvert B\rvert\ge0$；\n② $A$ 与 $B$ 等价；\n③ $A$ 的行向量组与 $B$ 的行向量组等价；\n④ 若 $B$ 可相似对角化，则 $A$ 也可相似对角化。\n\ExamSelection
   choices:
   - label: A
     text: 1。
@@ -304,3 +303,4 @@ questions:
   subparts:
   - text: $Z$ 的概率密度；
   - text: $V=Y+Z$ 的概率密度。
+content_hash: 8e1bc7ee0584ea3ec06a29e6fb48d7d9f045f87c27555be26c93d5da60704149

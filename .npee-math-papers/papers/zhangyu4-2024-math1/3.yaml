@@ -4,7 +4,6 @@ paper:
   year: 2024
   subject: math1
   paper_no: 3
-content_hash: 95abf959c02450ef9d370aac43bb84cb28e003c35ab6d499e96751269823c9aa
 questions:
 - number: 1
   section: choice
@@ -121,7 +120,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $A_1,A_2,B_1,B_2$ 均为 $n$ 阶矩阵，给出以下结论：①若 $\begin{pmatrix}A_1&O\\O&A_2\end{pmatrix}$ 相似于 $\begin{pmatrix}B_1&O\\O&B_2\end{pmatrix}$，则 $A_1$ 相似于 $B_1$，$A_2$ 相似于 $B_2$；②若 $A_1$ 相似于 $B_1$，$A_2$ 相似于 $B_2$，则 $\begin{pmatrix}A_1&O\\O&A_2\end{pmatrix}$ 相似于 $\begin{pmatrix}B_1&O\\O&B_2\end{pmatrix}$；③若 $\begin{pmatrix}A_1&O\\O&A_2\end{pmatrix}$ 合同于 $\begin{pmatrix}B_1&O\\O&B_2\end{pmatrix}$，则 $A_1$ 合同于 $B_1$，$A_2$ 合同于 $B_2$；④若 $A_1$ 合同于 $B_1$，$A_2$ 合同于 $B_2$，则 $\begin{pmatrix}A_2&O\\O&A_1\end{pmatrix}$ 合同于 $\begin{pmatrix}B_1&O\\O&B_2\end{pmatrix}$。正确结论的个数为\ExamSelection
+      设 $A_1,A_2,B_1,B_2$ 均为 $n$ 阶矩阵，给出以下结论：\n①若 $\begin{pmatrix}A_1&O\\O&A_2\end{pmatrix}$ 相似于 $\begin{pmatrix}B_1&O\\O&B_2\end{pmatrix}$，则 $A_1$ 相似于 $B_1$，$A_2$ 相似于 $B_2$；\n②若 $A_1$ 相似于 $B_1$，$A_2$ 相似于 $B_2$，则 $\begin{pmatrix}A_1&O\\O&A_2\end{pmatrix}$ 相似于 $\begin{pmatrix}B_1&O\\O&B_2\end{pmatrix}$；\n③若 $\begin{pmatrix}A_1&O\\O&A_2\end{pmatrix}$ 合同于 $\begin{pmatrix}B_1&O\\O&B_2\end{pmatrix}$，则 $A_1$ 合同于 $B_1$，$A_2$ 合同于 $B_2$；\n④若 $A_1$ 合同于 $B_1$，$A_2$ 合同于 $B_2$，则 $\begin{pmatrix}A_2&O\\O&A_1\end{pmatrix}$ 合同于 $\begin{pmatrix}B_1&O\\O&B_2\end{pmatrix}$。\n正确结论的个数为\ExamSelection
   choices:
   - label: A
     text: '1'
@@ -178,7 +177,7 @@ questions:
   points: 5
   stem:
     text: |-
-      已知总体 $X$ 服从标准正态分布，$X_1,X_2$ 是来自总体 $X$ 的简单随机样本。记 $Y=X_1^2+X_2^2$，$F(y)$ 是 $Y$ 的分布函数，给出以下结论：①$Y\sim E(\dfrac{1}{2})$；②$Y\sim\chi^2(2)$；③$E[F(Y)]=\dfrac{1}{2}$；④$\dfrac{Y}{2X_1^2}\sim F(2,1)$。正确结论的个数为\ExamSelection
+      已知总体 $X$ 服从标准正态分布，$X_1,X_2$ 是来自总体 $X$ 的简单随机样本。记 $Y=X_1^2+X_2^2$，$F(y)$ 是 $Y$ 的分布函数，给出以下结论：\n①$Y\sim E(\dfrac{1}{2})$；\n②$Y\sim\chi^2(2)$；\n③$E[F(Y)]=\dfrac{1}{2}$；\n④$\dfrac{Y}{2X_1^2}\sim F(2,1)$。\n正确结论的个数为\ExamSelection
   choices:
   - label: A
     text: '1'
@@ -308,3 +307,4 @@ questions:
       证明在 $Y=y$ 的条件下，$X$ 的条件概率密度为 $f_{X|Y}(x\mid y)=\sqrt{\dfrac{2}{3\pi}}e^{-\dfrac{4x^2-4xy+y^2}{6}}$，$x\in\mathbb{R}$，$y\in\mathbb{R}$；
   - text: |-
       若 $X_1,X_2,\ldots,X_n$ 是来自(2)中总体 $X$ 的简单随机样本，求 $y$ 的最大似然估计量。
+content_hash: 5acd3218e38564a70f7924e963db154d97d8f1792bd9dc6630b8aed8d64b273d

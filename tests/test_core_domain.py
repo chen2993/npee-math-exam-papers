@@ -18,27 +18,42 @@ def test_sections_have_labels() -> None:
 def test_spacing_labels_cover_spacings() -> None:
     assert set(domain.SPACING_LABELS) == set(domain.SPACINGS)
 
-def test_product_spacings_are_a_subset_of_the_accepted_ones() -> None:
-    """The shipping product line is smaller than what the schema accepts.
+def test_spacing_covers_only_the_two_question_rhythms() -> None:
+    """间距只描述解答题怎么排，因此只有 compact / spaced 两个值。
 
-    ``spaced`` (宽松版) is retired but must keep validating, because
-    composition packages written before the change still name it. Keeping
-    the two sets distinct is what lets a payload read while the UI offers
-    only the modes that are actually compiled.
+    ``print`` / ``a4-blank`` 曾经把「紧凑 + 留白」挤在同一个 token 里；拆开之后它们
+    只作为**历史存储值**被接受（{@link split_spacing_axes} 把旧包折算成
+    compact + 留白），不再出现在间距词表里。
     """
 
-    assert set(domain.PRODUCT_SPACINGS) < set(domain.SPACINGS)
-    assert "spaced" in domain.SPACINGS
-    assert "spaced" not in domain.PRODUCT_SPACINGS
+    assert domain.SPACINGS == ("compact", "spaced")
+    assert set(domain.PRODUCT_SPACINGS) == set(domain.SPACINGS)
+    assert "print" in domain.STORED_SPACINGS
+    assert "a4-blank" in domain.STORED_SPACINGS
+    assert "print" not in domain.SPACINGS
+    assert "a4-blank" not in domain.SPACINGS
 
-def test_print_spacing_is_labelled_like_a_deliverable() -> None:
-    """It reads 打印版 rather than being tied to one paper size.
 
-    The mode is layout-agnostic (A3 already floors at four logical pages),
-    so a label naming A4 would misdescribe what it produces on A3.
-    """
+def test_legacy_print_spacings_convert_to_compact_with_blank_space() -> None:
+    """旧组卷包的 ``print`` / ``a4-blank`` 等价于「紧凑 + 留白」。"""
 
-    assert domain.SPACING_LABELS["a4-blank"] == "打印版"
+    assert domain.split_spacing_axes("print") == ("compact", True)
+    assert domain.split_spacing_axes("a4-blank") == ("compact", True)
+    # 间距本身不再隐式打开留白：历史包只写间距时不会平白多出空白页。
+    assert domain.split_spacing_axes("compact") == ("compact", False)
+    assert domain.split_spacing_axes("spaced") == ("spaced", False)
+    assert domain.split_spacing_axes("compact", True) == ("compact", True)
+
+
+def test_default_product_is_compact_with_blank_space() -> None:
+    """默认产品沿用「打印版」：紧凑连排 + 留白。"""
+
+    assert domain.DEFAULT_SPACING == "compact"
+    assert domain.DEFAULT_PRINT is True
+    assert domain.SPACING_LABELS["compact"] == "紧凑版"
+    assert domain.SPACING_LABELS["spaced"] == "宽松版"
+    assert domain.target_label("compact", True) == "打印版"
+    assert domain.target_label("spaced", False) == "宽松版"
 
 def test_no_spacing_is_layout_restricted() -> None:
     """Every accepted spacing works on every stock.

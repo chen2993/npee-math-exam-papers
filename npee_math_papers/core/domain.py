@@ -75,42 +75,70 @@ LAYOUTS: tuple[str, ...] = ("a3", "a4")
 #: Supported colour themes.
 THEMES: tuple[str, ...] = ("print", "cream")
 
-#: Every spacing mode the composition schema accepts.
+#: 间距（spacing）：**只决定解答题怎么排**，与打印无关。
 #:
-#: This is the set of *stored* values, not the shipping product line: ``spaced``
-#: is retired and no longer offered, but composition packages written before the
-#: change still name it and must keep validating.
-SPACINGS: tuple[str, ...] = ("compact", "spaced", "a4-blank")
+#: ``compact`` = 全卷自然连排；``spaced`` = 解答题独占页面（17–18 共用一页，
+#: 之后每题一页），给作答留出书写空间。两种间距共用同一套正文排版（字号、
+#: 行高、小题间距都相同），差别只在解答题的版面策略。
+SPACINGS: tuple[str, ...] = ("compact", "spaced")
 
-#: The spacing modes that make up the shipping product line, in display order.
+#: 留白（print）：与间距正交的独立开关。
 #:
-#: ``a4-blank`` is the *print deliverable*: a compact natural flow in which every
-#: paper is padded to at least four sheets, so a handout always begins on a fresh
-#: one. It is deliberately layout-agnostic -- A3 already floors at four logical
-#: pages, so there it is exactly ``compact`` -- which is why its label is 打印版
-#: rather than anything tied to A4. Its key keeps the historical spelling because
-#: that is the value already written into composition files.
-PRODUCT_SPACINGS: tuple[str, ...] = ("compact", "a4-blank")
+#: 打开后每套卷补足到整页（A4 至少 4 页）、封面后加一张空白页、目录凑成偶数页，
+#: 使双面打印时每套卷都从右手页开始。它不改动任何题面排版 —— 打印的核心就是留白。
+PRINT_VALUES: tuple[bool, ...] = (True, False)
+
+#: 旧的“打印版”写法：把「紧凑 + 留白」写成单个间距值。历史组卷包仍在用，
+#: 读取时归一化为 ``spacing="compact"`` 加 ``print=True``，行为与当年一致。
+LEGACY_PRINT_SPACINGS: tuple[str, ...] = ("print", "a4-blank")
+
+#: 存储层可能出现的全部间距值（含仅用于兼容读取的旧写法）。
+STORED_SPACINGS: tuple[str, ...] = SPACINGS + LEGACY_PRINT_SPACINGS
+
+#: 产品线提供给使用者的间距取值，按展示顺序。
+PRODUCT_SPACINGS: tuple[str, ...] = SPACINGS
 
 #: Chinese label for each spacing mode; also the `{spacing_label}` filename token.
-SPACING_LABELS: dict[str, str] = {"compact": "紧凑版", "spaced": "宽松版", "a4-blank": "打印版"}
+SPACING_LABELS: dict[str, str] = {
+    "compact": "紧凑版",
+    "spaced": "宽松版",
+}
 
-#: The spacing mode a new composition compiles with.
-#:
-#: The product line ships the print deliverable by default, so a caller that
-#: does not choose a rhythm gets the one the library is actually produced in.
-DEFAULT_SPACING = "a4-blank"
+#: 默认间距与默认留白：产品线出的是「紧凑 + 留白」，也就是沿用下来的打印版。
+DEFAULT_SPACING = "compact"
+DEFAULT_PRINT = True
 
 #: Supported solution-flow structures.
 SOLUTION_STRUCTURES: tuple[str, ...] = ("pair-first", "natural", "full-page")
 
-#: Spacing modes restricted to one layout, as ``{spacing: layout}``.
+#: 间距限制纸张的规则表，格式 ``{spacing: layout}``。
 #:
-#: Currently empty: no spacing mode is layout-restricted. The print deliverable
-#: used to be A4-only, but it is now layout-agnostic (A3 already floors at four
-#: logical pages). The table stays as the single place to declare such a rule if
-#: a future mode needs one, so consumers never hardcode a spacing name.
+#: 留白与间距拆开后为空：留白对两种纸张都合法（A3 本身就按 4 个逻辑页起算）。
+#: 该表保留为「唯一声明处」，将来若有间距只对某种纸张成立，改这里即可。
 SPACING_LAYOUT_REQUIREMENTS: dict[str, str] = {}
+
+
+def split_spacing_axes(spacing: str, print_flag: bool | None = None) -> tuple[str, bool]:
+    """把存储值归一化成 ``(间距, 留白)`` 两个正交的轴。
+
+    旧组卷包把「紧凑 + 留白」写成一个值（``print`` / ``a4-blank``），这里统一折算；
+    间距值本身只接受 ``compact`` / ``spaced``，其它值原样返回给调用方报错。
+
+    缺省 ``print_flag`` 视为**不留白**：历史组卷包只写间距，没写留白，不该因此
+    多出空白页。新组卷由 ``DEFAULT_PRINT`` 显式写入想用的值。
+    """
+
+    if spacing in LEGACY_PRINT_SPACINGS:
+        return "compact", True
+    return spacing, bool(print_flag)
+
+
+def target_label(spacing: str, print_flag: bool) -> str:
+    """目标版式的中文标签，同时用于产物文件名。"""
+
+    if print_flag:
+        return "打印版" if spacing == "compact" else f"{SPACING_LABELS.get(spacing, spacing)}留白"
+    return SPACING_LABELS.get(spacing, spacing)
 
 #: Injection points a composition package may hook.
 HOOK_PHASES: tuple[str, ...] = (
@@ -179,7 +207,9 @@ __all__ = [
     "ID_MAX_LENGTH",
     "ID_RE",
     "LAYOUTS",
+    "LEGACY_PRINT_SPACINGS",
     "PAPER_ORDERS",
+    "PRINT_VALUES",
     "PRODUCT_SPACINGS",
     "PAPER_ORDER_KEYS",
     "SECTION_LABELS",
@@ -188,15 +218,19 @@ __all__ = [
     "SPACING_LABELS",
     "SPACING_LAYOUT_REQUIREMENTS",
     "SPACINGS",
+    "STORED_SPACINGS",
     "SUBJECTS",
     "SUBJECT_CODES",
     "SUBJECT_LABELS",
     "SUBJECT_TEMPLATE",
     "THEMES",
     "DEFAULT_PAPER_ORDER",
+    "DEFAULT_PRINT",
     "DEFAULT_SPACING",
     "is_valid_id",
     "normalize_paper_order",
+    "split_spacing_axes",
     "subject_code",
     "subject_label",
+    "target_label",
 ]

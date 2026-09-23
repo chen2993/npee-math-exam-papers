@@ -4,14 +4,13 @@ paper:
   year: 2025
   subject: math3
   paper_no: 1
-content_hash: a047af0613c9095341b8fba4187e13a53e15f25edb02c9bf891e0536da125df0
 questions:
 - number: 1
   section: choice
   points: 5
   stem:
     text: |-
-      当 $x\to 0$ 时，$\alpha(x),\beta(x)$ 是非零无穷小量，则下列命题：①若 $\alpha(x)\sim\beta(x)$，则 $\lim_{x\to0}[1+\alpha(x)]^{\dfrac{1}{\beta(x)}}=e$；②若 $\lim_{x\to0}[1+\alpha(x)]^{\dfrac{1}{\beta(x)}}=e$，则 $\alpha(x)\sim\beta(x)$；③若 $\alpha(x)-\beta(x)=o(\alpha(x))$，则 $\lim_{x\to0}\dfrac{1-\cos\alpha(x)}{\alpha(x)\beta(x)}=\dfrac{1}{2}$；④若 $\lim_{x\to0}\dfrac{1-\cos\alpha(x)}{\beta^2(x)}=\dfrac{1}{2}$，则 $\alpha(x)-\beta(x)=o(\beta(x))$。所有有真命题的序号为\ExamSelection
+      当 $x\to 0$ 时，$\alpha(x),\beta(x)$ 是非零无穷小量，则下列命题：\n①若 $\alpha(x)\sim\beta(x)$，则 $\lim_{x\to0}[1+\alpha(x)]^{\dfrac{1}{\beta(x)}}=e$；\n②若 $\lim_{x\to0}[1+\alpha(x)]^{\dfrac{1}{\beta(x)}}=e$，则 $\alpha(x)\sim\beta(x)$；\n③若 $\alpha(x)-\beta(x)=o(\alpha(x))$，则 $\lim_{x\to0}\dfrac{1-\cos\alpha(x)}{\alpha(x)\beta(x)}=\dfrac{1}{2}$；\n④若 $\lim_{x\to0}\dfrac{1-\cos\alpha(x)}{\beta^2(x)}=\dfrac{1}{2}$，则 $\alpha(x)-\beta(x)=o(\beta(x))$。\n所有有真命题的序号为\ExamSelection
   choices:
   - label: A
     text: ①③④
@@ -49,7 +48,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设连续函数 $f(x)$ 在 $0$ 到 $x(x\ne0)$ 上的平均值为 $\overline{f}(x)=\dfrac{1}{x}\int_0^x f(t)\,\mathrm{d}t$，则下结论：①若 $f(x)$ 是奇函数，则 $\overline{f}(x)$ 是奇函数；②若 $f(x)$ 是凹函数，则 $\overline{f}(x)$ 是凸函数；③若 $f(x)$ 是周期函数，则 $\overline{f}(x)$ 是周期函数；所有正确结论的序号为\ExamSelection
+      设连续函数 $f(x)$ 在 $0$ 到 $x(x\ne0)$ 上的平均值为 $\overline{f}(x)=\dfrac{1}{x}\int_0^x f(t)\,\mathrm{d}t$，则下结论：\n①若 $f(x)$ 是奇函数，则 $\overline{f}(x)$ 是奇函数；\n②若 $f(x)$ 是凹函数，则 $\overline{f}(x)$ 是凸函数；\n③若 $f(x)$ 是周期函数，则 $\overline{f}(x)$ 是周期函数；\n所有正确结论的序号为\ExamSelection
   choices:
   - label: A
     text: ①
@@ -292,3 +291,4 @@ questions:
   subparts:
   - text: $(X,Y)$ 的联合概率密度；
   - text: $E(|X-Y|)$。
+content_hash: 8184d14d6babc76016bb9df63e402d4fc06d3e84a0e154c272d1ca114d5f7494

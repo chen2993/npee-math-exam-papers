@@ -1,0 +1,298 @@
+{
+  "schema_version": "2.0",
+  "composition_id": "chaoyue10-2024-2025",
+  "metadata": {
+    "title": "超越十套卷2024-2025汇编",
+    "subtitle": null,
+    "year": 2025,
+    "subject_scope": [
+      "math1",
+      "math2",
+      "math3"
+    ],
+    "revision": 1,
+    "notes": "合工大超越十套卷 2024 与 2025 两年各十套，按科目拆为三份。"
+  },
+  "catalog": {
+    "sources": [
+      {
+        "id": "chaoyue10"
+      }
+    ]
+  },
+  "document": {
+    "cover": {
+      "enabled": true,
+      "kind": "tex",
+      "path": "cover.tex",
+      "bookmark_title": "封面",
+      "number_pages": false
+    },
+    "opening": {
+      "show": true,
+      "candidate_info": false,
+      "notices": false
+    },
+    "toc": {
+      "enabled": true,
+      "title": "目录",
+      "include_groups": true,
+      "include_papers": true
+    },
+    "layout": "both",
+    "theme": "print",
+    "spacing": "both",
+    "solution": {
+      "structure": "pair-first",
+      "pair_count": 2
+    }
+  },
+  "groups": [
+    {
+      "id": "y2024",
+      "title": "2024 超越十套卷",
+      "order_index": 1,
+      "papers": [
+        {
+          "year": 2024,
+          "subject": "$subject",
+          "series_key": "chaoyue10",
+          "paper_no": 1,
+          "bookmark_title": "2024 第 1 套",
+          "display_title": "2024 合工大超越十套卷 第 1 套",
+          "content_hash": "568616ed4b7dd09beb8bf4a94ffd61d38e05f2ade28ff72b29719c0fee96c6e4"
+        },
+        {
+          "year": 2024,
+          "subject": "$subject",
+          "series_key": "chaoyue10",
+          "paper_no": 2,
+          "bookmark_title": "2024 第 2 套",
+          "display_title": "2024 合工大超越十套卷 第 2 套",
+          "content_hash": "02746a4b11af5ff15e4a03e021068a73e87c6e0abef1084e5380188c3700942c"
+        },
+        {
+          "year": 2024,
+          "subject": "$subject",
+          "series_key": "chaoyue10",
+          "paper_no": 3,
+          "bookmark_title": "2024 第 3 套",
+          "display_title": "2024 合工大超越十套卷 第 3 套",
+          "content_hash": "152f459049e62318f4adbf676292244d6ec0bf1ab770a3241de08f28514efc47"
+        },
+        {
+          "year": 2024,
+          "subject": "$subject",
+          "series_key": "chaoyue10",
+          "paper_no": 4,
+          "bookmark_title": "2024 第 4 套",
+          "display_title": "2024 合工大超越十套卷 第 4 套",
+          "content_hash": "1ba1f69b26eb62a4b0c84bafb8462f0712e155aa687914b7697e559ce96fb295"
+        },
+        {
+          "year": 2024,
+          "subject": "$subject",
+          "series_key": "chaoyue10",
+          "paper_no": 5,
+          "bookmark_title": "2024 第 5 套",
+          "display_title": "2024 合工大超越十套卷 第 5 套",
+          "content_hash": "9e6093fdc8b25b111512e54b07bf07de6bb96371a5dbe48413336af161e656e4"
+        },
+        {
+          "year": 2024,
+          "subject": "$subject",
+          "series_key": "chaoyue10",
+          "paper_no": 6,
+          "bookmark_title": "2024 第 6 套",
+          "display_title": "2024 合工大超越十套卷 第 6 套",
+          "content_hash": "b630b4e514cebae4f5cf034cca97d4c81493f2e49d6e3878174849cca853e8ed"
+        },
+        {
+          "year": 2024,
+          "subject": "$subject",
+          "series_key": "chaoyue10",
+          "paper_no": 7,
+          "bookmark_title": "2024 第 7 套",
+          "display_title": "2024 合工大超越十套卷 第 7 套",
+          "content_hash": "9abb10ac02f11ba0bb94321db3700f046acbef80627f73f58e449ef5b582c476"
+        },
+        {
+          "year": 2024,
+          "subject": "$subject",
+          "series_key": "chaoyue10",
+          "paper_no": 8,
+          "bookmark_title": "2024 第 8 套",
+          "display_title": "2024 合工大超越十套卷 第 8 套",
+          "content_hash": "462ff2b6ca539f891e9b94220fe9520aff96b7735ef35edf4903601ca7d17088"
+        },
+        {
+          "year": 2024,
+          "subject": "$subject",
+          "series_key": "chaoyue10",
+          "paper_no": 9,
+          "bookmark_title": "2024 第 9 套",
+          "display_title": "2024 合工大超越十套卷 第 9 套",
+          "content_hash": "373a37892454cbb798918eb5fa3b5ca0450dc54086538b7554e76bc7efe4553d"
+        },
+        {
+          "year": 2024,
+          "subject": "$subject",
+          "series_key": "chaoyue10",
+          "paper_no": 10,
+          "bookmark_title": "2024 第 10 套",
+          "display_title": "2024 合工大超越十套卷 第 10 套",
+          "content_hash": "ad55c9cf9fd2a717aa536ad2e3fba80a4da5c38fee401d18bc328db7797c7ead"
+        }
+      ]
+    },
+    {
+      "id": "y2025",
+      "title": "2025 超越十套卷",
+      "order_index": 2,
+      "papers": [
+        {
+          "year": 2025,
+          "subject": "$subject",
+          "series_key": "chaoyue10",
+          "paper_no": 1,
+          "bookmark_title": "2025 第 1 套",
+          "display_title": "2025 合工大超越十套卷 第 1 套",
+          "content_hash": "c23699694795d089d7a25059b79279778bb20fb4e0b0fa9126cccdf5fbb3cbcc"
+        },
+        {
+          "year": 2025,
+          "subject": "$subject",
+          "series_key": "chaoyue10",
+          "paper_no": 2,
+          "bookmark_title": "2025 第 2 套",
+          "display_title": "2025 合工大超越十套卷 第 2 套",
+          "content_hash": "272955dd06a6e2154c004331ba7180b79ab2e938085ee76e2f857ba45396609a"
+        },
+        {
+          "year": 2025,
+          "subject": "$subject",
+          "series_key": "chaoyue10",
+          "paper_no": 3,
+          "bookmark_title": "2025 第 3 套",
+          "display_title": "2025 合工大超越十套卷 第 3 套",
+          "content_hash": "0cccf57c8faa47f08cf15c1963a722065a1a85a2d7e522e366a9c45dabbc1573"
+        },
+        {
+          "year": 2025,
+          "subject": "$subject",
+          "series_key": "chaoyue10",
+          "paper_no": 4,
+          "bookmark_title": "2025 第 4 套",
+          "display_title": "2025 合工大超越十套卷 第 4 套",
+          "content_hash": "201e3d36ad293db2f8b97b91797787f16df673a10e8915da490f4230a4bd3a9d"
+        },
+        {
+          "year": 2025,
+          "subject": "$subject",
+          "series_key": "chaoyue10",
+          "paper_no": 5,
+          "bookmark_title": "2025 第 5 套",
+          "display_title": "2025 合工大超越十套卷 第 5 套",
+          "content_hash": "d25976388e638658ee4eb9ef1078d03b7c52c7c81eae4b0cbe4c0ed3927cc908"
+        },
+        {
+          "year": 2025,
+          "subject": "$subject",
+          "series_key": "chaoyue10",
+          "paper_no": 6,
+          "bookmark_title": "2025 第 6 套",
+          "display_title": "2025 合工大超越十套卷 第 6 套",
+          "content_hash": "ba84c12e2ab82468f06545f1d21aa8d565a7d52b02b05eabe7a849752d11b11e"
+        },
+        {
+          "year": 2025,
+          "subject": "$subject",
+          "series_key": "chaoyue10",
+          "paper_no": 7,
+          "bookmark_title": "2025 第 7 套",
+          "display_title": "2025 合工大超越十套卷 第 7 套",
+          "content_hash": "bbec923eef43c6ee40dea144e5723ee8b7b6980b79b5e8c34cb5bbbeceeac145"
+        },
+        {
+          "year": 2025,
+          "subject": "$subject",
+          "series_key": "chaoyue10",
+          "paper_no": 8,
+          "bookmark_title": "2025 第 8 套",
+          "display_title": "2025 合工大超越十套卷 第 8 套",
+          "content_hash": "b786f316129ac0dc9d9d8308b432918ffe7ddcbab5d7695dbcebce5f24c993ce"
+        },
+        {
+          "year": 2025,
+          "subject": "$subject",
+          "series_key": "chaoyue10",
+          "paper_no": 9,
+          "bookmark_title": "2025 第 9 套",
+          "display_title": "2025 合工大超越十套卷 第 9 套",
+          "content_hash": "2b2dd0d5c25404364e044a9f393292f78c3fbf5f4b9d7a920c5b527fd934fb4c"
+        },
+        {
+          "year": 2025,
+          "subject": "$subject",
+          "series_key": "chaoyue10",
+          "paper_no": 10,
+          "bookmark_title": "2025 第 10 套",
+          "display_title": "2025 合工大超越十套卷 第 10 套",
+          "content_hash": "cbe98de052c6b65dff4baecaecab3aaac318015554c479235c4a488208cfac90"
+        }
+      ]
+    }
+  ],
+  "compile": {
+    "engine": "xelatex",
+    "passes": 3,
+    "subjects": [
+      "math1",
+      "math2",
+      "math3"
+    ],
+    "targets": [
+      {
+        "layout": "a3",
+        "theme": "print",
+        "spacing": "compact",
+        "enabled": true,
+        "answers": false,
+        "output_suffix": null,
+        "print": true
+      },
+      {
+        "layout": "a3",
+        "theme": "print",
+        "spacing": "compact",
+        "enabled": true,
+        "answers": false,
+        "output_suffix": null,
+        "print": false
+      },
+      {
+        "layout": "a4",
+        "theme": "print",
+        "spacing": "compact",
+        "enabled": true,
+        "answers": false,
+        "output_suffix": null,
+        "print": true
+      },
+      {
+        "layout": "a4",
+        "theme": "print",
+        "spacing": "compact",
+        "enabled": true,
+        "answers": false,
+        "output_suffix": null,
+        "print": false
+      }
+    ],
+    "output": {
+      "directory": "dist/chaoyue10-2024-2025",
+      "filename_template": "[{layout}][{subject_label}][{spacing_label}] {title}.pdf",
+      "overwrite": true
+    }
+  }
+}

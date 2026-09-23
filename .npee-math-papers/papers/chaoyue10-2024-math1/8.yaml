@@ -4,14 +4,13 @@ paper:
   year: 2024
   subject: math1
   paper_no: 8
-content_hash: 9f1c7428eba2a972b174d4f742fc36e1811f22df99adf8233eca32cd5eb79142
 questions:
 - number: 1
   section: choice
   points: 5
   stem:
     text: |-
-      设函数 $f(x)=1+2x^2+o(x^2),x\in\mathring{U}(0,\delta)$，且 $f(0)=1$，则下列命题：① $f'(x)=4x+o(x),x\in\mathring{U}(0,\delta)$；② $f'(0)=0$；③ $f''(0)=4$；④ $f(x)$ 在 $(-\delta,\delta)$ 内为凸函数。正确的个数是\ExamSelection
+      设函数 $f(x)=1+2x^2+o(x^2),x\in\mathring{U}(0,\delta)$，且 $f(0)=1$，则下列命题：\n① $f'(x)=4x+o(x),x\in\mathring{U}(0,\delta)$；\n② $f'(0)=0$；\n③ $f''(0)=4$；\n④ $f(x)$ 在 $(-\delta,\delta)$ 内为凸函数。\n正确的个数是\ExamSelection
   choices:
   - label: A
     text: '1'
@@ -76,7 +75,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设曲线 $L:y=\cos x$，$L_1$ 与 $L_2$ 分别为 $L$ 上点 $(-\dfrac\pi2,0)$ 与 $(\dfrac\pi2,0)$ 处的切线，若函数 $f(x,y)$ 在 $L,L_1$ 与 $L_2$ 所围闭区域 $D$ 上连续，则下列等式成立的有：① $\iint_Df(x,y)\,\mathrm d\sigma=\int_{-\pi/2}^{\pi/2}\mathrm dx\int_{\cos x}^{\pi/2}f(x,y)\,\mathrm dy$；② $\iint_Df(x,y)\,\mathrm d\sigma=\int_0^{\pi/2}\mathrm dy\int_{-\pi/2}^{\pi/2-y}f(x,y)\,\mathrm dx$；③ $\iint_Df(x,y)\,\mathrm d\sigma=2\left[\int_0^1\mathrm dy\int_{\arccos y}^{\pi/2-y}f(x,y)\,\mathrm dx+\int_1^{\pi/2}\mathrm dy\int_{-\pi/2}^{\pi/2-y}f(x,y)\,\mathrm dx\right]$；④ $\iint_Df(x,y)\,\mathrm d\sigma=\int_{-\pi/2}^0\mathrm dx\int_{\cos x}^{\pi/2+x}f(x,y)\,\mathrm dy+\int_0^{\pi/2}\mathrm dx\int_{\cos x}^{\pi/2-x}f(x,y)\,\mathrm dy$\ExamSelection。
+      设曲线 $L:y=\cos x$，$L_1$ 与 $L_2$ 分别为 $L$ 上点 $(-\dfrac\pi2,0)$ 与 $(\dfrac\pi2,0)$ 处的切线，若函数 $f(x,y)$ 在 $L,L_1$ 与 $L_2$ 所围闭区域 $D$ 上连续，则下列等式成立的有：\n① $\iint_Df(x,y)\,\mathrm d\sigma=\int_{-\pi/2}^{\pi/2}\mathrm dx\int_{\cos x}^{\pi/2}f(x,y)\,\mathrm dy$；\n② $\iint_Df(x,y)\,\mathrm d\sigma=\int_0^{\pi/2}\mathrm dy\int_{-\pi/2}^{\pi/2-y}f(x,y)\,\mathrm dx$；\n③ $\iint_Df(x,y)\,\mathrm d\sigma=2\left[\int_0^1\mathrm dy\int_{\arccos y}^{\pi/2-y}f(x,y)\,\mathrm dx+\int_1^{\pi/2}\mathrm dy\int_{-\pi/2}^{\pi/2-y}f(x,y)\,\mathrm dx\right]$；\n④ $\iint_Df(x,y)\,\mathrm d\sigma=\int_{-\pi/2}^0\mathrm dx\int_{\cos x}^{\pi/2+x}f(x,y)\,\mathrm dy+\int_0^{\pi/2}\mathrm dx\int_{\cos x}^{\pi/2-x}f(x,y)\,\mathrm dy$\ExamSelection。
   choices:
   - label: A
     text: '1'
@@ -303,3 +302,4 @@ questions:
   - text: 判断 $X,Y$ 是否独立，是否相关，并给出理由；
   - text: |-
       求随机变量 $U=\dfrac{YZ}{X}$ 的密度函数 $f_U(u)$。
+content_hash: 3967973b2f777b200f7e57c3aafac7349c8c9549b648f3618c4290134450b13c

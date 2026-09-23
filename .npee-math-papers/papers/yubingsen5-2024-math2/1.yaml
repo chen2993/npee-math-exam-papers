@@ -4,7 +4,6 @@ paper:
   year: 2024
   subject: math2
   paper_no: 1
-content_hash: 8123f1de507093d0cf2cd77c599323293c6f084c5e85b57b11a650241ec9479a
 questions:
 - number: 1
   section: choice
@@ -113,7 +112,7 @@ questions:
   points: 5
   stem:
     text: |-
-      关于函数 $f(x,y)=\begin{cases}y\sin\dfrac{1}{x^2+y^2},&x^2+y^2\ne0,\\0,&x^2+y^2=0,\end{cases}$ 给出下列结论：① $f(x,y)$ 在点 $(0,0)$ 处连续；② $\left.\dfrac{\partial f}{\partial x}\right|_{(0,0)}=0$；③ $\left.\dfrac{\partial f}{\partial y}\right|_{(0,0)}=0$；④ $f(x,y)$ 在点 $(0,0)$ 处可微；其中正确的个数为\ExamSelection。
+      关于函数 $f(x,y)=\begin{cases}y\sin\dfrac{1}{x^2+y^2},&x^2+y^2\ne0,\\0,&x^2+y^2=0,\end{cases}$ 给出下列结论：\n① $f(x,y)$ 在点 $(0,0)$ 处连续；\n② $\left.\dfrac{\partial f}{\partial x}\right|_{(0,0)}=0$；\n③ $\left.\dfrac{\partial f}{\partial y}\right|_{(0,0)}=0$；\n④ $f(x,y)$ 在点 $(0,0)$ 处可微；\n其中正确的个数为\ExamSelection。
   choices:
   - label: A
     text: $1$
@@ -295,3 +294,4 @@ questions:
   - text: 求矩阵 $A$。
   - text: |-
       求行列式 $\lvert A^{2024}+2E\rvert$。
+content_hash: 1d3460d9f380ffccb30321b493950a0e69889dc07219976de49f84950fbca5d8

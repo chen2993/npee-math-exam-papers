@@ -4,7 +4,6 @@ paper:
   year: 2026
   subject: math2
   paper_no: 5
-content_hash: 3c37d37443ec3eb8d44649d3a4b51d0cbab3c2a6b79f6d2c8948156060c49da6
 questions:
 - number: 1
   section: choice
@@ -49,7 +48,7 @@ questions:
   points: 5
   stem:
     text: |-
-      若 $\{x_n\},\{y_n\}$ 满足 $\lim_{n\to\infty}x_ny_n=\infty$，则以下结论：①$\lim_{n\to\infty}x_n=\infty$ 或 $\lim_{n\to\infty}y_n=\infty$；②$\lim_{n\to\infty}x_n=\infty$ 且 $\lim_{n\to\infty}y_n=\infty$；③$x_n$ 与 $y_n$ 中一个是无穷大量，另一个是无界量；④当 $x_n$ 是非零无穷小量时，$\lim_{n\to\infty}y_n=\infty$。正确结论的个数为\ExamSelection。
+      若 $\{x_n\},\{y_n\}$ 满足 $\lim_{n\to\infty}x_ny_n=\infty$，则以下结论：\n①$\lim_{n\to\infty}x_n=\infty$ 或 $\lim_{n\to\infty}y_n=\infty$；\n②$\lim_{n\to\infty}x_n=\infty$ 且 $\lim_{n\to\infty}y_n=\infty$；\n③$x_n$ 与 $y_n$ 中一个是无穷大量，另一个是无界量；\n④当 $x_n$ 是非零无穷小量时，$\lim_{n\to\infty}y_n=\infty$。\n正确结论的个数为\ExamSelection。
   choices:
   - label: A
     text: $1$
@@ -301,3 +300,4 @@ questions:
       将 $\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3$ 化成正交单位向量组 $\boldsymbol{\gamma}_1,\boldsymbol{\gamma}_2,\boldsymbol{\gamma}_3$；
   - text: |-
       若 $(\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3)=(\boldsymbol{\gamma}_1,\boldsymbol{\gamma}_2,\boldsymbol{\gamma}_3)\mathbf{C}$，求 $\mathbf{C}$。
+content_hash: 65a29953c70168b0b78e4e770bc83142dd507d2724d53408c72e72d13ca3dfde

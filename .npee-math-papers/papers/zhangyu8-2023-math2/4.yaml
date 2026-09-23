@@ -4,7 +4,6 @@ paper:
   year: 2023
   subject: math2
   paper_no: 4
-content_hash: b358768c5603a1d0bf6c69cba465a2cf9e3425a68110a29bd855e9e195d9bb11
 questions:
 - number: 1
   section: choice
@@ -114,7 +113,7 @@ questions:
   points: 5
   stem:
     text: |-
-      对于下列 $4$ 个反常积分：① $\int_0^{+\infty}e^{-x}\sin x\,\mathrm{d}x$；② $\int_0^{+\infty}\dfrac{\arctan x}{x^2}\,\mathrm{d}x$；③ $\int_0^1\dfrac{\mathrm{d}x}{x^2\sqrt{1-x^2}}$；④ $\int_0^1\dfrac{\ln(1+\sqrt{x})}{x}\,\mathrm{d}x$。其中收敛的是\ExamSelection
+      对于下列 $4$ 个反常积分：\n① $\int_0^{+\infty}e^{-x}\sin x\,\mathrm{d}x$；\n② $\int_0^{+\infty}\dfrac{\arctan x}{x^2}\,\mathrm{d}x$；\n③ $\int_0^1\dfrac{\mathrm{d}x}{x^2\sqrt{1-x^2}}$；\n④ $\int_0^1\dfrac{\ln(1+\sqrt{x})}{x}\,\mathrm{d}x$。\n其中收敛的是\ExamSelection
   choices:
   - label: A
     text: ①③
@@ -156,7 +155,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $A$ 是 $m\times n$ 矩阵，且 $n$ 维列向量组 $\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\cdots,\boldsymbol{\alpha}_s$ 线性无关，则下列对 $m$ 维列向量组 $A\boldsymbol{\alpha}_1,A\boldsymbol{\alpha}_2,\cdots,A\boldsymbol{\alpha}_s$ 的描述：①若 $r(A)=n$，则向量组 $A\boldsymbol{\alpha}_1,A\boldsymbol{\alpha}_2,\cdots,A\boldsymbol{\alpha}_s$ 必线性无关；②若 $r(A)<n$，则向量组 $A\boldsymbol{\alpha}_1,A\boldsymbol{\alpha}_2,\cdots,A\boldsymbol{\alpha}_s$ 必线性相关。正确的是\ExamSelection
+      设 $A$ 是 $m\times n$ 矩阵，且 $n$ 维列向量组 $\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\cdots,\boldsymbol{\alpha}_s$ 线性无关，则下列对 $m$ 维列向量组 $A\boldsymbol{\alpha}_1,A\boldsymbol{\alpha}_2,\cdots,A\boldsymbol{\alpha}_s$ 的描述：\n①若 $r(A)=n$，则向量组 $A\boldsymbol{\alpha}_1,A\boldsymbol{\alpha}_2,\cdots,A\boldsymbol{\alpha}_s$ 必线性无关；\n②若 $r(A)<n$，则向量组 $A\boldsymbol{\alpha}_1,A\boldsymbol{\alpha}_2,\cdots,A\boldsymbol{\alpha}_s$ 必线性相关。\n正确的是\ExamSelection
   choices:
   - label: A
     text: ①正确，②也正确
@@ -297,3 +296,4 @@ questions:
   stem:
     text: |-
       设二次型 $f(x_1,x_2,x_3)$ 的矩阵为 $A$，已知 $\lvert A+E\rvert=0$，$AB-2B=O$，其中 $B=\begin{pmatrix}-1&-1&-1\\1&0&2\\0&1&-1\end{pmatrix}$。求一个正交变换 $x=Qy$，将二次型 $f(x_1,x_2,x_3)$ 化为标准形，并求矩阵 $A$。
+content_hash: a762d104f0a9ab0aefcede6c8010518a2a9d07fe9d414a260f0aa2582ea0509f

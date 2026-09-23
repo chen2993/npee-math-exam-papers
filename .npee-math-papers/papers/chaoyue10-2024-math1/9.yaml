@@ -4,7 +4,6 @@ paper:
   year: 2024
   subject: math1
   paper_no: 9
-content_hash: 685e0c7b0769965889262e08ac1c604ea201560383f78b45f0a4d0ddcfa24c80
 questions:
 - number: 1
   section: choice
@@ -248,7 +247,7 @@ questions:
   section: solution
   points: 10
   stem:
-    text: （本题满分10分）
+    text: '{}'
   subparts:
   - text: |-
       证明方程 $\ln x+x^n=0$ 在 $(0,1)$ 内有唯一一实根 $x_n\ (n=1,2,\cdots)$。
@@ -259,7 +258,7 @@ questions:
   points: 12
   stem:
     text: |-
-      （本题满分12分）设幂级数 $\sum_{n=0}^{\infty}a_nx^n$ 当 $|x|<\dfrac{1}{2}$ 时的和函数为 $y(x)$，数列 $\{a_n\}$ 满足条件 $a_0=a_1=1,a_{n+1}=\dfrac{1-2n}{1+n}a_n\ (n\geq1)$。
+      设幂级数 $\sum_{n=0}^{\infty}a_nx^n$ 当 $|x|<\dfrac{1}{2}$ 时的和函数为 $y(x)$，数列 $\{a_n\}$ 满足条件 $a_0=a_1=1,a_{n+1}=\dfrac{1-2n}{1+n}a_n\ (n\geq1)$。
   subparts:
   - text: 证明 $y(x)$ 满足 $(1+2x)y''+y'=0$。
   - text: 求 $y(x)$ 的表达式。
@@ -268,19 +267,19 @@ questions:
   points: 12
   stem:
     text: |-
-      （本题满分12分）计算曲面积分 $I=\iint_{\Sigma}x^2\,\mathrm{d}y\,\mathrm{d}z+y^2\,\mathrm{d}z\,\mathrm{d}x+z^2\,\mathrm{d}x\,\mathrm{d}y$，其中 $\Sigma:(x-1)^2+(y-1)^2+\dfrac{z^2}{4}=1\ (y\geq1)$，取外侧。
+      计算曲面积分 $I=\iint_{\Sigma}x^2\,\mathrm{d}y\,\mathrm{d}z+y^2\,\mathrm{d}z\,\mathrm{d}x+z^2\,\mathrm{d}x\,\mathrm{d}y$，其中 $\Sigma:(x-1)^2+(y-1)^2+\dfrac{z^2}{4}=1\ (y\geq1)$，取外侧。
 - number: 20
   section: solution
   points: 12
   stem:
     text: |-
-      （本题满分12分）设函数 $f(x)$ 在 $[0,1]$ 上二阶可导，且 $\lim_{x\to0^+}\dfrac{f(x)-f(1)}{x}=-1$，证明存在 $\xi\in(0,1)$，使得 $f''(\xi)=2$。
+      设函数 $f(x)$ 在 $[0,1]$ 上二阶可导，且 $\lim_{x\to0^+}\dfrac{f(x)-f(1)}{x}=-1$，证明存在 $\xi\in(0,1)$，使得 $f''(\xi)=2$。
 - number: 21
   section: solution
   points: 12
   stem:
     text: |-
-      （本题满分12分）已知 $A=\begin{pmatrix}-1&a&0\\0&b&2\\0&0&3\end{pmatrix},B=\begin{pmatrix}2&-6&1\\0&-1&0\\3&-6&0\end{pmatrix}$。
+      已知 $A=\begin{pmatrix}-1&a&0\\0&b&2\\0&0&3\end{pmatrix},B=\begin{pmatrix}2&-6&1\\0&-1&0\\3&-6&0\end{pmatrix}$。
   subparts:
   - text: 讨论 $a,b$ 为何值时，$A$ 可相似对角化。
   - text: 讨论 $a,b$ 为何值时，$A$ 与 $B$ 相似。
@@ -297,3 +296,4 @@ questions:
       若 $\alpha$ 已知，求未知参数 $\beta$ 的极大似然估计量 $\hat{\beta}_L$。
   - text: |-
       求 $E(X\hat{\beta}_L)$。
+content_hash: b5bee5aae815ffdc43a083b0b0a261c2fa7ddbfc161aef54ccb7910f2d5029f2

@@ -4,267 +4,250 @@ paper:
   year: 2026
   subject: math1
   paper_no: 3
-content_hash: e9132b3c41203968a35d20d5296d3861bbbfb5c1a6e789e5e7ceb94e7d938c3d
 questions:
 - number: 1
   section: choice
   points: 5
   stem:
     text: |-
-      函数 $f(x)=\dfrac{\left(e^{\dfrac{1}{x-1}}-1\right)|x|}{(x+1)\ln|x-1|}$ 的第一类间断点的个数为\ExamSelection。
+      设 $f(x)=\int_0^x(x-2t)e^{-t^2}\,\mathrm{d}t\ (x\geq 0)$，$g(x)=\int_0^x(x-2t)\sin t^2\,\mathrm{d}t$，则\ExamSelection。
   choices:
   - label: A
-    text: $0$
+    text: $f(x)$ 单调增加，$g(x)$ 是奇函数。
     figures: []
   - label: B
-    text: $1$
+    text: $f(x)$ 单调增加，$g(x)$ 是偶函数。
     figures: []
   - label: C
-    text: $2$
+    text: $f(x)$ 单调减少，$g(x)$ 是奇函数。
     figures: []
   - label: D
-    text: $3$
+    text: $f(x)$ 单调减少，$g(x)$ 是偶函数。
     figures: []
 - number: 2
   section: choice
   points: 5
   stem:
     text: |-
-      设 $z=z(x,y)$ 是由方程 $\int_{2x-3y}^{z}f(2x-3y+z-t)\,\mathrm{d}t=\sin(2x-3y+z)$ 所确定的函数，其中 $f$ 为大于 $1$ 的连续函数，则\ExamSelection。
+      设函数 $f(x)$ 在 $[0,1]$ 上二阶可导，则\ExamSelection。
   choices:
   - label: A
     text: |-
-      $3\dfrac{\partial z}{\partial x}+2\dfrac{\partial z}{\partial y}=0$
+      当 $f'(x)<0$ 时，$f\left(\dfrac{1}{2}\right)<\int_0^1f(x)\,\mathrm{d}x$。
     figures: []
   - label: B
     text: |-
-      $3\dfrac{\partial z}{\partial x}-2\dfrac{\partial z}{\partial y}=0$
+      当 $f'(x)>0$ 时，$f\left(\dfrac{1}{2}\right)<\int_0^1f(x)\,\mathrm{d}x$。
     figures: []
   - label: C
     text: |-
-      $2\dfrac{\partial z}{\partial x}+3\dfrac{\partial z}{\partial y}=0$
+      当 $f''(x)<0$ 时，$f\left(\dfrac{1}{3}\right)<\int_0^1f(x^2)\,\mathrm{d}x$。
     figures: []
   - label: D
     text: |-
-      $2\dfrac{\partial z}{\partial x}-3\dfrac{\partial z}{\partial y}=0$
+      当 $f''(x)>0$ 时，$f\left(\dfrac{1}{3}\right)<\int_0^1f(x^2)\,\mathrm{d}x$。
     figures: []
 - number: 3
   section: choice
   points: 5
   stem:
     text: |-
-      设 $a$ 与 $b$ 都是常数，若反常积分 $\int_0^{+\infty}\dfrac{x^a(1-e^{-x})}{(1+x)^b}\,\mathrm{d}x$ 收敛，则 $a$ 与 $b$ 的取值范围为\ExamSelection。
+      已知函数 $f(x,y)$ 满足 $f(0,0)=0$，设 $\boldsymbol{n}=(f'_x(0,0),f'_y(0,0),-1)$，$\boldsymbol{\alpha}=(x,y,f(x,y))$，则 $\boldsymbol{n}\cdot\boldsymbol{\alpha}=0$ 是 $f(x,y)$ 在点 $(0,0)$ 处可微的\ExamSelection。
   choices:
   - label: A
-    text: |-
-      $a<-2,\ b>a+1$
+    text: 充分非必要条件。
     figures: []
   - label: B
-    text: |-
-      $a<-2,\ b<a+1$
+    text: 必要非充分条件。
     figures: []
   - label: C
-    text: |-
-      $a>-2,\ b<a+1$
+    text: 充分必要条件。
     figures: []
   - label: D
-    text: |-
-      $a>-2,\ b>a+1$
+    text: 既非充分也非必要条件。
     figures: []
 - number: 4
   section: choice
   points: 5
   stem:
     text: |-
-      设椭球面 $\Sigma:x^2+y^2+z^2-yz=1$，则其在 $xOy$ 面上的投影区域为\ExamSelection。
+      设 $f'(x)>0$，$f''(x)<0$，$x>0$，对任意的正整数 $n$，记 $I_1=\dfrac{1}{2}\left[f(n+1)-f(n)\right]$，$I_2=f(n)-f\left(\dfrac{2n-1}{2}\right)$，$I_3=f\left(\dfrac{2n+1}{2}\right)-f(n)$，则\ExamSelection。
   choices:
   - label: A
-    text: |-
-      $x^2+\dfrac{5}{4}y^2\leq 1$
+    text: $I_1>I_2>I_3$。
     figures: []
   - label: B
-    text: |-
-      $\dfrac{3}{4}x^2+y^2\leq 1$
+    text: $I_1>I_3>I_2$。
     figures: []
   - label: C
-    text: |-
-      $x^2+\dfrac{3}{4}y^2\leq 1$
+    text: $I_2>I_1>I_3$。
     figures: []
   - label: D
-    text: |-
-      $\dfrac{5}{4}x^2+y^2\leq 1$
+    text: $I_2>I_3>I_1$。
     figures: []
 - number: 5
   section: choice
   points: 5
   stem:
     text: |-
-      已知 $\alpha_1=(1,2)^{\mathrm T}$，$\alpha_2=(a,1)^{\mathrm T}$，$\boldsymbol{x}=(x_1,x_2)^{\mathrm T}$，若二次型 $f(x_1,x_2)=\sum_{i=1}^{2}[\alpha_i,\boldsymbol{x}]^2$ 正定，其中 $[\alpha_i,\boldsymbol{x}]$ 表示向量 $\alpha_i,\boldsymbol{x}$ 的内积 $(i=1,2)$，则 $a$ 的取值范围是\ExamSelection。
+      设 $n$ 阶矩阵 $A,B,C$ 满足 $r(ABC)+2n=r(A)+r(B)+r(C)$，则\ExamSelection。
   choices:
   - label: A
-    text: |-
-      $(-\infty,\dfrac{1}{2})\cup(\dfrac{1}{2},+\infty)$
+    text: $r(A)+r(B)+r(C)=r(AB)$。
     figures: []
   - label: B
-    text: |-
-      $(-\infty,-\dfrac{1}{2})\cup(-\dfrac{1}{2},+\infty)$
+    text: $r(AB)+n=r(A)+r(B)$。
     figures: []
   - label: C
-    text: |-
-      $(-\dfrac{1}{2},\dfrac{1}{2})$
+    text: $r(ABC)>r(A)+r(BC)-n$。
     figures: []
   - label: D
-    text: |-
-      $\{\dfrac{1}{2}\}$
+    text: $r(AB)=r(BC)=n$。
     figures: []
 - number: 6
   section: choice
   points: 5
   stem:
     text: |-
-      下列矩阵中，可以经过若干次初等行变换得到矩阵 $\begin{pmatrix}1&1&0&1\\0&1&0&0\\0&0&0&0\end{pmatrix}$ 的是\ExamSelection。
+      设矩阵 $\begin{pmatrix}1&2&0\\2&a&1\\0&1&b\end{pmatrix}$ 有 $2$ 个正特征值和 $1$ 个负特征值，则\ExamSelection。
   choices:
   - label: A
-    text: |-
-      $\begin{pmatrix}1&1&0&1\\1&2&1&3\\2&3&1&4\end{pmatrix}$
+    text: $a>4$，$b>1$。
     figures: []
   - label: B
-    text: |-
-      $\begin{pmatrix}1&1&0&1\\1&1&2&5\\1&1&1&3\end{pmatrix}$
+    text: $a<4$，$b>1$。
     figures: []
   - label: C
-    text: |-
-      $\begin{pmatrix}1&0&0&1\\0&1&0&3\\0&1&0&0\end{pmatrix}$
+    text: $(a-4)b>1$。
     figures: []
   - label: D
-    text: |-
-      $\begin{pmatrix}1&1&0&1\\1&2&0&1\\2&3&0&2\end{pmatrix}$
+    text: $(a-4)b<1$。
     figures: []
 - number: 7
   section: choice
   points: 5
   stem:
     text: |-
-      设 $\alpha_1=(a_1,a_2,a_3)^{\mathrm T}$，$\alpha_2=(b_1,b_2,b_3)^{\mathrm T}$，$\alpha_3=(c_1,c_2,c_3)^{\mathrm T}$（其中 $a_i^2+b_i^2\ne 0$，$i=1,2,3$），则三条直线 $a_ix+b_iy+c_i=0\ (i=1,2,3)$ 交于一点的充分必要条件是\ExamSelection。
+      设 $\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3,\boldsymbol{\alpha}_4$ 是 $n$ 维非零列向量，$x_1\boldsymbol{\alpha}_1+x_2\boldsymbol{\alpha}_2=\boldsymbol{\alpha}_3$ 有唯一解，且 $\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_4$ 线性相关。在空间直角坐标系 $O-xyz$ 中，关于 $x,y,z$ 的方程组 $x\boldsymbol{\alpha}_1+y\boldsymbol{\alpha}_2+z\boldsymbol{\alpha}_3=\boldsymbol{\alpha}_4$ 的几何图形是\ExamSelection。
   choices:
   - label: A
-    text: |-
-      $\alpha_1,\alpha_2,\alpha_3$ 线性相关
+    text: 过原点的一条直线。
     figures: []
   - label: B
-    text: |-
-      $\alpha_1,\alpha_2,\alpha_3$ 线性相关，但 $\alpha_1,\alpha_2$ 线性无关
+    text: 过原点的一个平面。
     figures: []
   - label: C
-    text: |-
-      向量组 $\alpha_1,\alpha_2,\alpha_3$ 的秩等于向量组 $\alpha_1,\alpha_2$ 的秩
+    text: 不过原点的一条直线。
     figures: []
   - label: D
-    text: |-
-      $\alpha_1,\alpha_2,\alpha_3$ 线性无关
+    text: 不过原点的一个平面。
     figures: []
 - number: 8
   section: choice
   points: 5
   stem:
     text: |-
-      设随机变量 $X$ 服从参数为 $\lambda\ (\lambda>0)$ 的指数分布，若 $P\{X>D(X)\}=[P\{X>E(X)\}]^3$，则 $\lambda=$\ExamSelection。
+      设随机变量 $X$ 的概率密度为 $f(x)=\dfrac{1}{2}e^{-|x|}$，$x\in(-\infty,+\infty)$，则\ExamSelection。
   choices:
   - label: A
-    text: $3$
+    text: $X$ 与 $|X|$ 不相关，$X$ 与 $|X|$ 不相互独立。
     figures: []
   - label: B
-    text: |-
-      $\dfrac{3}{2}$
+    text: $X$ 与 $|X|$ 不相关，$X$ 与 $|X|$ 相互独立。
     figures: []
   - label: C
-    text: |-
-      $\dfrac{2}{3}$
+    text: $X$ 与 $|X|$ 相关，$X$ 与 $|X|$ 不相互独立。
     figures: []
   - label: D
-    text: |-
-      $\dfrac{1}{3}$
+    text: $X$ 与 $|X|$ 相关，$X$ 与 $|X|$ 相互独立。
     figures: []
 - number: 9
   section: choice
   points: 5
   stem:
     text: |-
-      设随机变量 $X$ 与 $Y$ 相互独立，$D(X)\cdot D(Y)\ne 0$，以下结论：① $3X+1$ 与 $4Y-2$ 相关；② $X+Y$ 与 $X-Y$ 不相关；③ $X+Y$ 与 $2Y+1$ 相互独立；④ $e^X$ 与 $2Y+1$ 相互独立。正确结论的个数为\ExamSelection。
+      将 $2$ 个球随机放入 $3$ 个盒子，每个盒子可放任意个球。设 $X_1$，$X_2$ 分别表示第一个和第二个盒子中放入的球的个数，$Y_1=X_1+X_2$，$Y_2=X_1-X_2$，则 $E(Y_1)$ 与 $E(Y_2)$ 分别为\ExamSelection。
   choices:
   - label: A
-    text: $1$
+    text: |-
+      $\dfrac{2}{3}$，$0$。
     figures: []
   - label: B
-    text: $2$
+    text: |-
+      $\dfrac{4}{3}$，$0$。
     figures: []
   - label: C
-    text: $3$
+    text: |-
+      $\dfrac{2}{3}$，$\dfrac{1}{3}$。
     figures: []
   - label: D
-    text: $4$
+    text: |-
+      $\dfrac{4}{3}$，$\dfrac{1}{3}$。
     figures: []
 - number: 10
   section: choice
   points: 5
   stem:
     text: |-
-      设总体 $X$ 服从 $\begin{pmatrix}1&0\\p&1-p\end{pmatrix}$，$p\in(0,1)$ 为未知参数。给出假设检验 $H_0:p=k$，$H_1:p=1-k$，$k$ 为常数，对样本 $X_1,X_2$，拒绝域为 $W=\{X_1+X_2<1\}$，则犯第二类错误的概率为\ExamSelection。
+      设总体 $X$ 的概率密度为 $f(x)=\begin{cases}6x(1-x),&0<x<1,\\0,&\text{其他},\end{cases}$，$X_1,X_2,\cdots,X_n,\cdots$ 为来自总体 $X$ 的简单随机样本，且对任意的 $\varepsilon>0$，有 $\lim\limits_{n\to\infty}P\left\{\left|\sum\limits_{i=1}^{n}\dfrac{X_{2i}}{nX_{2i-1}}-a\right|<\varepsilon\right\}=1$，则 $a=$\ExamSelection。
   choices:
   - label: A
-    text: $k^2$
+    text: |-
+      $\dfrac{1}{2}$。
     figures: []
   - label: B
-    text: $(1-k)^2$
+    text: $1$。
     figures: []
   - label: C
-    text: $1-k^2$
+    text: |-
+      $\dfrac{3}{2}$。
     figures: []
   - label: D
-    text: $1-(1-k)^2$
+    text: |-
+      $\dfrac{5}{2}$。
     figures: []
 - number: 11
   section: fill
   points: 5
   stem:
     text: |-
-      $\lim_{x\to 0}\dfrac{(1+\sin^2x)^2-\cos^2x}{\ln(1+x^2)}=$\ExamBlank。
+      $\int_{-\pi}^{\pi}(x+\cos x)^3\,\mathrm{d}x=$\ExamBlank。
 - number: 12
   section: fill
   points: 5
   stem:
     text: |-
-      微分方程 $3(x+y-1)\,\mathrm{d}x+(x+y)\,\mathrm{d}y=0$ 的通解为\ExamBlank。
+      设 $u=ze^y\sin(x^2+y^2)$，其中 $z=z(x,y)$ 是由方程 $3x^2+2y^2+2z=7$ 确定的隐函数，则 $\left.\dfrac{\partial u}{\partial x}\right|_{(1,1)}=$\ExamBlank。
 - number: 13
   section: fill
   points: 5
   stem:
     text: |-
-      设连续函数 $f(x)$ 满足 $f(x+1)-f(x)=x^2$，$\int_0^1f(x)\,\mathrm{d}x=0$，则 $\int_1^2f(x)\,\mathrm{d}x=$\ExamBlank。
+      当 $|x|<1$ 时，$\ln\sqrt{\dfrac{1+x}{1-x}}$ 的幂级数展开式为\ExamBlank。
 - number: 14
   section: fill
   points: 5
   stem:
     text: |-
-      设 $L$ 是平面 $x+y+z=0$ 与球面 $x^2+y^2+z^2=1$ 的交线，从 $Oz$ 正向往下看为逆时针方向，则曲线积分 $I=\oint_L\dfrac{(x+1)\,\mathrm{d}x+(y+1)\,\mathrm{d}y+z\,\mathrm{d}z}{x^2+y^2+z^2}=$\ExamBlank。
+      设 $\Sigma:x^2+y^2+z^2=4(z\geq 0)$，取上侧，则曲面积分 $I=\iint_{\Sigma}\dfrac{x\,\mathrm{d}y\mathrm{d}z+y\,\mathrm{d}z\mathrm{d}x+z\,\mathrm{d}x\mathrm{d}y}{\sqrt{x^2+(y-1)^2+z^2}}=$\ExamBlank。
 - number: 15
   section: fill
   points: 5
   stem:
     text: |-
-      设 $A$ 为 $3$ 阶矩阵，若 $|E-A|=|E+A|=1$，$|2E-A|=2$，则 $|3E-A|=$\ExamBlank。
+      若二次曲面 $x^2+(2+a)y^2+az^2+2xy-2xz-yz-5=0$ 为椭球面，则常数 $a$ 的取值范围为\ExamBlank。
 - number: 16
   section: fill
   points: 5
   stem:
     text: |-
-      设三个随机事件 $A,B,C$ 两两独立且 $P(A)=P(B)=P(C)$，若 $ABC$ 为不可能事件，则 $P(\overline A\,\overline B\,\overline C)$ 的最小值为\ExamBlank。
+      设总体 $X$ 的概率密度为 $f(x;\sigma^2)=\begin{cases}\dfrac{a}{\sigma}e^{-\frac{x}{2\sigma^2}},&x\geq 0,\\0,&x<0,\end{cases}$，其中 $\sigma>0$ 为未知参数，$a$ 为常数。$X_1,X_2,\cdots,X_n$ 为来自总体 $X$ 的简单随机样本，则 $\sigma^2$ 的最大似然估计量为\ExamBlank。
 - number: 17
   section: solution
   points: 10
   stem:
     text: |-
-      计算 $\lim_{n\to\infty}\sum_{k=1}^{n}\dfrac{k}{n^2}\ln\left(1+\dfrac{k^2}{n^2}\right)$。
+      求函数 $z=\cos^2x+\cos^2y$ 在条件 $x-y=\dfrac{\pi}{4}$ 下的极值。
 - number: 18
   section: solution
   points: 12
@@ -313,3 +296,4 @@ questions:
   - text: 证明 $X$ 与 $Z$ 不相互独立；
   - text: |-
       计算 $F_U\left(\dfrac{1}{2}\right)$ 的值。
+content_hash: adee74193e074731c5ba36338d44a828e3b2a707a54a1702b6b0a86c96274350

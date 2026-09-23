@@ -4,7 +4,6 @@ paper:
   year: 2025
   subject: math2
   paper_no: 3
-content_hash: 3346866758af9198f0aaaea8534b85be5e40cdf8f5e6ccc0e3e48a5c0d2b3578
 questions:
 - number: 1
   section: choice
@@ -162,7 +161,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设二次型 $f(x_1,x_2,x_3)=\boldsymbol{x}^{\mathrm{T}}A\boldsymbol{x}=x_1^2+ax_2^2+x_3^2+2x_1x_2-2ax_1x_3-2x_2x_3$，已知矩阵 $B=\begin{pmatrix}1&-1&1\\-1&1&-1\\1&-1&1\end{pmatrix}$，$C=\begin{pmatrix}-1&0&0\\0&1&0\\0&0&-1\end{pmatrix}$，$D=\begin{pmatrix}1-a&0&1\\0&a-1&0\\0&0&a+2\end{pmatrix}$，$A$ 为二次型的矩阵，以下命题正确的为\ExamSelection①$a=1$ 时，$A$ 与 $B$ 相似且合同；②$a=-3$ 时，$A$ 与 $C$ 合同，但不相似；③$a>1$ 时，$A$ 与 $B+C$ 合同；④当 $a$ 取恰当值时，$A$ 可能与 $D$ 等价且合同。
+      设二次型 $f(x_1,x_2,x_3)=\boldsymbol{x}^{\mathrm{T}}A\boldsymbol{x}=x_1^2+ax_2^2+x_3^2+2x_1x_2-2ax_1x_3-2x_2x_3$，已知矩阵 $B=\begin{pmatrix}1&-1&1\\-1&1&-1\\1&-1&1\end{pmatrix}$，$C=\begin{pmatrix}-1&0&0\\0&1&0\\0&0&-1\end{pmatrix}$，$D=\begin{pmatrix}1-a&0&1\\0&a-1&0\\0&0&a+2\end{pmatrix}$，$A$ 为二次型的矩阵，以下命题正确的为\ExamSelection\n①$a=1$ 时，$A$ 与 $B$ 相似且合同；\n②$a=-3$ 时，$A$ 与 $C$ 合同，但不相似；\n③$a>1$ 时，$A$ 与 $B+C$ 合同；\n④当 $a$ 取恰当值时，$A$ 可能与 $D$ 等价且合同。
   choices:
   - label: A
     text: ①②
@@ -200,7 +199,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $A$ 是 $3$ 阶实对称矩阵，$|A-E|=|A-2E|=0$，且 $A$ 的各行元素的后 $2$ 个分量之和为 $0$，则下列说法正确的个数是\ExamSelection①$|A|=0$；②$A_{33}=1$；③$r(A+A^*)=2$；④$r(A,A^*)=3$
+      设 $A$ 是 $3$ 阶实对称矩阵，$|A-E|=|A-2E|=0$，且 $A$ 的各行元素的后 $2$ 个分量之和为 $0$，则下列说法正确的个数是\ExamSelection\n①$|A|=0$；\n②$A_{33}=1$；\n③$r(A+A^*)=2$；\n④$r(A,A^*)=3$
   choices:
   - label: A
     text: $1$
@@ -304,3 +303,4 @@ questions:
       求可逆矩阵 $P$，使得 $A=P^{\mathrm{T}}P$；
   - text: |-
       记 $g(x_1,x_2,x_3)=\boldsymbol{x}^{\mathrm{T}}A\boldsymbol{x}+2\boldsymbol{x}^{\mathrm{T}}\boldsymbol{b}$，其中 $\boldsymbol{b}=(0,0,1)^{\mathrm{T}}$，求 $g$ 的最小值，并写出一个最小值点。
+content_hash: f45f8fd2452cf48c1979f28e1114fa2162d50f56a7cbea917e8987b8d5e3d87b

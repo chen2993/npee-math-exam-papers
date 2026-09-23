@@ -4,11 +4,10 @@ paper:
   year: 2026
   subject: math3
   paper_no: 3
-content_hash: 9e9be082b0f5a7a3b48bee55b93bb9bf8b8b8ac6c09ef48c08d62428aecf9a9e
 questions:
 - number: 1
   section: choice
-  points:
+  points: 5
   stem:
     text: |-
       下列函数中，在 $x=0$ 处不可导的是\ExamSelection
@@ -31,7 +30,7 @@ questions:
     figures: []
 - number: 2
   section: choice
-  points:
+  points: 5
   stem:
     text: |-
       曲线 $f(x)=\dfrac{x^2e^{\dfrac{1}{1+x}}}{\ln(1+x)-x}$ \ExamSelection
@@ -50,7 +49,7 @@ questions:
     figures: []
 - number: 3
   section: choice
-  points:
+  points: 5
   stem:
     text: |-
       积分 $\int_0^{\dfrac{\pi}{4}}\mathrm{d}\theta\int_0^{\tan\theta\sec\theta}\cos(r\cos\theta)r\,\mathrm{d}r+\int_{\dfrac{\pi}{4}}^{\dfrac{\pi}{2}}\mathrm{d}\theta\int_0^{\dfrac{1}{\sin\theta}}\cos(r\cos\theta)r\,\mathrm{d}r=$\ExamSelection
@@ -73,7 +72,7 @@ questions:
     figures: []
 - number: 4
   section: choice
-  points:
+  points: 5
   stem:
     text: |-
       级数 $\sum_{n=1}^{\infty}\int_{n\pi}^{(n+1)\pi}\dfrac{\sin x}{\sqrt{x}}\,\mathrm{d}x$\ExamSelection
@@ -92,7 +91,7 @@ questions:
     figures: []
 - number: 5
   section: choice
-  points:
+  points: 5
   stem:
     text: |-
       设矩阵 $A=\begin{pmatrix}2&1&0\\1&2&1\\0&1&2\end{pmatrix},B=\begin{pmatrix}2&0&1\\0&2&0\\1&0&a\end{pmatrix},C=\begin{pmatrix}2&1&0\\1&2&1\\0&1&b\end{pmatrix}$，则下列命题必然不可能成立的是\ExamSelection
@@ -111,7 +110,7 @@ questions:
     figures: []
 - number: 6
   section: choice
-  points:
+  points: 5
   stem:
     text: |-
       设 $A$ 为 $n$ 阶矩阵，$\alpha_1,\alpha_2,\alpha_3$ 为 $n$ 维列向量，则下列结论正确的是\ExamSelection
@@ -134,10 +133,10 @@ questions:
     figures: []
 - number: 7
   section: choice
-  points:
+  points: 5
   stem:
     text: |-
-      设 $A$ 为 $m\times n$ 矩阵，且 $r(A)=n(m>n),(AA^T)^2=aAA^T$，则下列说法正确的是\ExamSelection $①\operatorname{tr}(AA^T)=a$；$②\operatorname{tr}(AA^T)=na$；$③AA^T$ 与单位矩阵 $E_m$ 合同；$④A^TA$ 与单位矩阵 $E_n$ 合同.
+      设 $A$ 为 $m\times n$ 矩阵，且 $r(A)=n(m>n),(AA^T)^2=aAA^T$，则下列说法正确的是\ExamSelection \n①$\operatorname{tr}(AA^T)=a$；\n②$\operatorname{tr}(AA^T)=na$；\n③$AA^T$ 与单位矩阵 $E_m$ 合同；\n④$A^TA$ 与单位矩阵 $E_n$ 合同.
   choices:
   - label: A
     text: ①③.
@@ -153,7 +152,7 @@ questions:
     figures: []
 - number: 8
   section: choice
-  points:
+  points: 5
   stem:
     text: |-
       设随机变量 $X$ 服从参数为 2 的泊松分布，则 $P(X=k)(k=0,1,\cdots)$ 的最大值为\ExamSelection
@@ -172,7 +171,7 @@ questions:
     figures: []
 - number: 9
   section: choice
-  points:
+  points: 5
   stem:
     text: |-
       随机变量 $X_1,X_2,X_3$ 满足 $E(X_i)=0,D(X_i)=i^2(i=1,2,3)$，且两两之间相关系数均为 $\rho$，若 $D\left(\sum_{i=1}^3X_i\right)=3$，则 $\rho=$\ExamSelection
@@ -194,7 +193,7 @@ questions:
     figures: []
 - number: 10
   section: choice
-  points:
+  points: 5
   stem:
     text: |-
       设两总体 $X,Y$ 相互独立且都服从 $N(\mu,\sigma^2)$，而 $X_1,X_2,\cdots,X_n$ 与 $Y_1,Y_2,\cdots,Y_n$ 分别是来自总体 $X,Y$ 的简单随机样本，记它们的样本均值与样本方差分别为 $\overline{X},\overline{Y}$ 和 $S_X^2,S_Y^2$，则下列说法正确的是\ExamSelection
@@ -217,37 +216,37 @@ questions:
     figures: []
 - number: 11
   section: fill
-  points:
+  points: 5
   stem:
     text: |-
       若 $\lim_{x\to0}\dfrac{f(x)-x}{x^3}=\dfrac{1}{2}$，则 $\lim_{x\to0}\dfrac{f^2(x)-x^2}{x\int_0^x\sin t^2\,\mathrm{d}t}=\ExamBlank$.
 - number: 12
   section: fill
-  points:
+  points: 5
   stem:
     text: |-
       设函数 $z=z(x,y)$ 由方程 $(x-z)^y=\ln(xy)+y^2z$ 确定，则 $\left.\mathrm{d}z\right|_{(1,1)}=\ExamBlank$.
 - number: 13
   section: fill
-  points:
+  points: 5
   stem:
     text: |-
       差分方程 $y_{t+1}+2y_t-(t+1)(-2)^t=0$ 满足 $y_0=-1$ 的特解是 $\ExamBlank$.
 - number: 14
   section: fill
-  points:
+  points: 5
   stem:
     text: |-
       设函数 $f(x)=\ln\dfrac{1+x}{1-x}$，则 $\sum_{n=1}^{\infty}\dfrac{1}{f^{(2n-1)}(0)}=\ExamBlank$.
 - number: 15
   section: fill
-  points:
+  points: 5
   stem:
     text: |-
       设 $A=\begin{pmatrix}a&1&-2\\4&1&-2\\0&1&-2\end{pmatrix}$，若方程组 $Ax=0$ 和 $A^*x=0$ 有非零公共解，则 $a=\ExamBlank$.
 - number: 16
   section: fill
-  points:
+  points: 5
   stem:
     text: |-
       在独立重复射击游戏中，单次命中目标的概率为 $\dfrac{1}{2}$，第 $k$ 次射击的花销与 $k$ 的关系为 $f(k)=\begin{cases}4,&k=1,\\2,&k=2,\\1,&k\geqslant3,\end{cases}$ 则首次命中所需花销的期望为 $\ExamBlank$.
@@ -301,3 +300,4 @@ questions:
       求 $\mu,\theta$ 的最大似然估计量 $\hat{\mu},\hat{\theta}$；
   - text: |-
       求 $E(\hat{\theta})$.
+content_hash: 35cff6a8ce08bc67c2e1a7a14420feb03281b4b3eca9a60a024d4ef9144cc85f

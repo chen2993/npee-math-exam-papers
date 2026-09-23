@@ -4,7 +4,6 @@ paper:
   year: 2026
   subject: math2
   paper_no: 7
-content_hash: b726ac2c357fabc044386ef427b521560c809387da12b5372c5172525edd012c
 questions:
 - number: 1
   section: choice
@@ -133,7 +132,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设非负函数 $f(x)$ 在 $[0,+\infty)$ 上连续，给出以下四个命题：①若 $\int_0^{+\infty}f^2(x)\,\mathrm{d}x$ 收敛，则 $\int_0^{+\infty}f(x)\,\mathrm{d}x$ 收敛；②若 $\int_0^{+\infty}f(x)\,\mathrm{d}x$ 收敛，则 $\int_0^{+\infty}f^2(x)\,\mathrm{d}x$ 收敛；③若 $\lim_{x\to+\infty}x^2f(x)$ 存在，则 $\int_0^{+\infty}f(x)\,\mathrm{d}x$ 收敛；④若 $\int_0^{+\infty}f(x)\,\mathrm{d}x$ 收敛，则 $\lim_{x\to+\infty}x^2f(x)$ 存在。其中，真命题的个数为\ExamSelection。
+      设非负函数 $f(x)$ 在 $[0,+\infty)$ 上连续，给出以下四个命题：\n①若 $\int_0^{+\infty}f^2(x)\,\mathrm{d}x$ 收敛，则 $\int_0^{+\infty}f(x)\,\mathrm{d}x$ 收敛；\n②若 $\int_0^{+\infty}f(x)\,\mathrm{d}x$ 收敛，则 $\int_0^{+\infty}f^2(x)\,\mathrm{d}x$ 收敛；\n③若 $\lim_{x\to+\infty}x^2f(x)$ 存在，则 $\int_0^{+\infty}f(x)\,\mathrm{d}x$ 收敛；\n④若 $\int_0^{+\infty}f(x)\,\mathrm{d}x$ 收敛，则 $\lim_{x\to+\infty}x^2f(x)$ 存在。\n其中，真命题的个数为\ExamSelection。
   choices:
   - label: A
     text: $1$
@@ -299,3 +298,4 @@ questions:
   subparts:
   - text: $a,b$ 的值；
   - text: 可以使 $A,B$ 同时相似对角化的可逆矩阵 $P$。
+content_hash: 47dd062bc420b4b0fd7e539a43c997e16055f109899792c892388b5054b6bcef

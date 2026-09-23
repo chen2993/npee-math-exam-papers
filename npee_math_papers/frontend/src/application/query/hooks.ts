@@ -11,9 +11,7 @@
  */
 
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
-import { useMemo } from "react";
 
-import type { CompilePayload, CompositionExportGateway } from "../composition/ports";
 import type { BundleQuery, CatalogGateway, PaperQuery } from "../catalog/ports";
 import type { LogQuery } from "../../domain/catalog/models";
 import { queryKeys } from "./keys";
@@ -22,13 +20,6 @@ export function useOverview(gateway: CatalogGateway) {
   return useQuery({
     queryKey: queryKeys.overview(),
     queryFn: ({ signal }) => gateway.overview(signal),
-  });
-}
-
-export function useSeries(gateway: CatalogGateway) {
-  return useQuery({
-    queryKey: queryKeys.series(),
-    queryFn: ({ signal }) => gateway.listSeries(signal),
   });
 }
 
@@ -62,21 +53,6 @@ export function usePaperDetail(
   });
 }
 
-export function useSearch(
-  gateway: CatalogGateway,
-  query: string,
-  options: { seriesKeys?: string[]; subjects?: string[]; limit?: number } = {},
-) {
-  const trimmed = query.trim();
-  return useQuery({
-    queryKey: queryKeys.search(trimmed, options.seriesKeys, options.subjects),
-    queryFn: ({ signal }) =>
-      gateway.search(trimmed, { ...options, signal }),
-    enabled: trimmed.length > 0,
-    placeholderData: (previous) => previous,
-  });
-}
-
 export function useReleaseManifest(gateway: CatalogGateway) {
   return useQuery({
     queryKey: queryKeys.release(),
@@ -102,55 +78,4 @@ export function useClearLogs(gateway: CatalogGateway) {
     mutationFn: () => gateway.clearLogs(),
     onSuccess: () => client.invalidateQueries({ queryKey: [...queryKeys.all, "logs"] }),
   });
-}
-
-export function useCompileJobs(exportGateway: CompositionExportGateway, limit = 20) {
-  return useQuery({
-    queryKey: queryKeys.jobs(limit),
-    queryFn: ({ signal }) => exportGateway.jobs(limit, signal),
-  });
-}
-
-export function useCompileJob(exportGateway: CompositionExportGateway, jobId: string | null) {
-  return useQuery({
-    queryKey: queryKeys.job(jobId ?? "none"),
-    queryFn: ({ signal }) => exportGateway.job(jobId!, signal),
-    enabled: jobId !== null,
-    // Poll until the job reaches a terminal state.
-    refetchInterval: (query) => {
-      const status = query.state.data?.status;
-      return status === "succeeded" || status === "failed" ? false : 1500;
-    },
-  });
-}
-
-/** Submit a background compile and return the accepted job. */
-export function useSubmitCompile(exportGateway: CompositionExportGateway) {
-  const client = useQueryClient();
-  return useMutation({
-    mutationFn: (payload: CompilePayload) => exportGateway.submit(payload),
-    onSuccess: () => client.invalidateQueries({ queryKey: [...queryKeys.all, "jobs"] }),
-  });
-}
-
-/** Synchronous compile that returns a downloadable artifact. */
-export function useCompileNow(exportGateway: CompositionExportGateway) {
-  return useMutation({
-    mutationFn: (payload: CompilePayload) => exportGateway.compile(payload),
-  });
-}
-
-/** Convenience: the series/years facets shared by the dashboard and catalogue. */
-export function useLibraryFacets(gateway: CatalogGateway) {
-  const overview = useOverview(gateway);
-  return useMemo(
-    () => ({
-      overview,
-      stats: overview.data?.stats,
-      series: overview.data?.series ?? [],
-      bundles: overview.data?.bundles ?? [],
-      years: [...(overview.data?.stats.years ?? [])].sort((left, right) => right - left),
-    }),
-    [overview],
-  );
 }

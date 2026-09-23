@@ -4,7 +4,6 @@ paper:
   year: 2024
   subject: math2
   paper_no: 1
-content_hash: bf67ce13cec73c6adf4c4e73ad3f90471527fbfe48c4f60967adb6474a5a2025
 questions:
 - number: 1
   section: choice
@@ -52,7 +51,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设函数 $f(x),g(x)$ 二阶可导且二阶导函数在 $x=a$ 处连续，若 $\lim_{x\to a}\dfrac{f(x)-g(x)}{(x-a)^2}>0$，则下列说法中，正确的个数是\ExamSelection ①在 $a$ 的某邻域内，$f(x)\geq g(x)$. ②在点 $(a,f(a))$ 处，$y=f(x)$ 的曲率大于 $y=g(x)$ 的曲率. ③若 $x=a$ 为 $f(x)$ 的极大值点，则 $x=a$ 也为 $g(x)$ 的极大值点. ④若 $x=a$ 为 $f(x)$ 的极小值点，则 $x=a$ 也为 $g(x)$ 的极小值点.
+      设函数 $f(x),g(x)$ 二阶可导且二阶导函数在 $x=a$ 处连续，若 $\lim_{x\to a}\dfrac{f(x)-g(x)}{(x-a)^2}>0$，则下列说法中，正确的个数是\ExamSelection \n①在 $a$ 的某邻域内，$f(x)\geq g(x)$. \n②在点 $(a,f(a))$ 处，$y=f(x)$ 的曲率大于 $y=g(x)$ 的曲率. \n③若 $x=a$ 为 $f(x)$ 的极大值点，则 $x=a$ 也为 $g(x)$ 的极大值点. \n④若 $x=a$ 为 $f(x)$ 的极小值点，则 $x=a$ 也为 $g(x)$ 的极小值点.
   choices:
   - label: A
     text: $1$.
@@ -297,3 +296,4 @@ questions:
   - text: 求 $a,b$；
   - text: |-
       用 $\alpha_1,\alpha_2,\alpha_3$ 表示所有满足要求的可逆矩阵 $P$。
+content_hash: 5976a6655fb88455d62abe2fe24de318fd27380328ff85abae94677c9a790df6

@@ -4,7 +4,6 @@ paper:
   year: 2026
   subject: math1
   paper_no: 5
-content_hash: d30b3ab1b6f32bcc8f47749e31a9f607a29bf25d318ede524bc633de2a5581ec
 questions:
 - number: 1
   section: choice
@@ -104,7 +103,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $A$ 是 $3$ 阶矩阵，$b$ 是 $3$ 维非零列向量，则下列说法中正确的是：①若 $Ax=b$ 有解，则 $\begin{pmatrix}A^\mathsf{T}\\b^\mathsf{T}\end{pmatrix}x=\begin{pmatrix}0\\1\end{pmatrix}$ 有解；②若 $Ax=b$ 有解，则 $\begin{pmatrix}A^\mathsf{T}\\b^\mathsf{T}\end{pmatrix}x=\begin{pmatrix}0\\1\end{pmatrix}$ 无解；③若 $\begin{pmatrix}A^\mathsf{T}\\b^\mathsf{T}\end{pmatrix}x=\begin{pmatrix}0\\1\end{pmatrix}$ 有解，则 $Ax=0$ 有非零解；④若 $\begin{pmatrix}A^\mathsf{T}\\b^\mathsf{T}\end{pmatrix}x=\begin{pmatrix}0\\1\end{pmatrix}$ 无解，则 $Ax=0$ 只有零解\ExamSelection。
+      设 $A$ 是 $3$ 阶矩阵，$b$ 是 $3$ 维非零列向量，则下列说法中正确的是：\n①若 $Ax=b$ 有解，则 $\begin{pmatrix}A^\mathsf{T}\\b^\mathsf{T}\end{pmatrix}x=\begin{pmatrix}0\\1\end{pmatrix}$ 有解；\n②若 $Ax=b$ 有解，则 $\begin{pmatrix}A^\mathsf{T}\\b^\mathsf{T}\end{pmatrix}x=\begin{pmatrix}0\\1\end{pmatrix}$ 无解；\n③若 $\begin{pmatrix}A^\mathsf{T}\\b^\mathsf{T}\end{pmatrix}x=\begin{pmatrix}0\\1\end{pmatrix}$ 有解，则 $Ax=0$ 有非零解；\n④若 $\begin{pmatrix}A^\mathsf{T}\\b^\mathsf{T}\end{pmatrix}x=\begin{pmatrix}0\\1\end{pmatrix}$ 无解，则 $Ax=0$ 只有零解\ExamSelection。
   choices:
   - label: A
     text: ①③
@@ -307,3 +306,4 @@ questions:
   subparts:
   - text: 求 $Y_2$ 与 $Y_3$ 的概率密度函数 $f_2(x)$ 与 $f_3(x)$；
   - text: 记连续三个月中的月最大需求量为 $Y$，求 $Y$ 的概率密度函数。
+content_hash: 9dd67925343c6cd91cf3da10c134ca07cf857bec4787006bd6a1ee4c22d32966

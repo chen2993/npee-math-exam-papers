@@ -4,7 +4,6 @@ paper:
   year: 2023
   subject: math2
   paper_no: 2
-content_hash: c8daad59002398a6a8c117902c6cb5b3c6373bd07a8498cf8625cd49ff50d6b0
 questions:
 - number: 1
   section: choice
@@ -34,7 +33,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设函数 $f(x)=\begin{cases}1+\sin \dfrac{\pi}{2}x,&x\leq 1,\\2-\sqrt{x-1},&x>1.\end{cases}$ 对 $f(x)$ 给出两个命题：①点 $x=1$ 是 $f(x)$ 的一个极值点；②点 $(1,2)$ 是曲线 $y=f(x)$ 的一个拐点.则\ExamSelection。
+      设函数 $f(x)=\begin{cases}1+\sin \dfrac{\pi}{2}x,&x\leq 1,\\2-\sqrt{x-1},&x>1.\end{cases}$ 对 $f(x)$ 给出两个命题：\n①点 $x=1$ 是 $f(x)$ 的一个极值点；\n②点 $(1,2)$ 是曲线 $y=f(x)$ 的一个拐点.则\ExamSelection。
   choices:
   - label: A
     text: ①和②都正确.
@@ -76,7 +75,7 @@ questions:
   points: 5
   stem:
     text: |-
-      对于 $\{a_n\},n=1,2,\cdots$，以下命题：①若 $0<a_n<1$，则 $\lim_{n\to\infty}a_n^n=0$；②若 $a_n>1$，则 $\lim_{n\to\infty}a_n^n=+\infty$；③若 $a_n>0$ 且 $\lim_{n\to\infty}\sqrt[n]{a_n}=1$，则 $\lim_{n\to\infty}a_n$ 必存在且大于 $0$；④若 $a_n>0$ 且 $\lim_{n\to\infty}a_n$ 存在且大于 $0$，则 $\lim_{n\to\infty}\sqrt[n]{a_n}=1$.所有假命题的序号为\ExamSelection。
+      对于 $\{a_n\},n=1,2,\cdots$，以下命题：\n①若 $0<a_n<1$，则 $\lim_{n\to\infty}a_n^n=0$；\n②若 $a_n>1$，则 $\lim_{n\to\infty}a_n^n=+\infty$；\n③若 $a_n>0$ 且 $\lim_{n\to\infty}\sqrt[n]{a_n}=1$，则 $\lim_{n\to\infty}a_n$ 必存在且大于 $0$；\n④若 $a_n>0$ 且 $\lim_{n\to\infty}a_n$ 存在且大于 $0$，则 $\lim_{n\to\infty}\sqrt[n]{a_n}=1$.所有假命题的序号为\ExamSelection。
   choices:
   - label: A
     text: ①②
@@ -295,3 +294,4 @@ questions:
       若 $A^3\beta=2A\beta$，求 $A$ 的特征值；
   - text: |-
       在（3）的基础上证明 $A\beta$ 和 $A^2\beta$ 是方程组 $(A^2-2E)x=0$ 的基础解系.
+content_hash: 1c2fd7a9474e1d8bbaa7a80ba99c21d47eb436365ad2b3d64a6d2012d7bd0669

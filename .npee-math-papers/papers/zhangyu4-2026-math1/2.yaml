@@ -4,7 +4,6 @@ paper:
   year: 2026
   subject: math1
   paper_no: 2
-content_hash: 778d49c2e1d9dace322d2559e6cf5aaf0c27ea6300a49e1632d0ae22d5be532b
 questions:
 - number: 1
   section: choice
@@ -190,7 +189,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设随机变量 $X$ 与 $Y$ 相互独立，$D(X)D(Y)\ne0$，以下结论：①$3X+1$ 与 $4Y-2$ 相关；②$X+Y$ 与 $X-Y$ 不相关；③$X+Y$ 与 $2Y+1$ 相互独立；④$e^X$ 与 $2Y+1$ 相互独立。正确结论的个数为\ExamSelection
+      设随机变量 $X$ 与 $Y$ 相互独立，$D(X)D(Y)\ne0$，以下结论：\n①$3X+1$ 与 $4Y-2$ 相关；\n②$X+Y$ 与 $X-Y$ 不相关；\n③$X+Y$ 与 $2Y+1$ 相互独立；\n④$e^X$ 与 $2Y+1$ 相互独立。\n正确结论的个数为\ExamSelection
   choices:
   - label: A
     text: $1$。
@@ -320,3 +319,4 @@ questions:
       设 $Z_1,Z_2,\cdots,Z_n$ 为来自总体 $Z$ 的简单随机样本，求 $\sigma^2$ 的最大似然估计量 $\hat{\sigma}^2$；
   - text: |-
       是否存在实数 $a$，使得对任意的 $\varepsilon>0$，都有 $\lim_{n\to\infty}P\{ |\hat{\sigma}^2-a|\geq\varepsilon\}=0$？
+content_hash: 8f82e269ba4d8b065b58291157eeba6d619c60f1a4b0e06abe88fe51e5155878

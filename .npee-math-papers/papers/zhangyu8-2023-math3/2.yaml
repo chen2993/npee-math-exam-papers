@@ -4,14 +4,13 @@ paper:
   year: 2023
   subject: math3
   paper_no: 2
-content_hash: d7ba34605027a9633bda5b0bc6738c66f6b02d41638f8f4cd3b37136141c780f
 questions:
 - number: 1
   section: choice
   points: 5
   stem:
     text: |-
-      设函数 $f(x)=\begin{cases}1+\sin\dfrac{\pi}{2}x,&x\leq 1,\\2-\sqrt{x-1},&x>1.\end{cases}$ 对 $f(x)$ 给出两个命题：①点 $x=1$ 是 $f(x)$ 的一个极值点；②点 $(1,2)$ 是曲线 $y=f(x)$ 的一个拐点。则\ExamSelection
+      设函数 $f(x)=\begin{cases}1+\sin\dfrac{\pi}{2}x,&x\leq 1,\\2-\sqrt{x-1},&x>1.\end{cases}$ 对 $f(x)$ 给出两个命题：\n①点 $x=1$ 是 $f(x)$ 的一个极值点；\n②点 $(1,2)$ 是曲线 $y=f(x)$ 的一个拐点。\n则\ExamSelection
   choices:
   - label: A
     text: ①和②都正确
@@ -315,3 +314,4 @@ questions:
       求参数 $\theta$ 的矩估计量 $\hat{\theta}_M$ 和最大似然估计量 $\hat{\theta}_L$；
   - text: |-
       求 $E\left[\dfrac{X_{(1)}+X_{(n)}}{2}\right]$。
+content_hash: a0cb197964886a4bdb16cb0fd2766402db1425d7de8a7699c92ecbd1575408e0

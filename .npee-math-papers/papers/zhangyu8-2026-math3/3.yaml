@@ -4,7 +4,6 @@ paper:
   year: 2026
   subject: math3
   paper_no: 3
-content_hash: bc96e1062ee4da79394c23708ea53c0d3a26f7cae878777c148a96d5bb2b18a9
 questions:
 - number: 1
   section: choice
@@ -113,7 +112,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 3 阶矩阵 $A,B$ 满足 $r(BA)<r(AB)$，对于以下结论：① $ABx=0$ 与 $BAx=0$ 有非零公共解；② $ABAx=0$ 与 $BABx=0$ 有非零公共解。正确的说法是\ExamSelection。
+      设 3 阶矩阵 $A,B$ 满足 $r(BA)<r(AB)$，对于以下结论：\n① $ABx=0$ 与 $BAx=0$ 有非零公共解；\n② $ABAx=0$ 与 $BABx=0$ 有非零公共解。\n正确的说法是\ExamSelection。
   choices:
   - label: A
     text: ①正确，②正确
@@ -300,3 +299,4 @@ questions:
       $P\{Y=k\mid X=x\},k=0,1,2$；
   - text: |-
       $\rho_{XY}$。
+content_hash: 8509ce79e685171ca424dd9ff24a7fe6e6b0deece01acc2dd8fdeb282d6a8b38

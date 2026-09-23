@@ -29,3 +29,18 @@ def test_snapshot_covers_repairs() -> None:
     joined = "\n".join(snapshot["inline"])
     for marker in ("\\hline", "\\vdots", "\\begin{cases}", "\\begin{vmatrix}", "m/s"):
         assert marker in joined or marker in snapshot["body"], f"snapshot no longer covers {marker!r}"
+
+
+def test_snapshot_covers_score_label_and_circled_sequence() -> None:
+    """The content normalizations must stay visible in the snapshot."""
+
+    body = capture()["body"]
+    # A stored score label is stripped, so the class label is the only one printed.
+    assert "（本题满分" not in body
+    assert body.count("\\begin{ExamSolutionQuestion}[id=p001-q20]{10}") == 1
+    # A stored subpart ordinal is stripped; the cross reference is preserved.
+    assert "\\ExamSubpart{p001-q20-s1}求 " in body
+    assert "\\ExamSubpart{p001-q20-s2}在第（I）问的基础上" in body
+    # Math-led proposition heads become statements; alignment markers stay inline.
+    assert "\\ExamStatementMarker{1}$x_2\\ln x_2>x_1\\ln x_1$" in body
+    assert "\\begin{array}{ll}\\ExamCircledNumber{1}" in body

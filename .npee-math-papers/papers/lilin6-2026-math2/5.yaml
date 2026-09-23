@@ -4,7 +4,6 @@ paper:
   year: 2026
   subject: math2
   paper_no: 5
-content_hash: e124909c7a3d95560962ae65378765409ff9a4cf036a873b82a57f5778176163
 questions:
 - number: 1
   section: choice
@@ -190,7 +189,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $A$ 是 $3$ 阶矩阵，$b$ 是 $3$ 维非零列向量，则下列说法中正确的是 ①若 $Ax=b$ 有解，则 $\begin{pmatrix}A^T\\b^T\end{pmatrix}x=\begin{pmatrix}0\\1\end{pmatrix}$ 有解；②若 $Ax=b$ 有解，则 $\begin{pmatrix}A^T\\b^T\end{pmatrix}x=\begin{pmatrix}0\\1\end{pmatrix}$ 无解；③若 $\begin{pmatrix}A^T\\b^T\end{pmatrix}x=\begin{pmatrix}0\\1\end{pmatrix}$ 有解，则 $Ax=0$ 有非零解；④若 $\begin{pmatrix}A^T\\b^T\end{pmatrix}x=\begin{pmatrix}0\\1\end{pmatrix}$ 无解，则 $Ax=0$ 只有零解\ExamSelection。
+      设 $A$ 是 $3$ 阶矩阵，$b$ 是 $3$ 维非零列向量，则下列说法中正确的是 \n①若 $Ax=b$ 有解，则 $\begin{pmatrix}A^T\\b^T\end{pmatrix}x=\begin{pmatrix}0\\1\end{pmatrix}$ 有解；\n②若 $Ax=b$ 有解，则 $\begin{pmatrix}A^T\\b^T\end{pmatrix}x=\begin{pmatrix}0\\1\end{pmatrix}$ 无解；\n③若 $\begin{pmatrix}A^T\\b^T\end{pmatrix}x=\begin{pmatrix}0\\1\end{pmatrix}$ 有解，则 $Ax=0$ 有非零解；\n④若 $\begin{pmatrix}A^T\\b^T\end{pmatrix}x=\begin{pmatrix}0\\1\end{pmatrix}$ 无解，则 $Ax=0$ 只有零解\ExamSelection。
   choices:
   - label: A
     text: ①③。
@@ -313,3 +312,4 @@ questions:
   - text: |-
       求 $P=(\alpha_1,\alpha_2,\alpha_3)$，并证明 $P$ 可逆；
   - text: 求 $P^{-1}(A+A^*)P$，其中 $A^*$ 为 $A$ 的伴随矩阵。
+content_hash: d03adad6f443939e65a24ad3ddd5ba6a13b57a1c2b2c8d049278f38adee1099a

@@ -6,9 +6,7 @@ import type {
   PaperDocument,
   PaperPage,
   PaperSummary,
-  QuestionContext,
   ReleaseManifest,
-  SearchResult,
   Series,
 } from "../../domain/catalog/models";
 
@@ -53,18 +51,6 @@ export interface CatalogGateway {
     withQuestions: boolean,
     signal?: AbortSignal,
   ): Promise<PaperDocument | PaperSummary>;
-  search(
-    query: string,
-    options?: { seriesKeys?: string[]; subjects?: string[]; limit?: number; signal?: AbortSignal },
-  ): Promise<SearchResult>;
-  getQuestion(
-    seriesKey: string,
-    year: number,
-    subject: string,
-    paperNo: number,
-    questionNo: number,
-    signal?: AbortSignal,
-  ): Promise<QuestionContext>;
   releaseManifest(signal?: AbortSignal): Promise<ReleaseManifest>;
   listLogs(query: LogQuery, signal?: AbortSignal): Promise<LogPage>;
   clearLogs(signal?: AbortSignal): Promise<void>;

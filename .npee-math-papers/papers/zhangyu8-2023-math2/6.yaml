@@ -4,14 +4,13 @@ paper:
   year: 2023
   subject: math2
   paper_no: 6
-content_hash: f415470ea307e11caa78fc3f25c21422af2417802776a983d5ceaf140f465caa
 questions:
 - number: 1
   section: choice
   points: 5
   stem:
     text: |-
-      一、选择题：1～10小题，每小题5分，共50分。下列每题给出的四个选项中，只有一个选项是最符合题目要求的。设 $f(x)$ 在 $x=0$ 处连续，且 $\lim_{x\to0}\dfrac{\ln(1-2x)+2xf(x)}{x^2}=0$，则 $f'(0)$\ExamSelection
+      设 $f(x)$ 在 $x=0$ 处连续，且 $\lim_{x\to0}\dfrac{\ln(1-2x)+2xf(x)}{x^2}=0$，则 $f'(0)$\ExamSelection
   choices:
   - label: A
     text: 等于 $1$
@@ -72,7 +71,7 @@ questions:
   points: 5
   stem:
     text: |-
-      下列三个命题：①设 $f(x)$ 在 $x=x_0$ 处连续，在 $x=x_0$ 的某去心邻域内可导，若 $\lim_{x\to x_0}f'(x)$ 存在，则 $f(x)$ 在 $x=x_0$ 处可导且 $f'(x_0)=\lim_{x\to x_0}f'(x)$；②设 $f(x)$ 在 $x=x_0$ 处连续，在 $x=x_0$ 的某去心邻域内可导，若 $\lim_{x\to x_0^-}f'(x)$ 与 $\lim_{x\to x_0^+}f'(x)$ 均存在但不相等，则 $f'(x_0)$ 不存在；③设 $f(x)$ 在 $x=x_0$ 的某邻域内可导，若 $\lim_{x\to x_0^-}f'(x)$ 与 $\lim_{x\to x_0^+}f'(x)$ 均存在，则必有 $\lim_{x\to x_0}f'(x)$ 存在。是真命题的序号为\ExamSelection
+      下列三个命题：\n①设 $f(x)$ 在 $x=x_0$ 处连续，在 $x=x_0$ 的某去心邻域内可导，若 $\lim_{x\to x_0}f'(x)$ 存在，则 $f(x)$ 在 $x=x_0$ 处可导且 $f'(x_0)=\lim_{x\to x_0}f'(x)$；\n②设 $f(x)$ 在 $x=x_0$ 处连续，在 $x=x_0$ 的某去心邻域内可导，若 $\lim_{x\to x_0^-}f'(x)$ 与 $\lim_{x\to x_0^+}f'(x)$ 均存在但不相等，则 $f'(x_0)$ 不存在；\n③设 $f(x)$ 在 $x=x_0$ 的某邻域内可导，若 $\lim_{x\to x_0^-}f'(x)$ 与 $\lim_{x\to x_0^+}f'(x)$ 均存在，则必有 $\lim_{x\to x_0}f'(x)$ 存在。\n是真命题的序号为\ExamSelection
   choices:
   - label: A
     text: ①②
@@ -208,7 +207,7 @@ questions:
   points: 5
   stem:
     text: |-
-      二、填空题：11～16小题，每小题5分，共30分。若直线 $y=2x-\dfrac{1}{2}$ 是曲线 $y=\sqrt{ax^2+bx+1}$ 的一条斜渐近线，则定积分 $\int_b^a\sqrt{(a-x)(x-b)}\,\mathrm{d}x$ 的值为\ExamBlank。
+      若直线 $y=2x-\dfrac{1}{2}$ 是曲线 $y=\sqrt{ax^2+bx+1}$ 的一条斜渐近线，则定积分 $\int_b^a\sqrt{(a-x)(x-b)}\,\mathrm{d}x$ 的值为\ExamBlank。
 - number: 12
   section: fill
   points: 5
@@ -243,7 +242,7 @@ questions:
   section: solution
   points: 10
   stem:
-    text: 三、解答题：17～22小题，共70分。解答应写出文字说明、证明过程或演算步骤。设 $z=z(x,y)$ 是由方程 $(x+y)^2+(y+z)^2+(z+x)^2=12$ 所确定的函数，求 $z=z(x,y)$ 的极值。
+    text: 设 $z=z(x,y)$ 是由方程 $(x+y)^2+(y+z)^2+(z+x)^2=12$ 所确定的函数，求 $z=z(x,y)$ 的极值。
 - number: 18
   section: solution
   points: 12
@@ -286,3 +285,4 @@ questions:
   subparts:
   - text: 求可逆矩阵 $P$，使得 $P^{-1}AP$ 为对角矩阵；
   - text: 求 $A^*-6E$ 的秩。
+content_hash: 422e9e9fa3fd114af95acf504704eb445b7455b064340340eaf8d60f969952ca

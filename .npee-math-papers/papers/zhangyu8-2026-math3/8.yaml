@@ -4,7 +4,6 @@ paper:
   year: 2026
   subject: math3
   paper_no: 8
-content_hash: 76e872859d91f99696aa008eee7a1241432c2d33b7b54c6ec27e16fbe676ee58
 questions:
 - number: 1
   section: choice
@@ -30,7 +29,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $f(x)$ 在 $(0,+\infty)$ 内可导，对于以下结论：①若 $\lim_{x\to+\infty}f(x)$ 存在，$\lim_{x\to+\infty}f'(x)$ 存在，则 $\lim_{x\to+\infty}f'(x)=0$；②若 $\lim_{x\to+\infty}[f(x)+f'(x)]$ 存在，则 $\lim_{x\to+\infty}f'(x)=0$。正确的说法是\ExamSelection。
+      设 $f(x)$ 在 $(0,+\infty)$ 内可导，对于以下结论：\n①若 $\lim_{x\to+\infty}f(x)$ 存在，$\lim_{x\to+\infty}f'(x)$ 存在，则 $\lim_{x\to+\infty}f'(x)=0$；\n②若 $\lim_{x\to+\infty}[f(x)+f'(x)]$ 存在，则 $\lim_{x\to+\infty}f'(x)=0$。\n正确的说法是\ExamSelection。
   choices:
   - label: A
     text: ①正确，②错误
@@ -135,7 +134,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $\alpha_1,\alpha_2,\cdots,\alpha_n$ 是 $n$ 个 $n$ 维的线性无关向量，$\alpha_{n+1}=k_1\alpha_1+k_2\alpha_2+\cdots+k_n\alpha_n$，其中 $k_1,k_2,\cdots,k_n$ 全不为 $0$，则下列结论：① $\alpha_2,\alpha_3,\cdots,\alpha_{n+1}$ 线性相关；② $\alpha_1,\alpha_3,\cdots,\alpha_{n+1}$ 线性相关；③ $\alpha_1,\alpha_2,\alpha_4,\cdots,\alpha_{n+1}$ 线性相关。正确的个数为\ExamSelection。
+      设 $\alpha_1,\alpha_2,\cdots,\alpha_n$ 是 $n$ 个 $n$ 维的线性无关向量，$\alpha_{n+1}=k_1\alpha_1+k_2\alpha_2+\cdots+k_n\alpha_n$，其中 $k_1,k_2,\cdots,k_n$ 全不为 $0$，则下列结论：\n① $\alpha_2,\alpha_3,\cdots,\alpha_{n+1}$ 线性相关；\n② $\alpha_1,\alpha_3,\cdots,\alpha_{n+1}$ 线性相关；\n③ $\alpha_1,\alpha_2,\alpha_4,\cdots,\alpha_{n+1}$ 线性相关。\n正确的个数为\ExamSelection。
   choices:
   - label: A
     text: $0$
@@ -293,3 +292,4 @@ questions:
   stem:
     text: |-
       设某营运车辆的使用寿命 $X$（天）服从参数为 $\dfrac{1}{1000}$ 的指数分布，车辆的使用成本为 $300$ 元/天，司机的报酬为 $400$ 元/天，并约定按照 $m$ 天支付报酬，车辆每天正常运营可获得 $1000$ 元收益，求该营运车辆的期望利润最大时 $m$ 的值（$m$ 为整数）。（$\ln2$ 取 $0.693$，$\ln7$ 取 $1.946$）
+content_hash: 588b94ccd0a4d8e992f9180ffa7d085f8f8eca53d44277109bcf72d70d3bbe1f

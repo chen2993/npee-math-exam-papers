@@ -5,13 +5,19 @@
     "title": "张宇八套卷同组合验证卷",
     "subtitle": null,
     "year": 2023,
-    "subject_scope": ["math1", "math2", "math3"],
+    "subject_scope": [
+      "math1",
+      "math2",
+      "math3"
+    ],
     "revision": 1,
     "notes": "同一套号展开为数学一、二、三三份独立试卷。"
   },
   "catalog": {
     "sources": [
-      {"id": "zhangyu8"}
+      {
+        "id": "zhangyu8"
+      }
     ]
   },
   "document": {
@@ -46,7 +52,8 @@
           "series_key": "zhangyu8",
           "paper_no": 1,
           "bookmark_title": "第 1 套",
-          "display_title": null
+          "display_title": null,
+          "content_hash": "4a564c07aa34290d515b63ea20338dd6aa7dedca0c56e588b8f21e25b9ee34a1"
         }
       ]
     }
@@ -54,12 +61,24 @@
   "compile": {
     "engine": "xelatex",
     "passes": 3,
-    "subjects": ["math1", "math2", "math3"],
+    "subjects": [
+      "math1",
+      "math2",
+      "math3"
+    ],
     "targets": [
-      {"layout": "a4", "theme": "print", "spacing": "compact", "enabled": true, "answers": false, "output_suffix": null}
+      {
+        "layout": "a4",
+        "theme": "print",
+        "spacing": "compact",
+        "enabled": true,
+        "answers": false,
+        "output_suffix": null,
+        "print": false
+      }
     ],
     "output": {
-      "directory": "build/output",
+      "directory": "dist/three-subject-template-smoke",
       "filename_template": "[{layout}][{subject_label}][{spacing_label}] {title}.pdf",
       "overwrite": true
     }

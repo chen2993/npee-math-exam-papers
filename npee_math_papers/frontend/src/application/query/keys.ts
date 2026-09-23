@@ -17,10 +17,6 @@ export const queryKeys = {
   papers: (query: PaperQuery) => [...queryKeys.all, "papers", query] as const,
   paper: (seriesKey: string, year: number, subject: string, paperNo: number) =>
     [...queryKeys.all, "paper", seriesKey, year, subject, paperNo] as const,
-  search: (query: string, seriesKeys?: string[], subjects?: string[]) =>
-    [...queryKeys.all, "search", query, seriesKeys ?? [], subjects ?? []] as const,
   release: () => [...queryKeys.all, "release"] as const,
   logs: (filters: Record<string, unknown>) => [...queryKeys.all, "logs", filters] as const,
-  jobs: (limit: number) => [...queryKeys.all, "jobs", limit] as const,
-  job: (jobId: string) => [...queryKeys.all, "job", jobId] as const,
 };

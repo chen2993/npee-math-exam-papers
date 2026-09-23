@@ -4,7 +4,6 @@ paper:
   year: 2026
   subject: math3
   paper_no: 3
-content_hash: 02dff68d110247c94389bb4d842e89666965bcd636600c8ba4a0a6bed7a840b3
 questions:
 - number: 1
   section: choice
@@ -30,7 +29,7 @@ questions:
   points: 5
   stem:
     text: |-
-      对于积分① $\int_0^{2\pi}x\sin x\,\mathrm{d}x$，② $\int_{-2}^2x^3 2^x\,\mathrm{d}x$，正确的说法是\ExamSelection
+      对于积分\n① $\int_0^{2\pi}x\sin x\,\mathrm{d}x$，\n② $\int_{-2}^2x^3 2^x\,\mathrm{d}x$，正确的说法是\ExamSelection
   choices:
   - label: A
     text: ①为负值，②为正值。
@@ -296,3 +295,4 @@ questions:
   - text: 证明 $X$ 与 $Z$ 不相互独立；
   - text: |-
       计算 $F_U\left(\dfrac{1}{2}\right)$ 的值。
+content_hash: cef14d003f9364cf20a063cde5a328bf6bb1d2522c88415906e13baf7f96ef29

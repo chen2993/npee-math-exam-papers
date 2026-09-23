@@ -4,7 +4,6 @@ paper:
   year: 2024
   subject: math2
   paper_no: 2
-content_hash: 9f4da3d9d24aeba0ef6ac6f60861069f35f655416ecc598e59c39875dd609f3d
 questions:
 - number: 1
   section: choice
@@ -253,8 +252,12 @@ questions:
   section: solution
   points: 12
   stem:
-    text: |-
-      （1）计算 $I=\int_0^{\dfrac{1}{2}}\mathrm{d}y\int_y^{\dfrac{1}{2}}\dfrac{\ln(1+x)}{x}\,\mathrm{d}x$；（2）求 $f(x)=\ln(1+x)$ 的二阶麦克劳林公式 $\ln(1+x)=a+bx+cx^2+R_2(x)$，并计算 $\int_0^{\dfrac{1}{2}}\mathrm{d}y\int_y^{\dfrac{1}{2}}\dfrac{R_2(x)}{x}\,\mathrm{d}x$。
+    text: '{}'
+  subparts:
+  - text: |-
+      计算 $I=\int_0^{\dfrac{1}{2}}\mathrm{d}y\int_y^{\dfrac{1}{2}}\dfrac{\ln(1+x)}{x}\,\mathrm{d}x$；
+  - text: |-
+      求 $f(x)=\ln(1+x)$ 的二阶麦克劳林公式 $\ln(1+x)=a+bx+cx^2+R_2(x)$，并计算 $\int_0^{\dfrac{1}{2}}\mathrm{d}y\int_y^{\dfrac{1}{2}}\dfrac{R_2(x)}{x}\,\mathrm{d}x$。
 - number: 20
   section: solution
   points: 12
@@ -277,3 +280,4 @@ questions:
   - text: 证明：$p_1,p_2$ 为 $(E-A)x=0$ 的解，$p_3$ 为 $(E-A)x=-p_2$ 的解，且 $A$ 不可相似对角化。
   - text: |-
       当 $A=\begin{pmatrix}2&-1&-1\\2&-1&-2\\-1&1&2\end{pmatrix}$ 时，求可逆矩阵 $P$，使得 $P^{-1}AP=\begin{pmatrix}1&0&0\\0&1&1\\0&0&1\end{pmatrix}$。
+content_hash: 143f367ea5fb330c7d0cfaa95f7c7298bd398f4afaa586b82e9fbce814902cc5

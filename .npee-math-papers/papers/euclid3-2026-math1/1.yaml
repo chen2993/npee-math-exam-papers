@@ -4,7 +4,6 @@ paper:
   year: 2026
   subject: math1
   paper_no: 1
-content_hash: 4facddb946ddf67f1aa85f7a078a70c674b8e793de5027fbc98ba792b204f492
 questions:
 - number: 1
   section: choice
@@ -73,7 +72,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $f(x)$ 是 $[0,1]$ 上二阶可导的正值函数，$f'(0)=1$ 且 $f'^2(x)<f(x)f''(x)$，则下列说法正确的是\ExamSelection。① $f(1)>f(0)$；② $f(1)<f(0)$；③ $f(0)f(1)>f^2\left(\dfrac{1}{2}\right)$；④ $f(0)f(1)<f^2\left(\dfrac{1}{2}\right)$。
+      设 $f(x)$ 是 $[0,1]$ 上二阶可导的正值函数，$f'(0)=1$ 且 $f'^2(x)<f(x)f''(x)$，则下列说法正确的是\ExamSelection。\n① $f(1)>f(0)$；\n② $f(1)<f(0)$；\n③ $f(0)f(1)>f^2\left(\dfrac{1}{2}\right)$；\n④ $f(0)f(1)<f^2\left(\dfrac{1}{2}\right)$。
   choices:
   - label: A
     text: ①③
@@ -311,3 +310,4 @@ questions:
       求 $\theta$ 的最大似然估计量 $\hat{\theta}_2$；
   - text: |-
       $\hat{\theta}_1$ 和 $\hat{\theta}_2$ 哪个更有效？
+content_hash: 55e2c0a23a555c2b9306bc887df7a4275e2312ce8f7de34c5c6cafde09dd4d29

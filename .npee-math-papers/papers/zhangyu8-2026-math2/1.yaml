@@ -4,7 +4,6 @@ paper:
   year: 2026
   subject: math2
   paper_no: 1
-content_hash: 87b094c8d000bd27c99be006cf2f0e7ea078ea50779f35001451c87b066f491a
 questions:
 - number: 1
   section: choice
@@ -141,7 +140,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $f(x)$ 在 $(0,+\infty)$ 内可导，以下结论：①若 $\displaystyle \lim_{x\to+\infty}f(x)$ 存在，则 $\displaystyle \lim_{x\to+\infty}f'(x)$ 存在；②若 $\displaystyle \lim_{x\to+\infty}f'(x)$ 存在，则 $\displaystyle \lim_{x\to+\infty}f(x)$ 存在；③若 $\displaystyle \lim_{x\to+\infty}f'(x)=a\neq0$，则 $f(x)$ 在 $x\to+\infty$ 时无界；④若 $\displaystyle \lim_{x\to+\infty}f'(x)=0$，则 $f(x)$ 在 $x\to+\infty$ 时有界。正确的个数为\ExamSelection。
+      设 $f(x)$ 在 $(0,+\infty)$ 内可导，以下结论：\n①若 $\displaystyle \lim_{x\to+\infty}f(x)$ 存在，则 $\displaystyle \lim_{x\to+\infty}f'(x)$ 存在；\n②若 $\displaystyle \lim_{x\to+\infty}f'(x)$ 存在，则 $\displaystyle \lim_{x\to+\infty}f(x)$ 存在；\n③若 $\displaystyle \lim_{x\to+\infty}f'(x)=a\neq0$，则 $f(x)$ 在 $x\to+\infty$ 时无界；\n④若 $\displaystyle \lim_{x\to+\infty}f'(x)=0$，则 $f(x)$ 在 $x\to+\infty$ 时有界。\n正确的个数为\ExamSelection。
   choices:
   - label: A
     text: $1$
@@ -294,3 +293,4 @@ questions:
   subparts:
   - text: $a,b$ 的值；
   - text: $A^{100}$。
+content_hash: 2557d73845c16c0ef6a578e1b04d847d9114d3fdfc1adca1e2a559a6d029c0da

@@ -4,14 +4,13 @@ paper:
   year: 2025
   subject: math2
   paper_no: 1
-content_hash: c275327057057ca65b3584061baae485a74cec4728a88ad7776adb4a51d36535
 questions:
 - number: 1
   section: choice
   points: 5
   stem:
     text: |-
-      设函数 $f(x)$ 在区间 $(-1,1)$ 内有定义，且在点 $x=0$ 处连续，则以下结论：①当 $\lim_{x\to0}\dfrac{f(x)}{\sqrt[3]{x}}=0$ 时，$f(x)$ 在点 $x=0$ 处可导；②当 $\lim_{x\to0}\dfrac{f(x)}{x^2}=0$ 时，$f(x)$ 在点 $x=0$ 处可导；③当 $f(x)$ 在点 $x=0$ 处可导时，$\lim_{x\to0}\dfrac{f(x)}{\sqrt[3]{x}}=0$。所有正确结论的序号为\ExamSelection
+      设函数 $f(x)$ 在区间 $(-1,1)$ 内有定义，且在点 $x=0$ 处连续，则以下结论：\n①当 $\lim_{x\to0}\dfrac{f(x)}{\sqrt[3]{x}}=0$ 时，$f(x)$ 在点 $x=0$ 处可导；\n②当 $\lim_{x\to0}\dfrac{f(x)}{x^2}=0$ 时，$f(x)$ 在点 $x=0$ 处可导；\n③当 $f(x)$ 在点 $x=0$ 处可导时，$\lim_{x\to0}\dfrac{f(x)}{\sqrt[3]{x}}=0$。\n所有正确结论的序号为\ExamSelection
   choices:
   - label: A
     text: ①
@@ -293,3 +292,4 @@ questions:
       $\mathbf{A}$ 能否相似对角化？说明理由；
   - text: |-
       是否存在可逆矩阵 $\mathbf{P}$，使得 $\mathbf{P}^{-1}\mathbf{A}\mathbf{P}=\mathbf{B}$？若存在，求出所有的 $\mathbf{P}$；若不存在，请说明理由。
+content_hash: c4771d832eabd1e581ca2204ec8718ce28a763c5b7e95d2221b33766d0080830

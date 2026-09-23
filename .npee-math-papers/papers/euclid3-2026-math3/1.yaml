@@ -4,11 +4,10 @@ paper:
   year: 2026
   subject: math3
   paper_no: 1
-content_hash: 88f0d7b7b7f43b5e6def32427487e317eeff75fb6ceb85bbb0f62f7a72ee6352
 questions:
 - number: 1
   section: choice
-  points:
+  points: 5
   stem:
     text: |-
       设函数 $y=y(x)$ 由方程 $x=\int_1^{x+y}e^{-t^2}\,\mathrm{d}t$ 确定，则 $\lim_{x\to0}y^{\dfrac{1}{x}}=$\ExamSelection
@@ -27,7 +26,7 @@ questions:
     figures: []
 - number: 2
   section: choice
-  points:
+  points: 5
   stem:
     text: |-
       设 $f(x)$ 为 $(-\infty,+\infty)$ 上的连续函数，已知微分方程 $y'+(\sin x)y=f(x)$ 的解 $y(x)$ 满足 $y(1)=0$，则下列说法中正确的是\ExamSelection
@@ -46,7 +45,7 @@ questions:
     figures: []
 - number: 3
   section: choice
-  points:
+  points: 5
   stem:
     text: |-
       $\int_0^{\dfrac{\pi}{6}}\mathrm{d}\theta\int_\theta^{\dfrac{\pi}{6}}\dfrac{\cos r}{r}\,\mathrm{d}r=$\ExamSelection
@@ -68,10 +67,10 @@ questions:
     figures: []
 - number: 4
   section: choice
-  points:
+  points: 5
   stem:
     text: |-
-      设 $f(x)$ 是 $[0,1]$ 上二阶可导的正值函数，$f'(0)=1$ 且 $f'^2(x)<f(x)f''(x)$，则下列说法正确的是\ExamSelection $①f(1)>f(0)$；$②f(1)<f(0)$；$③f(0)f(1)>f^2\left(\dfrac{1}{2}\right)$；$④f(0)f(1)<f^2\left(\dfrac{1}{2}\right)$。
+      设 $f(x)$ 是 $[0,1]$ 上二阶可导的正值函数，$f'(0)=1$ 且 $f'^2(x)<f(x)f''(x)$，则下列说法正确的是\ExamSelection \n①$f(1)>f(0)$；\n②$f(1)<f(0)$；\n③$f(0)f(1)>f^2\left(\dfrac{1}{2}\right)$；\n④$f(0)f(1)<f^2\left(\dfrac{1}{2}\right)$。
   choices:
   - label: A
     text: ①③
@@ -87,7 +86,7 @@ questions:
     figures: []
 - number: 5
   section: choice
-  points:
+  points: 5
   stem:
     text: |-
       设矩阵 $A=(\alpha_1,\alpha_2,\alpha_3,\alpha_4,\alpha_5)$ 经过若干次初等行变换后化为 $\begin{pmatrix}1&0&2&1&1\\0&1&-1&1&2\\0&0&0&0&0\end{pmatrix}$，并设 $B=(\alpha_1,\alpha_2)$，若 $A=BC$，则\ExamSelection
@@ -106,7 +105,7 @@ questions:
     figures: []
 - number: 6
   section: choice
-  points:
+  points: 5
   stem:
     text: |-
       设 $A,B$ 为 $n$ 阶矩阵，且 $AB=A-B$，则“$A$ 可对角化”是“$AB$ 可对角化”的\ExamSelection
@@ -125,7 +124,7 @@ questions:
     figures: []
 - number: 7
   section: choice
-  points:
+  points: 5
   stem:
     text: |-
       设 $\alpha,\beta$ 均为 3 维单位列向量，$\alpha^T\beta=k$，$A=\alpha\beta^T+\beta\alpha^T$，若二次型 $f(x_1,x_2,x_3)=x^TAx$ 的正负惯性指数均为 1，则 $k$ 的取值范围是\ExamSelection
@@ -144,7 +143,7 @@ questions:
     figures: []
 - number: 8
   section: choice
-  points:
+  points: 5
   stem:
     text: |-
       已知 $0<P(B)<1$，$P(A_1\overline{A_2})=P(A_1)$，则下列选项不一定成立的是\ExamSelection
@@ -165,7 +164,7 @@ questions:
     figures: []
 - number: 9
   section: choice
-  points:
+  points: 5
   stem:
     text: |-
       已知随机变量 $X\sim N(\mu,\sigma^2)$，$\mu>0$，设事件 $A=\{X>\mu\}$，事件 $B=\{X>\sigma\}$，事件 $C=\{X>\mu+\sigma\}$，如果 $P(A)=P(B)$，则 $P(C\mid A)=$\ExamSelection
@@ -188,7 +187,7 @@ questions:
     figures: []
 - number: 10
   section: choice
-  points:
+  points: 5
   stem:
     text: |-
       设二维随机变量 $(X,Y)$ 的分布函数为 $F(x,y)=\dfrac{1}{2}[\Phi_1(x,y)+\Phi_2(x,y)]$，其中 $\Phi_1(x,y)$ 和 $\Phi_2(x,y)$ 都是二维正态分布函数，它们对应的二维正态分布分别为 $N(0,0;1,1;-\dfrac{1}{2})$ 和 $N(0,0;1,1;\dfrac{1}{3})$，则 $X$ 与 $Y$ 的相关系数 $\rho_{XY}=$\ExamSelection
@@ -210,37 +209,37 @@ questions:
     figures: []
 - number: 11
   section: fill
-  points:
+  points: 5
   stem:
     text: |-
       设 $f(x)=\begin{cases}\arctan\dfrac{1}{[x]},&x<0,\\ax+b,&x\geq0,\end{cases}$ 其中 $[x]$ 表示不超过 $x$ 的最大整数，若 $f(x)$ 在 $x=0$ 处可导，则 $a-b=$\ExamBlank。
 - number: 12
   section: fill
-  points:
+  points: 5
   stem:
     text: |-
       设函数 $z=z(x,y)$ 由方程 $\ln(x+y)=\int_{x-y}^{z}f(x-y+z-t)\,\mathrm{d}t$ 确定，其中 $f$ 非负连续且 $f(1)=1$，则 $\left.\left(\dfrac{\partial z}{\partial x}+\dfrac{\partial z}{\partial y}\right)\right|_{(1,0)}=$\ExamBlank。
 - number: 13
   section: fill
-  points:
+  points: 5
   stem:
     text: |-
       函数 $f(x)=\int_0^1t|t-x|\,\mathrm{d}t$ 在区间 $[0,1]$ 上的平均值为\ExamBlank。
 - number: 14
   section: fill
-  points:
+  points: 5
   stem:
     text: |-
       已知某商品的需求函数为 $Q=100-5P$，则当 $P=12$ 时，边际收益为\ExamBlank。
 - number: 15
   section: fill
-  points:
+  points: 5
   stem:
     text: |-
       $\begin{vmatrix}2&-3&0&5\\-3&2&-1&0\\0&-1&2&-3\\5&0&-3&2\end{vmatrix}=$\ExamBlank。
 - number: 16
   section: fill
-  points:
+  points: 5
   stem:
     text: |-
       设总体 $X$ 的概率密度为 $f(x)=\begin{cases}\dfrac{A}{x^2},&x\geq150,\\0,&x<150.\end{cases}$，$X_1,X_2,\cdots,X_n$ 为来自总体 $X$ 的简单随机样本，则当 $n\to\infty$ 时，$Y=\sqrt[n]{X_1X_2\cdots X_n}$ 依概率收敛于\ExamBlank。
@@ -302,3 +301,4 @@ questions:
       求 $\theta$ 的最大似然估计量 $\hat{\theta}_2$；
   - text: |-
       比较 $D(\hat{\theta}_1)$ 和 $D(\hat{\theta}_2)$ 的大小。
+content_hash: 1e6a79c2c7d1f2bb82750c14d8c61dac75f91f43f186327485cf77f3df792436

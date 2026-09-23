@@ -4,7 +4,6 @@ paper:
   year: 2025
   subject: math1
   paper_no: 6
-content_hash: ec665ca2990742b670460163e50175d110e1125d6ca7407f1f5507772b932056
 questions:
 - number: 1
   section: choice
@@ -53,7 +52,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $f(t)=\int_t^{2t}\mathrm{d}x\int_x^t e^{(x-y+1)^2}\mathrm{d}y$，则 $\lim_{t\to 0^+}\dfrac{f(t)}{t^2}=\ExamSelection$（公众号：风中羽小易）
+      设 $f(t)=\int_t^{2t}\mathrm{d}x\int_x^t e^{(x-y+1)^2}\mathrm{d}y$，则 $\lim_{t\to 0^+}\dfrac{f(t)}{t^2}=\ExamSelection$
   choices:
   - label: A
     text: |-
@@ -74,7 +73,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $f(x)$ 是 $[a,b]$ 上的单调有界且有间断点的函数，则以下结论（1）对任意 $x_0\in(a,b)$，$\lim_{x\to x_0^+}f(x)$ 存在；（2）$\lim_{x\to a^+}f(x),\lim_{x\to b^-}f(x)$ 存在；（3）$f(x)$ 只有第一类间断点；（4）$f(x)$ 可以取到 $f(a)$ 与 $f(b)$ 之间的任意值。正确结论的个数为\ExamSelection
+      设 $f(x)$ 是 $[a,b]$ 上的单调有界且有间断点的函数，则以下结论\n① 对任意 $x_0\in(a,b)$，$\lim_{x\to x_0^+}f(x)$ 存在；\n② $\lim_{x\to a^+}f(x),\lim_{x\to b^-}f(x)$ 存在；\n③ $f(x)$ 只有第一类间断点；\n④ $f(x)$ 可以取到 $f(a)$ 与 $f(b)$ 之间的任意值。\n正确结论的个数为\ExamSelection
   choices:
   - label: A
     text: 1。
@@ -200,19 +199,19 @@ questions:
   points: 5
   stem:
     text: |-
-      已知总体 $X$ 的期望 $E(X)=0$，方差 $D(X)=\sigma^2$，$X_1,X_2,\cdots,X_n$ 是来自总体 $X$ 的简单随机样本，其均值为 $\overline{X}$，给出下面各统计量：（1）$\dfrac{1}{n-1}\sum_{i=1}^n(X_i-\overline{X})^2$；（2）$\dfrac{1}{n+1}\sum_{i=1}^n(X_i-\overline{X})^2$；（3）$\dfrac{1}{n}\sum_{i=1}^nX_i^2$；（4）$\dfrac{1}{n+1}\sum_{i=1}^nX_i^2$。其中，可以作为 $\sigma^2$ 的无偏估计量的是\ExamSelection
+      已知总体 $X$ 的期望 $E(X)=0$，方差 $D(X)=\sigma^2$，$X_1,X_2,\cdots,X_n$ 是来自总体 $X$ 的简单随机样本，其均值为 $\overline{X}$，给出下面各统计量：\n① $\dfrac{1}{n-1}\sum_{i=1}^n(X_i-\overline{X})^2$；\n② $\dfrac{1}{n+1}\sum_{i=1}^n(X_i-\overline{X})^2$；\n③ $\dfrac{1}{n}\sum_{i=1}^nX_i^2$；\n④ $\dfrac{1}{n+1}\sum_{i=1}^nX_i^2$。\n其中，可以作为 $\sigma^2$ 的无偏估计量的是\ExamSelection
   choices:
   - label: A
-    text: （1）（3）。
+    text: ①③
     figures: []
   - label: B
-    text: （1）（4）。
+    text: ①④
     figures: []
   - label: C
-    text: （2）（3）。
+    text: ②③
     figures: []
   - label: D
-    text: （2）（4）。
+    text: ②④
     figures: []
 - number: 11
   section: fill
@@ -255,12 +254,12 @@ questions:
   points: 10
   stem:
     text: |-
-      （本题满分 10 分）设 $D=\left\{(x,y)\mid\sqrt{1-x^2}\leq y\leq\sqrt{4-x^2},-x\leq y,y\geq0\right\}$，计算 $I=\iint_D\dfrac{\sqrt{x^2+y^2}}{x^2+2y^2}\mathrm{d}x\mathrm{d}y$。
+      设 $D=\left\{(x,y)\mid\sqrt{1-x^2}\leq y\leq\sqrt{4-x^2},-x\leq y,y\geq0\right\}$，计算 $I=\iint_D\dfrac{\sqrt{x^2+y^2}}{x^2+2y^2}\mathrm{d}x\mathrm{d}y$。
 - number: 18
   section: solution
   points: 12
   stem:
-    text: （本题满分 12 分）设 $g(x,y)$ 是函数 $f(x,y)=x+2y+xy$ 在点 $(x,y)$ 处的最大方向导数。
+    text: 设 $g(x,y)$ 是函数 $f(x,y)=x+2y+xy$ 在点 $(x,y)$ 处的最大方向导数。
   subparts:
   - text: 求 $g(x,y)$ 的表达式；
   - text: 求 $g(x,y)$ 在曲线 $C:x^2+y^2=5$ 上的最大值。
@@ -269,27 +268,37 @@ questions:
   points: 12
   stem:
     text: |-
-      （本题满分 12 分）设 $f(x)$ 在 $[a,b]$ 上连续，证明 $f(x)$ 是 $[a,b]$ 上的凸函数的充要条件是：对任意 $[x-c,x+c]\subset[a,b](c>0)$，均有 $f(x)\geq\dfrac{1}{2c}\int_{x-c}^{x+c}f(t)\mathrm{d}t$。
+      设 $f(x)$ 在 $[a,b]$ 上连续，证明 $f(x)$ 是 $[a,b]$ 上的凸函数的充要条件是：对任意 $[x-c,x+c]\subset[a,b](c>0)$，均有 $f(x)\geq\dfrac{1}{2c}\int_{x-c}^{x+c}f(t)\mathrm{d}t$。
 - number: 20
   section: solution
   points: 12
   stem:
     text: |-
-      （本题满分 12 分）设曲面 $\Sigma$ 是由直线 $L:\begin{cases}x=\dfrac{\sqrt{2}}{2}t-\dfrac{\sqrt{2}}{2}\\y=\dfrac{\sqrt{2}}{2}t+\dfrac{\sqrt{2}}{2}\\z=t\end{cases}(t\in[0,1])$ 绕 $z$ 轴旋转而得，$\Omega$ 是 $\Sigma$ 与平面 $z=0,z=1$ 所围成的立体，其密度为 $\mu(x,y,z)=\dfrac{z}{1+x^2+y^2}$，求：（1）曲面 $\Sigma$ 的直角坐标方程；（2）$\Omega$ 的质量。
+      设曲面 $\Sigma$ 是由直线 $L:\begin{cases}x=\dfrac{\sqrt{2}}{2}t-\dfrac{\sqrt{2}}{2}\\y=\dfrac{\sqrt{2}}{2}t+\dfrac{\sqrt{2}}{2}\\z=t\end{cases}(t\in[0,1])$ 绕 $z$ 轴旋转而得，$\Omega$ 是 $\Sigma$ 与平面 $z=0,z=1$ 所围成的立体，其密度为 $\mu(x,y,z)=\dfrac{z}{1+x^2+y^2}$，求：
+  subparts:
+  - text: |-
+      曲面 $\Sigma$ 的直角坐标方程；
+  - text: |-
+      $\Omega$ 的质量。
 - number: 21
   section: solution
   points: 12
   stem:
     text: |-
-      （本题满分 12 分）设 $A\begin{pmatrix}x_1\\x_2\end{pmatrix}=\begin{pmatrix}x_1+2x_2\\x_1-x_2\\2x_1+ax_2\end{pmatrix}$，$B\begin{pmatrix}x_1\\x_2\\x_3\end{pmatrix}=\begin{pmatrix}x_1+2x_2+3x_3\\bx_1-2x_2-3x_3\end{pmatrix}$。若 $A^{\mathsf T}\boldsymbol{x}=0$ 的解是 $B\boldsymbol{x}=0$ 的解且它们不同解，（1）求 $a,b$ 的值；（2）用正交矩阵 $Q$ 将 $f(x_1,x_2)=\boldsymbol{x}^{\mathsf T}B A\boldsymbol{x}$ 化为标准形。
+      设 $A\begin{pmatrix}x_1\\x_2\end{pmatrix}=\begin{pmatrix}x_1+2x_2\\x_1-x_2\\2x_1+ax_2\end{pmatrix}$，$B\begin{pmatrix}x_1\\x_2\\x_3\end{pmatrix}=\begin{pmatrix}x_1+2x_2+3x_3\\bx_1-2x_2-3x_3\end{pmatrix}$。若 $A^{\mathsf T}\boldsymbol{x}=0$ 的解是 $B\boldsymbol{x}=0$ 的解且它们不同解，
+  subparts:
+  - text: 求 $a,b$ 的值；
+  - text: |-
+      用正交矩阵 $Q$ 将 $f(x_1,x_2)=\boldsymbol{x}^{\mathsf T}B A\boldsymbol{x}$ 化为标准形。
 - number: 22
   section: solution
   points: 12
   stem:
     text: |-
-      （本题满分 12 分）设二维总体随机变量 $(X,Y)$ 的概率密度为 $f(x,y)=2\theta^{-2}e^{-\dfrac{x+y}{\theta}}$，$0<x<y$，其中 $\theta>0$ 为未知参数，$(X_1,Y_1),(X_2,Y_2),\cdots,(X_n,Y_n)$ 为来自总体 $(X,Y)$ 的一组简单随机样本。
+      设二维总体随机变量 $(X,Y)$ 的概率密度为 $f(x,y)=2\theta^{-2}e^{-\dfrac{x+y}{\theta}}$，$0<x<y$，其中 $\theta>0$ 为未知参数，$(X_1,Y_1),(X_2,Y_2),\cdots,(X_n,Y_n)$ 为来自总体 $(X,Y)$ 的一组简单随机样本。
   subparts:
   - text: |-
       求 $\theta$ 的最大似然估计量 $\hat{\theta}$；
   - text: |-
       求 $E(\hat{\theta})$。
+content_hash: 8700eb50f733938177d4f842235f7134c472fc2c150cbdb31e8f0721b303d129

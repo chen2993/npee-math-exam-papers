@@ -4,7 +4,6 @@ paper:
   year: 2025
   subject: math1
   paper_no: 1
-content_hash: e9ed1318a15154b3c4551b54c6b3a5ab7854d017b0745c8f90c2babe369c8973
 questions:
 - number: 1
   section: choice
@@ -76,7 +75,7 @@ questions:
   points: 5
   stem:
     text: |-
-      已知数列 $\{x_n\}$ 满足 $x_1=\dfrac{1}{2}$，当 $n\geq1$ 时，$x_{n+1}=x_n^2$。设级数①为 $\sum_{n=1}^{\infty}\sqrt{x_n}$，级数②为 $\sum_{n=1}^{\infty}\ln\dfrac{2+x_n}{2+x_nx_{n+1}}$，则下列关于这两个级数的说法中，正确的是（\ExamSelection）。
+      已知数列 $\{x_n\}$ 满足 $x_1=\dfrac{1}{2}$，当 $n\geq1$ 时，$x_{n+1}=x_n^2$。设级数\n①为 $\sum_{n=1}^{\infty}\sqrt{x_n}$，级数\n②为 $\sum_{n=1}^{\infty}\ln\dfrac{2+x_n}{2+x_nx_{n+1}}$，则下列关于这两个级数的说法中，正确的是（\ExamSelection）。
   choices:
   - label: A
     text: ①，②均收敛。
@@ -308,3 +307,4 @@ questions:
   - text: 求 $Z$ 的概率密度；
   - text: |-
       求 $X$ 与 $Y$ 的协方差 $\operatorname{Cov}(X,Y)$。
+content_hash: 0117d2de74316365e64530dbba85d59a6983597e8b7082b67dabe0894191e2a4

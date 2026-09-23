@@ -4,7 +4,6 @@ paper:
   year: 2025
   subject: math2
   paper_no: 10
-content_hash: 9aafb40fa87c7d4f65362d5c68842838ae3025347772774ccca419e22e76643a
 questions:
 - number: 1
   section: choice
@@ -152,7 +151,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $A$ 是 $4\times3$ 矩阵，$A$ 的列向量组线性无关，则下列结论中：① $A^{\mathrm{T}}x=0$ 有非零解；② 对任意 $3$ 维列向量 $\beta$，$A^{\mathrm{T}}x=\beta$ 有无穷多解；③ $A^{\mathrm{T}}Ax=0$ 只有零解；④ 对 $3\times3$ 矩阵 $B$ 和 $C$，若 $AB=AC$，则 $B=C$。正确的个数为\ExamSelection。
+      设 $A$ 是 $4\times3$ 矩阵，$A$ 的列向量组线性无关，则下列结论中：\n① $A^{\mathrm{T}}x=0$ 有非零解；\n② 对任意 $3$ 维列向量 $\beta$，$A^{\mathrm{T}}x=\beta$ 有无穷多解；\n③ $A^{\mathrm{T}}Ax=0$ 只有零解；\n④ 对 $3\times3$ 矩阵 $B$ 和 $C$，若 $AB=AC$，则 $B=C$。\n正确的个数为\ExamSelection。
   choices:
   - label: A
     text: $1$
@@ -291,3 +290,4 @@ questions:
   stem:
     text: |-
       设二次型 $f(x_1,x_2,x_3)$ 的矩阵为 $A$，满足 $|A-2E|=0$ 且 $AB=O$，其中 $B=\begin{pmatrix}-1&-1&1\\1&0&1\\0&1&-2\end{pmatrix}$。用正交变换化该二次型为标准形，求出该正交变换和矩阵 $A$。
+content_hash: d7cd5c1ad67eab115cf786f1d072f0de783211f0ec58b320a7f23f710873dd25

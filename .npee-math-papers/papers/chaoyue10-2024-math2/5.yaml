@@ -4,7 +4,6 @@ paper:
   year: 2024
   subject: math2
   paper_no: 5
-content_hash: ad64bb02310490402feed6fb1e809932fd887fd0059facff77f838966944fcc7
 questions:
 - number: 1
   section: choice
@@ -272,7 +271,7 @@ questions:
   points: 12
   stem:
     text: |-
-      由曲线 $x^{\dfrac{3}{2}}+y^{\dfrac{2}{3}}=1\\ (x>0\text{，}y>0)$ 上任意一点处的切线在两坐标轴上的截距之和为 $l$，试求 $l$ 的最大值。
+      由曲线 $x^{\dfrac{3}{2}}+y^{\dfrac{2}{3}}=1\ (x>0\text{，}y>0)$ 上任意一点处的切线在两坐标轴上的截距之和为 $l$，试求 $l$ 的最大值。
 - number: 20
   section: solution
   points: 12
@@ -296,3 +295,4 @@ questions:
       $a\text{，}b$ 取何值时，$A\text{，}B$ 相似，并求可逆矩阵 $U$，使得 $U^{-1}AU=B$。
   - text: |-
       $a\text{，}b$ 取何值时，$AX=B$ 有解，并求其解 $X$。
+content_hash: f0717db7c9b7ac3d30977eff7c66d69676346a4530e803326c4b339e7ea405c3

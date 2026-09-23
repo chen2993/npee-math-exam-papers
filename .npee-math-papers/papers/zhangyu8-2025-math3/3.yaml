@@ -4,7 +4,6 @@ paper:
   year: 2025
   subject: math3
   paper_no: 3
-content_hash: 2b93dd4f5c72fb7f2861de8720961cb8624c76e4ef4d8b6c2ad42ea138e965aa
 questions:
 - number: 1
   section: choice
@@ -252,7 +251,7 @@ questions:
   section: solution
   points: 10
   stem:
-    text: （本题满分10分）
+    text: '{}'
   subparts:
   - text: 写出$e^x$的一阶带拉格朗日余项的麦克劳林公式；
   - text: |-
@@ -262,7 +261,7 @@ questions:
   points: 12
   stem:
     text: |-
-      （本题满分12分）设某商品的生产函数$f(x,y)=64x^{\dfrac{3}{4}}y^{\dfrac{1}{4}}$，其中$x,y$分别是劳动力数和资本数，若每单位劳动力成本为96元，每单位资本成本为162元，现生产3456件商品。
+      设某商品的生产函数$f(x,y)=64x^{\dfrac{3}{4}}y^{\dfrac{1}{4}}$，其中$x,y$分别是劳动力数和资本数，若每单位劳动力成本为96元，每单位资本成本为162元，现生产3456件商品。
   subparts:
   - text: 求成本最小值；
   - text: |-
@@ -272,7 +271,7 @@ questions:
   points: 12
   stem:
     text: |-
-      （本题满分12分）设函数$f(x)$在$[0,1]$上有一阶连续导数，$M=\max_{0\leq x\leq1}|f(x)|$，$f(0)=f(1)=0$，证明：
+      设函数$f(x)$在$[0,1]$上有一阶连续导数，$M=\max_{0\leq x\leq1}|f(x)|$，$f(0)=f(1)=0$，证明：
   subparts:
   - text: |-
       $\left[\int_0^xf'(t)\,\mathrm{d}t\right]^2\leq x\int_0^x[f'(t)]^2\,\mathrm{d}t$，$x\in[0,1]$；
@@ -283,13 +282,13 @@ questions:
   points: 12
   stem:
     text: |-
-      （本题满分12分）设平面区域$D=\left\{(x,y)\mid |x|\leq y,x^2+y^2\leq\sqrt{x^2+y^2}+\dfrac{y}{2}\right\}$，计算$\iint_D\dfrac{x+y}{\sqrt{x^2+y^2}}\,\mathrm{d}x\mathrm{d}y$。
+      设平面区域$D=\left\{(x,y)\mid |x|\leq y,x^2+y^2\leq\sqrt{x^2+y^2}+\dfrac{y}{2}\right\}$，计算$\iint_D\dfrac{x+y}{\sqrt{x^2+y^2}}\,\mathrm{d}x\mathrm{d}y$。
 - number: 21
   section: solution
   points: 12
   stem:
     text: |-
-      （本题满分12分）设$\boldsymbol{\alpha}=\dfrac{1}{2}(1,1,1,1)^{\mathsf T}$，且$A=E_4-2\boldsymbol{\alpha}\boldsymbol{\alpha}^{\mathsf T}$。
+      设$\boldsymbol{\alpha}=\dfrac{1}{2}(1,1,1,1)^{\mathsf T}$，且$A=E_4-2\boldsymbol{\alpha}\boldsymbol{\alpha}^{\mathsf T}$。
   subparts:
   - text: |-
       求正交矩阵$Q$和对角矩阵$\Lambda$，使得$Q^{\mathsf T}AQ=\Lambda$；
@@ -300,9 +299,10 @@ questions:
   points: 12
   stem:
     text: |-
-      （本题满分12分）设总体$X$分布如下：$\begin{array}{c|cccc}X&-1&0&1&2\\\hline P&\dfrac{1}{3}-\theta&2\theta&\theta&\dfrac{2}{3}-2\theta\end{array}$。现从该总体中抽取了样本量为21的一个样本，其中有4个$-1$，6个$0$，4个$1$，7个$2$。
+      设总体$X$分布如下：$\begin{array}{c|cccc}X&-1&0&1&2\\\hline P&\dfrac{1}{3}-\theta&2\theta&\theta&\dfrac{2}{3}-2\theta\end{array}$。现从该总体中抽取了样本量为21的一个样本，其中有4个$-1$，6个$0$，4个$1$，7个$2$。
   subparts:
   - text: |-
       求$\theta$的矩估计$\hat{\theta}_M$和最大似然估计$\hat{\theta}_L$；
   - text: |-
       计算$E(\hat{\theta}_M),E(\hat{\theta}_L)$，并比较$D(\hat{\theta}_M)$与$D(\hat{\theta}_L)$的大小。
+content_hash: 52e3666494af078371d0b31b9d5d6fae1a3e4999d7dc602e33444de27c5820db

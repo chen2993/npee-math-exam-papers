@@ -253,6 +253,43 @@ async def validate_composition(
         raise _to_http_error(error) from error
 
 
+@router.get("/compositions/packages")
+async def list_composition_packages(
+    service: NpeeService = Depends(get_service),
+) -> dict[str, Any]:
+    """仓库里的组卷包（``composition/<id>/``），前端可直接打开与修改。"""
+
+    packages = await run_in_threadpool(service.composition.list_packages)
+    return {"packages": packages, "count": len(packages)}
+
+
+@router.get("/compositions/packages/{composition_id}")
+async def get_composition_package(
+    composition_id: str,
+    service: NpeeService = Depends(get_service),
+) -> dict[str, Any]:
+    try:
+        return await run_in_threadpool(service.composition.load_package, composition_id)
+    except NpeeError as error:
+        raise _to_http_error(error) from error
+
+
+@router.put("/compositions/packages/{composition_id}")
+async def put_composition_package(
+    composition_id: str,
+    composition: dict[str, Any],
+    service: NpeeService = Depends(get_service),
+) -> dict[str, Any]:
+    """把编辑后的组卷文档写回包内；校验失败返回 400，不会留下半个包。"""
+
+    try:
+        return await run_in_threadpool(
+            service.composition.save_package, composition_id, composition
+        )
+    except NpeeError as error:
+        raise _to_http_error(error) from error
+
+
 @router.post("/compositions/build")
 async def build_composition(
     payload: dict[str, Any],

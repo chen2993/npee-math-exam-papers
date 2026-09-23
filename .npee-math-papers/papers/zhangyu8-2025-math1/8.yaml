@@ -4,7 +4,6 @@ paper:
   year: 2025
   subject: math1
   paper_no: 8
-content_hash: 1dfe6f577cf39507ec3819cc5f6ef6845f611326ee7bf09b0316840dcea62887
 questions:
 - number: 1
   section: choice
@@ -30,7 +29,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $f(x),g(x)$ 为连续函数，以下结论：\par （1）若 $\lim_{x\to0}\dfrac{f(x)}{g(x)}=1$，则 $f(x)$ 是 $g(x)$ 在 $x\to0$ 时的等价无穷小；\par （2）若 $f(x)$ 是 $g(x)$ 在 $x\to0$ 时的等价无穷小，则 $\lim_{x\to0}\dfrac{f(x)}{g(x)}=1$；\par （3）若 $f(n)$ 是 $g(n)$ 在 $n\to\infty$ 时的等价无穷小，则 $\sum_{n=1}^{\infty}f(n)$ 与 $\sum_{n=1}^{\infty}g(n)$ 同敛散；\par （4）若 $\sum_{n=1}^{\infty}f(n)$ 与 $\sum_{n=1}^{\infty}g(n)$ 同敛散，则 $f(n)$ 是 $g(n)$ 在 $n\to\infty$ 时的等价无穷小。\par 正确结论的个数为\ExamSelection。
+      设 $f(x),g(x)$ 为连续函数，以下结论：\n① 若 $\lim_{x\to0}\dfrac{f(x)}{g(x)}=1$，则 $f(x)$ 是 $g(x)$ 在 $x\to0$ 时的等价无穷小；\n② 若 $f(x)$ 是 $g(x)$ 在 $x\to0$ 时的等价无穷小，则 $\lim_{x\to0}\dfrac{f(x)}{g(x)}=1$；\n③ 若 $f(n)$ 是 $g(n)$ 在 $n\to\infty$ 时的等价无穷小，则 $\sum_{n=1}^{\infty}f(n)$ 与 $\sum_{n=1}^{\infty}g(n)$ 同敛散；\n④ 若 $\sum_{n=1}^{\infty}f(n)$ 与 $\sum_{n=1}^{\infty}g(n)$ 同敛散，则 $f(n)$ 是 $g(n)$ 在 $n\to\infty$ 时的等价无穷小。\n正确结论的个数为\ExamSelection。
   choices:
   - label: A
     text: $1$
@@ -114,19 +113,19 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $\mathbf A$ 是 $3\times2$ 矩阵，且 $\mathbf A^{\mathrm T}\mathbf A=\mathbf E$，$\boldsymbol{\alpha}$ 为 $3$ 维列向量，$\boldsymbol{\beta}=\mathbf A^{\mathrm T}\boldsymbol{\alpha}$，则以下结论：\par （1）$\mathbf A$ 的列向量正交；（2）$\mathbf A\mathbf x=\boldsymbol{\beta}$ 无解；（3）$\mathbf A^{\mathrm T}\boldsymbol{\alpha}=\mathbf A^{\mathrm T}\boldsymbol{\beta}$；（4）$\boldsymbol{\beta}$ 与 $\boldsymbol{\alpha}-\boldsymbol{\beta}$ 正交。\par 所有正确结论的序号为\ExamSelection。
+      设 $\mathbf A$ 是 $3\times2$ 矩阵，且 $\mathbf A^{\mathrm T}\mathbf A=\mathbf E$，$\boldsymbol{\alpha}$ 为 $3$ 维列向量，$\boldsymbol{\beta}=\mathbf A^{\mathrm T}\boldsymbol{\alpha}$，则以下结论：\n① $\mathbf A$ 的列向量正交；\n② $\mathbf A\mathbf x=\boldsymbol{\beta}$ 无解；\n③ $\mathbf A^{\mathrm T}\boldsymbol{\alpha}=\mathbf A^{\mathrm T}\boldsymbol{\beta}$；\n④ $\boldsymbol{\beta}$ 与 $\boldsymbol{\alpha}-\boldsymbol{\beta}$ 正交。\n所有正确结论的序号为\ExamSelection。
   choices:
   - label: A
-    text: （1）（3）
+    text: ①③
     figures: []
   - label: B
-    text: （2）（4）
+    text: ②④
     figures: []
   - label: C
-    text: （1）（2）（3）
+    text: ①②③
     figures: []
   - label: D
-    text: （1）（3）（4）
+    text: ①③④
     figures: []
 - number: 7
   section: choice
@@ -299,3 +298,4 @@ questions:
   stem:
     text: |-
       设 $X_1,X_2,\cdots,X_n$ 是来自总体 $X$ 的简单随机样本，总体 $X$ 的概率密度为 $f(x;\theta)=\dfrac{1}{2}(1+\theta x),-1<x<1,|\theta|\leq1$，因观测设备精度不高，观察不到 $X_1,X_2,\cdots,X_n$ 的具体取值，只能观察到每个 $X_i$ 是否大于 $0$，记 $Y_i=\begin{cases}1,&X_i>0,\\0,&\text{其他},\end{cases}i=1,\cdots,n$，$\overline Y=\dfrac{1}{n}\sum_{i=1}^nY_i$，求 $\theta$ 的最大似然估计量。
+content_hash: b2f5d73bf8d51cdf42c563001f07fa7881ad769caa43ba7f2608659c1cd8805f

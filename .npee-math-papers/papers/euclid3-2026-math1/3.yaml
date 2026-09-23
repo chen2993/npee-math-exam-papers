@@ -4,7 +4,6 @@ paper:
   year: 2026
   subject: math1
   paper_no: 3
-content_hash: 0916a711e051efe6af5f5a3d33b17c85419c482448f7b389052094b1badb5e78
 questions:
 - number: 1
   section: choice
@@ -140,7 +139,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $A$ 为 $m\times n$ 矩阵，且 $r(A)=n(m>n),(AA^{\mathrm{T}})^2=aAA^{\mathrm{T}}$，则下列说法正确的是（\ExamSelection）。① $\operatorname{tr}(AA^{\mathrm{T}})=a$；② $\operatorname{tr}(AA^{\mathrm{T}})=na$；③ $AA^{\mathrm{T}}$ 与单位矩阵 $E_m$ 合同；④ $A^{\mathrm{T}}A$ 与单位矩阵 $E_n$ 合同。
+      设 $A$ 为 $m\times n$ 矩阵，且 $r(A)=n(m>n),(AA^{\mathrm{T}})^2=aAA^{\mathrm{T}}$，则下列说法正确的是（\ExamSelection）。\n① $\operatorname{tr}(AA^{\mathrm{T}})=a$；\n② $\operatorname{tr}(AA^{\mathrm{T}})=na$；\n③ $AA^{\mathrm{T}}$ 与单位矩阵 $E_m$ 合同；\n④ $A^{\mathrm{T}}A$ 与单位矩阵 $E_n$ 合同。
   choices:
   - label: A
     text: ①③
@@ -304,3 +303,4 @@ questions:
       求 $\mu,\theta$ 的最大似然估计量 $\hat{\mu},\hat{\theta}$；
   - text: |-
       求 $E(\hat{\theta})$。
+content_hash: 308c3d8424ce3ad4b7b73d4ba831d020caeece00a893dbed4683e3fe1e68f53b

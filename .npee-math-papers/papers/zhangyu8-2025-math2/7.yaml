@@ -4,14 +4,13 @@ paper:
   year: 2025
   subject: math2
   paper_no: 7
-content_hash: 6fef3cc129341a740fa57906ad3746e45e8ad1a109017e322b5d572f0a101f8b
 questions:
 - number: 1
   section: choice
   points: 5
   stem:
     text: |-
-      设函数 $f(x)$ 在 $x=0$ 的某邻域内有定义，且 $\lim_{x\to1}\dfrac{x-f(x-1)-1}{\ln x}=1$，则以下结论：① $f(0)=0$；② $\lim_{x\to0}f(x)=0$；③ $\lim_{x\to0}\dfrac{f(x)}{x}=1$；④当 $x\to0$ 时，$f(x)$ 是 $x$ 的高阶无穷小。所有正确结论的序号为\ExamSelection
+      设函数 $f(x)$ 在 $x=0$ 的某邻域内有定义，且 $\lim_{x\to1}\dfrac{x-f(x-1)-1}{\ln x}=1$，则以下结论：\n① $f(0)=0$；\n② $\lim_{x\to0}f(x)=0$；\n③ $\lim_{x\to0}\dfrac{f(x)}{x}=1$；\n④当 $x\to0$ 时，$f(x)$ 是 $x$ 的高阶无穷小。\n所有正确结论的序号为\ExamSelection
   choices:
   - label: A
     text: ①②
@@ -122,7 +121,7 @@ questions:
   points: 5
   stem:
     text: |-
-      已知 $f(x,y)=\begin{cases}x^2,&y=0,\\xy,&\text{其他},\end{cases}$ 以下结论：① $f(x,y)$ 在原点处连续；② $\left.\dfrac{\partial[f(x,y)]}{\partial x}\right|_{(0,0)}=0$ 且 $\left.\dfrac{\partial[f(x,y)]}{\partial y}\right|_{(0,0)}=0$；③ $\left.\mathrm{d}[f(x,y)]\right|_{(0,0)}=0$。所有正确结论的序号是\ExamSelection
+      已知 $f(x,y)=\begin{cases}x^2,&y=0,\\xy,&\text{其他},\end{cases}$ 以下结论：\n① $f(x,y)$ 在原点处连续；\n② $\left.\dfrac{\partial[f(x,y)]}{\partial x}\right|_{(0,0)}=0$ 且 $\left.\dfrac{\partial[f(x,y)]}{\partial y}\right|_{(0,0)}=0$；\n③ $\left.\mathrm{d}[f(x,y)]\right|_{(0,0)}=0$。\n所有正确结论的序号是\ExamSelection
   choices:
   - label: A
     text: ①②
@@ -320,3 +319,4 @@ questions:
   - text: 求 $a$ 的值；
   - text: |-
       是否存在可逆矩阵 $\mathbf{P}$，使 $\mathbf{P}^{-1}\mathbf{A}\mathbf{P}=\mathbf{B}$？若存在，求出矩阵 $\mathbf{P}$；若不存在，说明理由。
+content_hash: 4d55c14a52e40e29b564cad022af89317ae8812f1d505ea550abde00a6336058

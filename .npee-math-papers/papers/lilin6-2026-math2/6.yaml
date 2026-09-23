@@ -4,7 +4,6 @@ paper:
   year: 2026
   subject: math2
   paper_no: 6
-content_hash: 5b6312c959094b14c51844f5986dc832fe3213906e5cf0d7780fbd66576ff33e
 questions:
 - number: 1
   section: choice
@@ -30,7 +29,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $f(x)$ 在 $(1,+\infty)$ 内可导，且 $\lim_{x\to+\infty}[2f(x)+f'(x)]=1$，则下列结论中正确的是\ExamSelection ① $\lim_{x\to+\infty}e^{2x}f(x)=0$；② $\lim_{x\to+\infty}e^{2x}f(x)=+\infty$；③ $\lim_{x\to+\infty}f'(x)=+\infty$；④ $\lim_{x\to+\infty}f'(x)=0$。
+      设 $f(x)$ 在 $(1,+\infty)$ 内可导，且 $\lim_{x\to+\infty}[2f(x)+f'(x)]=1$，则下列结论中正确的是\ExamSelection \n① $\lim_{x\to+\infty}e^{2x}f(x)=0$；\n② $\lim_{x\to+\infty}e^{2x}f(x)=+\infty$；\n③ $\lim_{x\to+\infty}f'(x)=+\infty$；\n④ $\lim_{x\to+\infty}f'(x)=0$。
   choices:
   - label: A
     text: ①③。
@@ -303,3 +302,4 @@ questions:
   - text: $a$ 的值；
   - text: 正交矩阵 $Q$，使得 $Q^{-1}AQ=B$；
   - text: 一个 3 阶矩阵 $P$，使得 $AB=P^2$。
+content_hash: d83668a963bbd8e6bcbe9c8f3bf2c30516097483fb41e33afbf6d58b3fc06416

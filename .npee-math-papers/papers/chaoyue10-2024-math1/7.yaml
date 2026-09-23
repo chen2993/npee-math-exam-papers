@@ -4,7 +4,6 @@ paper:
   year: 2024
   subject: math1
   paper_no: 7
-content_hash: 895807606ae5105ee655240c41c61461d346505724c854c06ed7d3a3a64e3935
 questions:
 - number: 1
   section: choice
@@ -96,7 +95,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $A$ 为 $2$ 阶方阵，下列说法正确的有几个\ExamSelection
+      设 $A$ 为 $2$ 阶方阵，下列说法正确的有几个\ExamSelection\n① 若 $A$ 的所有元素为整数，则 $\dfrac{1}{2}$ 一定不是 $A$ 的特征值\n② 若 $A$ 的主对角元素之和为 $0$，则 $A$ 相似于一个对角阵\n③ 若 $r(A)=2$，则存在 $2$ 阶方阵 $B$，使得 $AB+BA$ 正定
   choices:
   - label: A
     text: $0$
@@ -110,11 +109,6 @@ questions:
   - label: D
     text: $3$
     figures: []
-  subparts:
-  - text: |-
-      若 $A$ 的所有元素为整数，则 $\dfrac{1}{2}$ 一定不是 $A$ 的特征值
-  - text: 若 $A$ 的主对角元素之和为 $0$，则 $A$ 相似于一个对角阵
-  - text: 若 $r(A)=2$，则存在 $2$ 阶方阵 $B$，使得 $AB+BA$ 正定
 - number: 6
   section: choice
   points: 5
@@ -308,3 +302,4 @@ questions:
   stem:
     text: |-
       设每次试验成功的概率为 $p(0<p<1)$，重复独立地进行实验，$X$ 表示第二次成功时试验的次数，$X_1,X_2,\cdots,X_n$ 表示总体 $X$ 的一个简单随机样本，求未知参数 $p$ 的矩估计量和极大似然估计量。
+content_hash: f7229798f37684f3d59261d10cc962227f4f439d7548e125bb8b16c8b41f9b96

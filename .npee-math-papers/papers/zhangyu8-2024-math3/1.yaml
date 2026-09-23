@@ -4,7 +4,6 @@ paper:
   year: 2024
   subject: math3
   paper_no: 1
-content_hash: 590f9c410073c5416f72fd077756c8650b3e7042b376766937972ff111f0dd32
 questions:
 - number: 1
   section: choice
@@ -41,19 +40,19 @@ questions:
   choices:
   - label: A
     text: |-
-      $f_1(x)=y_2(x),\\ f_2(x)=y_1(x),\\ f_3(x)=y_3(x)$。
+      $f_1(x)=y_2(x),\ f_2(x)=y_1(x),\ f_3(x)=y_3(x)$。
     figures: []
   - label: B
     text: |-
-      $f_1(x)=y_2(x),\\ f_2(x)=y_3(x),\\ f_3(x)=y_1(x)$。
+      $f_1(x)=y_2(x),\ f_2(x)=y_3(x),\ f_3(x)=y_1(x)$。
     figures: []
   - label: C
     text: |-
-      $f_1(x)=y_3(x),\\ f_2(x)=y_2(x),\\ f_3(x)=y_1(x)$。
+      $f_1(x)=y_3(x),\ f_2(x)=y_2(x),\ f_3(x)=y_1(x)$。
     figures: []
   - label: D
     text: |-
-      $f_1(x)=y_3(x),\\ f_2(x)=y_1(x),\\ f_3(x)=y_2(x)$。
+      $f_1(x)=y_3(x),\ f_2(x)=y_1(x),\ f_3(x)=y_2(x)$。
     figures: []
 - number: 3
   section: choice
@@ -163,7 +162,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $P[A\mid(A\cup BC)]=\dfrac{1}{2},\\ P(B)=P(C)=\dfrac{1}{2}$，其中 $A,B$ 互不相容，$B,C$ 相互独立，则 $P(A)=$\ExamSelection
+      设 $P[A\mid(A\cup BC)]=\dfrac{1}{2},\ P(B)=P(C)=\dfrac{1}{2}$，其中 $A,B$ 互不相容，$B,C$ 相互独立，则 $P(A)=$\ExamSelection
   choices:
   - label: A
     text: $1$。
@@ -208,7 +207,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设随机变量 $X\sim N(0,4)$，若 $X_1,X_2,\cdots,X_n\\ (n>2)$ 是来自总体 $X$ 的简单随机样本，则\ExamSelection
+      设随机变量 $X\sim N(0,4)$，若 $X_1,X_2,\cdots,X_n\ (n>2)$ 是来自总体 $X$ 的简单随机样本，则\ExamSelection
   choices:
   - label: A
     text: |-
@@ -267,7 +266,7 @@ questions:
   points: 10
   stem:
     text: |-
-      $F(x)=\int_0^{\dfrac{\pi}{2}}|\sin x-\sin t|\,\mathrm{d}t\\ (x\geq0)$ 在 $x\to0^+$ 处的二次泰勒多项式为 $a+bx+cx^2$，求 $a,b,c$ 的值。
+      $F(x)=\int_0^{\dfrac{\pi}{2}}|\sin x-\sin t|\,\mathrm{d}t\ (x\geq0)$ 在 $x\to0^+$ 处的二次泰勒多项式为 $a+bx+cx^2$，求 $a,b,c$ 的值。
 - number: 18
   section: solution
   points: 12
@@ -282,17 +281,17 @@ questions:
   points: 12
   stem:
     text: |-
-      设 $0\leq x\leq1$ 时，$a_n(x)$ 满足 $x(1-x)a'_n(x)+[(n+2)x-n]a_n(x)=0,\\ n=1,2,\cdots,$ 且 $a_n\left(\dfrac{1}{2}\right)=\dfrac{1}{2^{n+2}}$。
+      设 $0\leq x\leq1$ 时，$a_n(x)$ 满足 $x(1-x)a'_n(x)+[(n+2)x-n]a_n(x)=0,\ n=1,2,\cdots,$ 且 $a_n\left(\dfrac{1}{2}\right)=\dfrac{1}{2^{n+2}}$。
   subparts:
   - text: 求 $a_n(x)$ 的表达式；
   - text: |-
-      判别 $\displaystyle\sum_{n=1}^{\infty}a_n(x)\\ (0\leq x\leq1)$ 的敛散性。
+      判别 $\displaystyle\sum_{n=1}^{\infty}a_n(x)\ (0\leq x\leq1)$ 的敛散性。
 - number: 20
   section: solution
   points: 12
   stem:
     text: |-
-      设函数 $f(x)$ 在 $(-\infty,+\infty)$ 上二阶导数连续，$f(1)\leq0,\\ \lim_{x\to-\infty}[f(x)-|x|]=0$，证明：
+      设函数 $f(x)$ 在 $(-\infty,+\infty)$ 上二阶导数连续，$f(1)\leq0,\ \lim_{x\to-\infty}[f(x)-|x|]=0$，证明：
   subparts:
   - text: |-
       存在 $\xi\in(1,+\infty)$，使得 $f'(\xi)>1$；
@@ -314,3 +313,4 @@ questions:
   stem:
     text: |-
       设 $X_1,X_2$ 为来自总体 $X\sim U[0,2\theta]$ 的简单随机样本，$Y_1,Y_2,Y_3$ 为来自总体 $Y\sim U[0,4\theta]$ 的简单随机样本，且两样本相互独立，其中 $\theta(\theta>0)$ 是未知参数。利用样本 $X_1,X_2,Y_1,Y_2,Y_3$，求 $\theta$ 的最大似然估计量 $\hat{\theta}$，并求 $D(\hat{\theta})$。
+content_hash: 43ac4f5bbdfff75536196f9d420d302ca9c66b29fe6c7c5e70056fb77d52a0a3

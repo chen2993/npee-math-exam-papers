@@ -4,7 +4,6 @@ paper:
   year: 2025
   subject: math2
   paper_no: 8
-content_hash: b5a0d66dc8235fa267f46e7f6f0146b14e67a231cc04d3324eeea2a8c2f32c86
 questions:
 - number: 1
   section: choice
@@ -49,7 +48,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设函数 $f(x)$ 在 $(-\infty,+\infty)$ 内连续，则关于 $F(x)=\dfrac{1}{x}\int_0^x f(t)\,\mathrm{d}t$ $(x\ne0)$ 的下列四个结论：①若 $f(x)$ 为奇函数，则 $F(x)$ 也是奇函数；②若 $f(x)$ 是以 $T(T>0)$ 为周期的周期函数，则 $F(x)$ 也是以 $T$ 为周期的周期函数；③$F(x)$ 是 $(0,1)$ 内的有界函数；④若 $f(x)$ 在 $(0,+\infty)$ 为单调递增函数，则 $F(x)$ 在 $(0,+\infty)$ 也为单调递增函数中正确的个数是\ExamSelection。
+      设函数 $f(x)$ 在 $(-\infty,+\infty)$ 内连续，则关于 $F(x)=\dfrac{1}{x}\int_0^x f(t)\,\mathrm{d}t$ $(x\ne0)$ 的下列四个结论：\n①若 $f(x)$ 为奇函数，则 $F(x)$ 也是奇函数；\n②若 $f(x)$ 是以 $T(T>0)$ 为周期的周期函数，则 $F(x)$ 也是以 $T$ 为周期的周期函数；\n③$F(x)$ 是 $(0,1)$ 内的有界函数；\n④若 $f(x)$ 在 $(0,+\infty)$ 为单调递增函数，则 $F(x)$ 在 $(0,+\infty)$ 也为单调递增函数中正确的个数是\ExamSelection。
   choices:
   - label: A
     text: '1'
@@ -190,7 +189,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设四阶矩阵 $A=(a_{ij})_{4\times4}$ 满足 $\sum_{j=1}^4a_{ij}=0\ (i=1,2,3,4)$，$M_{ij}$ 与 $A_{ij}$ 分别为元素 $a_{ij}$ 的余子式和代数余子式，下列四个式子中必成立有\ExamSelection{}个。①$M_{21}+M_{22}+M_{23}+M_{24}=0$；②$A_{21}+A_{22}+A_{23}+A_{24}=0$；③$M_{21}=M_{22}=M_{23}=M_{24}$；④$A_{21}=A_{22}=A_{23}=A_{24}$
+      设四阶矩阵 $A=(a_{ij})_{4\times4}$ 满足 $\sum_{j=1}^4a_{ij}=0\ (i=1,2,3,4)$，$M_{ij}$ 与 $A_{ij}$ 分别为元素 $a_{ij}$ 的余子式和代数余子式，下列四个式子中必成立有\ExamSelection{}个。\n①$M_{21}+M_{22}+M_{23}+M_{24}=0$；\n②$A_{21}+A_{22}+A_{23}+A_{24}=0$；\n③$M_{21}=M_{22}=M_{23}=M_{24}$；\n④$A_{21}=A_{22}=A_{23}=A_{24}$
   choices:
   - label: A
     text: '1'
@@ -291,3 +290,4 @@ questions:
   subparts:
   - text: 求二次型 $f(x_1,x_2,x_3)$ 的正负惯性指数；
   - text: 当 $b=1$ 时，求正交变换 $x=Py$ 将二次型 $f(x_1,x_2,x_3)$ 化为标准形。
+content_hash: 34255ff54786f66606488b71db5054a9b95f7b1308c5f32a8aa7298a707f6318

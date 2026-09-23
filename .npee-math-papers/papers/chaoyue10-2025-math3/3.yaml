@@ -4,14 +4,13 @@ paper:
   year: 2025
   subject: math3
   paper_no: 3
-content_hash: 9e069253a51024e808288d16f42f97e1d2ce9a084b62f8cb7275ee46b900cdbd
 questions:
 - number: 1
   section: choice
   points: 5
   stem:
     text: |-
-      当 $x\to 0^+$ 时，下列式子正确的个数为\ExamSelection。① $\dfrac{1}{\ln x}\sim\dfrac{1}{\ln\sin x}$；② $\int_0^x t^2\,\mathrm{d}t\sim\int_0^x\sin^2t\,\mathrm{d}t$；③ $(1+\sin x)^x-1\sim(1+x)^{\sin x}-1$。
+      当 $x\to 0^+$ 时，下列式子正确的个数为\ExamSelection。\n① $\dfrac{1}{\ln x}\sim\dfrac{1}{\ln\sin x}$；\n② $\int_0^x t^2\,\mathrm{d}t\sim\int_0^x\sin^2t\,\mathrm{d}t$；\n③ $(1+\sin x)^x-1\sim(1+x)^{\sin x}-1$。
   choices:
   - label: A
     text: '0'
@@ -119,7 +118,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 3 阶实对称矩阵 $A=(\alpha_1,\alpha_2,\alpha_3)$，且 $\alpha_1+\alpha_2+\alpha_3=(1,1,1)^{\mathsf T}$，又存在 $a\in\mathbb R$ 使得 $A^3+(a^5-1)A^2+2a^3A+aE=O$，$\operatorname{tr}(A)=1$，则下列结论中：① $r(A)=1$；② $A$ 的特征值为 $0,0,1$；③ $A$ 与矩阵 $\begin{pmatrix}1&0&0\\0&2&0\\0&0&0\end{pmatrix}$ 合同；④ $\begin{pmatrix}1\\1\\-2\end{pmatrix}$ 为 $Ax=0$ 的解。正确的个数为\ExamSelection。
+      设 3 阶实对称矩阵 $A=(\alpha_1,\alpha_2,\alpha_3)$，且 $\alpha_1+\alpha_2+\alpha_3=(1,1,1)^{\mathsf T}$，又存在 $a\in\mathbb R$ 使得 $A^3+(a^5-1)A^2+2a^3A+aE=O$，$\operatorname{tr}(A)=1$，则下列结论中：\n① $r(A)=1$；\n② $A$ 的特征值为 $0,0,1$；\n③ $A$ 与矩阵 $\begin{pmatrix}1&0&0\\0&2&0\\0&0&0\end{pmatrix}$ 合同；\n④ $\begin{pmatrix}1\\1\\-2\end{pmatrix}$ 为 $Ax=0$ 的解。\n正确的个数为\ExamSelection。
   choices:
   - label: A
     text: '1'
@@ -138,7 +137,7 @@ questions:
   points: 5
   stem:
     text: |-
-      矩阵 $P$ 满足 $PP^{\mathsf T}=E$，则下列四个式子中必成立有\ExamSelection{}个。① $P$ 的行向量组为标准正交向量组；② $P$ 的列向量组为标准正交向量组；③ $P$ 为正交矩阵；④ $P$ 为可逆矩阵。
+      矩阵 $P$ 满足 $PP^{\mathsf T}=E$，则下列四个式子中必成立有\ExamSelection{}个。\n① $P$ 的行向量组为标准正交向量组；\n② $P$ 的列向量组为标准正交向量组；\n③ $P$ 为正交矩阵；\n④ $P$ 为可逆矩阵。
   choices:
   - label: A
     text: '1'
@@ -293,3 +292,4 @@ questions:
   stem:
     text: |-
       设 $X$ 的概率密度为 $f(x)=\begin{cases}\dfrac{1}{4},&|x|\leq1,\\\dfrac{1}{8},&1<|x|\leq3,\\0,&\text{其他},\end{cases}$，令 $Y=g(X)=\begin{cases}X^2,&X<1,\\X^2-1,&X\geq1,\end{cases}$，求：（Ⅰ）$P\{-1<Y<2\mid X<1\}$；（Ⅱ）$Y$ 的分布函数 $F_Y(y)$。
+content_hash: 0cccf57c8faa47f08cf15c1963a722065a1a85a2d7e522e366a9c45dabbc1573

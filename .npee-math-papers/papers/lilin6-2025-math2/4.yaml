@@ -4,7 +4,6 @@ paper:
   year: 2025
   subject: math2
   paper_no: 4
-content_hash: cb9d787373e644026e342300169244efddf8b7e991c651981faae530a78328db
 questions:
 - number: 1
   section: choice
@@ -133,7 +132,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $f(x)$ 在 $[0,1]$ 上有二阶连续导数，则下列说法正确的是\ExamSelection
+      设 $f(x)$ 在 $[0,1]$ 上有二阶连续导数，则下列说法正确的是\ExamSelection\n① 若 $f''(x)>0$，则 $\int_0^1\left[f(x)-f\left(\dfrac{1}{2}\right)\right]\,\mathrm{d}x>0$。\n② 若 $f''(x)>0$，则 $\int_0^1\left[f(x)-f\left(\dfrac{1}{2}\right)\right]\,\mathrm{d}x<0$。\n③ 若 $f''(x)<0$，则 $\int_0^1\left[f(x)-f\left(\dfrac{1}{2}\right)\right]\,\mathrm{d}x>0$。\n④ 若 $f''(x)<0$，则 $\int_0^1\left[f(x)-f\left(\dfrac{1}{2}\right)\right]\,\mathrm{d}x<0$。
   choices:
   - label: A
     text: ①④。
@@ -147,15 +146,6 @@ questions:
   - label: D
     text: ①③。
     figures: []
-  subparts:
-  - text: |-
-      若 $f''(x)>0$，则 $\int_0^1\left[f(x)-f\left(\dfrac{1}{2}\right)\right]\,\mathrm{d}x>0$。
-  - text: |-
-      若 $f''(x)>0$，则 $\int_0^1\left[f(x)-f\left(\dfrac{1}{2}\right)\right]\,\mathrm{d}x<0$。
-  - text: |-
-      若 $f''(x)<0$，则 $\int_0^1\left[f(x)-f\left(\dfrac{1}{2}\right)\right]\,\mathrm{d}x>0$。
-  - text: |-
-      若 $f''(x)<0$，则 $\int_0^1\left[f(x)-f\left(\dfrac{1}{2}\right)\right]\,\mathrm{d}x<0$。
 - number: 8
   section: choice
   points: 5
@@ -307,3 +297,4 @@ questions:
       求正交矩阵 $Q$，使得 $Q^{\mathrm T}AQ=\Lambda$；
   - text: |-
       求可逆矩阵 $P$，使得 $2E-A=P^{\mathrm T}P$。
+content_hash: dfcf6e01df9a22e29905de0ac44bdceca037c6e43d668c9f779a5de4e9eaf0b9

@@ -4,7 +4,6 @@ paper:
   year: 2024
   subject: math2
   paper_no: 2
-content_hash: 6a10aab43c2e0c94d3ffbe896420cf19caad0ed6df8c2af4983e46382b9eebb4
 questions:
 - number: 1
   section: choice
@@ -163,7 +162,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $3$ 维列向量组 $\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3$ 与 $\boldsymbol{\beta}_1,\boldsymbol{\beta}_2,\boldsymbol{\beta}_3$ 等价，记 $A=(\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3),B=(\boldsymbol{\beta}_1,\boldsymbol{\beta}_2,\boldsymbol{\beta}_3)$，则下列结论中 ①$Ax=0$ 与 $Bx=0$ 同解；②$A^{\mathrm{T}}x=0$ 与 $B^{\mathrm{T}}x=0$ 同解；③$\begin{pmatrix}A\\B\end{pmatrix}x=0$ 与 $Ax=0$ 同解；④$\begin{pmatrix}A^{\mathrm{T}}\\B^{\mathrm{T}}\end{pmatrix}x=0$ 与 $A^{\mathrm{T}}x=0$ 同解。所有正确结论的序号是\ExamSelection
+      设 $3$ 维列向量组 $\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3$ 与 $\boldsymbol{\beta}_1,\boldsymbol{\beta}_2,\boldsymbol{\beta}_3$ 等价，记 $A=(\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3),B=(\boldsymbol{\beta}_1,\boldsymbol{\beta}_2,\boldsymbol{\beta}_3)$，则下列结论中 \n①$Ax=0$ 与 $Bx=0$ 同解；\n②$A^{\mathrm{T}}x=0$ 与 $B^{\mathrm{T}}x=0$ 同解；\n③$\begin{pmatrix}A\\B\end{pmatrix}x=0$ 与 $Ax=0$ 同解；\n④$\begin{pmatrix}A^{\mathrm{T}}\\B^{\mathrm{T}}\end{pmatrix}x=0$ 与 $A^{\mathrm{T}}x=0$ 同解。\n所有正确结论的序号是\ExamSelection
   choices:
   - label: A
     text: ①②
@@ -297,3 +296,4 @@ questions:
   subparts:
   - text: 求矩阵 $C$；
   - text: 计算 $A^{10}$。
+content_hash: ec24246e085d1e996e2edf7f4d84dcc1ea333e69ecf51127347ff8d218d9c25e

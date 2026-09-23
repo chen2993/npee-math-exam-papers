@@ -4,7 +4,6 @@ paper:
   year: 2026
   subject: math1
   paper_no: 5
-content_hash: 34f23ef6bf76502e654f68bf5bb9c2ddccfa8da0d1383b62e42c486233729d55
 questions:
 - number: 1
   section: choice
@@ -49,7 +48,7 @@ questions:
   points: 5
   stem:
     text: |-
-      若数列 $\{x_n\}$，$\{y_n\}$ 满足 $\lim_{n\to\infty}x_ny_n=\infty$，则以下结论：① $\lim_{n\to\infty}x_n=\infty$ 可 $\implies\lim_{n\to\infty}y_n=\infty$；② $\lim_{n\to\infty}x_n=\infty$ 且 $\lim_{n\to\infty}y_n=\infty$；③ $x_n$ 与 $y_n$ 中一个是无穷大量，另一个是无穷小量；④ 当 $x_n$ 是非零无穷小量时，$\lim_{n\to\infty}y_n=\infty$。正确结论的个数为\ExamSelection
+      若数列 $\{x_n\}$，$\{y_n\}$ 满足 $\lim_{n\to\infty}x_ny_n=\infty$，则以下结论：\n① $\lim_{n\to\infty}x_n=\infty$ 可 $\implies\lim_{n\to\infty}y_n=\infty$；\n② $\lim_{n\to\infty}x_n=\infty$ 且 $\lim_{n\to\infty}y_n=\infty$；\n③ $x_n$ 与 $y_n$ 中一个是无穷大量，另一个是无穷小量；\n④ 当 $x_n$ 是非零无穷小量时，$\lim_{n\to\infty}y_n=\infty$。\n正确结论的个数为\ExamSelection
   choices:
   - label: A
     text: '1'
@@ -186,7 +185,7 @@ questions:
   points: 5
   stem:
     text: |-
-      已知 $0<P(A)<1$ 且 $P(B+C\mid A)=P(B\mid A)+P(C\mid A)$，则以下结论：① $P(B+C)=P(B)+P(C)$；② $P(B+C)=P(B\mid A)+P(C\mid A)$；③ $P(B+C\mid\overline A)=P(B\mid\overline A)+P(C\mid\overline A)$；④ $P(BA+CA)=P(BA)+P(CA)$。正确结论的个数为\ExamSelection
+      已知 $0<P(A)<1$ 且 $P(B+C\mid A)=P(B\mid A)+P(C\mid A)$，则以下结论：\n① $P(B+C)=P(B)+P(C)$；\n② $P(B+C)=P(B\mid A)+P(C\mid A)$；\n③ $P(B+C\mid\overline A)=P(B\mid\overline A)+P(C\mid\overline A)$；\n④ $P(BA+CA)=P(BA)+P(CA)$。\n正确结论的个数为\ExamSelection
   choices:
   - label: A
     text: '1'
@@ -296,3 +295,4 @@ questions:
       求 $b$ 的矩估计量 $\hat b_M$ 与最大似然估计量 $\hat b_L$
   - text: |-
       $\hat b_L$ 是否为 $b$ 的无偏估计量
+content_hash: 5a91770c77c1f2453e9ea0d8b9b4c5426d753a0a48ca879e6fb05c3bf6c921ee

@@ -4,7 +4,6 @@ paper:
   year: 2025
   subject: math2
   paper_no: 5
-content_hash: 7c2dad3694cbfdccb466121a488ac812da782703aa57b60df7e406d3b81676f5
 questions:
 - number: 1
   section: choice
@@ -135,7 +134,7 @@ questions:
   points: 5
   stem:
     text: |-
-      曲线 $y=\dfrac{(1+x)e^x}{e^x-1}$ 的渐近线条数为\ExamSelection（公众号：风中羽小易）。
+      曲线 $y=\dfrac{(1+x)e^x}{e^x-1}$ 的渐近线条数为\ExamSelection。
   choices:
   - label: A
     text: $1$
@@ -255,7 +254,7 @@ questions:
   points: 10
   stem:
     text: |-
-      （公众号：风中羽小易）求函数 $f(x,y)=(x^2+y^2)e^{-x-y}$ 在区域 $D=\{(x,y)\mid x\geqslant0,y\geqslant0,x^2+y^2\leqslant16\}$ 上的最大值及最小值。
+      求函数 $f(x,y)=(x^2+y^2)e^{-x-y}$ 在区域 $D=\{(x,y)\mid x\geqslant0,y\geqslant0,x^2+y^2\leqslant16\}$ 上的最大值及最小值。
 - number: 18
   section: solution
   points: 12
@@ -305,3 +304,4 @@ questions:
       证明 $\mathbf{A}$ 可以对角化；
   - text: |-
       如果 $\mathbf{A}$ 为实对称矩阵，且 $\boldsymbol{\xi}=(1,1,-1)^{\mathrm{T}}$ 是齐次线性方程组 $(\mathbf{A}-2\mathbf{E})\mathbf{x}=\mathbf{0}$ 的一个解，求一个对称矩阵 $\mathbf{B}$，使得 $\mathbf{B}^2=\mathbf{A}+\mathbf{E}$。
+content_hash: b0642048161d71f3fa54e9f29c510597687ef4fe04e99ef93682fedc629ad50d

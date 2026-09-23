@@ -4,7 +4,6 @@ paper:
   year: 2024
   subject: math1
   paper_no: 1
-content_hash: 7c89a641f56f09d33968ebca7425e3e7bf47e8e02d10458dfc8772b3a743fcc3
 questions:
 - number: 1
   section: choice
@@ -24,8 +23,8 @@ questions:
       $\int_0^x f(t)\,\mathrm{d}t$ 在点 $x=0$ 处不可导
     figures: []
   - label: D
-    text: |2-
-       $\int_0^x f(t)\,\mathrm{d}t$ 在点 $x=0$ 处可导
+    text: |-
+      $\int_0^x f(t)\,\mathrm{d}t$ 在点 $x=0$ 处可导
     figures: []
 - number: 2
   section: choice
@@ -51,7 +50,7 @@ questions:
   points: 5
   stem:
     text: |-
-      关于函数 $f(x,y)=\begin{cases}y\sin\dfrac{1}{x^2+y^2},&x^2+y^2\neq0,\\0,&x^2+y^2=0,\end{cases}$ 给出下列结论：① $f(x,y)$ 在点 $(0,0)$ 处连续；② $\left.\dfrac{\partial f}{\partial x}\right|_{(0,0)}=0$；③ $\left.\dfrac{\partial f}{\partial y}\right|_{(0,0)}=0$；④ $f(x,y)$ 在点 $(0,0)$ 处可微。其中正确的个数为\ExamSelection。
+      关于函数 $f(x,y)=\begin{cases}y\sin\dfrac{1}{x^2+y^2},&x^2+y^2\neq0,\\0,&x^2+y^2=0,\end{cases}$ 给出下列结论：\n① $f(x,y)$ 在点 $(0,0)$ 处连续；\n② $\left.\dfrac{\partial f}{\partial x}\right|_{(0,0)}=0$；\n③ $\left.\dfrac{\partial f}{\partial y}\right|_{(0,0)}=0$；\n④ $f(x,y)$ 在点 $(0,0)$ 处可微。\n其中正确的个数为\ExamSelection。
   choices:
   - label: A
     text: '1'
@@ -112,7 +111,7 @@ questions:
   choices:
   - label: A
     text: |-
-      线性方程组 $\begin{pmatrix}E&O\\O&A\end{pmatrix}x=0$ 与 $\begin{pmatrix}E&A^{\mathsf T}\\A&O\end{pmatrix}x=0$ 同解
+      线性方程组 $\begin{pmatrix}E&O\\O&A^{\mathsf T}\end{pmatrix}x=0$ 与 $\begin{pmatrix}E&A^{\mathsf T}\\A&O\end{pmatrix}x=0$ 同解
     figures: []
   - label: B
     text: |-
@@ -299,3 +298,4 @@ questions:
       求 $Z$ 的分布函数 $F_Z(z)$，由此求 $P\{Z=0\}$，并问 $Z$ 是否是连续型随机变量？
   - text: |-
       记 $U=\max\{X,Y\}$，$V=\min\{X,Y\}$，求 $E(U+V)$。
+content_hash: 26b055b5e540a84f32b27af32a1b98e78cd123b03a2a5c33367cc6b1f3e95c3d

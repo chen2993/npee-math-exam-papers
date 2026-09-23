@@ -33,11 +33,21 @@ export function AppLayout({ gateway, onToggleSidebar }: { gateway: CatalogGatewa
     document.querySelector(".content-scroll")?.scrollTo({ top: 0 });
   }, [location.pathname]);
 
-  // Speed keys for the two most common actions (search, jump to a page) plus
-  // collapse. ``/`` mirrors the convention of GitHub, Slack and most consoles.
+  // Speed keys for the two most common actions (jump to a page, focus the
+  // library search) plus collapse. ``/`` mirrors the convention of GitHub, Slack
+  // and most consoles: route to the catalogue, then focus its search box once it
+  // has rendered.
   const hotkeys = useMemo<Hotkey[]>(
     () => [
-      { key: "/", handler: () => navigate("/search") },
+      {
+        key: "/",
+        handler: () => {
+          navigate("/papers");
+          window.setTimeout(() => {
+            document.querySelector<HTMLInputElement>('.catalog-tools input[type="search"]')?.focus();
+          }, 0);
+        },
+      },
       { key: "[", handler: () => update({ sidebarCollapsed: !collapsed }) },
       { key: "g", meta: true, handler: () => navigate("/dashboard") },
       { key: "p", meta: true, shift: true, handler: () => navigate("/papers") },

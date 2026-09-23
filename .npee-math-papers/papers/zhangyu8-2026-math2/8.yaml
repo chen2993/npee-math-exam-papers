@@ -4,7 +4,6 @@ paper:
   year: 2026
   subject: math2
   paper_no: 8
-content_hash: 44330fd1f35e443c9eebb8816844615774bb3cde6dfcf60b07fcde070de01041
 questions:
 - number: 1
   section: choice
@@ -30,7 +29,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $f(x)$ 在 $(0,+\infty)$ 内可导，对于以下结论：①若 $\lim_{x\to+\infty}f(x)$ 存在，$\lim_{x\to+\infty}f'(x)$ 存在，则 $\lim_{x\to+\infty}f'(x)=0$；②若 $\lim_{x\to+\infty}[f(x)+f'(x)]$ 存在，则 $\lim_{x\to+\infty}f'(x)=0$。正确的说法是\ExamSelection
+      设 $f(x)$ 在 $(0,+\infty)$ 内可导，对于以下结论：\n①若 $\lim_{x\to+\infty}f(x)$ 存在，$\lim_{x\to+\infty}f'(x)$ 存在，则 $\lim_{x\to+\infty}f'(x)=0$；\n②若 $\lim_{x\to+\infty}[f(x)+f'(x)]$ 存在，则 $\lim_{x\to+\infty}f'(x)=0$。\n正确的说法是\ExamSelection
   choices:
   - label: A
     text: ①正确，②错误。
@@ -200,7 +199,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $\alpha_1,\alpha_2,\cdots,\alpha_n$ 是 $n$ 个 $n$ 维的线性无关向量，$\alpha_{n+1}=k_1\alpha_1+k_2\alpha_2+\cdots+k_n\alpha_n$，其中 $k_1,k_2,\cdots,k_n$ 全不为 0，则下列结论：①$\alpha_2,\alpha_3,\cdots,\alpha_{n+1}$ 线性相关；②$\alpha_1,\alpha_3,\cdots,\alpha_{n+1}$ 线性相关；③$\alpha_1,\alpha_2,\alpha_4,\cdots,\alpha_{n+1}$ 线性相关。正确的个数为\ExamSelection
+      设 $\alpha_1,\alpha_2,\cdots,\alpha_n$ 是 $n$ 个 $n$ 维的线性无关向量，$\alpha_{n+1}=k_1\alpha_1+k_2\alpha_2+\cdots+k_n\alpha_n$，其中 $k_1,k_2,\cdots,k_n$ 全不为 0，则下列结论：\n①$\alpha_2,\alpha_3,\cdots,\alpha_{n+1}$ 线性相关；\n②$\alpha_1,\alpha_3,\cdots,\alpha_{n+1}$ 线性相关；\n③$\alpha_1,\alpha_2,\alpha_4,\cdots,\alpha_{n+1}$ 线性相关。\n正确的个数为\ExamSelection
   choices:
   - label: A
     text: 0。
@@ -294,3 +293,4 @@ questions:
   - text: 证明 $P$ 可逆；
   - text: |-
       若 $(A^3-A)\alpha=0$，求 $|A-3E|$。
+content_hash: 7b394df32ed196b298d686134c624fa1586b97e295e2e086464e7950f2ad7aef

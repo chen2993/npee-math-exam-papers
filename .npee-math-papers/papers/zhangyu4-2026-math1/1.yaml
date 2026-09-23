@@ -4,7 +4,6 @@ paper:
   year: 2026
   subject: math1
   paper_no: 1
-content_hash: c4e0b6197bba92ddaee020693ef2e849f4170093b11146203f1bed72b9079f2b
 questions:
 - number: 1
   section: choice
@@ -143,7 +142,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设矩阵 $A=(a_{ij})_{n\times n}$ 的元素全大于零，且每行元素之和等于 $1$，以下结论：① $\lambda=1$ 是 $A$ 的特征值；② $(A-E)x=0$ 有非零解；③ $A$ 的每一个特征值 $\lambda$ 都满足 $|\lambda|\leqslant1$。正确结论的个数为\ExamSelection
+      设矩阵 $A=(a_{ij})_{n\times n}$ 的元素全大于零，且每行元素之和等于 $1$，以下结论：\n① $\lambda=1$ 是 $A$ 的特征值；\n② $(A-E)x=0$ 有非零解；\n③ $A$ 的每一个特征值 $\lambda$ 都满足 $|\lambda|\leqslant1$。\n正确结论的个数为\ExamSelection
   choices:
   - label: A
     text: $0$
@@ -308,3 +307,4 @@ questions:
   - text: $X,Y$ 是否相互独立，说明理由；
   - text: |-
       计算 $P\left\{Y>1\mid X=\dfrac{1}{2}\right\}$。
+content_hash: 220f6c59075a47ad67a110fb404d717706edd465d09027512b0ff3b2272b224c

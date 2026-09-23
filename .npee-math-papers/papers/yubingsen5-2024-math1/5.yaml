@@ -4,7 +4,6 @@ paper:
   year: 2024
   subject: math1
   paper_no: 5
-content_hash: 9bb161513efc2aa1dec5000451990a6edd42b398da269931d2db6f26b4585700
 questions:
 - number: 1
   section: choice
@@ -125,7 +124,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $A,B$ 均为 $n(n>1)$ 阶方阵，满足 $\begin{pmatrix}A^{\mathsf T}A&O\\O&B^{\mathsf T}B\end{pmatrix}$ 为正定矩阵，给出如下五个命题：① 齐次线性方程组 $Ax=0$ 与 $Bx=0$ 同解；② 对任意的 $n$ 维非零列向量 $\boldsymbol{\alpha}$，非齐次线性方程组 $Ax=\boldsymbol{\alpha}$ 与 $Bx=\boldsymbol{\alpha}$ 同解；③ 矩阵 $A,B$ 等价；④ 矩阵 $A,B$ 的列向量组等价；⑤ 矩阵 $A,B$ 的行向量组等价。其中正确的个数是\ExamSelection。
+      设 $A,B$ 均为 $n(n>1)$ 阶方阵，满足 $\begin{pmatrix}A^{\mathsf T}A&O\\O&B^{\mathsf T}B\end{pmatrix}$ 为正定矩阵，给出如下五个命题：\n① 齐次线性方程组 $Ax=0$ 与 $Bx=0$ 同解；\n② 对任意的 $n$ 维非零列向量 $\boldsymbol{\alpha}$，非齐次线性方程组 $Ax=\boldsymbol{\alpha}$ 与 $Bx=\boldsymbol{\alpha}$ 同解；\n③ 矩阵 $A,B$ 等价；\n④ 矩阵 $A,B$ 的列向量组等价；\n⑤ 矩阵 $A,B$ 的行向量组等价。\n其中正确的个数是\ExamSelection。
   choices:
   - label: A
     text: $1$ 个
@@ -167,7 +166,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设连续型随机变量 $(X,Y)$ 的密度函数和分布函数分别为 $f(x,y),F(x,y)$，关于 $X$ 的边缘概率密度和边缘分布函数分别为 $f_X(x),F_X(x)$，则下列四个命题：① $0\leq f(x,y)\leq1$；② $f(x,y)\leq f_X(x)$；③ $0\leq F(x,y)\leq1$；④ $F(x,y)\leq F_X(x)$ 中，正确的个数为\ExamSelection。
+      设连续型随机变量 $(X,Y)$ 的密度函数和分布函数分别为 $f(x,y),F(x,y)$，关于 $X$ 的边缘概率密度和边缘分布函数分别为 $f_X(x),F_X(x)$，则下列四个命题：\n① $0\leq f(x,y)\leq1$；\n② $f(x,y)\leq f_X(x)$；\n③ $0\leq F(x,y)\leq1$；\n④ $F(x,y)\leq F_X(x)$ 中，正确的个数为\ExamSelection。
   choices:
   - label: A
     text: $1$ 个
@@ -295,3 +294,4 @@ questions:
   subparts:
   - text: 求 $X$ 的分布函数 $F(x)$。
   - text: 令 $Y=F(X)$，求 $Y$ 的分布函数 $F_Y(y)$。
+content_hash: d49b710802a9eb9c7e66ebe800feb1b5ebc30806cd815efd241aa44c5e755d07

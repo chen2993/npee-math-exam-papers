@@ -64,4 +64,4 @@
 - `python build\full-build-scan.py` → `papers=321 build_ok=321 build_fail=0`。
 - `python -m npee_math_papers.maintenance.audit_store` → `PASS`。
 - `.\npee_math_papers\maintenance\test-architecture.ps1` → 通过（已登记新文件）。
-- `python -m npee_math_papers.maintenance.verify_compile --matrix --collections` → 全部通过。
+- `python -m npee_math_papers.maintenance.verify_compile --matrix --compositions` → 全部通过。

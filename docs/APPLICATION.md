@@ -95,9 +95,13 @@ HTTP API 与 MCP 都只依赖 `NpeeService`，不直接读写题库文件。题�
 | GET | `/api/compositions/jobs` | 最近的后台编译任务 |
 | GET | `/api/compositions/jobs/{job_id}` | 单个任务的状态与产物清单 |
 | GET | `/api/compositions/jobs/{job_id}/artifact` | 下载任务产出的 PDF |
+| GET | `/api/compositions/packages` | 列出 `composition/` 下的正式组卷包 |
+| GET | `/api/compositions/packages/{id}` | 读取一个组卷包的完整文档与校验结果 |
+| PUT | `/api/compositions/packages/{id}` | 把编辑后的组卷文档写回包内（先校验再落盘） |
 
-非 GET 路由只有这 5 条（`logs/clear` 与 4 个 `compositions/*`），全部不写题库；
-题库的写入只经 MCP 适配器，HTTP 面对题库是只读的。
+非 GET 路由只有 `logs/clear`、4 个 `compositions/*` 与组卷包写入口，全部不写题库
+（组卷包是仓库里的配置文件，不在题库事实源内）；题库的写入只经 MCP 适配器，
+HTTP 面对题库是只读的。
 
 任一请求都会写入共享事件日志 `npee_math_papers/service/events.py`，
 前端「操作日志」页读取它。

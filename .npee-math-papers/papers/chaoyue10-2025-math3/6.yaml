@@ -4,7 +4,6 @@ paper:
   year: 2025
   subject: math3
   paper_no: 6
-content_hash: 1873b22695a2ba22c4f234557e2625126a905af53e399039b267e0532640d148
 questions:
 - number: 1
   section: choice
@@ -147,7 +146,7 @@ questions:
   points: 5
   stem:
     text: |-
-      下列结论正确的个数为\ExamSelection。
+      下列结论正确的个数为\ExamSelection。\n① 任意事件 $A,B,C$，均有 $P(ABC)\geq P(A)+P(B)+P(C)-2$。\n② 若 $0<P(A)<1,0<P(B)<1$，则 $P(B\mid A)>P(B\mid \overline{A})$ 的充要条件为 $P(A\mid B)>P(A\mid \overline{B})$。\n③ $P(A^c-B)P(B-A)\geq P(A)P(B)-P(AB)$。\n④ $P(A\cup B)P(AB)\leq P(A)P(B)$。
   choices:
   - label: A
     text: '1'
@@ -161,15 +160,6 @@ questions:
   - label: D
     text: '4'
     figures: []
-  subparts:
-  - text: |-
-      任意事件 $A,B,C$，均有 $P(ABC)\geq P(A)+P(B)+P(C)-2$。
-  - text: |-
-      若 $0<P(A)<1,0<P(B)<1$，则 $P(B\mid A)>P(B\mid \overline{A})$ 的充要条件为 $P(A\mid B)>P(A\mid \overline{B})$。
-  - text: |-
-      $P(A^c-B)P(B-A)\geq P(A)P(B)-P(AB)$。
-  - text: |-
-      $P(A\cup B)P(AB)\leq P(A)P(B)$。
 - number: 9
   section: choice
   points: 5
@@ -258,7 +248,7 @@ questions:
   section: solution
   points: 12
   stem:
-    text: 已知函数 $f(x,y)$ 满足 $f''_{yy}(x,y)=2(y+1)e^x$，$f'_x(x,0)=(x+1)e^x$，$f(0,y)=y^2+2y$，求 $f(x,y)$ 的极值。
+    text: 已知函数 $f(x,y)$ 满足 $f''_{xy}(x,y)=2(y+1)e^x$，$f'_x(x,0)=(x+1)e^x$，$f(0,y)=y^2+2y$，求 $f(x,y)$ 的极值。
 - number: 19
   section: solution
   points: 12
@@ -301,3 +291,4 @@ questions:
   - text: |-
       在事件 $A$ 发生的条件下，随机变量 $X$ 的条件概率密度 $f_X(x\mid A)$。
   - text: $Z=X+Y$ 的分布函数。
+content_hash: ba84c12e2ab82468f06545f1d21aa8d565a7d52b02b05eabe7a849752d11b11e

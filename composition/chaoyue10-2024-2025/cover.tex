@@ -1,0 +1,59 @@
+% Package-owned cover for the 2024-2025 超越十套卷 collection.
+%
+% This file is \input after \begin{document}, so it must not load packages.
+% It relies only on the examination class runtime (tikz / xcolor / fontspec),
+% which is already loaded, and ends the page itself.
+
+\providecommand{\NPEECoverTitleText}{2024--2025 超越十套卷}
+\providecommand{\NPEECoverSubtitleText}{合工大超越十套卷}
+\providecommand{\NPEECoverEditorText}{主编：Curry3088T（QQ：3327950800）}
+
+\definecolor{NPEECYInk}{HTML}{1F2A63}
+\definecolor{NPEECYAccent}{HTML}{C8452F}
+\definecolor{NPEECYRule}{HTML}{8E97C4}
+\definecolor{NPEECYSoft}{HTML}{EEF0F8}
+
+\newcommand{\NPEECYCoverPage}{%
+  \thispagestyle{empty}%
+  \null
+  \begin{tikzpicture}[remember picture,overlay]
+    \clip (current page.south west) rectangle (current page.north east);
+    % Page ground.
+    \fill[white] (current page.south west) rectangle (current page.north east);
+    % Top band carries the series name.
+    \fill[NPEECYInk] (current page.north west) rectangle ([yshift=-38mm]current page.north east);
+    \node[anchor=west,text=white,font=\NPEEHeadingFace\fontsize{26pt}{32pt}\selectfont,inner sep=0pt]
+      at ([xshift=24mm,yshift=-24mm]current page.north west) {\NPEECoverSubtitleText};
+    % Accent rule under the band.
+    \fill[NPEECYAccent] ([yshift=-38mm]current page.north west) rectangle ([yshift=-41mm]current page.north east);
+    % Title block.
+    \node[anchor=north west,text=NPEECYInk,font=\NPEEHeadingFace\fontsize{46pt}{56pt}\selectfont,
+      text width=\dimexpr\paperwidth-48mm\relax,align=left,inner sep=0pt]
+      at ([xshift=24mm,yshift=-62mm]current page.north west) {\NPEECoverTitleText};
+    % Subject badge.
+    \node[anchor=north west,inner sep=0pt]
+      at ([xshift=24mm,yshift=-118mm]current page.north west)
+      {\colorbox{NPEECYAccent}{\textcolor{white}{\NPEEHeadingFace\fontsize{20pt}{24pt}\selectfont
+        \strut\NPEESubjectName}}};
+    % Subject code and scope note.
+    \node[anchor=north west,text=NPEECYInk,font=\NPEEBodyFace\fontsize{13pt}{17pt}\selectfont,inner sep=0pt]
+      at ([xshift=24mm,yshift=-150mm]current page.north west)
+      {科目代码 \NPEESubjectCode};
+    \fill[NPEECYSoft] ([xshift=24mm,yshift=-158mm]current page.north west)
+      rectangle ([xshift=44mm,yshift=-158.6mm]current page.north west);
+    \node[anchor=north west,text=black,font=\NPEEBodyFace\fontsize{12.5pt}{19pt}\selectfont,
+      text width=\dimexpr\paperwidth-48mm\relax,align=left,inner sep=0pt]
+      at ([xshift=24mm,yshift=-164mm]current page.north west)
+      {收录 2024 与 2025 两年度合工大超越十套卷，共 20 套。\\
+       每套 10 道选择、6 道填空、6 道解答，按考研数学考试结构排布。};
+    % Footer rule and imprint.
+    \fill[NPEECYRule] ([yshift=34mm]current page.south west) rectangle ([yshift=34.4mm]current page.south east);
+    \node[anchor=west,text=NPEECYAccent,font=\NPEEHeadingFace\fontsize{14pt}{18pt}\selectfont,inner sep=0pt]
+      at ([xshift=24mm,yshift=24mm]current page.south west) {\NPEECoverEditorText};
+    \node[anchor=west,text=NPEECYInk,font=\NPEEBodyFace\fontsize{10.5pt}{14pt}\selectfont,inner sep=0pt]
+      at ([xshift=24mm,yshift=16mm]current page.south west)
+      {合工大超越十套卷 · 2024--2025};
+  \end{tikzpicture}%
+  \clearpage}
+
+\NPEECYCoverPage

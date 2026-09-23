@@ -4,7 +4,6 @@ paper:
   year: 2024
   subject: math2
   paper_no: 2
-content_hash: 7e7cb90a084a59a5de7ca2b337824ff6fbf8ad37bf1770f416ac95187c0df332
 questions:
 - number: 1
   section: choice
@@ -88,7 +87,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设函数 $f(x,y)=\begin{cases}1,&y=x^3,x\ne0,\\0,&\text{其他},\end{cases}$，则以下结论中 ① $\lim_{\substack{x\to0\\y=x^3}}f(x,y)=1$；② $\dfrac{\partial f(0,0)}{\partial x}=0$；③ $\dfrac{\partial f(0,0)}{\partial y}=1$；④ $f(x,y)$ 在点 $(0,0)$ 处可微。正确结论的个数为\ExamSelection
+      设函数 $f(x,y)=\begin{cases}1,&y=x^3,x\ne0,\\0,&\text{其他},\end{cases}$，则以下结论中 \n① $\lim_{\substack{x\to0\\y=x^3}}f(x,y)=1$；\n② $\dfrac{\partial f(0,0)}{\partial x}=0$；\n③ $\dfrac{\partial f(0,0)}{\partial y}=1$；\n④ $f(x,y)$ 在点 $(0,0)$ 处可微。\n正确结论的个数为\ExamSelection
   choices:
   - label: A
     text: $1$。
@@ -107,7 +106,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $f(x)=\begin{cases}e^{x^2}+x^2,&x\ne0,\\a,&x=0,\end{cases}$，其中 $a$ 为常数，令 $F(x)=\int_{-1}^{x}f(t)\,\mathrm{d}t$，则以下命题：①当 $a=1$ 时，$F(x)$ 在 $x=0$ 处可导；②当 $a\ne1$ 时，$F(x)$ 在 $x=0$ 处可导；③当 $a=1$ 时，$F(x)$ 在 $x=0$ 处不可导；④当 $a\ne1$ 时，$F(x)$ 在 $x=0$ 处不可导。所有真命题的序号为\ExamSelection
+      设 $f(x)=\begin{cases}e^{x^2}+x^2,&x\ne0,\\a,&x=0,\end{cases}$，其中 $a$ 为常数，令 $F(x)=\int_{-1}^{x}f(t)\,\mathrm{d}t$，则以下命题：\n①当 $a=1$ 时，$F(x)$ 在 $x=0$ 处可导；\n②当 $a\ne1$ 时，$F(x)$ 在 $x=0$ 处可导；\n③当 $a=1$ 时，$F(x)$ 在 $x=0$ 处不可导；\n④当 $a\ne1$ 时，$F(x)$ 在 $x=0$ 处不可导。\n所有真命题的序号为\ExamSelection
   choices:
   - label: A
     text: ①②。
@@ -290,3 +289,4 @@ questions:
   - text: 证明 $A$ 为正定矩阵；
   - text: |-
       求一个可逆矩阵 $P$，使得 $P^{\mathrm{T}}AP$ 与 $P^{\mathrm{T}}BP$ 均为对角矩阵。
+content_hash: 90fc31b643808e5d49f1fc0e3f1465f528d1d93c330dd4362711039ca76d5dbc

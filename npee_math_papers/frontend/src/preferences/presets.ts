@@ -8,7 +8,7 @@
 
 import { DEFAULT_PREFERENCES, type Preferences } from "./types";
 
-export interface AccentPreset {
+interface AccentPreset {
   name: Preferences["accent"];
   label: string;
   /** Base accent; hover and soft variants are derived in CSS. */

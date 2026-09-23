@@ -4,11 +4,10 @@ paper:
   year: 2026
   subject: math2
   paper_no: 2
-content_hash: fd994b2bf5f767cae2a2993f9d1c5f13650976f447eb129c2002f8a69d4c386d
 questions:
 - number: 1
   section: choice
-  points:
+  points: 5
   stem:
     text: |-
       函数 $f(x)=\dfrac{\left(\mathrm{e}^{\dfrac{1}{x-1}}-1\right)|x|}{(x+1)\ln|x-1|}$ 的第一类间断点的个数为\ExamSelection
@@ -27,10 +26,10 @@ questions:
     figures: []
 - number: 2
   section: choice
-  points:
+  points: 5
   stem:
     text: |-
-      已知数列 $\{x_n\}$，以下结论：①当 $\lim_{n\to\infty}\cos(\arctan x_n)$ 存在时，$\lim_{n\to\infty}x_n$ 存在，其中 $-\infty<x_n<+\infty$；②当 $\lim_{n\to\infty}\cos(\tan x_n)$ 存在时，$\lim_{n\to\infty}x_n$ 存在，其中 $-\dfrac{\pi}{2}<x_n<\dfrac{\pi}{2}$；③当 $\lim_{n\to\infty}\sin(\arctan x_n)$ 存在时，$\lim_{n\to\infty}x_n$ 存在，其中 $-\infty<x_n<+\infty$；④当 $\lim_{n\to\infty}\sin(\tan x_n)$ 存在时，$\lim_{n\to\infty}x_n$ 存在，其中 $-\dfrac{\pi}{2}<x_n<\dfrac{\pi}{2}$；正确结论的个数为\ExamSelection
+      已知数列 $\{x_n\}$，以下结论：\n①当 $\lim_{n\to\infty}\cos(\arctan x_n)$ 存在时，$\lim_{n\to\infty}x_n$ 存在，其中 $-\infty<x_n<+\infty$；\n②当 $\lim_{n\to\infty}\cos(\tan x_n)$ 存在时，$\lim_{n\to\infty}x_n$ 存在，其中 $-\dfrac{\pi}{2}<x_n<\dfrac{\pi}{2}$；\n③当 $\lim_{n\to\infty}\sin(\arctan x_n)$ 存在时，$\lim_{n\to\infty}x_n$ 存在，其中 $-\infty<x_n<+\infty$；\n④当 $\lim_{n\to\infty}\sin(\tan x_n)$ 存在时，$\lim_{n\to\infty}x_n$ 存在，其中 $-\dfrac{\pi}{2}<x_n<\dfrac{\pi}{2}$；\n正确结论的个数为\ExamSelection
   choices:
   - label: A
     text: $0$
@@ -46,7 +45,7 @@ questions:
     figures: []
 - number: 3
   section: choice
-  points:
+  points: 5
   stem:
     text: |-
       设函数 $y=f(x)$ 由 $\begin{cases}x=2t+|t|,\\y=|t|(\mathrm{e}^t-1)\end{cases}$ 确定，则\ExamSelection
@@ -65,7 +64,7 @@ questions:
     figures: []
 - number: 4
   section: choice
-  points:
+  points: 5
   stem:
     text: |-
       设 $I_1=\int_0^1\dfrac{x}{\sqrt{1-x^2}}\,\mathrm{d}x$，$I_2=\int_0^1\dfrac{\cos x}{\sqrt{1-x^2}}\,\mathrm{d}x$，$I_3=\int_0^1\dfrac{\sin x}{\sqrt{1-x^2}}\,\mathrm{d}x$，则\ExamSelection
@@ -84,7 +83,7 @@ questions:
     figures: []
 - number: 5
   section: choice
-  points:
+  points: 5
   stem:
     text: |-
       一个直径为 $20\,\mathrm{m}$ 的倒圆锥形水池，深 $a\,\mathrm{m}$，水密度为 $\rho\,\mathrm{kg}/\mathrm{m}^3$，重力加速度为 $g\,\mathrm{m}/\mathrm{s}^2$，若将盛满的水全部抽出，至少需做功 $75\rho g\pi\,\mathrm{J}$，则 $a=$\ExamSelection
@@ -103,7 +102,7 @@ questions:
     figures: []
 - number: 6
   section: choice
-  points:
+  points: 5
   stem:
     text: |-
       设 $z=z(x,y)$ 是由方程 $\int_{2x-3y}^{z}f(2x-3y+z-t)\,\mathrm{d}t=\sin(2x-3y+z)$ 所确定的函数，其中 $f$ 为关于 $1$ 的连续函数，则\ExamSelection
@@ -126,7 +125,7 @@ questions:
     figures: []
 - number: 7
   section: choice
-  points:
+  points: 5
   stem:
     text: |-
       设 $a$ 与 $b$ 都是常数，若反常积分 $\int_0^{+\infty}\dfrac{x^a(1-\mathrm{e}^{-x})}{(1+x)^b}\,\mathrm{d}x$ 收敛，则 $a$ 与 $b$ 的取值范围为\ExamSelection
@@ -149,7 +148,7 @@ questions:
     figures: []
 - number: 8
   section: choice
-  points:
+  points: 5
   stem:
     text: |-
       已知 $\alpha_1=(1,2)^{\mathsf T}$，$\alpha_2=(a,1)^{\mathsf T}$，$x=(x_1,x_2)^{\mathsf T}$，若二次型 $f(x_1,x_2)=\sum_{i=1}^{2}[\alpha_i,x]^2$ 正定，其中 $[\alpha_i,x]$ 表示向量 $\alpha_i,x$ 的内积 $(i=1,2)$，则 $a$ 的取值范围是\ExamSelection
@@ -172,7 +171,7 @@ questions:
     figures: []
 - number: 9
   section: choice
-  points:
+  points: 5
   stem:
     text: |-
       下列矩阵中，可以经过若干次初等行变换得到矩阵 $\begin{pmatrix}1&1&0&1\\0&1&0&0\\0&0&0&0\end{pmatrix}$ 的是\ExamSelection
@@ -195,7 +194,7 @@ questions:
     figures: []
 - number: 10
   section: choice
-  points:
+  points: 5
   stem:
     text: |-
       设 $A$ 为 $2$ 阶方阵，$\alpha$ 为 $2$ 维非零列向量，且 $\alpha$ 不是 $A$ 的特征向量，$P=(\alpha,A\alpha)$，$A^2\alpha+A\alpha-2\alpha=0$，若矩阵 $B$ 满足 $AP=PB$，则 $B=$\ExamSelection
@@ -296,3 +295,4 @@ questions:
       证明 $\alpha,\beta,\eta_1,\eta_2$ 线性无关；
   - text: |-
       判断矩阵 $A$ 与 $\begin{pmatrix}3&1&0&0\\0&3&0&0\\0&0&0&0\\0&0&0&0\end{pmatrix}$ 是否相似，并说明理由。
+content_hash: 5ec6d758cb6947077dd0892056e183eb20870685d74825c59a6da2ad2b0f3723

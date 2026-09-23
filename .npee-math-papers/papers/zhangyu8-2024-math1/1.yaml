@@ -4,7 +4,6 @@ paper:
   year: 2024
   subject: math1
   paper_no: 1
-content_hash: baaa56e8f34687db2893d2c2981086e57fbf7883a3c89dded6cd7ff7e242f2f6
 questions:
 - number: 1
   section: choice
@@ -75,7 +74,7 @@ questions:
   points: 5
   stem:
     text: |-
-      使得 $\oint_L ((2y)^3-3y)\,\mathrm{d}x-x^3\,\mathrm{d}y$ 的值最大的平面正向边界曲线 $L$ 为\ExamSelection
+      使得 $\oint_L (2y^3-3y)\,\mathrm{d}x-x^3\,\mathrm{d}y$ 的值最大的平面正向边界曲线 $L$ 为\ExamSelection
   choices:
   - label: A
     text: $3x^2+y^2=1$
@@ -307,3 +306,4 @@ questions:
   stem:
     text: |-
       设 $X_1,X_2$ 为来自总体 $X\sim U[0,2\theta]$ 的简单随机样本，$Y_1,Y_2,Y_3$ 为来自总体 $Y\sim U[0,4\theta]$ 的简单随机样本，且两样本相互独立，其中 $\theta$（$\theta>0$）是未知参数。利用样本 $X_1,X_2,Y_1,Y_2,Y_3$，求 $\theta$ 的最大似然估计量 $\hat{\theta}$，并求 $D(\hat{\theta})$。
+content_hash: 4047e6984539187087cc6dbbc661cbfcc4cf492278d8cbddcdc52034483460c5

@@ -1,0 +1,297 @@
+schema_version: '3.0'
+paper:
+  series_key: lilin6
+  year: 2027
+  subject: math2
+  paper_no: 1
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      当 $x\to0$ 时，$ax+bx^2+\ln(1+x)$ 与 $\mathrm{e}^{x^2}-\cos x$ 是等价无穷小，则下列选项正确的是\ExamSelection
+  choices:
+  - label: A
+    text: $a=-1,b=2$
+    figures: []
+  - label: B
+    text: $a=-1,b=-2$
+    figures: []
+  - label: C
+    text: $a=1,b=2$
+    figures: []
+  - label: D
+    text: $a=1,b=-2$
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $a,b,k$ 均为不为零的常数，则 $\lim_{x\to a}\dfrac{f(x)-b}{x-a}=k$ 是 $\lim_{x\to a}\dfrac{\mathrm{e}^{f(x)}-\mathrm{e}^b}{x-a}=k\mathrm{e}^b$ 的\ExamSelection
+  choices:
+  - label: A
+    text: 充分非必要条件
+    figures: []
+  - label: B
+    text: 必要非充分条件
+    figures: []
+  - label: C
+    text: 充分必要条件
+    figures: []
+  - label: D
+    text: 既非充分又非必要条件
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $\mathrm{e}<x_1<x_2$，且 \n①$x_2\ln x_2>x_1\ln x_1$，\n②$x_1\ln x_2<x_2\ln x_1$，\n③$x_2\ln x_2<x_1\ln x_1$，\n④$x_1\ln x_2>x_2\ln x_1$。\n则下列不等式成立的是\ExamSelection
+  choices:
+  - label: A
+    text: ②③
+    figures: []
+  - label: B
+    text: ①②
+    figures: []
+  - label: C
+    text: ①④
+    figures: []
+  - label: D
+    text: ③④
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(\alpha)=\lim_{x\to0}\dfrac{(1+x)^\alpha-1}{x^\alpha}$ 有界，$\alpha\in\mathbf{R}$，则 $\alpha$ 的取值范围为\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $(-\infty,0)$
+    figures: []
+  - label: B
+    text: |-
+      $(-\infty,1]$
+    figures: []
+  - label: C
+    text: |-
+      $(-\infty,1)$
+    figures: []
+  - label: D
+    text: |-
+      $(-\infty,0]$
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $\int_0^{\dfrac{\pi}{2}}(\mathrm{e}^{\cos x}+\mathrm{e}^{\sin x})\,\mathrm{d}x\leq a$，则下列四个选项中 $a$ 最小可取\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $\pi\mathrm{e}^{\sqrt2}$
+    figures: []
+  - label: B
+    text: |-
+      $\mathrm{e}^{\dfrac{\sqrt2}{2}}$
+    figures: []
+  - label: C
+    text: |-
+      $\pi\mathrm{e}^{\dfrac{\sqrt2}{2}}$
+    figures: []
+  - label: D
+    text: |-
+      $2\mathrm{e}^{\sqrt2}$
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设连续函数 $f(x,y)$ 满足 $\lim_{(x,y)\to(1,0)}\dfrac{f(x,y)-x+2y+2}{\sqrt{(x-1)^2+y^2}}=0$，则 $\lim_{u\to0}\dfrac{f(1+3u,0)-f(1,2u)}{u}=$\ExamSelection
+  choices:
+  - label: A
+    text: '1'
+    figures: []
+  - label: B
+    text: '3'
+    figures: []
+  - label: C
+    text: '5'
+    figures: []
+  - label: D
+    text: '7'
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $y=y(x)$ 满足 $y''+4y'+4y=0,y(0)=0$，且 $\int_0^{+\infty}y(x)\,\mathrm{d}x=\dfrac14$，则 $y(x)$ 的极大值为\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $2\mathrm{e}$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{1}{2\mathrm{e}}$
+    figures: []
+  - label: C
+    text: |-
+      $\mathrm{e}$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{1}{\mathrm{e}}$
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 为4阶实矩阵，则 $r(A)-r(A^2)$ 取值不可能为\ExamSelection
+  choices:
+  - label: A
+    text: '0'
+    figures: []
+  - label: B
+    text: '1'
+    figures: []
+  - label: C
+    text: '2'
+    figures: []
+  - label: D
+    text: '3'
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 是3阶实对称矩阵，$r(A)=1$，$\boldsymbol{\alpha}=(-1,1,1)^{\mathrm{T}}$ 满足 $(A-2E)\boldsymbol{\alpha}=0$，则方程组 $AX=0$ 的基础解系为\ExamSelection
+  choices:
+  - label: A
+    text: |-
+      $(1,1,0)^{\mathrm{T}},(1,-1,0)^{\mathrm{T}}$
+    figures: []
+  - label: B
+    text: |-
+      $(1,1,0)^{\mathrm{T}},(1,0,1)^{\mathrm{T}}$
+    figures: []
+  - label: C
+    text: |-
+      $(1,1,0)^{\mathrm{T}},(1,1,1)^{\mathrm{T}}$
+    figures: []
+  - label: D
+    text: |-
+      $(1,1,0)^{\mathrm{T}},(1,0,-1)^{\mathrm{T}}$
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 为3阶实矩阵，则下列选项中能推出 $A$ 必有特征值1的是\ExamSelection
+  choices:
+  - label: A
+    text: 2是 $A+A^{-1}$ 的一个特征值
+    figures: []
+  - label: B
+    text: |-
+      2是 $A+A^{\mathrm{T}}$ 的一个特征值
+    figures: []
+  - label: C
+    text: 2是 $A+A^*$ 的一个特征值
+    figures: []
+  - label: D
+    text: 2是 $A+A^2$ 的一个特征值
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)$ 在 $x=1$ 处连续，$\lim_{x\to1}\dfrac{f(x)-5x+2}{\ln x}=1$，则 $f'(1)=$\ExamBlank.
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      已知 $f(x)=\ln x-a\sqrt{x}\,(a>0)$ 在 $x\in(0,+\infty)$ 内有唯一零点，则 $a=$\ExamBlank.
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      已知 $y=\int_1^{1+\sin t}\left(1+\mathrm{e}^{\dfrac1s}\right)\mathrm{d}s$，其中 $t=t(x)$ 由 $\begin{cases}x=\cos 2v,\\t=\sin v\end{cases}$ 确定，则 $\dfrac{\mathrm{d}y}{\mathrm{d}x}=$\ExamBlank.
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设反常积分 $I=\int_0^{+\infty}\dfrac{\arctan x}{x^a(2+x^3)}\,\mathrm{d}x$ 收敛，则 $a$ 的取值范围为\ExamBlank.
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      双纽线 $r^2=a^2\cos2\theta\,(a>0)$ 绕极轴旋转一周所得旋转曲面的面积为\ExamBlank.
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设3阶行列式 $|A|=1$，将矩阵 $A$ 的第1列加到第2列得到 $B$，$A^*$ 是 $A$ 的伴随矩阵，则 $|A^*+B^{-1}|=$\ExamBlank.
+- number: 17
+  section: solution
+  points: 10
+  stem:
+    text: |-
+      设 $f''(x)$ 在 $x=0$ 处连续，$f'(0)=0,f''(0)=1$，求 $\lim_{x\to0}\dfrac{\int_0^x\{f(t)-f[\ln(1+t)]\}\,\mathrm{d}t}{x^4}$.
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $x\geq0,y\geq0$，有 $(x^2+y^2)\mathrm{e}^{-x-y}\leq k\mathrm{e}^{-2}$，求 $k$ 的最小值.
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $D=\{(x,y)\mid 2y\leq x^2+y^2\leq2x,y\geq0\}$，计算 $I=\iint_D\ln\left(1+\dfrac{xy}{x^2+y^2}\right)\mathrm{d}x\,\mathrm{d}y$.
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设非负函数 $y=f(x)\,(x\geq0)$ 满足 $xf''(x)-f'(x)=-2$，且曲线 $y=f(x)$ 过原点，其与直线 $x=1,y=0$ 围成平面区域 $D$ 的面积为2，求 $y=f(x)$ 及 $D$ 绕 $y$ 轴旋转一周所得旋转体的体积.
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $f(x)$ 在 $(-\infty,+\infty)$ 内有二阶连续导数，且对 $\forall x,y\in(-\infty,+\infty)$，有 $f\left(\dfrac{x+y}{2}\right)\leq\dfrac{f(x)+f(y)}{2}$.
+  subparts:
+  - text: |-
+      证明：对 $\forall x\in(-\infty,+\infty)$，有 $f''(x)\geq0$；
+  - text: |-
+      若 $f(x)$ 在 $[-1,1]$ 上为非负偶函数，证明：$\int_{-1}^1 f(x)\,\mathrm{d}x\leq f(0)+f(1)$.
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $A=\begin{pmatrix}1&-\dfrac12&-\dfrac12\\1&-\dfrac12&-\dfrac12\\-2&1&1\end{pmatrix}$.
+  subparts:
+  - text: |-
+      求一个正交矩阵 $Q=(\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3)$，使得 $Q^{-1}A^{\mathrm{T}}AQ=\mathrm{diag}(\lambda_1,\lambda_2,\lambda_3)$，其中 $\lambda_1\geq\lambda_2\geq\lambda_3$ 为 $A^{\mathrm{T}}A$ 的特征值；
+  - text: |-
+      在第（I）问的基础上，若 $P=(\boldsymbol{\beta}_1,\boldsymbol{\beta}_2,\boldsymbol{\beta}_3)$ 为正交矩阵，且 $\boldsymbol{\beta}_1=\dfrac{1}{\sqrt{\lambda_1}}A\boldsymbol{\alpha}_1$，求 $(P^{-1}AQ)^8$.
+content_hash: b4e3312671768538c1ea0c8a3fa340a9e6650b13d4e0e12ef20ce913f3d44b25

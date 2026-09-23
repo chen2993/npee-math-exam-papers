@@ -4,7 +4,6 @@ paper:
   year: 2024
   subject: math2
   paper_no: 3
-content_hash: 54dc822d2292bd453ab80e9585d44b575c0941a587039a60cf342954345abba0
 questions:
 - number: 1
   section: choice
@@ -94,7 +93,7 @@ questions:
   points: 5
   stem:
     text: |-
-      反常积分：①$\displaystyle\int_1^{+\infty}\dfrac{1}{\sqrt{\ln x}}\,\mathrm{d}x$；②$\displaystyle\int_1^{+\infty}\dfrac{x\arctan x}{1+x^3}\,\mathrm{d}x$ 的敛散性分别是\ExamSelection。
+      反常积分：\n①$\displaystyle\int_1^{+\infty}\dfrac{1}{\sqrt{\ln x}}\,\mathrm{d}x$；\n②$\displaystyle\int_1^{+\infty}\dfrac{x\arctan x}{1+x^3}\,\mathrm{d}x$ 的敛散性分别是\ExamSelection。
   choices:
   - label: A
     text: 收敛；收敛
@@ -293,3 +292,4 @@ questions:
   - text: 求常数 $a$ 的值。
   - text: 求一个正交变换 $x=Qy$ 化二次型为标准形。
   - text: 求方程 $f(x_1,x_2,x_3)=0$ 的解。
+content_hash: 47b6d5b6a57783fcd8a8eb51fca9b8b22f76650736e6342c2d65329ac454f125

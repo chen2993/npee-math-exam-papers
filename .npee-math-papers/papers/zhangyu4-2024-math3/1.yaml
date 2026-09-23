@@ -4,7 +4,6 @@ paper:
   year: 2024
   subject: math3
   paper_no: 1
-content_hash: fdd675b6921cab678da6ae0989e5d9a43c74adc245393fac0220ca1818626813
 questions:
 - number: 1
   section: choice
@@ -33,7 +32,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $\{a_n\}$ 为非零数列，则下列命题：①若 $\{\sin a_n\}$ 收敛，则 $\{a_n\}$ 收敛；②若 $\{\arcsin(\sin a_n)\}$ 收敛，则 $\{a_n\}$ 收敛；③若 $\{a_n\}$ 收敛，则 $\{\sin a_n\}$ 收敛；④若 $\{a_n\}$ 收敛，则 $\left\{\sin\dfrac{1}{a_n}\right\}$ 收敛。正确命题的个数为\ExamSelection
+      设 $\{a_n\}$ 为非零数列，则下列命题：\n①若 $\{\sin a_n\}$ 收敛，则 $\{a_n\}$ 收敛；\n②若 $\{\arcsin(\sin a_n)\}$ 收敛，则 $\{a_n\}$ 收敛；\n③若 $\{a_n\}$ 收敛，则 $\{\sin a_n\}$ 收敛；\n④若 $\{a_n\}$ 收敛，则 $\left\{\sin\dfrac{1}{a_n}\right\}$ 收敛。\n正确命题的个数为\ExamSelection
   choices:
   - label: A
     text: 1。
@@ -98,7 +97,7 @@ questions:
   points: 5
   stem:
     text: |-
-      已知 $\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3,\boldsymbol{\alpha}_4$ 是 3 维非零列向量，则下列命题：①若 $\boldsymbol{\alpha}_4$ 可由 $\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3$ 线性表示，则 $\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3+\boldsymbol{\alpha}_4$ 线性无关；②若 $\boldsymbol{\alpha}_4$ 可由 $\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3$ 线性表示，则 $r(\boldsymbol{\alpha}_1+\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3)=r(\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3,\boldsymbol{\alpha}_4)$；③若 $\boldsymbol{\alpha}_4$ 不能由 $\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3$ 线性表示，则 $\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3$ 线性相关；④若 $\boldsymbol{\alpha}_4$ 不能由 $\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3$ 线性表示，则 $2\leq r(\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3,\boldsymbol{\alpha}_4)\leq 3$。正确命题的个数为\ExamSelection
+      已知 $\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3,\boldsymbol{\alpha}_4$ 是 3 维非零列向量，则下列命题：\n①若 $\boldsymbol{\alpha}_4$ 可由 $\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3$ 线性表示，则 $\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3+\boldsymbol{\alpha}_4$ 线性无关；\n②若 $\boldsymbol{\alpha}_4$ 可由 $\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3$ 线性表示，则 $r(\boldsymbol{\alpha}_1+\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3)=r(\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3,\boldsymbol{\alpha}_4)$；\n③若 $\boldsymbol{\alpha}_4$ 不能由 $\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3$ 线性表示，则 $\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3$ 线性相关；\n④若 $\boldsymbol{\alpha}_4$ 不能由 $\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3$ 线性表示，则 $2\leq r(\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3,\boldsymbol{\alpha}_4)\leq 3$。\n正确命题的个数为\ExamSelection
   choices:
   - label: A
     text: 1。
@@ -271,7 +270,11 @@ questions:
   points: 10
   stem:
     text: |-
-      已知函数 $f(x)=\dfrac{1}{x}-\dfrac{1}{e^x-1}$，记 $a=\lim_{x\to0^+}f(x)$。\NPEEQuestionContinuation (1) 求 $a$ 的值；\NPEEQuestionContinuation (2) 若当 $x\to0$ 时，$f(x)-a$ 与 $x^k$ 是同阶无穷小，求 $k$ 的值。
+      已知函数 $f(x)=\dfrac{1}{x}-\dfrac{1}{e^x-1}$，记 $a=\lim_{x\to0^+}f(x)$。
+  subparts:
+  - text: 求 $a$ 的值；
+  - text: |-
+      若当 $x\to0$ 时，$f(x)-a$ 与 $x^k$ 是同阶无穷小，求 $k$ 的值。
 - number: 18
   section: solution
   points: 12
@@ -314,3 +317,4 @@ questions:
   - text: 求 $Y$ 的分布律；
   - text: |-
       求 $\lambda$ 的最大似然估计量 $\hat{\lambda}$。
+content_hash: 3e4a4b893fae46a92863846df81542ba885e1c357f01255fe9495f888ea8c85d

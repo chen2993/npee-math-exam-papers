@@ -4,7 +4,6 @@ paper:
   year: 2024
   subject: math1
   paper_no: 2
-content_hash: 9b426bec0fffd59498f650d70aaadba8859381359b3618114bbf343a3512dfc7
 questions:
 - number: 1
   section: choice
@@ -50,7 +49,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设函数 $f(x,y)=\begin{cases}xy,&xy\ne0,\\y,&x=0,\\x,&y=0,\end{cases}$，$\boldsymbol{l}=(\cos\alpha,\sin\alpha)$ 为任意不平行于坐标轴的单位向量，给出以下结论：① $\dfrac{\partial f(0,0)}{\partial y}=1$；② $\dfrac{\partial f(0,0)}{\partial l}=0$；③ $(1,1)$ 是 $f(x,y)$ 在点 $(0,0)$ 的梯度；④ $(1,0)$ 是 $f(x,y)$ 在点 $(0,0)$ 的梯度。正确结论的个数为\ExamSelection
+      设函数 $f(x,y)=\begin{cases}xy,&xy\ne0,\\y,&x=0,\\x,&y=0,\end{cases}$，$\boldsymbol{l}=(\cos\alpha,\sin\alpha)$ 为任意不平行于坐标轴的单位向量，给出以下结论：\n① $\dfrac{\partial f(0,0)}{\partial y}=1$；\n② $\dfrac{\partial f(0,0)}{\partial l}=0$；\n③ $(1,1)$ 是 $f(x,y)$ 在点 $(0,0)$ 的梯度；\n④ $(1,0)$ 是 $f(x,y)$ 在点 $(0,0)$ 的梯度。\n正确结论的个数为\ExamSelection
   choices:
   - label: A
     text: 1。
@@ -309,3 +308,4 @@ questions:
   - text: 证明 $X$ 与 $Z$ 不独立；
   - text: |-
       计算 $F_U\left(\dfrac12\right)$ 的值。
+content_hash: 1381c6039ecfc1a229cf48ee453c03d7de83db91fb32d758cf024528d22d6fd5

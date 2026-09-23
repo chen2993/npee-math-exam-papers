@@ -4,7 +4,6 @@ paper:
   year: 2024
   subject: math1
   paper_no: 1
-content_hash: 00948c2b4c3d3c0bc9278b20558e717af65e143234b40be5045f5ef93b5756b3
 questions:
 - number: 1
   section: choice
@@ -68,7 +67,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $k$ 为实数，则下列说法正确的是\ExamSelection。① 设正项级数 $\sum_{n=1}^{\infty}u_n$ 满足 $\dfrac{u_{n+1}}{u_n}<1$，则级数 $\sum_{n=1}^{\infty}u_n$ 收敛；② 设级数 $\sum_{n=1}^{\infty}u_n$ 满足 $\left|\dfrac{u_{n+1}}{u_n}\right|\geq 1$，则级数 $\sum_{n=1}^{\infty}u_n$ 一定发散；③ 若 $\lim_{n\to\infty}\dfrac{a_n}{b_n}=k$，级数 $\sum_{n=1}^{\infty}b_n$ 绝对收敛，则 $\sum_{n=1}^{\infty}a_n$ 也绝对收敛；④ 若级数 $\sum_{n=1}^{\infty}a_n,\sum_{n=1}^{\infty}b_n$（$b_n\ne0$）均绝对收敛，则 $\lim_{n\to\infty}\left|\dfrac{a_n}{b_n}\right|=k$。
+      设 $k$ 为实数，则下列说法正确的是\ExamSelection。\n① 设正项级数 $\sum_{n=1}^{\infty}u_n$ 满足 $\dfrac{u_{n+1}}{u_n}<1$，则级数 $\sum_{n=1}^{\infty}u_n$ 收敛；\n② 设级数 $\sum_{n=1}^{\infty}u_n$ 满足 $\left|\dfrac{u_{n+1}}{u_n}\right|\geq 1$，则级数 $\sum_{n=1}^{\infty}u_n$ 一定发散；\n③ 若 $\lim_{n\to\infty}\dfrac{a_n}{b_n}=k$，级数 $\sum_{n=1}^{\infty}b_n$ 绝对收敛，则 $\sum_{n=1}^{\infty}a_n$ 也绝对收敛；\n④ 若级数 $\sum_{n=1}^{\infty}a_n,\sum_{n=1}^{\infty}b_n$（$b_n\ne0$）均绝对收敛，则 $\lim_{n\to\infty}\left|\dfrac{a_n}{b_n}\right|=k$。
   choices:
   - label: A
     text: ①③
@@ -110,7 +109,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $A,B$ 为 $n$ 阶可逆的实对称矩阵。① $A,B$ 的列向量组具有相同的线性相关性；② $A,B$ 的行向量组具有相同的线性相关性；③ 存在可逆矩阵 $P$，使 $P^{\mathrm{T}}A^2P=B^2$；④ 存在可逆矩阵 $P$，使 $P^{-1}ABP=BA$。以上说法正确的个数为\ExamSelection。
+      设 $A,B$ 为 $n$ 阶可逆的实对称矩阵。\n① $A,B$ 的列向量组具有相同的线性相关性；\n② $A,B$ 的行向量组具有相同的线性相关性；\n③ 存在可逆矩阵 $P$，使 $P^{\mathrm{T}}A^2P=B^2$；\n④ 存在可逆矩阵 $P$，使 $P^{-1}ABP=BA$。\n以上说法正确的个数为\ExamSelection。
   choices:
   - label: A
     text: $1$
@@ -303,3 +302,4 @@ questions:
   - text: |-
       协方差 $\operatorname{Cov}(U,V)$；
   - text: 判断 $U$ 和 $V$ 的独立性，并说明理由。
+content_hash: 77f3229f7dba1bfbac4ee4e658c2c80f33e5104b06c28b6a65183e159f35fad4

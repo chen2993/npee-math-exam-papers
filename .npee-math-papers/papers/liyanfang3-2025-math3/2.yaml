@@ -4,7 +4,6 @@ paper:
   year: 2025
   subject: math3
   paper_no: 2
-content_hash: 5b645aaac83496cd2880d98a625dea0d4c18c22d309968fef84ce971d5362a67
 questions:
 - number: 1
   section: choice
@@ -49,7 +48,7 @@ questions:
   points: 5
   stem:
     text: |-
-      无穷级数① $\sum_{n=1}^{\infty}\int_0^1x(1-\sqrt{x})^n\,\mathrm{d}x$，② $\sum_{n=1}^{\infty}\int_0^1\sqrt{x}(1-x)^n\,\mathrm{d}x$ 的敛散性为\ExamSelection。
+      无穷级数\n① $\sum_{n=1}^{\infty}\int_0^1x(1-\sqrt{x})^n\,\mathrm{d}x$，\n② $\sum_{n=1}^{\infty}\int_0^1\sqrt{x}(1-x)^n\,\mathrm{d}x$ 的敛散性为\ExamSelection。
   choices:
   - label: A
     text: ①，②均收敛。
@@ -298,3 +297,4 @@ questions:
       求 $\lambda$ 的最大似然估计量；
   - text: |-
       利用 $X$ 的二阶原点矩求 $\lambda$ 的矩估计量。
+content_hash: 1705b6aba7359f20a1f1afb2384fca037d7c64a4dc9c05e494e6d7254f39cbdc

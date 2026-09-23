@@ -25,8 +25,9 @@ from npee_math_papers.core.composition import (
     parse_composition,
     verify_bindings,
 )
-from npee_math_papers.core.errors import ValidationError
-from npee_math_papers.core.domain import DEFAULT_SPACING, SUBJECTS
+from npee_math_papers.core.domain import DEFAULT_PRINT, DEFAULT_SPACING, SUBJECTS, SUBJECT_TEMPLATE
+from npee_math_papers.core.errors import NotFoundError, ValidationError
+from npee_math_papers.core.store import atomic_write_json
 from npee_math_papers.service.context import ServiceContext
 from npee_math_papers.service.jobs import CompileJob, CompileJobStore
 from npee_math_papers.service.tex_builder import BuildOptions, build as build_tex
@@ -40,15 +41,24 @@ DEFAULT_DOCUMENT = {
     "theme": "print",
     "spacing": DEFAULT_SPACING,
     "opening": {"show": True, "candidate_info": True, "notices": True},
-    "solution": {"structure": "pair-first", "pair_count": 2},
 }
 
-#: Default compile matrix: the print deliverable on every paper stock.
+#: 默认编译矩阵：两种纸张各一份，默认留白（打印交付物）。
+#:
+#: ``spacing`` 只决定解答题怎么排，``print`` 只决定留白，两者互相独立。
 DEFAULT_COMPILE = {
     "engine": "xelatex",
     "passes": 3,
     "targets": [
-        {"layout": layout, "theme": "print", "spacing": DEFAULT_SPACING, "enabled": True, "answers": False, "output_suffix": None}
+        {
+            "layout": layout,
+            "theme": "print",
+            "spacing": DEFAULT_SPACING,
+            "print": DEFAULT_PRINT,
+            "enabled": True,
+            "answers": False,
+            "output_suffix": None,
+        }
         for layout in PRINT_LAYOUTS
     ],
     "output": {
@@ -222,6 +232,97 @@ class CompositionService:
 
         return self.validate(load_composition(Path(path)).to_dict())
 
+    # --- 组卷包仓库 --------------------------------------------------------
+    #
+    # ``composition/<id>/composition.json`` 是人工维护的组卷包（封面、Hook 与资源
+    # 都在同目录）。此前只有维护脚本会去读写它们，前端只能另存一份 localStorage
+    # 草稿，两边因此长期不同步；这里把它当作服务端仓库暴露出来，浏览器与 Agent
+    # 看到的是同一批文件。
+
+    @property
+    def packages_root(self) -> Path:
+        return self.repository_root / "composition"
+
+    def _package_path(self, composition_id: str) -> Path:
+        if not ID_RE.fullmatch(composition_id or ""):
+            raise ValidationError("composition_id 必须是小写 ASCII ID")
+        root = self.packages_root.resolve()
+        candidate = (root / composition_id / "composition.json").resolve()
+        # 目录穿越守卫：解析后的路径必须仍在 composition/ 之内。
+        if root not in candidate.parents:
+            raise ValidationError("composition_id 越出了 composition/ 目录")
+        return candidate
+
+    def list_packages(self) -> list[dict[str, Any]]:
+        """列出仓库里的组卷包，附带一份轻量摘要（不解析整份引用）。"""
+
+        if not self.packages_root.is_dir():
+            return []
+        entries: list[dict[str, Any]] = []
+        for path in sorted(self.packages_root.glob("*/composition.json")):
+            try:
+                spec = load_composition(path)
+            except Exception:  # 坏包不该让整个列表打不开
+                continue
+            document = spec.raw.get("document") or {}
+            compile_config = spec.raw.get("compile") or {}
+            targets = [
+                target for target in compile_config.get("targets") or []
+                if isinstance(target, dict) and target.get("enabled", True)
+            ]
+            subjects = compile_config.get("subjects") or ["math1"]
+            # ``$subject`` 引用会在每个科目下各展开一次，所以按科目数折算实际套数；
+            # 只写死科目的引用算一套。这样列表里的数字与真正会排版出来的卷数一致。
+            paper_count = sum(
+                len(subjects) if paper.subject == SUBJECT_TEMPLATE else 1
+                for paper in spec.papers
+            )
+            entries.append({
+                "composition_id": spec.composition_id,
+                "title": spec.title,
+                "group_count": len(spec.groups),
+                "reference_count": len(spec.papers),
+                "paper_count": paper_count,
+                "subjects": list(subjects),
+                "target_count": len(targets),
+                "layout": document.get("layout"),
+                "theme": document.get("theme"),
+                "spacing": document.get("spacing"),
+                "has_cover": bool((document.get("cover") or {}).get("path")),
+            })
+        return entries
+
+    def load_package(self, composition_id: str) -> dict[str, Any]:
+        """读取一个组卷包的完整文档（含封面与 Hook 声明）。"""
+
+        path = self._package_path(composition_id)
+        if not path.is_file():
+            raise NotFoundError(f"组卷包不存在：{composition_id}")
+        data = json.loads(path.read_text(encoding="utf-8"))
+        return {
+            "composition_id": composition_id,
+            "path": path.relative_to(self.repository_root).as_posix(),
+            "composition": data,
+            "validation": self.validate(data),
+        }
+
+    def save_package(self, composition_id: str, composition: Mapping[str, Any]) -> dict[str, Any]:
+        """把一份组卷文档写回 ``composition/<id>/composition.json``。
+
+        先校验再落盘，因此写坏一个包不会被静默保存。封面、Hook 等资源不在这里
+        管理——它们本来就是包内的普通文件，缺哪个由编译时的相对路径检查报出来。
+        """
+
+        path = self._package_path(composition_id)
+        self.validate(composition)
+        path.parent.mkdir(parents=True, exist_ok=True)
+        atomic_write_json(path, dict(composition))
+        return {
+            "composition_id": composition_id,
+            "path": path.relative_to(self.repository_root).as_posix(),
+            "validation": self.validate(composition),
+        }
+
     def compile_collection(
         self,
         path: str | Path,
@@ -236,7 +337,7 @@ class CompositionService:
     ) -> CompileResult:
         """编译一个组卷包目录下的 ``composition.json``。
 
-        组卷包（``collections/<id>/``）可以在 ``composition.json`` 旁放置封面、前言与
+        组卷包（``composition/<id>/``）可以在 ``composition.json`` 旁放置封面、前言与
         Hook 等 ``.tex`` 资源。本方法读取该文件并把这些包内资源一并交给构建器，因此
         走用例层（HTTP/MCP/启动器）时也能解析包内相对路径。
         """
@@ -294,7 +395,7 @@ class CompositionService:
                     report=result,
                 )
         work = Path(work_dir) if work_dir else self.repository_root / "build" / "compositions" / composition_id / "generated"
-        out = Path(output_dir) if output_dir else self.repository_root / "build" / "compositions" / composition_id / "output"
+        out = Path(output_dir) if output_dir else self.repository_root / "dist" / composition_id
         work.mkdir(parents=True, exist_ok=True)
         composition_path = work.parent / "composition.json"
         composition_path.write_text(json.dumps(composition, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")

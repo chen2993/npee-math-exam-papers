@@ -4,7 +4,6 @@ paper:
   year: 2025
   subject: math2
   paper_no: 1
-content_hash: 92bc6c21e8a7761f74c0f7617c9f02474c6e8251f2cd12d377b306a3eed458b5
 questions:
 - number: 1
   section: choice
@@ -53,7 +52,7 @@ questions:
   points: 5
   stem:
     text: |-
-      已知函数 $f(x,y)=\begin{cases}\dfrac{x^2y}{x^2+y^2},&(x,y)\ne(0,0),\\0,&(x,y)=(0,0),\end{cases}$ 则以下四个命题：① $f(x,y)$ 在点 $(0,0)$ 处连续；② $f(x,y)$ 在点 $(0,0)$ 处偏导数存在；③ $f(x,y)$ 在点 $(0,0)$ 处沿任意方向的方向导数存在；④ $f(x,y)$ 在点 $(0,0)$ 处不可微。以上正确的个数为\ExamSelection。
+      已知函数 $f(x,y)=\begin{cases}\dfrac{x^2y}{x^2+y^2},&(x,y)\ne(0,0),\\0,&(x,y)=(0,0),\end{cases}$ 则以下四个命题：\n① $f(x,y)$ 在点 $(0,0)$ 处连续；\n② $f(x,y)$ 在点 $(0,0)$ 处偏导数存在；\n③ $f(x,y)$ 在点 $(0,0)$ 处沿任意方向的方向导数存在；\n④ $f(x,y)$ 在点 $(0,0)$ 处不可微。\n以上正确的个数为\ExamSelection。
   choices:
   - label: A
     text: '1'
@@ -278,8 +277,12 @@ questions:
   section: solution
   points: 12
   stem:
-    text: |-
-      设函数 $f(x)$ 在 $[0,1]$ 上具有三阶连续导数。 (1) 证明：存在 $\xi\in[0,1]$，使得 $\displaystyle\int_0^1f(x)\,\mathrm{d}x=f\left(\dfrac12\right)+\dfrac1{24}f''(\xi)$； (2) 若 $|f'''(x)|\le1$，证明 $\displaystyle\left|f(1)-f(0)-f'\left(\dfrac12\right)\right|\le\dfrac1{24}$。
+    text: 设函数 $f(x)$ 在 $[0,1]$ 上具有三阶连续导数。
+  subparts:
+  - text: |-
+      证明：存在 $\xi\in[0,1]$，使得 $\displaystyle\int_0^1f(x)\,\mathrm{d}x=f\left(\dfrac12\right)+\dfrac1{24}f''(\xi)$；
+  - text: |-
+      若 $|f'''(x)|\le1$，证明 $\displaystyle\left|f(1)-f(0)-f'\left(\dfrac12\right)\right|\le\dfrac1{24}$。
 - number: 21
   section: solution
   points: 12
@@ -291,4 +294,10 @@ questions:
   points: 12
   stem:
     text: |-
-      已知实矩阵 $A=\begin{pmatrix}3&2&-2\\-a&-1&a\\4&2&-3\end{pmatrix}$ 与对角矩阵相似，求：(1) 常数 $a$ 的值；(2) 一个可逆矩阵 $P$，使得 $P^{-1}AP$ 为对角矩阵；(3) 判断矩阵 $AA^{\mathrm T}$ 是否为正定矩阵，并说明理由。
+      已知实矩阵 $A=\begin{pmatrix}3&2&-2\\-a&-1&a\\4&2&-3\end{pmatrix}$ 与对角矩阵相似，求：
+  subparts:
+  - text: 常数 $a$ 的值；
+  - text: 一个可逆矩阵 $P$，使得 $P^{-1}AP$ 为对角矩阵；
+  - text: |-
+      判断矩阵 $AA^{\mathrm T}$ 是否为正定矩阵，并说明理由。
+content_hash: af2de59c406cc9deb3b1957766aa03ed2647cdf46006d3d87fab375cd4998e03

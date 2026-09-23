@@ -4,7 +4,6 @@ paper:
   year: 2026
   subject: math1
   paper_no: 7
-content_hash: 9bd77fea12ffc8a376ea5c188058e061fe73c0be85ab9ae156898d83a8ea5cda
 questions:
 - number: 1
   section: choice
@@ -30,7 +29,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $f(x)$ 在 $(0,+\infty)$ 内可导，$a$ 为常数。对于以下结论：①若 $\lim_{x\to+\infty}f'(x)=a$，则 $\lim_{x\to+\infty}\dfrac{f(x)}{x}=a$；②若 $\lim_{x\to+\infty}\dfrac{f(x)}{x}=a$，则 $\lim_{x\to+\infty}f'(x)=a$。下列说法中正确的是\ExamSelection
+      设 $f(x)$ 在 $(0,+\infty)$ 内可导，$a$ 为常数。对于以下结论：\n①若 $\lim_{x\to+\infty}f'(x)=a$，则 $\lim_{x\to+\infty}\dfrac{f(x)}{x}=a$；\n②若 $\lim_{x\to+\infty}\dfrac{f(x)}{x}=a$，则 $\lim_{x\to+\infty}f'(x)=a$。\n下列说法中正确的是\ExamSelection
   choices:
   - label: A
     text: ①正确，②错误。
@@ -301,3 +300,4 @@ questions:
   subparts:
   - text: 3 天总供应量的概率密度；
   - text: 连续 3 天中最大供应量的概率密度。
+content_hash: b394c85cfec8c022168fad9ae6230f5d4f8b9e38f4331018c094df0bbac61d73

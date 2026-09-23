@@ -4,7 +4,6 @@ paper:
   year: 2024
   subject: math1
   paper_no: 3
-content_hash: 79f935f8871ed405f5d7c99d8acf8e779743efd2e702bd66dacde0d847d617c2
 questions:
 - number: 1
   section: choice
@@ -49,7 +48,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $f(x)$ 是在 $(-\infty,+\infty)$ 内以 $T$ 为周期的连续函数，以下命题中正确的个数为\ExamSelection。① 若 $\int_0^T f(x)\,\mathrm{d}x=0$，则 $\int_0^x f(t)\,\mathrm{d}t$ 是以 $T$ 为周期的函数；② 若 $f(x)$ 是奇函数，则 $\int_0^x f(t)\,\mathrm{d}t$ 是以 $T$ 为周期的函数；③ 若 $\int_0^{+\infty}f(x)\,\mathrm{d}x$ 收敛，则 $\int_0^x f(t)\,\mathrm{d}t$ 是以 $T$ 为周期的函数；④ 函数 $F(x)=\int_0^x[f(t)-f(-t)]\,\mathrm{d}t$ 是以 $T$ 为周期的函数。
+      设 $f(x)$ 是在 $(-\infty,+\infty)$ 内以 $T$ 为周期的连续函数，以下命题中正确的个数为\ExamSelection。\n① 若 $\int_0^T f(x)\,\mathrm{d}x=0$，则 $\int_0^x f(t)\,\mathrm{d}t$ 是以 $T$ 为周期的函数；\n② 若 $f(x)$ 是奇函数，则 $\int_0^x f(t)\,\mathrm{d}t$ 是以 $T$ 为周期的函数；\n③ 若 $\int_0^{+\infty}f(x)\,\mathrm{d}x$ 收敛，则 $\int_0^x f(t)\,\mathrm{d}t$ 是以 $T$ 为周期的函数；\n④ 函数 $F(x)=\int_0^x[f(t)-f(-t)]\,\mathrm{d}t$ 是以 $T$ 为周期的函数。
   choices:
   - label: A
     text: $1$
@@ -108,7 +107,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $A$ 为 $3$ 阶实对称可逆矩阵，将 $A$ 的第一行的 $2$ 倍加到第三行，再将第一行乘 $2$ 得到 $B$，将矩阵 $B$ 的第一列的 $2$ 倍加到第三列，再将第一列乘 $2$ 得到矩阵 $C$，则矩阵 $A^*$ 与 $C^T$\ExamSelection。
+      设 $A$ 为 $3$ 阶实对称可逆矩阵，将 $A$ 的第一行的 $2$ 倍加到第三行，再将第一行乘 $2$ 得到 $B$，将矩阵 $B$ 的第一列的 $2$ 倍加到第三列，再将第一列乘 $2$ 得到矩阵 $C$，则矩阵 $A^*$ 与 $C^*$\ExamSelection。
   choices:
   - label: A
     text: 合同但不相似
@@ -296,3 +295,4 @@ questions:
   - text: 求 $Y$ 的分布函数 $F_Y(y)$ 及概率密度 $f_Y(y)$；
   - text: |-
       求 $\mathrm{E}Y$ 和 $\mathrm{D}Y$。
+content_hash: 2dae8120014bbbce6be553dfc07c2bf7e19512f1a344765b4188d72da5b14afc

@@ -4,7 +4,6 @@ paper:
   year: 2023
   subject: math3
   paper_no: 2
-content_hash: 2fc755561ba8879374a76cf00bd806ea933f0878757155f92622315c3099d1dd
 questions:
 - number: 1
   section: choice
@@ -139,7 +138,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $A$ 为 $n$ 阶正定矩阵，特征值为 $\lambda_n\geqslant\lambda_{n-1}\geqslant\cdots\geqslant\lambda_1>1$，$Q$ 为正交矩阵，则下列命题中，正确命题的个数是\ExamSelection\quad ①$A+Q^TA^{-1}Q$ 是正定矩阵；\quad ②$A+Q^TA^{-1}Q$ 的最小特征值为 $\lambda_1+\dfrac{1}{\lambda_1}$；\quad ③$A+Q^TA^{-1}Q$ 的最大特征值为 $\lambda_n+\dfrac{1}{\lambda_n}$；\quad ④若 $\alpha$ 为 $A$ 的特征向量，则 $Q^T\alpha$ 为 $Q^TA^{-1}Q$ 的特征向量。
+      设 $A$ 为 $n$ 阶正定矩阵，特征值为 $\lambda_n\geqslant\lambda_{n-1}\geqslant\cdots\geqslant\lambda_1>1$，$Q$ 为正交矩阵，则下列命题中，正确命题的个数是\ExamSelection\quad \n①$A+Q^TA^{-1}Q$ 是正定矩阵；\quad \n②$A+Q^TA^{-1}Q$ 的最小特征值为 $\lambda_1+\dfrac{1}{\lambda_1}$；\quad \n③$A+Q^TA^{-1}Q$ 的最大特征值为 $\lambda_n+\dfrac{1}{\lambda_n}$；\quad \n④若 $\alpha$ 为 $A$ 的特征向量，则 $Q^T\alpha$ 为 $Q^TA^{-1}Q$ 的特征向量。
   choices:
   - label: A
     text: $1$。
@@ -298,3 +297,4 @@ questions:
   subparts:
   - text: 求 $Y$ 的分布函数 $F_Y(y)$；
   - text: 求 $E(Y)$。
+content_hash: 0eef9eb40059578687a2788f5ba6ae16bdb431749bb0c67d10755bcc838d1232
