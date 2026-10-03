@@ -10,6 +10,8 @@
 \usepackage[margin=2.2cm,top=2.6cm]{geometry}
 \usepackage{amsmath,amssymb,bm}
 \usepackage{tikz}
+\usetikzlibrary{patterns,arrows.meta,calc}
+\usepgflibrary{plothandlers}
 \usepackage{xcolor}
 \usepackage{fancyhdr}
 \usepackage{hyperref}
@@ -45,7 +47,7 @@
 \end{center}
 \vspace{2pt}
 \begin{center}
-  \small 依据源页逐题回图核对，共 147 处经复核，其中 17 处为题库识别错误并已更正。
+  \small 依据源页逐题回图核对，共 163 处经复核，其中 17 处为题库识别错误并已更正。
 \end{center}
 \vspace{6pt}
 \hrule
@@ -80,20 +82,6 @@
 则正确结论的个数为\ExamSelection}}
 \Paper{2026 张宇八套卷（数学一）第 4 套}
 \pair{4：\rc{（整段重录）} $\longrightarrow$ \gc{若级数 $\sum_{n=1}^{\infty}|u_nv_n|$ 发散，则\ExamSelection}}
-\pair{7：\rc{（整段重录）} $\longrightarrow$ \gc{\begin{tikzpicture}[scale=1.0,line width=0.5pt]
-% P 为三张平面的公共点，Q 为公共棱的下端（PQ 即公共交线）
-\coordinate (P) at (2.15,4.35);
-\coordinate (Q) at (2.15,1.50);
-% 左侧平面（外侧棱上有一处折角）
-\draw (0.48,4.25) -- (P) -- (Q) -- (0.20,0.48) -- (0.20,3.25) -- (0.48,3.45) -- cycle;
-% 右侧平面（外侧棱上有一处折角）
-\draw (P) -- (3.75,4.40) -- (3.90,3.68) -- (4.15,3.55) -- (4.15,0.75) -- (3.83,0.80) -- (Q);
-% 第三个平面在左右两平面上的交线
-\draw (P) -- (0.48,3.45);
-\draw (P) -- (3.90,3.68);
-% P 上方左右两个三角形面片
-\draw (1.13,4.88) -- (1.13,4.35) -- (P) -- cycle;
-\draw (3.20,4.98) -- (3.20,4.40) -- (P) -- cycle;
-\end{tikzpicture}}}
+\pair{7：图形重绘（源页 zhangyu8-2026-math1/pages/p047.png）。第四套第46页图逐像素测量：图形外接框 160×181px（高宽比 1.131），三平面公共点 P 位于图高约 14％ 处（图顶到 P 仅 6px），P 上方是两个带短竖直边的三角面片并用长斜线汇入 P，P 处另有近水平双线，自 P 竖直向下引公共交线直抵下部楔形顶点，两平面外侧棱各有一处折角。重读版几何的高宽比 1.139、P 同样位于图高 14％ 处，与源页吻合；题库版高宽比 1.348、P 位于图高 31％ 处，顶部呈四边折面、缺少过 P 的竖直公共交线。按各自外接框归一化后与源页笔画比对（3px 容差）：重读版源笔画覆盖率 0.836、笔画命中率 0.904、平均偏差 1.79px；题库版仅 0.439 / 0.404 / 5.33px。故按重读版修正，坐标与连线为源页忠实几何，scale 与 line width 为排版参数}
 
 \end{document}

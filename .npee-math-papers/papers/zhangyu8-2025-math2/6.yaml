@@ -132,7 +132,7 @@ questions:
     figures:
     - kind: tikz
       latex: |-
-        \begin{tikzpicture}[scale=0.75]\draw[->] (-0.25,0)--(3.8,0) node[right] {$x$};\draw[->] (0,-0.35)--(0,3.1) node[above] {$y$};\draw[thick] (0,2.45) .. controls (0.55,2.15) and (0.7,0.7) .. (3.1,0);\draw (0,0.35)--(1.55,1.05);\draw[dashed] (0,1.05) node[left] {$y$}--(1.55,1.05)--(1.55,0) node[below] {$x$};\fill (0,2.45) circle (1.5pt) node[left] {$(0,s)$};\fill (1.55,1.05) circle (1.5pt) node[right] {$(x,y)$};\fill (3.1,0) circle (1.5pt) node[below] {$B(l,0)$};\node[left] at (0,-0.12) {$A$};\node[right] at (0.6,2.15) {$y=y(x)$};\end{tikzpicture}
+        \begin{tikzpicture}[scale=0.9,>=stealth] \draw[->] (-0.5,0) -- (4.4,0) node[below right] {$x$}; \draw[->] (0,-0.5) -- (0,3.9) node[above right] {$y$}; \node[below left] at (0,0) {$A$}; \coordinate (S) at (0,2.70); \coordinate (P) at (1.30,1.35); \coordinate (T) at (2.60,0); \coordinate (B) at (3.05,0); \draw (S) -- (T); \draw[smooth,smooth tension=0.8] plot coordinates {(0.60,3.40) (0.85,2.10) (1.30,1.35) (1.85,0.75) (2.45,0.28) (3.05,0)}; \node at (1.60,2.95) {$y=y(x)$}; \draw[dashed] (P) -- (0,1.35); \node[left] at (0,1.35) {$y$}; \draw[dashed] (P) -- (1.30,0); \node[below] at (1.30,0) {$x$}; \fill (S) circle (1.4pt); \node[left] at (S) {$(0,s)$}; \fill (P) circle (1.4pt); \node[above right] at (P) {$(x,y)$}; \fill (B) circle (1.4pt); \node[below] at (B) {$B(l,0)$}; \end{tikzpicture}
       path:
       description: 点 A 沿 y 轴上移、点 B 从 (l,0) 追踪 A 的曲线示意图
       exception_reason:
@@ -298,4 +298,4 @@ questions:
   - text: 求 $a,b$ 的值
   - text: |-
       用正交矩阵 $\boldsymbol{Q}$ 将 $f(x_1,x_2)=\boldsymbol{x}^{\mathrm{T}}\boldsymbol{BAx}$ 化为标准形
-content_hash: 25f7ead21b537dc839111baa5bdc4b26533ac3fa6e3b860097275389cee56010
+content_hash: 152c78fdf30eaaaf2ac934343cbe80ec96ce1d5e9a8fa8390960dd96c523b49e

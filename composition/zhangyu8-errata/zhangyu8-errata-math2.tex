@@ -10,6 +10,8 @@
 \usepackage[margin=2.2cm,top=2.6cm]{geometry}
 \usepackage{amsmath,amssymb,bm}
 \usepackage{tikz}
+\usetikzlibrary{patterns,arrows.meta,calc}
+\usepgflibrary{plothandlers}
 \usepackage{xcolor}
 \usepackage{fancyhdr}
 \usepackage{hyperref}
@@ -45,7 +47,7 @@
 \end{center}
 \vspace{2pt}
 \begin{center}
-  \small 依据源页逐题回图核对，共 147 处经复核，其中 5 处为题库识别错误并已更正。
+  \small 依据源页逐题回图核对，共 163 处经复核，其中 8 处为题库识别错误并已更正。
 \end{center}
 \vspace{6pt}
 \hrule
@@ -60,5 +62,10 @@ e0$。若 $\dfrac{\partial^2z}{\partial x\partial y}=0$，则常数 $a=$\ExamSel
 \pair{4：\rc{（整段重录）} $\longrightarrow$ \gc{设 $f(x)$ 是以 $2$ 为周期的连续函数，$\int_0^2f(x)\,\mathrm{d}x=1$，$g(x)$ 是过点 $(-\dfrac{1}{2},0)$ 和 $(0,1)$ 的直线，则 $\int_0^2f[g(x)]\,\mathrm{d}x=$\ExamSelection}}
 \pair{21：\rc{（整段重录）} $\longrightarrow$ \gc{设 $f(x)$ 在 $[-a,a]$（$a>0$）上二阶可导，且 $f(-a)=-1,f(a)=1,f'(-a)=f'(a)=0,|f''(x)|\leq1$。证明：}}
 \pair{21：\rc{（整段重录）} $\longrightarrow$ \gc{$a>\sqrt{2}$。}}
+\Paper{2025 张宇八套卷（数学二）第 2 套}
+\pair{3：图形重绘（源页 zhangyu8-2025-math2/pages/p007.png）。源页 p007（卷(二)，页脚「第6页」已核对）第3题右侧图：两圆 ＄x＾2+y＾2=2y＄（纵轴标 ＄2＄、＄1＄）与 ＄x＾2+y＾2=1＄（标 ＄-1＄）相交于 ＄y=／frac12＄ 高度；在 ＄y=1＄ 处与交点高度 ＄y=／frac12＄ 处各印一条水平虚线（10～12 倍放大裁片 ad3-zhangyu8-2025-math2-p2＿q3＿arczoom.png、＿p2＿q3＿lines.png 可见上下两排短划），且两圆在交点之间的内侧弧画成虚线（镜片区内侧四段短斜划）。题库 tikz 把两圆画成完整实线圆、只保留 ＄y=0.5＄ 一条水平虚线，漏掉 ＄y=1＄ 处的水平虚线且内侧弧未画虚；重读 tikz 两条水平虚线与虚线内侧弧齐全，与源页一致。}
+\pair{16：\rc{（整段重录）} $\longrightarrow$ \gc{设 $\mathbf{A}=\begin{pmatrix}a&&\\&b&\\&&a\end{pmatrix}$，$\mathbf{P}=\begin{pmatrix}2&1&0\\0&2&1\\0&0&2\end{pmatrix}$，则 $\mathbf{P}^{2}\mathbf{A}\mathbf{P}^{-1}=$\ExamBlank。}}
+\Paper{2025 张宇八套卷（数学二）第 6 套}
+\pair{7：图形重绘（源页 zhangyu8-2025-math2/pages/p024.png）。源页 p024（卷(六)，页脚「第22页」已核对）第7题图：＄x＄、＄y＄ 轴交于 ＄A＄；纵轴上 ＄(0,s)＄ 处一个实心点，自 ＄(0,s)＄ 向右下引一条直线，该直线经过实心点 ＄(x,y)＄ 后继续下行落于 ＄x＄ 轴；曲线 ＄y=y(x)＄ 的上端是一个不触纵轴的自由端点（位于 ＄(0,s)＄ 右上方），向下与直线在 ＄(x,y)＄ 处相交，再趋平落到 ＄x＄ 轴上的 ＄B(l,0)＄；＄(x,y)＄ 向纵轴、横轴各画一条虚线，分别标 ＄y＄、＄x＄。像素级描迹（裁片 ad3-zhangyu8-2025-math2-p6＿q7＿grid2.png、＿p6＿q7＿tangent.png，后者约 10 倍放大）显示：直线自纵轴 ＄y／approx872＄ px 处以约 0.84 的斜率单调下行，曲线自 ＄(0,s)＄ 右上方的自由…}
 
 \end{document}

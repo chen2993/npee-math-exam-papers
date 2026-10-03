@@ -10,6 +10,8 @@
 \usepackage[margin=2.2cm,top=2.6cm]{geometry}
 \usepackage{amsmath,amssymb,bm}
 \usepackage{tikz}
+\usetikzlibrary{patterns,arrows.meta,calc}
+\usepgflibrary{plothandlers}
 \usepackage{xcolor}
 \usepackage{fancyhdr}
 \usepackage{hyperref}
@@ -45,7 +47,7 @@
 \end{center}
 \vspace{2pt}
 \begin{center}
-  \small 依据源页逐题回图核对，共 147 处经复核，其中 13 处为题库识别错误并已更正。
+  \small 依据源页逐题回图核对，共 163 处经复核，其中 13 处为题库识别错误并已更正。
 \end{center}
 \vspace{6pt}
 \hrule
@@ -54,7 +56,7 @@
 \Paper{2025 张宇八套卷（数学三）第 3 套}
 \pair{2：\rc{（整段重录）} $\longrightarrow$ \gc{设常数$m>0,n>0$，则$\int_0^n\sqrt{x}\left[\dfrac{m}{x}\right]\,\mathrm{d}x$（$[\cdot]$是取整符号）的敛散性\ExamSelection}}
 \Paper{2025 张宇八套卷（数学三）第 4 套}
-\pair{21：\rc{（整段重录）} $\longrightarrow$ \gc{\begin{tikzpicture}[>=stealth,thick,scale=0.9]\coordinate (T) at (0,1.4);\coordinate (L) at (-1.8,0);\coordinate (R) at (1.8,0);\coordinate (B) at (0,-1.4);\draw[->] (0,2.2)--node[right]{$a$}(T);\draw[->] (T)--node[above left]{$x_1$}(L);\draw[->] (T)--node[above right]{$x_2$}(R);\draw[->] (L)--node[below]{$x_3$}(R);\draw[->] (L)--node[below left]{$x_4$}(B);\draw[->] (B)--node[below right]{$x_5$}(R);\draw[->] (L)--node[above]{$40$}(-2.8,0);\draw[->] (R)--node[above]{$100$}(2.8,0);\draw[->] (B)--node[right]{$b$}(0,-2.2);\fill (T) circle (1.4pt) (L) circle (1.4pt) (R) circle (1.4pt) (B) circle (1.4pt);\end{tikzpicture}}}
+\pair{21：图形重绘（源页 zhangyu8-2025-math3/pages/p018.png）。源页 x5 边的箭头在靠 (100) 交汇点一端、指向右上，即 x5 自下方节点流向右侧节点；题库绘成 (R)--(B)（自右节点流向下方节点），流向画反。其余 a、x1、x2、x3、x4、40、100、b 各边与源页一致}
 \Paper{2025 张宇八套卷（数学三）第 6 套}
 \pair{7（A）：\rc{（整段重录）} $\longrightarrow$ \gc{$r(A\quad AB)=r(A)$。}}
 \pair{7（B）：\rc{（整段重录）} $\longrightarrow$ \gc{$r(AB^{\mathrm T}\quad AB^{\mathrm T}B)=r(AB^{\mathrm T})$。}}

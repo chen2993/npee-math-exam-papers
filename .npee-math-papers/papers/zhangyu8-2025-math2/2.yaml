@@ -4,7 +4,6 @@ paper:
   year: 2025
   subject: math2
   paper_no: 2
-content_hash: 5f08de5d9affca210507c6c1348627975f43a3bd60cbdf707ce11ddf2806a67b
 questions:
 - number: 1
   section: choice
@@ -55,7 +54,7 @@ questions:
     figures:
     - kind: tikz
       latex: |-
-        \begin{tikzpicture}[scale=0.9]\draw[->](-1.7,0)--(1.8,0)node[right]{$x$};\draw[->](0,-1.5)--(0,2.6)node[above]{$y$};\draw(0,1)circle(1);\draw(0,0)circle(1);\draw[dashed](-.87,.5)--(.87,.5);\node[left]at(0,2){$2$};\node[left]at(0,1){$1$};\node[left]at(0,.5){$\dfrac12$};\node[left]at(0,-1){$-1$};\node[right]at(.85,1.75){$x^2+y^2=2y$};\node[right]at(.7,-.85){$x^2+y^2=1$};\node[below left]at(0,0){$O$};\end{tikzpicture}
+        \begin{tikzpicture}[scale=1.0] \draw[->] (-1.9,0) -- (2.0,0) node[below right] {$x$}; \draw[->] (0,-1.6) -- (0,2.85) node[right] {$y$}; \node[left] at (-0.10,2.18) {$2$}; \node[left] at (-0.10,1.17) {$1$}; \node[left] at (-0.10,0.52) {$\dfrac{1}{2}$}; \node[left] at (-0.10,-1) {$-1$}; \node[below right] at (0.10,-0.12) {$O$}; \draw[dashed] (-1,1) -- (1,1); \draw[dashed] (-0.866,0.5) -- (0.866,0.5); \draw[thick] ([shift={(0,1)}]330:1) arc[start angle=330, end angle=570, radius=1]; \draw[thick,dashed] ([shift={(0,1)}]210:1) arc[start angle=210, end angle=330, radius=1]; \draw[thick] ([shift={(0,0)}]150:1) arc[start angle=150, end angle=390, radius=1]; \draw[thick,dashed] ([shift={(0,0)}]30:1) arc[start angle=30, end angle=150, radius=1]; \node[right] at (1.12,1.78) {$x^{2}+y^{2}=2y$}; \node[right] at (1.12,-0.88) {$x^{2}+y^{2}=1$}; \end{tikzpicture}
       path:
       description: 容器母线由圆 x^2+y^2=2y 与 x^2+y^2=1 的相应圆弧组成，虚线标出 y=1
       exception_reason:
@@ -278,7 +277,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $\mathbf{A}=\begin{pmatrix}a\\b\\a\end{pmatrix},\mathbf{P}=\begin{pmatrix}2&1&0\\0&2&1\\0&0&2\end{pmatrix}$，则 $\mathbf{P}^2\mathbf{A}\mathbf{P}^{-1}=$\ExamBlank。
+      设 $\mathbf{A}=\begin{pmatrix}a&&\\&b&\\&&a\end{pmatrix}$，$\mathbf{P}=\begin{pmatrix}2&1&0\\0&2&1\\0&0&2\end{pmatrix}$，则 $\mathbf{P}^{2}\mathbf{A}\mathbf{P}^{-1}=$\ExamBlank。
 - number: 17
   section: solution
   points: 10
@@ -327,3 +326,4 @@ questions:
       是否存在可逆矩阵 $\mathbf{D}$，使 $\mathbf{B}=\mathbf{D}^{\mathrm{T}}\mathbf{D}$？若存在，求出矩阵 $\mathbf{D}$，若不存在，请说明理由；
   - text: |-
       求 $\displaystyle\max_{\mathbf{x}\neq0}\dfrac{f(\mathbf{x})}{g(\mathbf{x})}$，其中 $\mathbf{x}=\begin{pmatrix}x_1\\x_2\end{pmatrix}$。
+content_hash: 4b5605210893ba24cf5f9e1d5688129c2cb049db9112df45316002df4a2bacaa
