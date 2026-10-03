@@ -269,7 +269,11 @@ def main() -> int:
 
         shutil.rmtree(temp_root, ignore_errors=True)
 
-    return 1 if (compile_fail or leak_fail or collection_fail) else 0
+    # `collection_fail` only exists on the `--compositions` path; referencing it
+    # unconditionally raised NameError *after* a clean run, so a fully passing
+    # library still exited with a traceback and a failure code.
+    failed_any = compile_fail or leak_fail or (composition_fail if args.compositions else 0)
+    return 1 if failed_any else 0
 
 
 if __name__ == "__main__":
