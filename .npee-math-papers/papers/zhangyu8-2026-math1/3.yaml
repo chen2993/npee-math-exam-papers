@@ -97,7 +97,7 @@ questions:
     figures: []
   - label: B
     text: |-
-      $AP_2^9P_1^{\mathrm T}=B$。
+      $AP_2^{\mathrm T}P_1^9=B$。
     figures: []
   - label: C
     text: |-
@@ -131,7 +131,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $A$ 为 $n$ 阶方阵，有下列结论：\n①若 $A$ 的全部顺序主子式为正，则 $A$ 正定；\n②若 $A$ 相似于对角矩阵 $A$，则 $A$ 与 $A$ 合同；\n③若 $A$ 与正定矩阵合同，则 $A$ 为正定矩阵。\n则正确结论的个数为\ExamSelection
+      设 $A$ 为 $n$ 阶方阵，有下列结论：\n①若 $A$ 的全部顺序主子式为正，则 $A$ 正定；\n②若 $A$ 相似于对角矩阵 $\Lambda$，则 $A$ 与 $\Lambda$ 合同；\n③若 $A$ 与正定矩阵合同，则 $A$ 为正定矩阵。\n则正确结论的个数为\ExamSelection
   choices:
   - label: A
     text: $0$。
@@ -302,4 +302,4 @@ questions:
       $P\{Y=k\mid X=x\}$，$k=0,1,2$；
   - text: |-
       $\rho_{XY}$。
-content_hash: 6915d560cf82a3f63fc4680c3a195d6258fc55d89e58e1c309638c788a6fc580
+content_hash: df1611edc6f9ef8d8d32a3a7989336e5681257de8b470e9269884ca20c8554ee

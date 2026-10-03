@@ -71,7 +71,7 @@ questions:
   points: 5
   stem:
     text: |-
-      若级数 $\sum_{n=1}^{\infty}|u_n|$ 发散，则\ExamSelection
+      若级数 $\sum_{n=1}^{\infty}|u_nv_n|$ 发散，则\ExamSelection
   choices:
   - label: A
     text: |-
@@ -141,7 +141,7 @@ questions:
     figures:
     - kind: tikz
       latex: |-
-        \begin{tikzpicture}[scale=0.55]\draw (-1.5,0)--(-1.5,2.3)--(0.2,3.1)--(0.1,0.8)--cycle;\draw (0.1,0.8)--(1.8,0.1)--(1.7,2.5)--(0.2,3.1);\draw (0.2,3.1)--(0.5,4.1)--(1.2,4.45)--(1.15,3.35);\draw (-1.5,2.3)--(-0.9,3.35)--(0.2,3.1);\draw (-0.9,3.35)--(-0.7,4.2)--(0.5,4.1);\draw (1.7,2.5)--(1.15,3.35);\end{tikzpicture}
+        \begin{tikzpicture}[scale=1.0,line width=0.5pt] \coordinate (P) at (2.15,4.35); \coordinate (Q) at (2.15,1.50); \draw (0.48,4.25) -- (P) -- (Q) -- (0.20,0.48) -- (0.20,3.25) -- (0.48,3.45) -- cycle; \draw (P) -- (3.75,4.40) -- (3.90,3.68) -- (4.15,3.55) -- (4.15,0.75) -- (3.83,0.80) -- (Q); \draw (P) -- (0.48,3.45); \draw (P) -- (3.90,3.68); \draw (1.13,4.88) -- (1.13,4.35) -- (P) -- cycle; \draw (3.20,4.98) -- (3.20,4.40) -- (P) -- cycle; \end{tikzpicture}
       path:
       description: 三张相交平面的位置关系示意图
       exception_reason:
@@ -306,4 +306,4 @@ questions:
   - text: 求 $T$ 的概率密度；
   - text: |-
       当 $T_1,T_2,\cdots,T_n,\cdots$ 独立同分布于总体 $T$ 时，$\displaystyle\dfrac1n\sum_{i=1}^nT_i^2$ 在 $n\to\infty$ 的条件下依概率收敛于 $a$，求 $a$ 的值。
-content_hash: 9c3431145db571a39a0d47f3bfed9b23dc018959bbb1e0dea0a06ed293e6fefa
+content_hash: 99ef0df7f5998a7fb416f1e30558739dc8c56723a8979bb9d5622aa7955df8f8

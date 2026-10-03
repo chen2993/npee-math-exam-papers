@@ -4,7 +4,6 @@ paper:
   year: 2024
   subject: math2
   paper_no: 5
-content_hash: 37509bf42e8f023ee554ff622aa7497446d83b2962a5ca55e60db1ee7b0d9d5b
 questions:
 - number: 1
   section: choice
@@ -71,7 +70,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $f(x)$ 是以 $2$ 为周期的连续函数，$\int_0^2f(x)\,\mathrm{d}x=1$，$g(x)$ 是过点 $(-\dfrac{1}{2},0)$ 和 $(0,1)$ 的直线，则 $\int_0^2\lfloor f(x)g(x)\rfloor\,\mathrm{d}x=$\ExamSelection
+      设 $f(x)$ 是以 $2$ 为周期的连续函数，$\int_0^2f(x)\,\mathrm{d}x=1$，$g(x)$ 是过点 $(-\dfrac{1}{2},0)$ 和 $(0,1)$ 的直线，则 $\int_0^2f[g(x)]\,\mathrm{d}x=$\ExamSelection
   choices:
   - label: A
     text: $-2$。
@@ -290,15 +289,16 @@ questions:
   points: 12
   stem:
     text: |-
-      设 $f(x)$ 在 $[-a,a]$（$a>0$）上二阶可导，且 $f(-a)=-1,f(a)=1,f'(-a)-f'(a)=0,|f'(x)|\leq1$。证明：
+      设 $f(x)$ 在 $[-a,a]$（$a>0$）上二阶可导，且 $f(-a)=-1,f(a)=1,f'(-a)=f'(a)=0,|f''(x)|\leq1$。证明：
   subparts:
   - text: |-
       $f'(x)\leq a-|x|$；
   - text: |-
-      $2a>\sqrt{2}$。
+      $a>\sqrt{2}$。
 - number: 22
   section: solution
   points: 12
   stem:
     text: |-
       若可逆线性变换 $\boldsymbol{x}=P\boldsymbol{y}$ 可将二次型 $f(x_1,x_2)=x_1^2+2x_2^2+2x_1x_2$ 化为规范形 $y_1^2+y_2^2$，同时将二次型 $g(x_1,x_2)=-x_1^2+2x_2^2+2x_1x_2$ 化为标准形 $k_1y_1^2+k_2y_2^2$，求可逆矩阵 $P$ 及 $k_1,k_2$ 的值。
+content_hash: 8caf62b16faf119600c9ece5e2ab7d9d8a1a7c0871f5ea6ed1abdad788d000f6

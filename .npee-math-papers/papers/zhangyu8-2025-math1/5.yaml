@@ -145,7 +145,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设随机事件 $A,B$ 满足 $0<P(A)<1,0<P(B)<1$，则 $P(AB)>P(A)P(B)$ 的充分条件是\ExamSelection
+      设随机事件 $A,B$ 满足 $0<P(A)<1,0<P(B)<1$，则 $P(AB)>P(A)P(B)$ 的充要条件是\ExamSelection
   choices:
   - label: A
     text: |-
@@ -153,7 +153,7 @@ questions:
     figures: []
   - label: B
     text: |-
-      $P(\overline{A}B)>P(\overline{A})P(\overline{B})$
+      $P(\overline{A}\,\overline{B})>P(\overline{A})P(\overline{B})$。
     figures: []
   - label: C
     text: |-
@@ -292,4 +292,4 @@ questions:
   subparts:
   - text: 证明 $Z$ 服从标准正态分布
   - text: $(Y,Z)$ 是否服从二维正态分布？说明理由
-content_hash: 328260eb699064026631634e24b41c8c9b2b43b1d9d9f3f7eb32bf99b49730b1
+content_hash: ec8314ae9a9db95a74f06aa59d63e9da2a2b23ee913868b1609ea079b4d3e8b7

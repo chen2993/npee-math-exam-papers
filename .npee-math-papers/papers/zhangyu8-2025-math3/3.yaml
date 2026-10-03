@@ -29,7 +29,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设常数$m>0,n>0$，则$\int_0^n\sqrt{x}\left[\dfrac{m}{x}\right]\,\mathrm{d}x$（$[\,]$是取整符号）的数值性\ExamSelection
+      设常数$m>0,n>0$，则$\int_0^n\sqrt{x}\left[\dfrac{m}{x}\right]\,\mathrm{d}x$（$[\cdot]$是取整符号）的敛散性\ExamSelection
   choices:
   - label: A
     text: 仅与$m$有关。
@@ -305,4 +305,4 @@ questions:
       求$\theta$的矩估计$\hat{\theta}_M$和最大似然估计$\hat{\theta}_L$；
   - text: |-
       计算$E(\hat{\theta}_M),E(\hat{\theta}_L)$，并比较$D(\hat{\theta}_M)$与$D(\hat{\theta}_L)$的大小。
-content_hash: 52e3666494af078371d0b31b9d5d6fae1a3e4999d7dc602e33444de27c5820db
+content_hash: f910b4bf91b378c2567870c9a73e8c9109c853f3d69443c2f93121b54def8b84

@@ -177,6 +177,15 @@ def main() -> int:
             _set_field_text(question, fix["field"], text.replace(fix["before"], fix["after"], 1))
         applied.append({**fix, "mode": edit["mode"]})
 
+    # Validate every edited paper *before* writing any of them. `write_paper`
+    # validates on its own, but it writes in a loop, so a bad replacement halfway
+    # through would leave the earlier papers already changed -- the batch would be
+    # half-applied and the bank would need a manual revert.
+    from npee_math_papers.core.paper import normalize_questions
+
+    for payload in touched.values():
+        normalize_questions(payload.questions, context=f"{payload.natural_key}.questions")
+
     for payload in touched.values():
         store.write_paper(payload, replace=True)
     store.rebuild_index()

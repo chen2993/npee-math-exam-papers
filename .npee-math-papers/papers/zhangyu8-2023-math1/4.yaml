@@ -199,7 +199,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设总体 $X$ 在 $(a,b)$ 上服从均匀分布，其中 $a,b$ 为未知参数，若对于 $X$ 的一组样本观测值 $x_1,x_2,\cdots,x_{10}$，$a,b$ 的矩估计值分别为 $\tilde a=2.6,\tilde b=6.2$，则该样本的样本方差为\ExamSelection
+      设总体 $X$ 在 $(a,b)$ 上服从均匀分布，其中 $a,b$ 为未知参数，若对于 $X$ 的一组样本观测值 $x_1,x_2,\cdots,x_{10}$，$a,b$ 的矩估计值分别为 $\hat{a}=2.6,\hat{b}=6.2$，则该样本的样本方差为\ExamSelection
   choices:
   - label: A
     text: $0.972$
@@ -230,7 +230,7 @@ questions:
   points: 5
   stem:
     text: |-
-      曲线 $y=e^{-\dfrac{x^2}{2}}\sqrt{\sin x}$ 在 $[0,2\pi]$ 部分与 $x$ 轴围成的图形绕 $x$ 轴旋转一周所成的旋转体的体积为 $\ExamBlank$。
+      曲线 $y=e^{-\frac{x}{2}}\sqrt{\sin x}$ 在 $[0,2\pi]$ 部分与 $x$ 轴围成的图形绕 $x$ 轴旋转一周所成的旋转体的体积为 $\ExamBlank$。
 - number: 14
   section: fill
   points: 5
@@ -303,4 +303,4 @@ questions:
       $\theta$ 的矩估计量 $\hat\theta_M$ 及 $E(\hat\theta_M)$；
   - text: |-
       $\theta$ 的最大似然估计量 $\hat\theta_L$ 及 $E(\hat\theta_L)$。
-content_hash: 7d7d5394484122e156c4d79052e8c9d24fe9af4c5f4bba88b3f1642c8f5e1f0c
+content_hash: 6c968b23f4273f2c3f93062e12f217350020c1653f8917dc182cdd115994a4f7

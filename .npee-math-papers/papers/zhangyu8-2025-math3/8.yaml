@@ -269,7 +269,7 @@ questions:
   points: 12
   stem:
     text: |-
-      求 $\displaystyle \sum_{n=1}^{\infty}\left[\dfrac{2+(-1)^n}{n\cdot 6^n}\right]^n$ 的值。
+      求 $\displaystyle \sum_{n=1}^{\infty}\dfrac{\left[2+(-1)^n\right]^n}{n\cdot 6^n}$ 的值。
 - number: 20
   section: solution
   points: 12
@@ -297,4 +297,4 @@ questions:
   - text: $E(Y_i),D(Y_i)$；
   - text: |-
       $\theta$ 的最大似然估计量。
-content_hash: cbfe423b3048e640ed6eeb9f59277f2250944af9d9b68ace9fe16209a8bd04dd
+content_hash: 8560865f463e3516c87e1d7a47c3a540fcad79cf3e75d30f05170464c39e8980

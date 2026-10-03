@@ -123,7 +123,7 @@ questions:
       以 $y=x$ 与 $y=xe^{-2x}$ 为特解的最低阶常系数齐次线性微分方程为\ExamSelection
   choices:
   - label: A
-    text: $y''+2y'=0$
+    text: $y'''+2y''=0$
     figures: []
   - label: B
     text: $y'''+4y''+4y'-4y=0$
@@ -308,4 +308,4 @@ questions:
       用正交变换 $\boldsymbol{x}=Q\boldsymbol{y}$ 将其化为标准形，并求出 $Q$；
   - text: |-
       求 $g(x_1,x_2,x_3)=\dfrac{f(x_1,x_2,x_3)}{x_1^2+x_2^2+x_3^2}$ 的最大值，并求出一个最大值点，其中 $x_1^2+x_2^2+x_3^2\neq0$。
-content_hash: fe48324d9971e12cd043f21d96c3b774245a973f97f44e693add3a0c8308ce83
+content_hash: e7afe82f4618ebf5f778e697c6794daaf4f96629f552f443e8091869ed1155c8

@@ -93,19 +93,19 @@ questions:
   choices:
   - label: A
     text: |-
-      $AP_1^{\mathrm T}P_2^{\mathrm T}=B$
+      $AP_1^9P_2^{\mathrm T}=B$
     figures: []
   - label: B
     text: |-
-      $AP_2^{\mathrm T}P_1^{\mathrm T}=B$
+      $AP_2^{\mathrm T}P_1^9=B$
     figures: []
   - label: C
     text: |-
-      $P_1^{\mathrm T}P_2^{\mathrm T}A=B$
+      $P_1^9P_2^{\mathrm T}A=B$
     figures: []
   - label: D
     text: |-
-      $P_2^{\mathrm T}P_1^{\mathrm T}A=B$
+      $P_2^{\mathrm T}P_1^9A=B$
     figures: []
 - number: 6
   section: choice
@@ -299,4 +299,4 @@ questions:
       $P\{Y=k\mid X=x\},k=0,1,2$；
   - text: |-
       $\rho_{XY}$。
-content_hash: 8509ce79e685171ca424dd9ff24a7fe6e6b0deece01acc2dd8fdeb282d6a8b38
+content_hash: f7702cb732835c5f85444187fa4b64daf5c6114dc2f0db0cae56769a15f94fb2

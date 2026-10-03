@@ -137,18 +137,20 @@ questions:
       设 $A,B$ 为 $n$ 阶实对称矩阵，则下列结论不成立的是\ExamSelection
   choices:
   - label: A
-    text: $r(A-AB)=r(A)$。
+    text: |-
+      $r(\boldsymbol{A}\ \ \boldsymbol{AB})=r(\boldsymbol{A})$。
     figures: []
   - label: B
     text: |-
-      $r\left(AB^{\mathsf T}-AB^{\mathsf T}B\right)=r(AB^{\mathsf T})$。
+      $r\left(\boldsymbol{AB}^\mathrm{T}\ \ \boldsymbol{AB}^\mathrm{T}\boldsymbol{B}\right)=r(\boldsymbol{AB}^\mathrm{T})$。
     figures: []
   - label: C
     text: |-
       $r\left(\begin{pmatrix}BA\\B^{\mathsf T}BA\end{pmatrix}\right)=r(AB^{\mathsf T})$。
     figures: []
   - label: D
-    text: $r(A^{T}A;B^{T}A)=r(A)$。
+    text: |-
+      $r\begin{pmatrix}\boldsymbol{A}^\mathrm{T}\boldsymbol{A}\\\boldsymbol{B}^\mathrm{T}\boldsymbol{A}\end{pmatrix}=r(\boldsymbol{A})$。
     figures: []
 - number: 8
   section: choice
@@ -159,7 +161,7 @@ questions:
   choices:
   - label: A
     text: |-
-      $A\cap C=\varnothing$。
+      $AC=\varnothing$。
     figures: []
   - label: B
     text: |-
@@ -301,4 +303,4 @@ questions:
       求 $\theta$ 的最大似然估计量 $\hat{\theta}$；
   - text: |-
       求 $E(\hat{\theta})$。
-content_hash: 8700eb50f733938177d4f842235f7134c472fc2c150cbdb31e8f0721b303d129
+content_hash: 602edd9272331b4c67be9321a0bc3033ca435e2a95a3c14e40f5e61f6a755794

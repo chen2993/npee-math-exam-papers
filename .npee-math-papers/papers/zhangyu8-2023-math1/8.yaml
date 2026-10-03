@@ -4,7 +4,6 @@ paper:
   year: 2023
   subject: math1
   paper_no: 8
-content_hash: e8d5561920f0a965742e39c9f528485eb4b482a30edb04172f8363571d833a18
 questions:
 - number: 1
   section: choice
@@ -167,7 +166,7 @@ questions:
     figures: []
   - label: D
     text: |-
-      $U^{|\alpha+1|}$
+      $U^{\alpha+1}$
     figures: []
 - number: 9
   section: choice
@@ -307,3 +306,4 @@ questions:
   - text: 求二维随机变量 $(U,V)$ 的概率密度 $g(u,v)$
   - text: |-
       设 $F(x)=\begin{cases}1-e^{-\lambda x},&x>0,\\0,&x\leq0,\end{cases}$ 其中 $\lambda>0$，求 $P\{U+V\leq1\}$
+content_hash: 21641dd4332c52d7bc710298f6d5b583bd307b8a020253b7cc8a6d8b08917f4e

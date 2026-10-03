@@ -4,7 +4,6 @@ paper:
   year: 2023
   subject: math2
   paper_no: 3
-content_hash: e0e1b3a3592a61e9261b27be8957b9627190a815a69615119541b3a778d231e3
 questions:
 - number: 1
   section: choice
@@ -121,7 +120,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $z=f(u,v),u=x-2y,v=x+ay$，函数 $f$ 具有二阶连续偏导数，且 $\dfrac{\partial^2z}{\partial u^2}=\dfrac{\partial^2z}{\partial v^2}$，$\dfrac{\partial^2z}{\partial u\partial v}\ne0$。若 $\dfrac{\partial^2z}{\partial x\partial y}=0$，则常数 $a=$\ExamSelection
+      设 $z=f(u,v),u=x-2y,v=x+ay$，函数 $f$ 具有二阶连续偏导数，且 $\dfrac{\partial^2z}{\partial u^2}=\dfrac{\partial^2z}{\partial v^2}$，$\dfrac{\partial^2z}{\partial u^2}+\dfrac{\partial^2z}{\partial u\partial v}\ne0$。若 $\dfrac{\partial^2z}{\partial x\partial y}=0$，则常数 $a=$\ExamSelection
   choices:
   - label: A
     text: $-2$
@@ -316,3 +315,4 @@ questions:
       求 $A^n\beta$；
   - text: |-
       求 $\left(A-\dfrac32E\right)^{100}$。
+content_hash: a9cfd10c52154067f7feab2a072962fba5ab0fc1ac722b002493466ad1a59e98

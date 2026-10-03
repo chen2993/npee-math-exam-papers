@@ -283,7 +283,7 @@ questions:
       设 $A$ 是 $3$ 阶矩阵，$\alpha_1,\alpha_2,\alpha_3$ 是线性无关的 $3$ 维列向量，且 $A\alpha_1=-\alpha_1-3\alpha_2-3\alpha_3$，$A\alpha_2=4\alpha_1+4\alpha_2+\alpha_3$，$A\alpha_3=-2\alpha_1+3\alpha_3$。
   subparts:
   - text: 求可逆矩阵 $P$，使得 $P^{-1}AP$ 为对角矩阵；
-  - text: 求 $A^*-E$ 的秩。
+  - text: 求 $A^*-6E$ 的秩。
 - number: 22
   section: solution
   points: 12
@@ -296,4 +296,4 @@ questions:
   - text: |-
       $\theta$ 的最大似然估计值；
   - text: $p$ 的最大似然估计值。
-content_hash: cac9929695ab0dc841afda6c099f9a16bffb6de2d18db887817de257355f89fc
+content_hash: cd927a10a4a44cef028ec503c4956fc75da7282b8afc21f25e0975c9a724b82c

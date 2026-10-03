@@ -4,7 +4,6 @@ paper:
   year: 2024
   subject: math1
   paper_no: 7
-content_hash: 8bc95ddbccf8cf59439300e43f9d440376f8305d5842975680e44216ff69c40b
 questions:
 - number: 1
   section: choice
@@ -40,7 +39,7 @@ questions:
       $\displaystyle \lim_{x\to0}\lim_{y\to0}f(x,y)=0$
     figures: []
   - label: C
-    text: $f_{xx}''(0,0)=1$
+    text: $f''_{yx}(0,0)=1$
     figures: []
   - label: D
     text: $f_y'(0,0)=1$
@@ -277,7 +276,7 @@ questions:
       设函数 $\displaystyle \int_0^x f(t)\,\mathrm{d}t$ 在 $[0,1]$ 上二阶导数连续，$\displaystyle \int_0^1f(x)\,\mathrm{d}x=1$，$\displaystyle \int_0^{\dfrac{1}{2}}f(x)\,\mathrm{d}x>\dfrac{1}{4}$，证明：
   subparts:
   - text: |-
-      存在 $\xi\in(0,1)$，使得 $f'(\xi)\leq2$；
+      存在 $\xi\in(0,1)$，使得 $f'(\xi)<2$；
   - text: |-
       若当 $0<x<1$ 时，$f'(x)\ne2$，则 $\displaystyle \int_0^x f(t)\,\mathrm{d}t>x^2$。
 - number: 20
@@ -309,3 +308,4 @@ questions:
       求 $\theta$ 的最大似然估计值 $\widehat{\theta}$；
   - text: |-
       记 $Y$ 为每天的退货量，根据 (1) 中的 $\widehat{\theta}$，求 $E(Y)$。
+content_hash: 1bca4fe095b5f829f768a7c6faef1072605fdb5e2fd3573b08f8a925c453ea56

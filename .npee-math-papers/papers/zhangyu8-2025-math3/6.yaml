@@ -133,11 +133,12 @@ questions:
       设 $A,B$ 为 $n$ 阶实对称矩阵，则下列结论不成立的是\ExamSelection
   choices:
   - label: A
-    text: $r(A-AB)=r(A)$。
+    text: |-
+      $r(A\quad AB)=r(A)$。
     figures: []
   - label: B
     text: |-
-      $r(AB^{\mathrm T}-AB^{\mathrm T}B)=r(AB^{\mathrm T})$。
+      $r(AB^{\mathrm T}\quad AB^{\mathrm T}B)=r(AB^{\mathrm T})$。
     figures: []
   - label: C
     text: |-
@@ -294,4 +295,4 @@ questions:
       求 $\theta$ 的最大似然估计量 $\hat{\theta}$；
   - text: |-
       求 $E(\hat{\theta})$。
-content_hash: 55f307747b7998e74c654285a5e01140933ff0e7ceef60ac14ec9de0ab8a6b6f
+content_hash: 6e07db65ac6afc5963197e22cea1945305f289ae90ad0ac201add01a08647e5f
