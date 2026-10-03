@@ -285,11 +285,6 @@ export function useCompositionWorkspace(repository: CompositionDraftRepository) 
     return true;
   }, [drafts, activeDraft]);
 
-  const renameActiveDraft = useCallback(
-    (name: string) => updateActiveDraft((draft) => ({ ...draft, name })),
-    [updateActiveDraft],
-  );
-
   return {
     drafts,
     activeDraft,
@@ -309,6 +304,5 @@ export function useCompositionWorkspace(repository: CompositionDraftRepository) 
     importDraft,
     duplicateActiveDraft,
     deleteActiveDraft,
-    renameActiveDraft,
   };
 }

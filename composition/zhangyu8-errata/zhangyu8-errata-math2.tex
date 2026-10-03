@@ -1,0 +1,64 @@
+% 张宇八套卷重新提取勘误（由 build/zy8_errata.py 生成，请勿手改）。
+%
+% 每份 PDF 只放一个科目；条目按「年份-套次 / 题号：原内容 → 正确内容」给，
+% 红色 = 题库原录入，绿色 = 更正后内容。
+%
+% 依据：对源页 PNG 的原生多模态观察（逐条裁片放大核对），
+% 未使用 OCR，未使用 PDF 文本层。
+\documentclass[11pt,a4paper]{ctexart}
+
+\usepackage[margin=2.2cm,top=2.6cm]{geometry}
+\usepackage{amsmath,amssymb,bm}
+\usepackage{tikz}
+\usepackage{xcolor}
+\usepackage{fancyhdr}
+\usepackage{hyperref}
+
+\definecolor{errata-red}{RGB}{198,40,40}
+\definecolor{errata-green}{RGB}{20,120,60}
+
+\newcommand{\rc}[1]{\textcolor{errata-red}{#1}}
+\newcommand{\gc}[1]{\textcolor{errata-green}{#1}}
+\newcommand{\Paper}[1]{\par\vspace{9pt}{\bfseries #1}\par\vspace{3pt}}
+\newcommand{\pair}[1]{\par\hangindent=2.2em\hangafter=1 #1\par\vspace{1pt}}
+
+\newcommand{\ErrataSubject}{数学二}
+
+% 题库正文里使用的两个项目宏。勘误文档不排版整卷，只把它们的**印刷形态**画出来，
+% 这样勘误条目与原卷面部一致（选择题的括号、填空题的横线）。
+\newcommand{\ExamSelection}{（\quad）}
+\newcommand{\ExamBlank}{\underline{\hspace{3em}}}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\fancyfoot[C]{\small\thepage}
+
+\setlength{\parindent}{0pt}
+\linespread{1.12}
+\hypersetup{colorlinks=true,linkcolor=errata-green,urlcolor=errata-green}
+
+\begin{document}
+
+\begin{center}
+  {\LARGE\bfseries 张宇八套卷题库勘误清单（\ErrataSubject）}
+\end{center}
+\vspace{2pt}
+\begin{center}
+  \small 依据源页逐题回图核对，共 147 处经复核，其中 5 处为题库识别错误并已更正。
+\end{center}
+\vspace{6pt}
+\hrule
+\vspace{8pt}
+
+\Paper{2023 张宇八套卷（数学二）第 3 套}
+\pair{6：\rc{（整段重录）} $\longrightarrow$ \gc{设 $z=f(u,v),u=x-2y,v=x+ay$，函数 $f$ 具有二阶连续偏导数，且 $\dfrac{\partial^2z}{\partial u^2}=\dfrac{\partial^2z}{\partial v^2}$，$\dfrac{\partial^2z}{\partial u^2}+\dfrac{\partial^2z}{\partial u\partial v}
+e0$。若 $\dfrac{\partial^2z}{\partial x\partial y}=0$，则常数 $a=$\ExamSelection}}
+\Paper{2024 张宇八套卷（数学二）第 1 套}
+\pair{6：\rc{（整段重录）} $\longrightarrow$ \gc{$y'''+2y''=0$}}
+\Paper{2024 张宇八套卷（数学二）第 5 套}
+\pair{4：\rc{（整段重录）} $\longrightarrow$ \gc{设 $f(x)$ 是以 $2$ 为周期的连续函数，$\int_0^2f(x)\,\mathrm{d}x=1$，$g(x)$ 是过点 $(-\dfrac{1}{2},0)$ 和 $(0,1)$ 的直线，则 $\int_0^2f[g(x)]\,\mathrm{d}x=$\ExamSelection}}
+\pair{21：\rc{（整段重录）} $\longrightarrow$ \gc{设 $f(x)$ 在 $[-a,a]$（$a>0$）上二阶可导，且 $f(-a)=-1,f(a)=1,f'(-a)=f'(a)=0,|f''(x)|\leq1$。证明：}}
+\pair{21：\rc{（整段重录）} $\longrightarrow$ \gc{$a>\sqrt{2}$。}}
+
+\end{document}

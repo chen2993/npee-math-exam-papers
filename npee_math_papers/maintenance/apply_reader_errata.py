@@ -298,6 +298,7 @@ SOURCE_FIXES: list[dict] = [
 
 _CHOICE_RE = re.compile(r"^choices\.([A-Z])\.text$")
 _FIGURE_RE = re.compile(r"^stem\.figures\[(\d+)\]\.latex$")
+_SUBPART_RE = re.compile(r"^subparts\.(\d+)\.text$")
 
 
 def _field_text(question: dict, field: str) -> str:
@@ -310,6 +311,10 @@ def _field_text(question: dict, field: str) -> str:
             if choice.get("label") == label:
                 return choice["text"]
         raise KeyError(field)
+    match = _SUBPART_RE.fullmatch(field)
+    if match:
+        index = int(match.group(1))
+        return (question.get("subparts") or [])[index - 1]["text"]
     match = _FIGURE_RE.fullmatch(field)
     if match:
         index = int(match.group(1))
@@ -329,6 +334,11 @@ def _set_field_text(question: dict, field: str, value: str) -> None:
                 choice["text"] = value
                 return
         raise KeyError(field)
+    match = _SUBPART_RE.fullmatch(field)
+    if match:
+        index = int(match.group(1))
+        question["subparts"][index - 1]["text"] = value
+        return
     match = _FIGURE_RE.fullmatch(field)
     if match:
         index = int(match.group(1))

@@ -92,7 +92,6 @@ export interface CompositionDraft {
   /** 留白：每套卷补足整页、封面后加空白页、目录凑偶数页（与间距无关）。 */
   printBlank: boolean;
   toc: boolean;
-  allSubjects: boolean;
   opening: OpeningSettings;
   watermark: WatermarkSettings;
 }
@@ -114,7 +113,6 @@ export function createDraft(name = "新组卷"): CompositionDraft {
     spacing: "compact",
     printBlank: true,
     toc: true,
-    allSubjects: false,
     opening: { show: true, candidateInfo: true, notices: true },
     watermark: {
       enabled: false,

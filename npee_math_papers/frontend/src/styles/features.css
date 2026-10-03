@@ -1041,8 +1041,18 @@
   align-items: start;
 }
 
+/* 已选面板随内容高度：只有三套卷时不该留出半屏空白。 */
 .compose-selected {
-  min-height: 380px;
+  min-height: 180px;
+}
+
+/* 空状态：还没有任何草稿时，页面只留导入入口与仓库组卷包。 */
+.compose-blank {
+  padding: 8px;
+}
+
+.compose-blank .empty-state {
+  min-height: 200px;
 }
 
 .selected-list {
@@ -1252,24 +1262,6 @@
 
 .paper-table-plain tbody tr.picker-row:hover {
   background: var(--paper-sunken);
-}
-
-/* The trailing status is a label, not a button; it reads as state. */
-.picker-state {
-  display: inline-block;
-  padding: 2px 8px;
-  border-radius: 999px;
-  border: 1px solid var(--line);
-  color: var(--ink-3);
-  font-size: 10px;
-  font-weight: 650;
-  white-space: nowrap;
-}
-
-.picker-state.is-selected {
-  border-color: color-mix(in srgb, var(--accent) 45%, var(--line));
-  background: var(--accent-soft);
-  color: var(--accent);
 }
 
 /* --------------------------------------------------------------------------- preferences */

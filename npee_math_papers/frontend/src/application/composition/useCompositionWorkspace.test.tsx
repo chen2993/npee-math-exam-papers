@@ -64,14 +64,27 @@ describe("normalizeDraft", () => {
 });
 
 describe("useCompositionWorkspace", () => {
-  it("starts with one draft even when storage is empty", () => {
+  it("starts empty when storage has nothing", () => {
+    // 组卷内容全部来自用户：没有导入就没有草稿，界面显示空状态。
     const { result } = renderHook(() => useCompositionWorkspace(repository()));
+    expect(result.current.drafts).toHaveLength(0);
+    expect(result.current.activeDraft).toBeUndefined();
+  });
+
+  it("creates a draft on demand and makes it active", () => {
+    const { result } = renderHook(() => useCompositionWorkspace(repository()));
+    act(() => {
+      result.current.addDraft("我的组卷");
+    });
     expect(result.current.drafts).toHaveLength(1);
-    expect(result.current.activeDraft).toBeTruthy();
+    expect(result.current.activeDraft?.name).toBe("我的组卷");
   });
 
   it("toggles a paper on and off", () => {
     const { result } = renderHook(() => useCompositionWorkspace(repository()));
+    act(() => {
+      result.current.addDraft();
+    });
     act(() => result.current.togglePaper(paper(1)));
     expect(result.current.isSelected("2024/math1/demo/1")).toBe(true);
     act(() => result.current.togglePaper(paper(1)));
@@ -80,6 +93,9 @@ describe("useCompositionWorkspace", () => {
 
   it("moves a paper up and down", () => {
     const { result } = renderHook(() => useCompositionWorkspace(repository()));
+    act(() => {
+      result.current.addDraft();
+    });
     act(() => result.current.togglePaper(paper(1)));
     act(() => result.current.togglePaper(paper(2)));
     act(() => result.current.movePaper(1, -1));
@@ -88,6 +104,9 @@ describe("useCompositionWorkspace", () => {
 
   it("reorders by index for drag-and-drop", () => {
     const { result } = renderHook(() => useCompositionWorkspace(repository()));
+    act(() => {
+      result.current.addDraft();
+    });
     act(() => result.current.togglePaper(paper(1)));
     act(() => result.current.togglePaper(paper(2)));
     act(() => result.current.togglePaper(paper(3)));
@@ -95,18 +114,26 @@ describe("useCompositionWorkspace", () => {
     expect(result.current.activeDraft.papers.map((item) => item.paper_no)).toEqual([3, 1, 2]);
   });
 
-  it("keeps at least one draft", () => {
+  it("deletes the last draft back to an empty list", () => {
+    // 允许删到零：界面随后显示"还没有组卷"，用户再导入或新建。
     const { result } = renderHook(() => useCompositionWorkspace(repository()));
-    let removed = true;
+    act(() => {
+      result.current.addDraft();
+    });
+    let removed = false;
     act(() => {
       removed = result.current.deleteActiveDraft();
     });
-    expect(removed).toBe(false);
-    expect(result.current.drafts).toHaveLength(1);
+    expect(removed).toBe(true);
+    expect(result.current.drafts).toHaveLength(0);
+    expect(result.current.activeDraft).toBeUndefined();
   });
 
   it("duplicates the active draft with its papers", () => {
     const { result } = renderHook(() => useCompositionWorkspace(repository()));
+    act(() => {
+      result.current.addDraft();
+    });
     act(() => result.current.togglePaper(paper(1)));
     act(() => result.current.duplicateActiveDraft());
     expect(result.current.drafts).toHaveLength(2);
@@ -114,9 +141,11 @@ describe("useCompositionWorkspace", () => {
   });
 
   it("adds a batch without flipping already-selected papers off", () => {
-    // "Add this whole page" goes through addPapers rather than repeated toggles,
-    // because toggling a paper that is already selected would *remove* it.
+    // "加入本页全部" 走 addPapers 而不是反复 toggle——对已选中的套卷 toggle 会把它移除。
     const { result } = renderHook(() => useCompositionWorkspace(repository()));
+    act(() => {
+      result.current.addDraft();
+    });
     act(() => result.current.togglePaper(paper(1)));
     let added = 0;
     act(() => {
@@ -128,6 +157,9 @@ describe("useCompositionWorkspace", () => {
 
   it("counts a duplicated paper only once when adding a batch", () => {
     const { result } = renderHook(() => useCompositionWorkspace(repository()));
+    act(() => {
+      result.current.addDraft();
+    });
     let added = 0;
     act(() => {
       added = result.current.addPapers([paper(1), paper(1), paper(2)]);
@@ -138,6 +170,9 @@ describe("useCompositionWorkspace", () => {
 
   it("removes a batch by natural key", () => {
     const { result } = renderHook(() => useCompositionWorkspace(repository()));
+    act(() => {
+      result.current.addDraft();
+    });
     act(() => result.current.addPapers([paper(1), paper(2), paper(3)]));
     act(() => result.current.removePapers(["2024/math1/demo/2", "2024/math1/demo/3"]));
     expect(result.current.activeDraft.papers.map((item) => item.paper_no)).toEqual([1]);
