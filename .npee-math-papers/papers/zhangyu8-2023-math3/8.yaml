@@ -4,7 +4,6 @@ paper:
   year: 2023
   subject: math3
   paper_no: 8
-content_hash: aed24fd937235d280105b27871754a105e041af7a601759ad3926648fc1aab35
 questions:
 - number: 1
   section: choice
@@ -275,7 +274,7 @@ questions:
       将 $x=x(y)$ 的微分方程 $\dfrac{\mathrm{d}^2x}{\mathrm{d}y^2}+(y+\sin x)\left(\dfrac{\mathrm{d}x}{\mathrm{d}y}\right)^3=0$ 化成 $y=y(x)$ 的微分方程，并求出满足初值条件 $x(0)=0,x'(0)=\dfrac{2}{3}$ 的特解 $y(x)$。
   subparts:
   - text: |-
-      利用（1）的结论，求由曲线 $x=x(y)$、直线 $y=y(\pi)$ 及 $y$ 轴围成的平面图形 $D$ 绕 $y$ 轴旋转一周而成的旋转体体积 $V$。
+      将 $x=x(y)$ 的微分方程 $\dfrac{\mathrm{d}^2x}{\mathrm{d}y^2}+(y+\sin x)\left(\dfrac{\mathrm{d}x}{\mathrm{d}y}\right)^3=0$ 化成 $y=y(x)$ 的微分方程，并求出满足初值条件 $x(0)=0,x'(0)=\dfrac{2}{3}$ 的特解 $y(x)$；
 - number: 19
   section: solution
   points: 12
@@ -304,3 +303,4 @@ questions:
   - text: 求二维随机变量 $(U,V)$ 的概率密度 $g(u,v)$。
   - text: |-
       设 $F(x)=\begin{cases}1-e^{-\lambda x},&x>0,\\0,&x\leq0,\end{cases}$ 其中 $\lambda>0$，求 $P\{U+V\leq1\}$。
+content_hash: 1051419b0d0db78cda7cd6b3a8cd1ed3b4ef66482be50fe3699633f3701d0b98

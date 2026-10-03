@@ -264,7 +264,7 @@ questions:
     text: 证明：
   subparts:
   - text: |-
-      当 $0<x<1$ 时，$x-\dfrac{1}{x}<2\ln x$；
+      证明:当 $0<x<1$ 时，$x-\dfrac{1}{x}<2\ln x$；
   - text: |-
       设 $f(x)$ 是 $(0,+\infty)$ 上的可微正值函数，且满足 $f(x)+f'(x)<0$，证明：当 $0<x<1$ 时，$xf(x)>\dfrac{1}{x}f\left(\dfrac{1}{x}\right)$。
 - number: 19
@@ -300,4 +300,4 @@ questions:
       $\theta$ 的矩估计量 $\hat\theta_M$ 及 $E(\hat\theta_M)$；
   - text: |-
       $\theta$ 的最大似然估计量 $\hat\theta_L$ 及 $E(\hat\theta_L)$。
-content_hash: 972ae372ed80623c59b51a2dcb33c39f2f09dbda28eb6d0bd342b5d98ffa4438
+content_hash: 5bd8a7ce07e6a838daee39d4aee43ca8f3ece59d7921c2cb7ebd26c2126ab956

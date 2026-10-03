@@ -197,7 +197,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $n$ 阶方阵 $A=(\alpha_1,\alpha_2,\cdots,\alpha_n)$，$B=(\beta_1,\beta_2,\cdots,\beta_n)$，$AB=(\gamma_1,\gamma_2,\cdots,\gamma_n)$，记向量组Ⅰ：$\alpha_1,\alpha_2,\cdots,\alpha_n$，向量组Ⅱ：$\beta_1,\beta_2,\cdots,\beta_n$，向量组Ⅲ：$\gamma_1,\gamma_2,\cdots,\gamma_n$。如果向量组Ⅲ线性相关，则\ExamSelection
+      设 $n$ 阶方阵 $A=(a_1,a_2,\cdots,a_n)$，$B=(\beta_1,\beta_2,\cdots,\beta_n)$，$AB=(y_1,y_2,\cdots,y_n)$，记向量组Ⅰ：$\alpha_1,\alpha_2,\cdots,a_n$，向量组Ⅱ：$\beta_1,\beta_2,\cdots,\beta_n$，向量组Ⅲ：$\gamma_1,\gamma_2,\cdots,\gamma_n$。如果向量组Ⅲ线性相关，则\ExamSelection
   choices:
   - label: A
     text: 向量组Ⅰ线性相关。
@@ -290,4 +290,4 @@ questions:
   - text: 求 $a,b$ 的值；
   - text: |-
       求可逆矩阵 $D$，使得 $A=D^{\mathrm T}BD$。
-content_hash: b72e1576d8bffbfe16a74a278a2477b1dde506f50ab8148c1dcece1b7688b6b3
+content_hash: 04502ff4e14f5a527ead58709faa10b23de371b4bb99f8b75fdcbf645e5df7a9

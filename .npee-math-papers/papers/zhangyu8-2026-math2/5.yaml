@@ -98,7 +98,7 @@ questions:
     figures: []
   - label: C
     text: |-
-      $\dfrac{2\mathrm{e}}{3}$
+      $2\mathrm{e}^{3}3$
     figures: []
   - label: D
     text: |-
@@ -300,4 +300,4 @@ questions:
       将 $\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3$ 化成正交单位向量组 $\boldsymbol{\gamma}_1,\boldsymbol{\gamma}_2,\boldsymbol{\gamma}_3$；
   - text: |-
       若 $(\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3)=(\boldsymbol{\gamma}_1,\boldsymbol{\gamma}_2,\boldsymbol{\gamma}_3)\mathbf{C}$，求 $\mathbf{C}$。
-content_hash: 65a29953c70168b0b78e4e770bc83142dd507d2724d53408c72e72d13ca3dfde
+content_hash: 54af170d658ec586a242a4e06275fcc3616b513ade9add09d48b4f44e36291df

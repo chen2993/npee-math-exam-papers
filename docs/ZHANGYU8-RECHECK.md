@@ -25,14 +25,14 @@ MISMATCH = 规范化后内容不同）。其中进入裁定的 147 处结论如�
 
 | 裁定 | 条数 | 含义 |
 | --- | --- | --- |
-| BANK_WRONG | 39 | 题库识别错误，已按源页更正 |
-| AGENT_WRONG | 22 | 题库与源页一致，是重读读错了 |
-| NOTATION_ONLY | 102 | 数学内容相同，只是写法不同 |
-| SOURCE_UNCLEAR | 0 | 源页本身无法判读 |
+| BANK_WRONG | 67 | 题库识别错误，已按源页更正 |
+| AGENT_WRONG | 27 | 题库与源页一致，是重读读错了 |
+| NOTATION_ONLY | 110 | 数学内容相同，只是写法不同 |
+| SOURCE_UNCLEAR | 1 | 源页本身无法判读 |
 
 ## 二、逐条更正（已写入题库）
 
-共 38 处，涉及 20 套卷。
+共 66 处，涉及 31 套卷。
 
 | 自然键 | 题号 | 字段 | 原录入 | 更正为 | 源页 |
 | --- | --- | --- | --- | --- | --- |
@@ -41,6 +41,9 @@ MISMATCH = 规范化后内容不同）。其中进入裁定的 147 处结论如�
 | `2023/math1/zhangyu8/6` | 21 | subparts.2.text | （整段重录） | 求 $A^*-6E$ 的秩。 | zhangyu8-2023-math1/p051.png |
 | `2023/math1/zhangyu8/8` | 8 | choices.D.text | （整段重录） | $U^{\alpha+1}$ | zhangyu8-2023-math1/p061.png |
 | `2023/math2/zhangyu8/3` | 6 | stem.text | （整段重录） | 设 $z=f(u,v),u=x-2y,v=x+ay$，函数 $f$ 具有二阶连续偏导数，且 $\dfrac{\partial^2z}{\partial u^2}=\dfrac{… | zhangyu8-2023-math2/p020.png |
+| `2023/math3/zhangyu8/3` | 21 | subparts.2.text | （整段重录） | 求 $\left(\boldsymbol{A}-\dfrac{3}{2}\boldsymbol{E}\right)^{100}$。 | zhangyu8-2023-math3/p025.png |
+| `2023/math3/zhangyu8/4` | 18 | subparts.1.text | （整段重录） | 证明:当 $0<x<1$ 时，$x-\dfrac{1}{x}<2\ln x$； | zhangyu8-2023-math3/p030.png |
+| `2023/math3/zhangyu8/8` | 18 | subparts.1.text | （整段重录） | 将 $x=x(y)$ 的微分方程 $\dfrac{\mathrm{d}^2x}{\mathrm{d}y^2}+(y+\sin x)\left(\dfrac{\mathrm{d}… | zhangyu8-2023-math3/p063.png |
 | `2024/math1/zhangyu8/5` | 1 | stem.text | （整段重录） | 函数 $f(x)=\dfrac{x\|x-1\|}{\sin\pi x}$ 的可去间断点的个数为\ExamSelection | zhangyu8-2024-math1/p034.png |
 | `2024/math1/zhangyu8/7` | 2 | choices.C.text | （整段重录） | $f''_{yx}(0,0)=1$ | zhangyu8-2024-math1/p050.png |
 | `2024/math1/zhangyu8/7` | 19 | subparts.1.text | （整段重录） | 存在 $\xi\in(0,1)$，使得 $f'(\xi)<2$； | zhangyu8-2024-math1/p053.png |
@@ -54,12 +57,9 @@ MISMATCH = 规范化后内容不同）。其中进入裁定的 147 处结论如�
 | `2025/math1/zhangyu8/6` | 7 | choices.B.text | （整段重录） | $r\left(\boldsymbol{AB}^\mathrm{T}\ \ \boldsymbol{AB}^\mathrm{T}\boldsymbol{B}\right)=r(… | zhangyu8-2025-math1/p022.png |
 | `2025/math1/zhangyu8/6` | 7 | choices.D.text | （整段重录） | $r\begin{pmatrix}\boldsymbol{A}^\mathrm{T}\boldsymbol{A}\\\boldsymbol{B}^\mathrm{T}\bold… | zhangyu8-2025-math1/p022.png |
 | `2025/math1/zhangyu8/6` | 8 | choices.A.text | （整段重录） | $AC=\varnothing$。 | zhangyu8-2025-math1/p022.png |
-| `2025/math2/zhangyu8/2` | 3 | stem.figures[0].latex | （整段重录） | \begin{tikzpicture}[scale=1.0]
-\draw[->] (-1.9,0) -- (2.0,0) node[below right] {$x$};
-\d… | zhangyu8-2025-math2/p007.png |
+| `2025/math2/zhangyu8/2` | 3 | stem.figures[0].latex | （整段重录） | \begin{tikzpicture}[scale=1.0] \draw[->] (-1.9,0) -- (2.0,0) node[below right] {$x$}; \d… | zhangyu8-2025-math2/p007.png |
 | `2025/math2/zhangyu8/2` | 16 | stem.text | （整段重录） | 设 $\mathbf{A}=\begin{pmatrix}a&&\\&b&\\&&a\end{pmatrix}$，$\mathbf{P}=\begin{pmatrix}2&1&… | zhangyu8-2025-math2/p009.png |
-| `2025/math2/zhangyu8/6` | 7 | stem.figures[0].latex | （整段重录） | \begin{tikzpicture}[scale=0.9,>=stealth]
-  \draw[->] (-0.5,0) -- (4.4,0) node[below righ… | zhangyu8-2025-math2/p024.png |
+| `2025/math2/zhangyu8/6` | 7 | stem.figures[0].latex | （整段重录） | \begin{tikzpicture}[scale=0.9,>=stealth] \draw[->] (-0.5,0) -- (4.4,0) node[below right]… | zhangyu8-2025-math2/p024.png |
 | `2025/math3/zhangyu8/3` | 2 | stem.text | （整段重录） | 设常数$m>0,n>0$，则$\int_0^n\sqrt{x}\left[\dfrac{m}{x}\right]\,\mathrm{d}x$（$[\cdot]$是取整符号）的敛… | zhangyu8-2025-math3/p011.png |
 | `2025/math3/zhangyu8/4` | 21 | stem.figures[0].latex | （整段重录） | \begin{tikzpicture}[>=stealth,thick,scale=0.9]\coordinate (T) at (0,1.4);\coordinate (L)… | zhangyu8-2025-math3/p018.png |
 | `2025/math3/zhangyu8/6` | 7 | choices.A.text | （整段重录） | $r(A\quad AB)=r(A)$。 | zhangyu8-2025-math3/p024.png |
@@ -68,9 +68,38 @@ MISMATCH = 规范化后内容不同）。其中进入裁定的 147 处结论如�
 | `2026/math1/zhangyu8/3` | 5 | choices.B.text | （整段重录） | $AP_2^{\mathrm T}P_1^9=B$。 | zhangyu8-2026-math1/p032.png |
 | `2026/math1/zhangyu8/3` | 7 | stem.text | （整段重录） | 设 $A$ 为 $n$ 阶方阵，有下列结论：\n①若 $A$ 的全部顺序主子式为正，则 $A$ 正定；\n②若 $A$ 相似于对角矩阵 $\Lambda$，则 $A$ 与 $\… | zhangyu8-2026-math1/p033.png |
 | `2026/math1/zhangyu8/4` | 4 | stem.text | （整段重录） | 若级数 $\sum_{n=1}^{\infty}\|u_nv_n\|$ 发散，则\ExamSelection | zhangyu8-2026-math1/p045.png |
-| `2026/math1/zhangyu8/4` | 7 | stem.figures[0].latex | （整段重录） | \begin{tikzpicture}[scale=1.0,line width=0.5pt]
-% P 为三张平面的公共点，Q 为公共棱的下端（PQ 即公共交线）
-\coord… | zhangyu8-2026-math1/p047.png |
+| `2026/math1/zhangyu8/4` | 7 | stem.figures[0].latex | （整段重录） | \begin{tikzpicture}[scale=1.0,line width=0.5pt] \coordinate (P) at (2.15,4.35); \coordin… | zhangyu8-2026-math1/p047.png |
+| `2026/math2/zhangyu8/1` | 7 | stem.text | （整段重录） | 设 $f(x)$ 在 $(0,+\infty)$ 内可导，以下结论：
+①若 $\lim f(x)$ 存在，则 $\lim f'(x)$ 存在；
+②若 $\lim f'(x)$ … | zhangyu8-2026-math2/p002.png |
+| `2026/math2/zhangyu8/2` | 6 | choices.B.text | （整段重录） | $f'_x(x,y),f'_y(x,y)$不连续，$f(x,y)$不可微。 | zhangyu8-2026-math2/p010.png |
+| `2026/math2/zhangyu8/2` | 6 | choices.C.text | （整段重录） | $f_x(0,0),f_x(0,0)$均存在。 | zhangyu8-2026-math2/p010.png |
+| `2026/math2/zhangyu8/2` | 6 | choices.D.text | （整段重录） | $f^{xy}(0,0)$存在，$f_x(0,0)$不存在。 | zhangyu8-2026-math2/p010.png |
+| `2026/math2/zhangyu8/2` | 20 | subparts.1.text | （整段重录） | $f(x,y)$的表达式； | zhangyu8-2026-math2/p014.png |
+| `2026/math2/zhangyu8/2` | 20 | subparts.2.text | （整段重录） | $f(x,y)$的极值。 | zhangyu8-2026-math2/p014.png |
+| `2026/math2/zhangyu8/3` | 10 | stem.text | （整段重录） | 设 $A$ 为 $n$ 阶方阵，有下列结论：
+①若 $A$ 的全部顺序主子式为正，则 $A$ 正定；
+②若 $A$ 相似于对角矩阵 $A$，则 $A$ 与 $A$ 合同；
+③若… | zhangyu8-2026-math2/p019.png |
+| `2026/math2/zhangyu8/4` | 4 | choices.C.text | （整段重录） | $-\dfrac{z}{z+1}(e^{-x}-e^{-y})$ | zhangyu8-2026-math2/p026.png |
+| `2026/math2/zhangyu8/4` | 4 | choices.D.text | （整段重录） | $-\dfrac{z}{z+1}(e^{-x}+e^{-y})$ | zhangyu8-2026-math2/p026.png |
+| `2026/math2/zhangyu8/4` | 16 | stem.text | （整段重录） | 设 $\boldsymbol{\alpha}_1=\begin{pmatrix}4\\1\\2\end{pmatrix},\ \boldsymbol{\alpha}_2=\be… | zhangyu8-2026-math2/p028.png |
+| `2026/math2/zhangyu8/5` | 5 | choices.C.text | （整段重录） | $2\mathrm{e}^{3}3$ | zhangyu8-2026-math2/p034.png |
+| `2026/math2/zhangyu8/6` | 10 | stem.text | （整段重录） | 设 $n$ 阶方阵 $A=(a_1,a_2,\cdots,a_n)$，$B=(\beta_1,\beta_2,\cdots,\beta_n)$，$AB=(y_1,y_2,\cd… | zhangyu8-2026-math2/p043.png |
+| `2026/math2/zhangyu8/7` | 5 | choices.A.text | （整段重录） | $f:(x,y)$ 连续，$f(x,y)$ 可微。 | zhangyu8-2026-math2/p050.png |
+| `2026/math2/zhangyu8/7` | 5 | choices.B.text | （整段重录） | $f'(x,y)$ 连续，$f(x,y)$ 不可微。 | zhangyu8-2026-math2/p050.png |
+| `2026/math2/zhangyu8/7` | 5 | choices.C.text | （整段重录） | $f:(x,y)$ 不连续，$f(x,y)$ 可微。 | zhangyu8-2026-math2/p050.png |
+| `2026/math2/zhangyu8/7` | 5 | choices.D.text | （整段重录） | $f:(x,y)$ 不连续，$f(x,y)$ 不可微。 | zhangyu8-2026-math2/p050.png |
+| `2026/math2/zhangyu8/7` | 9 | choices.D.text | （整段重录） | $a_1,a_2,\cdots,a_r$ 中至少有一个向量能由其余向量线性表示。 | zhangyu8-2026-math2/p051.png |
+| `2026/math2/zhangyu8/7` | 9 | stem.text | （整段重录） | $n$ 维向量组 $a_1,a_2,\cdots,a_r\ (3\leq r\leq n)$ 线性相关的充分必要条件是\ExamSelection。 | zhangyu8-2026-math2/p051.png |
+| `2026/math2/zhangyu8/7` | 10 | stem.text | （整段重录） | 若 $A,A^{\circ},B$ 都是 $n\ (n>2)$ 阶非零矩阵，且 $A'$ 是 $A$ 的伴随矩阵，$AB=O$，则 $r(B)=$\ExamSelection。 | zhangyu8-2026-math2/p051.png |
+| `2026/math2/zhangyu8/7` | 19 | stem.text | （整段重录） | 设 $f(x)$ 在 $\left[0,\dfrac{3}{2}\pi\right]$ 上连续，在 $\left(0,\dfrac{3}{2}\pi\right)$ 内是函数 … | zhangyu8-2026-math2/p053.png |
+| `2026/math2/zhangyu8/7` | 19 | subparts.1.text | （整段重录） | 证明 $f\left(\dfrac{3}{2}\pi\right)>0$； | zhangyu8-2026-math2/p053.png |
+| `2026/math2/zhangyu8/8` | 2 | stem.text | （整段重录） | 设 $f(x)$ 在 $(0,+\infty)$ 内可导，对于以下结论
+①若 $\lim f(x)$ 存在，$\lim f'(x)$ 存在，则 $\lim_{x\to+\inf… | zhangyu8-2026-math2/p058.png |
+| `2026/math2/zhangyu8/8` | 8 | choices.B.text | （整段重录） | $D_1,D_2,\cdots\cdots,D_n$ 为等差数列。 | zhangyu8-2026-math2/p059.png |
+| `2026/math2/zhangyu8/8` | 8 | stem.text | （整段重录） | 设 $n$ 阶行列式 $\begin{vmatrix}2&1&0&\cdots&0\\1&2&1&\cdots&0\\0&1&2&\cdots&0\\\vdots&\vdots… | zhangyu8-2026-math2/p059.png |
+| `2026/math2/zhangyu8/8` | 10 | stem.text | （整段重录） | 设 $a_1,a_2,\cdots\cdots,a_n$ 是 $n$ 个 $n$ 维的线性无关向量，$\boldsymbol{\alpha}_{n+1}=k_1\boldsym… | zhangyu8-2026-math2/p059.png |
 | `2026/math3/zhangyu8/3` | 5 | choices.A.text | （整段重录） | $AP_1^9P_2^{\mathrm T}=B$ | zhangyu8-2026-math3/p009b.png |
 | `2026/math3/zhangyu8/3` | 5 | choices.B.text | （整段重录） | $AP_2^{\mathrm T}P_1^9=B$ | zhangyu8-2026-math3/p009b.png |
 | `2026/math3/zhangyu8/3` | 5 | choices.C.text | （整段重录） | $P_1^9P_2^{\mathrm T}A=B$ | zhangyu8-2026-math3/p009b.png |
@@ -93,6 +122,12 @@ MISMATCH = 规范化后内容不同）。其中进入裁定的 147 处结论如�
 - p3 q18 `figure1`：源页同一图经放大核对：坐标轴、曲线 y=f(x)、切线 L（标注 L）、x=ln 2 处虚线、交点 A、y 轴截距 1 与两块阴影线均与题库 tikzpicture 的构成一致，题库有图而重读为空。
 - p3 q21 `figures`：源页（脚注：考研数学命题人终极预测卷(三) 第7页(共8页)）第21题右侧印有图：两段上半圆弧（左段自 -a 到 O，右段自 O 到 2a），x 轴标出 -a、O、a、2a，阴影区域画斜线。题库记 1 图正确，重读记 0 图漏图。
 - p3 q21 `figure1`：源页同一图放大后可见：左半圆 y=√(a²-x²) 与右半圆 x²+y²=2ax 的两段弧、纵轴 y、横轴 x、刻度标签 -a/O/a/2a 及阴影斜线，与题库 tikzpicture 示意一致；重读无图。
+
+**zhangyu8-2023-math3**
+
+- p5 q10 `choiceA`：源页选项 A 印「$y_\alpha y_{1-\alpha}=1.$」。四个选项的首下标在版面上是同一字形的同一字符：重读自己在选项 C、D 把该首下标认作 α（写成 $y_{\frac{\alpha}{2}}$），又在 A、B 的第二个下标（$1-\alpha$）里认作 α，却唯独把 A、B 的首下标写成 a——同一行同一字形不可能既是 α 又是 a；且题干同一行有「对给定的 $\alpha(0<\alpha<1)$，数 $y_\alpha$ 满足 $P\{|Y|>y…
+- p5 q10 `choiceB`：源页选项 B 印「$y_\alpha y_{1-\alpha/2}=1.$」，首下标与 A、C、D 首下标为同一字形（即 α）；重读把首下标误作 a（写成 $y_a$），却在同一字段的第二个下标写成 \alpha，自相矛盾。题库正确。
+- p5 q10 `stem`：源页题干印「设随机变量 $X$ 服从标准正态分布,$X_1,X_2,X_3,X_4$ 为来自总体 $X$ 的简单随机样本,设 $Y=\dfrac{X_1^2+X_2^2}{X_3^2+X_4^2}$,对给定的 $\alpha(0<\alpha<1)$,数 $y_\alpha$ 满足 $P\{|Y|>y_\alpha\}=\alpha$,则有」——同一个 α 在同句出现三处（$0<\alpha<1$、$=\alpha$、以及两处 $y$ 的下标），字形一致；题库的 $y_\…
 
 **zhangyu8-2024-math1**
 
@@ -121,6 +156,11 @@ MISMATCH = 规范化后内容不同）。其中进入裁定的 147 处结论如�
 **zhangyu8-2025-math2**
 
 - p8 q9 `choiceA`：源页 p032（卷(八)，页脚「第31页」已核对）第9题选项 A 印「充要条件.」——「条」之前为「充」「要」两个字（6 倍放大裁片 ad3-zhangyu8-2025-math2-p8_q9_A_hi.png：「要」上部为「覀」形、下部为「女」，与「分」的八字结构截然不同；同页选项 B「必要非充分条件」、C「充分非必要条件」均含「充分」二字，字形可与 A 的「要」对照）。题库作「充要条件」与源页一致；重读作「充分条件．」漏掉「要」字，把充要条件误作充分条件。
+
+**zhangyu8-2026-math2**
+
+- p3 q21 `stem`：页脚「考研数学命题人终极预测卷(三) 第 7 页(共 8 页)」。题干 y305-415 印「计算 ∫∫_D (2x+y)/x^{3/2} dxdy，其中 D 是由抛物线 y^2=2x 与直线 x+y=4，x+y=12 所围成的区域.」。关键是分母的几何：主分式横杠在 y344-347（x403-498）。横杠下方是先一枚「3」（x452-467 y352-369）、再一段短横（x449-465 y377-379）、再一枚「2」（x454-464 y387-396），而它…
+- p7 q9 `choiceA`：源页该选项印「对于任意一组不全为零的数 k1, k2, ……, 都有 k1α1+k2α2+…+kᵣαᵣ=0.」；「不全为零」确为汉字「零」（雨字头，8倍放大清晰）。线性组合内的向量为希腊 α（单层椭圆带右下伸尾，与题库 \boldsymbol{\alpha} 对应），非拉丁 a；重读写作 \boldsymbol{a} 与源页不符，题库对
 
 ## 四、方法与边界
 

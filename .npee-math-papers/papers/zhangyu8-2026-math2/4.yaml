@@ -83,11 +83,11 @@ questions:
     figures: []
   - label: C
     text: |-
-      $-\dfrac{z}{z+1}(e^{-x^2}-e^{-y^2})$
+      $-\dfrac{z}{z+1}(e^{-x}-e^{-y})$
     figures: []
   - label: D
     text: |-
-      $-\dfrac{z}{z+1}(e^{-x^2}+e^{-y^2})$
+      $-\dfrac{z}{z+1}(e^{-x}+e^{-y})$
     figures: []
 - number: 5
   section: choice
@@ -245,7 +245,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $a_1=\begin{pmatrix}4\\1\\2\end{pmatrix},\ a_2=\begin{pmatrix}1\\1\\-1\end{pmatrix},\ a_3=\begin{pmatrix}-2\\0\\4\end{pmatrix},\ a_4=\begin{pmatrix}7\\2\\-3\end{pmatrix},\ A=(a_1,a_2,a_3,a_4)$，则 $Ax=a_2+3a_4$ 的通解为\ExamBlank。
+      设 $\boldsymbol{\alpha}_1=\begin{pmatrix}4\\1\\2\end{pmatrix},\ \boldsymbol{\alpha}_2=\begin{pmatrix}1\\1\\-1\end{pmatrix},\ \boldsymbol{\alpha}_3=\begin{pmatrix}-2\\0\\4\end{pmatrix},\ \boldsymbol{\alpha}_4=\begin{pmatrix}7\\2\\-3\end{pmatrix},\ \boldsymbol{A}=(\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3,\boldsymbol{\alpha}_4)$，则 $\boldsymbol{A}\boldsymbol{x}=\boldsymbol{\alpha}_2+3\boldsymbol{\alpha}_4$ 的通解为\ExamBlank。
 - number: 17
   section: solution
   points: 10
@@ -295,4 +295,4 @@ questions:
       求 $Ax=\beta$ 的解，并求出 $C$；
   - text: |-
       求满足 $(A,\beta)Y=E$ 的所有 $Y$。
-content_hash: e9858b67450ef0b85987014817f45fa8dd9e4da1fd44c8e48eb49950ac969c7c
+content_hash: 668b06bbcd7db559fddcbf628eee372a5c41f9fb25e5304842cdeb811a8968cb

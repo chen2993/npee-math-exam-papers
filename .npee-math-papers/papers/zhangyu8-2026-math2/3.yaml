@@ -193,7 +193,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $A$ 为 $n$ 阶方阵，有下列结论：\n①若 $A$ 的全部顺序主子式为正，则 $A$ 正定；\n②若 $A$ 相似于对角矩阵 $\Lambda$，则 $A$ 与 $\Lambda$ 合同；\n③若 $A$ 与正定矩阵合同，则 $A$ 为正定矩阵。\n则正确结论的个数为\ExamSelection。
+      设 $A$ 为 $n$ 阶方阵，有下列结论：\n①若 $A$ 的全部顺序主子式为正，则 $A$ 正定；\n②若 $A$ 相似于对角矩阵 $A$，则 $A$ 与 $A$ 合同；\n③若 $A$ 与正定矩阵合同，则 $A$ 为正定矩阵。\n则正确结论的个数为\ExamSelection。
   choices:
   - label: A
     text: $0$
@@ -289,4 +289,4 @@ questions:
       求 $k$ 的值，并求正交矩阵 $Q$，将 $f(\boldsymbol{x})$ 化为标准形；
   - text: |-
       求一个实对称矩阵 $P$，使 $f(\boldsymbol{x})=(P\boldsymbol{x})^TP\boldsymbol{x}$。
-content_hash: 265e3378221b4cf99cfb64f078388ec45bd86b93f5f3197187f799f5f642019c
+content_hash: d7111a08772b9da49d1bbc33ae5e57e1cd601c1b0fd9e353d164443b6dfc371b

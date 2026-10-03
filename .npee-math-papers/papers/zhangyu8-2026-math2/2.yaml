@@ -4,7 +4,6 @@ paper:
   year: 2026
   subject: math2
   paper_no: 2
-content_hash: e753d48b4b8c1b1a8e65427a39ba6fc00345243d8dbcd7ca19199defdb0395bb
 questions:
 - number: 1
   section: choice
@@ -124,13 +123,13 @@ questions:
     text: $f_x(x,y),f_y(x,y)$不连续，$f(x,y)$可微。
     figures: []
   - label: B
-    text: $f_x(x,y),f_y(x,y)$不连续，$f(x,y)$不可微。
+    text: $f'_x(x,y),f'_y(x,y)$不连续，$f(x,y)$不可微。
     figures: []
   - label: C
-    text: $f_x(0,0),f_y(0,0)$均存在。
+    text: $f_x(0,0),f_x(0,0)$均存在。
     figures: []
   - label: D
-    text: $f_{xy}(0,0)$存在，$f_{x}(0,0)$不存在。
+    text: $f^{xy}(0,0)$存在，$f_x(0,0)$不存在。
     figures: []
 - number: 7
   section: choice
@@ -292,8 +291,8 @@ questions:
   stem:
     text: 设$f(x,y)$满足$f_x'(x,y)=y(1+x)e^{x-y}$，$f(1,y)=ye^{1-y}$，求
   subparts:
-  - text: 求$f(x,y)$的表达式；
-  - text: 求$f(x,y)$的极值。
+  - text: $f(x,y)$的表达式；
+  - text: $f(x,y)$的极值。
 - number: 21
   section: solution
   points: 12
@@ -313,3 +312,4 @@ questions:
   subparts:
   - text: 求$B$；
   - text: 证明存在正交矩阵$C$，使得$A=CB$，并求出$C$。
+content_hash: ba468eb59594baf6b422aab03290fba8f9d47086988f1dcd1b6e2ec1c2d09c9e
