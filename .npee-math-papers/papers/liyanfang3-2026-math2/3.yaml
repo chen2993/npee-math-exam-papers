@@ -135,7 +135,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设函数 $f(t)$ 连续，记 $r=\sqrt{x^2+y^2}$，则 $\int_{-1}^0\mathrm{d}x\int_{-\sqrt{3}x}^{\sqrt{3}}f(\sqrt{x^2+y^2})\,\mathrm{d}y=$\ExamSelection
+      设函数 $f(t)$ 连续，记 $r=\sqrt{x^2+y^2}$，则 $\int_{-1}^0\mathrm{d}x\int_{\sqrt{3}x}^{-\sqrt{3}x}f(\sqrt{x^2+y^2})\,\mathrm{d}y=$\ExamSelection
   choices:
   - label: A
     text: |-
@@ -200,7 +200,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $A$ 为 $n$ 阶实对称矩阵，$\alpha_1,\alpha_2,\cdots,\alpha_n$ 为 $n$ 个非零 $n$ 维实向量。若 $A$ 满足对任意非零 $n$ 维实向量 $x,y$，均有 $(x^TAy)^2<x^TAx\cdot y^TAy$，则“对任意 $i\ne j,\alpha_i^TA\alpha_j=0$”是“$\alpha_1,\alpha_2,\cdots,\alpha_n$ 线性无关”的\ExamSelection
+      设 $A$ 为 $n$ 阶实对称矩阵，$\alpha_1,\alpha_2,\cdots,\alpha_n$ 为 $n$ 个非零 $n$ 维实向量。若 $A$ 满足对任意两个线性无关 $n$ 维实向量 $x,y$，均有 $(x^TAy)^2<x^TAx\cdot y^TAy$，则“对任意 $i\ne j,\alpha_i^TA\alpha_j=0$”是“$\alpha_1,\alpha_2,\cdots,\alpha_n$ 线性无关”的\ExamSelection
   choices:
   - label: A
     text: 充分不必要条件。
@@ -295,4 +295,4 @@ questions:
       $\alpha$ 是与 $\beta,\gamma$ 线性无关的属于 $A$ 的特征向量，求 $\xi$ 与 $\alpha,\beta,\gamma$ 满足什么线性关系时，方程组 $Ax=\xi$ 有解？
   - text: |-
       求所有可逆矩阵 $P$，使得 $P^{-1}AP=\begin{pmatrix}\dfrac{3}{2}&-\dfrac{1}{2}&0\\-\dfrac{1}{2}&\dfrac{3}{2}&0\\0&0&0\end{pmatrix}$，将 $P$ 用 $\alpha,\beta,\gamma$ 表示。
-content_hash: ad11a6e23c541cd7741e575c54b69d4e77d14ba96477ca1f1cbad23ac07bcd76
+content_hash: 0bc709d993b0a4a7b9f698426cce61e38393fe02416193666c194dd7a2ee6498

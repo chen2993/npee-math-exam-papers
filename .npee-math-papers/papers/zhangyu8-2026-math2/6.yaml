@@ -33,7 +33,7 @@ questions:
   choices:
   - label: A
     text: |-
-      $\displaystyle \int_0^2\left[\int_{-2}^{-\sqrt{4-y^2}}f(x,y)\,\mathrm{d}x+\int_{\sqrt{4-y^2}}^2f(x,y)\,\mathrm{d}x\right]\mathrm{d}y$。
+      $\displaystyle \int_0^2\left[\int_{-2}^{-\sqrt{4-y^2}}f(x,y)\,\mathrm{d}x+\int_{-\sqrt{4-y^2}}^2f(x,y)\,\mathrm{d}x\right]\mathrm{d}y$。
     figures: []
   - label: B
     text: |-
@@ -290,4 +290,4 @@ questions:
   - text: 求 $a,b$ 的值；
   - text: |-
       求可逆矩阵 $D$，使得 $A=D^{\mathrm T}BD$。
-content_hash: 04502ff4e14f5a527ead58709faa10b23de371b4bb99f8b75fdcbf645e5df7a9
+content_hash: d053606253424e113ca5cd5d8928ca88749a1689799f2b2d0eb6496190108a4e

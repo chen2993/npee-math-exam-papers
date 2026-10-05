@@ -4,7 +4,6 @@ paper:
   year: 2026
   subject: math2
   paper_no: 4
-content_hash: 7470a7b5235d2d877f0d1c85874b591465541eea0be8625a82d78edd44e51a7b
 questions:
 - number: 1
   section: choice
@@ -55,7 +54,7 @@ questions:
   points: 5
   stem:
     text: |-
-      已知函数 $f(x)=\int_0^x e^{t^2}\cos t\,\mathrm{d}t$，$g(x)=\int_0^x e^{t^2}\cos^2t\,\mathrm{d}t$，则\ExamSelection
+      已知函数 $f(x)=\int_0^x e^{t^2}\cos t\,\mathrm{d}t$，$g(x)=\int_0^x e^{t^2}\cos^2x\,\mathrm{d}t$，则\ExamSelection
   choices:
   - label: A
     text: |-
@@ -130,7 +129,7 @@ questions:
       $\lim_{x\to 0}\lim_{y\to 0}f(x,y)=0$。
     figures: []
   - label: C
-    text: $f''_{xx}(0,0)=1$。
+    text: $f''_{yx}(0,0)=1$。
     figures: []
   - label: D
     text: $f'_y(0,0)=1$。
@@ -222,7 +221,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设函数 $z=z(x,y)$ 由 $e^x+yz=2y-x$ 确定，则 $\left.\dfrac{\partial^2z}{\partial y^2}\right|_{(1,1)}=\ExamBlank$。
+      设函数 $z=z(x,y)$ 由 $e^z+yz=2y-x$ 确定，则 $\left.\dfrac{\partial^2z}{\partial y^2}\right|_{(1,1)}=\ExamBlank$。
 - number: 12
   section: fill
   points: 5
@@ -292,3 +291,4 @@ questions:
   - text: 求 $a$ 的值及 $k$ 的取值范围；
   - text: |-
       若存在可逆矩阵 $Q$，使得 $Q^{\mathrm{T}}AQ=B$，求 $Q$。
+content_hash: 9926977eb59a086b37cf109b51e62128fb2be98427cf0c2a9ab327996dbc3627

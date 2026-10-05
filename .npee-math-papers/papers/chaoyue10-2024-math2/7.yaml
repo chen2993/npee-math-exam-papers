@@ -41,7 +41,7 @@ questions:
     figures: []
   - label: C
     text: |-
-      若 $\lim_{x\to+\infty}f'(x)$ 存在，则 $\lim_{x\to+\infty}f''(x)=0$
+      若 $\lim_{x\to+\infty}f''(x)$ 存在，则 $\lim_{x\to+\infty}f'(x)=0$
     figures: []
   - label: D
     text: |-
@@ -214,7 +214,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $f(x)=\int_0^x\cos(x-t)^2\,\mathrm{d}t$，$\varphi(x)=\begin{cases}\sqrt{\dfrac{x-\sin x}{x-\ln(1+x)}},&x\ne0,\\0,&x=0,\end{cases}$ 则 $\left.\dfrac{\mathrm{d}f(\varphi(x))}{\mathrm{d}x}\right|_{x=0}=$\ExamBlank。
+      设 $f(x)=\int_0^x\cos(x-t)^2\,\mathrm{d}t$，$\varphi(x)=\begin{cases}\dfrac{x-\sin x}{x-\ln(1+x)},&x\ne0,\\0,&x=0,\end{cases}$ 则 $\left.\dfrac{\mathrm{d}f(\varphi(x))}{\mathrm{d}x}\right|_{x=0}=$\ExamBlank。
 - number: 12
   section: fill
   points: 5
@@ -226,7 +226,7 @@ questions:
   points: 5
   stem:
     text: |-
-      极限 $\lim_{n\to\infty}\dfrac{1}{n}\left(\int_1^{\sqrt{\dfrac{1}{2n}}}e^{-x^2}\,\mathrm{d}x+\int_1^{\sqrt{\dfrac{3}{2n}}}e^{-x^2}\,\mathrm{d}x+\cdots+\int_1^{\sqrt{\dfrac{2n-1}{2n}}}e^{-x^2}\,\mathrm{d}x\right)=$\ExamBlank。
+      极限 $\lim_{n\to\infty}\dfrac{1}{n}\left(\int_1^{\frac{1}{2n}}e^{-x^2}\,\mathrm{d}x+\int_1^{\frac{3}{2n}}e^{-x^2}\,\mathrm{d}x+\cdots+\int_1^{\frac{2n-1}{2n}}e^{-x^2}\,\mathrm{d}x\right)=$\ExamBlank。
 - number: 14
   section: fill
   points: 5
@@ -274,7 +274,7 @@ questions:
   section: solution
   points: 12
   stem:
-    text: 设 $x^2-xy+y^2-3x+(x-1)e^z+3=0$ 确定了 $z=z(x,y)$，求 $z(x,y)$ 的极值。
+    text: 设 $x^2-xy+y^2-3x+(z-1)e^z+3=0$ 确定了 $z=z(x,y)$，求 $z(x,y)$ 的极值。
 - number: 21
   section: solution
   points: 12
@@ -297,4 +297,4 @@ questions:
       证明 $A$ 与 $A^{\mathrm{T}}$ 有相同的特征多项式，且不同特征值对应的 $A$ 的特征向量与 $A^{\mathrm{T}}$ 的特征向量正交；
   - text: |-
       当 $A=\begin{pmatrix}1&3\\1&-1\end{pmatrix}$ 时，求可逆阵 $P$，使得 $P^{-1}AP=A^{\mathrm{T}}$。
-content_hash: abdff08f01a190d672a8ce6588c5a833c7bb385e15ccc615210b76f2814f580f
+content_hash: d4c5c69b6a792cab2829d0b8ca3618c5898ed0b96f08b634b1f0dcd3659462dc

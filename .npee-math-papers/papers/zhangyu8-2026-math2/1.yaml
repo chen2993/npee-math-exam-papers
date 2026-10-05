@@ -26,7 +26,7 @@ questions:
     figures: []
   - label: D
     text: |-
-      $\displaystyle \int_0^{\sin^4 x}(te^t-t)\,\mathrm{d}t$
+      $\displaystyle \int_0^{\sin^2 x}(te^t-t)\,\mathrm{d}t$
     figures: []
 - number: 2
   section: choice
@@ -102,7 +102,7 @@ questions:
     figures: []
   - label: B
     text: |-
-      $\displaystyle \int_0^{\int_0^1e^{-t^2}\,\mathrm{d}t}f(x)\,\mathrm{d}x<\int_0^1f(x)e^{-x^2}\,\mathrm{d}x$
+      $\displaystyle \int_0^{\int_0^1e^{-t^2}\,\mathrm{d}t}f(x)\,\mathrm{d}x\leq\int_0^1f(x)e^{-x^2}\,\mathrm{d}x$
     figures: []
   - label: C
     text: |-
@@ -244,7 +244,7 @@ questions:
   points: 5
   stem:
     text: |-
-      $z=\arcsin y^2$ 在点 $(-1,2)$ 处的全微分为 $\mathrm{d}z=$\ExamBlank。
+      $z=\arcsin y^x$ 在点 $(-1,2)$ 处的全微分为 $\mathrm{d}z=$\ExamBlank。
 - number: 16
   section: fill
   points: 5
@@ -293,4 +293,4 @@ questions:
   subparts:
   - text: $a,b$ 的值；
   - text: $A^{100}$。
-content_hash: d4305dcba44073fc8a291399181426d0e899d6f72f4f461dfa4542d73bb5fc9a
+content_hash: 18bf661630f4a33489ed791463c4fd60b18dd799eb7809af083ce13aa58a8812

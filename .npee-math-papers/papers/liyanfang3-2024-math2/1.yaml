@@ -41,7 +41,7 @@ questions:
     text: $y'''-2y''+4y'-8y=0$.
     figures: []
   - label: C
-    text: $y^{(4)}-3y'''-4y=0$.
+    text: $y^{(4)}-3y''-4y=0$.
     figures: []
   - label: D
     text: $2y^{(4)}-3y'''-3y'-2y=0$.
@@ -199,7 +199,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $A=(a_{ij})$ 为 3 阶方阵且 $|A|=-1$，$\operatorname{tr}(A)=-\dfrac{7}{2}$，$\xi=(1,1,1)^{\mathrm T}$ 是 $A$ 的一个特征向量。已知 $\sum_{i,j=1}^{3}(a_{ij}+A_{ji})=0$，其中 $A_{ij}$ 是 $a_{ij}$ 的代数余子式，则下列说法中，正确的是\ExamSelection
+      设 $A=(a_{ij})$ 为 3 阶负定矩阵且 $|A|=-1$，$\operatorname{tr}(A)=-\dfrac{7}{2}$，$\xi=(1,1,1)^{\mathrm T}$ 是 $A$ 的一个特征向量。已知 $\sum_{i,j=1}^{3}(a_{ij}+A_{ji})=0$，其中 $A_{ij}$ 是 $a_{ij}$ 的代数余子式，则下列说法中，正确的是\ExamSelection
   choices:
   - label: A
     text: 矩阵 $A$ 的所有元素之和为 $6$.
@@ -224,7 +224,7 @@ questions:
   points: 5
   stem:
     text: |-
-      已知动点 $P$ 在曲线 $\arctan\dfrac{y}{x}=\ln\sqrt{x^2+y^2}$ 上运动，若点 $P$ 的横坐标关于时间的变化率为 2，则当点 $P$ 运动到点 $\left(\dfrac{\sqrt{3}}{2}e^{\dfrac{\pi}{3}},\dfrac{1}{2}e^{\dfrac{\pi}{3}}\right)$ 时，点 $P$ 的纵坐标关于时间的变化率为 \ExamBlank.
+      已知动点 $P$ 在曲线 $\arctan\dfrac{y}{x}=\ln\sqrt{x^2+y^2}$ 上运动，若点 $P$ 的横坐标关于时间的变化率为 2，则当点 $P$ 运动到点 $\left(\dfrac{\sqrt{3}}{2}e^{\dfrac{\pi}{6}},\dfrac{1}{2}e^{\dfrac{\pi}{6}}\right)$ 时，点 $P$ 的纵坐标关于时间的变化率为 \ExamBlank.
 - number: 13
   section: fill
   points: 5
@@ -296,4 +296,4 @@ questions:
   - text: 求 $a,b$；
   - text: |-
       用 $\alpha_1,\alpha_2,\alpha_3$ 表示所有满足要求的可逆矩阵 $P$。
-content_hash: 5976a6655fb88455d62abe2fe24de318fd27380328ff85abae94677c9a790df6
+content_hash: 9df415f42e827b057ee70d22bb02728d95ddd0ad37ad9caf60ff40e678355d36

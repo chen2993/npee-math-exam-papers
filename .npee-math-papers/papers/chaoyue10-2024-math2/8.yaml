@@ -266,7 +266,7 @@ questions:
   subparts:
   - text: 设函数 $f(x)$ 在点 $x_0$ 处二阶可导，且 $f'(x_0)=0$，$f''(x_0)>0$，证明 $x_0$ 是函数 $f(x)$ 的极小值点；
   - text: |-
-      设函数 $f(x)$ 满足 $f'(x)+xf''(x)=(x+1)\ln^2(x+1)-x^2$，若 $x_0>0$ 是函数 $f(x)$ 的驻点，证明 $x_0$ 是函数 $f(x)$ 的极小值点。
+      设函数 $f(x)$ 满足 $f''(x)+xf'(x)=(x+1)\ln^2(x+1)-x^2$，若 $x_0>0$ 是函数 $f(x)$ 的驻点，证明 $x_0$ 是函数 $f(x)$ 的极小值点。
 - number: 20
   section: solution
   points: 12
@@ -289,5 +289,5 @@ questions:
   - text: |-
       $A\xi_1=0$，且 $B$ 的列向量组与 $\xi_1,\xi_2$ 等价；
   - text: |-
-      求可逆矩阵 $P$，使 $P^{-1}AP=\Lambda$，$\Lambda$ 为对角阵。
-content_hash: 126979171f4e7369491eca09d58ed909f7d890222550d688acdd002ed9bc7c59
+      求可逆矩阵 $P$，使 $P^{-1}A^{\mathrm{T}}AP=\Lambda$，$\Lambda$ 为对角阵。
+content_hash: 11db417349ea2aa1bd43f621cfc1de62659d9e313999b7e115b39c05ab2c3602

@@ -259,7 +259,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $x=t^3+2t+1,\displaystyle\int_0^{y+1}e^{-u^2}\,\mathrm{d}u=t$，则 $\left.\dfrac{\mathrm{d}^2y}{\mathrm{d}x^2}\right|_{t=0}=$\ExamBlank。
+      设 $x=t^3+2t+1,\displaystyle\int_0^{y+t}e^{-u^2}\,\mathrm{d}u=t$，则 $\left.\dfrac{\mathrm{d}^2y}{\mathrm{d}x^2}\right|_{t=0}=$\ExamBlank。
 - number: 14
   section: fill
   points: 5
@@ -326,4 +326,4 @@ questions:
       是否存在可逆矩阵 $\mathbf{D}$，使 $\mathbf{B}=\mathbf{D}^{\mathrm{T}}\mathbf{D}$？若存在，求出矩阵 $\mathbf{D}$，若不存在，请说明理由；
   - text: |-
       求 $\displaystyle\max_{\mathbf{x}\neq0}\dfrac{f(\mathbf{x})}{g(\mathbf{x})}$，其中 $\mathbf{x}=\begin{pmatrix}x_1\\x_2\end{pmatrix}$。
-content_hash: 4b5605210893ba24cf5f9e1d5688129c2cb049db9112df45316002df4a2bacaa
+content_hash: ce22d25b33a8f7134b2424dad14493b111cf70d84d076d1f361f48ff3596d9cf

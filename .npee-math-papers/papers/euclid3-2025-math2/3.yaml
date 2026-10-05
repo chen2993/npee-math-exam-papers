@@ -260,7 +260,7 @@ questions:
   points: 12
   stem:
     text: |-
-      已知曲线 $L:\begin{cases}x=\cos2t\text{，}\\y=f(t)\text{，}\quad0\leq t\leq\pi\text{，}\end{cases}$ 其中 $f(t)$ 具有连续导数，且满足 $f'(0)=0\text{，}f(t)-f'(t)=-t^2\cos t$。
+      已知曲线 $L:\begin{cases}x=\cos2t\text{，}\\y=f(t)\text{，}\quad0\leq t\leq\pi\text{，}\end{cases}$ 其中 $f(t)$ 具有连续导数，且满足 $f'(0)=0\text{，}f(t)-t\cdot f'(t)=-t^2\cos t$。
   subparts:
   - text: 求 $f(t)$ 的表达式；
   - text: 求曲线 $L$ 围成的封闭图形的面积。
@@ -303,4 +303,4 @@ questions:
       求可逆矩阵 $P$，使得 $A=P^{\mathrm{T}}P$；
   - text: |-
       记 $g(x_1,x_2,x_3)=\boldsymbol{x}^{\mathrm{T}}A\boldsymbol{x}+2\boldsymbol{x}^{\mathrm{T}}\boldsymbol{b}$，其中 $\boldsymbol{b}=(0,0,1)^{\mathrm{T}}$，求 $g$ 的最小值，并写出一个最小值点。
-content_hash: f45f8fd2452cf48c1979f28e1114fa2162d50f56a7cbea917e8987b8d5e3d87b
+content_hash: 1aa393f2599b0d7515eccdd6e2b1e1a3dd2ca51e849c3d45d03d8fbd390a8fff

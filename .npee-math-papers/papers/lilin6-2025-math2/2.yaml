@@ -4,7 +4,6 @@ paper:
   year: 2025
   subject: math2
   paper_no: 2
-content_hash: 7875c3802f2728457b80b1cde86e43a21c0a57c9199966c8cf27e11f8ae25c7b
 questions:
 - number: 1
   section: choice
@@ -91,7 +90,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $f(x)=\int_{-1}^{x}\sqrt{|t|}\,|\ln|t||\,\mathrm{d}t$，则正确的是\ExamSelection
+      设 $f(x)=\int_{-1}^{x}\sqrt{|t|}\,\ln|t|\,\mathrm{d}t$，则正确的是\ExamSelection
   choices:
   - label: A
     text: $f'(0)$ 不存在。
@@ -139,7 +138,7 @@ questions:
     text: $c_1e^{-x}+c_2e^x+c_3x$
     figures: []
   - label: B
-    text: $c_1e^x+c_2+c_3x$
+    text: $c_1e^{-x}+c_2+c_3x$
     figures: []
   - label: C
     text: $c_1e^{-x}+c_2e^x+c_3$
@@ -274,13 +273,13 @@ questions:
   points: 12
   stem:
     text: |-
-      设 $D$ 是由曲线 $x|y|+|x|+y=1$ 与 $x$ 轴所围成的有界区域，计算 $I=\iint_D[2\ln(1+y)-y+x]\,\mathrm{d}x\,\mathrm{d}y$。
+      设 $D$ 是由曲线 $|x|\cdot y+|x|+y=1$ 与 $x$ 轴所围成的有界区域，计算 $I=\iint_D[2\ln(1+y)-y+x]\,\mathrm{d}x\,\mathrm{d}y$。
 - number: 21
   section: solution
   points: 12
   stem:
     text: |-
-      设 $y(x)$ 在 $[0,+\infty)$ 上有二阶连续的导数，点 $P(x,y)$（$x>0$）为曲线 $y=y(x)$ 上任意一点，沿曲线从点 $(0,1)$ 到点 $P(x,y)$ 的弧长在数值上等于该曲线在点 $P(x,y)$ 处的切线的斜率，且曲线在点 $(0,1)$ 处有水平切线。
+      设 $y(x)$ 在 $[0,+\infty)$ 上有二阶连续的导数，点 $P(x,y)$（$x>0$）为凹曲线 $y=y(x)$ 上任意一点，沿曲线从点 $(0,1)$ 到点 $P(x,y)$ 的弧长在数值上等于该曲线在点 $P(x,y)$ 处的切线的斜率，且曲线在点 $(0,1)$ 处有水平切线。
   subparts:
   - text: 求 $y=y(x)$ 的表达式；
   - text: |-
@@ -296,3 +295,4 @@ questions:
       若 $X=(x_1,x_2,x_3)^{\mathrm{T}}$，证明：$X^{\mathrm{T}}A^2X$ 为正定二次型；
   - text: |-
       求可逆矩阵 $P$，使得 $P^{-1}AP=A^{\mathrm{T}}$。
+content_hash: a09f090f234d5deffa50769e6c088e5bd5f9655d2f75c94ef453c48a075c9834

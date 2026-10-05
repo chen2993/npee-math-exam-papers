@@ -214,7 +214,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $f(x)=\dfrac{1}{x+\sqrt{1+x^2}}$，其反函数记作 $f^{-1}(x)$，则 $\int_0^{+\infty}f^{-1}(x)\,\mathrm{d}x=$\ExamBlank。
+      设 $f(x)=\dfrac{1}{x+\sqrt{1+x^2}}$，其反函数记作 $f^{-1}(x)$，则 $\int_{\sqrt{2}-1}^{1}f^{-1}(x)\,\mathrm{d}x=$\ExamBlank。
 - number: 13
   section: fill
   points: 5
@@ -284,4 +284,4 @@ questions:
       求正交变换 $x=Qy$，化二次型 $x^{\mathrm{T}}Ax$ 为标准形，并写出标准形。
   - text: |-
       若 $\boldsymbol{\gamma}=(1,0,4)^{\mathrm{T}}$，求 $A^{2024}\boldsymbol{\gamma}$。
-content_hash: 7ce02c7c21d51d7ebececd5a390ef9eecf18526424a4e4d58cfcf7dacc10b5ec
+content_hash: 24c4e2e52c5be7d8bbfac05147fcca49fd5ec753468093a5349f5131d7862280

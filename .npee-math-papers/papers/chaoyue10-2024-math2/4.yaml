@@ -4,7 +4,6 @@ paper:
   year: 2024
   subject: math2
   paper_no: 4
-content_hash: e36edf94f2f5f768a71c494e4681fc22274370375576e9e2bdafb434c5d79cc9
 questions:
 - number: 1
   section: choice
@@ -237,7 +236,7 @@ questions:
   points: 5
   stem:
     text: |-
-      椭圆 $x^2+y^2-xy=1$ 上点到原点距离的最大值为\ExamBlank。
+      椭圆 $x^2+y^2-xy=1$ 上点到原点距离的最小值为\ExamBlank。
 - number: 15
   section: fill
   points: 5
@@ -283,7 +282,7 @@ questions:
   points: 12
   stem:
     text: |-
-      设 $f(x)$ 具有连续导数，且满足 $f(1)=1$。区域 $D$ 是由 $x$ 轴，$y$ 轴和 $x+y=1$ 所围区域，若 $f(x+y)=\dfrac{x}{1+x+y}+\iint_Dyf'(x+y)\,\mathrm{d}\sigma$，求 $\iint_Df(x+y)\,\mathrm{d}\sigma$。
+      设 $f(x)$ 具有连续导数。区域 $D$ 是由 $x$ 轴，$y$ 轴和 $x+y=1$ 所围区域，若 $f(x+y)=\dfrac{x+y}{1+x+y}+\iint_Dyf'(x+y)\,\mathrm{d}\sigma$，求 $\iint_Df(x+y)\,\mathrm{d}\sigma$。
 - number: 22
   section: solution
   points: 12
@@ -294,3 +293,4 @@ questions:
   - text: 求矩阵 $A$；
   - text: |-
       求可逆矩阵 $P$，使 $P^{-1}AP=\Lambda$。
+content_hash: decd7c0d26ce78496c664fbb43228c6374ed0341558f92e800c57226f36f79be

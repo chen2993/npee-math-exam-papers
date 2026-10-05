@@ -200,7 +200,7 @@ questions:
   points: 5
   stem:
     text: |-
-      已知二次型 $f(x_1,x_2,x_3)$ 在正交变换 $x=Qy$ 下化为 $y_1^2-y_2^2$，其中 $Q=(e_1,e_2,e_3)$。若 $P=(e_2,-e_3,e_1)$，则 $f(x_1,x_2,x_3)$ 在变换 $x=Py$ 下化为\ExamSelection
+      已知二次型 $f(x_1,x_2,x_3)$ 在正交变换 $x=Qy$ 下化为 $y_1^2-y_2^2$，其中 $Q=(e_1,e_2,e_3)$。若 $P=(e_2,-e_3,e_1)$，则 $f(x_1,x_2,x_3)$ 在变换 $x=Pz$ 下化为\ExamSelection
   choices:
   - label: A
     text: $z_1^2+z_2^2+z_3^2$
@@ -283,7 +283,7 @@ questions:
   points: 12
   stem:
     text: |-
-      设 $f(x)$ 满足 $f'(x)+f^2(x)=0,f(0)=1$，计算二重积分 $\iint_D f\left(\dfrac{x}{y}\right)e^{f\left(\dfrac{y}{x}\right)}\,\mathrm{d}\sigma$，其中平面区域 $D=\{(x,y)\mid 0\leq x\leq1-y,\ 0<y<1\}$。
+      设 $f(x)$ 满足 $f'(x)+f^2(x)=0,f(0)=1$，计算二重积分 $\iint_D f\left(\dfrac{x}{y}\right)e^{f\left(\frac{x}{y}\right)}\,\mathrm{d}\sigma$，其中平面区域 $D=\{(x,y)\mid 0\leq x\leq1-y,\ 0<y<1\}$。
 - number: 22
   section: solution
   points: 12
@@ -295,4 +295,4 @@ questions:
       证明 $\eta$ 是 $A$ 的特征向量；
   - text: |-
       记 $\alpha=\dfrac{\xi_1}{\|\xi_1\|}=\begin{pmatrix}a_1\\a_2\\a_3\end{pmatrix},\ \beta=\dfrac{\eta}{\|\eta\|}=\begin{pmatrix}b_1\\b_2\\b_3\end{pmatrix}$，证明二次型 $f(x_1,x_2,x_3)=(a_1x_1+a_2x_2+a_3x_3)^2-(b_1x_1+b_2x_2+b_3x_3)^2$ 在正交变换下的标准形为 $y_1^2-y_2^2$。
-content_hash: ad18c552bdb76e64d03a4f031df75b61dd3fbcb3603ef730092a0da7895acad4
+content_hash: 8f94dde6eb49d3c09025abe009597fe41979505ad7088532ecba47ab496e2f2b

@@ -207,7 +207,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $A$ 为 $m\times n$ 矩阵,且 $r(A)=n(m>n)$, $\left(AA^{\mathsf T}\right)^{\mathsf T}=aAA^{\mathsf T}$,则下列说法正确的是\ExamSelection $\text{\textcircled{1}}\ \operatorname{tr}\left(AA^{\mathsf T}\right)=a$; $\text{\textcircled{2}}\ \operatorname{tr}\left(AA^{\mathsf T}\right)=na$; $\text{\textcircled{3}}\ AA^{\mathsf T}$ 与单位矩阵 $E_m$ 合同; $\text{\textcircled{4}}\ A^{\mathsf T}A$ 与单位矩阵 $E_n$ 合同.
+      设 $A$ 为 $m\times n$ 矩阵,且 $r(A)=n(m>n)$, $\left(AA^{\mathsf T}\right)^{2}=aAA^{\mathsf T}$,则下列说法正确的是\ExamSelection $\text{\textcircled{1}}\ \operatorname{tr}\left(AA^{\mathsf T}\right)=a$; $\text{\textcircled{2}}\ \operatorname{tr}\left(AA^{\mathsf T}\right)=na$; $\text{\textcircled{3}}\ AA^{\mathsf T}$ 与单位矩阵 $E_m$ 合同; $\text{\textcircled{4}}\ A^{\mathsf T}A$ 与单位矩阵 $E_n$ 合同.
   choices:
   - label: A
     text: ①③.
@@ -307,4 +307,4 @@ questions:
       求正交矩阵 $Q$,使得 $Q^{\mathsf T}AQ$ 为对角矩阵;
   - text: |-
       设 $\mathbf{x}=(1,1,1)^{\mathsf T}$,求 $\lim_{n\to\infty}\dfrac{\mathbf{x}^{\mathsf T}A^{n+1}\mathbf{x}}{\mathbf{x}^{\mathsf T}A^n\mathbf{x}}$.
-content_hash: 972207b16021c037fda5675e6210bfcde5661658e462d48149725fe24f850655
+content_hash: fddc91c2d55e165b0897a7d91fac8ac126a78d7ad89f8007b29b75bf0271b232

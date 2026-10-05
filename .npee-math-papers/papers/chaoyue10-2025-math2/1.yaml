@@ -67,7 +67,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $M=\int_0^1e^x\,\mathrm{d}x$, $N=\int_0^{\dfrac{\pi}{2}}e^{\sin x}\,\mathrm{d}x$, $P=\int_0^{\dfrac{\pi}{2}}e^{\tan x}\,\mathrm{d}x$，则\ExamSelection。
+      设 $M=\int_0^1e^x\,\mathrm{d}x$, $N=\int_0^{\dfrac{\pi}{2}}e^{\sin x}\,\mathrm{d}x$, $P=\int_0^{\dfrac{\pi}{4}}e^{\tan x}\,\mathrm{d}x$，则\ExamSelection。
   choices:
   - label: A
     text: $P<M<N$
@@ -105,7 +105,7 @@ questions:
   points: 5
   stem:
     text: |-
-      将二次积分 $\int_0^1\mathrm{d}y\int_0^y f(x,y)\,\mathrm{d}x+\int_{\dfrac{\pi}{4}}^{\dfrac{\pi}{2}}\mathrm{d}\theta\int_{\sin\theta}^{2\sin\theta}f(r\cos\theta,r\sin\theta)\,r\,\mathrm{d}r$ 转化为直角坐标系下二次积分\ExamSelection。
+      将二次积分 $\int_0^1\mathrm{d}y\int_0^y f(x,y)\,\mathrm{d}x+\int_{\dfrac{\pi}{4}}^{\dfrac{\pi}{2}}\mathrm{d}\theta\int_{\frac{1}{\sin\theta}}^{2\sin\theta}f(r\cos\theta,r\sin\theta)\,r\,\mathrm{d}r$ 转化为直角坐标系下二次积分\ExamSelection。
   choices:
   - label: A
     text: |-
@@ -190,7 +190,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $P$ 为 $3$ 阶可逆矩阵，且 $P^T=P^{-1}$，$P\cdot P$ 为 $P$ 的伴随矩阵，$A$ 为 $3$ 阶实对称矩阵，$x$ 为三维列向量，二次型 $x^TAx$ 经变换 $x=Py$ 化为二次型 $y^TBy$，则 $A,B$ 的关系为\ExamSelection。
+      设 $P$ 为 $3$ 阶可逆矩阵，且 $P^T=P^*$，其中 $P^*$ 为 $P$ 的伴随矩阵，$A$ 为 $3$ 阶实对称矩阵，$x$ 为三维列向量，二次型 $x^TAx$ 经变换 $x=Py$ 化为二次型 $y^TBy$，则 $A,B$ 的关系为\ExamSelection。
   choices:
   - label: A
     text: 等价、相似、且合同
@@ -245,7 +245,7 @@ questions:
   points: 10
   stem:
     text: |-
-      设函数 $y=f(x)$ 在点 $x=1$ 处可导，且它的图形在点 $(1,f(1))$ 处的切线方程为 $y=x-1$，求极限 $\lim_{x\to0}\dfrac{\int_0^{x^2}e^t\cdot f(1+e^{t^2}-e^t)\,\mathrm{d}t}{x^2\cdot\ln\cos x}$。
+      设函数 $y=f(x)$ 在点 $x=1$ 处可导，且它的图形在点 $(1,f(1))$ 处的切线方程为 $y=x-1$，求极限 $\lim_{x\to0}\dfrac{\int_0^{x^2}e^t\cdot f(1+e^{x^2}-e^t)\,\mathrm{d}t}{x^2\cdot\ln\cos x}$。
 - number: 18
   section: solution
   points: 12
@@ -283,4 +283,4 @@ questions:
   subparts:
   - text: 当单特征值不等于 $0$ 时，求 $A$ 以及 $Ax=0$ 的通解；
   - text: 当单特征值等于 $0$ 时，求正定矩阵 $B$，使得 $A=B^2-2E$。
-content_hash: e806d55cb7d1ed3094f5bdad71eb89d9ee021a58e7853964c10527368e688101
+content_hash: 1250cf2255c7689b9c11575d81e11efc5ebbae368cd17a9e4293e0e656f45064

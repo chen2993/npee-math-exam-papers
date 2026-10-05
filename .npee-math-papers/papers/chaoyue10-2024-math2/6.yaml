@@ -219,7 +219,7 @@ questions:
   points: 5
   stem:
     text: |-
-      极限 $I=\lim_{n\to\infty}\dfrac{1}{n^2}\sum_{i=1}^{n}\sum_{j=1}^{2n}e^{\max\left(\dfrac{i^2}{n^2},\dfrac{j^2}{n^2}\right)}=$\ExamBlank。
+      极限 $I=\lim_{n\to\infty}\dfrac{1}{n^2}\sum_{i=1}^{n}\sum_{j=1}^{2n}e^{\max\left(\frac{4i^2}{n^2},\frac{j^2}{n^2}\right)}=$\ExamBlank。
 - number: 14
   section: fill
   points: 5
@@ -289,4 +289,4 @@ questions:
   subparts:
   - text: 求 $a$；
   - text: 求方阵 $B$，使得 $A=B^3$。
-content_hash: 44a19644f6c892fbcbc0341294753ee9d31cd3600fd533dba3057745f513559a
+content_hash: 7e2944d3e9bd988ab99d86617e9286049e804240c201c54f1ce448ae88221009

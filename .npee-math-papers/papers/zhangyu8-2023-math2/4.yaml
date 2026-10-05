@@ -244,7 +244,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $z=\int_0^{x^2y}f(t,e^y)\,\mathrm{d}t$，其中 $f$ 一阶偏导连续，则 $\dfrac{\partial^2z}{\partial x\partial y}=\ExamBlank$。
+      设 $z=\int_0^{x^2y}f(t,e^t)\,\mathrm{d}t$，其中 $f$ 一阶偏导连续，则 $\dfrac{\partial^2z}{\partial x\partial y}=\ExamBlank$。
 - number: 16
   section: fill
   points: 5
@@ -289,11 +289,11 @@ questions:
   points: 12
   stem:
     text: |-
-      设 $f(x)$ 连续，证明：$\iint_{|y|\leq x\leq1}f(\sqrt{x^2+y^2})\,\mathrm{d}x\mathrm{d}y=\pi\int_0^1xf(x)\,\mathrm{d}x+\int_1^{\sqrt{2}}\left(\pi-4\arccos\dfrac{1}{x}\right)xf(x)\,\mathrm{d}x$。
+      设 $f(x)$ 连续，证明：$\iint_{|y|\leq|x|\leq1}f(\sqrt{x^2+y^2})\,\mathrm{d}x\mathrm{d}y=\pi\int_0^1xf(x)\,\mathrm{d}x+\int_1^{\sqrt{2}}\left(\pi-4\arccos\dfrac{1}{x}\right)xf(x)\,\mathrm{d}x$。
 - number: 22
   section: solution
   points: 12
   stem:
     text: |-
       设二次型 $f(x_1,x_2,x_3)$ 的矩阵为 $A$，已知 $\lvert A+E\rvert=0$，$AB-2B=O$，其中 $B=\begin{pmatrix}-1&-1&-1\\1&0&2\\0&1&-1\end{pmatrix}$。求一个正交变换 $x=Qy$，将二次型 $f(x_1,x_2,x_3)$ 化为标准形，并求矩阵 $A$。
-content_hash: a762d104f0a9ab0aefcede6c8010518a2a9d07fe9d414a260f0aa2582ea0509f
+content_hash: e7ed240592498e7408e5d7f5f4e2f6909138b7ed0b004161a761b6702c46203a

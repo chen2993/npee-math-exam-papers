@@ -4,7 +4,6 @@ paper:
   year: 2023
   subject: math2
   paper_no: 7
-content_hash: 6a2e28070745c5b2fc64c7555ac96687f52fb787b1a2f2966b8ad8ba2f2c2735
 questions:
 - number: 1
   section: choice
@@ -57,7 +56,7 @@ questions:
   points: 5
   stem:
     text: |-
-      曲线 $y=e^{\dfrac{1}{x}}+\sqrt{x^2-x+1}-x$ 的渐近线共有\ExamSelection
+      曲线 $y=e^{-\frac{1}{x}}+\sqrt{x^2-x+1}-x$ 的渐近线共有\ExamSelection
   choices:
   - label: A
     text: 1 条
@@ -299,3 +298,4 @@ questions:
   subparts:
   - text: $AB=BA$；
   - text: 存在可逆矩阵 $P$，使得 $P^{-1}AP$ 与 $P^{-1}BP$ 均为对角矩阵。
+content_hash: 192768bd30ef9bf32688d1f91b03441edbe67df87a6180b22abe8dd4448a0e4d

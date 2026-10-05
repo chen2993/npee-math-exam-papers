@@ -128,7 +128,7 @@ questions:
     figures: []
   - label: B
     text: |-
-      $\int_0^{\dfrac{a}{\sqrt{2}}}\mathrm{d}x\int_{-x}^{\sqrt{a^2-x^2}}f(x,y)\,\mathrm{d}y+\int_0^{\dfrac{a}{\sqrt{2}}}\mathrm{d}x\int_x^{\sqrt{a^2-x^2}}f(x,y)\,\mathrm{d}y$
+      $\int_{-\dfrac{a}{\sqrt{2}}}^0\mathrm{d}x\int_{-x}^{\sqrt{a^2-x^2}}f(x,y)\,\mathrm{d}y+\int_0^{\dfrac{a}{\sqrt{2}}}\mathrm{d}x\int_x^{\sqrt{a^2-x^2}}f(x,y)\,\mathrm{d}y$
     figures: []
   - label: C
     text: |-
@@ -301,4 +301,4 @@ questions:
   - text: 求所有满足 $BA=E$ 的矩阵 $B$，并求 $AB$ 的特征值；
   - text: |-
       在满足 $BA=E$ 的基础上，找到一个矩阵 $B$，使得 $AB$ 有一个特征向量为 $\beta=(1,2,3)^{\mathrm{T}}$。
-content_hash: 2ffc3ea94e079e334a7079c5f92dc236f49508432a16e5a8c17860e10eb0a8d8
+content_hash: c6f3c1320783bfc1dea005b529268115f626d71e13d93e81c65a534343d26200

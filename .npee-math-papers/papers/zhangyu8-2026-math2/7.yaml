@@ -239,7 +239,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $u=e^{x+y+yz}$，其中 $y(x)$ 和 $z(x)$ 由方程组 $\begin{cases}\int_0^x e^{t^2}\,\mathrm{d}t+\ln(1+y)=0,\\e^{y+z}=e+z\ln z\end{cases}$ 确定，则 $\left.\dfrac{\mathrm{d}u}{\mathrm{d}x}\right|_{x=0}=$\ExamBlank。
+      设 $u=e^{x+y+z}$，其中 $y(x)$ 和 $z(x)$ 由方程组 $\begin{cases}\int_0^x e^{t^2}\,\mathrm{d}t+\ln(1+y)=0,\\e^{y+z}=e+z\ln z\end{cases}$ 确定，则 $\left.\dfrac{\mathrm{d}u}{\mathrm{d}x}\right|_{x=0}=$\ExamBlank。
 - number: 16
   section: fill
   points: 5
@@ -298,4 +298,4 @@ questions:
   subparts:
   - text: $a,b$ 的值；
   - text: 可以使 $A,B$ 同时相似对角化的可逆矩阵 $P$。
-content_hash: c55148ee5f44ae005a56ca68e54e1c4e003f26dd3c7e5bbc610fb56e1c5b26b0
+content_hash: 0d7bb6d165e1a2cc10b1fb2dccbf835669a5e110fcc0a661385a019fd88eeb0c

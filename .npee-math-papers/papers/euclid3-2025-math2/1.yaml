@@ -4,14 +4,13 @@ paper:
   year: 2025
   subject: math2
   paper_no: 1
-content_hash: ea7fd4a2b348f2b141eba701cda5c90e5b3b6e02bce2fe0500dfedfcca281f4d
 questions:
 - number: 1
   section: choice
   points: 5
   stem:
     text: |-
-      设函数 $f(x)=\lim_{a\to0}\dfrac{x^{a+1}}{\ln|x|-\mathrm{e}^{2x}-1}$，则函数 $\int_0^x f(t)\,\mathrm{d}t$ 不可导点的个数为\ExamSelection
+      设函数 $f(x)=\lim_{n\to\infty}\dfrac{x^{2n+1}}{\ln|x|-x^{2n}-1}$，则函数 $\int_0^x f(t)\,\mathrm{d}t$ 不可导点的个数为\ExamSelection
   choices:
   - label: A
     text: $0$
@@ -116,7 +115,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $f(x,y)$ 是连续函数，则 $\int_0^1\mathrm{d}x\int_{-2\sqrt{x}}^{\sqrt{2x-x^2}}f(x,y)\,\mathrm{d}y=$\ExamSelection
+      设 $f(x,y)$ 是连续函数，则 $\int_0^1\mathrm{d}x\int_{-2\sqrt{x}}^{-\sqrt{2x-x^2}}f(x,y)\,\mathrm{d}y=$\ExamSelection
   choices:
   - label: A
     text: |-
@@ -247,7 +246,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设连续函数 $f(x)$ 满足 $f(x+3)-f(x)=\int_x^{x+3}\dfrac{1}{u\mathrm{e}^u}\,\mathrm{d}u\text{，}\int_0^3f(x)\,\mathrm{d}x=1$，则 $\int_1^4f(x)\,\mathrm{d}x=$\ExamBlank。
+      设连续函数 $f(x)$ 满足 $f(x+3)-f(x)=\int_1^x\dfrac{1}{u\mathrm{e}^u}\,\mathrm{d}u\text{，}\int_0^3f(x)\,\mathrm{d}x=1$，则 $\int_1^4f(x)\,\mathrm{d}x=$\ExamBlank。
 - number: 16
   section: fill
   points: 5
@@ -293,7 +292,7 @@ questions:
   points: 12
   stem:
     text: |-
-      设 $f(x,y)$ 在 $D=\{(x,y)\mid x^2+y^2\leq1\}$ 上具有连续的偏导数，且在边界上的取值为 $0$。设对任意的 $t>0$，均有 $f(tx,ty)=tf(x,y)$ 且 $f(0,0)=1$。
+      设 $f(x,y)$ 在 $D=\{(x,y)\mid x^2+y^2\leq1\}$ 上具有连续的偏导数，且在边界上的取值为 $0$。设对任意的 $t>0$，均有 $f(tx,ty)=tf(x,y)$。
   subparts:
   - text: 证明：$xf'_x(x,y)+yf'_y(x,y)=f(x,y)$。
   - text: |-
@@ -309,3 +308,4 @@ questions:
   - text: 求 $A^n$；
   - text: |-
       若 $x=\begin{pmatrix}5\\-5\\10\end{pmatrix}$，求 $f_{2025}(x)$。
+content_hash: b9a780cd5f4f85d2bba5ef12e377c4119bf6296ace6505423328d438243eece5

@@ -10,7 +10,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $g(x)=2^{x-1}$，$f(x)=\left\{\begin{array}{ll}\dfrac{(x-1)(1-g(x))}{1+g(x)},&x\ne 1,\\0,&x=1\end{array}\right.$，则\ExamSelection。
+      设 $g(x)=2^{\frac{1}{x-1}}$，$f(x)=\left\{\begin{array}{ll}\dfrac{(x-1)(1-g(x))}{1+g(x)},&x\ne 1,\\0,&x=1\end{array}\right.$，则\ExamSelection。
   choices:
   - label: A
     text: $f(x)$ 在 $x=1$ 处不连续
@@ -242,7 +242,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $y_1=e^x-e^{-x}\sin2x,y_2=e^x$ 是某二阶齐次非齐次线性方程的两个解，则该微分方程是 \ExamBlank。
+      设 $y_1=e^x-e^{-x}\sin2x,y_2=e^x$ 是某二阶常系数非齐次线性方程的两个解，则该微分方程是 \ExamBlank。
 - number: 15
   section: fill
   points: 5
@@ -290,4 +290,4 @@ questions:
   stem:
     text: |-
       设 $f(x_1,x_2,x_3)=(2x_1+x_2-x_3)^2+(x_1+2x_2+x_3)^2+(-x_1+x_2+2x_3)^2$，记 $A=\begin{pmatrix}2&1&-1\\1&2&1\\-1&1&2\end{pmatrix}$。（Ⅰ）求 $f=0$ 的通解；（Ⅱ）证明二次型 $f$ 的矩阵为 $AA^\mathrm{T}$；（Ⅲ）求正交变换 $x=Py$ 化二次型 $f$ 为标准形。
-content_hash: d3f86c2bbaa49c9e2594c50ad7e13b77994a5676454f380a8e03ca9d597a4e34
+content_hash: 2cfbd9405fe60e9e0ad8cad23ab5e81f0ac40ba244521146a10dbdae0f1235ba

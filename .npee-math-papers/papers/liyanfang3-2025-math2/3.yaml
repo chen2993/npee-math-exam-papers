@@ -4,7 +4,6 @@ paper:
   year: 2025
   subject: math2
   paper_no: 3
-content_hash: 2e5bdc54de7859be5e77e8afa51e80c60fb159c71d35264fe78ab7ee11fb7a97
 questions:
 - number: 1
   section: choice
@@ -117,7 +116,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $D$ 是由曲线 $2xy=1$ 与直线 $x+y=\dfrac{3}{2}$ 所围成的封闭区域，已知函数 $f(x,y)$ 在区域 $D$ 上连续，则 $\iint_D f(x,y)\,\mathrm{d}x\mathrm{d}y=$\ExamSelection。
+      设 $D$ 是由曲线 $2xy=1$ 与直线 $x+y=\dfrac{3}{2}$ 所围成的封闭区域，已知函数 $f(x,y)$ 在区域 $D$ 上连续，且 $f(x,y)=f(y,x)$，则 $\iint_D f(x,y)\,\mathrm{d}x\mathrm{d}y=$\ExamSelection。
   choices:
   - label: A
     text: |-
@@ -296,3 +295,4 @@ questions:
   stem:
     text: |-
       设 $3$ 阶矩阵 $\boldsymbol{A}$ 与非零向量 $\boldsymbol{\alpha}$ 满足 $\boldsymbol{A}\boldsymbol{\alpha}=\boldsymbol{\alpha}$，不同于 $\boldsymbol{\alpha}$ 的向量 $\boldsymbol{\beta}$ 满足 $\boldsymbol{A}\boldsymbol{\beta}=\boldsymbol{\alpha}$，向量 $\boldsymbol{\gamma}$ 满足 $\boldsymbol{A}\boldsymbol{\gamma}=\boldsymbol{\alpha}+\boldsymbol{\beta}$。求与 $\boldsymbol{A}^n$（$n\geq2$）相似的对角矩阵。
+content_hash: e57173cca25f3e789ca18bc3f3f33af1b474be543a87b6f8f046bc304f9f3b3c

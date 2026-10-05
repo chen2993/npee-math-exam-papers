@@ -4,7 +4,6 @@ paper:
   year: 2023
   subject: math2
   paper_no: 1
-content_hash: d351e0757a1db67e0bf0bd9fa100f606ecd341df5aa474e4abc956fff900dff7
 questions:
 - number: 1
   section: choice
@@ -122,7 +121,7 @@ questions:
     text: $f''_{12}(x,y)=f''_{21}(x,y)$。
     figures: []
   - label: D
-    text: $f''_{12}(x,y)=-f''_{11}(y,x)$。
+    text: $f''_{12}(x,y)=-f''_{21}(y,x)$。
     figures: []
 - number: 7
   section: choice
@@ -269,7 +268,7 @@ questions:
   points: 12
   stem:
     text: |-
-      设函数 $f(x)$ 一阶可导，满足 $f(x)+f(\pi-x)=f'(x)+f'(\pi-x)$，$2f'(x)+3f(x)=5f(\pi-x)$。若 $f(0)=1$，求 $f(x)$。
+      设函数 $f(x)$ 二阶可导，满足 $f(x)+f(\pi-x)=f'(x)+f'(\pi-x)$，$2f'(x)+3f(x)=5f(\pi-x)$。若 $f(0)=1$，求 $f(x)$。
 - number: 21
   section: solution
   points: 12
@@ -285,4 +284,5 @@ questions:
   section: solution
   points: 12
   stem:
-    text: 已知二次型 $f(x_1,x_2,x_3)=cx_1^2-(b^2+1)x_2^2+cx_3^2+2x_1x_3$ 可通过可逆线性变换化为 $g(y_1,y_2,y_3)=(2c^2-1)y_1^2+(c^2+1)y_2^2+(c^2-2)y_3^2+2(c^2+1)y_1y_2-2(c^2-2)y_1y_3$。求可逆线性变换 $y=Px$，将二次型 $g(y_1,y_2,y_3)$ 化为规范形。
+    text: 已知二次型 $f(x_1,x_2,x_3)=cx_1^2-(b^2+1)x_2^2+cx_3^2+2x_1x_3$ 可通过可逆线性变换化为 $g(y_1,y_2,y_3)=(2c^2-1)y_1^2+(c^2+1)y_2^2+(c^2-2)y_3^2+2(c^2+1)y_1y_2-2(c^2-2)y_1y_3$。求可逆线性变换 $y=Pz$，将二次型 $g(y_1,y_2,y_3)$ 化为规范形。
+content_hash: dfaf3ac613eb0f691fbd39546fbfd15213f7b5e249595a9eef0f6776a5d904be

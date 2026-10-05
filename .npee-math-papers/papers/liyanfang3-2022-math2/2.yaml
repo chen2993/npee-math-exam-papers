@@ -230,7 +230,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设函数 $y=y(x)$ 由参数方程 $\left\{\begin{array}{l}x=\int_0^u e^{t^2}\,\mathrm{d}t,\\y=\int_0^1\left|e^u-e^t\right|e^{\left|u^2-1\right|}\,\mathrm{d}t\end{array}\right.$ 所确定。若 $\int_0^{\dfrac{1}{2}}e^{x^2-\dfrac{1}{4}}\,\mathrm{d}x=a$，则 $\left.\dfrac{\mathrm{d}y}{\mathrm{d}x}\right|_{x=0}=\ExamBlank$。
+      设函数 $y=y(x)$ 由参数方程 $\left\{\begin{array}{l}x=\int_0^u e^{t^2}\,\mathrm{d}t,\\y=\int_0^1\left|e^u-e^t\right|e^{t^2-t}\,\mathrm{d}t\end{array}\right.$ 所确定。若 $\int_0^{\dfrac{1}{2}}e^{x^2-\dfrac{1}{4}}\,\mathrm{d}x=a$，则 $\left.\dfrac{\mathrm{d}y}{\mathrm{d}x}\right|_{x=0}=\ExamBlank$。
 - number: 15
   section: fill
   points: 5
@@ -292,4 +292,4 @@ questions:
   - text: 若 $k$ 为任意正整数，证明：$A^k$ 的各列元素之和均为 1，且 1 为 $A^k$ 的一个特征值。
   - text: |-
       记 $\alpha=(1,1,1)^{\mathrm{T}}$，若 $\beta$ 为 $A^k$ 的属于特征值 $\lambda$（$\lambda\ne1$）的特征向量，求 $\alpha^{\mathrm{T}}\beta$。
-content_hash: 5db92a4e2693dfe400b36ebe3d12a48967b107814a9cdc2d3daa5b2d75aa94c7
+content_hash: b89b0b005d1e0ef60420bac783cb292bd9a03f5d0604f0a1f8b6f2d53c501082

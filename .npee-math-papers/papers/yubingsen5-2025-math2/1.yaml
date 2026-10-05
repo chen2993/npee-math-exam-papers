@@ -52,7 +52,7 @@ questions:
   points: 5
   stem:
     text: |-
-      已知函数 $f(x,y)=\begin{cases}\dfrac{x^2y}{x^2+y^2},&(x,y)\ne(0,0),\\0,&(x,y)=(0,0),\end{cases}$ 则以下四个命题：\n① $f(x,y)$ 在点 $(0,0)$ 处连续；\n② $f(x,y)$ 在点 $(0,0)$ 处偏导数存在；\n③ $f(x,y)$ 在点 $(0,0)$ 处沿任意方向的方向导数存在；\n④ $f(x,y)$ 在点 $(0,0)$ 处不可微。\n以上正确的个数为\ExamSelection。
+      已知函数 $f(x,y)=\begin{cases}\dfrac{x^2y}{x^2+y^2},&(x,y)\ne(0,0),\\0,&(x,y)=(0,0),\end{cases}$ 则以下三个命题：\n① $f(x,y)$ 在点 $(0,0)$ 处连续；\n② $f(x,y)$ 在点 $(0,0)$ 处偏导数存在；\n③ $f(x,y)$ 在点 $(0,0)$ 处不可微。\n以上正确的个数为\ExamSelection。
   choices:
   - label: A
     text: '1'
@@ -288,7 +288,7 @@ questions:
   points: 12
   stem:
     text: |-
-      设 $f(x)$ 是单调可导函数，$f\left(-\dfrac\pi2\right)=-f\left(\dfrac\pi2\right)$，$g(x)$ 是 $f(x)$ 的反函数，且 $f(x)$ 满足 $\displaystyle\int_{-\pi/2}^{f(x)}g(t)\,\mathrm{d}t=\int_{-\pi/2}^{x}\left(\dfrac1{1+e^{-|t|}}+\dfrac{\sin t}{1+e^{-t/2}}\right)\sin t\,\mathrm{d}t$，求积分 $\displaystyle\int_{-\pi/2}^{\pi/2}f(x)\,\mathrm{d}x$ 的值。
+      设 $f(x)$ 是单调可导函数，$f\left(-\dfrac\pi2\right)=-f\left(\dfrac\pi2\right)$，$g(x)$ 是 $f(x)$ 的反函数，且 $f(x)$ 满足 $\displaystyle\int_{-\pi/2}^{f(x)}g(t)\,\mathrm{d}t=\int_{-\pi/2}^{x}\left(\dfrac1{1+e^{-|t|}}+\dfrac{\sin t}{1+e^{-t^{2}/2}}\right)\sin t\,\mathrm{d}t$，求积分 $\displaystyle\int_{-\pi/2}^{\pi/2}f(x)\,\mathrm{d}x$ 的值。
 - number: 22
   section: solution
   points: 12
@@ -300,4 +300,4 @@ questions:
   - text: 一个可逆矩阵 $P$，使得 $P^{-1}AP$ 为对角矩阵；
   - text: |-
       判断矩阵 $AA^{\mathrm T}$ 是否为正定矩阵，并说明理由。
-content_hash: af2de59c406cc9deb3b1957766aa03ed2647cdf46006d3d87fab375cd4998e03
+content_hash: 6e130d8966aef2125e694901eec43c0150666892319c31820a62a89162389aa4

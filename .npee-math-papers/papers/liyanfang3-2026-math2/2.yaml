@@ -211,7 +211,7 @@ questions:
     text: $(A^T)^2-A^T-2E=O$
     figures: []
   - label: D
-    text: $2A-A^*=2$
+    text: $2A-A^*=2E$
     figures: []
 - number: 11
   section: fill
@@ -293,8 +293,8 @@ questions:
   points: 12
   stem:
     text: |-
-      设矩阵 $A=\begin{pmatrix}-1&0&2a\\b&-1&-1\end{pmatrix}$，$B=\begin{pmatrix}-a&\dfrac{1}{2}&b-a\\0&\dfrac{1}{2}&b-2a\end{pmatrix}$，其中 $a,b$ 均不为零。记 $\alpha=\begin{pmatrix}0\\-1\end{pmatrix}$，$\beta=\begin{pmatrix}\dfrac{1}{2}\\1\\\dfrac{1}{2}\end{pmatrix}$，已知方程组 $Ax=\alpha$ 与 $Bx=\beta$ 至少有两个不同的公共解。
+      设矩阵 $A=\begin{pmatrix}-1&0&2a\\b&-1&-1\end{pmatrix}$，$B=\begin{pmatrix}-a&\dfrac{1}{2}&b-a\\0&\dfrac{1}{2}&b-2a\end{pmatrix}$，其中 $a,b$ 均不为零。记 $\alpha=\begin{pmatrix}0\\-1\end{pmatrix}$，$\beta=\begin{pmatrix}\dfrac{1}{2}\\\dfrac{1}{2}\end{pmatrix}$，已知方程组 $Ax=\alpha$ 与 $Bx=\beta$ 至少有两个不同的公共解。
   subparts:
   - text: 求 $a,b$ 的值；
   - text: 求正交变换 $x=Qy$ 将二次型 $f(x_1,x_2,x_3)=x^TA^TBx$ 化为标准形。
-content_hash: 7b89116117165f9b5fb43012975d96944cc2e0e105eff4264c5898fe73366f2b
+content_hash: 6724af53baa726b1704bb1b9a627b8cb4f2aa1373b643d42846d68b05b16143e

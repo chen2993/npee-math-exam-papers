@@ -76,7 +76,7 @@ questions:
     text: $0$
     figures: []
   - label: C
-    text: '{}'
+    text: $-1$
     figures: []
   - label: D
     text: $1$
@@ -296,4 +296,4 @@ questions:
   - text: 求 $a,b,c$ 的值；
   - text: 求出所作的正交线性变换；
   - text: 求 $f(x_1,x_2,x_3)=0$ 的所有解。
-content_hash: 25a732685a0b7b4a494a4ebd98d5d7d144c8451649e21dfbe79c73afd458e84a
+content_hash: 86578bf7bffeb725b258c4da77e0a81e0fbd49757c9c01b85829c10c976e72d1

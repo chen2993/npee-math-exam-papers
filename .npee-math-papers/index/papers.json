@@ -187,7 +187,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "aa206a083778a91a8730bb48abcbecd8f6a942123329f22f8846cd7911e6b272"
+      "content_hash": "2aaa9113eeca8fbdcc78ad1a963ba1df12911cc399c2a75e7bf7149e9494c058"
     },
     {
       "natural_key": "2024/math2/chaoyue10/2",
@@ -204,7 +204,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "030cc4a3b055d6df22781625749b6a4e5e7ac9c27369a5807b137b5ac89e022e"
+      "content_hash": "ca012d17c825f60d96c1dc7732211402a44e5e9b42541a10e4d74067b33e9a45"
     },
     {
       "natural_key": "2024/math2/chaoyue10/3",
@@ -221,7 +221,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "7ce02c7c21d51d7ebececd5a390ef9eecf18526424a4e4d58cfcf7dacc10b5ec"
+      "content_hash": "24c4e2e52c5be7d8bbfac05147fcca49fd5ec753468093a5349f5131d7862280"
     },
     {
       "natural_key": "2024/math2/chaoyue10/4",
@@ -238,7 +238,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "e36edf94f2f5f768a71c494e4681fc22274370375576e9e2bdafb434c5d79cc9"
+      "content_hash": "decd7c0d26ce78496c664fbb43228c6374ed0341558f92e800c57226f36f79be"
     },
     {
       "natural_key": "2024/math2/chaoyue10/5",
@@ -255,7 +255,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "f0717db7c9b7ac3d30977eff7c66d69676346a4530e803326c4b339e7ea405c3"
+      "content_hash": "cd475d35ac3f491c6e44774932aee61fc97713fb66e50284bd3fde58fe7f9910"
     },
     {
       "natural_key": "2024/math2/chaoyue10/6",
@@ -272,7 +272,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "44a19644f6c892fbcbc0341294753ee9d31cd3600fd533dba3057745f513559a"
+      "content_hash": "7e2944d3e9bd988ab99d86617e9286049e804240c201c54f1ce448ae88221009"
     },
     {
       "natural_key": "2024/math2/chaoyue10/7",
@@ -289,7 +289,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "abdff08f01a190d672a8ce6588c5a833c7bb385e15ccc615210b76f2814f580f"
+      "content_hash": "d4c5c69b6a792cab2829d0b8ca3618c5898ed0b96f08b634b1f0dcd3659462dc"
     },
     {
       "natural_key": "2024/math2/chaoyue10/8",
@@ -306,7 +306,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "126979171f4e7369491eca09d58ed909f7d890222550d688acdd002ed9bc7c59"
+      "content_hash": "11db417349ea2aa1bd43f621cfc1de62659d9e313999b7e115b39c05ab2c3602"
     },
     {
       "natural_key": "2024/math2/chaoyue10/9",
@@ -323,7 +323,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "807cf87b6c2deda001cb0479f16f9cbf750207f00dfac1c3fce5060085663ab8"
+      "content_hash": "57379f8e4dcdf18c526644f52f9b9d9af751fe6fb1e9206e4e1708bdc25b3d0f"
     },
     {
       "natural_key": "2024/math2/chaoyue10/10",
@@ -697,7 +697,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "e806d55cb7d1ed3094f5bdad71eb89d9ee021a58e7853964c10527368e688101"
+      "content_hash": "1250cf2255c7689b9c11575d81e11efc5ebbae368cd17a9e4293e0e656f45064"
     },
     {
       "natural_key": "2025/math2/chaoyue10/2",
@@ -782,7 +782,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "f1d6ed81bd19fb02b77608879557e5ab107eeef2f70233d27f696e58e375ffee"
+      "content_hash": "f38e8d0f94e9d4ec801ab8eaf697ad9a0cc4625767f12dcc441030b1e9cb012c"
     },
     {
       "natural_key": "2025/math2/chaoyue10/7",
@@ -799,7 +799,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "d3f86c2bbaa49c9e2594c50ad7e13b77994a5676454f380a8e03ca9d597a4e34"
+      "content_hash": "2cfbd9405fe60e9e0ad8cad23ab5e81f0ac40ba244521146a10dbdae0f1235ba"
     },
     {
       "natural_key": "2025/math2/chaoyue10/8",
@@ -816,7 +816,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "34255ff54786f66606488b71db5054a9b95f7b1308c5f32a8aa7298a707f6318"
+      "content_hash": "dd62cc704a73789f3923cdc53fd5f2ca2b8dcec5d666e9beee947cdd2a1fc182"
     },
     {
       "natural_key": "2025/math2/chaoyue10/9",
@@ -833,7 +833,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "5e87f1e0f0fbcb71b97693182a9a2f133895ce79582269aca88b29c43dd49362"
+      "content_hash": "caa66b6282d3054cb1bd1dcc86c15095fc73173fc5ada25b5c72b2d6717142c7"
     },
     {
       "natural_key": "2025/math2/chaoyue10/10",
@@ -850,7 +850,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "d7cd5c1ad67eab115cf786f1d072f0de783211f0ec58b320a7f23f710873dd25"
+      "content_hash": "80f7b958d43685d3e3b060ad7917ba6bc7b4e949b8f018d5f124d5b2be5b7dc8"
     },
     {
       "natural_key": "2025/math3/chaoyue10/1",
@@ -1088,7 +1088,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "ea7fd4a2b348f2b141eba701cda5c90e5b3b6e02bce2fe0500dfedfcca281f4d"
+      "content_hash": "b9a780cd5f4f85d2bba5ef12e377c4119bf6296ace6505423328d438243eece5"
     },
     {
       "natural_key": "2025/math2/euclid3/2",
@@ -1105,7 +1105,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "cf69fa354670904322b5b5fd93cd77012e2cb63b909ed720236c150e0f2f01cb"
+      "content_hash": "0b2bf71a2ea9c9be79f983360103ad293d1009b9c67dd5c5c0de6544518660f6"
     },
     {
       "natural_key": "2025/math2/euclid3/3",
@@ -1122,7 +1122,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "f45f8fd2452cf48c1979f28e1114fa2162d50f56a7cbea917e8987b8d5e3d87b"
+      "content_hash": "1aa393f2599b0d7515eccdd6e2b1e1a3dd2ca51e849c3d45d03d8fbd390a8fff"
     },
     {
       "natural_key": "2025/math3/euclid3/1",
@@ -1241,7 +1241,7 @@
         "solution": 6
       },
       "figure_count": 1,
-      "content_hash": "dc465a7e8a4d6c37446f37441a2aadd064ccb4525a1e883af98b1ba101737638"
+      "content_hash": "f5aa71ee9df340d266000ac3055d548bba8bf0e1e63dd8bfcf42d258ea2e1227"
     },
     {
       "natural_key": "2026/math2/euclid3/2",
@@ -1275,7 +1275,7 @@
         "solution": 6
       },
       "figure_count": 1,
-      "content_hash": "972207b16021c037fda5675e6210bfcde5661658e462d48149725fe24f850655"
+      "content_hash": "fddc91c2d55e165b0897a7d91fac8ac126a78d7ad89f8007b29b75bf0271b232"
     },
     {
       "natural_key": "2026/math3/euclid3/1",
@@ -1462,7 +1462,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "7875c3802f2728457b80b1cde86e43a21c0a57c9199966c8cf27e11f8ae25c7b"
+      "content_hash": "a09f090f234d5deffa50769e6c088e5bd5f9655d2f75c94ef453c48a075c9834"
     },
     {
       "natural_key": "2025/math2/lilin6/3",
@@ -1479,7 +1479,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "1a6c7c46a99392c0c83e45ce335103e56b154c2e37f2b1abd3d2c24383a23fca"
+      "content_hash": "3c804d2fc4cf80861e781dfb17c33e9ba571a7450449e7acdc9b8af243f4001d"
     },
     {
       "natural_key": "2025/math2/lilin6/4",
@@ -1496,7 +1496,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "dfcf6e01df9a22e29905de0ac44bdceca037c6e43d668c9f779a5de4e9eaf0b9"
+      "content_hash": "a101c6180f1c12fc7df67f82d136c9e49bb3a9450dbbacacff23cd965a651feb"
     },
     {
       "natural_key": "2025/math2/lilin6/5",
@@ -1513,7 +1513,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "5ffe216f09b2985f8f810db645e914d820fd29a0b3eb0435c5977aaa8aadf47e"
+      "content_hash": "43593b2983f29cb5863a30f04e3ee55e22970d0cd50dd520d7de68fa18c19d28"
     },
     {
       "natural_key": "2025/math2/lilin6/6",
@@ -1530,7 +1530,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "75cecaae80a94d1069d32e69c0497dd8c47d08d6c52c4354613d932f82e09fad"
+      "content_hash": "380ccdf412079b3a462fdaa3cfc959cab6807ea3e979a5d7230e1e1021079446"
     },
     {
       "natural_key": "2025/math3/lilin6/1",
@@ -1802,7 +1802,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "93e264250ce4bf0d84bdb4a9c2772eac541a850e853685d909d77e549aaf6291"
+      "content_hash": "a817097837b713487648935c2cfeac599df0a69b451424703ea9d52aba491421"
     },
     {
       "natural_key": "2026/math2/lilin6/5",
@@ -2125,7 +2125,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "5db92a4e2693dfe400b36ebe3d12a48967b107814a9cdc2d3daa5b2d75aa94c7"
+      "content_hash": "b89b0b005d1e0ef60420bac783cb292bd9a03f5d0604f0a1f8b6f2d53c501082"
     },
     {
       "natural_key": "2022/math2/liyanfang3/3",
@@ -2261,7 +2261,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "d351e0757a1db67e0bf0bd9fa100f606ecd341df5aa474e4abc956fff900dff7"
+      "content_hash": "dfaf3ac613eb0f691fbd39546fbfd15213f7b5e249595a9eef0f6776a5d904be"
     },
     {
       "natural_key": "2023/math2/liyanfang3/2",
@@ -2278,7 +2278,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "30e74af18acdfe0d6dd0859d5ea0384809bf1236eb55a6ffb61ff17f754b26de"
+      "content_hash": "bb467e92fd5de85c3ae93c77e5d52522498441b15ee705f7adfa8011d9108aa7"
     },
     {
       "natural_key": "2023/math2/liyanfang3/3",
@@ -2295,7 +2295,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "2ffc3ea94e079e334a7079c5f92dc236f49508432a16e5a8c17860e10eb0a8d8"
+      "content_hash": "c6f3c1320783bfc1dea005b529268115f626d71e13d93e81c65a534343d26200"
     },
     {
       "natural_key": "2023/math3/liyanfang3/1",
@@ -2414,7 +2414,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "5976a6655fb88455d62abe2fe24de318fd27380328ff85abae94677c9a790df6"
+      "content_hash": "9df415f42e827b057ee70d22bb02728d95ddd0ad37ad9caf60ff40e678355d36"
     },
     {
       "natural_key": "2024/math2/liyanfang3/2",
@@ -2448,7 +2448,7 @@
         "solution": 6
       },
       "figure_count": 1,
-      "content_hash": "155893bb5798333053cae5dd990957da35bb52d72c7ad377aa5728b1ac52c6f1"
+      "content_hash": "194663d68d38fbf8e96215efae4be87511cf75dd1f679c081a1569c02a77c778"
     },
     {
       "natural_key": "2024/math3/liyanfang3/1",
@@ -2584,7 +2584,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "8ccb8ba544a60f9e98484bda8c21210502fd7fd25b49f663d9916e3c444fa7dc"
+      "content_hash": "fd31c99f81b040118d1fc82aeed88f4f4371d6493b3248618d09dc77fe52220f"
     },
     {
       "natural_key": "2025/math2/liyanfang3/3",
@@ -2601,7 +2601,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "2e5bdc54de7859be5e77e8afa51e80c60fb159c71d35264fe78ab7ee11fb7a97"
+      "content_hash": "e57173cca25f3e789ca18bc3f3f33af1b474be543a87b6f8f046bc304f9f3b3c"
     },
     {
       "natural_key": "2025/math3/liyanfang3/1",
@@ -2720,7 +2720,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "2e831a43a9315c9e223638f919a0b1777845239ca3bfcee3dc904919cd5e81be"
+      "content_hash": "f5a6583c6c43e2e1b891c3bbd3438cc99c5cf76cdbf80096c13d2e470c895cb4"
     },
     {
       "natural_key": "2026/math2/liyanfang3/2",
@@ -2737,7 +2737,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "7b89116117165f9b5fb43012975d96944cc2e0e105eff4264c5898fe73366f2b"
+      "content_hash": "6724af53baa726b1704bb1b9a627b8cb4f2aa1373b643d42846d68b05b16143e"
     },
     {
       "natural_key": "2026/math2/liyanfang3/3",
@@ -2754,7 +2754,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "ad11a6e23c541cd7741e575c54b69d4e77d14ba96477ca1f1cbad23ac07bcd76"
+      "content_hash": "0bc709d993b0a4a7b9f698426cce61e38393fe02416193666c194dd7a2ee6498"
     },
     {
       "natural_key": "2026/math3/liyanfang3/1",
@@ -3162,7 +3162,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "af2de59c406cc9deb3b1957766aa03ed2647cdf46006d3d87fab375cd4998e03"
+      "content_hash": "6e130d8966aef2125e694901eec43c0150666892319c31820a62a89162389aa4"
     },
     {
       "natural_key": "2025/math2/yubingsen5/2",
@@ -3213,7 +3213,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "25a732685a0b7b4a494a4ebd98d5d7d144c8451649e21dfbe79c73afd458e84a"
+      "content_hash": "86578bf7bffeb725b258c4da77e0a81e0fbd49757c9c01b85829c10c976e72d1"
     },
     {
       "natural_key": "2025/math2/yubingsen5/5",
@@ -3230,7 +3230,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "b0642048161d71f3fa54e9f29c510597687ef4fe04e99ef93682fedc629ad50d"
+      "content_hash": "0c88cd68450f82dbc8996a747f2e45e41f115be045ff1a6ffd272fc5238f2497"
     },
     {
       "natural_key": "2025/math3/yubingsen5/1",
@@ -3400,7 +3400,7 @@
         "solution": 6
       },
       "figure_count": 1,
-      "content_hash": "555450b4c41f4b80ba2a3dec70f971cda60a80fa2db55349deb6a18bae40909f"
+      "content_hash": "ef0917350532061b4b44858252c6e8fef9467387c86f54b973d0f6f92a7a43e5"
     },
     {
       "natural_key": "2024/math2/zhangyu4/2",
@@ -3434,7 +3434,7 @@
         "solution": 6
       },
       "figure_count": 1,
-      "content_hash": "ad18c552bdb76e64d03a4f031df75b61dd3fbcb3603ef730092a0da7895acad4"
+      "content_hash": "8f94dde6eb49d3c09025abe009597fe41979505ad7088532ecba47ab496e2f2b"
     },
     {
       "natural_key": "2024/math2/zhangyu4/4",
@@ -3451,7 +3451,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "0dd053a559268d2784f05ba95fedd271eca478584324eed1e77ac614018c7c9a"
+      "content_hash": "08ae873af68f647cdd41d7098b2ad8be368c3f94c2cede2ce26ffd8b8e52124d"
     },
     {
       "natural_key": "2024/math3/zhangyu4/1",
@@ -3808,7 +3808,7 @@
         "solution": 6
       },
       "figure_count": 1,
-      "content_hash": "c1646985baacb0c4b9c0f3210039cb2024ac2510cd93a2195a8faf0516fa054c"
+      "content_hash": "9bf106f0959c04288e4297762e8d310b82e99275ce15897878aa2f1e07bdb2a8"
     },
     {
       "natural_key": "2026/math2/zhangyu4/2",
@@ -3825,7 +3825,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "5ec6d758cb6947077dd0892056e183eb20870685d74825c59a6da2ad2b0f3723"
+      "content_hash": "db928c20c3d7735f7e4117a6ef6fed753dfb7ab0f1f89c25b99bc0218e7ae593"
     },
     {
       "natural_key": "2026/math2/zhangyu4/3",
@@ -3859,7 +3859,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "7470a7b5235d2d877f0d1c85874b591465541eea0be8625a82d78edd44e51a7b"
+      "content_hash": "9926977eb59a086b37cf109b51e62128fb2be98427cf0c2a9ab327996dbc3627"
     },
     {
       "natural_key": "2026/math3/zhangyu4/1",
@@ -4131,7 +4131,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "a762d104f0a9ab0aefcede6c8010518a2a9d07fe9d414a260f0aa2582ea0509f"
+      "content_hash": "e7ed240592498e7408e5d7f5f4e2f6909138b7ed0b004161a761b6702c46203a"
     },
     {
       "natural_key": "2023/math2/zhangyu8/5",
@@ -4148,7 +4148,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "1ac62c55ac6339d5561701757c29b19311d9ca12c3b2d790b107038c0cd6aa58"
+      "content_hash": "049b4c016b550da02c8df70703da9daaab63e035157f1cdb90f2f11a02688074"
     },
     {
       "natural_key": "2023/math2/zhangyu8/6",
@@ -4182,7 +4182,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "6a2e28070745c5b2fc64c7555ac96687f52fb787b1a2f2966b8ad8ba2f2c2735"
+      "content_hash": "192768bd30ef9bf32688d1f91b03441edbe67df87a6180b22abe8dd4448a0e4d"
     },
     {
       "natural_key": "2023/math2/zhangyu8/8",
@@ -4505,7 +4505,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "ec24246e085d1e996e2edf7f4d84dcc1ea333e69ecf51127347ff8d218d9c25e"
+      "content_hash": "1a500b8b078053d65cb0039ae19fb7cc4511356bf410140868333e4177e32dc7"
     },
     {
       "natural_key": "2024/math2/zhangyu8/3",
@@ -4522,7 +4522,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "3e47d38a2fad8cab067092487d1c4d059f90bdc0d10f52d96916f1c7c533f7bb"
+      "content_hash": "e5ed4b1480075cc48cd4617529dc5550464301d9ab0cac767eacebcfb67b8569"
     },
     {
       "natural_key": "2024/math2/zhangyu8/4",
@@ -4539,7 +4539,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "4049080345ab221f4cf6d37afe85104376768ae93c7ecd6a6cdae747010aaa77"
+      "content_hash": "3a822092e5d9d1b06a05bc52dd3722902ad698edc2067b862904c0f29bea571a"
     },
     {
       "natural_key": "2024/math2/zhangyu8/5",
@@ -4573,7 +4573,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "ea350b65e538cad2808f8dbe604c3c87fc77151750f8775638de519561df5cd5"
+      "content_hash": "cac4a46e630a6a47e84af000ae4b2bc36fd3452108d3a8eca4308c9b0294011f"
     },
     {
       "natural_key": "2024/math2/zhangyu8/7",
@@ -4590,7 +4590,7 @@
         "solution": 6
       },
       "figure_count": 1,
-      "content_hash": "4c6fee83aa3c389cdff2833b8f10198f9647d318a69185f1ddf08c5858b1b7dd"
+      "content_hash": "f1f2abe80a54bc89781955c7f6a60c454187408091b6dec3fffffb2d4f1714db"
     },
     {
       "natural_key": "2024/math2/zhangyu8/8",
@@ -4913,7 +4913,7 @@
         "solution": 6
       },
       "figure_count": 5,
-      "content_hash": "4b5605210893ba24cf5f9e1d5688129c2cb049db9112df45316002df4a2bacaa"
+      "content_hash": "ce22d25b33a8f7134b2424dad14493b111cf70d84d076d1f361f48ff3596d9cf"
     },
     {
       "natural_key": "2025/math2/zhangyu8/3",
@@ -5304,7 +5304,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "d4305dcba44073fc8a291399181426d0e899d6f72f4f461dfa4542d73bb5fc9a"
+      "content_hash": "18bf661630f4a33489ed791463c4fd60b18dd799eb7809af083ce13aa58a8812"
     },
     {
       "natural_key": "2026/math2/zhangyu8/2",
@@ -5321,7 +5321,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "ba468eb59594baf6b422aab03290fba8f9d47086988f1dcd1b6e2ec1c2d09c9e"
+      "content_hash": "6b015c94c16d2e7724e63d1bd16e82d2fa2c6099d4bc4f2989d2acc7049ffcc4"
     },
     {
       "natural_key": "2026/math2/zhangyu8/3",
@@ -5338,7 +5338,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "d7111a08772b9da49d1bbc33ae5e57e1cd601c1b0fd9e353d164443b6dfc371b"
+      "content_hash": "3ce22f504bbb1ed9d78a960d091a18601f1b76e02f2955d69cbf3a88ebcfbd4a"
     },
     {
       "natural_key": "2026/math2/zhangyu8/4",
@@ -5389,7 +5389,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "04502ff4e14f5a527ead58709faa10b23de371b4bb99f8b75fdcbf645e5df7a9"
+      "content_hash": "d053606253424e113ca5cd5d8928ca88749a1689799f2b2d0eb6496190108a4e"
     },
     {
       "natural_key": "2026/math2/zhangyu8/7",
@@ -5406,7 +5406,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "c55148ee5f44ae005a56ca68e54e1c4e003f26dd3c7e5bbc610fb56e1c5b26b0"
+      "content_hash": "0d7bb6d165e1a2cc10b1fb2dccbf835669a5e110fcc0a661385a019fd88eeb0c"
     },
     {
       "natural_key": "2026/math2/zhangyu8/8",

@@ -4,7 +4,6 @@ paper:
   year: 2024
   subject: math2
   paper_no: 3
-content_hash: 155893bb5798333053cae5dd990957da35bb52d72c7ad377aa5728b1ac52c6f1
 questions:
 - number: 1
   section: choice
@@ -234,7 +233,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设函数 $f(x)=k-xe^{-kx^2}$ 在 $(0,+\infty)$ 上设有零点，则 $k$ 的取值范围是\ExamBlank。
+      设函数 $f(x)=k-xe^{-kx^2}$ 在 $(0,+\infty)$ 上没有零点，则 $k$ 的取值范围是\ExamBlank。
 - number: 14
   section: fill
   points: 5
@@ -299,3 +298,4 @@ questions:
   - text: |-
       若 $k\boldsymbol{\alpha}+\boldsymbol{\beta}$ 为 $A$ 的一个特征向量，求 $k$；
   - text: 在第（Ⅱ）问的基础上，求二次型 $f(x_1,x_2,x_3)$ 的规范形。
+content_hash: 194663d68d38fbf8e96215efae4be87511cf75dd1f679c081a1569c02a77c778

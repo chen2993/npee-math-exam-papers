@@ -4,7 +4,6 @@ paper:
   year: 2023
   subject: math2
   paper_no: 5
-content_hash: 1ac62c55ac6339d5561701757c29b19311d9ca12c3b2d790b107038c0cd6aa58
 questions:
 - number: 1
   section: choice
@@ -140,7 +139,7 @@ questions:
   points: 5
   stem:
     text: |-
-      $\displaystyle\lim_{t\to0^+}\dfrac{1}{t^5}\int_0^t\mathrm{d}x\int_x^t(e^{x^2y^2}-1)\,\mathrm{d}y=$\ExamSelection
+      $\displaystyle\lim_{t\to0^+}\dfrac{1}{t^6}\int_0^t\mathrm{d}x\int_x^t(e^{x^2y^2}-1)\,\mathrm{d}y=$\ExamSelection
   choices:
   - label: A
     text: |-
@@ -304,3 +303,4 @@ questions:
       若 $3$ 维非零列向量 $\alpha$ 与 $\xi_3$ 正交，证明 $\alpha$ 是对应于 $\lambda_1=\lambda_2=1$ 的特征向量；
   - text: |-
       求 $f=x^{\mathrm T}Ax$ 的表达式。
+content_hash: 049b4c016b550da02c8df70703da9daaab63e035157f1cdb90f2f11a02688074

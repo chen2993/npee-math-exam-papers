@@ -10,7 +10,7 @@ questions:
   points: 5
   stem:
     text: |-
-      关于数列 $\{x_n\}$、$\{y_n\}$，有以下论断：\n① 若数列 $\{x_n\}$ 和 $\{y_n\}$ 都收敛，则数列 $\{x_ny_n\}$ 收敛；\n② 若数列 $\{x_n+y_n\}$ 和 $\{x_n-y_n\}$ 都收敛，则数列 $\{x_n\}$、$\{y_n\}$ 均收敛；\n③ 若数列 $\{x_n\}$ 和 $\{y_n\}$ 都发散，则数列 $\{x_n+y_n\}$ 可能收敛；\n④ 若数列 $\{x_ny_n\}$ 收敛，则数列 $\{x_n\}$ 和 $\{y_n\}$ 必有一个收敛。\n以上结论中正确的个数为\ExamSelection。
+      关于数列 $\{x_n\}$、$\{y_n\}$，有以下论断：\n① 若数列 $\{x_{2n}\}$ 和 $\{x_{2n-1}\}$ 都收敛，则数列 $\{x_n\}$ 收敛；\n② 若数列 $\{x_n+y_n\}$ 和 $\{x_n-y_n\}$ 都收敛，则数列 $\{x_n\}$、$\{y_n\}$ 均收敛；\n③ 若数列 $\{x_n\}$ 和 $\{y_n\}$ 都发散，则数列 $\{x_n+y_n\}$ 可能收敛；\n④ 若数列 $\{x_ny_n\}$ 收敛，则数列 $\{x_n\}$ 和 $\{y_n\}$ 必有一个收敛。\n以上结论中正确的个数为\ExamSelection。
   choices:
   - label: A
     text: $1$
@@ -291,4 +291,4 @@ questions:
   - text: 求正交阵 $Q$ 将 $A$ 对角化；
   - text: |-
       二次型 $f(x_1,x_2,x_3)=\boldsymbol{x}^{\mathrm T}A\boldsymbol{x}$，求 $f=0$ 的解。
-content_hash: 030cc4a3b055d6df22781625749b6a4e5e7ac9c27369a5807b137b5ac89e022e
+content_hash: ca012d17c825f60d96c1dc7732211402a44e5e9b42541a10e4d74067b33e9a45

@@ -4,7 +4,6 @@ paper:
   year: 2024
   subject: math2
   paper_no: 7
-content_hash: 4c6fee83aa3c389cdff2833b8f10198f9647d318a69185f1ddf08c5858b1b7dd
 questions:
 - number: 1
   section: choice
@@ -263,7 +262,7 @@ questions:
   section: solution
   points: 12
   stem:
-    text: 求函数 $f(x,y)=x^3+y^3+6xy$ 的极值。
+    text: 求函数 $f(x,y)=x^3+y^2+6xy$ 的极值。
 - number: 19
   section: solution
   points: 12
@@ -303,3 +302,4 @@ questions:
   subparts:
   - text: 求矩阵 $A$；
   - text: 若 $A$ 正定，求 $a$ 的取值范围。
+content_hash: f1f2abe80a54bc89781955c7f6a60c454187408091b6dec3fffffb2d4f1714db

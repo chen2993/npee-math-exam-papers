@@ -4,7 +4,6 @@ paper:
   year: 2024
   subject: math2
   paper_no: 3
-content_hash: 3e47d38a2fad8cab067092487d1c4d059f90bdc0d10f52d96916f1c7c533f7bb
 questions:
 - number: 1
   section: choice
@@ -32,7 +31,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $f(x)$ 是奇函数，若 $x=-1$ 是 $f(x)$ 在 $(-\infty,0)$ 上的唯一零点，且 $f'(-1)=1$，则 $\int_0^x f(t)\,\mathrm{d}t$ 的严格单调增加区间为\ExamSelection
+      设 $f(x)$ 是连续的奇函数，若 $x=-1$ 是 $f(x)$ 在 $(-\infty,0)$ 上的唯一零点，且 $f'(-1)=1$，则 $\int_0^x f(t)\,\mathrm{d}t$ 的严格单调增加区间为\ExamSelection
   choices:
   - label: A
     text: |-
@@ -289,3 +288,4 @@ questions:
   stem:
     text: |-
       设 $A=\begin{pmatrix}1&-2&1\\-2&1&1\\1&1&-2\end{pmatrix}$，矩阵 $B$ 满足 $AB=A-B$，求可逆矩阵 $P$，使 $P^{-1}(AB)P$ 为对角矩阵，并写出该对角矩阵。
+content_hash: e5ed4b1480075cc48cd4617529dc5550464301d9ab0cac767eacebcfb67b8569

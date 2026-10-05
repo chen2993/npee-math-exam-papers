@@ -265,7 +265,7 @@ questions:
   points: 12
   stem:
     text: |-
-      已知 $f(x,y)$ 满足 $e^{-2x}\dfrac{\partial f}{\partial x}=4y+2y^3+2x+1$，且 $f(0,y)=2y+y^2$。求：
+      已知 $f(x,y)$ 满足 $e^{-2x}\dfrac{\partial f}{\partial x}=4y+2y^2+2x+1$，且 $f(0,y)=2y+y^2$。求：
   subparts:
   - text: $f(x,y)$ 的表达式；
   - text: $f(x,y)$ 的极值。
@@ -296,4 +296,4 @@ questions:
   subparts:
   - text: 求矩阵 $C$；
   - text: 计算 $A^{10}$。
-content_hash: ec24246e085d1e996e2edf7f4d84dcc1ea333e69ecf51127347ff8d218d9c25e
+content_hash: 1a500b8b078053d65cb0039ae19fb7cc4511356bf410140868333e4177e32dc7

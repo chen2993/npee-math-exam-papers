@@ -105,7 +105,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $z=z(x,y)$ 是由方程 $\int_{2x-3y}^{z}f(2x-3y+z-t)\,\mathrm{d}t=\sin(2x-3y+z)$ 所确定的函数，其中 $f$ 为关于 $1$ 的连续函数，则\ExamSelection
+      设 $z=z(x,y)$ 是由方程 $\int_{2x-3y}^{z}f(2x-3y+z-t)\,\mathrm{d}t=\sin(2x-3y+z)$ 所确定的函数，其中 $f$ 为大于 $1$ 的连续函数，则\ExamSelection
   choices:
   - label: A
     text: |-
@@ -250,7 +250,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设方程组 $\begin{cases}2x_1+x_2+x_3=a,\\(a-1)x_2=1,\\x_1+x_2+2x_3=1\end{cases}$ 有两个不同的解，则该方程组的通解为\ExamBlank
+      设方程组 $\begin{cases}\lambda x_1+x_2+x_3=a,\\(\lambda-1)x_2=1,\\x_1+x_2+\lambda x_3=1\end{cases}$ 有两个不同的解，则该方程组的通解为\ExamBlank
 - number: 17
   section: solution
   points: 10
@@ -262,7 +262,7 @@ questions:
   points: 12
   stem:
     text: |-
-      设函数 $f(x)$ 在 $x=0$ 处连续，且 $\lim_{x\to0}\dfrac{xf(x)-\mathrm{e}^{2\ln(1+x)}+1}{x\left[(1+x)^{\dfrac1x}-\mathrm{e}\right]}=\dfrac2{\mathrm{e}}$，证明 $f(x)$ 在 $x=0$ 处可导，并求 $f'(0)$。
+      设函数 $f(x)$ 在 $x=0$ 处连续，且 $\lim_{x\to0}\dfrac{xf(x)-\mathrm{e}^{2\ln(1+x)}+1}{x\left[(1+x)^{\dfrac1x}-\mathrm{e}\right]}=-\dfrac2{\mathrm{e}}$，证明 $f(x)$ 在 $x=0$ 处可导，并求 $f'(0)$。
 - number: 19
   section: solution
   points: 12
@@ -278,7 +278,7 @@ questions:
   points: 12
   stem:
     text: |-
-      设平面区域 $D=\{(x,y)\mid |x-2|\leq y\leq\sqrt{4-x^2},\ 0\leq x\leq2\}$，计算 $I=\iint_D\dfrac{|x-y|}{x^2+y^2}\,\mathrm{d}x\,\mathrm{d}y$。
+      设平面区域 $D=\{(x,y)\mid x-2\leq y\leq\sqrt{4-x^2},\ 0\leq x\leq2\}$，计算 $I=\iint_D\dfrac{|x-y|}{x^2+y^2}\,\mathrm{d}x\,\mathrm{d}y$。
 - number: 21
   section: solution
   points: 12
@@ -295,4 +295,4 @@ questions:
       证明 $\alpha,\beta,\eta_1,\eta_2$ 线性无关；
   - text: |-
       判断矩阵 $A$ 与 $\begin{pmatrix}3&1&0&0\\0&3&0&0\\0&0&0&0\\0&0&0&0\end{pmatrix}$ 是否相似，并说明理由。
-content_hash: 5ec6d758cb6947077dd0892056e183eb20870685d74825c59a6da2ad2b0f3723
+content_hash: db928c20c3d7735f7e4117a6ef6fed753dfb7ab0f1f89c25b99bc0218e7ae593

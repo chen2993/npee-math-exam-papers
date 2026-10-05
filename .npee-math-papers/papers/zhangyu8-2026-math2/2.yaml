@@ -126,10 +126,10 @@ questions:
     text: $f'_x(x,y),f'_y(x,y)$不连续，$f(x,y)$不可微。
     figures: []
   - label: C
-    text: $f_x(0,0),f_x(0,0)$均存在。
+    text: $f''_{xy}(0,0),f''_{yx}(0,0)$均存在。
     figures: []
   - label: D
-    text: $f^{xy}(0,0)$存在，$f_x(0,0)$不存在。
+    text: $f''_{xy}(0,0)$存在，$f''_{yx}(0,0)$不存在。
     figures: []
 - number: 7
   section: choice
@@ -228,7 +228,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设$f(x,y)$具有二阶连续偏导数，$z=xyf\left(2x,\dfrac{y^2}{x}\right)$，则$\dfrac{\partial^2z}{\partial x\partial y}=$\ExamBlank。
+      设$f(x,y)$具有二阶连续偏导数，$z=x\cdot f\left(2x,\dfrac{y^2}{x}\right)$，则$\dfrac{\partial^2z}{\partial x\partial y}=$\ExamBlank。
 - number: 12
   section: fill
   points: 5
@@ -312,4 +312,4 @@ questions:
   subparts:
   - text: 求$B$；
   - text: 证明存在正交矩阵$C$，使得$A=CB$，并求出$C$。
-content_hash: ba468eb59594baf6b422aab03290fba8f9d47086988f1dcd1b6e2ec1c2d09c9e
+content_hash: 6b015c94c16d2e7724e63d1bd16e82d2fa2c6099d4bc4f2989d2acc7049ffcc4

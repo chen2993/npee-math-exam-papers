@@ -4,7 +4,6 @@ paper:
   year: 2026
   subject: math2
   paper_no: 1
-content_hash: dc465a7e8a4d6c37446f37441a2aadd064ccb4525a1e883af98b1ba101737638
 questions:
 - number: 1
   section: choice
@@ -70,7 +69,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $f(x)$ 是 $[0,1]$ 上二阶可导的正值函数，$f'(0)=1$ 且 $f'^2(x)<f(x)f''(x)$，则下列说法正确的是\ExamSelection。
+      设 $f(x)$ 是 $[0,1]$ 上二阶可导的正值函数，$f'(0)=1$ 且 $f'^2(x)<f(x)f''(x)$，则下列说法正确的是\ExamSelection $\text{\textcircled{1}}\ f(1)>f(0)$；$\text{\textcircled{2}}\ f(1)<f(0)$；$\text{\textcircled{3}}\ f(0)f(1)>f^2\left(\dfrac{1}{2}\right)$；$\text{\textcircled{4}}\ f(0)f(1)<f^2\left(\dfrac{1}{2}\right)$.
   choices:
   - label: A
     text: ①③
@@ -306,3 +305,4 @@ questions:
       证明矩阵 $\mathbf{A}$ 可以相似对角化，并求 $\mathbf{A}$ 相似的对角矩阵；
   - text: |-
       若 $\mathbf{A}$ 的各行各列元素之和均为 $0$，求 $\mathbf{A}$ 的表达式。
+content_hash: f5aa71ee9df340d266000ac3055d548bba8bf0e1e63dd8bfcf42d258ea2e1227

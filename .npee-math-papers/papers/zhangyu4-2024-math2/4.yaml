@@ -4,7 +4,6 @@ paper:
   year: 2024
   subject: math2
   paper_no: 4
-content_hash: 0dd053a559268d2784f05ba95fedd271eca478584324eed1e77ac614018c7c9a
 questions:
 - number: 1
   section: choice
@@ -260,7 +259,7 @@ questions:
   points: 10
   stem:
     text: |-
-      设 $f(x)$ 在 $x=0$ 的某邻域内连续，在 $x=0$ 处可导，且 $f(0)=0$，$g(x)=\begin{cases}\dfrac{1}{x^2}\int_0^xf(t)\,\mathrm{d}t,&x\ne0,\\0,&x=0,\end{cases}$ 证明 $g(x)$ 在 $x=0$ 处可导且 $g'(x)$ 在 $x=0$ 处连续。
+      设 $f(x)$ 在 $x=0$ 的某邻域内连续，在 $x=0$ 处可导，且 $f(0)=0$，$g(x)=\begin{cases}\dfrac{1}{x^2}\int_0^xtf(t)\,\mathrm{d}t,&x\ne0,\\0,&x=0,\end{cases}$ 证明 $g(x)$ 在 $x=0$ 处可导且 $g'(x)$ 在 $x=0$ 处连续。
 - number: 18
   section: solution
   points: 12
@@ -295,7 +294,7 @@ questions:
   points: 12
   stem:
     text: |-
-      设 $f(x)=\iint_{D(x)}\dfrac{y\ln\sqrt{u^2+v^2}}{u+v}\,du\,dv$，$D(x)=\{(u,v)\mid\dfrac{1}{4}\leq u^2+v^2\leq x^2,u>0,v>0\}$（$x>\dfrac{1}{2}$），求曲线 $y(x)=\int_{\dfrac{1}{2}}^xf(t)\,dt$（$x>\dfrac{1}{2}$）的拐点。
+      设 $f(x)=\iint_{D(x)}\dfrac{v\ln\sqrt{u^2+v^2}}{u+v}\,du\,dv$，$D(x)=\{(u,v)\mid\dfrac{1}{4}\leq u^2+v^2\leq x^2,u>0,v>0\}$（$x>\dfrac{1}{2}$），求曲线 $y(x)=\int_{\frac{1}{2}}^xf(t)\,dt$（$x>\dfrac{1}{2}$）的拐点。
 - number: 22
   section: solution
   points: 12
@@ -306,3 +305,4 @@ questions:
   - text: |-
       求 $\begin{pmatrix}x_n\\y_n\end{pmatrix}$ 的表达式；
   - text: 按此趋势，求该产品最终的市场占有率。
+content_hash: 08ae873af68f647cdd41d7098b2ad8be368c3f94c2cede2ce26ffd8b8e52124d

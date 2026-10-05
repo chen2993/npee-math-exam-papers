@@ -286,7 +286,7 @@ questions:
   section: solution
   points: 12
   stem:
-    text: 已知回曲线 $L:y=y(x)$ 位于 $x$ 轴上方区域内，$y=y(x)$ 二阶可导，且 $L$ 上任一点 $P$ 处的法线与 $x$ 轴相交，其交点记为 $Q$，如果点 $P$ 处的曲率半径始终等于线段 $PQ$ 之长，并且 $L$ 在点 $(0,1)$ 处的切线与 $y$ 轴垂直，求：
+    text: 已知凹曲线 $L:y=y(x)$ 位于 $x$ 轴上方区域内，$y=y(x)$ 二阶可导，且 $L$ 上任一点 $P$ 处的法线与 $x$ 轴相交，其交点记为 $Q$，如果点 $P$ 处的曲率半径始终等于线段 $PQ$ 之长，并且 $L$ 在点 $(0,1)$ 处的切线与 $y$ 轴垂直，求：
   subparts:
   - text: $y=y(x)$ 的表达式；
   - text: |-
@@ -322,4 +322,4 @@ questions:
   - text: |-
       求正交矩阵 $Q$，使得 $Q^TAQ=\Lambda$；
   - text: 求 $f(x_1,x_2,x_3)=0$ 的解。
-content_hash: 555450b4c41f4b80ba2a3dec70f971cda60a80fa2db55349deb6a18bae40909f
+content_hash: ef0917350532061b4b44858252c6e8fef9467387c86f54b973d0f6f92a7a43e5

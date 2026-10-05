@@ -4,14 +4,13 @@ paper:
   year: 2024
   subject: math2
   paper_no: 4
-content_hash: 4049080345ab221f4cf6d37afe85104376768ae93c7ecd6a6cdae747010aaa77
 questions:
 - number: 1
   section: choice
   points: 5
   stem:
     text: |-
-      函数 $f(x)=\dfrac{(e^{1/x}-1)|x|}{(x+1)\ln|x-1|}$ 的第一类间断点的个数为\ExamSelection
+      函数 $f(x)=\dfrac{(e^{\frac{1}{x-1}}-1)|x|}{(x+1)\ln|x-1|}$ 的第一类间断点的个数为\ExamSelection
   choices:
   - label: A
     text: $0$
@@ -292,3 +291,4 @@ questions:
   subparts:
   - text: 求 $a$ 的值；
   - text: 求 $A^{99}$。
+content_hash: 3a822092e5d9d1b06a05bc52dd3722902ad698edc2067b862904c0f29bea571a

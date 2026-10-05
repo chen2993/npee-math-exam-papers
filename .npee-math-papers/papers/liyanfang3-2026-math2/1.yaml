@@ -99,7 +99,7 @@ questions:
     text: 充分不必要条件。
     figures: []
   - label: C
-    text: 既不充分也不必要条件。
+    text: 必要不充分条件。
     figures: []
   - label: D
     text: 既不充分也不必要条件。
@@ -286,4 +286,4 @@ questions:
   - text: 求 $A$ 的所有特征值；
   - text: |-
       若向量 $\beta=(-2,1,1)^T$ 满足 $A\beta=\beta$，求 $A$。
-content_hash: 2e831a43a9315c9e223638f919a0b1777845239ca3bfcee3dc904919cd5e81be
+content_hash: f5a6583c6c43e2e1b891c3bbd3438cc99c5cf76cdbf80096c13d2e470c895cb4

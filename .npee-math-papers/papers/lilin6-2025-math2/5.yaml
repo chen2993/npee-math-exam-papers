@@ -4,7 +4,6 @@ paper:
   year: 2025
   subject: math2
   paper_no: 5
-content_hash: 5ffe216f09b2985f8f810db645e914d820fd29a0b3eb0435c5977aaa8aadf47e
 questions:
 - number: 1
   section: choice
@@ -271,7 +270,7 @@ questions:
   points: 12
   stem:
     text: |-
-      设 $y(x)$ 满足 $\dfrac{\mathrm{d}^2y}{\mathrm{d}x^2}+\left|\dfrac{\mathrm{d}y}{\mathrm{d}x}\right|+e^{-2x}y=e^{-3x}$。
+      设 $y(x)$ 满足 $\dfrac{\mathrm{d}^2y}{\mathrm{d}x^2}+\dfrac{\mathrm{d}y}{\mathrm{d}x}+e^{-2x}y=e^{-3x}$。
   subparts:
   - text: 利用变换 $t=e^{-x}$ 将上述微分方程化为常系数线性微分方程，并求原方程的通解 $y(x)$；
   - text: |-
@@ -313,3 +312,4 @@ questions:
   - text: 求 $a,b$ 的值；
   - text: |-
       求可逆矩阵 $\boldsymbol{P}$，使得 $\boldsymbol{P}^{-1}\boldsymbol{A}\boldsymbol{P}=\boldsymbol{\Lambda}$。
+content_hash: 43593b2983f29cb5863a30f04e3ee55e22970d0cd50dd520d7de68fa18c19d28

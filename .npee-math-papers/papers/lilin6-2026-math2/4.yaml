@@ -4,14 +4,13 @@ paper:
   year: 2026
   subject: math2
   paper_no: 4
-content_hash: 93e264250ce4bf0d84bdb4a9c2772eac541a850e853685d909d77e549aaf6291
 questions:
 - number: 1
   section: choice
   points: 5
   stem:
     text: |-
-      函数 $f(x)=\dfrac{x^2-x}{\lvert x\rvert(x^2-1)}e^{\dfrac{1}{x-\dfrac{1}{2}}}$ 的无穷间断点的个数为\ExamSelection
+      函数 $f(x)=\dfrac{x^2-x}{\lvert x\rvert(x^2-1)}e^{\frac{1}{x-2}}$ 的无穷间断点的个数为\ExamSelection
   choices:
   - label: A
     text: $0$
@@ -294,3 +293,4 @@ questions:
   - text: 求实对称矩阵 $A$；
   - text: |-
       记 $X=(x_1,x_2,x_3)^{\mathrm{T}}$，利用正交变换将二次型 $f(x_1,x_2,x_3)=\begin{vmatrix}A&-X\\X^{\mathrm{T}}&0\end{vmatrix}$ 化为标准形。
+content_hash: a817097837b713487648935c2cfeac599df0a69b451424703ea9d52aba491421

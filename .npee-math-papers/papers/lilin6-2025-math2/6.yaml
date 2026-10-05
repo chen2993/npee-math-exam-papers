@@ -4,7 +4,6 @@ paper:
   year: 2025
   subject: math2
   paper_no: 6
-content_hash: 75cecaae80a94d1069d32e69c0497dd8c47d08d6c52c4354613d932f82e09fad
 questions:
 - number: 1
   section: choice
@@ -275,7 +274,7 @@ questions:
   points: 12
   stem:
     text: |-
-      求 $f(x\text{，}y)=\dfrac{1}{y^2}\mathrm{e}^{-\dfrac{1}{2w^2}[(x-a)^2+(y-1)^2]}$（$y\neq0\text{，}a$ 为常数）的极值。
+      求 $f(x\text{，}y)=\dfrac{1}{y^2}\mathrm{e}^{-\dfrac{1}{2y^2}[(x-a)^2+(y-1)^2]}$（$y\neq0\text{，}a$ 为常数）的极值。
 - number: 20
   section: solution
   points: 12
@@ -303,3 +302,4 @@ questions:
   - text: 求 $B$ 的全部特征值；
   - text: |-
       求可逆矩阵 $P$ 和对角矩阵 $\Lambda$，使得 $P^{-1}BP=\Lambda$。
+content_hash: 380ccdf412079b3a462fdaa3cfc959cab6807ea3e979a5d7230e1e1021079446

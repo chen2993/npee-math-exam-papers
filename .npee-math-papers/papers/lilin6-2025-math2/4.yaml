@@ -56,7 +56,7 @@ questions:
     figures: []
   - label: B
     text: |-
-      $x\int_0^{|x|}\sin t^2\,\mathrm{d}t$。
+      $|x|\int_0^{|x|}\sin t^2\,\mathrm{d}t$。
     figures: []
   - label: C
     text: |-
@@ -279,7 +279,7 @@ questions:
   - text: |-
       在第（I）问的基础上，证明 $\lim_{n\to\infty}x_n$ 存在，并求其值；
   - text: |-
-      在第（I）问的基础上，求 $\lim_{n\to\infty}\left(\dfrac{\pi\sin x_n}{2x_n}\right)^{x_n^{\dfrac{1}{n}-\dfrac{\pi}{2}}}$。
+      在第（I）问的基础上，求 $\lim_{n\to\infty}\left(\dfrac{\pi\sin x_n}{2x_n}\right)^{\frac{1}{x_n-\frac{\pi}{2}}}$。
 - number: 21
   section: solution
   points: 12
@@ -297,4 +297,4 @@ questions:
       求正交矩阵 $Q$，使得 $Q^{\mathrm T}AQ=\Lambda$；
   - text: |-
       求可逆矩阵 $P$，使得 $2E-A=P^{\mathrm T}P$。
-content_hash: dfcf6e01df9a22e29905de0ac44bdceca037c6e43d668c9f779a5de4e9eaf0b9
+content_hash: a101c6180f1c12fc7df67f82d136c9e49bb3a9450dbbacacff23cd965a651feb

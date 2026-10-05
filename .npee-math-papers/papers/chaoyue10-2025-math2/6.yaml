@@ -70,11 +70,11 @@ questions:
   points: 5
   stem:
     text: |-
-      设函数 $f(x)$ 在 $[a,b]$ 上可导，$f'(x)>0$ 且 $f'(x)$ 在 $[a,b]$ 上单调递增，则下列关系式正确的是\ExamSelection。
+      设函数 $f(x)$ 在 $[a,b]$ 上可导，$a+b\geq0$，$f'(x)>0$ 且 $f'(x)$ 在 $[a,b]$ 上单调递增，则下列关系式正确的是\ExamSelection。
   choices:
   - label: A
     text: |-
-      $\int_a^b f(x)\,\mathrm{d}x\geq\dfrac{a+b}{2}\int_a^b f(x)\,\mathrm{d}x\geq\dfrac{b^2-a^2}{2}f\left(\dfrac{a+b}{2}\right)$
+      $\int_a^b xf(x)\,\mathrm{d}x\geq\dfrac{a+b}{2}\int_a^b f(x)\,\mathrm{d}x\geq\dfrac{b^2-a^2}{2}f\left(\dfrac{a+b}{2}\right)$
     figures: []
   - label: B
     text: |-
@@ -219,7 +219,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设曲线 $y=f(x)$ 与曲线 $y=e^x-\cos x$ 在原点相切且有相同的曲率，则 $\lim_{n\to\infty}\left[nf\left(\dfrac{1}{n}\right)\right]^n=$ \ExamBlank。
+      设曲线 $y=f(x)$ 与曲线 $y=e^x-\cos x$ 在原点相切且有相同的曲率圆，则 $\lim_{n\to\infty}\left[nf\left(\dfrac{1}{n}\right)\right]^n=$ \ExamBlank。
 - number: 13
   section: fill
   points: 5
@@ -237,7 +237,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设函数 $f(x,y)$ 可微，$f(1,1)=1,f'_x(1,1)=1,f'_y(1,1)=2$，令 $\varphi(x)=f(x,f(x,f(x,f(x,x))))$，则 $\lim_{x\to1}\dfrac{\ln\varphi(x)}{x-1}=$ \ExamBlank。
+      设函数 $f(x,y)$ 可微，$f(1,1)=1,f'_x(1,1)=1,f'_y(1,1)=2$，令 $\varphi(x)=f(x,f(x,f(x,x)))$，则 $\lim_{x\to1}\dfrac{\ln\varphi(x)}{x-1}=$ \ExamBlank。
 - number: 16
   section: fill
   points: 5
@@ -288,4 +288,4 @@ questions:
   - text: 求 $A$ 及 $b$。
   - text: |-
       求 $\left(A+\dfrac{3}{2}E\right)^{100}$。
-content_hash: f1d6ed81bd19fb02b77608879557e5ab107eeef2f70233d27f696e58e375ffee
+content_hash: f38e8d0f94e9d4ec801ab8eaf697ad9a0cc4625767f12dcc441030b1e9cb012c

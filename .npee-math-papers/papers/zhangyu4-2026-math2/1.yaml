@@ -4,7 +4,6 @@ paper:
   year: 2026
   subject: math2
   paper_no: 1
-content_hash: c1646985baacb0c4b9c0f3210039cb2024ac2510cd93a2195a8faf0516fa054c
 questions:
 - number: 1
   section: choice
@@ -275,7 +274,7 @@ questions:
   section: solution
   points: 12
   stem:
-    text: 已知函数 $y(x)$ 由方程 $x^2+y^3+ax+3y+b=0$ 确定，$y(1)=1$，$y'(1)=0$，求
+    text: 已知函数 $y(x)$ 由方程 $x^3+y^3+ax+3y+b=0$ 确定，$y(1)=1$，$y'(1)=0$，求
   subparts:
   - text: $a,b$ 的值；
   - text: $y(x)$ 的极值。
@@ -315,3 +314,4 @@ questions:
   subparts:
   - text: 求正交变换 $x=Qy$，将 $f(x_1,x_2,x_3)$ 化为标准形；
   - text: 求 $f(x_1,x_2,x_3)=0$ 的解。
+content_hash: 9bf106f0959c04288e4297762e8d310b82e99275ce15897878aa2f1e07bdb2a8

@@ -248,7 +248,7 @@ questions:
   points: 10
   stem:
     text: |-
-      设函数 $y(x)$ 具有二阶导数，曲线 $l:y=y(x)$ 与 $y=x$ 的倾角 $\theta$ 关于 $x$ 的变化率与曲线 $l$ 在该点的切线斜率相等。求 $y(x)$ 的表达式。
+      设函数 $y(x)$ 具有二阶导数，曲线 $l:y=y(x)$ 与直线 $y=x$ 相切于原点，且 $l$ 在点 $(x,y)$ 处切线的倾角 $\theta$ 关于 $x$ 的变化率与曲线 $l$ 在该点的切线斜率相等。求 $y(x)$ 的表达式。
 - number: 18
   section: solution
   points: 12
@@ -289,4 +289,4 @@ questions:
       求 $k$ 的值，并求正交矩阵 $Q$，将 $f(\boldsymbol{x})$ 化为标准形；
   - text: |-
       求一个实对称矩阵 $P$，使 $f(\boldsymbol{x})=(P\boldsymbol{x})^TP\boldsymbol{x}$。
-content_hash: d7111a08772b9da49d1bbc33ae5e57e1cd601c1b0fd9e353d164443b6dfc371b
+content_hash: 3ce22f504bbb1ed9d78a960d091a18601f1b76e02f2955d69cbf3a88ebcfbd4a
