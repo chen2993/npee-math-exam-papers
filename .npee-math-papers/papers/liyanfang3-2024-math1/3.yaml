@@ -4,306 +4,290 @@ paper:
   year: 2024
   subject: math1
   paper_no: 3
-content_hash: 0244854c15f08572ef3c88e1aeaeeb1c6d4a2da1af8f608e72ec134179f60492
 questions:
 - number: 1
   section: choice
   points: 5
   stem:
     text: |-
-      设 $\lim_{x\to 0}\left[ax\ln\left(1+e^{\dfrac{1}{x}}\right)-\operatorname{arccot}\dfrac{1}{x}\right]$ 存在，则 $a=$\ExamSelection
+      设 $\lim_{x \to 0} \left[ ax \ln \left( 1 + \mathrm{e}^{\dfrac{1}{x}} \right) - \operatorname{arccot} \dfrac{1}{x} \right]$ 存在，则 $a = (\quad)$
   choices:
   - label: A
     text: |-
-      $\pi$.
+      $\pi.$
     figures: []
   - label: B
     text: |-
-      $-\pi$.
+      $-\pi.$
     figures: []
   - label: C
     text: |-
-      $\dfrac{1}{\pi}$.
+      $\dfrac{1}{\pi}.$
     figures: []
   - label: D
     text: |-
-      $-\dfrac{1}{\pi}$.
+      $-\dfrac{1}{\pi}.$
     figures: []
 - number: 2
   section: choice
   points: 5
   stem:
     text: |-
-      设当 $\Delta x\to 0$ 时，$\alpha$ 是 $\Delta x$ 的高阶无穷小，已知函数 $y=x^2\ln x$ 在任意点 $x$ 处的增量 $\Delta y=\varphi\left(\dfrac{1}{\ln x}\right)\Delta x+\alpha$，则 $\varphi(u)=$\ExamSelection
+      设当 $\Delta x \to 0$ 时$,\alpha$ 是 $\Delta x$ 的高阶无穷小，已知函数 $y = x^2 \ln x$ 在任意点 $x$ 处的增量 $\Delta y = \varphi\left(\dfrac{1}{\ln x}\right)\Delta x + \alpha$，则 $\varphi(u) = (\quad)$
   choices:
   - label: A
-    text: $(2u+1)e^u$.
+    text: |-
+      $(2u+1)\mathrm{e}^u$
     figures: []
   - label: B
-    text: $(2u-1)e^u$.
+    text: |-
+      $(2u-1)\mathrm{e}^u$
     figures: []
   - label: C
     text: |-
-      $(\dfrac{2}{u}+1)e^{\dfrac{1}{u}}$.
+      $\left(\dfrac{2}{u}+1\right)\mathrm{e}^{\dfrac{1}{u}}$
     figures: []
   - label: D
     text: |-
-      $(\dfrac{2}{u}-1)e^{\dfrac{1}{u}}$.
+      $\left(\dfrac{2}{u}-1\right)\mathrm{e}^{\dfrac{1}{u}}$
     figures: []
 - number: 3
   section: choice
   points: 5
   stem:
-    text: |-
-      设函数 $f(x,y)$ 可微，满足 $f(x^2,x+1)=x^2(x-1)$，且 $f'_1(1,2)=1$，则曲面 $z=f(x,y)$ 在点 $(1,2,f(1,2))$ 处的切平面方程为\ExamSelection
+    text: 设函数 $f(x,y)$ 可微，满足 $f(x^2,x+1)=x^2(x-1)$，且 $f'_1(1,2)=1$，则曲面 $z=f(x,y)$ 在点 $(1,2,f(1,2))$ 处的切平面方程为（ ）
   choices:
   - label: A
-    text: $x-y-z+1=0$.
+    text: $x-y-z+1=0$
     figures: []
   - label: B
-    text: $x-y+z+1=0$.
+    text: $x-y+z+1=0$
     figures: []
   - label: C
-    text: $x-y-z-3=0$.
+    text: $x-y-z-3=0$
     figures: []
   - label: D
-    text: $x-y+z-3=0$.
+    text: $x-y+z-3=0$
     figures: []
 - number: 4
   section: choice
   points: 5
   stem:
     text: |-
-      已知 $\{a_n\}$ 为数列，且对任意正整数 $n$，$a_{n+1}-a_n\ne 0$，则下列命题中，正确的是\ExamSelection
+      已知 $\{a_n\}$ 为数列，且对任意正整数 $n$ $,a_{n+1}-a_n \neq 0$，则下列命题中，正确的是 ( )
   choices:
   - label: A
     text: |-
-      若 $\sum_{n=1}^{\infty}(a_{n+1}-a_n)$ 收敛，则 $\sum_{n=1}^{\infty}a_n$ 收敛。
+      若 $\sum_{n=1}^\infty (a_{n+1}-a_n)$ 收敛，则 $\sum_{n=1}^\infty a_n$ 收敛
     figures: []
   - label: B
     text: |-
-      若 $\sum_{n=1}^{\infty}n(a_{n+1}-a_n)$ 收敛，则 $\sum_{n=1}^{\infty}a_n$ 收敛。
+      若 $\sum_{n=1}^\infty n(a_{n+1}-a_n)$ 收敛，则 $\sum_{n=1}^\infty a_n$ 收敛
     figures: []
   - label: C
     text: |-
-      若 $\sum_{n=1}^{\infty}(a_{n+1}-a_n)$ 发散，则 $\sum_{n=1}^{\infty}a_n$ 发散。
+      若 $\sum_{n=1}^\infty (a_{n+1}-a_n)$ 发散，则 $\sum_{n=1}^\infty a_n$ 发散
     figures: []
   - label: D
     text: |-
-      若 $\sum_{n=1}^{\infty}n(a_{n+1}-a_n)$ 发散，则 $\sum_{n=1}^{\infty}a_n$ 发散。
+      若 $\sum_{n=1}^\infty n(a_{n+1}-a_n)$ 发散，则 $\sum_{n=1}^\infty a_n$ 发散
     figures: []
 - number: 5
   section: choice
   points: 5
   stem:
-    text: |-
-      设 $A,B$ 为 $3$ 阶非零矩阵，若存在两个线性无关的 $3$ 维列向量 $\boldsymbol b_1,\boldsymbol b_2$，使得方程组 $A\boldsymbol x=\boldsymbol b_i$ 与 $B\boldsymbol x=\boldsymbol b_i$（$i=1,2$）均有解，则下列说法中，正确的是\ExamSelection
+    text: 设 $A,B$ 为 3 阶非零矩阵，若存在两个线性无关的 3 维列向量 $b_1,b_2$，使得方程组 $Ax=b_i$ 与 $Bx=b_i(i=1,2)$ 均有解，则下列说法中，正确的是 ( )
   choices:
   - label: A
-    text: $A$ 的行向量组与 $B$ 的行向量组等价。
+    text: $A$ 的行向量组与 $B$ 的行向量组等价
     figures: []
   - label: B
-    text: $A$ 的列向量组与 $B$ 的列向量组等价。
+    text: $A$ 的列向量组与 $B$ 的列向量组等价
     figures: []
   - label: C
-    text: 若 $A$ 的行向量组不能线性表示 $B$ 的行向量组，则 $B$ 的行向量组必能线性表示 $A$ 的行向量组。
+    text: 若 $A$ 的行向量组不能线性表示 $B$ 的行向量组，则 $B$ 的行向量组必能线性表示 $A$ 的行向量组
     figures: []
   - label: D
-    text: 若 $A$ 的列向量组不能线性表示 $B$ 的列向量组，则 $B$ 的列向量组必能线性表示 $A$ 的列向量组。
+    text: 若 $A$ 的列向量组不能线性表示 $B$ 的列向量组，则 $B$ 的列向量组必能线性表示 $A$ 的列向量组
     figures: []
 - number: 6
   section: choice
   points: 5
   stem:
     text: |-
-      设 $A=(a_{ij})$ 为 $3$ 阶实矩阵，$A_{ij}$ 为 $a_{ij}$ 的代数余子式。若 $a_{ij}=2A_{ij}$（$i,j=1,2,3$），且 $a_{11}=\dfrac{1}{2}$，$\boldsymbol b=(1,1,1)^{\mathrm T}$，则下列说法中，正确的是\ExamSelection
+      设 $A=(a_{ij})$ 为 $3$ 阶实矩阵, $A_{ij}$ 为 $a_{ij}$ 的代数余子式. 若 $a_{ij}=2A_{ij}(i,j=1,2,3)$, 且 $a_{11}=\dfrac{1}{2}$, $b=(1,1,1)^T$, 则下列说法中, 正确的是 ( )
   choices:
   - label: A
     text: |-
-      $|A|=\dfrac{1}{2}$.
+      $|A|=\dfrac{1}{2}$
     figures: []
   - label: B
     text: |-
-      $A$ 有一个特征值为 $\dfrac{1}{2}$.
+      $A$ 有一个特征值为 $\dfrac{1}{2}$
     figures: []
   - label: C
-    text: |-
-      $(A^{\mathrm T})^{-1}=2A$.
+    text: $(A^T)^{-1}=2A$
     figures: []
   - label: D
-    text: |-
-      $A^{\mathrm T}\boldsymbol b$ 的第一行元素为 $1$.
+    text: $A^T b$ 的第一行元素为 $1$
     figures: []
 - number: 7
   section: choice
   points: 5
   stem:
     text: |-
-      已知矩阵 $A=\begin{pmatrix}a&a&b\\a&b&a\\b&a&a\end{pmatrix}$（$ab\ne 0$）的正、负惯性指标相同，则 $A$ 相似于\ExamSelection
+      已知矩阵 $A=\begin{pmatrix} a & a & b \\ a & b & a \\ b & a & a \end{pmatrix}(ab \neq 0)$ 的正、负惯性指数相同，则 $A$ 相似于 ( )
   choices:
   - label: A
     text: |-
-      $\begin{pmatrix}a&0&0\\0&-a&0\\0&0&0\end{pmatrix}$.
+      $\begin{pmatrix} a & 0 & 0 \\ 0 & -a & 0 \\ 0 & 0 & 0 \end{pmatrix}$
     figures: []
   - label: B
     text: |-
-      $\begin{pmatrix}2a&0&0\\0&-2a&0\\0&0&0\end{pmatrix}$.
+      $\begin{pmatrix} 2a & 0 & 0 \\ 0 & -2a & 0 \\ 0 & 0 & 0 \end{pmatrix}$
     figures: []
   - label: C
     text: |-
-      $\begin{pmatrix}3a&0&0\\0&-3a&0\\0&0&0\end{pmatrix}$.
+      $\begin{pmatrix} 3a & 0 & 0 \\ 0 & -3a & 0 \\ 0 & 0 & 0 \end{pmatrix}$
     figures: []
   - label: D
     text: |-
-      $\begin{pmatrix}4a&0&0\\0&-4a&0\\0&0&0\end{pmatrix}$.
+      $\begin{pmatrix} 4a & 0 & 0 \\ 0 & -4a & 0 \\ 0 & 0 & 0 \end{pmatrix}$
     figures: []
 - number: 8
   section: choice
   points: 5
   stem:
     text: |-
-      记区域 $D=\{(x,y)\mid 0\le x<+\infty,\ 0\le y<+\infty\}$，设二维随机变量 $(X,Y)$ 的联合概率密度为 $f(x,y)=\begin{cases}\dfrac{2}{\pi}e^{-\dfrac{x^2+y^2}{2}},&(x,y)\in D,\\0,&\text{其他}\end{cases}$，记 $p=P\{\max\{X,Y\}\le 1\}$，$q=P\{\min\{X,Y\}\ge 1\}$，则下列说法中，错误的是\ExamSelection
+      记区域 $D = \{(x,y) \mid 0 \leqslant x < +\infty, 0 \leqslant y < +\infty\}$，设二维随机变量 $(X,Y)$ 的联合概率密度为 $f(x,y) = \begin{cases} \dfrac{2}{\pi} \mathrm{e}^{-\dfrac{x^2+y^2}{2}}, & (x,y) \in D, \\ 0, & \text{\text{其他}.} \end{cases}$ 记 $p = P\{\max\{X,Y\} \leqslant 1\}, q = P\{\min\{X,Y\} \geqslant 1\}$，则下列说法中，错误的是 ( )
   choices:
   - label: A
-    text: $0<p+q<1$.
+    text: $0 < p+q < 1.$
     figures: []
   - label: B
     text: |-
-      $\dfrac{p}{q}>e-\sqrt{e}$.
+      $\dfrac{p}{q} > \mathrm{e} - \sqrt{\mathrm{e}}.$
     figures: []
   - label: C
     text: |-
-      $1-e^{-\dfrac{1}{2}}<p<1-e^{-1}$.
+      $1 - \mathrm{e}^{-\dfrac{1}{2}} < p < 1 - \mathrm{e}^{-1}.$
     figures: []
   - label: D
     text: |-
-      $e^{-1}<q<e^{-\dfrac{1}{2}}$.
+      $\mathrm{e}^{-1} < q < \mathrm{e}^{-\dfrac{1}{2}}.$
     figures: []
 - number: 9
   section: choice
   points: 5
   stem:
     text: |-
-      设总体 $X$ 服从正态分布，$X_1,X_2,\cdots,X_n$ 是来自总体 $X$ 的简单随机样本，$Y_1=\dfrac{1}{n_1}(X_1+\cdots+X_{n_1})$，$Y_2=\dfrac{1}{n-n_1}(X_{n_1+1}+X_{n_1+2}+\cdots+X_n)$，$S^2=\dfrac{1}{n_1-1}\sum_{i=1}^{n_1}(X_i-Y_1)^2$，若存在 $k$，使得 $Z=\dfrac{\sqrt{k}(Y_1-Y_2)}{S}$ 服从自由度为 $k$ 的 $t$ 分布，则 $n_1,n$ 分别可能为\ExamSelection
+      设总体 $X$ 服从正态分布, $X_1, X_2, \cdots, X_n$ 是来自总体 $X$ 的简单随机样本, $Y_1 = \dfrac{1}{n_1}(X_1 + \cdots + X_{n_1})$, $Y_2 = \dfrac{1}{n-n_1}(X_{n_1+1}+X_{n_1+2}+\cdots+X_n)$, $S^2 = \dfrac{1}{n_1-1}\sum_{i=1}^{n_1}(X_i-Y_1)^2$, 若存在 $k$, 使得 $Z = \dfrac{\sqrt{k}(Y_1-Y_2)}{S}$ 服从自由度为 $k$ 的 $t$ 分布, 则 $n_1,n$ 分别可能为 ( )
   choices:
   - label: A
-    text: $2,6$.
+    text: 2,6
     figures: []
   - label: B
-    text: $3,9$.
+    text: 3,9
     figures: []
   - label: C
-    text: $4,12$.
+    text: 4,12
     figures: []
   - label: D
-    text: $6,18$.
+    text: 6,18
     figures: []
 - number: 10
   section: choice
   points: 5
   stem:
     text: |-
-      设总体 $X$ 服从参数为 $\lambda$ 的泊松分布，$X_1,X_2,\cdots,X_n$ 为来自总体 $X$ 的简单随机样本，记 $\hat{\lambda}_1$ 为 $\lambda$ 的矩估计量，$\hat{\lambda}_2$ 为 $\lambda$ 的最大似然估计量，则下列说法中，正确的是\ExamSelection
+      设总体 $X$ 服从参数为 $\lambda$ 的泊松分布, $X_1, X_2, \cdots, X_n$ 为来自总体 $X$ 的简单随机样本, 记 $\hat{\lambda}_1$ 为 $\lambda$ 的矩估计量, $\hat{\lambda}_2$ 为 $\lambda$ 的最大似然估计量, 则下列说法中, 正确的是 ( )
   choices:
   - label: A
     text: |-
-      $\hat{\lambda}_1,\hat{\lambda}_2$ 均是 $\lambda$ 的无偏估计。
+      $\hat{\lambda}_1, \hat{\lambda}_2$ 均是 $\lambda$ 的无偏估计
     figures: []
   - label: B
     text: |-
-      $\hat{\lambda}_1$ 是 $\lambda$ 的无偏估计，$\hat{\lambda}_2$ 不是 $\lambda$ 的无偏估计。
+      $\hat{\lambda}_1$ 是 $\lambda$ 的无偏估计, $\hat{\lambda}_2$ 不是 $\lambda$ 的无偏估计
     figures: []
   - label: C
     text: |-
-      $\hat{\lambda}_1$ 不是 $\lambda$ 的无偏估计，$\hat{\lambda}_2$ 是 $\lambda$ 的无偏估计。
+      $\hat{\lambda}_1$ 不是 $\lambda$ 的无偏估计, $\hat{\lambda}_2$ 是 $\lambda$ 的无偏估计
     figures: []
   - label: D
     text: |-
-      $\hat{\lambda}_1,\hat{\lambda}_2$ 均不是 $\lambda$ 的无偏估计。
+      $\hat{\lambda}_1, \hat{\lambda}_2$ 均不是 $\lambda$ 的无偏估计
     figures: []
 - number: 11
   section: fill
   points: 5
   stem:
     text: |-
-      设函数 $y=y(x)$ 由方程 $xy-2\sin x=\ln y$ 确定，则 $\lim_{n\to\infty}n\left[y'\left(\dfrac{1}{n}\right)+1\right]=$\ExamBlank。
+      设函数 $y=y(x)$ 由方程 $xy-2\sin x=\ln y$ 确定，则 $\lim\limits_{n\to\infty}n\left[y'\left(\dfrac{1}{n}\right)+1\right]=\underline{\quad\quad\quad\quad\quad\quad}$
 - number: 12
   section: fill
   points: 5
   stem:
     text: |-
-      $\lim_{n\to\infty}\sum_{k=1}^{5n}\dfrac{k}{n^{\dfrac{3}{2}}\sqrt{16n-3k}}=$\ExamBlank。
+      $\lim_{n \to \infty} \sum_{k=1}^{5n} \dfrac{k}{n^{\dfrac{3}{2}} \sqrt{16n-3k}} = \underline{\hspace{2cm}}.$
 - number: 13
   section: fill
   points: 5
   stem:
     text: |-
-      微分方程 $3x\,\mathrm{d}y=y(1+2xy^3\ln x)\,\mathrm{d}x$ 满足条件 $y(1)=\sqrt[3]{2}$ 的解为 $y=$\ExamBlank。
+      微分方程 $3x\mathrm{d}y=y(1+2xy^3\ln x)\mathrm{d}x$ 满足条件 $y(1)=\sqrt[3]{2}$ 的解为 $y=\underline{\qquad\qquad}$
 - number: 14
   section: fill
   points: 5
   stem:
     text: |-
-      设向量场 $\boldsymbol A(x,y,z)=e^{x^2y}\boldsymbol i+y\ln z\boldsymbol j+\sin xyz\boldsymbol k$，则其在点 $(0,1,1)$ 处的旋度 $\operatorname{rot}\boldsymbol A\big|_{(0,1,1)}$ 的长度为\ExamBlank。
+      设向量场 $A(x,y,z)=\mathrm{e}^{xy}\mathbf{i}+y\ln z\mathbf{j}+\sin(xyz)\mathbf{k}$，则其在点 $(0,1,1)$ 处的旋度 $\left.\mathrm{rot}\,A\right|_{(0,1,1)}$ 的长度为 $\underline{\qquad}$
 - number: 15
   section: fill
   points: 5
   stem:
     text: |-
-      设矩阵 $A=\begin{pmatrix}\cos\theta&\sin\theta\\-\sin\theta&\cos\theta\end{pmatrix}$，其中 $0<\theta<\dfrac{\pi}{2}$，若 $A^5+A^{\mathrm T}=0$，则 $\theta=$\ExamBlank。
+      设矩阵 $A=\begin{pmatrix} \cos\theta & \sin\theta \\ -\sin\theta & \cos\theta \end{pmatrix}$，其中 $0<\theta<\dfrac{\pi}{2}$。若 $A^5+A^T=O$，则 $\theta=\underline{\qquad\qquad}$。
 - number: 16
   section: fill
   points: 5
   stem:
     text: |-
-      设随机变量 $X$ 在区间 $[0,2]$ 上服从均匀分布，当 $0\le X<1$ 时，随机变量 $Y$ 服从均值为 $1$ 的指数分布，当 $1\le X\le 2$ 时，随机变量 $Y$ 服从均值为 $\dfrac{1}{2}$ 的指数分布，则当 $y>0$ 时，$Y$ 的概率密度 $f_Y(y)=$\ExamBlank。
+      设随机变量 $X$ 在区间 $[0,2]$ 上服从均匀分布, 当 $0 \leqslant X 0$ 时, $Y$ 的概率密度 $f_Y(y)=$______
 - number: 17
   section: solution
-  points: 10
+  points: 12
   stem:
     text: |-
-      求极限 $\lim_{n\to\infty}\dfrac{\int_{0}^{n\pi}x\lvert\sin x\rvert e^{-\lvert\cos x\rvert}\,\mathrm{d}x}{n^2}$。
+      求极限 $\lim_{n\to\infty}\dfrac{\int_0^{n\pi} x|\sin x|\mathrm{e}^{-|\cos x|}\mathrm{d}x}{n^2}$。
 - number: 18
   section: solution
   points: 12
   stem:
     text: |-
-      设 $a>0$，函数 $f(x)=(x^2+a)e^{-ax^2}$，已知 $f(x)$ 在 $(-\infty,+\infty)$ 上只有一个极值点。
-  subparts:
-  - text: 求 $a$ 的取值范围；
-  - text: 当 $a=1$ 时，求曲线 $y=f(x)$ 的拐点个数。
+      设 $a>0$, 函数 $f(x)=(x^2+a)\mathrm{e}^{-ax^2}$, 已知 $f(x)$ 在 $(-\infty,+\infty)$ 上只有一个极值点. (I) 求 $a$ 的取值范围; (II) 当 $a=1$ 时, 求曲线 $y=f(x)$ 的拐点个数
 - number: 19
   section: solution
   points: 12
   stem:
     text: |-
-      设 $L$ 为 $xOy$ 面上的曲线，方程为 $y=\sqrt{1-x^2}$（$x\ge 0$），$\Sigma$ 是以 $L$ 为准线，母线平行于 $z$ 轴的柱面位于 $xOy$ 面与曲面 $z=x^2+2y^2$ 之间的部分。计算曲面积分 $I=\iint_{\Sigma}(x^2+y^2-z)\,\mathrm{d}S$。
+      设 $L$ 为 $xOy$ 面上的曲线, 方程为 $y=\sqrt{1-x^2}\,(x\geqslant 0)$, $\Sigma$ 是以 $L$ 为准线, 母线平行于 $z$ 轴的柱面位于 $xOy$ 面与曲面 $z=x^2+2y^2$ 之间的部分. 计算曲面积分 $I=\iint_{\Sigma}(x^2+y^2-z)dS$
 - number: 20
   section: solution
   points: 12
   stem:
     text: |-
-      设幂级数 $\sum_{n=0}^{\infty}a_nx^n$ 在 $(-\infty,+\infty)$ 内收敛，其和函数 $y(x)$ 满足 $2y''-xy'-y=0$，$y(0)=4$，$y'(0)=0$。
-  subparts:
-  - text: |-
-      证明：$a_{n+2}=\dfrac{1}{2(n+2)}a_n$，$n=1,2,\cdots$。
-  - text: 求 $y(x)$ 的表达式。
+      设幂级数 $\sum_{n=0}^{\infty} a_n x^n$ 在 $(-\infty, +\infty)$ 内收敛, 其和函数 $y(x)$ 满足 $2y'' - xy' - y = 0, y(0) = 4, y'(0) = 0$. $(I)$ 证明: $a_{n+2} = \dfrac{1}{2(n+2)} a_n, n = 1, 2, \cdots$. $(II)$ 求 $y(x)$ 的表达式
 - number: 21
   section: solution
   points: 12
   stem:
     text: |-
-      设二次型 $f(x_1,x_2,x_3)=(a_1x_1+a_2x_2+a_3x_3)[(a_1-b_1)x_1+(a_2-b_2)x_2+(a_3-b_3)x_3]$，记 $\boldsymbol{\alpha}=(a_1,a_2,a_3)^{\mathrm T}$，$\boldsymbol{\beta}=(b_1,b_2,b_3)^{\mathrm T}$，$\boldsymbol{\alpha},\boldsymbol{\beta}$ 为相互正交的单位向量。
-  subparts:
-  - text: 求二次型 $f(x_1,x_2,x_3)$ 对应的对称矩阵 $A$；
-  - text: 证明：二次曲面方程 $f(x_1,x_2,x_3)=1$ 必可经可逆线性变换化为双曲柱面方程。
+      设二次型 $f(x_1,x_2,x_3)=(a_1x_1+a_2x_2+a_3x_3)[(a_1-b_1)x_1+(a_2-b_2)x_2+(a_3-b_3)x_3]$, 记 $\alpha=(a_1,a_2,a_3)^T, \beta=(b_1,b_2,b_3)^T$, $\alpha,\beta$ 为相互正交的单位向量. (I) 求二次型 $f(x_1,x_2,x_3)$ 对应的对称矩阵 $A$; (II) 证明: 二次曲面方程 $f(x_1,x_2,x_3)=1$ 必可经可逆线性变换化为双曲柱面方程
 - number: 22
   section: solution
   points: 12
   stem:
     text: |-
-      设 $\dfrac{1}{2}<\theta<1$，随机变量 $X$ 服从 $[0,\theta]$ 上的均匀分布，随机变量 $Y$ 服从 $[\theta,1]$ 上的均匀分布，$X$ 与 $Y$ 相互独立。令 $Z=Y-X$。
-  subparts:
-  - text: 求 $Z$ 的概率密度；
-  - text: |-
-      当 $\theta=\dfrac{2}{3}$ 时，求 $\operatorname{Cov}(X,Z)$。
+      设 $\dfrac{1}{2} < \theta < 1$，随机变量 $X$ 服从 $[0,\theta]$ 上的均匀分布，随机变量 $Y$ 服从 $[\theta,1]$ 上的均匀分布$,X$ 与 $Y$ 相互独立. 令 $Z=Y-X$. (I) 求 $Z$ 的概率密度； (II) 当 $\theta=\dfrac{2}{3}$ 时，求 $\mathrm{Cov}(X,Z)$
+content_hash: d50f5e18640157f40219e1167f71ce9b0eab75add12fd266ef30f5c81c34af23

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "paper_count": 327,
+  "paper_count": 406,
   "papers": [
     {
       "natural_key": "2024/math1/chaoyue10/1",
@@ -17,7 +17,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "77f3229f7dba1bfbac4ee4e658c2c80f33e5104b06c28b6a65183e159f35fad4"
+      "content_hash": "386f18295c077065119f9ad40e2d6ca3c5347da77cd30103549906b7f12c8d93"
     },
     {
       "natural_key": "2024/math1/chaoyue10/2",
@@ -34,7 +34,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "fc2e75d4461df8c72f49d6fc4f3decb8dd7721b829a2fa674c99dc20770b8a4b"
+      "content_hash": "c0dd7e625c78bc4a85ce304ff089f58ee3d2f4c5e21c25e216663ef19c7c74d4"
     },
     {
       "natural_key": "2024/math1/chaoyue10/3",
@@ -51,7 +51,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "2dae8120014bbbce6be553dfc07c2bf7e19512f1a344765b4188d72da5b14afc"
+      "content_hash": "08356c415fab7b3c2293f19bc077022bbf0691776a2eaf02315ad7742ad7ecb5"
     },
     {
       "natural_key": "2024/math1/chaoyue10/4",
@@ -68,7 +68,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "784896b4c5238c458c2a26701f29eadaea9243f5ca9e0a6caebbeb92381ec95b"
+      "content_hash": "22cc5c617ad778956dcef5fcee30cd84506dd2bf6ebe4e84b654bcbeed59397d"
     },
     {
       "natural_key": "2024/math1/chaoyue10/5",
@@ -85,7 +85,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "50f13afe90264121e6269c5ad103fb45c285d616c39274dea8cc6e19d4431080"
+      "content_hash": "40c61f96912600ba82d9bb5225edd76aff27b0d0bf4b54bec860be05b6cdc86d"
     },
     {
       "natural_key": "2024/math1/chaoyue10/6",
@@ -102,7 +102,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "5d761c55afdeaa6f7f41a193994cc428ffe2669e190f0885dbbbd4b2a62e854e"
+      "content_hash": "39f838a97559d3a2c538a70d96ed75fa425e98244e2769dbc30ee52f38457436"
     },
     {
       "natural_key": "2024/math1/chaoyue10/7",
@@ -119,7 +119,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "f7229798f37684f3d59261d10cc962227f4f439d7548e125bb8b16c8b41f9b96"
+      "content_hash": "42b05b9a1f8a905c22116a707b616477d0e2bbe820f5e6f926d11a5b2b85e9f4"
     },
     {
       "natural_key": "2024/math1/chaoyue10/8",
@@ -136,7 +136,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "3967973b2f777b200f7e57c3aafac7349c8c9549b648f3618c4290134450b13c"
+      "content_hash": "c7e7c1eae1e41203d27f0e790d028178d5f6b791d51d9fb76ca0e1c44f68de66"
     },
     {
       "natural_key": "2024/math1/chaoyue10/9",
@@ -153,7 +153,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "b5bee5aae815ffdc43a083b0b0a261c2fa7ddbfc161aef54ccb7910f2d5029f2"
+      "content_hash": "21f32ab7656ed654152e9286577a881f03945a3da43a04561f25cc8d73e7df62"
     },
     {
       "natural_key": "2024/math1/chaoyue10/10",
@@ -170,7 +170,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "8e7c97480c3d52cf8267b7f6b11f99ccb01826dd2a376e7561e19ddf9888f97b"
+      "content_hash": "ff93b0bc876c6768b9446655439dd62fdc604aa71b7b6aca7f6ac1dc8e694662"
     },
     {
       "natural_key": "2024/math2/chaoyue10/1",
@@ -187,7 +187,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "2aaa9113eeca8fbdcc78ad1a963ba1df12911cc399c2a75e7bf7149e9494c058"
+      "content_hash": "25a165c0308af9e4e73370c2ecc93870d24d36c11542fa3c172ae24883090bc3"
     },
     {
       "natural_key": "2024/math2/chaoyue10/2",
@@ -204,7 +204,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "ca012d17c825f60d96c1dc7732211402a44e5e9b42541a10e4d74067b33e9a45"
+      "content_hash": "392d514cb0d36dc71e915acc25eff971a2a794e1688922c0a72afb19b732d715"
     },
     {
       "natural_key": "2024/math2/chaoyue10/3",
@@ -221,7 +221,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "24c4e2e52c5be7d8bbfac05147fcca49fd5ec753468093a5349f5131d7862280"
+      "content_hash": "5308a5f6d87fa4f07bd1e6c900fa463f79bbae9f64082d7e27b5b7e8548e8dbc"
     },
     {
       "natural_key": "2024/math2/chaoyue10/4",
@@ -238,7 +238,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "decd7c0d26ce78496c664fbb43228c6374ed0341558f92e800c57226f36f79be"
+      "content_hash": "1a09b0ff2cd6287278a2d9383d8223dffd94c09ba21bffce2b820a9f58e59db6"
     },
     {
       "natural_key": "2024/math2/chaoyue10/5",
@@ -255,7 +255,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "cd475d35ac3f491c6e44774932aee61fc97713fb66e50284bd3fde58fe7f9910"
+      "content_hash": "5d95e648dca9510ecabbd88767f21de93fa164b83425e9513bd11a6281b31b73"
     },
     {
       "natural_key": "2024/math2/chaoyue10/6",
@@ -272,7 +272,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "7e2944d3e9bd988ab99d86617e9286049e804240c201c54f1ce448ae88221009"
+      "content_hash": "d2dc949f9c0d8f0f3aafb2f627d64c5528a8bb52adc24873799bda2da112fbae"
     },
     {
       "natural_key": "2024/math2/chaoyue10/7",
@@ -289,7 +289,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "d4c5c69b6a792cab2829d0b8ca3618c5898ed0b96f08b634b1f0dcd3659462dc"
+      "content_hash": "57887c1cadbf708283b7d5145a10c20238fa4eb34913f4d4bf5c2840ab24d1a6"
     },
     {
       "natural_key": "2024/math2/chaoyue10/8",
@@ -306,7 +306,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "11db417349ea2aa1bd43f621cfc1de62659d9e313999b7e115b39c05ab2c3602"
+      "content_hash": "49e13db1f9ed1951070dc008d2764123b0a5dcbfffff030c0c063400e637c32d"
     },
     {
       "natural_key": "2024/math2/chaoyue10/9",
@@ -323,7 +323,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "57379f8e4dcdf18c526644f52f9b9d9af751fe6fb1e9206e4e1708bdc25b3d0f"
+      "content_hash": "61d28c2b87ce303cab4ea7633f534539477535ef9d1d439deb97f5b31f72b64f"
     },
     {
       "natural_key": "2024/math2/chaoyue10/10",
@@ -340,7 +340,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "8abbbea28fb360fd91eb1baa2222dabab08ab23d63f9aa44406a7178d6e6949c"
+      "content_hash": "509daaeacec79de00a6f784bfd0a30d4beea60eb102d093feb6f102f5a9b081e"
     },
     {
       "natural_key": "2024/math3/chaoyue10/1",
@@ -1023,6 +1023,295 @@
       "content_hash": "cbe98de052c6b65dff4baecaecab3aaac318015554c479235c4a488208cfac90"
     },
     {
+      "natural_key": "2026/math1/chaoyue10/1",
+      "bundle": "chaoyue10-2026-math1",
+      "series_key": "chaoyue10",
+      "series_name": "chaoyue10",
+      "year": 2026,
+      "subject": "math1",
+      "paper_no": 1,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "acd2da7acd534bdd6a453980ca899020680d01ed94c3d51dbfe53c581b976898"
+    },
+    {
+      "natural_key": "2026/math1/chaoyue10/2",
+      "bundle": "chaoyue10-2026-math1",
+      "series_key": "chaoyue10",
+      "series_name": "chaoyue10",
+      "year": 2026,
+      "subject": "math1",
+      "paper_no": 2,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "fd91b2e4f7814876e5768a0a58bd4f8c6f4fe59d7e1220f7a1d8a570c773a6fc"
+    },
+    {
+      "natural_key": "2026/math1/chaoyue10/3",
+      "bundle": "chaoyue10-2026-math1",
+      "series_key": "chaoyue10",
+      "series_name": "chaoyue10",
+      "year": 2026,
+      "subject": "math1",
+      "paper_no": 3,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "27f712ab4ff2a9cc825e740a2cb61bc599c9dd3c1eeb7774ba1325eff1416c39"
+    },
+    {
+      "natural_key": "2026/math1/chaoyue10/4",
+      "bundle": "chaoyue10-2026-math1",
+      "series_key": "chaoyue10",
+      "series_name": "chaoyue10",
+      "year": 2026,
+      "subject": "math1",
+      "paper_no": 4,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "311f99fca5ee7e8b7d68858b6baa757f0a44c50130117f018ce8a41667886500"
+    },
+    {
+      "natural_key": "2026/math1/chaoyue10/5",
+      "bundle": "chaoyue10-2026-math1",
+      "series_key": "chaoyue10",
+      "series_name": "chaoyue10",
+      "year": 2026,
+      "subject": "math1",
+      "paper_no": 5,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "a41f7477700d022c74764a4a8839bda3a3b6cf81cda6ef7febbbe4956fef1cd1"
+    },
+    {
+      "natural_key": "2026/math1/chaoyue10/7",
+      "bundle": "chaoyue10-2026-math1",
+      "series_key": "chaoyue10",
+      "series_name": "chaoyue10",
+      "year": 2026,
+      "subject": "math1",
+      "paper_no": 7,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "1c5111309ea0994de96149d68577ff652f6e9a87d5e01794db715962a1d74292"
+    },
+    {
+      "natural_key": "2026/math1/chaoyue10/8",
+      "bundle": "chaoyue10-2026-math1",
+      "series_key": "chaoyue10",
+      "series_name": "chaoyue10",
+      "year": 2026,
+      "subject": "math1",
+      "paper_no": 8,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "20d71349c35871bff6862dfe3593aa28cdec5f6d7448e719f5e496b57f70a093"
+    },
+    {
+      "natural_key": "2026/math1/chaoyue10/9",
+      "bundle": "chaoyue10-2026-math1",
+      "series_key": "chaoyue10",
+      "series_name": "chaoyue10",
+      "year": 2026,
+      "subject": "math1",
+      "paper_no": 9,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "c073e4dc9053cba36c6174f8616b83faec415d5e52775765715e451a8d70818e"
+    },
+    {
+      "natural_key": "2026/math1/chaoyue10/10",
+      "bundle": "chaoyue10-2026-math1",
+      "series_key": "chaoyue10",
+      "series_name": "chaoyue10",
+      "year": 2026,
+      "subject": "math1",
+      "paper_no": 10,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "493bc14ee05bb3d4f25bf788d95d3de63c96c1549ffc4b08f994f87e52633e8a"
+    },
+    {
+      "natural_key": "2026/math2/chaoyue10/2",
+      "bundle": "chaoyue10-2026-math2",
+      "series_key": "chaoyue10",
+      "series_name": "chaoyue10",
+      "year": 2026,
+      "subject": "math2",
+      "paper_no": 2,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "9909139a895b63f05cced68f3dbabeb003c1cec1020438e2b9167311d3e45394"
+    },
+    {
+      "natural_key": "2026/math2/chaoyue10/3",
+      "bundle": "chaoyue10-2026-math2",
+      "series_key": "chaoyue10",
+      "series_name": "chaoyue10",
+      "year": 2026,
+      "subject": "math2",
+      "paper_no": 3,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "1d4eff8519935a990e9462b231524bb0a1b0b65248d8657e5912636c4f0527a5"
+    },
+    {
+      "natural_key": "2026/math2/chaoyue10/4",
+      "bundle": "chaoyue10-2026-math2",
+      "series_key": "chaoyue10",
+      "series_name": "chaoyue10",
+      "year": 2026,
+      "subject": "math2",
+      "paper_no": 4,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "f1a4a037aa0f308fa164ea0b7037bf0a8ca89dc06cb1c1dd8870b5db7a7b1402"
+    },
+    {
+      "natural_key": "2026/math2/chaoyue10/5",
+      "bundle": "chaoyue10-2026-math2",
+      "series_key": "chaoyue10",
+      "series_name": "chaoyue10",
+      "year": 2026,
+      "subject": "math2",
+      "paper_no": 5,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "793757364ed108be129288176f1b02381baa03a60a54de85fb7aa3cfa7d12d09"
+    },
+    {
+      "natural_key": "2026/math2/chaoyue10/6",
+      "bundle": "chaoyue10-2026-math2",
+      "series_key": "chaoyue10",
+      "series_name": "chaoyue10",
+      "year": 2026,
+      "subject": "math2",
+      "paper_no": 6,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "cf61bfe261ea630da1e51131bc4ffde88cdb1960af1cd44cd0209e959f076ea5"
+    },
+    {
+      "natural_key": "2026/math2/chaoyue10/8",
+      "bundle": "chaoyue10-2026-math2",
+      "series_key": "chaoyue10",
+      "series_name": "chaoyue10",
+      "year": 2026,
+      "subject": "math2",
+      "paper_no": 8,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "5dfb52f19a7a83670bf6f019a41d7c2889d7e3357513f3bfd02093d8f0179cb4"
+    },
+    {
+      "natural_key": "2026/math2/chaoyue10/9",
+      "bundle": "chaoyue10-2026-math2",
+      "series_key": "chaoyue10",
+      "series_name": "chaoyue10",
+      "year": 2026,
+      "subject": "math2",
+      "paper_no": 9,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "d3e8f63bcfd75435e66eb08a1182f45fac7cf4e77f9f8a16c0b2ebad5395a1ef"
+    },
+    {
+      "natural_key": "2026/math2/chaoyue10/10",
+      "bundle": "chaoyue10-2026-math2",
+      "series_key": "chaoyue10",
+      "series_name": "chaoyue10",
+      "year": 2026,
+      "subject": "math2",
+      "paper_no": 10,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "07567ba3e0ff361da43f6324a63b34f73a8ee4488754fb91b759954139b397bc"
+    },
+    {
       "natural_key": "2025/math1/euclid3/1",
       "bundle": "euclid3-2025-math1",
       "series_key": "euclid3",
@@ -1189,8 +1478,8 @@
         "fill": 6,
         "solution": 6
       },
-      "figure_count": 1,
-      "content_hash": "55e2c0a23a555c2b9306bc887df7a4275e2312ce8f7de34c5c6cafde09dd4d29"
+      "figure_count": 0,
+      "content_hash": "3e8b15f6bddd2a2da4125cf344340e4897fdc269e70e682513b175cf35fe5be9"
     },
     {
       "natural_key": "2026/math1/euclid3/2",
@@ -1207,7 +1496,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "b494769fcd1fa60ace5befbba7600078429ad419d54ea0fe985689a27031781b"
+      "content_hash": "efb0e9636b70057cf63270a8e15a8644e50b532acd1a42b61155b5a5aa7b527f"
     },
     {
       "natural_key": "2026/math1/euclid3/3",
@@ -1224,7 +1513,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "308c3d8424ce3ad4b7b73d4ba831d020caeece00a893dbed4683e3fe1e68f53b"
+      "content_hash": "4731b8b1866fb0d963218c1ba7b0b0f896524a1f0bc54a1f51b1e716b9e24c7e"
     },
     {
       "natural_key": "2026/math2/euclid3/1",
@@ -1240,8 +1529,8 @@
         "fill": 6,
         "solution": 6
       },
-      "figure_count": 1,
-      "content_hash": "f5aa71ee9df340d266000ac3055d548bba8bf0e1e63dd8bfcf42d258ea2e1227"
+      "figure_count": 0,
+      "content_hash": "85ffe67f5a47b448f4806180609b2ff155654e8e48b17142a56f5bf184c372c4"
     },
     {
       "natural_key": "2026/math2/euclid3/2",
@@ -1258,7 +1547,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "ccd77a18b5d59906270761465129b9382ba1198758a4365b90fd5f358e848956"
+      "content_hash": "694b6087e6dc8cf8001c17cd8bc0f8e99bdda7b601f0b9a8ad4d28b853d9902f"
     },
     {
       "natural_key": "2026/math2/euclid3/3",
@@ -1274,8 +1563,8 @@
         "fill": 6,
         "solution": 6
       },
-      "figure_count": 1,
-      "content_hash": "fddc91c2d55e165b0897a7d91fac8ac126a78d7ad89f8007b29b75bf0271b232"
+      "figure_count": 0,
+      "content_hash": "141e6850ee2627f590edf8ec9f8daa5ce7f2e79a1a9f1affc09d9c6cfbcadba8"
     },
     {
       "natural_key": "2026/math3/euclid3/1",
@@ -1327,6 +1616,516 @@
       },
       "figure_count": 0,
       "content_hash": "35cff6a8ce08bc67c2e1a7a14420feb03281b4b3eca9a60a024d4ef9144cc85f"
+    },
+    {
+      "natural_key": "2023/math1/lilin6/4",
+      "bundle": "lilin6-2023-math1",
+      "series_key": "lilin6",
+      "series_name": "lilin6",
+      "year": 2023,
+      "subject": "math1",
+      "paper_no": 4,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "a569f68222c083cbbfb5e9b566d531f9652964708d11a21bbbd5af0f5ce1fab3"
+    },
+    {
+      "natural_key": "2023/math1/lilin6/5",
+      "bundle": "lilin6-2023-math1",
+      "series_key": "lilin6",
+      "series_name": "lilin6",
+      "year": 2023,
+      "subject": "math1",
+      "paper_no": 5,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "96d182ca85ad85e5b473829371b4db7d9ba9a5a8251fbe20c0f0a30b8741810c"
+    },
+    {
+      "natural_key": "2023/math1/lilin6/6",
+      "bundle": "lilin6-2023-math1",
+      "series_key": "lilin6",
+      "series_name": "lilin6",
+      "year": 2023,
+      "subject": "math1",
+      "paper_no": 6,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "4ab0748d9a8cb0d3e07ba7ce00ddca11d84b39054360f89771718939d8273360"
+    },
+    {
+      "natural_key": "2023/math2/lilin6/1",
+      "bundle": "lilin6-2023-math2",
+      "series_key": "lilin6",
+      "series_name": "lilin6",
+      "year": 2023,
+      "subject": "math2",
+      "paper_no": 1,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "55924475ab62ea4321548a0e397be25b78cf44dd273969aa82fae3d086477c90"
+    },
+    {
+      "natural_key": "2023/math2/lilin6/2",
+      "bundle": "lilin6-2023-math2",
+      "series_key": "lilin6",
+      "series_name": "lilin6",
+      "year": 2023,
+      "subject": "math2",
+      "paper_no": 2,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "2b255754a988e3a0d9878d3e55d016f60fa6a437b0092af5429d9bb68a0a55ef"
+    },
+    {
+      "natural_key": "2023/math2/lilin6/3",
+      "bundle": "lilin6-2023-math2",
+      "series_key": "lilin6",
+      "series_name": "lilin6",
+      "year": 2023,
+      "subject": "math2",
+      "paper_no": 3,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "2059493a5f167b3cacb54c0127718d464755f2cf0f35634f7a12cc29ce08dccb"
+    },
+    {
+      "natural_key": "2023/math2/lilin6/4",
+      "bundle": "lilin6-2023-math2",
+      "series_key": "lilin6",
+      "series_name": "lilin6",
+      "year": 2023,
+      "subject": "math2",
+      "paper_no": 4,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "cce84c6c51a162b8bd684943e471bd1c17623f86bead1a8d0efa572a4d33b3e8"
+    },
+    {
+      "natural_key": "2023/math2/lilin6/5",
+      "bundle": "lilin6-2023-math2",
+      "series_key": "lilin6",
+      "series_name": "lilin6",
+      "year": 2023,
+      "subject": "math2",
+      "paper_no": 5,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "f1545941f3ed9871d6b2190ceb65c8ff7eb6ac07d6ff3b813c9900e08206b15e"
+    },
+    {
+      "natural_key": "2023/math2/lilin6/6",
+      "bundle": "lilin6-2023-math2",
+      "series_key": "lilin6",
+      "series_name": "lilin6",
+      "year": 2023,
+      "subject": "math2",
+      "paper_no": 6,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "66d9a57c22e0a3122c199a0fd1a316bc40f8204f2c898e263c5b7a88c527b499"
+    },
+    {
+      "natural_key": "2023/math3/lilin6/1",
+      "bundle": "lilin6-2023-math3",
+      "series_key": "lilin6",
+      "series_name": "lilin6",
+      "year": 2023,
+      "subject": "math3",
+      "paper_no": 1,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "a8de0a4bc6404fd35a4dfebaa4f16f5e6c340ac115522591ec7385b2236f5224"
+    },
+    {
+      "natural_key": "2023/math3/lilin6/5",
+      "bundle": "lilin6-2023-math3",
+      "series_key": "lilin6",
+      "series_name": "lilin6",
+      "year": 2023,
+      "subject": "math3",
+      "paper_no": 5,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "53373fe9526324729bc9645cff242bc63b1669f88b4e180edf8bfaaeb1d110cf"
+    },
+    {
+      "natural_key": "2023/math3/lilin6/6",
+      "bundle": "lilin6-2023-math3",
+      "series_key": "lilin6",
+      "series_name": "lilin6",
+      "year": 2023,
+      "subject": "math3",
+      "paper_no": 6,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "a43e8829fc1e4898c49af53b2397935168fa8d42ae55b8334dc3c1144d385ba3"
+    },
+    {
+      "natural_key": "2024/math1/lilin6/1",
+      "bundle": "lilin6-2024-math1",
+      "series_key": "lilin6",
+      "series_name": "lilin6",
+      "year": 2024,
+      "subject": "math1",
+      "paper_no": 1,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "a71fed53bc3fd7b4c96e6e174dec4670425a1196c2c856f8a2d51d04f8ca5c51"
+    },
+    {
+      "natural_key": "2024/math1/lilin6/2",
+      "bundle": "lilin6-2024-math1",
+      "series_key": "lilin6",
+      "series_name": "lilin6",
+      "year": 2024,
+      "subject": "math1",
+      "paper_no": 2,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "c481d2e0af6012085763700b18177f4cd923b6adf88faa4c0e408e1eab6a58ff"
+    },
+    {
+      "natural_key": "2024/math1/lilin6/3",
+      "bundle": "lilin6-2024-math1",
+      "series_key": "lilin6",
+      "series_name": "lilin6",
+      "year": 2024,
+      "subject": "math1",
+      "paper_no": 3,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "c4157ca17bd9f787d2b4fb672a9153cb20e019ff3507fbc6fe8573e6df4a8741"
+    },
+    {
+      "natural_key": "2024/math1/lilin6/4",
+      "bundle": "lilin6-2024-math1",
+      "series_key": "lilin6",
+      "series_name": "lilin6",
+      "year": 2024,
+      "subject": "math1",
+      "paper_no": 4,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "0d0a1e708cfef4c6576cfdc79e5b8b309eb2517ca44fa14e2fec630e692b71ad"
+    },
+    {
+      "natural_key": "2024/math1/lilin6/5",
+      "bundle": "lilin6-2024-math1",
+      "series_key": "lilin6",
+      "series_name": "lilin6",
+      "year": 2024,
+      "subject": "math1",
+      "paper_no": 5,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "cc5f35397e1495735cabacf0c76423f8fa701a06a3ea8c3f7b124c373afffdce"
+    },
+    {
+      "natural_key": "2024/math1/lilin6/6",
+      "bundle": "lilin6-2024-math1",
+      "series_key": "lilin6",
+      "series_name": "lilin6",
+      "year": 2024,
+      "subject": "math1",
+      "paper_no": 6,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "82b649c757398fe40cd9bc6b7cc3a0e1a97dfd6cd49315c5e74fd8da0f11db1f"
+    },
+    {
+      "natural_key": "2024/math2/lilin6/1",
+      "bundle": "lilin6-2024-math2",
+      "series_key": "lilin6",
+      "series_name": "lilin6",
+      "year": 2024,
+      "subject": "math2",
+      "paper_no": 1,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "f6470f99dc1da41e04ac53b67682f570a944ac950591a9ba755bf7b4d2eb8ce8"
+    },
+    {
+      "natural_key": "2024/math2/lilin6/2",
+      "bundle": "lilin6-2024-math2",
+      "series_key": "lilin6",
+      "series_name": "lilin6",
+      "year": 2024,
+      "subject": "math2",
+      "paper_no": 2,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "31f2212f94f6ecc43ce08722ff01743e1c7c6c19cdeffcfd5f9c93cc2799744d"
+    },
+    {
+      "natural_key": "2024/math2/lilin6/3",
+      "bundle": "lilin6-2024-math2",
+      "series_key": "lilin6",
+      "series_name": "lilin6",
+      "year": 2024,
+      "subject": "math2",
+      "paper_no": 3,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "170a50f6b66c53fac633f5d24d712fabade4503bad60a90a65723a5d36c62bf4"
+    },
+    {
+      "natural_key": "2024/math2/lilin6/4",
+      "bundle": "lilin6-2024-math2",
+      "series_key": "lilin6",
+      "series_name": "lilin6",
+      "year": 2024,
+      "subject": "math2",
+      "paper_no": 4,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "ff76d2ff123ea3faf8abb803967fac827b64126435d71b6bab2f7fd157b35ea6"
+    },
+    {
+      "natural_key": "2024/math2/lilin6/5",
+      "bundle": "lilin6-2024-math2",
+      "series_key": "lilin6",
+      "series_name": "lilin6",
+      "year": 2024,
+      "subject": "math2",
+      "paper_no": 5,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "ab5639d88064ec35d84020b15b2e599693db7409260a33ee7d55607ef2ecaaed"
+    },
+    {
+      "natural_key": "2024/math2/lilin6/6",
+      "bundle": "lilin6-2024-math2",
+      "series_key": "lilin6",
+      "series_name": "lilin6",
+      "year": 2024,
+      "subject": "math2",
+      "paper_no": 6,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "47045ed83e5232bc75431460261f5159fa37abe6876a444bf6a4a25c6e769450"
+    },
+    {
+      "natural_key": "2024/math3/lilin6/1",
+      "bundle": "lilin6-2024-math3",
+      "series_key": "lilin6",
+      "series_name": "lilin6",
+      "year": 2024,
+      "subject": "math3",
+      "paper_no": 1,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "f5c235055ab7bee98d811db143eaef8cff4ece2ace5fc2795be187584aa6e29d"
+    },
+    {
+      "natural_key": "2024/math3/lilin6/2",
+      "bundle": "lilin6-2024-math3",
+      "series_key": "lilin6",
+      "series_name": "lilin6",
+      "year": 2024,
+      "subject": "math3",
+      "paper_no": 2,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "2ab69a23a4574cd189028f810236c2b7de51567ca0346f248ecaed9131dbefd7"
+    },
+    {
+      "natural_key": "2024/math3/lilin6/3",
+      "bundle": "lilin6-2024-math3",
+      "series_key": "lilin6",
+      "series_name": "lilin6",
+      "year": 2024,
+      "subject": "math3",
+      "paper_no": 3,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "504c3a5b57420ffbb8d445f3b2dd0502c4d0144d530f886a51da464b68dc23fd"
+    },
+    {
+      "natural_key": "2024/math3/lilin6/4",
+      "bundle": "lilin6-2024-math3",
+      "series_key": "lilin6",
+      "series_name": "lilin6",
+      "year": 2024,
+      "subject": "math3",
+      "paper_no": 4,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "98bedb3f19c415e9698820b7c213b39c325b8e93ce1512f9edd78b4eeaefbab0"
+    },
+    {
+      "natural_key": "2024/math3/lilin6/5",
+      "bundle": "lilin6-2024-math3",
+      "series_key": "lilin6",
+      "series_name": "lilin6",
+      "year": 2024,
+      "subject": "math3",
+      "paper_no": 5,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "80127c272e674f0f96e20ac5f661e9cb466067d053b3980ff013dac627eef0b4"
+    },
+    {
+      "natural_key": "2024/math3/lilin6/6",
+      "bundle": "lilin6-2024-math3",
+      "series_key": "lilin6",
+      "series_name": "lilin6",
+      "year": 2024,
+      "subject": "math3",
+      "paper_no": 6,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "43836562158bbbaf9f12cb138b62929ca98cf800319944fabb2390c7499c7fce"
     },
     {
       "natural_key": "2025/math1/lilin6/1",
@@ -1649,7 +2448,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "c6149d50cebcdaeead97c5f65fe03897b7b8ace975029a5802b4def5fba779fa"
+      "content_hash": "0b5f1ef6db7a6e8fe1c66dbec91a44ce7adeb55a9f03f056713d00ec6751de11"
     },
     {
       "natural_key": "2026/math1/lilin6/2",
@@ -1666,7 +2465,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "837e7a961ede65c6acdabe123e38a13b92404ee2540f4f2e715c8b8e3879a945"
+      "content_hash": "3047dfa7d3e4bd6b06409907f298393250d3c3f5b84fcecdadac23511317748d"
     },
     {
       "natural_key": "2026/math1/lilin6/3",
@@ -1683,7 +2482,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "1f7a0a3a61390ff91924f010fb85ca0938d2526f18ea20f8a753502579574d08"
+      "content_hash": "b6e3094e28c9f3942d4ba03a20419524cde3417f52c967130073dc1bae26896a"
     },
     {
       "natural_key": "2026/math1/lilin6/4",
@@ -1700,7 +2499,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "1e6a0d8240f4d492b680158aee08abf9a17984703740f88fe89ab18d2dc86e76"
+      "content_hash": "a3dd55263c4637b9caff30e8580eaf6727d63948e64ae7432a2ef9ab17aa2178"
     },
     {
       "natural_key": "2026/math1/lilin6/5",
@@ -1716,8 +2515,8 @@
         "fill": 6,
         "solution": 6
       },
-      "figure_count": 1,
-      "content_hash": "9dd67925343c6cd91cf3da10c134ca07cf857bec4787006bd6a1ee4c22d32966"
+      "figure_count": 0,
+      "content_hash": "110355199918b8384af3d637a6ad5935dc7724ca5a651a444ecb037f1ba34efc"
     },
     {
       "natural_key": "2026/math1/lilin6/6",
@@ -1733,8 +2532,8 @@
         "fill": 6,
         "solution": 6
       },
-      "figure_count": 1,
-      "content_hash": "9cf0c867d857f1aa56c481eaa24bd9968735fc21706f30d405537b1520cf6cac"
+      "figure_count": 0,
+      "content_hash": "feb86ffb6940e3943abe74eb83e4c87085e59c7aeb7f702a5452dbfc4c868dd1"
     },
     {
       "natural_key": "2026/math2/lilin6/1",
@@ -1750,8 +2549,8 @@
         "fill": 6,
         "solution": 6
       },
-      "figure_count": 1,
-      "content_hash": "63af18e5eeb8ab78df8f73ddc718881b38e1d070cb325aaec2568773ebfce0e4"
+      "figure_count": 0,
+      "content_hash": "fa820f50c6178fba142247f641e42618c092f7297ec3fe15a5b606e52817378b"
     },
     {
       "natural_key": "2026/math2/lilin6/2",
@@ -1768,7 +2567,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "5c4c157ce17ba4c1ab8e3679325f97f214ddaec888b3634f9209f07345e17076"
+      "content_hash": "4e5f3e219032772e776c4abbf44314623f053ea563abda0e9ea0b94c0d92f8ef"
     },
     {
       "natural_key": "2026/math2/lilin6/3",
@@ -1785,7 +2584,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "10ce8efc07e42aba1979ec9a8da789070cfbcc066200afcb515d58cbca72b3ec"
+      "content_hash": "6e9bf26c795ddac50adf73eb1ff9d24ca4ff38d8dbcc433ca98cb1014c6096ed"
     },
     {
       "natural_key": "2026/math2/lilin6/4",
@@ -1802,7 +2601,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "a817097837b713487648935c2cfeac599df0a69b451424703ea9d52aba491421"
+      "content_hash": "e3754baedab368116cdf2d49950f5f4b7a83558f3fbe0cb426e3726e81d7e852"
     },
     {
       "natural_key": "2026/math2/lilin6/5",
@@ -1818,8 +2617,8 @@
         "fill": 6,
         "solution": 6
       },
-      "figure_count": 1,
-      "content_hash": "d03adad6f443939e65a24ad3ddd5ba6a13b57a1c2b2c8d049278f38adee1099a"
+      "figure_count": 0,
+      "content_hash": "1a32d4fc86288e973ed03e9f4ee943a9b36236cb6570c1cfafa3dd10502abcd6"
     },
     {
       "natural_key": "2026/math2/lilin6/6",
@@ -1836,7 +2635,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "d83668a963bbd8e6bcbe9c8f3bf2c30516097483fb41e33afbf6d58b3fc06416"
+      "content_hash": "dc24fe1f14dbf26b3e2f3bf2df43173755e55bf1bc15c20d7396b31bc39d8528"
     },
     {
       "natural_key": "2026/math3/lilin6/1",
@@ -1852,8 +2651,8 @@
         "fill": 6,
         "solution": 6
       },
-      "figure_count": 1,
-      "content_hash": "c2cd522e59e4657de2f064dfa900019398c9a8a9b750b478556b6b313b59330a"
+      "figure_count": 0,
+      "content_hash": "6df0e7138ae82b8b9b3b479e3d94c72841628c0ddb2cfee65a9e96249d209b22"
     },
     {
       "natural_key": "2026/math3/lilin6/2",
@@ -1870,7 +2669,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "23bb7d76de195314f075fb2e6e31939dbc05e2f7be9f7b86615988fbc5c977f8"
+      "content_hash": "27a19aa750d29fb9f6d058a409e6b0506796b4472642e179379f87368f23f9a9"
     },
     {
       "natural_key": "2026/math3/lilin6/3",
@@ -1887,7 +2686,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "8e1bc7ee0584ea3ec06a29e6fb48d7d9f045f87c27555be26c93d5da60704149"
+      "content_hash": "197e04e99f6749cfef95022781b8eebe11dc4bfd689652a552de5e175043c29f"
     },
     {
       "natural_key": "2026/math3/lilin6/4",
@@ -1921,7 +2720,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "6f5b548aec42f964076190d64992c1834d857a2f1fd0aff92d5c7d18c3d13256"
+      "content_hash": "279dd9bdf0c7e0773b9b43095fff41e6111df649243ba780109faaa0ca617b93"
     },
     {
       "natural_key": "2026/math3/lilin6/6",
@@ -1938,7 +2737,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "a44486186f3d42ad170bcfbeec49ede3946cda43882b52ad150e2933049e9254"
+      "content_hash": "93b33b0bc236fa34e55afffbfe602c7c1c5d60c8dbd3e34ac3fa7b853fb6addf"
     },
     {
       "natural_key": "2027/math2/lilin6/1",
@@ -1955,7 +2754,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "b4e3312671768538c1ea0c8a3fa340a9e6650b13d4e0e12ef20ce913f3d44b25"
+      "content_hash": "e8ba7ac581944834db73ffdff78d78774820952073ca19168afa4f7626379261"
     },
     {
       "natural_key": "2027/math2/lilin6/2",
@@ -1972,7 +2771,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "14dc4e2e188a8d4f2048a71ebb5e1f454f2c21c0a00295a9882f5d858f5b2492"
+      "content_hash": "11bd2008f412165c89dab56dbcd5364aa177b3786dfbe0a0d0d030526102aa01"
     },
     {
       "natural_key": "2027/math2/lilin6/3",
@@ -1989,7 +2788,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "38b7f8dfdccdcc060d72b67047132fd2b8b5b5bf302737521e9bb09006516e06"
+      "content_hash": "b2b7445bdd89f9e258118904196ff395e0d6bdf052507735dc69794e41f47f65"
     },
     {
       "natural_key": "2027/math2/lilin6/4",
@@ -2006,7 +2805,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "34f572059fd62e735840d97bb8b6c1908eb63dec11659fc3977ef46efc9f5c9b"
+      "content_hash": "6616e4ae2230de29d34277ccbd0ec84fb3eb8dc72f4a93a44563f89e7104d888"
     },
     {
       "natural_key": "2027/math2/lilin6/5",
@@ -2023,7 +2822,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "6331b0b4e3f0c2f5150440f6f87bf4c7c6c68006292823adecc8dcbbd8a49c85"
+      "content_hash": "b25fe00bbeff277d0511e7dfad3ce25216e217de278fb9646b23ff5776ec063c"
     },
     {
       "natural_key": "2027/math2/lilin6/6",
@@ -2040,7 +2839,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "db465efa8892f970cbf819d2821b0bede91aeedc0c847d590c7888664d44664b"
+      "content_hash": "94aceb75c57df0656112817a8fab6e2822d1292d37005e4dcad22cd43dbaf63a"
     },
     {
       "natural_key": "2022/math1/liyanfang3/1",
@@ -2244,7 +3043,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "9a6374a8f24be95054f38754f1d065ed4a90ba9c9fe56e8d52590849d6ec77ce"
+      "content_hash": "76b6d21001c554f0f0edd842cceae50bd39ee2e5f4ca56b798a713cfd99a8677"
     },
     {
       "natural_key": "2023/math2/liyanfang3/1",
@@ -2261,7 +3060,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "dfaf3ac613eb0f691fbd39546fbfd15213f7b5e249595a9eef0f6776a5d904be"
+      "content_hash": "1a6f598d41182407c2a1d240204378906d243b693926d0f4543fa6c42a258bae"
     },
     {
       "natural_key": "2023/math2/liyanfang3/2",
@@ -2278,7 +3077,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "bb467e92fd5de85c3ae93c77e5d52522498441b15ee705f7adfa8011d9108aa7"
+      "content_hash": "e62d8d6a6c8637ac199d829e7990802258b8abdc5ad65525dd197e1b8a85fbdf"
     },
     {
       "natural_key": "2023/math2/liyanfang3/3",
@@ -2295,7 +3094,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "c6f3c1320783bfc1dea005b529268115f626d71e13d93e81c65a534343d26200"
+      "content_hash": "1abaaa09ca21ac339572f5c13ac0f623cf7a012c8a0dca4f19b684e95161942e"
     },
     {
       "natural_key": "2023/math3/liyanfang3/1",
@@ -2363,7 +3162,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "1a7225d63ec215f63659b4e6f8ed2238f052bcd1d21f6bf5e5d97eba8cb6bb48"
+      "content_hash": "7af7cdb3acf830bde2ffac450f34a7f7eeb177881ffe943cb37ba1be3a9b8f37"
     },
     {
       "natural_key": "2024/math1/liyanfang3/2",
@@ -2379,8 +3178,8 @@
         "fill": 6,
         "solution": 6
       },
-      "figure_count": 1,
-      "content_hash": "38dcd091381e38503daa7e953f93b429f3a091bbd8a0c1e94961230d2bea0f0c"
+      "figure_count": 0,
+      "content_hash": "214714d0392752b48916bc5c817b1e8b187660aa88728ba617f1163441a88317"
     },
     {
       "natural_key": "2024/math1/liyanfang3/3",
@@ -2397,7 +3196,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "0244854c15f08572ef3c88e1aeaeeb1c6d4a2da1af8f608e72ec134179f60492"
+      "content_hash": "d50f5e18640157f40219e1167f71ce9b0eab75add12fd266ef30f5c81c34af23"
     },
     {
       "natural_key": "2024/math2/liyanfang3/1",
@@ -2414,7 +3213,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "9df415f42e827b057ee70d22bb02728d95ddd0ad37ad9caf60ff40e678355d36"
+      "content_hash": "d8dc4c887086092139c57e92d148de9e63b534ffaede60ecf247e09da87284b4"
     },
     {
       "natural_key": "2024/math2/liyanfang3/2",
@@ -2431,7 +3230,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "86c3aa3c7aab624bd53fe997de6582d4d5d9a9409eaad02d3cc1b2b14fc88036"
+      "content_hash": "84e8c2b46748f5aa059276b51deec9d73bbeac11729be292c3cfe957fd6070c3"
     },
     {
       "natural_key": "2024/math2/liyanfang3/3",
@@ -2447,8 +3246,8 @@
         "fill": 6,
         "solution": 6
       },
-      "figure_count": 1,
-      "content_hash": "194663d68d38fbf8e96215efae4be87511cf75dd1f679c081a1569c02a77c778"
+      "figure_count": 0,
+      "content_hash": "a94007289338c5daed22743c058f29dfd48eb39739bdde5ba10484c2bd88916a"
     },
     {
       "natural_key": "2024/math3/liyanfang3/1",
@@ -2669,7 +3468,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "2a299eeaccc80c93898b9fe9eab065c4f80dc325c61b7375b3c889c81187443e"
+      "content_hash": "8171c40ae69522833c9004d536e75f34507fa78dcc4677fe263646415a61691c"
     },
     {
       "natural_key": "2026/math1/liyanfang3/2",
@@ -2686,7 +3485,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "f2478cf5ddfe1247c699920ff1171983467115380a18ae647a61d3d16b905a25"
+      "content_hash": "9562a62894da9c5e8f799d00297d3b889797de8a0b533463478c7e27e0ce32a1"
     },
     {
       "natural_key": "2026/math1/liyanfang3/3",
@@ -2702,8 +3501,8 @@
         "fill": 6,
         "solution": 6
       },
-      "figure_count": 4,
-      "content_hash": "22d2cf17cbee9eb1a5cec17f0f05f7932a795b32d1ad78146ef536bfb6a49b1d"
+      "figure_count": 0,
+      "content_hash": "9c67e153f73b2fd92517c237a62c1a7d3f328da45713709ed44db4f35554cc3c"
     },
     {
       "natural_key": "2026/math2/liyanfang3/1",
@@ -2720,7 +3519,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "f5a6583c6c43e2e1b891c3bbd3438cc99c5cf76cdbf80096c13d2e470c895cb4"
+      "content_hash": "f5aa76ae6e5c3d78849345baf28951088b24f8018c0e1b7f8cb94f062931533e"
     },
     {
       "natural_key": "2026/math2/liyanfang3/2",
@@ -2737,7 +3536,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "6724af53baa726b1704bb1b9a627b8cb4f2aa1373b643d42846d68b05b16143e"
+      "content_hash": "cdfce86cca04bf8ad67d66611d8d13702a7ecd8fdd2727c1d25f732ea27af7a3"
     },
     {
       "natural_key": "2026/math2/liyanfang3/3",
@@ -2754,7 +3553,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "0bc709d993b0a4a7b9f698426cce61e38393fe02416193666c194dd7a2ee6498"
+      "content_hash": "ad2d0e2c9aa0c5887fbb278f4953b650f6aa0550945eb9c973b63c4941ac8fa8"
     },
     {
       "natural_key": "2026/math3/liyanfang3/1",
@@ -2808,6 +3607,210 @@
       "content_hash": "222f3340dfb8f0f1c25eeca02cf834cf3cdac39d7e1e059488a86e11e6b4819e"
     },
     {
+      "natural_key": "2027/math2/liyanfang3/1",
+      "bundle": "liyanfang3-2027-math2",
+      "series_key": "liyanfang3",
+      "series_name": "liyanfang3",
+      "year": 2027,
+      "subject": "math2",
+      "paper_no": 1,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "f9668a6db0729d2985fcc10a6d3d98c643a2509c2f0c2e4880c41988d529a8d7"
+    },
+    {
+      "natural_key": "2027/math2/liyanfang3/2",
+      "bundle": "liyanfang3-2027-math2",
+      "series_key": "liyanfang3",
+      "series_name": "liyanfang3",
+      "year": 2027,
+      "subject": "math2",
+      "paper_no": 2,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "cff8901e3075db3e68e7419d145fa737d6166e55e04c0c243bb4a9d61ed8bb73"
+    },
+    {
+      "natural_key": "2027/math2/liyanfang3/3",
+      "bundle": "liyanfang3-2027-math2",
+      "series_key": "liyanfang3",
+      "series_name": "liyanfang3",
+      "year": 2027,
+      "subject": "math2",
+      "paper_no": 3,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "9394a3e17ca4968bb1f90d3fcdc2d4d20068ab1fb5111984b8769b22dab21f89"
+    },
+    {
+      "natural_key": "2023/math1/yubingsen5/1",
+      "bundle": "yubingsen5-2023-math1",
+      "series_key": "yubingsen5",
+      "series_name": "yubingsen5",
+      "year": 2023,
+      "subject": "math1",
+      "paper_no": 1,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "e3723fb73a67f5f24d2ae65fb03e82e40772558da6fbca021d0b084130fd00fb"
+    },
+    {
+      "natural_key": "2023/math1/yubingsen5/3",
+      "bundle": "yubingsen5-2023-math1",
+      "series_key": "yubingsen5",
+      "series_name": "yubingsen5",
+      "year": 2023,
+      "subject": "math1",
+      "paper_no": 3,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "d98379da03f80f734223054a1a988680e440e3689395afd2c81af211070fbec1"
+    },
+    {
+      "natural_key": "2023/math1/yubingsen5/4",
+      "bundle": "yubingsen5-2023-math1",
+      "series_key": "yubingsen5",
+      "series_name": "yubingsen5",
+      "year": 2023,
+      "subject": "math1",
+      "paper_no": 4,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "87a3fe5f3897d81b0f0db3304bc67c1b93bd3763fac9dd92f7c9164d79620c8a"
+    },
+    {
+      "natural_key": "2023/math1/yubingsen5/5",
+      "bundle": "yubingsen5-2023-math1",
+      "series_key": "yubingsen5",
+      "series_name": "yubingsen5",
+      "year": 2023,
+      "subject": "math1",
+      "paper_no": 5,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "e119b5224664103a0b068bc7a26cc0dcfa788ccba6ddc950b6dc4535d20e180d"
+    },
+    {
+      "natural_key": "2023/math2/yubingsen5/1",
+      "bundle": "yubingsen5-2023-math2",
+      "series_key": "yubingsen5",
+      "series_name": "yubingsen5",
+      "year": 2023,
+      "subject": "math2",
+      "paper_no": 1,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "40a063e3b690e7d149af960deefc2ae2969ef4804208ff24a13b538b7254cecc"
+    },
+    {
+      "natural_key": "2023/math2/yubingsen5/2",
+      "bundle": "yubingsen5-2023-math2",
+      "series_key": "yubingsen5",
+      "series_name": "yubingsen5",
+      "year": 2023,
+      "subject": "math2",
+      "paper_no": 2,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "2342ab6e74836066e521c96e3d9210befb74462d0b1d028e0a4fc72d66338257"
+    },
+    {
+      "natural_key": "2023/math2/yubingsen5/3",
+      "bundle": "yubingsen5-2023-math2",
+      "series_key": "yubingsen5",
+      "series_name": "yubingsen5",
+      "year": 2023,
+      "subject": "math2",
+      "paper_no": 3,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "8e687215773deb7121c7cce17d105ba5782bfb9e0b986ac6bebd2bed5895b14e"
+    },
+    {
+      "natural_key": "2023/math2/yubingsen5/4",
+      "bundle": "yubingsen5-2023-math2",
+      "series_key": "yubingsen5",
+      "series_name": "yubingsen5",
+      "year": 2023,
+      "subject": "math2",
+      "paper_no": 4,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "703eca6b58e640cf47caa223da9d55eb95f5146781fb13e404d8883781c5f89a"
+    },
+    {
+      "natural_key": "2023/math2/yubingsen5/5",
+      "bundle": "yubingsen5-2023-math2",
+      "series_key": "yubingsen5",
+      "series_name": "yubingsen5",
+      "year": 2023,
+      "subject": "math2",
+      "paper_no": 5,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "4b71d73419f5a8b02c74a204ad1053968335ca32279a2ebbeec84d93b8346b7a"
+    },
+    {
       "natural_key": "2024/math1/yubingsen5/1",
       "bundle": "yubingsen5-2024-math1",
       "series_key": "yubingsen5",
@@ -2822,7 +3825,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "26b055b5e540a84f32b27af32a1b98e78cd123b03a2a5c33367cc6b1f3e95c3d"
+      "content_hash": "9e85fe2ecb16175912a878d86e34f4fa77ceea5fb12f7d38b85cf7e10dec5429"
     },
     {
       "natural_key": "2024/math1/yubingsen5/2",
@@ -2839,7 +3842,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "dd271846cd4c48e002d0c4917aeca7cae0c8afe53c553b7e55f836228327bd7a"
+      "content_hash": "52fbf86832ada56cf5d4b009ace672b29f4f1f787e33c9a79c457143ceee2cf8"
     },
     {
       "natural_key": "2024/math1/yubingsen5/3",
@@ -2856,7 +3859,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "b64f8967bbdb0cf6e29cc2f6e17cbd71bad136c1f635f4e748419546afda2b90"
+      "content_hash": "de2b76a6930ec035735c165e417b1855175a5436960baef7179540be9ea7bef5"
     },
     {
       "natural_key": "2024/math1/yubingsen5/4",
@@ -2873,7 +3876,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "0f13aa814b9874395d05980eab91797e0d4a5260a841e6c4fdc2eb4637b64b71"
+      "content_hash": "8842927cc81314a60bc3de1d6fcf7a9fbdf08bf8f7ca2eb69b7f52d59d4621be"
     },
     {
       "natural_key": "2024/math1/yubingsen5/5",
@@ -2890,7 +3893,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "d49b710802a9eb9c7e66ebe800feb1b5ebc30806cd815efd241aa44c5e755d07"
+      "content_hash": "a37e8c62602075f8e1e3ac77a811214ecb08ab1de5e8b86828e11ac0a7cb586d"
     },
     {
       "natural_key": "2024/math2/yubingsen5/1",
@@ -2907,7 +3910,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "1d3460d9f380ffccb30321b493950a0e69889dc07219976de49f84950fbca5d8"
+      "content_hash": "d661c1c7c85fc3073a282496f2c7f4bcbeef67dd0944459d8357a01d79b11021"
     },
     {
       "natural_key": "2024/math2/yubingsen5/2",
@@ -2924,7 +3927,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "143f367ea5fb330c7d0cfaa95f7c7298bd398f4afaa586b82e9fbce814902cc5"
+      "content_hash": "1551e8cc66c415b91c446915bbb100208dba84c358771fdd38d51cc614bc55c3"
     },
     {
       "natural_key": "2024/math2/yubingsen5/3",
@@ -2940,8 +3943,8 @@
         "fill": 6,
         "solution": 6
       },
-      "figure_count": 1,
-      "content_hash": "47b6d5b6a57783fcd8a8eb51fca9b8b22f76650736e6342c2d65329ac454f125"
+      "figure_count": 0,
+      "content_hash": "ec0a44430249e5759abd2f4f6bd46166c28a3f84399f084f008d5d18bbbb6c6b"
     },
     {
       "natural_key": "2024/math2/yubingsen5/4",
@@ -2958,7 +3961,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "dd406ce53b20522cc99794a094024e65d67d28e6567ff98a2129ee8cd524d70c"
+      "content_hash": "1940360f4f990e3f6b19eb7e66b95c7272e2771256070587caa6251363e7aefc"
     },
     {
       "natural_key": "2024/math2/yubingsen5/5",
@@ -2975,7 +3978,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "b79674b9cce0441752e8ed5d2cbbcfd35f07c3713b3c3a2b36c209e9eba64d13"
+      "content_hash": "b3b00243feef4fb9012067269d55e743ef28a72adf67aab20ba9b3defab7b291"
     },
     {
       "natural_key": "2024/math3/yubingsen5/1",
@@ -3318,6 +4321,278 @@
       "content_hash": "5dd8323baccb55a40bb094acbd85410c37d4a5b4dbc847e20b854003e45ba791"
     },
     {
+      "natural_key": "2026/math1/yubingsen5/1",
+      "bundle": "yubingsen5-2026-math1",
+      "series_key": "yubingsen5",
+      "series_name": "yubingsen5",
+      "year": 2026,
+      "subject": "math1",
+      "paper_no": 1,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "e5ded1d4277bb326a67e1a7e1ef791993cdaa15410b9b846e1ea8a9dfc85c4d9"
+    },
+    {
+      "natural_key": "2026/math1/yubingsen5/2",
+      "bundle": "yubingsen5-2026-math1",
+      "series_key": "yubingsen5",
+      "series_name": "yubingsen5",
+      "year": 2026,
+      "subject": "math1",
+      "paper_no": 2,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "972ab4d296308d71f8a9a72c25c92fa49921736ff4af337f1374ca6868719120"
+    },
+    {
+      "natural_key": "2026/math1/yubingsen5/3",
+      "bundle": "yubingsen5-2026-math1",
+      "series_key": "yubingsen5",
+      "series_name": "yubingsen5",
+      "year": 2026,
+      "subject": "math1",
+      "paper_no": 3,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "42b6ced1d1e584af4ba724277505ee2df5bb67d625f12bf5693ce00f37fdc419"
+    },
+    {
+      "natural_key": "2026/math1/yubingsen5/4",
+      "bundle": "yubingsen5-2026-math1",
+      "series_key": "yubingsen5",
+      "series_name": "yubingsen5",
+      "year": 2026,
+      "subject": "math1",
+      "paper_no": 4,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "8950d28f1b7f931f8a89a887edb96ab3e5a9b85bf82aae5527af09331721bbea"
+    },
+    {
+      "natural_key": "2026/math1/yubingsen5/5",
+      "bundle": "yubingsen5-2026-math1",
+      "series_key": "yubingsen5",
+      "series_name": "yubingsen5",
+      "year": 2026,
+      "subject": "math1",
+      "paper_no": 5,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "f94460336b7463762d55b265e4af9e1880f8c9ae466de5725e66c3b4e93a27a6"
+    },
+    {
+      "natural_key": "2026/math2/yubingsen5/1",
+      "bundle": "yubingsen5-2026-math2",
+      "series_key": "yubingsen5",
+      "series_name": "yubingsen5",
+      "year": 2026,
+      "subject": "math2",
+      "paper_no": 1,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "a17840d59bf0ca66bb0f6f6c3081b2e5659057f53ff1e954dae0065c11da637a"
+    },
+    {
+      "natural_key": "2026/math2/yubingsen5/2",
+      "bundle": "yubingsen5-2026-math2",
+      "series_key": "yubingsen5",
+      "series_name": "yubingsen5",
+      "year": 2026,
+      "subject": "math2",
+      "paper_no": 2,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "cdb060ab8038712160dd3a1f8fcbcbfc11ddaa996fbd0e268c7bb0e016afdde3"
+    },
+    {
+      "natural_key": "2026/math2/yubingsen5/5",
+      "bundle": "yubingsen5-2026-math2",
+      "series_key": "yubingsen5",
+      "series_name": "yubingsen5",
+      "year": 2026,
+      "subject": "math2",
+      "paper_no": 5,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "89770398cc41eaa92aad95865c5811608dcf59de507930d4be9ada73a9f302a3"
+    },
+    {
+      "natural_key": "2023/math1/zhangyu4/1",
+      "bundle": "zhangyu4-2023-math1",
+      "series_key": "zhangyu4",
+      "series_name": "zhangyu4",
+      "year": 2023,
+      "subject": "math1",
+      "paper_no": 1,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "5f2a71a604ade12d27484c5bba8bd023cf52df69b58533b14c00d3cf0936260a"
+    },
+    {
+      "natural_key": "2023/math1/zhangyu4/2",
+      "bundle": "zhangyu4-2023-math1",
+      "series_key": "zhangyu4",
+      "series_name": "zhangyu4",
+      "year": 2023,
+      "subject": "math1",
+      "paper_no": 2,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "d59c17df519a156ce1491441ddcbb98183e05f7907061b32facf111060b61309"
+    },
+    {
+      "natural_key": "2023/math1/zhangyu4/3",
+      "bundle": "zhangyu4-2023-math1",
+      "series_key": "zhangyu4",
+      "series_name": "zhangyu4",
+      "year": 2023,
+      "subject": "math1",
+      "paper_no": 3,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "d04b24e80ce5330e1c5a057674adba0b645c187be038eda448d0b8b265ca57be"
+    },
+    {
+      "natural_key": "2023/math1/zhangyu4/4",
+      "bundle": "zhangyu4-2023-math1",
+      "series_key": "zhangyu4",
+      "series_name": "zhangyu4",
+      "year": 2023,
+      "subject": "math1",
+      "paper_no": 4,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "fec4efafe97981813a62ecdff58698d9574426dd22a82e03a5532e1218229c9c"
+    },
+    {
+      "natural_key": "2023/math2/zhangyu4/1",
+      "bundle": "zhangyu4-2023-math2",
+      "series_key": "zhangyu4",
+      "series_name": "zhangyu4",
+      "year": 2023,
+      "subject": "math2",
+      "paper_no": 1,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "afac4faa50a63a98a76362155dcb9a3907bbc08b670c6b1ff1ff9b14797dda4d"
+    },
+    {
+      "natural_key": "2023/math2/zhangyu4/2",
+      "bundle": "zhangyu4-2023-math2",
+      "series_key": "zhangyu4",
+      "series_name": "zhangyu4",
+      "year": 2023,
+      "subject": "math2",
+      "paper_no": 2,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "0b4b2b203516c77386e27a852c57473d300a1ae3f0273e5b137e8238b63c9ddd"
+    },
+    {
+      "natural_key": "2023/math2/zhangyu4/3",
+      "bundle": "zhangyu4-2023-math2",
+      "series_key": "zhangyu4",
+      "series_name": "zhangyu4",
+      "year": 2023,
+      "subject": "math2",
+      "paper_no": 3,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "306800334e525815561634fb54fe7055cf755596252bd3bc47fad5bb115c2541"
+    },
+    {
+      "natural_key": "2023/math2/zhangyu4/4",
+      "bundle": "zhangyu4-2023-math2",
+      "series_key": "zhangyu4",
+      "series_name": "zhangyu4",
+      "year": 2023,
+      "subject": "math2",
+      "paper_no": 4,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "c3012d6417da86686db206ed1c858e1d3b07b7aa9b874741a373f0d3678efe0c"
+    },
+    {
       "natural_key": "2024/math1/zhangyu4/1",
       "bundle": "zhangyu4-2024-math1",
       "series_key": "zhangyu4",
@@ -3331,8 +4606,8 @@
         "fill": 6,
         "solution": 6
       },
-      "figure_count": 1,
-      "content_hash": "5748480845e99cf6a8e83f89e0745556025b308037289d886a15d957b6403684"
+      "figure_count": 0,
+      "content_hash": "0b06c94688809353048ff0cca3601145057d886698ef44413eaa44ad0d522036"
     },
     {
       "natural_key": "2024/math1/zhangyu4/2",
@@ -3349,7 +4624,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "1381c6039ecfc1a229cf48ee453c03d7de83db91fb32d758cf024528d22d6fd5"
+      "content_hash": "08ac06c14d133592d464fc719aa6af41b6079dc114cf96f1a547623ddf575e5c"
     },
     {
       "natural_key": "2024/math1/zhangyu4/3",
@@ -3365,8 +4640,8 @@
         "fill": 6,
         "solution": 6
       },
-      "figure_count": 1,
-      "content_hash": "5acd3218e38564a70f7924e963db154d97d8f1792bd9dc6630b8aed8d64b273d"
+      "figure_count": 0,
+      "content_hash": "f11112808eb40695db1871a92ebe1303665ffd148f990fdc1552bdbabc140920"
     },
     {
       "natural_key": "2024/math1/zhangyu4/4",
@@ -3383,7 +4658,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "3ea78300e33a108a2a050e9e991fa96f629df97ae0339c2bc72884ed5d5723f7"
+      "content_hash": "71c39af1b79c17d5cb3aeb0d7f397a98d584d04cb534d33a351c524a9d7c3b98"
     },
     {
       "natural_key": "2024/math2/zhangyu4/1",
@@ -3417,7 +4692,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "90fc31b643808e5d49f1fc0e3f1465f528d1d93c330dd4362711039ca76d5dbc"
+      "content_hash": "63f2068205e76da5f84e6b2adaf42eb35282491d69c00e908714a7b1980549f4"
     },
     {
       "natural_key": "2024/math2/zhangyu4/3",
@@ -3433,8 +4708,8 @@
         "fill": 6,
         "solution": 6
       },
-      "figure_count": 1,
-      "content_hash": "8f94dde6eb49d3c09025abe009597fe41979505ad7088532ecba47ab496e2f2b"
+      "figure_count": 0,
+      "content_hash": "9cbf7a942e3627c1f53d010bae8afe5df99fe576cc0912d45651313573e1da4c"
     },
     {
       "natural_key": "2024/math2/zhangyu4/4",
@@ -3451,7 +4726,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "08ae873af68f647cdd41d7098b2ad8be368c3f94c2cede2ce26ffd8b8e52124d"
+      "content_hash": "3e561478cbcb3869e960909f21ac2cc1dbc24f6a4e31e7e3385b1f909ae8170a"
     },
     {
       "natural_key": "2024/math3/zhangyu4/1",
@@ -3740,7 +5015,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "220f6c59075a47ad67a110fb404d717706edd465d09027512b0ff3b2272b224c"
+      "content_hash": "f2bfd970c74de3c3d5c0544493b9692e39b60d6c8e9d7952d66326f04a4ada10"
     },
     {
       "natural_key": "2026/math1/zhangyu4/2",
@@ -3757,7 +5032,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "8f82e269ba4d8b065b58291157eeba6d619c60f1a4b0e06abe88fe51e5155878"
+      "content_hash": "bb80c0f10c40e02633c0b13548b36372c8100f77d67cf903caa84a301f2313c8"
     },
     {
       "natural_key": "2026/math1/zhangyu4/3",
@@ -3774,7 +5049,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "adee74193e074731c5ba36338d44a828e3b2a707a54a1702b6b0a86c96274350"
+      "content_hash": "c31bfd10c8b62401a500618eebf633d16cdb068da9d158bbf0002fa056d2daa3"
     },
     {
       "natural_key": "2026/math1/zhangyu4/4",
@@ -3791,7 +5066,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "b08fe4c48e28a84ceaa217bcafd3b3a8a7103a30b6c39098ad26883d0e49d431"
+      "content_hash": "b6e130ede1aa8975f00a1bd6163abb98b79f0895a432124e7a33f97746fdf7cf"
     },
     {
       "natural_key": "2026/math2/zhangyu4/1",
@@ -3807,8 +5082,8 @@
         "fill": 6,
         "solution": 6
       },
-      "figure_count": 1,
-      "content_hash": "9bf106f0959c04288e4297762e8d310b82e99275ce15897878aa2f1e07bdb2a8"
+      "figure_count": 0,
+      "content_hash": "85f22b9f581925da6ae2b8b2a7cb21c7d75f11de7003037000622c357a09dc1f"
     },
     {
       "natural_key": "2026/math2/zhangyu4/2",
@@ -3825,7 +5100,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "db928c20c3d7735f7e4117a6ef6fed753dfb7ab0f1f89c25b99bc0218e7ae593"
+      "content_hash": "48214809b1a803e04e4840e88945c90f37528c1f5f8e16620bc22103fd6c53ea"
     },
     {
       "natural_key": "2026/math2/zhangyu4/3",
@@ -3842,7 +5117,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "b2a158006f0dcf4502168a75ef5a918f81cc2b745e4a922073ce62ef8a4b8052"
+      "content_hash": "13de50798cba16313b2d1245557c9d70e878ee1d9aba6e9d2d801118b4cb62b4"
     },
     {
       "natural_key": "2026/math2/zhangyu4/4",
@@ -3859,7 +5134,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "9926977eb59a086b37cf109b51e62128fb2be98427cf0c2a9ab327996dbc3627"
+      "content_hash": "ee95de03b028227a8eaf7c4c138e57e713333749063217cac3bf78d0a99be816"
     },
     {
       "natural_key": "2026/math3/zhangyu4/1",
@@ -3944,7 +5219,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "2602765238d5663b2123b913db768f6e48beb4a9de25a43410ab89d9c3037c61"
+      "content_hash": "f17296df51bfdea48da7608195d877d4853fc1c8ba0585fc29a8dd9d9fff97ba"
     },
     {
       "natural_key": "2023/math1/zhangyu8/2",
@@ -3960,8 +5235,8 @@
         "fill": 6,
         "solution": 6
       },
-      "figure_count": 1,
-      "content_hash": "4c4b9a5551ea22ea8237f2d550925214837f9339e593675c1a7d81d3425594f0"
+      "figure_count": 0,
+      "content_hash": "89607af25371745cd3b1fd048a750f3a5474594e605020c2fc965ba455e35293"
     },
     {
       "natural_key": "2023/math1/zhangyu8/3",
@@ -3995,7 +5270,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "6c968b23f4273f2c3f93062e12f217350020c1653f8917dc182cdd115994a4f7"
+      "content_hash": "3f285095785cf44701ab3da07732a7dedeab8633408e486261e685ac9eceb9ec"
     },
     {
       "natural_key": "2023/math1/zhangyu8/5",
@@ -4012,7 +5287,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "997429d56bba71dbbfc0bccf2ba00aced5fc010d3d593423ec5feeb02a5bdbac"
+      "content_hash": "2b696aaff142609d7173f08110183052dccc9047cbedb34bd5a795f411d57b6e"
     },
     {
       "natural_key": "2023/math1/zhangyu8/6",
@@ -4029,7 +5304,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "cd927a10a4a44cef028ec503c4956fc75da7282b8afc21f25e0975c9a724b82c"
+      "content_hash": "42c60eaf306e7b76b06cfec81473454136162c1e31ef30a6362442df2b2115ac"
     },
     {
       "natural_key": "2023/math1/zhangyu8/7",
@@ -4046,7 +5321,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "3f6b7b5321f934d022eb30ef885c6eba01ef81bacfeab613c2d949db026669f9"
+      "content_hash": "14b50b9ccaade98381811a94fd3ba838f5b3e2ae89d93e0e478551b76381ae55"
     },
     {
       "natural_key": "2023/math1/zhangyu8/8",
@@ -4062,8 +5337,8 @@
         "fill": 6,
         "solution": 6
       },
-      "figure_count": 1,
-      "content_hash": "21641dd4332c52d7bc710298f6d5b583bd307b8a020253b7cc8a6d8b08917f4e"
+      "figure_count": 0,
+      "content_hash": "16d4b046855d3c2f9cb61b12df9e827b696ece680532aeb4e52ea49c1edccdbe"
     },
     {
       "natural_key": "2023/math2/zhangyu8/1",
@@ -4080,7 +5355,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "a7030fd836320124208c0cc1956da9d85ed1b79f0a2200d5d5b0f93d282c9b3a"
+      "content_hash": "4e6779b508df938a41b1ddedc611068a8af4560b1dff4535fb66866b27b7f853"
     },
     {
       "natural_key": "2023/math2/zhangyu8/2",
@@ -4097,7 +5372,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "1c2fd7a9474e1d8bbaa7a80ba99c21d47eb436365ad2b3d64a6d2012d7bd0669"
+      "content_hash": "87eb517b21eae64aab3cb45b45ae39625793f85431950ecf8010626cc5fa2fe7"
     },
     {
       "natural_key": "2023/math2/zhangyu8/3",
@@ -4148,7 +5423,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "049b4c016b550da02c8df70703da9daaab63e035157f1cdb90f2f11a02688074"
+      "content_hash": "8ea3965538d1ced6df9347ce874dd238098d23f915d1e0b402884a41465abcaf"
     },
     {
       "natural_key": "2023/math2/zhangyu8/6",
@@ -4165,7 +5440,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "422e9e9fa3fd114af95acf504704eb445b7455b064340340eaf8d60f969952ca"
+      "content_hash": "903a324521faaf1312300d8adcd9aa0cf475df795a06cbb7fc30d1756fe93fe2"
     },
     {
       "natural_key": "2023/math2/zhangyu8/7",
@@ -4182,7 +5457,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "192768bd30ef9bf32688d1f91b03441edbe67df87a6180b22abe8dd4448a0e4d"
+      "content_hash": "499fb1748c2a0f90de66256d9b1cbb9968de3ab8586781712d48b3761dabfc88"
     },
     {
       "natural_key": "2023/math2/zhangyu8/8",
@@ -4199,7 +5474,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "763f7b0ad3f16ae84b824c71d12384b344983b9f4abc65763b6754095a53091f"
+      "content_hash": "9c9c96147036e20fe84edd64b6fd02a72f5340f87cfb48a2eba3c9e28adbdd85"
     },
     {
       "natural_key": "2023/math3/zhangyu8/1",
@@ -4351,8 +5626,8 @@
         "fill": 6,
         "solution": 6
       },
-      "figure_count": 1,
-      "content_hash": "4047e6984539187087cc6dbbc661cbfcc4cf492278d8cbddcdc52034483460c5"
+      "figure_count": 0,
+      "content_hash": "6dcf694e10c660d247e0c926fdb7e3c219f141ec915d211be8263fb23365927a"
     },
     {
       "natural_key": "2024/math1/zhangyu8/2",
@@ -4369,7 +5644,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "82b2a137d2de7531e2a5ce7d99f94890f02852d0886c1c93c7044bad05946a09"
+      "content_hash": "b95b77204f28ef5b3b70e4559b522726f5e0ce331945b792759cae84376e888f"
     },
     {
       "natural_key": "2024/math1/zhangyu8/3",
@@ -4386,7 +5661,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "d660ae1db951d5431c9bd553bc943693c4e229027340ec46474de4ec70af426f"
+      "content_hash": "5d20a515cb7fb2cd606f79f8eedf1cc404f718c7e4b26056e4e7ab1aa3ddb4df"
     },
     {
       "natural_key": "2024/math1/zhangyu8/4",
@@ -4403,7 +5678,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "1a5558d34d6c83bec578cbb1e64ed13b49fda68e656c4f804c8ea19d9d020043"
+      "content_hash": "c51a761fa119afdf1219e0563b0f488b8f5e7de031bd269c1dccb78a2b9304dc"
     },
     {
       "natural_key": "2024/math1/zhangyu8/5",
@@ -4420,7 +5695,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "c77c616d7ab96f29e52f97e48c0719751431b38335a56b4a2ac934768b496e08"
+      "content_hash": "d1c08da1b57de49e5b2d6dcf4404f982ee121d716026beb831722ea83089d097"
     },
     {
       "natural_key": "2024/math1/zhangyu8/6",
@@ -4437,7 +5712,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "a0e300a9e669f3bdc10bd3c25183b3c7e233d95fd7d0fa0c61b4a588f92b22d6"
+      "content_hash": "d5ebd31e9aafcc219c28f9119f8caaf0d9e2e67fa1f91a868f46be553a3d54c1"
     },
     {
       "natural_key": "2024/math1/zhangyu8/7",
@@ -4453,8 +5728,8 @@
         "fill": 6,
         "solution": 6
       },
-      "figure_count": 1,
-      "content_hash": "1bca4fe095b5f829f768a7c6faef1072605fdb5e2fd3573b08f8a925c453ea56"
+      "figure_count": 0,
+      "content_hash": "e5c8c64d9d884a0ea283d70b683b273c013655342b6b7424916f404cab3f26bc"
     },
     {
       "natural_key": "2024/math1/zhangyu8/8",
@@ -4471,7 +5746,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "8ef5edc81e51ba9e129206f7cb2d88bb40a1f9b9dccd03564cc9da457a0f7141"
+      "content_hash": "cce4182e3b7c3009d19885bafb4691651cb9830ca9897476ba6196abd0e5d7e3"
     },
     {
       "natural_key": "2024/math2/zhangyu8/1",
@@ -4487,8 +5762,8 @@
         "fill": 6,
         "solution": 6
       },
-      "figure_count": 1,
-      "content_hash": "e7afe82f4618ebf5f778e697c6794daaf4f96629f552f443e8091869ed1155c8"
+      "figure_count": 0,
+      "content_hash": "2f79d481b8eabd79b20b8ca31261aa7161db4d8b7835e5e193d41fee9d5fbff1"
     },
     {
       "natural_key": "2024/math2/zhangyu8/2",
@@ -4505,7 +5780,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "1a500b8b078053d65cb0039ae19fb7cc4511356bf410140868333e4177e32dc7"
+      "content_hash": "b14922277a7fa477d2655087ff4dd3c7df91067c18167b43ede161166d32cbe8"
     },
     {
       "natural_key": "2024/math2/zhangyu8/3",
@@ -4522,7 +5797,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "e5ed4b1480075cc48cd4617529dc5550464301d9ab0cac767eacebcfb67b8569"
+      "content_hash": "c40dab40399a205bd83b903200d32e57d3fecb82c2be35282c578e92e087091e"
     },
     {
       "natural_key": "2024/math2/zhangyu8/4",
@@ -4539,7 +5814,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "3a822092e5d9d1b06a05bc52dd3722902ad698edc2067b862904c0f29bea571a"
+      "content_hash": "2124248bccbb59e1f1c3611d7a807bc9aad129ea2b87e01add271b5f8bd3a72e"
     },
     {
       "natural_key": "2024/math2/zhangyu8/5",
@@ -4556,7 +5831,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "8caf62b16faf119600c9ece5e2ab7d9d8a1a7c0871f5ea6ed1abdad788d000f6"
+      "content_hash": "dfd669604825e9015041e24c6d60535bd48082942169a2def718de85d1c988d1"
     },
     {
       "natural_key": "2024/math2/zhangyu8/6",
@@ -4573,7 +5848,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "cac4a46e630a6a47e84af000ae4b2bc36fd3452108d3a8eca4308c9b0294011f"
+      "content_hash": "b311fac979dd1104351f1f41a3141331cfc70634f6b520195a4b1652fab7efc4"
     },
     {
       "natural_key": "2024/math2/zhangyu8/7",
@@ -4589,8 +5864,8 @@
         "fill": 6,
         "solution": 6
       },
-      "figure_count": 1,
-      "content_hash": "f1f2abe80a54bc89781955c7f6a60c454187408091b6dec3fffffb2d4f1714db"
+      "figure_count": 0,
+      "content_hash": "d121a89813a4bfb2cc3d38da8bb193505d18ca9f3164814849bb2841662ca637"
     },
     {
       "natural_key": "2024/math2/zhangyu8/8",
@@ -4607,7 +5882,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "7b108d5a71d7ee4cb2b05f5d07cd268baaf92b1b1585a788261f9e49a921b56c"
+      "content_hash": "ea45bc5bcd164f0f00c8315c5f669937c0dcc92281bb046a8e8a03bdadd28753"
     },
     {
       "natural_key": "2024/math3/zhangyu8/1",
@@ -5168,7 +6443,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "9266c3c85f9489ca4b72449c6bf0c158b13242d5838f506b2ad9920f3228c376"
+      "content_hash": "c7159d7c436cb7a324ce44365bbff8366090b3a6af7244d215051a654ff52d9d"
     },
     {
       "natural_key": "2026/math1/zhangyu8/2",
@@ -5185,7 +6460,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "18869aa3dec4fdb8fbb27a62a4909b1b56ea56669bff9b3192853eca1209a58b"
+      "content_hash": "f875e66e14fc8abe0bc989f470fd65167e361a5bd30c5e3a4f68aac897dd1e81"
     },
     {
       "natural_key": "2026/math1/zhangyu8/3",
@@ -5202,7 +6477,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "df1611edc6f9ef8d8d32a3a7989336e5681257de8b470e9269884ca20c8554ee"
+      "content_hash": "3c4a2dc4080ecc1aae6cfbd04ab7d7e0c336946197ae1691d5dd999f24bc7ee5"
     },
     {
       "natural_key": "2026/math1/zhangyu8/4",
@@ -5218,8 +6493,8 @@
         "fill": 6,
         "solution": 6
       },
-      "figure_count": 1,
-      "content_hash": "99ef0df7f5998a7fb416f1e30558739dc8c56723a8979bb9d5622aa7955df8f8"
+      "figure_count": 0,
+      "content_hash": "76e50cf9df1280fc45eb4ca42845d268c11d7eb4ad13ad6730f7e2e3c26c9d22"
     },
     {
       "natural_key": "2026/math1/zhangyu8/5",
@@ -5236,7 +6511,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "5a91770c77c1f2453e9ea0d8b9b4c5426d753a0a48ca879e6fb05c3bf6c921ee"
+      "content_hash": "1b86ca27f0009e8eacfcbe09d050a89f7bf4981cd67fce1c6c2c81fdc196f2a8"
     },
     {
       "natural_key": "2026/math1/zhangyu8/6",
@@ -5253,7 +6528,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "8e1741af68d6b16d27ce19fe9594741e901a78d2e23bc5b458bbe56dbdc19942"
+      "content_hash": "5da6d8216779907cf9cc0a8440e6c28259ebf41bbe0b8b663686854b78ec019c"
     },
     {
       "natural_key": "2026/math1/zhangyu8/7",
@@ -5270,7 +6545,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "b394c85cfec8c022168fad9ae6230f5d4f8b9e38f4331018c094df0bbac61d73"
+      "content_hash": "ffdcf99dfb3c4352e90452cdac5e410f6ddf99db96f88db9ca95291cd0190c18"
     },
     {
       "natural_key": "2026/math1/zhangyu8/8",
@@ -5287,7 +6562,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "7424b951a659a14635f1397a383dd35f5adfc8aa64bd2992a4b6ebd251c6abc1"
+      "content_hash": "d712b985a026b139ddd5a7d6e53df58a2158eb283ae1cc0f6a312a8ea2202d2f"
     },
     {
       "natural_key": "2026/math2/zhangyu8/1",
@@ -5304,7 +6579,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "18bf661630f4a33489ed791463c4fd60b18dd799eb7809af083ce13aa58a8812"
+      "content_hash": "4df0e9e1cc6e26706237efdd23615bc010c1b3e72419c670c1bd615ec4a11d23"
     },
     {
       "natural_key": "2026/math2/zhangyu8/2",
@@ -5321,7 +6596,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "6b015c94c16d2e7724e63d1bd16e82d2fa2c6099d4bc4f2989d2acc7049ffcc4"
+      "content_hash": "d6f2cb2847d71c03740eb13260ada696e4371264bec8666c42fbca7f154353ea"
     },
     {
       "natural_key": "2026/math2/zhangyu8/3",
@@ -5338,7 +6613,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "3ce22f504bbb1ed9d78a960d091a18601f1b76e02f2955d69cbf3a88ebcfbd4a"
+      "content_hash": "d8df14087bcc3c6007b010dd7b65f236f5c086456c1f12e50a4fe40d7f8d14b1"
     },
     {
       "natural_key": "2026/math2/zhangyu8/4",
@@ -5355,7 +6630,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "668b06bbcd7db559fddcbf628eee372a5c41f9fb25e5304842cdeb811a8968cb"
+      "content_hash": "c1a4216f7ee583369c360ed75a36af6e9502ef73dc6b2e85f9b5c9ed94e948cc"
     },
     {
       "natural_key": "2026/math2/zhangyu8/5",
@@ -5372,7 +6647,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "54af170d658ec586a242a4e06275fcc3616b513ade9add09d48b4f44e36291df"
+      "content_hash": "24225a3a10d22e6a078b2e7833595d6667e995a0350e0bb6890ffc8a1426828a"
     },
     {
       "natural_key": "2026/math2/zhangyu8/6",
@@ -5389,7 +6664,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "d053606253424e113ca5cd5d8928ca88749a1689799f2b2d0eb6496190108a4e"
+      "content_hash": "64461d3d8d8b6add72d32a0a7cdfb374ef20bb735d906b6f2f93138bedf95a7a"
     },
     {
       "natural_key": "2026/math2/zhangyu8/7",
@@ -5406,7 +6681,7 @@
         "solution": 6
       },
       "figure_count": 0,
-      "content_hash": "0d7bb6d165e1a2cc10b1fb2dccbf835669a5e110fcc0a661385a019fd88eeb0c"
+      "content_hash": "803d18041b837a2d0f242c7274457eb66a70fd4cab3a6a799c7c19b23552d034"
     },
     {
       "natural_key": "2026/math2/zhangyu8/8",
@@ -5560,6 +6835,74 @@
       },
       "figure_count": 0,
       "content_hash": "588b94ccd0a4d8e992f9180ffa7d085f8f8eca53d44277109bcf72d70d3bbe1f"
+    },
+    {
+      "natural_key": "2027/math1/zhangyu8/2",
+      "bundle": "zhangyu8-2027-math1",
+      "series_key": "zhangyu8",
+      "series_name": "zhangyu8",
+      "year": 2027,
+      "subject": "math1",
+      "paper_no": 2,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "d43a2ea09fada19b044f3050e30bb792aaeb21f819d0af060e33494bb3c71c7f"
+    },
+    {
+      "natural_key": "2027/math1/zhangyu8/4",
+      "bundle": "zhangyu8-2027-math1",
+      "series_key": "zhangyu8",
+      "series_name": "zhangyu8",
+      "year": 2027,
+      "subject": "math1",
+      "paper_no": 4,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "4b87e896829ffeadbb2568527b01b21ba3f327c870fe1f29738bde6b40edc869"
+    },
+    {
+      "natural_key": "2027/math2/zhangyu8/3",
+      "bundle": "zhangyu8-2027-math2",
+      "series_key": "zhangyu8",
+      "series_name": "zhangyu8",
+      "year": 2027,
+      "subject": "math2",
+      "paper_no": 3,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "14ef8ffdea558f0ea872ec1f548d52d814f4fa4bda25fa12c5a6a1b08fc8754b"
+    },
+    {
+      "natural_key": "2027/math2/zhangyu8/4",
+      "bundle": "zhangyu8-2027-math2",
+      "series_key": "zhangyu8",
+      "series_name": "zhangyu8",
+      "year": 2027,
+      "subject": "math2",
+      "paper_no": 4,
+      "question_count": 22,
+      "section_counts": {
+        "choice": 10,
+        "fill": 6,
+        "solution": 6
+      },
+      "figure_count": 0,
+      "content_hash": "645c205b904fc440ee73bbdd07d0f07bbe412ddeb6018eec7f07fa87d6f3ff91"
     }
   ]
 }

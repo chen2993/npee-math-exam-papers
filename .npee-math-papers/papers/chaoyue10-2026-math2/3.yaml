@@ -1,0 +1,292 @@
+schema_version: '3.0'
+paper:
+  series_key: chaoyue10
+  year: 2026
+  subject: math2
+  paper_no: 3
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x)$ 在点 $x = 0$ 的某邻域内二阶可导，且满足极限 $\lim\limits_{x\to 0}\dfrac{\sin x + x f(x)}{x^3} = \dfrac{1}{3}$。若 $\dfrac{f(x)}{1+x} = a + b x + c x^2 + o(x^2)$，则系数为( )
+  choices:
+  - label: A
+    text: |-
+      $a = 1, \ b = -1, \ c = \dfrac{1}{2}$
+    figures: []
+  - label: B
+    text: |-
+      $a = -1, \ b = 1, \ c = -\dfrac{1}{2}$
+    figures: []
+  - label: C
+    text: |-
+      $a = 1, \ b = 1, \ c = -\dfrac{1}{2}$
+    figures: []
+  - label: D
+    text: |-
+      $a = -1, \ b = 1, \ c = \dfrac{1}{2}$
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      给出下列命题： ① 函数 $f(x) = \dfrac{x}{\int_0^x |\cos t|\,\mathrm{d}t}$ 在 $(0, +\infty)$ 内有界； ② 在 $(-\infty, +\infty)$ 上连续的周期函数必有界； ③ 若 $f(x)$ 在开区间 $(a,b)$ 内可导，且导函数 $f'(x)$ 在 $(a,b)$ 内有界，则 $f(x)$ 在 $(a,b)$ 内必有界； ④ 若 $f(x)$ 在 $[0, +\infty)$ 内可导，且 $\lim\limits_{x\to +\infty}f'(x) = 0$，则 $f(x)$ 在 $[0, +\infty)$ 内必有界。 其中正确命题的个数为( )
+  choices:
+  - label: A
+    text: '1'
+    figures: []
+  - label: B
+    text: '2'
+    figures: []
+  - label: C
+    text: '3'
+    figures: []
+  - label: D
+    text: '4'
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $y(x) = \mathrm{e}^x\cos x$ 是二阶常系数齐次线性微分方程 $y'' + ay' + by = 0$ 的一个特解，则二阶常系数非齐次线性微分方程 $y'' + ay' + by = \mathrm{e}^x(1+\cos x)$ 的特解形式可设为( )
+  choices:
+  - label: A
+    text: |-
+      $\mathrm{e}^x(a\cos x + b\sin x)$
+    figures: []
+  - label: B
+    text: |-
+      $\mathrm{e}^x(ax\cos x + b)$
+    figures: []
+  - label: C
+    text: |-
+      $x\mathrm{e}^x(a\cos x + b\sin x)$
+    figures: []
+  - label: D
+    text: |-
+      $\mathrm{e}^x(ax\cos x + bx\sin x + c)$
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知反常积分 $\int_0^{+\infty}\dfrac{x^\beta\arctan x}{x^\alpha + 2026}\,\mathrm{d}x\ (\alpha > 0)$ 收敛，则参数 $\alpha, \beta$ 应满足( )
+  choices:
+  - label: A
+    text: |-
+      $\alpha - \beta > 1$ 且 $\beta > -2$
+    figures: []
+  - label: B
+    text: |-
+      $\alpha - \beta > 1$ 且 $\beta < -2$
+    figures: []
+  - label: C
+    text: |-
+      $\alpha - \beta -2$
+    figures: []
+  - label: D
+    text: |-
+      $\alpha - \beta < 1$ 且 $\beta < -2$
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x,y)$ 为可微函数，满足恒等式 $f(x^2, \mathrm{e}^x-1) = x\mathrm{e}^x$ 与 $f(\ln x, x-1) = (1-x)^2$，则全微分 $\mathrm{d}f(0,0) = $( )
+  choices:
+  - label: A
+    text: |-
+      $\mathrm{d}y$
+    figures: []
+  - label: B
+    text: |-
+      $-\mathrm{d}x + \mathrm{d}y$
+    figures: []
+  - label: C
+    text: |-
+      $\mathrm{d}x - \mathrm{d}y$
+    figures: []
+  - label: D
+    text: |-
+      $\mathrm{d}x + \mathrm{d}y$
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(t) = \int_0^t \mathrm{d}x \int_x^t \dfrac{\ln(1+y^3)}{y^2} \mathrm{d}y$，且满足极限 $\lim_{t \to 0^+} \dfrac{f(t)}{at - \sin t} = b$ （其中 $a,b$ 为非零实数），则参数的值为（ ）
+  choices:
+  - label: A
+    text: $a=1, b=1$
+    figures: []
+  - label: B
+    text: $a=1, b=2$
+    figures: []
+  - label: C
+    text: $a=2, b=1$
+    figures: []
+  - label: D
+    text: $a=2, b=2$
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知方程 $\log_a x = x^b\ (a > 1, b > 0)$ 存在实根，则参数 $a, b$ 应满足( )
+  choices:
+  - label: A
+    text: |-
+      $\ln a \le \dfrac{1}{b\mathrm{e}}$
+    figures: []
+  - label: B
+    text: |-
+      $\ln a \le \dfrac{b}{\mathrm{e}}$
+    figures: []
+  - label: C
+    text: |-
+      $\ln a \ge \dfrac{1}{b\mathrm{e}}$
+    figures: []
+  - label: D
+    text: |-
+      $\ln a \ge \dfrac{b}{\mathrm{e}}$
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: 设 $A$ 为 3 阶非奇异矩阵，且满足 $A^{-1} = 3E - A$（其中 $E$ 为 3 阶单位矩阵），则与实对称矩阵 $(A-E)^T(A-E)$ 合同的矩阵为( )
+  choices:
+  - label: A
+    text: |-
+      $\begin{pmatrix} 0 & 0 & 0 \\ 0 & 0 & 0 \\ 0 & 0 & 1 \end{pmatrix}$
+    figures: []
+  - label: B
+    text: |-
+      $\begin{pmatrix} 0 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{pmatrix}$
+    figures: []
+  - label: C
+    text: |-
+      $\begin{pmatrix} 1 & 0 & 0 \\ 0 & 0 & 0 \\ 0 & 0 & 1 \end{pmatrix}$
+    figures: []
+  - label: D
+    text: |-
+      $\begin{pmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{pmatrix}$
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知 3 阶实对称矩阵 $A$ 的秩 $r(A) = 1$ $,\alpha_1 = (1,-1,1)^T$ 是矩阵 $A$ 对应于特征值 $\lambda_1 = \dfrac{1}{2}$ 的特征向量。若 $k_1, k_2$ 为任意常数，则非齐次线性方程组 $Ax = \alpha_1$ 的通解为( )
+  choices:
+  - label: A
+    text: $k_1(1,1,0)^T + k_2(1,0,-1)^T + (1,-1,1)^T$
+    figures: []
+  - label: B
+    text: |-
+      $k_1(1,0,-1)^T + k_2(-1,1,2)^T + \left(\dfrac{1}{2}, -\dfrac{1}{2}, \dfrac{1}{2}\right)^T$
+    figures: []
+  - label: C
+    text: $k_1(1,1,0)^T + k_2(1,0,1)^T + (2,-2,2)^T$
+    figures: []
+  - label: D
+    text: $k_1(1,1,0)^T + k_2(-1,1,2)^T + (2,-2,2)^T$
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 为 $3\times 2$ 矩阵$,B$ 为 $2\times 3$ 矩阵，且满足 $r(AB) = 2$ 与 $(AB)^2 = AB$。给出下列命题： ① $BAB = B$； ② $ABA = A$； ③ $BA = \begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix}$； ④ $AB = \begin{pmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 0 \end{pmatrix}$。 则上述命题中一定成立的个数为( )
+  choices:
+  - label: A
+    text: '1'
+    figures: []
+  - label: B
+    text: '2'
+    figures: []
+  - label: C
+    text: '3'
+    figures: []
+  - label: D
+    text: '4'
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      曲线 $x^2 + y^2 = |x| - |y|$ 围成的平面区域绕 $y$ 轴旋转一周所得旋转体的体积 $V = \underline{\qquad\qquad}.$
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: 曲线 $xy = 1$ 在点 $(1,1)$ 处的曲率圆方程为 _____
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设二元函数 $f(u,v)$ 具有连续偏导数，且满足偏微分方程 $\dfrac{\partial f}{\partial u} + \dfrac{\partial f}{\partial v} = u+v$。复合函数 $g(x,y) = f(x^2+y^2, 2xy)$，则偏导数之和 $\dfrac{\partial g}{\partial x} + \dfrac{\partial g}{\partial y} = $ _____
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      累次积分和 $\int_{-1}^0\mathrm{d}y\int_{-y}^1 (x^2y^3+x-1)\,\mathrm{d}x + \int_0^1\mathrm{d}y\int_{1-\sqrt{1-y^2}}^1 (x^2y^3+x-1)\,\mathrm{d}x = $ _____
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      反常积分 $\int_{-\infty}^0 \dfrac{\mathrm{e}^{\dfrac{x}{6}}}{1 + \mathrm{e}^{\dfrac{x}{2}} + \mathrm{e}^{\dfrac{x}{3}} + \mathrm{e}^{\dfrac{x}{6}}}\,\mathrm{d}x = $ _____
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $\alpha, \beta, \gamma$ 为 3 维线性无关的列向量，记矩阵 $A = (\alpha, \beta, \gamma), \ B = (2\alpha+3\gamma, 3\alpha+\beta, \alpha+2\gamma)$。已知 $|A^{-1} + B^{-1}| = 6$，则行列式 $|A| = $ _____
+- number: 17
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      求极限 $\lim\limits_{n\to\infty} n^2\left[\left(1+\dfrac{1}{n+1}\right)^{n+1} - \left(1+\dfrac{1}{n}\right)^n\right]$。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: 设 $y(x)$ 是微分方程 $y' + x y = |x|$ 满足初始条件 $y(0) = 1$ 的特解，求曲线 $y = y(x)$ 的拐点。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 $z = z(x,y)$ 是由隐式方程 $x^2 + y^2 + z^2 + \ln z = 1$ 确定的二元函数，求函数 $z(x,y)$ 的极值。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设平面区域 $D = \left\{(x,y) \;\middle|\; x^2+y^2 \le 1, \ y \ge 0\right\}$，计算二重积分 $I = \iint_D \big|y - |x|\big|\,\mathrm{d}\sigma$。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      已知当 $x \in (0, +\infty)$ 时，不等式 $(1+ax)\ln(1+x) > x$ 恒成立，求常数 $a$ 的取值范围。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设矩阵 $A = \begin{pmatrix} 1 & -1 \\ 1 & 1 \\ a & b \end{pmatrix}, \ C = \begin{pmatrix} 1 & 1 & a \\ 1 & 2 & 1 \\ a & 1 & 1 \end{pmatrix}$。 (1) 求参数 $a, b$ 的值，使得存在矩阵 $B$ 满足矩阵方程 $AB = C$； (2) 求出满足条件的矩阵 $B$； (3) 记向量 $x = (x_1, x_2)^T$，求二次型 $f(x_1, x_2) = x^T(BA)x$ 的正、负惯性指数。
+content_hash: 1d4eff8519935a990e9462b231524bb0a1b0b65248d8657e5912636c4f0527a5

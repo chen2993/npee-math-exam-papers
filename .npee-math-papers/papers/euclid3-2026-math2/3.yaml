@@ -10,301 +10,296 @@ questions:
   points: 5
   stem:
     text: |-
-      下列函数中,在 $x=0$ 处不可导的是\ExamSelection
+      下列函数中，在 \(x=0\) 处不可导的是( )。
   choices:
   - label: A
     text: |-
-      $f(x)=\int_0^{|x|}\dfrac{\sin t}{t}\,\mathrm{d}t$.
+      \( f(x)=\int_0^{|x|}\dfrac{\sin t}{t}\,dt \)
     figures: []
   - label: B
     text: |-
-      $f(x)=\int_0^x\dfrac{\sin|t|}{|t|}\,\mathrm{d}t$.
+      \( f(x)=\int_0^x\dfrac{\sin |t|}{|t|}\,dt \)
     figures: []
   - label: C
     text: |-
-      $f(x)=\int_0^{|x|}\ln(1+t)\,\mathrm{d}t$.
+      \(f(x)=\int_0^{|x|}\ln(1+t)\,dt\)
     figures: []
   - label: D
     text: |-
-      $f(x)=\int_0^x\ln(1+|t|)\,\mathrm{d}t$.
+      \(f(x)=\int_0^x\ln(1+|t|)\,dt\)
     figures: []
 - number: 2
   section: choice
   points: 5
   stem:
     text: |-
-      曲线 $f(x)=\dfrac{x^2e^{\dfrac{1}{1+x}}}{\ln(1+x)-x}$ \ExamSelection
+      曲线 \( f(x)=\dfrac{x^2e^{1/(1+x)}}{\ln(1+x)-x} \)( )。
   choices:
   - label: A
-    text: 仅 1 条铅直渐近线.
+    text: |-
+      仅 \(1\) 条铅直渐近线
     figures: []
   - label: B
-    text: 仅 2 条铅直渐近线.
+    text: |-
+      仅 \(2\) 条铅直渐近线
     figures: []
   - label: C
-    text: 有 1 条铅直渐近线和 1 条斜渐近线.
+    text: |-
+      有 \(1\) 条铅直渐近线和 \(1\) 条斜渐近线
     figures: []
   - label: D
-    text: 有 2 条铅直渐近线和 1 条斜渐近线.
+    text: |-
+      有 \(2\) 条铅直渐近线和 \(1\) 条斜渐近线
     figures: []
 - number: 3
   section: choice
   points: 5
   stem:
     text: |-
-      设数列 $\{a_n\}$ 满足 $\lim_{n\to\infty}\dfrac{a_1+a_2+\cdots+a_n}{n}=1$,则\ExamSelection
+      设数列 \(\{a_n\}\) 满足 \( \lim\limits_{n\to\infty}\dfrac{a_1+a_2+\cdots+a_n}{n}=1 \)，则( )。
   choices:
   - label: A
     text: |-
-      $\lim_{n\to\infty}a_n=0$.
+      \(\lim\limits_{n\to\infty}a_n=0\)
     figures: []
   - label: B
     text: |-
-      $\lim_{n\to\infty}\dfrac{a_n}{n}=0$.
+      \( \lim\limits_{n\to\infty}\dfrac{a_n}{n}=0 \)
     figures: []
   - label: C
     text: |-
-      $\lim_{n\to\infty}a_n=1$.
+      \(\lim\limits_{n\to\infty}a_n=1\)
     figures: []
   - label: D
     text: |-
-      $\lim_{n\to\infty}\dfrac{a_n}{n}=1$.
+      \( \lim\limits_{n\to\infty}\dfrac{a_n}{n}=1 \)
     figures: []
 - number: 4
   section: choice
   points: 5
   stem:
     text: |-
-      积分 $\int_0^{\dfrac{\pi}{4}}\mathrm{d}\theta\int_0^{\tan\theta\sec\theta}\cos(r\cos\theta)r\,\mathrm{d}r+\int_{\dfrac{\pi}{4}}^{\dfrac{\pi}{2}}\mathrm{d}\theta\int_0^{\dfrac{1}{\sin\theta}}\cos(r\cos\theta)r\,\mathrm{d}r=$ \ExamSelection
+      积分 \( \int_0^{\dfrac{\pi}{4}}d\theta\int_0^{\tan\theta\sec\theta}\cos(r\cos\theta)r\,dr+\int_{\dfrac{\pi}{4}}^{\dfrac{\pi}{2}}d\theta\int_0^{\dfrac{1}{\sin\theta}}\cos(r\cos\theta)r\,dr= \)( )。
   choices:
   - label: A
     text: |-
-      $\sin 1$.
+      \(\sin1\)
     figures: []
   - label: B
     text: |-
-      $\cos^2 1$.
+      \(\cos^2 1\)
     figures: []
   - label: C
     text: |-
-      $\sin 1-\cos 1$.
+      \(\sin1-\cos1\)
     figures: []
   - label: D
     text: |-
-      $2(\sin 1-\cos 1)$.
+      \(2(\sin1-\cos1)\)
     figures: []
 - number: 5
   section: choice
   points: 5
   stem:
     text: |-
-      下图展示了沿坐标轴运动的物体在时刻 $t$ 的位置 $s$,速度 $\dfrac{\mathrm{d}s}{\mathrm{d}t}$ 以及加速度 $\dfrac{\mathrm{d}^2s}{\mathrm{d}t^2}$ 的图像,则位置、速度和加速度分别对应的曲线是\ExamSelection
-    figures:
-    - kind: tikz
-      latex: |-
-        \begin{tikzpicture}[x=0.8cm,y=0.8cm,baseline=(current bounding box.center)] \draw[->] (0,-2.4) -- (0,2.7); \draw[->] (-0.25,0) -- (4.4,0) node[right] {$t$}; \node[below left] at (0,0) {$O$}; \draw[thick] plot[smooth] coordinates {(0,0.55) (0.38,0.18) (0.9,-1.2) (1.55,-1.55) (2.15,-0.72) (2.65,0.72) (3.05,1.9)}; \draw[thick] plot[smooth] coordinates {(0,-1.35) (0.65,-1.75) (1.45,-1.05) (2.3,0.4) (3.15,2.1)}; \draw[thick] (0,-1.8) -- (3.3,1.85); \node at (3.08,2.35) {①}; \node at (2.55,2.25) {②}; \node at (3.48,1.22) {③}; \end{tikzpicture}
-      path:
-      description: 三条标为①、②、③的时间函数曲线及坐标轴
-      exception_reason:
+      下图展示了沿坐标轴运动的物体在时刻 \(t\) 的位置 \(s\)、速度 \( \dfrac{ds}{dt} \) 以及加速度 \( \dfrac{d^2s}{dt^2} \)。位置、速度和加速度分别对应的曲线是( )
   choices:
   - label: A
-    text: ③②①.
+    text: |-
+      \(③\ ②\ ①\)
     figures: []
   - label: B
-    text: ②①③.
+    text: |-
+      \(②\ ①\ ③\)
     figures: []
   - label: C
-    text: ①②③.
+    text: |-
+      \(①\ ②\ ③\)
     figures: []
   - label: D
-    text: ①③②.
+    text: |-
+      \(①\ ③\ ②\)
     figures: []
 - number: 6
   section: choice
   points: 5
   stem:
     text: |-
-      设 $z(x,y)=x\ln(xy)$,则 $\dfrac{\partial^3z}{\partial x^2\partial y}$ 和 $\dfrac{\partial^3z}{\partial y^2\partial x}$ 在点 $(1,1)$ 处的值分别为\ExamSelection
+      设 \(z(x,y)=x\ln(xy)\)，则 \( \dfrac{\partial^3 z}{\partial x^2\partial y} \) 和 \( \dfrac{\partial^3 z}{\partial y^2\partial x} \) 在点 \((1,1)\) 处的值分别为( )。
   choices:
   - label: A
-    text: $0,0$.
+    text: |-
+      \(0,0\)
     figures: []
   - label: B
-    text: $0,-1$.
+    text: |-
+      \(0, -1\)
     figures: []
   - label: C
-    text: $-1,0$.
+    text: |-
+      \(-1,0\)
     figures: []
   - label: D
-    text: $1,1$.
+    text: |-
+      \(1,1\)
     figures: []
 - number: 7
   section: choice
   points: 5
   stem:
     text: |-
-      设函数 $f(x)$ 在 $[0,1]$ 上二阶可导,满足 $f(0)=f(1)=1$, $\int_0^1f(x)\,\mathrm{d}x=0$ 且 $f''(x)>0$,则\ExamSelection
+      设函数 \(f(x)\) 在 \([0,1]\) 上二阶可导，满足 \(f(0)=f(1)=1\) ， \( \int_0^1 f(x)\,dx=0 \) 且 \(f''(x)>0\)，则( )。
   choices:
   - label: A
     text: |-
-      $f\left(\dfrac{1}{2}\right)>-1$.
+      \( f\left(\dfrac12\right)>-1 \)
     figures: []
   - label: B
     text: |-
-      $f\left(\dfrac{1}{2}\right)<-1$.
+      \( f\left(\dfrac12\right)<-1 \)
     figures: []
   - label: C
     text: |-
-      $f\left(\dfrac{1}{2}\right)=-1$.
+      \( f\left(\dfrac12\right)=-1 \)
     figures: []
   - label: D
-    text: 无法确定.
+    text: 无法确定
     figures: []
 - number: 8
   section: choice
   points: 5
   stem:
     text: |-
-      设矩阵 $A=\begin{pmatrix}2&1&0\\1&2&1\\0&1&2\end{pmatrix}$, $B=\begin{pmatrix}2&0&1\\0&2&0\\1&0&a\end{pmatrix}$, $C=\begin{pmatrix}2&1&0\\1&2&1\\0&1&b\end{pmatrix}$,则下列命题必然不可能成立的是\ExamSelection
+      设矩阵 \(A=\begin{pmatrix}2&1&0\\1&2&1\\0&1&2\end{pmatrix}\) ， \(B=\begin{pmatrix}2&0&1\\0&2&0\\1&0&a\end{pmatrix}\) ， \(C=\begin{pmatrix}2&1&0\\1&2&1\\0&1&b\end{pmatrix}\)，则下列命题必然不可能成立的是( )。
   choices:
   - label: A
-    text: $A$ 与 $B$ 等价.
+    text: |-
+      \(A\) 与 \(B\) 等价
     figures: []
   - label: B
-    text: $A$ 与 $B$ 相似.
+    text: |-
+      \(A\) 与 \(B\) 相似
     figures: []
   - label: C
-    text: $A$ 与 $C$ 相似.
+    text: |-
+      \(A\) 与 \(C\) 相似
     figures: []
   - label: D
-    text: $B$ 与 $C$ 等价.
+    text: |-
+      \(B\) 与 \(C\) 等价
     figures: []
 - number: 9
   section: choice
   points: 5
   stem:
     text: |-
-      设 $A$ 为 $n$ 阶矩阵, $\alpha_1,\alpha_2,\alpha_3$ 为 $n$ 维列向量, 则下列结论正确的是\ExamSelection
+      设 \(A\) 为 \(n\) 阶矩阵，\(\alpha_1, \alpha_2, \alpha_3\) 为 \(n\) 维列向量，则下列结论正确的是( )。
   choices:
   - label: A
     text: |-
-      若 $A$ 为可逆矩阵,则 $\alpha_1,A\alpha_2,A^2\alpha_3$ 线性无关.
+      若 \(A\) 为可逆矩阵， 则 \(\alpha_1,A\alpha_2,A^2\alpha_3\) 线性无关
     figures: []
   - label: B
     text: |-
-      若 $\alpha_1,A\alpha_2,A^2\alpha_3$ 线性无关,则 $A$ 为可逆矩阵.
+      若 \(\alpha_1,A\alpha_2,A^2\alpha_3\) 线性无关， 则 \(A\) 为可逆矩阵
     figures: []
   - label: C
     text: |-
-      若 $A^2\alpha_1,A^2\alpha_2,A^2\alpha_3$ 线性无关,则 $A^2\alpha_1,A\alpha_2,A\alpha_3$ 线性无关.
+      若 \(A^2\alpha_1,A^2\alpha_2,A^2\alpha_3\) 线性无关， 则 \(A\alpha_1,A\alpha_2,A\alpha_3\) 线性无关
     figures: []
   - label: D
     text: |-
-      若 $A\alpha_1,A\alpha_2,A\alpha_3$ 线性无关,则 $A^2\alpha_1,A^2\alpha_2,A^2\alpha_3$ 线性无关.
+      若 \(A\alpha_1,A\alpha_2,A\alpha_3\) 线性无关， 则 \(A^2\alpha_1,A^2\alpha_2,A^2\alpha_3\) 线性无关
     figures: []
 - number: 10
   section: choice
   points: 5
   stem:
     text: |-
-      设 $A$ 为 $m\times n$ 矩阵,且 $r(A)=n(m>n)$, $\left(AA^{\mathsf T}\right)^{2}=aAA^{\mathsf T}$,则下列说法正确的是\ExamSelection $\text{\textcircled{1}}\ \operatorname{tr}\left(AA^{\mathsf T}\right)=a$; $\text{\textcircled{2}}\ \operatorname{tr}\left(AA^{\mathsf T}\right)=na$; $\text{\textcircled{3}}\ AA^{\mathsf T}$ 与单位矩阵 $E_m$ 合同; $\text{\textcircled{4}}\ A^{\mathsf T}A$ 与单位矩阵 $E_n$ 合同.
+      设 \(A\) 为 \(m\times n\) 矩阵，且 \(r(A)=n\, (m>n)\) ， \((AA^T)^2=aAA^T\)，则下列说法正确的是( )。\( ①\ \operatorname{tr}(AA^T)=a;\quad ②\ \operatorname{tr}(AA^T)=na;\quad ③\ AA^T\text{ 与 }E_m\text{ 合同};\quad ④\ A^TA\text{ 与 }E_n\text{ 合同} \) 。
   choices:
   - label: A
-    text: ①③.
+    text: ① ③
     figures: []
   - label: B
-    text: ①④.
+    text: ① ④
     figures: []
   - label: C
-    text: ②③.
+    text: ② ③
     figures: []
   - label: D
-    text: ②④.
+    text: ② ④
     figures: []
 - number: 11
   section: fill
   points: 5
   stem:
     text: |-
-      若 $\lim_{x\to0}\dfrac{f(x)-x}{x^3}=\dfrac{1}{2}$,则 $\lim_{x\to0}\dfrac{f^2(x)-x^2}{x\int_0^x\sin t^2\,\mathrm{d}t}=\ExamBlank$.
+      若 \( \lim\limits_{x\to0}\dfrac{f(x)-x}{x^3}=\frac12 \)，则 \( \lim\limits_{x\to0}\dfrac{f^2(x)-x^2}{x\int_0^x \sin t^2\,dt}= \) _____
 - number: 12
   section: fill
   points: 5
   stem:
     text: |-
-      $\int\dfrac{x\sqrt{1-x^2}}{x^2+3}\,\mathrm{d}x=\ExamBlank$.
+      计算 \( \int \dfrac{x\sqrt{1-x^2}}{x^2+3}\,dx= \) _____
 - number: 13
   section: fill
   points: 5
   stem:
     text: |-
-      设函数 $z=z(x,y)$ 由方程 $(x-z)^y=\ln(xy)+y^2z$ 确定,则 $\mathrm{d}z\big|_{(1,1)}=\ExamBlank$.
+      设函数 \(z=z(x,y)\) 由方程 \((x-z)^y=\ln(xy)+y^2z\) 确定，则 \(\left.dz\right|_{(1,1)}=\) _____
 - number: 14
   section: fill
   points: 5
   stem:
     text: |-
-      记曲线 $y=(1-x)^n$ 在 $[0,1]$ 上与 $x$ 轴所围图形绕 $y$ 轴旋转一周所得体积为 $V_n$,则 $\lim_{n\to\infty}\left(\dfrac{1}{\pi}\sum_{k=1}^nV_k\right)^n=\ExamBlank$.
+      记曲线 \(y=(1-x)^n\) 在 \([0,1]\) 上与 \(x\) 轴所围图形绕 \(y\) 轴旋转一周所得体积为 \(V_n\)，则 \( \lim\limits_{n\to\infty}\left(\frac1\pi\sum\limits_{k=1}^n V_k\right)^n= \) _____
 - number: 15
   section: fill
   points: 5
   stem:
     text: |-
-      微分方程 $x\,\mathrm{d}y+y(\ln y+\ln x)\,\mathrm{d}x=0$ 满足 $y(1)=1$ 的解为 $y=\ExamBlank$.
+      微分方程 \(x\,dy+y(\ln y+\ln x)\,dx=0\) 满足 \(y(1)=1\) 的解为 \(y=\) _____
 - number: 16
   section: fill
   points: 5
   stem:
     text: |-
-      设 $A=\begin{pmatrix}a&1&-2\\4&1&-2\\0&1&-2\end{pmatrix}$,若方程组 $Ax=0$ 和 $A^*x=0$ 有非零公共解,则 $a=\ExamBlank$.
+      设 \(A=\begin{pmatrix}a&1&-2\\4&1&-2\\0&1&-2\end{pmatrix}\)，若方程组 \(Ax=0\) 和 \(A^*x=0\) 有非零公共解，则 \(a=\) _____
 - number: 17
   section: solution
-  points: 10
+  points: 12
   stem:
     text: |-
-      计算 $\iint_D\left(\dfrac{\sin x}{1+y^2}+y\cos x\right)\,\mathrm{d}x\mathrm{d}y$,其中 $D$ 是由 $y=\tan x$, $y=-1$ 和 $x=\dfrac{\pi}{4}$ 围成.
+      计算 \( \iint_D\left(\dfrac{\sin x}{1+y^2}+y\cos x\right)\,dx\,dy \)，其中 \(D\) 是由 \(y=\tan x\)、\(y=-1\) 和 \( x=\frac\pi4 \) 围成。
 - number: 18
   section: solution
   points: 12
   stem:
     text: |-
-      已知方程 $\dfrac{\ln(x+1)}{x^2}-\dfrac{1}{x(x+1)}=k$ 在区间 $(0,1)$ 内有实根,确定常数 $k$ 的取值范围.
+      已知方程 \( \dfrac{\ln(x+1)}{x^2}-\dfrac{1}{x(x+1)}=k \) 在区间 \((0,1)\) 内有实根，确定常数 \(k\) 的取值范围。
 - number: 19
   section: solution
   points: 12
   stem:
     text: |-
-      设函数 $f(x)$ 二阶可导, $y=y(x)$ 由参数方程 $\begin{cases}x=\ln t,\\y=tf(t)\end{cases}\ (t>0)$ 确定,满足 $\dfrac{\mathrm{d}^2y}{\mathrm{d}x^2}-(2e^x+3)\dfrac{\mathrm{d}y}{\mathrm{d}x}+\left[(e^x+1)^2+1\right]y=0$,且 $y(0)=2e$, $y'(0)=5e$.
-  subparts:
-  - text: 求 $f(t)$ 的表达式;
-  - text: |-
-      计算 $\int_0^1y(x)\,\mathrm{d}x$.
+      设函数 \(f(x)\) 二阶可导，\(y=y(x)\) 由参数方程 \(\begin{cases}x=\ln t, \\y=tf(t)\end{cases}\ (t>0)\) 确定，满足\( \dfrac{d^2y}{dx^2}-(2e^x+3)\dfrac{dy}{dx}+\left[(e^x+1)^2+1\right]y=0 \) ，\( y(0)=2e, \quad y'(0)=5e \) 。 (1) 求 \(f(t)\) 的表达式； (2) 计算 \( \int_0^1 y(x)\,dx \)。
 - number: 20
   section: solution
   points: 12
   stem:
     text: |-
-      求 $f(x,y)=\dfrac{\ln(x+y)}{x^2+y^2}$ 在区域 $D=\{(x,y)\mid x\geq0,y\geq0,x+y\geq1\}$ 上的最值.
+      求 \( f(x,y)=\dfrac{\ln(x+y)}{x^2+y^2} \) 在区域 \(D=\{(x,y)\mid x\ge0,y\ge0,x+y\ge1\}\) 上的最值。
 - number: 21
   section: solution
   points: 12
   stem:
     text: |-
-      设函数 $f(x)$ 在 $[0,1]$ 上有 2 阶连续导数,且 $f'(0)=f'(1)=0$, $|f''(x)|\leq M$,证明:
-  subparts:
-  - text: |-
-      $|f'(x)|\leq\dfrac{M}{2}$;
-  - text: |-
-      $|f(0)-f(1)|\leq\dfrac{M}{4}$.
+      设函数 \(f(x)\) 在 \([0,1]\) 上有二阶连续导数，且 \(f'(0)=f' (1)=0\) ， \(|f''(x)|\le M\)。证明： (1) \( |f'(x)|\le\frac M2 \)； (2) \( |f(0)-f(1)|\le\frac M4 \)。
 - number: 22
   section: solution
   points: 12
   stem:
     text: |-
-      设矩阵 $A=\begin{pmatrix}2&-1&-1\\-1&2&1\\-1&1&2\end{pmatrix}$.
-  subparts:
-  - text: |-
-      求正交矩阵 $Q$,使得 $Q^{\mathsf T}AQ$ 为对角矩阵;
-  - text: |-
-      设 $\mathbf{x}=(1,1,1)^{\mathsf T}$,求 $\lim_{n\to\infty}\dfrac{\mathbf{x}^{\mathsf T}A^{n+1}\mathbf{x}}{\mathbf{x}^{\mathsf T}A^n\mathbf{x}}$.
-content_hash: fddc91c2d55e165b0897a7d91fac8ac126a78d7ad89f8007b29b75bf0271b232
+      设矩阵 \(A=\begin{pmatrix}2&-1&-1\\-1&2&1\\-1&1&2\end{pmatrix}\)。 (1) 求正交矩阵 \(Q\)，使得 \(Q^TAQ\) 为对角矩阵； (2) 设 \(x=(1,1,1)^T\)，求 \( \lim\limits_{n\to\infty}\dfrac{x^TA^{n+1}x}{x^TA^nx} \)。
+content_hash: 141e6850ee2627f590edf8ec9f8daa5ce7f2e79a1a9f1affc09d9c6cfbcadba8

@@ -10,26 +10,26 @@ questions:
   points: 5
   stem:
     text: |-
-      曲线 $f(x)=x\cdot\left[\dfrac{2}{x}\right]$（$[\,\cdot\,]$ 表示取整函数）的渐近线有\ExamSelection。
+      曲线 $f(x)=x \cdot\left[\dfrac{2}{x}\right]$ ($[\cdot]$ 表示取整函数) 的渐近线有 ( )
   choices:
   - label: A
-    text: $1$ 条
+    text: 1 条
     figures: []
   - label: B
-    text: $2$ 条
+    text: 2 条
     figures: []
   - label: C
-    text: $3$ 条
+    text: 3 条
     figures: []
   - label: D
-    text: $4$ 条
+    text: 4 条
     figures: []
 - number: 2
   section: choice
   points: 5
   stem:
     text: |-
-      对于 $\{a_n\},n=1,2,\cdots$，以下命题：\n① 若 $0<a_n<1$，则 $\lim_{n\to\infty}a_n^n=0$；\n② 若 $\lim_{n\to\infty}\sqrt[n]{a_n}=1$，则 $\lim_{n\to\infty}a_n$ 必存在且大于 $0$；\n③ 若 $\lim_{n\to\infty}a_n=+\infty$，则 $\lim_{n\to\infty}\sqrt[n]{a_n}=+\infty$；\n④ 若 $a_n>0$，$\lim_{n\to\infty}a_n$ 存在且大于 $0$，则 $\lim_{n\to\infty}\sqrt[n]{a_n}=1$。\n不正确的序号为\ExamSelection。
+      对于 $\{a_n\}, n=1,2,\cdots$，以下命题： ①若 $00, \lim\limits_{n\to\infty} a_n$ 存在且大于 0，则 $\lim\limits_{n\to\infty} \sqrt[n]{a_n}=1$. 不正确的序号为（ ）
   choices:
   - label: A
     text: ①②
@@ -48,26 +48,26 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $f(x)$ 是在 $(-\infty,+\infty)$ 内以 $T$ 为周期的连续函数，以下命题中正确的个数为\ExamSelection。\n① 若 $\int_0^T f(x)\,\mathrm{d}x=0$，则 $\int_0^x f(t)\,\mathrm{d}t$ 是以 $T$ 为周期的函数；\n② 若 $f(x)$ 是奇函数，则 $\int_0^x f(t)\,\mathrm{d}t$ 是以 $T$ 为周期的函数；\n③ 若 $\int_0^{+\infty}f(x)\,\mathrm{d}x$ 收敛，则 $\int_0^x f(t)\,\mathrm{d}t$ 是以 $T$ 为周期的函数；\n④ 函数 $F(x)=\int_0^x[f(t)-f(-t)]\,\mathrm{d}t$ 是以 $T$ 为周期的函数。
+      设 $f(x)$ 是在 $(-\infty, +\infty)$ 内以 $T$ 为周期的连续函数，以下命题中正确的个数为( ). ①若 $\int_{0}^{T} f(x) \mathrm{d}x = 0$，则 $\int_{0}^{x} f(t) \mathrm{d}t$ 是以 $T$ 为周期的函数； ②若 $f(x)$ 是奇函数，则 $\int_{0}^{x} f(t) \mathrm{d}t$ 是以 $T$ 为周期的函数； ③若 $\int_{0}^{+\infty} f(x) \mathrm{d}x$ 收敛，则 $\int_{0}^{x} f(t) \mathrm{d}t$ 是以 $T$ 为周期的函数； ④函数 $F(x) = \int_{0}^{x} [f(t) - f(-t)] \mathrm{d}t$ 是以 $T$ 为周期的函数
   choices:
   - label: A
-    text: $1$
+    text: '1'
     figures: []
   - label: B
-    text: $2$
+    text: '2'
     figures: []
   - label: C
-    text: $3$
+    text: '3'
     figures: []
   - label: D
-    text: $4$
+    text: '4'
     figures: []
 - number: 4
   section: choice
   points: 5
   stem:
     text: |-
-      设 $f(x)=x\ (x\geqslant 0)$，$g(x)=\begin{cases}\cos^3x,&0\leqslant x\leqslant\pi,\\0,&x>\pi,\end{cases}$ $F(x)=\int_0^x f(t)g(x-t)\,\mathrm{d}t\ (x\geqslant 0)$，下列说法正确的是\ExamSelection。
+      设 $f(x) = x\ (x \geqslant 0)$ $,g(x) = \begin{cases} \cos^3 x, & 0 \leqslant x \leqslant \pi, \\ 0, & x > \pi, \end{cases}$ $F(x) = \int_0^x f(t)g(x - t)\mathrm{d}t\ (x \geqslant 0)$，下列说法正确的是（ ）
   choices:
   - label: A
     text: $F(x)$ 既有极值点又有拐点
@@ -79,14 +79,14 @@ questions:
     text: $F(x)$ 有极值点，无拐点
     figures: []
   - label: D
-    text: $F(x)$ 即无极值点又无拐点
+    text: $F(x)$ 既无极值点又无拐点
     figures: []
 - number: 5
   section: choice
   points: 5
   stem:
     text: |-
-      设函数 $y=y(x)$ 由参数方程 $\begin{cases}x=\lim_{n\to\infty}\sqrt[n]{t^n+t^{2n}}+e^{t-1},\\y=\ln(1+t^2)\end{cases}\ (t>0)$ 所确定，则函数 $y=y(x)$ 在点 $x=2$ 处\ExamSelection。
+      设函数 $y=y(x)$ 由参数方程 $\begin{cases} x=\lim\limits_{n\to\infty}\sqrt[n]{t^n+t^{2n}}+\mathrm{e}^{t-1}, \\ y=\ln(1+t^2) \end{cases}$ $(t>0)$ 所确定，则函数 $y=y(x)$ 在点 $x=2$ 处 $(\quad)$
   choices:
   - label: A
     text: 左导数不存在
@@ -95,7 +95,7 @@ questions:
     text: 右导数不存在
     figures: []
   - label: C
-    text: 左导数和右导数均存在但不相等
+    text: 左右导数均存在但不相等
     figures: []
   - label: D
     text: 可导
@@ -105,16 +105,16 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $a,b$ 为实数，$f(x,y)=\begin{cases}\dfrac{a(x+y)+bx^2y}{x^2+y^2},&x^2+y^2\neq 0,\\0,&x^2+y^2=0,\end{cases}$ 则 $f(x,y)$ 在点 $(0,0)$ 处连续，且偏导数存在的充分必要条件为\ExamSelection。
+      设 $a,b$ 为实数, $f(x,y)=\begin{cases} \dfrac{a(x+y)+bx^2y}{x^2+y^2}, & x^2+y^2\neq 0, \\ 0, & x^2+y^2=0, \end{cases}$ 则 $f(x,y)$ 在点 $(0,0)$ 处连续,且偏导数存在的充分必要条件为( )
   choices:
   - label: A
     text: $a=b=0$
     figures: []
   - label: B
-    text: $a=0$，$b$ 为任意常数
+    text: $a=0,b$ 为任意常数
     figures: []
   - label: C
-    text: $b=0$，$a$ 为任意常数
+    text: $b=0,a$ 为任意常数
     figures: []
   - label: D
     text: $a,b$ 均为任意常数
@@ -124,49 +124,49 @@ questions:
   points: 5
   stem:
     text: |-
-      极坐标系下二次积分 $\int_{\pi/3}^{2\pi/3}\mathrm{d}\theta\int_0^2r^2(1-\sin2\theta)\cdot r\,\mathrm{d}r$ 化为直角坐标系下二次积分为\ExamSelection。
+      极坐标系下二次积分 $\int_{\dfrac{\pi}{5}}^{\dfrac{2\pi}{5}} \mathrm{d}\theta \int_0^2 r^2(1-\sin 2\theta) \cdot r\mathrm{d}r$ 化为直角坐标系下二次积分为( )
   choices:
   - label: A
     text: |-
-      $\int_{-1}^0\mathrm{d}x\int_{-\sqrt{3}x}^{\sqrt{4-x^2}}(x^2+y^2)\,\mathrm{d}y$
+      $\int_{-1}^0 \mathrm{d}x \int_{-\sqrt{3}x}^{\sqrt{4-x^2}} (x^2+y^2)\mathrm{d}y$
     figures: []
   - label: B
     text: |-
-      $\int_0^1\mathrm{d}x\int_{\sqrt{3}x}^{\sqrt{4-x^2}}(x^2+y^2)\,\mathrm{d}y$
+      $\int_0^1 \mathrm{d}x \int_{\sqrt{3}x}^{\sqrt{4-x^2}} (x^2+y^2)\mathrm{d}y$
     figures: []
   - label: C
     text: |-
-      $2\int_{-1}^0\mathrm{d}x\int_{\sqrt{3}x}^{\sqrt{4-x^2}}(x^2+y^2)\,\mathrm{d}y$
+      $2\int_{-1}^0 \mathrm{d}x \int_{\sqrt{3}x}^{\sqrt{4-x^2}} (x^2+y^2)\mathrm{d}y$
     figures: []
   - label: D
     text: |-
-      $2\int_0^1\mathrm{d}x\int_{\sqrt{3}x}^{\sqrt{4-x^2}}(x^2+y^2)\,\mathrm{d}y$
+      $2\int_0^1 \mathrm{d}x \int_{\sqrt{3}x}^{\sqrt{4-x^2}} (x^2+y^2)\mathrm{d}y$
     figures: []
 - number: 8
   section: choice
   points: 5
   stem:
     text: |-
-      设 $\boldsymbol{\alpha}$ 为 $3$ 维实列向量，且 $\boldsymbol{\alpha}^{\mathrm{T}}\boldsymbol{\alpha}=1$，$B=\boldsymbol{\alpha}\boldsymbol{\alpha}^{\mathrm{T}}$，$A$ 为 $3$ 阶不可逆矩阵，且 $A+2B-AB=2E$，则 $A$ 的特征值为\ExamSelection。
+      设 $\alpha$ 为 $3$ 维实列向量，且 $\alpha^T \alpha = 1, B = \alpha \alpha^T, A$ 为 $3$ 阶不可逆矩阵，且 $A + 2B - AB = 2E$，则 $A$ 的特征值为（ ）
   choices:
   - label: A
-    text: $2,2,2$
+    text: 2,2,2
     figures: []
   - label: B
-    text: $2,0,0$
+    text: 2,0,0
     figures: []
   - label: C
-    text: $1,1,0$
+    text: 1,1,0
     figures: []
   - label: D
-    text: $2,2,0$
+    text: 2,2,0
     figures: []
 - number: 9
   section: choice
   points: 5
   stem:
     text: |-
-      设 $A$ 为 $3$ 阶实对称可逆矩阵，将 $A$ 的第一行的 $2$ 倍加到第三行，再将第一行乘 $2$ 得到 $B$，将矩阵 $B$ 的第一列的 $2$ 倍加到第三列，再将第一列乘 $2$ 得到矩阵 $C$，则矩阵 $A^*$ 与 $C^*$\ExamSelection。
+      设 $A$ 为 3 阶实对称可逆矩阵，将 $A$ 的第一行的 2 倍加到第三行，再将第一行乘 2 得到 $B$，将矩阵 $B$ 的第一列的 2 倍加到第三列，再将第一列乘 2 得到矩阵 $C$，则矩阵 $A^*$ 与 $C^*(\quad)$。
   choices:
   - label: A
     text: 合同但不相似
@@ -185,103 +185,93 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3$ 是齐次方程组 $A_nx=0$ 的基础解系，$\boldsymbol{\beta}_i$ 是非齐次方程组 $Ax=\boldsymbol{\alpha}_i$ 的特解，$i=1,2,3$，则\ExamSelection。
+      设 $\alpha_1, \alpha_2, \alpha_3$ 是齐次方程组 $Ax = 0$ 的基础解系$,\beta_i$ 是非齐次方程组 $Ax = \alpha_i$ 的特解（$i = 1, 2, 3$），则（ ）
   choices:
   - label: A
     text: |-
-      $\boldsymbol{\beta}_1,\boldsymbol{\beta}_2,\boldsymbol{\beta}_3$ 线性相关
+      $\beta_1, \beta_2, \beta_3$ 线性相关
     figures: []
   - label: B
     text: |-
-      $\boldsymbol{\beta}_1,\boldsymbol{\beta}_2,\boldsymbol{\beta}_3$ 线性无关
+      $\beta_1, \beta_2, \beta_3$ 线性无关
     figures: []
   - label: C
     text: |-
-      $\boldsymbol{\beta}_1,\boldsymbol{\beta}_2,\boldsymbol{\beta}_3$ 可由 $\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3$ 线性表示
+      $\beta_1, \beta_2, \beta_3$ 可由 $\alpha_1, \alpha_2, \alpha_3$ 线性表示
     figures: []
   - label: D
     text: |-
-      $\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3$ 可由 $\boldsymbol{\beta}_1,\boldsymbol{\beta}_2,\boldsymbol{\beta}_3$ 线性表示
+      $\alpha_1, \alpha_2, \alpha_3$ 可由 $\beta_1, \beta_2, \beta_3$ 线性表示
     figures: []
 - number: 11
   section: fill
   points: 5
   stem:
     text: |-
-      当 $x\to 0$ 时，若 $1-\dfrac{n+1}{1+e^x+e^{2x}+\cdots+e^{nx}}$ 与 $\sin x$ 为等价无穷小，则自然数 $n=$\ExamBlank。
+      当 $x \to 0$ 时，若 $1 - \dfrac{n+1}{1+\mathrm{e}^x+\mathrm{e}^{2x}+\cdots+\mathrm{e}^{nx}}$ 与 $\sin x$ 为等价无穷小，则自然数 $n = \underline{\hspace{2cm}}$
 - number: 12
   section: fill
   points: 5
   stem:
     text: |-
-      设 $f(x)=\dfrac{1}{x+\sqrt{1+x^2}}$，其反函数记作 $f^{-1}(x)$，则 $\int_{\sqrt{2}-1}^{1}f^{-1}(x)\,\mathrm{d}x=$\ExamBlank。
+      设 $f(x) = \dfrac{1}{x + \sqrt{1 + x^2}}$，其反函数记作 $f^{-1}(x)$，则 $\int_0^{+\infty} f^{-1}(x)\mathrm{d}x\underline{\hspace{2.5cm}}$
 - number: 13
   section: fill
   points: 5
   stem:
     text: |-
-      设 $F(x)=\int_{x^2}^1\dfrac{t}{\sqrt{1+t^3}}\,\mathrm{d}t$，则 $\int_0^1xF(x)\,\mathrm{d}x=$\ExamBlank。
+      设 $F(x)=\int_{x^2}^1 \dfrac{t}{\sqrt{1+t^3}} \mathrm{d}t$, 则 $\int_0^1 xF(x)\mathrm{d}x=\_\_\_\_\_\_\_\_\_\_$
 - number: 14
   section: fill
   points: 5
   stem:
     text: |-
-      当 $y>0$ 时，有 $\dfrac{\partial^2z}{\partial x\partial y}=x^2e^{xy}$，且 $\left.\dfrac{\partial z}{\partial x}\right|_{y=0}=x+\sin x$，$z(0,y)=-\dfrac{1}{y^2}$，则 $z(x,y)=$\ExamBlank。
+      当 $y>0$ 时，有 $\dfrac{\partial^2 z}{\partial x \partial y}=x^2\mathrm{e}^{xy}$，且 $\left.\dfrac{\partial z}{\partial x}\right|_{y=0}=x+\sin x, z(0,y)=-\dfrac{1}{y^2}$，则 $z(x,y)=\underline{\hspace{2.5cm}}$
 - number: 15
   section: fill
   points: 5
   stem:
     text: |-
-      设函数 $f(x)$ 连续，且满足 $\int_0^x f(t)\,\mathrm{d}t=1-f(x)-e^{-x}$，则 $f^{(n)}(x)=$\ExamBlank。
+      设函数 $f(x)$ 连续，且满足 $\int_0^x f(t)\mathrm{d}t = 1 - f(x) - \mathrm{e}^{-x}$，则 $f^{(n)}(x) = \underline{\qquad\qquad}.$
 - number: 16
   section: fill
   points: 5
   stem:
     text: |-
-      设 $A$ 是 $3$ 阶实对称矩阵，$\boldsymbol{\alpha}=(-a,4,a+1)^{\mathrm{T}}$ 与 $\boldsymbol{\beta}=(a+1,a-3,3)^{\mathrm{T}}$ 分别是齐次线性方程组 $(A-2E)x=0$ 与 $(A+3E)x=0$ 的解，其中 $E$ 为 $3$ 阶单位阵，则 $a=$\ExamBlank。
+      设 $A$ 是 $3$ 阶实对称矩阵$,\alpha=(-a,4,a+1)^T$ 与 $\beta=(a+1,a-3,3)^T$ 分别是齐次线性方程组 $(A-2E)x=0$ 与 $(A+3E)x=0$ 的解，其中 $E$ 为 $3$ 阶单位阵，则 $a=\underline{\qquad\qquad}$。
 - number: 17
   section: solution
-  points: 10
+  points: 12
   stem:
-    text: 讨论曲线 $y=ae^x$（$a$ 为常数）和曲线 $y=(x+1)^2$ 交点的个数。
+    text: 讨论曲线 $y=ae^x$ ($a$ 为常数) 和曲线 $y=(x+1)^2$ 交点的个数
 - number: 18
   section: solution
   points: 12
   stem:
     text: |-
-      设函数 $f(x)$ 在 $[a,b]$ 上连续，且 $\int_a^bf(x)\,\mathrm{d}x=0$，$\int_a^bxf(x)\,\mathrm{d}x=m>0$，证明存在 $\xi\in(a,b)$，使得 $|f(\xi)|\geqslant\dfrac{2m}{(b-a)^2}$。
+      设函数 $f(x)$ 在 $[a,b]$ 上连续，且 $\int_a^b f(x)\mathrm{d}x=0,\int_a^b xf(x)\mathrm{d}x=m>0$，证明存在 $\xi\in(a,b)$，使得 $|f(\xi)|\geqslant \dfrac{2m}{(b-a)^2}$．
 - number: 19
   section: solution
   points: 12
   stem:
     text: |-
-      设数列 $\{x_n\}$ 定义如下：$x_1=1$，$x_n=x_{n+1}+e^{x_{n+1}}-1$，$(n=1,2,\cdots)$，证明数列 $\{x_n\}$ 的极限存在，并求出此极限值。
+      设数列 $\{x_n\}$ 定义如下$:x_1=1$ $,x_n=x_{n+1}+\mathrm{e}^{x_{n+1}}-1$ $(n=1, 2, \cdots)$，证明数列 $\{x_n\}$ 的极限存在，并求出此极限值
 - number: 20
   section: solution
   points: 12
   stem:
     text: |-
-      设 $z=z(x,y)$ 是由方程 $x^2-2x+y^2=e^z+z-2$ 确定的隐函数，求 $z(x,y)$ 在区域 $x^2+2y^2\leqslant 4$ 内的最大值点和最小值点。
+      设 $z=z(x,y)$ 是由方程 $x^2-2x+y^2=\mathrm{e}^z+z-2$ 确定的隐函数，求 $z(x,y)$ 在区域 $x^2+2y^2\leqslant 4$ 内的最大值点和最小值点
 - number: 21
   section: solution
   points: 12
   stem:
     text: |-
-      \mbox{}
-  subparts:
-  - text: |-
-      当 $x>0$ 时，求极限 $\lim_{\substack{x\to 0\\y\to 0}}\dfrac{x^2+y^2}{\sqrt{x^2+y^2}+x}$。
-  - text: |-
-      计算二重积分 $I=\iint_D\dfrac{x^2+y^2}{\sqrt{x^2+y^2}+x}\,\mathrm{d}\sigma$，其中 $D$ 是由 $x=\sqrt{y-y^2}$，$y=\sqrt{1-x^2}$ 以及 $x$ 轴所围位于第一象限区域。
+      (I) 当 $x>0$ 时，求极限 $\lim_{\substack{x \to 0 \\ y \to 0}} \dfrac{x^2+y^2}{\sqrt{x^2+y^2}+x}$. (II) 计算二重积分 $I=\iint_D \dfrac{x^2+y^2}{\sqrt{x^2+y^2}+x} d\sigma$, 其中 $D$ 是由 $x=\sqrt{y-y^2}, y=\sqrt{1-x^2}$ 以及 $x$ 轴所围位于第一象限区域
 - number: 22
   section: solution
   points: 12
   stem:
     text: |-
-      设 $A$ 为 $3$ 阶实对称矩阵，$\boldsymbol{\alpha}=(1,1,0)^{\mathrm{T}}$，$\boldsymbol{\beta}=(1,0,1)^{\mathrm{T}}$，$A\boldsymbol{\alpha}=2\boldsymbol{\beta}$，$A\boldsymbol{\beta}=2\boldsymbol{\alpha}$，且存在 $3$ 阶矩阵 $B$，有 $r(AB)<r(B)$。
-  subparts:
-  - text: |-
-      求正交变换 $x=Qy$，化二次型 $x^{\mathrm{T}}Ax$ 为标准形，并写出标准形。
-  - text: |-
-      若 $\boldsymbol{\gamma}=(1,0,4)^{\mathrm{T}}$，求 $A^{2024}\boldsymbol{\gamma}$。
-content_hash: 24c4e2e52c5be7d8bbfac05147fcca49fd5ec753468093a5349f5131d7862280
+      设 $A$ 为 3 阶实对称矩阵$,\alpha = (1,1,0)^T,\beta = (1,0,1)^T,A\alpha = 2\beta,A\beta = 2\alpha$, 且存在 3 阶矩阵 $B$, 有 $r(AB) < r(B)$. (I) 求正交变换 $x = Qy$, 化二次型 $x^T Ax$ 为标准形, 并写出标准形; (II) 若 $\gamma = (1,0,4)^T$, 求 $A^{2024}\gamma$
+content_hash: 5308a5f6d87fa4f07bd1e6c900fa463f79bbae9f64082d7e27b5b7e8548e8dbc

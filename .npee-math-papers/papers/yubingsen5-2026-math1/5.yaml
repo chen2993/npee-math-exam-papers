@@ -1,0 +1,304 @@
+schema_version: '3.0'
+paper:
+  series_key: yubingsen5
+  year: 2026
+  subject: math1
+  paper_no: 5
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 \( f(x)=\begin{cases}\sin x\cdot\arctan\dfrac{1}{|x|}, &x\ne0, \\0, &x=0, \end{cases}\) 则 \(f(x)\) 在点 \(x=0\) 处( )
+  choices:
+  - label: A
+    text: 不连续
+    figures: []
+  - label: B
+    text: 连续但不可导
+    figures: []
+  - label: C
+    text: |-
+      可导但 \(f'(x)\) 在点 \(x=0\) 处不连续
+    figures: []
+  - label: D
+    text: |-
+      可导且 \(f'(x)\) 在点 \(x=0\) 处连续
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设正值函数 \(f(x),g(x)\) 在 \([a,b]\) 上可导，若对任意 \(x\in[a,b]\), \(f'(x)g(x)<f(x)g'(x)\)，则当 \(a<x<b\) 时，有( )
+  choices:
+  - label: A
+    text: |-
+      \(f(x)g(b)>f(b)g(x)\)
+    figures: []
+  - label: B
+    text: |-
+      \(f(x)g(a)>f(a)g(x)\)
+    figures: []
+  - label: C
+    text: |-
+      \(f(x)g(x)>f(a)g(a)\)
+    figures: []
+  - label: D
+    text: |-
+      \(f(x)g(x)>f(b)g(b)\)
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 \( f(x)=\int_0^x\sin^n t\,dt\), \(n\) 是正整数。关于 \(f(x)\) 有结论： \circled{1} 当 \(n\) 为偶数时，\(f(x)\) 必为有界函数； \circled{2} 当 \(n\) 为偶数时，\(f(x)\) 必为周期函数； \circled{3} 当 \(n\) 为奇数时，\(f(x)\) 必为有界函数； \circled{4} 当 \(n\) 为奇数时，\(f(x)\) 必为周期函数。 以上四个结论中正确结论的个数是（ ）。
+  choices:
+  - label: A
+    text: |-
+      \(1\)
+    figures: []
+  - label: B
+    text: |-
+      \(2\)
+    figures: []
+  - label: C
+    text: |-
+      \(3\)
+    figures: []
+  - label: D
+    text: |-
+      \(4\)
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      曲线 \( y=\dfrac{(1+x)\mathrm e^x}{\mathrm e^x-1}\) 的渐近线条数为( )
+  choices:
+  - label: A
+    text: |-
+      \(1\)
+    figures: []
+  - label: B
+    text: |-
+      \(2\)
+    figures: []
+  - label: C
+    text: |-
+      \(3\)
+    figures: []
+  - label: D
+    text: |-
+      \(4\)
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设多项式 \( f(x)=\begin{vmatrix}1&1&1\\2-x&3-2x&4-3x\\4-x^2&9-4x^2&16-9x^2\end{vmatrix}\)，则( )
+  choices:
+  - label: A
+    text: |-
+      存在实数 \(q\in(-1,1)\), 使得 \(f(q)=0\)
+    figures: []
+  - label: B
+    text: |-
+      存在实数 \(q\in(-1,1)\), 使得 \(f'(q)=0\)
+    figures: []
+  - label: C
+    text: |-
+      对任意实数 \(q\in(-1,1)\), 均有 \(f(q)=0\)
+    figures: []
+  - label: D
+    text: |-
+      对任意实数 \(q\in(-1,1)\), 均有 \(f'(q)=0\)
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      如图所示，有 3 张平面两两相交，交线相互平行，它们的方程为 \(a_ix+b_iy+c_iz=d_i\ (i=1,2,3)\)，则直线 \( L_1:\dfrac{x-a_3}{a_1}=\dfrac{y-b_3}{b_1}=\dfrac{z-c_3}{c_1}\) 与直线 \( L_2:\dfrac{x-a_1}{a_2}=\dfrac{y-b_1}{b_2}=\dfrac{z-c_1}{c_2}\) 的位置关系为( )
+  choices:
+  - label: A
+    text: 相交于一点
+    figures: []
+  - label: B
+    text: 重合
+    figures: []
+  - label: C
+    text: 平行但不重合
+    figures: []
+  - label: D
+    text: 异面
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设三阶矩阵 \(A\) 有特征值 \(\lambda_1=\lambda_2=-1, \lambda_3=2\)，且 \(A\) 不能相似于对角矩阵，则 \(r(A+E)+r(A-E)+r(A-2E)=\)( )
+  choices:
+  - label: A
+    text: |-
+      \(3\)
+    figures: []
+  - label: B
+    text: |-
+      \(4\)
+    figures: []
+  - label: C
+    text: |-
+      \(6\)
+    figures: []
+  - label: D
+    text: |-
+      \(7\)
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设三个产品中次品的平均个数为 \( \dfrac{3}{2}\)，现从中任取一个产品，则该产品是次品的概率为( )
+  choices:
+  - label: A
+    text: |-
+      \( \dfrac{1}{6}\)
+    figures: []
+  - label: B
+    text: |-
+      \( \dfrac{1}{3}\)
+    figures: []
+  - label: C
+    text: |-
+      \( \dfrac{1}{2}\)
+    figures: []
+  - label: D
+    text: |-
+      \( \dfrac{2}{3}\)
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      二维连续随机变量 \((X,Y)\) 的概率密度为 \(f(x,y)\), \(U=-Y,V=2X+Y\)，则 \((U,V)\) 的概率密度为( )
+  choices:
+  - label: A
+    text: |-
+      \( f\left(-u, \dfrac{v+u}{2}\right)\)
+    figures: []
+  - label: B
+    text: |-
+      \( \dfrac{1}{2} f\left(\dfrac{v+u}{2}, -u\right)\)
+    figures: []
+  - label: C
+    text: |-
+      \( f\left(\dfrac{v+u}{2}, -u\right)\)
+    figures: []
+  - label: D
+    text: |-
+      \( 2f\left(\dfrac{v+u}{2}, -u\right)\)
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设总体 \(X\sim U[-\theta, \theta]\)，其中未知参数 \(\theta>0\), \(X_1,X_2, \cdots,X_n\) 为来自总体 \(X\) 的简单随机样本，则 \(\theta\) 的最大似然估计量 \(\widehat\theta=\)( )
+  choices:
+  - label: A
+    text: |-
+      \(\max_{1\le i\le n}\{X_i\}\)
+    figures: []
+  - label: B
+    text: |-
+      \(-\min_{1\le i\le n}\{X_i\}\)
+    figures: []
+  - label: C
+    text: |-
+      \(\max_{1\le i\le n}\{|X_i|\}\)
+    figures: []
+  - label: D
+    text: |-
+      \(\min_{1\le i\le n}\{|X_i|\}\)
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      曲线 \(y=\mathrm e^x\) 上曲率半径最小的点为 \((x,y)=\)____
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设连续函数 \( f(x)=\begin{cases}ax+1, &x\ge0, \\a-\mathrm e^x, &x<0, \end{cases}\) 其中 \(a\) 为常数，则 \( \int f(\ln x)\,dx=\)____
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 \(\Omega\) 是球体：\(x^2+y^2+z^2\le2x\)，则 \( \iiint_\Omega x\,dV=\)____
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设函数 \(u=u(x,y)\) 具有二阶连续偏导数且满足 \( \dfrac{\partial^2u}{\partial x^2}=\dfrac{\partial^2u}{\partial y^2}\)，且 \(u(x,3x)=x\), \(u'_1(x,3x)=x^2\)，则 \(u''_{11}(x,3x)=\)____
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 \(\alpha_1, \alpha_2, \alpha_3\) 是两两正交的单位列向量，若 \(\xi=\alpha_1-\alpha_2+\alpha_3\) 与 \(\eta=a\alpha_1+b\alpha_2-c\alpha_3\) 正交，则常数 \(a,b,c\) 应满足的条件是____
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设总体 \(X\sim P(1)\), \(X_1,X_2, \cdots,X_{100}\) 为来自总体 \(X\) 的简单随机样本，试用中心极限定理近似计算 \( P\left\{\sum\limits_{i=1}^{100}X_i>110\right\}=\)____. \((\Phi(1)=0.841)\)
+- number: 17
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设当 \( x\in[0, \dfrac{\pi}{2}]\) 时，有 \(ax+b\ge\sin x\)，其中 \(a,b\) 均为常数。\(D\) 为曲线 \(y=\sin x\) 与直线 \( y=ax+b,x=0,x=\dfrac{\pi}{2}\) 所围成的平面图形。 (1) 求 \(a,b\) 的值，使得 \(D\) 的面积最小； (2) 在 \(D\) 的面积最小时，求将 \(D\) 绕 \(y\) 轴旋转一周所得旋转体的体积 \(V\)。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      求幂级数 \( \sum\limits_{n=1}^{\infty}\dfrac{[2+(-1)^n]^n}{n}x^n\) 的和函数 \(S(x)\)，并分别求数项级数 \( \sum\limits_{n=0}^{\infty}\dfrac{1}{4^n(2n+1)}\) 与 \( \sum\limits_{n=1}^{\infty}\dfrac{1}{4^n n}\) 的和。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设对于空间中任意光滑有向闭曲面 \(\Sigma\) 均有 \(\oiint_\Sigma x^2f'(x)\,dy\,dz+x^2[f(x)-x^2-2]y\,dz\,dx-2xf'(x)z\,dx\,dy=0\)，其中 \(f(x)\) 具有二阶连续导数，且 \(f(0)=0,f'(0)=1\)。 (1) 求 \(f(x)\) 的表达式； (2) 设 \(\Sigma\) 为曲面 \( y=\sqrt{x^2+z^2},1\le y\le2\), \(\Sigma\) 正侧法向量与 \(y\) 轴成锐角，求同一被积表达式在 \(\Sigma\) 上的曲面积分值。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 \(f(x)\) 具有一阶连续导数，且 \(f(0)f'(0)\ne0\). (1) 证明：当 \(x\to0\) 时，\( \int_0^x f(t)\,dt\sim f(0)x\)； (2) 求 \( \lim\limits_{x\to0}\left[\dfrac{1}{\int_0^x f(t)\,dt}-\dfrac{1}{xf(0)}\right]\)； (3) 当 \(x\ne0\) 时，证明：\( \int_0^x f(t)\,dt=xf(\xi)\)，其中 \(\xi\) 介于 \(x\) 与 \(0\) 之间，并求 \( \lim\limits_{x\to0}\dfrac{\xi}{x}\)。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设三阶实矩阵 \(A\) 满足 \(A^2-A-2E=O\)，且 \(|A|=2\). (1) 证明：\(A\) 可以相似对角化； (2) 如果 \(A\) 为实对称矩阵，且 \(\xi=(1,1, -1)^T\) 是齐次线性方程组 \((A-2E)x=0\) 的一个解，求一个对称矩阵 \(B\) 使得 \(B^2=A+E\)
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设随机变量 \((X,Y)\) 在区域 \(D:|X|+|Y|\le1\) 上服从均匀分布，\( Z\sim\begin{pmatrix}-1&1\\\dfrac{1}{3}&\dfrac{2}{3}\end{pmatrix}\)，且 \(Z\) 与 \(X+Y\) 相互独立。记 \(U=(X+Y)Z\). (1) 求 \(U=(X+Y)Z\) 的概率密度 \(f_U(u)\)； (2) 求方差 \(D(X+Y+U)\)
+content_hash: f94460336b7463762d55b265e4af9e1880f8c9ae466de5725e66c3b4e93a27a6

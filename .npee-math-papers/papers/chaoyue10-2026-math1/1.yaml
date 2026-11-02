@@ -1,0 +1,296 @@
+schema_version: '3.0'
+paper:
+  series_key: chaoyue10
+  year: 2026
+  subject: math1
+  paper_no: 1
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      函数 \(y = {\left( 1 + {\mathrm{e}}^{x}\right) }^{\dfrac{1}{x}}\) 的值域为（ ）。
+  choices:
+  - label: A
+    text: |-
+      \(\left( {1, + \infty }\right)\)
+    figures: []
+  - label: B
+    text: |-
+      \(\left( {0, + \infty }\right)\)
+    figures: []
+  - label: C
+    text: |-
+      \(\left( {0,1}\right) \cup \left( {\mathrm{e}, + \infty }\right)\)
+    figures: []
+  - label: D
+    text: |-
+      \(\left( {0,1}\right) \cup \left( {1, + \infty }\right)\)
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知 $I_1 = \int_0^{\dfrac{\pi}{2}} \dfrac{\sin x}{1+x^2} \mathrm{d}x$ $,I_2 = \int_0^{\dfrac{\pi}{2}} \dfrac{\cos x}{1+x^2} \mathrm{d}x$ $,J_1 = \int_0^1 \mathrm{e}^x \sqrt{1-x} \mathrm{d}x$ $,J_2 = \int_0^1 \mathrm{e}^x \dfrac{x}{2\sqrt{1-x}} \mathrm{d}x$，则（ ）
+  choices:
+  - label: A
+    text: $I_1 > I_2, J_1 > J_2$
+    figures: []
+  - label: B
+    text: $I_1 > I_2, J_1 < J_2$
+    figures: []
+  - label: C
+    text: $I_1 J_2$
+    figures: []
+  - label: D
+    text: $I_1 < I_2, J_1 < J_2$
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知函数 \(f\left( {x,y}\right)\) 在点 \(\left( {0,0}\right)\) 处连续，且 \( \mathop{\lim }\limits_{\substack{{x \rightarrow 0} \\ {y \rightarrow 0} }}\dfrac{f\left( {x,y}\right) }{\ln \left( {1 + \left| x\right| + \left| y\right| }\right) } = 0\)，则 \(f\left( {x,y}\right)\) 在点 \(\left( {0,0}\right)\) 处（ ）。
+  choices:
+  - label: A
+    text: 偏导数不存在，也不可微
+    figures: []
+  - label: B
+    text: 偏导数不存在，但可微
+    figures: []
+  - label: C
+    text: 偏导数存在，但不可微
+    figures: []
+  - label: D
+    text: 偏导数存在，且可微
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 \(L\) 为从点 \((-1,0)\) 到点 \((1,0)\) 的上半圆周 \(y = \sqrt{1 - x^2}\)，则 \(\int_L\dfrac{(\mathrm{e}^{x - 2y} + x^2y) \mathrm{d}x - 2(\mathrm{e}^{x - 2y} + xy^2) \mathrm{d}y}{x^2 + y^2}\) 的值为（ ）。
+  choices:
+  - label: A
+    text: |-
+      \(\dfrac{3}{8}\pi - \mathrm{e} + {\mathrm{e}}^{-1}\)
+    figures: []
+  - label: B
+    text: |-
+      \(- \dfrac{3}{8}\pi - \mathrm{e} + {\mathrm{e}}^{-1}\)
+    figures: []
+  - label: C
+    text: |-
+      \(\mathrm{e} - {\mathrm{e}}^{-1} + \dfrac{3}{8}\pi\)
+    figures: []
+  - label: D
+    text: |-
+      \(\mathrm{e} - {\mathrm{e}}^{-1} - \dfrac{3}{8}\pi\)
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 \(A,E\) 为 \(n\) 阶矩阵，\(B\) 为 \(n \times m\) 矩阵，\(C\) 为 \(m \times n\) 矩阵，\( M = \begin{pmatrix} A & {AB} \\ {CA} & O \end{pmatrix}, \quad N = \begin{pmatrix} E & B \\ A & O \end{pmatrix}. \)其中 \(r\left( M\right)=r\left( N\right)\)，若 \(r\left( C\right)=n\)，则（ ）。
+  choices:
+  - label: A
+    text: |-
+      \(r\left( A\right)=n\)
+    figures: []
+  - label: B
+    text: |-
+      \(r\left( A\right)=m\)
+    figures: []
+  - label: C
+    text: |-
+      \(r\left( B\right)=n\)
+    figures: []
+  - label: D
+    text: |-
+      \(r\left( B\right)=m\)
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 \( {\alpha}_{1}=\begin{pmatrix}1\\2\\-1\end{pmatrix}, \ {\alpha}_{2}=\begin{pmatrix}1\\0\\1\end{pmatrix}, \ {\alpha}_{3}=\begin{pmatrix}-1\\a\\3\end{pmatrix}, \ \beta=\begin{pmatrix}3\\2\\b\end{pmatrix}\)， \(a,b\) 为实数。 已知 \(\beta\) 可由 \({\alpha}_{1}, {\alpha}_{2}, {\alpha}_{3}\) 线性表示，但不能由 \({\alpha}_{1}, {\alpha}_{2}\) 表示，则（ ）。
+  choices:
+  - label: A
+    text: |-
+      \(a \neq -4, \ b\) 为任意实数
+    figures: []
+  - label: B
+    text: |-
+      \(a = 4, \ b = 1\)
+    figures: []
+  - label: C
+    text: |-
+      \(a \neq -4\) 且 \(b \neq 1\)
+    figures: []
+  - label: D
+    text: |-
+      \(a = 4, \ b\) 为任意实数
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 \(A\) 为 \(2 \times 3\) 矩阵，若 \(\left|AA^T\right|=2, \left|A^T A-2E\right|=0\)，则 \(\left|A^T A+2E\right|=\) （ ）。
+  choices:
+  - label: A
+    text: '-12'
+    figures: []
+  - label: B
+    text: '12'
+    figures: []
+  - label: C
+    text: '-24'
+    figures: []
+  - label: D
+    text: '24'
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设总体 \(X\) 的期望和方差分别为 \(EX=\mu\) 和 \(DX=\sigma^2\)， \(X_1,X_2,X_3\) 是总体 \(X\) 的简单随机样本，记 \( \bar{X}=\dfrac{1}{3}\sum\limits_{i=1}^{3}X_i\)，则 \(X_1-\bar{X}\) 和 \(X_2-\bar{X}\) 相关系数等于（ ）。
+  choices:
+  - label: A
+    text: |-
+      \(\dfrac{1}{2}\)
+    figures: []
+  - label: B
+    text: |-
+      \(-\dfrac{1}{2}\)
+    figures: []
+  - label: C
+    text: '0'
+    figures: []
+  - label: D
+    text: '1'
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设随机变量 \(F\sim F(1,1)\)，则 \(P\{F\leq 3\}=\) （ ）。
+  choices:
+  - label: A
+    text: |-
+      \(\dfrac{1}{2}\)
+    figures: []
+  - label: B
+    text: |-
+      \(\dfrac{2}{3}\)
+    figures: []
+  - label: C
+    text: |-
+      \(\Phi(1)\)
+    figures: []
+  - label: D
+    text: |-
+      \(\Phi(2)\)
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 \((X_1,X_2, \cdots,X_n)\) 和 \((Y_1,Y_2, \cdots,Y_n)\) 为来自总体 \(X\sim N(\mu, \sigma^2)\) 的两个独立样本，其样本均值分别为 \(\bar{X}\) 和 \(\bar{Y}\)，样本方差分别为 \(S_X^2\) 和 \(S_Y^2\)，记 \(W=S_X^2+S_Y^2\)。对任意 \(0<\alpha<1\)，以下各式中正确的是（ ）。
+  choices:
+  - label: A
+    text: |-
+      \(P\left\{\chi^2_{1-\dfrac{\alpha}{2}}(2n)<\dfrac{(n-1)W}{\sigma^2}<\chi^2_{\dfrac{\alpha}{2}}(2n)\right\}=1-\alpha\)
+    figures: []
+  - label: B
+    text: |-
+      \(P\left\{\chi^2_{1-\dfrac{\alpha}{2}}(2n-2)<\dfrac{(n-1)W}{\sigma^2}<\chi^2_{\dfrac{\alpha}{2}}(2n-2)\right\}=1-\alpha\)
+    figures: []
+  - label: C
+    text: |-
+      \(P\left\{-t_{\dfrac{\alpha}{2}}(2n)<\dfrac{\sqrt{n}(\bar{X}-\bar{Y})}{W}<t_{\dfrac{\alpha}{2}}(2n)\right\}=1-\alpha\)
+    figures: []
+  - label: D
+    text: |-
+      \(P\left\{-t_{\dfrac{\alpha}{2}}(2n-2)<\dfrac{\sqrt{n}(\bar{X}-\bar{Y})}{W}<t_{\dfrac{\alpha}{2}}(2n-2)\right\}=\alpha\)
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      \( \mathop{\lim }\limits_{{x \rightarrow + \infty }}{\left( \dfrac{\pi }{2} - \arctan x\right) }^{\dfrac{1}{\ln x}} =\) \underline{\qquad}。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 \(f\left( x\right)\) 是 \(\left( {-\infty, + \infty }\right)\) 上的非负连续函数，且 \( f\left( x\right) \cdot {\int }_{0}^{x}f\left( {x - t}\right) {dt} = x{\cos }^{4}x\) ，则 \(f\left( x\right)\) 在 \(\left\lbrack {0, \pi }\right\rbrack\) 上的平均值为\underline{\qquad}。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      曲面 \(\Sigma : {x}^{2} + {y}^{2} + 2{z}^{2} = 1\) 上某点的切平面与曲线 \( \Gamma : \begin{cases} {x}^{2} + {y}^{2} + {z}^{2} = 3, \\ x + y - z = 1 \end{cases}\) 在点 \(\left( {1,1,1}\right)\) 处的法平面平行，则该点的坐标为\underline{\qquad}。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      幂级数 \( \mathop{\sum }\limits_{{n = 1}}^{\infty }\dfrac{{\left( n!\right) }^{2}}{\left( {2n}\right) !}{x}^{n}\) 的收敛域为\underline{\qquad}。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 \( A = \begin{pmatrix} 1 & - 1 & 1 \\ a & 1 & 2 \end{pmatrix},B = \begin{pmatrix} 1 & 1 \\ 1 & 2 \\ 1 & b \end{pmatrix}\) 。 已知 \({Ax} = 0\) 与 \({B}^{T}x = 0\) 同解，则 \(a + b =\) \underline{\qquad}。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      已知随机事件 $A, B, C$ 恰好有一个不发生的概率为 $\dfrac{1}{3}$，且 $A, B$ 互斥$,P(A) = P(B) = \dfrac{2}{5}$，则 $P(C \mid A \cup B) = \underline{\qquad\qquad}$。
+- number: 17
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 \(f\left( x\right)\) 在 \(\left( {0, + \infty }\right)\) 内连续，且 \(f\left( 1\right) = 3\)。 对任意的 \(x,y \in \left( {0, + \infty }\right)\)，恒有等式 \( {\int}_{1}^{xy} f\left( t\right)\mathrm{d}t = {y}^{2}{\int}_{1}^{x} f\left( t\right)\mathrm{d}t + {x}^{2}{\int}_{1}^{y} f\left( t\right)\mathrm{d}t\) 成立。 (1) 求函数 \(f\left( x\right)\)。 (2) 求曲线 \(y = f\left( x\right)\) 和直线 \(x = 1,x = \mathrm{e}\) 及 \(x\) 轴围成的图形绕直线 \(x = 1\) 旋转一周形成的旋转体的体积。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      函数 \(f\left( {x,y}\right)\) 的全微分 \(\mathrm{d}f\left( {x,y}\right)=3\left( x-y\right)^2\mathrm{d}x-3\left( x^2-2xy+2y^2-2\right)\mathrm{d}y\)，且 \(f\left( {0,0}\right)=0\)。 (1) 求 \(f\left( {x,y}\right)\)。 (2) 求 \(f\left( {x,y}\right)\) 在闭区域 \(D=\{\left( {x,y}\right)\mid x\geq 0,y\geq 0,x+y\leq 3\}\) 上的最值。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 \(\Sigma\) 为曲线 \( \begin{cases} x = \sqrt{2}\cos t, \\ y = \sin t, \\ z = {\cos}^{2}t, \end{cases}\quad 0 \leq t \leq \dfrac{\pi}{2}\) 绕 \(z\) 轴旋转一周所得的曲面，计算对面积的曲面积分 \( {\iint}_{\Sigma}\dfrac{x{y}^{3}+\sqrt{5+{4z}}}{1+{x}^{2}+{y}^{2}}\mathrm dS\)。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 \(f\left(x\right)\) 是 \(\left[-a,a\right]\) 上二阶可导的奇函数，且 \( \int_0^a f\left(x\right)\, \mathrm dx=\dfrac{1}{2}a^2f\left(a\right)\)。 (1) 证明存在 \(\xi\in(0,a)\)，有 \(f'\left(\xi\right)=f\left(a\right)\)。 (2) 证明对任意的实数 \(\lambda\)，存在 \(\eta\in(-a,a)\)，有 \(f''\left(\eta\right)-\lambda f'\left(\eta\right)+\lambda f\left(a\right)=0\)。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $a \neq 0$，向量组： ① $\alpha_1 = (a, 0, 1)^{\mathrm{T}}, \alpha_2 = (0, -a, 0)^{\mathrm{T}}, \alpha_3 = (1, 0, a)^{\mathrm{T}}$； ② $\beta_1 = (a, 0, 1)^{\mathrm{T}}, \beta_2 = (a, 1, 1)^{\mathrm{T}}, \beta_3 = (a^2, 0, a)^{\mathrm{T}}$。 (1) 若向量组 ① 与 ② 等价，求 $a$ 的值； (2) 记 $A = (\alpha_1, \alpha_2, \alpha_3)$ $,B = (\beta_1, \beta_2, \beta_3)$，当 $a$ 为何值时，存在可逆矩阵 $P$，使得 $P^{-1}AP = B$？并求 $P$。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设随机变量 \(X\) 的分布律为 \( \begin{pmatrix}1&2\\\dfrac{1}{4}&\dfrac{3}{4}\end{pmatrix}\)，随机变量 \(Y\sim U[-\pi, \pi]\)，且 \(X\) 和 \(Y\) 相互独立，令 \(Z=X\cos\left(\dfrac{\pi}{4}+Y\right)\)。 (1) 在随机变量 \(X=1\) 的条件下，求随机变量 \(Z\) 的条件概率密度 \(f_{Z\mid X}(z\mid1)\)； (2) 求随机变量 \(Z\) 的概率密度 \(f_Z(z)\)； (3) 判断随机变量 \(X\) 和 \(Z\) 是否不相关，是否独立，并说明理由。
+content_hash: acd2da7acd534bdd6a453980ca899020680d01ed94c3d51dbfe53c581b976898

@@ -1,0 +1,299 @@
+schema_version: '3.0'
+paper:
+  series_key: lilin6
+  year: 2023
+  subject: math3
+  paper_no: 1
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 \(f(x) = \ln(1 + x^{\dfrac{2}{3}}) - x^{\dfrac{2}{3}}\)，则
+  choices:
+  - label: A
+    text: |-
+      \(f'(0)\) 不存在， \(f''(0)\) 不存在
+    figures: []
+  - label: B
+    text: |-
+      \(f'(0)\) 存在， \(f''(0)\) 不存在
+    figures: []
+  - label: C
+    text: |-
+      \(f'(0)\) 存在， \(f''(0)\) 存在
+    figures: []
+  - label: D
+    text: |-
+      无法确定 \(f''(0)\) 是否存在
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      \(f(x)=\dfrac{x\ln|x|}{|x-1|}e^{\dfrac{1}{(x-1)(x-2)}}\) 的无穷间断点的个数为（）
+  choices:
+  - label: A
+    text: '0'
+    figures: []
+  - label: B
+    text: '1'
+    figures: []
+  - label: C
+    text: '2'
+    figures: []
+  - label: D
+    text: '3'
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 \(I = \int_{0}^{+\infty} e^{-px} \cos qx \, dx\)，则
+  choices:
+  - label: A
+    text: |-
+      当 \(p \leqslant 0\) 时， \(I = q^{2}\)
+    figures: []
+  - label: B
+    text: |-
+      当 \(p \leqslant 0\) 时， \(I = p^{2} + q^{2}\)
+    figures: []
+  - label: C
+    text: |-
+      当 p > 0 时， \(I = \dfrac{p}{p^{2} + q^{2}}\)
+    figures: []
+  - label: D
+    text: |-
+      当 p > 0 时， \(I = \dfrac{1}{p^{2} + q^{2}}\)
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 \(y_{1}=e^{-x}\), \(y_{2}=2x\) 是常系数齐次线性微分方程 \(y'''+ay''+by'+cy=0\) 的两个解，则该方程的通解可为
+  choices:
+  - label: A
+    text: |-
+      \(C_{1}e^{-x}+C_{2}+C_{3}x.\)
+    figures: []
+  - label: B
+    text: |-
+      \(C_{1}e^{-x}+C_{2}e^{x}+C_{3}x.\)
+    figures: []
+  - label: C
+    text: |-
+      \(C_{1}e^{-x}+C_{2}e^{x}+C_{3}.\)
+    figures: []
+  - label: D
+    text: |-
+      \(C_{1}e^{-x}+C_{2}xe^{x}+C_{3}.\)
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 \(a_{0}=1,\sum_{n=0}^{\infty}2a_{n}x^{n+1}+\sum_{n=0}^{\infty}(n+1)a_{n+1}x^{n}=0\)，则级数 \(\sum_{n=0}^{\infty}a_{n}=\underline{\qquad}\) （）
+  choices:
+  - label: A
+    text: '1'
+    figures: []
+  - label: B
+    text: e
+    figures: []
+  - label: C
+    text: '-1'
+    figures: []
+  - label: D
+    text: |-
+      \(e^{-1}\)
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      \(I = \int_{\dfrac{\pi}{4}}^{\dfrac{\pi}{2}} \mathrm{d}\theta \int_{0}^{\dfrac{1}{\sin\theta}} f(r) r \mathrm{d}r =\) ( )
+  choices:
+  - label: A
+    text: |-
+      \(\int_{0}^{1} \mathrm{d}x \int_{0}^{1} f(\sqrt{x^{2} + y^{2}}) \mathrm{d}y.\)
+    figures: []
+  - label: B
+    text: |-
+      \(\int_{0}^{1} \mathrm{d}x \int_{1}^{x} f(\sqrt{x^{2} + y^{2}}) \mathrm{d}y.\)
+    figures: []
+  - label: C
+    text: |-
+      \(\int_{0}^{1} \mathrm{d}r \int_{\dfrac{\pi}{4}}^{\dfrac{\pi}{2}} f(r) r \mathrm{d}\theta + \int_{1}^{\sqrt{2}} \mathrm{d}r \int_{\dfrac{\pi}{4}}^{\arcsin\dfrac{1}{r}} f(r) r \mathrm{d}\theta.\)
+    figures: []
+  - label: D
+    text: |-
+      \(\int_{0}^{\sqrt{2}} \mathrm{d}r \int_{\arcsin\dfrac{1}{r}}^{\dfrac{\pi}{4}} f(r) \mathrm{d}\theta.\)
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 是 $n$ 阶矩阵$,\alpha_1, \alpha_2, \cdots, \alpha_s$ 是 $n$ 维列向量（$s < n$），向量组（Ⅰ）$\alpha_1, \alpha_2, \cdots, \alpha_s$，向量组（Ⅱ）$A\alpha_1, A\alpha_2, \cdots, A\alpha_s$，则下列结论中正确的是（ ）
+  choices:
+  - label: A
+    text: 若（Ⅰ）线性无关，则（Ⅱ）线性无关
+    figures: []
+  - label: B
+    text: 若（Ⅱ）线性相关，则（Ⅰ）线性相关
+    figures: []
+  - label: C
+    text: 若（Ⅰ）线性无关，（Ⅱ）线性相关，则 $A$ 不可逆
+    figures: []
+  - label: D
+    text: 若（Ⅰ）线性无关$,A$ 不可逆，则（Ⅱ）线性相关
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设实对称矩阵 A 与 \(B = \begin{pmatrix} 1 & 0 & 0 \\ 0 & 0 & 3 \\ 0 & 3 & 0 \end{pmatrix}\) 合同， \(A^{*}\) 是 A 的伴随矩阵，则二次型 \(x^{T}A^{*}x\) 的规范形为
+  choices:
+  - label: A
+    text: |-
+      \(y_{1}^{2} + y_{2}^{2} - y_{3}^{2}\)
+    figures: []
+  - label: B
+    text: |-
+      \(-y_{1}^{2} - y_{2}^{2} + y_{3}^{2}\)
+    figures: []
+  - label: C
+    text: |-
+      \(y_{1}^{2} + y_{2}^{2} + y_{3}^{2}\)
+    figures: []
+  - label: D
+    text: |-
+      \(-y_{1}^{2} - y_{2}^{2} - y_{3}^{2}\)
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设随机变量 $X$ 与 $Y$ 相互独立$,X \sim N(0,1)$ $,Y$ 的概率分布为 $P\{Y=0\}=\dfrac{1}{4}$ $,P\{Y=1\}=\dfrac{3}{4}$ $,Z=XY$，则对于 $Z$ 的分布函数 $F(z)$ 有（ ）
+  choices:
+  - label: A
+    text: |-
+      $\lim\limits_{z\to 0^-} F(z) = \dfrac{3}{8}, \lim\limits_{z\to 0^+} F(z) = \dfrac{5}{8}$
+    figures: []
+  - label: B
+    text: |-
+      $\lim\limits_{z\to 0^-} F(z) = \lim\limits_{z\to 0^+} F(z) = \dfrac{1}{2}$
+    figures: []
+  - label: C
+    text: |-
+      $\lim\limits_{z\to 0^-} F(z) = \dfrac{1}{4}, \lim\limits_{z\to 0^+} F(z) = \dfrac{3}{4}$
+    figures: []
+  - label: D
+    text: |-
+      $\lim\limits_{z\to 0^-} F(z) = \dfrac{3}{4}, \lim\limits_{z\to 0^+} F(z) = \dfrac{5}{8}$
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $X_1, X_2, \cdots, X_8$ 为来自总体 $X \sim N(0, \sigma^2)$ 的简单随机样本$,Y^2 = \dfrac{1}{8} \sum_{i=1}^8 X_i^2$，则下列选项正确的是（ ）
+  choices:
+  - label: A
+    text: |-
+      $X^2 \sim \chi^2(1)$
+    figures: []
+  - label: B
+    text: |-
+      $Y^2 \sim \chi^2(8)$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{X}{Y} \sim t(8)$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{X^2}{Y^2} \sim F(8, 1)$
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 \(\lim\limits_{x\to0}\dfrac{\ln(1-2x^{3})+xf(x)}{x^{6}}=3\)，则 \(\lim\limits_{x\to0}\dfrac{f(x)-2x^{2}}{x^{5}}=\) ___
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      已知某产品的生产函数为 $Q = AK^{\alpha}L^{\beta}$，其中 $Q$ 为产量$,K$ 表示资金$,L$ 表示劳力$,A, \alpha, \beta$ 为正常数，且 $\alpha + \beta = 1$，则 $K\dfrac{\partial Q}{\partial K} + L\dfrac{\partial Q}{\partial L} = \underline{\qquad\qquad}$。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      \(f(x,y)=\mathrm{e}^{2x}(x+2y+y^{2})\)的极值为___
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      \(\lim\limits_{t\to0^{+}}\dfrac{1}{t^{2}}\int_{0}^{t}\mathrm{d}x\int_{0}^{t-x}\mathrm{e}^{-(x^{2}+y^{2})}\mathrm{d}y=\) ___
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设3阶矩阵 \(A^{-1}\)的特征值为1,2,3, \(A_{11}\), \(A_{22}\), \(A_{33}\)为 \(|A|\)的代数余子式，则 \(A_{11}+A_{22}+A_{33}=\) ___
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设二维总体 $(X, Y)$ 的概率密度为 $ f(x, y)=\begin{cases}2\theta^{-2}\mathrm{e}^{-\dfrac{x+y}{\theta}}, & 0 0)$ $(X_1, Y_1), (X_2, Y_2), \cdots, (X_n, Y_n)$ 为 $(X, Y)$ 的一组简单随机样本，则 $\theta$ 的最大似然估计量 $\hat{\theta} = \underline{\qquad\qquad} . $
+- number: 17
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $y=y(x)$ 满足 $x^2y'+y=x^2e^{\dfrac{1}{x}} (x \neq 0)$，且 $y(1)=3e$。 (Ⅰ) 求 $y=y(x)$ 的全部渐近线方程； (Ⅱ) 讨论曲线 $y=y(x)$ 与 $y=k (k > 0)$ 不同交点的个数。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设非负函数 $f(x)$ 在 $[0, t]$ ($t > 0$) 上有二阶连续导数，且 $f(0) = 0, f''(x) > 0, D = \{(x, y) \mid 0 \leqslant x \leqslant t, 0 \leqslant y \leqslant f(x)\}$，证明$: \iint_D x\mathrm{d}x\mathrm{d}y > \dfrac{2}{3}t \iint_D \mathrm{d}x\mathrm{d}y$。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设曲线 $y = \dfrac{1}{x(\ln x)^{n+1}} (n = 1, 2, \cdots)$ 在 $[e^2, +\infty)$ 上与 $x$ 轴所围无界区域的面积为 $a_n$，求 $ \sum_{n=1}^{\infty} \dfrac{a_n}{n+1}$。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $D=\{(x,y) \mid x^2+y^2 \leqslant 1, x \geqslant 0, y \geqslant 0\}$，计算 $I=\iint_D 2xye^{x^2-y^2}\mathrm{d}x\mathrm{d}y$。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      (本题满分12分) 设向量 $\boldsymbol{\beta} = (b, 1, 1)^{\mathrm{T}}$ 可由 $\boldsymbol{\alpha}_1 = (a, 0, 1)^{\mathrm{T}}, \boldsymbol{\alpha}_2 = (1, a-1, 1)^{\mathrm{T}}, \boldsymbol{\alpha}_3 = (1, 0, a)^{\mathrm{T}}$ 线性表示，且表示法不唯一。记 $A = (\boldsymbol{\alpha}_1, \boldsymbol{\alpha}_2, \boldsymbol{\alpha}_3)$。 (1) 求 $a, b$ 的值，并写出 $\boldsymbol{\beta}$ 由 $\boldsymbol{\alpha}_1, \boldsymbol{\alpha}_2, \boldsymbol{\alpha}_3$ 表示的线性表示式； (2) 求一个可逆矩阵 $P$，使得 $P^{-1}AP = \Lambda$（$\Lambda$ 为对角矩阵）。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设随机变量 $X \sim B\left(1, \dfrac{1}{2}\right)$ $,Y \sim E(1)$，且 $X$ 与 $Y$ 相互独立，记 $Z = (2X - 1)Y$ $,(Y, Z)$ 的分布函数为 $F(y, z)$。 (Ⅰ) 求 $Z$ 的概率密度； (Ⅱ) 求 $F(2, -1)$ 的值。
+content_hash: a8de0a4bc6404fd35a4dfebaa4f16f5e6c340ac115522591ec7385b2236f5224

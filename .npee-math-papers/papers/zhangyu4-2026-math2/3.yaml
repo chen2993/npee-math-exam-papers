@@ -4,290 +4,277 @@ paper:
   year: 2026
   subject: math2
   paper_no: 3
-content_hash: b2a158006f0dcf4502168a75ef5a918f81cc2b745e4a922073ce62ef8a4b8052
 questions:
 - number: 1
   section: choice
   points: 5
   stem:
     text: |-
-      设 $f(x)=\int_0^x(x-2t)e^{-t^2}\,\mathrm{d}t\,(x\geq 0)$，$g(x)=\int_0^x(x-2t)\sin t^2\,\mathrm{d}t$，则\ExamSelection
+      设 $f(x)=\int_0^x(x-2t)\mathrm{e}^{-t^2}\,\mathrm{d}t\ (x\ge0)$ $,g(x)=\int_0^x(x-2t)\sin t^2\,\mathrm{d}t$，则（ ）
   choices:
   - label: A
-    text: $f(x)$ 单调增加，$g(x)$ 是奇函数。
+    text: $f(x)$ 单调增加$,g(x)$ 是奇函数
     figures: []
   - label: B
-    text: $f(x)$ 单调增加，$g(x)$ 是偶函数。
+    text: $f(x)$ 单调增加$,g(x)$ 是偶函数
     figures: []
   - label: C
-    text: $f(x)$ 单调减少，$g(x)$ 是奇函数。
+    text: $f(x)$ 单调减少$,g(x)$ 是奇函数
     figures: []
   - label: D
-    text: $f(x)$ 单调减少，$g(x)$ 是偶函数。
+    text: $f(x)$ 单调减少$,g(x)$ 是偶函数
     figures: []
 - number: 2
   section: choice
   points: 5
   stem:
-    text: |-
-      设函数 $f(x)$ 在 $[0,1]$ 上二阶可导，则\ExamSelection
+    text: 设函数 $f(x)$ 在 $[0,1]$ 上二阶可导，则（ ）
   choices:
   - label: A
     text: |-
-      当 $f'(x)<0$ 时，$f\left(\dfrac{1}{2}\right)<\int_0^1f(x)\,\mathrm{d}x$。
+      当 $f'(x)<0$ 时$,f\left(\dfrac{1}{2}\right)<\int_0^1 f(x)\,\mathrm{d}x$
     figures: []
   - label: B
     text: |-
-      当 $f'(x)>0$ 时，$f\left(\dfrac{1}{2}\right)<\int_0^1f(x)\,\mathrm{d}x$。
+      当 $f'(x)>0$ 时$,f\left(\dfrac{1}{2}\right)<\int_0^1 f(x)\,\mathrm{d}x$
     figures: []
   - label: C
     text: |-
-      当 $f''(x)<0$ 时，$f\left(\dfrac{1}{3}\right)<\int_0^1f(x^2)\,\mathrm{d}x$。
+      当 $f''(x)<0$ 时$,f\left(\dfrac{1}{3}\right)<\int_0^1 f(x^2)\,\mathrm{d}x$
     figures: []
   - label: D
     text: |-
-      当 $f''(x)>0$ 时，$f\left(\dfrac{1}{3}\right)<\int_0^1f(x^2)\,\mathrm{d}x$。
+      当 $f''(x)>0$ 时$,f\left(\dfrac{1}{3}\right)<\int_0^1 f(x^2)\,\mathrm{d}x$
     figures: []
 - number: 3
   section: choice
   points: 5
   stem:
     text: |-
-      设 $f'(x)>0$，$f''(x)<0$，$x>0$，对任意的正整数 $n$，记 $I_1=\dfrac{1}{2}[f(n+1)-f(n)]$，$I_2=f(n)-f\left(\dfrac{2n-1}{2}\right)$，$I_3=f\left(\dfrac{2n+1}{2}\right)-f(n)$，则\ExamSelection
+      设 $f'(x)>0, f''(x)0)$，对任意正整数 $n$，记 $I_1=\dfrac{1}{2}[f(n+1)-f(n)]$ $,I_2=f(n)-f\left(\dfrac{2n-1}{2}\right)$ $,I_3=f\left(\dfrac{2n+1}{2}\right)-f(n)$，则（ ）
   choices:
   - label: A
-    text: $I_1>I_2>I_3$。
+    text: $I_1>I_2>I_3$
     figures: []
   - label: B
-    text: $I_1>I_3>I_2$。
+    text: $I_1>I_3>I_2$
     figures: []
   - label: C
-    text: $I_2>I_1>I_3$。
+    text: $I_2>I_1>I_3$
     figures: []
   - label: D
-    text: $I_2>I_3>I_1$。
+    text: $I_2>I_3>I_1$
     figures: []
 - number: 4
   section: choice
   points: 5
   stem:
     text: |-
-      圆 $r=1$ 之外和圆 $r=\dfrac{2}{\sqrt{3}}\cos\theta$ 之内的公共部分面积表示为\ExamSelection
+      圆 $r=1$ 之外和圆 $r=\dfrac{2}{\sqrt{3}}\cos\theta$ 之内的公共部分面积可以表示为（ ）
   choices:
   - label: A
     text: |-
-      $\int_0^{\dfrac{\pi}{6}}\mathrm{d}\theta\int_0^{\dfrac{2}{\sqrt{3}}\cos\theta}r\,\mathrm{d}r$。
+      $\int_0^{\dfrac{\pi}{6}}\mathrm{d}\theta\int_0^{\dfrac{2}{\sqrt{3}}\cos\theta}r\,\mathrm{d}r$
     figures: []
   - label: B
     text: |-
-      $2\int_0^{\dfrac{\pi}{6}}\mathrm{d}\theta\int_0^{\dfrac{2}{\sqrt{3}}\cos\theta}r\,\mathrm{d}r$。
+      $2\int_0^{\dfrac{\pi}{6}}\mathrm{d}\theta\int_0^{\dfrac{2}{\sqrt{3}}\cos\theta}r\,\mathrm{d}r$
     figures: []
   - label: C
     text: |-
-      $2\int_0^{\dfrac{\pi}{6}}\mathrm{d}\theta\int_1^{\dfrac{2}{\sqrt{3}}\cos\theta}r\,\mathrm{d}r$。
+      $2\int_0^{\dfrac{\pi}{6}}\mathrm{d}\theta\int_1^{\dfrac{2}{\sqrt{3}}\cos\theta}r\,\mathrm{d}r$
     figures: []
   - label: D
     text: |-
-      $\int_0^{\dfrac{\pi}{6}}\mathrm{d}\theta\int_1^{\dfrac{2}{\sqrt{3}}\cos\theta}r\,\mathrm{d}r$。
+      $\int_0^{\dfrac{\pi}{6}}\mathrm{d}\theta\int_1^{\dfrac{2}{\sqrt{3}}\cos\theta}r\,\mathrm{d}r$
     figures: []
 - number: 5
   section: choice
   points: 5
   stem:
-    text: |-
-      边长为 $1$ 的正方形闸门铅直放置于水中，顶边与水面相平，一条对角线将闸门分成两个三角形区域，则两个三角形区域上所受水压力之比可以为\ExamSelection
+    text: 边长为 1 的正方形闸门铅直放置于水中，顶边与水面相平，一条对角线将闸门分成两个三角形区域，则两个三角形区域上所受水压力之比可以为（ ）
   choices:
   - label: A
     text: |-
-      $\dfrac{\sqrt{2}}{2}$。
+      $\dfrac{\sqrt{2}}{2}$
     figures: []
   - label: B
     text: |-
-      $\dfrac{\sqrt{3}}{3}$。
+      $\dfrac{\sqrt{3}}{3}$
     figures: []
   - label: C
-    text: $2$。
+    text: $2$
     figures: []
   - label: D
     text: |-
-      $\dfrac{3}{2}$。
+      $\dfrac{3}{2}$
     figures: []
 - number: 6
   section: choice
   points: 5
   stem:
     text: |-
-      已知数列 $\{x_n\}$，$\{y_n\}$，且 $x_1=y_1=k$，$0<k<1$，$x_{n+1}=x_n^2$，$y_{n+1}=\sin y_n\,(n=1,2,\cdots)$，则当 $n\to\infty$ 时，\ExamSelection
+      已知数列 $\{x_n\}, \{y_n\}$ 满足 $x_1=y_1=k\ (0<k<1)$ $,x_{n+1}=x_n^2$ $,y_{n+1}=\sin y_n$，则当 $n\to\infty$ 时（ ）
   choices:
   - label: A
-    text: $x_n$ 是 $y_n$ 的高阶无穷小。
+    text: $x_n$ 是 $y_n$ 的高阶无穷小
     figures: []
   - label: B
-    text: $y_n$ 是 $x_n$ 的高阶无穷小。
+    text: $y_n$ 是 $x_n$ 的高阶无穷小
     figures: []
   - label: C
-    text: $x_n$ 与 $y_n$ 是等价无穷小。
+    text: $x_n$ 与 $y_n$ 是等价无穷小
     figures: []
   - label: D
-    text: $x_n$ 与 $y_n$ 是同阶但不等价的无穷小。
+    text: $x_n$ 与 $y_n$ 是同阶但不等价的无穷小
     figures: []
 - number: 7
   section: choice
   points: 5
   stem:
     text: |-
-      设 $f(1)=1$，$f'(1)=2$，则 $\lim_{x\to1}\dfrac{\ln f[\cos(x-1)-\sin(x-1)]}{\ln x}=$\ExamSelection
+      设 $f(1)=1, f'(1)=2$，则 $\lim_{x\to1}\dfrac{\ln f[\cos(x-1)-\sin(x-1)]}{\ln x} = $（ ）
   choices:
   - label: A
-    text: $-2$。
+    text: $-2$
     figures: []
   - label: B
-    text: $2$。
+    text: $2$
     figures: []
   - label: C
-    text: $-e$。
+    text: |-
+      $-\mathrm{e}$
     figures: []
   - label: D
-    text: $e$。
+    text: |-
+      $\mathrm{e}$
     figures: []
 - number: 8
   section: choice
   points: 5
   stem:
-    text: |-
-      设 $n$ 阶矩阵 $A,B,C$ 满足 $r(ABC)+2n=r(A)+r(B)+r(C)$，则\ExamSelection
+    text: 设 $n$ 阶矩阵 $A,B,C$ 满足 $r(ABC)+2n=r(A)+r(B)+r(C)$，则（ ）
   choices:
   - label: A
-    text: $r(A)+r(B)+r(C)=r(AB)$。
+    text: $r(A)+r(B)+r(C)=r(AB)$
     figures: []
   - label: B
-    text: $r(AB)+n=r(A)+r(B)$。
+    text: $r(AB)+n=r(A)+r(B)$
     figures: []
   - label: C
-    text: $r(ABC)>r(A)+r(BC)-n$。
+    text: $r(ABC)>r(A)+r(BC)-n$
     figures: []
   - label: D
-    text: $r(AB)=r(BC)=n$。
+    text: $r(AB)=r(BC)=n$
     figures: []
 - number: 9
   section: choice
   points: 5
   stem:
     text: |-
-      设矩阵 $\begin{pmatrix}1&2&0\\2&a&1\\0&1&b\end{pmatrix}$ 有 $2$ 个正特征值和 $1$ 个负特征值，则\ExamSelection
+      设矩阵 $\begin{pmatrix}1&2&0\\2&a&1\\0&1&b\end{pmatrix}$ 有 2 个正特征值和 1 个负特征值，则（ ）
   choices:
   - label: A
-    text: $a>4$，$b>1$。
+    text: $a>4, b>1$
     figures: []
   - label: B
-    text: $a<4$，$b>1$。
+    text: $a1$
     figures: []
   - label: C
-    text: $(a-4)b>1$。
+    text: $(a-4)b>1$
     figures: []
   - label: D
-    text: $(a-4)b<1$。
+    text: $(a-4)b<1$
     figures: []
 - number: 10
   section: choice
   points: 5
   stem:
     text: |-
-      设向量组 $B:\ \boldsymbol{\beta}_1,\boldsymbol{\beta}_2,\cdots,\boldsymbol{\beta}_r$ 能由向量组 $A:\ \boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\cdots,\boldsymbol{\alpha}_s$ 线性表示为 $\begin{pmatrix}\boldsymbol{\beta}_1\\\boldsymbol{\beta}_2\\\vdots\\\boldsymbol{\beta}_r\end{pmatrix}=P\begin{pmatrix}\boldsymbol{\alpha}_1\\\boldsymbol{\alpha}_2\\\vdots\\\boldsymbol{\alpha}_s\end{pmatrix}$，其中 $P$ 为 $r\times s$ 矩阵，且向量组 $A$ 线性无关，则向量组 $B$ 线性无关是 $r(P)=r$ 的\ExamSelection
+      设向量组 $B:\boldsymbol{\beta}_1, \boldsymbol{\beta}_2, \cdots, \boldsymbol{\beta}_r$ 能由向量组 $A:\boldsymbol{\alpha}_1, \boldsymbol{\alpha}_2, \cdots, \boldsymbol{\alpha}_s$ 线性表示为 $\begin{pmatrix}\boldsymbol{\beta}_1\\\boldsymbol{\beta}_2\\\vdots\\\boldsymbol{\beta}_r\end{pmatrix}=P\begin{pmatrix}\boldsymbol{\alpha}_1\\\boldsymbol{\alpha}_2\\\vdots\\\boldsymbol{\alpha}_s\end{pmatrix}$，其中 $P$ 为 $r\times s$ 矩阵，且向量组 $A$ 线性无关，则向量组 $B$ 线性无关是 $r(P)=r$ 的（ ）
   choices:
   - label: A
-    text: 充分非必要条件。
+    text: 充分非必要条件
     figures: []
   - label: B
-    text: 必要非充分条件。
+    text: 必要非充分条件
     figures: []
   - label: C
-    text: 充分必要条件。
+    text: 充分必要条件
     figures: []
   - label: D
-    text: 既非充分也非必要条件。
+    text: 既非充分也非必要条件
     figures: []
 - number: 11
   section: fill
   points: 5
   stem:
     text: |-
-      设 $y=\tan^n x\,(n\geq1)$ 在 $x=\dfrac{\pi}{4}$ 处的切线在 $x$ 轴上的截距为 $x_n$，则 $\lim_{n\to\infty}y(x_n)=\ExamBlank$。
+      设曲线 $y=\tan^n x\ (n\ge1)$ 在 $x=\dfrac{\pi}{4}$ 处的切线在 $x$ 轴上的截距为 $x_n$，则 $\lim_{n\to\infty}y(x_n) = $ \underline{\qquad}。
 - number: 12
   section: fill
   points: 5
   stem:
     text: |-
-      $\int_{-\pi}^{\pi}(x+\cos x)^3\,\mathrm{d}x=\ExamBlank$。
+      $\int_{-\pi}^\pi(x+\cos x)^3\,\mathrm{d}x = $ \underline{\qquad}。
 - number: 13
   section: fill
   points: 5
   stem:
     text: |-
-      设 $u=ze^{\dfrac{x}{y}}\sin(x^2+y^2)$，其中 $z=z(x,y)$ 是由方程 $3x^2+2y^2+2z=7$ 确定的隐函数，则 $\left.\dfrac{\partial u}{\partial x}\right|_{(1,1)}=\ExamBlank$。
+      设 $u=z\mathrm{e}^{\dfrac{x}{y}}\sin(x^2+y^2)$，其中 $z=z(x,y)$ 由方程 $3x^2+2y^2+2z=7$ 确定，则 $\left.\dfrac{\partial u}{\partial x}\right|_{(1,1)} = $ \underline{\qquad}。
 - number: 14
   section: fill
   points: 5
   stem:
     text: |-
-      曲线 $x=\int_{-\sqrt{3}}^y\sqrt{3-t^2}\,\mathrm{d}t$ 的弧长为 $\ExamBlank$。
+      曲线 $x=\int_{-\sqrt{3}}^y\sqrt{3-t^2}\,\mathrm{d}t$ 的弧长为 \underline{\qquad}。
 - number: 15
   section: fill
   points: 5
   stem:
     text: |-
-      已知函数 $y=y(x)$ 由 $\begin{cases}x=\sin t,\\2t-\int_1^{y+t^2}e^{-u^2}\,\mathrm{d}u=0\end{cases}$ 确定，则 $\left.\dfrac{\mathrm{d}y}{\mathrm{d}x}\right|_{t=0}=\ExamBlank$。
+      已知函数 $y=y(x)$ 由 $\begin{cases}x=\sin t, \\2t-\int_1^{y+t^2}\mathrm{e}^{-u^2}\,\mathrm{d}u=0\end{cases}$ 确定，则 $\left.\dfrac{\mathrm{d}y}{\mathrm{d}x}\right|_{t=0} = $ \underline{\qquad}。
 - number: 16
   section: fill
   points: 5
   stem:
     text: |-
-      已知 $A$，$B$ 均为 $3$ 阶方阵，且满足 $ABA+AB^2=-2E$，$\lambda_1=1$，$\lambda_2=-2$，$\lambda_3=-1$ 为 $A$ 的三个特征值，则 $|AB+B^2|=\ExamBlank$。
+      已知 $A,B$ 均为 3 阶方阵，且 $ABA+AB^2=-2E$ $,A$ 的三个特征值为 $1, -2, -1$，则 $|AB+B^2| = $ \underline{\qquad}。
 - number: 17
   section: solution
-  points: 10
+  points: 12
   stem:
     text: |-
-      求函数 $z=\cos^2x+\cos^2y$ 在条件 $x-y=\dfrac{\pi}{4}$ 下的极值。
+      求函数 $z=\cos^2 x+\cos^2 y$ 在条件 $x-y=\dfrac{\pi}{4}$ 下的极值。
 - number: 18
   section: solution
   points: 12
   stem:
     text: |-
-      设 $f(x)$ 在 $[0,1]$ 上可导，$F(x)$ 是 $f(x)$ 的一个原函数，且 $F(0)=0$。若 $\int_0^1f(x)\,\mathrm{d}x=\int_0^1F(x)\,\mathrm{d}x=0$，证明：
-  subparts:
-  - text: |-
-      $\int_0^1xf(x)\,\mathrm{d}x=0$；
-  - text: |-
-      存在 $\xi\in(0,1)$，使得 $f'(\xi)=0$。
+      设 $f(x)$ 在 $[0,1]$ 上可导$,F(x)$ 是 $f(x)$ 的一个原函数，且 $F(0)=0$。若 $\int_0^1 f(x)\,\mathrm{d}x=\int_0^1 F(x)\,\mathrm{d}x=0$。证明： (1) $\int_0^1 xf(x)\,\mathrm{d}x=0$； (2) 存在 $\xi\in(0,1)$，使得 $f'(\xi)=0$。
 - number: 19
   section: solution
   points: 12
   stem:
     text: |-
-      设 $u=\dfrac{x}{y}$，$v=x$，$w=xz-y$，$z=z(x,y)$ 具有二阶连续偏导数。
-  subparts:
-  - text: |-
-      将函数 $z=z(x,y)$ 的方程 $y\dfrac{\partial^2z}{\partial y^2}+x\dfrac{\partial^2z}{\partial x\partial y}+2\dfrac{\partial z}{\partial y}=\dfrac{1}{x}-\dfrac{x}{y}$ 化为 $w=w(u,v)$ 的方程；
-  - text: 若 $w'_u(u,0)=1$，$w(1,v)=v^2$，求 $w=w(u,v)$ 的表达式。
+      设 $u=\dfrac{x}{y}, v=x, w=xz-y$ $,z=z(x,y)$ 具有二阶连续偏导数。 (1) 将方程 $y z_{yy}+x z_{xy}+2z_y=\dfrac{1}{x}-\dfrac{x}{y}$ 化为 $w=w(u,v)$ 满足的方程； (2) 若 $w'_u(u,0)=1, w(1,v)=v^2$，求 $w=w(u,v)$ 的表达式。
 - number: 20
   section: solution
   points: 12
   stem:
     text: |-
-      设 $f(x,y)$ 连续，且 $f(x,y)=\dfrac{1}{\sqrt{|x^2+y^2-2|}+2}+\dfrac{1}{\pi}\iint_Df(x,y)\,\mathrm{d}\sigma$，其中 $D=\{(x,y)\mid 0\leq y\leq\sqrt{2x-x^2}\}$，试求 $\iint_Df(x,y)\,\mathrm{d}\sigma$。
+      设 $f(x,y)$ 连续，且 $f(x,y)=\dfrac{1}{\sqrt{|x^2+y^2-2|+2}}+\dfrac{1}{\pi}\iint_D f(x,y)\,\mathrm{d}\sigma$，其中 $D=\{(x,y)\mid 0\le y\le\sqrt{2x-x^2}\}$，求 $\iint_D f(x,y)\,\mathrm{d}\sigma$ 的值。
 - number: 21
   section: solution
   points: 12
   stem:
     text: |-
-      设一光滑曲线在第一象限内且过坐标原点 $O$，曲线上任意一点 $M$ 处的切线 $MT$ 交 $x$ 轴于点 $T$，$MP\perp x$ 轴于点 $P$。若三角形 $MPT$ 的面积与曲边三角形 $OMP$ 的面积之比恒为常数 $k\left(k>\dfrac{1}{2}\right)$，且曲线是沿 $x$ 轴正向单调增加的，求该曲线的方程。
+      设一光滑曲线在第一象限内且过坐标原点 $O$，曲线上任意一点 $M$ 处的切线 $MT$ 交 $x$ 轴于点 $T$ $,MP\perp x$ 轴于点 $P$。若三角形 $MPT$ 的面积与曲边三角形 $OMP$ 的面积之比恒为常数 $k>\dfrac{1}{2}$，且曲线沿 $x$ 轴正向单调增加，求该曲线的方程。
 - number: 22
   section: solution
   points: 12
   stem:
     text: |-
-      设矩阵 $A=\begin{pmatrix}0&-1&2&0&-1\\-1&0&-2&-a&-1\\2&1&a+1&2&3\end{pmatrix}$，$B=\begin{pmatrix}0&-1\\-1&0\\2&1\end{pmatrix}$，$A=BC$。
-  subparts:
-  - text: 求 $a$ 的值及 $C$；
-  - text: 求 $Ax=0$ 的通解。
+      设矩阵 $A=\begin{pmatrix}0&-1&2&0&-1\\-1&0&-2&-a&-1\\2&1&a+1&2&3\end{pmatrix}$ $,B=\begin{pmatrix}0&-1\\-1&0\\2&1\end{pmatrix}$，且 $A=BC$。 (1) 求 $a$ 的值及矩阵 $C$； (2) 求齐次线性方程组 $A\boldsymbol{x}=\boldsymbol{0}$ 的通解。
+content_hash: 13de50798cba16313b2d1245557c9d70e878ee1d9aba6e9d2d801118b4cb62b4

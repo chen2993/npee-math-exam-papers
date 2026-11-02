@@ -4,304 +4,299 @@ paper:
   year: 2026
   subject: math1
   paper_no: 2
-content_hash: 837e7a961ede65c6acdabe123e38a13b92404ee2540f4f2e715c8b8e3879a945
 questions:
 - number: 1
   section: choice
   points: 5
   stem:
     text: |-
-      设 $f(x)=\lim_{n\to\infty}\dfrac{\ln(e^n+x^n)}{n}(x>0)$，则 $F(x)=\int_1^x f(t)\,\mathrm{d}t$ 在区间 $[1,+\infty)$ 上\ExamSelection
+      设 \( f(x)=\lim\limits_{n\to\infty}\dfrac{\ln({\mathrm e}^n+x^n)}{n}\, (x>0)\)，则 \(F(x)=\int_1^x f(t)\, \mathrm dt\) 在区间 \([1, +\infty)\) 上( )。
   choices:
   - label: A
-    text: 不连续。
+    text: 不连续
     figures: []
   - label: B
-    text: 连续但不可导。
+    text: 连续但不可导
     figures: []
   - label: C
-    text: 可导但二阶不可导。
+    text: 可导但二阶不可导
     figures: []
   - label: D
-    text: 二阶可导。
+    text: 二阶可导
     figures: []
 - number: 2
   section: choice
   points: 5
   stem:
     text: |-
-      设积分 $I=\int_0^{\dfrac{\pi}{2}}\dfrac{\mathrm{d}x}{\sin^p x\cos^q x}(p>0,q>0)$ 收敛，则\ExamSelection
+      设积分 \( I=\int_0^{\dfrac{\pi}{2}}\dfrac{\mathrm dx}{\sin^p x\cos^q x}\, (p>0,q>0)\) 收敛，则( )。
   choices:
   - label: A
-    text: $p>1$ 且 $q>1$。
+    text: |-
+      \(p>1\) 且 \(q>1\)
     figures: []
   - label: B
-    text: $p<1$ 且 $q<1$。
+    text: |-
+      \(p<1\) 且 \(q<1\)
     figures: []
   - label: C
-    text: $p>1$ 且 $q<1$。
+    text: |-
+      \(p>1\) 且 \(q<1\)
     figures: []
   - label: D
-    text: $p<1$ 且 $q>1$。
+    text: |-
+      \(p1\)
     figures: []
 - number: 3
   section: choice
   points: 5
   stem:
     text: |-
-      设 $f(x)$ 是定义在 $\mathbb{R}$ 上的偶函数，且 $f(x)+f'(x)=2e^x$，若 $a\left[f(x)-e^x\right]\leq x$ 在 $\mathbb{R}$ 上恒成立，则 $a$ 的取值范围为\ExamSelection
+      设 \(f(x)\) 是定义在 \(\mathbb R\) 上的偶函数，且 \(f(x)+f'(x)=2{\mathrm e}^x\)。 若 \(a[f(x)-{\mathrm e}^x]\le x\) 在 \(\mathbb R\) 上恒成立，则 \(a\) 的取值范围为( )。
   choices:
   - label: A
     text: |-
-      $(-\infty,0]$。
+      \(( -\infty,0]\)
     figures: []
   - label: B
     text: |-
-      $(-\infty,-\dfrac{1}{e}]$。
+      \( ( -\infty, -\dfrac{1}{\mathrm e}]\)
     figures: []
   - label: C
     text: |-
-      $(-\infty,-1)$。
+      \(( -\infty, -1)\)
     figures: []
   - label: D
     text: |-
-      $(-\infty,-e]$。
+      \(( -\infty, -{\mathrm e}]\)
     figures: []
 - number: 4
   section: choice
   points: 5
   stem:
     text: |-
-      设级数 $\sum_{n=2}^{\infty}\dfrac{1}{n(\ln n)^p}$ 发散，且 $\sum_{n=1}^{\infty}(-1)^{n-1}\left(\dfrac{1}{n^p}-\arctan\dfrac{1}{n^p}\right)$ 条件收敛，其中 $p>0$，则 $p$ 的取值范围为\ExamSelection
+      设级数 \( \sum_{n=2}^{\infty}\dfrac{1}{n(\ln n)^p}\) 发散，且 \( \sum_{n=1}^{\infty}(-1)^{n-1}\left(\dfrac{1}{n^p}-\arctan\dfrac{1}{n^p}\right)\) 条件收敛，其中 \(p>0\)，则 \(p\) 的取值范围为( )。
   choices:
   - label: A
-    text: $0<p<1$。
+    text: |-
+      \(0<p<1\)
     figures: []
   - label: B
     text: |-
-      $0<p\leq\dfrac{1}{3}$。
+      \( 0<p\le\dfrac{1}{3}\)
     figures: []
   - label: C
     text: |-
-      $\dfrac{1}{3}\leq p<1$。
+      \( \dfrac{1}{3}\le p<1\)
     figures: []
   - label: D
     text: |-
-      $\dfrac{1}{3}<p\leq1$。
+      \( \dfrac{1}{3}<p\le1\)
     figures: []
 - number: 5
   section: choice
   points: 5
   stem:
     text: |-
-      设 $A=\begin{pmatrix}a_1&a_2&a_3\\b_1&b_2&b_3\\c_1&c_2&c_3\end{pmatrix},B=\begin{pmatrix}b_1&b_3&b_2\\a_1&a_3&a_2\\c_1+a_1&c_3+a_3&c_2+a_2\end{pmatrix}$，则\ExamSelection
+      设 \( A=\begin{pmatrix}a_1&a_2&a_3\\b_1&b_2&b_3\\c_1&c_2&c_3\end{pmatrix}\)， \( B=\begin{pmatrix}b_1&b_3&b_2\\a_1&a_3&a_2\\c_1+a_1&c_3+a_3&c_2+a_2\end{pmatrix}\)，则( )。
   choices:
   - label: A
-    text: $|A|=-|B|$。
+    text: |-
+      \(|A|=-|B|\)
     figures: []
   - label: B
-    text: $2|A|=|B|$。
+    text: |-
+      \(2|A|=|B|\)
     figures: []
   - label: C
-    text: $|A|=2|B|$。
+    text: |-
+      \(|A|=2|B|\)
     figures: []
   - label: D
-    text: $|A|=|B|$。
+    text: |-
+      \(|A|=|B|\)
     figures: []
 - number: 6
   section: choice
   points: 5
   stem:
     text: |-
-      设 $A,B$ 均为 $n$ 阶矩阵，$\alpha,\beta$ 均为 $n$ 维列向量。若 $\alpha$ 可由 $A$ 的列向量线性表示，$(\alpha^{\mathrm{T}},\beta^{\mathrm{T}})$ 不能由 $(A^{\mathrm{T}},B^{\mathrm{T}})$ 的行向量线性表示，则下列结论中正确的是\ExamSelection
+      设 \(A,B\) 均为 \(n\) 阶矩阵，\(\alpha, \beta\) 均为 \(n\) 维列向量。若 \(\alpha\) 可由 \(A\) 的列向量线性表示，\((\alpha^T, \beta^T)\) 不能由 \((A^T,B^T)\) 的行向量线性表示，则下列结论中正确的是( )。
   choices:
   - label: A
     text: |-
-      $r(B,\beta)=r(B)$。
+      \(r(B, \beta)=r(B)\)
     figures: []
   - label: B
     text: |-
-      $r(B,\beta)=r(B)+1$。
+      \(r(B, \beta)=r(B)+1\)
     figures: []
   - label: C
     text: |-
-      $r\begin{pmatrix}A^{\mathrm{T}}&B^{\mathrm{T}}\\\alpha^{\mathrm{T}}&\beta^{\mathrm{T}}\end{pmatrix}=r(A^{\mathrm{T}},B^{\mathrm{T}})+1$。
+      \( r\begin{pmatrix}A^T&B^T\\\alpha^T&\beta^T\end{pmatrix}=r(A^T,B^T)+1\)
     figures: []
   - label: D
     text: |-
-      $r\left[(A,\alpha),B^{\mathrm{T}}\right]=r\left[(A^{\mathrm{T}},B^{\mathrm{T}})\begin{pmatrix}A\\B\end{pmatrix}\right]$。
+      \( r[(A, \alpha),B^T]=r[(A^T,B^T)\begin{pmatrix}A\\B\end{pmatrix}]\)
     figures: []
 - number: 7
   section: choice
   points: 5
   stem:
     text: |-
-      已知 $A=\begin{pmatrix}1-a&a\\a&a\end{pmatrix},X=(x_1,x_2)^{\mathrm{T}}$，二次型 $f(x_1,x_2)=\left|\begin{array}{cc}A&X\\-X^{\mathrm{T}}&0\end{array}\right|$，则 $A$ 正定是 $f(x_1,x_2)$ 正定的\ExamSelection
+      已知 \( A=\begin{pmatrix}1-a&a\\a&a\end{pmatrix}\)， \(X=(x_1,x_2)^T\)，二次型 \( f(x_1,x_2)=\begin{vmatrix}A&X\\-X^T&0\end{vmatrix}\)，则 \(A\) 正定是 \(f(x_1,x_2)\) 正定的( )。
   choices:
   - label: A
-    text: 充分不必要条件。
+    text: 充分不必要条件
     figures: []
   - label: B
-    text: 必要不充分条件。
+    text: 必要不充分条件
     figures: []
   - label: C
-    text: 充分必要条件。
+    text: 充分必要条件
     figures: []
   - label: D
-    text: 既不充分也不必要条件。
+    text: 既不充分也不必要条件
     figures: []
 - number: 8
   section: choice
   points: 5
   stem:
     text: |-
-      设 $A,B,C$ 是三个随机事件，$P(ABC)=0,0<P(C)<1$，则正确的是\ExamSelection
+      设 \(A,B,C\) 是三个随机事件，\(P(ABC)=0,0<P(C)<1\)，则正确的是( )。
   choices:
   - label: A
-    text: $P(ABC)=P(A)P(B)P(C)$。
+    text: |-
+      \(P(ABC)=P(A)P(B)P(C)\)
     figures: []
   - label: B
     text: |-
-      $P(A\cup B\cup C)=P(A)+P(B)+P(C)$。
+      \(P(A\cup B\cup C)=P(A)+P(B)+P(C)\)
     figures: []
   - label: C
     text: |-
-      $P\left[(A\cup B)\mid\overline{C}\right]=P(A\mid\overline{C})+P(B\mid\overline{C})$。
+      \(P[(A\cup B)\mid\bar C]=P(A\mid\bar C)+P(B\mid\bar C)\)
     figures: []
   - label: D
     text: |-
-      $P\left[(A\cup B)\mid C\right]=P(A\mid C)+P(B\mid C)$。
+      \(P[(A\cup B)\mid C]=P(A\mid C)+P(B\mid C)\)
     figures: []
 - number: 9
   section: choice
   points: 5
   stem:
     text: |-
-      设随机变量 $X_1\sim B(1,p),X_2\sim B(2,p)(0<p<1)$，且 $X_1$ 与 $X_2$ 相互独立，记 $Z_1=2X_1+X_2,Z_2=X_1-X_2$，则\ExamSelection
+      设随机变量 \( X_1\sim B(1,p),X_2\sim B(2,p)\, (0<p<1)\)，且 \(X_1\) 与 \(X_2\) 相互独立，记 \( Z_1=2X_1+X_2,Z_2=X_1-X_2\)，则( )。
   choices:
   - label: A
-    text: $Z_1$ 与 $Z_2$ 不相关，$Z_1$ 与 $Z_2$ 相互独立。
+    text: |-
+      \(Z_1\) 与 \(Z_2\) 不相关， 且相互独立
     figures: []
   - label: B
-    text: $Z_1$ 与 $Z_2$ 不相关，$Z_1$ 与 $Z_2$ 不相互独立。
+    text: |-
+      \(Z_1\) 与 \(Z_2\) 不相关， 但不相互独立
     figures: []
   - label: C
-    text: $Z_1$ 与 $Z_2$ 相关，$Z_1$ 与 $Z_2$ 相互独立。
+    text: |-
+      \(Z_1\) 与 \(Z_2\) 相关， 且相互独立
     figures: []
   - label: D
-    text: $Z_1$ 与 $Z_2$ 相关，$Z_1$ 与 $Z_2$ 不相互独立。
+    text: |-
+      \(Z_1\) 与 \(Z_2\) 相关， 且不相互独立
     figures: []
 - number: 10
   section: choice
   points: 5
   stem:
     text: |-
-      设随机变量 $X$ 在 $[0,\theta](\theta>0)$ 上服从均匀分布，其中 $\theta$ 未知，$X_1,X_2,\cdots,X_n$ 为总体 $X$ 的简单随机样本，$\hat{\theta}$ 为 $\theta$ 的最大似然估计量，若 $k\hat{\theta}$ 为 $\theta$ 的无偏估计量，则 $k=$\ExamSelection
+      设随机变量 \(X\) 在 \([0, \theta]\, (\theta>0)\) 上服从均匀分布，其中 \(\theta\) 未知，\(X_1,X_2, \cdots,X_n\) 为总体 \(X\) 的简单随机样本，\(\widehat\theta\) 为 \(\theta\) 的最大似然估计量。若 \(k\widehat\theta\) 为 \(\theta\) 的无偏估计量，则 \(k=\)( )。
   choices:
   - label: A
     text: |-
-      $\dfrac{n}{n+1}$。
+      \( \dfrac{n}{n+1}\)
     figures: []
   - label: B
     text: |-
-      $\dfrac{n+1}{n}$。
+      \( \dfrac{n+1}{n}\)
     figures: []
   - label: C
     text: |-
-      $\dfrac{1}{n+1}$。
+      \( \dfrac{1}{n+1}\)
     figures: []
   - label: D
     text: |-
-      $\dfrac{1}{n}$。
+      \( \dfrac{1}{n}\)
     figures: []
 - number: 11
   section: fill
   points: 5
   stem:
     text: |-
-      设 $f(x)$ 有二阶连续导数，当 $x\to0$ 时，$2\sin x+xf(x)$ 是比 $x^3$ 高阶的无穷小，则曲线 $y=f(x)$ 在点 $(0,-2)$ 处的曲率圆方程为\ExamBlank。
+      设 \(f(x)\) 有二阶连续导数，当 \(x\to0\) 时，\(2\sin x+xf(x)\) 是比 \(x^3\) 高阶的无穷小，则曲线 \(y=f(x)\) 在点 \((0, -2)\) 处的曲率圆方程为\underline{\qquad}。
 - number: 12
   section: fill
   points: 5
   stem:
     text: |-
-      曲线 $r=\dfrac{1}{1+\cos\theta}$ 在 $\theta\in\left[-\dfrac{\pi}{2},\dfrac{\pi}{2}\right]$ 上的全长为\ExamBlank。
+      曲线 \( r=\dfrac{1}{1+\cos\theta}\) 在 \( \theta\in[-\dfrac{\pi}{2}, \dfrac{\pi}{2}]\) 上的全长为\underline{\qquad}。
 - number: 13
   section: fill
   points: 5
   stem:
     text: |-
-      设 $f(x,y)=\int_{x^2+y^2}^{\dfrac{y}{x}}e^{-t^2}\,\mathrm{d}t$，则 $x\dfrac{\partial f}{\partial x}+y\dfrac{\partial f}{\partial y}$ 的极小值为\ExamBlank。
+      设 \( f(x,y)=\int_{x^2+y^2}^{\dfrac{y}{x}}{\mathrm e}^{-t^2}\, \mathrm dt\)，则 \( x\dfrac{\partial f}{\partial x}+y\dfrac{\partial f}{\partial y}\) 的极小值为\underline{\qquad}。
 - number: 14
   section: fill
   points: 5
   stem:
     text: |-
-      设 $\Sigma:(x-a)^2+(y-a)^2+(z-a)^2=2a^2(a>0)$，则 $I=\oiint_{\Sigma}(x+y+z-\sqrt{3}a)\,\mathrm{d}S=\ExamBlank$。
+      设 \(\Sigma:(x-a)^2+(y-a)^2+(z-a)^2=2a^2\, (a>0)\)，则 \(I=\oiint_{\Sigma}(x+y+z-\sqrt3a)\, \mathrm dS=\)\underline{\qquad}。
 - number: 15
   section: fill
   points: 5
   stem:
     text: |-
-      设 $A,B,C$ 均为 $3$ 阶矩阵，$A$ 的特征值为 $1,2,3$。$B$ 是可逆矩阵，且满足 $AB-B^2+BC=O$，$E$ 是 $3$ 阶单位矩阵，则行列式 $\left|(B-C)^{-1}+E\right|=\ExamBlank$。
+      设 \(A,B,C\) 均为 3 阶矩阵，\(A\) 的特征值为 \(1,2,3\)。 \(B\) 是可逆矩阵，且满足 \(AB-B^2+BC=O\)， \(E\) 是 3 阶单位矩阵，则行列式 \(\left|(B-C)^{-1}+E\right|=\)\underline{\qquad}。
 - number: 16
   section: fill
   points: 5
   stem:
     text: |-
-      设随机变量 $X$ 与 $Y$ 相互独立，$X$ 服从二项分布 $B\left(4,\dfrac{1}{2}\right)$，$Y$ 服从 $\lambda=1$ 的泊松分布，则 $P(1<\max(X,Y)\leq3)=\ExamBlank$。
+      设随机变量 \(X\) 与 \(Y\) 相互独立，\(X\) 服从二项分布 \( B(4, \dfrac{1}{2})\)， \(Y\) 服从 \(\lambda=1\) 的泊松分布，则 \(P\{1<\max(X,Y)\le3\}=\)\underline{\qquad}。
 - number: 17
   section: solution
-  points: 10
+  points: 12
   stem:
     text: |-
-      设 $a(a>-1)$ 为非零常数，$\lim_{x\to+\infty}\dfrac{\int_1^x\left[(t+a)^{1+\dfrac{1}{t}}-t^{1+\dfrac{1}{t+a}}\right]\,\mathrm{d}t}{x}=1$，求 $a$ 的值。
+      设 \(a(a>-1)\) 为非零常数，\( \lim_{x\to+\infty}\dfrac{\int_1^x\left[(t+a)^{1+\frac1t}-t^{1+\frac1{t+a}}\right]\, \mathrm dt}{x}=1\)，求 \(a\) 的值。
 - number: 18
   section: solution
   points: 12
   stem:
     text: |-
-      设 $f(x,y)$ 有二阶连续偏导数，且满足 $\mathrm{d}f(x,y)=axy^2\,\mathrm{d}x+\left(10x^2y+\dfrac{2}{5}ay^3\right)\,\mathrm{d}y$，$f(1,1)=6$。
-  subparts:
-  - text: 求 $f(x,y)$；
-  - text: 曲线 $f(x,y)=1$ 上任一点 $(x,y)$ 到原点的距离为 $d$，求 $d$ 的最小值。
+      设 \(f(x,y)\) 有二阶连续偏导数，且满足 \(\mathrm df(x,y)=axy^2\, \mathrm dx+\left(10x^2y+\dfrac{2}{5}ay^3\right)\, \mathrm dy,f(1,1)=6\)。 (1) 求 \(f(x,y)\)； (2) 曲线 \(f(x,y)=1\) 上任一点 \((x,y)\) 到原点的距离为 \(d\)，求 \(d\) 的最小值。
 - number: 19
   section: solution
   points: 12
   stem:
     text: |-
-      设平面力 $F(x,y)=(P(x,y),Q(x,y))$，其中 $P(x,y)=f(x)+y\left[e^{-x}-f'(x)\right]$，$Q(x,y)=f'(x)$，$f(x)$ 有二阶连续导数，且 $f'(0)=0$。
-  subparts:
-  - text: 若力 $F$ 对运动质点做的功与质点运动路径无关，求 $f(x)$；
-  - text: |-
-      若 $L$ 是从点 $A(-1,1)$ 到点 $B(1,0)$ 的光滑有向曲线，且 $\int_L P(x,y)\,\mathrm{d}x+Q(x,y)\,\mathrm{d}y=\dfrac{4}{e}$，求 $f(x)$ 的极值。
+      设平面力 \(F(x,y)=(P(x,y),Q(x,y))\)，其中 \(P(x,y)=f(x)+y[{\mathrm e}^{-x}-f'(x)]\)， \(Q(x,y)=f'(x)\)， \(f(x)\) 有二阶连续导数，且 \(f'(0)=0\)。 (1) 若力 \(F\) 对运动质点做的功与路径无关，求 \(f(x)\)； (2) 若 \(L\) 是从点 \(A(-1,1)\) 到点 \(B(1,0)\) 的光滑有向曲线，且 \( \int_L P(x,y)\, \mathrm dx+Q(x,y)\, \mathrm dy=\dfrac{4}{\mathrm e}\)，求 \(f(x)\) 的极值。
 - number: 20
   section: solution
   points: 12
   stem:
-    text: 设 $f(x)$ 在 $[0,1]$ 上二阶可导，且 $f''(x)>0$。
-  subparts:
-  - text: |-
-      证明：对于区间 $(0,1)$ 内的任意不同的两点 $x_1,x_2$，有 $f[\lambda x_1+(1-\lambda)x_2]<\lambda f(x_1)+(1-\lambda)f(x_2)(0<\lambda<1)$；
-  - text: |-
-      若 $\int_0^1 f(x)\,\mathrm{d}x=0$，证明：对于任意 $x\in[0,1]$，有 $|f(x)|\leq\max\{f(0),f(1)\}$。
+    text: |-
+      设 \(f(x)\) 在 \([0,1]\) 上二阶可导，且 \(f''(x)>0\)。 (1) 证明：对于区间 \((0,1)\) 内的任意不同的两点 \(x_1,x_2\)，有\( f[\lambda x_1+(1-\lambda)x_2]<\lambda f(x_1)+(1-\lambda)f(x_2)\quad(0<\lambda<1); \) (2) 若 \(\int_0^1f(x)\, \mathrm dx=0\)，证明：对任意 \(x\in[0,1]\)，有 \(|f(x)|\le\max\{f(0),f(1)\}\)。
 - number: 21
   section: solution
   points: 12
   stem:
     text: |-
-      设正定矩阵 $B=\begin{pmatrix}a&0&-\dfrac{1}{2}\\0&1&0\\-\dfrac{1}{2}&0&a\end{pmatrix}$ 有二重特征值，$A$ 为 $3$ 阶实对称矩阵，且满足 $AB=3A-B$。
-  subparts:
-  - text: |-
-      求 $a$ 的值，并求正交矩阵 $Q$，使得 $Q^{-1}BQ=\Lambda$；
-  - text: |-
-      求一个可逆线性变换 $X=PY$，将 $X^{\mathrm{T}}ABX$ 化为规范形。
+      设正定矩阵 \( B=\begin{pmatrix}a&0&-\dfrac{1}{2}\\0&1&0\\-\dfrac{1}{2}&0&a\end{pmatrix}\) 有二重特征值，\(A\) 为 3 阶实对称矩阵，且满足 \(AB=3A-B\)。 (1) 求 \(a\) 的值，并求正交矩阵 \(Q\)，使得 \(Q^{-1}BQ=\Lambda\)； (2) 求一个可逆线性变换 \(X=PY\)，将 \(X^TABX\) 化为规范形。
 - number: 22
   section: solution
   points: 12
   stem:
     text: |-
-      设随机变量 $X$ 与 $Y$ 相互独立且服从同一分布，当 $x\leq0$ 时，$X$ 的概率密度 $f(x)=0$，当 $x>0$ 时，$f(x)$ 满足方程 $f'(x)+2xf(x)=0$。$Z=\sqrt{X^2+Y^2}$，求：
-  subparts:
-  - text: $Z$ 的分布函数与概率密度；
-  - text: $D(Z)$。
+      设随机变量 \(X\) 与 \(Y\) 相互独立且服从同一分布，当 \(x\le0\) 时，\(X\) 的概率密度 \(f(x)=0\)；当 \(x>0\) 时，\(f(x)\) 满足方程 \(f'(x)+2xf(x)=0\)。 \(Z=\sqrt{X^2+Y^2}\)。 求： (1) \(Z\) 的分布函数与概率密度； (2) \(D(Z)\)。
+content_hash: 3047dfa7d3e4bd6b06409907f298393250d3c3f5b84fcecdadac23511317748d

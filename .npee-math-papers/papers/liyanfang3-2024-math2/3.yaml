@@ -10,292 +10,274 @@ questions:
   points: 5
   stem:
     text: |-
-      当 $x\to 0$ 时，下列无穷小量中最高阶的是\ExamSelection
+      当 $x \to 0$ 时，下列无穷小量中最高阶的是 ( )
   choices:
   - label: A
     text: |-
-      $\int_1^{2x}\arcsin(t-1)\,\mathrm{d}t$
+      $\int_1^{2x} \arcsin(t-1)dt.$
     figures: []
   - label: B
     text: |-
-      $\int_1^{e^x}\dfrac{(2-t)^3-1}{t}\,\mathrm{d}t$
+      $\int_1^{\mathrm{e}^x} \dfrac{(2-t)^3-1}{t}dt.$
     figures: []
   - label: C
     text: |-
-      $\int_1^{\cos x}\dfrac{\sqrt[3]{1-t^2}}{t}\,\mathrm{d}t$
+      $\int_1^{\cos x} \dfrac{\sqrt[3]{1-t^2}}{t}dt.$
     figures: []
   - label: D
     text: |-
-      $\int_0^{\tan x}\sqrt[3]{t-\arctan t}\,\mathrm{d}t$
+      $\int_0^{\tan x} \sqrt[3]{t-\arctan t}dt.$
     figures: []
 - number: 2
   section: choice
   points: 5
   stem:
     text: |-
-      设函数 $f(x)$ 对任意的 $x$ 均满足等式 $f(1+x)=af(x)$，且有 $f'(0)=1$，其中 $a$ 为非零常数，则对任意正整数 $n$，\ExamSelection
+      设函数 $f(x)$ 对任意的 $x$ 均满足等式 $f(1+x)=af(x)$，且有 $f'(0)=1$，其中 $a$ 为非零常数，则对任意正整数 $n$，($\quad$)
   choices:
   - label: A
-    text: $f(x)$ 在 $x=n$ 处不可导。
+    text: $f(x)$ 在 $x=n$ 处不可导
     figures: []
   - label: B
-    text: $f(x)$ 在 $x=n$ 处可导，且 $f'(n)=n$。
+    text: $f(x)$ 在 $x=n$ 处可导，且 $f'(n)=n$
     figures: []
   - label: C
-    text: $f(x)$ 在 $x=n$ 处可导，且 $f'(n)=na$。
+    text: $f(x)$ 在 $x=n$ 处可导，且 $f'(n)=na$
     figures: []
   - label: D
-    text: $f(x)$ 在 $x=n$ 处可导，且 $f'(n)=a^n$。
+    text: $f(x)$ 在 $x=n$ 处可导，且 $f'(n)=a^n$
     figures: []
 - number: 3
   section: choice
   points: 5
   stem:
-    text: |-
-      设函数 $f(x)$ 满足 $f''(x)>0$，且 $f(0)=0$，$f(2)=1$，$f(4)=6$，则 $f(1)+f(3)$ 可能为\ExamSelection
+    text: 设函数 $f(x)$ 满足 $f''(x) > 0$，且 $f(0)=0, f(2)=1, f(4)=6$，则 $f(1)+f(3)$ 可能为 ( )
   choices:
   - label: A
-    text: $1$。
+    text: '1'
     figures: []
   - label: B
-    text: $2$。
+    text: '2'
     figures: []
   - label: C
-    text: $3$。
+    text: '3'
     figures: []
   - label: D
-    text: $5$。
+    text: '5'
     figures: []
 - number: 4
   section: choice
   points: 5
   stem:
     text: |-
-      设函数 $y=f(x)$ 在区间 $[-3,2]$ 上的图形如图所示，则下列关于函数 $F(x)=\int_0^x f(t)\,\mathrm{d}t$ 的说法中，正确的是\ExamSelection
-    figures:
-    - kind: tikz
-      latex: |-
-        \begin{tikzpicture}[scale=0.7,>=stealth]\draw[->] (-3.3,0)--(2.5,0) node[right] {$x$};\draw[->] (0,-1.35)--(0,1.65) node[above] {$y$};\draw (-3,0.04)--(-3,-0.04) node[below] {$-3$};\draw (-2,0.04)--(-2,-0.04) node[below] {$-2$};\draw (-1,0.04)--(-1,-0.04) node[below] {$-1$};\draw (1,0.04)--(1,-0.04) node[below] {$1$};\draw (2,0.04)--(2,-0.04) node[below] {$2$};\draw (-0.08,1)--(0.08,1) node[left] {$1$};\draw (-0.08,-1)--(0.08,-1) node[left] {$-1$};\draw[dashed] (-3,0)--(-3,1.15);\draw[dashed] (-1,0)--(-1,-0.35);\draw[dashed] (1,0)--(1,1.1);\draw[dashed] (2,0)--(2,-1);\draw[thick] (-3,1.1) .. controls (-2.7,0.55) and (-2.35,0.05) .. (-2,0) .. controls (-1.55,-0.35) and (-0.65,-0.35) .. (0,0) -- (1,1.1) -- (2,-1);\end{tikzpicture}
-      path:
-      description: 函数 f(x) 在 [-3,2] 上的示意图，含坐标轴、折线和曲线
-      exception_reason:
+      设函数 $y=f(x)$ 在区间 $[-3,2]$ 上的图形如图所示，则下列关于函数 $F(x)=\int_0^x f(t) \mathrm{d}t$ 的说法中，正确的是(\quad )
   choices:
   - label: A
-    text: $F(-2)<0$。
+    text: $F(-2)<0$
     figures: []
   - label: B
-    text: $F'(0)=1$。
+    text: $F'(0)=1$
     figures: []
   - label: C
-    text: $F(x)$ 共有两个极值点。
+    text: $F(x)$ 共有两个极值点
     figures: []
   - label: D
-    text: 曲线 $y=F(x)$ 共有两个拐点。
+    text: 曲线 $y=F(x)$ 共有两个拐点
     figures: []
 - number: 5
   section: choice
   points: 5
   stem:
     text: |-
-      设 $I_1=\int_1^{+\infty}\dfrac{x^{\dfrac{1}{x}}}{x^2-1}\,\mathrm{d}x$，$I_2=\int_1^{+\infty}\dfrac{x^{\dfrac{1}{x}}}{x^2+1}\,\mathrm{d}x$，则下列说法中，正确的是\ExamSelection
+      设 $I_1=\int_1^{+\infty} \dfrac{x^{\dfrac{1}{x}}}{x^2-1}\mathrm{d}x, I_2=\int_1^{+\infty} \dfrac{x^{\dfrac{1}{x}}}{x^2+1}\mathrm{d}x$，则下列说法中，正确的是（ ）
   choices:
   - label: A
-    text: $I_1,I_2$ 均发散。
+    text: $I_1,I_2$ 均发散
     figures: []
   - label: B
-    text: $I_1,I_2$ 均收敛。
+    text: $I_1,I_2$ 均收敛
     figures: []
   - label: C
     text: |-
-      $I_1$ 发散，$I_2$ 收敛，且 $\dfrac{\pi}{4}<I_2<\dfrac{\sqrt{e}\pi}{4}$。
+      $I_1$ 发散$,I_2$ 收敛，且 $\dfrac{\pi}{4}<I_2<\dfrac{\sqrt{\mathrm{e}}\pi}{4}$
     figures: []
   - label: D
     text: |-
-      $I_1$ 发散，$I_2$ 收敛，且 $\dfrac{\sqrt{e}\pi}{4}<I_2$。
+      $I_1$ 发散$,I_2$ 收敛，且 $\dfrac{\sqrt{\mathrm{e}}\pi}{4}<I_2$
     figures: []
 - number: 6
   section: choice
   points: 5
   stem:
     text: |-
-      若函数 $y(x)$（$-\infty<x<+\infty$）满足方程 $y'=xe^{-y}+x$，且 $y(0)=0$，则下列说法中，正确的是\ExamSelection
+      函数 $y(x)(-\infty<x<+\infty)$ 满足方程 $y'=x\mathrm{e}^{-y}+x$，且 $y(0)=0$，则下列说法中 $(\quad)$
   choices:
   - label: A
-    text: $y(x)$ 是单调函数。
+    text: $y(x)$ 是单调函数
     figures: []
   - label: B
-    text: $y(x)$ 是有界函数。
+    text: $y(x)$ 是有界函数
     figures: []
   - label: C
-    text: $y(x)$ 是奇函数。
+    text: $y(x)$ 是奇函数
     figures: []
   - label: D
-    text: 以上说法均不正确。
+    text: 以上说法均不正确
     figures: []
 - number: 7
   section: choice
   points: 5
   stem:
     text: |-
-      设函数 $f(x,y)=\sqrt{|x+y|}\left(\sin\dfrac{1}{x}+\cos\dfrac{1}{y}\right)$，则\ExamSelection
+      设函数 $f(x,y)=\sqrt{|x+y|}\left(\sin \dfrac{1}{x}+\cos \dfrac{1}{y}\right)$，则 ( )
   choices:
   - label: A
     text: |-
-      $\lim_{(x,y)\to(0,0)}f(x,y)$ 与 $\lim_{y\to0}\lim_{x\to0}f(x,y)$ 均存在。
+      $\lim\limits_{(x,y)\to(0,0)} f(x,y)$ 与 $\lim\limits_{y\to 0}\lim\limits_{x\to 0}f(x,y)$ 均存在
     figures: []
   - label: B
     text: |-
-      $\lim_{(x,y)\to(0,0)}f(x,y)$ 存在，$\lim_{y\to0}\lim_{x\to0}f(x,y)$ 不存在。
+      $\lim\limits_{(x,y)\to(0,0)} f(x,y)$ 存在, $\lim\limits_{y\to 0}\lim\limits_{x\to 0}f(x,y)$ 不存在
     figures: []
   - label: C
     text: |-
-      $\lim_{(x,y)\to(0,0)}f(x,y)$ 不存在，$\lim_{y\to0}\lim_{x\to0}f(x,y)$ 存在。
+      $\lim\limits_{(x,y)\to(0,0)} f(x,y)$ 不存在, $\lim\limits_{y\to 0}\lim\limits_{x\to 0}f(x,y)$ 存在
     figures: []
   - label: D
     text: |-
-      $\lim_{(x,y)\to(0,0)}f(x,y)$ 与 $\lim_{y\to0}\lim_{x\to0}f(x,y)$ 均不存在。
+      $\lim\limits_{(x,y)\to(0,0)} f(x,y)$ 与 $\lim\limits_{y\to 0}\lim\limits_{x\to 0}f(x,y)$ 均不存在
     figures: []
 - number: 8
   section: choice
   points: 5
   stem:
     text: |-
-      已知 $n$（$n\geq2$）阶矩阵 $A,B,C$ 满足 $B$ 不可逆，$C$ 可逆，已知矩阵 $\begin{pmatrix}A&B\\C&O\end{pmatrix}$，$\begin{pmatrix}A&B\\O&C\end{pmatrix}$，$\begin{pmatrix}C&A\\B&O\end{pmatrix}$ 的秩分别为 $r_1,r_2,r_3$，则下列说法中，可能成立的是\ExamSelection
+      已知 $n(n\geqslant 2)$ 阶矩阵 $A,B,C$ 满足 $B$ 不可逆, $C$ 可逆, 记矩阵 $\begin{pmatrix} A & B \\ C & O \end{pmatrix},\begin{pmatrix} A & B \\ O & C \end{pmatrix},\begin{pmatrix} C & A \\ B & O \end{pmatrix}$ 的秩分别为 $r_1,r_2,r_3$, 则下列说法中, 可能成立的是 ( )
   choices:
   - label: A
-    text: $r_1<r_2<r_3$。
+    text: $r_1<r_2<r_3$
     figures: []
   - label: B
-    text: $r_1<r_3<r_2$。
+    text: $r_1<r_3<r_2$
     figures: []
   - label: C
-    text: $r_2<r_3<r_1$。
+    text: $r_2<r_3<r_1$
     figures: []
   - label: D
-    text: $r_3<r_1<r_2$。
+    text: $r_3<r_1<r_2$
     figures: []
 - number: 9
   section: choice
   points: 5
   stem:
     text: |-
-      设 $A$ 为 3 阶矩阵，3 维列向量 $\alpha_1,\alpha_2,\alpha_3$ 满足 $A\alpha_1=k\alpha_1$，$A\alpha_2=k\alpha_2+\alpha_1$，$A\alpha_3=k\alpha_3+\alpha_2$，其中 $\alpha_1\neq0$，$k$ 为常数，则\ExamSelection
+      设 $A$ 为 $3$ 阶矩阵$,3$ 维列向量 $\alpha_1, \alpha_2, \alpha_3$ 满足 $A\alpha_1 = k\alpha_1$ $,A\alpha_2 = k\alpha_2 + \alpha_1$ $,A\alpha_3 = k\alpha_3 + \alpha_2$，其中 $\alpha_1 eq 0$ $,k$ 为常数，则（ ）
   choices:
   - label: A
     text: $A$ 可逆。
     figures: []
   - label: B
     text: |-
-      $\alpha_1,\alpha_2,\alpha_3$ 线性无关。
+      $\alpha_1, \alpha_2, \alpha_3$ 线性无关。
     figures: []
   - label: C
     text: $A$ 不可逆。
     figures: []
   - label: D
     text: |-
-      $\alpha_1,\alpha_2,\alpha_3$ 线性相关。
+      $\alpha_1, \alpha_2, \alpha_3$ 线性相关。
     figures: []
 - number: 10
   section: choice
   points: 5
   stem:
     text: |-
-      矩阵 $A=\begin{pmatrix}2&-1&0\\-1&0&a\\0&a&2\end{pmatrix}$ 与 $B=\begin{pmatrix}0&2&-1\\2&b&-2\\-1&-2&0\end{pmatrix}$ 合同的充分必要条件为\ExamSelection
+      矩阵 $A=\begin{pmatrix} 2 & -1 & 0 \\ -1 & 0 & a \\ 0 & a & 2 \end{pmatrix}$ 与 $B=\begin{pmatrix} 0 & 2 & -1 \\ 2 & b & -2 \\ -1 & -2 & 0 \end{pmatrix}$ 合同的充分必要条件为（ ）
   choices:
   - label: A
     text: |-
-      $a=1,b\geq8$。
+      $a=1, b \geqslant 8$
     figures: []
   - label: B
     text: |-
-      $a$ 为任意常数，$b\geq8$。
+      $a$ 为任意常数$,b \geqslant 8$
     figures: []
   - label: C
-    text: $a=1,b>8$。
+    text: $a=1, b > 8$
     figures: []
   - label: D
-    text: $a$ 为任意常数，$b>8$。
+    text: $a$ 为任意常数$,b > 8$
     figures: []
 - number: 11
   section: fill
   points: 5
   stem:
     text: |-
-      设函数 $y(x)=\sqrt{1-e^{-4x^2}}-4[x]x+1$，其中 $[x]$ 表示不超过 $x$ 的最大整数，则曲线 $y=y(x)$ 在点 $(0,y(0))$ 处的法线方程为\ExamBlank。
+      设函数 $y(x)=\sqrt{1-\mathrm{e}^{-4x^2}}-4[x]x+1$，其中 $[x]$ 表示不超过 $x$ 的最大整数，则曲线 $y=y(x)$ 在点 $(0,y(0))$ 处的法线方程为$\underline{\qquad\qquad}$
 - number: 12
   section: fill
   points: 5
   stem:
     text: |-
-      $\lim_{n\to\infty}\sum_{k=1}^{n}\dfrac{\sqrt{k}}{n^{\dfrac{3}{2}}}\arctan\sqrt{\dfrac{k}{n}}=$\ExamBlank。
+      $\lim_{n\to\infty}\sum_{k=1}^{n}\dfrac{\sqrt{k}}{n^{\dfrac{3}{2}}}\arctan\sqrt{\dfrac{k}{n}}=\underline{\qquad\qquad}.$
 - number: 13
   section: fill
   points: 5
   stem:
     text: |-
-      设函数 $f(x)=k-xe^{-kx^2}$ 在 $(0,+\infty)$ 上没有零点，则 $k$ 的取值范围是\ExamBlank。
+      设函数 $f(x)=k-xe^{-kx^2}$ 在 $(0,+\infty)$ 上没有零点, 则 $k$ 的取值范围是$\underline{\qquad\qquad}$
 - number: 14
   section: fill
   points: 5
   stem:
     text: |-
-      将长度为 $k$ 的细棒置于区间 $[0,k]$ 上，此时，细棒的线密度为 $\rho(x)=2+\dfrac{x}{3}$，则细棒的质心坐标 $\bar{x}=$\ExamBlank。
+      将长度为 $k$ 的细棒置于区间 $[0,k]$ 上, 此时, 细棒的线密度为 $\rho(x)=2+\dfrac{x}{3}$, 则细棒的质心坐标 $\bar{x}=\underline{\hspace{3em}}$
 - number: 15
   section: fill
   points: 5
   stem:
     text: |-
-      设函数 $f(x,y)$ 连续，并且 $\lim_{(x,y)\to(0,0)}\dfrac{f(x,y)-2x-3y+1}{\sqrt{x^2+y^2}}$ 存在。已知平面区域 $D_t=\{(x,y)\mid0\leq x\leq t,0\leq y\leq t\}$，则 $\lim_{t\to0}\dfrac{\iint_{D_t}2^{f(x,y)}\,\mathrm{d}x\mathrm{d}y}{\sqrt{1+\sin^2t}-\cos t}=$\ExamBlank。
+      设函数 $f(x,y)$ 连续，并且 $\lim_{(x,y)\to(0,0)} \dfrac{f(x,y)-2x-3y+1}{\sqrt{x^2+y^2}}$ 存在。已知平面区域 $D_t=\{(x,y)\mid 0\leqslant x\leqslant t,0\leqslant y\leqslant t\}$，则 $\lim_{t\to 0}\dfrac{\iint_{D_t} 2^{f(x,y)}\mathrm{d}x\mathrm{d}y}{\sqrt{1+\sin^2 t}-\cos t} = \underline{\hspace{2cm}}.$
 - number: 16
   section: fill
   points: 5
   stem:
     text: |-
-      已知向量 $\alpha_1=\begin{pmatrix}1\\a\\0\end{pmatrix}$，$\alpha_2=\begin{pmatrix}a\\1\\-4\end{pmatrix}$，$\alpha_3=\begin{pmatrix}1\\-1\\-2a\end{pmatrix}$，并且 $\beta=\begin{pmatrix}-1\\1\\-2\end{pmatrix}$ 不能由 $\alpha_1,\alpha_2,\alpha_3$ 线性表示，则 $a=$\ExamBlank。
+      已知向量 $\alpha_1=\begin{pmatrix} 1 \\ a \\ 0 \end{pmatrix}, \alpha_2=\begin{pmatrix} a \\ 1 \\ -4 \end{pmatrix}, \alpha_3=\begin{pmatrix} 1 \\ -1 \\ -2a \end{pmatrix}$，并且 $\beta=\begin{pmatrix} -1 \\ 1 \\ -2 \end{pmatrix}$ 不能由 $\alpha_1, \alpha_2, \alpha_3$ 线性表示，则 $a=\cdots$
 - number: 17
   section: solution
-  points: 10
+  points: 12
   stem:
     text: |-
-      当 $x>0$ 时，求曲线 $y=\sqrt{x^2+2x}\left(e^{2x}+x^2\right)^{\dfrac{1}{x+1}}$ 的斜渐近线方程。
+      当 $x > 0$ 时，求曲线 $y = \sqrt{x^2 + 2x} (\mathrm{e}^{2x} + x^2)^{\dfrac{1}{x+1}}$ 的斜渐近线方程
 - number: 18
   section: solution
   points: 12
   stem:
     text: |-
-      设平面有界区域 $D$ 位于第一象限，由曲线 $(x^2+y^2)^4=x^6+y^6$ 与 $4(x^2+y^2)^4=x^6+y^6$ 以及坐标轴围成，计算 $\iint_D\dfrac{\sqrt{x^6+y^6}}{(x^2+y^2)^2}\,\mathrm{d}x\mathrm{d}y$。
+      设平面有界区域 $D$ 位于第一象限，由曲线 $(x^2+y^2)^4=x^6+y^6$ 与 $4(x^2+y^2)^4=x^6+y^6$ 以及坐标轴围成，计算 $\iint_D \dfrac{\sqrt{x^6+y^6}}{(x^2+y^2)^2}\mathrm{d}x\mathrm{d}y$。
 - number: 19
   section: solution
   points: 12
   stem:
     text: |-
-      已知函数 $f(x)$ 为定义在 $[0,+\infty)$ 上的非负可导函数，$f'(1)=8(e^{-1}+1)$。设点 $(X,Y)$ 为曲线 $y=f(x)$ 上任意一点，记曲线在该点处的切线在 $y$ 轴上的截距为 $A$，该曲线与直线 $x=X$ 以及坐标轴所围区域绕 $y$ 轴旋转一周所得到旋转体的体积为 $B$。若 $A+\dfrac{B}{2\pi}=X^4$，求 $f(x)$。
+      已知函数 $f(x)$ 为定义在 $[0, +\infty)$ 上的非负可导函数, $f'(1)=8(\mathrm{e}^{-1}+1)$. 设点 $(X,Y)$ 为曲线 $y=f(x)$ 上任意一点, 记曲线在该点处的切线在 $y$ 轴上的截距为 $A$, 该曲线与直线 $x=X$ 以及坐标轴所围区域绕 $y$ 轴旋转一周所得旋转体的体积为 $B$. 若 $A+\dfrac{B}{2\pi}=X^4$, 求 $f(x)$
 - number: 20
   section: solution
   points: 12
   stem:
     text: |-
-      求函数 $u=x+y+z$ 在条件 $xy+z=1$ 以及 $x^2+y^2+\dfrac{z^2}{2}=8$ 下的极值。
+      求函数 $u=x+y+z$ 在条件 $xy+z=1$ 以及 $x^2+y^2+\dfrac{z^2}{2}=8$ 下的极值
 - number: 21
   section: solution
   points: 12
   stem:
     text: |-
-      设 $a_n=\int_0^1\left(\dfrac{\sin x}{2x}\right)^n\,\mathrm{d}x\text{，}b_n=\int_0^1\left(1-\dfrac{x}{2}\right)^n\,\mathrm{d}x$（$n=1,2,\cdots$）。
-  subparts:
-  - text: |-
-      求 $\lim_{n\to\infty}a_n$；
-  - text: |-
-      求 $\lim_{n\to\infty}n(b_n-a_n)$。
+      设 $a_n=\int_0^1\left(\dfrac{\sin x}{2x}\right)^n\mathrm{d}x, b_n=\int_0^1\left(1-\dfrac{x}{2}\right)^n\mathrm{d}x(n=1,2,\cdots)$. (I) 求 $\lim\limits_{n\to\infty}a_n$; (II) 求 $\lim\limits_{n\to\infty}n(b_n-a_n)$
 - number: 22
   section: solution
   points: 12
   stem:
     text: |-
-      设二次型 $f(x_1,x_2,x_3)=(a_1x_1+a_2x_2+a_3x_3)[(a_1+b_1)x_1+(a_2+b_2)x_2+(a_3+b_3)x_3]$，记 $\boldsymbol{\alpha}=(a_1,a_2,a_3)^{\mathrm T}$，$\boldsymbol{\beta}=(b_1,b_2,b_3)^{\mathrm T}$，$\boldsymbol{\alpha},\boldsymbol{\beta}$ 为相互正交的单位向量。
-  subparts:
-  - text: 求二次型 $f(x_1,x_2,x_3)$ 对应的对称矩阵 $A$；
-  - text: |-
-      若 $k\boldsymbol{\alpha}+\boldsymbol{\beta}$ 为 $A$ 的一个特征向量，求 $k$；
-  - text: 在第（Ⅱ）问的基础上，求二次型 $f(x_1,x_2,x_3)$ 的规范形。
-content_hash: 194663d68d38fbf8e96215efae4be87511cf75dd1f679c081a1569c02a77c778
+      $f(x_1,x_2,x_3)=(a_1x_1+a_2x_2+a_3x_3)[(a_1+b_1)x_1+(a_2+b_2)x_2+(a_3+b_3)x_3]$，记 $\alpha=(a_1,a_2,a_3)^T,\beta=(b_1,b_2,b_3)^T,\alpha,\beta$ 为相互正交的单位向量. (I) 求二次型 $f(x_1,x_2,x_3)$ 对应的对称矩阵 $A$； (II) 若 $k\alpha+\beta$ 为 $A$ 的一个特征向量，求 $k$； (III) 在第 (II) 问的基础上，求二次型 $f(x_1,x_2,x_3)$ 的规范形
+content_hash: a94007289338c5daed22743c058f29dfd48eb39739bdde5ba10484c2bd88916a

@@ -4,14 +4,13 @@ paper:
   year: 2024
   subject: math1
   paper_no: 10
-content_hash: 8e7c97480c3d52cf8267b7f6b11f99ccb01826dd2a376e7561e19ddf9888f97b
 questions:
 - number: 1
   section: choice
   points: 5
   stem:
     text: |-
-      设 $f(x)$ 在 $(-\infty,+\infty)$ 连续，如果 $f(x)$ 为单调增加的奇函数，且 $F(x)=\int_0^x(2t-x)f(x-t)\,\mathrm{d}t$，则下列说法正确的是\ExamSelection
+      设 $f(x)$ 在 $(-\infty, +\infty)$ 连续，如果 $f(x)$ 为单调增加的奇函数，且 $F(x)=\int_0^x (2t-x)f(x-t) \mathrm{d}t$, 则下列说法正确的是 ( )
   choices:
   - label: A
     text: $F(x)$ 是单调递减的奇函数
@@ -21,60 +20,60 @@ questions:
     figures: []
   - label: C
     text: |-
-      $F(x)$ 是偶函数且在 $(0,+\infty)$ 单调增加
+      $F(x)$ 是偶函数且在 $(0, +\infty)$ 单调增加
     figures: []
   - label: D
     text: |-
-      $F(x)$ 是偶函数且在 $(0,+\infty)$ 单调减少
+      $F(x)$ 是偶函数且在 $(0, +\infty)$ 单调减少
     figures: []
 - number: 2
   section: choice
   points: 5
   stem:
     text: |-
-      若函数 $f,g$ 均可微，设 $z=f[xy,\ln x+g(xy)]$，则 $x\dfrac{\partial z}{\partial x}-y\dfrac{\partial z}{\partial y}$ 等于\ExamSelection
+      若函数 $f,g$ 均可微，设 $z=f[xy,\ln x+g(xy)]$，则 $x\dfrac{\partial z}{\partial x}-y\dfrac{\partial z}{\partial y}=(\quad)$。
   choices:
   - label: A
-    text: $f'_1$
+    text: $f_1'$
     figures: []
   - label: B
-    text: $f'_2$
+    text: $f_2'$
     figures: []
   - label: C
-    text: $0$
+    text: '0'
     figures: []
   - label: D
-    text: $1$
+    text: '1'
     figures: []
 - number: 3
   section: choice
   points: 5
   stem:
     text: |-
-      定义在 $[-1,1]$ 上的函数 $f(x)=\begin{cases}\dfrac{1}{2^{n+1}},&\dfrac{1}{2^{n+1}}<x\leq\dfrac{1}{2^n},\ n=0,1,2,\cdots,\\0,&-1\leq x\leq 0,\end{cases}$，则\ExamSelection
+      定义在 $[-1,1]$ 上的函数 $f(x)=\begin{cases} \dfrac{1}{2^{n+1}}, & \dfrac{1}{2^{n+1}}<x\leqslant\dfrac{1}{2^n},n=0,1,2\cdots, \\ 0, & -1\leqslant x\leqslant 0, \end{cases}$ 则 $(\quad)$
   choices:
   - label: A
     text: |-
-      $x=0$ 为 $f(x)$ 的连续点，$x=\dfrac{1}{2^n}(n=1,2,3,\cdots)$ 为 $f(x)$ 的第一类间断点
+      $x=0$ 为 $f(x)$ 的连续点, $x=\dfrac{1}{2^n}\,(n=1,2,3,\cdots)$ 为 $f(x)$ 的第一类间断点
     figures: []
   - label: B
     text: |-
-      $x=0$ 为 $f(x)$ 的连续点，$x=\dfrac{1}{2^n}(n=1,2,3,\cdots)$ 为 $f(x)$ 的第二类间断点
+      $x=0$ 为 $f(x)$ 的连续点, $x=\dfrac{1}{2^n}\,(n=1,2,3,\cdots)$ 为 $f(x)$ 的第二类间断点
     figures: []
   - label: C
     text: |-
-      $x=0$ 及 $x=\dfrac{1}{2^n}(n=1,2,3,\cdots)$ 均为 $f(x)$ 的第一类间断点
+      $x=0$ 及 $x=\dfrac{1}{2^n}\,(n=1,2,3,\cdots)$ 均为 $f(x)$ 的第一类间断点
     figures: []
   - label: D
     text: |-
-      $x=0$ 为 $f(x)$ 的第一类间断点，$x=\dfrac{1}{2^n}(n=1,2,3,\cdots)$ 为 $f(x)$ 的第二类间断点
+      $x=0$ 为 $f(x)$ 的第一类间断点, $x=\dfrac{1}{2^n}\,(n=1,2,3,\cdots)$ 为 $f(x)$ 的第二类间断点
     figures: []
 - number: 4
   section: choice
   points: 5
   stem:
     text: |-
-      设 $D=\{(x,y)\mid |x|+|y|\leq 1\}$，$I_k=\iint_D\cos(x^2+y^2)^k\,\mathrm{d}\sigma,k=1,2,3,4$，则 $\max_{1\leq k\leq 4}I_k$ 等于\ExamSelection
+      设 $D=\{(x,y)\mid |x|+|y|\leqslant 1\},I_k=\iint_D \cos(x^2+y^2)^k d\sigma,k=1,2,3,4,$ 则 $\max_{1\leqslant k\leqslant 4}I_k=(\quad).$
   choices:
   - label: A
     text: $I_1$
@@ -93,7 +92,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $A$ 为 $n$ 阶实矩阵，$|A|=3$ 且 $A$ 的各列元素之和为 $2$，$A_{ij}$ 为 $|A|$ 中元素 $a_{ij}$ 的代数余子式，则 $A_{11}+A_{12}+\cdots+A_{1n}$ 等于\ExamSelection
+      设 $A$ 为 $n$ 阶实矩阵$,|A|=3$ 且 $A$ 的各列元素之和为 $2$ $,A_{ij}$ 为 $|A|$ 中元素 $a_{ij}$ 的代数余子式，则 $A_{11}+A_{12}+\cdots+A_{1n}=(\quad)$。
   choices:
   - label: A
     text: $6$
@@ -114,26 +113,25 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $A$ 为 $n$ 阶矩阵，$A^*\neq O$，方程组 $Ax=b$ 有无穷多解，其中 $A^*$ 为 $A$ 的伴随矩阵，$b$ 为 $n$ 维非零列向量，则下列选项中错误的是\ExamSelection
+      设 $A$ 为 $n$ 阶矩阵, $A^* \neq O$, 方程组 $Ax = b$ 有无穷多解, 其中 $A^*$ 为 $A$ 的伴随矩阵, $b$ 为 $n$ 维非零列向量, 下列选项中错误的是 ( )
   choices:
   - label: A
-    text: 方程组 $Ax=0$ 必有非零解
+    text: 方程组 $Ax = 0$ 必有非零解
     figures: []
   - label: B
-    text: $b$ 一定是方程组 $Ax=0$ 的解
+    text: $b$ 一定是方程组 $Ax = 0$ 的解
     figures: []
   - label: C
-    text: 方程组 $A^*x=0$ 必有非零解
+    text: 方程组 $A^*x = 0$ 必有非零解
     figures: []
   - label: D
-    text: $b$ 一定是方程组 $A^*x=0$ 的解
+    text: $b$ 一定是方程组 $A^*x = 0$ 的解
     figures: []
 - number: 7
   section: choice
   points: 5
   stem:
-    text: |-
-      设 $A,B$ 均为 4 阶实矩阵，且 $A$ 与 $B$ 相似，已知 $|A|=|A+E|=|A-2E|=0$，且方程组 $Ax=0$ 有两个线性无关的解向量，则 $r_1=r(B),r_2=r(B-E),r_3=r(B-2E)$ 满足\ExamSelection
+    text: 设 $A,B$ 均为 4 阶实矩阵，且 $A$ 与 $B$ 相似，已知 $|A|=|A+E|=|A-2E|=0$，且方程组 $Ax=0$ 有两个线性无关的解向量，则 $r_1=r(B),r_2=r(B-E),r_3=r(B-2E)$ 满足 ( )
   choices:
   - label: A
     text: $r_1<r_2<r_3$
@@ -152,30 +150,30 @@ questions:
   points: 5
   stem:
     text: |-
-      设总体 $X$ 在区间 $[0,\theta]$ 内服从均匀分布，$X_1,X_2,X_3$ 是来自总体的简单随机样本。$\hat\theta_1=\dfrac{4}{3}\max_{1\leq i\leq 3}\{X_i\}$ 与 $\hat\theta_2=2\bar X$，则下列说法正确的是\ExamSelection
+      设总体 $X$ 在区间 $[0, \theta]$ 内服从均匀分布$,X_1, X_2, X_3$ 是来自总体的简单随机样本$.\widehat{\theta}_1 = \dfrac{4}{3}\max\limits_{1\leqslant i\leqslant 3}\{X_i\}$ 与 $\widehat{\theta}_2 = 2\overline{X}$，则下列说法正确的是（ ）。
   choices:
   - label: A
     text: |-
-      $\hat\theta_1$ 和 $\hat\theta_2$ 都是 $\theta$ 的无偏估计量，且 $\hat\theta_1$ 比 $\hat\theta_2$ 更有效
+      $\widehat{\theta}_1$ 和 $\widehat{\theta}_2$ 都是 $\theta$ 的无偏估计量，且 $\widehat{\theta}_1$ 比 $\widehat{\theta}_2$ 更有效
     figures: []
   - label: B
     text: |-
-      $\hat\theta_1$ 和 $\hat\theta_2$ 都是 $\theta$ 的无偏估计量，且 $\hat\theta_2$ 比 $\hat\theta_1$ 更有效
+      $\widehat{\theta}_1$ 和 $\widehat{\theta}_2$ 都是 $\theta$ 的无偏估计量，且 $\widehat{\theta}_2$ 比 $\widehat{\theta}_1$ 更有效
     figures: []
   - label: C
     text: |-
-      $\hat\theta_1$ 是 $\theta$ 的有偏估计，$\hat\theta_2$ 是 $\theta$ 的无偏估计量
+      $\widehat{\theta}_1$ 是 $\theta$ 的有偏估计$,\widehat{\theta}_2$ 是 $\theta$ 的无偏估计量
     figures: []
   - label: D
     text: |-
-      $\hat\theta_1$ 是 $\theta$ 的无偏估计，$\hat\theta_2$ 是 $\theta$ 的有偏估计量
+      $\widehat{\theta}_1$ 是 $\theta$ 的无偏估计$,\widehat{\theta}_2$ 是 $\theta$ 的有偏估计量
     figures: []
 - number: 9
   section: choice
   points: 5
   stem:
     text: |-
-      设总体 $X\sim N(\mu,\sigma^2)$，$X_1,X_2,\cdots,X_{n+1}$ 是来自总体 $X$ 的简单随机样本，记 $\bar X=\dfrac{1}{n}\sum_{i=1}^nX_i$，$S_n^2=\dfrac{1}{n}\sum_{i=1}^n(X_i-\bar X)^2$，则统计量 $\sqrt{\dfrac{n-1}{n+1}}\cdot\dfrac{X_{n+1}-\bar X}{S_n}$ 服从\ExamSelection
+      设总体 $X \sim N(\mu,\sigma^2),X_1,X_2,\cdots,X_{n+1}$ 是来自总体 $X$ 的简单随机样本，记 $\overline{X}=\dfrac{1}{n}\sum_{i=1}^n X_i,S_n^2=\dfrac{1}{n}\sum_{i=1}^n (X_i-\overline{X})^2$，则统计量 $\sqrt{\dfrac{n-1}{n+1}}\cdot\dfrac{X_{n+1}-\overline{X}}{S_n}$ 服从（ ）
   choices:
   - label: A
     text: $t(n-1)$
@@ -195,7 +193,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设随机事件 $A$ 与 $B$ 相互独立，$AC$ 同时发生，则 $B$ 一定发生。$P(A)=P(B)=\dfrac{1}{2},P(C)=\dfrac{1}{4},P(A\mid C)=\dfrac{1}{4}$，则 $P(A-C\mid AB\cup C)$ 等于\ExamSelection
+      设随机事件 $A$ 与 $B$ 相互独立, $AC$ 同时发生, 则 $B$ 一定发生. $P(A)=P(B)=\dfrac{1}{2}, P(C)=\dfrac{1}{4}, P(A \mid C)=\dfrac{1}{4}$, 则 $P(A-C \mid AB \cup C)=(\quad)$
   choices:
   - label: A
     text: |-
@@ -218,87 +216,71 @@ questions:
   points: 5
   stem:
     text: |-
-      $\lim_{x\to 0}\left(\dfrac{1}{x^2}-\cot^2x\right)=\ExamBlank$。
+      $\lim_{x \to 0} \left( \dfrac{1}{x^2} - \cot^2 x \right) = \underline{\hspace{2cm}}.$
 - number: 12
   section: fill
   points: 5
   stem:
     text: |-
-      $\int_0^{\dfrac{\pi}{2}}\dfrac{x+\sin x}{1+\cos x}\,\mathrm{d}x+\int_{\pi}^{2\pi}\dfrac{1+\cos x}{x+\sin x}\,\mathrm{d}x=\ExamBlank$。
+      $\int_{0}^{\dfrac{\pi}{2}} \dfrac{x + \sin x}{1 + \cos x} \mathrm{d}x + \int_{\pi}^{2\pi} \dfrac{1 + \cos x}{x + \sin x} \mathrm{d}x = \underline{\qquad\qquad}.$
 - number: 13
   section: fill
   points: 5
   stem:
     text: |-
-      设 $D=\{(x,y)\mid x^2+y^2\leq 1\}$，则 $\iint_D[\sin(x^2)\cos(y^2)+\sin(xy)\cos(x^2+y^2)]\,\mathrm{d}\sigma=\ExamBlank$。
+      设 $D=\{(x,y)\mid x^2+y^2\leqslant 1\}$，则 $\iint_{D}[\sin(x^2)\cos(y^2)+\sin(xy)\cos(x^2+y^2)]d\sigma = \underline{\qquad\qquad}.$
 - number: 14
   section: fill
   points: 5
   stem:
     text: |-
-      已知向量场 $A=\{xy^2,yz^2,zx^2\}$，则 $\operatorname{grad}(\operatorname{div}A)\big|_{(1,1,2)}=\ExamBlank$。
+      已知向量场 $A = \{xy^2, yz^2, zx^2\}$，则 $\left. \operatorname{grad}(\operatorname{div} A) \right|_{(1,1,2)} = \underline{\qquad\qquad}$。
 - number: 15
   section: fill
   points: 5
   stem:
     text: |-
-      设 $\boldsymbol{\alpha},\boldsymbol{\beta}$ 为 3 维单位向量，且 $[\boldsymbol{\alpha},\boldsymbol{\beta}]=0,A=\boldsymbol{\beta}\boldsymbol{\alpha}^{\mathrm{T}}+\boldsymbol{\alpha}\boldsymbol{\beta}^{\mathrm{T}}+\lambda E$，$E$ 为 3 阶单位矩阵，$\lambda$ 为实数，若 $A$ 为正定矩阵，则 $\lambda$ 的取值范围为 $\ExamBlank$。
+      设 $\alpha,\beta$ 为 3 维单位向量，且 $[\alpha,\beta]=0, A=\beta\alpha^T+\alpha\beta^T+\lambda E, E$ 为 3 阶单位矩阵$,\lambda$ 为实数，若 $A$ 为正定矩阵，则 $\lambda$ 的取值范围为$\underline{\qquad\qquad}$
 - number: 16
   section: fill
   points: 5
   stem:
     text: |-
-      设二维随机变量 $(U,V)$ 服从二维正态分布，$EU=EV=2,DU=4,DV=1,\rho_{UV}=\dfrac{1}{2}$，$X=U-bV,Y=V$，已知 $X$ 与 $Y$ 独立，则常数 $b=\ExamBlank$。
+      设二维随机变量 $(U,V)$ 服从二维正态分布$,EU=EV=2,DU=4,DV=1,\rho_{UV}=\dfrac{1}{2}$ $,X=U-bV,Y=V$，已知 $X$ 与 $Y$ 独立，则常数 $b=\underline{\hspace{2cm}}.$
 - number: 17
   section: solution
-  points: 10
+  points: 12
   stem:
     text: |-
-      设 $f(x)$ 在 $(-\infty,+\infty)$ 上有定义，$f'(0)=1$，且对任何 $x,y\in(-\infty,+\infty)$ 恒有 $f(x+y)=\mathrm{e}^yf(x)+\mathrm{e}^xf(y)$。
-  subparts:
-  - text: 求 $f(x)$ 满足的一阶微分方程。
-  - text: 求 $f(x)$ 表达式。
+      设 $f(x)$ 在 $(-\infty, +\infty)$ 上有定义$,f'(0) = 1$，且对任何 $x,\ y \in (-\infty, +\infty)$ 恒有 $f(x+y) = \mathrm{e}^y f(x) + \mathrm{e}^x f(y)$。 (I) 求 $f(x)$ 满足的一阶微分方程； (II) 求 $f(x)$ 表达式。
 - number: 18
   section: solution
   points: 12
   stem:
     text: |-
-      求幂级数 $\sum_{n=1}^{\infty}\dfrac{(-1)^n}{(n+1)\cdot 2^n}(x-1)^n$ 的收敛域及和函数。
+      求幂级数 $\sum_{n=1}^{\infty}\dfrac{(-1)^n}{(n+1)\cdot 2^n}(x-1)^n$ 的收敛域及和函数
 - number: 19
   section: solution
   points: 12
   stem:
     text: |-
-      设 $L$ 是不经过点 $(1,0),(-1,0)$ 的分段光滑简单闭曲线，取正向，计算曲线积分 $I=\oint_L\dfrac{y\,\mathrm{d}x-(x-1)\,\mathrm{d}y}{(x-1)^2+y^2}+\dfrac{y\,\mathrm{d}x-(x+1)\,\mathrm{d}y}{(x+1)^2+y^2}$。
+      设 $L$ 是不经过点 $(1,0),(-1,0)$ 的分段光滑简单闭曲线，取正向. 计算曲线积分 $I=\oint_L \dfrac{y\mathrm{d}x-(x-1)\mathrm{d}y}{(x-1)^2+y^2}+\dfrac{y\mathrm{d}x-(x+1)\mathrm{d}y}{(x+1)^2+y^2}.$
 - number: 20
   section: solution
   points: 12
   stem:
     text: |-
-      设 $f(x)$ 是在 $(-\infty,+\infty)$ 内以 $T(T>0)$ 为周期的连续函数，$F(x)=\int_0^xf(t)\,\mathrm{d}t-\dfrac{x}{T}\int_0^Tf(x)\,\mathrm{d}x$。
-  subparts:
-  - text: 证明 $F(x)$ 是以 $T$ 为周期的周期函数。
-  - text: |-
-      计算极限 $\lim_{x\to\infty}\dfrac{1}{x}\int_0^xf(t)\,\mathrm{d}t$。
+      设 $f(x)$ 是在 $(-\infty, +\infty)$ 内以 $T(T>0)$ 为周期的连续函数$,F(x) = \int_0^x f(t) \mathrm{d}t - \dfrac{x}{T}\int_0^T f(x) \mathrm{d}x$. (I) 证明 $F(x)$ 是以 $T$ 为周期的周期函数； (II) 计算极限 $\lim\limits_{x\to\infty} \dfrac{1}{x}\int_0^x f(t) \mathrm{d}t$
 - number: 21
   section: solution
   points: 12
   stem:
     text: |-
-      设 $A$ 为 3 阶实对称矩阵，若存在正交阵 $Q=\dfrac{1}{\sqrt{2}}\begin{pmatrix}a&1&0\\0&0&c\\1&b&0\end{pmatrix}(b>0,c>0)$，使 $Q^{\mathrm{T}}AQ=\Lambda=\begin{pmatrix}2&0&0\\0&0&0\\0&0&1\end{pmatrix}$。
-  subparts:
-  - text: 求 $a,b,c$ 及矩阵 $A$。
-  - text: |-
-      求一个可逆矩阵 $P$，使 $A=P^{\mathrm{T}}P-2E$。
+      设 $A$ 为 3 阶实对称矩阵，若存在正交阵 $Q=\dfrac{1}{\sqrt{2}}\begin{pmatrix} a & 1 & 0 \\ 0 & 0 & c \\ 1 & b & 0 \end{pmatrix}(b>0,c>0)$，使 $Q^{\mathrm{T}}AQ=\Lambda=\begin{pmatrix} 2 & 0 & 0 \\ 0 & 0 & 0 \\ 0 & 0 & 1 \end{pmatrix}.$ (I) 求 $a,b,c$ 及矩阵 $A$； (II) 求一个可逆矩阵 $P$，使 $A=P^{\mathrm{T}}P-2E.$
 - number: 22
   section: solution
   points: 12
   stem:
     text: |-
-      设随机变量 $X$ 与 $Y$ 相互独立，且分别服从正态分布 $N(\mu,\sigma^2)$ 与 $N(2\mu,\sigma^2)$，其中 $\sigma>0$ 为未知参数，记 $Z=2X-Y$。
-  subparts:
-  - text: 求 $Z$ 的概率密度 $f(x)$。
-  - text: |-
-      设 $Z_1,Z_2,\cdots,Z_n$ 为来自总体 $Z$ 的简单随机样本，求 $\sigma^2$ 的极大似然估计量 $\hat\sigma^2$。
-  - text: |-
-      求 $E(\hat\sigma^2)$ 和 $D(\hat\sigma^2)$。
+      设随机变量 $X$ 与 $Y$ 相互独立，且分别服从正态分布 $N(\mu,\sigma^2)$ 与 $N(2\mu,\sigma^2)$，其中 $\sigma>0$ 为未知参数，记 $Z=2X-Y$. $(I)$ 求 $Z$ 的概率密度 $f(z)$； $(II)$ 设 $Z_1,Z_2,\cdots,Z_n$ 为来自总体 $Z$ 的简单随机样本，求 $\sigma^2$ 的极大似然估计量 $\hat{\sigma}^2$； $(III)$ 求 $E(\hat{\sigma}^2)$ 和 $D(\hat{\sigma}^2)$
+content_hash: ff93b0bc876c6768b9446655439dd62fdc604aa71b7b6aca7f6ac1dc8e694662

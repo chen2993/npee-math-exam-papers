@@ -1,0 +1,273 @@
+schema_version: '3.0'
+paper:
+  series_key: chaoyue10
+  year: 2026
+  subject: math2
+  paper_no: 9
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      “对任意给定的 $\varepsilon > 0$，只有有限个数列项满足 $x_n \notin [a-\varepsilon, a+\varepsilon]$”是“$\lim\limits_{n\to\infty}x_n = a$”的( )
+  choices:
+  - label: A
+    text: 充分非必要条件
+    figures: []
+  - label: B
+    text: 必要非充分条件
+    figures: []
+  - label: C
+    text: 充分必要条件
+    figures: []
+  - label: D
+    text: 既非充分又非必要条件
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: 设函数 $y = y(x)$ 是由隐式方程 $x^3 + y^3 + xy - 1 = 0$ 所确定的函数，则( )
+  choices:
+  - label: A
+    text: $x = 0$ 是函数 $y(x)$ 的极大值点，点 $(0,1)$ 不是曲线的拐点
+    figures: []
+  - label: B
+    text: $x = 0$ 是函数 $y(x)$ 的极小值点，点 $(0,1)$ 不是曲线的拐点
+    figures: []
+  - label: C
+    text: $x = 0$ 不是函数 $y(x)$ 的极值点，点 $(0,1)$ 是曲线的拐点
+    figures: []
+  - label: D
+    text: $x = 0$ 不是函数 $y(x)$ 的极值点，点 $(0,1)$ 不是曲线的拐点
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      极限 $\lim\limits_{t\to 0^+}\dfrac{\int_0^t\mathrm{d}x\int_x^t (\mathrm{e}^{x^2+y^2} - \mathrm{e}^{x^2} - \mathrm{e}^{y^2} + 1)\,\mathrm{d}y}{t^6} = $( )
+  choices:
+  - label: A
+    text: $0$
+    figures: []
+  - label: B
+    text: $1$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{1}{4}$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{1}{18}$
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      给出下列定积分计算式： ① $\int_{-1}^1 \dfrac{1}{x^2}\,\mathrm{d}x = -\left.\dfrac{1}{x}\right|_{-1}^1 = -2$； ② $\int_0^\pi \dfrac{1}{1+\cos^2 x}\,\mathrm{d}x = \int_0^\pi \dfrac{\mathrm{d}(\tan x)}{2+\tan^2 x} = \left.\dfrac{1}{\sqrt{2}}\arctan\left(\dfrac{\tan x}{\sqrt{2}}\right)\right|_0^\pi = 0$； ③ $\int_0^\pi \arcsin(\sin x)\,\mathrm{d}x = \int_0^\pi x\,\mathrm{d}x = \dfrac{1}{2}\pi^2$。 其中正确的式子个数为( )
+  choices:
+  - label: A
+    text: '0'
+    figures: []
+  - label: B
+    text: '1'
+    figures: []
+  - label: C
+    text: '2'
+    figures: []
+  - label: D
+    text: '3'
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      函数 $f(x,y) = \sqrt[3]{x^3+y^3}$ 在点 $(0,0)$ 处( )
+  choices:
+  - label: A
+    text: 连续但一阶偏导数不存在
+    figures: []
+  - label: B
+    text: 不连续但一阶偏导数存在
+    figures: []
+  - label: C
+    text: 连续且一阶偏导数存在，但不可微
+    figures: []
+  - label: D
+    text: 可微
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x,y)$ 为连续函数，则使等式 $\iint_{x^2+y^2\le 1} f(x,y)\,\mathrm{d}\sigma = 4\int_0^1\mathrm{d}x\int_0^{\sqrt{1-x^2}} f(x,y)\,\mathrm{d}y$ 成立的一个充分条件是( )
+  choices:
+  - label: A
+    text: $f(-x,-y) = -f(x,y)$
+    figures: []
+  - label: B
+    text: $f(-x,-y) = f(x,y)$
+    figures: []
+  - label: C
+    text: $f(-x,-y) = -f(x,y)$ 且 $f(-x,y) = f(x,y)$
+    figures: []
+  - label: D
+    text: $f(-x,y) = f(x,y)$ 且 $f(x,-y) = f(x,y)$
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x) = \begin{cases} \dfrac{\sin x}{x}, & x \ne 0, \\ 1, & x = 0 \end{cases}$，则高阶导数 $f^{(2026)}(0) = $( )
+  choices:
+  - label: A
+    text: |-
+      $-\dfrac{1}{2027}$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{1}{2027}$
+    figures: []
+  - label: C
+    text: |-
+      $-\dfrac{1}{2026}$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{1}{2026}$
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A = (a_{ij})$ 为 3 阶非零方阵。若存在 3 个线性无关的非零列向量 $\alpha_i$，满足 $A\alpha_i = i\alpha_i\ (i = 1,2,3)$ $,A_{ij}$ 为 $|A|$ 中元素 $a_{ij}$ 的代数余子式，则主对角线代数余子式之和 $A_{11} + A_{22} + A_{33} = $( )
+  choices:
+  - label: A
+    text: $6$
+    figures: []
+  - label: B
+    text: $11$
+    figures: []
+  - label: C
+    text: $12$
+    figures: []
+  - label: D
+    text: $36$
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: 已知 $A$ 为 $n$ 阶矩阵$,n$ 维列向量 $b$ 与齐次线性方程组 $Ax = 0$ 的所有解向量均正交，则下列说法正确的是( )
+  choices:
+  - label: A
+    text: 向量 $b^T$ 可以由 $A^T$ 的行向量组线性表示
+    figures: []
+  - label: B
+    text: 非齐次线性方程组 $A^T x = b$ 一定有解
+    figures: []
+  - label: C
+    text: 非齐次线性方程组 $A x = b$ 一定有解
+    figures: []
+  - label: D
+    text: 以上说法均不正确
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 3 阶矩阵 $A = \alpha\alpha^T + 2\beta\beta^T - 3\gamma\gamma^T$，其中 3 维单位列向量 $\alpha, \beta, \gamma$ 两两正交$,E$ 为 3 阶单位矩阵。若矩阵 $A^* + kE$ 的正惯性指数为 2，负惯性指数为 1，则参数 $k$ 的取值范围为( )
+  choices:
+  - label: A
+    text: $-2 < k < 6$
+    figures: []
+  - label: B
+    text: $-2 < k < 3$
+    figures: []
+  - label: C
+    text: $3 < k < 6$
+    figures: []
+  - label: D
+    text: $k > 6$
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      极限 $\lim\limits_{x\to 0^+}\dfrac{x\int_x^{2x}\sqrt{2xt-t^2}\,\mathrm{d}t}{x-\sin x} = $ _____
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      曲线 $y = \lim\limits_{n\to\infty}\dfrac{x}{\mathrm{e}^{-nx}-(x^2+1)}$ 与直线 $y = -\dfrac{x}{2}$ 所围平面图形绕 $x$ 轴旋转一周所成旋转体的体积 $V = $ _____
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      若极限 $\lim\limits_{(x,y)\to(0,0)}\dfrac{f(x,y) + (x-y-1)(x+y)}{2x^2+3y^2}$ 存在且有限，则全微分 $\left.\mathrm{d}f\right|_{(0,0)} = $ _____
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      二次积分 $I = \int_{\dfrac{\pi}{4}}^{\dfrac{\pi}{2}}\mathrm{d}\theta\int_0^{\pi\csc\theta} r^2\sin\theta\cos\left[\sqrt{2}r\cos\left(\theta+\dfrac{\pi}{4}\right)\right]\mathrm{d}r = $ _____
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设函数 $y(x) = \int_{\sin x}^{x^2}\arctan\left[(x^2+\sin x-t)^2+1\right]\mathrm{d}t$，则曲线 $y = y(x)$ 在点 $(0,0)$ 处的切线方程为 _____
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $a \ne 0$，则 4 阶行列式 $D_4 = \begin{vmatrix} a & -a & 0 & 0 \\ 1 & 2a-1 & -2a & 0 \\ 0 & 2 & 3a-2 & -3a \\ 0 & 0 & 3 & 4a-3 \end{vmatrix} = $ _____
+- number: 17
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 $\varphi(x) = \int_0^1 \ln\sqrt{x^2+t^2}\,\mathrm{d}t\ (x > 0)$，求导数值 $\varphi'(1)$。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: 当陨石穿过大气层向地面高速坠落时，陨石表面与空气摩擦产生的高热使陨石的质量不断挥发。试验表明，陨石挥发的速度与陨石的表面积成正比，比例系数为常数 $k' > 0$。假设陨石是初始质量为 $m_0$ 的均匀球体，试求出陨石质量 $m$ 关于时间 $t$ 的函数表达式。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      已知 $(a,b)$ 为第一象限圆弧 $x^2+y^2 = 1\ (0 \le a \le b)$ 上的任意点，求函数 $f(a,b) = 6\iint_D |x-y|\,\mathrm{d}\sigma - (a-b)^3$ 的最大值与最小值，其中平面区域 $D = \left\{(x,y) \;\middle|\; 0 \le x \le a, \ 0 \le y \le b\right\}$。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      计算二重积分 $I = \iint_D (1+2x^2)\mathrm{e}^{x^2+y-[y]}\,\mathrm{d}\sigma$，其中平面区域 $D$ 是由直线 $x = 0, \ x = 2026, \ y = x, \ y = x+2026$ 所围成的平行四边形闭区域$,[\cdot]$ 为取整函数。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 $f(x)$ 在闭区间 $[a,b]$ 上连续，且满足定积分 $\int_a^b f(x)\,\mathrm{d}x = 0$。 (1) 证明：存在 $\xi \in (a,b)$，使得 $f(\xi) = 0$； (2) 若 $f(x)$ 在开区间 $(a,b)$ 内可导，且进一步满足 $\int_a^b x f(x)\,\mathrm{d}x = 0$，证明：存在 $\eta \in (a,b)$，使得 $f'(\eta) = 0$。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      已知3阶实对称矩阵 $A$ 有3个互异的特征值 $\lambda_1, \lambda_2, \lambda_3$，对应的特征向量分别为 $x_1, x_2, x_3$ $,E$ 为3阶单位矩阵，记向量 $\alpha = x_1 + 2x_2 + 3x_3$。 (1) 证明向量组 $\alpha, A\alpha, A^2\alpha$ 线性无关； (2) 若满足矩阵等式 $A^3\alpha = -2\alpha + A\alpha + 2A^2\alpha$，记可逆矩阵 $P = (\alpha, A\alpha, A^2\alpha)$，求矩阵 $A$ 的全部特征值； (3) 记矩阵 $B = A^2 + E$，若其单特征值对应的特征向量为 $\xi_1 = (1, 2, -2)^{\mathrm{T}}$，求矩阵 $B$。
+content_hash: d3e8f63bcfd75435e66eb08a1182f45fac7cf4e77f9f8a16c0b2ebad5395a1ef

@@ -1,0 +1,280 @@
+schema_version: '3.0'
+paper:
+  series_key: lilin6
+  year: 2024
+  subject: math1
+  paper_no: 2
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: 设 $f(x,y)=axy^2+byx^2$ 在点 $(1,1)$ 处沿 $l=(0,1)$ 的方向导数取得最大值 $6$，则
+  choices:
+  - label: A
+    text: $a=1,b=2.$
+    figures: []
+  - label: B
+    text: $a=-1,b=-2.$
+    figures: []
+  - label: C
+    text: $a=4,b=-2.$
+    figures: []
+  - label: D
+    text: $a=-2,b=4.$
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $L:x+y=\pi$, 起点为 $A(0,\pi)$, 终点为 $B(\pi,0)$, 则 $I=\int_L \dfrac{\sin^2 ydx+\sin^2 xdy}{x+y}=$
+  choices:
+  - label: A
+    text: |-
+      $-\pi.$
+    figures: []
+  - label: B
+    text: |-
+      $\pi.$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{1}{\pi}.$
+    figures: []
+  - label: D
+    text: $0.$
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设级数 $\sum_{n=0}^{\infty} a_n x^n$ 在 $x=2$ 处条件收敛, 则 $\sum_{n=0}^{\infty} \dfrac{a_n}{n+1}(x-1)^n$ 在 $x=-1$ 处
+  choices:
+  - label: A
+    text: 必绝对收敛
+    figures: []
+  - label: B
+    text: 必条件收敛
+    figures: []
+  - label: C
+    text: 必发散
+    figures: []
+  - label: D
+    text: |-
+      敛散性视 $\{a_n\}$ 确定
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f'(u) \neq 0$, 且 $x_0^2 + y_0^2 \neq 0$, 则曲面 $z = f\left(\sqrt{x^2+y^2}\right)$ 上点 $M_0(x_0, y_0, z_0)$ 处的法线与 $z$ 轴的位置关系是
+  choices:
+  - label: A
+    text: 垂直相交
+    figures: []
+  - label: B
+    text: 不垂直相交
+    figures: []
+  - label: C
+    text: 平行
+    figures: []
+  - label: D
+    text: 异面直线
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: 设 3 阶矩阵 $A$ 可逆，将 $A$ 的第 2 列与第 3 列互换得 $B$，再将 $B$ 的第 1 列乘以 $(-2)$ 加到第 3 列得 $C$，且满足 $AP^{-1}=C$，则 $P=$
+  choices:
+  - label: A
+    text: |-
+      $\begin{bmatrix} 1 & 0 & 2 \\ 0 & 0 & 1 \\ 0 & 1 & 0 \end{bmatrix}$
+    figures: []
+  - label: B
+    text: |-
+      $\begin{bmatrix} 1 & 2 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{bmatrix}$
+    figures: []
+  - label: C
+    text: |-
+      $\begin{bmatrix} 1 & 0 & -2 \\ 0 & 0 & 1 \\ 0 & 1 & 0 \end{bmatrix}$
+    figures: []
+  - label: D
+    text: |-
+      $\begin{bmatrix} 1 & 2 & 0 \\ 0 & 0 & 1 \\ 0 & 1 & 0 \end{bmatrix}$
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: 设 $3$ 阶实对称矩阵 $A$ 不可逆, 且 $A+E, E-2A$ 均不可逆, 则矩阵 $A, A+E, E-2A$ 的秩依次为
+  choices:
+  - label: A
+    text: $2, 2, 2.$
+    figures: []
+  - label: B
+    text: $1, 2, 1.$
+    figures: []
+  - label: C
+    text: $2, 1, 1.$
+    figures: []
+  - label: D
+    text: $1, 1, 2.$
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A=\begin{bmatrix} -1 & -1 & 0 \\ 0 & 2 & 0 \\ 0 & 0 & -3 \end{bmatrix}, B=\begin{bmatrix} -1 & 0 & 0 \\ 0 & 1 & 2 \\ 0 & 2 & -1 \end{bmatrix}, C=\begin{bmatrix} 1 & 0 & 0 \\ 0 & -1 & 0 \\ 0 & 0 & -1 \end{bmatrix}$，则正确的是
+  choices:
+  - label: A
+    text: $A$ 与 $C$ 相似
+    figures: []
+  - label: B
+    text: $A$ 与 $B$ 合同
+    figures: []
+  - label: C
+    text: $B$ 与 $C$ 合同
+    figures: []
+  - label: D
+    text: $B$ 与 $C$ 相似
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: 设连续函数 $F(x)$ 为某随机变量的分布函数, $F(0)=0$, 则下列函数可作为随机变量分布函数的是
+  choices:
+  - label: A
+    text: $F(x)+F(-x)$
+    figures: []
+  - label: B
+    text: |-
+      $F(x)\cdot F(-x)$
+    figures: []
+  - label: C
+    text: |-
+      $\begin{cases} F(x)+F\left(\dfrac{1}{x}\right), & x>1, \\ 0, & x\leqslant 1. \end{cases}$
+    figures: []
+  - label: D
+    text: |-
+      $\begin{cases} F(x)-F\left(\dfrac{1}{x}\right), & x>1, \\ 0, & x\leqslant 1. \end{cases}$
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $(X,Y) \sim N\left(1,0; 9,16; -\dfrac{1}{2}\right), Z=\dfrac{1}{3}X+\dfrac{1}{2}Y$, 则
+  choices:
+  - label: A
+    text: $X$ 与 $Z$ 不相关
+    figures: []
+  - label: B
+    text: $X$ 与 $Z$ 不相互独立
+    figures: []
+  - label: C
+    text: $Y$ 与 $Z$ 不相关
+    figures: []
+  - label: D
+    text: $Y$ 与 $Z$ 相互独立
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设总体 $X$ 服从 $[-1,1]$ 上的均匀分布, $X_1, X_2, \cdots, X_n$ 为来自总体 $X$ 的简单随机样本, $\Phi(x)$ 为标准正态分布函数, 则 $\lim\limits_{n\to\infty} P\left\{ \dfrac{\sum\limits_{i=1}^n X_i}{\sqrt{n}} \leqslant 1 \right\} =$
+  choices:
+  - label: A
+    text: |-
+      $\Phi\left(\dfrac{1}{2}\right).$
+    figures: []
+  - label: B
+    text: |-
+      $\Phi(1).$
+    figures: []
+  - label: C
+    text: |-
+      $\Phi(\sqrt{2}).$
+    figures: []
+  - label: D
+    text: |-
+      $\Phi(\sqrt{3}).$
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      曲线 $4y = \int_0^2 x\sqrt{12-x^2u^2}\,\mathrm{d}u\ (x\geqslant 0)$ 的全长为__________
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      级数 $\sum_{n=1}^\infty \int_n^{n+1} \mathrm{e}^{-\sqrt{x}} \mathrm{d}x$ 的和 $=$ $\underline{\qquad\qquad}$
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设圆柱面 $\Sigma:x^2+y^2=1(0\leqslant z\leqslant 1)$, $\Sigma$ 的密度 $\rho=1$, 则 $\Sigma$ 关于 $z$ 轴的转动惯量为$\underline{\qquad\qquad}$
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设曲线 $L$ 为 $\begin{cases} x^2+y^2+z^2=1, \\ y+z=0, \end{cases}$ 则 $I = \int_L (x^2+2y+2z) \mathrm{d}s = \underline{\hspace{2.5cm}}$
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 为 3 阶非零实矩阵, 且 $A^T + A^* = O$, 则行列式 $\left|(A^*)^{-1}\right| = \underline{\qquad\qquad}$
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设随机变量 $X$ 在区间 $(1,2)$ 上服从均匀分布，在 $X=x$ 的条件下$,Y$ 服从参数为 $x$ 的指数分布，则 $E(XY)=\underline{\qquad}$。
+- number: 17
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $y=y(x)$ 在 $[0,+\infty)$ 上有连续导数, 且 $y(x)>0, y(0)=2$, 已知曲线 $y=y(x)$ 在 $[0, x](x>0)$ 上一段绕 $x$ 轴旋转所得侧面积等于该旋转体的体积, 求 $y=y(x)$ 的表达式
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 $f(x,y)$ 的全微分为 $\mathrm{d}f(x,y)=(2ax+by)\mathrm{d}x+(2by+ax)\mathrm{d}y$（$a,b$ 为常数），且 $f(0,0)=-3, f'_x(1,1)=3$. 求: (I) $f(x,y)$; (II) 点 $(-1,-1)$ 到曲线 $f(x,y)=0$ 上的点的距离的最大值
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $f(x)=\sum_{n=0}^{+\infty}(-1)^n a_n x^{2n+1}$ 满足 $f''(x)+f(x)=-2\sin x, f'(0)=2$. 求: (I) $f(x)$; (II) $a_n$ 及级数 $\sum_{n=0}^{+\infty}(-1)^n \dfrac{a_n}{2^n}$ 的和
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $\Omega$ 是由 $z=\sqrt{x^2+y^2}$ 与 $z=1$ 围成的立体, $L$ 为从 $O$ 到 $A, A$ 到 $B, B$ 到 $O$ 的一段空间曲线, 如图所示, 计算 $I=\oint_L xy^2\mathrm{d}x + x^2y\mathrm{d}y + xyz\mathrm{d}z$
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: '设二次型 $f(x_1,x_2,x_3) = (x_1+x_2)^2 + (x_2-x_3)^2 + (x_1+ax_3)^2$, 已知 $f(x_1,x_2,x_3)=0$ 有非零解.求: (I) $a$ 的值及 $f(x_1,x_2,x_3)=0$ 的全部解; (II) 正交变换 $X=QY$ 将 $f(x_1,x_2,x_3)$ 化为标准形'
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      随机变量 $X$ 与 $Y$ 相互独立，且均服从 $N(0,1)$，记 $U=\begin{cases} 1, & X^2+Y^2>1, \\ 0, & X^2+Y^2\leqslant 1, \end{cases}$ $V=\begin{cases} 1, & X^2+Y^2>2, \\ 0, & X^2+Y^2\leqslant 2. \end{cases}$ 求： (I) $(U,V)$ 的概率分布； (II) $\rho_{UV}$
+content_hash: c481d2e0af6012085763700b18177f4cd923b6adf88faa4c0e408e1eab6a58ff

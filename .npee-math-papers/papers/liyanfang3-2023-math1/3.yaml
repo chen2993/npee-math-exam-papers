@@ -10,49 +10,49 @@ questions:
   points: 5
   stem:
     text: |-
-      设对于任意 $\alpha\in(0,\dfrac{\pi}{2})$，方程 $x^{\cos^2\alpha}=k+x\cos^2\alpha\ (x>0)$ 有两个不同的实根，则 $k$ 的取值范围是\ExamSelection
+      设对于任意 $\alpha \in \left(0, \dfrac{\pi}{2}\right)$，方程 $x^{\cos^2\alpha} = k + x\cos^2\alpha(x>0)$ 有两个不同的实根，则 $k$ 的取值范围是（ ）
   choices:
   - label: A
     text: |-
-      $[0,\sin^2\alpha)$
+      $[0, \sin^2\alpha)$
     figures: []
   - label: B
     text: |-
-      $(0,\sin^2\alpha)$
+      $(0, \sin^2\alpha)$
     figures: []
   - label: C
     text: |-
-      $[0,\cos^2\alpha)$
+      $[0, \cos^2\alpha)$
     figures: []
   - label: D
     text: |-
-      $(0,\cos^2\alpha)$
+      $(0, \cos^2\alpha)$
     figures: []
 - number: 2
   section: choice
   points: 5
   stem:
     text: |-
-      反常积分 $\displaystyle\int_0^{\dfrac{\pi}{4}}\dfrac{1}{x|\ln x|^a\cos^b2x}\,\mathrm{d}x$ 收敛，则\ExamSelection
+      设反常积分 $\int_0^{\dfrac{\pi}{4}} \dfrac{1}{x|\ln x|^a \cos^b 2x} \mathrm{d}x$ 收敛，则（ ）
   choices:
   - label: A
-    text: $a<1,b<1$
+    text: $a < 1, b < 1$
     figures: []
   - label: B
-    text: $a<1,b>1$
+    text: $a 1$
     figures: []
   - label: C
-    text: $a>1,b<1$
+    text: $a > 1, b < 1$
     figures: []
   - label: D
-    text: $a>1,b>1$
+    text: $a > 1, b > 1$
     figures: []
 - number: 3
   section: choice
   points: 5
   stem:
     text: |-
-      设闭曲面 $\Sigma_1:x^2+y^2+z^2=1,\Sigma_2:x^2+2y^2+z^2=1,\Sigma_3:(x-1)^2+y^2+z^2=1,\Sigma_4:x^2+y^2+(z-1)^2=1$ 均取外侧，则第二类曲面积分 $I_i=\iint_{\Sigma_i}4\,\mathrm{d}y\mathrm{d}z+yz\,\mathrm{d}z\mathrm{d}x+3x^2\,\mathrm{d}x\mathrm{d}y\ (i=1,2,3,4)$ 中，最大的是\ExamSelection
+      设封闭曲面 $\Sigma_1: x^2 + y^2 + z^2 = 1$, $\Sigma_2: x^2 + 2y^2 + z^2 = 1$, $\Sigma_3: (x - 1)^2 + y^2 + z^2 = 1$, $\Sigma_4: x^2 + y^2 + (z - 1)^2 = 1$ 均取外侧，则第二类曲面积分 $I_i = \iint_{\Sigma_i} 4\mathrm{d}y\mathrm{d}z + yz\mathrm{d}z\mathrm{d}x + 3x^2\mathrm{d}x\mathrm{d}y\ (i=1,2,3,4)$ 中，最大的是（ ）
   choices:
   - label: A
     text: $I_1$
@@ -71,30 +71,30 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $a\ne b$，函数 $f(x)=\begin{cases}a,&0<x<\pi,\\b,&-\pi<x<0,\end{cases}$，且其傅里叶级数展开式为 $\dfrac{a_0}{2}+\displaystyle\sum_{n=1}^{\infty}(a_n\cos nx+b_n\sin nx)$，则\ExamSelection
+      设 $a \neq b$，函数 $f(x) = \begin{cases} a, & 0 < x < \pi, \\ b, & -\pi < x < 0, \end{cases}$ 且其傅里叶级数展开式为 $\dfrac{a_0}{2} + \sum_{n=1}^{\infty} (a_n \cos nx + b_n \sin nx)$，则（ ）
   choices:
   - label: A
     text: |-
-      $\displaystyle\sum_{n=1}^{\infty}a_n$ 发散
+      $\sum_{n=1}^{\infty} a_n$ 发散
     figures: []
   - label: B
     text: |-
-      $\displaystyle\sum_{n=1}^{\infty}b_n$ 收敛
+      $\sum_{n=1}^{\infty} b_n$ 收敛
     figures: []
   - label: C
     text: |-
-      $\displaystyle\sum_{n=1}^{\infty}a_n^2$ 发散
+      $\sum_{n=1}^{\infty} a_n^2$ 发散
     figures: []
   - label: D
     text: |-
-      $\displaystyle\sum_{n=1}^{\infty}b_n^2$ 收敛
+      $\sum_{n=1}^{\infty} b_n^2$ 收敛
     figures: []
 - number: 5
   section: choice
   points: 5
   stem:
     text: |-
-      设 $A,B$ 均为 $n(n\geq2)$ 阶矩阵，满足 $A-B-AB=kE$，则下列 $k$ 值中，使 $r(A+E)+r(B-E)$ 最小的是\ExamSelection
+      设 $A, B$ 均为 $n(n \geqslant 2)$ 阶矩阵，满足 $A - B - AB = kE$，则下列 $k$ 值中，使 $r(A + E) + r(B - E)$ 最小的是（\quad ）
   choices:
   - label: A
     text: $-2$
@@ -113,38 +113,38 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $A$ 为 $3$ 阶非零矩阵，则下列条件中，不是 $Ax=0$ 与 $A^*x=0$ 有非零公共解的充分条件的个数是\ExamSelection\n① $r\begin{pmatrix}A\\A^*\end{pmatrix}<3$；\n② $r(A,A^*)<3$；\n③ $r(A)=2$，且 $A^*$ 是对称矩阵；\n④ $r(A)=2$，且 $A^*$ 不是对称矩阵。
+      设 $A$ 为 $3$ 阶非零矩阵, 则下列条件中, 不是 $Ax=0$ 与 $A^*x=0$ 有非零公共解的充分条件的个数是 ( ) ① $r\begin{pmatrix} A \\ A^* \end{pmatrix} < 3$. ② $r(A, A^*) < 3$. ③ $r(A)=2$, 且 $A^*$ 是对称矩阵. ④ $r(A)=2$, 且 $A^*$ 不是对称矩阵
   choices:
   - label: A
-    text: $1$
+    text: '1'
     figures: []
   - label: B
-    text: $2$
+    text: '2'
     figures: []
   - label: C
-    text: $3$
+    text: '3'
     figures: []
   - label: D
-    text: $4$
+    text: '4'
     figures: []
 - number: 7
   section: choice
   points: 5
   stem:
     text: |-
-      设 $A$ 为 $2$ 阶实对称矩阵，特征值为 $\lambda_1,\lambda_2$，$B$ 为 $2$ 阶正定矩阵，特征值为 $\mu_1,\mu_2$。记 $M=\displaystyle\max_{x\ne0}\dfrac{x^{\mathrm T}Ax}{x^{\mathrm T}Bx},m=\displaystyle\min_{x\ne0}\dfrac{x^{\mathrm T}Ax}{x^{\mathrm T}Bx}$，则 $Mm=$\ExamSelection
+      设 $A$ 为 $2$ 阶实对称矩阵，特征值为 $\lambda_1, \lambda_2$ $,B$ 为 $2$ 阶正定矩阵，特征值为 $\mu_1, \mu_2$。记 $M = \max_{x \neq 0} \dfrac{x^T A x}{x^T B x}$ $,m = \min_{x \neq 0} \dfrac{x^T A x}{x^T B x}$，则 $Mm = (\quad)$
   choices:
   - label: A
     text: |-
-      $\lambda_1\lambda_2$
+      $\lambda_1 \lambda_2$
     figures: []
   - label: B
     text: |-
-      $\dfrac{\mu_1\mu_2}{\lambda_1\lambda_2}$
+      $\dfrac{\mu_1 \mu_2}{\lambda_1 \lambda_2}$
     figures: []
   - label: C
     text: |-
-      $\dfrac{\lambda_1\lambda_2}{\mu_1\mu_2}$
+      $\dfrac{\lambda_1 \lambda_2}{\mu_1 \mu_2}$
     figures: []
   - label: D
     text: 由已知条件不能确定
@@ -154,7 +154,7 @@ questions:
   points: 5
   stem:
     text: |-
-      用 $6$ 个点将一个圆周分成 $6$ 等份，从中随机选取两点连线，再从剩余各点中随机选取两点连线，如此得到的两条弦相交的概率是\ExamSelection
+      用 6 个点将一个圆周分成 6 等份，从中随机选取两点连线，再从剩余各点中随机选取两点连线，如此得到的两条弦相交的概率是（\quad）
   choices:
   - label: A
     text: |-
@@ -177,7 +177,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设随机变量 $X\sim N(0,1)$，以 $|X|$ 为半径作圆，独立重复操作 $10000$ 次，所得各圆的面积和为 $S$，则 $S$ 服从\ExamSelection
+      设随机变量 $X \sim N(0,1)$，以 $|X|$ 为半径作圆，独立重复操作 $10000$ 次，所得各圆的面积和为 $S$，则 $S$ 服从 (\quad)
   choices:
   - label: A
     text: 正态分布
@@ -197,112 +197,94 @@ questions:
   points: 5
   stem:
     text: |-
-      设总体 $Z=X\cos Y$，其中 $X\sim E(\lambda),Y\sim U(0,a),X$ 与 $Y$ 相互独立，$a$ 为已知参数，$\lambda$ 为未知参数。若要利用 $Z$ 的一阶矩对参数 $\lambda$ 进行矩估计，则下列 $a$ 的四种取值中，使矩估计法可行的是\ExamSelection
+      总体 $Z=X\cos Y$, 其中 $X\sim E(\lambda), Y\sim U(0,a)$, $X$ 与 $Y$ 相互独立, $a$ 为已知参数, $\lambda$ 为未知参数. 若要利用 $Z$ 的一阶矩对参数 $\lambda$ 进行矩估计, 则下列 $a$ 的四种取值中, 使得矩估计法可行的是 ( )
   choices:
   - label: A
     text: |-
-      $a=\dfrac{\pi}{2}$
+      $a=\dfrac{\pi}{2}.$
     figures: []
   - label: B
     text: |-
-      $a=\pi$
+      $a=\pi.$
     figures: []
   - label: C
     text: |-
-      $a=2\pi$
+      $a=2\pi.$
     figures: []
   - label: D
     text: |-
-      $a=4\pi$
+      $a=4\pi.$
     figures: []
 - number: 11
   section: fill
   points: 5
   stem:
     text: |-
-      设 $f(x)$ 为定义在 $(-\infty,0)\cup(0,+\infty)$ 上的分段连续函数，且 $\displaystyle\lim_{x\to0^-}f(x)=-1,\lim_{x\to0^+}f(x)=1$，则 $F(x)=\displaystyle\int_0^x(\sin x-\sin t)f(t)\,\mathrm{d}t$ 在 $x=0$ 处可导的最高阶数为\ExamBlank。
+      设 $f(x)$ 为定义在 $(-\infty, 0) \cup (0, +\infty)$ 上的分段连续函数，且 $\lim_{x \to 0^-} f(x) = -1, \lim_{x \to 0^+} f(x) = 1$，则 $F(x) = \int_{0}^{x} (\sin x - \sin t) f(t) \mathrm{d}t$ 在 $x = 0$ 处可导的最高阶数为______
 - number: 12
   section: fill
   points: 5
   stem:
     text: |-
-      $\displaystyle\int_{\dfrac{\sqrt{3}}{3}}^1\dfrac{\arctan x}{x^5}\,\mathrm{d}x=$\ExamBlank。
+      $\int_{\dfrac{\sqrt{3}}{3}}^{1} \dfrac{\arctan x}{x^5} \mathrm{d}x = \underline{\hspace{2.5cm}}.$
 - number: 13
   section: fill
   points: 5
   stem:
     text: |-
-      设函数 $f(x,y)$ 连续，区域 $D$ 是由曲线 $(x^2+y^2)^2=2xy$ 在第一象限所围成的部分，则 $\displaystyle\iint_Df(x,y)\,\mathrm{d}x\mathrm{d}y$ 在极坐标系下先 $\theta$，后 $r$ 的二次积分为\ExamBlank。
+      设函数 $f(x, y)$ 连续，区域 $D$ 是由曲线 $(x^2+y^2)^2=2xy$ 在第一象限所围成的部分，则 $\iint_D f(x, y) \mathrm{d}x\mathrm{d}y$ 在极坐标系下先 $\theta$，后 $r$ 的二次积分为 \underline{\qquad}
 - number: 14
   section: fill
   points: 5
   stem:
     text: |-
-      设两曲面 $S_1:2\pi x^2-2\pi y^2+16z^2=\pi^2$，$S_2:z=\arctan\dfrac{y}{x}$ 在第一卦限内的点 $P$ 处有公共切平面，则此切平面的方程为\ExamBlank。
+      设两曲面 $S_1: 2\pi x^2 - 2\pi y^2 + 16z^2 = \pi^2, S_2: z = \arctan \dfrac{y}{x}$ 在第一卦限内的点 $P$ 处有公共切平面, 则此切平面的方程为 \underline{\qquad}
 - number: 15
   section: fill
   points: 5
   stem:
     text: |-
-      设矩阵 $A=\begin{pmatrix}0&1&-1\\1&0&1\\-1&1&0\end{pmatrix}$，则 $A^4$ 的最大特征值为\ExamBlank。
+      设矩阵 $A = \begin{pmatrix} 0 & 1 & -1 \\ 1 & 0 & 1 \\ -1 & 1 & 0 \end{pmatrix}$，则 $A^4$ 的最大特征值为 $\underline{\qquad\qquad}$
 - number: 16
   section: fill
   points: 5
   stem:
     text: |-
-      设随机变量 $X$ 的概率密度函数为 $f(x)=\begin{cases}\dfrac{[2\sin x]\cos x}{2^k},&x\in[2k\pi,2k\pi+\dfrac{\pi}{2}),\ k\text{ 为非负整数},\\0,&\text{其他},\end{cases}$，其中 $[2\sin x]$ 表示不超过 $2\sin x$ 的最大整数，则 $E(\sin X)=$\ExamBlank。
+      设随机变量 $X$ 的概率密度函数为 $ $f(x) = \begin{cases} \dfrac{[2\sin x]\cos x}{2^k}, & x \in \left[2k\pi, 2k\pi + \dfrac{\pi}{2}\right), k\text{\text{为非负}}, \\ 0, & \text{\text{其他}}, \end{cases}$ $ \text{其中} $[2\sin x]$ \text{表示不超过} $2\sin x$ \text{的最大整数},\text{则} $E(\sin X) = \underline{\quad\quad\quad\quad}$。
 - number: 17
   section: solution
-  points: 10
+  points: 12
   stem:
     text: |-
-      设函数 $f(u)$ 在 $(0,+\infty)$ 内具有二阶连续导数。二元函数 $F(x,y)=x^2f\left(\dfrac{y}{x}\right)+f(xy)$，且满足 $\dfrac{\partial^2F}{\partial x^2}-\dfrac{y^2}{x^2}\dfrac{\partial^2F}{\partial y^2}=\dfrac{2y}{x}\ln\dfrac{y}{x}$。若 $f(1)=1$，求 $f(u)$ 的表达式。
+      设函数 $f(u)$ 在 $(0, +\infty)$ 内具有二阶连续导数. 二元函数 $F(x,y) = x^2 f\left(\dfrac{y}{x}\right) + f(xy)$，且满足 $\dfrac{\partial^2 F}{\partial x^2} - \dfrac{y^2}{x^2}\dfrac{\partial^2 F}{\partial y^2} = \dfrac{2y}{x}\ln\dfrac{y}{x}$. 若 $f(1) = 1$，求 $f(u)$ 的表达式
 - number: 18
   section: solution
   points: 12
   stem:
     text: |-
-      设函数 $f(x,y)=\sqrt{|x^2-ay^2|}\ (a>0)$ 在点 $O(0,0)$ 处沿着从点 $O$ 到点 $P(1,-1)$ 的方向的方向导数为 $\sqrt{2}$。
-  subparts:
-  - text: |-
-      求曲面 $z=f(x,y)$ 与平面 $y=1$ 的交线在 $zOx$ 面上的投影曲线绕 $z$ 轴旋转一周所得到旋转曲面 $\Sigma$ 的方程；
-  - text: |-
-      求函数 $g(x,y,z)=x^2-ay^2-z^2$ 在曲面 $\Sigma$ 位于 $x^2+y^2\leq5$ 的部分上沿方向 $(1,-1,2)$ 的方向导数的最小值。
+      设函数 $f(x,y)=\sqrt{|x^2-ay^2|}\ (a>0)$ 在点 $O(0,0)$ 处沿着从点 $O$ 到点 $P(1,-1)$ 的方向的方向导数为 $\sqrt{2}$. (I) 求曲面 $z=f(x,y)$ 与平面 $y=1$ 的交线在 $zOx$ 面上的投影曲线绕 $z$ 轴旋转一周所得旋转曲面 $\Sigma$ 的方程; (II) 求函数 $g(x,y,z)=x^2-ay^2-z^2$ 在曲面 $\Sigma$ 位于 $x^2+y^2\leqslant 5$ 的部分上沿方向 $(1,-1,2)$ 的方向导数的最小值
 - number: 19
   section: solution
   points: 12
   stem:
     text: |-
-      设曲线 $L$ 为圆周 $x^2+y^2=\dfrac{\pi^2}{4}$ 上从点 $(\dfrac{\pi}{2},0)$ 到点 $(0,\dfrac{\pi}{2})$ 上的一段，计算曲线积分 $I=\displaystyle\int_L\dfrac{e^y+e^{-y}}{2}\cos x\,\mathrm{d}x+\dfrac{e^y-e^{-y}}{2}\sin x\,\mathrm{d}y$。
+      曲线 $L$ 为圆周 $x^2 + y^2 = \dfrac{\pi^2}{4}$ 从点 $\left(\dfrac{\pi}{2}, 0\right)$ 到点 $\left(0, \dfrac{\pi}{2}\right)$ 上一段，计算曲线积分 $I = \int_L \dfrac{\mathrm{e}^y + \mathrm{e}^{-y}}{2} \cos x \mathrm{d}x + \dfrac{\mathrm{e}^y - \mathrm{e}^{-y}}{2} \sin x \mathrm{d}y$。
 - number: 20
   section: solution
   points: 12
   stem:
     text: |-
-      设数列 $\{x_n\},\{a_n\},\{b_n\}$ 分别满足 $x_n=\left(1+\sin\dfrac{1}{n}\right)^n,a_n=\dfrac{x_{2n}}{x_{2n-1}},b_n=\displaystyle\prod_{i=1}^n a_i$。
-  subparts:
-  - text: |-
-      求 $\displaystyle\lim_{n\to\infty}x_n$；
-  - text: |-
-      证明：$\displaystyle\lim_{n\to\infty}b_n$ 存在。
+      设数列 $\{x_n\},\{a_n\},\{b_n\}$ 分别满足 $x_n=\left(1+\sin \dfrac{1}{n}\right)^n, a_n=\dfrac{x_{2n}}{x_{2n-1}}, b_n=\prod_{i=1}^n a_i$. (I) 求 $\lim\limits_{n\to\infty} x_n$; (II) 证明: $\lim\limits_{n\to\infty} b_n$ 存在
 - number: 21
   section: solution
   points: 12
   stem:
     text: |-
-      设 $\alpha_1,\alpha_2,\alpha_3$ 为 $3$ 维向量空间的一组基，$3$ 阶矩阵 $A$ 满足 $A\alpha_1=-2\alpha_1+5\alpha_2-\alpha_3,A\alpha_2=2\alpha_2-\alpha_3,A\alpha_3=-\alpha_1+8\alpha_2-3\alpha_3$。
-  subparts:
-  - text: |-
-      设矩阵 $P=\begin{pmatrix}1&1&1\\0&1&1\\0&0&1\end{pmatrix}$ 为从 $\alpha_1,\alpha_2,\alpha_3$ 到 $\beta_1,\beta_2,\beta_3$ 的过渡矩阵，求矩阵 $B$，使得 $A(\beta_1,\beta_2,\beta_3)=(\beta_1,\beta_2,\beta_3)B$；
-  - text: 矩阵 $A$ 是否相似于对角矩阵？请说明理由。
+      设 $\alpha_1,\alpha_2,\alpha_3$ 为 $3$ 维向量空间的一组基$,3$ 阶矩阵 $A$ 满足 $A\alpha_1=-2\alpha_1+5\alpha_2-\alpha_3, A\alpha_2=2\alpha_2-\alpha_3, A\alpha_3=-\alpha_1+8\alpha_2-3\alpha_3$. (I) 设矩阵 $P=\begin{pmatrix} 1 & 1 & 1 \\ 0 & 1 & 1 \\ 0 & 0 & 1 \end{pmatrix}$ 为从 $\alpha_1,\alpha_2,\alpha_3$ 到 $\beta_1,\beta_2,\beta_3$ 的过渡矩阵，求矩阵 $B$，使得 $A(\beta_1,\beta_2,\beta_3)=(\beta_1,\beta_2,\beta_3)B$； (II) 矩阵 $A$ 是否相似于对角矩阵？请说明理由
 - number: 22
   section: solution
   points: 12
   stem:
     text: |-
-      设二维随机变量 $(X,Y)$ 的联合概率密度为 $f(x,y)=\begin{cases}\dfrac{C}{(2-x^2-y^2)^{\dfrac{3}{2}}},&\dfrac{x}{\sqrt{3}}<y<x,\ 0<x<1,\\0,&\text{其他，}\end{cases}$，其中 $C$ 为常数。
-  subparts:
-  - text: 求常数 $C$；
-  - text: |-
-      求随机变量 $Z=\dfrac{Y}{X}$ 的分布函数。
-content_hash: 9a6374a8f24be95054f38754f1d065ed4a90ba9c9fe56e8d52590849d6ec77ce
+      设二维随机变量 $(X, Y)$ 的联合概率密度为 $ $f(x, y) = \begin{cases} \dfrac{C}{(2 - x^2 - y^2)^{\dfrac{3}{2}}}, & \dfrac{x}{\sqrt{3}} < y < x, 0 < x < 1, \\ 0, & \text{\text{其他}}, \end{cases}$ $ \text{其中} $C$ \text{为常数}. $(\text{I})$ \text{求常数} $C$; $(\text{II})$ \text{求随机变量} $Z = \dfrac{Y}{X}$ 的分布函数
+content_hash: 76b6d21001c554f0f0edd842cceae50bd39ee2e5f4ca56b798a713cfd99a8677

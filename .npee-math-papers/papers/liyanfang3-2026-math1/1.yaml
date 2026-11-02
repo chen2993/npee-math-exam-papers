@@ -4,14 +4,13 @@ paper:
   year: 2026
   subject: math1
   paper_no: 1
-content_hash: 2a299eeaccc80c93898b9fe9eab065c4f80dc325c61b7375b3c889c81187443e
 questions:
 - number: 1
   section: choice
   points: 5
   stem:
     text: |-
-      当 $x\to 0$ 时，$x-\tan(\sin x)$ 是 $x-\sin(\tan x)$ 的\ExamSelection
+      当 \(x \rightarrow 0\) 时，\(x - \tan(\sin x)\) 是 \(x - \sin(\tan x)\) 的( )
   choices:
   - label: A
     text: 低阶无穷小量
@@ -30,119 +29,118 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $x_0=a\ne 1$，对 $n\geq 1$，令 $x_n=\begin{cases}\dfrac{x_{n-1}+x_{n-2}}{2},&n\text{ 为偶数},\\\dfrac{1+x_{n-1}}{2},&n\text{ 为奇数},\end{cases}$，则下列关于数列 $\{x_n\}$ 的说法中，正确的是\ExamSelection
+      设 \(x_0=a\neq 1\)，对 \(n\geq 1\)，令\( x_n=\begin{cases} \dfrac{x_{n-1}+x_{n-2}}{2}, & n\text{ 为偶数}, \\ \dfrac{1+x_{n-1}}{2}, & n\text{ 为奇数}, \end{cases}\)则下列关于数列 \(\{x_n\}\) 的说法中，正确的是( )
   choices:
   - label: A
     text: |-
-      $\lim\limits_{n\to\infty}x_{2n}$，$\lim\limits_{n\to\infty}x_{2n+1}$ 均不存在
+      \( \lim\limits_{n\to\infty}x_{2n}, \lim\limits_{n\to\infty}x_{2n+1}\) 均不存在
     figures: []
   - label: B
     text: |-
-      $\lim\limits_{n\to\infty}x_{2n}$，$\lim\limits_{n\to\infty}x_{2n+1}$ 均存在，但不相等
+      \( \lim\limits_{n\to\infty}x_{2n}, \lim\limits_{n\to\infty}x_{2n+1}\) 均存在, 但不相等
     figures: []
   - label: C
     text: |-
-      $\lim\limits_{n\to\infty}x_n$ 存在，其值与 $a$ 有关
+      \( \lim\limits_{n\to\infty}x_n\) 存在, 其值与 \(a\) 有关
     figures: []
   - label: D
     text: |-
-      $\lim\limits_{n\to\infty}x_n$ 存在，其值与 $a$ 无关
+      \( \lim\limits_{n\to\infty}x_n\) 存在, 其值与 \(a\) 无关
     figures: []
 - number: 3
   section: choice
   points: 5
   stem:
     text: |-
-      设函数 $u=z\cos x\sin y$，则该函数在条件 $z=x^2+y^2$ 以及 $x^2+y^2+z^2=6$ 下的最大值与最小值分别为\ExamSelection
+      设函数 \(u=z\cos xy\)，则该函数在条件 \(z=x^2+y^2\) 以及 \(x^2+y^2+z^2=6\) 下的最大值与最小值分别为( )
   choices:
   - label: A
     text: |-
-      $2,2\cos 1$
+      \(2,2\cos 1\)
     figures: []
   - label: B
     text: |-
-      $1,\cos 1$
+      \(1, \cos 1\)
     figures: []
   - label: C
     text: |-
-      $2,\cos 1$
+      \(2, \cos 1\)
     figures: []
   - label: D
     text: |-
-      $1,\cos 2$
+      \(1, \cos 2\)
     figures: []
 - number: 4
   section: choice
   points: 5
   stem:
     text: |-
-      设函数 $f(x,y)$ 连续，则 $\int_{-\dfrac{\pi}{2}}^0\mathrm{d}x\int_{\sin x}^{\cos^2x}f(x,y)\mathrm{d}y=$\ExamSelection
+      设函数 \(f(x,y)\) 连续，则 \( \int_{-\dfrac{\pi}{2}}^0 dx\int_{\sin x}^{\cos^2 x}f(x,y)\,dy=\)( )
   choices:
   - label: A
     text: |-
-      $\int_{-1}^{0}\mathrm{d}y\int_{-\dfrac{\pi}{2}}^{\dfrac{\pi}{2}-\arccos\sqrt y}f(x,y)\mathrm{d}x+\int_{0}^{1}\mathrm{d}y\int_{\arcsin y}^{0}f(x,y)\mathrm{d}x$
+      \( \int_{-1}^{0}dy\int_{-\dfrac{\pi}{2}}^{\dfrac{\pi}{2}-\arccos\sqrt{y}}f(x,y)\,dx+\int_{0}^{1}dy\int_{\arcsin y}^{0}f(x,y)\,dx\)
     figures: []
   - label: B
     text: |-
-      $\int_{-1}^{0}\mathrm{d}y\int_{-\dfrac{\pi}{2}}^{\arccos\sqrt y}f(x,y)\mathrm{d}x+\int_{0}^{1}\mathrm{d}y\int_{\arcsin y}^{0}f(x,y)\mathrm{d}x$
+      \( \int_{-1}^{0}dy\int_{-\dfrac{\pi}{2}}^{\arccos\sqrt{y}}f(x,y)\,dx+\int_{0}^{1}dy\int_{\arcsin y}^{0}f(x,y)\,dx\)
     figures: []
   - label: C
     text: |-
-      $\int_{-1}^{0}\mathrm{d}y\int_{-\dfrac{\pi}{2}}^{\arcsin y}f(x,y)\mathrm{d}x+\int_{0}^{1}\mathrm{d}y\int_{-\arccos\sqrt y}^{0}f(x,y)\mathrm{d}x$
+      \( \int_{-1}^{0}dy\int_{-\dfrac{\pi}{2}}^{\arcsin y}f(x,y)\,dx+\int_{0}^{1}dy\int_{-\arccos\sqrt{y}}^{0}f(x,y)\,dx\)
     figures: []
   - label: D
     text: |-
-      $\int_{-1}^{0}\mathrm{d}y\int_{-\dfrac{\pi}{2}}^{\arcsin y}f(x,y)\mathrm{d}x+\int_{0}^{1}\mathrm{d}y\int_{0}^{\arccos\sqrt y}f(x,y)\mathrm{d}x$
+      \( \int_{-1}^{0}dy\int_{-\dfrac{\pi}{2}}^{\arcsin y}f(x,y)\,dx+\int_{0}^{1}dy\int_{0}^{\arccos\sqrt{y}}f(x,y)\,dx\)
     figures: []
 - number: 5
   section: choice
   points: 5
   stem:
-    text: |-
-      设 $A,B$ 均为 $n$ 阶非零矩阵，$r(A)=r(AB)$，则下列说法中，正确的是\ExamSelection
+    text: 设 $A, B$ 均为 $n$ 阶非零矩阵$,r(A) = r(AB)$，则下列说法中，正确的是（ ）
   choices:
   - label: A
     text: $B$ 可逆
     figures: []
   - label: B
-    text: $r(A)=r(BA)$
+    text: $r(A) = r(BA)$
     figures: []
   - label: C
-    text: $r(A^2)=r(A^2B)$
+    text: $r(A^2) = r(A^2B)$
     figures: []
   - label: D
     text: |-
-      存在 $\xi$，满足 $B^{\mathsf T}A^{\mathsf T}\xi=0$，但 $A^{\mathsf T}\xi\ne 0$
+      存在 $\xi$，满足 $B^{\mathrm{T}}A^{\mathrm{T}}\xi = 0$，但 $A^{\mathrm{T}}\xi \neq 0$
     figures: []
 - number: 6
   section: choice
   points: 5
   stem:
     text: |-
-      设 $4$ 个不同的 $n(n\geq 4)$ 维非零列向量 $\alpha_1,\alpha_2,\alpha_3,\alpha_4$ 满足 $\alpha_i^{\mathsf T}\alpha_i=m$，$\alpha_i^{\mathsf T}\alpha_j=-1\ (i\ne j)$，则下列说法中，正确的是\ExamSelection
+      设 4 个不同的 \(n(n\geq 4)\) 维非零列向量 \(\alpha_1, \alpha_2, \alpha_3, \alpha_4\) 满足 \(\alpha_i^T\alpha_i=m, \alpha_i^T\alpha_j=-1(i\neq j)\)，则下列说法中，正确的是( )
   choices:
   - label: A
     text: |-
-      $\alpha_1,\alpha_2,\alpha_3,\alpha_4$ 必线性无关
+      \(\alpha_1, \alpha_2, \alpha_3, \alpha_4\) 必线性无关
     figures: []
   - label: B
     text: |-
-      $\alpha_1,\alpha_2,\alpha_3,\alpha_4$ 必线性相关
+      \(\alpha_1, \alpha_2, \alpha_3, \alpha_4\) 必线性相关
     figures: []
   - label: C
     text: |-
-      存在唯一的 $m$，使得 $\alpha_1,\alpha_2,\alpha_3,\alpha_4$ 线性相关
+      存在唯一的 \(m\), 使得 \(\alpha_1, \alpha_2, \alpha_3, \alpha_4\) 线性相关
     figures: []
   - label: D
     text: |-
-      存在两个不同的 $m$，使得 $\alpha_1,\alpha_2,\alpha_3,\alpha_4$ 线性相关
+      存在两个不同的 \(m\), 使得 \(\alpha_1, \alpha_2, \alpha_3, \alpha_4\) 线性相关
     figures: []
 - number: 7
   section: choice
   points: 5
   stem:
     text: |-
-      设二次型 $f(x_1,x_2,x_3)=x_1^2-2x_2^2+ax_3^2-2ax_1x_2+2x_1x_3-2x_2x_3$，则二次曲面 $f(x_1,x_2,x_3)=1$ 在可逆线性变换下不可能为\ExamSelection
+      设二次型 \(f(x_1,x_2,x_3)=x_1^2-2x_2^2+ax_3^2-2ax_1x_2+2x_1x_3-2x_2x_3\)，则二次曲面 \(f(x_1,x_2,x_3)=1\) 在可逆线性变换下不可能为( )
   choices:
   - label: A
     text: 双曲柱面
@@ -161,151 +159,139 @@ questions:
   points: 5
   stem:
     text: |-
-      设随机变量 $X,Y$ 相互独立，且均服从 $N(0,1)$，令 $Z_1=\max\{X,Y\},Z_2=\min\{X,Y\}$，则\ExamSelection
+      设随机变量 \(X,Y\) 相互独立，且均服从 \(N(0,1)\)，令 \(Z_1=\max\{X,Y\},Z_2=\min\{X,Y\}\)，则( )
   choices:
   - label: A
-    text: $E(Z_1+Z_2)>0$
+    text: |-
+      \(E(Z_1+Z_2)>0\)
     figures: []
   - label: B
-    text: $E(Z_1-Z_2)>0$
+    text: |-
+      \(E(Z_1-Z_2)>0\)
     figures: []
   - label: C
-    text: $Z_1$ 与 $Z_2$ 不相关
+    text: |-
+      \(Z_1\) 与 \(Z_2\) 不相关
     figures: []
   - label: D
-    text: $Z_1$ 与 $Z_2$ 独立
+    text: |-
+      \(Z_1\) 与 \(Z_2\) 独立
     figures: []
 - number: 9
   section: choice
   points: 5
   stem:
     text: |-
-      设 $X_1,X_2,\cdots,X_{100}$ 是来自总体 $X\sim N(0,2)$ 的简单随机样本，$Y_1,Y_2,\cdots,Y_{150}$ 是来自总体 $Y\sim N(0,3)$ 的简单随机样本，$X$ 与 $Y$ 相互独立，且两次抽样过程独立，$\overline X=\dfrac{1}{100}\sum\limits_{i=1}^{100}X_i,\overline Y=\dfrac{1}{150}\sum\limits_{j=1}^{150}Y_j$，则下列说法中，正确的是\ExamSelection
+      设 \(X_1,X_2, \cdots,X_{100}\) 是来自总体 \(X\sim N(0,2)\) 的简单随机样本，\(Y_1,Y_2, \cdots,Y_{150}\) 是来自总体 \(Y\sim N(0,3)\) 的简单随机样本，\(X\) 与 \(Y\) 相互独立，且两次抽样过程独立，\( \bar X=\frac1{100}\sum\limits_{i=1}^{100}X_i, \bar Y=\frac1{150}\sum\limits_{j=1}^{150}Y_j\)，则下列说法中，正确的是( )
   choices:
   - label: A
     text: |-
-      $\sqrt{\dfrac{2}{3}}\dfrac{X_1}{\lvert Y_1\rvert}$ 服从 $t(1)$
+      \( \sqrt{\dfrac{2}{3}}\dfrac{X_1}{|Y_1|}\) 服从 \(t(1)\)
     figures: []
   - label: B
     text: |-
-      $\dfrac{3\sum\limits_{i=1}^{100}(X_i-\overline X)^2}{2\sum\limits_{j=1}^{150}(Y_j-\overline Y)^2}$ 服从 $F(99,149)$
+      \( \dfrac{3\sum\limits_{i=1}^{100}(X_i-\bar X)^2}{2\sum\limits_{j=1}^{150}(Y_j-\bar Y)^2}\) 服从 \(F(99,149)\)
     figures: []
   - label: C
     text: |-
-      $(\overline X-\overline Y)^2$ 服从 $\chi^2(1)$
+      \((\bar X-\bar Y)^2\) 服从 \(\chi^2(1)\)
     figures: []
   - label: D
     text: |-
-      $D[(\overline X-\overline Y)^2]=\dfrac{2}{625}$
+      \( D[(\bar X-\bar Y)^2]=\dfrac{2}{625}\)
     figures: []
 - number: 10
   section: choice
   points: 5
   stem:
     text: |-
-      设总体 $X$ 服从正态分布 $N(\mu,\sigma^2)$，其中 $\mu$ 未知。第一组来自总体 $X$ 的简单随机样本的样本方差等于 $10$，第二组来自总体 $X$ 的简单随机样本的样本方差等于 $8$，两组样本的样本容量相同，利用第一组样本得到 $\sigma^2$ 的置信度为 $0.95$ 的置信区间的长度为 $L_1$，则下列说法中，正确的是\ExamSelection
+      设总体 \(X\) 服从正态分布 \(N(\mu, \sigma^2)\)，其中 \(\mu\) 未知。第一组来自总体 \(X\) 的简单随机样本的样本方差等于 10，第二组来自总体 \(X\) 的简单随机样本的样本方差等于 8，两组样本的样本容量相同，利用第一组样本得到 \(\sigma^2\) 的置信度为 0.95 的置信区间的长度为 \(L_1\)，则下列说法中，正确的是( )
   choices:
   - label: A
     text: |-
-      利用第一组样本得到 $\sigma^2$ 的置信度为 $0.90$ 的置信区间的长度大于 $L_1$
+      利用第一组样本得到 \(\sigma^2\) 的置信度为 0.90 的置信区间的长度大于 \(L_1\)
     figures: []
   - label: B
     text: |-
-      利用第一组样本得到 $\sigma^2$ 的置信度为 $0.98$ 的置信区间的长度小于 $L_1$
+      利用第一组样本得到 \(\sigma^2\) 的置信度为 0.98 的置信区间的长度小于 \(L_1\)
     figures: []
   - label: C
     text: |-
-      利用第二组样本得到 $\sigma^2$ 的置信度为 $0.95$ 的置信区间的长度小于 $0.8L_1$
+      利用第二组样本得到 \(\sigma^2\) 的置信度为 0.95 的置信区间的长度小于 \(0.8L_1\)
     figures: []
   - label: D
     text: |-
-      利用第二组样本得到 $\sigma^2$ 的置信度为 $0.98$ 的置信区间的长度大于 $0.8L_1$
+      利用第二组样本得到 \(\sigma^2\) 的置信度为 0.98 的置信区间的长度大于 \(0.8L_1\)
     figures: []
 - number: 11
   section: fill
   points: 5
   stem:
     text: |-
-      曲线 $y=\dfrac{x\ln\left(e^{2x}-e^x\right)}{\sqrt{x^2-x}}$ 的斜渐近线方程为 \ExamBlank。
+      曲线 \( y = \dfrac{x\ln \left( {{\mathrm{e}}^{2x} - {\mathrm{e}}^{x}}\right) }{\sqrt{{x}^{2} - x}}\) 的斜渐近线方程为\_\_\_\_\_
 - number: 12
   section: fill
   points: 5
   stem:
     text: |-
-      设点 $A(a,\sin 2a)$ 为曲线 $L:y=\sin 2x$ 上一动点，$l$ 为连接曲线 $L$ 上的点 $P(x,\sin 2x)$ 与点 $A$ 的直线，$k$ 为大于所有满足要求的直线 $l$ 的斜率的最小整数，则 $k=$ \ExamBlank。
+      设点 \(A\left( {a, \sin {2a}}\right)\) 为曲线 \(L : y = \sin {2x}\) 上一动点，\(l\) 为连接曲线 \(L\) 上的点 \(P\left( {x, \sin {2x}}\right)\) 与点 \(A\) 的直线，\(k\) 为大于所有满足要求的直线 \(l\) 的斜率的最小整数，则 \(k =\) \_\_\_\_\_
 - number: 13
   section: fill
   points: 5
   stem:
     text: |-
-      $\lim\limits_{n\to\infty}\dfrac{1}{n^3+n^2}\sum\limits_{i=1}^{n}\sum\limits_{j=1}^{n-i}j\sin\left(\dfrac{n-i}{n}\right)^3=$ \ExamBlank。
+      \( \lim\limits_{{n \rightarrow \infty }}\dfrac{1}{{n}^{3} + {n}^{2}}\sum\limits_{{i = 1}}^{n}\sum\limits_{{j = 1}}^{{n - i}}j\sin {\left( \dfrac{n - i}{n}\right) }^{3} =\) \_\_\_\_\_
 - number: 14
   section: fill
   points: 5
   stem:
     text: |-
-      设函数 $f(x)$ 在 $(0,+\infty)$ 上具有二阶连续导数，曲线 $L$ 位于右半平面，曲线积分 $\int_L y\left[\dfrac{2f(x)}{x}-f'(x)+2xf'(x)\right]\mathrm{d}x+x^2f'(x)\mathrm{d}y$ 与路径无关，且 $\lim\limits_{x\to 1}\dfrac{f(x)}{x-1}=1$，则 $4f'(2)+f(2)=$ \ExamBlank。
+      设函数 \(f\left( x\right)\) 在 \(\left( {0, + \infty }\right)\) 上具有二阶连续导数，曲线 \(L\) 位于右半平面，曲线积分 \( {\int }_{L}y\left\lbrack {\dfrac{{2f}\left( x\right) }{x} - {f}^{\prime }\left( x\right) + {2x}{f}^{\prime }\left( x\right) }\right\rbrack \mathrm{d}x + {x}^{2}{f}^{\prime }\left( x\right) \mathrm{d}y\) 与路径无关，且 \( \lim\limits_{{x \rightarrow 1}}\dfrac{f\left( x\right) }{x - 1} = 1\)，则 \(4{f}^{\prime }\left( 2\right) + f\left( 2\right) =\) \_\_\_\_\_
 - number: 15
   section: fill
   points: 5
   stem:
     text: |-
-      设 $A$ 为 $n$ 阶矩阵，已知 $\lvert A\rvert=-1$，$\alpha$ 是 $A$ 的属于特征值 $1$ 的特征向量，$A^*$ 是 $A$ 的伴随矩阵，已知 $\left\lvert\begin{array}{cc}A^*&A\alpha\\\alpha^{\mathsf T}&\alpha^{\mathsf T}\alpha\end{array}\right\rvert=\dfrac{(-1)^{n-1}}{2}$，则 $\operatorname{tr}(\alpha\alpha^{\mathsf T})=$ \ExamBlank。
+      设 \(A\) 为 \(n\) 阶矩阵，已知 \(\left| A\right| = - 1\), \(\alpha\) 是 \(A\) 的属于特征值 1 的特征向量，\({A}^{ * }\) 是 \(A\) 的伴随矩阵，已知 \( \left| \begin{matrix} {A}^{ * } & {A\alpha } \\ {\alpha }^{T} & {\alpha }^{T}\alpha \end{matrix}\right| = \dfrac{{\left( -1\right) }^{n - 1}}{2}\)，则 \(\operatorname{tr}\left( {\alpha {\alpha }^{T}}\right) =\) \_\_\_\_\_
 - number: 16
   section: fill
   points: 5
   stem:
     text: |-
-      设 $A,B,C$ 为三个随机事件，已知 $A$ 与 $C$ 相互独立，$B$ 与 $C$ 互不相容，$A,B,C$ 都不发生的概率为 $\dfrac{1}{12}$。若 $P(C)=\dfrac{1}{4}$，$P(B\cup C\mid A)=\dfrac{1}{3}$，$P(\overline A B)=P(\overline A\overline B)$，则 $P(A\cup\overline B)=$ \ExamBlank。
+      设 \(A,B,C\) 为三个随机事件，已知 \(A\) 与 \(C\) 相互独立，\(B\) 与 \(C\) 互不相容，\(A,B,C\) 都不发生的概率为 \( \dfrac{1}{12}\). 若 \( P\left( C\right) = \dfrac{1}{4},P\left( {B \cup C \mid A}\right) = \dfrac{1}{3},P\left( {A\bar{B}}\right) = P\left( {\bar{A}B}\right)\)，则 \(P\left( {A \cup \bar{B}}\right) =\) \_\_\_\_\_
 - number: 17
   section: solution
-  points: 10
+  points: 12
   stem:
     text: |-
-      设 $g(x,y)=f(\cos x+\sin y)$，其中一元函数 $f(u)$ 具有 $2$ 阶连续偏导数。已知 $\dfrac{\partial^2g}{\partial x^2}+\dfrac{\partial^2g}{\partial y^2}+\dfrac{2\cos x\sin y}{\sin x\cos y}\dfrac{\partial^2g}{\partial x\partial y}=2f''(\cos x+\sin y)-4g(x,y)$，$g(0,0)=g\left(\dfrac{\pi}{4},0\right)=1$。求 $g(x,y)$ 的表达式。
+      设 \(g\left( {x,y}\right) = f\left( {\cos x + \sin y}\right)\)，其中一元函数 \(f\left( u\right)\) 具有 2 阶连续偏导数。已知 \( \dfrac{{\partial}^{2}g}{\partial {x}^{2}} + \dfrac{{\partial}^{2}g}{\partial {y}^{2}} + \dfrac{2\cos x\sin y}{\sin x\cos y}\dfrac{{\partial}^{2}g}{\partial x\partial y} = 2f''\left( {\cos x + \sin y}\right) - 4g\left( {x,y}\right)\), \( g\left( {0,0}\right) = g\left( {\dfrac{\pi}{4},0}\right) = 1\)。求 \(g\left( {x,y}\right)\) 的表达式。
 - number: 18
   section: solution
   points: 12
   stem:
     text: |-
-      设曲面 $\Sigma$ 的方程为 $z=\sqrt{\lvert xy\rvert}$，已知 $\Sigma$ 在点 $(0,0)$ 处沿方向 $l$ 取得最大方向导数，与 $l$ 同向的单位方向向量为 $(\cos\alpha,\sin\alpha)$。
-  subparts:
-  - text: |-
-      求所有可能的方向 $l$ 以及最大方向导数 $\left.\dfrac{\partial z}{\partial l}\right\rvert_{(0,0)}$；
-  - text: |-
-      在第（I）问的基础上，已知 $\alpha\in\left(0,\dfrac{\pi}{2}\right)$，过原点且与 $(\cos\alpha,\sin\alpha,z(\cos\alpha,\sin\alpha))$ 同向的直线 $L$ 绕 $z$ 轴旋转一周所得旋转曲面为 $\Sigma_1$，求 $\Sigma_1$ 的方程。
+      设曲面 $\Sigma$ 的方程为 $z = \sqrt{|xy|}$，已知 $\Sigma$ 在点 $(0, 0)$ 处沿方向 $l$ 取得最大方向导数，与 $l$ 同向的单位方向向量为 $(\cos \alpha, \sin \alpha)$。 (1) 求所有可能的方向 $l$ 以及最大方向导数 $\left.\dfrac{\partial z}{\partial l}\right|_{(0,0)}$。 (2) 在第 (1) 问的基础上，已知 $\alpha \in \left(0, \dfrac{\pi}{2}\right)$，设过原点且与 $(\cos \alpha, \sin \alpha, z(\cos \alpha, \sin \alpha))$ 同向的直线 $L$ 绕 $z$ 轴旋转一周所得旋转曲面为 $\Sigma_1$，求 $\Sigma_1$ 的方程。
 - number: 19
   section: solution
   points: 12
   stem:
     text: |-
-      设曲面 $\Sigma$ 的方程为 $(x-1)^2+(y-1)^2+\dfrac{z^2}{2}=1$，取外侧，求曲面积分 $I=\iint\limits_\Sigma\dfrac{2x^2(x-1)+4y^2(y-1)+z^4}{\sqrt{4-z^2}}\,\mathrm{d}S$。
+      设曲面 \( \sum\) 的方程为 \( \left( x-1\right)^{2}+\left( y-1\right)^{2}+\dfrac{z^{2}}{2}=1\)，取外侧，求曲面积分 \( I={\iint}_{\sum}\dfrac{2x^{2}\left( x-1\right)+4y^{2}\left( y-1\right)+z^{4}}{\sqrt{4-z^{2}}}\mathrm{d}S.\)
 - number: 20
   section: solution
   points: 12
   stem:
     text: |-
-      设函数 $f(x)=\dfrac{1}{x^2+3x-2}$，$f(x)$ 在 $x=0$ 处的幂级数展开式为 $\sum\limits_{n=0}^{\infty}a_nx^n$。证明：
-  subparts:
-  - text: 对非负整数 $n$，$2f^{(n+2)}(0)=3(n+2)f^{(n+1)}(0)+(n+1)(n+2)f^{(n)}(0)$；
-  - text: |-
-      $\sum\limits_{n=0}^{\infty}\dfrac{a_{n+1}}{a_na_{n+2}}$ 收敛。
+      设函数 \( f\left( x\right)=\dfrac{1}{x^{2}+3x-2}\), \(f\left( x\right)\) 在 \(x=0\) 处的幂级数展开式为 \( \sum\limits_{n=0}^{\infty}a_{n}x^{n}\)。证明： (1) 对非负整数 \(n\), \(2f^{\left(n+2\right)}\left(0\right)=3\left(n+2\right)f^{\left(n+1\right)}\left(0\right)+\left(n+1\right)\left(n+2\right)f^{\left(n\right)}\left(0\right)\)； (2) \( \sum\limits_{n=0}^{\infty}\dfrac{a_{n+1}}{a_{n}a_{n+2}}\) 收敛。
 - number: 21
   section: solution
   points: 12
   stem:
     text: |-
-      设 $\alpha_1,\alpha_2,\alpha_3$ 在标准基下的坐标为 $\alpha_1=(1,1,0)^{\mathsf T},\alpha_2=(2,1,0)^{\mathsf T},\alpha_3=(1,2,1)^{\mathsf T}$，从基 $\alpha_1,\alpha_2,\alpha_3$ 到 $\beta_1,\beta_2,\beta_3$ 的过渡矩阵为 $P=\begin{pmatrix}2&3&2\\0&2&1\\0&0&1\end{pmatrix}$。已知 $A$ 为 $3$ 阶矩阵，$\alpha_2-\alpha_1$ 与 $\beta_1-\alpha_2$ 是 $A$ 的两个特征向量。$A$ 满足 $r(A-2E)>1$，且 $A^3-3A=2E$。
-  subparts:
-  - text: |-
-      若向量 $\xi$ 在基 $\alpha_1,\alpha_2,\alpha_3$ 和 $\beta_1,\beta_2,\beta_3$ 下有相同坐标，求 $\xi$ 在标准基下的坐标；
-  - text: |-
-      设第（I）问中的 $\xi$ 是 $A$ 的属于特征值 $2$ 的特征向量。求二次型 $f(x_1,x_2,x_3)=x^{\mathsf T}(A+A^{\mathsf T})x$ 的规范形。
+      设 \(\alpha_{1}, \alpha_{2}, \alpha_{3}\) 在标准基下的坐标为 \(\alpha_{1}=\left(1,1,0\right)^{T}\), \(\alpha_{2}=\left(2,1,0\right)^{T}\), \(\alpha_{3}=\left(1,2,1\right)^{T}\)，从基 \(\alpha_{1}, \alpha_{2}, \alpha_{3}\) 到 \(\beta_{1}, \beta_{2}, \beta_{3}\) 的过渡矩阵为 \( P=\left(\begin{array}{lll}2&3&2\\0&2&1\\0&0&1\end{array}\right).\) 已知 \(A\) 为 3 阶矩阵，\(\alpha_{2}-\alpha_{1}\) 与 \(\beta_{1}-\alpha_{2}\) 是 \(A\) 的两个特征向量。\(A\) 满足 \(r\left(A-2E\right)>1\)，且 \(A^{3}-3A=2E\)。 (1) 若向量 \(\xi\) 在基 \(\alpha_{1}, \alpha_{2}, \alpha_{3}\) 和 \(\beta_{1}, \beta_{2}, \beta_{3}\) 下有相同坐标，求 \(\xi\) 在标准基下的坐标。 (2) 设第 (1) 问中的 \(\xi\) 是 \(A\) 的属于特征值 2 的特征向量。求二次型 \(f\left( x_{1},x_{2},x_{3}\right)=x^{T}\left(A+A^{T}\right)x\) 的规范形。
 - number: 22
   section: solution
   points: 12
   stem:
-    text: 某旅馆有一公共烘干机，已知某日仅有甲、乙两客人入住，他们会在晚 $7$ 点至晚 $11$ 点间到达洗衣房使用烘干机。到达时相互独立，且在这 $4$ 小时内各时刻到来的可能性都相等。甲的使用时长为 $1$ 小时，乙的使用时长为 $1.5$ 小时。
-  subparts:
-  - text: 求甲、乙两人中有一人需要等待的概率；
-  - text: 求甲的平均等待时长。
+    text: 某旅馆有一公共烘干机，已知某日仅有甲、乙两客人入住，他们会在晚 7 点至晚 11 点间到达洗衣房使用烘干机，到达时间相互独立，且在这 4 小时内各时刻到来的可能性都相等。甲的使用时长为 1 小时，乙的使用时长为 1.5 小时。 (1) 求甲、乙两人中有一人需要等待的概率。 (2) 求甲的平均等待时长。
+content_hash: 8171c40ae69522833c9004d536e75f34507fa78dcc4677fe263646415a61691c

@@ -1,0 +1,302 @@
+schema_version: '3.0'
+paper:
+  series_key: chaoyue10
+  year: 2026
+  subject: math1
+  paper_no: 8
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      \(\int_{0}^{\pi}\sin x\, \mathrm dx=\)( )。
+  choices:
+  - label: A
+    text: |-
+      \(\lim\limits_{n\to\infty}\dfrac{1}{n}\left(\sin\dfrac{\pi}{n}+\sin\dfrac{2\pi}{n}+\cdots+\sin\dfrac{n\pi}{n}\right)\)
+    figures: []
+  - label: B
+    text: |-
+      \(\lim\limits_{n\to\infty}\dfrac{1}{n}\left(\sin\dfrac{\pi}{2n}+\sin\dfrac{3\pi}{2n}+\cdots+\sin\dfrac{(2n-1)\pi}{2n}\right)\)
+    figures: []
+  - label: C
+    text: |-
+      \(\lim\limits_{n\to\infty}\dfrac{\pi}{n}\left(\sin\dfrac{\pi}{2n}+\sin\dfrac{2\pi}{2n}+\cdots+\sin\dfrac{(n-1)\pi}{2n}\right)\)
+    figures: []
+  - label: D
+    text: |-
+      \(\lim\limits_{n\to\infty}\dfrac{\pi}{2n}\left(\sin\dfrac{\pi}{n}+\sin\dfrac{2\pi}{n}+\cdots+\sin\dfrac{(n-1)\pi}{n}\right)\)
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 \(y=y(x)\) 由方程 \(2\cos y+x{\mathrm e}^{-y}=1, \ y\in[0, \pi]\) 确定，则 \( \int_{-1}^{{\mathrm e}^{\dfrac{\pi}{2}}}y(x)\, \mathrm dx=\)( )。
+  choices:
+  - label: A
+    text: |-
+      \(\dfrac{\pi}{2}\)
+    figures: []
+  - label: B
+    text: |-
+      \(0\)
+    figures: []
+  - label: C
+    text: |-
+      \({\mathrm e}^{\dfrac{\pi}{2}}\)
+    figures: []
+  - label: D
+    text: |-
+      \(\dfrac{\pi}{2}{\mathrm e}^{\dfrac{\pi}{2}}\)
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知 \(f(x,y)\) 在点 \((0,0)\) 的某邻域内连续，且 \( \lim\limits_{\substack{x\to0\\y\to0}}\dfrac{f(x,y)-xy}{\sqrt{x^2+y^2}}=1\)，则点 \((0,0)\) 是 \(f(x,y)\) 的( )。
+  choices:
+  - label: A
+    text: 极小值点
+    figures: []
+  - label: B
+    text: 极大值点
+    figures: []
+  - label: C
+    text: 不是极值点
+    figures: []
+  - label: D
+    text: 不确定
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 \(x_0>0\)， \(x_{n+1}=\sqrt{\dfrac{2x_n^2}{3+x_n^2}}\)，则 \(\sum\limits_{n=1}^{\infty}(-1)^n\left(x_n-\ln(1+x_n)\right)\) ( )。
+  choices:
+  - label: A
+    text: 条件收敛
+    figures: []
+  - label: B
+    text: 绝对收敛
+    figures: []
+  - label: C
+    text: 发散
+    figures: []
+  - label: D
+    text: 无法判断敛散性
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      将 3 阶矩阵 \(A\) 的第 1 行与第 2 行互换得矩阵 \(B\)，再将 \(B\) 的第 2 行乘以 \(-3\) 加到第 3 行得矩阵 \(C\)，且 \(P^{-1}A=C\)，则 \(P=\)( )。
+  choices:
+  - label: A
+    text: |-
+      \(\begin{pmatrix}0&1&0\\1&0&3\\0&0&1\end{pmatrix}\)
+    figures: []
+  - label: B
+    text: |-
+      \(\begin{pmatrix}0&1&0\\1&0&0\\0&-3&1\end{pmatrix}\)
+    figures: []
+  - label: C
+    text: |-
+      \(\begin{pmatrix}1&0&0\\0&1&0\\0&3&1\end{pmatrix}\)
+    figures: []
+  - label: D
+    text: |-
+      \(\begin{pmatrix}0&1&0\\1&0&0\\0&3&1\end{pmatrix}\)
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 \(A,B\) 分别是 \(m\times n\) 与 \(n\times m\) 矩阵，且 \(r(A)=r(B)=m\)，则下列结论： \circled{1} \(BA\) 的行向量组与 \(B\) 的行向量组等价； \circled{2} \(A^TB^T\) 的行向量组与 \(B^T\) 的行向量组等价； \circled{3} \(BA\) 的列向量组与 \(A\) 的列向量组有相同的线性相关性； \circled{4} \(BA\) 的行向量组与 \(A\) 的行向量组等价。 以上结论中正确的个数有（ ）。
+  choices:
+  - label: A
+    text: |-
+      \(1\)
+    figures: []
+  - label: B
+    text: |-
+      \(2\)
+    figures: []
+  - label: C
+    text: |-
+      \(3\)
+    figures: []
+  - label: D
+    text: |-
+      \(4\)
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 \(x=(x_1,x_2,x_3)^T\)， \(A\) 为 3 阶可逆对称矩阵，\(A^{-1}\)、\(A^*\) 分别为 \(A\) 的逆矩阵和伴随矩阵，有二次型： \circled{1} \(x^TAx\)； \circled{2} \(x^TA^TAx\)； \circled{3} \(x^TA^2x\)； \circled{4} \(x^TA^{-1}A^*x\)。 其中正定二次型的是（ ）。
+  choices:
+  - label: A
+    text: |-
+      \(\mathrm{(1)}\ \mathrm{(3)}\)
+    figures: []
+  - label: B
+    text: |-
+      \(\mathrm{(1)}\ \mathrm{(2)}\ \mathrm{(4)}\)
+    figures: []
+  - label: C
+    text: |-
+      \(\mathrm{(2)}\ \mathrm{(3)}\)
+    figures: []
+  - label: D
+    text: |-
+      \(\mathrm{(2)}\ \mathrm{(3)}\ \mathrm{(4)}\)
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      若事件 \(A\) 与 \(B\) 同时发生时，则事件 \(C\) 发生；若 \(A\) 与 \(B\) 都不发生时，则 \(C\) 也不发生。下列命题： \circled{1} \(P(A\cup B\cup C)>P(A\cup B)\)； \circled{2} \(P(C-A)\leq P(B-A)\)； \circled{3} \(P(C)\leq P(A)+P(B)-1\)； \circled{4} \(P(C)=P(AB)\)。 下列命题正确的个数为（ ）。
+  choices:
+  - label: A
+    text: |-
+      \(1\)
+    figures: []
+  - label: B
+    text: |-
+      \(2\)
+    figures: []
+  - label: C
+    text: |-
+      \(3\)
+    figures: []
+  - label: D
+    text: |-
+      \(4\)
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设总体 \(X\) 服从标准正态分布，\(X_1\)， \(X_2\) 为简单随机样本，则下列命题中： \circled{1} \( X_1^2+X_2^2\sim E\left(\dfrac{1}{2}\right)\)； \circled{2} \( \dfrac{X_1+X_2}{|X_1-X_2|}\sim t(1)\)； \circled{3} \( \dfrac{1}{2}+\dfrac{X_2^2}{2X_1^2}\sim F(2,1)\)。 正确的个数为（ ）。
+  choices:
+  - label: A
+    text: |-
+      \(0\)
+    figures: []
+  - label: B
+    text: |-
+      \(1\)
+    figures: []
+  - label: C
+    text: |-
+      \(2\)
+    figures: []
+  - label: D
+    text: |-
+      \(3\)
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知随机变量 \(X\) 和 \(Y\) 同分布，\(X\) 的密度函数 \(f(x)\) 满足 \(f(1-x)=f(1+x)\)，若 \(P(X\geq2,Y\geq0)=p\left(0<p<\dfrac{1}{2}\right)\)，则 \(P(X<2,Y<0)=\)( )。
+  choices:
+  - label: A
+    text: |-
+      \(1-p\)
+    figures: []
+  - label: B
+    text: |-
+      \(1-\dfrac{p}{2}\)
+    figures: []
+  - label: C
+    text: |-
+      \(1-2p\)
+    figures: []
+  - label: D
+    text: |-
+      \(p\)
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 \(y=y(x)\) 是 \(y'+(x^2+1)y=x^2+\sin^4x\) 的一个解，则曲线 \(y=y(x)\) 有一条水平渐近线\underline{\qquad}。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 \(z=f(x,y)\) 有连续偏导数，且 \(f(x,x^2)=1\)， \(f'_x(1,1)=2\)，则 \( \lim\limits_{x\to0}\left[f\left(\cos x, \sqrt{1+x^2}\right)\right]^{\dfrac{1}{\ln(1+x^2)}}=\) \underline{\qquad}。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 \(\Sigma:x^2+y^2+z^2=1\)，取外侧，\(f(u)\) 是连续函数，则 \( \iint_{\Sigma}\left[f\left(x^2\sin(x^4y)\right)+2\right]\, \mathrm dy\, \mathrm dz+\left[f\left(x\arctan(y^2z)\right)+2y\right]\, \mathrm dz\, \mathrm dx+z^2\, \mathrm dx\, \mathrm dy=\) \underline{\qquad}。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 \( f(x)=\dfrac{\sin x^{2024}}{1-x^2}\)，则 \(f^{(2026)}(0)=\) \underline{\qquad}。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 \(A\) 为 2 阶方阵，\(\alpha_1\) 和 \(\alpha_2\) 是属于矩阵 \(A\) 分别对应于特征值 \(0,3\) 的特征向量，\(A^*\) 为 \(A\) 的伴随矩阵，则方程组 \(A^*x=\alpha_1\) 的通解为\underline{\qquad}。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      已知随机变量 \(X\sim P(1)\)，记 \(Y=\arctan X\)， \(Z=2\operatorname{arccot}X\)，则相关系数 \(\rho_{YZ}=\) \underline{\qquad}。
+- number: 17
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 \(D:x^2+y^2\leq1\)，计算二重积分 \( I=\iint_D\dfrac{\arctan\dfrac{1+x^2}{1+y^2}}{1+{\mathrm e}^{-y}}\, \mathrm dx\, \mathrm dy\)。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 \(f(x)\) 在 \([0, +\infty)\) 上二阶可导，且 \(f''(x)>0\)， \( F(x)=\dfrac{1}{x}\int_0^x f(t)\, \mathrm dt\)。 证明：任意 \(a,b>0\)，有 \( F(b)-F\left(\dfrac{a+b}{2}\right)\geq F\left(\dfrac{a+b}{2}\right)-F(a)\)。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      (1) 设 \(z=f(x,y)\) 有一阶连续偏导数，且 \( y\dfrac{\partial f}{\partial x}=x\dfrac{\partial f}{\partial y}\)。 证明：令 \( \begin{cases}x=r\cos\theta, \\y=r\sin\theta, \end{cases}\) 则函数 \(z=g(r)\)。 (2) 设函数 \(f(x,y)\) 有连续偏导数，且 \(f(0,0)=f(1,1)\)。 证明：在区域 \(0\leq x\leq1,0\leq y\leq1\) 至少存在一点 \((\xi, \xi^n)\) 满足方程 \( \dfrac{\partial f}{\partial x}+nx^{n-1}\dfrac{\partial f}{\partial y}=0\)。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 \(f(x)\) 在 \([0, +\infty)\) 上二阶可导，且 \(f(0)>0\)， \(f'(0)0\)，试讨论 \(f(x)\) 在 \((0, +\infty)\) 内有几个零点。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 \(A\) 为 2 阶矩阵，\(A=E-\alpha\alpha^T+\beta\beta^T\)，其中 \(E\) 为 2 阶单位矩阵，\(\alpha\)， \(\beta\) 为 2 维非零列向量，且向量 \(\alpha+\beta\) 与 \(\alpha-\beta\) 的模长相等，即 \(\|\alpha+\beta\|=\|\alpha-\beta\|\)。 (1) 证明非零向量 \(\alpha, \beta\) 正交； (2) 若 \( \alpha=\begin{pmatrix}1\\-1\end{pmatrix}\)， \( A\begin{pmatrix}1\\0\end{pmatrix}=\begin{pmatrix}1\\2\end{pmatrix}\)，求 \(A\) 的特征值和对应的线性无关的特征向量； (3) 在 (2) 的条件下，\( \gamma=\begin{pmatrix}1\\-3\end{pmatrix}\)，求 \(A^{2026}\gamma\)。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 \((X_1,X_2)\) 为来自总体 \(X\sim U[0,1]\) 的一个简单随机样本，其样本均值为 \(\bar X\)，样本方差为 \(S^2\)。 (1) 证明 \((X_1,X_2)\) 服从区域 \(\{(x_1,x_2)\mid 0\leq x_1\leq1,0\leq x_2\leq1\}\) 上的均匀分布； (2) 计算 \(P\left\{\bar X\leq\dfrac{1}{4}\right\}\) 和 \(P\left\{S^2\leq\dfrac{1}{8}\right\}\)； (3) 问 \(\bar X\) 与 \(S^2\) 是否相互独立？为什么？
+content_hash: 20d71349c35871bff6862dfe3593aa28cdec5f6d7448e719f5e496b57f70a093

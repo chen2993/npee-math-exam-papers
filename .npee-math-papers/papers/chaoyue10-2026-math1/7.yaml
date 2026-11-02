@@ -1,0 +1,306 @@
+schema_version: '3.0'
+paper:
+  series_key: chaoyue10
+  year: 2026
+  subject: math1
+  paper_no: 7
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 \(f(x)\) 在 \([-1,1]\) 上有定义，且在 \([-1,0)\cup(0,1]\) 内连续，\(F(x)=\int_{-1}^{x}f(t)\, \mathrm dt\)， \(x\in[-1,1]\)。 则下列说法正确的是( )。
+  choices:
+  - label: A
+    text: |-
+      若 \(x=0\) 是 \(f(x)\) 的可去间断点， 则 \(F(x)\) 在 \(x=0\) 点连续但不可导
+    figures: []
+  - label: B
+    text: |-
+      若 \(x=0\) 是 \(f(x)\) 的可去间断点， 则 \(F(x)\) 在 \(x=0\) 点可导且 \(F'(0)=f(0)\)
+    figures: []
+  - label: C
+    text: |-
+      若 \(x=0\) 是 \(f(x)\) 的跳跃间断点， 则 \(f(x)\) 在 \([-1,1]\) 上不存在原函数
+    figures: []
+  - label: D
+    text: |-
+      若 \(f(x)\) 在 \([-1,1]\) 无界， 则 \(f(x)\) 在 \([-1,1]\) 上不存在原函数
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      方程 \( \int_0^x\dfrac{2\ln(1+t)}{t}\, \mathrm dt-\int_{\cos x}^{\dfrac{\pi}{2}}\mathrm e^{-at^2}\, \mathrm dt=0\ (a>0)\) 在 \((0, \dfrac{\pi}{2})\) 内根的个数为( )。
+  choices:
+  - label: A
+    text: |-
+      \(0\)
+    figures: []
+  - label: B
+    text: |-
+      \(1\)
+    figures: []
+  - label: C
+    text: |-
+      \(2\)
+    figures: []
+  - label: D
+    text: |-
+      与 \(a\) 有关
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      若点 \((-1,0)\) 是函数 \(f(x,y)=(\alpha x+\beta+y^2)\mathrm e^{-x}\) 的极小值点，则( )。
+  choices:
+  - label: A
+    text: |-
+      \(\alpha<0\)
+    figures: []
+  - label: B
+    text: |-
+      \(\alpha>0\)
+    figures: []
+  - label: C
+    text: |-
+      \(\alpha\le0\)
+    figures: []
+  - label: D
+    text: |-
+      \(\alpha\ge0\)
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 \(f(x)=\mathrm e^x\) 在区间 \((-1,1]\) 上展开成傅里叶级数 \( \dfrac{a_0}{2}+\sum_{n=1}^{\infty}(a_n\cos n\pi x+b_n\sin n\pi x)\)，则( )。
+  choices:
+  - label: A
+    text: |-
+      \( \sum_{n=1}^{\infty}a_n\)、\( \sum_{n=1}^{\infty}b_n\) 均绝对收敛
+    figures: []
+  - label: B
+    text: |-
+      \( \sum_{n=1}^{\infty}a_n\)、\( \sum_{n=1}^{\infty}b_n\) 均条件收敛
+    figures: []
+  - label: C
+    text: |-
+      \( \sum_{n=1}^{\infty}a_n\) 绝对收敛， \( \sum_{n=1}^{\infty}b_n\) 条件收敛
+    figures: []
+  - label: D
+    text: |-
+      \( \sum_{n=1}^{\infty}a_n\) 条件收敛， \( \sum_{n=1}^{\infty}b_n\) 绝对收敛
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 \(n\) 维向量 \(\alpha_1, \alpha_2, \cdots, \alpha_s\) 与 \(n\) 维向量 \(\beta_1, \beta_2, \cdots, \beta_t\) 为等价向量组，记 \(A=(\alpha_1, \alpha_2, \cdots, \alpha_s)\)， \(B=(\beta_1, \beta_2, \cdots, \beta_t)\)，则下列说法正确的是( )。
+  choices:
+  - label: A
+    text: |-
+      \(\alpha_1, \alpha_2, \cdots, \alpha_s\) 与 \(\beta_1, \beta_2, \cdots, \beta_t\) 有相同的相关性
+    figures: []
+  - label: B
+    text: |-
+      矩阵 \(A\) 与矩阵 \(B\) 的行向量组等价
+    figures: []
+  - label: C
+    text: |-
+      \(A^Tx=0\) 与 \(B^Tx=0\) 同解
+    figures: []
+  - label: D
+    text: |-
+      \(A^Tx=0\) 与 \(B^Tx=0\) 不同解， 但有非零公共解
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 \(A,B\) 为三阶非零矩阵，且 \(AB=O\)， \(A^*\) 为 \(A\) 的伴随矩阵，则“\(A^*\ne O\)”是“\(A^*\) 与 \(B\) 等价”的( )。
+  choices:
+  - label: A
+    text: 充分必要条件
+    figures: []
+  - label: B
+    text: 充分非必要条件
+    figures: []
+  - label: C
+    text: 必要非充分条件
+    figures: []
+  - label: D
+    text: 非充分非必要条件
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知 \( A=\begin{pmatrix}1&-1\\-1&3\end{pmatrix}\)，则下列矩阵与 \(A\) 相似且合同的是( )。
+  choices:
+  - label: A
+    text: |-
+      \(\begin{pmatrix}-1&1\\1&-3\end{pmatrix}\)
+    figures: []
+  - label: B
+    text: |-
+      \(\begin{pmatrix}2&\sqrt2\\\sqrt2&2\end{pmatrix}\)
+    figures: []
+  - label: C
+    text: |-
+      \(\begin{pmatrix}0&-2\\1&4\end{pmatrix}\)
+    figures: []
+  - label: D
+    text: |-
+      \(\begin{pmatrix}2&1\\1&2\end{pmatrix}\)
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设随机变量 \(X\) 的概率密度为 \( f(x)=\begin{cases}kx, &0<x<1, \\1-\dfrac{1}{x^2}, &1\le x<2, \\0, &\text{其他}, \end{cases}\)，\(F(x)\) 为 \(X\) 的分布函数，则 \( P\left\{X+F(X)\le\dfrac{5}{8}\right\}\) 的值为（ ）。
+  choices:
+  - label: A
+    text: |-
+      \( \dfrac{1}{2}\)
+    figures: []
+  - label: B
+    text: |-
+      \( \dfrac{1}{4}\)
+    figures: []
+  - label: C
+    text: |-
+      \( \dfrac{1}{8}\)
+    figures: []
+  - label: D
+    text: |-
+      \( \dfrac{1}{16}\)
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知随机变量 \(X\) 和 \(Y\) 的方差 \(DX\) 和 \(DY\) 均存在，则下列结论正确的个数为( )。 \circled{1} \(E^2(XY)\le E(X^2)E(Y^2)\)； \circled{2} \(\operatorname{Cov}^2(X,Y)>\operatorname{Cov}(X,X)\operatorname{Cov}(Y,Y)\)； \circled{3} \(E(|X|)\ge\sqrt{E(X^2)}\)； \circled{4} \(DX>E(X-a)^2\)， \(a\) 为常数。
+  choices:
+  - label: A
+    text: |-
+      \( 1\)
+    figures: []
+  - label: B
+    text: |-
+      \( 2\)
+    figures: []
+  - label: C
+    text: |-
+      \( 3\)
+    figures: []
+  - label: D
+    text: |-
+      \( 4\)
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知随机变量 \(X\sim N(0,1)\)， \(Y\sim B(1, \dfrac{1}{2})\)，且 \(X\) 和 \(Y\) 相互独立，记 \(Z_1=X+Y\)， \(Z_2=X\cdot Y\)，则下列结论正确的是( )。
+  choices:
+  - label: A
+    text: |-
+      \(Z_1,Z_2\) 均为非连续型随机变量
+    figures: []
+  - label: B
+    text: |-
+      \(Z_1\) 为非连续型随机变量， \(Z_2\) 为连续型随机变量
+    figures: []
+  - label: C
+    text: |-
+      \(Z_1\) 为连续型随机变量， \(Z_2\) 为非连续型随机变量
+    figures: []
+  - label: D
+    text: |-
+      \(Z_1,Z_2\) 均为连续型随机变量
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 \( f(x)=\lim\limits_{n\to\infty}\dfrac{x^2}{n}\left(\cos\dfrac{x}{n}+\cos\dfrac{2x}{n}+\cdots+\cos\dfrac{nx}{n}\right)\)，则 \(f^{(2026)}(0)=\) \underline{\qquad}。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设可微函数 \(f(x,y)=2x-y-1+o\left(\sqrt{(x-1)^2+y^2}\right)\)，则曲面 \(z=f(\mathrm e^{xy},x^2+y^2-1)\) 上点 \((1,0,1)\) 处指向上侧的单位法向量 \(n^\circ=\) \underline{\qquad}。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 \( f(a,b)=\iint_D \mathrm e^{\max\{b^2x^2,a^2y^2\}}\,\mathrm{d}\sigma\)，其中 \(D=\{(x,y)\mid 0\le x\le a,0\le y\le b\}\)， \(g(a,b)\) 是 \( \sqrt{\dfrac{x}{a}}+\sqrt{\dfrac{y}{b}}=1\) 与坐标轴在第一象限所围区域的面积，则 \( \lim\limits_{\substack{a\to0\\ b\to0}}\dfrac{f(a,b)}{g(a,b)}=\) \underline{\qquad}。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设可导函数 \(f(x)\) 满足 \( f'(x)=\dfrac{1}{x} f(x)+\int_1^{\mathrm e}f(x)\, \mathrm dx\)，且 \(f(1)=1\)，则 \( \int_1^{\mathrm e}f(x)\, \mathrm dx=\) \underline{\qquad}。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 \(3\) 阶矩阵 \(A\) 可逆，\(B=E-k\alpha\alpha^T\) 为正交矩阵 \((k>0)\)，其中 \(E\) 为 \(3\) 阶单位矩阵，\(\alpha\) 为 \(3\) 维单位列向量，\(3\) 阶矩阵 \(C\) 满足 \(A^2-AB+CA=O\)，则 \(|A+C|=\) \underline{\qquad}。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设总体 \(X\sim N(0, \sigma^2)\)， \((X_1, \cdots,X_n)\) 为来自总体 \(X\) 的简单随机样本，\(\bar X\) 为样本均值，\(S^2\) 为样本方差，则根据切比雪夫不等式估计概率 \(P\{-\sigma^2<9\bar X^2+S^2<5\sigma^2\}\ge\) \underline{\qquad}。
+- number: 17
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 \(f(t)\) 在 \(( -\infty, +\infty )\) 内具有二阶连续导数，当 \(t\to0^+\) 时，\(f(t)\) 和 \(t^2\) 是同阶无穷小量，且在区域 \(D=\{(x,y)\mid x>0,y>0\}\) 内存在函数 \(u(x,y)\)，使得 \( \mathrm du(x,y)=\dfrac{f(xy)+\mathrm e^{xy}}{x}\,\mathrm dx+\dfrac{f'(xy)}{y}\,\mathrm dy\)。 (1) 求 \(f(t)\)。 (2) 求 \(f(t)\) 在 \([0,2]\) 上的平均值。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设可微函数 \(f(x,y)\) 的全微分 \(\mathrm df(x,y)=(3x^2-3a)\, \mathrm dx+(3y^2-6y)\, \mathrm dy\ (a>0)\)，且 \(f(0,0)=0\)。 若 \(f(x,y)\) 有极大值 \(16\)，求 \(a\) 的值。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      计算积分 \(I=\iint_D(x+\sin y)\,\mathrm{d}\sigma\)，其中 \(D=\{(x,y)\mid x^2+y^2\le \min(1,2x)\}\)。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      (1) 设 \(f(x),g(x)\) 在 \([a,b]\) 上连续，证明\( \left(\int_a^b f(x)g(x)\, \mathrm dx\right)^2\le \int_a^b f^2(x)\, \mathrm dx\int_a^b g^2(x)\, \mathrm dx\)。 (2) 是否存在 \([0,1]\) 上连续的正函数 \(f(x)\)，使得 \( \int_0^1 f(x)\, \mathrm dx=1,\ \int_0^1 xf(x)\, \mathrm dx=a,\ \int_0^1 x^2f(x)\, \mathrm dx=a^2\) 成立，其中 \(a\) 为常数。说明理由。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 \(A=(\alpha_1, \alpha_2, \alpha_3)\) 为 \(3\) 阶对称矩阵，其中 \(\alpha_1, \alpha_2, \alpha_3\) 满足\( (\alpha_1+\alpha_2-\alpha_3, \alpha_1-\alpha_2, \alpha_1+\alpha_3)=\begin{pmatrix}2&-1&-1\\2&1&0\\-2&0&-1\end{pmatrix}\)。 (1) 求正交线性变换 \(x=Qy\)，将二次型 \(x^T(A+A^{-1})x\) 化为标准形； (2) 是否存在可逆矩阵 \(C\)，使 \(A+2E=C^TC\)？若存在，求出矩阵 \(C\)；若不存在，说明理由。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设某电子元件的使用寿命 \(T\) 的分布函数 \(F(t)\) 满足微分方程 \( \dfrac{F'(t)}{1-F(t)}=\dfrac{t^2}{\theta}\)，其中 \(t\ge0\)， \(F(0)=0\)， \(\theta\) 为大于 \(0\) 的未知参数。 任取 \(n\) 个此电子元件做寿命试验，测得它们的寿命分别为 \(T_1,T_2, \cdots,T_n\)。 (1) 求 \(F(t)\)； (2) 求 \(\theta\) 的最大似然估计量 \(\widehat\theta\)，并求 \(E\widehat\theta\)。
+content_hash: 1c5111309ea0994de96149d68577ff652f6e9a87d5e01794db715962a1d74292

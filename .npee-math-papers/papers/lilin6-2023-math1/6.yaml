@@ -1,0 +1,289 @@
+schema_version: '3.0'
+paper:
+  series_key: lilin6
+  year: 2023
+  subject: math1
+  paper_no: 6
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)=\begin{cases} a\sqrt{x}, & 0\leqslant x\leqslant b, \\ \ln x, & x>b \end{cases}$ 在 $(0,+\infty)$ 内可导，在 $x=0$ 处右连续，则 ( )
+  choices:
+  - label: A
+    text: |-
+      $a=\dfrac{1}{\mathrm{e}},b=\mathrm{e}.$
+    figures: []
+  - label: B
+    text: |-
+      $a=\dfrac{2}{\mathrm{e}},b=\mathrm{e}.$
+    figures: []
+  - label: C
+    text: |-
+      $a=\dfrac{2}{\mathrm{e}},b=2\mathrm{e}.$
+    figures: []
+  - label: D
+    text: |-
+      $a=\dfrac{2}{\mathrm{e}},b=\mathrm{e}^2.$
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)=\begin{cases} \dfrac{x \mathrm{e}^{\dfrac{1}{x}}}{1+\mathrm{e}^{\dfrac{1}{x}}}, & x \neq 0, \\ 0, & x=0, \end{cases}$ 则 $x=0$ 是 $f'(x)$ 的（ ）
+  choices:
+  - label: A
+    text: 可去间断点
+    figures: []
+  - label: B
+    text: 跳跃间断点
+    figures: []
+  - label: C
+    text: 振荡间断点
+    figures: []
+  - label: D
+    text: 无穷间断点
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x) = \lim_{n \to \infty} \dfrac{-x + x\mathrm{e}^{nx}}{1 + \mathrm{e}^{nx}}$，则 $F(x) = \int_0^x f(t)\mathrm{d}t$ 是 $(\quad)$
+  choices:
+  - label: A
+    text: 可导的偶函数
+    figures: []
+  - label: B
+    text: 可导的奇函数
+    figures: []
+  - label: C
+    text: 连续但不可导的偶函数
+    figures: []
+  - label: D
+    text: 连续但不可导的奇函数
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x,y) = \sqrt{x^2+y^2}$，则 $f(x,y)$ 在点 $(0,0)$ 处（\quad ）
+  choices:
+  - label: A
+    text: $f'_x(0,0)$ 存在
+    figures: []
+  - label: B
+    text: 沿任一方向的方向导数存在
+    figures: []
+  - label: C
+    text: $f'_y(0,0)$ 存在
+    figures: []
+  - label: D
+    text: 可微
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: 设 $f'(x)$ 在 $[0,4]$ 上连续，曲线 $y=f'(x)$ 与 $x=0,y=0,x=4$ 围成如图 6-1 所示的三个区域，其面积 $S_1,S_2,S_3$ 满足 $S_2>S_1>S_3$，则下列选项正确的是（ ）
+  choices:
+  - label: A
+    text: $f(1)>f(3)>f(4)$
+    figures: []
+  - label: B
+    text: $f(4)>f(3)>f(1)$
+    figures: []
+  - label: C
+    text: $f(3)>f(4)>f(1)$
+    figures: []
+  - label: D
+    text: $f(4)>f(1)>f(3)$
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $\{u_n\}$ 是单调减少的正值数列, 则下列级数中收敛的是 ( )
+  choices:
+  - label: A
+    text: |-
+      $\sum_{n=1}^{\infty} (-1)^{n-1} u_n$
+    figures: []
+  - label: B
+    text: |-
+      $\sum_{n=1}^{\infty} \dfrac{u_n}{n}$
+    figures: []
+  - label: C
+    text: |-
+      $\sum_{n=1}^{\infty} \left(1 - \dfrac{u_{n+1}}{u_n}\right)$
+    figures: []
+  - label: D
+    text: |-
+      $\sum_{n=1}^{\infty} \dfrac{u_n - u_{n+1}}{\sqrt{u_n}}$
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 是 $3 \times 4$ 实矩阵$,\lambda$ 是 $AA^T$ 仅有的非零特征值，对应的特征向量为 $\alpha = (-1,1,1)^T$ $,k_1,k_2$ 为任意常数，则方程组 $AA^Tx = 0$ 的通解可为（ ）
+  choices:
+  - label: A
+    text: $k_1(1,1,0)^T + k_2(1,-1,0)^T$
+    figures: []
+  - label: B
+    text: $k_1(-1,1,0)^T + k_2(0,1,1)^T$
+    figures: []
+  - label: C
+    text: $k_1(-1,1,0)^T + k_2(1,0,1)^T$
+    figures: []
+  - label: D
+    text: $k_1(1,1,0)^T + k_2(1,0,1)^T$
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $\alpha_1 = (a_1, a_2, a_3)^T, \alpha_2 = (b_1, b_2, b_3)^T, \alpha_3 = (c_1, c_2, c_3)^T, \alpha_4 = (d_1, d_2, d_3)^T$，若三个平面 $a_i x + b_i y + c_i z = d_i (i = 1, 2, 3, a_i^2 + b_i^2 + c_i^2 \neq 0)$ 两两互相垂直，则（ ）
+  choices:
+  - label: A
+    text: |-
+      $\alpha_1, \alpha_2, \alpha_3$ 线性相关
+    figures: []
+  - label: B
+    text: |-
+      $\alpha_1, \alpha_2, \alpha_3$ 线性无关
+    figures: []
+  - label: C
+    text: |-
+      $\alpha_1, \alpha_2, \alpha_3, \alpha_4$ 线性无关
+    figures: []
+  - label: D
+    text: |-
+      $r(\alpha_1, \alpha_2, \alpha_3) = r(\alpha_1, \alpha_2, \alpha_3, \alpha_4) < 3$
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设事件 $A, B, C$ 两两相互独立$,ABC = \varnothing$ $,P(A) = P(B) = P(C)$，且 $A, B, C$ 至少有一个发生的概率为 $\dfrac{9}{16}$，则 $P(A) = (\quad)$
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{1}{4}$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{3}{4}$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{1}{3}$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{2}{3}$
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设总体 $X$ 与 $Y$ 均服从 $N(0, \sigma^2) (\sigma>0)$ $,X_1, X_2, \cdots, X_n$ 与 $Y_1, Y_2, \cdots, Y_n$ 分别为来自总体 $X$ 与 $Y$ 的两个相互独立的简单随机样本，其样本均值与样本方差分别为 $\overline{X}, S_1^2; \overline{Y}, S_2^2$，则下列选项中错误的是（ ）
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{\sqrt{n}(\overline{X}-\overline{Y})}{\sqrt{2}\sigma} \sim N(0,1)$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{n(\overline{X}-\overline{Y})^2}{2\sigma^2} \sim \chi^2(1)$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{(n-1)(S_1^2+S_2^2)}{\sigma^2} \sim \chi^2(2n-2)$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{n(\overline{X}-\overline{Y})^2}{S_1^2+S_2^2} \sim F(1,2n-1)$
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $f(x) = \ln \dfrac{x}{1+x}$，则 $f^{(n)}(1) = \underline{\hspace{1.5cm}}$。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $y=f(x)$ 由参数方程 $\begin{cases} x=t-\ln(1+t), \\ y=t^2+t^2 \end{cases}$ 确定，则 $\lim_{n\to\infty} \dfrac{f\left(\dfrac{2}{n}\right)}{\ln\dfrac{n+1}{n}} = \underline{\qquad\qquad}$。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设曲线的极坐标方程为 $r=\dfrac{1}{3\theta-\pi}$，则该曲线的斜渐近线方程为 lank
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设圆柱面 $\Sigma: x^2 + y^2 = 1 (0 \leqslant z \leqslant 1)$, $\Sigma$ 的密度 $\rho = 1$, 则 $\Sigma$ 关于 $z$ 轴的转动惯量为 \underline{\qquad\qquad}
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 是 $3$ 阶可逆矩阵$,A^{-1}$ 的特征值为 $1,2,3$ $,A_{11},A_{22},A_{33}$ 是 $|A|$ 的代数余子式，则 $A_{11}+A_{22}+A_{33}=\underline{\quad\quad\quad\quad}$
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设二维总体 $(X, Y)$ 的概率密度为 $f(x, y) = \begin{cases} 2\theta^{-2}\mathrm{e}^{-\dfrac{x+y}{\theta}}, & 0 0), \\ 0, & \text{\text{其他}} \end{cases}$ $,(X_1, Y_1), (X_2, Y_2), \cdots, (X_n, Y_n)$ 为 $(X, Y)$ 的一组简单随机样本，则 $\theta$ 的最大似然估计量 $\hat{\theta} = \underline{\hspace{1.5cm}}$。
+- number: 17
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设可微函数 $f(u,v)$ 满足 $\dfrac{\partial f}{\partial u} + \dfrac{\partial f}{\partial v} = (u+v)\mathrm{e}^{u-v}$，且 $f(0,v) = 0$。若 $u = x, v = x+y$。 (I) 求 $\dfrac{\partial f(x,x+y)}{\partial x}$； (II) 求 $f(u,v)$ 的极值。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设数列 $\{a_n\}$ 在 $x \in (-\infty, +\infty)$ 内满足 $\sum_{n=1}^\infty (-1)^n \dfrac{a_n}{n+2} x^{n+2} + \sum_{n=0}^\infty (-1)^{n+1} a_{n+1} x^{n+2} = -x - \mathrm{e}^{-x}$。若 $S(0) = 0$，求 $\sum_{n=1}^\infty (-1)^n a_n x^{n+1}$ 的和函数 $S(x)$ 及 $a_n$。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设曲面 $\Sigma: z = x^2 + y^2$ 与平面 $z = 1$ 所围均匀立体为 $V$, 且在 $\Sigma$ 上使其切平面与 $V$ 的质心距离最近的点的轨迹为 $L$. (I) 求 $V$ 的质心坐标; (II) 求曲线 $L$, 并计算 $I = \int_L x\mathrm{d}y - y\mathrm{d}x + z\mathrm{d}z$, $L$ 取逆时针方向
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      \((\mathrm{I})\) 证明: 方程 $x = \mathrm{e}^{\sin^n x}\,(n=1, 2, \cdots)$ 在 $\left(\dfrac{\pi}{2}, \mathrm{e}\right)$ 内有唯一的实根 $x_n$; \((\mathrm{II})\) 计算 $\lim\limits_{n\to\infty} \left( \dfrac{\pi \sin x_n}{2x_n} \right)^{\dfrac{1}{x_n - \dfrac{\pi}{2}}}$
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $A = \begin{pmatrix} 2 & 1 & 0 \\ 1 & 2 & 0 \\ 0 & 0 & 1 \end{pmatrix}$ 与 $B = \begin{pmatrix} a & b & c \\ 0 & 1 & 0 \\ -1 & -2 & 4 \end{pmatrix}$ 相似. (I) 求 $a, b, c$ 的值； (II) 求一个可逆矩阵 $P$，使得 $P^{-1}AP = B$； (III) 求方程组 $(3E - A^*)x = 0$ 的通解
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $X_1, X_2, X_3$ 相互独立，且均服从参数为 $\lambda(\lambda > 0)$ 的指数分布，记 $X = \min\{X_1, X_2\}, Y = X + X_3$. (I) 求 $X$ 的概率密度与 $Y$ 的概率密度； (II) 若 $Y_1, Y_2, \cdots, Y_n$ 为总体 $Y$ 的简单随机样本，求 $\lambda$ 的矩估计量
+content_hash: 4ab0748d9a8cb0d3e07ba7ce00ddca11d84b39054360f89771718939d8273360

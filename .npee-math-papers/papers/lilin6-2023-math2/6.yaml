@@ -1,0 +1,293 @@
+schema_version: '3.0'
+paper:
+  series_key: lilin6
+  year: 2023
+  subject: math2
+  paper_no: 6
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)$ 在 $(-\infty, +\infty)$ 内有定义，且对任意的 $x, y$，有 $f(x+y)-f(x)=[f(x)-1] y+\alpha(y)$，其中 $\lim _{y \rightarrow 0} \dfrac{\alpha(y)}{y}=0$，且 $f(0)=2$，则 $f(x)=(\quad)$
+  choices:
+  - label: A
+    text: |-
+      $2\mathrm{e}^x$
+    figures: []
+  - label: B
+    text: |-
+      $2\mathrm{e}^{-x}$
+    figures: []
+  - label: C
+    text: |-
+      $\mathrm{e}^x+1$
+    figures: []
+  - label: D
+    text: |-
+      $\mathrm{e}^{-x}+1$
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x) = \lim\limits_{n \to \infty} \dfrac{-x + x\mathrm{e}^{nx}}{1 + \mathrm{e}^{nx}}$，则 $F(x) = \int_0^x f(t) \mathrm{d}t$ 是（ ）
+  choices:
+  - label: A
+    text: 可导的偶函数
+    figures: []
+  - label: B
+    text: 可导的奇函数
+    figures: []
+  - label: C
+    text: 连续但不可导的偶函数
+    figures: []
+  - label: D
+    text: 连续但不可导的奇函数
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)$ 在 $[0,1]$ 上可导，且 $f'(x) > 0$ $,F(x) = \int_0^1 |f(x) - f(t)| dt$，则在 $[0,1]$ 上有（ ）
+  choices:
+  - label: A
+    text: |-
+      $F(x) \geqslant F\left(\dfrac{1}{2}\right)$
+    figures: []
+  - label: B
+    text: |-
+      $F(x) \leqslant F\left(\dfrac{1}{2}\right)$
+    figures: []
+  - label: C
+    text: |-
+      $F\left(\dfrac{1}{2}\right) \geqslant F(0)$
+    figures: []
+  - label: D
+    text: |-
+      $F(1) \leqslant F\left(\dfrac{1}{2}\right)$
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $y(x)$ 满足 $y'' + 2ay' + b^2 y = 0\,(a > b > 0)$，且 $y(0) = 1, y'(0) = 1$，则 $\int_0^{+\infty} y(x) \mathrm{d}x = (\quad)$
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{2a+1}{b}$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{2a}{b^2}$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{2a+1}{b^2}$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{2a}{b}$
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: 设 $f'(x)$ 在 $[0,4]$ 上连续，曲线 $y=f'(x)$ 与 $x=0,y=0,x=4$ 围成如图 6－1 所示的三个区域，其面积 $S_1,S_2,S_3$ 满足 $S_2>S_1>S_3$，则下列选项正确的是（ ）
+  choices:
+  - label: A
+    text: $f(1)>f(3)>f(4)$
+    figures: []
+  - label: B
+    text: $f(4)>f(3)>f(1)$
+    figures: []
+  - label: C
+    text: $f(3)>f(4)>f(1)$
+    figures: []
+  - label: D
+    text: $f(4)>f(1)>f(3)$
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      积分 $\int_{\arctan \dfrac{1}{4}}^{\dfrac{\pi}{4}} \mathrm{d}\theta \int_{\dfrac{1}{\sqrt{\sin \theta \cos \theta}\cos \theta}}^{\dfrac{2}{\cos \theta}} r^2 \cos \theta \mathrm{d}r = (\quad)$
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{1}{3}$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{2}{3}$
+    figures: []
+  - label: C
+    text: $1$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{4}{3}$
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      微分方程 $y'' - 2y' - 3y = \mathrm{e}^{-x} + x$ 的特解可设为（\quad ）
+  choices:
+  - label: A
+    text: |-
+      $a\mathrm{e}^{-x} + bx + C$
+    figures: []
+  - label: B
+    text: |-
+      $ax\mathrm{e}^{-x} + bx + C$
+    figures: []
+  - label: C
+    text: |-
+      $ax\mathrm{e}^{-x} + x(bx + C)$
+    figures: []
+  - label: D
+    text: |-
+      $a\mathrm{e}^{-x} + x(bx + C)$
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设向量组 $\alpha_1=(1,1,a)^T,\alpha_2=(1,-2,b)^T,\alpha_3=(-2,1,c)^T$ 的秩为 $a$，若 $\beta=(1,2,0)^T$ 可由 $\alpha_1,\alpha_2,\alpha_3$ 线性表示，且表示法不唯一，则（ ）
+  choices:
+  - label: A
+    text: $a=2,b=8,c=-10$
+    figures: []
+  - label: B
+    text: $a=2,b=8,c=10$
+    figures: []
+  - label: C
+    text: $a=1,b=-8,c=10$
+    figures: []
+  - label: D
+    text: $a=1,b=-8,c=-10$
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A=\begin{pmatrix} 1 & 1 & 1 & 1 \\ a & b & c & d \\ a^2 & b^2 & c^2 & d^2 \end{pmatrix}$，其中 $a,b,c,d$ 互不相等，则（\quad）
+  choices:
+  - label: A
+    text: $Ax=0$ 只有零解
+    figures: []
+  - label: B
+    text: |-
+      $A^{\mathrm{T}}x=0$ 有非零解
+    figures: []
+  - label: C
+    text: |-
+      $A^{\mathrm{T}}Ax=0$ 有非零解
+    figures: []
+  - label: D
+    text: |-
+      $AA^{\mathrm{T}}x=0$ 有非零解
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: 设 $f(x_1,x_2,x_3)=(a x_1+2x_2-3x_3)^2+(x_2-2x_3)^2+(x_1+a x_2-x_3)^2$ 是正定二次型，则（ ）
+  choices:
+  - label: A
+    text: |-
+      $a \neq 1$ 且 $a \neq -\dfrac{1}{2}$
+    figures: []
+  - label: B
+    text: |-
+      $a \neq -1$ 且 $a \neq \dfrac{1}{2}$
+    figures: []
+  - label: C
+    text: |-
+      $a \neq \dfrac{1}{2}$ 且 $a \neq 1$
+    figures: []
+  - label: D
+    text: |-
+      $a \neq \dfrac{1}{2}$ 且 $a \neq 0$
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)=\lim\limits_{t \to \infty} x\left(1+\dfrac{1}{t}\right)^{2xt}$，则曲线 $y=f(x)$ 的拐点为______
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $x=f(y)$ 是单调可导函数 $y=g(x)$ 的反函数，且 $g(1)=2, g'(1)=-\dfrac{\sqrt{3}}{3}$，则 $\lim\limits_{y\to 2}(y-2)\dfrac{f(y)-f(2)}{(\ln y-\ln 2)^2}=\underline{\hspace{2em}}.$
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $z = \dfrac{u}{y} + \mathrm{e}^{-ux} + f(u)$ $,u(x,y)$ 满足 $x\mathrm{e}^{-ux} - f'(u) = \dfrac{1}{y}$，其中 $u(x,y)$ 和 $f(u)$ 均可微，且 $\dfrac{\partial z}{\partial x} = \dfrac{\partial z}{\partial y}$，则 $u(x,y) = \underline{\hspace{1.5cm}}$。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)$ 非负连续，且满足 $f(x) \int_{0}^{x} f(x-t) \mathrm{d}t = \sin^4 x$，则 $f(x)$ 在 $\left[0, \dfrac{\pi}{2}\right]$ 上的平均值为 \underline{\qquad}
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设函数 $y=y(x)$ 由方程 $\ln y+2x-\dfrac{1}{2}y^2=0$ 确定，则曲线 $y=y(x)$ 在 $y\in [1,\mathrm{e}]$ 上的弧长为\underline{\qquad}
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $\alpha_1=(1,2)^T, \alpha_2=(a,1)^T, x=(x_1,x_2)^T$，若二次型 $f(x_1,x_2)=\sum_{i=1}^2 (\alpha_i, x)^2$ 经可逆线性变换化为 $g(y_1,y_2)=y_1^2+y_2^2+2y_1y_2$，则 $a=\underline{\qquad\qquad}$。
+- number: 17
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $f(x) = x \sin x + \cos x, x \in \left[0, \dfrac{\pi}{2}\right]$，求 $\lim\limits_{n \to \infty} \int_0^{\dfrac{\pi}{2}} \sqrt[n]{f(x)} \cdot f(x) \mathrm{d}x$。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $f(x,y)=x^3+y^3-ax^2-by^2(a>0,b>0)$ 有极小值 $-8$, 求 $a,b$ 的值, 使得 $\dfrac{x^2}{a^2}+\dfrac{y^2}{b^2}=1$ 所围面积最大
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设容器的内表面是由曲线 $x=y+\sin y\left(0 \leqslant y \leqslant \dfrac{\pi}{2}\right)$ 绕 $y$ 轴旋转一周所得的旋转曲面, 以 $\pi\left(\mathrm{m}^3 / \mathrm{s}\right)$ 的速率向容器内注入液体. $(I)$ 当液面高度为 $\dfrac{\pi}{4}(\mathrm{m})$ 时, 求液面上升的速率; $(II)$ 将容器注满液体需要多少时间
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $D$ 为 $(x^2+y^2)^2=2xy$ 所围区域, 计算 $I=\iint_D (x^2-y^2+xy)\mathrm{d}x\mathrm{d}y$
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $f(x)$ 在 $(-\infty, +\infty)$ 内有连续导数, $f(x) > 0$, 且满足 $f'(x) + \dfrac{2nx}{1+x^2}f(x) = 0$ ($n$ 为正整数), $f(0) = 1$. (I) 求 $f(x)$; (II) 记 $S_n$ 为曲线 $y=f(x)$ 与 $x$ 轴之间的无界区域的面积, 求 $\lim\limits_{n\to\infty}\left(\dfrac{S_n}{S_{n-1}}\right)^n$
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: 设 $A$ 是 3 阶矩阵，方程组 $Ax = b$ 的通解为 $k_1(-1,1,0)^T + k_2(2,0,1)^T + (1,1,-2)^T$，其中 $k_1, k_2$ 为任意常数$,b = (6,6,-12)^T$． (I) 求 $A$； (II) 若 $x = (x_1, x_2, x_3)^T$，求 $x^T Ax = 0$ 的全部解．
+content_hash: 66d9a57c22e0a3122c199a0fd1a316bc40f8204f2c898e263c5b7a88c527b499

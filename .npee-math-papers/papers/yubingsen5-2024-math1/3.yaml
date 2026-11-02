@@ -4,14 +4,13 @@ paper:
   year: 2024
   subject: math1
   paper_no: 3
-content_hash: b64f8967bbdb0cf6e29cc2f6e17cbd71bad136c1f635f4e748419546afda2b90
 questions:
 - number: 1
   section: choice
   points: 5
   stem:
     text: |-
-      设 $f(x)=(x+a)^x-a^x$（$a>0$），$g(x)=x^x-(\sin x)^x$，则当 $x\to0$ 时\ExamSelection。
+      设 $f(x)=(x+a)^x-a^x,(a>0),g(x)=x^x-(\sin x)^x$, 则当 $x\to 0$ 时,( )
   choices:
   - label: A
     text: $f(x)$ 是 $g(x)$ 的高阶无穷小
@@ -30,89 +29,88 @@ questions:
   points: 5
   stem:
     text: |-
-      设曲线 $C$ 的方程为 $x=\dfrac{3t}{1+t^3},y=\dfrac{3t^2}{1+t^3}$，则曲线 $C$ 的水平切线和竖直切线的条数分别为\ExamSelection。
+      设曲线 $C$ 的方程为 $x = \dfrac{3t}{1+t^3},\ y = \dfrac{3t^2}{1+t^3}$，则曲线 $C$ 的水平切线和铅直切线的条数分别为（ ）。
   choices:
   - label: A
-    text: $1$ 和 $1$
+    text: 1 和 1
     figures: []
   - label: B
-    text: $1$ 和 $2$
+    text: 1 和 2
     figures: []
   - label: C
-    text: $2$ 和 $1$
+    text: 2 和 1
     figures: []
   - label: D
-    text: $2$ 和 $2$
+    text: 2 和 2
     figures: []
 - number: 3
   section: choice
   points: 5
   stem:
     text: |-
-      设 $D=\{(x,y)\mid0\leq x\leq\sqrt{\pi},0\leq y\leq\sqrt{\pi}\}$，$I_1=\iint_D\sin(\max\{x^2,y^2\})\,\mathrm{d}x\,\mathrm{d}y$，$I_2=\iint_D\sin(\min\{x^2,y^2\})\,\mathrm{d}x\,\mathrm{d}y$，$I_3=\dfrac12\iint_D(\sin x^2+\sin y^2)\,\mathrm{d}x\,\mathrm{d}y$，则有\ExamSelection。
+      设 $D=\{(x,y) \mid 0 \leqslant x \leqslant \sqrt{\pi}, 0 \leqslant y \leqslant \sqrt{\pi}\}, I_{1}=\iint_{D} \sin (\max \{x^{2}, y^{2}\}) \mathrm{d}x \mathrm{d}y, I_{2}=\iint_{D} \sin (\min \{x^{2}, y^{2}\}) \mathrm{d}x \mathrm{d}y, I_{3}=\dfrac{1}{2} \iint_{D}(\sin x^{2}+\sin y^{2}) \mathrm{d}x \mathrm{d}y$, 则有 $(\quad)$
   choices:
   - label: A
-    text: $I_1=I_2=I_3$
+    text: $I_{1}=I_{2}=I_{3}$
     figures: []
   - label: B
-    text: $I_1=I_3>I_2$
+    text: $I_{1}=I_{3}>I_{2}$
     figures: []
   - label: C
-    text: $I_1>I_2=I_3$
+    text: $I_{1}>I_{2}=I_{3}$
     figures: []
   - label: D
-    text: $I_1>I_3>I_2$
+    text: $I_{1}>I_{3}>I_{2}$
     figures: []
 - number: 4
   section: choice
   points: 5
   stem:
     text: |-
-      设 $a$ 为正数，若级数 $\displaystyle\sum_{n=1}^{\infty}\dfrac{a^n n!}{n^n}$ 与 $\displaystyle\sum_{n=1}^{\infty}\dfrac{\sqrt{n+1}-\sqrt{n-1}}{1+n^a}$ 均为收敛的，则\ExamSelection。
+      设 $a$ 为正数. 若级数 $\sum_{n=1}^\infty \dfrac{a^n n!}{n^n}$ 与 $\sum_{n=1}^\infty \dfrac{\sqrt{n+1}-\sqrt{n-1}}{1+n^a}$ 均为收敛的, 则 ( )
   choices:
   - label: A
     text: |-
-      $0<a\leq\dfrac12$
+      $0 < a \leqslant \dfrac{1}{2}$
     figures: []
   - label: B
     text: |-
-      $\dfrac12<a<e$
+      $\dfrac{1}{2} < a < \mathrm{e}$
     figures: []
   - label: C
-    text: $a=e$
+    text: |-
+      $a = \mathrm{e}$
     figures: []
   - label: D
-    text: $a>e$
+    text: |-
+      $a > \mathrm{e}$
     figures: []
 - number: 5
   section: choice
   points: 5
   stem:
     text: |-
-      设 $A$ 为 $3\times4$ 阶矩阵，$A^{\mathsf T}=(\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3)$，$r(A)=3$，$\boldsymbol{\beta}$ 是齐次线性方程组 $Ax=0$ 的一个非零解，则\ExamSelection。
+      $A$ 为 $3 \times 4$ 阶矩阵, $A^T = (\alpha_1, \alpha_2, \alpha_3), r(A) = 3, \beta$ 是齐次线性方程组 $Ax = 0$ 的一个非零解, 则 ( )
   choices:
   - label: A
-    text: |-
-      $A^{\mathsf T}A$ 可以对角化，且所有特征值均大于零
+    text: $A^T A$ 可以对角化, 且所有特征值均大于零
     figures: []
   - label: B
-    text: |-
-      $AA^{\mathsf T}$ 可以对角化，且含有零特征值
+    text: $A A^T$ 可以对角化, 且含有零特征值
     figures: []
   - label: C
     text: |-
-      $\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3,\boldsymbol{\beta}$ 线性相关
+      $\alpha_1, \alpha_2, \alpha_3, \beta$ 线性相关
     figures: []
   - label: D
     text: |-
-      $\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3,\boldsymbol{\beta}$ 线性无关
+      $\alpha_1, \alpha_2, \alpha_3, \beta$ 线性无关
     figures: []
 - number: 6
   section: choice
   points: 5
   stem:
-    text: |-
-      设 $A,B$ 均为 $n$ 阶矩阵，则下列成立的是\ExamSelection。
+    text: 设 $A,B$ 均为 $n$ 阶矩阵, 则下列成立的是( )
   choices:
   - label: A
     text: |-
@@ -120,27 +118,26 @@ questions:
     figures: []
   - label: B
     text: |-
-      $r\left(\begin{pmatrix}A^{\mathsf T}\\B^{\mathsf T}\end{pmatrix}\right)=r(A^{\mathsf T},B^{\mathsf T})$
+      $r\begin{pmatrix} A^T \\ B^T \end{pmatrix}=r(A^T,B^T)$
     figures: []
   - label: C
-    text: $r(A,B)=r(A)$ 的充要条件是存在 $n$ 阶矩阵 $C$，使得 $B=AC$
+    text: $r(A,B)=r(A)$ 的充要条件是存在 $n$ 阶矩阵 $C$, 使得 $B=AC$
     figures: []
   - label: D
-    text: $r(A,B)=r(B)$ 的充要条件是存在 $n$ 阶矩阵 $D$，使得 $A=DB$
+    text: $r(A,B)=r(B)$ 的充要条件是存在 $n$ 阶矩阵 $D$, 使得 $A=DB$
     figures: []
 - number: 7
   section: choice
   points: 5
   stem:
-    text: |-
-      设 $n$ 阶矩阵 $A,B$ 满足 $r(A)+r(B)<n$，则下列不正确的是\ExamSelection。
+    text: 设 $n$ 阶矩阵 $A,B$ 满足 $r(A)+r(B)<n$, 则下列不正确的是( )
   choices:
   - label: A
     text: $A$ 与 $B$ 有公共的特征值
     figures: []
   - label: B
     text: |-
-      方程组 $\begin{pmatrix}A\\B\end{pmatrix}x=0$ 有非零解
+      方程组 $\begin{pmatrix} A \\ B \end{pmatrix}x=0$ 有非零解
     figures: []
   - label: C
     text: $AB$ 与 $BA$ 相似
@@ -153,13 +150,13 @@ questions:
   points: 5
   stem:
     text: |-
-      随机变量 $X$ 的分布律为 $P\{X=k\}=(1-p)^{k-1}p$，$k=1,2,3,\ldots$，其中 $0<p<1$，$m,n$ 为正整数，则 $P\{X>m+n\mid X>m\}$\ExamSelection。
+      随机变量 $X$ 的分布律为 $P\{X=k\}=(1-p)^{k-1}p, k=1,2,3,\cdots$, 其中 $0m+n \mid X>m\}(\quad)$
   choices:
   - label: A
-    text: 与 $m$ 无关，与 $n$ 有关
+    text: 与 $m$ 无关, 与 $n$ 有关
     figures: []
   - label: B
-    text: 与 $m$ 有关，与 $n$ 无关
+    text: 与 $m$ 有关, 与 $n$ 无关
     figures: []
   - label: C
     text: 与 $m,n$ 均无关
@@ -172,7 +169,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设随机变量 $X$ 的密度函数为 $f(x)=\begin{cases}\dfrac32x^2,&-1<x<1,\\0,&\text{其他},\end{cases}$，$Y=\sqrt{1-X^2}$，则下列各对随机变量中，相关系数 $\rho$ 满足 $0<|\rho|<1$ 的是\ExamSelection。
+      设随机变量 $X$ 的密度函数为 $f(x)=\begin{cases}\dfrac{3}{2}x^2,&-1<x<1,\\ 0,&\text{\text{其他}.}\end{cases}$ $Y=\sqrt{1-X^2}$，则下列各对随机变量中，相关系数 $\rho$ 满足 $0<|\rho|<1$ 的是（ ）
   choices:
   - label: A
     text: $X^2$ 与 $Y^2$
@@ -191,7 +188,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设总体 $X\sim N(\mu,1)$，数 $U_\alpha(0<\alpha<1)$ 为标准正态分布的上侧 $\alpha$ 分位点，则 $\mu$ 的置信度分别为 $90\%$ 和 $95\%$ 的置信区间长度之比为\ExamSelection。
+      设总体 $X\sim N(\mu,1)$，数 $U_\alpha(0<\alpha<1)$ 为标准正态分布的上侧 $\alpha$ 分位点，则 $\mu$ 的置信度分别为 $90\%$ 和 $95\%$ 的置信区间长度之比为 ( )
   choices:
   - label: A
     text: |-
@@ -214,87 +211,71 @@ questions:
   points: 5
   stem:
     text: |-
-      $\displaystyle\lim_{x\to0}\int_{\ln(1+x)}^x\dfrac{(1-2t)^{1/t}}{t^2}\,\mathrm{d}t=$ \ExamBlank。
+      极限 $\lim_{x\to 0}\int_{\ln(1+x)}^{x}\dfrac{(1-2t)^{\dfrac{1}{t}}}{t^2}dt=\underline{\hspace{2cm}}.$
 - number: 12
   section: fill
   points: 5
   stem:
     text: |-
-      设 $f(x)=\displaystyle\int_1^x\mathrm e^{t^2}\,\mathrm{d}t$，$x=g(y)$ 是函数 $y=f(x)$ 的反函数，则 $g''(0)=$ \ExamBlank。
+      设 $f(x)=\int_1^x \mathrm{e}^{t^2} dt, x=g(y)$ 是函数 $y=f(x)$ 的反函数, 则 $g''(0)=\underline{\qquad\qquad}$
 - number: 13
   section: fill
   points: 5
   stem:
     text: |-
-      设 $y=x\mathrm e^x+\mathrm e^{-x}$ 为二阶常系数线性微分方程 $y''+ay'+by=c\mathrm e^{-x}$ 的一个特解，则该方程满足初始条件 $y(0)=2,y'(0)=-1$ 的特解是 \ExamBlank。
+      设 $y = x\mathrm{e}^x + \mathrm{e}^{-x}$ 为二阶常系数线性微分方程 $y'' + ay' + by = c\mathrm{e}^{-x}$ 的一个特解，则该方程满足初始条件 $y(0) = 2, y'(0) = -1$ 的特解是 $\underline{\hspace{2cm}}$
 - number: 14
   section: fill
   points: 5
   stem:
     text: |-
-      设函数 $F(u,v)$ 具有一阶连续偏导数，且 $F'_1+F'_2\neq0$。$z=z(x,y)$ 由方程 $F(z+x,z-y)=0$ 确定，$L$ 为单位圆周 $x^2+y^2=1$，取逆时针方向，则 $I=\displaystyle\oint_L(z-3y)\,\mathrm{d}x+(z+x^2)\,\mathrm{d}y=$ \ExamBlank。
+      设函数 $F(u,v)$ 具有一阶连续偏导数，且 $F_1'+F_2' \neq 0$ $,z=z(x,y)$ 由方程 $F(z+x,z-y)=0$ 确定$,L$ 为单位圆周 $x^2+y^2=1$，取逆时针方向，则 $I=\oint_L (z-3y)\mathrm{d}x+(z+x^2)\mathrm{d}y=\underline{\qquad\qquad}$。
 - number: 15
   section: fill
   points: 5
   stem:
     text: |-
-      设 $A$ 为 $n$ 阶可逆的反对称矩阵，$\boldsymbol{\alpha}$ 为 $n$ 维非零列向量，则 $\begin{pmatrix}A&\boldsymbol{\alpha}\\\boldsymbol{\alpha}^{\mathsf T}&0\end{pmatrix}$ 的秩为 \ExamBlank。
+      设 $A$ 为 $n$ 阶可逆的反对称矩阵, $\alpha$ 为 $n$ 维非零列向量, 则 $\begin{pmatrix} A & \alpha \\ \alpha^T & 0 \end{pmatrix}$ 的秩为$\underline{\qquad}$
 - number: 16
   section: fill
   points: 5
   stem:
     text: |-
-      设二维随机变量 $(X,Y)$ 的分布函数为 $F(x,y)=\begin{cases}0,&x<-1\text{ 或 }y<0,\\0.2\left[1-\dfrac{1}{(1+y)^2}\right],&-1\leq x<2,y\geq0,\\1-\dfrac{1}{(1+y)^2},&x\geq2,y\geq0,\end{cases}$，则 $E(X^2Y)=$ \ExamBlank。
+      设二维随机变量 $(X,Y)$ 的分布函数为 $F(x,y)=\begin{cases} 0, & x<-1\text{\text{或}}y<0, \\ 0.2\left[1-\dfrac{1}{(1+y)^2}\right], & -1\leqslant x<2, y\geqslant 0, \\ 1-\dfrac{1}{(1+y)^2}, & x\geqslant 2, y\geqslant 0. \end{cases}$ 则 $E(X^2Y)=\underline{\qquad\qquad}.$
 - number: 17
   section: solution
-  points: 10
+  points: 12
   stem:
     text: |-
-      设 $c$ 为实数，定义 $f(x)=\min\{(x-c)^2,(x-c-2)^2\}$，又定义 $g(c)=\displaystyle\int_0^1f(x)\,\mathrm{d}x$，求 $g(c)$ 在 $-1\leq c\leq1$ 上的最大值和最小值。
+      设 $c$ 为实数, 定义 $f(x)=\min \left\{(x-c)^{2},(x-c-2)^{2}\right\}$, 又定义 $g(c)=\int_{0}^{1} f(x) \mathrm{d}x$, 求 $g(c)$ 在 $-1 \leqslant c \leqslant 1$ 上的最大值和最小值
 - number: 18
   section: solution
   points: 12
   stem:
     text: |-
-      设二元函数 $z=z(x,y)$ 的全微分为 $\mathrm{d}z=(2xy^3+a\mathrm e^y\sin x)\,\mathrm{d}x+(bx^2y^2+\mathrm e^y\cos x)\,\mathrm{d}y$，且 $z(0,0)=1$。
-  subparts:
-  - text: 求 $z=z(x,y)$ 的表达式。
-  - text: |-
-      求 $z(x,y)$ 在点 $\left(\dfrac\pi4,0\right)$ 处沿各个方向的方向导数的最大值。
+      设二元函数 $z=z(x,y)$ 的全微分为 $\mathrm{d}z = (2xy^3 + ae^y\sin x)\mathrm{d}x + (bx^2y^2 + e^y\cos x)\mathrm{d}y$, 且 $z(0,0)=1$. 求: (1) $z=z(x,y)$ 的表达式; (2) $z(x,y)$ 在点 $\left(\dfrac{\pi}{4},0\right)$ 处沿各个方向的方向导数的最大值
 - number: 19
   section: solution
   points: 12
   stem:
     text: |-
-      计算曲线积分 $I=\displaystyle\oint_\Gamma(x+2y+4)\,\mathrm{d}x+(4x-2y)\,\mathrm{d}y+(3x+z)\,\mathrm{d}z$，其中 $\Gamma$ 为平面 $z=x$ 上面积为 $1$ 的有限单连通小块平面片 $\Sigma$ 的边界曲线，从 $z$ 轴正向向原点看，$\Gamma$ 为逆时针方向。
+      计算 $I = \oint_{\Gamma} (x+2y+4)\mathrm{d}x + (4x-2y)\mathrm{d}y + (3x+z)\mathrm{d}z$, 其中 $\Gamma$ 为平面 $z=x$ 上面积为 $1$ 的有限单连通小块平面片 $\Sigma$ 的边界曲线, 从 $z$ 轴正向向原点看, $\Gamma$ 为逆时针方向
 - number: 20
   section: solution
   points: 12
   stem:
-    text: $0<x<1$。
-  subparts:
-  - text: |-
-      证明：$\arcsin x<\dfrac\pi2x$。
-  - text: |-
-      数列 $\{x_n\}$ 定义如下：$0<x_1<1$，$x_{n+1}=\dfrac2\pi\arcsin x_n$（$n=1,2,\ldots$）。证明 $\displaystyle\lim_{n\to\infty}x_n$ 存在并求其值。
+    text: |-
+      (1) 设 $0<x<1$, 证明: $\arcsin x<\dfrac{\pi}{2}x$; (2) 数列 $\{x_n\}$ 定义如下: $0<x_1<1, x_{n+1}=\dfrac{2}{\pi}\arcsin x_n(n=1,2,\cdots)$, 证明: $\lim\limits_{n\to\infty}x_n$ 存在并求其值
 - number: 21
   section: solution
   points: 12
   stem:
     text: |-
-      已知二次型 $f(x_1,x_2,x_3)=(x_1,x_2,x_3)\begin{pmatrix}1-a&2a&-1\\2&1-a&1\\1&-1&2\end{pmatrix}\begin{pmatrix}x_1\\x_2\\x_3\end{pmatrix}$ 的秩为 $2$。
-  subparts:
-  - text: 求常数 $a$ 的值。
-  - text: 求一个正交变换 $x=Qy$ 化二次型为标准形。
-  - text: 求方程 $f(x_1,x_2,x_3)=0$ 的解。
+      已知二次型 $f(x_1,x_2,x_3)=(x_1,x_2,x_3)\begin{pmatrix} 1-a & 2a & -1 \\ 2 & 1-a & 1 \\ 1 & -1 & 2 \end{pmatrix}\begin{pmatrix} x_1 \\ x_2 \\ x_3 \end{pmatrix}$ 的秩为 $2$， (1) 求常数 $a$ 的值； (2) 求一个正交变换 $x=Qy$ 化二次型为标准形； (3) 求方程 $f(x_1,x_2,x_3)=0$ 的解
 - number: 22
   section: solution
   points: 12
   stem:
-    text: 设随机变量 $X,Y$ 相互独立，均服从 $N(0,1)$。
-  subparts:
-  - text: 问 $(2X+Y,X-2Y)$ 是否服从二维正态分布？$2X+Y$ 与 $X-2Y$ 是否相互独立？
-  - text: |-
-      问 $\dfrac{2X+Y}{|X-2Y|}$ 服从何种分布？并说明理由。
-  - text: |-
-      求 $P\left\{\left|\dfrac{2X+Y}{X-2Y}\right|\leq1\right\}$。
+    text: |-
+      设随机变量 $X,Y$ 相互独立，同服从 $N(0,1)$. (1) 问 $(2X+Y,X-2Y)$ 是否服从二维正态分布$\text{？}2X+Y$ 与 $X-2Y$ 是否相互独立？ (2) 问 $\dfrac{2X+Y}{|X-2Y|}$ 服从何分布？并说明理由. (3) 求 $P\left\{\left|\dfrac{2X+Y}{X-2Y}\right| \leqslant 1\right\}$
+content_hash: de2b76a6930ec035735c165e417b1855175a5436960baef7179540be9ea7bef5

@@ -10,30 +10,30 @@ questions:
   points: 5
   stem:
     text: |-
-      设当 $x\to x_0$ 时，$\alpha(x)$ 与 $\beta(x)$ 是等价无穷小，且 $\alpha(x)\ne\beta(x)$，则当 $x\to x_0$ 时，与 $\alpha(x)-\beta(x)$ 等价的无穷小是\ExamSelection
+      设当 $x \to x_0$ 时$,\alpha(x)$ 与 $\beta(x)$ 是等价无穷小，且 $\alpha(x) \neq \beta(x)$，则当 $x \to x_0$ 时，与 $\alpha(x) - \beta(x)$ 等价的无穷小是
   choices:
   - label: A
     text: |-
-      $2^{\alpha(x)}-2^{\beta(x)}$
+      $2^{\alpha(x)} - 2^{\beta(x)}$
     figures: []
   - label: B
     text: |-
-      $\sqrt{1+\alpha(x)}-\sqrt{1+\beta(x)}$
+      $\sqrt{1+\alpha(x)} - \sqrt{1+\beta(x)}$
     figures: []
   - label: C
     text: |-
-      $\cos\alpha(x)-\cos\beta(x)$
+      $\cos\alpha(x) - \cos\beta(x)$
     figures: []
   - label: D
     text: |-
-      $\ln[1+\alpha(x)]-\ln[1+\beta(x)]$
+      $\ln[1+\alpha(x)] - \ln[1+\beta(x)]$
     figures: []
 - number: 2
   section: choice
   points: 5
   stem:
     text: |-
-      设 $y=y(x)$ 是由方程 $\sin x-\int_x^y\varphi(t)\,\mathrm{d}t=0$ 所确定的函数，其中 $\varphi(t)$ 为可导函数，且 $\varphi(0)=\varphi'(0)=1$，则 $y''(0)=$\ExamSelection
+      设 $y=y(x)$ 是由方程 $\sin x - \int_{x}^{y} \varphi(t) \mathrm{d}t = 0$ 所确定的函数，其中 $\varphi(t)$ 为可导函数，且 $\varphi(0)=\varphi'(0)=1$，则 $y''(0)=$
   choices:
   - label: A
     text: $-3$
@@ -52,7 +52,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $y=f(x)$ 由方程组 $\begin{cases}x=t^2-t,\\y=\displaystyle\sum_{n=1}^{\infty}\dfrac{nt^{n-1}}{2^n}\end{cases}$ 所确定，则 $\left.\dfrac{\mathrm{d}y}{\mathrm{d}x}\right|_{t=1}=$\ExamSelection
+      设 $y=f(x)$ 由方程组 $\begin{cases} x=t^2-t, \\ y=\sum\limits_{n=1}^{\infty}\dfrac{nt^{n-1}}{2^n} \end{cases}$ 所确定，则 $\left.\dfrac{\mathrm{d}y}{\mathrm{d}x}\right|_{t=1}=$
   choices:
   - label: A
     text: $4$
@@ -71,7 +71,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $f(x)$ 是可导函数，且 $f(0)=0$，$f'(0)$ 已知，$\Sigma$ 是球面 $x^2+y^2+z^2=t^2\ (t>0)$，$\Gamma$ 是曲线 $\begin{cases}x^2+y^2+z^2=t^2,\\x+y+z=0,\end{cases}$ 则 $\displaystyle\lim_{t\to0^+}\dfrac{\oiint_{\Sigma}f(x^2+y^2+z^2)\,\mathrm{d}S}{\oint_{\Gamma}(x^2+y^2+z^2)^{\dfrac{3}{2}}\,\mathrm{d}s}=$\ExamSelection
+      设 $f(x)$ 是可导函数，且 $f(0)=0, f'(0)$ 已知$,\Sigma$ 是球面 $x^2+y^2+z^2=t^2(t>0)$ $,\Gamma$ 是曲线 $\begin{cases} x^2+y^2+z^2=t^2, \\ x+y+z=0, \end{cases}$ 则 $ $\lim_{x\to 0^+} \dfrac{\oiint_{\Sigma} f(x^2+y^2+z^2) \mathrm{d}S}{\oint_{\Gamma} (x^2+y^2+z^2)^{\dfrac{3}{2}} \mathrm{d}s} =$ $
   choices:
   - label: A
     text: $f'(0)$
@@ -90,7 +90,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $A$ 为 $(n+1)\times n$ 矩阵，$\beta$ 为 $n+1$ 维列向量，则行列式 $|A,\beta|=0$ 是方程组 $Ax=\beta$ 有解的\ExamSelection
+      设 $A$ 为 $(n+1) \times n$ 矩阵$,\beta$ 为 $n+1$ 维列向量，则行列式 $|A, \beta|=0$ 是方程组 $Ax=\beta$ 有解的
   choices:
   - label: A
     text: 充分必要条件
@@ -109,48 +109,48 @@ questions:
   points: 5
   stem:
     text: |-
-      设矩阵 $A$ 的行列式 $|A|=2$，则 $[A+(A^*)^{-1}]^{-1}=$\ExamSelection
+      设矩阵 $A$ 的行列式 $|A|=2$，则 $\left[ A + (A^*)^{-1} \right]^{-1} =$
   choices:
   - label: A
-    text: $A^{-1}+A^*$
+    text: $A^{-1} + A^*$
     figures: []
   - label: B
     text: |-
-      $\dfrac{1}{3}A$
+      $\dfrac{1}{3} A$
     figures: []
   - label: C
     text: |-
-      $\dfrac{1}{3}A^{-1}$
+      $\dfrac{1}{3} A^{-1}$
     figures: []
   - label: D
     text: |-
-      $\dfrac{1}{3}A^*$
+      $\dfrac{1}{3} A^*$
     figures: []
 - number: 7
   section: choice
   points: 5
   stem:
     text: |-
-      设向量组 $\beta_1,\beta_2,\beta_3$ 是 $\mathbb{R}^3$ 的一个基，$x_1=\beta_1+k\beta_2$，$x_2=\beta_2-2\beta_3$，$x_3=\beta_1-2\beta_2+3k\beta_3$，已知由 $x_1,x_2,x_3$ 生成的向量空间的维数为 $2$，则 $k$ 的值等于\ExamSelection
+      设向量组 $\beta_1, \beta_2, \beta_3$ 是 $R^3$ 的一个基$,x_1 = \beta_1 + k\beta_2, x_2 = \beta_2 - 2\beta_3, x_3 = \beta_1 - 2\beta_2 + 3k\beta_3$，已知由 $x_1, x_2, x_3$ 生成的向量空间的维数为 2，则 $k$ 的值等于
   choices:
   - label: A
-    text: $3$
+    text: '3'
     figures: []
   - label: B
-    text: $4$
+    text: '4'
     figures: []
   - label: C
-    text: $5$
+    text: '5'
     figures: []
   - label: D
-    text: $6$
+    text: '6'
     figures: []
 - number: 8
   section: choice
   points: 5
   stem:
     text: |-
-      已知 $U\sim U(0,1)$，存在一个单调递增连续函数 $g(x)$ 使得 $X=g(U)$ 具有概率密度 $f(x)=\begin{cases}(\alpha+1)x^\alpha,&0\leq x\leq1,\\0,&\text{其他},\end{cases}$ 其中 $\alpha$ 为大于 $-1$ 的常数，则 $g(U)=$\ExamSelection
+      已知 $U \sim U(0,1)$，存在一个单调递增连续函数 $g(x)$ 使得 $X=g(U)$ 具有概率密度 $ $f(x)=\begin{cases} (\alpha+1)x^{\alpha}, & 0 \leqslant x \leqslant 1, \\ 0, & \text{\text{其他}}, \end{cases}$ $ \text{其中} $\alpha$ \text{为大于} $-1$ \text{的常数},\text{则} $g(U)=$
   choices:
   - label: A
     text: |-
@@ -162,7 +162,7 @@ questions:
     figures: []
   - label: C
     text: |-
-      $U^\alpha$
+      $U^{\alpha}$
     figures: []
   - label: D
     text: |-
@@ -173,14 +173,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设随机变量 $X_i\ (i=1,2)$ 服从同一分布，且满足 $P\{X_1X_2=0\}=1$，则 $X_1$ 与 $X_2\ExamSelection$
-    figures:
-    - kind: tikz
-      latex: |-
-        \begin{tikzpicture}[x=1.35cm,y=0.8cm]\draw (0,0) rectangle (4,2);\draw (0,1)--(4,1);\foreach \x in {1,2,3} {\draw (\x,0)--(\x,2);}\node at (0.5,1.5) {$X_i$};\node at (1.5,1.5) {$-1$};\node at (2.5,1.5) {$0$};\node at (3.5,1.5) {$1$};\node at (0.5,0.5) {$P$};\node at (1.5,0.5) {$\dfrac{1}{4}$};\node at (2.5,0.5) {$\dfrac{1}{2}$};\node at (3.5,0.5) {$\dfrac{1}{4}$};\end{tikzpicture}
-      path:
-      description: 随机变量 $X_i$ 的分布列
-      exception_reason:
+      设随机变量 $X_i(i=1,2)$ 服从同一分布 $ $ \begin{array}{|c|c|c|c|} \hline X_i & -1 & 0 & 1 \\ \hline P & \dfrac{1}{4} & \dfrac{1}{2} & \dfrac{1}{4} \\ \hline \end{array} $ $ \text{且满足} $P\{X_1 X_2=0\}=1$,\text{则} $X_1$ \text{与} $X_2$
   choices:
   - label: A
     text: 独立且不相关
@@ -199,7 +192,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设总体 $X\sim N(\mu,\sigma^2)$，其中 $\mu,\sigma$ 均未知，对于假设检验问题：$H_0:\sigma^2\leq8$，$H_1:\sigma^2>8$，给定显著性水平 $\alpha=0.05$，对于一个容量为 $25$ 的样本，计算得样本方差 $s^2=14$，已知 $\chi_{0.05}^2(24)=36.415$，则检验结果为\ExamSelection
+      设总体 $X \sim N(\mu, \sigma^2)$，其中 $\mu, \sigma$ 均未知，对于假设检验问题$:H_0: \sigma^2 \leqslant 8, H_1: \sigma^2 > 8$，给定显著性水平 $\alpha = 0.05$，对于一个容量为 25 的样本，计算得样本方差 $s^2 = 14$，已知 $\chi_{0.05}^2(24) = 36.415$，则检验结果为
   choices:
   - label: A
     text: 接受 $H_0$，可能会犯第一类错误
@@ -218,92 +211,71 @@ questions:
   points: 5
   stem:
     text: |-
-      曲线 $y=f(x)=2\int_0^x xe^{-t^2}\,\mathrm{d}t+e^{-x^2}$ 在 $x\to+\infty$ 时的斜渐近线方程为\ExamBlank
+      曲线 $y = f(x) = 2\int_{0}^{x} x\mathrm{e}^{-t^2}\mathrm{d}t + \mathrm{e}^{-x^2}$ 在 $x \to +\infty$ 时的斜渐近线方程为\underline{\qquad\qquad}
 - number: 12
   section: fill
   points: 5
   stem:
     text: |-
-      $\displaystyle\int_{-1}^1\dfrac{x^2e^x}{e^x+1}\sqrt{2-x^2}\,\mathrm{d}x=$\ExamBlank
+      $\int_{-1}^{1} \dfrac{x^2 \mathrm{e}^x}{\mathrm{e}^x + 1} \sqrt{2-x^2} \mathrm{d}x = \underline{\hspace{2cm}}$
 - number: 13
   section: fill
   points: 5
   stem:
     text: |-
-      函数 $f(x,y)=3+9x-6y+4x^2-5y^2+2xy+x^3+2xy^2-y^3$ 在点 $(1,-1)$ 展开至 $n=2$ 的泰勒公式为 $f(x,y)=\ExamBlank+R_2$，其中 $R_2$ 为拉格朗日余项
+      函数 $f(x,y) = 3 + 9x - 6y + 4x^2 - 5y^2 + 2xy + x^3 + 2xy^2 - y^3$ 在点 $(1,-1)$ 展开至 $n=2$ 的泰勒公式为 $f(x,y) = \underline{\qquad} + R_2$，其中 $R_2$ 为拉格朗日余项
 - number: 14
   section: fill
   points: 5
   stem:
     text: |-
-      曲面 $(x^2+y^2+z^2)^3=xyz$ 所围立体的体积为\ExamBlank
+      曲面 $(x^2+y^2+z^2)^3 = xyz$ 所围立体的体积为\underline{\qquad\qquad}
 - number: 15
   section: fill
   points: 5
   stem:
     text: |-
-      设 $A=\begin{pmatrix}-1&3&4\\1&-2&-3\end{pmatrix}$，$B$ 是 $3\times2$ 矩阵，$E$ 是 $2$ 阶单位矩阵，满足 $AB=E$，则 $B=$\ExamBlank
+      设 $A = \begin{pmatrix} -1 & 3 & 4 \\ 1 & -2 & -3 \end{pmatrix}$ $,B$ 是 $3 \times 2$ 矩阵$,E$ 是 $2$ 阶单位矩阵，满足 $AB = E$，则 $B = \underline{\hspace{2cm}}$
 - number: 16
   section: fill
   points: 5
   stem:
     text: |-
-      设总体 $X\sim f(x)=\dfrac{1}{2}e^{-|x-\mu|}\ (-\infty<x<+\infty)$，其中 $\mu$ 未知，利用来自总体 $X$ 的样本值 $1000,1100,1200$ 可求得 $\mu$ 的最大似然估计值为\ExamBlank
+      设总体 $X \sim f(x) = \dfrac{1}{2} \mathrm{e}^{-|x-\mu|} (-\infty < x < +\infty)$，其中 $\mu$ 未知，利用来自总体 $X$ 的样本值 $1000, 1100, 1200$ 可求得 $\mu$ 的最大似然估计值为\underline{\qquad\qquad}
 - number: 17
   section: solution
-  points: 10
+  points: 12
   stem:
     text: |-
-      设 $a_0=4$，$a_1=1$，$a_{n-2}=n(n-1)a_n$，$n\geq2$。
-  subparts:
-  - text: |-
-      求幂级数 $\displaystyle\sum_{n=0}^{\infty}a_nx^n$ 的和函数 $S(x)$
-  - text: 求 $S(x)$ 的极值
+      设 $a_0 = 4, a_1 = 1, a_{n-2} = n(n-1)a_n, n \geqslant 2$. (1) 求幂级数 $\sum_{n=0}^{\infty} a_n x^n$ 的和函数 $S(x)$; (2) 求 $S(x)$ 的极值
 - number: 18
   section: solution
   points: 12
   stem:
     text: |-
-      $\mbox{}$
-  subparts:
-  - text: |-
-      将 $x=x(y)$ 的微分方程 $\dfrac{\mathrm{d}^2x}{\mathrm{d}y^2}+(y+\sin x)\left(\dfrac{\mathrm{d}x}{\mathrm{d}y}\right)^3=0$ 化成 $y=y(x)$ 的微分方程，并求出满足初值条件 $x(0)=0$，$x'(0)=\dfrac{2}{3}$ 的特解 $y(x)$
-  - text: |-
-      利用(1)的结论，求由曲线 $x=x(y)$，直线 $y=y(\pi)$ 及 $y$ 轴围成的平面图形 $D$ 绕 $y$ 轴旋转一周而成的旋转体的体积 $V$
+      将 $x=x(y)$ 的微分方程 $\dfrac{\mathrm{d}^2x}{\mathrm{d}y^2} + (y+\sin x)\left(\dfrac{\mathrm{d}x}{\mathrm{d}y}\right)^3 = 0$ 化成 $y=y(x)$ 的微分方程，并求出满足初值条件 $x(0)=0, x'(0)=\dfrac{2}{3}$ 的特解 $y(x)$; (2) 利用 (1) 的结论，求由曲线 $x=x(y)$，直线 $y=y(\pi)$ 及 $y$ 轴围成的平面图形 $D$ 绕 $y$ 轴旋转一周而成的旋转体的体积 $V$
 - number: 19
   section: solution
   points: 12
   stem:
     text: |-
-      记平面区域 $D=\{(x,y)\mid x^2+y^2<a\}$，其中 $a$ 为正常数。证明：
-  subparts:
-  - text: |-
-      若 $f(x,y)$ 在 $D$ 内存在偏导数，且 $\dfrac{\partial f}{\partial x}=0$，$\dfrac{\partial f}{\partial y}=0$，则 $f(x,y)$ 恒为常数
-  - text: |-
-      若 $u(x,y)$，$v(x,y)$ 在 $D$ 内存在偏导数，且满足 $\dfrac{\partial u}{\partial x}=\dfrac{\partial v}{\partial y}$，$\dfrac{\partial u}{\partial y}=-\dfrac{\partial v}{\partial x}$，$u^2+v^2=C$（$C$ 为某常数），则 $u(x,y)$ 与 $v(x,y)$ 都恒为常数
+      记平面区域 $D=\{(x,y) \mid x^2+y^2<a\}$，其中 $a$ 为正常数. 证明： (1) 若 $f(x,y)$ 在 $D$ 内存在偏导数，且 $\dfrac{\partial f}{\partial x}=0, \dfrac{\partial f}{\partial y}=0$，则 $f(x,y)$ 恒为常数； (2) 若 $u(x,y), v(x,y)$ 在 $D$ 内存在偏导数，且满足 $\dfrac{\partial u}{\partial x}=\dfrac{\partial v}{\partial y}, \dfrac{\partial u}{\partial y}=-\dfrac{\partial v}{\partial x}, u^2+v^2=C$ ($C$ 为某常数)，则 $u(x,y)$ 与 $v(x,y)$ 都恒为常数
 - number: 20
   section: solution
   points: 12
   stem:
     text: |-
-      设 $\Gamma$ 为 $x^2+y^2=2x\ (y\geq0)$ 上从 $O(0,0)$ 到 $A(2,0)$ 的一段弧，连续函数 $f(x)$ 满足 $f(x)=x^2+\int_{\Gamma}y[f(x)+e^x] \,\mathrm{d}x+(e^x-xy^2)\,\mathrm{d}y$，求 $f(x)$。
+      设 $\Gamma$ 为 $x^2 + y^2 = 2x\,(y \geqslant 0)$ 上从 $O(0,0)$ 到 $A(2,0)$ 的一段弧，连续函数 $f(x)$ 满足 $f(x) = x^2 + \int_{\Gamma} y[f(x) + \mathrm{e}^x]\mathrm{d}x + (\mathrm{e}^x - xy^2)\mathrm{d}y$，求 $f(x)$。
 - number: 21
   section: solution
   points: 12
   stem:
-    text: 设二次曲面 $S:x^2-y^2+z^2-2xy-2yz-2zx+8x+4y-4z=-4$。
-  subparts:
-  - text: |-
-      求正交变换 $\begin{pmatrix}x\\y\\z\end{pmatrix}=Q\begin{pmatrix}x'\\y'\\z'\end{pmatrix}$，化二次型 $f(x,y,z)=x^2-y^2+z^2-2xy-2yz-2zx$ 为标准形
-  - text: 化二次曲面 $S$ 为标准形，并指出 $S$ 是何种曲面
+    text: |-
+      设二次曲面 $S: x^2 - y^2 + z^2 - 2xy - 2yz - 2xz + 8x + 4y - 4z = -4$. (1) 求正交变换 $\begin{pmatrix} x \\ y \\ z \end{pmatrix} = Q \begin{pmatrix} x' \\ y' \\ z' \end{pmatrix}$，化二次型 $f(x,y,z) = x^2 - y^2 + z^2 - 2xy - 2yz - 2xz$ 为标准形； (2) 化二次曲面 $S$ 为标准形，并指出 $S$ 是何种曲面
 - number: 22
   section: solution
   points: 12
   stem:
     text: |-
-      设 $\xi,\eta$ 为独立同分布的随机变量，$U=\min\{\xi,\eta\}$，$V=\max\{\xi,\eta\}$。已知 $\xi$ 的分布函数与概率密度分别为 $F(x)$ 和 $f(x)$。
-  subparts:
-  - text: 求二维随机变量 $(U,V)$ 的概率密度 $g(u,v)$
-  - text: |-
-      设 $F(x)=\begin{cases}1-e^{-\lambda x},&x>0,\\0,&x\leq0,\end{cases}$ 其中 $\lambda>0$，求 $P\{U+V\leq1\}$
-content_hash: 21641dd4332c52d7bc710298f6d5b583bd307b8a020253b7cc8a6d8b08917f4e
+      设 $\xi, \eta$ 为独立同分布的随机变量, $U=\min\{\xi, \eta\}, V=\max\{\xi, \eta\}$. 已知 $\xi$ 的分布函数与概率密度分别为 $F(x)$ 和 $f(x)$. (1) 求二维随机变量 $(U, V)$ 的概率密度 $g(u, v)$; (2) 设 $F(x)=\begin{cases} 1-\mathrm{e}^{-\lambda x}, & x>0, \\ 0, & x\leqslant 0, \end{cases}$ 其中 $\lambda>0$, 求 $P\{U+V\leqslant 1\}$
+content_hash: 16d4b046855d3c2f9cb61b12df9e827b696ece680532aeb4e52ea49c1edccdbe

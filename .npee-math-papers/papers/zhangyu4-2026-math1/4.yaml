@@ -4,97 +4,105 @@ paper:
   year: 2026
   subject: math1
   paper_no: 4
-content_hash: b08fe4c48e28a84ceaa217bcafd3b3a8a7103a30b6c39098ad26883d0e49d431
 questions:
 - number: 1
   section: choice
   points: 5
   stem:
     text: |-
-      若函数 $f(x)=\begin{cases}\dfrac{1-\cos\sqrt{x}}{a\ln(1+x)},&x>0,\\b,&x\leqslant 0\end{cases}$ 在 $x=0$ 处连续，则\ExamSelection。
+      若函数 \( f(x)=\begin{cases}\dfrac{1-\cos\sqrt{x}}{a\ln(1+x)}, &x>0, \\ b, &x\leq0\end{cases}\) 在 \(x=0\) 处连续，则( )
   choices:
   - label: A
     text: |-
-      $ab=\dfrac{1}{2}$
+      \( ab=\dfrac{1}{2}\)
     figures: []
   - label: B
     text: |-
-      $ab=-\dfrac{1}{2}$
+      \( ab=-\dfrac{1}{2}\)
     figures: []
   - label: C
-    text: $ab=0$
+    text: |-
+      \(ab=0\)
     figures: []
   - label: D
-    text: $ab=2$
+    text: |-
+      \(ab=2\)
     figures: []
 - number: 2
   section: choice
   points: 5
   stem:
     text: |-
-      设 $f(x,y)=\begin{cases}\sin x\cos y,&x\neq 0,\\1-\cos y,&x=0,\end{cases}$ 则\ExamSelection。
+      设 \( f(x,y)=\begin{cases}\sin x\cos y, &x\neq0, \\1-\cos y, &x=0, \end{cases}\) 则( )
   choices:
   - label: A
-    text: $f'_x(0,0)=0$
+    text: |-
+      \(f_x'(0,0)=0\)
     figures: []
   - label: B
     text: |-
-      $\lim_{x\to 0}\lim_{y\to 0}f(x,y)=0$
+      \( \lim\limits_{x\to0}\lim\limits_{y\to0}f(x,y)=0\)
     figures: []
   - label: C
-    text: $f''_{yx}(0,0)=1$
+    text: |-
+      \(f_{yx}''(0,0)=1\)
     figures: []
   - label: D
-    text: $f'_y(0,0)=1$
+    text: |-
+      \(f_y'(0,0)=1\)
     figures: []
 - number: 3
   section: choice
   points: 5
   stem:
     text: |-
-      已知 $y_1=xe^x+e^{2x}$ 和 $y_2=xe^x+e^{-x}$ 是二阶常系数非齐次线性微分方程的两个解，则此方程为\ExamSelection。
+      已知 \(y_1=xe^x+e^{2x}\) 和 \(y_2=xe^x+e^{-x}\) 是二阶常系数非齐次线性微分方程的两个解，则此方程为( )
   choices:
   - label: A
-    text: $y''-y'+2y=e^x+2xe^x$
+    text: |-
+      \(y''-y'+2y=e^x+2xe^x\)
     figures: []
   - label: B
-    text: $y''-y'-2y=e^x-2xe^x$
+    text: |-
+      \(y''-y'-2y=e^x-2xe^x\)
     figures: []
   - label: C
-    text: $y''-y'+2y=e^{2x}-e^{-x}$
+    text: |-
+      \(y''-y'+2y=e^{2x}-e^{-x}\)
     figures: []
   - label: D
-    text: $y''-y'-2y=xe^x+e^{2x}$
+    text: |-
+      \(y''-y'-2y=xe^x+e^{2x}\)
     figures: []
 - number: 4
   section: choice
   points: 5
   stem:
     text: |-
-      设 $R$ 为幂级数 $\sum_{n=1}^{\infty}a_nx^n$ 的收敛半径，$r$ 是实数，则\ExamSelection。
+      设 \(R\) 为幂级数 \( \sum\limits_{n=1}^{\infty}a_nx^n\) 的收敛半径，\(r\) 是实数，则( )
   choices:
   - label: A
     text: |-
-      当 $\sum_{n=1}^{\infty}a_{2n+1}r^{2n+1}$ 发散时，$|r|\geqslant R$
+      当 \( \sum\limits_{n=1}^{\infty}a_{2n+1}r^{2n+1}\) 发散时, \(|r|\geq R\)
     figures: []
   - label: B
     text: |-
-      当 $\sum_{n=1}^{\infty}a_{2n}r^{2n}$ 收敛时，$|r|\leqslant R$
+      当 \( \sum\limits_{n=1}^{\infty}a_{2n}r^{2n}\) 收敛时, \(|r|\leq R\)
     figures: []
   - label: C
     text: |-
-      当 $|r|\geqslant R$ 时，$\sum_{n=1}^{\infty}a_{2n+1}r^{2n+1}$ 发散
+      当 \(|r|\geq R\) 时, \( \sum\limits_{n=1}^{\infty}a_{2n+1}r^{2n+1}\) 发散
     figures: []
   - label: D
     text: |-
-      当 $|r|\leqslant R$ 时，$\sum_{n=1}^{\infty}a_{2n}r^{2n}$ 收敛
+      当 \(|r|\leq R\) 时, \( \sum\limits_{n=1}^{\infty}a_{2n}r^{2n}\) 收敛
     figures: []
 - number: 5
   section: choice
   points: 5
   stem:
     text: |-
-      设 $\alpha$，$\beta$ 是 2 阶实矩阵 $A$ 的两个实特征向量，$\|\alpha+\beta\|=\|\alpha-\beta\|$，则矩阵 $A$ 必为\ExamSelection。
+      设 \(\alpha, \beta\) 是 2 阶实矩阵 \(A\) 的两个实特征向量，\(\|\alpha+\beta\|=\|\alpha-\beta\|\)，则矩阵 \(A\) 必为( )
   choices:
   - label: A
     text: 正定矩阵
@@ -113,186 +121,180 @@ questions:
   points: 5
   stem:
     text: |-
-      二次型 $f(x_1,x_2,x_3)=x_1^2+2x_1x_2+2x_1x_3$ 的符号差（正惯性指数$-$负惯性指数）为\ExamSelection。
+      二次型 \(f(x_1,x_2,x_3)=x_1^2+2x_1x_2+2x_1x_3\) 的符号差(正惯性指数 - 负惯性指数)为( )
   choices:
   - label: A
-    text: $2$
+    text: '2'
     figures: []
   - label: B
-    text: $1$
+    text: '1'
     figures: []
   - label: C
-    text: $0$
+    text: '0'
     figures: []
   - label: D
-    text: $-1$
+    text: '-1'
     figures: []
 - number: 7
   section: choice
   points: 5
   stem:
     text: |-
-      若矩阵 $A=(a_{ij})_{n\times n}$，对 $i=1,2,\cdots,n$，均有 $|a_{ii}|>\sum_{j\neq i}|a_{ij}|$，其中 $|a_{ij}|$ 表示元素 $a_{ij}$ 的绝对值，$\beta$ 为任一 $n$ 维列向量，则\ExamSelection。
+      若矩阵 $A = (a_{ij})_{n\times n}$，对 $i=1, 2, \dots, n$，均有 $ |a_{ii}| > \sum\limits_{j\ne i}|a_{ij}|$，其中 $|a_{ij}|$ 表示元素 $a_{ij}$ 的绝对值$,\beta$ 为任一 $n$ 维列向量，则( )
   choices:
   - label: A
-    text: $Ax=0$ 有非零解
+    text: $Ax = 0$ 有非零解
     figures: []
   - label: B
     text: |-
-      $Ax=\beta$ 有唯一解
+      $Ax = \beta$ 有唯一解
     figures: []
   - label: C
     text: |-
-      $Ax=\beta$ 不一定有解
+      $Ax = \beta$ 不一定有解
     figures: []
   - label: D
-    text: $Ax=0$ 不一定有非零解
+    text: $Ax = 0$ 不一定有非零解
     figures: []
 - number: 8
   section: choice
   points: 5
   stem:
     text: |-
-      设随机变量 $X\sim\begin{pmatrix}1&0\\p&1-p\end{pmatrix}$，$Y\sim B(2,p)$，$0<p<1$，$F_X(x)$，$F_Y(y)$ 分别为 $X$，$Y$ 的分布函数，则\ExamSelection。
+      设随机变量 \( X\sim\begin{pmatrix}1&0\\p&1-p\end{pmatrix}\), \(Y\sim B(2,p)\), \(0<p<1\), \(F_X(x)\), \(F_Y(y)\) 分别为 \(X,Y\) 的分布函数，则( )
   choices:
   - label: A
     text: |-
-      $P\{X\geqslant Y\}=1$
+      \(P\{X\geq Y\}=1\)
     figures: []
   - label: B
     text: |-
-      $P\{X\leqslant Y\}=1$
+      \(P\{X\leq Y\}=1\)
     figures: []
   - label: C
     text: |-
-      $F_X(z)\leqslant F_Y(z)$
+      \(F_X(z)\leq F_Y(z)\)
     figures: []
   - label: D
     text: |-
-      $F_X(z)\geqslant F_Y(z)$
+      \(F_X(z)\geq F_Y(z)\)
     figures: []
 - number: 9
   section: choice
   points: 5
   stem:
     text: |-
-      设 $(X,Y)$ 的概率密度为 $f(x,y)=\begin{cases}\dfrac{1}{8}(y^2-x^2)e^{-y},&|x|<y,\\0,&\text{其他},\end{cases}$ 则 $P\{0<X<2\mid Y=1\}=$\ExamSelection。
+      设 \((X,Y)\) 的概率密度为 \( f(x,y)=\begin{cases}\dfrac{1}{8}(y^2-x^2)e^{-y}, &|x|<y, \\0, &\text{其他}, \end{cases}\) 则 \(P\{0<X<2\mid Y=1\}=\)( )
   choices:
   - label: A
     text: |-
-      $\dfrac{1}{4}$
+      \( \dfrac{1}{4}\)
     figures: []
   - label: B
     text: |-
-      $\dfrac{1}{3}$
+      \( \dfrac{1}{3}\)
     figures: []
   - label: C
     text: |-
-      $\dfrac{1}{2}$
+      \( \dfrac{1}{2}\)
     figures: []
   - label: D
     text: |-
-      $\dfrac{2}{3}$
+      \( \dfrac{2}{3}\)
     figures: []
 - number: 10
   section: choice
   points: 5
   stem:
     text: |-
-      设 $(X,Y)$ 服从二维正态分布 $N\left(0,0;1,4;\dfrac{1}{2}\right)$，则下列随机变量中与 $X$ 相互独立且同分布的是\ExamSelection。
+      设 \((X,Y)\) 服从二维正态分布 \( N(0,0;1,4;\dfrac{1}{2})\)，则下列随机变量中与 \(X\) 相互独立且同分布的是( )
   choices:
   - label: A
     text: |-
-      $\dfrac{\sqrt{3}}{3}(X+Y)$
+      \( \dfrac{\sqrt3}{3}(X+Y)\)
     figures: []
   - label: B
     text: |-
-      $\dfrac{\sqrt{5}}{5}(X+Y)$
+      \( \dfrac{\sqrt5}{5}(X+Y)\)
     figures: []
   - label: C
     text: |-
-      $\dfrac{\sqrt{3}}{3}(X-Y)$
+      \( \dfrac{\sqrt3}{3}(X-Y)\)
     figures: []
   - label: D
     text: |-
-      $\dfrac{\sqrt{5}}{5}(X-Y)$
+      \( \dfrac{\sqrt5}{5}(X-Y)\)
     figures: []
 - number: 11
   section: fill
   points: 5
   stem:
     text: |-
-      设函数 $z=z(x,y)$ 由 $e^z+yz=2y-x$ 确定，则 $\left.\dfrac{\partial^2z}{\partial y^2}\right|_{(1,1)}=$\ExamBlank。
+      设函数 \(z=z(x,y)\) 由 \(e^z+yz=2y-x\) 确定，则 \( \left.\dfrac{\partial^2z}{\partial y^2}\right|_{(1,1)}=\) ____
 - number: 12
   section: fill
   points: 5
   stem:
     text: |-
-      微分方程 $y''-(y')^2=1$ 的通解为\ExamBlank。
+      微分方程 \(y''-(y')^2=1\) 的通解为 ____
 - number: 13
   section: fill
   points: 5
   stem:
     text: |-
-      设以 $2\pi$ 为周期的周期函数 $f(x)$ 在 $[-\pi,\pi)$ 上的表达式 $f(x)=\begin{cases}x+\pi,&-\pi\leqslant x<0,\\0,&x=0,\\1,&0<x<\pi,\end{cases}$ 其傅里叶级数的和函数为 $S(x)$，则 $S(0)+S(-\pi)=$\ExamBlank。
+      设以 \(2\pi\) 为周期的周期函数 \(f(x)\) 在 \([ -\pi, \pi)\) 上的表达式为 \( f(x)=\begin{cases}x+\pi, &-\pi\leq x<0, \\0, &x=0, \\1, &0<x<\pi, \end{cases}\) 其傅里叶级数的和函数为 \(S(x)\)，则 \(S(0)+S(-\pi)=\) ____
 - number: 14
   section: fill
   points: 5
   stem:
     text: |-
-      设 $L$ 是以 $(1,-1)$，$(2,-1)$，$(2,1)$，$(1,1)$ 为顶点的矩形的边界构成的逆时针封闭曲线，则 $\oint_L xe^{-y^2}\,\mathrm{d}x+\left(\dfrac{1}{x^2+y^2}-x^2ye^{-y^2}\right)\,\mathrm{d}y=$\ExamBlank。
+      设 \(L\) 是以 \((1, -1), (2, -1), (2,1), (1,1)\) 为顶点的矩形的边界构成的逆时针封闭曲线，则 \( \oint_Lxe^{-y^2}\,dx+\left(\dfrac{1}{x^2+y^2}-x^2ye^{-y^2}\right)dy=\) ____
 - number: 15
   section: fill
   points: 5
   stem:
     text: |-
-      设 $\alpha_1,\alpha_2,\alpha_3,\alpha_4$ 是四元非齐次线性方程组 $Ax=b$ 的 4 个解向量，且 $\alpha_1+\alpha_2=(2,4,6,8)^{\mathrm{T}}$，$\alpha_2+\alpha_3+\alpha_4=(3,5,7,9)^{\mathrm{T}}$，$\alpha_1+2\alpha_2-\alpha_3=(2,0,0,2)^{\mathrm{T}}$，若秩 $r(A)=2$，则方程组 $Ax=b$ 的通解是\ExamBlank。
+      设 $\alpha_1, \alpha_2, \alpha_3, \alpha_4$ 是四元非齐次线性方程组 $Ax = b$ 的4个解向量，且 $ \alpha_1 + \alpha_2 = (2, 4, 6, 8)^{\mathrm{T}}, \quad \alpha_2 + \alpha_3 + \alpha_4 = (3, 5, 7, 9)^{\mathrm{T}}, \quad \alpha_1 + 2\alpha_2 - \alpha_3 = (2, 0, 0, 2)^{\mathrm{T}}$。 若秩 $r(A) = 2$，则方程组 $Ax = b$ 的通解是 \underline{\qquad\qquad}
 - number: 16
   section: fill
   points: 5
   stem:
     text: |-
-      设事件 $A,B,C$ 相互独立，$P(A)=\dfrac{1}{2}$，$P(B)=P(C)=\dfrac{3}{4}$，则 $P(A\cup C\mid A\cup B)=$\ExamBlank。
+      设事件 \(A,B,C\) 相互独立，\( P(A)=\dfrac{1}{2}\), \( P(B)=P(C)=\dfrac{3}{4}\)，则 \(P(A\cup C\mid A\cup B)=\) ____
 - number: 17
   section: solution
-  points: 10
+  points: 12
   stem:
     text: |-
-      计算 $\int\dfrac{x^3+1}{x^4+2x^2+1}\,\mathrm{d}x$。
+      计算 \( \int\dfrac{x^3+1}{x^4+2x^2+1}\,dx\)
 - number: 18
   section: solution
   points: 12
   stem:
-    text: 求函数 $z=e^{2x+3y}(8x^2-6xy+3y^2)$ 的极值。
+    text: |-
+      求函数 \(z=e^{2x+3y}(8x^2-6xy+3y^2)\) 的极值
 - number: 19
   section: solution
   points: 12
   stem:
     text: |-
-      设 $f(x)$ 在 $[0,1]$ 上具有三阶连续导数，$f'(0)=f''(0)=0$，证明存在 $\xi,\eta,\zeta\in(0,1)$，使得 $e^{\xi}f'''(\eta)=6e^{\zeta}f'(\xi)$。
+      设 \(f(x)\) 在 \([0,1]\) 上具有三阶连续导数，\(f'(0)=f''(0)=0\)，证明存在 \(\xi, \eta, \zeta\in(0,1)\)，使得 \(e^\xi f'''(\eta)=6e^\zeta f'(\xi)\)
 - number: 20
   section: solution
   points: 12
   stem:
     text: |-
-      设有界曲面 $\Sigma$ 为旋转抛物面 $z=a-x^2-y^2$（$x\geqslant 0,y\geqslant 0$）被柱面 $x^2+y^2=\dfrac{a}{2}$ 所截出部分的上侧，其中 $a>0$，计算 $I=\iint_{\Sigma}xz\,\mathrm{d}y\,\mathrm{d}z+xy\,\mathrm{d}z\,\mathrm{d}x+yz\,\mathrm{d}x\,\mathrm{d}y$。
+      设有界曲面 \(\Sigma\) 为旋转抛物面 \(z=a-x^2-y^2\ (x\geq0,y\geq0)\) 被柱面 \( x^2+y^2=\dfrac{a}{2}\) 所截出部分的上侧，其中 \(a>0\)，计算 \( I=\iint_{\Sigma}xz\,dy\,dz+xy\,dz\,dx+yz\,dx\,dy\)。
 - number: 21
   section: solution
   points: 12
   stem:
     text: |-
-      设 $A=\begin{pmatrix}a&1&-1\\1&a&-1\\-1&-1&a\end{pmatrix}$，$B^2=\begin{pmatrix}3&-1&1\\-1&3&1\\1&1&3\end{pmatrix}$。
-  subparts:
-  - text: |-
-      求正交矩阵 $P$，使 $P^{\mathrm{T}}AP=\Lambda$，并写出 $\Lambda$
-  - text: 若 $B$ 为正定矩阵，求 $B^3$
+      设 \( A=\begin{pmatrix}a&1&-1\\1&a&-1\\-1&-1&a\end{pmatrix}, \quad B^2=\begin{pmatrix}3&-1&1\\-1&3&1\\1&1&3\end{pmatrix}\)。 (1) 求正交矩阵 \(P\)，使 \(P^TAP=\Lambda\)，并写出 \(\Lambda\)； (2) 若 \(B\) 为正定矩阵，求 \(B^3\)
 - number: 22
   section: solution
   points: 12
   stem:
     text: |-
-      设某电池的使用寿命 $X$ 服从参数为 $\lambda$ 的指数分布，现有 10 件该种电池同时投入使用，记 $Y$ 为 10 件电池在使用了 $200\,\mathrm{h}$ 时失效的件数。
-  subparts:
-  - text: 求 $Y$ 的分布律
-  - text: |-
-      已知使用了 $200\,\mathrm{h}$ 时，有 2 件电池失效，求电池平均寿命 $T$ 的最大似然估计值
+      设某电池的使用寿命 \(X\) 服从参数为 \(\lambda\) 的指数分布，现有 10 件该种电池同时投入使用，记 \(Y\) 为 10 件电池在使用了 \(200h\) 时失效的件数。 (1) 求 \(Y\) 的分布律； (2) 已知使用了 \(200h\) 时，有 2 件电池失效，求电池平均寿命 \(T\) 的最大似然估计值
+content_hash: b6e130ede1aa8975f00a1bd6163abb98b79f0895a432124e7a33f97746fdf7cf

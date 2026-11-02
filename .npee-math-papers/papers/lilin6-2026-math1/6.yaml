@@ -4,315 +4,307 @@ paper:
   year: 2026
   subject: math1
   paper_no: 6
-content_hash: 9cf0c867d857f1aa56c481eaa24bd9968735fc21706f30d405537b1520cf6cac
 questions:
 - number: 1
   section: choice
   points: 5
   stem:
     text: |-
-      设 $f(x)$ 可导，$f(x)>0$，当 $0<a<x<b$ 时，有 $f(x)<xf'(x)$，则\ExamSelection
+      设 \(f(x)\) 可导，\(f(x)>0\)，当 \(0<a<x<b\) 时，有 \(f(x)<xf'(x)\)，则( )。
   choices:
   - label: A
-    text: $bf(a)>af(b)$。
+    text: |-
+      \(bf(a)>af(b)\)
     figures: []
   - label: B
-    text: $abf(x)>x^2f(b)$。
+    text: |-
+      \(abf(x)>x^2f(b)\)
     figures: []
   - label: C
-    text: $af(a)<xf'(x)$。
+    text: |-
+      \(af(a)<xf(x)\)
     figures: []
   - label: D
-    text: $abf(x)<x^2f(a)$。
+    text: |-
+      \(abf(x)<x^2f(a)\)
     figures: []
 - number: 2
   section: choice
   points: 5
   stem:
     text: |-
-      已知函数 $f(x,y)=\begin{cases}(x^2+y^2)\sin\dfrac{1}{x^2+y^2},&x^2+y^2\ne0,\\0,&x^2+y^2=0,\end{cases}$ 则在点 $(0,0)$ 处\ExamSelection
+      已知函数 \( f(x,y)=\begin{cases}(x^2+y^2)\sin\dfrac{1}{x^2+y^2}, &x^2+y^2\ne0, \\0, &x^2+y^2=0, \end{cases}\) 则在点 \((0,0)\) 处( )。
   choices:
   - label: A
     text: |-
-      $\dfrac{\partial f(x,y)}{\partial x}$ 连续，$f(x,y)$ 可微。
+      \( \dfrac{\partial f}{\partial x}\) 连续， \(f\) 可微
     figures: []
   - label: B
     text: |-
-      $\dfrac{\partial f(x,y)}{\partial x}$ 不连续，$f(x,y)$ 可微。
+      \( \dfrac{\partial f}{\partial x}\) 不连续， \(f\) 可微
     figures: []
   - label: C
     text: |-
-      $\dfrac{\partial f(x,y)}{\partial x}$ 连续，$f(x,y)$ 不可微。
+      \( \dfrac{\partial f}{\partial x}\) 连续， \(f\) 不可微
     figures: []
   - label: D
     text: |-
-      $\dfrac{\partial f(x,y)}{\partial x}$ 不连续，$f(x,y)$ 不可微。
+      \( \dfrac{\partial f}{\partial x}\) 不连续， \(f\) 不可微
     figures: []
 - number: 3
   section: choice
   points: 5
   stem:
     text: |-
-      设级数 $\displaystyle\sum_{n=1}^{\infty}(-1)^{n-1}\dfrac{\sqrt{n+1}-\sqrt{n-1}}{n^{\alpha-1}}$ 绝对收敛，$\displaystyle\sum_{n=1}^{\infty}(-1)^n\dfrac{1}{n^{2-\alpha}}$ 条件收敛，$\alpha>0$，则\ExamSelection
+      设级数 \( \sum_{n=1}^{\infty}(-1)^{n-1}\dfrac{\sqrt{n+1}-\sqrt{n-1}}{n^{\alpha-1}}\) 绝对收敛，\( \sum_{n=1}^{\infty}(-1)^n\dfrac{1}{n^{2-\alpha}}\) 条件收敛，\(\alpha>0\)，则( )。
   choices:
   - label: A
     text: |-
-      $1\leqslant\alpha<2$。
+      \(1\le\alpha<2\)
     figures: []
   - label: B
     text: |-
-      $\dfrac{3}{2}<\alpha<2$。
+      \( \dfrac{3}{2}<\alpha<2\)
     figures: []
   - label: C
     text: |-
-      $0<\alpha<2$。
+      \(0<\alpha<2\)
     figures: []
   - label: D
     text: |-
-      $0<\alpha<\dfrac{3}{2}$。
+      \( 0<\alpha<\dfrac{3}{2}\)
     figures: []
 - number: 4
   section: choice
   points: 5
   stem:
     text: |-
-      如图所示，$L$ 为从 $A$ 到 $B$ 的曲线段，曲线段的方程为 $y=f(x)$，函数 $f(x)$ 在区间 $[0,a]$ 上有连续的导数，则 $\dfrac{1}{2}\displaystyle\int_L-y\,\mathrm{d}x+x\,\mathrm{d}y=$\ExamSelection
-    figures:
-    - kind: tikz
-      latex: |-
-        \begin{tikzpicture}[x=1cm,y=1cm,>=stealth]\draw[->] (-0.35,0)--(4.7,0) node[below] {$x$};\draw[->] (0,-0.25)--(0,3.8) node[left] {$y$};\coordinate (O) at (0,0);\coordinate (B) at (0,3.2);\coordinate (A) at (3.6,1.25);\coordinate (C) at (0,1.25);\coordinate (D) at (3.6,0);\draw (B).. controls (1.8,3.2) and (3.0,2.55)..(A);\draw (B)--(A)--(O);\draw (O).. controls (1.7,-0.18) and (2.8,-0.08)..(D);\draw (A)--(D);\draw[densely dotted] (C)--(A);\fill (O) circle (1.2pt) node[below left] {$O$};\fill (B) circle (1.2pt) node[left] {$B(0,f(0))$};\fill (A) circle (1.2pt) node[right] {$A(a,f(a))$};\fill (C) circle (1.2pt) node[left] {$C(0,f(a))$};\fill (D) circle (1.2pt) node[below] {$D(a,0)$};\node at (2.6,2.75) {$y=f(x)$};\end{tikzpicture}
-      path:
-      description: 曲线段 y=f(x) 与点 A、B、C、D、O 构成的平面图形
-      exception_reason:
+      如图所示，\(L\) 为从 \(A\) 到 \(B\) 的曲线段，曲线段的方程为 \(y=f(x)\)，函数 \(f(x)\) 在 \([0,a]\) 上有连续导数，则 \( \dfrac{1}{2}\int_L-y\, \mathrm dx+x\, \mathrm dy=\)( )。
   choices:
   - label: A
-    text: 曲边梯形 $ABOD$ 的面积。
+    text: |-
+      曲边梯形 \(ABOD\) 的面积
     figures: []
   - label: B
-    text: 梯形 $ABOD$ 的面积。
+    text: |-
+      梯形 \(ABOD\) 的面积
     figures: []
   - label: C
-    text: 曲边三角形 $ACB$ 的面积。
+    text: |-
+      曲边三角形 \(ACB\) 的面积
     figures: []
   - label: D
-    text: 曲边三角形 $AOB$ 的面积。
+    text: |-
+      曲边三角形 \(AOB\) 的面积
     figures: []
 - number: 5
   section: choice
   points: 5
   stem:
     text: |-
-      设 $A^{\mathrm T}=(\boldsymbol\alpha_1,\boldsymbol\alpha_2,\cdots,\boldsymbol\alpha_{n-1})$ 是 $n\times(n-1)$ 矩阵，$r(A^{\mathrm T})=n-1$，$\boldsymbol\beta_1,\boldsymbol\beta_2$ 是与 $\boldsymbol\alpha_1,\boldsymbol\alpha_2,\cdots,\boldsymbol\alpha_{n-1}$ 均正交的 $n$ 维列向量，$\boldsymbol\beta_1\ne\boldsymbol\beta_2$，$k$ 是任意常数，则方程组 $AX=0$ 的通解为\ExamSelection
+      设 \(A^T=(\alpha_1, \alpha_2, \cdots, \alpha_{n-1})\) 是 \(n\times(n-1)\) 矩阵，\(r(A^T)=n-1\)， \(\beta_1, \beta_2\) 是与 \(\alpha_1, \alpha_2, \cdots, \alpha_{n-1}\) 均正交的 \(n\) 维列向量，\(\beta_1\ne\beta_2\)， \(k\) 是任意常数，则方程组 \(AX=0\) 的通解为( )。
   choices:
   - label: A
     text: |-
-      $k\boldsymbol\beta_1$。
+      \(k\beta_1\)
     figures: []
   - label: B
     text: |-
-      $k\boldsymbol\beta_2$。
+      \(k\beta_2\)
     figures: []
   - label: C
     text: |-
-      $k(\boldsymbol\beta_1+\boldsymbol\beta_2)$。
+      \(k(\beta_1+\beta_2)\)
     figures: []
   - label: D
     text: |-
-      $k(\boldsymbol\beta_1-\boldsymbol\beta_2)$。
+      \(k(\beta_1-\beta_2)\)
     figures: []
 - number: 6
   section: choice
   points: 5
   stem:
     text: |-
-      设 $A,B$ 为 $n$ 阶矩阵，$E$ 为 $n$ 阶单位矩阵，矩阵 $\begin{pmatrix}A&B\\O&E\end{pmatrix}$，$\begin{pmatrix}BA&O\\B&B\end{pmatrix}$，$\begin{pmatrix}E&A\\B&O\end{pmatrix}$ 的秩依次为 $r_1,r_2,r_3$，则\ExamSelection
+      设 \(A,B\) 为 \(n\) 阶矩阵，\(E\) 为 \(n\) 阶单位矩阵，矩阵 \( \begin{pmatrix}A&B\\O&E\end{pmatrix}\)、\( \begin{pmatrix}BA&O\\B&B\end{pmatrix}\)、\( \begin{pmatrix}E&A\\B&O\end{pmatrix}\) 的秩依次为 \(r_1,r_2,r_3\)，则( )。
   choices:
   - label: A
     text: |-
-      $r_2\geqslant r_1\geqslant r_3$。
+      \(r_2\ge r_1\ge r_3\)
     figures: []
   - label: B
     text: |-
-      $r_1\geqslant r_2\geqslant r_3$。
+      \(r_1\ge r_2\ge r_3\)
     figures: []
   - label: C
     text: |-
-      $r_3\geqslant r_2\geqslant r_1$。
+      \(r_3\ge r_2\ge r_1\)
     figures: []
   - label: D
     text: |-
-      $r_1\geqslant r_3\geqslant r_2$。
+      \(r_1\ge r_3\ge r_2\)
     figures: []
 - number: 7
   section: choice
   points: 5
   stem:
     text: |-
-      设 $A=\begin{pmatrix}1&a&-1\\1&5&1\\4&12&6\end{pmatrix}$ 与 $B=\begin{pmatrix}2&0&0\\0&2&1\\0&0&b\end{pmatrix}$ 相似，则\ExamSelection
+      设 \( A=\begin{pmatrix}1&a&-1\\1&5&1\\4&12&6\end{pmatrix}\) 与 \( B=\begin{pmatrix}2&0&0\\0&2&1\\0&0&b\end{pmatrix}\) 相似，则( )。
   choices:
   - label: A
-    text: $a=-3,b=8$。
+    text: |-
+      \(a=-3,b=8\)
     figures: []
   - label: B
-    text: $a=3,b=8$。
+    text: |-
+      \(a=3,b=8\)
     figures: []
   - label: C
-    text: $a=2,b=8$。
+    text: |-
+      \(a=2,b=8\)
     figures: []
   - label: D
-    text: $a=-2,b=8$。
+    text: |-
+      \(a=-2,b=8\)
     figures: []
 - number: 8
   section: choice
   points: 5
   stem:
     text: |-
-      设总体 $X\sim N(\mu,\sigma^2)$（$\sigma>0$），$X_1,X_2,\cdots,X_n$ 为来自总体 $X$ 的简单随机样本，$\overline X$ 为样本均值，若 $P\{|X_1-\mu|<a\}=P\{|\overline X-\mu|<\pi\}$，则 $a=$\ExamSelection
+      设总体 \(X\sim N(\mu, \sigma^2)\, (\sigma>0)\)， \(X_1,X_2, \cdots,X_n\) 为来自总体 \(X\) 的简单随机样本，\(\bar X\) 为样本均值。 若 \(P\{|X-\mu|<a\}=P\{|\bar X-\mu|<\pi\}\)，则 \(a=\)( )。
   choices:
   - label: A
     text: |-
-      $n\pi$。
+      \(n\pi\)
     figures: []
   - label: B
     text: |-
-      $\sqrt{n\pi}$。
+      \( \sqrt{n\pi}\)
     figures: []
   - label: C
     text: |-
-      $\sqrt n\pi$。
+      \( \sqrt n\pi\)
     figures: []
   - label: D
     text: |-
-      $(n-1)\pi$。
+      \((n-1)\pi\)
     figures: []
 - number: 9
   section: choice
   points: 5
   stem:
     text: |-
-      设 $(X,Y)\sim N(1,1;2,2;0)$，$U=X+2Y$，$V=X-2Y$，则 $\rho_{UV}=$\ExamSelection
+      设 \((X,Y)\sim N(1,1;2,2;0)\)， \(U=X+2Y,V=X-2Y\)，则 \(\rho_{UV}=\)( )。
   choices:
   - label: A
     text: |-
-      $-\dfrac{2}{5}$。
+      \( -\dfrac{2}{5}\)
     figures: []
   - label: B
     text: |-
-      $-\dfrac{3}{5}$。
+      \( -\dfrac{3}{5}\)
     figures: []
   - label: C
     text: |-
-      $\dfrac{3}{5}$。
+      \( \dfrac{3}{5}\)
     figures: []
   - label: D
     text: |-
-      $\dfrac{2}{5}$。
+      \( \dfrac{2}{5}\)
     figures: []
 - number: 10
   section: choice
   points: 5
   stem:
     text: |-
-      设 $X_1,X_2,\cdots,X_{2n}$ 为来自总体 $X\sim N(0,1)$ 的简单随机样本，记 $T_1=\displaystyle\sum_{i=1}^{2n}\left(X_i-\dfrac{1}{2n}\displaystyle\sum_{i=1}^{2n}X_i\right)^2$，$T_2=\dfrac{1}{2}\displaystyle\sum_{i=1}^{2n}X_i^2+\displaystyle\sum_{i=1}^{n}X_{2i-1}X_{2i}$，则\ExamSelection
+      设 \(X_1,X_2, \cdots,X_{2n}\) 为来自总体 \(X\sim N(0,1)\) 的简单随机样本，记 \( T_1=\sum_{i=1}^{2n}\left(X_i-\dfrac{1}{2n}\sum_{i=1}^{2n}X_i\right)^2\)， \( T_2=\dfrac{1}{2}\sum_{i=1}^{2n}X_i^2+\sum_{i=1}^nX_{2i-1}X_{2i}\)，则( )。
   choices:
   - label: A
-    text: $E(T_1)=2n,D(T_2)=n$。
+    text: |-
+      \(E(T_1)=2n,D(T_2)=n\)
     figures: []
   - label: B
-    text: $E(T_1)=n,D(T_2)=2n-1$。
+    text: |-
+      \(E(T_1)=n,D(T_2)=2n-1\)
     figures: []
   - label: C
-    text: $E(T_2)=n,D(T_1)=2(2n-1)$。
+    text: |-
+      \(E(T_2)=n,D(T_1)=2(2n-1)\)
     figures: []
   - label: D
-    text: $E(T_2)=2n,D(T_1)=2n-1$。
+    text: |-
+      \(E(T_2)=2n,D(T_1)=2n-1\)
     figures: []
 - number: 11
   section: fill
   points: 5
   stem:
     text: |-
-      设 $f(x)=\displaystyle\int_0^{\dfrac{x^2}{2}}\dfrac{\ln(1+t)}{t}\,\mathrm{d}t$，则 $f^{(2n)}(0)=\ExamBlank$。
+      设 \( f(x)=\int_0^{\dfrac{x^2}{2}}\dfrac{\ln(1+t)}{t}\, \mathrm dt\)，则 \(f^{(2n)}(0)=\)\underline{\qquad}。
 - number: 12
   section: fill
   points: 5
   stem:
     text: |-
-      设 $\ln(1+x)-ae^x+1\leqslant\ln a$ 恒成立，则 $a$ 的取值范围为\ExamBlank。
+      设对所有 \(x>-1\)， \(\ln(1+x)-a{\mathrm e}^x+1\le\ln a\) 恒成立，则 \(a\) 的取值范围为\underline{\qquad}。
 - number: 13
   section: fill
   points: 5
   stem:
     text: |-
-      $\displaystyle\lim_{n\to\infty}\dfrac{1+\dfrac{1}{\sqrt2}+\cdots+\dfrac{1}{\sqrt n}}{\dfrac{1}{\sqrt{n+1}}+\dfrac{1}{\sqrt{n+2}}+\cdots+\dfrac{1}{\sqrt{n+3n}}}=$\ExamBlank。
+      \( \lim\limits_{n\to\infty}\dfrac{1+\frac1{\sqrt2}+\cdots+\frac1{\sqrt n}}{\frac1{\sqrt{n+1}}+\frac1{\sqrt{n+2}}+\cdots+\frac1{\sqrt{n+3n}}}=\)\underline{\qquad}。
 - number: 14
   section: fill
   points: 5
   stem:
     text: |-
-      设 $u=u(x,y,z)$ 有二阶连续偏导数，则 $\operatorname{rot}(\operatorname{grad}u)=$\ExamBlank。
+      设 \(u=u(x,y,z)\) 有二阶连续偏导数，则 \(\operatorname{rot}(\operatorname{grad}u)=\)\underline{\qquad}。
 - number: 15
   section: fill
   points: 5
   stem:
     text: |-
-      若向量 $\boldsymbol\alpha\in\mathbb R^3$ 在基 $\boldsymbol\alpha_1,\boldsymbol\alpha_2,\boldsymbol\alpha_3$ 下的坐标为 $(3,2,1)^{\mathrm T}$，则 $\boldsymbol\alpha$ 在基 $\boldsymbol\beta_1=\boldsymbol\alpha_1,\boldsymbol\beta_2=\boldsymbol\alpha_1+\boldsymbol\alpha_2,\boldsymbol\beta_3=\boldsymbol\alpha_1+\boldsymbol\alpha_2+\boldsymbol\alpha_3$ 下的坐标为\ExamBlank。
+      若向量 \(\alpha\in\mathbb R^3\) 在基 \(\alpha_1, \alpha_2, \alpha_3\) 下的坐标为 \((3,2,1)^T\)，则 \(\alpha\) 在基 \(\beta_1=\alpha_1, \beta_2=\alpha_1+\alpha_2, \beta_3=\alpha_1+\alpha_2+\alpha_3\) 下的坐标为\underline{\qquad}。
 - number: 16
   section: fill
   points: 5
   stem:
     text: |-
-      设 $X_1,X_2,\cdots,X_n$ 为来自总体 $X\sim N(\mu,\sigma^2)$ 的简单随机样本，$\sigma^2$ 未知，$\overline X$ 为样本均值，$S^2$ 为样本方差，检验水平为 $\alpha$，则 $H_0:\mu\geqslant\mu_0,H_1:\mu<\mu_0$ 的拒绝域为\ExamBlank。
+      设 \(X_1,X_2, \cdots,X_n\) 为来自总体 \(X\sim N(\mu, \sigma^2)\) 的简单随机样本，\(\sigma^2\) 未知，\(\bar X\) 为样本均值，\(S^2\) 为样本方差，检验水平为 \(\alpha\)，则 \(H_0:\mu\ge\mu_0\)， \(H_1:\mu<\mu_0\) 的拒绝域为\underline{\qquad}。
 - number: 17
   section: solution
-  points: 10
+  points: 12
   stem:
     text: |-
-      设 $D_t=\{(x,y)\mid 0\leqslant x\leqslant2t,0\leqslant y\leqslant t,t>0\}$，$f(x,y)$ 在 $D_t$ 上有二阶连续偏导数，求 $F(t)=\displaystyle\iint_{D_t}f''_{yx}(x,y)\,\mathrm{d}x\mathrm{d}y$，并计算 $\displaystyle\lim_{t\to0^+}\dfrac{F(t)}{t}$。
+      设 \(D_t=\{(x,y)\mid0\le x\le2t,0\le y\le t,t>0\}\)， \(f(x,y)\) 在 \(D_t\) 上有二阶连续偏导数。 求 \(F(t)=\iint_{D_t}f''_{yx}(x,y)\, \mathrm dx\, \mathrm dy\)，并计算 \( \lim\limits_{t\to0+}\dfrac{F(t)}{t}\)。
 - number: 18
   section: solution
   points: 12
   stem:
     text: |-
-      设 $f(x,y)=x^2+axy+by^2$ 在点 $P(2,1)$ 处沿 $\boldsymbol l=(0,1)$ 的方向导数取得最大值 $2$。
-  subparts:
-  - text: 求 $a,b$ 的值；
-  - text: 求原点 $O(0,0)$ 到曲线 $f(x,y)=1$ 上点的距离的最大值与最小值。
+      设 \(f(x,y)=x^2+axy+by^2\) 在点 \(P(2,1)\) 处沿 \(l=(0,1)\) 的方向导数取得最大值 \(2\)。 (1) 求 \(a,b\) 的值； (2) 求原点 \(O(0,0)\) 到曲线 \(f(x,y)=1\) 上点的距离的最大值与最小值。
 - number: 19
   section: solution
   points: 12
   stem:
     text: |-
-      设 $f(x)$（$x\geqslant0$）满足 $(a+x)f'(x)+f(x)=a$，$f(0)=1$，其中 $a\geqslant\dfrac{1}{2}$ 且 $a\ne1$。
-  subparts:
-  - text: 求 $f(x)$；
-  - text: |-
-      设 $x_1>0$，$x_{n+1}=f(x_n)$（$n=1,2,\cdots$），证明 $\displaystyle\lim_{n\to\infty}x_n$ 存在，并求其值。
+      设 \(f(x)\, (x\ge0)\) 满足 \((a+x)f'(x)+f(x)=a, f(0)=1\)，其中 \(a\ge\dfrac{1}{2}\) 且 \(a\ne1\)。 (1) 求 \(f(x)\)； (2) 设 \(x_1>0,x_{n+1}=f(x_n)\, (n=1,2, \cdots)\)，证明 \(\lim\limits_{n\to\infty}x_n\) 存在，并求其值。
 - number: 20
   section: solution
   points: 12
   stem:
     text: |-
-      设 $y=f(x)$ 满足 $yy''-y'^2=1$，$y(1)=1$，$y'(1)=0$。曲线 $\begin{cases}y=f(x),\\z=0\end{cases}$ 绕直线 $\begin{cases}x=1,\\z=0\end{cases}$ 旋转一周所得曲面为 $\Sigma_1$，$\Sigma$ 为 $\Sigma_1$ 与两个平面 $y=\sqrt2,y=e$ 所围立体的全表面，取外侧。
-  subparts:
-  - text: 求 $y=f(x)$；
-  - text: |-
-      计算 $I=\displaystyle\iint_{\Sigma}\dfrac{x}{\sqrt{y^2-1}}\,\mathrm{d}y\mathrm{d}z$。
+      设 \(y=f(x)\) 满足 \(yy''-y'^2=1,y(1)=1,y'(1)=0\)。 曲线 \( \begin{cases}y=f(x), \\z=0\end{cases}\) 绕直线 \( \begin{cases}x=1, \\z=0\end{cases}\) 旋转一周所得曲面为 \(\Sigma_1\)， \(\Sigma\) 为 \(\Sigma_1\) 与两个平面 \(y=\sqrt2,y={\mathrm e}\) 所围立体的全表面，取外侧。 (1) 求 \(y=f(x)\)； (2) 计算 \( I=\iint_{\Sigma}\dfrac{x}{\sqrt{y^2-1}}\, \mathrm dy\, \mathrm dz\)。
 - number: 21
   section: solution
   points: 12
   stem:
     text: |-
-      设 $A=\begin{pmatrix}1&1&-1\\0&1&1\\0&0&1\end{pmatrix}$ 的单位特征向量为 $\boldsymbol\alpha_1$，且 $\boldsymbol\alpha_1$ 的各分量非负。$3$ 维列向量 $\boldsymbol\alpha_2,\boldsymbol\alpha_3$ 满足 $(E-A)\boldsymbol\alpha_2=\boldsymbol\alpha_1$，$(E-A)\boldsymbol\alpha_3=\boldsymbol\alpha_2$，其中 $E$ 为 $3$ 阶单位矩阵。
-  subparts:
-  - text: |-
-      求 $P=(\boldsymbol\alpha_1,\boldsymbol\alpha_2,\boldsymbol\alpha_3)$，并证明 $P$ 可逆；
-  - text: 求 $P^{-1}(A+A^*)P$，其中 $A^*$ 为 $A$ 的伴随矩阵。
+      设 \( A=\begin{pmatrix}1&1&-1\\0&1&1\\0&0&1\end{pmatrix}\) 的单位特征向量为 \(\alpha_1\)，且 \(\alpha_1\) 的各分量非负。 三维列向量 \(\alpha_2, \alpha_3\) 满足 \((E-A)\alpha_2=\alpha_1\)， \((E-A)\alpha_3=\alpha_2\)，其中 \(E\) 为三阶单位矩阵。 (1) 求 \(P=(\alpha_1, \alpha_2, \alpha_3)\)，并证明 \(P\) 可逆； (2) 求 \(P^{-1}(A+A^*)P\)。
 - number: 22
   section: solution
   points: 12
   stem:
-    text: 设随机变量 $X$ 在区间 $(1,2)$ 内服从均匀分布，在 $X=x$ 的条件下，$Y$ 服从参数为 $x$ 的指数分布，记 $Z=XY$。
-  subparts:
-  - text: 求 $Z$ 的概率密度 $f_Z(z)$；
-  - text: 问 $X$ 与 $Z$ 是否相关？说明理由。
+    text: |-
+      设随机变量 \(X\) 在区间 \((1,2)\) 内服从均匀分布，在 \(X=x\) 的条件下，\(Y\) 服从参数为 \(x\) 的指数分布，记 \(Z=XY\)。 (1) 求 \(Z\) 的概率密度 \(f_Z(z)\)； (2) 问 \(X\) 与 \(Z\) 是否相关？说明理由。
+content_hash: feb86ffb6940e3943abe74eb83e4c87085e59c7aeb7f702a5452dbfc4c868dd1

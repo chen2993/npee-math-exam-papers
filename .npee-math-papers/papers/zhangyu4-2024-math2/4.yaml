@@ -10,29 +10,29 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $f(x)$ 在 $x=0$ 处可导，且 $f(\dfrac{1}{n})=\dfrac{2}{n}$（$n=1,2,3,\cdots$），则 $f'(0)=$\ExamSelection
+      设 $f(x)$ 在 $x=0$ 处可导，且 $f\left(\dfrac{1}{n}\right)=\dfrac{2}{n}(n=1,2,3,\cdots)$，则 $f'(0)=$
   choices:
   - label: A
-    text: $0$
+    text: '0'
     figures: []
   - label: B
-    text: $1$
+    text: '1'
     figures: []
   - label: C
-    text: $2$
+    text: '2'
     figures: []
   - label: D
-    text: $3$
+    text: '3'
     figures: []
 - number: 2
   section: choice
   points: 5
   stem:
     text: |-
-      设正项数列 $\{a_n\}$ 单调减少，$\lim_{n\to\infty}a_n=a$，则 $\lim_{n\to\infty}(a_1^n+a_2^n+\cdots+a_n^n)^{\dfrac{1}{n}}=$\ExamSelection
+      设正项数列 $\{a_n\}$ 单调减少$,\lim_{n\to\infty}a_n = a$，则 $\lim_{n\to\infty}(a_1^n + a_2^n + \cdots + a_n^n)^{\dfrac{1}{n}} =$
   choices:
   - label: A
-    text: $0$
+    text: '0'
     figures: []
   - label: B
     text: $a_1$
@@ -49,116 +49,115 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $y=y(x)$ 满足条件 $\begin{cases}y''+2y'+4y=0,\\y(0)=y'(0)=2,\end{cases}$ 则 $\int_0^{+\infty}y(x)\,\mathrm{d}x$ 和 $\int_0^{+\infty}y^2(x)\,\mathrm{d}x$ 的值分别为\ExamSelection
+      设 $y=y(x)$ 满足条件 $\begin{cases} y''+2y'+4y=0, \\ y(0)=y'(0)=2, \end{cases}$ 则 $\int_0^{+\infty} y(x)\mathrm{d}x$ 和 $\int_0^{+\infty} y^2(x)\mathrm{d}x$ 的值分别为
   choices:
   - label: A
     text: |-
-      $\dfrac{3}{2},\dfrac{13}{4}$
+      $\dfrac{3}{2}, \dfrac{13}{4}.$
     figures: []
   - label: B
     text: |-
-      $\dfrac{2}{3},\dfrac{13}{4}$
+      $\dfrac{2}{3}, \dfrac{13}{4}.$
     figures: []
   - label: C
     text: |-
-      $\dfrac{3}{2},\dfrac{13}{2}$
+      $\dfrac{3}{2}, \dfrac{13}{2}.$
     figures: []
   - label: D
     text: |-
-      $\dfrac{2}{3},\dfrac{13}{2}$
+      $\dfrac{2}{3}, \dfrac{13}{2}.$
     figures: []
 - number: 4
   section: choice
   points: 5
   stem:
     text: |-
-      已知 $f(x)$ 为连续函数，则 $\lim_{n\to\infty}\sum_{i=1}^{n}f(\dfrac{2n+i}{2n})\dfrac{1}{n}=$\ExamSelection
+      已知 $f(x)$ 为连续函数，则 $\lim_{n\to\infty}\sum_{i=1}^{n}f\left(\dfrac{2n+i}{2n}\right)\dfrac{1}{n}=$
   choices:
   - label: A
     text: |-
-      $2\int_{\dfrac{1}{2}}^1f(x)\,\mathrm{d}x$
+      $2\int_{\dfrac{1}{2}}^{1}f(x)\mathrm{d}x.$
     figures: []
   - label: B
     text: |-
-      $2\int_1^2f(x)\,\mathrm{d}x$
+      $2\int_{1}^{2}f(x)\mathrm{d}x.$
     figures: []
   - label: C
     text: |-
-      $\int_{\dfrac{1}{4}}^{\dfrac{5}{4}}\dfrac{f(\sqrt{x})}{\sqrt{x}}\,\mathrm{d}x$
+      $\int_{\dfrac{1}{4}}^{\dfrac{5}{2}}\dfrac{f(\sqrt{x})}{\sqrt{x}}\mathrm{d}x.$
     figures: []
   - label: D
     text: |-
-      $\int_1^{\dfrac{9}{4}}\dfrac{f(\sqrt{x})}{\sqrt{x}}\,\mathrm{d}x$
+      $\int_{1}^{\dfrac{9}{4}}\dfrac{f(\sqrt{x})}{\sqrt{x}}\mathrm{d}x.$
     figures: []
 - number: 5
   section: choice
   points: 5
   stem:
     text: |-
-      设 $f'(x)=[g(x)]^2$，且在 $(-\infty,+\infty)$ 内 $g(x)<0$，$g''(x)<0$，$g'(0)=0$，则下列结论正确的是\ExamSelection
+      设 $f'(x)=[g(x)]^2$，且在 $(-\infty,+\infty)$ 内 $g(x)<0,g''(x)<0,g'(0)=0$，则下列结论正确的是
   choices:
   - label: A
-    text: $(0,f(0))$ 是曲线 $y=f(x)$ 的拐点。
+    text: $(0,f(0))$ 是曲线 $y=f(x)$ 的拐点
     figures: []
   - label: B
-    text: $x=0$ 是函数 $y=f(x)$ 的极大值点。
+    text: $x=0$ 是函数 $y=f(x)$ 的极大值点
     figures: []
   - label: C
     text: |-
-      曲线 $y=f(x)$ 在 $(-\infty,+\infty)$ 上是凸的。
+      曲线 $y=f(x)$ 在 $(-\infty,+\infty)$ 上是凹的
     figures: []
   - label: D
     text: |-
-      $f(0)$ 是 $f(x)$ 在 $(-\infty,+\infty)$ 上的最大值。
+      $f(0)$ 是 $f(x)$ 在 $(-\infty,+\infty)$ 上的最大值
     figures: []
 - number: 6
   section: choice
   points: 5
   stem:
     text: |-
-      若 $f(x,y)$ 在点 $(0,0)$ 的全微分 $df=0$，则点 $(0,0)$ 处的全增量 $\Delta f$ 可以为\ExamSelection
+      若 $f(x,y)$ 在点 $(0,0)$ 的全微分 $\mathrm{d}f=0$, 则点 $(0,0)$ 处的全增量 $\Delta f$ 可以为
   choices:
   - label: A
     text: |-
-      $\sqrt{|\Delta x\Delta y|}$
+      $\sqrt{|\Delta x \Delta y|}$
     figures: []
   - label: B
     text: |-
-      $\dfrac{\Delta x\Delta y}{\sqrt{(\Delta x)^2+(\Delta y)^2}}$
+      $\dfrac{\Delta x \Delta y}{\sqrt{(\Delta x)^2+(\Delta y)^2}}$
     figures: []
   - label: C
     text: |-
-      $\dfrac{\sin[(\Delta x)^2-(\Delta y)^2]}{\sqrt{(\Delta x)^2+(\Delta y)^2}}$
+      $\dfrac{\sin [(\Delta x)^2-(\Delta y)^2]}{\sqrt{(\Delta x)^2+(\Delta y)^2}}$
     figures: []
   - label: D
     text: |-
-      $[(\Delta x)^2+(\Delta y)^2]\sin\dfrac{1}{(\Delta x)^2+(\Delta y)^2}$
+      $[(\Delta x)^2+(\Delta y)^2] \sin \dfrac{1}{(\Delta x)^2+(\Delta y)^2}$
     figures: []
 - number: 7
   section: choice
   points: 5
   stem:
-    text: |-
-      设 $p(x)$ 为正值连续函数，则方程 $y'+p(x)y=0$ 的所有积分曲线上横坐标相同的点的切线\ExamSelection
+    text: 设 $p(x)$ 为正值连续函数, 则方程 $y' + p(x)y = 0$ 的所有积分曲线上横坐标相同的点的切线
   choices:
   - label: A
-    text: 相交于一点。
+    text: 相交于一点
     figures: []
   - label: B
-    text: 平行但不重合。
+    text: 平行但不重合
     figures: []
   - label: C
-    text: 或者相交于一点，或者互相重合。
+    text: 或者相交于一点,或者互相重合
     figures: []
   - label: D
-    text: 重合。
+    text: 重合
     figures: []
 - number: 8
   section: choice
   points: 5
   stem:
     text: |-
-      已知 $\eta_1,\eta_2$ 是线性方程组 $\begin{cases}ax_1+x_2+2x_3=b,\\x_1+cx_2-x_3=1,\\2x_1+x_2-2x_3=-1\end{cases}$ 的两个不同解，$k,k_1,k_2$ 为任意常数，则该线性方程组的通解是\ExamSelection
+      已知 $\eta_1,\eta_2$ 是线性方程组 $\begin{cases} ax_1+x_2+2x_3=b, \\ x_1+cx_2-x_3=1, \\ 2x_1+x_2-2x_3=-1 \end{cases}$ 的两个不同解$,k,k_1,k_2$ 为任意常数，则该线性方程组的通解是
   choices:
   - label: A
     text: |-
@@ -181,7 +180,7 @@ questions:
   points: 5
   stem:
     text: |-
-      若向量组 $\alpha_1=(1,1,a)^{\mathsf T},\alpha_2=(1,a,1)^{\mathsf T},\alpha_3=(a,1,1)^{\mathsf T}$ 可由向量组 $\beta_1=(1,1,a)^{\mathsf T},\beta_2=(-2,a,4)^{\mathsf T},\beta_3=(-2,a,a)^{\mathsf T}$ 线性表示，但向量组 $\beta_1,\beta_2,\beta_3$ 不能由向量组 $\alpha_1,\alpha_2,\alpha_3$ 线性表示，则 $a=$\ExamSelection
+      若向量组 $\alpha_1=(1,1,a)^T,\alpha_2=(1,a,1)^T,\alpha_3=(a,1,1)^T$ 可由向量组 $\beta_1=(1,1,a)^T,\beta_2=(-2,a,4)^T,\beta_3=(-2,a,a)^T$ 线性表示，但向量组 $\beta_1,\beta_2,\beta_3$ 不能由向量组 $\alpha_1,\alpha_2,\alpha_3$ 线性表示，则 $a=$
   choices:
   - label: A
     text: $-1$
@@ -199,110 +198,94 @@ questions:
   section: choice
   points: 5
   stem:
-    text: |-
-      若 $f(x_1,x_2,x_3)=(ax_1+2x_2-3x_3)^2+(x_2-2x_3)^2+(x_1+ax_2-x_3)^2$ 是正定二次型，则 $a$ 的取值范围是\ExamSelection
+    text: 若 $f(x_1,x_2,x_3)=(ax_1+2x_2-3x_3)^2+(x_2-2x_3)^2+(x_1+ax_2-x_3)^2$ 是正定二次型，则 $a$ 的取值范围是
   choices:
   - label: A
     text: |-
-      $a\ne1$。
+      $a \neq 1$
     figures: []
   - label: B
     text: |-
-      $a\ne-\dfrac{1}{2}$。
+      $a \neq -\dfrac{1}{2}$
     figures: []
   - label: C
     text: |-
-      $a\ne1$ 或 $a\ne-\dfrac{1}{2}$。
+      $a \neq 1$ 或 $a \neq -\dfrac{1}{2}$
     figures: []
   - label: D
     text: |-
-      $a\ne1$ 且 $a\ne-\dfrac{1}{2}$。
+      $a \neq 1$ 且 $a \neq -\dfrac{1}{2}$
     figures: []
 - number: 11
   section: fill
   points: 5
   stem:
     text: |-
-      曲线 $\begin{cases}x=t-\ln(1+t^2),\\y=\arctan t\end{cases}$ 在 $t=2$ 处的曲率为 $\ExamBlank$。
+      曲线 $\begin{cases} x=t-\ln(1+t^2), \\ y=\arctan t \end{cases}$ 在 $t=2$ 处的曲率为$\underline{\qquad\qquad}$
 - number: 12
   section: fill
   points: 5
   stem:
     text: |-
-      已知 $\int_5^{+\infty}(\dfrac{a}{x-3}-\dfrac{1}{x-1})\,\mathrm{d}x=b$，$a,b$ 为常数，则 $ab=\ExamBlank$。
+      已知 $\int_5^{+\infty} \left( \dfrac{a}{x-3} - \dfrac{1}{x-1} \right) \mathrm{d}x = b, a, b$ 为常数, 则 $ab = \underline{\qquad\qquad}.$
 - number: 13
   section: fill
   points: 5
   stem:
     text: |-
-      设 $f(x)=\dfrac{1}{2^x+1},x\in\mathbb R$，则 $f^{(4)}(0)=\ExamBlank$。
+      设 $f(x) = \dfrac{1}{2^x + 1}, x \in R$, 则 $f^{(4)}(0) = \underline{\qquad\qquad}$
 - number: 14
   section: fill
   points: 5
   stem:
     text: |-
-      设平面区域 $D=\{(x,y)\mid y-3\leq2x\leq-y+3,0\leq y\leq3\}$，平面薄板 $D$ 的面密度为 $\rho(x,y)=y$，则 $D$ 的质心为 $\ExamBlank$。
+      设平面区域 $D=\{(x,y) \mid y-3 \leqslant 2x \leqslant -y+3, 0 \leqslant y \leqslant 3\}$，平面薄板 $D$ 的面密度为 $\rho(x,y)=y$，则 $D$ 的质心为$\underline{\hspace{1.5cm}}$
 - number: 15
   section: fill
   points: 5
   stem:
     text: |-
-      设 $y=y(x)$ 及 $z=z(x)$ 由方程 $e^z-xyz=0$ 及 $xz^2=\ln y$ 所确定，则 $\left.\dfrac{|dz|}{dx}\right|_{x=\dfrac{1}{2}}=\ExamBlank$。
+      设 $y=y(x)$ 及 $z=z(x)$ 由方程 $\mathrm{e}^z-xyz=0$ 及 $xz^2=\ln y$ 所确定, 则 $\left.\dfrac{\mathrm{d}z}{\mathrm{d}x}\right|_{x=\dfrac{1}{2}}=\underline{\qquad\qquad}.$
 - number: 16
   section: fill
   points: 5
   stem:
     text: |-
-      设 $3$ 阶实对称矩阵 $A=\begin{pmatrix}a_{11}&a_{12}&a_{13}\\a_{12}&a_{22}&a_{23}\\a_{13}&a_{23}&a_{33}\end{pmatrix}$，$f(x_1,x_2,x_3)=\left|\begin{array}{ccc}a_{11}-x_1&a_{12}&a_{13}\\a_{12}&a_{22}-x_2&a_{23}\\a_{13}&a_{23}&a_{33}-x_3\end{array}\right|$。若属于 $A$ 的二重特征值 $-1$ 的特征向量为 $\alpha_1=(-1,-1,1)^{\mathsf T},\alpha_2=(1,-2,-1)^{\mathsf T}$，$f(1,1,1)=0$，则 $A=\ExamBlank$。
+      设 $3$ 阶实对称矩阵 $A=\begin{pmatrix} a_{11} & a_{12} & a_{13} \\ a_{12} & a_{22} & a_{23} \\ a_{13} & a_{23} & a_{33} \end{pmatrix}, f(x_1,x_2,x_3)=\begin{vmatrix} a_{11}-x_1 & a_{12} & a_{13} \\ a_{12} & a_{22}-x_2 & a_{23} \\ a_{13} & a_{23} & a_{33}-x_3 \end{vmatrix}$，属于 $A$ 的二重特征值 $-1$ 的特征向量为 $\alpha_1=\begin{pmatrix} -1 \\ -1 \\ 1 \end{pmatrix}, \alpha_2=\begin{pmatrix} 1 \\ -2 \\ -1 \end{pmatrix}, f(1,1,1)=0$，则 $A=\_\_\_\_\_\_\_\_$
 - number: 17
   section: solution
-  points: 10
+  points: 12
   stem:
     text: |-
-      设 $f(x)$ 在 $x=0$ 的某邻域内连续，在 $x=0$ 处可导，且 $f(0)=0$，$g(x)=\begin{cases}\dfrac{1}{x^2}\int_0^xtf(t)\,\mathrm{d}t,&x\ne0,\\0,&x=0,\end{cases}$ 证明 $g(x)$ 在 $x=0$ 处可导且 $g'(x)$ 在 $x=0$ 处连续。
+      设 $f(x)$ 在 $x=0$ 的某邻域内连续, 在 $x=0$ 处可导, 且 $f(0)=0$, $g(x)=\begin{cases} \dfrac{1}{x^2}\int_0^x tf(t)\mathrm{d}t, & x eq 0, \\ 0, & x=0, \end{cases}$ 证明 $g(x)$ 在 $x=0$ 处可导且 $g'(x)$ 在 $x=0$ 处连续
 - number: 18
   section: solution
   points: 12
   stem:
     text: |-
-      已知曲线段 $L:x=\ln y$（$1\leq y\leq\sqrt{3}$），有界区域 $D$ 由 $L$ 与 $y$ 轴及直线 $y=\sqrt{3}$ 围成。
-  subparts:
-  - text: 求 $D$ 绕 $y$ 轴旋转一周所成的旋转体的体积。
-  - text: 求曲线段 $L$ 的长。
+      已知曲线段 $L: x=\ln y(1 \leqslant y \leqslant \sqrt{3})$，有界区域 $D$ 由 $L$ 与 $y$ 轴及直线 $y=\sqrt{3}$ 围成. (1) 求 $D$ 绕 $y$ 轴旋转一周所成的旋转体的体积; (2) 求曲线段 $L$ 的长
 - number: 19
   section: solution
   points: 12
   stem:
     text: |-
-      设 $f(x)$ 在 $[0,1]$ 上连续，在 $(0,1)$ 内可导，且 $f(0)=f(1)=0,M=\max_{0\leq x\leq1}|f(x)|>0$。证明：
-  subparts:
-  - text: |-
-      在 $(0,1)$ 内存在不同的 $\xi$ 和 $\eta$，使得 $\dfrac{1}{|f'(\xi)|}+\dfrac{1}{|f'(\eta)|}=\dfrac{1}{M}$；
-  - text: |-
-      对(1)中的 $\xi,\eta$，有 $(|f'(\xi)|-2M)(|f'(\eta)|-2M)\leq0$。
+      设 $f(x)$ 在 $[0,1]$ 上连续, 在 $(0,1)$ 内可导, 且 $f(0)=f(1)=0, M=\max_{0\leqslant x\leqslant 1}\{|f(x)|\}>0$. 证明: (1) 在 $(0,1)$ 内存在不同的 $\xi$ 和 $\eta$, 使得 $\dfrac{1}{|f'(\xi)|}+\dfrac{1}{|f'(\eta)|}=\dfrac{1}{M}$; (2) 对 (1) 中的 $\xi,\eta$, 有 $(|f'(\xi)|-2M)(|f'(\eta)|-2M)\leqslant 0$
 - number: 20
   section: solution
   points: 12
   stem:
     text: |-
-      设函数 $f(x,y)$ 一阶偏导数连续，$f(x,y)\,dx+xy\,dy$ 是某二元函数 $u(x,y)$ 的全微分，$u(0,0)=1$，且对于任意的 $t$，有 $1+\int_0^tf(x,1)\,dx=\int_1^0f(x,t)\,dx$。
-  subparts:
-  - text: 求 $du$；
-  - text: 求 $u(x,y)$ 的极值点。
+      设函数 $f(x,y)$ 一阶偏导数连续, $f(x,y)\mathrm{d}x+xy\mathrm{d}y$ 是某二元函数 $u(x,y)$ 的全微分, $u(0,0)=1$, 且对于任意的 $t$, 有 $1+\int_0^t f(x,1)\mathrm{d}x=\int_1^0 f(x,t)\mathrm{d}x$. (1) 求 $\mathrm{d}u$; (2) 求 $u(x,y)$ 的极值点
 - number: 21
   section: solution
   points: 12
   stem:
     text: |-
-      设 $f(x)=\iint_{D(x)}\dfrac{v\ln\sqrt{u^2+v^2}}{u+v}\,du\,dv$，$D(x)=\{(u,v)\mid\dfrac{1}{4}\leq u^2+v^2\leq x^2,u>0,v>0\}$（$x>\dfrac{1}{2}$），求曲线 $y(x)=\int_{\frac{1}{2}}^xf(t)\,dt$（$x>\dfrac{1}{2}$）的拐点。
+      设 $f(x)=\iint_{D(x)} \dfrac{v\ln\sqrt{u^2+v^2}}{u+v}\mathrm{d}u\mathrm{d}v, D(x)=\left\{(u,v)\left|\dfrac{1}{4}\leqslant u^2+v^2\leqslant x^2,u>0,v>0\right.\right\}\left(x>\dfrac{1}{2}\right)$，求曲线 $y(x)=\int_1^x f(t)\mathrm{d}t\left(x>\dfrac{1}{2}\right)$ 的拐点
 - number: 22
   section: solution
   points: 12
   stem:
     text: |-
-      设某产品当前的市场占有率为 $80\%$，经调研，正使用该产品的用户中有 $80\%$ 仍会继续购买，而未使用该产品的用户中有 $20\%$ 将会购买。设第 $n$ 年时，购买的用户比例为 $x_n$，不购买的用户比例为 $y_n$。
-  subparts:
-  - text: |-
-      求 $\begin{pmatrix}x_n\\y_n\end{pmatrix}$ 的表达式；
-  - text: 按此趋势，求该产品最终的市场占有率。
-content_hash: 08ae873af68f647cdd41d7098b2ad8be368c3f94c2cede2ce26ffd8b8e52124d
+      设某产品当前的市场占有率为 $80\%$, 经调研, 正使用该产品的用户中有 $80\%$ 仍会继续购买, 当前未使用该产品的用户中有 $20\%$ 将会购买, 设第 $n$ 年时, 购买的用户比例为 $x_n$, 不购买的用户比例为 $y_n$. (1) 求 $\begin{pmatrix} x_n \\ y_n \end{pmatrix}$ 的表达式; (2) 按此趋势, 求该产品最终的市场占有率
+content_hash: 3e561478cbcb3869e960909f21ac2cc1dbc24f6a4e31e7e3385b1f909ae8170a

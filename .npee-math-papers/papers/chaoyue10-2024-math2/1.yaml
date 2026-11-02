@@ -10,7 +10,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设函数 $f(x)=\begin{cases}x^2,&x\leq 0,\\\ln x,&x>0,\end{cases}$ 则函数 $f(f(x))$\ExamSelection。
+      设函数 $f(x)=\begin{cases} x^2, & x\leqslant 0, \\ \ln x, & x>0, \end{cases}$ 则函数 $f(f(x))(\quad)$
   choices:
   - label: A
     text: 无极值点
@@ -29,26 +29,26 @@ questions:
   points: 5
   stem:
     text: |-
-      设有积分 $I_1=\int_0^1\dfrac{\sin x}{\sqrt{1-x^2}}\,\mathrm{d}x$，$I_2=\int_0^1\dfrac{\cos x}{\sqrt{1-x^2}}\,\mathrm{d}x$，则下列说法正确的是\ExamSelection。
+      设有积分 $I_1=\int_0^1 \dfrac{\sin x}{\sqrt{1-x^2}} \mathrm{d}x, I_2=\int_0^1 \dfrac{\cos x}{\sqrt{1-x^2}} \mathrm{d}x$，则下列说法正确的是（ ）
   choices:
   - label: A
-    text: $I_1$ 发散，$I_2$ 收敛且 $I_2<1$
+    text: $I_1$ 发散, $I_2$ 收敛且 $I_2<1$
     figures: []
   - label: B
-    text: $I_1$ 收敛，$I_2$ 发散且 $I_1<1$
+    text: $I_1$ 收敛, $I_2$ 发散且 $I_1<1$
     figures: []
   - label: C
-    text: $I_1,I_2$ 均收敛且 $I_1<1,I_2<1$
+    text: $I_1, I_2$ 均收敛且 $I_1<1, I_2<1$
     figures: []
   - label: D
-    text: $I_1,I_2$ 均收敛且 $I_1<1,I_2>1$
+    text: $I_1, I_2$ 均收敛且 $I_11$
     figures: []
 - number: 3
   section: choice
   points: 5
   stem:
     text: |-
-      一长方体的三条棱长分别用 $x,y,z$ 表示，若 $x,z$ 分别以 $1\ \mathrm{cm}/\mathrm{s}$ 和 $2\ \mathrm{cm}/\mathrm{s}$ 的速率增加，$y$ 以 $3\ \mathrm{cm}/\mathrm{s}$ 的速率减少，当 $x=1\ \mathrm{cm},y=z=2\ \mathrm{cm}$ 时，长方体的体积 $V$ 对对角线长度 $l$ 的变化率分别为\ExamSelection。
+      长方体的三条棱长分别用 $x,y,z$ 表示，若 $x,z$ 分别以 $1\text{cm/s}$ 和 $2\text{cm/s}$ 的速率增加$,y$ 以 $3\text{cm/s}$ 的速率减少，当 $x=1\text{cm},y=z=2\text{cm}$ 时，长方体的体积 $V$ 对对角线长度 $l$ 的变化率分别为$(\quad)$
   choices:
   - label: A
     text: |-
@@ -69,28 +69,30 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $a=\lim_{n\to\infty}n\left[e-\left(1+\dfrac{1}{n}\right)^n\right]$，$b=\lim_{n\to\infty}n\left[\dfrac{e}{\left(1+\dfrac{1}{n}\right)^n}-1\right]$，则 $ab=$\ExamSelection。
+      设 $a=\lim\limits_{n\to\infty}n\left[\mathrm{e}-\left(1+\dfrac{1}{n}\right)^n\right],b=\lim\limits_{n\to\infty}n\left[\dfrac{\mathrm{e}}{\left(1+\dfrac{1}{n}\right)^n}-1\right]$，则 $ab=(\quad)$。
   choices:
   - label: A
-    text: $e$
+    text: |-
+      $\mathrm{e}$
     figures: []
   - label: B
     text: |-
-      $\dfrac{e}{4}$
+      $\dfrac{\mathrm{e}}{4}$
     figures: []
   - label: C
-    text: $2e$
+    text: |-
+      $2\mathrm{e}$
     figures: []
   - label: D
     text: |-
-      $\dfrac{e^2}{4}$
+      $\dfrac{\mathrm{e}^2}{4}$
     figures: []
 - number: 5
   section: choice
   points: 5
   stem:
     text: |-
-      设 $y=f(x)$ 在 $[a,b]\{b>a>0\}$ 上有连续导数，若 $x=r(\theta)\cos\theta,y=f(x)=r(\theta)\sin\theta$，且 $\alpha=\arctan\dfrac{f(a)}{a},\beta=\arctan\dfrac{f(b)}{b}$，则当 $\int_a^b f(x)\,\mathrm{d}x=0$ 时，$\int_\alpha^\beta r^2(\theta)\,\mathrm{d}\theta=$\ExamSelection。
+      设 $y=f(x)$ 在 $[a,b](b>a>0)$ 上有连续导数, 若 $x=r(\theta)\cos\theta, y=f(x)=r(\theta)\sin\theta$, 且 $\alpha=\arctan\dfrac{f(a)}{a}, \beta=\arctan\dfrac{f(b)}{b}$, 则当 $\int_a^b f(x)\mathrm{d}x=0$ 时, $\int_\alpha^\beta r^2(\theta)\mathrm{d}\theta=(\quad)$
   choices:
   - label: A
     text: $bf(a)-af(b)$
@@ -109,195 +111,178 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $f(x,y)=\begin{cases}\dfrac{x^2y}{x^2+y^2},&x^2+y^2\ne 0,\\0,&x^2+y^2=0,\end{cases}$ 则\ExamSelection。
+      设 $f(x,y)=\begin{cases} \dfrac{x^2y}{x^2+y^2}, & x^2+y^2 eq 0, \\ 0, & x^2+y^2=0, \end{cases}$ 则 $(\quad)$
   choices:
   - label: A
     text: |-
-      $f_{xy}^{\prime\prime}(0,0),f_{yx}^{\prime\prime}(0,0)$ 均存在
+      $f_{xy}^{\prime\prime}(0,0), f_{yx}^{\prime\prime}(0,0)$ 均存在
     figures: []
   - label: B
     text: |-
-      $f_{xy}^{\prime\prime}(0,0),f_{yx}^{\prime\prime}(0,0)$ 均不存在
+      $f_{xy}^{\prime\prime}(0,0), f_{yx}^{\prime\prime}(0,0)$ 均不存在
     figures: []
   - label: C
     text: |-
-      $f_{xy}^{\prime\prime}(0,0)$ 存在，$f_{yx}^{\prime\prime}(0,0)$ 不存在
+      $f_{xy}^{\prime\prime}(0,0)$ 存在, $f_{yx}^{\prime\prime}(0,0)$ 不存在
     figures: []
   - label: D
     text: |-
-      $f_{xy}^{\prime\prime}(0,0)$ 不存在，$f_{yx}^{\prime\prime}(0,0)$ 存在
+      $f_{xy}^{\prime\prime}(0,0)$ 不存在, $f_{yx}^{\prime\prime}(0,0)$ 存在
     figures: []
 - number: 7
   section: choice
   points: 5
   stem:
     text: |-
-      设 $f(x,y)$ 具有一阶连续偏导数，且 $\dfrac{\partial f}{\partial x}>0,\dfrac{\partial f}{\partial y}<0$。$D:0\leq x\leq 1,0\leq y\leq 1$，则二重积分 $I_1=\iint_Df(x,y)\,\mathrm{d}\sigma,I_2=\iint_Df(\ln(1+x),y)\,\mathrm{d}\sigma,I_3=\iint_Df(x,\sin y)\,\mathrm{d}\sigma$ 的大小关系为\ExamSelection。
+      设 $f(x,y)$ 具有一阶连续偏导数, 且 $\dfrac{\partial f}{\partial x}>0,\dfrac{\partial f}{\partial y}<0. D:0 \leqslant x \leqslant 1,0 \leqslant y \leqslant 1$, 则二重积分 $I_{1}=\iint_{D} f(x,y)\mathrm{d}\sigma, I_{2}=\iint_{D} f(\ln(1+x),y)\mathrm{d}\sigma, I_{3}=\iint_{D} f(x,\sin y)\mathrm{d}\sigma$ 的大小关系为 ( )
   choices:
   - label: A
     text: |-
-      $I_1\leq I_2\leq I_3$
+      $I_{1} \leqslant I_{2} \leqslant I_{3}$
     figures: []
   - label: B
     text: |-
-      $I_1\leq I_3\leq I_2$
+      $I_{1} \leqslant I_{3} \leqslant I_{2}$
     figures: []
   - label: C
     text: |-
-      $I_2\leq I_1\leq I_3$
+      $I_{2} \leqslant I_{1} \leqslant I_{3}$
     figures: []
   - label: D
     text: |-
-      $I_3\leq I_2\leq I_1$
+      $I_{3} \leqslant I_{2} \leqslant I_{1}$
     figures: []
 - number: 8
   section: choice
   points: 5
   stem:
     text: |-
-      设 $A^*$ 为 $3$ 阶矩阵 $A$ 的伴随矩阵，先将 $A$ 的第一行与第三行对调得到 $B$，再将 $B$ 的第二列的 $-2$ 倍加到第一列得到 $E$，则 $[2A+(A^*)^*]^{-1}=$\ExamSelection。
+      设 $A^*$ 为 $3$ 阶矩阵 $A$ 的伴随矩阵，先将 $A$ 的第一行与第三行对调得到 $B$，再将 $B$ 的第二列的 $-2$ 倍加到第一列得到 $E$，则 $[2A+(A^*)^*]^{-1}=(\quad)$
   choices:
   - label: A
     text: |-
-      $\begin{pmatrix}0&0&1\\0&1&2\\1&0&0\end{pmatrix}$
+      $\begin{pmatrix} 0 & 0 & 1 \\ 0 & 1 & 2 \\ 1 & 0 & 0 \end{pmatrix}$
     figures: []
   - label: B
     text: |-
-      $\begin{pmatrix}0&0&1\\0&1&-2\\1&0&0\end{pmatrix}$
+      $\begin{pmatrix} 0 & 0 & 1 \\ 0 & 1 & -2 \\ 1 & 0 & 0 \end{pmatrix}$
     figures: []
   - label: C
     text: |-
-      $\begin{pmatrix}0&0&1\\-2&1&0\\1&0&0\end{pmatrix}$
+      $\begin{pmatrix} 0 & 0 & 1 \\ -2 & 1 & 0 \\ 1 & 0 & 0 \end{pmatrix}$
     figures: []
   - label: D
     text: |-
-      $\begin{pmatrix}0&0&1\\1&-2&0\\0&1&0\end{pmatrix}$
+      $\begin{pmatrix} 0 & 0 & 1 \\ 1 & -2 & 0 \\ 0 & 1 & 0 \end{pmatrix}$
     figures: []
 - number: 9
   section: choice
   points: 5
   stem:
     text: |-
-      设 $A,B$ 为 $n$ 阶可逆的实对称矩阵。\n① $A,B$ 的列向量组具有相同的线性相关性；\n② $A,B$ 的行向量组具有相同的线性相关性；\n③ 存在可逆矩阵 $P$，使 $P^TA^2P=B^2$；\n④ 存在可逆矩阵 $P$，使 $P^{-1}ABP=BA$。\n以上说法正确的个数为\ExamSelection。
+      设 $A,B$ 为 $n$ 阶可逆的实对称矩阵. ① $A,B$ 的列向量组具有相同的线性相关性; ② $A,B$ 的行向量组具有相同的线性相关性; ③存在可逆矩阵 $P$, 使 $P^{\mathrm{T}} A^2 P = B^2$; ④存在可逆矩阵 $P$, 使 $P^{-1} A B P = B A$. 以上说法正确的个数为 ( )
   choices:
   - label: A
-    text: $1$
+    text: '1'
     figures: []
   - label: B
-    text: $2$
+    text: '2'
     figures: []
   - label: C
-    text: $3$
+    text: '3'
     figures: []
   - label: D
-    text: $4$
+    text: '4'
     figures: []
 - number: 10
   section: choice
   points: 5
   stem:
     text: |-
-      设二次型 $f(x_1,x_2,\cdots,x_n)=\sum_{i=1}^m(a_{i1}x_1+a_{i2}x_2+\cdots+a_{in}x_n)^2$ 的矩阵为 $B$，记 $A=(a_{ij})_{m\times n}$，则当\ExamSelection{}时，二次型 $f=x^TBx$ 为正定二次型。
+      二次型 $f(x_1, x_2, \cdots, x_n) = \sum_{i=1}^m (a_{i1}x_1 + a_{i2}x_2 + \cdots + a_{in}x_n)^2$ 的矩阵为 $B$, 记 $A = (a_{ij})_{m \times n}$, 则当 ( ) 时, 二次型 $f = x^T B x$ 为正定二次型
   choices:
   - label: A
-    text: $r(f)=m$
+    text: $r(f) = m$
     figures: []
   - label: B
-    text: $r(f)=n$
+    text: $r(f) = n$
     figures: []
   - label: C
-    text: $r(f)=r(A)$
+    text: $r(f) = r(A)$
     figures: []
   - label: D
-    text: $m=n$
+    text: $m = n$
     figures: []
 - number: 11
   section: fill
   points: 5
   stem:
     text: |-
-      $\lim_{n\to\infty}\dfrac{\sum_{k=1}^n\dfrac{1}{k}}{\ln n}=$\ExamBlank。
+      $\lim_{n\to\infty} \dfrac{\sum_{k=1}^n \dfrac{1}{k}}{\ln n} = \underline{\qquad\qquad}.$
 - number: 12
   section: fill
   points: 5
   stem:
     text: |-
-      设 $xy=c_1e^x+c_2e^{2x}$ 是某二阶齐次线性微分方程的通解，则该方程为\ExamBlank。
+      设 $xy = c_1\mathrm{e}^x + c_2\mathrm{e}^{2x}$ 是某二阶齐次线性微分方程的通解，则该方程为$\underline{\qquad\qquad}$
 - number: 13
   section: fill
   points: 5
   stem:
     text: |-
-      设 $z=z(u,v)$ 由方程 $z=e^{uvz}$ 确定，$u=u(x),v=v(x)$ 由方程组 $\begin{cases}u^2+2v+e^x=2,\\u-v+x=1\end{cases}$ 确定，其中 $u>0$，则 $\left.\dfrac{\mathrm{d}z}{\mathrm{d}x}\right|_{x=0}=$\ExamBlank。
+      设 $z=z(u,v)$ 由方程 $z=\mathrm{e}^{uv}$ 确定$,u=u(x),v=v(x)$ 由方程组 $\begin{cases} u^2+2v+\mathrm{e}^x=2, \\ u-v+x=1 \end{cases}$ 确定，其中 $u>0$，则 $\left.\dfrac{\mathrm{d}z}{\mathrm{d}x}\right|_{x=0}=\underline{\qquad\qquad}.$
 - number: 14
   section: fill
   points: 5
   stem:
     text: |-
-      设 $t>0,F(t)=\int_{-t}^0\mathrm{d}x\int_0^{x+t}xe^{y^2}\,\mathrm{d}y+\int_0^t\mathrm{d}x\int_0^{\sqrt{t^2-x^2}}xe^{y^2}\,\mathrm{d}y$，则 $F'(1)=$\ExamBlank。
+      设 $t>0, F(t)=\int_{-t}^0 \mathrm{d}x \int_0^{x+t} x\mathrm{e}^{y^2} \mathrm{d}y + \int_0^t \mathrm{d}x \int_0^{\sqrt{t^2-x^2}} x\mathrm{e}^{y^2} \mathrm{d}y$，则 $F'(1)=\underline{\qquad}$
 - number: 15
   section: fill
   points: 5
   stem:
     text: |-
-      设函数 $f(x)$ 可导，$f(0)=0$，且 $f(x)=\sin x^2+2x\int_0^1xf(x)\,\mathrm{d}x-x\lim_{x\to0}\dfrac{f(x)}{x}$，则 $\int_0^1xf(x)\,\mathrm{d}x=$\ExamBlank。
+      设函数 $f(x)$ 可导, $f(0)=0$, 且 $f(x)=\sin x^2+2x\int_0^1 xf(x)dx-x\lim_{x\to 0}\dfrac{f(x)}{x}$，则 $\int_0^1 xf(x)dx =\underline{\hspace{2.5cm}}.$
 - number: 16
   section: fill
   points: 5
   stem:
     text: |-
-      设 $3$ 阶矩阵 $A=\begin{pmatrix}a&2&2\\0&1&2\\0&0&-1\end{pmatrix}$ 不能相似对角化，则 $a=$\ExamBlank。
+      设 3 阶矩阵 $A = \begin{pmatrix} a & 2 & 2 \\ 0 & 1 & 2 \\ 0 & 0 & -1 \end{pmatrix}$ 不能相似对角化，则 $a = \underline{\hspace{2cm}}$
 - number: 17
   section: solution
-  points: 10
+  points: 12
   stem:
     text: |-
-      设连续函数 $f(x)$，且 $f(0)=0$，满足方程 $f(x)=f\left(\dfrac{x}{2}\right)+\ln\cos\dfrac{x}{2}$，$-\pi<x<\pi$。
-  subparts:
-  - text: 求 $f(x)$ 的表达式。
-  - text: |-
-      讨论 $f'(x)$ 在 $(-\pi,\pi)$ 内的连续性。
+      设连续奇函数 $f(x)$ 满足方程 $f(x)=f\left(\dfrac{x}{2}\right)+\ln\cos\dfrac{x}{2}$ $,-\pi<x<\pi$. (I) 求 $f(x)$ 的表达式； (II) 讨论 $f'(x)$ 在 $(-\pi,\pi)$ 内的连续性
 - number: 18
   section: solution
   points: 12
   stem:
     text: |-
-      函数 $y(x)$ 是方程 $y''-2y'+y=f(x)$ 满足 $y(0)=1,y'(0)=2$ 的特解，其中 $f(x)=\begin{cases}x+1,&x\leq0,\\e^x,&x>0\text{。}\end{cases}$
-  subparts:
-  - text: 求 $y(x)$ 的表达式。
-  - text: 求曲线 $y(x)$ 的渐近线。
+      函数 $y(x)$ 是方程 $y''-2y'+y=f(x)$ 满足 $y(0)=1,y'(0)=2$ 的特解，其中 $f(x)=\begin{cases} x+1, & x\leqslant 0, \\ \mathrm{e}^x, & x>0. \end{cases}$ (I) 求 $y(x)$ 的表达式; (II) 求曲线 $y(x)$ 的渐近线
 - number: 19
   section: solution
   points: 12
   stem:
-    text: 设函数 $f(x)$ 在 $[0,1]$ 上二阶可导，且 $f(0)=0,f(1)=1$。
-  subparts:
-  - text: |-
-      证明：存在 $\xi\in(0,1)$，使 $f'(\xi)=1$。
-  - text: |-
-      存在 $\eta\in(0,1)$，使 $\eta f''(\eta)+f'(\eta)=1$。
+    text: |-
+      设函数 $f(x)$ 在 $[0,1]$ 上二阶可导，且 $f(0)=0, f(1)=1$. 证明： (I) 存在 $\xi \in (0,1)$，使 $f'(\xi)=1$； (II) 存在 $\eta \in (0,1)$，使 $\eta f''(\eta)+f'(\eta)=1$
 - number: 20
   section: solution
   points: 12
   stem:
     text: |-
-      求 $f(x,y)=x^3-x^2y+\dfrac{5}{6}y^2+\dfrac{1}{3}y^3$ 的极值。
+      求 $f(x,y)=x^3-x^2y+\dfrac{5}{6}y^2+\dfrac{1}{3}y^3$ 的极值
 - number: 21
   section: solution
   points: 12
   stem:
     text: |-
-      设 $f(x,y)=\begin{cases}\sqrt{\dfrac{1-x^2-y^2}{1+x^2+y^2}},&y\leq x,\\x^2y,&y>x,\end{cases}$，$D:x^2+y^2\leq1,x\geq0$，计算积分 $\iint_Df(x,y)\,\mathrm{d}\sigma$。
+      设 $f(x,y)=\begin{cases} \sqrt{\dfrac{1-x^2-y^2}{1+x^2+y^2}}, & y \leqslant x, \\ x^2y, & y>x, \end{cases}$ $D:x^2+y^2 \leqslant 1, x \geqslant 0$，计算积分 $\iint_D f(x,y)d\sigma.$
 - number: 22
   section: solution
   points: 12
   stem:
     text: |-
-      设 $A$ 为 $3$ 阶矩阵，$\alpha_1,\alpha_2,\alpha_3$ 为 $3$ 维列向量。已知 $A\alpha_1=\alpha_2,A^2\alpha_1=\alpha_3,A^3\alpha_1=0,\alpha_3\ne0$。
-  subparts:
-  - text: |-
-      证明：对任意常数 $k$，向量组 $k\alpha_1+\alpha_2,-\alpha_2+\alpha_3,\alpha_1-k\alpha_3$ 线性无关。
-  - text: 求 $A$ 所有特征值与特征向量，问 $A$ 能否相似于一个对角阵？说明理由。
-  - text: |-
-      求线性方程组 $A^TAx=A^T\alpha_3$ 的通解。
-content_hash: 2aaa9113eeca8fbdcc78ad1a963ba1df12911cc399c2a75e7bf7149e9494c058
+      设 $A$ 为 $3$ 阶矩阵, $\alpha_1,\alpha_2,\alpha_3$ 为 $3$ 维列向量. 已知 $A\alpha_1 = \alpha_2, A^2\alpha_1 = \alpha_3, A^3\alpha_1 = 0, \alpha_3 eq 0$. $(I)$ 证明: 对任意常数 $k$, 向量组 $k\alpha_1 + \alpha_2, -\alpha_2 + \alpha_3, \alpha_1 - k\alpha_3$ 线性无关; $(II)$ 求 $A$ 所有特征值与特征向量, 问 $A$ 能否相似于一个对角阵? 说明理由; $(III)$ 求线性方程组 $A^TAx = A^T\alpha_3$ 的通解
+content_hash: 25a165c0308af9e4e73370c2ecc93870d24d36c11542fa3c172ae24883090bc3

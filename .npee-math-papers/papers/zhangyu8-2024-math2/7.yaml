@@ -10,110 +10,103 @@ questions:
   points: 5
   stem:
     text: |-
-      已知 $f(x)=\begin{cases}1,&x\text{ 是整数},\\-1,&x\text{ 不是整数},\end{cases}$ 则 $\lim_{x\to\infty}\int_0^{\dfrac{1}{x}}f(x)e^{-t^2}\,\mathrm{d}t=$\ExamSelection。
+      已知 $f(x)=\begin{cases} 1, & x\text{\text{是整数}}, \\ -1, & x\text{\text{不是整数}}, \end{cases}$ 则 $\lim_{r \to \infty} \int_0^{\dfrac{1}{x}} f(x)\mathrm{e}^{-t^2} \mathrm{d}t =$
   choices:
   - label: A
-    text: $0$
+    text: '0'
     figures: []
   - label: B
-    text: $1$
+    text: '1'
     figures: []
   - label: C
-    text: $e^{-1}$
+    text: |-
+      $\mathrm{e}^{-1}.$
     figures: []
   - label: D
-    text: $e$
+    text: |-
+      $\mathrm{e}.$
     figures: []
 - number: 2
   section: choice
   points: 5
   stem:
     text: |-
-      微分方程 $y'+xy=e^{-\dfrac{x^2}{2}}$ 满足 $y(0)=0$ 的积分曲线的拐点个数为\ExamSelection。
+      微分方程 $y'+xy=\mathrm{e}^{-\dfrac{x^2}{2}}$ 满足 $y(0)=0$ 的积分曲线的拐点个数为
   choices:
   - label: A
-    text: $1$
+    text: '1'
     figures: []
   - label: B
-    text: $2$
+    text: '2'
     figures: []
   - label: C
-    text: $3$
+    text: '3'
     figures: []
   - label: D
-    text: $4$
+    text: '4'
     figures: []
 - number: 3
   section: choice
   points: 5
   stem:
     text: |-
-      设 $f(x,y)=\begin{cases}\sin x\cos y,&x\ne0,\\1-\cos y,&x=0,\end{cases}$ 则\ExamSelection。
+      设 $f(x,y)=\begin{cases} \sin x\cos y, & x eq 0, \\ 1-\cos y, & x=0, \end{cases}$ 则
   choices:
   - label: A
-    text: $f'_x(0,0)=0$
+    text: $f_x'(0,0)=0.$
     figures: []
   - label: B
     text: |-
-      $\lim_{x\to0}\lim_{y\to0}f(x,y)=0$
+      $\lim\limits_{x\to 0}\lim\limits_{y\to 0}f(x,y)=0.$
     figures: []
   - label: C
-    text: $f''_{yx}(0,0)=1$
+    text: $f_{yx}''(0,0)=1.$
     figures: []
   - label: D
-    text: $f'_y(0,0)=1$
+    text: $f_y'(0,0)=1.$
     figures: []
 - number: 4
   section: choice
   points: 5
   stem:
     text: |-
-      设 $f(x)=\dfrac{x^2\arctan x}{x-1}$，则 $f(x)$ 的渐近线条数为\ExamSelection。
+      设 $f(x)=\dfrac{x^2\arctan x}{x-1}$，则 $f(x)$ 的渐近线条数为
   choices:
   - label: A
-    text: $1$
+    text: '1'
     figures: []
   - label: B
-    text: $2$
+    text: '2'
     figures: []
   - label: C
-    text: $3$
+    text: '3'
     figures: []
   - label: D
-    text: $4$
+    text: '4'
     figures: []
 - number: 5
   section: choice
   points: 5
   stem:
-    text: |-
-      设某人在 $x=0$ 时，从静止开始运动，且其速度曲线为 $f_1(x)$，其加速度曲线为 $f_2(x)$，且速度函数在 $[x,x+1]$ 上的平均值函数曲线为 $f_3(x)$，$x$ 表示时间，则以下 $3$ 条曲线对应关系正确的是\ExamSelection。
-    figures:
-    - kind: tikz
-      latex: |-
-        \begin{tikzpicture}[x=0.85cm,y=0.7cm]\foreach \s in {0,5.2,10.4}{\draw[->] (\s-0.3,0)--(\s+3.8,0) node[right] {$x$};\draw[->] (\s, -0.45)--(\s,2.7) node[above] {$y$};\node[below left] at (\s,0) {$O$};}\draw[thick] (0,0.5).. controls (0.8,1.6) and (1.5,1.45)..(2.1,1.05).. controls (2.7,0.72) and (3.1,0.62)..(3.45,0.58);\node[above] at (1.55,1.25) {$y_1(x)$};\draw[thick] (5.2,0).. controls (6.0,1.3) and (6.8,1.65)..(7.55,1.55).. controls (8.0,1.48) and (8.15,1.0)..(8.65,0.78);\node[above] at (7.35,1.5) {$y_2(x)$};\draw[thick] (10.4,2.1).. controls (11.0,1.9) and (11.65,0.75)..(12.15,0).. controls (12.65,-0.75) and (13.25,-0.95)..(13.75,-0.85);\node[above right] at (11.2,1.35) {$y_3(x)$};\end{tikzpicture}
-      path:
-      description: 三个直角坐标系中分别绘有曲线 y_1(x)、y_2(x) 和 y_3(x)
-      exception_reason:
+    text: 设某人在 $x=0$ 时，从静止开始运动，且其速度曲线为 $f_1(x)$，其加速度曲线为 $f_2(x)$，且速度函数在 $[x,x+1]$ 上的平均值函数曲线为 $f_3(x)$ $,x$ 表示时间，则以下 3 条曲线对应关系正确的是
   choices:
   - label: A
-    text: $f_1(x)=y_2(x),f_2(x)=y_1(x),f_3(x)=y_3(x)$
+    text: $f_1(x)=y_2(x),f_2(x)=y_1(x),f_3(x)=y_3(x).$
     figures: []
   - label: B
-    text: $f_1(x)=y_2(x),f_2(x)=y_3(x),f_3(x)=y_1(x)$
+    text: $f_1(x)=y_2(x),f_2(x)=y_3(x),f_3(x)=y_1(x).$
     figures: []
   - label: C
-    text: $f_1(x)=y_3(x),f_2(x)=y_2(x),f_3(x)=y_1(x)$
+    text: $f_1(x)=y_3(x),f_2(x)=y_2(x),f_3(x)=y_1(x).$
     figures: []
   - label: D
-    text: $f_1(x)=y_3(x),f_2(x)=y_1(x),f_3(x)=y_2(x)$
+    text: $f_1(x)=y_3(x),f_2(x)=y_1(x),f_3(x)=y_2(x).$
     figures: []
 - number: 6
   section: choice
   points: 5
   stem:
-    text: |-
-      曲线 $x^2+xy+y^2=1$ 在点 $(1,-1)$ 处的曲率为\ExamSelection。
+    text: 曲线 $x^2+xy+y^2=1$ 在点 $(1,-1)$ 处的曲率为
   choices:
   - label: A
     text: |-
@@ -136,170 +129,155 @@ questions:
   points: 5
   stem:
     text: |-
-      $\int_0^{+\infty}\mathrm{d}y\int_y^{2y}e^{-x^2}\,\mathrm{d}x=$\ExamSelection。
+      $\int_0^{+\infty} \mathrm{d}y \int_y^{2y} \mathrm{e}^{-x^2} \mathrm{d}x =$
   choices:
   - label: A
-    text: $1$
+    text: '1'
     figures: []
   - label: B
     text: |-
-      $\dfrac{1}{2}$
+      $\dfrac{1}{2}.$
     figures: []
   - label: C
     text: |-
-      $\dfrac{1}{3}$
+      $\dfrac{1}{3}.$
     figures: []
   - label: D
     text: |-
-      $\dfrac{1}{4}$
+      $\dfrac{1}{4}.$
     figures: []
 - number: 8
   section: choice
   points: 5
   stem:
     text: |-
-      设方程组 $\begin{cases}x_1+ax_2-2x_3=0,\\x_1+2x_2+x_3=1,\\2x_1+3x_2+(a+2)x_3=3\end{cases}$ 的系数矩阵为 $A$，自由项为 $b$，若 $Ax=b$ 无解，$A^{\mathrm T}Ax=A^{\mathrm T}b$ 有解，则 $a=$\ExamSelection。
+      设方程组 $\begin{cases} x_1+ax_2-2x_3=0, \\ x_1+2x_2+x_3=1, \\ 2x_1+3x_2+(a+2)x_3=3 \end{cases}$ 的系数矩阵为 $A$, 自由项为 $b$, 若 $Ax=b$ 无解, $A^T Ax=A^T b$ 有解, 则 $a=$
   choices:
   - label: A
-    text: $-1$
+    text: $-1.$
     figures: []
   - label: B
-    text: $1$
+    text: $1.$
     figures: []
   - label: C
-    text: $-3$
+    text: $-3.$
     figures: []
   - label: D
-    text: $3$
+    text: $3.$
     figures: []
 - number: 9
   section: choice
   points: 5
   stem:
     text: |-
-      以下矩阵，与 $\begin{pmatrix}0&1&0&0\\0&0&0&0\\0&0&1&1\\0&0&0&1\end{pmatrix}$ 相似的是\ExamSelection。
+      以下矩阵，与 $\begin{bmatrix} 0 & 1 & 0 & 0 \\ 0 & 0 & 0 & 0 \\ 0 & 0 & 1 & 1 \\ 0 & 0 & 0 & 1 \end{bmatrix}$ 相似的是
   choices:
   - label: A
     text: |-
-      $\begin{pmatrix}0&0&1&0\\0&1&0&0\\0&0&0&0\\0&0&0&1\end{pmatrix}$
+      $\begin{pmatrix} 0 & 0 & 1 & 0 \\ 0 & 1 & 0 & 0 \\ 0 & 0 & 0 & 0 \\ 0 & 0 & 0 & 1 \end{pmatrix}$
     figures: []
   - label: B
     text: |-
-      $\begin{pmatrix}0&1&0&0\\0&1&0&1\\0&0&0&0\\0&0&0&0\end{pmatrix}$
+      $\begin{pmatrix} 0 & 1 & 0 & 0 \\ 0 & 1 & 0 & 1 \\ 0 & 0 & 0 & 0 \\ 0 & 0 & 0 & 0 \end{pmatrix}$
     figures: []
   - label: C
     text: |-
-      $\begin{pmatrix}1&0&0&0\\0&0&1&0\\0&0&0&0\\0&0&0&1\end{pmatrix}$
+      $\begin{pmatrix} 1 & 0 & 0 & 0 \\ 0 & 0 & 1 & 0 \\ 0 & 0 & 0 & 0 \\ 0 & 0 & 0 & 1 \end{pmatrix}$
     figures: []
   - label: D
     text: |-
-      $\begin{pmatrix}0&1&0&0\\0&0&0&0\\1&0&1&1\\1&-1&0&1\end{pmatrix}$
+      $\begin{pmatrix} 0 & 1 & 0 & 0 \\ 0 & 0 & 0 & 0 \\ 1 & 0 & 1 & 1 \\ 1 & -1 & 0 & 1 \end{pmatrix}$
     figures: []
 - number: 10
   section: choice
   points: 5
   stem:
     text: |-
-      已知 $f(x_1,x_2,x_3)=x^{\mathrm T}Ax$ 经正交变换 $x=Qy$ 化为 $g(y_1,y_2,y_3)=y_1^2+2y_2^2+ay_3^2$（$a\ne0$），且 $Q^{-1}A^*Q=\begin{pmatrix}1&0&0\\0&\dfrac{1}{2}&0\\0&0&\dfrac{1}{a}\end{pmatrix}$，其中 $A^*$ 是 $A$ 的伴随矩阵，则对任意 $x\ne0$，有\ExamSelection。
+      已知 $f(x_1,x_2,x_3)=x^T A x$ 经正交变换 $x=Q y$ 化为 $g(y_1,y_2,y_3)=y_1^2+2 y_2^2+a y_3^2(a \neq 0)$，且 $Q^{-1} A^* Q=\begin{pmatrix} 1 & & \\ & \dfrac{1}{2} & \\ & & \dfrac{1}{a} \end{pmatrix}$，其中 $A^*$ 是 $A$ 的伴随矩阵，则对任意 $x \neq 0$，有
   choices:
   - label: A
-    text: $f(x_1,x_2,x_3)>0$
+    text: $f(x_1,x_2,x_3)>0.$
     figures: []
   - label: B
     text: |-
-      $f(x_1,x_2,x_3)\geq0$
+      $f(x_1,x_2,x_3)\geqslant 0.$
     figures: []
   - label: C
-    text: $f(x_1,x_2,x_3)<0$
+    text: $f(x_1,x_2,x_3)<0.$
     figures: []
   - label: D
     text: |-
-      $f(x_1,x_2,x_3)\leq0$
+      $f(x_1,x_2,x_3)\leqslant 0.$
     figures: []
 - number: 11
   section: fill
   points: 5
   stem:
     text: |-
-      设 $g(x)=x^2$，$g[f(x)]=-x^2+2x+3$，且 $f(x)>0$，则 $\int_0^1\dfrac{1}{f(x)}\,\mathrm{d}x=$\ExamBlank。
+      设 $g(x)=x^2, g[f(x)]=-x^2+2x+3$，且 $f(x)>0$，则 $\int_0^1 \dfrac{1}{f(x)} \mathrm{d}x=\underline{\qquad\qquad}.$
 - number: 12
   section: fill
   points: 5
   stem:
     text: |-
-      $\lim_{x\to+\infty}\left[\sqrt{\dfrac{(1+x)^3}{x}}-x\right]=$\ExamBlank。
+      $\lim_{x\to +\infty}\left[ \sqrt{\dfrac{(1+x)^3}{x}}-x \right]=\underline{\qquad\qquad}.$
 - number: 13
   section: fill
   points: 5
   stem:
     text: |-
-      已知连续函数 $f(x)$ 满足 $\left[\int_0^x f(t)\,\mathrm{d}t\right]+\left[\int_0^x t f(x-t)\,\mathrm{d}t\right]=\dfrac{1}{2}(x-e^{-x}\sin x)$，则 $f(x)=$\ExamBlank。
+      已知连续函数 $f(x)$ 满足 $\int_0^x f(t) \mathrm{d}t + \int_0^x tf(x-t) \mathrm{d}t = \dfrac{1}{2}(x - \mathrm{e}^{-x}\sin x)$，则 $f(x) = \underline{\hspace{2.5cm}}$
 - number: 14
   section: fill
   points: 5
   stem:
     text: |-
-      已知 $x^2\cdot2^x$ 为 $f(x)$ 的一个原函数，则 $\int_0^1xf'(x)\,\mathrm{d}x=$\ExamBlank。
+      已知 $x^2 \cdot 2^x$ 为 $f(x)$ 的一个原函数, 则 $\int_0^1 x f'(x) \mathrm{d}x =\underline{\hspace{6em}}$
 - number: 15
   section: fill
   points: 5
   stem:
     text: |-
-      $y=e^x+\dfrac{e^{-x}}{2}$ 的极小值为\ExamBlank。
+      $y=\mathrm{e}^x+\dfrac{\mathrm{e}^{-x}}{2}$ 的极小值为$\underline{\qquad\qquad}$
 - number: 16
   section: fill
   points: 5
   stem:
     text: |-
-      方程组 $\begin{cases}ax+y+z=1,\\x+ay+z=1,\\x+y+az=-2\end{cases}$ 有无穷多解，则 $a=$\ExamBlank。
+      方程组 $\begin{cases} x+ay+z=1, \\ ax+y+z=1, \\ x+y+az=1 \end{cases}$ 有无穷多解, 则 $a=\underline{\qquad\qquad}.$
 - number: 17
   section: solution
-  points: 10
+  points: 12
   stem:
     text: |-
-      计算 $\lim_{n\to\infty}\sum_{i=1}^n\dfrac{1}{\sqrt{\lvert2i(n-2i)\rvert}}$。
+      计算 $\lim_{n\to\infty} \sum_{i=1}^n \dfrac{1}{\sqrt{|2i(n-2i)|}}$
 - number: 18
   section: solution
   points: 12
   stem:
-    text: 求函数 $f(x,y)=x^3+y^2+6xy$ 的极值。
+    text: 求函数 $f(x,y)=x^3+y^2+6xy$ 的极值
 - number: 19
   section: solution
   points: 12
   stem:
     text: |-
-      设函数 $\int_0^x f(t)\,\mathrm{d}t$ 在 $[0,1]$ 上二阶导数连续，$\int_0^1 f(x)\,\mathrm{d}x=1$，$\int_0^{\dfrac{1}{2}}f(x)\,\mathrm{d}x>\dfrac{1}{4}$，证明：
-  subparts:
-  - text: |-
-      存在 $\xi\in(0,1)$，使得 $f'(\xi)<2$；
-  - text: |-
-      若当 $0<x<1$ 时，$f'(x)\ne2$，则 $\int_0^x f(t)\,\mathrm{d}t>x^2$。
+      设函数 $\int_0^x f(t)\mathrm{d}t$ 在 $[0,1]$ 上二阶导数连续, $\int_0^1 f(x)\mathrm{d}x = 1, \int_0^{\dfrac{1}{2}} f(x)\mathrm{d}x > \dfrac{1}{4}$, 证明: (1) 存在 $\xi \in (0,1)$, 使得 $f'(\xi) x^2$
 - number: 20
   section: solution
   points: 12
   stem:
     text: |-
-      设 $a_n=\int_0^1(1-x^2)^{\dfrac{n}{2}}\,\mathrm{d}x$，$n=1,2,\cdots$。
-  subparts:
-  - text: 证明 $a_{n+1}<a_n<a_{n-1}$；
-  - text: |-
-      计算 $\lim_{n\to\infty}na_n^2$。
+      设 $a_n=\int_0^1(1-x^2)^{\dfrac{n}{2}}\mathrm{d}x, n=1,2,\cdots$. (1) 证明 $a_{n+1}<a_n<a_{n-1}$; (2) 计算 $\lim\limits_{n\to\infty}na_n^2$
 - number: 21
   section: solution
   points: 12
   stem:
     text: |-
-      边长为 $2$ 的等边三角形薄平板铅直沉没在水中，且一条边与水面相齐。记重力加速度为 $g$，水的密度为 $\rho$。
-  subparts:
-  - text: 求该平板一侧所受压力；
-  - text: 当水面开始以 $0.1$ 的速度上涨时，求平板一侧所受水压力的变化率。
+      边长为 2 的等边三角形薄平板铅直沉没在水中, 且一条边与水面相齐. 记重力加速度为 $g$, 水的密度为 $\rho$. (1) 求该平板一侧所受压力; (2) 当水面开始以 0.1 的速度上涨时, 求平板一侧所受水压力的变化率
 - number: 22
   section: solution
   points: 12
   stem:
     text: |-
-      已知 $A$ 为 $3$ 阶矩阵，$E$ 为 $3$ 阶单位矩阵，且 $(aE+A)^2=\begin{pmatrix}1&0&1\\0&2&0\\1&0&1\end{pmatrix}$，$\operatorname{tr}(A)=2\sqrt{2}-3a$，$a$ 为常数。
-  subparts:
-  - text: 求矩阵 $A$；
-  - text: 若 $A$ 正定，求 $a$ 的取值范围。
-content_hash: f1f2abe80a54bc89781955c7f6a60c454187408091b6dec3fffffb2d4f1714db
+      已知 $A$ 为 3 阶矩阵$,E$ 为 3 阶单位矩阵，且 $(\omega E+A)^2=\begin{pmatrix} 1 & 0 & 1 \\ 0 & 2 & 0 \\ 1 & 0 & 1 \end{pmatrix}$ $,\text{tr}(A)=2\sqrt{2}-2$ $,\omega$ 为常数。 (1) 求矩阵 $A$； (2) 若 $A$ 正定，求 $a$ 的取值范围。
+content_hash: d121a89813a4bfb2cc3d38da8bb193505d18ca9f3164814849bb2841662ca637

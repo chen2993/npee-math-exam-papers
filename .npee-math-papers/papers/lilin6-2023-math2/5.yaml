@@ -1,0 +1,277 @@
+schema_version: '3.0'
+paper:
+  series_key: lilin6
+  year: 2023
+  subject: math2
+  paper_no: 5
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      曲线 $y=\dfrac{1+x}{1-\mathrm{e}^{-x}}$ 的渐近线的条数为（ ）
+  choices:
+  - label: A
+    text: '1'
+    figures: []
+  - label: B
+    text: '2'
+    figures: []
+  - label: C
+    text: '3'
+    figures: []
+  - label: D
+    text: '4'
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(t)=\int_{0}^{1} \ln \sqrt{x^2+t^2} \,\mathrm{d}x$，则 $f(t)$ 在 $t=0$ 处（\quad ）
+  choices:
+  - label: A
+    text: 极限不存在
+    figures: []
+  - label: B
+    text: 极限存在,但不连续
+    figures: []
+  - label: C
+    text: 连续但不可导
+    figures: []
+  - label: D
+    text: 可导
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $I_1 = \int_0^{\dfrac{\pi}{2}} \cos(\sin t) \mathrm{d}t$, $I_2 = \int_0^{\dfrac{\pi}{2}} \sin(\cos t) \mathrm{d}t$, $I_3 = \int_0^{\dfrac{\pi}{2}} \sin(\sin t) \mathrm{d}t$, 则（ ）
+  choices:
+  - label: A
+    text: $I_1 > I_2 = I_3$
+    figures: []
+  - label: B
+    text: $I_1 = I_2 > I_3$
+    figures: []
+  - label: C
+    text: $I_1 < I_2 = I_3$
+    figures: []
+  - label: D
+    text: $I_2 > I_1 = I_3$
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      当 $x \to 0$ 时，微分方程 $(3x^2+2)y''=6xy'$ 的解 $y(x)$ 与 $\mathrm{e}^x-1$ 是等价无穷小，则 $y(x)=(\quad)$
+  choices:
+  - label: A
+    text: |-
+      $-\dfrac{1}{2}x^3+x$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{1}{2}x^3+x$
+    figures: []
+  - label: C
+    text: $x^3+2x$
+    figures: []
+  - label: D
+    text: $x^3+x$
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设方程 $\mathrm{e}^{yz}+x^2+y^2+z=3$，则该方程在点 $(1,-1,0)$ 的邻域内 ( )
+  choices:
+  - label: A
+    text: 可确定隐函数 $y=y(x,z)$ 和 $z=z(x,y)$
+    figures: []
+  - label: B
+    text: 可确定隐函数 $x=x(y,z)$ 和 $z=z(x,y)$
+    figures: []
+  - label: C
+    text: 可确定隐函数 $x=x(y,z)$ 和 $y=y(x,z)$
+    figures: []
+  - label: D
+    text: 只能确定隐函数 $z=z(x,y)$
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      若 $I=\int_{0}^{+\infty}\left(\dfrac{1}{\sqrt{x^2+4}}-\dfrac{a}{x+2}\right)\mathrm{d}x$ 收敛，则（\quad）
+  choices:
+  - label: A
+    text: |-
+      当 $a=1$ 时$,I=\ln 4$
+    figures: []
+  - label: B
+    text: |-
+      当 $a>1$ 时$,I=\ln 2$
+    figures: []
+  - label: C
+    text: |-
+      当 $a=1$ 时$,I=\ln 2$
+    figures: []
+  - label: D
+    text: |-
+      当 $a<1$ 时$,I=\ln 4$
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x,y)=x+(y-1)\arcsin\sqrt{\dfrac{|x|}{y}}$，则在点 $(0,1)$ 处（ ）
+  choices:
+  - label: A
+    text: $f'_x(0,1)=f'_y(0,1)=1$
+    figures: []
+  - label: B
+    text: |-
+      $\left. \mathrm{d}f \right|_{(0,1)}=\mathrm{d}y$
+    figures: []
+  - label: C
+    text: |-
+      $\left. \mathrm{d}f \right|_{(0,1)}=\mathrm{d}x$
+    figures: []
+  - label: D
+    text: |-
+      $\left. \mathrm{d}f \right|_{(0,1)}$ 不存在
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: 设 $A$ 是奇数阶可逆矩阵，且满足 $A^{-1}=A^T$，则下列等式不成立的是（ ）
+  choices:
+  - label: A
+    text: $A^*(A^*)^T=|A^*|E.$
+    figures: []
+  - label: B
+    text: $(A^*)^T A^*=-E.$
+    figures: []
+  - label: C
+    text: $A^*(A^*)^T=E.$
+    figures: []
+  - label: D
+    text: $(A^*)^T A^*=|A|^2 E.$
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 是 $3 \times 4$ 实矩阵$,\lambda$ 是 $A A^T$ 仅有的非零特征值，对应的特征向量为 $\alpha = (-1, 1, 1)^T$ $,k_1, k_2$ 为任意常数，则方程组 $A A^T x = 0$ 的通解可为（ ）
+  choices:
+  - label: A
+    text: $k_1(1, 1, 0)^T + k_2(1, -1, 0)^T$
+    figures: []
+  - label: B
+    text: $k_1(-1, 1, 0)^T + k_2(0, 1, 1)^T$
+    figures: []
+  - label: C
+    text: $k_1(-1, 1, 0)^T + k_2(1, 0, 1)^T$
+    figures: []
+  - label: D
+    text: $k_1(1, 1, 0)^T + k_2(1, 0, 1)^T$
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $3$ 阶矩阵 $A$ 有三重特征值 $1$ $,f(x) = |xE-A| - |A^{-1}|$，则至少存在一点 $x_0 \in (0,1)$，使得 $y = f(x)$ 在 $(x_0, f(x_0))$ 处的切线 ( )
+  choices:
+  - label: A
+    text: 平行于直线 $y = 1$
+    figures: []
+  - label: B
+    text: 垂直于直线 $y = 1$
+    figures: []
+  - label: C
+    text: 平行于直线 $y = x$
+    figures: []
+  - label: D
+    text: 垂直于直线 $y = x$
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)$ 连续, $f(0) = 1, F(t) = \iint_{x^2+y^2\leqslant t^2} f(x^2+y^2) \mathrm{d}x\mathrm{d}y (t \geqslant 0)$, 则 $F''(0) = \underline{\qquad}$
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $f''(1)$ 存在$,f'(1) \neq 0$，则 $\lim\limits_{x \to 1} \left[ \dfrac{1}{f'(1)(x - 1)} - \dfrac{1}{f(x) - f(1)} \right] = \underline{\hspace{2cm}}$。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      一个容器的内侧是由 $x^2+y^2=1\left(y \leqslant \dfrac{1}{2}\right)$ 绕 $y$ 轴旋转一周而成的曲面，容器内盛满水，长度单位为 $\mathrm{m}$，重力加速度为 $g\left(\mathrm{m/s^2}\right)$，水的密度为 $\rho\left(\mathrm{kg/m^3}\right)$，若将容器内的水从顶端全部抽出，至少需做功\underline{\qquad\qquad}。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设平面区域 $D=\left\{(x, y) \,\middle|\, \dfrac{1-x}{1+x} \leqslant y \leqslant \sqrt{1-x^{2}}, 0 \leqslant x \leqslant 1\right\}$，则 $D$ 绕 $y$ 轴旋转一周所得旋转体的体积 $V = \underline{\qquad\qquad}$
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      极坐标曲线 $\theta = \dfrac{1}{2}\left(r + \dfrac{1}{r}\right)$ 在对应于 $1 \leqslant r \leqslant 3$ 之间的一段弧长为 $\underline{\qquad\qquad}$
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $n$ 阶行列式 $|A| = \begin{vmatrix} 0 & 1 & 0 & \cdots & 0 \\ 0 & 0 & 2 & \cdots & 0 \\ \vdots & \vdots & \vdots & & \vdots \\ 0 & 0 & 0 & \cdots & n-1 \\ n & 0 & 0 & \cdots & 0 \end{vmatrix}$，则 $A$ 的第 $k$ 行元素的代数余子式之和 $A_{k1} + A_{k2} + \cdots + A_{kn} = \underline{\hspace{2.5em}}$
+- number: 17
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $\lim\limits_{x \to +\infty} \left[ x^a \ln\left(1 + \dfrac{b}{x}\right) - x \right] = c$，其中 $a > 0, b \ne 0, c \ne 0$，求 $a, b, c$ 的值
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $f(x)$ 可导，且满足 $f(x)=x f(-x)+\int_{0}^{-x} f(t) \mathrm{d}t+\dfrac{1}{2} x^{2}$. (I) 求 $f(x)$; (II) 求 $f(x)$ 的单调区间与极值
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $y=y(x)$ 由参数方程 $\begin{cases} x=t^2, \\ y=y(t)\,(t>0) \end{cases}$ 确定，其中 $y(x)$ 有二阶导数，且 $4x\dfrac{\mathrm{d}^2y}{\mathrm{d}x^2} + 2(1-\sqrt{x})\dfrac{\mathrm{d}y}{\mathrm{d}x} - 6y = \mathrm{e}^{-\sqrt{x}}$。若 $\lim\limits_{x\to 0^+} y(x) = 0$ $,\lim\limits_{x\to +\infty} y(x) = 0$，求 $y=y(x)$。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $x_1 \in (0,1)$，数列 $\{x_n\}$ 满足 $\mathrm{e}^{x_n}(x_n - x_{n+1}) = \mathrm{e}^{x_n} - 1\,(n=1,2,\cdots)$。证明: $\lim\limits_{n\to +\infty} x_n$ 存在，并求其值。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $D=\{(x,y) \mid 0 \leqslant x \leqslant 1, 0 \leqslant y \leqslant x\}$，计算 $I=\iint_{D} \arcsin(2\sqrt{x-x^2}) \mathrm{d}x\mathrm{d}y$。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: 设二次型 $f = x^T A x = ax_1^2 + ax_2^2 + (a-1)x_3^2 + 2x_1x_3 - 2x_2x_3$，秩 $r(f)$ 与 $f$ 的正惯性指数均为 $2$ $,A^T = A$ $,A^*$ 为 $A$ 的伴随矩阵. (I) 求 $a$ 的值; (II) 求正交变换 $x = Qy$ 将 $g(x_1, x_2, x_3) = x^T (A + A^*) x$ 化为标准形
+content_hash: f1545941f3ed9871d6b2190ceb65c8ff7eb6ac07d6ff3b813c9900e08206b15e

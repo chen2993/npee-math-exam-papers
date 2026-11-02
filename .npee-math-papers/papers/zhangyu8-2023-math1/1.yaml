@@ -4,296 +4,289 @@ paper:
   year: 2023
   subject: math1
   paper_no: 1
-content_hash: 2602765238d5663b2123b913db768f6e48beb4a9de25a43410ab89d9c3037c61
 questions:
 - number: 1
   section: choice
   points: 5
   stem:
     text: |-
-      当 $x\to 0$ 时，$x-\ln(x+\sqrt{1+x^2})\sim cx^k$，则 $c,k$ 分别是\ExamSelection
+      当 \(x \to 0\) 时， \(x - \ln(x + \sqrt{1 + x^{2}}) \sim cx^{k}\)，则 c, k 分别是
   choices:
   - label: A
     text: |-
-      $\dfrac{1}{6},3$
+      \(\dfrac{1}{6},3.\)
     figures: []
   - label: B
     text: |-
-      $\dfrac{1}{6},2$
+      \(\dfrac{1}{6},2.\)
     figures: []
   - label: C
     text: |-
-      $\dfrac{1}{3},2$
+      \(\dfrac{1}{3},2.\)
     figures: []
   - label: D
     text: |-
-      $\dfrac{1}{3},3$
+      \(\dfrac{1}{3},3.\)
     figures: []
 - number: 2
   section: choice
   points: 5
   stem:
     text: |-
-      曲线 $f(x)=\int_x^{\sqrt{3}}x\sin t^2\,\mathrm{d}t$ 与直线 $x=0,x=\sqrt{3},y=0$ 所围平面图形绕 $y$ 轴旋转一周所形成的旋转体的体积为\ExamSelection
+      曲线 \(f(x)=\int_{x}^{\sqrt{3}}x\sin t^{2}\mathrm{d}t\) 与直线 \(x=0, x=\sqrt{3}, y=0\) 所围平面图形绕 \(y\) 轴旋转一周所形成的旋转体的体积为
   choices:
   - label: A
     text: |-
-      $\dfrac{1}{3}\pi\sin 3-\pi\cos 3$
+      \dfrac{1}{3}\pi\sin 3-\pi\cos 3
     figures: []
   - label: B
     text: |-
-      $-\dfrac{1}{3}\pi\sin 3-\pi\cos 3$
+      -\dfrac{1}{3}\pi\sin 3-\pi\cos 3
     figures: []
   - label: C
     text: |-
-      $\dfrac{2}{3}\pi\sin 3-2\pi\cos 3$
+      \dfrac{2}{3}\pi\sin 3-2\pi\cos 3
     figures: []
   - label: D
     text: |-
-      $-\pi\cos 3-\pi\sin 3$
+      -\pi\cos 3-\pi\sin 3
     figures: []
 - number: 3
   section: choice
   points: 5
   stem:
     text: |-
-      $\displaystyle\lim_{n\to\infty}\dfrac{\pi}{2n^4}\sum_{i=1}^n\sum_{j=1}^n i^2\sin\dfrac{\pi j}{2n}=$\ExamSelection
+      \( \lim_{n\to\infty}\dfrac{\pi}{2n^{4}}\sum_{i=1}^{n}\sum_{j=1}^{n}i^{2}\sin\dfrac{\pi j}{2n}=\)
   choices:
   - label: A
     text: |-
-      $\dfrac{1}{2}$
+      \(\dfrac{1}{2}\)
     figures: []
   - label: B
     text: |-
-      $\dfrac{1}{3}$
+      \(\dfrac{1}{3}\)
     figures: []
   - label: C
     text: |-
-      $\dfrac{1}{4}$
+      \(\dfrac{1}{4}\)
     figures: []
   - label: D
     text: |-
-      $\dfrac{1}{5}$
+      \(\dfrac{1}{5}\)
     figures: []
 - number: 4
   section: choice
   points: 5
   stem:
-    text: |-
-      下列级数中收敛的是\ExamSelection
+    text: 下列级数中收敛的是（ ）
   choices:
   - label: A
     text: |-
-      $\displaystyle\sum_{n=1}^{\infty}\left[n\ln\left(1+\dfrac{1}{n}\right)\right]^n$
+      \(\sum\limits_{n=1}^{\infty}\left[n\ln\left(1+\dfrac{1}{n}\right)\right]^n\)
     figures: []
   - label: B
     text: |-
-      $\displaystyle\sum_{n=1}^{\infty}(\sqrt[3]{n+1}-\sqrt[3]{n})$
+      \(\sum\limits_{n=1}^{\infty}\left(\sqrt[3]{n+1}-\sqrt[3]{n}\right)\)
     figures: []
   - label: C
     text: |-
-      $\displaystyle\sum_{n=1}^{\infty}\dfrac{(-1)^n}{\sqrt{n+1}+(-1)^n}$
+      \(\sum\limits_{n=1}^{\infty}\dfrac{(-1)^{n}}{\sqrt{n+1}+(-1)^{n}}\)
     figures: []
   - label: D
     text: |-
-      $\displaystyle\sum_{n=2}^{\infty}\dfrac{1}{(\ln n)^{\ln n}}$
+      \(\sum\limits_{n=2}^{\infty}\dfrac{1}{(\ln n)^{\ln n}}\)
     figures: []
 - number: 5
   section: choice
   points: 5
   stem:
     text: |-
-      设矩阵 $A=\begin{pmatrix}1&-3&1&-2\\2&-5&-2&-2\\0&-4&5&1\\-3&9&-6&7\end{pmatrix}$，$M_{3j}$ 是 $A$ 的第 3 行第 $j$ 列元素的余子式 $(j=1,2,3,4)$。则 $M_{31}+3M_{32}-2M_{33}+2M_{34}=$\ExamSelection
+      设矩阵 \(A = \begin{pmatrix} 1 & -3 & 1 & -2 \\ 2 & -5 & -2 & -2 \\ 0 & -4 & 5 & 1 \\ -3 & 9 & -6 & 7 \end{pmatrix}\)，\(M_{3j}\) 是 \(A\) 的第 3 行第 \(j\) 列元素的余子式 \((j = 1, 2, 3, 4)\)。则 \(M_{31} + 3M_{32} - 2M_{33} + 2M_{34} =\)
   choices:
   - label: A
-    text: $0$
+    text: '0'
     figures: []
   - label: B
-    text: $1$
+    text: '1'
     figures: []
   - label: C
-    text: $-2$
+    text: '-2'
     figures: []
   - label: D
-    text: $-3$
+    text: '-3'
     figures: []
 - number: 6
   section: choice
   points: 5
   stem:
     text: |-
-      设 $A$ 是 3 阶矩阵，将 $A$ 的第 2 列加到第 3 列得矩阵 $B$，再将 $B$ 的第 3 行的 $-1$ 倍加到第 2 行得 $\begin{pmatrix}1&1&0\\0&2&0\\0&2&a\end{pmatrix}$，其中 $a$ 为常数，则 $A$ 的 3 个特征值为\ExamSelection
+      设 $A$ 是 3 阶矩阵，将 $A$ 的第 2 列加到第 3 列得矩阵 $B$，再将 $B$ 的第 3 行的 $-1$ 倍加到第 2 行得 $\begin{pmatrix} 1 & 1 & 0 \\ 0 & 2 & 0 \\ 0 & 2 & a \end{pmatrix}$，其中 $a$ 为常数，则 $A$ 的 3 个特征值为（ ）
   choices:
   - label: A
-    text: $1,-1,2$
+    text: $1, -1, 2$
     figures: []
   - label: B
-    text: $1,2,-2$
+    text: $1, 2, -2$
     figures: []
   - label: C
-    text: $1,2,a$
+    text: $1, 2, a$
     figures: []
   - label: D
-    text: $1,a,-a$
+    text: $1, a, -a$
     figures: []
 - number: 7
   section: choice
   points: 5
   stem:
     text: |-
-      若方程 $a(x^2+y^2+z^2)+4(xy+yz+zx)=1$ 的图形是双叶双曲面，则常数 $a$ 的取值范围为\ExamSelection
+      若方程 \(a(x^{2}+y^{2}+z^{2})+4(xy+yz+zx)=1\) 的图形是双叶双曲面，则常数 \(a\) 的取值范围为
   choices:
   - label: A
-    text: $a<-4$
+    text: |-
+      \(a < -4\)
     figures: []
   - label: B
-    text: $-4<a<2$
+    text: |-
+      \(-4 < a < 2\)
     figures: []
   - label: C
-    text: $-2<a<4$
+    text: |-
+      \(-2 < a < 4\)
     figures: []
   - label: D
-    text: $a<2$
+    text: |-
+      \(a < 2\)
     figures: []
 - number: 8
   section: choice
   points: 5
   stem:
     text: |-
-      设连续型随机变量 $X_1,X_2$ 的概率密度分别为 $f_1(x),f_2(x)$，其分布函数分别为 $F_1(x),F_2(x)$，记 $g_1(x)=f_1(x)F_2(x)+f_2(x)F_1(x)$，$g_2(x)=f_1(x)F_1(x)+f_2(x)F_2(x)$，$g_3(x)=\dfrac{1}{2}[f_1(x)+f_2(x)]$，$g_4(x)=\sqrt{f_1(x)f_2(x)}$，则 $g_1(x),g_2(x),g_3(x),g_4(x)$ 这 4 个函数中一定能作为概率密度的共有\ExamSelection
+      设连续型随机变量 \(X_{1}, X_{2}\) 的概率密度分别为 \(f_{1}(x), f_{2}(x)\)，其分布函数分别为 \(F_{1}(x), F_{2}(x)\)，记 \(g_{1}(x) = f_{1}(x)F_{2}(x) + f_{2}(x)F_{1}(x), g_{2}(x) = f_{1}(x)F_{1}(x) + f_{2}(x)F_{2}(x), g_{3}(x) = \dfrac{1}{2} \left[f_{1}(x) + f_{2}(x)\right], g_{4}(x) = \sqrt{f_{1}(x)f_{2}(x)}\)，则 \(g_{1}(x), g_{2}(x), g_{3}(x), g_{4}(x)\) 这4个函数中一定能作为概率密度的共有
   choices:
   - label: A
-    text: 1 个
+    text: 1个
     figures: []
   - label: B
-    text: 2 个
+    text: 2个
     figures: []
   - label: C
-    text: 3 个
+    text: 3个
     figures: []
   - label: D
-    text: 4 个
+    text: 4个
     figures: []
 - number: 9
   section: choice
   points: 5
   stem:
     text: |-
-      设随机变量 $X,Y$ 相互独立，且 $X\sim E(a),Y\sim E(b)$ $(a>0,b>0,a\ne b)$，则服从 $E(a+b)$ 的随机变量是\ExamSelection
+      设随机变量 X, Y 相互独立，且 \(X \sim E(a)\), \(Y \sim E(b)\) ( \(a > 0, b > 0\), \(a \neq b\))，则服从 \(E(a + b)\) 的随机变量是
   choices:
   - label: A
-    text: $X+Y$
+    text: |-
+      \(X + Y.\)
     figures: []
   - label: B
-    text: $XY$
+    text: XY
     figures: []
   - label: C
     text: |-
-      $\max\{X,Y\}$
+      \(\max\{X, Y\}\)
     figures: []
   - label: D
     text: |-
-      $\min\{X,Y\}$
+      \(\min\{X, Y\}\)
     figures: []
 - number: 10
   section: choice
   points: 5
   stem:
     text: |-
-      设 $X_1,X_2,\cdots,X_{10}$ 为来自总体 $X$ 的简单随机样本，$E(X)$ 与 $D(X)$ 都存在，且 $\overline{X}=\dfrac{1}{10}\sum_{i=1}^{10}X_i$，若 $E(X_1\overline{X})=35$，$D(X_1-\overline{X})=90$，则 $E(X^2)=$\ExamSelection
+      设 \(X_{1}, X_{2}, \cdots, X_{10}\) 为来自总体 \(X\) 的简单随机样本，\(E(X)\) 与 \(D(X)\) 都存在，且 \(\overline{X} = \dfrac{1}{10} \sum\limits_{i=1}^{10} X_{i}\)，若 \(E(X_{1} \overline{X}) = 35\)，\(D(X_{1} - \overline{X}) = 90\)，则 \(E(X^{2}) =\)
   choices:
   - label: A
-    text: $100$
+    text: '100'
     figures: []
   - label: B
-    text: $125$
+    text: '125'
     figures: []
   - label: C
-    text: $150$
+    text: '150'
     figures: []
   - label: D
-    text: $175$
+    text: '175'
     figures: []
 - number: 11
   section: fill
   points: 5
   stem:
     text: |-
-      设 $f(x)=\sqrt[3]{x\sin^2x}$ $(-\pi<x<\pi)$，则 $f'(x)=\ExamBlank$
+      设 \(f(x)=\sqrt[3]{x\sin^{2}x}(-\pi<x<\pi)\)，则 \(f'(x)=\) ___
 - number: 12
   section: fill
   points: 5
   stem:
     text: |-
-      设 $f(x)=\displaystyle\int_{-x}^x\dfrac{\sin(xt)}{t}\,\mathrm{d}t$，$x\ne0$，则 $\displaystyle\int x^2f'(x)\,\mathrm{d}x=\ExamBlank$
+      设 \(f(x)=\int_{-x}^{x}\dfrac{\sin(xt)}{t}\mathrm{d}t,\ x\neq0\)，则 \(\int x^{2}f'(x)\mathrm{d}x=\underline{\quad\quad}\)
 - number: 13
   section: fill
   points: 5
   stem:
     text: |-
-      $\displaystyle\lim_{n\to\infty}\left(\dfrac{1}{2}+\dfrac{3}{2^2}+\dfrac{5}{2^3}+\cdots+\dfrac{2n-1}{2^n}\right)=\ExamBlank$
+      \(\lim\limits_{n\to\infty}\left(\dfrac{1}{2}+\dfrac{3}{2^{2}}+\dfrac{5}{2^{3}}+\cdots+\dfrac{2n-1}{2^{n}}\right)=\underline{\quad\quad}.\)
 - number: 14
   section: fill
   points: 5
   stem:
     text: |-
-      设 $\Sigma$ 为由曲线 $\begin{cases}3x^2+2y^2=33,\\z=0\end{cases}$ 绕 $y$ 轴旋转一周所形成的旋转曲面，$\Pi$ 为曲面 $\Sigma$ 在点 $M(1,3,2)$ 处的切平面，则坐标原点到平面 $\Pi$ 的距离为\ExamBlank
+      设 $\Sigma$ 为由曲线 $\begin{cases} 3x^2 + 2y^2 = 33, \\ z = 0 \end{cases}$ 绕 $y$ 轴旋转一周所形成的旋转曲面$,\Pi$ 为曲面 $\Sigma$ 在点 $M(1, 3, 2)$ 处的切平面，则坐标原点到平面 $\Pi$ 的距离为 \underline{\qquad\qquad}。
 - number: 15
   section: fill
   points: 5
   stem:
     text: |-
-      设 $A=\begin{pmatrix}1&-1&-1&-1\\-1&1&-1&-1\\-1&-1&1&-1\\-1&-1&-1&1\end{pmatrix}$，$f(x)=1+x+x^2+\cdots+x^{2n+1}$，则 $f(A)=\ExamBlank$
+      设 $A=\begin{pmatrix} 1 & -1 & -1 & -1 \\ -1 & 1 & -1 & -1 \\ -1 & -1 & 1 & -1 \\ -1 & -1 & -1 & 1 \end{pmatrix}$ $,f(x)=1+x+x^2+\cdots+x^{2n+1}$，则 $f(A)=\underline{\qquad\qquad}$。
 - number: 16
   section: fill
   points: 5
   stem:
     text: |-
-      设随机变量 $X$ 服从正态分布 $N(0,4)$，随机变量 $Y$ 服从参数 $\lambda=\dfrac{1}{2}$ 的指数分布，$\operatorname{Cov}(X,Y)=-1$。令 $Z=X-aY$，若 $\operatorname{Cov}(X,Z)=\operatorname{Cov}(Y,Z)$，则常数 $a$ 的值为\ExamBlank
+      设随机变量 $X$ 服从正态分布 $N(0,4)$，随机变量 $Y$ 服从参数 $\lambda = \dfrac{1}{2}$ 的指数分布$,\mathrm{Cov}(X,Y) = -1$。令 $Z = X - aY$，若 $\mathrm{Cov}(X,Z) = \mathrm{Cov}(Y,Z)$，则常数 $a$ 的值为 ___。
 - number: 17
   section: solution
-  points: 10
+  points: 12
   stem:
     text: |-
-      设 $y=y(x)$ 是由方程 $y^3+xy+x^2-2x+1=0$ 在点 $(1,0)$ 的某邻域内确定的可微函数，求 $\displaystyle\lim_{x\to1}\dfrac{\int_1^x y(t)\,\mathrm{d}t}{(x-1)^3}$。
+      设 \(y=y(x)\) 是由方程 \(y^{3}+xy+x^{2}-2x+1=0\) 在点 \((1,0)\) 的某邻域内确定的可微函数，求 \(\lim\limits_{x\to1}\dfrac{\int_{1}^{x}y(t)\,\mathrm{d}t}{(x-1)^{3}}\)。
 - number: 18
   section: solution
   points: 12
   stem:
     text: |-
-      设 $f(x)$ 二阶可导，且 $f(0)=0$，$f'(0)=0$，若 $g(x,y)=\displaystyle\int_0^y f(xt)\,\mathrm{d}t$ 满足方程 $\dfrac{\partial^2g}{\partial x\partial y}-xyg(x,y)=xy^2\sin xy$，求 $g(x,y)$。
+      （本题满分12分） 设 \(f(x)\) 二阶可导，且 \(f(0)=0, f'(0)=0\)，若 \(g(x,y)=\int_{0}^{y}f(xt)\,\mathrm{d}t\) 满足方程 \(\dfrac{\partial^{2}g}{\partial x\partial y}-x y g(x,y)=x y^{2}\sin x y\)，求 \(g(x,y)\)。
 - number: 19
   section: solution
   points: 12
   stem:
     text: |-
-      求级数 $\displaystyle\sum_{n=1}^{\infty}\dfrac{x^{2n}}{8n^2+2n-1}$ 在收敛区间内的和函数。
+      求级数 \(\sum\limits_{n=1}^{\infty}\dfrac{x^{2n}}{8n^{2}+2n-1}\) 在收敛区间内的和函数
 - number: 20
   section: solution
   points: 12
   stem:
     text: |-
-      计算曲面积分 $I=\displaystyle\iint_{\Sigma}\dfrac{x\,\mathrm{d}y\,\mathrm{d}z+y\,\mathrm{d}z\,\mathrm{d}x+z\,\mathrm{d}x\,\mathrm{d}y}{(x^2+y^2+z^2)^{\dfrac{3}{2}}}$，其中 $\Sigma$ 是曲面 $1-\dfrac{z}{7}=\dfrac{(x-2)^2}{25}+\dfrac{(y-1)^2}{16}$ $(z\geq0)$ 的上侧。
+      （本题满分12分）计算曲面积分 \(I=\iint_{\Sigma}\dfrac{x\mathrm{d}y\mathrm{d}z+y\mathrm{d}z\mathrm{d}x+z\mathrm{d}x\mathrm{d}y}{(x^{2}+y^{2}+z^{2})^{\dfrac{3}{2}}}\)，其中 \(\Sigma\) 是曲面 \(1-\dfrac{z}{7}=\dfrac{(x-2)^{2}}{25}+\dfrac{(y-1)^{2}}{16}\) \((z\geqslant0)\) 的上侧
 - number: 21
   section: solution
   points: 12
   stem:
-    text: 设二次型 $f(x_1,x_2,x_3)=x_1^2+x_2^2+2x_3^2-2x_1x_3$，$g(x_1,x_2,x_3)=x_1^2+2x_3^2-2x_1x_2-2x_1x_3$。
-  subparts:
-  - text: |-
-      求一个可逆矩阵 $C$，使得 $f(x_1,x_2,x_3)$ 可用合同变换 $\boldsymbol{x}=C\boldsymbol{y}$ 化为标准形；
-  - text: |-
-      记 $g(x_1,x_2,x_3)$ 的矩阵为 $B$，求正交矩阵 $Q$，使得 $Q^{\mathrm{T}}(C^{\mathrm{T}}BC)Q$ 为对角矩阵；
-  - text: |-
-      求一个可逆矩阵 $T$，使得在合同变换 $\boldsymbol{x}=T\boldsymbol{y}$ 下可将 $f(x_1,x_2,x_3)$ 与 $g(x_1,x_2,x_3)$ 同时化为标准形。
+    text: |-
+      设二次型 \(f(x_{1},x_{2},x_{3})=x_{1}^{2}+x_{2}^{2}+2x_{3}^{2}-2x_{1}x_{3}\)，\(g(x_{1},x_{2},x_{3})=x_{1}^{2}+2x_{3}^{2}-2x_{1}x_{2}-2x_{1}x_{3}\)。 (1) 求一个可逆矩阵 \(C\)，使得 \(f(x_{1}, x_{2}, x_{3})\) 可用合同变换 \(x = Cy\) 化为标准形； (2) 记 \(g(x_{1}, x_{2}, x_{3})\) 的矩阵为 \(B\)，求正交矩阵 \(Q\)，使得 \(Q^{\mathrm{T}}(C^{\mathrm{T}}BC)Q\) 为对角矩阵； (3) 求一个可逆矩阵 \(T\)，使得在合同变换 \(x = Ty\) 下可将 \(f(x_{1}, x_{2}, x_{3})\) 与 \(g(x_{1}, x_{2}, x_{3})\) 同时化为标准形。
 - number: 22
   section: solution
   points: 12
   stem:
     text: |-
-      设随机变量 $X$ 的概率密度为 $f_X(x)=\begin{cases}2x,&0<x<1,\\0,&\text{其他},\end{cases}$ 在给定 $X=x$ $(0<x<1)$ 的条件下，随机变量 $Y$ 在 $(-x,x)$ 上服从均匀分布。
-  subparts:
-  - text: |-
-      求 $P\left\{\left.\dfrac{1}{2}<X<\dfrac{3}{2}\right|Y=E(Y)\right\}$；
-  - text: 判断 $X$ 与 $Y$ 的独立性、相关性，并给出理由；
-  - text: 令随机变量 $Z=X-Y$，求 $f_Z(z)$。
+      设随机变量 \(X\) 的概率密度为 \(f_{X}(x)=\left\{\begin{aligned}&2x,&0<x<1,\\ &0,& \text{其他},\end{aligned}\right.\) 在给定 \(X=x\ (0<x<1)\) 的条件下，随机变量 \(Y\) 在 \((-x,x)\) 上服从均匀分布. (1) 求 \(P\left\{\dfrac{1}{2} < X < \dfrac{3}{2} \mid Y = E(Y)\right\}\); (2) 判断 \(X\) 与 \(Y\) 的独立性、相关性，并给出理由； (3) 令随机变量 \(Z = X - Y\)，求 \(f_{Z}(z)\)
+content_hash: f17296df51bfdea48da7608195d877d4853fc1c8ba0585fc29a8dd9d9fff97ba

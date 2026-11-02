@@ -10,7 +10,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设函数 $f(x)$ 在 $x=0$ 处三阶可导，则下列命题中：\n①若 $\lim_{x\to 0}\dfrac{f(x)}{x^2}=1$，则 $\lim_{x\to 0}\dfrac{f'(x)}{x}=2$；\n②若 $\lim_{x\to 0}\dfrac{f'(x)}{x}=2$，则 $\lim_{x\to 0}\dfrac{f(x)}{x^2}=1$；\n③若 $\lim_{x\to 0}\dfrac{f(x)}{x^3}=1$，则 $\lim_{x\to 0}\dfrac{f'(x)}{x^2}=3$；\n④若 $\lim_{x\to 0}\dfrac{f'(x)}{x^2}=3$，则 $\lim_{x\to 0}\dfrac{f(x)}{x^3}=1$。\n所有不正确命题的序号为\ExamSelection
+      设函数 $f(x)$ 在 $x=0$ 处二阶可导，则下列命题中 ①若 $\lim\limits_{x\to 0}\dfrac{f(x)}{x^2}=1$，则 $\lim\limits_{x\to 0}\dfrac{f'(x)}{x}=2$；②若 $\lim\limits_{x\to 0}\dfrac{f'(x)}{x}=2$，则 $\lim\limits_{x\to 0}\dfrac{f(x)}{x^2}=1$； ③若 $\lim\limits_{x\to 0}\dfrac{f(x)}{x^3}=1$，则 $\lim\limits_{x\to 0}\dfrac{f'(x)}{x^2}=3$；④若 $\lim\limits_{x\to 0}\dfrac{f'(x)}{x^2}=3$，则 $\lim\limits_{x\to 0}\dfrac{f(x)}{x^3}=1$. 所有不正确命题的序号为
   choices:
   - label: A
     text: ①②
@@ -29,152 +29,150 @@ questions:
   points: 5
   stem:
     text: |-
-      设函数 $f(x)=\begin{cases}\cos|x|-1,&x\leqslant 0,\\x\ln x,&x>0,\end{cases}$ 则 $x=0$ 是 $f(x)$ 的\ExamSelection
+      设函数 $f(x)=\begin{cases} \cos|x|-1, & x\leqslant 0, \\ x\ln x, & x>0, \end{cases}$ 则 $x=0$ 是 $f(x)$ 的
   choices:
   - label: A
-    text: 可导点，极值点
+    text: 可导点,极值点
     figures: []
   - label: B
-    text: 不可导点，极值点
+    text: 不可导点,极值点
     figures: []
   - label: C
-    text: 可导点，非极值点
+    text: 可导点,非极值点
     figures: []
   - label: D
-    text: 不可导点，非极值点
+    text: 不可导点,非极值点
     figures: []
 - number: 3
   section: choice
   points: 5
   stem:
     text: |-
-      曲线 $y=\dfrac{x^2}{\sqrt{1+x^2}}+\dfrac{1}{x}\quad(x>0)$ 的斜渐近线为\ExamSelection
+      曲线 $y=\dfrac{x^2}{\sqrt{1+x^2}}+\dfrac{1}{x}(x>0)$ 的斜渐近线为
   choices:
   - label: A
-    text: $y=x$
+    text: $y=x.$
     figures: []
   - label: B
-    text: $y=-x$
+    text: $y=-x.$
     figures: []
   - label: C
-    text: $y=x+1$
+    text: $y=x+1.$
     figures: []
   - label: D
-    text: $y=-x+1$
+    text: $y=-x+1.$
     figures: []
 - number: 4
   section: choice
   points: 5
   stem:
-    text: |-
-      已知函数 $f(x),g(x)$ 可导，且 $f'(x)>0,g'(x)<0$，则\ExamSelection
+    text: 已知函数 $f(x),g(x)$ 可导, 且 $f'(x)>0,g'(x)<0$, 则
   choices:
   - label: A
     text: |-
-      $\int_{-1}^{0}f(x)g(x)\,\mathrm{d}x>\int_{0}^{1}f(x)g(x)\,\mathrm{d}x$
+      $\int_{-1}^0 f(x)g(x)\mathrm{d}x > \int_0^1 f(x)g(x)\mathrm{d}x.$
     figures: []
   - label: B
     text: |-
-      $\int_{-1}^{0}|f(x)g(x)|\,\mathrm{d}x>\int_{0}^{1}|f(x)g(x)|\,\mathrm{d}x$
+      $\int_{-1}^0 |f(x)g(x)|\mathrm{d}x > \int_0^1 |f(x)g(x)|\mathrm{d}x.$
     figures: []
   - label: C
     text: |-
-      $\int_{-1}^{0}f[g(x)]\,\mathrm{d}x>\int_{0}^{1}f[g(x)]\,\mathrm{d}x$
+      $\int_{-1}^0 f[g(x)]\mathrm{d}x > \int_0^1 f[g(x)]\mathrm{d}x.$
     figures: []
   - label: D
     text: |-
-      $\int_{-1}^{0}f[f(x)]\,\mathrm{d}x>\int_{0}^{1}g[g(x)]\,\mathrm{d}x$
+      $\int_{-1}^0 f[f(x)]\mathrm{d}x > \int_0^1 g[g(x)]\mathrm{d}x.$
     figures: []
 - number: 5
   section: choice
   points: 5
   stem:
     text: |-
-      已知函数 $f(x,y)=xe^{\cos y}+\dfrac{x^2+e^2}{2}$，则\ExamSelection
+      已知函数 $f(x,y)=x\mathrm{e}^{\cos y}+\dfrac{x^2+\mathrm{e}^2}{2}$，则
   choices:
   - label: A
     text: |-
-      $(-e,2\pi)$ 是 $f(x,y)$ 的一个极小值点
+      $(-\mathrm{e},2\pi)$ 是 $f(x,y)$ 的一个极小值点
     figures: []
   - label: B
     text: |-
-      $(-e,2\pi)$ 是 $f(x,y)$ 的一个极大值点
+      $(-\mathrm{e},2\pi)$ 是 $f(x,y)$ 的一个极大值点
     figures: []
   - label: C
     text: |-
-      $(-\dfrac{1}{e},3\pi)$ 是 $f(x,y)$ 的一个极小值点
+      $(-\dfrac{1}{\mathrm{e}},3\pi)$ 是 $f(x,y)$ 的一个极小值点
     figures: []
   - label: D
     text: |-
-      $(-\dfrac{1}{e},3\pi)$ 是 $f(x,y)$ 的一个极大值点
+      $(-\dfrac{1}{\mathrm{e}},3\pi)$ 是 $f(x,y)$ 的一个极大值点
     figures: []
 - number: 6
   section: choice
   points: 5
   stem:
     text: |-
-      已知曲线 $y=y(x)$ 上点 $P(x,y)\quad(y\neq 0)$ 处的法线与 $x$ 轴、$y$ 轴的交点分别为 $Q,R$，且 $|PR|=|RQ|$，则曲线方程为\ExamSelection
+      已知曲线 $y=y(x)$ 上点 $P(x,y)(y\neq 0)$ 处的法线与 $x$ 轴$\text{、}y$ 轴的交点分别为 $Q,R$，且 $|PR|=|RQ|$，则曲线方程为
   choices:
   - label: A
-    text: $2x^2+y^2=C$
+    text: $2x^2+y^2=C.$
     figures: []
   - label: B
-    text: $x^2-2y^2=C$
+    text: $x^2-2y^2=C.$
     figures: []
   - label: C
-    text: $x^2+2y^2=C$
+    text: $x^2+2y^2=C.$
     figures: []
   - label: D
-    text: $2x^2-y^2=C$
+    text: $2x^2-y^2=C.$
     figures: []
 - number: 7
   section: choice
   points: 5
   stem:
     text: |-
-      设 $x\geqslant 0,y\geqslant 0$，曲线 $l_1:x^2+y^2-xy=1$，$l_2:x^2+y^2-xy=2$，直线 $l_3:y=\dfrac{\sqrt{3}}{3}x$，$l_4:y=\sqrt{3}x$。区域 $D_1$ 由 $l_1,l_2,x=0,y=0$ 围成，$D_2$ 由 $l_1,l_2,l_3,y=0$ 围成，$D_3$ 由 $l_1,l_2,l_4,x=0$ 围成，则对于 $I_i=\iint_{D_i}\sqrt[3]{y-x}\,\mathrm{d}\sigma$，有\ExamSelection
+      设 $x \geqslant 0,y \geqslant 0$, 曲线 $l_1:x^2+y^2-xy=1,l_2:x^2+y^2-xy=2$, 直线 $l_3:y=\dfrac{\sqrt{3}}{3}x,l_4:y=\sqrt{3}x$. 区域 $D_1$ 由 $l_1,l_2,x=0,y=0$ 围成, $D_2$ 由 $l_1,l_2,l_3,y=0$ 围成, $D_3$ 由 $l_1,l_2,l_4,x=0$ 围成, 则对于 $I_i=\iint_{D_i}\sqrt[3]{y-x}\mathrm{d}\sigma$, 有
   choices:
   - label: A
-    text: $I_1<I_2<I_3$
+    text: $I_1<I_2<I_3.$
     figures: []
   - label: B
-    text: $I_3<I_1<I_2$
+    text: $I_3<I_1<I_2.$
     figures: []
   - label: C
-    text: $I_2<I_3<I_1$
+    text: $I_2<I_3<I_1.$
     figures: []
   - label: D
-    text: $I_2<I_1<I_3$
+    text: $I_2<I_1<I_3.$
     figures: []
 - number: 8
   section: choice
   points: 5
   stem:
     text: |-
-      已知矩阵方程 $A=BC$，其中 $A=\begin{pmatrix}1&1&1\\1&-1&0\\0&1&1\end{pmatrix}$，则 $B,C$ 可以是\ExamSelection
+      已知矩阵方程 $A=BC$, 其中 $A=\begin{pmatrix} 1 & 1 & 1 \\ 1 & -1 & 0 \\ 0 & 1 & 1 \end{pmatrix}$, 则 $B,C$ 可以是
   choices:
   - label: A
     text: |-
-      $B=\begin{pmatrix}\dfrac{1}{\sqrt{2}}&\dfrac{1}{\sqrt{3}}&-\dfrac{1}{\sqrt{6}}\\\dfrac{1}{\sqrt{2}}&-\dfrac{1}{\sqrt{3}}&\dfrac{1}{\sqrt{6}}\\0&\dfrac{1}{\sqrt{3}}&\dfrac{2}{\sqrt{6}}\end{pmatrix},\quad C=\begin{pmatrix}\sqrt{2}&0&0\\0&\sqrt{3}&0\\\dfrac{1}{\sqrt{2}}&\dfrac{2}{\sqrt{3}}&\dfrac{1}{\sqrt{6}}\end{pmatrix}$
+      $\begin{pmatrix} \dfrac{1}{\sqrt{2}} & \dfrac{1}{\sqrt{3}} & -\dfrac{1}{\sqrt{6}} \\ \dfrac{1}{\sqrt{2}} & -\dfrac{1}{\sqrt{3}} & \dfrac{1}{\sqrt{6}} \\ 0 & \dfrac{1}{\sqrt{3}} & \dfrac{2}{\sqrt{6}} \end{pmatrix}, \begin{pmatrix} \sqrt{2} & 0 & 0 \\ 0 & \sqrt{3} & 0 \\ 0 & \dfrac{1}{\sqrt{2}} & \dfrac{1}{\sqrt{6}} \end{pmatrix}.$
     figures: []
   - label: B
     text: |-
-      $B=\begin{pmatrix}\dfrac{1}{\sqrt{2}}&\dfrac{1}{\sqrt{3}}&-\dfrac{1}{\sqrt{6}}\\\dfrac{1}{\sqrt{3}}&-\dfrac{1}{\sqrt{3}}&\dfrac{1}{\sqrt{3}}\\\dfrac{1}{\sqrt{6}}&\dfrac{1}{\sqrt{3}}&\dfrac{1}{\sqrt{2}}\end{pmatrix},\quad C=\begin{pmatrix}\sqrt{2}&0&\dfrac{1}{\sqrt{2}}\\0&\sqrt{3}&\dfrac{2}{\sqrt{3}}\\0&0&\dfrac{1}{\sqrt{6}}\end{pmatrix}$
+      $\begin{pmatrix} \dfrac{1}{\sqrt{2}} & \dfrac{1}{\sqrt{3}} & -\dfrac{1}{\sqrt{6}} \\ \dfrac{1}{\sqrt{3}} & -\dfrac{1}{\sqrt{3}} & \dfrac{1}{\sqrt{3}} \\ \dfrac{1}{\sqrt{6}} & \dfrac{1}{\sqrt{3}} & \dfrac{1}{\sqrt{2}} \end{pmatrix}, \begin{pmatrix} \sqrt{2} & 0 & \dfrac{1}{\sqrt{2}} \\ 0 & \sqrt{3} & \dfrac{2}{\sqrt{6}} \\ 0 & 0 & \dfrac{1}{\sqrt{6}} \end{pmatrix}.$
     figures: []
   - label: C
     text: |-
-      $B=\begin{pmatrix}\dfrac{1}{\sqrt{2}}&\dfrac{1}{\sqrt{3}}&-\dfrac{1}{\sqrt{6}}\\\dfrac{1}{\sqrt{3}}&-\dfrac{1}{\sqrt{3}}&\dfrac{1}{\sqrt{3}}\\\dfrac{1}{\sqrt{6}}&\dfrac{1}{\sqrt{3}}&\dfrac{1}{\sqrt{2}}\end{pmatrix},\quad C=\begin{pmatrix}\sqrt{2}&0&0\\0&\sqrt{3}&\dfrac{2}{\sqrt{3}}\\0&0&\dfrac{1}{\sqrt{6}}\end{pmatrix}$
+      $\begin{pmatrix} \dfrac{1}{\sqrt{2}} & \dfrac{1}{\sqrt{3}} & -\dfrac{1}{\sqrt{6}} \\ \dfrac{1}{\sqrt{3}} & -\dfrac{1}{\sqrt{3}} & \dfrac{1}{\sqrt{3}} \\ \dfrac{1}{\sqrt{6}} & \dfrac{1}{\sqrt{3}} & \dfrac{1}{\sqrt{2}} \end{pmatrix}, \begin{pmatrix} \sqrt{2} & 0 & 0 \\ 0 & \sqrt{3} & \dfrac{2}{\sqrt{3}} \\ 0 & 0 & \dfrac{1}{\sqrt{6}} \end{pmatrix}.$
     figures: []
   - label: D
     text: |-
-      $B=\begin{pmatrix}\dfrac{1}{\sqrt{2}}&\dfrac{1}{\sqrt{3}}&-\dfrac{1}{\sqrt{6}}\\\dfrac{1}{\sqrt{2}}&-\dfrac{1}{\sqrt{3}}&\dfrac{1}{\sqrt{6}}\\0&\dfrac{1}{\sqrt{3}}&\dfrac{2}{\sqrt{6}}\end{pmatrix},\quad C=\begin{pmatrix}\sqrt{2}&0&\dfrac{1}{\sqrt{2}}\\0&\sqrt{3}&\dfrac{2}{\sqrt{3}}\\0&0&\dfrac{1}{\sqrt{6}}\end{pmatrix}$
+      $\begin{pmatrix} \dfrac{1}{\sqrt{2}} & \dfrac{1}{\sqrt{3}} & -\dfrac{1}{\sqrt{6}} \\ \dfrac{1}{\sqrt{2}} & -\dfrac{1}{\sqrt{3}} & \dfrac{1}{\sqrt{6}} \\ 0 & \dfrac{1}{\sqrt{3}} & \dfrac{2}{\sqrt{6}} \end{pmatrix}, \begin{pmatrix} \sqrt{2} & 0 & \dfrac{1}{\sqrt{2}} \\ 0 & \sqrt{3} & \dfrac{2}{\sqrt{3}} \\ 0 & 0 & \dfrac{1}{\sqrt{6}} \end{pmatrix}.$
     figures: []
 - number: 9
   section: choice
   points: 5
   stem:
-    text: |-
-      设 $A$ 是 3 阶实矩阵，则“$A$ 是实对称矩阵”是“$A$ 有 3 个相互正交的特征向量”的\ExamSelection
+    text: 设 $A$ 是 $3$ 阶实矩阵, 则“$A$ 是实对称矩阵”是“$A$ 有 $3$ 个相互正交的特征向量”的
   choices:
   - label: A
     text: 充分非必要条件
@@ -193,7 +191,7 @@ questions:
   points: 5
   stem:
     text: |-
-      已知三元二次型表示为 $f(\boldsymbol{x})=\boldsymbol{x}^{\mathrm{T}}\begin{pmatrix}1&1&0\\0&1&1\\0&0&1\end{pmatrix}\boldsymbol{x}$，则 $f$ 的规范形为\ExamSelection
+      已知三元二次型表示为 $f(x)=x^T \begin{pmatrix} 1 & 1 & 0 \\ 0 & 1 & 1 \\ 0 & 0 & 1 \end{pmatrix} x$，则 $f$ 的规范形为
   choices:
   - label: A
     text: $y_1^2-y_2^2+y_3^2$
@@ -212,81 +210,71 @@ questions:
   points: 5
   stem:
     text: |-
-      $\lim_{x\to 0}\left(\dfrac{1+e^x}{2}\right)^{\cot x}=\ExamBlank$。
+      $\lim_{x \to 0} \left( \dfrac{1 + \mathrm{e}^x}{2} \right)^{\cos x} = \underline{\qquad\qquad}.$
 - number: 12
   section: fill
   points: 5
   stem:
     text: |-
-      曲线 $y=\ln^2x-\dfrac{4x}{e^2}$ 的拐点为 $\ExamBlank$。
+      曲线 $y = \ln^2 x - \dfrac{4x}{\mathrm{e}^2}$ 的拐点为________
 - number: 13
   section: fill
   points: 5
   stem:
     text: |-
-      $\int_0^1\dfrac{4x-3}{x^2-x+1}\,\mathrm{d}x=\ExamBlank$。
+      $\int_{0}^{1} \dfrac{4x-3}{x^2-x+1} \mathrm{d}x = \underline{\hspace{2cm}}.$
 - number: 14
   section: fill
   points: 5
   stem:
     text: |-
-      $\int_0^1\mathrm{d}x\int_1^x\dfrac{\tan y}{y}\,\mathrm{d}y=\ExamBlank$。
+      $\int_0^1 dx \int_1^x \dfrac{\tan x}{y} dy = \underline{\qquad\qquad}.$
 - number: 15
   section: fill
   points: 5
   stem:
     text: |-
-      已知函数 $y=y(x)$ 由方程 $y^4-6xy+3=0\quad(1\leqslant y\leqslant 2)$ 所确定，则曲线 $y=y(x)$ 从点 $(\dfrac{2}{3},1)$ 到点 $(\dfrac{19}{12},2)$ 的长度为 $\ExamBlank$。
+      已知函数 $y=y(x)$ 由方程 $y^4-6xy+3=0(1\leqslant y\leqslant 2)$ 所确定，则曲线 $y=y(x)$ 从点 $\left(\dfrac{2}{3},1\right)$ 到点 $\left(\dfrac{19}{12},2\right)$ 的长度为 $\underline{\qquad\qquad}$
 - number: 16
   section: fill
   points: 5
   stem:
     text: |-
-      设矩阵 $A=\begin{pmatrix}1&2&4\\0&1&5\\0&0&3\end{pmatrix},B=\begin{pmatrix}1&0&0\\3&1&0\\4&5&1\end{pmatrix}$，则 $|A^{-1}B^*-A^*B^{-1}|=\ExamBlank$。
+      设矩阵 $A=\begin{pmatrix} 1 & 2 & 4 \\ 0 & 1 & 5 \\ 0 & 0 & 3 \end{pmatrix}, B=\begin{pmatrix} 1 & 0 & 0 \\ 3 & 1 & 0 \\ 4 & 5 & 1 \end{pmatrix}$，则 $\left|A^{-1} B^{*}-A^{*} B^{-1}\right|=$ _______
 - number: 17
   section: solution
-  points: 10
+  points: 12
   stem:
     text: |-
-      对于任意二阶连续可导的函数 $f(u)$，$z=\int_0^y e^{t^2}\,\mathrm{d}t+f(x+ay)$ 均是方程 $\dfrac{\partial^2z}{\partial x\partial y}+\dfrac{\partial^2z}{\partial y^2}=2ye^{y^2}$ 的解，求 $a$ 的值。
+      对于任意二阶连续可导的函数 $f(u), z=\int_0^y \mathrm{e}^{t^2} \mathrm{d}t + f(x+ay)$ 均是方程 $\dfrac{\partial^2 z}{\partial x\partial y} + \dfrac{\partial^2 z}{\partial y^2} = 2y\mathrm{e}^{y^2}$ 的解, 求 $a$ 的值
 - number: 18
   section: solution
   points: 12
   stem:
     text: |-
-      求曲线 $y=e^{-\dfrac{x}{2}}\sqrt{\sin x}\quad(x\geqslant 0)$ 绕 $x$ 轴旋转一周所成旋转体的体积。
+      求曲线 $y = \mathrm{e}^{-\dfrac{x}{2}}\sqrt{\sin x}\,(x \geqslant 0)$ 绕 $x$ 轴旋转一周所成旋转体的体积
 - number: 19
   section: solution
   points: 12
   stem:
     text: |-
-      设平面区域 $D=\{(x,y)\mid 2x^2+y^2\leqslant 2\sqrt{x^2+y^2},y\geqslant x\geqslant 0\}$，$\iint_D\dfrac{f(x,y)}{\sqrt{1-x^2}}\,\mathrm{d}\sigma=a>0$，$f(x,y)$ 是 $D$ 上的连续函数。
-  subparts:
-  - text: |-
-      计算 $\iint_D\dfrac{1}{\sqrt{1-x^2}}\,\mathrm{d}\sigma$；
-  - text: |-
-      证明：存在 $(\xi,\eta)\in D$，使得 $|f(\xi,\eta)|\geqslant\dfrac{\sqrt{2}}{\pi}a$。
+      设平面区域 $D=\{(x,y) \mid 2x^2+y^2 \leqslant 2\sqrt{x^2+y^2}, y \geqslant x \geqslant 0\}$，若 $\iint_D \dfrac{f(x,y)}{\sqrt{1-x^2}} \,\mathrm{d}\sigma = a > 0$ $,f(x,y)$ 是 $D$ 上的连续函数. (1) 计算 $\iint_D \dfrac{1}{\sqrt{1-x^2}} \,\mathrm{d}\sigma$; (2) 证明: 存在 $(\xi,\eta) \in D$，使得 $|f(\xi,\eta)| \geqslant \dfrac{\sqrt{2}}{\pi} a$
 - number: 20
   section: solution
   points: 12
   stem:
     text: |-
-      设正项数列 $\{x_n\}$ 满足 $x_1=\sqrt{2},x_{n+1}^2=2^{x_n},n=1,2,\cdots$，证明 $\{x_n\}$ 收敛，并求 $\lim_{n\to\infty}x_n$。
+      设正项数列 $\{x_n\}$ 满足 $x_1 = \sqrt{2}, x_{n+1}^2 = 2^{x_n}, n = 1, 2, \cdots$, 证明 $\{x_n\}$ 收敛, 并求 $\lim\limits_{n \to \infty} x_n$
 - number: 21
   section: solution
   points: 12
   stem:
     text: |-
-      若函数 $f(x)$ 满足关系式 $f'(x)+af(x)=\int_x^0f(t)\,\mathrm{d}t$，$a>0$，求 $\int_0^{+\infty}f(x)\,\mathrm{d}x$。
+      若函数 $f(x)$ 满足关系式 $f'(x)+af(x)=\int_x^0 f(t)\mathrm{d}t,\ a>0$，求 $\int_0^{+\infty} f(x)\mathrm{d}x$。
 - number: 22
   section: solution
   points: 12
   stem:
     text: |-
-      设实矩阵 $A=\begin{pmatrix}4&2\\a&-3\end{pmatrix},B=\begin{pmatrix}2&2\\2&b\end{pmatrix}$，其中 $b$ 为正整数。
-  subparts:
-  - text: |-
-      若存在可逆矩阵 $P$，使得 $P^{\mathrm{T}}AP=B$，求出此时 $a,b$ 的值与矩阵 $P$；
-  - text: |-
-      对于（1）中的 $a,b$，是否存在正交矩阵 $Q$，使得 $Q^{\mathrm{T}}AQ=B$。若存在，求出 $Q$，若不存在，说明理由。
-content_hash: cac4a46e630a6a47e84af000ae4b2bc36fd3452108d3a8eca4308c9b0294011f
+      设实矩阵 $A=\begin{pmatrix} 4 & 2 \\ a & -3 \end{pmatrix}, B=\begin{pmatrix} 2 & 2 \\ 2 & b \end{pmatrix}$，其中 $b$ 为正整数. (1) 若存在可逆矩阵 $P$，使得 $P^T AP=B$，求出此时 $a$ $,b$ 的值与矩阵 $P$； (2) 对于 (1) 中的 $a$ $\text{、}b$，是否存在正交矩阵 $Q$，使得 $Q^T AQ=B$，若存在，求出 $Q$，若不存在，说明理由
+content_hash: b311fac979dd1104351f1f41a3141331cfc70634f6b520195a4b1652fab7efc4

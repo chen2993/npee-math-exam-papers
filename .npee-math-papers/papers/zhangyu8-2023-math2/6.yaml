@@ -10,7 +10,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $f(x)$ 在 $x=0$ 处连续，且 $\lim_{x\to0}\dfrac{\ln(1-2x)+2xf(x)}{x^2}=0$，则 $f'(0)$\ExamSelection
+      设 $f(x)$ 在 $x=0$ 处连续，且 $\lim\limits_{x \to 0} \dfrac{\ln(1-2x)+2xf(x)}{x^2} = 0$，则 $f'(0)$
   choices:
   - label: A
     text: 等于 $1$
@@ -22,18 +22,18 @@ questions:
     text: 不存在
     figures: []
   - label: D
-    text: 所给条件不足，无法判断
+    text: 所给条件不足,无法判断
     figures: []
 - number: 2
   section: choice
   points: 5
   stem:
     text: |-
-      设 $f(x)=(x-1)(x-2)^2(x-3)^3\cdots(x-n)^n(n>2)$，则 $f^{(n)}(n)=$\ExamSelection
+      设 $f(x) = (x-1)(x-2)^2(x-3)^3 \cdots (x-n)^n (n > 2)$，则 $f^{(n)}(n) =$
   choices:
   - label: A
     text: |-
-      $n\cdot n!$
+      $n \cdot n!$
     figures: []
   - label: B
     text: $(n!)^n$
@@ -43,35 +43,35 @@ questions:
     figures: []
   - label: D
     text: |-
-      $n!\cdot(n-1)!\cdot(n-2)!\cdots3!\cdot2!\cdot1!$
+      $n! \cdot (n-1)! \cdot (n-2)! \cdots 3! \cdot 2! \cdot 1!$
     figures: []
 - number: 3
   section: choice
   points: 5
   stem:
     text: |-
-      设椭圆 $\dfrac{x^2}{2}+\dfrac{y^2}{4}=1$ 的弧长为 $S_1$，曲线 $y=\cos x(0\leq x\leq2\pi)$ 的弧长为 $S_2$，则\ExamSelection
+      设椭圆 $\dfrac{x^2}{2} + \dfrac{y^2}{4} = 1$ 的弧长为 $S_1$，曲线 $y = \cos x (0 \leqslant x \leqslant 2\pi)$ 的弧长为 $S_2$，则
   choices:
   - label: A
-    text: $S_1=S_2$
+    text: $S_1 = S_2$
     figures: []
   - label: B
     text: |-
-      $S_1=\sqrt{2}S_2$
+      $S_1 = \sqrt{2} S_2$
     figures: []
   - label: C
-    text: $S_1=2S_2$
+    text: $S_1 = 2S_2$
     figures: []
   - label: D
     text: |-
-      $S_1=2\sqrt{2}S_2$
+      $S_1 = 2\sqrt{2} S_2$
     figures: []
 - number: 4
   section: choice
   points: 5
   stem:
     text: |-
-      下列三个命题：\n①设 $f(x)$ 在 $x=x_0$ 处连续，在 $x=x_0$ 的某去心邻域内可导，若 $\lim_{x\to x_0}f'(x)$ 存在，则 $f(x)$ 在 $x=x_0$ 处可导且 $f'(x_0)=\lim_{x\to x_0}f'(x)$；\n②设 $f(x)$ 在 $x=x_0$ 处连续，在 $x=x_0$ 的某去心邻域内可导，若 $\lim_{x\to x_0^-}f'(x)$ 与 $\lim_{x\to x_0^+}f'(x)$ 均存在但不相等，则 $f'(x_0)$ 不存在；\n③设 $f(x)$ 在 $x=x_0$ 的某邻域内可导，若 $\lim_{x\to x_0^-}f'(x)$ 与 $\lim_{x\to x_0^+}f'(x)$ 均存在，则必有 $\lim_{x\to x_0}f'(x)$ 存在。\n是真命题的序号为\ExamSelection
+      下列三个命题： ①设 $f(x)$ 在 $x=x_0$ 处连续，在 $x=x_0$ 的某去心邻域内可导，若 $\lim\limits_{x\to x_0} f'(x)$ 存在，则 $f(x)$ 在 $x=x_0$ 处可导且 $f'(x_0)=\lim\limits_{x\to x_0} f'(x)$； ②设 $f(x)$ 在 $x=x_0$ 处连续，在 $x=x_0$ 的某去心邻域内可导，若 $\lim\limits_{x\to x_0^+} f'(x)$ 与 $\lim\limits_{x\to x_0^-} f'(x)$ 均存在但不相等，则 $f'(x_0)$ 不存在； ③设 $f(x)$ 在 $x=x_0$ 的某邻域内可导，若 $\lim\limits_{x\to x_0^+} f'(x)$ 与 $\lim\limits_{x\to x_0^-} f'(x)$ 均存在，则必有 $\lim\limits_{x\to x_0} f'(x)$ 存在. 是真命题的序号为
   choices:
   - label: A
     text: ①②
@@ -90,26 +90,25 @@ questions:
   points: 5
   stem:
     text: |-
-      曲线 $y=\ln(1+x^2)-2x\arctan x+x^2$ 与直线 $y=1$ 的交点个数为\ExamSelection
+      曲线 $y = \ln(1 + x^2) - 2x\arctan x + x^2$ 与直线 $y = 1$ 的交点个数为
   choices:
   - label: A
-    text: $0$
+    text: '0'
     figures: []
   - label: B
-    text: $1$
+    text: '1'
     figures: []
   - label: C
-    text: $2$
+    text: '2'
     figures: []
   - label: D
-    text: $4$
+    text: '4'
     figures: []
 - number: 6
   section: choice
   points: 5
   stem:
-    text: |-
-      设 $f(x,y)$ 为可微函数，$f(0,0)=0$，$f'_x(x,y)>1$，$f'_y(x,y)<-1$，则\ExamSelection
+    text: 设 $f(x,y)$ 为可微函数$,f(0,0)=0$ $,f_x'(x,y)>1$ $,f_y'(x,y)<-1$，则
   choices:
   - label: A
     text: $f(-1,-1)<0$
@@ -128,48 +127,47 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $D=\{(x,y)\mid x^2+y^2\leq\dfrac{3}{4}\}$，记 $I=\iint_D\mathrm{e}^{-(x^2+y^2)}\,\mathrm{d}x\mathrm{d}y$，$J=\iint_D\cos(x^2+y^2)\,\mathrm{d}x\mathrm{d}y$，$K=\iint_D[1-\sin(x^2+y^2)]\,\mathrm{d}x\mathrm{d}y$，则 $I,J,K$ 的大小顺序为\ExamSelection
+      设 $D = \left\{(x, y) \mid x^2 + y^2 \leqslant \dfrac{3}{4}\right\}$，记 $I = \iint_{D} \mathrm{e}^{-(x^2 + y^2)} \mathrm{d}x\mathrm{d}y$ $,J = \iint_{D} \cos(x^2 + y^2) \mathrm{d}x\mathrm{d}y$ $,K = \iint_{D} [1 - \sin(x^2 + y^2)] \mathrm{d}x\mathrm{d}y$，则 $I, J, K$ 的大小顺序为
   choices:
   - label: A
-    text: $I<J<K$
+    text: $I < J < K.$
     figures: []
   - label: B
-    text: $J<K<I$
+    text: $J < K < I.$
     figures: []
   - label: C
-    text: $I<K<J$
+    text: $I < K < J.$
     figures: []
   - label: D
-    text: $K<I<J$
+    text: $K < I < J.$
     figures: []
 - number: 8
   section: choice
   points: 5
   stem:
     text: |-
-      设 $A=\begin{pmatrix}4&a&0\\-1&0&0\\a&b&2\end{pmatrix}$，若 $A$ 的任意两个特征向量都线性相关，则\ExamSelection
+      设 $A=\begin{pmatrix} 4 & a & 0 \\ -1 & 0 & 0 \\ a & b & 2 \end{pmatrix}$，若 $A$ 的任意两个特征向量都线性相关，则
   choices:
   - label: A
-    text: $a=4,b=8$
+    text: $a=4, b=8.$
     figures: []
   - label: B
     text: |-
-      $a=4,b\ne8$
+      $a=4, b\neq 8.$
     figures: []
   - label: C
     text: |-
-      $a\ne4,b=8$
+      $a\neq 4, b=8.$
     figures: []
   - label: D
     text: |-
-      $a\ne4,b\ne8$
+      $a\neq 4, b\neq 8.$
     figures: []
 - number: 9
   section: choice
   points: 5
   stem:
-    text: |-
-      设 $A,B,C$ 均为 $2$ 阶矩阵，且 $AB=BC$，若 $r(A+E)=1$，$\lvert B+2E\rvert=\lvert B-2E\rvert=0$，则矩阵 $C$ 必有一个特征值为\ExamSelection
+    text: 设 $A, B, C$ 均为 $2$ 阶矩阵, 且 $AB = BC$, 若 $r(A + E) = 1, |B + 2E| = |B - 2E| = 0$, 则矩阵 $C$ 必有一个特征值为
   choices:
   - label: A
     text: $-1$
@@ -188,101 +186,89 @@ questions:
   points: 5
   stem:
     text: |-
-      若二次型 $f(x_1,x_2,x_3)=(x_1,x_2,x_3)\begin{pmatrix}1&-2&1\\0&a&-2\\1&0&1\end{pmatrix}\begin{pmatrix}x_1\\x_2\\x_3\end{pmatrix}$ 的秩为 $1$，则二次型 $g(x_1,x_2,x_3)=ax_1^2+ax_2^2+ax_3^2+2x_1x_2+2x_1x_3$ 的规范形为\ExamSelection
+      若二次型 $f(x_1, x_2, x_3) = (x_1, x_2, x_3) \begin{pmatrix} 1 & -2 & 1 \\ 0 & a & -2 \\ 1 & 0 & 1 \end{pmatrix} \begin{pmatrix} x_1 \\ x_2 \\ x_3 \end{pmatrix}$ 的秩为 1，则二次型 $g(x_1, x_2, x_3) = ax_1^2 + ax_2^2 + ax_3^2 + 2x_1x_2 + 2x_1x_3$ 的规范形为
   choices:
   - label: A
-    text: $y_1^2+y_2^2$
+    text: $y_1^2 + y_2^2$
     figures: []
   - label: B
-    text: $y_1^2-y_2^2-y_3^2$
+    text: $y_1^2 - y_2^2 - y_3^2$
     figures: []
   - label: C
-    text: $y_1^2+y_2^2-y_3^2$
+    text: $y_1^2 + y_2^2 - y_3^2$
     figures: []
   - label: D
-    text: $y_1^2+y_2^2+y_3^2$
+    text: $y_1^2 + y_2^2 + y_3^2$
     figures: []
 - number: 11
   section: fill
   points: 5
   stem:
     text: |-
-      若直线 $y=2x-\dfrac{1}{2}$ 是曲线 $y=\sqrt{ax^2+bx+1}$ 的一条斜渐近线，则定积分 $\int_b^a\sqrt{(a-x)(x-b)}\,\mathrm{d}x$ 的值为\ExamBlank。
+      若直线 $y = 2x - \dfrac{1}{2}$ 是曲线 $y = \sqrt{ax^2 + bx + 1}$ 的一条斜渐近线，则定积分 $\int_b^a \sqrt{(a-x)(x-b)} \, \mathrm{d}x$ 的值为______
 - number: 12
   section: fill
   points: 5
   stem:
     text: |-
-      $\int\dfrac{x^2+2x\sin x}{1+\cos x}\,\mathrm{d}x=$\ExamBlank。
+      $\int \dfrac{x^2 + 2x\sin x}{1 + \cos x} \mathrm{d}x = \underline{\hspace{2cm}}$
 - number: 13
   section: fill
   points: 5
   stem:
     text: |-
-      $\int_0^1\left(\int_{x^2}^1\dfrac{xt}{\sqrt{1+t^3}}\,\mathrm{d}t\right)\mathrm{d}x=$\ExamBlank。
+      $\int_{0}^{1}\left(\int_{x^{2}}^{1} \dfrac{x t}{\sqrt{1+t^{3}}} \mathrm{d}t\right) \mathrm{d}x=\underline{\quad\quad\quad\quad\quad\quad}.$
 - number: 14
   section: fill
   points: 5
   stem:
     text: |-
-      设 $f(x)$ 连续且 $f(x)\ne0$，满足 $f(x)=\int_0^x f(x-t)\,\mathrm{d}t+\int_0^1f^2(t)\,\mathrm{d}t$，则 $f(x)=$\ExamBlank。
+      设 $f(x)$ 连续且 $f(x) \neq 0$，满足 $f(x)=\int_{0}^{x} f(x-t) \mathrm{d}t + \int_{0}^{1} f^{2}(t) \mathrm{d}t$，则 $f(x) = \underline{\qquad\qquad}$
 - number: 15
   section: fill
   points: 5
   stem:
     text: |-
-      设 $f(x)=\lim_{n\to\infty}\left[\dfrac{n}{(n+x)^2}+\dfrac{n}{(n+2x)^2}+\cdots+\dfrac{n}{(n+nx)^2}\right]$，则 $f^{(99)}(0)=$\ExamBlank。
+      设 $f(x) = \lim_{n \to \infty}\left[ \dfrac{n}{(n+x)^2} + \dfrac{n}{(n+2x)^2} + \cdots + \dfrac{n}{(n+nx)^2} \right]$，则 $f^{(99)}(0) = \underline{\hspace{1.5cm}}$。
 - number: 16
   section: fill
   points: 5
   stem:
     text: |-
-      设向量 $\xi$ 可由 $\alpha_1=(1,2,1)^{\mathrm{T}}$，$\alpha_2=(2,3,3)^{\mathrm{T}}$ 线性表出，也可由 $\beta_1=(-3,-2,-1)^{\mathrm{T}}$，$\beta_2=(-1,0,1)^{\mathrm{T}}$ 线性表出，则 $\xi=$\ExamBlank。
+      设向量 $\xi$ 可由 $\alpha_1=(1,2,1)^T, \alpha_2=(2,3,3)^T$ 线性表出，也可由 $\beta_1=(-3,-2,-1)^T, \beta_2=(-1,0,1)^T$ 线性表出，则 $\xi=\underline{\qquad\qquad}$
 - number: 17
   section: solution
-  points: 10
+  points: 12
   stem:
-    text: 设 $z=z(x,y)$ 是由方程 $(x+y)^2+(y+z)^2+(z+x)^2=12$ 所确定的函数，求 $z=z(x,y)$ 的极值。
+    text: 设 $z=z(x,y)$ 是由方程 $(x+y)^2+(y+z)^2+(z+x)^2=12$ 所确定的函数, 求 $z=z(x,y)$ 的极值
 - number: 18
   section: solution
   points: 12
   stem:
     text: |-
-      证明：对任意正整数 $n$，均有 $\dfrac{2}{2n+1}<\ln\dfrac{n+1}{n}<\dfrac{1}{\sqrt{n^2+n}}$。
+      证明：对任意正整数 $n$，均有 $\dfrac{2}{2n+1} < \ln\dfrac{n+1}{n} < \dfrac{1}{\sqrt{n^2+n}}$。
 - number: 19
   section: solution
   points: 12
   stem:
     text: |-
-      设函数 $f(x)$ 在 $(0,+\infty)$ 上连续，在 $x=1$ 处可导且 $f'(1)=1$；又对任意 $x,y\in(0,+\infty)$，恒有 $f(xy)=f(x)+f(y)$。
-  subparts:
-  - text: 求函数 $f(x)$；
-  - text: |-
-      计算 $\iint_Df(1+\sqrt{x^2+y^2})\,\mathrm{d}x\mathrm{d}y$，其中 $D=\{(x,y)\mid0\leq x\leq y\leq\sqrt{1-x^2}\}$。
+      设函数 $f(x)$ 在 $(0,+\infty)$ 上连续，在 $x=1$ 处可导且 $f'(1)=1$；又对任意 $x,y\in (0,+\infty)$，恒有 $ $f(xy)=f(x)+f(y).$ $ (1) \text{求函数} $f(x)$; (2) \text{计算} $\iint_{D} f(1+\sqrt{x^2+y^2})\,\mathrm{d}x\mathrm{d}y$,\text{其中} $D=\{(x,y)\mid 0\leqslant x\leqslant y\leqslant\sqrt{1-x^2}\}$。
 - number: 20
   section: solution
   points: 12
   stem:
     text: |-
-      计算二重积分 $\iint_D\lvert x-\lvert y\rvert\rvert\,\mathrm{d}\sigma$，其中 $D=\{(x,y)\mid x^2+y^2\leq2x,x\leq1\}$。
+      计算二重积分 $\iint_{D} |x-|y|| \mathrm{d}\sigma$，其中 $D=\{(x,y) \mid x^2+y^2 \leqslant 2x, x \leqslant 1\}$。
 - number: 21
   section: solution
   points: 12
   stem:
     text: |-
-      设 $g(x)$ 可导，$\lvert g'(x)\rvert<1$，且当 $a\leq x\leq b$ 时，$a<g(x)<b$，又 $x+g(x)-2f(x)=0$，若 $\{x_n\}$ 满足 $x_{n+1}=f(x_n)$，$n=0,1,2,\cdots$，$x_0\in[a,b]$。证明：
-  subparts:
-  - text: |-
-      存在唯一的 $\xi\in(a,b)$，使 $f(\xi)=\xi$；
-  - text: |-
-      $\lim_{n\to\infty}x_n$ 存在，并求其值。
+      设 $g(x)$ 可导, $|g'(x)| < 1$, 且当 $a \leqslant x \leqslant b$ 时, $a < g(x) < b$, 又 $x + g(x) - 2f(x) = 0$, 若 $\{x_n\}$ 满足 $x_{n+1} = f(x_n), n = 0, 1, 2, \cdots, x_0 \in [a, b]$. 证明: (1) 存在唯一的 $\xi \in (a, b)$, 使 $f(\xi) = \xi$; (2) $\lim_{n \to \infty} x_n$ 存在, 并求其值
 - number: 22
   section: solution
   points: 12
   stem:
     text: |-
-      设 $A$ 是 $3$ 阶矩阵，$\alpha_1,\alpha_2,\alpha_3$ 是线性无关的 $3$ 维列向量，且 $A\alpha_1=-\alpha_1-3\alpha_2-3\alpha_3$，$A\alpha_2=4\alpha_1+4\alpha_2+\alpha_3$，$A\alpha_3=-2\alpha_1+3\alpha_3$。
-  subparts:
-  - text: 求可逆矩阵 $P$，使得 $P^{-1}AP$ 为对角矩阵；
-  - text: 求 $A^*-6E$ 的秩。
-content_hash: 422e9e9fa3fd114af95acf504704eb445b7455b064340340eaf8d60f969952ca
+      设 $A$ 是 $3$ 阶矩阵, $\alpha_1,\alpha_2,\alpha_3$ 是线性无关的 $3$ 维列向量, 且 $A\alpha_1 = -\alpha_1 - 3\alpha_2 - 3\alpha_3, A\alpha_2 = 4\alpha_1 + 4\alpha_2 + \alpha_3, A\alpha_3 = -2\alpha_1 + 3\alpha_3$. (1) 求可逆矩阵 $P$, 使得 $P^{-1}AP$ 为对角矩阵; (2) 求 $A^* - 6E$ 的秩
+content_hash: 903a324521faaf1312300d8adcd9aa0cf475df795a06cbb7fc30d1756fe93fe2

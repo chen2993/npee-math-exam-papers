@@ -1,0 +1,286 @@
+schema_version: '3.0'
+paper:
+  series_key: lilin6
+  year: 2024
+  subject: math2
+  paper_no: 1
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $\lim\limits_{x\to a}\dfrac{f(x)-a}{x-a}=A$，则 $\lim\limits_{x\to a}\dfrac{\mathrm{e}^{f(x)}-\mathrm{e}^a}{\sin(x-a)}=$
+  choices:
+  - label: A
+    text: |-
+      $\mathrm{e}^a.$
+    figures: []
+  - label: B
+    text: |-
+      $\mathrm{e}^A.$
+    figures: []
+  - label: C
+    text: |-
+      $A\mathrm{e}^a.$
+    figures: []
+  - label: D
+    text: |-
+      $a\mathrm{e}^A.$
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)=\ln\left(1+x^{\dfrac{2}{3}}\right)-x^{\dfrac{2}{3}}$，则
+  choices:
+  - label: A
+    text: $f'(0)$ 不存在, $f''(0)$ 不存在
+    figures: []
+  - label: B
+    text: $f'(0)$ 存在, $f''(0)$ 不存在
+    figures: []
+  - label: C
+    text: $f'(0)$ 存在, $f''(0)$ 存在
+    figures: []
+  - label: D
+    text: $f'(x)$ 在 $x=0$ 处不连续
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)=\lim_{n\to\infty}\dfrac{-x+x\mathrm{e}^{nx}}{1+\mathrm{e}^{nx}}$，则 $F(x)=\int_{0}^{x}f(t)\mathrm{d}t$ 是
+  choices:
+  - label: A
+    text: 可导的偶函数
+    figures: []
+  - label: B
+    text: 可导的奇函数
+    figures: []
+  - label: C
+    text: 连续但不可导的偶函数
+    figures: []
+  - label: D
+    text: 连续但不可导的奇函数
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设方程 $\tan x = ax$ 在 $\left(0, \dfrac{\pi}{4}\right)$ 内有实根, 则常数 $a$ 的取值范围为
+  choices:
+  - label: A
+    text: |-
+      $1 < a < \dfrac{4}{\pi}.$
+    figures: []
+  - label: B
+    text: |-
+      $0 < a < \dfrac{4}{\pi} - 1.$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{4}{\pi} - 1 < a < 1.$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{4}{\pi} - 1 < a < \dfrac{4}{\pi}.$
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设积分 $I=\int_0^{+\infty} \dfrac{\ln(1+x)}{x^p} \mathrm{d}x$ 收敛，则
+  choices:
+  - label: A
+    text: $1<p<2.$
+    figures: []
+  - label: B
+    text: $0<p<2.$
+    figures: []
+  - label: C
+    text: |-
+      $0<p\leqslant 1.$
+    figures: []
+  - label: D
+    text: $p>1.$
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $y_1 = \mathrm{e}^{-x}, y_2 = 2x$ 是常系数齐次线性微分方程 $y''' + ay'' + by' + cy = 0$ 的两个解，则该方程的通解可为
+  choices:
+  - label: A
+    text: |-
+      $c_1\mathrm{e}^{-x} + c_2 + c_3x.$
+    figures: []
+  - label: B
+    text: |-
+      $c_1\mathrm{e}^{-x} + c_2\mathrm{e}^x + c_3x.$
+    figures: []
+  - label: C
+    text: |-
+      $c_1\mathrm{e}^{-x} + c_2\mathrm{e}^x + c_3.$
+    figures: []
+  - label: D
+    text: |-
+      $c_1\mathrm{e}^{-x} + c_2x\mathrm{e}^x + c_3.$
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $D$ 是以 $(1,1),(-1,1)$ 和 $(-1,-1)$ 为顶点的三角形区域, $D_1$ 是 $D$ 在第一象限的部分, 且 $f(x,y)=xy+\iint_D f(x,y)\mathrm{d}x\mathrm{d}y$. 其中 $f(x,y)$ 是 $D$ 上的连续函数, 则
+  choices:
+  - label: A
+    text: |-
+      $\iint_D f(x,y)\mathrm{d}x\mathrm{d}y=\iint_{D_1} f(x,y)\mathrm{d}x\mathrm{d}y.$
+    figures: []
+  - label: B
+    text: |-
+      $\iint_D f(x,y)\mathrm{d}x\mathrm{d}y=2\iint_{D_1} f(x,y)\mathrm{d}x\mathrm{d}y.$
+    figures: []
+  - label: C
+    text: |-
+      $\iint_D f(x,y)\mathrm{d}x\mathrm{d}y=\iint_D f(y,x)\mathrm{d}x\mathrm{d}y.$
+    figures: []
+  - label: D
+    text: |-
+      $\iint_D f(x,y)\mathrm{d}x\mathrm{d}y=2\iint_{D_1} f(y,x)\mathrm{d}x\mathrm{d}y.$
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设向量组 $\alpha_1=(1,1,a)^T,\alpha_2=(1,-2,b)^T,\alpha_3=(-2,1,c)^T$ 的秩为 $a$，若 $\beta=(1,2,0)^T$，可由 $\alpha_1,\alpha_2,\alpha_3$ 线性表示，且表示法不唯一，则
+  choices:
+  - label: A
+    text: $a=2,b=8,c=-10$
+    figures: []
+  - label: B
+    text: $a=2,b=8,c=10$
+    figures: []
+  - label: C
+    text: $a=1,b=-8,c=10$
+    figures: []
+  - label: D
+    text: $a=1,b=-8,c=-10$
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 是 3 阶实对称矩阵, $\alpha = (-1,1,1)^T$ 满足 $(A-2E)\alpha = 0$, 且 $r(A) = 1$, 则方程组 $Ax = 0$ 的基础解系为
+  choices:
+  - label: A
+    text: $(1, 1, 0)^T, (1, 0, 1)^T.$
+    figures: []
+  - label: B
+    text: $(1, 1, 1)^T, (1, -1, 0)^T.$
+    figures: []
+  - label: C
+    text: $(1, 1, -1)^T, (-1, 0, 1)^T.$
+    figures: []
+  - label: D
+    text: $(1, 1, 0)^T, (-1, 0, 1)^T.$
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A=\begin{bmatrix} 1 & 2 \\ 2 & 1 \end{bmatrix}, B=\begin{bmatrix} 1 & 4 \\ 1 & 1 \end{bmatrix}$，则正确的是
+  choices:
+  - label: A
+    text: 必存在正交矩阵 $Q$, 使得 $Q^{-1}AQ=B.$
+    figures: []
+  - label: B
+    text: 必存在可逆矩阵 $P$, 使得 $P^{-1}AP=B.$
+    figures: []
+  - label: C
+    text: 必存在可逆矩阵 $P$, 使得 $P^TAP=B.$
+    figures: []
+  - label: D
+    text: 必存在可逆矩阵 $P$, 使得 $A=P^TP.$
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $f(x)=x^{x}(1-x)^{1-x}$ 在 $x \in(0,1)$ 内的最小值为 $\underline{\qquad\qquad}$
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $y = xz, z = z(x, y)$ 由方程 $\dfrac{x}{z} = \ln \dfrac{z}{y}$ 确定，则 $\left.\dfrac{\mathrm{d}y}{\mathrm{d}x}\right|_{x=\dfrac{1}{\mathrm{e}}} = \underline{\qquad\qquad}$
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $y=y(x)$ 由 $\begin{cases} x=\int_0^t 2\mathrm{e}^{-u^2}\mathrm{d}u \\ y=\int_0^t \sin(t-u)\mathrm{d}u \end{cases}$ 确定，则 $y=y(x)$ 在 $t=0$ 对应点处的曲率为$\underline{\qquad\qquad}$
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $D=\left\{(x, y) \mid(x-2)^{2}+y^{2} \leqslant 1\right\}$，则 $D$ 绕 $y$ 轴旋转一周所得旋转体的体积为$\underline{\qquad\qquad}$
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $I=\int_0^1 \mathrm{d}x \int_{x^2}^1 \dfrac{xy}{\sqrt{1+y^3}} \mathrm{d}y = \underline{\hspace{2cm}}.$
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      已知 $3$ 阶矩阵 $A$ 满足 $|A|=\dfrac{1}{2}$，则行列式 $\left|(2A)^{-1}-(2A)^*\right|=\underline{\hspace{2cm}}$
+- number: 17
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $f(x)$ 在 $(-\infty, +\infty)$ 内有二阶连续导数，函数 $u(x,y)$ 的全微分为 $\mathrm{d}u = y[\mathrm{e}^x + f'(x)]\mathrm{d}x + f'(x)\mathrm{d}y$，且 $f(0) = f'(0) = 1$. $(\mathrm{I})$ 求 $f(x)$; $(\mathrm{II})$ 求 $f(x)$ 的单调区间与极值
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      经过曲线 $y=y(x)$ 上点 $P(x,y)$ 作 $x$ 轴垂线交于点 $M(x,0)$，曲线上点 $P(x,y)$ 处的切线为 $PT$，已知点 $M$ 到切线 $PT$ 的距离等于 1，且 $y(0)=1$. (I) 求 $y=y(x)$; (II) 求曲线 $y=y(x),x\in[-1,1]$ 的弧长
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $u=u(\sqrt{x^2+y^2})$ 有二阶连续偏导数，且满足 $x\dfrac{\partial u}{\partial x}+y\dfrac{\partial u}{\partial y}=\dfrac{1}{2}(x^2+y^2), u(0,0)=0$. $(I)$ 求 $u(x,y)$; $(II)$ 求 $f(x,y)=u(x,y)\mathrm{e}^{-u(x,y)}$ 的极值
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $D=\{(x,y)|\sqrt{1-x^2}\leqslant y\leqslant \sqrt{4-x^2},-x\leqslant y,y\geqslant 0\}$，计算 $I=\iint_{D}\dfrac{\sqrt{x^2+y^2}}{x^2+2y^2}\mathrm{d}x\mathrm{d}y$
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $a_n = \int_0^\pi x\sin^n x\mathrm{d}x \quad (n=1,2,\cdots)$. (I) 证明$:a_n = \dfrac{n-1}{n}a_{n-2} \quad (n=3,4,\cdots)$； (II) 求 $\lim\limits_{n\to\infty}\dfrac{a_n}{a_{n-1}}$
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: 已知二次型 $f(x_1,x_2,x_3) = x_1^2 + 2x_2^2 + ax_3^2 + 2x_1x_3$ 经可逆线性变换 $X=PY$ 化为 $y_1^2 + y_3^2$. (I) 求 $a$ 的值及可逆矩阵 $P$； (II) 当 $X=(x_1,x_2,x_3)^T$ 且 $X^TX=1$ 时，求 $f(x_1,x_2,x_3)$ 的最大值，并求满足 $x_1=x_2>0$ 的最大值点
+content_hash: f6470f99dc1da41e04ac53b67682f570a944ac950591a9ba755bf7b4d2eb8ce8

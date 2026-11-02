@@ -1,0 +1,295 @@
+schema_version: '3.0'
+paper:
+  series_key: yubingsen5
+  year: 2023
+  subject: math1
+  paper_no: 3
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x) = \max\limits_{x \geqslant 0}\left\{\sin x, x - \dfrac{x^3}{3}\right\}, g(x) = \min\limits_{x \geqslant 0}\left\{\sin x, x - \dfrac{x^3}{3}\right\}$，若 $\lambda = \min\limits_{x \geqslant 0} f(x), \mu = \max\limits_{x \geqslant 0} g(x)$，则 $(\quad)$
+  choices:
+  - label: A
+    text: |-
+      $\lambda = \mu$
+    figures: []
+  - label: B
+    text: |-
+      $\lambda = -\mu$
+    figures: []
+  - label: C
+    text: |-
+      $\lambda > \mu$
+    figures: []
+  - label: D
+    text: |-
+      $\lambda < \mu$
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x)$ 在 $[0, +\infty)$ 上具有二阶连续导数, $f(0)=f'(0)=0, f''(0)=1$. 对于任意的 $x>0, u(x)$ 表示曲线 $y=f(x)$ 在点 $(x, f(x))$ 处的切线在 $x$ 轴上的截距, 则当 $x\to 0^+$ 时, 下列等价无穷小不成立的是( )
+  choices:
+  - label: A
+    text: |-
+      $f'(x) \sim x$
+    figures: []
+  - label: B
+    text: |-
+      $\int_0^x u(t)\mathrm{d}t \sim \dfrac{1}{4}x^2$
+    figures: []
+  - label: C
+    text: |-
+      $\int_0^x f(t)\mathrm{d}t \sim \dfrac{1}{8}x^3$
+    figures: []
+  - label: D
+    text: |-
+      $\int_0^{f(x)} u(t)\mathrm{d}t \sim \dfrac{1}{16}x^4$
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      若 $f(x),g(x)$ 在 $[0,1]$ 上满足 $f''(x) > 0, g'(x) > 2$，且 $f(0) = g(0) = 0, f(1) = 2$，则定积分 $I_1 = \int_0^1 f(x)\mathrm{d}x, I_2 = \int_0^1 g(x)\mathrm{d}x, I_3 = \int_0^1 2x\mathrm{d}x$ 之间的大小关系为（ ）
+  choices:
+  - label: A
+    text: |-
+      $I_1 \geqslant I_2 \geqslant I_3$
+    figures: []
+  - label: B
+    text: |-
+      $I_3 \geqslant I_2 \geqslant I_1$
+    figures: []
+  - label: C
+    text: |-
+      $I_2 \geqslant I_3 \geqslant I_1$
+    figures: []
+  - label: D
+    text: |-
+      $I_2 \geqslant I_1 \geqslant I_3$
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: 下列数项级数中,发散的是( )
+  choices:
+  - label: A
+    text: |-
+      $\sum_{n=1}^{\infty} \dfrac{1}{3^{\ln n}}$
+    figures: []
+  - label: B
+    text: |-
+      $\sum_{n=1}^{\infty} \dfrac{1}{2^{\ln n}}$
+    figures: []
+  - label: C
+    text: |-
+      $\sum_{n=1}^{\infty} \dfrac{1}{3^{\sqrt{n}}}$
+    figures: []
+  - label: D
+    text: |-
+      $\sum_{n=1}^{\infty} \dfrac{1}{2^{\sqrt{n}}}$
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设线性方程组 $Ax = \alpha$ 有解$,\begin{pmatrix} A \\ B \end{pmatrix} x = \begin{pmatrix} \alpha \\ \beta \end{pmatrix}$ 无解，则下列结论中不正确的是（ ）
+  choices:
+  - label: A
+    text: |-
+      $r(B, \beta) = r(B) + 1$
+    figures: []
+  - label: B
+    text: |-
+      $r\begin{pmatrix} A & \alpha \\ B & \beta \end{pmatrix} = r\begin{pmatrix} A \\ B \end{pmatrix} + 1$
+    figures: []
+  - label: C
+    text: |-
+      $r[B^T(B, \beta)] = r(B^T B)$
+    figures: []
+  - label: D
+    text: |-
+      $r\left[(A^T, B^T)\begin{pmatrix} A & \alpha \\ B & \beta \end{pmatrix}\right] = r\left[(A^T, B^T)\begin{pmatrix} A \\ B \end{pmatrix}\right]$
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 为 3 阶实对称矩阵$,P = (\alpha_1, \alpha_2, \alpha_3)$ 为 3 阶实可逆矩阵$,B = P^T AP$，则 ( $\quad$ )
+  choices:
+  - label: A
+    text: $A$ 与 $B$ 相似
+    figures: []
+  - label: B
+    text: $A$ 与 $B$ 有相同的特征值
+    figures: []
+  - label: C
+    text: |-
+      设 $Q = (\alpha_2, \alpha_1, \alpha_3)$，则 $Q^T AQ = B$
+    figures: []
+  - label: D
+    text: |-
+      令 $C = (\alpha_1 + \alpha_2, \alpha_2 + \alpha_3, \alpha_3 + \alpha_1)$ $,D = C^T AC$，则二次型 $f = x^T Ax$ 与 $f = x^T Dx$ 有相同的正负惯性指数
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: 设 $n$ 阶矩阵 $A,B$ 满足 $r(A) + r(B) < n$, 则下列结论中不正确的是 ( )
+  choices:
+  - label: A
+    text: $A$ 与 $B$ 有公共的特征值
+    figures: []
+  - label: B
+    text: |-
+      方程组 $\begin{pmatrix} A \\ B \end{pmatrix} x = 0$ 有非零解
+    figures: []
+  - label: C
+    text: $AB$ 与 $BA$ 相似
+    figures: []
+  - label: D
+    text: $A + B$ 的列向量组线性相关
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设随机变量 $X \sim U(-1,2)$, $g(t)$ 为连续函数, $Y=g(|X|+|1-X|)$, 则 $Cov(X, Y)(\quad)$
+  choices:
+  - label: A
+    text: 等于 $-1$
+    figures: []
+  - label: B
+    text: 等于 $0$
+    figures: []
+  - label: C
+    text: 等于 $2$
+    figures: []
+  - label: D
+    text: 与 $g(t)$ 有关
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设随机变量 $X_1, X_2$ 独立同分布$,X_i \sim \begin{pmatrix} -1 & 1 \\ \dfrac{1}{2} & \dfrac{1}{2} \end{pmatrix}, i=1,2$. 令 $X_3 = X_1 X_2$，现有下列四个结论： ① $X_1$ 与 $X_3$ 同分布；② $X_1$ 和 $X_3$ 相互独立； ③ 事件 $\{X_1=1\}, \{X_2=1\}, \{X_3=1\}$ 两两独立；④ 事件 $\{X_1=1\}, \{X_2=1\}, \{X_3=1\}$ 相互独立. 其中正确的个数为（ ）
+  choices:
+  - label: A
+    text: '1'
+    figures: []
+  - label: B
+    text: '2'
+    figures: []
+  - label: C
+    text: '3'
+    figures: []
+  - label: D
+    text: '4'
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设总体 $(X, Y) \sim N(\mu_1, \mu_2; \sigma^2, \sigma^2; 0)$ $,(X_1, Y_1), (X_2, Y_2), \cdots, (X_n, Y_n)\,(n>1)$ 是来自总体 $(X, Y)$ 的简单随机样本，记 $\overline{X} = \dfrac{1}{n} \sum_{i=1}^n X_i, \overline{Y} = \dfrac{1}{n} \sum_{i=1}^n Y_i, S_1^2 = \dfrac{1}{n-1} \sum_{i=1}^n (X_i-\overline{X})^2, S_2^2 = \dfrac{1}{n-1} \sum_{i=1}^n (Y_i-\overline{Y})^2$，则下列结论中不正确的是（ ）
+  choices:
+  - label: A
+    text: |-
+      $n\overline{X} \sim N(n\mu_1, n\sigma^2)$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{\overline{X} - \overline{Y} - (\mu_1 - \mu_2)}{\sqrt{\dfrac{S_1^2 + S_2^2}{n}}} \sim t(2n-2)$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{S_1^2}{S_2^2} \sim F(n-1, n-1)$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{(n-1)(S_1^2 + S_2^2)}{\sigma^2} \sim \chi^2(2n)$
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)=\int_{1}^{x}\mathrm{e}^{t^2}\mathrm{d}t$ $,x=g(y)$ 是函数 $y=f(x)$ 的反函数，则 $g''(0)=\underline{\qquad\qquad}$
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设函数 $y=y(x)$ 满足 $\Delta y = \dfrac{1-x}{\sqrt{2x-x^2}} \Delta x + o(\Delta x)$ 且 $y(1) = 1$，则 $\int_0^2 \dfrac{\mathrm{d}x}{y} = \underline{\hspace{3em}}$
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      对于任意的光滑封闭曲面 $\Sigma$（取外侧）$,I = \oiint_{\Sigma} (x^3 - x) \mathrm{d}y\mathrm{d}z + (3yz^2 + y) \mathrm{d}z\mathrm{d}x + 3(y^2z - z^2) \mathrm{d}x\mathrm{d}y$ 的最小值为______
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $a_n = \dfrac{2}{\pi} \int_0^\pi x^2 \cos nx \mathrm{d}x, n = 0, 1, 2, \cdots$，则 $\sum_{n=0}^\infty (-1)^n a_n = $ lank
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $n$ 阶行列式 $\begin{vmatrix} 1 & 2 & 3 & \cdots & n-1 & n \\ -1 & 1 & 0 & \cdots & 0 & 0 \\ 0 & -1 & 1 & \cdots & 0 & 0 \\ \vdots & \vdots & \vdots & & \vdots & \vdots \\ 0 & 0 & 0 & \cdots & -1 & 1 \end{vmatrix} = \underline{\hspace{2.5em}}.$
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设食品某天的价格为 $60$ 元/千克, 此后每天该食品每千克的价格在前一天的基础上改变量 (单位: 元) 服从 $(-1,1)$ 上的均匀分布, 且各改变量相互独立, 用中心极限定理得 $48$ 天后 (不含当天) 该食品每千克的价格在 $60$ 元与 $64$ 元之间的概率为\underline{\quad\quad\quad\quad}. ($\Phi(1)=0.8413$)
+- number: 17
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 $f(x) = \begin{cases} \dfrac{\mathrm{e}^x - 1}{x}, & x \neq 0, \\ 1, & x = 0, \end{cases}$ 求曲线 $y = \dfrac{\int_0^x f(t) \mathrm{d}t}{x}$ 的渐近线
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设可微函数 $f(x,y)$ 满足 $\dfrac{\partial f(x,y)}{\partial x}=-f(x,y)$, $\lim\limits_{n\to\infty}\left[\dfrac{f\left(0,y+\dfrac{1}{n}\right)}{f(0,y)}\right]^n=\mathrm{e}^{\cot y}$, 且 $f\left(0,\dfrac{\pi}{2}\right)=1$, 求 $f(x,y)$
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      已知曲线积分 $\int_L (1+xy)\mathrm{e}^{xy}\mathrm{d}x + \varphi(x)\mathrm{e}^{xy}\mathrm{d}y$ 与路径无关，其中 $\varphi(x)$ 为可导函数. (1) 求 $\varphi(x)$； (2) 求 $(1+xy)\mathrm{e}^{xy}\mathrm{d}x + \varphi(x)\mathrm{e}^{xy}\mathrm{d}y$ 的一个原函数 $u(x,y)$； (3) 计算 $I = \int_L [(1+xy)\mathrm{e}^{xy} + \sin y]\mathrm{d}x + [x^2\mathrm{e}^{xy} + x(\sin x + \cos y)]\mathrm{d}y$，其中 $L$ 为从点 $(-1,1)$ 沿 $y=x^2$ 到点 $(1,1)$ 的一段有向曲线
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      计算 $I = \int_{0}^{\dfrac{1}{2}} \mathrm{d}y \int_{y}^{\dfrac{1}{2}} \dfrac{\ln(1+x)}{x} \mathrm{d}x$; (2) 求 $\dfrac{\ln(1+x)}{x}$ 关于 $x$ 的幂级数展开式，并利用 (1) 求 $\sum_{n=1}^{\infty} (-1)^{n-1} \dfrac{1}{n(n+1)} \dfrac{1}{2^n}$ 的和
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设方阵 $A=\begin{pmatrix} a & 1 & 1 \\ 1 & a & -1 \\ 1 & -1 & a \end{pmatrix}$. (1) 求正交矩阵 $Q$，使得 $Q^{-1}AQ$ 为对角矩阵； (2) 常数 $a$ 满足什么条件时$,A-E$ 为正定矩阵； (3) 当 $A-E$ 为正定矩阵时，求可逆对称阵 $U$，使得 $U^{\mathrm{T}}U=A-E$
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设总体 $(X, Y)$ 的分布函数为 $ $F(x, y) = \begin{cases} 0, & x < 0 \text{ \text{或} } y < \theta, \\ p\left[1 - \mathrm{e}^{-(y - \theta)}\right], & 0 \leqslant x < 1, y \geqslant \theta, \\ 1 - \mathrm{e}^{-(y - \theta)}, & x \geqslant 1, y \geqslant \theta, \end{cases}$ $ \text{其中} $p, \theta$ \text{为未知参数},\text{且} $0 < p < 1$\text{．} (1) \text{分别求} $X$ \text{的分布律和} $Y$ \text{的密度函数}; (2) \text{利用来自总体} $X$ \text{的简单随机样本} $(X_1, X_2, \cdots, X_n)$,\text{分别求} $p$ \text{的矩估计量} $\hat{p}_M$ \text{和极大似然估计量} $\hat{p}_L$; (3) \text{利用来自总体} $Y$ \text{的简单随机样本} $(Y_1, Y_2, \cdots, Y_n)$,\text{分别求} $\theta$ \text{的矩估计量} $\hat{\theta}_M$ \text{和极大似然估计量} $\hat{\theta}_L$．
+content_hash: d98379da03f80f734223054a1a988680e440e3689395afd2c81af211070fbec1

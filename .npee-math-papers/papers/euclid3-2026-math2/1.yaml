@@ -10,96 +10,103 @@ questions:
   points: 5
   stem:
     text: |-
-      设函数 $y=y(x)$ 由方程 $x=\int_1^{x+y}e^{-t^2}\,\mathrm{d}t$ 确定，则 $\lim_{x\to0}y^{\dfrac{1}{x}}=$\ExamSelection。
+      设函数 $ $y=y(x)$ $ \text{由方程} $ $x=\int_1^{x+y}\mathrm{e}^{-t^2}\,\mathrm{d}t$ $ \text{确定},\text{则} $ $\lim\limits_{x\to 0}y^{\dfrac{1}{x}}=$ $( )
   choices:
   - label: A
-    text: $e$
+    text: |-
+      \(e\)
     figures: []
   - label: B
-    text: $e^e$
+    text: |-
+      \(e^e\)
     figures: []
   - label: C
-    text: $e^{e-1}$
+    text: |-
+      \(e^{e-1}\)
     figures: []
   - label: D
-    text: $e^{e+1}$
+    text: |-
+      \(e^{e+1}\)
     figures: []
 - number: 2
   section: choice
   points: 5
   stem:
     text: |-
-      $\lim_{n\to\infty}\sin\dfrac{(-1)^n}{n}\left[\cos\left(\sqrt{n^2+1\pi}\right)+\cos\left(\sqrt{n^2+2\pi}\right)+\cdots+\cos\left(\sqrt{n^2+n\pi}\right)\right]=$\ExamSelection。
+      求极限 \( \lim\limits_{n\to\infty}\sin\dfrac{(-1)^n}{n}\left[\cos(\sqrt{n^2+1}\pi)+\cos(\sqrt{n^2+2}\pi)+\cdots+\cos(\sqrt{n^2+n}\pi)\right]= \)( )。
   choices:
   - label: A
-    text: $0$
+    text: |-
+      \(0\)
     figures: []
   - label: B
     text: |-
-      $\dfrac{\pi}{2}$
+      \( \dfrac\pi2 \)
     figures: []
   - label: C
     text: |-
-      $\dfrac{2}{\pi}$
+      \( \dfrac2\pi \)
     figures: []
   - label: D
-    text: $1$
+    text: |-
+      \(1\)
     figures: []
 - number: 3
   section: choice
   points: 5
   stem:
     text: |-
-      设 $f(x)$ 为 $(-\infty,+\infty)$ 上的连续函数，已知微分方程 $y'+(\sin x)y=f(x)$ 的解 $y(x)$ 满足 $y(1)=0$，则下列说法中正确的是\ExamSelection。
+      设 \(f(x)\) 为 \((-\infty, +\infty)\) 上的连续函数，已知微分方程 \(y'+(\sin x)y=f(x)\) 的解 \(y(x)\) 满足 \(y(1)=0\)，则下列说法中正确的是( )。
   choices:
   - label: A
-    text: 若 $f(x)$ 是偶函数，则 $y(x)$ 是奇函数
+    text: |-
+      若 \(f(x)\) 是偶函数， 则 \(y(x)\) 是奇函数
     figures: []
   - label: B
-    text: 若 $y(x)$ 是奇函数，则 $f(x)$ 是偶函数
+    text: |-
+      若 \(y(x)\) 是奇函数， 则 \(f(x)\) 是偶函数
     figures: []
   - label: C
-    text: 若 $f(x)$ 是有界函数，则 $y(x)$ 也是有界函数
+    text: |-
+      若 \(f(x)\) 是有界函数， 则 \(y(x)\) 也是有界函数
     figures: []
   - label: D
-    text: 若 $y(x)$ 是有界函数，则 $f(x)$ 也是有界函数
+    text: |-
+      若 \(y(x)\) 是有界函数， 则 \(f(x)\) 也是有界函数
     figures: []
 - number: 4
   section: choice
   points: 5
   stem:
     text: |-
-      设 $f(x)$ 是 $[0,1]$ 上二阶可导的正值函数，$f'(0)=1$ 且 $f'^2(x)<f(x)f''(x)$，则下列说法正确的是\ExamSelection $\text{\textcircled{1}}\ f(1)>f(0)$；$\text{\textcircled{2}}\ f(1)<f(0)$；$\text{\textcircled{3}}\ f(0)f(1)>f^2\left(\dfrac{1}{2}\right)$；$\text{\textcircled{4}}\ f(0)f(1)<f^2\left(\dfrac{1}{2}\right)$.
+      设 \(f(x)\) 是 \([0,1]\) 上二阶可导的正值函数，\(f'(0)=1\)，且 \([f'(x)]^2f(0);\quad ②\ f(1)f^2\left(\frac12\right);\quad ④\ f(0)f(1)<f^2\left(\frac12\right) \) 。
   choices:
   - label: A
-    text: ①③
+    text: |-
+      \(①③\)
     figures: []
   - label: B
-    text: ①④
+    text: |-
+      \(①④\)
     figures: []
   - label: C
-    text: ②③
+    text: |-
+      \(②③\)
     figures: []
   - label: D
-    text: ②④
+    text: |-
+      \(②④\)
     figures: []
 - number: 5
   section: choice
   points: 5
   stem:
     text: |-
-      如图所示，半径为 $1$ 的半圆薄片完全浸在水中，水面与 $y=0$ 平齐，设水的密度为 $1$，重力加速度为 $10$，则水对该薄片单侧的压力为\ExamSelection。
-    figures:
-    - kind: tikz
-      latex: |-
-        \begin{tikzpicture}[>=stealth,scale=0.7]\draw[->] (-2,0)--(2,0) node[right] {$x$};\draw[->] (0,0)--(0,-2.3) node[below] {$y$};\draw (-1,-1) arc (180:0:1);\draw (-1,-1)--(1,-1);\node[above left] at (0,0) {$O$};\node[left] at (0,-1) {$1$};\end{tikzpicture}
-      path:
-      description: 以水面为 x 轴、向下为 y 轴的半圆薄片
-      exception_reason:
+      如图所示，半径为$1$的半圆薄片完全浸在水中，水面与$y=0$平齐，设$\rho g=10$，则水对该薄片单侧的压力为（ ）
   choices:
   - label: A
     text: |-
-      $\dfrac{5\pi}{2}-\dfrac{10}{3}$
+      $\dfrac{5\pi}{2} - \dfrac{10}{3}$
     figures: []
   - label: B
     text: |-
@@ -107,202 +114,196 @@ questions:
     figures: []
   - label: C
     text: |-
-      $5\pi-\dfrac{20}{3}$
+      $5\pi - \dfrac{20}{3}$
     figures: []
   - label: D
-    text: |-
-      $\dfrac{10}{3}$
+    text: 以上选项均不正确
     figures: []
 - number: 6
   section: choice
   points: 5
   stem:
     text: |-
-      设当 $(x,y)\to(0,0)$ 时，$f(2025x+e^x,2026y+e^y)=1+x+y+o(\sqrt{x^2+y^2})$，且函数 $f(x,y)$ 在点 $(1,1)$ 处可微，则 $f'_x(1,1)=$\ExamSelection。
+      设当 \((x,y)\to(0,0)\) 时，\( f(2025x+e^x,2026y+e^y)=1+x+y+o\left(\sqrt{x^2+y^2}\right) \) ，且函数 \(f(x,y)\) 在点 \((1,1)\) 处可微，则 \(f'_x(1,1)=\)( )。
   choices:
   - label: A
-    text: $2025$
+    text: |-
+      \(2025\)
     figures: []
   - label: B
-    text: $2026$
+    text: |-
+      \(2026\)
     figures: []
   - label: C
     text: |-
-      $\dfrac{1}{2025}$
+      \( \dfrac{1}{2025} \)
     figures: []
   - label: D
     text: |-
-      $\dfrac{1}{2026}$
+      \( \dfrac{1}{2026} \)
     figures: []
 - number: 7
   section: choice
   points: 5
   stem:
     text: |-
-      若 $f(x)$ 在 $x=0$ 处的左右导数均存在，且 $f'_+(0)\cdot f'_-(0)<0$，则下列选项错误的是\ExamSelection。
+      若 \(f(x)\) 在 \(x=0\) 处的左右导数均存在，且 \(f'_+(0)f'_-(0)<0\)，则下列选项错误的是( )。
   choices:
   - label: A
-    text: $f(x)$ 在 $x=0$ 处连续
+    text: |-
+      \(f(x)\) 在 \(x=0\) 处连续
     figures: []
   - label: B
-    text: $f(x)$ 在 $x=0$ 处取得极值
+    text: |-
+      \(f(x)\) 在 \(x=0\) 处取得极值
     figures: []
   - label: C
-    text: $f^2(x)$ 在 $x=0$ 处取得极值
+    text: |-
+      \(f^2(x)\) 在 \(x=0\) 处取得极值
     figures: []
   - label: D
-    text: $f^2(x)$ 在 $x=0$ 处可导
+    text: |-
+      \(f^2(x)\) 在 \(x=0\) 处可导
     figures: []
 - number: 8
   section: choice
   points: 5
   stem:
     text: |-
-      设矩阵 $\mathbf{A}=(\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3,\boldsymbol{\alpha}_4,\boldsymbol{\alpha}_5)$ 经过若干次初等行变换后化为 $\begin{pmatrix}1&0&2&1&1\\0&1&-1&1&2\\0&0&0&0&0\end{pmatrix}$，并设 $\mathbf{B}=(\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2)$，若 $\mathbf{A}=\mathbf{BC}$，则\ExamSelection。
+      设矩阵 \(A=(\alpha_1, \alpha_2, \alpha_3, \alpha_4, \alpha_5)\) 经过若干次初等行变换后化为\( \begin{pmatrix}1&0&2&1&1\\0&1&-1&1&2\\0&0&0&0&0\end{pmatrix} \) ，并设 \(B=(\alpha_1, \alpha_2)\)，若 \(A=BC\)，则( )。
   choices:
   - label: A
     text: |-
-      $\mathbf{A},\mathbf{B}$ 的列向量组不等价，$\mathbf{A},\mathbf{C}$ 的行向量组不等价
+      \(A,B\) 的列向量组不等价， \(A,C\) 的行向量组不等价
     figures: []
   - label: B
     text: |-
-      $\mathbf{A},\mathbf{B}$ 的列向量组等价，$\mathbf{A},\mathbf{C}$ 的行向量组不等价
+      \(A,B\) 的列向量组等价， \(A,C\) 的行向量组等价
     figures: []
   - label: C
     text: |-
-      $\mathbf{A},\mathbf{B}$ 的列向量组等价，$\mathbf{A},\mathbf{C}$ 的行向量组等价
+      \(A,B\) 的列向量组等价， \(A,C\) 的行向量组不等价
     figures: []
   - label: D
     text: |-
-      $\mathbf{A},\mathbf{B}$ 的列向量组不等价，$\mathbf{A},\mathbf{C}$ 的行向量组等价
+      \(A,B\) 的列向量组不等价， \(A,C\) 的行向量组等价
     figures: []
 - number: 9
   section: choice
   points: 5
   stem:
     text: |-
-      设矩阵 $\mathbf{A}=\begin{pmatrix}4&2&-3\\a&3&-4\\b&5&-7\end{pmatrix}$，若方程组 $\mathbf{A}^2\mathbf{x}=0$ 与 $\mathbf{A}\mathbf{x}=0$ 不同解，则\ExamSelection。
+      设矩阵 \(A=\begin{pmatrix}4&2&-3\\a&3&-4\\b&5&-7\end{pmatrix}\)，若方程组 \(A^2x=0\) 与 \(Ax=0\) 不同解，则( )。
   choices:
   - label: A
     text: |-
-      $\mathbf{A}$ 不可相似对角化，$\mathbf{A}^2$ 不可相似对角化
+      \(A\) 不可相似对角化， \(A^2\) 不可相似对角化
     figures: []
   - label: B
     text: |-
-      $\mathbf{A}$ 可相似对角化，$\mathbf{A}^2$ 不可相似对角化
+      \(A\) 可相似对角化， \(A^2\) 可相似对角化
     figures: []
   - label: C
     text: |-
-      $\mathbf{A}$ 可相似对角化，$\mathbf{A}^2$ 可相似对角化
+      \(A\) 可相似对角化， \(A^2\) 不可相似对角化
     figures: []
   - label: D
     text: |-
-      $\mathbf{A}$ 不可相似对角化，$\mathbf{A}^2$ 可相似对角化
+      \(A\) 不可相似对角化， \(A^2\) 可相似对角化
     figures: []
 - number: 10
   section: choice
   points: 5
   stem:
     text: |-
-      设 $\boldsymbol{\alpha},\boldsymbol{\beta}$ 均为 $3$ 维单位列向量，$\boldsymbol{\alpha}^{\mathsf{T}}\boldsymbol{\beta}=k$，$\mathbf{A}=\boldsymbol{\alpha}\boldsymbol{\beta}^{\mathsf{T}}+\boldsymbol{\beta}\boldsymbol{\alpha}^{\mathsf{T}}$，若二次型 $f(x_1,x_2,x_3)=\mathbf{x}^{\mathsf{T}}\mathbf{A}\mathbf{x}$ 的正负惯性指数均为 $1$，则 $k$ 的取值范围是\ExamSelection。
+      设 \(\alpha, \beta\) 均为 \(3\) 维单位列向量，\(\alpha^T\beta=k\) ， \(A=\alpha\beta^T+\beta\alpha^T\)。若二次型 \(f(x_1,x_2,x_3)=x^TAx\) 的正负惯性指数均为 \(1\)，则 \(k\) 的取值范围是( )。
   choices:
   - label: A
-    text: $(-1,0)$
+    text: |-
+      \((-1,0)\)
     figures: []
   - label: B
-    text: $(0,1)$
+    text: |-
+      \((0,1)\)
     figures: []
   - label: C
-    text: $(-1,1)$
+    text: |-
+      \((-1,1)\)
     figures: []
   - label: D
-    text: $[-1,1]$
+    text: |-
+      \([-1,1]\)
     figures: []
 - number: 11
   section: fill
   points: 5
   stem:
     text: |-
-      设 $f(x)=\begin{cases}\arctan\dfrac{1}{[x]},&x<0,\\ax+b,&x\geq0,\end{cases}$，其中 $[x]$ 表示不超过 $x$ 的最大整数。若 $f(x)$ 在 $x=0$ 处可导，则 $a-b=$\ExamBlank。
+      设 \( f(x)=\begin{cases}\arctan\frac1{[x]}, &x<0, \\ ax+b, &x\ge0, \end{cases} \) 其中 \([x]\) 表示不超过 \(x\) 的最大整数。若 \(f(x)\) 在 \(x=0\) 处可导，则 \(a-b=\)____。
 - number: 12
   section: fill
   points: 5
   stem:
     text: |-
-      曲线 $y=x^{\dfrac{1}{e^x-1}}-x$ 的斜渐近线为\ExamBlank。
+      曲线 \( y=x^{\mathrm{e}^{\dfrac{1}{x}}-1}-x \) 的斜渐近线为____。
 - number: 13
   section: fill
   points: 5
   stem:
     text: |-
-      $\int_0^{+\infty}\dfrac{x}{(x+1)^2(1+x^2)}\,\mathrm{d}x=$\ExamBlank。
+      计算 \( \int_0^{+\infty}\dfrac{x}{(x+1)^2(1+x^2)}\,dx= \)____。
 - number: 14
   section: fill
   points: 5
   stem:
     text: |-
-      设函数 $z=z(x,y)$ 由方程 $\ln(x+y)=\int_{x-y}^{z}f(x-y+z-t)\,\mathrm{d}t$ 确定，其中 $f$ 非负连续且 $f(1)=1$，则 $\left.\left(\dfrac{\partial z}{\partial x}+\dfrac{\partial z}{\partial y}\right)\right|_{(1,0)}=$\ExamBlank。
+      设函数 \(z=z(x,y)\) 由方程 \( \ln(x+y)=\int_{x-y}^{z}f(x-y+z-t)\,dt \) 确定，其中 \(f\) 非负连续且 \(f(1)=1\)，则 \( \left.\left(\dfrac{\partial z}{\partial x}+\dfrac{\partial z}{\partial y}\right)\right|_{(1,0)}= \)____。
 - number: 15
   section: fill
   points: 5
   stem:
     text: |-
-      $\int_0^{\dfrac{\pi}{6}}\mathrm{d}\theta\int_{\theta}^{\dfrac{\pi}{6}}\dfrac{\cos r}{r}\,\mathrm{d}r=$\ExamBlank。
+      计算 \( \int_0^{\dfrac{\pi}{6}}d\theta\int_{\theta}^{\dfrac{\pi}{6}}\dfrac{\cos r}{r}\,dr= \)____。
 - number: 16
   section: fill
   points: 5
   stem:
     text: |-
-      $\left|\begin{matrix}2&-3&0&5\\-3&2&-1&0\\0&-1&2&-3\\5&0&-3&2\end{matrix}\right|=$\ExamBlank。
+      计算 \(\left|\begin{matrix}2&-3&0&5\\-3&2&-1&0\\0&-1&2&-3\\5&0&-3&2\end{matrix}\right|=\)____。
 - number: 17
   section: solution
-  points: 10
+  points: 12
   stem:
-    text: 已知函数 $y=y(x)$ 满足微分方程 $xy''-(2x+1)y'+(x+1)y=x^2e^x$。
-  subparts:
-  - text: 利用代换 $y=e^xu(x)$ 将原方程转化为关于 $u(x)$ 的微分方程；
-  - text: 求关于 $u(x)$ 的微分方程的通解。
+    text: |-
+      已知函数 \(y=y(x)\) 满足微分方程\( xy''-(2x+1)y'+(x+1)y=x^2e^x \) 。 (1) 利用代换 \(y=e^x u(x)\) 将原方程转化为关于 \(u(x)\) 的微分方程； (2) 求关于 \(u(x)\) 的微分方程的通解。
 - number: 18
   section: solution
   points: 12
   stem:
-    text: 设 $D$ 是由曲线 $y^2=x^3-x^4$ 所围封闭区域。
-  subparts:
-  - text: 求 $D$ 的面积；
-  - text: 求 $D$ 绕 $x$ 轴一周旋转所得的旋转体体积。
+    text: |-
+      设 \(D\) 是由曲线 \(y^2=x^3-x^4\) 所围封闭区域。 (1) 求 \(D\) 的面积； (2) 求 \(D\) 绕 \(x\) 轴一周旋转所得的旋转体体积。
 - number: 19
   section: solution
   points: 12
   stem:
-    text: 设函数 $z=f(x,y)$ 由方程 $x^2+y^2+z^2-2xz-2yz-1=0$ 确定，求函数 $f(x,y)$ 在约束条件 $x^2+y^2=4$ 下的最值。
+    text: |-
+      设函数 \(z=f(x,y)\) 由方程\( x^2+y^2+z^2-2xz-2yz-1=0 \)确定，求函数 \(f(x,y)\) 在约束条件 \(x^2+y^2=4\) 下的最值。
 - number: 20
   section: solution
   points: 12
   stem:
     text: |-
-      设平面区域 $D$ 由曲线 $|\ln x|+|\ln y|=1$ 围成，计算二重积分 $\iint_D(1+x-y)\ln(xy)\,\mathrm{d}x\mathrm{d}y$。
+      设平面区域 \(D\) 由曲线 \(|\ln x|+|\ln y|=1\) 围成，计算二重积分\( \iint_D(1+x-y)\ln(xy)\,dx\,dy \) 。
 - number: 21
   section: solution
   points: 12
   stem:
     text: |-
-      设函数 $f(x)$ 在区间 $[0,+\infty)$ 上具有二阶连续导数，$f(0)=0$，$f'(x)>0$，$f''(x)>0$。
-  subparts:
-  - text: |-
-      证明 $g(x)=\dfrac{f(x)}{x}$ 在 $(0,+\infty)$ 上单调递增；
-  - text: |-
-      设数列 $\{x_n\}$ 满足 $x_0>x_1>0$，$x_{n+1}=x_n-\dfrac{x_n-x_{n-1}}{f(x_n)-f(x_{n-1})}f(x_n)\,(n=1,2,\cdots)$，证明 $\lim_{n\to\infty}x_n$ 存在，并求之；
-  - text: |-
-      求极限 $\lim_{n\to\infty}\dfrac{x_{n+1}}{x_nx_{n-1}}$。
+      设函数 \(f(x)\) 在区间 \([0, +\infty)\) 上具有二阶连续导数，\(f(0)=0\) ， \(f'(x)>0\) ， \(f''(x)>0\)。 (1) 证明 \( g(x)=\dfrac{f(x)}{x} \) 在 \((0, +\infty)\) 上单调递增； (2) 设数列 \(\{x_n\}\) 满足 \(x_0>x_1>0\)，\( x_{n+1}=x_n-\dfrac{x_n-x_{n-1}}{f(x_n)-f(x_{n-1})}f(x_n)\quad(n=1,2, \cdots) \) ，证明 \( \lim\limits_{n\to\infty}x_n \) 存在，并求之； (3) 求极限 \( \lim\limits_{n\to\infty}\dfrac{x_{n+1}}{x_nx_{n-1}} \)。
 - number: 22
   section: solution
   points: 12
   stem:
     text: |-
-      设 $3$ 阶矩阵 $\mathbf{A}$ 满足 $\mathbf{A}+\mathbf{A}^*-\mathbf{E}=\mathbf{O}$，且 $r(\mathbf{A}^*)=1$。
-  subparts:
-  - text: |-
-      证明矩阵 $\mathbf{A}$ 可以相似对角化，并求 $\mathbf{A}$ 相似的对角矩阵；
-  - text: |-
-      若 $\mathbf{A}$ 的各行各列元素之和均为 $0$，求 $\mathbf{A}$ 的表达式。
-content_hash: f5aa71ee9df340d266000ac3055d548bba8bf0e1e63dd8bfcf42d258ea2e1227
+      设 \(3\) 阶矩阵 \(A\) 满足 \(A+A^*-E=O\)，且 \(r(A^*)=1\)。 (1) 证明矩阵 \(A\) 可以相似对角化，并求 \(A\) 相似的对角矩阵； (2) 若 \(A\) 的各行各列元素之和均为 \(0\)，求 \(A\) 的表达式。
+content_hash: 85ffe67f5a47b448f4806180609b2ff155654e8e48b17142a56f5bf184c372c4

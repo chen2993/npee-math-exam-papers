@@ -1,0 +1,294 @@
+schema_version: '3.0'
+paper:
+  series_key: lilin6
+  year: 2024
+  subject: math3
+  paper_no: 2
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      $f(x)=\begin{cases} \sin x, & x\leqslant 0, \\ \ln(x+1), & x>0 \end{cases}$ 的一个原函数为
+  choices:
+  - label: A
+    text: |-
+      $F(x)=\begin{cases} -\cos x, & x\leqslant 0, \\ (x+1)\ln(x+1)-x, & x>0. \end{cases}$
+    figures: []
+  - label: B
+    text: |-
+      $F(x)=\begin{cases} -\cos x+1, & x\leqslant 0, \\ (x+1)\ln(x+1)-x+1, & x>0. \end{cases}$
+    figures: []
+  - label: C
+    text: |-
+      $F(x)=\begin{cases} -\cos x-1, & x\leqslant 0, \\ (x+1)\ln(x+1)-x+1, & x>0. \end{cases}$
+    figures: []
+  - label: D
+    text: |-
+      $F(x)=\begin{cases} -\cos x, & x\leqslant 0, \\ (x+1)\ln(x+1)-x-1, & x>0. \end{cases}$
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设方程 $\mathrm{e}^{yz}+x^2+y^2+z=3$，在点 $(1, -1, 0)$ 的邻域内，该方程
+  choices:
+  - label: A
+    text: 可确定隐函数 $y=y(x,z)$ 和 $z=z(x,y)$。
+    figures: []
+  - label: B
+    text: 可确定隐函数 $x=x(y,z)$ 和 $y=y(x,z)$。
+    figures: []
+  - label: C
+    text: 可确定隐函数 $x=x(y,z)$ 和 $z=z(x,y)$。
+    figures: []
+  - label: D
+    text: 只能确定隐函数 $z=z(x,y)$。
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $I_1 = \int_0^1 \dfrac{\tan x}{x} \mathrm{d}x, I_2 = \int_0^1 \dfrac{\sin x}{x} \mathrm{d}x, I_3 = \int_0^1 \dfrac{x}{\sin x} \mathrm{d}x$，则
+  choices:
+  - label: A
+    text: $I_1 > I_2 > I_3$
+    figures: []
+  - label: B
+    text: $I_2 > I_3 > I_1$
+    figures: []
+  - label: C
+    text: $I_1 > I_3 > I_2$
+    figures: []
+  - label: D
+    text: $I_2 > I_1 > I_3$
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设常数 $a > 0, b > 0$，函数 $y(x)$ 满足 $y'' + 2ay' + b^2y = 0$ 且 $y(0) = 1, y'(0) = 1$，则 $\int_0^{+\infty} y(x)\mathrm{d}x =$
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{2a+1}{b}$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{2a}{b^2}$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{2a+1}{b^2}$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{2a}{b}$
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $\lambda=2$ 是方阵 $A$ 的特征值，对应的特征向量为 $\alpha$ $,\mu=1$ 是 $A^T$ 的特征值，对应的特征向量为 $\beta$，则必有
+  choices:
+  - label: A
+    text: |-
+      $\alpha=2\beta.$
+    figures: []
+  - label: B
+    text: |-
+      $\beta=2\alpha.$
+    figures: []
+  - label: C
+    text: |-
+      $\alpha,\beta$ 线性无关
+    figures: []
+  - label: D
+    text: |-
+      $\alpha$ 与 $\beta$ 正交
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A,B$ 均是 $m \times n$ 矩阵，则方程组 $Ax=0$ 与 $Bx=0$ 同解的充分必要条件是
+  choices:
+  - label: A
+    text: $A,B$ 的列向量组等价
+    figures: []
+  - label: B
+    text: $A,B$ 的行向量组等价
+    figures: []
+  - label: C
+    text: $A,B$ 是等价矩阵
+    figures: []
+  - label: D
+    text: $A^T X=0$ 与 $B^T X=0$ 同解
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A=\begin{bmatrix} -1 & -1 & 0 \\ 0 & 2 & 0 \\ 0 & 0 & -3 \end{bmatrix}, B=\begin{bmatrix} -1 & 0 & 0 \\ 0 & 1 & 2 \\ 0 & 2 & -1 \end{bmatrix}, C=\begin{bmatrix} 1 & 0 & 0 \\ 0 & -1 & 0 \\ 0 & 0 & -1 \end{bmatrix}$，则正确的是
+  choices:
+  - label: A
+    text: $A$ 与 $C$ 相似
+    figures: []
+  - label: B
+    text: $A$ 与 $B$ 合同
+    figures: []
+  - label: C
+    text: $B$ 与 $C$ 合同
+    figures: []
+  - label: D
+    text: $B$ 与 $C$ 相似
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设二维随机变量 $(X,Y)$ 在区域 $D$ 上服从均匀分布, 其中 $D=\{(x,y) \mid 0\leqslant x\leqslant 2, 0\leqslant y\leqslant 4-x^2\}$, 记 $A=\{x\leqslant 1\}, B=\{y\leqslant 3\}$, 则随机事件 $A,B$ 恰好有一个发生的概率为
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{1}{16}$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{7}{16}$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{5}{16}$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{3}{16}$
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      随机变量 $X$ 与 $Y$ 相互独立$,X\sim N(0,1),\Phi(x)$ 为其分布函数$,Y$ 的分布律为 $P\{Y=n\}=\left(\dfrac{1}{2}\right)^n,n=1,2,\cdots$，则 $Z=X+Y$ 的分布函数为
+  choices:
+  - label: A
+    text: |-
+      $\sum_{k=1}^{\infty}\left(\dfrac{1}{2}\right)^k \Phi(z)$
+    figures: []
+  - label: B
+    text: |-
+      $\sum_{k=1}^{\infty}\left(\dfrac{1}{2}\right)^{k-1} \Phi(z)$
+    figures: []
+  - label: C
+    text: |-
+      $\sum_{k=1}^{\infty}\left(\dfrac{1}{2}\right)^k \Phi(z+k)$
+    figures: []
+  - label: D
+    text: |-
+      $\sum_{k=1}^{\infty}\left(\dfrac{1}{2}\right)^k \Phi(z-k)$
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设二维随机变量 $(X, Y) \sim N\left(0,0 ; \dfrac{1}{2}, \dfrac{1}{2} ; 0\right)$，则方差 $D(|X-Y|)=$
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{1}{\sqrt{\pi}}$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{2}{\pi}$
+    figures: []
+  - label: C
+    text: |-
+      $1-\dfrac{\sqrt{2}}{\sqrt{\pi}}$
+    figures: []
+  - label: D
+    text: |-
+      $1-\dfrac{2}{\pi}$
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设可微函数 $y=y(x) \neq 0$ 满足 $y^2(x+\Delta x)-y^2(x)=-y^2(x)\Delta x+o(\Delta x)$，且 $y(1)=2$，则 $y(x)=\underline{\qquad\qquad}$。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设曲线 $xy = 1(x>0)$ 上点 $P_0(x_0,y_0)$ 使得函数 $x^2 + 2y^2$ 达到最小值，则点 $P_0$ 的坐标为$\underline{\hspace{2cm}}$
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设某商品的需求函数为 $Q = 100 - 5P$, 其中 $Q, P$ 分别表示需求量与价格. 若商品需求弹性的绝对值大于 1, 则商品价格 $P$ 的取值范围是 $\underline{\qquad\qquad}$
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      级数 $\sum_{n=1}^{\infty} \dfrac{n^2}{n!}$ 的和为 $\underline{\hspace{2cm}}$
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 3 阶矩阵 $A$ 的特征值为 $1,\dfrac{1}{2},\dfrac{1}{3}$ $,A_{11},A_{22},A_{33}$ 是 $A=(a_{ij})$ 中元素 $a_{ij}$ 的代数余子式，则 $A_{11}+A_{22}+A_{33}=\underline{\qquad}$．
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $X$ 与 $Y$ 分别服从参数为 $\lambda_1$ 与 $\lambda_2$ 的泊松分布，且 $X$ 与 $Y$ 相互独立，已知 $P\{X+Y>0\}=1-\mathrm{e}^{-1}$，则 $E[(X+Y)^2]=\underline{\quad\quad\quad\quad}.$
+- number: 17
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      求极限 $\lim \limits_{x \to +\infty} \dfrac{\dfrac{1}{x^3} \int_1^x \left[(1+t^2) \sin \dfrac{1}{t} - \cos t\right] \mathrm{d}t}{1 - \mathrm{e}^{\dfrac{1}{x}}}$
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $f(x)$ 满足 $\begin{cases} f'(x)+f(x)=\mathrm{e}^{-x}\cos x, \\ f(0)=0. \end{cases}$ $(I)$ 求 $f(x)$; $(II)$ 求曲线 $y=f(x)$ 在 $[0, +\infty)$ 上与 $x$ 轴所围的面积 $A$
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $D$ 是由 $y=-x, y=\sqrt{4-x^2}, y=\sqrt{2x-x^2}$ 所围的平面区域, 计算 $I=\iint_{D}\sqrt{x^4+x^2y^2}\mathrm{d}x\mathrm{d}y$
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设数列 $\{x_n\}$ 满足 $x_n = \dfrac{1}{2} (x_{n+1} + \tan x_n), x_1 \in \left(0, \dfrac{\pi}{4}\right), n = 1, 2, \cdots$. (I) 证明: $\lim_{n\to\infty} x_n$ 存在, 并求其值; (II) 求 $\lim_{n\to\infty} \left(\dfrac{x_{n+1}}{x_n}\right)^{\dfrac{1}{x_n^2}}$
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $\alpha$ 为 $3$ 维非零实列向量, $E$ 为 $3$ 阶单位矩阵, $A=E-\dfrac{3}{\alpha^T \alpha} \alpha \alpha^T$, 且 $|A|=-2$. $(I)$ 计算 $A^2+A-2E$, 并求 $A$ 的全部特征值; $(II)$ 当 $\alpha=(a,a,a)^T(a\neq 0)$ 时, 求正交矩阵 $Q$, 使得 $Q^T A Q=\Lambda$
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设随机变量 $X$ 的概率密度为 $f(x)$，当 $x \leqslant 0$ 时$,f(x) = 0$；当 $x > 0$ 时$,f(x)$ 是方程 $f'(x) + \lambda f(x) = 0(\lambda > 0)$ 的解. $Y$ 的分布律为 $P\{Y = 0\} = P\{Y = 1\} = \dfrac{1}{2}$，且 $X$ 与 $Y$ 相互独立，记 $Z = X - Y$. (I) 求 $f(x)$ 及 $Z$ 的概率密度 $f_Z(z)$； (II) $X$ 与 $Z$ 是否相关？说明理由
+content_hash: 2ab69a23a4574cd189028f810236c2b7de51567ca0346f248ecaed9131dbefd7

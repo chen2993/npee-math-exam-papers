@@ -1,0 +1,282 @@
+schema_version: '3.0'
+paper:
+  series_key: chaoyue10
+  year: 2026
+  subject: math2
+  paper_no: 5
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设数列 $\{a_n\}, \{b_n\}$ 对任意正整数 $n$ 均满足不等式 $a_n \le b_n \le a_{n+1}$，则下列结论正确的是( )
+  choices:
+  - label: A
+    text: |-
+      数列 $\{a_n\}, \{b_n\}$ 均收敛，且 $\lim\limits_{n\to\infty}a_n = \lim\limits_{n\to\infty}b_n$
+    figures: []
+  - label: B
+    text: |-
+      数列 $\{a_n\}, \{b_n\}$ 均发散，且 $\lim\limits_{n\to\infty}a_n = \lim\limits_{n\to\infty}b_n = +\infty$
+    figures: []
+  - label: C
+    text: |-
+      数列 $\{a_n\}, \{b_n\}$ 具有相同的敛散性
+    figures: []
+  - label: D
+    text: |-
+      数列 $\{a_n\}, \{b_n\}$ 具有不同的敛散性
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(a) = 0$，则 “极限 $\lim\limits_{h\to 0}\dfrac{f(a+\sin h)}{1-\cos h}$ 存在” 是 “函数 $f(x)$ 在 $x = a$ 处可导” 的( )
+  choices:
+  - label: A
+    text: 充分非必要条件
+    figures: []
+  - label: B
+    text: 必要非充分条件
+    figures: []
+  - label: C
+    text: 充分必要条件
+    figures: []
+  - label: D
+    text: 既非充分也非必要条件
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $\alpha > 1$ $,I_1 = \int_0^1 \sin^\alpha x\,\mathrm{d}x$ $,I_2 = \int_0^1 \sin(x^\alpha)\,\mathrm{d}x$ $,I_3 = \int_0^1 \tan^\alpha x\,\mathrm{d}x$ $,I_4 = \int_0^1 \tan(x^\alpha)\,\mathrm{d}x$，则下列结论正确的是( )
+  choices:
+  - label: A
+    text: |-
+      $I_1 \ge I_2, \ I_3 \ge I_4$
+    figures: []
+  - label: B
+    text: |-
+      $I_1 \ge I_2, \ I_3 \le I_4$
+    figures: []
+  - label: C
+    text: |-
+      $I_1 \le I_2, \ I_3 \ge I_4$
+    figures: []
+  - label: D
+    text: |-
+      $I_1 \le I_2, \ I_3 \le I_4$
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      给出下列命题： ① 若 $f(x), g(x)$ 均为闭区间 $[a,b]$ 上的连续函数，则积分方程 $f(x)\int_a^x g(t)\,\mathrm{d}t = g(x)\int_x^b f(t)\,\mathrm{d}t$ 在开区间 $(a,b)$ 内至少存在一个实根； ② 若 $f(x)$ 是闭区间 $[a,b]$ 上的连续可导函数且满足导数恒正 $f'(x) > 0$，则方程 $(x-a)\int_x^b f(t)\,\mathrm{d}t = (b-x)\int_a^x f(t)\,\mathrm{d}t$ 在开区间 $(a,b)$ 内至少存在一个实根。 则关于命题 ①、② 的真假判断正确的是( )
+  choices:
+  - label: A
+    text: ①、② 均正确
+    figures: []
+  - label: B
+    text: ① 正确，② 错误
+    figures: []
+  - label: C
+    text: ① 错误，② 正确
+    figures: []
+  - label: D
+    text: ①、② 均错误
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      二元函数 $f(x,y) = \begin{cases} \dfrac{x|y|+y|x|}{\sqrt{x^2+y^2}}, & (x,y) \ne (0,0), \\ 0, & (x,y) = (0,0) \end{cases}$ 在点 $(0,0)$ 处( )
+  choices:
+  - label: A
+    text: 极限存在，但不连续
+    figures: []
+  - label: B
+    text: 连续，但偏导数不存在
+    figures: []
+  - label: C
+    text: 偏导数存在，但不可微
+    figures: []
+  - label: D
+    text: 可微
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设闭区域 $D = \left\{(x,y) \;\middle|\; x^2+y^2 \le 1\right\}$，常数 $a > 1$，则二重积分 $I = \iint_D \left(\dfrac{x}{a+x^5} + \dfrac{y}{a-y^5}\right)\,\mathrm{d}\sigma$ 的值为( )
+  choices:
+  - label: A
+    text: 大于 0
+    figures: []
+  - label: B
+    text: 等于 0
+    figures: []
+  - label: C
+    text: 小于 0
+    figures: []
+  - label: D
+    text: 符号与 $a$ 的取值有关
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      若某二阶常系数非齐次线性微分方程有两个特解 $y_1 = \mathrm{e}^x$ 与 $y_2 = \mathrm{e}^x(\sin x + 1)$，则该微分方程为( )
+  choices:
+  - label: A
+    text: |-
+      $y'' - 2y' + 2y = \mathrm{e}^x$
+    figures: []
+  - label: B
+    text: |-
+      $y'' - 2y' + y = \mathrm{e}^x$
+    figures: []
+  - label: C
+    text: |-
+      $y'' - 2y' + 2y = \sin x$
+    figures: []
+  - label: D
+    text: |-
+      $y'' - 2y' + y = \mathrm{e}^x\cos x$
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 为 3 阶实对称矩阵，满足 $|A+E| = |A-2E| = -4, \ |A-E| = 0$，二次型 $f(x) = x^T A x$ 在正交线性变换 $x = Qy$ 下的标准形为( )
+  choices:
+  - label: A
+    text: $-y_1^2 + 2y_2^2 + y_3^2$
+    figures: []
+  - label: B
+    text: $5y_1^2 + 2y_2^2 + y_3^2$
+    figures: []
+  - label: C
+    text: $y_1^2 + y_2^2 - 2y_3^2$
+    figures: []
+  - label: D
+    text: $y_1^2 + y_2^2 + 2y_3^2$
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设矩阵 $A = \begin{pmatrix} 1 & 2 & -1 & 0 \\ 0 & 2 & 1 & -1 \\ 0 & 0 & 4 & -2 \\ 0 & 0 & 0 & 2 \end{pmatrix}$ $,A_{ij}$ 为 $|A|$ 中元素 $a_{ij}$ 的代数余子式，则双重求和 $\sum_{i=1}^4\sum_{j=1}^4 A_{ij} = $( )
+  choices:
+  - label: A
+    text: '4'
+    figures: []
+  - label: B
+    text: '16'
+    figures: []
+  - label: C
+    text: '32'
+    figures: []
+  - label: D
+    text: '64'
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知 $A$ 为 3 阶可逆矩阵，将 $A$ 的第 2 行的 $(-2)$ 倍加到第 1 行得到矩阵 $B$ $,B^*$ 为 $B$ 的伴随矩阵，则矩阵迹 $\operatorname{tr}(B^*A) = $( )
+  choices:
+  - label: A
+    text: $|A|$
+    figures: []
+  - label: B
+    text: $2|A|$
+    figures: []
+  - label: C
+    text: $3|A|$
+    figures: []
+  - label: D
+    text: $4|A|$
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      极限 $\lim\limits_{n\to\infty}\dfrac{1}{n+1}\sqrt[n]{1\cdot 3\cdot 5\cdots (2n+1)} = $ _____
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设函数 $z(x,y) = \int_0^1 |x^2+y^2-t|f(t)\,\mathrm{d}t$（其中 $0 \le x \le 1, \ 0 \le y \le 1$）$,f(t)$ 连续且满足 $f\left(\dfrac{1}{2}\right) = \dfrac{1}{2}$，则二阶偏导数 $\left.z_{xy}''\right|_{\left(\dfrac{1}{2}, \dfrac{1}{2}\right)} = $ _____
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      二次积分 $I = \int_0^1\mathrm{d}y\int_0^{\sqrt{\dfrac{y}{2}}}\mathrm{e}^{-x^2}\,\mathrm{d}x = $ _____
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      定积分 $\int_0^4\dfrac{\mathrm{d}x}{\sqrt{4+x}+\sqrt{4-x}+4} = $ _____
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设函数 $y = y(x)$ 由隐式方程 $x^2 - \int_1^{x+y}\mathrm{e}^{-(t-y)^2}\,\mathrm{d}t = 0$ 确定，则二阶导数 $y''(0) = $ _____
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      已知四元非齐次线性方程组 $\begin{cases} k x_1 - x_3 + x_4 = 1, \\ k x_2 + x_3 - x_4 = -1, \\ -x_1 + x_2 + k x_3 = 1, \\ x_1 - x_2 + k x_4 = -1 \end{cases}$ 无解（其中 $k$ 为非零实常数），则 $k = $ _____
+- number: 17
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 $y = f(x)$ 由参数方程 $\begin{cases} x = t^2+2t-3, \\ t^2 - y - \sin y = 1 \end{cases}\ (t \ge 0)$ 确定，求极限 $\lim\limits_{x\to 0^+}\dfrac{4f(x)\sin x - x^2}{x^3}$。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      (1) 设 $f(x), g(x)$ 均是闭区间 $[0,a]$ 上的连续函数，且对任意 $x \in [0,a]$ 恒有 $f(x) = f(a-x)$ 与 $g(x) + g(a-x) = k$（$k$ 为常数）。证明$:\int_0^a f(x)g(x)\,\mathrm{d}x = \dfrac{k}{2}\int_0^a f(x)\,\mathrm{d}x$； (2) 计算定积分 $\int_0^{\dfrac{\pi}{4}}\sin^4(4x)\ln(1+\tan x)\,\mathrm{d}x$。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 $f(t)$ 二阶可导，空间径向函数 $u = f(\sqrt{x^2+y^2+z^2})$ 满足 Laplace 方程 $u_{xx}'' + u_{yy}'' + u_{zz}'' = 0$。若初始条件满足 $f(1) = 0, \ f'(1) = 1$，求函数 $f(t)$ 的解析表达式。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      计算二重积分 $I = \iint_D |x^2+y^2-1|\,\mathrm{d}\sigma$，其中平面闭区域 $D$ 是以点 $(0,0), \ (0, \sqrt{2}), \ (\sqrt{2}, 0)$ 为顶点的三角形闭区域。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      已知方程 $\mathrm{e}^x = m x$（$m$ 为常数）存在两个不同的实根 $x_1, x_2$。 (1) 求参数 $m$ 的取值范围； (2) 设 $x_1 = t x_2$（$t > 1$），证明$:x_2 = \dfrac{\ln t}{t-1}$； (3) 证明：两根之积满足不等式 $x_1 x_2 < 1$。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设3阶方阵 $A = \begin{pmatrix} 1 & 0 & a \\ 0 & 1-a & -2 \\ -1 & 0 & 2 \end{pmatrix}$ 的所有特征值均为实数，记向量 $x = (x_1, x_2, x_3)^{\mathrm{T}}$。 (1) 若矩阵 $A$ 可相似对角化，求实参数 $a$ 的取值范围； (2) 当 $a < 0$ 且矩阵 $A$ 不可相似对角化时，判断二次型 $f(x_1, x_2, x_3) = x^{\mathrm{T}}Ax$ 的正定性。
+content_hash: 793757364ed108be129288176f1b02381baa03a60a54de85fb7aa3cfa7d12d09

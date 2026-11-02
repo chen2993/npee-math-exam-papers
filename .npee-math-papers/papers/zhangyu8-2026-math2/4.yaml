@@ -10,26 +10,25 @@ questions:
   points: 5
   stem:
     text: |-
-      设函数 $f(x)$ 在 $x=0$ 的某邻域内有定义，且 $\lim_{x\to 0}\dfrac{x-f(x)}{\ln(1+x)}=1$，则以下叙述：\n①$f(0)=0$；\n②$\lim_{x\to 0}f(x)=f(0)$；\n③$\lim_{x\to 0}\dfrac{f(x)}{x}=1$；\n④当 $x\to 0$ 时，$f(x)$ 是 $x$ 的高阶无穷小。\n正确叙述的个数为\ExamSelection。
+      设函数 $f(x)$ 在 $x=0$ 的某邻域内有定义，且 $\lim\limits_{x\to0}\dfrac{x-f(x)}{\ln(1+x)}=1$。现有以下叙述： ① $f(0)=0$； ② $\lim\limits_{x\to0}f(x)=f(0)$； ③ $\lim\limits_{x\to0}\dfrac{f(x)}{x}=1$； ④ 当 $x\to0$ 时$,f(x)$ 是 $x$ 的高阶无穷小。 其中正确叙述的个数为（ ）。
   choices:
   - label: A
-    text: $1$
+    text: '1'
     figures: []
   - label: B
-    text: $2$
+    text: '2'
     figures: []
   - label: C
-    text: $3$
+    text: '3'
     figures: []
   - label: D
-    text: $4$
+    text: '4'
     figures: []
 - number: 2
   section: choice
   points: 5
   stem:
-    text: |-
-      函数 $f(x,y)=x^2+y^2$ 在约束条件 $(x-1)^3=y^2$ 下\ExamSelection。
+    text: 函数 $f(x,y)=x^2+y^2$ 在约束条件 $(x-1)^3=y^2$ 下（ ）
   choices:
   - label: A
     text: 有最大值，无最小值
@@ -48,53 +47,53 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $f(x)$ 在 $[0,1]$ 上可积，则 $\lim_{n\to\infty}\sum_{i=0}^{n-1}\ln\left[1+\dfrac{1}{n}f\left(\dfrac{i}{n}\right)\right]=$\ExamSelection。
+      设 $f(x)$ 在 $[0,1]$ 上可积，则 $\lim_{n\to\infty}\sum_{i=0}^{n-1}\ln\left[1+\dfrac{1}{n}f\left(\dfrac{i}{n}\right)\right]=$（ ）
   choices:
   - label: A
     text: |-
-      $\displaystyle\int_0^1\ln\left[1+\dfrac{f(x)}{n}\right]\,\mathrm{d}x$
+      $ \int_0^1\ln\left[1+\dfrac{f(x)}{n}\right]\,\mathrm{d}x$
     figures: []
   - label: B
     text: |-
-      $\displaystyle\int_0^1\ln[1+f(x)]\,\mathrm{d}x$
+      $ \int_0^1\ln\left[1+f(x)\right]\,\mathrm{d}x$
     figures: []
   - label: C
     text: |-
-      $\displaystyle\int_0^1f(x)\,\mathrm{d}x$
+      $ \int_0^1 f(x)\,\mathrm{d}x$
     figures: []
   - label: D
     text: |-
-      $\displaystyle\int_0^1f^2(x)\,\mathrm{d}x$
+      $ \int_0^1 f^2(x)\,\mathrm{d}x$
     figures: []
 - number: 4
   section: choice
   points: 5
   stem:
     text: |-
-      设函数 $z=z(x,y)$ 由 $z+\ln z=\displaystyle\int_x^y e^{-t^2}\,\mathrm{d}t$ 确定，则 $\dfrac{\partial z}{\partial x}+\dfrac{\partial z}{\partial y}=$\ExamSelection。
+      设函数 $z=z(x,y)$ 由 $z+\ln z=\int_x^y \mathrm{e}^{-t^2}\,\mathrm{d}t$ 确定，则 $\dfrac{\partial z}{\partial x}+\dfrac{\partial z}{\partial y}=$（ ）
   choices:
   - label: A
     text: |-
-      $\dfrac{z}{z+1}(e^{-x^2}-e^{-y^2})$
+      $ \dfrac{z}{z+1}\left(\mathrm{e}^{-x^2}-\mathrm{e}^{-y^2}\right)$
     figures: []
   - label: B
     text: |-
-      $\dfrac{z}{z+1}(e^{-x^2}+e^{-y^2})$
+      $ \dfrac{z}{z+1}\left(\mathrm{e}^{-x^2}+\mathrm{e}^{-y^2}\right)$
     figures: []
   - label: C
     text: |-
-      $-\dfrac{z}{z+1}(e^{-x}-e^{-y})$
+      $ -\dfrac{z}{z+1}\left(\mathrm{e}^{-x^2}-\mathrm{e}^{-y^2}\right)$
     figures: []
   - label: D
     text: |-
-      $-\dfrac{z}{z+1}(e^{-x}+e^{-y})$
+      $ -\dfrac{z}{z+1}\left(\mathrm{e}^{-x^2}+\mathrm{e}^{-y^2}\right)$
     figures: []
 - number: 5
   section: choice
   points: 5
   stem:
     text: |-
-      如果对于微分方程 $y''-(2k-4)y'+ky=0$ 的任一解 $y(x)$，反常积分 $\displaystyle\int_0^{+\infty}y(x)\,\mathrm{d}x$ 均收敛，则 $k$ 的取值范围为\ExamSelection。
+      如果对于微分方程 $y''-(2k-4)y'+ky=0$ 的任一解 $y(x)$，反常积分 $\int_0^{+\infty}y(x)\,\mathrm{d}x$ 均收敛，则 $k$ 的取值范围为（ ）
   choices:
   - label: A
     text: |-
@@ -115,7 +114,7 @@ questions:
   points: 5
   stem:
     text: |-
-      函数 $f(x)$ 在 $x=0$ 的某邻域内有定义，则“$\lim_{x\to 0}\dfrac{|f(x)|}{x}$ 存在”是“$\lim_{x\to 0}\dfrac{f(x)}{x}=0$”的\ExamSelection。
+      设函数 $f(x)$ 在 $x=0$ 的某邻域内有定义，则“$\lim\limits_{x\to0}\dfrac{|f(x)|}{x}$ 存在”是“$\lim\limits_{x\to0}\dfrac{f(x)}{x}=0$”的（ ）
   choices:
   - label: A
     text: 充分必要条件
@@ -134,26 +133,26 @@ questions:
   points: 5
   stem:
     text: |-
-      设函数 $f(x),g(x)$ 在 $x=0$ 的某去心邻域内有定义且不为零，若当 $x\to 0$ 时，$f(x)$ 是 $g(x)$ 的高阶无穷小，则当 $x\to 0$ 时，对于以下结论：\n①$f(x)+g(x)=o(f(x))$；\n②$f(x)g(x)=o(g^2(x))$；\n③$f(x)=o(\ln[1+g(x)])$；\n④$f(x)=o(g^2(x))$。\n正确结论的个数为\ExamSelection。
+      设函数 $f(x),g(x)$ 在 $x=0$ 的某去心邻域内有定义且不为零。若当 $x\to0$ 时$,f(x)$ 是 $g(x)$ 的高阶无穷小，现有以下结论： ① $f(x)+g(x)=o(f(x))$； ② $f(x)g(x)=o(g^2(x))$； ③ $f(x)=o\left(\ln[1+g(x)]\right)$； ④ $f(x)=o(g^2(x))$。 其中正确结论的个数为（ ）。
   choices:
   - label: A
-    text: $1$
+    text: '1'
     figures: []
   - label: B
-    text: $2$
+    text: '2'
     figures: []
   - label: C
-    text: $3$
+    text: '3'
     figures: []
   - label: D
-    text: $4$
+    text: '4'
     figures: []
 - number: 8
   section: choice
   points: 5
   stem:
     text: |-
-      以下矩阵乘积的结果为 $\begin{pmatrix}1&-1&2\\2&1&3\\3&1&4\end{pmatrix}$ 的是\ExamSelection。
+      以下矩阵乘积的结果等于 $\begin{pmatrix}1&-1&2\\2&1&3\\3&1&4\end{pmatrix}$ 的是（ ）
   choices:
   - label: A
     text: |-
@@ -175,8 +174,7 @@ questions:
   section: choice
   points: 5
   stem:
-    text: |-
-      设二次型 $f(x_1,x_2,x_3)=ax_1x_2+x_1x_3-x_2x_3$ 的正惯性指数为 $2$，负惯性指数为 $1$，则以下结论可能成立的是\ExamSelection。
+    text: 设二次型 $f(x_1,x_2,x_3)=ax_1x_2+x_1x_3-x_2x_3$ 的正惯性指数为 $2$，负惯性指数为 $1$，则以下结论可能成立的是（ ）
   choices:
   - label: A
     text: $a=-1$
@@ -186,7 +184,7 @@ questions:
     figures: []
   - label: C
     text: |-
-      $a\geq 0$
+      $a\ge0$
     figures: []
   - label: D
     text: $a<0$
@@ -196,7 +194,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $A,B$ 均为 $2$ 阶矩阵，$|A|\ne|B|,|A|<0,|B|<0,C=\begin{pmatrix}A&D\\O&B\end{pmatrix}$，$D$ 为任意 $2$ 阶矩阵，则“$\operatorname{tr}(A)=\operatorname{tr}(B)$”是“$C$ 可以相似对角化”的\ExamSelection。
+      设 $A,B$ 均为 $2$ 阶实矩阵$,|A|\ne |B|$ $,|A|<0$ $,|B|<0$ $,C=\begin{pmatrix}A&D\\O&B\end{pmatrix}$ $,D$ 为任意 $2$ 阶实矩阵，则“$\operatorname{tr}(A)=\operatorname{tr}(B)$”是“$C$ 可以相似对角化”的（ ）。
   choices:
   - label: A
     text: 充分非必要条件
@@ -215,84 +213,71 @@ questions:
   points: 5
   stem:
     text: |-
-      $\lim_{x\to 0}\left(\dfrac{\arctan x}{x}\right)^{\dfrac{1}{\tan^2x}}=$\ExamBlank。
+      计算 $\lim_{x\to0}\left(\dfrac{\arctan x}{x}\right)^{\dfrac{1}{\tan^2 x}} = $ \underline{\qquad}。
 - number: 12
   section: fill
   points: 5
   stem:
     text: |-
-      设 $y=y(x)$ 满足 $xy'=\sqrt{1-x^2},\ y(1)=0$，则 $\displaystyle\int_0^1y(x)\,\mathrm{d}x=$\ExamBlank。
+      设 $y=y(x)$ 满足 $xy'=\sqrt{1-x^2}$ $,y(1)=0$，则 $\int_0^1 y(x)\,\mathrm{d}x = $ \underline{\qquad}。
 - number: 13
   section: fill
   points: 5
   stem:
     text: |-
-      已知函数 $y=y(x)$ 由 $\begin{cases}x=\arctan(t+1),\\2t-\displaystyle\int_1^{y+t^2}e^{-u^2}\,\mathrm{d}u=0\end{cases}$ 确定，则 $\left.\dfrac{\mathrm{d}y}{\mathrm{d}x}\right|_{t=0}=$\ExamBlank。
+      已知函数 $y=y(x)$ 由 $\begin{cases}x=\arctan(t+1), \\2t-\int_1^{y+t^2}\mathrm{e}^{-u^2}\,\mathrm{d}u=0\end{cases}$ 确定，则 $\left.\dfrac{\mathrm{d}y}{\mathrm{d}x}\right|_{t=0} = $ \underline{\qquad}。
 - number: 14
   section: fill
   points: 5
   stem:
     text: |-
-      $\displaystyle\int_0^1\mathrm{d}x\int_0^{\sqrt{x}}e^{-\dfrac{y^2}{2}}\,\mathrm{d}y=$\ExamBlank。
+      计算 $\int_0^1\mathrm{d}x\int_0^{\sqrt{x}}\mathrm{e}^{-\dfrac{y^2}{2}}\,\mathrm{d}y = $ \underline{\qquad}。
 - number: 15
   section: fill
   points: 5
   stem:
     text: |-
-      已知曲线上任一点的切线在 $y$ 轴上的截距与法线在 $x$ 轴上的截距之比为 $3:1$，则该曲线方程为\ExamBlank。
+      已知曲线上任一点的切线在 $y$ 轴上的截距与法线在 $x$ 轴上的截距之比为 $3:1$，则该曲线方程为 \underline{\qquad}。
 - number: 16
   section: fill
   points: 5
   stem:
     text: |-
-      设 $\boldsymbol{\alpha}_1=\begin{pmatrix}4\\1\\2\end{pmatrix},\ \boldsymbol{\alpha}_2=\begin{pmatrix}1\\1\\-1\end{pmatrix},\ \boldsymbol{\alpha}_3=\begin{pmatrix}-2\\0\\4\end{pmatrix},\ \boldsymbol{\alpha}_4=\begin{pmatrix}7\\2\\-3\end{pmatrix},\ \boldsymbol{A}=(\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3,\boldsymbol{\alpha}_4)$，则 $\boldsymbol{A}\boldsymbol{x}=\boldsymbol{\alpha}_2+3\boldsymbol{\alpha}_4$ 的通解为\ExamBlank。
+      设 $\boldsymbol{\alpha}_1=(4,1,2)^{\mathrm{T}}, \boldsymbol{\alpha}_2=(1,1,-1)^{\mathrm{T}}, \boldsymbol{\alpha}_3=(-2,0,4)^{\mathrm{T}}, \boldsymbol{\alpha}_4=(7,2,-3)^{\mathrm{T}}$ $,A=(\boldsymbol{\alpha}_1, \boldsymbol{\alpha}_2, \boldsymbol{\alpha}_3, \boldsymbol{\alpha}_4)$，则线性方程组 $A\boldsymbol{x}=\boldsymbol{\alpha}_2+3\boldsymbol{\alpha}_4$ 的通解为 \underline{\qquad}。
 - number: 17
   section: solution
-  points: 10
+  points: 12
   stem:
     text: |-
-      设 $f'(e^x)=\sin x$，求 $f(x)$ 的表达式。
+      设 $f'(\mathrm{e}^x)=\sin x$，求 $f(x)$ 的表达式。
 - number: 18
   section: solution
   points: 12
   stem:
     text: |-
-      设 $y=y(x)$ 满足 $[(1+x)y-1]\mathrm{d}x+x(1+x)\mathrm{d}y=0$，$y(1)=\ln 2$。
-  subparts:
-  - text: 求 $y=y(x)$ 的表达式及定义域；
-  - text: |-
-      记 $f(x)=\displaystyle\int_{-1}^x y(|t|)\,\mathrm{d}t$，求 $f'(0)$。
+      设 $y=y(x)$ 满足 $[(1+x)y-1]\,\mathrm{d}x+x(1+x)\,\mathrm{d}y=0$，且 $y(1)=\ln 2$。 (1) 求 $y=y(x)$ 的表达式及定义域； (2) 记 $f(x)=\int_{-1}^x y(|t|)\,\mathrm{d}t$，求 $f'(0)$。
 - number: 19
   section: solution
   points: 12
   stem:
     text: |-
-      设函数 $f(x)$ 在 $[0,1]$ 上连续，$g(x)$ 在 $[0,1]$ 上可积且非负。证明：存在一点 $\xi\in(0,1)$，使 $\displaystyle\int_0^1f(x)g(x)\,\mathrm{d}x=f(\xi)\int_0^1g(x)\,\mathrm{d}x$。
+      设函数 $f(x)$ 在 $[0,1]$ 上连续$,g(x)$ 在 $[0,1]$ 上可积且非负。证明：存在一点 $\xi\in(0,1)$，使得 $\int_0^1 f(x)g(x)\,\mathrm{d}x=f(\xi)\int_0^1 g(x)\,\mathrm{d}x$。
 - number: 20
   section: solution
   points: 12
   stem:
     text: |-
-      设 $f(x,y)$ 在 $D=\{(x,y)\mid x^2+y^2\leq 1\}$ 上连续，$f(x,y)=e^{x^2+y^2}-\displaystyle\iint_D\dfrac{(2x^2+1)f(x,y)}{x^2+y^2+1}\,\mathrm{d}x\mathrm{d}y$，求 $\displaystyle\iint_Df(x,y)\,\mathrm{d}x\mathrm{d}y$。
+      设 $f(x,y)$ 在闭区域 $D=\{(x,y)\mid x^2+y^2\le1\}$ 上连续，且 $f(x,y)=\mathrm{e}^{x^2+y^2}-\iint_D\dfrac{(2x^2+1)f(x,y)}{x^2+y^2+1}\,\mathrm{d}x\mathrm{d}y$，求 $\iint_D f(x,y)\,\mathrm{d}x\mathrm{d}y$。
 - number: 21
   section: solution
   points: 12
   stem:
     text: |-
-      设 $z=z(u,v)$ 具有二阶连续偏导数，且 $z=z(x-y,x+2y)$ 满足 $2\dfrac{\partial^2z}{\partial x^2}+\dfrac{\partial^2z}{\partial x\partial y}-\dfrac{\partial^2z}{\partial y^2}=2\dfrac{\partial z}{\partial x}-\dfrac{\partial z}{\partial y}$，$\dfrac{\mathrm{d}[z(0,v)]}{\mathrm{d}v}=\dfrac{1}{3}z(0,v)+e^{\dfrac{v}{3}}$，$z(u,0)=\sin u$。
-  subparts:
-  - text: |-
-      证明 $\dfrac{\partial^2z}{\partial u\partial v}=\dfrac{1}{3}\dfrac{\partial z}{\partial u}$；
-  - text: 求 $z=z(u,v)$ 的表达式。
+      设 $z=z(u,v)$ 具有二阶连续偏导数，且 $z=z(x-y,x+2y)$ 满足 $2\dfrac{\partial^2 z}{\partial x^2}+\dfrac{\partial^2 z}{\partial x\partial y}-\dfrac{\partial^2 z}{\partial y^2}=2\dfrac{\partial z}{\partial x}-\dfrac{\partial z}{\partial y}$ $,\dfrac{\mathrm{d}[z(0,v)]}{\mathrm{d}v}=\dfrac{1}{3}z(0,v)+\mathrm{e}^{\dfrac{v}{3}}$ $,z(u,0)=\sin u$。 (1) 证明$:\dfrac{\partial^2 z}{\partial u\partial v}=\dfrac{1}{3}\dfrac{\partial z}{\partial u}$； (2) 求 $z=z(u,v)$ 的表达式。
 - number: 22
   section: solution
   points: 12
   stem:
     text: |-
-      设 $A=\begin{pmatrix}1&-2&3\\0&1&-1\\1&2&0\end{pmatrix}$，$\beta=\begin{pmatrix}-4\\1\\-3\end{pmatrix}$，$B=\begin{pmatrix}-2&1&3\\1&0&-1\\2&1&0\end{pmatrix}$，$(A,\beta)=BC$。
-  subparts:
-  - text: |-
-      求 $Ax=\beta$ 的解，并求出 $C$；
-  - text: |-
-      求满足 $(A,\beta)Y=E$ 的所有 $Y$。
-content_hash: 668b06bbcd7db559fddcbf628eee372a5c41f9fb25e5304842cdeb811a8968cb
+      设 $A=\begin{pmatrix}1&-2&3\\0&1&-1\\1&2&0\end{pmatrix}$ $,\boldsymbol{\beta}=\begin{pmatrix}-4\\1\\-3\end{pmatrix}$ $,B=\begin{pmatrix}-2&1&3\\1&0&-1\\2&1&0\end{pmatrix}$，且 $(A, \boldsymbol{\beta})=BC$。 (1) 求线性方程组 $A\boldsymbol{x}=\boldsymbol{\beta}$ 的通解，并求出矩阵 $C$； (2) 求满足 $(A\mid\boldsymbol{\beta})Y=E$ 的所有矩阵 $Y$。
+content_hash: c1a4216f7ee583369c360ed75a36af6e9502ef73dc6b2e85f9b5c9ed94e948cc

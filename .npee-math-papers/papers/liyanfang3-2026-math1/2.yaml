@@ -10,16 +10,16 @@ questions:
   points: 5
   stem:
     text: |-
-      设函数 $f(x)=\begin{cases}|x|\left[\dfrac{1}{x}\right],&x\neq 0,\\0,&x=0,\end{cases}$ 其中 $\left[\dfrac{1}{x}\right]$ 表示不超过 $\dfrac{1}{x}$ 的最大整数，则 $f(x)$ 的间断点的个数为\ExamSelection。
+      设函数 \( f\left( x\right)=\left\{\begin{array}{ll}\left|x\right|\left\lbrack \dfrac{1}{x}\right\rbrack, & x\neq 0, \\ 0, & x=0, \end{array}\right.\) 其中 \( \left\lbrack \dfrac{1}{x}\right\rbrack\) 表示不超过 \( \dfrac{1}{x}\) 的最大整数，则 \(f\left(x\right)\) 的间断点的个数为( )
   choices:
   - label: A
-    text: $1$
+    text: '1'
     figures: []
   - label: B
-    text: $2$
+    text: '2'
     figures: []
   - label: C
-    text: $3$
+    text: '3'
     figures: []
   - label: D
     text: 无穷多个
@@ -29,133 +29,139 @@ questions:
   points: 5
   stem:
     text: |-
-      设函数 $f(x)$ 在 $[0,1]$ 上连续，在 $(0,1)$ 内二阶可导，$f(0)=a$，$f(1)=b$，$a\neq b$，$c\in(0,1)$。若 $f(c)=\dfrac{a+b}{2}$ 且 $f'(x)$ 单调增加，则\ExamSelection。
+      设函数 $f(x)$ 在 $[0, 1]$ 上连续，在 $(0, 1)$ 内二阶可导$,f(0) = a$ $,f(1) = b$ $,a \neq b$ $,c \in (0, 1)$。若 $f(c) = \dfrac{a+b}{2}$ 且 $f'(x)$ 单调增加，则（ ）
   choices:
   - label: A
     text: |-
-      $c>\dfrac{1}{2}$
+      $c > \dfrac{1}{2}$
     figures: []
   - label: B
     text: |-
-      $c<\dfrac{1}{2}$
+      $c < \dfrac{1}{2}$
     figures: []
   - label: C
-    text: $f'(c)(b-a)>0$
+    text: $f'(c)(b - a) > 0$
     figures: []
   - label: D
-    text: $f'(c)(b-a)<0$
+    text: $f'(c)(b - a) < 0$
     figures: []
 - number: 3
   section: choice
   points: 5
   stem:
     text: |-
-      设 $a_n>1$，$n=1,2,\cdots$，数列 $\{a_n\}$ 单调减少，$s_n=\sum_{i=1}^{n}a_i$，$s'_n=\prod_{i=1}^{n}(1+a_i)$，则下列说法中，正确的是\ExamSelection。
+      设 \(a_n>1,n=1,2, \cdots\)，数列 \(\left\{a_n\right\}\) 单调减少，\( s_n=\sum\limits_{i=1}^n a_i,s'_n=\prod\limits_{i=1}^n\left(1+a_i\right)\)，则下列说法中，正确的是( )
   choices:
   - label: A
     text: |-
-      $\sum_{n=1}^{\infty}\dfrac{(-1)^n a_n}{s_n}$ 条件收敛，$\sum_{n=1}^{\infty}\dfrac{(-a_n)^n}{s'_n}$ 条件收敛
+      \( \sum\limits_{n=1}^{\infty}\dfrac{\left(-1\right)^n a_n}{s_n}\) 条件收敛, \( \sum\limits_{n=1}^{\infty}\dfrac{\left(-a_n\right)^n}{s'_n}\) 条件收敛
     figures: []
   - label: B
     text: |-
-      $\sum_{n=1}^{\infty}\dfrac{(-1)^n a_n}{s_n}$ 条件收敛，$\sum_{n=1}^{\infty}\dfrac{(-a_n)^n}{s'_n}$ 绝对收敛
+      \( \sum\limits_{n=1}^{\infty}\dfrac{\left(-1\right)^n a_n}{s_n}\) 条件收敛, \( \sum\limits_{n=1}^{\infty}\dfrac{\left(-a_n\right)^n}{s'_n}\) 绝对收敛
     figures: []
   - label: C
     text: |-
-      $\sum_{n=1}^{\infty}\dfrac{(-1)^n a_n}{s_n}$ 绝对收敛，$\sum_{n=1}^{\infty}\dfrac{(-a_n)^n}{s'_n}$ 条件收敛
+      \( \sum\limits_{n=1}^{\infty}\dfrac{\left(-1\right)^n a_n}{s_n}\) 绝对收敛, \( \sum\limits_{n=1}^{\infty}\dfrac{\left(-a_n\right)^n}{s'_n}\) 条件收敛
     figures: []
   - label: D
     text: |-
-      $\sum_{n=1}^{\infty}\dfrac{(-1)^n a_n}{s_n}$ 绝对收敛，$\sum_{n=1}^{\infty}\dfrac{(-a_n)^n}{s'_n}$ 绝对收敛
+      \( \sum\limits_{n=1}^{\infty}\dfrac{\left(-1\right)^n a_n}{s_n}\) 绝对收敛, \( \sum\limits_{n=1}^{\infty}\dfrac{\left(-a_n\right)^n}{s'_n}\) 绝对收敛
     figures: []
 - number: 4
   section: choice
   points: 5
   stem:
     text: |-
-      设函数 $f(x,y)=\begin{cases}\dfrac{x|y|^{\dfrac{3}{2}}}{\sqrt{x^2+y^4}},&(x,y)\neq(0,0),\\0,&(x,y)=(0,0),\end{cases}$ 则下列命题中，正确的个数是\ExamSelection。\n①$f(x,y)$ 在点 $(0,0)$ 处连续。\n②$f(x,y)$ 在点 $(0,0)$ 处的两个偏导数均存在。\n③$f'_x(x,y)$ 在点 $(0,0)$ 处连续。\n④$f(x,y)$ 在点 $(0,0)$ 处可微。
+      设函数 \( f\left(x,y\right)=\left\{\begin{array}{ll}\dfrac{x\left|y\right|^{\frac32}}{\sqrt{x^2+y^4}}, & \left(x,y\right)\neq\left(0,0\right), \\ 0, & \left(x,y\right)=\left(0,0\right), \end{array}\right.\) 则下列命题中， \circled{1} \(f\left(x,y\right)\) 在点 \(\left(0,0\right)\) 处连续； \circled{2} \(f\left(x,y\right)\) 在点 \(\left(0,0\right)\) 处的两个偏导数均存在； \circled{3} \(f'_x\left(x,y\right)\) 在点 \(\left(0,0\right)\) 处连续； \circled{4} \(f\left(x,y\right)\) 在点 \(\left(0,0\right)\) 处可微。 正确的个数为（ ）。
   choices:
   - label: A
-    text: $1$
+    text: '1'
     figures: []
   - label: B
-    text: $2$
+    text: '2'
     figures: []
   - label: C
-    text: $3$
+    text: '3'
     figures: []
   - label: D
-    text: $4$
+    text: '4'
     figures: []
 - number: 5
   section: choice
   points: 5
   stem:
     text: |-
-      设 $\alpha_1,\alpha_2,\beta_1,\beta_2$ 是 $3$ 维非零列向量，则下列说法中，正确的是\ExamSelection。
+      设 \(\alpha_1, \alpha_2, \beta_1, \beta_2\) 是 3 维非零列向量，则下列说法中，正确的是( )
   choices:
   - label: A
     text: |-
-      若存在非零向量 $\gamma$ 可由 $\alpha_1,\alpha_2$ 线性表示，也可由 $\beta_1,\beta_2$ 线性表示，则 $\alpha_1,\alpha_2$ 与 $\beta_1,\beta_2$ 等价
+      若存在非零向量 \(\gamma\) 可由 \(\alpha_1, \alpha_2\) 线性表示, 也可由 \(\beta_1, \beta_2\) 线性表示, 则 \(\alpha_1, \alpha_2\) 与 \(\beta_1, \beta_2\) 等价
     figures: []
   - label: B
     text: |-
-      若存在非零向量 $\gamma$ 可由 $\alpha_1,\alpha_2$ 线性表示，不可由 $\beta_1,\beta_2$ 线性表示，则 $\beta_1,\beta_2$ 可由 $\alpha_1,\alpha_2$ 线性表示
+      若存在非零向量 \(\gamma\) 可由 \(\alpha_1, \alpha_2\) 线性表示, 不可由 \(\beta_1, \beta_2\) 线性表示, 则 \(\beta_1, \beta_2\) 可由 \(\alpha_1, \alpha_2\) 线性表示
     figures: []
   - label: C
     text: |-
-      若 $\alpha_1,\alpha_2$ 线性无关，$\beta_1,\beta_2$ 线性无关，则存在非零向量 $\gamma$ 既可由 $\alpha_1,\alpha_2$ 线性表示，也可由 $\beta_1,\beta_2$ 线性表示
+      若 \(\alpha_1, \alpha_2\) 线性无关, \(\beta_1, \beta_2\) 线性无关, 则存在非零向量 \(\gamma\) 既可由 \(\alpha_1, \alpha_2\) 线性表示, 也可由 \(\beta_1, \beta_2\) 线性表示
     figures: []
   - label: D
     text: |-
-      若 $\alpha_1,\alpha_2$ 线性相关，$\beta_1,\beta_2$ 线性相关，则不存在非零向量 $\gamma$ 既可由 $\alpha_1,\alpha_2$ 线性表示，也可由 $\beta_1,\beta_2$ 线性表示
+      若 \(\alpha_1, \alpha_2\) 线性相关, \(\beta_1, \beta_2\) 线性相关, 则不存在非零向量 \(\gamma\) 既可由 \(\alpha_1, \alpha_2\) 线性表示, 也可由 \(\beta_1, \beta_2\) 线性表示
     figures: []
 - number: 6
   section: choice
   points: 5
   stem:
     text: |-
-      设 $A,B$ 为 $n$ 阶矩阵，方程组 $Ax=0$ 与 $Bx=0$ 同解，则下列命题中，错误的是\ExamSelection。
+      设 \(A,B\) 为 \(n\) 阶矩阵，方程组 \(Ax=0\) 与 \(Bx=0\) 同解，则下列命题中，错误的是( )
   choices:
   - label: A
-    text: 存在可逆矩阵 $Q$，使得 $QBx=0$ 与 $Ax=0$ 同解
+    text: |-
+      存在可逆矩阵 \(Q\), 使得 \(QBx=0\) 与 \(Ax=0\) 同解
     figures: []
   - label: B
     text: |-
-      存在可逆矩阵 $Q$，使得 $QBx=0$ 与 $A^{\mathrm T}x=0$ 同解
+      存在可逆矩阵 \(Q\), 使得 \(QBx=0\) 与 \(A^Tx=0\) 同解
     figures: []
   - label: C
-    text: 存在可逆矩阵 $Q$，使得 $BQx=0$ 与 $Ax=0$ 同解
+    text: |-
+      存在可逆矩阵 \(Q\), 使得 \(BQx=0\) 与 \(Ax=0\) 同解
     figures: []
   - label: D
     text: |-
-      存在可逆矩阵 $Q$，使得 $BQx=0$ 与 $A^{\mathrm T}x=0$ 同解
+      存在可逆矩阵 \(Q\), 使得 \(BQx=0\) 与 \(A^Tx=0\) 同解
     figures: []
 - number: 7
   section: choice
   points: 5
   stem:
     text: |-
-      设 $A$ 为 $n$ 阶可逆实对称矩阵，若对任意 $n$ 维单位列向量 $\alpha$，$B(\alpha)=\begin{pmatrix}A&\alpha\\\alpha^{\mathrm T}&1\end{pmatrix}$ 为正定矩阵，则\ExamSelection。
+      设 \(A\) 为 \(n\) 阶可逆实对称矩阵，若对任意 \(n\) 维单位列向量 \(\alpha\), \( B\left(\alpha\right)=\left(\begin{array}{ll}A&\alpha\\ \alpha^T&1\end{array}\right)\) 为正定矩阵，则( )
   choices:
   - label: A
-    text: $A-E$ 不是正定矩阵
+    text: |-
+      \(A-E\) 不是正定矩阵
     figures: []
   - label: B
-    text: $A^*-E$ 不是正定矩阵
+    text: |-
+      \(A^*-E\) 不是正定矩阵
     figures: []
   - label: C
-    text: $A$ 与 $A^*$ 不合同
+    text: |-
+      \(A\) 与 \(A^*\) 不合同
     figures: []
   - label: D
-    text: $|A+A^{-1}|>2^n$
+    text: |-
+      \(\left|A+A^{-1}\right|>2^n\)
     figures: []
 - number: 8
   section: choice
   points: 5
   stem:
     text: |-
-      设 $A,B,C$ 为三个随机事件，且 $P(A)=\dfrac{2}{3}$，$P(B)=\dfrac{3}{4}$，$P(C)=\dfrac{4}{5}$，$P(A\cup B\cup C)=1$，则 $A,B,C$ 同时发生的概率最小可取到\ExamSelection。
+      设 $A, B, C$ 为三个随机事件，且 $ P(A)=\dfrac{2}{3}, \quad P(B)=\dfrac{3}{4}, \quad P(C)=\dfrac{4}{5}, \quad P(A \cup B \cup C)=1$，则 $A, B, C$ 同时发生的概率最小可取到（ ）
   choices:
   - label: A
     text: |-
@@ -178,137 +184,117 @@ questions:
   points: 5
   stem:
     text: |-
-      设二维随机变量 $(X,Y)$ 的联合分布律为 $P\{X=n,Y=m\}=\dfrac{e^{-\theta}49^m51^{n-m}}{m!(n-m)!}$，$m=0,1,\cdots,n$，$n=0,1,\cdots$，则下列说法中，正确的是\ExamSelection。
+      设二维随机变量 \(\left(X,Y\right)\) 的联合分布律为 \( P\{X=n,Y=m\}=\dfrac{\mathrm{e}^{-\theta}(0.49\theta)^m(0.51\theta)^{n-m}}{m!\left(n-m\right)!},m=0,1, \cdots,n,n=0,1, \cdots\)，则下列说法中，正确的是( )
   choices:
   - label: A
     text: |-
-      $E(X)>\theta$
+      \(E\left(X\right)>\theta\)
     figures: []
   - label: B
     text: |-
-      $E(Y)>\theta$
+      \(E\left(Y\right)>\theta\)
     figures: []
   - label: C
-    text: $E(X)>2E(Y)$
+    text: |-
+      \(E\left(X\right)>2E\left(Y\right)\)
     figures: []
   - label: D
-    text: $E(Y)<E(X)<2E(Y)$
+    text: |-
+      \(E\left(Y\right)<E\left(X\right)<2E\left(Y\right)\)
     figures: []
 - number: 10
   section: choice
   points: 5
   stem:
     text: |-
-      设总体 $X$ 服从 $[0,\theta]$ 上的均匀分布，其中 $\theta\in(0,+\infty)$ 为未知参数，$X_1,X_2,\cdots,X_n$ 是来自总体 $X$ 的样本容量大于 $1$ 的简单随机样本，$\overline X$ 为样本均值，给出下列三个统计量：$\hat\theta_1=2\overline X$，$\hat\theta_2=\max\{X_1,X_2,\cdots,X_n\}$，$\hat\theta_3=\dfrac{n+1}{n}\hat\theta_2$。下列说法中，正确的是\ExamSelection。
+      设总体 \(X\) 服从 \(\left\lbrack 0, \theta\right\rbrack\) 上的均匀分布，其中 \(\theta\in\left(0, +\infty\right)\) 为未知参数，\(X_1,X_2, \cdots,X_n\) 是来自总体 \(X\) 的样本容量大于 1 的简单随机样本，\(\bar X\) 为样本均值，给出 \(\widehat{\theta}_1=2\bar X\), \(\widehat{\theta}_2=\max\left\{X_1,X_2, \cdots,X_n\right\}\), \( \widehat{\theta}_3=\dfrac{n+1}{n}\widehat{\theta}_2\)。下列说法中，正确的是( )
   choices:
   - label: A
     text: |-
-      $\hat\theta_1,\hat\theta_2$ 均为 $\theta$ 的无偏估计，且 $\hat\theta_1$ 比 $\hat\theta_2$ 更有效
+      \(\widehat{\theta}_1, \widehat{\theta}_2\) 均为 \(\theta\) 的无偏估计, 且 \(\widehat{\theta}_1\) 比 \(\widehat{\theta}_2\) 更有效
     figures: []
   - label: B
     text: |-
-      $\hat\theta_1,\hat\theta_2$ 均为 $\theta$ 的无偏估计，且 $\hat\theta_2$ 比 $\hat\theta_1$ 更有效
+      \(\widehat{\theta}_1, \widehat{\theta}_2\) 均为 \(\theta\) 的无偏估计, 且 \(\widehat{\theta}_2\) 比 \(\widehat{\theta}_1\) 更有效
     figures: []
   - label: C
     text: |-
-      $\hat\theta_1,\hat\theta_3$ 均为 $\theta$ 的无偏估计，且 $\hat\theta_1$ 比 $\hat\theta_3$ 更有效
+      \(\widehat{\theta}_1, \widehat{\theta}_3\) 均为 \(\theta\) 的无偏估计, 且 \(\widehat{\theta}_1\) 比 \(\widehat{\theta}_3\) 更有效
     figures: []
   - label: D
     text: |-
-      $\hat\theta_1,\hat\theta_3$ 均为 $\theta$ 的无偏估计，且 $\hat\theta_3$ 比 $\hat\theta_1$ 更有效
+      \(\widehat{\theta}_1, \widehat{\theta}_3\) 均为 \(\theta\) 的无偏估计, 且 \(\widehat{\theta}_3\) 比 \(\widehat{\theta}_1\) 更有效
     figures: []
 - number: 11
   section: fill
   points: 5
   stem:
     text: |-
-      设 $\boldsymbol n$ 是曲面 $x^2-2y^2+z^2=3$ 在点 $P(2,1,-1)$ 处的指向外侧的法向量，则函数 $u(x,y,z)=\dfrac{\arctan(yz)}{x+z}$ 在点 $P$ 处沿方向 $\boldsymbol n$ 的方向导数是\ExamBlank。
+      设 \(\mathbf{n}\) 是曲面 \({x}^{2} - 2{y}^{2} + {z}^{2} = 3\) 在点 \(P\left( {2,1, - 1}\right)\) 处的指向外侧的法向量，则函数 \( u\left( {x,y,z}\right) = \dfrac{\arctan \left( {yz}\right) }{x + z}\) 在点 \(P\) 处沿方向 \(\mathbf{n}\) 的方向导数是\_\_\_\_\_
 - number: 12
   section: fill
   points: 5
   stem:
     text: |-
-      幂级数 $\sum_{n=1}^{\infty}\left(1-\dfrac{1}{n}\right)^{n^2}(x-1)^n$ 的收敛域为\ExamBlank。
+      幂级数 \( \sum\limits_{{n = 1}}^{\infty }{\left( 1 - \dfrac{1}{n}\right) }^{{n}^{2}}{\left( x - 1\right) }^{n}\) 的收敛域为\_\_\_\_\_
 - number: 13
   section: fill
   points: 5
   stem:
     text: |-
-      设函数 $f(x,y)=\int_1^{x^2+y^2}e^{g(t)}\,\mathrm{d}t$，其中 $g(t)$（$t>0$）可微，且 $g(1)=0$。已知 $\dfrac{\partial^2f}{\partial x^2}\dfrac{\partial^2f}{\partial y^2}-\left(\dfrac{\partial^2f}{\partial x\partial y}\right)^2=0$，则 $f\left(\dfrac{1}{2},\dfrac{1}{2}\right)=$\ExamBlank。
+      设函数 \( f\left( {x,y}\right) = {\int }_{1}^{{x}^{2} + {y}^{2}}{\mathrm{e}}^{g\left( t\right) }\mathrm{d}t\)，其中 \(g\left( t\right)\left( {t > 0}\right)\) 可微，且 \(g\left( 1\right) = 0\). 已知 \( \dfrac{{\partial }^{2}f}{\partial {x}^{2}}\dfrac{{\partial }^{2}f}{\partial {y}^{2}} - {\left( \dfrac{{\partial }^{2}f}{\partial x\partial y}\right) }^{2} = 0\)，则 \( f\left( {\dfrac{1}{2}, \dfrac{1}{2}}\right) =\) \_\_\_\_\_
 - number: 14
   section: fill
   points: 5
   stem:
     text: |-
-      设函数 $f(t)$ 连续，且 $f(0)=1$。$L$ 为直线 $x+y=t$（$t>0$）上从点 $(t,0)$ 到 $(0,t)$ 上的一段，记 $I(t)=\int_L(x+y)f(x-y)\,\mathrm{d}y-2xf(x-y)\,\mathrm{d}x$，则 $\lim_{t\to0}\dfrac{I(t)}{t^2}=$\ExamBlank。
+      设函数 \(f\left( t\right)\) 连续，且 \(f\left( 0\right)=1\). \(L\) 为直线 \(x+y=t\left(t>0\right)\) 上从点 \(\left(t,0\right)\) 到点 \(\left(0,t\right)\) 的一段，记 \( I\left(t\right)={\int}_{L}\left(x+y\right)f\left(x-y\right)\mathrm{d}y-2xf\left(x-y\right)\mathrm{d}x\)，则 \( \lim\limits_{t\to0}\dfrac{I\left(t\right)}{t^2}=\) \_\_\_\_\_
 - number: 15
   section: fill
   points: 5
   stem:
     text: |-
-      设矩阵 $A=\begin{pmatrix}1&0&a&0\\0&a&0&-1\\a&0&0&1\\0&a&1&0\end{pmatrix}$，$A^*$ 是 $A$ 的伴随矩阵。已知 $(0,1,0,0)^{\mathrm T}$ 是方程组 $(A^*+E)x=0$ 的一个解，则 $A^n$ 的所有元素之和为\ExamBlank。
+      设矩阵 \( A = \left( \begin{matrix} 1 & 0 & a & 0 \\ 0 & a & 0 & -1 \\ a & 0 & 0 & 1 \\ 0 & a & 1 & 0 \end{matrix}\right)\), \({A}^{ * }\) 是 \(A\) 的伴随矩阵. 已知 \({\left( 0,1,0,0\right) }^{T}\) 是方程组 \(\left( {{A}^{ * } + E}\right)x = 0\) 的一个解，则 \({A}^{n}\) 的所有元素之和为\_\_\_\_\_
 - number: 16
   section: fill
   points: 5
   stem:
     text: |-
-      某单位举办抽奖活动，已知中奖率为 $\dfrac{1}{4}$，共有 $192$ 人参与抽奖，每人的抽奖过程相互独立。若要使得中奖人均能现场领到奖品的概率不小于 $95\%$。利用中心极限定理估计，该单位现场至少应准备\ExamBlank 份奖品。（注：标准正态分布函数值 $\Phi(1.645)=0.95$，当 $x>3.5$ 时，$\Phi(x)\approx1$。）
+      某单位举办抽奖活动，已知中奖率为 $\dfrac{1}{4}$，共有 $192$ 人参与抽奖，每人的抽奖过程相互独立. 若要使得中奖人均能现场领到奖品的概率不小于 $95\%$，利用中心极限定理估计，该单位现场至少应准备 \underline{\qquad\qquad} 份奖品. （注：标准正态分布函数值 $\Phi(1.645)=0.95$，当 $x>3.5$ 时$,\Phi(x)\approx 1$）
 - number: 17
   section: solution
-  points: 10
+  points: 12
   stem:
     text: |-
-      求极限 $\lim_{n\to\infty}\left[\dfrac{2}{3!!}+\dfrac{4}{5!!}+\cdots+\dfrac{2n}{(2n+1)!!}\right]^{(2n)!!}$，其中 $(2n+1)!!=1\cdot3\cdot5\cdots(2n+1)$。
+      求极限 \( \lim\limits_{{n \rightarrow \infty }}{\left\lbrack \dfrac{2}{3!!} + \dfrac{4}{5!!} + \cdots + \dfrac{2n}{\left( {{2n} + 1}\right) !!}\right\rbrack }^{\left( {2n}\right) !!}\)，其中 \(\left( {{2n} + 1}\right) !! = 1 \cdot 3 \cdot 5\cdots \left( {{2n} + 1}\right)\)
 - number: 18
   section: solution
   points: 12
   stem:
     text: |-
-      设曲线 $l$ 的方程为 $f(x,y)=0$（$x\geq0$），函数 $y=y(x)$ 由方程 $f(x,y)=0$ 确定，$y(x)$ 二阶可导且 $y'(x)>0$。已知曲线 $l$ 在点 $(0,1)$ 处的切线方程为 $y=\sqrt{3}x+1$，并且该曲线上从点 $A(0,1)$ 到点 $P(x,y)$ 的曲线弧长等于点 $P(x,y)$ 处的法线在 $x$ 轴上的截距，求曲线 $l$ 满足的方程。
+      设曲线 \(l\) 的方程为 \(f\left( {x,y}\right) =0\left( {x\geq 0}\right)\)，函数 \(y=y\left(x\right)\) 由方程 \(f\left( {x,y}\right)=0\) 确定，\(y\left(x\right)\) 二阶可导且 \({y}^{\prime}\left(x\right)>0\). 已知曲线 \(l\) 在点 \(\left( {0,1}\right)\) 处的切线方程为 \( y=\sqrt{3}x+1\)，并且该曲线上从点 \(A\left( {0,1}\right)\) 到点 \(P\left( {x,y}\right)\) 的曲线弧长等于点 \(P\left( {x,y}\right)\) 处的法线在 \(x\) 轴上的截距，求曲线 \(l\) 满足的方程
 - number: 19
   section: solution
   points: 12
   stem:
     text: |-
-      设曲面 $\Sigma_1$ 为 $z=\sqrt{|xy|}$，曲面 $\Sigma_2$ 为 $z=\dfrac{1}{2}(x^2+y^2)$，两曲面在第一卦限内的交线为 $C$，所围成的封闭区域为 $\Omega$。
-  subparts:
-  - text: |-
-      求 $\Omega$ 的体积 $V$；
-  - text: |-
-      某薄片型物体 $S$ 是 $\Sigma_2$ 被 $\Sigma_1$ 在第一卦限内所截得的有限部分，其上任意一点处的密度为 $\rho(x,y,z)=\sqrt{\dfrac{1+z}{1+2z}}$，求 $S$ 的质量 $M$。
+      设曲面 $\Sigma_1$ 为 $z = \sqrt{|xy|}$，曲面 $\Sigma_2$ 为 $z = \dfrac{1}{2}(x^2 + y^2)$，两曲面在第一卦限内的交线为 $C$，所围成的封闭区域为 $\Omega$。 (1) 求 $\Omega$ 的体积 $V$； (2) 某薄片型物体 $S$ 是 $\Sigma_2$ 被 $\Sigma_1$ 在第一卦限内所截得的有限部分，其上任意一点处的密度为 $\rho(x, y, z) = \sqrt{\dfrac{1+z}{1+2z}}$，求 $S$ 的质量 $M$。
 - number: 20
   section: solution
   points: 12
   stem:
     text: |-
-      设函数 $f(x)$ 满足 $x^2f''(x)+4[f'(x)]^2=1-\cos x$，$f(0)=f'(0)=0$。证明：
-  subparts:
-  - text: |-
-      当 $x\geq0$ 时，$f(x)\leq\dfrac{1}{4}x^2$；
-  - text: |-
-      若 $f''(x)>0$，则 $[f(1)]^2\leq\dfrac{2\cos1-1}{4}$。
+      设函数 \(f\left(x\right)\) 满足 \({x}^{2}{f}^{\prime\prime}\left(x\right)+4{\left\lbrack {f}^{\prime}\left(x\right)\right\rbrack}^{2}=1-\cos x\), \(f\left(0\right)={f}^{\prime}\left(0\right)=0\). 证明：(1) 当 \(x\geq0\) 时，\( f\left(x\right)\leq\frac14{x}^{2}\)； (2) 若 \({f}^{\prime\prime}\left(x\right)>0\)，则 \( {\left\lbrack f\left(1\right)\right\rbrack}^{2}\leq\dfrac{2\cos1-1}{4}\)
 - number: 21
   section: solution
   points: 12
   stem:
     text: |-
-      设 $A,B$ 为 $3$ 阶矩阵，$AB-BA=A$，存在可逆矩阵 $P=(\alpha,\beta,\gamma)$ 使得 $P^{-1}AP=\begin{pmatrix}0&1&1\\0&0&1\\0&0&0\end{pmatrix}$，且 $B\alpha\neq0$。
-  subparts:
-  - text: |-
-      证明：$\alpha$ 是 $B$ 的属于非零特征值 $k$ 的一个特征向量。
-  - text: |-
-      若 $k=-1$，求 $\operatorname{tr}(B)$。
+      设 \(A,B\) 为 3 阶矩阵，\({AB}-{BA}=A\)，存在可逆矩阵 \(P=\left(\alpha, \beta, \gamma\right)\) 使得 \( {P}^{-1}{AP}=\left(\begin{array}{lll}0&1&1\\0&0&1\\0&0&0\end{array}\right)\)，且 \(B\alpha\neq0\). (1) 证明：\(\alpha\) 是 \(B\) 的属于非零特征值 \(k\) 的一个特征向量； (2) 若 \(k=-1\)，求 \(\operatorname{tr}\left(B\right)\)
 - number: 22
   section: solution
   points: 12
   stem:
     text: |-
-      设随机变量 $X$ 的概率密度为 $f(x;\theta)=\begin{cases}\dfrac{1}{2\sqrt{\pi(x-\theta)}}e^{-\dfrac{x-\theta}{4}},&x>\theta,\\0,&\text{其他},\end{cases}$ 其中 $\theta$ 为待估参数。$X_1,X_2,\cdots,X_n$ 是来自总体 $X$ 的简单随机样本。
-  subparts:
-  - text: |-
-      求 $\theta$ 的矩估计量 $\hat\theta_1$；
-  - text: |-
-      求 $D(\hat\theta_1^2)$，并判断 $\hat\theta_1^2$ 是否为 $\theta^2$ 的无偏估计；
-  - text: |-
-      求 $\theta$ 的最大似然估计量 $\hat\theta_2$。
-content_hash: f2478cf5ddfe1247c699920ff1171983467115380a18ae647a61d3d16b905a25
+      设随机变量 \(X\) 的概率密度为 \( f\left( {x;\theta}\right)=\left\{\begin{array}{ll}\dfrac{1}{2\sqrt{\pi\left( {x-\theta}\right)}}{\mathrm e}^{-\dfrac{x-\theta}{4}}, &x>\theta, \\0, &\text{其他,}\end{array}\right.\) 其中，\(\theta\) 为待估参数. \({X}_{1}, {X}_{2}, \cdots, {X}_{n}\) 是来自总体 \(X\) 的简单随机样本. (1) 求 \(\theta\) 的矩估计量 \({\widehat\theta}_{1}\)； (2) 求 \(D\left({\widehat\theta}_{1}\right)\)，并判断 \({\widehat\theta}_{1}^{2}\) 是否为 \({\theta}^{2}\) 的无偏估计； (3) 求 \(\theta\) 的最大似然估计量 \({\widehat\theta}_{2}\)
+content_hash: 9562a62894da9c5e8f799d00297d3b889797de8a0b533463478c7e27e0ce32a1

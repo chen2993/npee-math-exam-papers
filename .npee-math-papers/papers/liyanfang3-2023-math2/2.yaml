@@ -10,7 +10,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设函数 $f(x)=(1-\cos x)(2-\cos x)\cdots(n-\cos x)$，则 $f''(0)$ 等于\ExamSelection
+      设函数 $f(x) = (1 - \cos x)(2 - \cos x) \cdots (n - \cos x)$，则 $f''(0) = (\quad)$
   choices:
   - label: A
     text: $(n-1)!$
@@ -29,26 +29,26 @@ questions:
   points: 5
   stem:
     text: |-
-      当 $x\to+\infty$ 时，无穷大量 $I_1=x^{x^{x+1}}$，$I_2=x^{(x+1)^{x}}$，$I_3=(x+1)^{x^x}$ 按照从高阶到低阶的排序是\ExamSelection
+      当 $x \to +\infty$ 时，无穷大量 $I_1 = x^{x^{x+1}}, I_2 = x^{(x+1)^x}, I_3 = (x+1)^{x^x}$ 按照从高阶到低阶的排序是（\quad）
   choices:
   - label: A
-    text: $I_1,I_2,I_3$
+    text: $I_1, I_2, I_3.$
     figures: []
   - label: B
-    text: $I_1,I_3,I_2$
+    text: $I_1, I_3, I_2.$
     figures: []
   - label: C
-    text: $I_2,I_1,I_3$
+    text: $I_2, I_1, I_3.$
     figures: []
   - label: D
-    text: $I_3,I_2,I_1$
+    text: $I_3, I_2, I_1.$
     figures: []
 - number: 3
   section: choice
   points: 5
   stem:
     text: |-
-      设函数 $F(x)=\int_0^x(x-2t)f(x-t)\,\mathrm{d}t$，其中 $f(x)$ 为连续函数，则下列命题中，正确的是\ExamSelection \n①若 $f(x)$ 为单调减少函数，则 $F(x)$ 为单调减少函数；\n②若 $f(x)$ 为单调减少函数，则 $F(x)$ 为单调增加函数；\n③若 $f(x)$ 为奇函数，则 $F(x)$ 为奇函数；\n④若 $f(x)$ 为奇函数，则 $F(x)$ 为偶函数。
+      设函数 $F(x)=\int_0^x (x-2t)f(x-t)\mathrm{d}t$，其中 $f(x)$ 为连续函数，则下列命题中，正确的是（\quad ） ①若 $f(x)$ 为单调减少函数，则 $F(x)$ 为单调减少函数. ②若 $f(x)$ 为单调减少函数，则 $F(x)$ 为单调增加函数. ③若 $f(x)$ 为奇函数，则 $F(x)$ 为奇函数. ④若 $f(x)$ 为奇函数，则 $F(x)$ 为偶函数
   choices:
   - label: A
     text: ①③
@@ -67,30 +67,30 @@ questions:
   points: 5
   stem:
     text: |-
-      设函数 $f(x)$ 在 $[0,\dfrac{\pi}{2}]$ 上可导。已知 $f(0)=0$，$f'(0)=1$，且 $f(x)$ 满足 $f'(x)\tan x\leq f(x)$，则下列关系式中，正确的是\ExamSelection
+      设函数 $f(x)$ 在 $\left[0, \dfrac{\pi}{2}\right]$ 上可导. 已知 $f(0)=0, f'(0)=1$, 且 $f(x)$ 满足 $f'(x) \tan x \leqslant f(x)$, 则下列关系式中, 正确的是（ ）
   choices:
   - label: A
     text: |-
-      $f(\dfrac{\pi}{6})\geq\dfrac{1}{2}$
+      $f\left(\dfrac{\pi}{6}\right) \geqslant \dfrac{1}{2}$
     figures: []
   - label: B
     text: |-
-      $f(\dfrac{\pi}{4})\leq\dfrac{1}{\sqrt{2}}$
+      $f\left(\dfrac{\pi}{4}\right) \leqslant \dfrac{1}{\sqrt{2}}$
     figures: []
   - label: C
     text: |-
-      $f(\dfrac{\pi}{4})\leq\dfrac{\sqrt{2}}{2}f(\dfrac{\pi}{2})$
+      $f\left(\dfrac{\pi}{4}\right) \leqslant \dfrac{\sqrt{2}}{2} f\left(\dfrac{\pi}{2}\right)$
     figures: []
   - label: D
     text: |-
-      $f(\dfrac{\pi}{2})\geq2f(\dfrac{\pi}{6})$
+      $f\left(\dfrac{\pi}{2}\right) \geqslant 2 f\left(\dfrac{\pi}{6}\right)$
     figures: []
 - number: 5
   section: choice
   points: 5
   stem:
     text: |-
-      设定义在 $[0,+\infty)$ 上的二阶可导函数 $f(x)$ 满足 $f''(x)+f'(x)=\dfrac{\mathrm{e}^{-x}}{1+x^2}$，则下列结论中，错误的是\ExamSelection
+      设定在 $[0, +\infty)$ 上的二阶可导函数 $f(x)$ 满足 $f''(x) + f'(x) = \dfrac{\mathrm{e}^{-x}}{1+x^2}$，则下列结论中，错误的是（ ）
   choices:
   - label: A
     text: $f'(x)$ 有界
@@ -100,18 +100,18 @@ questions:
     figures: []
   - label: C
     text: |-
-      $\lim_{x\to+\infty}f'(x)$ 一定存在
+      $\lim_{x \to +\infty} f'(x)$ 一定存在
     figures: []
   - label: D
     text: |-
-      $\lim_{x\to+\infty}f(x)$ 不一定存在
+      $\lim_{x \to +\infty} f(x)$ 不一定存在
     figures: []
 - number: 6
   section: choice
   points: 5
   stem:
     text: |-
-      设二元函数 $f(x,y)$ 连续，且 $\lim_{(x,y)\to(0,0)}\dfrac{f(x,y)}{2x^2-2xy^2-4xy+y^4+4y^2}=1$，则\ExamSelection
+      设二元函数 $f(x,y)$ 连续，且 $\lim\limits_{(x,y)\to(0,0)} \dfrac{f(x,y)}{2x^2-2xy^2-4xy+y^4+4y^2} = 1$，则（\quad）
   choices:
   - label: A
     text: 点 $(0,0)$ 是 $f(x,y)$ 的极大值点
@@ -130,26 +130,25 @@ questions:
   points: 5
   stem:
     text: |-
-      记 $I_1=\lim_{n\to\infty}\dfrac{1}{n^2}\sum_{i=1}^{n}\sum_{j=1}^{n-i}\left(\sin\dfrac{i}{n}-\sin\dfrac{j}{n}\right)$，$I_2=-\lim_{n\to\infty}\dfrac{1}{n^2}\sum_{i=-n}^{-1}\sum_{j=-n}^{n+i}\left(\sin\dfrac{i}{n}+\sin\dfrac{j}{n}\right)$，$I_3=\lim_{n\to\infty}\dfrac{1}{n^2}\sum_{i=-n}^{-1}\sum_{j=-n-i}^{-1}\left(\sin\dfrac{i}{n}+\sin\dfrac{j}{n}\right)$，$I_4=\lim_{n\to\infty}\dfrac{1}{n^2}\sum_{i=1}^{n}\sum_{j=i-n}^{-1}\left(\sin\dfrac{i}{n}-\sin\dfrac{j}{n}\right)$，则 $I_1,I_2,I_3,I_4$ 中，\ExamSelection
+      记 $I_1 = \lim\limits_{n\to\infty} \dfrac{1}{n^2} \sum\limits_{i=1}^{n} \sum\limits_{j=1}^{n-i} \left( \sin\dfrac{i}{n} - \sin\dfrac{j}{n} \right)$ $,I_2 = -\lim\limits_{n\to\infty} \dfrac{1}{n^2} \sum\limits_{i=-n}^{-1} \sum\limits_{j=1}^{n+i} \left( \sin\dfrac{i}{n} + \sin\dfrac{j}{n} \right)$ $,I_3 = \lim\limits_{n\to\infty} \dfrac{1}{n^2} \sum\limits_{i=-n}^{-1} \sum\limits_{j=-n-i}^{-1} \left( \sin\dfrac{i}{n} + \sin\dfrac{j}{n} \right)$ $,I_4 = \lim\limits_{n\to\infty} \dfrac{1}{n^2} \sum\limits_{i=1}^{n} \sum\limits_{j=i-n}^{-1} \left( \sin\dfrac{i}{n} - \sin\dfrac{j}{n} \right)$，则 $I_1, I_2, I_3, I_4$ 中，( )
   choices:
   - label: A
-    text: $I_1$ 最小，$I_2$ 最大
+    text: $I_1$ 最小$,I_2$ 最大
     figures: []
   - label: B
-    text: $I_1$ 最小，$I_4$ 最大
+    text: $I_1$ 最小$,I_4$ 最大
     figures: []
   - label: C
-    text: $I_3$ 最小，$I_2$ 最大
+    text: $I_3$ 最小$,I_2$ 最大
     figures: []
   - label: D
-    text: $I_3$ 最小，$I_4$ 最大
+    text: $I_3$ 最小$,I_4$ 最大
     figures: []
 - number: 8
   section: choice
   points: 5
   stem:
-    text: |-
-      设 $A,B$ 为 $n$ 阶矩阵，则下列命题中，错误的是\ExamSelection
+    text: 设 $A,B$ 为 $n$ 阶矩阵，则下列命题中，错误的是（ ）
   choices:
   - label: A
     text: 若 $B$ 和 $AB$ 都是正交矩阵，则 $A$ 也是一个正交矩阵
@@ -158,40 +157,40 @@ questions:
     text: 若 $B$ 和 $A+B$ 都是正交矩阵，则 $A$ 也是一个正交矩阵
     figures: []
   - label: C
-    text: 若 $A$ 是正交矩阵，$x$ 是 $n$ 维列向量，则 $x$ 和 $Ax$ 的长度相等
+    text: 若 $A$ 是正交矩阵$,x$ 是 $n$ 维列向量，则 $x$ 和 $Ax$ 的长度相等
     figures: []
   - label: D
-    text: 若 $A$ 是正交矩阵，$x,y$ 是相互正交的两个 $n$ 维列向量，则 $Ax,Ay$ 也相互正交
+    text: 若 $A$ 是正交矩阵$,x,y$ 是相互正交的两个 $n$ 维列向量，则 $Ax,Ay$ 也相互正交
     figures: []
 - number: 9
   section: choice
   points: 5
   stem:
     text: |-
-      设矩阵 $A=\begin{pmatrix}\dfrac{3}{2}&-\dfrac{1}{2}\\\dfrac{1}{2}&\dfrac{1}{2}\end{pmatrix}$，向量 $\boldsymbol{\alpha}$ 满足 $A\boldsymbol{\alpha}=\begin{pmatrix}1\\1\end{pmatrix}+\boldsymbol{\alpha}$，则下列向量中可能为 $A^{2023}\boldsymbol{\alpha}$ 的是\ExamSelection
+      设矩阵 $A = \begin{pmatrix} \dfrac{3}{2} & -\dfrac{1}{2} \\ \dfrac{1}{2} & \dfrac{1}{2} \end{pmatrix}$，向量 $\alpha$ 满足 $A\alpha = \begin{pmatrix} 1 \\ 1 \end{pmatrix} + \alpha$，则下列向量中可能为 $A^{2023}\alpha$ 的是（ ）
   choices:
   - label: A
     text: |-
-      $\begin{pmatrix}2023\\2024\end{pmatrix}$
+      $\begin{pmatrix} 2023 \\ 2024 \end{pmatrix}$
     figures: []
   - label: B
     text: |-
-      $\begin{pmatrix}2024\\2025\end{pmatrix}$
+      $\begin{pmatrix} 2023 \\ 2025 \end{pmatrix}$
     figures: []
   - label: C
     text: |-
-      $\begin{pmatrix}2024\\2023\end{pmatrix}$
+      $\begin{pmatrix} 2024 \\ 2023 \end{pmatrix}$
     figures: []
   - label: D
     text: |-
-      $\begin{pmatrix}2025\\2023\end{pmatrix}$
+      $\begin{pmatrix} 2025 \\ 2023 \end{pmatrix}$
     figures: []
 - number: 10
   section: choice
   points: 5
   stem:
     text: |-
-      设二次型 $f(x_1,x_2,x_3)=(x_1+ax_3)^2+(x_1+x_2)^2-[x_1+(a+2)x_2-2x_3]^2$ 的负惯性指标为 $0$，则 $a=$\ExamSelection
+      设二次型 $f(x_1,x_2,x_3)=(x_1+ax_3)^2+(x_1+x_2)^2-[x_1+(a+2)x_2-2x_3]^2$ 的负惯性指数为 $0$，则 $a=(\quad)$
   choices:
   - label: A
     text: $1$
@@ -210,71 +209,71 @@ questions:
   points: 5
   stem:
     text: |-
-      曲线 $y=x^2\mathrm{e}^{\frac{1}{x^2}}\ln(1+\dfrac{1}{x})\ (x>0)$ 的斜渐近线方程为\ExamBlank。
+      曲线 $y = x^2 \mathrm{e}^{\dfrac{1}{x^2}} \ln \left(1 + \dfrac{1}{x}\right) (x > 0)$ 的斜渐近线方程为 \underline{\qquad\qquad}
 - number: 12
   section: fill
   points: 5
   stem:
     text: |-
-      设函数 $y=f(x)$ 在区间 $[0,c)$ 上具有一阶连续导数，其值域为 $[1,+\infty)$，$f(0)=1$，并且 $y'>y^2$ 恒成立，则区间 $[0,c)$ 内包含的最大整数数是\ExamBlank。
+      设函数 $y=f(x)$ 在区间 $[0,c)$ 上具有一阶连续导数，其值域为 $[1, +\infty)$ $,f(0)=1$，并且 $y' > y^2$ 恒成立，则区间 $[0,c)$ 内包含的最大整数是 \underline{\qquad}
 - number: 13
   section: fill
   points: 5
   stem:
     text: |-
-      $\lim_{n\to\infty}\left(\dfrac{n^2}{n^3+1}+\dfrac{2n^2}{n^3+2}+\cdots+\dfrac{n\cdot n^2}{n^3+n}\right)\left(\dfrac{1}{4n^2-1^2}+\dfrac{1}{4n^2-2^2}+\cdots+\dfrac{1}{4n^2-n^2}\right)=$\ExamBlank。
+      $\lim_{n\to\infty}\left( \dfrac{n^2}{n^3+1} + \dfrac{2n^2}{n^3+2} + \cdots + \dfrac{n\cdot n^2}{n^3+n} \right)\left( \dfrac{1}{4n^2-1^2} + \dfrac{1}{4n^2-2^2} + \cdots + \dfrac{1}{4n^2-n^2} \right) = \underline{\hspace{2.5em}}.$
 - number: 14
   section: fill
   points: 5
   stem:
     text: |-
-      设 $a,b,c$ 为任意常数。若对任意 $b>0,c>0$，积分 $\int_0^{+\infty}\dfrac{x^a\arctan x^b}{\sqrt{1+x^c}}\,\mathrm{d}x$ 都收敛，则 $a=$\ExamBlank。
+      设 $a,b,c$ 为任意常数. 若对任意 $b>0, c>0$，积分 $\int_0^{+\infty} \dfrac{x^a \arctan x^b}{\sqrt{1+x^c}} \mathrm{d}x$ 都收敛，则 $a = \underline{\qquad}$
 - number: 15
   section: fill
   points: 5
   stem:
     text: |-
-      设函数 $f(x,y)$ 满足 $\lim_{(x,y)\to(0,0)}\dfrac{f(x,y)+(x+1)^2(x-y)}{2x^2+y^2}=1$，则 $\left.\mathrm{d}f(x,y)\right|_{(0,0)}=$\ExamBlank。
+      设函数 $f(x,y)$ 满足 $\lim\limits_{(x,y)\to (0,0)} \dfrac{f(x,y) + (x+1)^2(x-y)}{2x^2 + y^2} = 1$，则 $\left. \mathrm{d}f(x,y) \right|_{(0,0)} = \underline{\hspace{2cm}}$。
 - number: 16
   section: fill
   points: 5
   stem:
     text: |-
-      设 $3$ 阶实对称矩阵 $A$ 仅有两个不同的特征值 $\lambda,\mu$，且 $A^*=\begin{pmatrix}1&1&1\\a&1&1\\b&c&d\end{pmatrix}$，则 $\lambda^2+\mu^2=$\ExamBlank。
+      设 $3$ 阶实对称矩阵 $A$ 仅有两个不同的特征值 $\lambda, \mu$，且 $A^* = \begin{pmatrix} 1 & 1 & 1 \\ a & 1 & 1 \\ b & c & d \end{pmatrix}$，则 $\lambda^2 + \mu^2 = \underline{\hspace{3em}}$
 - number: 17
   section: solution
-  points: 10
+  points: 12
   stem:
     text: |-
-      设函数 $f(x)$ 在 $[-1,1]$ 上连续，且当 $x\neq0$ 时，$f(x)=\dfrac{\mathrm{e}^{ax}+\mathrm{e}^{bx}-2}{\cos x+\cos 2x-2}$，其中 $a,b$ 为非零常数，求 $f(0)$，并讨论 $f(x)$ 在 $x=0$ 处的可导性。
+      设函数 $f(x)$ 在 $[-1,1]$ 上连续，且当 $x \neq 0$ 时$,f(x) = \dfrac{\mathrm{e}^{ax} + \mathrm{e}^{bx} - 2}{\cos x + \cos 2x - 2}$，其中 $a,b$ 为非零常数. 求 $f(0)$，并讨论 $f(x)$ 在 $x=0$ 处的可导性
 - number: 18
   section: solution
   points: 12
   stem:
     text: |-
-      设曲线方程为 $\begin{cases}x(t)=t-\sin t,\\y(t)=1-\cos t,\end{cases}\quad t\in(0,2\pi)$。分别以曲线上的点 $A(a,c),B(b,d)$ 为切点作斜率为 $\sqrt{3},-\sqrt{3}$ 的切线，求出曲线上的弧 $AB$，直线 $x=a,x=b$ 以及 $x$ 轴所围区域绕 $x$ 轴旋转一周所得旋转体的体积。
+      设曲线方程为 $\begin{cases} x(t) = t - \sin t, \\ y(t) = 1 - \cos t, \end{cases} t \in (0, 2\pi)$。分别以曲线上的点 $A(a, c), B(b, d)$ 为切点作斜率为 $\sqrt{3}, -\sqrt{3}$ 的切线，求由曲线上的弧 $AB$，直线 $x = a, x = b$ 以及 $x$ 轴所围区域绕 $x$ 轴旋转一周所得旋转体的体积。
 - number: 19
   section: solution
   points: 12
   stem:
     text: |-
-      设区域 $D=\{(r,\theta)\mid0\leq r\leq\pi\sec\theta,\ 0\leq\theta\leq\dfrac{\pi}{4}\}$，计算 $I=\iint_D r^2\cos\theta\cos\left[\sqrt{2}r\sin\left(\theta+\dfrac{\pi}{4}\right)\right]\,\mathrm{d}r\mathrm{d}\theta$。
+      设区域 $D=\left\{(r, \theta) \mid 0 \leqslant r \leqslant \pi \sec \theta, 0 \leqslant \theta \leqslant \dfrac{\pi}{4}\right\}$，计算 $I=\iint_{D} r^{2} \cos \theta \cos \left[\sqrt{2} r \sin \left(\theta+\dfrac{\pi}{4}\right)\right] \mathrm{d}r \mathrm{d}\theta$。
 - number: 20
   section: solution
   points: 12
   stem:
     text: |-
-      设函数 $z(u,v)$ 有二阶连续偏导数，$z(0,v)=v^2,z(u,u)=2u^2$，当 $u=x^2,v=x+y$ 时，有 $\dfrac{\partial^2z}{\partial x^2}-2\dfrac{\partial^2z}{\partial x\partial y}+\dfrac{\partial^2z}{\partial y^2}=0$，求 $z(u,v)$ 的表达式。
+      设函数 $z(u,v)$ 有二阶连续偏导数$,z(0,v)=v^2, z(u,u)=2u^2$，当 $u=x^2, v=x+y$ 时有 $ $\dfrac{\partial^2 z}{\partial x^2} - 2\dfrac{\partial^2 z}{\partial x\partial y} + \dfrac{\partial^2 z}{\partial y^2} = 0,$ $ \text{求} $z(u,v)$ 的表达式
 - number: 21
   section: solution
   points: 12
   stem:
     text: |-
-      设函数 $g(x)$ 连续，满足对任意实数 $x_1,x_2$，都有 $g(x_1+x_2)=g(x_1)g(x_2),g(1)=a$，$n$ 为正整数。证明：(I) $\int_n^{x+n}g(t)\,\mathrm{d}t=a^n\int_0^xg(t)\,\mathrm{d}t$；(II) 若 $|a|<1$，则对任意 $x\in(0,1)$，$\lim_{n\to+\infty}\int_x^{x+n}g(t)(t-[t])\,\mathrm{d}t$ 都存在，其中 $[t]$ 表示不超过 $t$ 的最大整数。
+      设函数 $g(x)$ 连续，满足对任意实数 $x_1, x_2$，都有 $g(x_1+x_2)=g(x_1)g(x_2), g(1)=a, n$ 为正整数. 证明： (I) $\int_n^{x+n} g(t) \mathrm{d}t = a^n \int_0^x g(t) \mathrm{d}t$; (II) 若 $|a| < 1$，则对任意 $x \in (0,1)$ $,\lim\limits_{n \to +\infty} \int_x^{x+n} g(t)(t-[t]) \mathrm{d}t$ 都存在，其中 $[t]$ 表示不超过 $t$ 的最大整数
 - number: 22
   section: solution
   points: 12
   stem:
     text: |-
-      设 $\boldsymbol{\alpha}_1$ 为 $3$ 阶矩阵 $A$ 的属于特征值 $1$ 的特征向量。$3$ 维列向量 $\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3$ 满足 $A\boldsymbol{\alpha}_2=-2\boldsymbol{\alpha}_3,A\boldsymbol{\alpha}_3=\boldsymbol{\alpha}_2+2\boldsymbol{\alpha}_3$，且 $\boldsymbol{\alpha}_3\neq\boldsymbol{0}$。证明：(I) $\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3$ 线性无关；(II) $A^3-3A^2+4A=2E$。
-content_hash: bb467e92fd5de85c3ae93c77e5d52522498441b15ee705f7adfa8011d9108aa7
+      设 $\alpha_1$ 为 3 阶矩阵 $A$ 的属于特征值 1 的特征向量. 3 维列向量 $\alpha_2, \alpha_3$ 满足 $A\alpha_2 = -2\alpha_3, A\alpha_3 = \alpha_2 + 2\alpha_3$, 且 $\alpha_3 \neq 0$. 证明： (I) $\alpha_1, \alpha_2, \alpha_3$ 线性无关； (II) $A^3 - 3A^2 + 4A = 2E$
+content_hash: e62d8d6a6c8637ac199d829e7990802258b8abdc5ad65525dd197e1b8a85fbdf

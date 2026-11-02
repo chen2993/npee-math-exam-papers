@@ -10,45 +10,45 @@ questions:
   points: 5
   stem:
     text: |-
-      关于数列 $\{x_n\}$、$\{y_n\}$，有以下论断：\n① 若数列 $\{x_{2n}\}$ 和 $\{x_{2n-1}\}$ 都收敛，则数列 $\{x_n\}$ 收敛；\n② 若数列 $\{x_n+y_n\}$ 和 $\{x_n-y_n\}$ 都收敛，则数列 $\{x_n\}$、$\{y_n\}$ 均收敛；\n③ 若数列 $\{x_n\}$ 和 $\{y_n\}$ 都发散，则数列 $\{x_n+y_n\}$ 可能收敛；\n④ 若数列 $\{x_ny_n\}$ 收敛，则数列 $\{x_n\}$ 和 $\{y_n\}$ 必有一个收敛。\n以上结论中正确的个数为\ExamSelection。
+      关于数列 $\{x_n\},\{y_n\}$ 有以下论断 ①若数列 $\{x_{2n}\}$ 和 $\{x_{2n-1}\}$ 都收敛, 则数列 $\{x_n\}$ 收敛; ②若数列 $\{x_n+y_n\}$ 和 $\{x_n-y_n\}$ 都收敛, 则数列 $\{x_n\},\{y_n\}$ 均收敛; ③若数列 $\{x_n\}$ 和 $\{y_n\}$ 都发散, 则数列 $\{x_n+y_n\}$ 可能收敛; ④若数列 $\{x_ny_n\}$ 收敛, 则数列 $\{x_n\}$ 和 $\{y_n\}$ 必有一个收敛. 以上结论中正确的个数为 ( )
   choices:
   - label: A
-    text: $1$
+    text: '1'
     figures: []
   - label: B
-    text: $2$
+    text: '2'
     figures: []
   - label: C
-    text: $3$
+    text: '3'
     figures: []
   - label: D
-    text: $4$
+    text: '4'
     figures: []
 - number: 2
   section: choice
   points: 5
   stem:
     text: |-
-      设 $F(x)=\displaystyle\int_{-1}^{1}|x-t|e^{-t^2}\,\mathrm{d}t-1$，则函数 $F(x)$ 在定义域内的零点个数为\ExamSelection。
+      设 $F(x)=\int_{-1}^1 |x-t|\mathrm{e}^{-t^2} \mathrm{d}t - 1$，则函数 $F(x)$ 在定义域内的零点个数为( )
   choices:
   - label: A
-    text: $0$
+    text: '0'
     figures: []
   - label: B
-    text: $1$
+    text: '1'
     figures: []
   - label: C
-    text: $2$
+    text: '2'
     figures: []
   - label: D
-    text: $3$
+    text: '3'
     figures: []
 - number: 3
   section: choice
   points: 5
   stem:
     text: |-
-      已知反常积分 $\displaystyle\int_0^{\dfrac{\pi}{2}}\dfrac{\ln x}{\sin^p x\cos^q x}\,\mathrm{d}x$（$p>0,q>0$）收敛，则参数 $p,q$ 的取值范围为\ExamSelection。
+      已知反常积分 $\int_0^{\dfrac{\pi}{2}}\dfrac{\ln x}{\sin^p x\cos^q x}\mathrm{d}x(p>0,q>0)$ 收敛，则参数 $p,q$ 的取值范围为( )
   choices:
   - label: A
     text: $p>0,q>1$
@@ -61,14 +61,14 @@ questions:
     figures: []
   - label: D
     text: |-
-      $0<p\leq 1,0<q\leq 1$
+      $0<p\leqslant 1,0<q\leqslant 1$
     figures: []
 - number: 4
   section: choice
   points: 5
   stem:
     text: |-
-      已知 $f(x)$ 为可导函数，$g(x)$ 为连续函数，且 $f'(x)=e^{x^2}-1+\displaystyle\int_0^x g(x-t)\,\mathrm{d}t$，$\displaystyle\lim_{x\to0}\dfrac{g(x)}{x}=-3$，则\ExamSelection。
+      $f(x)$ 为可导函数, $g(x)$ 为连续函数, 且 $f'(x)=\mathrm{e}^{x^2}-1+\int_0^x g(x-t) \mathrm{d}t, \lim_{x\to 0}\dfrac{g(x)}{x}=-3$, 则 $(\quad)$
   choices:
   - label: A
     text: $x=0$ 为 $f(x)$ 的极大值点
@@ -80,102 +80,102 @@ questions:
     text: $(0,f(0))$ 为曲线 $y=f(x)$ 的拐点
     figures: []
   - label: D
-    text: $x=0$ 不是 $f(x)$ 的极值点，$(0,f(0))$ 也不是曲线 $y=f(x)$ 的拐点
+    text: $x=0$ 不是 $f(x)$ 的极值点, $(0,f(0))$ 也不是曲线 $y=f(x)$ 的拐点
     figures: []
 - number: 5
   section: choice
   points: 5
   stem:
     text: |-
-      设 $y=xe^x+x$ 是方程 $y''+py'+qy=ae^x+b$ 的一个特解，则下列函数中也是该方程的特解的是\ExamSelection。
+      设 $y = x\mathrm{e}^x + x$ 是方程 $y'' + py' + qy = a\mathrm{e}^x + b$ 的一个特解，则下列函数中也是该方程的特解的是 ( )
   choices:
   - label: A
-    text: $y=e^{2x}+xe^x+x$
+    text: |-
+      $y = \mathrm{e}^{2x} + x\mathrm{e}^x + x$
     figures: []
   - label: B
-    text: $y=(x+1)e^x+x$
+    text: |-
+      $y = (x + 1)\mathrm{e}^x + x$
     figures: []
   - label: C
-    text: $y=xe^x+2x$
+    text: |-
+      $y = x\mathrm{e}^x + 2x$
     figures: []
   - label: D
-    text: $y=2xe^x+x$
+    text: |-
+      $y = 2x\mathrm{e}^x + x$
     figures: []
 - number: 6
   section: choice
   points: 5
   stem:
     text: |-
-      设函数 $f(x,y)$ 在全平面内具有连续偏导数，对任意的两点 $(x_1,y_1)$，$(x_2,y_2)$，不等式 $|f(x_1,y_1)-f(x_2,y_2)|\leq|x_1-x_2|+|y_1-y_2|$ 成立的一个充分条件为\ExamSelection。
+      设函数 $f(x,y)$ 在全平面内具有连续偏导数, 对任意的两点 $(x_1,y_1),(x_2,y_2)$, 不等式 $|f(x_1,y_1)-f(x_2,y_2)| \leqslant |x_1-x_2|+|y_1-y_2|$ 成立的一个充分条件为 ( )
   choices:
   - label: A
     text: |-
-      $\left|\dfrac{\partial f}{\partial x}\right|\geq1,\ \left|\dfrac{\partial f}{\partial y}\right|\leq1$
+      $\left| \dfrac{\partial f}{\partial x} \right| \geqslant 1, \left| \dfrac{\partial f}{\partial y} \right| \leqslant 1$
     figures: []
   - label: B
     text: |-
-      $\left|\dfrac{\partial f}{\partial x}\right|\leq1,\ \left|\dfrac{\partial f}{\partial y}\right|\geq1$
+      $\left| \dfrac{\partial f}{\partial x} \right| \leqslant 1, \left| \dfrac{\partial f}{\partial y} \right| \geqslant 1$
     figures: []
   - label: C
     text: |-
-      $\left|\dfrac{\partial f}{\partial x}\right|\geq1,\ \left|\dfrac{\partial f}{\partial y}\right|\geq1$
+      $\left| \dfrac{\partial f}{\partial x} \right| \geqslant 1, \left| \dfrac{\partial f}{\partial y} \right| \geqslant 1$
     figures: []
   - label: D
     text: |-
-      $\left|\dfrac{\partial f}{\partial x}\right|\leq1,\ \left|\dfrac{\partial f}{\partial y}\right|\leq1$
+      $\left| \dfrac{\partial f}{\partial x} \right| \leqslant 1, \left| \dfrac{\partial f}{\partial y} \right| \leqslant 1$
     figures: []
 - number: 7
   section: choice
   points: 5
   stem:
     text: |-
-      将极限 $\displaystyle\lim_{n\to\infty}\sum_{i=1}^n\sum_{j=1}^{2n}\dfrac{2i+j}{n^3}$ 化为二重积分，不正确的是\ExamSelection。
+      将极限 $\lim\limits_{n\to\infty} \sum_{i=1}^n \sum_{j=1}^{2n} \dfrac{2i+j}{n^3}$ 化为二重积分，不正确的是（ ）
   choices:
   - label: A
     text: |-
-      $\displaystyle\int_0^1\mathrm{d}x\int_0^2(2x+y)\,\mathrm{d}y$
+      $\int_0^1 \mathrm{d}x \int_0^2 (2x+y)\mathrm{d}y$
     figures: []
   - label: B
     text: |-
-      $\displaystyle\int_0^2\mathrm{d}x\int_0^1(x+2y)\,\mathrm{d}y$
+      $\int_0^2 \mathrm{d}x \int_0^1 (x+2y)\mathrm{d}y$
     figures: []
   - label: C
     text: |-
-      $\displaystyle\int_0^1\mathrm{d}x\int_0^1 2(x+y)\,\mathrm{d}y$
+      $\int_0^1 \mathrm{d}x \int_0^1 2(x+y)\mathrm{d}y$
     figures: []
   - label: D
     text: |-
-      $\displaystyle\int_0^1\mathrm{d}x\int_0^1 4(x+y)\,\mathrm{d}y$
+      $\int_0^1 \mathrm{d}x \int_0^1 4(x+y)\mathrm{d}y$
     figures: []
 - number: 8
   section: choice
   points: 5
   stem:
     text: |-
-      设 $A$ 为 $3$ 阶非零的反对称矩阵，矩阵 $B=\begin{pmatrix}a&5&1\\0&2&0\\2&b&3\end{pmatrix}$，且 $r(AB-A)=1$，则必有\ExamSelection。
+      设 $A$ 为 3 阶非零的反对称矩阵, 矩阵 $B = \begin{pmatrix} a & 5 & 1 \\ 0 & 2 & 0 \\ 2 & b & 3 \end{pmatrix}$, 且 $r(AB - A) = 1$, 则必有 ( )
   choices:
   - label: A
-    text: |-
-      $A\boldsymbol{x}=0$ 仅有零解，$B\boldsymbol{x}=0$ 仅有零解
+    text: $Ax = 0$ 仅有零解, $Bx = 0$ 仅有零解
     figures: []
   - label: B
-    text: |-
-      $A\boldsymbol{x}=0$ 有非零解，$B\boldsymbol{x}=0$ 仅有零解
+    text: $Ax = 0$ 有非零解, $Bx = 0$ 仅有零解
     figures: []
   - label: C
-    text: |-
-      $A\boldsymbol{x}=0$ 仅有零解，$B\boldsymbol{x}=0$ 有非零解
+    text: $Ax = 0$ 仅有零解, $Bx = 0$ 有非零解
     figures: []
   - label: D
-    text: |-
-      $A\boldsymbol{x}=0$ 有非零解，$B\boldsymbol{x}=0$ 有非零解
+    text: $Ax = 0$ 有非零解, $Bx = 0$ 有非零解
     figures: []
 - number: 9
   section: choice
   points: 5
   stem:
     text: |-
-      三元二次型 $f(x_1,x_2,x_3)=(x_1+x_2+2x_3)(x_2+ax_3)$，则二次型的秩 $r(f)=$\ExamSelection。
+      三元二次型 $f(x_1,x_2,x_3)=(x_1+x_2+2x_3)(x_2+ax_3)$, 则二次型的秩 $r(f)=(\quad)$
   choices:
   - label: A
     text: $1$
@@ -193,17 +193,16 @@ questions:
   section: choice
   points: 5
   stem:
-    text: |-
-      设 $3$ 阶非零矩阵 $A$ 相似于一个对角阵，$A^*$ 为 $A$ 的伴随矩阵，已知任意三维列向量均是 $A^*\boldsymbol{x}=0$ 的解，则 $A$ 的非零特征值的个数为\ExamSelection。
+    text: 设 $3$ 阶非零矩阵 $A$ 相似于一个对角阵, $A^*$ 为 $A$ 的伴随矩阵, 已知任意三维列向量均是 $A^*x=0$ 的解, 则 $A$ 的非零特征值的个数为 ( )
   choices:
   - label: A
-    text: $1$
+    text: '1'
     figures: []
   - label: B
-    text: $2$
+    text: '2'
     figures: []
   - label: C
-    text: $3$
+    text: '3'
     figures: []
   - label: D
     text: 不确定
@@ -213,82 +212,69 @@ questions:
   points: 5
   stem:
     text: |-
-      设函数 $x=x(t)$ 由方程 $t\cos x+x=0$ 确定，$y=y(x)$ 由 $e^{y-2}-xy=1$ 确定，则 $\left.\dfrac{\mathrm{d}y}{\mathrm{d}t}\right|_{t=0}=$\ExamBlank。
+      设函数 $x=x(t)$ 由方程 $t\cos x+x=0$ 确定, $y=y(x)$ 由 $\mathrm{e}^{y-2}-xy=1$ 确定, 则 $\left.\dfrac{\mathrm{d}y}{\mathrm{d}t}\right|_{t=0}=\underline{\qquad\qquad}.$
 - number: 12
   section: fill
   points: 5
   stem:
     text: |-
-      已知 $f(x)$ 是微分方程 $x^2f'(x)-xf(x)=\sin^4x$ 满足初始条件 $f\left(\dfrac{\pi}{2}\right)=0$ 的特解，则 $\displaystyle\int_0^{\dfrac{\pi}{2}}xf(x)\,\mathrm{d}x=$\ExamBlank。
+      已知 $f(x)$ 是微分方程 $x^2 f'(x) - xf(x) = \sin^4 x$ 满足初始条件 $f\left(\dfrac{\pi}{2}\right) = 0$ 的特解，则 $\int_0^{\dfrac{\pi}{2}} xf(x)\mathrm{d}x = \underline{\hspace{2cm}}$
 - number: 13
   section: fill
   points: 5
   stem:
     text: |-
-      设 $f(x,y)$ 具有二阶连续偏导数，且满足 $\dfrac{\partial^2f}{\partial x^2}+\dfrac{\partial^2f}{\partial y^2}=0$，$u=f\left(\dfrac{y-x}{xy},\dfrac{z-y}{yz}\right)$，则 $x^2\dfrac{\partial^2u}{\partial x\partial y}+z^2\dfrac{\partial^2u}{\partial z\partial y}=$\ExamBlank。
+      设 $f(x,y)$ 具有二阶连续偏导数，且满足 $\dfrac{\partial^2 f}{\partial x^2}+\dfrac{\partial^2 f}{\partial y^2}=0,u=f\left(\dfrac{y-x}{xy},\dfrac{z-y}{yz}\right)$，则 $x^2\dfrac{\partial^2 u}{\partial x\partial y}+z^2\dfrac{\partial^2 u}{\partial z\partial y}=\underline{\qquad\quad}$
 - number: 14
   section: fill
   points: 5
   stem:
     text: |-
-      设 $f(x,y)$ 在区域 $D:0\leq x\leq1,0\leq y\leq1$ 上可微，且 $f(0,0)=0$，$f_x'(0,0)=1$，$f_y'(0,0)=2$，则 $\displaystyle\lim_{x\to0^+}\dfrac{\int_0^{x^2}\mathrm{d}t\int_{\sqrt{t}}^x f(t,y)\,\mathrm{d}y}{x^4}=$\ExamBlank。
+      设 $f(x,y)$ 在区域 $D:0 \leqslant x \leqslant 1,0 \leqslant y \leqslant 1$ 上可微, 且 $f(0,0)=0, f'_x(0,0)=1, f'_y(0,0)=2$, 则 $\lim_{x \to 0^+} \dfrac{\int_0^{x^2} \mathrm{d}t \int_{u^2}^x f(t,u) \mathrm{d}u}{x^4} = \underline{\qquad}.$
 - number: 15
   section: fill
   points: 5
   stem:
     text: |-
-      曲线 $f(x)=[x]\sin\pi x$（$0\leq x\leq12$），$[\cdot]$ 表示取整，绕 $x$ 轴旋转形成的旋转体的体积记作 $V=$\ExamBlank。
+      曲线 $f(x)=[x]\sin\pi x\ (0\leqslant x\leqslant 12)$ ($[\cdot]$ 表示取整) 绕 $x$ 轴旋转形成的旋转体的体积记作 $V=\underline{\qquad\qquad}.$
 - number: 16
   section: fill
   points: 5
   stem:
     text: |-
-      设 $A$ 是 $4$ 阶实矩阵，$(A+3E)\boldsymbol{x}=0$ 的基础解系为 $\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2$，$(A-E)\boldsymbol{x}=0$ 的基础解系为 $\boldsymbol{\alpha}_3$，则 $r(A^2+2A-3E)=$\ExamBlank。
+      设 $A$ 是 $4$ 阶实矩阵, $(A+3E)x=0$ 的基础解系为 $\alpha_1,\alpha_2$, $(A-E)x=0$ 的基础解系为 $\alpha_3$, 则 $r(A^2+2A-3E)=\underline{\qquad\qquad}.$
 - number: 17
   section: solution
-  points: 10
+  points: 12
   stem:
-    text: 设 $y=y(x)$ 是由方程 $2y^3-2y^2+2xy-x^2=1$ 确定，求 $y=y(x)$ 的极值，并求极值点处的曲率圆方程。
+    text: 设 $y=y(x)$ 是由方程 $2y^3-2y^2+2xy-x^2=1$ 确定，求 $y=y(x)$ 的极值，并求极值点处的曲率圆方程
 - number: 18
   section: solution
   points: 12
   stem:
-    text: 设 $A(0,0),B(8,4)$ 是曲线 $C:y^2=2x$ 上的两个定点，$P$ 是弧 $AB$ 上异于 $A,B$ 的任一点，若弦 $PA,PB$ 分别与曲线 $C$ 所围成抛物线弓形面积为 $S_1,S_2$，试求点 $P$ 的坐标，使 $S_1+S_2$ 最小，并求最小值。
+    text: 设 $A(0,0)$ $,B(8,4)$ 是曲线 $C:y^2=2x$ 上的两个定点$,P$ 是弧 $AB$ 上异于 $A,B$ 的任一点，若弦 $PA,PB$ 分别与曲线 $C$ 所围成抛物线弓形面积为 $S_1,S_2$，试求点 $P$ 的坐标，使 $S_1+S_2$ 最小，并求最小值
 - number: 19
   section: solution
   points: 12
   stem:
     text: |-
-      设 $x>0,0<\alpha<1,0<\beta<1$，证明：
-  subparts:
-  - text: |-
-      函数 $f(x)=\dfrac{\ln(1+\alpha x)}{\ln(1+x)}$ 单调递增；
-  - text: |-
-      $(1+\alpha x)(1+\beta x)\geq(1+x)^{\alpha+\beta}$。
+      设 $x>0,0<\alpha<1,0<\beta<1$, 证明: (I) 函数 $f(x)=\dfrac{\ln(1+\alpha x)}{\ln(1+x)}$ 单调递增; (II) $(1+\alpha x)(1+\beta x) \geqslant (1+x)^{\alpha+\beta}$
 - number: 20
   section: solution
   points: 12
   stem:
-    text: 已知 $z=xy-w$，$w=w(x+y,x-y)$，利用变换：$u=x+y,v=x-y$ 化简方程 $z_{xx}''+2z_{xy}''+z_{yy}''=0$，其中涉及的二阶偏导数都连续。
+    text: |-
+      已知 $z=xy-w,\, w=w(x+y,x-y)$，利用变换 $u=x+y,\, v=x-y$ 化简方程 $z_{xx}''+2z_{xy}''+z_{yy}''=0$，其中涉及的二阶偏导数都连续
 - number: 21
   section: solution
   points: 12
   stem:
-    text: 完成下列各题：
-  subparts:
-  - text: |-
-      设 $\mathrm{d}f(x,y)=\dfrac{y(1+y^2)\,\mathrm{d}x+x\,\mathrm{d}y}{\sqrt{(1+y^2)^3}}$，且 $f(0,0)=0$，求 $f(x,y)$；
-  - text: |-
-      计算二重积分 $I=\displaystyle\iint_D f(x,y)\,\mathrm{d}\sigma$，其中区域 $D$ 由 $y=\sqrt{x},y=2\sqrt{x}$ 和 $x=1$ 所围成。
+    text: |-
+      (I) 设 $\mathrm{d}f(x,y) = \dfrac{y(1+y^2)\mathrm{d}x + x\mathrm{d}y}{\sqrt{(1+y^2)^3}}$，且 $f(0,0)=0$，求 $f(x,y)$； (II) 计算二重积分 $I = \iint_D f(x,y)\mathrm{d}\sigma$，其中区域 $D$ 由 $y=\sqrt{x}, y=2\sqrt{x}$ 和 $x=1$ 所围成。
 - number: 22
   section: solution
   points: 12
   stem:
     text: |-
-      设 $3$ 阶实对称矩阵 $A$ 有重特征值 $\lambda$（$\lambda\neq0$），且 $A$ 的迹 $\operatorname{tr}(A)=2$，矩阵 $A^{\mathrm T}$ 的列向量均与列向量 $(1,1,1)^{\mathrm T}$ 正交。
-  subparts:
-  - text: 求矩阵 $A$ 的所有特征值及特征向量；
-  - text: 求正交阵 $Q$ 将 $A$ 对角化；
-  - text: |-
-      二次型 $f(x_1,x_2,x_3)=\boldsymbol{x}^{\mathrm T}A\boldsymbol{x}$，求 $f=0$ 的解。
-content_hash: ca012d17c825f60d96c1dc7732211402a44e5e9b42541a10e4d74067b33e9a45
+      设 $3$ 阶实对称矩阵 $A$ 有重特征值 $\lambda(\lambda \neq 0)$，且 $A$ 的迹 $\mathrm{tr}(A)=2$，矩阵 $A^T$ 的列向量均与列向量 $(1,1,1)^T$ 正交. (I) 求矩阵 $A$ 的所有特征值及特征向量; (II) 求正交阵 $Q$ 将 $A$ 对角化; (III) 二次型 $f(x_1,x_2,x_3)=x^T Ax$，求 $f=0$ 的解
+content_hash: 392d514cb0d36dc71e915acc25eff971a2a794e1688922c0a72afb19b732d715

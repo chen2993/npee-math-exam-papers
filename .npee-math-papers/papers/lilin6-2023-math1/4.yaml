@@ -1,0 +1,296 @@
+schema_version: '3.0'
+paper:
+  series_key: lilin6
+  year: 2023
+  subject: math1
+  paper_no: 4
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      当 $x \to 0$ 时$,(1+x)^{\dfrac{2}{x}} - e^2[1 - \ln(1+x)]$ 是关于 $x$ 的（ ）
+  choices:
+  - label: A
+    text: 等价无穷小
+    figures: []
+  - label: B
+    text: 同阶无穷小
+    figures: []
+  - label: C
+    text: 高阶无穷小
+    figures: []
+  - label: D
+    text: 低阶无穷小
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 \(f(x)\) 连续，且 \(\lim\limits_{x \to +\infty} e^{x}\left[1 + x + f(x)\right]\) 存在，则曲线 \(y = f(x)\) 有斜渐近线
+  choices:
+  - label: A
+    text: |-
+      \(y = -x\)
+    figures: []
+  - label: B
+    text: |-
+      \(y = x\)
+    figures: []
+  - label: C
+    text: |-
+      \(y = -x - 1\)
+    figures: []
+  - label: D
+    text: |-
+      \(y = x + 1\)
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 \(f(x)\) 在 \([0,1]\) 上可导，且 \(f'(x) > 0\)，\(F(x) = \int_{0}^{1} |f(x) - f(t)| \, dt\)，则在 \([0,1]\) 上有
+  choices:
+  - label: A
+    text: |-
+      \(F(x) \geqslant F\left(\dfrac{1}{2}\right)\)
+    figures: []
+  - label: B
+    text: |-
+      \(F(x) \leqslant F\left(\dfrac{1}{2}\right)\)
+    figures: []
+  - label: C
+    text: |-
+      \(F\left(\dfrac{1}{2}\right) \geqslant F(0)\)
+    figures: []
+  - label: D
+    text: |-
+      \(F(1) \leqslant F\left(\dfrac{1}{2}\right)\)
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设曲线 $xy=1\ (x>0)$ 上的点 $P_0(x_0, y_0)$ 使得函数 $x^2+2y^2$ 达到最小值，则点 $P_0$ 的坐标为 ( )
+  choices:
+  - label: A
+    text: (1,1)
+    figures: []
+  - label: B
+    text: |-
+      $\left(2,\dfrac{1}{2}\right)$
+    figures: []
+  - label: C
+    text: |-
+      $\left(\sqrt{2},\dfrac{1}{\sqrt{2}}\right)$
+    figures: []
+  - label: D
+    text: |-
+      $\left(\sqrt[4]{2},\dfrac{1}{\sqrt[4]{2}}\right)$
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设级数 $\sum\limits_{n=1}^{\infty}(-1)^{n-1}\dfrac{1}{n^{2-p}}$ 绝对收敛$,\sum\limits_{n=2}^{\infty}(-1)^{n}\dfrac{1}{n^{p}(\ln n)^{2}}$ 条件收敛，则（ ）
+  choices:
+  - label: A
+    text: |-
+      $0 \leqslant p < 1$
+    figures: []
+  - label: B
+    text: |-
+      $0 < p \leqslant 1$
+    figures: []
+  - label: C
+    text: |-
+      $0 \leqslant p < 2$
+    figures: []
+  - label: D
+    text: $0 < p < 1$
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 \(x \in (0, \pi)\)，则 \(\dfrac{1}{2}(\pi - x) =\)（ ）
+  choices:
+  - label: A
+    text: |-
+      \(\dfrac{\pi}{4} + \sum\limits_{n=1}^{\infty} \dfrac{(-1)^n - 1}{n^2 \pi} \cos nx\)
+    figures: []
+  - label: B
+    text: |-
+      \(-\sum\limits_{n=1}^{\infty} \dfrac{1}{n} \sin nx\)
+    figures: []
+  - label: C
+    text: |-
+      \(\dfrac{\pi}{2} + \sum\limits_{n=1}^{\infty} \dfrac{(-1)^n - 1}{n^2 \pi} \cos nx\)
+    figures: []
+  - label: D
+    text: |-
+      \(\sum\limits_{n=1}^{\infty} \dfrac{1}{n} \sin nx\)
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $4$ 阶矩阵 $A = (a_{ij})$ $,a_{11}$ 的代数余子式 $A_{11} \neq 0$。若 $4$ 维非零列向量 $b$ 是 $A^*x = 0$ 的解，则方程组 $Ax = b$（ ）
+  choices:
+  - label: A
+    text: 有一个线性无关的解向量
+    figures: []
+  - label: B
+    text: 有两个线性无关的解向量
+    figures: []
+  - label: C
+    text: 有三个线性无关的解向量
+    figures: []
+  - label: D
+    text: 无解
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 \(f(x_{1}, x_{2}, x_{3}) = (ax_{1} + 2x_{2} - 3x_{3})^{2} + (x_{2} - 2x_{3})^{2} + (x_{1} + ax_{2} - x_{3})^{2}\) 是正定二次型，则
+  choices:
+  - label: A
+    text: |-
+      \(a \neq 1\) 且 \(a \neq -\dfrac{1}{2}\)
+    figures: []
+  - label: B
+    text: |-
+      \(a \neq 1\) 且 \(a \neq \dfrac{1}{2}\)
+    figures: []
+  - label: C
+    text: |-
+      \(a \neq \dfrac{1}{2}\) 且 \(a \neq -1\)
+    figures: []
+  - label: D
+    text: |-
+      \(a \neq \dfrac{1}{2}\) 且 \(a \neq 0\)
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设连续型随机变量 \(X\) 的概率密度为 \(f(x)\)，且 \(f(-x) = f(x)\)，\(x \in (-\infty, +\infty)\)。记 \(Y = |X|\)，\(EX\) 存在，则 \(X\) 与 \(Y\)
+  choices:
+  - label: A
+    text: 相互独立
+    figures: []
+  - label: B
+    text: 相关
+    figures: []
+  - label: C
+    text: 不相关且不相互独立
+    figures: []
+  - label: D
+    text: 相关且相互独立
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 \(X_{1}, X_{2}, \cdots, X_{n}\) 是来自总体 \(X \sim N(\mu, 1)\) 的简单随机样本，\(\overline{X}\) 为样本均值。对于假设检验 \(H_{0}: \mu = \mu_{0}\)，若取拒绝域 \(R_{\alpha} = \left\{ \overline{X} > \mu_{0} + \dfrac{1.96}{\sqrt{n}} \right\}\)，则该检验犯第一类错误的概率 \(\alpha\) 为
+  choices:
+  - label: A
+    text: |-
+      \(1 - \Phi(1.5)\)
+    figures: []
+  - label: B
+    text: |-
+      \(1 - \Phi(0.5)\)
+    figures: []
+  - label: C
+    text: |-
+      \(1 - \Phi(1.96)\)
+    figures: []
+  - label: D
+    text: |-
+      \(1 - \Phi(1)\)
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      已知对任意的实数 x 有 \(e^{x} + e^{-x} \leqslant m + x (e^{x} - e^{-x})\)，则 m 的取值范围为 ___
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      半圆形闸门的半径为 2 m，将其垂直放入水中，且直径与水面相齐，设水的密度为 \(\rho(\mathrm{kg}/\mathrm{m}^{3})\)，重力加速度为 \(g(\mathrm{m}/\mathrm{s}^{2})\)，则闸门的一侧所受的压力为 ___ N
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      微分方程 \((y')^2 - 2yy'' = -1\) 满足 \(y(0) = y'(0) = 1\) 的特解为 \underline{\qquad}。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设曲面 $\Sigma: z = \sqrt{1 - x^2 - y^2}$，则 $\iint_{\Sigma} (x^3 + y^3 + z^3)\mathrm{d}S = \underline{\qquad\qquad}.$
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 \(\alpha_{1}, \alpha_{2}, \cdots, \alpha_{n}\) 是 \(n\) 维向量空间 \(R^{n}\) 的一组基，\(\beta_{1} = \alpha_{1}, \beta_{2} = \alpha_{1} + \alpha_{2}, \cdots, \beta_{n} = \alpha_{1} + \alpha_{2} + \cdots + \alpha_{n}\)，若从基 \(\beta_{1}, \beta_{2}, \cdots, \beta_{n}\) 到基 \(\alpha_{1}, \alpha_{2}, \cdots, \alpha_{n}\) 的过渡矩阵为 \(P\)，则行列式 \(|P| = \htmlClass{blank-line}{\vphantom{X}}\) 。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设随机变量 $X \sim N(0,1)$，若在 $X=x$ 的条件下，随机变量 $Y \sim N(x,1)$，则 $X$ 与 $Y$ 的相关系数为 \underline{\qquad\qquad}。
+- number: 17
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 \(f(x)\) 在 x = 1 处可导，且 \(\lim\limits_{x \to 1} \dfrac{f(x) + x^x - 1}{\sqrt{x} - 1} = -2\)。求 \(f'(1)\)。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设曲线 \(y=\int_{0}^{\dfrac{x}{n}}n\sqrt{\sin t}\,\mathrm{d}t\)（\(n\) 为正整数）在 \([0,n\pi]\) 上的全长为 \(S_{n}\). (Ⅰ) 求 \(S_{n}\)； (Ⅱ) 求级数 \(\sum\limits_{n=1}^{\infty}\dfrac{x^{n}}{S_{n}S_{n+1}}\) 的收敛域及和函数
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      （Ⅰ）证明：方程 \(x = 1 + 2\ln x\) 在 \((\mathrm{e}, +\infty)\) 内有唯一实根 \(\xi\)； （Ⅱ）取 \(x_{0} \in (\mathrm{e}, \xi)\)，令 \(x_{n} = 1 + 2\ln x_{n-1}\ (n = 1, 2, \cdots)\)，证明：\(\lim\limits_{n \to \infty} x_{n} = \xi\)。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      （本题满分12分）设曲线 \(L\) 是球面 \(\Sigma: x^{2} + y^{2} + z^{2} = 1, x \geqslant 0, y \geqslant 0, z \geqslant 0\) 的边界，曲面 \(\Sigma\) 方向朝上，\(L\) 的方向和 \(\Sigma\) 的方向符合右手法则. 计算 \(I = \oint_{L} (y^{2} - z^{2}) \, \mathrm{d}x + (z^{2} - x^{2}) \, \mathrm{d}y + (x^{2} - y^{2}) \, \mathrm{d}z\)
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      （本题满分12分）设 $A=\begin{pmatrix}2&0&0\\0&a&-2\\0&-2&a\end{pmatrix}$ 有二重特征值，且 $A$ 是正定矩阵. （Ⅰ）求正交矩阵 $Q$，使得 $Q^{\mathrm{T}}(A+A^*)Q=\Lambda+\Lambda^*$ 为对角矩阵； （Ⅱ）求可逆矩阵 $P$，使得 $A=P^{\mathrm{T}}P$
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设随机变量 \(X\) 与 \(Y\) 相互独立，\(Y\) 的分布律为 \(P\{Y = -1\} = P\{Y = 1\} = \dfrac{1}{2}\)，\(X\) 的概率密度 \(f(x)\) 满足 \(f'(x) + \dfrac{x}{\sigma^{2}} f(x) = 0\ (\sigma > 0)\)。记 \(Z = XY\)。 (Ⅰ) 求 \(Z\) 的分布函数与概率密度； （Ⅱ）设 \(Z_{1}, Z_{2}, \cdots, Z_{n}\) 为总体 \(Z\) 的简单随机样本，求 \(\sigma^{2}\) 的最大似然估计量
+content_hash: a569f68222c083cbbfb5e9b566d531f9652964708d11a21bbbd5af0f5ce1fab3

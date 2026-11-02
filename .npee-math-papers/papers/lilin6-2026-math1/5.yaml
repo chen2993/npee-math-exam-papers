@@ -10,30 +10,30 @@ questions:
   points: 5
   stem:
     text: |-
-      设当 $x\to0$ 时，有 $\cot x=\dfrac{1+ax^2}{x+bx^3}+o(x^5)$，则\ExamSelection
+      设当 \(x\to0\) 时，有 \(\cot x=\dfrac{1+ax^2}{x+bx^3}+o(x^5)\)，则( )。
   choices:
   - label: A
     text: |-
-      $a=\dfrac{2}{5},b=-\dfrac{1}{15}$
+      \( a=\dfrac{2}{5},b=-\dfrac{1}{15}\)
     figures: []
   - label: B
     text: |-
-      $a=-\dfrac{2}{5},b=\dfrac{1}{15}$
+      \( a=-\dfrac{2}{5},b=\dfrac{1}{15}\)
     figures: []
   - label: C
     text: |-
-      $a=-\dfrac{2}{5},b=-\dfrac{1}{15}$
+      \( a=-\dfrac{2}{5},b=-\dfrac{1}{15}\)
     figures: []
   - label: D
     text: |-
-      $a=\dfrac{2}{5},b=\dfrac{1}{15}$
+      \( a=\dfrac{2}{5},b=\dfrac{1}{15}\)
     figures: []
 - number: 2
   section: choice
   points: 5
   stem:
     text: |-
-      设 $y=f(x)$ 由 $\begin{cases}x=2t+|t|,\\y=|t|(e^{|t|}-1)\end{cases}$ 确定，则 $f(x)$ 在 $x=0$ 处\ExamSelection
+      设 \(y=f(x)\) 由 \( \begin{cases}x=2t+|t|, \\ y=|t|({\mathrm e}^{|t|}-1)\end{cases}\) 确定，则 \(f(x)\) 在 \(x=0\) 处( )。
   choices:
   - label: A
     text: 连续但不可导
@@ -52,258 +52,255 @@ questions:
   points: 5
   stem:
     text: |-
-      已知连续函数 $f(x)$ 满足 $f(x+2)-f(x)=\sin x$，$\int_0^2f(x)\,\mathrm{d}x=0$，令 $I_1=\int_1^2f(x)\,\mathrm{d}x$，$I_2=\int_2^4f(x)\,\mathrm{d}x$，则\ExamSelection
+      已知连续函数 \(f(x)\) 满足 \(f(x+2)-f(x)=\sin x\)， \(\int_0^2f(x)\, \mathrm dx=0\)。 令 \(I_1=\int_1^3f(x)\, \mathrm dx\)， \(I_2=\int_2^4f(x)\, \mathrm dx\)，则( )。
   choices:
   - label: A
     text: |-
-      $I_1\geq I_2\geq0$
+      \(I_1>I_2>0\)
     figures: []
   - label: B
     text: |-
-      $I_2\geq I_1\geq0$
+      \(I_2>I_1>0\)
     figures: []
   - label: C
     text: |-
-      $I_1\geq0>I_2$
+      \(I_1>0>I_2\)
     figures: []
   - label: D
-    text: $I_1<I_2<0$
+    text: |-
+      \(I_1<I_2<0\)
     figures: []
 - number: 4
   section: choice
   points: 5
   stem:
     text: |-
-      已知重力加速度为 $g$，一个半径为 $1$ 的半球体容器盛满密度为 $\rho$ 的水，现要将水从容器顶部全部抽出，有 (a)、(b) 两种抽水方案，如图所示，则采用方案 (a) 与方案 (b) 抽水所做功的差为\ExamSelection
-    figures:
-    - kind: tikz
-      latex: |-
-        \begin{tikzpicture}[scale=.65]\draw (0,0) arc (180:360:1.4 and .45) -- (2.8,1.4) arc (0:180:1.4 and .45) -- cycle;\draw[dashed] (0,1.4) arc (180:360:1.4 and .45);\draw (4,0) arc (180:360:1.4 and .45) -- (6.8,1.4) arc (0:180:1.4 and .45) -- cycle;\draw[dashed] (4,1.4) arc (180:360:1.4 and .45);\node at (1.4,-.45) {方案 (a)};\node at (5.4,-.45) {方案 (b)};\node at (1.4,2) {抽水口};\node at (5.4,2) {抽水口};\end{tikzpicture}
-      path:
-      description: 两个半球体容器及顶部抽水口示意图
-      exception_reason:
+      已知重力加速度为 \(g\)，一个半径为 \(1\) 的半球体容器盛满密度为 \(\rho\) 的水，现要将水从容器顶部全部抽出。 有 \((a), (b)\) 两种抽水方案，如图所示，则采用方案 \((a)\) 与方案 \((b)\) 抽水所做功的差为( )。
   choices:
   - label: A
-    text: $0$
+    text: |-
+      \(0\)
     figures: []
   - label: B
     text: |-
-      $\dfrac{1}{12}\rho g\pi$
+      \( \dfrac{1}{12}\rho g\pi\)
     figures: []
   - label: C
     text: |-
-      $\dfrac{1}{6}\rho g\pi$
+      \( \dfrac{1}{6}\rho g\pi\)
     figures: []
   - label: D
     text: |-
-      $\dfrac{1}{4}\rho g\pi$
+      \( \dfrac{1}{4}\rho g\pi\)
     figures: []
 - number: 5
   section: choice
   points: 5
   stem:
     text: |-
-      设 $A$ 是 $3$ 阶矩阵，$b$ 是 $3$ 维非零列向量，则下列说法中正确的是：\n①若 $Ax=b$ 有解，则 $\begin{pmatrix}A^\mathsf{T}\\b^\mathsf{T}\end{pmatrix}x=\begin{pmatrix}0\\1\end{pmatrix}$ 有解；\n②若 $Ax=b$ 有解，则 $\begin{pmatrix}A^\mathsf{T}\\b^\mathsf{T}\end{pmatrix}x=\begin{pmatrix}0\\1\end{pmatrix}$ 无解；\n③若 $\begin{pmatrix}A^\mathsf{T}\\b^\mathsf{T}\end{pmatrix}x=\begin{pmatrix}0\\1\end{pmatrix}$ 有解，则 $Ax=0$ 有非零解；\n④若 $\begin{pmatrix}A^\mathsf{T}\\b^\mathsf{T}\end{pmatrix}x=\begin{pmatrix}0\\1\end{pmatrix}$ 无解，则 $Ax=0$ 只有零解\ExamSelection。
+      设 \(A\) 是 \(3\) 阶矩阵，\(b\) 是 \(3\) 维非零列向量。 判断下列命题中正确的是( )。 \circled{1} 若 \(Ax=b\) 有解，则 \( \begin{pmatrix}A^T\\ b^T\end{pmatrix}x=\begin{pmatrix}0\\1\end{pmatrix}\) 有解； \circled{2} 若 \(Ax=b\) 有解，则 \( \begin{pmatrix}A^T\\ b^T\end{pmatrix}x=\begin{pmatrix}0\\1\end{pmatrix}\) 无解； \circled{3} 若 \( \begin{pmatrix}A^T\\ b^T\end{pmatrix}x=\begin{pmatrix}0\\1\end{pmatrix}\) 有解，则 \(Ax=0\) 有非零解； \circled{4} 若 \( \begin{pmatrix}A^T\\ b^T\end{pmatrix}x=\begin{pmatrix}0\\1\end{pmatrix}\) 无解，则 \(Ax=0\) 只有零解。
   choices:
   - label: A
-    text: ①③
+    text: |-
+      \(\mathrm{(1)}\ \mathrm{(3)}\)
     figures: []
   - label: B
-    text: ①④
+    text: |-
+      \(\mathrm{(1)}\ \mathrm{(4)}\)
     figures: []
   - label: C
-    text: ②③
+    text: |-
+      \(\mathrm{(2)}\ \mathrm{(3)}\)
     figures: []
   - label: D
-    text: ②④
+    text: |-
+      \(\mathrm{(2)}\ \mathrm{(4)}\)
     figures: []
 - number: 6
   section: choice
   points: 5
   stem:
     text: |-
-      设 $3$ 阶实对称矩阵 $A$ 的特征值为 $-1,-2,1$，交换 $A$ 的第 $2$ 列与第 $3$ 列，再将第 $2$ 列乘以 $(-1)$ 得 $B$。交换 $B$ 的第 $2$ 行与第 $3$ 行，再将第 $2$ 列乘以 $(-1)$ 得 $C$，则二次型 $X^\mathsf{T}CX$ 在正交变换 $X=QY$ 下的标准形为\ExamSelection
+      设 \(3\) 阶实对称矩阵 \(A\) 的特征值为 \(-1, -2,1\)。 交换 \(A\) 的第 \(2\) 列与第 \(3\) 列，再将第 \(2\) 列乘以 \(-1\) 得 \(B\)；交换 \(B\) 的第 \(2\) 行与第 \(3\) 行，再将第 \(2\) 行乘以 \(-1\) 得 \(C\)。 则二次型 \(X^TCX\) 在正交变换下的标准形为( )。
   choices:
   - label: A
-    text: $-y_1^2+y_2^2-2y_3^2$
+    text: |-
+      \(-y_1^2+y_2^2-2y_3^2\)
     figures: []
   - label: B
-    text: $-y_1^2+y_2^2+2y_3^2$
+    text: |-
+      \(-y_1^2+y_2^2+2y_3^2\)
     figures: []
   - label: C
-    text: $-y_1^2+2y_2^2-y_3^2$
+    text: |-
+      \(-y_1^2+2y_2^2-y_3^2\)
     figures: []
   - label: D
-    text: $-y_1^2-2y_2^2-y_3^2$
+    text: |-
+      \(-y_1^2-2y_2^2-y_3^2\)
     figures: []
 - number: 7
   section: choice
   points: 5
   stem:
     text: |-
-      设 $n$ 阶非零实矩阵 $A$ 满足 $A^\mathsf{T}+A=O$，$B$ 为 $n$ 阶矩阵，矩阵 $\begin{pmatrix}A&E\\-B&B\end{pmatrix}$，$\begin{pmatrix}A-E&O\\A&AB\end{pmatrix}$，$\begin{pmatrix}A+E&O\\B&A-E\end{pmatrix}$ 的秩依次为 $r_1,r_2,r_3$，则\ExamSelection
+      设 \(n\) 阶非零实矩阵 \(A\) 满足 \(A^T+A=O\)， \(B\) 为 \(n\) 阶矩阵，矩阵 \( \begin{pmatrix}A&E\\-B&B\end{pmatrix}\)、\( \begin{pmatrix}A-E&O\\A&AB\end{pmatrix}\)、\( \begin{pmatrix}A+E&O\\B&A-E\end{pmatrix}\) 的秩依次为 \(r_1,r_2,r_3\)，则( )。
   choices:
   - label: A
     text: |-
-      $r_1\geq r_2\geq r_3$
+      \(r_1\ge r_2\ge r_3\)
     figures: []
   - label: B
     text: |-
-      $r_3\geq r_2\geq r_1$
+      \(r_3\ge r_2\ge r_1\)
     figures: []
   - label: C
     text: |-
-      $r_2\geq r_1\geq r_3$
+      \(r_2\ge r_1\ge r_3\)
     figures: []
   - label: D
     text: |-
-      $r_3\geq r_1\geq r_2$
+      \(r_3\ge r_1\ge r_2\)
     figures: []
 - number: 8
   section: choice
   points: 5
   stem:
     text: |-
-      设随机变量 $X$ 与 $Y$ 相互独立，且服从同一分布 $P\{X=k\}=P\{Y=k\}=p(1-p)^{k-1}$，$0<p<1,k=1,2,\ldots$，对于给定的 $m(m\geq2)$，则 $P\{X=k\mid X+Y=m\}=$\ExamSelection
+      设随机变量 \(X\) 与 \(Y\) 相互独立，且服从同一分布\( P\{X=k\}=P\{Y=k\}=p(1-p)^{k-1}, \quad0<p<1, \quad k=1,2, \cdots\)。对于给定的 \(m\, (m\ge2)\)，则 \(P\{X=k\mid X+Y=m\}=\)( )。
   choices:
   - label: A
     text: |-
-      $\dfrac{1}{m-1}$
+      \( \dfrac{1}{m-1}\)
     figures: []
   - label: B
     text: |-
-      $\dfrac{1}{m}$
+      \( \dfrac{1}{m}\)
     figures: []
   - label: C
     text: |-
-      $\dfrac{1}{m+1}$
+      \( \dfrac{1}{m+1}\)
     figures: []
   - label: D
     text: |-
-      $\dfrac{m-1}{m}$
+      \( \dfrac{m-1}{m}\)
     figures: []
 - number: 9
   section: choice
   points: 5
   stem:
     text: |-
-      设 $X_1$ 与 $X_2$ 相互独立，且均服从 $N(\mu,\sigma^2)$，$\overline{X}=\dfrac{1}{2}(X_1+X_2)$，则\ExamSelection
+      设 \(X_1\) 与 \(X_2\) 相互独立，且均服从 \(N(\mu, \sigma^2)\)， \( \bar X=\dfrac{1}{2}(X_1+X_2)\)，则( )。
   choices:
   - label: A
     text: |-
-      $X_1-\overline{X}$ 与 $X_2-\overline{X}$ 相互独立
+      \(X_1-\bar X\) 与 \(X_2-\bar X\) 相互独立
     figures: []
   - label: B
     text: |-
-      $X_1-\overline{X}$ 与 $X_2-\overline{X}$ 相关
+      \(X_1-\bar X\) 与 \(X_2-\bar X\) 相关
     figures: []
   - label: C
-    text: $X_1+X_2$ 与 $X_1-X_2$ 不相互独立
+    text: |-
+      \(X_1+X_2\) 与 \(X_1-X_2\) 不相互独立
     figures: []
   - label: D
-    text: $X_1+X_2$ 与 $X_1-X_2$ 相关
+    text: |-
+      \(X_1+X_2\) 与 \(X_1-X_2\) 相关
     figures: []
 - number: 10
   section: choice
   points: 5
   stem:
     text: |-
-      设 $X_1,X_2,\ldots,X_n$ 是来自总体 $X\sim N(0,1)$ 的简单随机样本，$Y=\dfrac{1}{m}\left(\sum_{i=1}^{m}X_i\right)+\dfrac{1}{n-m}\left(\sum_{i=m+1}^{n}X_i\right)^2$（$m<n$），则 $E(Y)$ 与 $D(Y)$ 分别为\ExamSelection
+      设 \(X_1,X_2, \cdots,X_n\) 是来自总体 \(X\sim N(0,1)\) 的简单随机样本，\( Y=\dfrac{1}{m}\left(\sum_{i=1}^mX_i\right)^2+\dfrac{1}{n-m}\left(\sum_{i=m+1}^nX_i\right)^2\quad(m<n)\)，则 \(E(Y)\) 与 \(D(Y)\) 分别为( )。
   choices:
   - label: A
-    text: $0,n$
+    text: |-
+      \(0,n\)
     figures: []
   - label: B
-    text: $0,2$
+    text: |-
+      \(0,2\)
     figures: []
   - label: C
-    text: $n,2n$
+    text: |-
+      \(n,2n\)
     figures: []
   - label: D
-    text: $2,4$
+    text: |-
+      \(2,4\)
     figures: []
 - number: 11
   section: fill
   points: 5
   stem:
     text: |-
-      设 $x,y\in\mathbb{R}$，且 $4x^2+4y^2-2xy-\dfrac{5}{8}=0$，则 $2x+y$ 的取值范围为\ExamBlank。
+      设 \(x,y\in\mathbb R\)，且 \( 4x^2+4y^2-2xy-\dfrac{5}{8}=0\)，则 \(2x+y\) 的取值范围为\underline{\qquad}。
 - number: 12
   section: fill
   points: 5
   stem:
     text: |-
-      曲线 $\begin{cases}x=\cos^3t,\\y=\sin^3t\end{cases}$ 所围成的平面图形绕直线 $y=1$ 旋转所得旋转体的体积为\ExamBlank。
+      曲线 \( \begin{cases}x=\cos^3t, \\y=\sin^3t\end{cases}\) 所围成的平面图形绕直线 \(y=1\) 旋转所得旋转体的体积为\underline{\qquad}。
 - number: 13
   section: fill
   points: 5
   stem:
     text: |-
-      设曲线 $L$ 为 $z=x^2+y^2$ 与 $x^2+y^2+z^2=6$ 的交线，从 $z$ 轴正向向负向看是逆时针方向，则 $I=\oint_Lx^2y\,\mathrm{d}x+y^2z\,\mathrm{d}y+z^2x\,\mathrm{d}z=$\ExamBlank。
+      设曲线 \(L\) 为 \(z=x^2+y^2\) 与 \(x^2+y^2+z^2=6\) 的交线，从 \(z\) 轴正向向负向看是逆时针方向，则 \( I=\oint_Lx^2y\, \mathrm dx+y^2z\, \mathrm dy+z^2x\, \mathrm dz=\)\underline{\qquad}。
 - number: 14
   section: fill
   points: 5
   stem:
     text: |-
-      设函数 $F(u,v)$ 可微，$z=z(x,y)$ 由方程 $F\left(x+\dfrac{z}{y},y+\dfrac{z}{x}\right)=0$ 确定，则 $x\dfrac{\partial z}{\partial x}+y\dfrac{\partial z}{\partial y}=$\ExamBlank。
+      设函数 \(F(u,v)\) 可微，\(z=z(x,y)\) 由方程 \( F(x+\dfrac{z}{y},y+\dfrac{z}{x})=0\) 确定，则 \( x\dfrac{\partial z}{\partial x}+y\dfrac{\partial z}{\partial y}=\)\underline{\qquad}。
 - number: 15
   section: fill
   points: 5
   stem:
     text: |-
-      已知线性方程组 $\begin{cases}ax_1+3x_2+x_3=1,\\bx_1+2x_2+x_3=2,\\x_2+2x_3=3,\\x_1+2x_2+3x_3=1\end{cases}$ 有解，其中 $a,b$ 为常数，若 $\begin{vmatrix}a&b&0&-1\\3&2&1&-2\\1&1&2&-3\\-1&-2&-3&2\end{vmatrix}=1$，则 $\begin{vmatrix}a&b&0\\3&2&1\\1&1&2\end{vmatrix}=$\ExamBlank。
+      已知线性方程组 \( \begin{cases}ax_1+3x_2+x_3=1, \\ bx_1+2x_2+x_3=2, \\ x_2+2x_3=3, \\ x_1+2x_2+3x_3=1\end{cases}\) 有解，其中 \(a,b\) 为常数。 若 \( \begin{vmatrix}a&b&0&-1\\3&2&1&-2\\1&1&2&-3\\-1&-2&-3&2\end{vmatrix}=1\)，则 \( \begin{vmatrix}a&b&0\\3&2&1\\1&1&2\end{vmatrix}=\)\underline{\qquad}。
 - number: 16
   section: fill
   points: 5
   stem:
     text: |-
-      设二维随机变量 $(X,Y)$ 在 $D=\{(x,y)\mid0\leq x\leq2,0\leq y\leq1\}$ 上服从均匀分布，$Z=\max(X,Y)$，则 $D(Z)=$\ExamBlank。
+      设二维随机变量 \((X,Y)\) 在 \(D=\{(x,y)\mid0\le x\le2,0\le y\le1\}\) 上服从均匀分布，\(Z=\max(X,Y)\)，则 \(D(Z)=\)\underline{\qquad}。
 - number: 17
   section: solution
-  points: 10
+  points: 12
   stem:
     text: |-
-      设 $f(x)$ 为连续函数，$\lim_{x\to0}\dfrac{xf(x)-\ln(1+x)}{x^2}=1$，当 $x\to0$ 时，$\int_0^x2tf(x-t)\,\mathrm{d}t-x^2$ 与 $ax^n$（$a\ne0$）为等价无穷小，求 $f'(0)$ 及 $a$ 与 $n$ 的值。
+      设 \(f(x)\) 为连续函数，\( \lim\limits_{x\to0}\dfrac{xf(x)-\ln(1+x)}{x^2}=1\)。 当 \(x\to0\) 时，\(\int_0^x2tf(x-t)\, \mathrm dt-x^2\) 与 \(ax^n\, (a\ne0)\) 为等价无穷小，求 \(f'(0)\) 及 \(a,n\) 的值。
 - number: 18
   section: solution
   points: 12
   stem:
     text: |-
-      设 $D=\{(x,y)\mid x^2+(y-1)^2\leq1,(x-1)^2+y^2\leq1\}$，计算 $I=\iint_D(2x^2-y^2)\,\mathrm{d}x\mathrm{d}y$。
+      设 \(D=\{(x,y)\mid x^2+(y-1)^2\le1, \ (x-1)^2+y^2\le1\}\)。 计算 \( I=\iint\limits_D(2x^2-y^2)\, \mathrm dx\, \mathrm dy\)。
 - number: 19
   section: solution
   points: 12
   stem:
     text: |-
-      设数列 $\{a_n\}$ 满足 $a_0=2$，当 $n\geq1$ 时，$a_n=\dfrac{a_{n-1}}{n}+\dfrac{n-1}{n}$。
-  subparts:
-  - text: |-
-      证明：$\lim_{n\to\infty}a_n$ 存在，并求其值；
-  - text: |-
-      求 $\displaystyle\sum_{n=0}^{\infty}a_nx^n$ 在收敛区间内的和函数 $S(x)$，并求 $a_n$。
+      设数列 \(\{a_n\}\) 满足 \(a_0=2\)，当 \(n\ge1\) 时，\( a_n=\dfrac{a_{n-1}}{n}+\dfrac{n-1}{n}\)。 (1) 证明 \(\lim\limits_{n\to\infty}a_n\) 存在，并求其值； (2) 求 \(\sum_{n=0}^{\infty}a_nx^n\) 在收敛区间内的和函数 \(S(x)\)，并求 \(a_n\)。
 - number: 20
   section: solution
   points: 12
   stem:
     text: |-
-      设 $f(x)$ 在 $[a,b]$ 上二阶可导，$M=\max_{x\in[a,b]}|f''(x)|$。证明：对任意 $x\in(a,b)$，均有 $\left|\dfrac{f(x)-f(a)}{x-a}-\dfrac{f(b)-f(a)}{b-a}\right|\leq\dfrac{M}{2}(b-x)$。
+      设 \(f(x)\) 在 \([a,b]\) 上二阶可导，\(M=\max_{x\in[a,b]}|f''(x)|\)。 证明：对任意 \(x\in(a,b)\)，均有\( \left|\dfrac{f(x)-f(a)}{x-a}-\dfrac{f(b)-f(a)}{b-a}\right|\le\dfrac{M}{2}(b-x)\)。
 - number: 21
   section: solution
   points: 12
   stem:
     text: |-
-      设 $3$ 阶实对称矩阵 $A$ 有二重特征值 $1$，且 $(A-4E)\alpha=0$，其中 $E$ 是单位矩阵，$\alpha=(1,1,1)^\mathsf{T}$。
-  subparts:
-  - text: 求 $A$；
-  - text: |-
-      记 $X=(x_1,x_2,x_3)^\mathsf{T}$，利用正交变换，将二次型 $f(x_1,x_2,x_3)=\begin{vmatrix}A&-X\\X^\mathsf{T}&0\end{vmatrix}$ 化为标准形。
+      设 \(3\) 阶实对称矩阵 \(A\) 有二重特征值 \(1\)，且 \((A-4E)\alpha=0\)，其中 \(E\) 是单位矩阵，\(\alpha=(1,1,1)^T\)。 (1) 求 \(A\)； (2) 记 \(X=(x_1,x_2,x_3)^T\)，利用正交变换，将二次型 \( f=\begin{vmatrix}A&-X\\X^T&0\end{vmatrix}\) 化为标准形。
 - number: 22
   section: solution
   points: 12
   stem:
     text: |-
-      设某手机一个月的需求量 $X$ 是随机变量，其概率密度为 $f(x)=\begin{cases}xe^{-x},&x>0,\\0,&x\leq0.\end{cases}$ 记 $k$ 个月的需求量为 $Y_k$，设各个月的需求量相互独立。
-  subparts:
-  - text: 求 $Y_2$ 与 $Y_3$ 的概率密度函数 $f_2(x)$ 与 $f_3(x)$；
-  - text: 记连续三个月中的月最大需求量为 $Y$，求 $Y$ 的概率密度函数。
-content_hash: 9dd67925343c6cd91cf3da10c134ca07cf857bec4787006bd6a1ee4c22d32966
+      设某手机一个月的需求量 \(X\) 的概率密度为 \( f(x)=\begin{cases}x{\mathrm e}^{-x}, &x>0, \\0, &x\le0.\end{cases}\) 记 \(k\) 个月的需求量为 \(Y_k\)，设各个月的需求量相互独立。 (1) 求 \(Y_2\) 与 \(Y_3\) 的概率密度函数 \(f_2(x)\) 与 \(f_3(x)\)； (2) 记连续三个月中的月最大需求量为 \(Y\)，求 \(Y\) 的概率密度函数。
+content_hash: 110355199918b8384af3d637a6ad5935dc7724ca5a651a444ecb037f1ba34efc

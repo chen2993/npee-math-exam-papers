@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "bundle_count": 61,
+  "bundle_count": 78,
   "bundles": [
     {
       "bundle": "chaoyue10-2024-math1",
@@ -51,6 +51,22 @@
       "paper_count": 10
     },
     {
+      "bundle": "chaoyue10-2026-math1",
+      "series_key": "chaoyue10",
+      "series_name": "chaoyue10",
+      "year": 2026,
+      "subject": "math1",
+      "paper_count": 9
+    },
+    {
+      "bundle": "chaoyue10-2026-math2",
+      "series_key": "chaoyue10",
+      "series_name": "chaoyue10",
+      "year": 2026,
+      "subject": "math2",
+      "paper_count": 8
+    },
+    {
       "bundle": "euclid3-2025-math1",
       "series_key": "euclid3",
       "series_name": "欧几里得三套卷",
@@ -97,6 +113,54 @@
       "year": 2026,
       "subject": "math3",
       "paper_count": 3
+    },
+    {
+      "bundle": "lilin6-2023-math1",
+      "series_key": "lilin6",
+      "series_name": "lilin6",
+      "year": 2023,
+      "subject": "math1",
+      "paper_count": 3
+    },
+    {
+      "bundle": "lilin6-2023-math2",
+      "series_key": "lilin6",
+      "series_name": "lilin6",
+      "year": 2023,
+      "subject": "math2",
+      "paper_count": 6
+    },
+    {
+      "bundle": "lilin6-2023-math3",
+      "series_key": "lilin6",
+      "series_name": "lilin6",
+      "year": 2023,
+      "subject": "math3",
+      "paper_count": 3
+    },
+    {
+      "bundle": "lilin6-2024-math1",
+      "series_key": "lilin6",
+      "series_name": "lilin6",
+      "year": 2024,
+      "subject": "math1",
+      "paper_count": 6
+    },
+    {
+      "bundle": "lilin6-2024-math2",
+      "series_key": "lilin6",
+      "series_name": "lilin6",
+      "year": 2024,
+      "subject": "math2",
+      "paper_count": 6
+    },
+    {
+      "bundle": "lilin6-2024-math3",
+      "series_key": "lilin6",
+      "series_name": "lilin6",
+      "year": 2024,
+      "subject": "math3",
+      "paper_count": 6
     },
     {
       "bundle": "lilin6-2025-math1",
@@ -275,6 +339,30 @@
       "paper_count": 3
     },
     {
+      "bundle": "liyanfang3-2027-math2",
+      "series_key": "liyanfang3",
+      "series_name": "liyanfang3",
+      "year": 2027,
+      "subject": "math2",
+      "paper_count": 3
+    },
+    {
+      "bundle": "yubingsen5-2023-math1",
+      "series_key": "yubingsen5",
+      "series_name": "yubingsen5",
+      "year": 2023,
+      "subject": "math1",
+      "paper_count": 4
+    },
+    {
+      "bundle": "yubingsen5-2023-math2",
+      "series_key": "yubingsen5",
+      "series_name": "yubingsen5",
+      "year": 2023,
+      "subject": "math2",
+      "paper_count": 5
+    },
+    {
       "bundle": "yubingsen5-2024-math1",
       "series_key": "yubingsen5",
       "series_name": "余炳森五套卷",
@@ -321,6 +409,38 @@
       "year": 2025,
       "subject": "math3",
       "paper_count": 5
+    },
+    {
+      "bundle": "yubingsen5-2026-math1",
+      "series_key": "yubingsen5",
+      "series_name": "yubingsen5",
+      "year": 2026,
+      "subject": "math1",
+      "paper_count": 5
+    },
+    {
+      "bundle": "yubingsen5-2026-math2",
+      "series_key": "yubingsen5",
+      "series_name": "yubingsen5",
+      "year": 2026,
+      "subject": "math2",
+      "paper_count": 3
+    },
+    {
+      "bundle": "zhangyu4-2023-math1",
+      "series_key": "zhangyu4",
+      "series_name": "zhangyu4",
+      "year": 2023,
+      "subject": "math1",
+      "paper_count": 4
+    },
+    {
+      "bundle": "zhangyu4-2023-math2",
+      "series_key": "zhangyu4",
+      "series_name": "zhangyu4",
+      "year": 2023,
+      "subject": "math2",
+      "paper_count": 4
     },
     {
       "bundle": "zhangyu4-2024-math1",
@@ -489,6 +609,22 @@
       "year": 2026,
       "subject": "math3",
       "paper_count": 8
+    },
+    {
+      "bundle": "zhangyu8-2027-math1",
+      "series_key": "zhangyu8",
+      "series_name": "zhangyu8",
+      "year": 2027,
+      "subject": "math1",
+      "paper_count": 2
+    },
+    {
+      "bundle": "zhangyu8-2027-math2",
+      "series_key": "zhangyu8",
+      "series_name": "zhangyu8",
+      "year": 2027,
+      "subject": "math2",
+      "paper_count": 2
     }
   ]
 }

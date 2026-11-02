@@ -1,0 +1,302 @@
+schema_version: '3.0'
+paper:
+  series_key: chaoyue10
+  year: 2026
+  subject: math1
+  paper_no: 2
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 \(f\left( x\right)\) 在闭区间 \(\left[-1,1\right]\) 上连续，数列 \(\left\{a_n\right\}\) 满足 \(a_n\in\left(-1,1\right), n\in N\)。 则（ ）。
+  choices:
+  - label: A
+    text: |-
+      若数列 \(\left\{f\left(a_n\right)\right\}\) 收敛， 则数列 \(\left\{a_n\right\}\) 收敛
+    figures: []
+  - label: B
+    text: |-
+      若数列 \(\left\{f\left(a_n\right)\right\}\) 发散， 则数列 \(\left\{a_n\right\}\) 可能收敛
+    figures: []
+  - label: C
+    text: |-
+      若数列 \(\left\{a_n\right\}\) 单调， 则数列 \(\left\{f\left(a_n\right)\right\}\) 收敛
+    figures: []
+  - label: D
+    text: |-
+      若数列 \(\left\{f\left(a_n\right)\right\}\) 单调， 则数列 \(\left\{a_n\right\}\) 收敛
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知连续函数 \(y=y(x)\) 由方程 \( \dfrac{1}{2}x+\dfrac{\sqrt{3}}{2}y=\arctan\left(\dfrac{\sqrt{3}}{2}x-\dfrac{1}{2}y\right)\) 确定，则下列说法中正确的个数为（ ）。 \((1)\) \(y(x)\) 为奇函数；\((2)\) \(y(x)\) 的零点个数是 3。
+  choices:
+  - label: A
+    text: '0'
+    figures: []
+  - label: B
+    text: '1'
+    figures: []
+  - label: C
+    text: '2'
+    figures: []
+  - label: D
+    text: '3'
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 \( z=(x^2+y^2){\mathrm e}^{x-y}, \ g(x,y)=\dfrac{\partial^2z}{\partial x^2}-\dfrac{\partial^2z}{\partial y^2}\)，区域 \(D=\{(x,y)\mid 0<x<1,0<y<1-x\}\)，在 \(D\) 内取两点 \((x_1,y_1), (x_2,y_2)\)，则 \(g(x_1,y_1)\leq g(x_2,y_2)\) 的一个充分条件为（ ）。
+  choices:
+  - label: A
+    text: |-
+      \(x_1<x_2, \ y_1<y_2\)
+    figures: []
+  - label: B
+    text: |-
+      \(x_1y_2\)
+    figures: []
+  - label: C
+    text: |-
+      \(x_1>x_2, \ y_1<y_2\)
+    figures: []
+  - label: D
+    text: |-
+      \(x_1>x_2, \ y_1>y_2\)
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知级数 \( \sum\limits_{n=1}^{\infty}\dfrac{(-1)^n\ln n}{n^k}, k>0\)，下列说法正确的是（ ）。
+  choices:
+  - label: A
+    text: |-
+      当 \(k>0\) 时， 级数绝对收敛
+    figures: []
+  - label: B
+    text: |-
+      当 \(k>0\) 时， 级数条件收敛
+    figures: []
+  - label: C
+    text: |-
+      当 \(01\) 时， 级数绝对收敛
+    figures: []
+  - label: D
+    text: |-
+      当 \(01\) 时， 级数绝对收敛
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 \( \alpha_1=\begin{pmatrix}1\\0\\1\end{pmatrix}, \ \alpha_2=\begin{pmatrix}1\\2\\1\end{pmatrix}, \ \alpha_3=\begin{pmatrix}1\\-1\\a\end{pmatrix}, \ \alpha_4=\begin{pmatrix}1\\b\\1\end{pmatrix}\)。 若 \(\alpha_4\) 可由 \(\alpha_1, \alpha_2, \alpha_3\) 表示，但是 \(\alpha_1\) 不可由 \(\alpha_2, \alpha_3, \alpha_4\) 表示，则（ ）。
+  choices:
+  - label: A
+    text: |-
+      \(a\neq1\) 且 \(b\neq2\)
+    figures: []
+  - label: B
+    text: |-
+      \(a\neq1\) 且 \(b=2\)
+    figures: []
+  - label: C
+    text: |-
+      \(a=1\) 且 \(b\neq2\)
+    figures: []
+  - label: D
+    text: |-
+      \(a=1\) 且 \(b=2\)
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 \(A=(a_{ij})\) 为三阶非零矩阵，\(A_{ij}\) 为 \(|A|\) 中 \(a_{ij}\) 的代数余子式，满足 \(a_{ij}=-A_{ij}\ (1\leq i\leq3,1\leq j\leq3)\)， \(\alpha, \beta\) 为任意 3 维列向量，\(E\) 为三阶单位矩阵，给出下列结论： ① \(\alpha^TA^TA\alpha=\|\alpha\|^2\)； ② \([A\alpha,A\beta]=[\alpha, \beta]\)； ③ 齐次线性方程组 \((A+E)x=0\) 有非零解； ④ \(\operatorname{tr}(A^2)=\left[\operatorname{tr}(A)\right]^2\)。 其中正确的选项是（ ）。
+  choices:
+  - label: A
+    text: ① ③
+    figures: []
+  - label: B
+    text: ② ④
+    figures: []
+  - label: C
+    text: ① ② ③
+    figures: []
+  - label: D
+    text: ① ② ④
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 \(A,B\) 为三阶非零矩阵，\(r(A)+r(B)\leq3\)，则下列说法正确的是（ ）。
+  choices:
+  - label: A
+    text: |-
+      \(\begin{pmatrix}A\\B\end{pmatrix}x=0\) 与 \(Ax=0\) 有公共非零解
+    figures: []
+  - label: B
+    text: |-
+      \(\begin{pmatrix}A\\B\end{pmatrix}x=0\) 与 \(Bx=0\) 没有公共非零解
+    figures: []
+  - label: C
+    text: |-
+      \(\begin{pmatrix}B\\BA\end{pmatrix}x=0\) 与 \(Bx=0\) 同解
+    figures: []
+  - label: D
+    text: |-
+      \(\begin{pmatrix}A\\BA\end{pmatrix}x=0\) 与 \(Ax=0\) 同解
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设随机事件 \(A,B\) 满足 \(P(B)=0.3, \ P(A-B)=0.4, \ P(\bar A\mid\bar B)+P(A\mid B)=1\)，则 \(P(\bar A\cup B)=\) （ ）。
+  choices:
+  - label: A
+    text: |-
+      \(\dfrac{2}{7}\)
+    figures: []
+  - label: B
+    text: |-
+      \(\dfrac{3}{7}\)
+    figures: []
+  - label: C
+    text: |-
+      \(\dfrac{3}{5}\)
+    figures: []
+  - label: D
+    text: |-
+      \(\dfrac{4}{5}\)
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设随机变量 \(X\) 的密度函数\( f(x)=\begin{cases}a(x+b){\mathrm e}^{-x}, &x>0, \\0, &x\leq0, \end{cases} \)在点 \(x=1\) 处取得最大值，其中 \(a,b\) 均为常数，则 \(P(X\geq EX)=\) （ ）。
+  choices:
+  - label: A
+    text: |-
+      \( \dfrac{2}{\mathrm e}\)
+    figures: []
+  - label: B
+    text: |-
+      \( \dfrac{3}{\mathrm e}\)
+    figures: []
+  - label: C
+    text: |-
+      \( \dfrac{2}{{\mathrm e}^2}\)
+    figures: []
+  - label: D
+    text: |-
+      \( \dfrac{3}{{\mathrm e}^2}\)
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 \(X_1,X_2, \cdots,X_n\) 是来自总体 \(X\sim N(\mu, \sigma^2)\) 的简单随机样本，检验 \(H_0:\mu\leq\mu_0\)， \(H_1:\mu>\mu_0\)，且拒绝域 \(W_1=\{\bar X-\mu_0\geq1\}\)， \(W_2=\{\bar X-\mu_0\geq2\}\) 分别对应显著性水平 \(\alpha_1\) 和 \(\alpha_2\)，则（ ）。
+  choices:
+  - label: A
+    text: |-
+      \(\alpha_1=\alpha_2\)
+    figures: []
+  - label: B
+    text: |-
+      \(\alpha_1>\alpha_2\)
+    figures: []
+  - label: C
+    text: |-
+      \(\alpha_1<\alpha_2\)
+    figures: []
+  - label: D
+    text: |-
+      \(\alpha_1\) 和 \(\alpha_2\) 的大小关系不确定
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      \( \lim\limits_{n\to\infty}\int_0^1\dfrac{\sqrt[n]{1+n\arctan x^2}}{1+x^2}\, \mathrm dx=\) \underline{\qquad}。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      \( \int_0^{+\infty}\dfrac{1}{\sqrt{x(x+2)^3}}\, \mathrm dx=\) \underline{\qquad}。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 \(L\) 是曲线 \(x^2+2xy+2y^2=1\) 位于第一象限的部分，则 \( \int_L\dfrac{x^2-4y^2}{\sqrt{2+2xy+y^2}}\, \mathrm ds=\) \underline{\qquad}。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      二次积分 \( \int_0^1\mathrm dy\int_0^{\sqrt y}x^2y\, \mathrm dx+\int_1^{\sqrt2}\mathrm dy\int_0^{\sqrt{2-y^2}}x^2y\, \mathrm dx=\) \underline{\qquad}。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      二次型 \(f(x_1,x_2,x_3)=2ax_1x_2+4x_1x_3-4x_2x_3\) 的正惯性指数为 \(2\)，则 \(a\) 的取值范围为 \underline{\qquad}。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设随机变量 \(X_1\) 与 \(X_2\) 相互独立，\( X_1\sim\begin{pmatrix}-1&1\\\dfrac{1}{2}&\dfrac{1}{2}\end{pmatrix}\)， \(X_2\sim N(0,1)\)， \(Z=X_1X_2^2\)，则 \(X_1\) 与 \(Z\) 的相关系数 \(\rho_{X_1,Z}=\) \underline{\qquad}。
+- number: 17
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      计算 \( \int\dfrac{{\mathrm e}^x\sqrt{{\mathrm e}^x-1}}{({\mathrm e}^x+3)^2}\, \mathrm dx\)。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      求函数 \(f(x,y)=x^3+y^3-3x-3y+3xy\) 的极值。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 \(\Sigma\) 为曲面 \(z=1-4x^2-4y^2\ (0\leq z\leq1)\)，取上侧，计算对坐标的曲面积分 \(\iint_{\Sigma}\dfrac{xy^2z\, \mathrm{d}y\, \mathrm{d}z-x^2yz\, \mathrm{d}z\, \mathrm{d}x}{x^2+y^2+z^2}+\dfrac{x^2-y^2}{2}\ln\left(x^2+y^2+z^2\right)\, \mathrm{d}x\, \mathrm{d}y\)。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 \(f(x)\) 在 \((-\infty, +\infty)\) 上二阶可导， (1) 证明 \(f''(x)\geq0\) 的充要条件是对任意的 \(h,x\in(-\infty, +\infty)\) 都有\( f(x+h)-2f(x)+f(x-h)\geq0. \) (2) 若 \((x_0,f(x_0))\) 是曲线 \(y=f(x)\) 的拐点，证明 \(f''(x_0)=0\)。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      已知二次型 \(f(x_1,x_2,x_3)=2x_1^2+2x_2^2+ax_3^2-2x_1x_2+2x_1x_3-2x_2x_3\)，其矩阵为 \(A\)。\( \alpha=\begin{pmatrix}1\\ b\\ 1\end{pmatrix}\) 是矩阵 \(A\) 对应特征值 \(\lambda\) 的一个特征向量 \((b<0)\)。 (1) 求 \(a,b, \lambda\)； (2) 求正交变换 \(x=Qy\)，将二次型 \(f(x_1,x_2,x_3)\) 化为标准型，并写出相应的标准型； (3) 求 \(f(x_1,x_2,x_3)\) 在 \(x^Tx=1\) 的条件下的最小值。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设二维随机变量 $(X, Y)$ 的联合概率密度为 $ f(x, y) = \begin{cases} Axy, & 0 \leqslant y < x \leqslant 1, \\ 0, & \text{\text{其他}} \end{cases}$ (1) 求常数 $A$； (2) 在 $0 < X < \dfrac{1}{2}$ 的条件下，求 $Y$ 的条件密度函数。
+content_hash: fd91b2e4f7814876e5768a0a58bd4f8c6f4fe59d7e1220f7a1d8a570c773a6fc

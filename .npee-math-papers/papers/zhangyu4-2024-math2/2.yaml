@@ -10,283 +10,273 @@ questions:
   points: 5
   stem:
     text: |-
-      设函数 $f(x)$ 与 $g(x)$ 在 $(-\infty,+\infty)$ 上均有 1 个间断点，则 $f[g(x)]$ 在 $(-\infty,+\infty)$ 上\ExamSelection
+      设函数 $f(x)$ 与 $g(x)$ 在 $(-\infty, +\infty)$ 上均有 $1$ 个间断点, 则 $f[g(x)]$ 在 $(-\infty, +\infty)$ 上
   choices:
   - label: A
-    text: 仅有 1 个间断点。
+    text: 仅有 $1$ 个间断点
     figures: []
   - label: B
-    text: 仅有 2 个间断点。
+    text: 仅有 $2$ 个间断点
     figures: []
   - label: C
-    text: 间断点个数不超过 2。
+    text: 间断点个数不超过 $2$
     figures: []
   - label: D
-    text: 间断点个数可为无穷多个。
+    text: 间断点个数可为无穷多个
     figures: []
 - number: 2
   section: choice
   points: 5
   stem:
     text: |-
-      当 $x\to0$ 时，连续函数 $f(x)=1+x-\cos\sqrt[3]{x}+o(x)$，$o(x)$ 表示 $x$ 的高阶无穷小，则\ExamSelection
+      当 $x \to 0$ 时, 连续函数 $f(x) = 1 + x - \cos\sqrt[3]{x} + o(x), o(x)$ 表示 $x$ 的高阶无穷小, 则
   choices:
   - label: A
-    text: $f'(0)=1$。
+    text: $f'(0) = 1.$
     figures: []
   - label: B
     text: |-
-      $f'(0)=\dfrac{1}{3}$。
+      $f'(0) = \dfrac{1}{3}.$
     figures: []
   - label: C
-    text: $f'(0)$ 不存在。
+    text: $f'(0)$ 不存在
     figures: []
   - label: D
-    text: $f'(0)$ 与 $o(x)$ 有关。
+    text: $f'(0)$ 与 $o(x)$ 有关
     figures: []
 - number: 3
   section: choice
   points: 5
   stem:
     text: |-
-      设 $f(x),g(x)$ 在 $(-\infty,+\infty)$ 内可导，且 $\begin{vmatrix}f(x)&g(x)\\f'(x)&g'(x)\end{vmatrix}<0$。又 $a<b$，$f(a)=f(b)=0$，则 $g(x)$ 在 $[a,b]$ 上\ExamSelection
+      设 $f(x),g(x)$ 在 $(-\infty,+\infty)$ 内可导，且 $\begin{vmatrix} f(x) & g(x) \\ f'(x) & g'(x) \end{vmatrix} < 0$. 又 $a < b, f(a) = f(b) = 0$, 则 $g(x)$ 在 $[a,b]$ 上
   choices:
   - label: A
-    text: 恒正。
+    text: 恒正
     figures: []
   - label: B
-    text: 恒负。
+    text: 恒负
     figures: []
   - label: C
-    text: 至少有一个零点。
+    text: 至少有一个零点
     figures: []
   - label: D
-    text: 至多有一个零点。
+    text: 至多有一个零点
     figures: []
 - number: 4
   section: choice
   points: 5
   stem:
     text: |-
-      设某物体运动的路程 $s$ 和加速度 $a$ 与时间 $t$ 的关系分别为 $s=s(t),a=a(t)$。已知该物体从 $t=0$ 时刻至 $t=1$ 时刻运动的路程是 2，在 $t=1$ 时刻的速度为 2，则 $\int_0^1ta(t)\,\mathrm{d}t=$\ExamSelection
+      设某物体运动的路程 $s$ 和加速度 $a$ 与时间 $t$ 的关系分别为 $s=s(t),a=a(t)$. 已知该物体从 $t=0$ 时刻至 $t=1$ 时刻运动的路程是 $2$, 在 $t=1$ 时刻的速度为 $2$, 则 $\int_0^1 ta(t)dt=$
   choices:
   - label: A
-    text: $0$。
+    text: '0'
     figures: []
   - label: B
-    text: $1$。
+    text: '1'
     figures: []
   - label: C
-    text: $2$。
+    text: '2'
     figures: []
   - label: D
-    text: $3$。
+    text: '3'
     figures: []
 - number: 5
   section: choice
   points: 5
   stem:
     text: |-
-      设函数 $f(x,y)=\begin{cases}1,&y=x^3,x\ne0,\\0,&\text{其他},\end{cases}$，则以下结论中 \n① $\lim_{\substack{x\to0\\y=x^3}}f(x,y)=1$；\n② $\dfrac{\partial f(0,0)}{\partial x}=0$；\n③ $\dfrac{\partial f(0,0)}{\partial y}=1$；\n④ $f(x,y)$ 在点 $(0,0)$ 处可微。\n正确结论的个数为\ExamSelection
+      设函数 $f(x,y)=\begin{cases} 1, & y=x^3,x\neq 0, \\ 0, & \text{\text{其他}}, \end{cases}$ 则以下结论中 ① $\lim_{\substack{x\to 0 \\ y=x^3}} f(x,y)=1$; ② $\dfrac{\partial f(0,0)}{\partial x}=0$; ③ $\dfrac{\partial f(0,0)}{\partial y}=1$; ④ $f(x,y)$ 在点 $(0,0)$ 处可微. 正确结论的个数为
   choices:
   - label: A
-    text: $1$。
+    text: '1'
     figures: []
   - label: B
-    text: $2$。
+    text: '2'
     figures: []
   - label: C
-    text: $3$。
+    text: '3'
     figures: []
   - label: D
-    text: $4$。
+    text: '4'
     figures: []
 - number: 6
   section: choice
   points: 5
   stem:
     text: |-
-      设 $f(x)=\begin{cases}e^{x^2}+x^2,&x\ne0,\\a,&x=0,\end{cases}$，其中 $a$ 为常数，令 $F(x)=\int_{-1}^{x}f(t)\,\mathrm{d}t$，则以下命题：\n①当 $a=1$ 时，$F(x)$ 在 $x=0$ 处可导；\n②当 $a\ne1$ 时，$F(x)$ 在 $x=0$ 处可导；\n③当 $a=1$ 时，$F(x)$ 在 $x=0$ 处不可导；\n④当 $a\ne1$ 时，$F(x)$ 在 $x=0$ 处不可导。\n所有真命题的序号为\ExamSelection
+      设 $f(x)=\begin{cases} \mathrm{e}^{x^2}+x^2, & x eq 0, \\ a, & x=0, \end{cases}$ 其中 $a$ 为常数，令 $F(x)=\int_{-1}^x f(t)\mathrm{d}t$，则以下命题： ①当 $a=1$ 时$,F(x)$ 在 $x=0$ 处可导； ②当 $a eq 1$ 时$,F(x)$ 在 $x=0$ 处可导； ③当 $a=1$ 时$,F(x)$ 在 $x=0$ 处不可导； ④当 $a eq 1$ 时$,F(x)$ 在 $x=0$ 处不可导. 所有真命题的序号为
   choices:
   - label: A
-    text: ①②。
+    text: ①②
     figures: []
   - label: B
-    text: ①④。
+    text: ①④
     figures: []
   - label: C
-    text: ③④。
+    text: ③④
     figures: []
   - label: D
-    text: ②③。
+    text: ②③
     figures: []
 - number: 7
   section: choice
   points: 5
   stem:
-    text: |-
-      下列反常积分中，收敛的是\ExamSelection
+    text: 下列反常积分中，收敛的是
   choices:
   - label: A
     text: |-
-      $\int_0^1\dfrac{\sin x}{1-x^2}\,\mathrm{d}x$。
+      $\int_{0}^{1} \dfrac{\sin x}{1-x^2} \mathrm{d}x.$
     figures: []
   - label: B
     text: |-
-      $\int_1^{+\infty}\dfrac{1}{x\ln x}\,\mathrm{d}x$。
+      $\int_{1}^{+\infty} \dfrac{1}{x \ln x} \mathrm{d}x.$
     figures: []
   - label: C
     text: |-
-      $\int_{1/2}^{+\infty}\dfrac{\cos\pi x}{(2x-1)^{3/2}}\,\mathrm{d}x$。
+      $\int_{\dfrac{1}{2}}^{+\infty} \dfrac{\cos \pi x}{(2x-1)^{\dfrac{3}{2}}} \mathrm{d}x.$
     figures: []
   - label: D
     text: |-
-      $\int_0^{+\infty}\dfrac{1}{x^2+x^3}\,\mathrm{d}x$。
+      $\int_{0}^{+\infty} \dfrac{1}{x^2+x^3} \mathrm{d}x.$
     figures: []
 - number: 8
   section: choice
   points: 5
   stem:
     text: |-
-      设 $A,B$ 均为 3 阶可逆矩阵，$A^*,B^*$ 分别为 $A,B$ 的伴随矩阵，则 $\begin{pmatrix}O&A\\B&C\end{pmatrix}$ 的伴随矩阵为\ExamSelection
+      设 $A,B$ 均为 $3$ 阶可逆矩阵, $A^*,B^*$ 分别为 $A,B$ 的伴随矩阵, 则 $\begin{pmatrix} O & A \\ B & C \end{pmatrix}$ 的伴随矩阵为
   choices:
   - label: A
     text: |-
-      $\begin{pmatrix}-B^*CA^*&-|A|B^*\\|B|A^*&O\end{pmatrix}$。
+      $\begin{pmatrix} -B^*CA^* & -|A|B^* \\ |B|A^* & O \end{pmatrix}$
     figures: []
   - label: B
     text: |-
-      $\begin{pmatrix}B^*CA^*&-|A|B^*\\-|B|A^*&O\end{pmatrix}$。
+      $\begin{pmatrix} B^*CA^* & -|A|B^* \\ -|B|A^* & O \end{pmatrix}$
     figures: []
   - label: C
     text: |-
-      $\begin{pmatrix}-A^*CB^*&|A|B^*\\|B|A^*&O\end{pmatrix}$。
+      $\begin{pmatrix} -A^*CB^* & |A|B^* \\ |B|A^* & O \end{pmatrix}$
     figures: []
   - label: D
     text: |-
-      $\begin{pmatrix}A^*CB^*&|A|B^*\\-|B|A^*&O\end{pmatrix}$。
+      $\begin{pmatrix} A^*CB^* & |A|B^* \\ -|B|A^* & O \end{pmatrix}$
     figures: []
 - number: 9
   section: choice
   points: 5
   stem:
     text: |-
-      设 $A,B$ 均为 3 阶矩阵，$\xi,\eta$ 均为 3 维非零列向量，非齐次线性方程组 $Ax=\xi$ 与 $Bx=\eta$ 均有解，则它们同解的充分必要条件为\ExamSelection
+      设 $A,B$ 均为 $3$ 阶矩阵, $\xi,\eta$ 均为 $3$ 维非零列向量, 非齐次线性方程组 $Ax=\xi$ 与 $Bx=\eta$ 均有解, 则它们同解的充分必要条件为
   choices:
   - label: A
-    text: $A$ 的行向量组与 $B$ 的行向量组等价。
+    text: $A$ 的行向量组与 $B$ 的行向量组等价
     figures: []
   - label: B
     text: |-
-      $(A\mid\xi)$ 的行向量组与 $(B\mid\eta)$ 的行向量组等价。
+      $(A \mid \xi)$ 的行向量组与 $(B \mid \eta)$ 的行向量组等价
     figures: []
   - label: C
-    text: $A$ 的列向量组与 $B$ 的列向量组等价。
+    text: $A$ 的列向量组与 $B$ 的列向量组等价
     figures: []
   - label: D
     text: |-
-      $(A\mid\xi)$ 的列向量组与 $(B\mid\eta)$ 的列向量组等价。
+      $(A \mid \xi)$ 的列向量组与 $(B \mid \eta)$ 的列向量组等价
     figures: []
 - number: 10
   section: choice
   points: 5
   stem:
-    text: |-
-      设二次型 $f(x_1,x_2,x_3)=x_1^2-2x_2^2+3x_3^2-4x_1x_2$，$g(y_1,y_2,y_3)=ay_2^2-6y_1y_3$，若存在可逆线性变换将 $f$ 化为 $g$，但不存在正交变换将 $f$ 化为 $g$，则 $a$ 的取值范围是\ExamSelection
+    text: 设二次型 $f(x_1,x_2,x_3) = x_1^2 - 2x_2^2 + 3x_3^2 - 4x_1x_2, g(y_1,y_2,y_3) = ay_2^2 - 6y_1y_3$, 若存在可逆线性变换将 $f$ 化为 $g$, 但不存在正交变换将 $f$ 化为 $g$, 则 $a$ 的取值范围是
   choices:
   - label: A
     text: |-
-      $a<0$ 且 $a\ne-3$。
+      $a < 0$ 且 $a \neq -3$
     figures: []
   - label: B
     text: |-
-      $a<0$ 且 $a\ne-2$。
+      $a < 0$ 且 $a \neq -2$
     figures: []
   - label: C
     text: |-
-      $a>0$ 且 $a\ne3$。
+      $a > 0$ 且 $a \neq 3$
     figures: []
   - label: D
     text: |-
-      $a>0$ 且 $a\ne2$。
+      $a > 0$ 且 $a \neq 2$
     figures: []
 - number: 11
   section: fill
   points: 5
   stem:
     text: |-
-      曲线 $y=x(x-1)^{\dfrac{1}{3}}$ 的拐点为 $\ExamBlank$。
+      曲线 $y=x(x-1)^{\dfrac{1}{3}}$ 的拐点为$\underline{\qquad\qquad}$
 - number: 12
   section: fill
   points: 5
   stem:
     text: |-
-      设函数 $f(x)=(1-x)^n\cos\pi x,n=1,2,\cdots$，则 $f^{(n)}(1)=$ $\ExamBlank$。
+      设函数 $f(x) = (1-x)^n \cos\pi x, n = 1,2, \cdots$, 则 $f^{(n)}(1) = \underline{\hspace{1.5cm}}$
 - number: 13
   section: fill
   points: 5
   stem:
     text: |-
-      曲线 $y=\dfrac{\sqrt{x\ln x}}{1+x^2}(x\ge1)$ 与 $x$ 轴之间的图形绕 $x$ 轴旋转一周所得到的旋转体的体积为 $\ExamBlank$。
+      曲线 $y=\dfrac{\sqrt{x\ln x}}{1+x^2}(x\geqslant 1)$ 与 $x$ 轴之间的图形绕 $x$ 轴旋转一周所得的旋转体的体积为$\underline{\qquad\qquad}$
 - number: 14
   section: fill
   points: 5
   stem:
     text: |-
-      已知有密度均匀、长度为 1 且质量为 2 的细棒 $AB$，记 $G$ 为万有引力常数，假设有一质量为 1 的质点在 $BA$ 的延长线上距 $A$ 为 $a$ 处，则细棒 $AB$ 对该质点的引力为 $\ExamBlank$。
+      已知有密度均匀、长度为 $1$ 且质量为 $2$ 的细棒 $AB$, 记 $G$ 为万有引力常数, 假设有一质量为 $1$ 的质点在 $BA$ 的延长线上距 $A$ 为 $a$ 处, 则细棒 $AB$ 对该质点的引力为$\underline{\hspace{1.5cm}}$
 - number: 15
   section: fill
   points: 5
   stem:
     text: |-
-      已知函数 $f(x,y)$ 满足 $\mathrm{d}[f(x,y)]=\dfrac{(x+2y)\,\mathrm{d}x+y\,\mathrm{d}y}{(x+y)^2}$，$f(1,1)=\ln2-\dfrac12$，则 $f(2,2)=$ $\ExamBlank$。
+      已知函数 $f(x,y)$ 满足 $\mathrm{d}[f(x,y)]=\dfrac{(x+2y)\mathrm{d}x+y\mathrm{d}y}{(x+y)^2},f(1,1)=\ln2-\dfrac{1}{2}$，则 $f(2,2)=\_\_\_\_\_\_\_\_$
 - number: 16
   section: fill
   points: 5
   stem:
     text: |-
-      已知 $A=\begin{pmatrix}1&0&0\\0&1&-1\\2&0&0\end{pmatrix}$，若 $(PA)^2=PA$，且 $P$ 可逆，则 $P$ 可以为 $\ExamBlank$。
+      已知 $A = \begin{pmatrix} 1 & 0 & 0 \\ 0 & 1 & -1 \\ 2 & 0 & 0 \end{pmatrix}$，若 $(PA)^2 = PA$，且 $P$ 可逆，则 $P$ 可以为$\underline{\qquad\qquad}$
 - number: 17
   section: solution
-  points: 10
+  points: 12
   stem:
     text: |-
-      求不定积分 $\int\dfrac{x^3}{(x+1)^2(x^2+x+1)}\,\mathrm{d}x$。
+      求不定积分 $\int \dfrac{x^3}{(x+1)^2(x^2+x+1)} \mathrm{d}x$
 - number: 18
   section: solution
   points: 12
   stem:
-    text: 设常数 $a>1,b>0$。证明：
-  subparts:
-  - text: |-
-      当 $x\to+\infty$ 时，$\dfrac{1}{a^x}=o\left(\dfrac{1}{x^b}\right)$；
-  - text: |-
-      微分方程 $y'+a^xy=x^b(x>0)$ 的任一解 $y(x)$ 满足 $\lim_{x\to+\infty}y(x)=0$。
+    text: |-
+      设常数 $a > 1, b > 0$. 证明: (1) 当 $x \to +\infty$ 时, $\dfrac{1}{a^x} = o\left(\dfrac{1}{x^b}\right)$; (2) 微分方程 $y' + a^x y = x^b (x > 0)$ 的任一解 $y(x)$ 满足 $\lim_{x \to +\infty} y(x) = 0$
 - number: 19
   section: solution
   points: 12
   stem:
-    text: 求函数 $u=xy+2xz$ 在约束条件 $x^2+y^2+z^2=10$ 下的最值。
+    text: 求函数 $u = xy + 2xz$ 在约束条件 $x^2 + y^2 + z^2 = 10$ 下的最值
 - number: 20
   section: solution
   points: 12
   stem:
     text: |-
-      设曲线 $L:y=\dfrac{e^x+e^{-x}}{2}(x\ge0)$，$P$ 为 $L$ 上任意一点，记 $L$ 上从点 $A(0,1)$ 到点 $P$ 的一段弧绕 $x$ 轴旋转一周所得到旋转体的侧面积为 $S$，当点 $P$ 沿 $x$ 轴的正向速度为 2 时，$S$ 对时间 $t$ 的变化率为 $\dfrac{\pi(e+1)^2}{e}$，求此时点 $P$ 的坐标。
+      设曲线 $L:y=\dfrac{\mathrm{e}^x+\mathrm{e}^{-x}}{2}(x\geqslant 0)$ $,P$ 为 $L$ 上任意一点，记 $L$ 上从点 $A(0,1)$ 到点 $P$ 的一段弧绕 $x$ 轴旋转一周所得旋转体的侧面积为 $S$，当点 $P$ 沿 $x$ 轴的正向速度为 $2$ 时$,S$ 对时间 $t$ 的变化率为 $\dfrac{\pi(\mathrm{e}+1)^2}{\mathrm{e}}$，求此时点 $P$ 的坐标
 - number: 21
   section: solution
   points: 12
   stem:
     text: |-
-      设 $D=\{(x,y)\mid x^2+y^2\le2x\}$，计算 $\iint_D\lvert x-y\rvert\,\mathrm{d}\sigma$。
+      设 $D = \{(x, y) \mid x^2 + y^2 \leqslant 2x\}$，计算 $\iint_D |x - y| d\sigma$
 - number: 22
   section: solution
   points: 12
   stem:
     text: |-
-      设矩阵 $A=\begin{pmatrix}1&1\\1&2\end{pmatrix},B=\begin{pmatrix}1&-1\\-1&1\end{pmatrix}$。
-  subparts:
-  - text: 证明 $A$ 为正定矩阵；
-  - text: |-
-      求一个可逆矩阵 $P$，使得 $P^{\mathrm{T}}AP$ 与 $P^{\mathrm{T}}BP$ 均为对角矩阵。
-content_hash: 90fc31b643808e5d49f1fc0e3f1465f528d1d93c330dd4362711039ca76d5dbc
+      设矩阵 $A = \begin{pmatrix} 1 & 1 \\ 1 & 2 \end{pmatrix}, B = \begin{pmatrix} 1 & -1 \\ -1 & 1 \end{pmatrix}$. (1) 证明 $A$ 为正定矩阵; (2) 求一个可逆矩阵 $P$, 使得 $P^T A P$ 与 $P^T B P$ 均为对角矩阵
+content_hash: 63f2068205e76da5f84e6b2adaf42eb35282491d69c00e908714a7b1980549f4

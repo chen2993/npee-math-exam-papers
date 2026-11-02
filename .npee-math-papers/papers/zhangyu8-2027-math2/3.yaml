@@ -1,0 +1,307 @@
+schema_version: '3.0'
+paper:
+  series_key: zhangyu8
+  year: 2027
+  subject: math2
+  paper_no: 3
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 \(f\left( x\right) = {\int }_{0}^{\left| \sin x\right| }{\mathrm{e}}^{{t}^{2}}\mathrm{\;d}t,g\left( x\right) = {\int }_{0}^{\left| x\right| }\sin {t}^{2}\mathrm{\;d}t\) ,则在 \(\left( {-\pi ,\pi }\right)\) 内,
+  choices:
+  - label: A
+    text: |-
+      \(f\left( x\right)\) 是可导的奇函数
+    figures: []
+  - label: B
+    text: |-
+      \(g\left( x\right)\) 是可导的偶函数
+    figures: []
+  - label: C
+    text: |-
+      \(f\left( x\right)\) 是奇函数且 \({f}^{\prime }\left( 0\right)\) 不存在
+    figures: []
+  - label: D
+    text: |-
+      \(g\left( x\right)\) 是偶函数且 \({g}^{\prime }\left( 0\right)\) 不存在
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 \(f\left( x\right)\) 在 \(\left\lbrack {-\pi ,\pi }\right\rbrack\) 上连续,当 \(F\left( a\right) = {\int }_{-\pi }^{\pi }{\left\lbrack f\left( x\right) - a\cos nx\right\rbrack }^{2}\mathrm{\;d}x\left( {n \in {\mathbf{N}}_{ + }}\right)\) 取得极小值时, \(a =\)
+  choices:
+  - label: A
+    text: |-
+      \({\int }_{-\pi }^{\pi }f\left( x\right) \cos {nx}\mathrm{\;d}x\)
+    figures: []
+  - label: B
+    text: |-
+      \(\dfrac{1}{\pi }{\int }_{-\pi }^{\pi }f\left( x\right) \cos {nx}\mathrm{\;d}x\)
+    figures: []
+  - label: C
+    text: |-
+      \(\dfrac{2}{\pi }{\int }_{-\pi }^{\pi }f\left( x\right) \cos {nx}\mathrm{\;d}x\)
+    figures: []
+  - label: D
+    text: |-
+      \(\dfrac{1}{2\pi }{\int }_{-\pi }^{\pi }f\left( x\right) \cos {nx}\mathrm{\;d}x\)
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 \(p > 0,{\int }_{2}^{+\infty }\dfrac{\mathrm{d}x}{{\left( \ln x\right) }^{{\left( \ln x\right) }^{p}}}\) 收敛，则 \(p\) 的取值范围是
+  choices:
+  - label: A
+    text: |-
+      \(0 < p \leq 1\)
+    figures: []
+  - label: B
+    text: |-
+      \(p \geq 2\)
+    figures: []
+  - label: C
+    text: |-
+      \(p \geq 1\)
+    figures: []
+  - label: D
+    text: |-
+      \(1 \leq p < 2\)
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 \(u = u\left( {x,y}\right)\) 具有二阶连续偏导数,函数 \(F\left( {s,t}\right)\) 具有一阶连续偏导数,且 \({\left( \dfrac{\partial F}{\partial s}\right) }^{2} + \; {\left( \dfrac{\partial F}{\partial t}\right) }^{2} \neq 0\)，\(F\left( {\dfrac{\partial u}{\partial x},\dfrac{\partial u}{\partial y}}\right) = 0\)，则有
+  choices:
+  - label: A
+    text: |-
+      \(\dfrac{{\partial }^{2}u}{\partial {x}^{2}} \cdot \dfrac{{\partial }^{2}u}{\partial {y}^{2}} = {\left( \dfrac{{\partial }^{2}u}{\partial x\partial y}\right) }^{2}\)
+    figures: []
+  - label: B
+    text: |-
+      \(\dfrac{{\partial }^{2}u}{\partial {x}^{2}} \cdot \dfrac{{\partial }^{2}u}{\partial {y}^{2}} = - {\left( \dfrac{{\partial }^{2}u}{\partial x\partial y}\right) }^{2}\)
+    figures: []
+  - label: C
+    text: |-
+      \(\dfrac{{\partial }^{2}u}{\partial {x}^{2}} + \dfrac{{\partial }^{2}u}{\partial {y}^{2}} = {\left( \dfrac{{\partial }^{2}u}{\partial x\partial y}\right) }^{2}\)
+    figures: []
+  - label: D
+    text: |-
+      \(\dfrac{{\partial }^{2}u}{\partial {x}^{2}} - \dfrac{{\partial }^{2}u}{\partial {y}^{2}} = {\left( \dfrac{{\partial }^{2}u}{\partial x\partial y}\right) }^{2}\)
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 \(y = {x}^{4},y = {x}^{4} + 1,y = {x}^{4} + {x}^{2}\) 是某二阶非齐次线性微分方程的三个特解, \(y = \varphi \left( x\right)\) 是该方程满足初始条件 \({\left. y\right| }_{x = 1} = - 5,{\left. {y}^{\prime }\right| }_{x = 1} = - 8\) 的特解,则在区间 \(\left( {0,1}\right)\) 内
+  choices:
+  - label: A
+    text: |-
+      函数 \(y = \varphi \left( x\right)\) 单调增加,且其图形是凹的
+    figures: []
+  - label: B
+    text: |-
+      函数 \(y = \varphi \left( x\right)\) 单调增加,且其图形是凸的
+    figures: []
+  - label: C
+    text: |-
+      函数 \(y = \varphi \left( x\right)\) 单调减少,且其图形是凹的
+    figures: []
+  - label: D
+    text: |-
+      函数 \(y = \varphi \left( x\right)\) 单调减少,且其图形是凸的
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      下列三个命题: \circled{1} 设 \(f\left( x\right)\) 在 \(x = {x}_{0}\) 处连续，在 \(x = {x}_{0}\) 的某去心邻域内可导，若 \(\mathop{\lim }\limits_{{x \rightarrow {x}_{0}}}{f}^{\prime }\left( x\right)\) 存在，则 \(f\left( x\right)\) 在 \(x = {x}_{0}\) 处可导且 \({f}^{\prime }\left( {x}_{0}\right) = \mathop{\lim }\limits_{{x \rightarrow {x}_{0}}}{f}^{\prime }\left( x\right)\) ; \circled{2} 设 \(f\left( x\right)\) 在 \(x = {x}_{0}\) 处连续，在 \(x = {x}_{0}\) 的某去心邻域内可导，若 \(\mathop{\lim }\limits_{{x \rightarrow {x}_{0}^{ + }}}{f}^{\prime }\left( x\right)\) 与 \(\mathop{\lim }\limits_{{x \rightarrow {x}_{0}^{ - }}}{f}^{\prime }\left( x\right)\) 均存在但不相等，则 \({f}^{\prime }\left( {x}_{0}\right)\) 不存在； \circled{3} 设 \(f\left( x\right)\) 在 \(x = {x}_{0}\) 的某邻域内可导,若 \(\mathop{\lim }\limits_{{x \rightarrow {x}_{0}^{ + }}}{f}^{\prime }\left( x\right)\) 与 \(\mathop{\lim }\limits_{{x \rightarrow {x}_{0}^{ - }}}{f}^{\prime }\left( x\right)\) 均存在,则必有 \(\mathop{\lim }\limits_{{x \rightarrow {x}_{0}}}{f}^{\prime }\left( x\right)\) 存在. 所有真命题的序号为
+  choices:
+  - label: A
+    text: |-
+      \(\circled{1} \circled{2} .\)
+    figures: []
+  - label: B
+    text: |-
+      \(\circled{2} \circled{3} .\)
+    figures: []
+  - label: C
+    text: |-
+      \(\circled{1} \circled{3} .\)
+    figures: []
+  - label: D
+    text: |-
+      \(\circled{1} \circled{2} \circled{3} .\)
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 \(D = \left\{ {\left( {x,y}\right) \left| {\;{x}^{2} + {y}^{2} \leq \dfrac{3}{4}}\right. }\right\}\) ,记 \(I = {\iint }_{D}{\mathrm{e}}^{-\left( {{x}^{2} + {y}^{2}}\right) }\mathrm{d}x\mathrm{\;d}y\)，\(J = {\iint }_{D}\cos \left( {{x}^{2} + {y}^{2}}\right) \mathrm{d}x\mathrm{\;d}y\)，\(K = \; {\iint }_{D}\left\lbrack {1 - \sin \left( {{x}^{2} + {y}^{2}}\right) }\right\rbrack \mathrm{d}x\mathrm{\;d}y\)，则 \(I,J,K\) 的大小关系为
+  choices:
+  - label: A
+    text: |-
+      \(I < J < K\)
+    figures: []
+  - label: B
+    text: |-
+      \(J < K < I\)
+    figures: []
+  - label: C
+    text: |-
+      \(I < K < J\)
+    figures: []
+  - label: D
+    text: |-
+      \(K < I < J\)
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 3 阶非零矩阵 \(\mathbf{A}\) 满足 \({A}_{ij} + {a}_{ij} = 0\left( {i,j = 1,2,3}\right)\) ,其中 \({A}_{ij}\) 为元素 \({a}_{ij}\) 的代数余子式,则下列结论不正确的是
+  choices:
+  - label: A
+    text: |-
+      \(\left( {\mathbf{A} - \mathbf{E}}\right) \mathbf{x} = \mathbf{0}\) 有非零解
+    figures: []
+  - label: B
+    text: |-
+      \(\left( {\mathbf{A} + \mathbf{E}}\right) \mathbf{x} = \mathbf{0}\) 有非零解
+    figures: []
+  - label: C
+    text: |-
+      \({\left( \mathbf{A} + \mathbf{E}\right) }^{2}\mathbf{x} = \mathbf{0}\) 有非零解
+    figures: []
+  - label: D
+    text: |-
+      \(\left( {{\mathbf{A}}^{2} - \mathbf{E}}\right) \mathbf{x} = \mathbf{0}\) 有非零解
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 \(\mathbf{A}\) 为 \(n\) 阶实对称矩阵, \(\mathbf{B}\) 为 \(n\) 阶可逆矩阵, \(\mathbf{Q}\) 为 \(n\) 阶正交矩阵,则下列矩阵中一定与 \(\mathbf{A}\) 有相同的特征值的是
+  choices:
+  - label: A
+    text: |-
+      \({\mathbf{B}}^{\mathrm{T}}{\mathbf{Q}}^{\mathrm{T}}\mathbf{A}\mathbf{Q}\mathbf{B}\)
+    figures: []
+  - label: B
+    text: |-
+      \({\left( {\mathbf{B}}^{-1}\right) }^{\mathrm{T}}{\mathbf{Q}}^{\mathrm{T}}\mathbf{A}\mathbf{Q}{\mathbf{B}}^{-1}\)
+    figures: []
+  - label: C
+    text: |-
+      \({\mathbf{B}}^{-1}{\mathbf{Q}}^{\mathrm{T}}\mathbf{A}\mathbf{Q}\mathbf{B}\)
+    figures: []
+  - label: D
+    text: |-
+      \(\mathbf{B}{\mathbf{Q}}^{\mathrm{T}}\mathbf{A}\mathbf{Q}{\left( {\mathbf{B}}^{\mathrm{T}}\right) }^{-1}\)
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      若向量组 \({\mathbf{\alpha }}_{1} = {\left( 1,1,a\right) }^{\mathrm{T}},{\mathbf{\alpha }}_{2} = {\left( 1,a,1\right) }^{\mathrm{T}},{\mathbf{\alpha }}_{3} = {\left( a,1,1\right) }^{\mathrm{T}}\) 可由向量组 \({\mathbf{\beta }}_{1} = {\left( 1,1,a\right) }^{\mathrm{T}}\)，\({\mathbf{\beta }}_{2} = \; {\left( -2,a,4\right) }^{\mathrm{T}}\)，\({\mathbf{\beta }}_{3} = {\left( -2,a,a\right) }^{\mathrm{T}}\) 线性表示,但向量组 \({\mathbf{\beta }}_{1},{\mathbf{\beta }}_{2},{\mathbf{\beta }}_{3}\) 不能由向量组 \({\mathbf{\alpha }}_{1},{\mathbf{\alpha }}_{2},{\mathbf{\alpha }}_{3}\) 线性表示,则 \(a =\)
+  choices:
+  - label: A
+    text: '1'
+    figures: []
+  - label: B
+    text: '2'
+    figures: []
+  - label: C
+    text: '-1'
+    figures: []
+  - label: D
+    text: |-
+      \(-2 .\)
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      已知函数 \(f\left( x\right) = {\int }_{1}^{{x}^{2}}\dfrac{\sin t}{1 + t}\mathrm{d}t\left( {0 < x < \sqrt{\pi }}\right)\) ， \(f\) 的反函数为 \(g\) ，则 \({g}^{\prime }\left( 0\right) =\) \_\_\_\_\_
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      已知 \({\int }_{-\infty }^{+\infty }\left( {\left| x\right| + {ax}}\right) {\mathrm{e}}^{-x}\mathrm{\;d}x = 2\) ，则 \(a\) 的取值范围是\_\_\_\_\_
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 \(f\left( x\right) = {\int }_{1}^{2x}\ln \left( {{t}^{2} - 1}\right) \mathrm{d}t\left( {x > \dfrac{1}{2}}\right)\) ，则当 \(n > 1\) 时， \({f}^{\left( n\right) }\left( x\right) =\) \_\_\_\_\_
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      曲线 \(y = {\mathrm{e}}^{x}\) 的最大曲率是\_\_\_\_\_
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      \({\int }_{-1}^{1}\mathrm{\;d}y{\int }_{-1}^{y}y\sqrt{1 + {x}^{2} - {y}^{2}}\mathrm{\;d}x =\) \_\_\_\_\_
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设矩阵 \(A = \left( \begin{matrix} 1 & - 1 & 0 & 0 \\ 0 & 1 & - 1 & 0 \\ 0 & 0 & 1 & - 1 \\ 0 & 0 & 0 & 1 \end{matrix}\right)\) ,则 \({\left( {A}^{-1}\right) }^{3}\) 的迹为\_\_\_\_\_
+- number: 17
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      求 \(\int \dfrac{2{x}^{2} + {2x} + {13}}{\left( {x - 2}\right) {\left( 1 + {x}^{2}\right) }^{2}}\mathrm{\;d}x\)
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      求 \(f\left( {x,y}\right) = {\mathrm{e}}^{2x}\left( {x + {y}^{2} + {2y}}\right)\) 的极值点与极值
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 \(f\left( x\right)\) 在 \(\left\lbrack {0,2}\right\rbrack\) 上连续,在 \(\left( {0,2}\right)\) 内二阶可导,且 \(\mathop{\lim }\limits_{{x \rightarrow \dfrac{1}{2}}}\dfrac{f\left( x\right) }{\cos {\pi x}} = 0,2{\int }_{\dfrac{1}{2}}^{1}f\left( x\right) \mathrm{d}x = f\left( 2\right)\) . 证明: 存在 \(\xi \in \left( {0,2}\right)\) ,使得 \({f}^{\prime \prime }\left( \xi \right) = 0\)
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 \(f\left( x\right)\) 满足 \({f}^{\prime }\left( x\right) = f\left( \dfrac{2}{x}\right) \left( {x > 0}\right)\) . (1)证明 \({x}^{2}{f}^{\prime \prime }\left( x\right) + {2f}\left( x\right) = 0\left( {x > 0}\right)\) ； (2)令 \(x = {\mathrm{e}}^{t}\) ，化简(1)中方程为常系数线性微分方程，并求 \(f\left( x\right)\)
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设平面区域 \(D\) 由 \(x\) 轴, \(y = x,\sqrt{x} + \sqrt{y} = 1\) 及 \(\sqrt{x} + \sqrt{y} = 2\) 所围成,计算 \({\iint }_{D}\dfrac{{\left( \sqrt{x} + \sqrt{y}\right) }^{4}}{{x}^{2}}\mathrm{\;d}x\mathrm{\;d}y\)。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 \(\mathbf{A} = \left( \begin{array}{lll} 1 & 0 & 0 \\ 1 & 0 & 1 \\ 0 & 1 & 0 \end{array}\right)\) . (1)证明当 \(n \geq 3\) 时， \({\mathbf{A}}^{n} = {\mathbf{A}}^{n - 2} + {\mathbf{A}}^{2} - \mathbf{E}\) . (2)计算 \({\mathbf{A}}^{99}\) 和 \({\mathbf{A}}^{100}\) . (3)若两个 \(n\) 阶矩阵均是非零矩阵，但其乘积是零矩阵，则称这两个 \(n\) 阶矩阵为零因子. 证明 \({\mathbf{A}}^{2} - \mathbf{E}\) 与 \({\mathbf{A}}^{100} - \mathbf{E}\) 是零因子
+content_hash: 14ef8ffdea558f0ea872ec1f548d52d814f4fa4bda25fa12c5a6a1b08fc8754b

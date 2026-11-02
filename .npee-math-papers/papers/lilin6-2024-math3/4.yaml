@@ -1,0 +1,288 @@
+schema_version: '3.0'
+paper:
+  series_key: lilin6
+  year: 2024
+  subject: math3
+  paper_no: 4
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      $f(x)$ 在 $[0,1]$ 上有二阶连续导数, $f(1)=1$, 且满足 $\int_0^1 [2f(x)-x(x-1)f''(x)]\mathrm{d}x=1$. 则 $f(0)=$
+  choices:
+  - label: A
+    text: '0'
+    figures: []
+  - label: B
+    text: '1'
+    figures: []
+  - label: C
+    text: '2'
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{1}{2}.$
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      积分 $I=\int_{\dfrac{\pi}{4}}^{\dfrac{\pi}{2}} d \theta \int_0^{\dfrac{1}{\sin \theta}} f(r) r d r=$
+  choices:
+  - label: A
+    text: |-
+      $\int_0^1 d x \int_0^1 f(\sqrt{x^2+y^2}) d y.$
+    figures: []
+  - label: B
+    text: |-
+      $\int_0^1 d x \int_1^x f(\sqrt{x^2+y^2}) d y.$
+    figures: []
+  - label: C
+    text: |-
+      $\int_0^1 d r \int_{\dfrac{\pi}{4}}^{\dfrac{\pi}{2}} f(r) r d \theta+\int_1^{\sqrt{2}} d r \int_{\dfrac{\pi}{4}}^{\arcsin \dfrac{1}{r}} f(r) r d \theta.$
+    figures: []
+  - label: D
+    text: |-
+      $\int_0^{\sqrt{2}} d r \int_{\arcsin \dfrac{1}{r}}^{\dfrac{\pi}{4}} f(r) d \theta.$
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      若积分 $I=\int_0^{+\infty}\left(\dfrac{1}{\sqrt{x^2+4}}-\dfrac{a}{x+2}\right)\mathrm{d}x$ 收敛，则
+  choices:
+  - label: A
+    text: |-
+      $a=1,I=\ln 4.$
+    figures: []
+  - label: B
+    text: |-
+      $a>1,I=\ln 2.$
+    figures: []
+  - label: C
+    text: |-
+      $a=1,I=\ln 2.$
+    figures: []
+  - label: D
+    text: |-
+      $a<1,I=\ln 4.$
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知 $a_n > 0(n=1,2,\cdots)$, 且 $\sum_{n=1}^{\infty}(-1)^{n-1} a_n$ 条件收敛, $b_n = 2a_{2n-1} - a_{2n}$, 则级数 $\sum_{n=1}^{\infty} b_n$
+  choices:
+  - label: A
+    text: 绝对收敛
+    figures: []
+  - label: B
+    text: 条件收敛
+    figures: []
+  - label: C
+    text: 发散
+    figures: []
+  - label: D
+    text: 敛散性取决于 $a_n$ 的具体形式
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A = \begin{bmatrix} 1 & 1 & 1 & 1 \\ a_1 & a_2 & a_3 & a_4 \\ a_1^2 & a_2^2 & a_3^2 & a_4^2 \end{bmatrix}$，其中 $a_1, a_2, a_3, a_4$ 互不相等，则
+  choices:
+  - label: A
+    text: $A^Tx = 0$ 有非零解
+    figures: []
+  - label: B
+    text: $Ax = 0$ 只有零解
+    figures: []
+  - label: C
+    text: $AA^Tx = 0$ 有非零解
+    figures: []
+  - label: D
+    text: $A^TAx = 0$ 有非零解
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $\alpha_1 = (1,2)^T, \alpha_2 = (a,1)^T, x = (x_1,x_2)^T$. 若二次型 $f(x_1,x_2) = (\alpha_1^T x)^2 + (\alpha_2^T x)^2$ 经可逆线性变换化为 $g(y_1,y_2) = y_1^2 + y_2^2 + 2y_1y_2$, 则 $a=$
+  choices:
+  - label: A
+    text: '0'
+    figures: []
+  - label: B
+    text: '1'
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{1}{2}$
+    figures: []
+  - label: D
+    text: '2'
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A=\begin{bmatrix} 4 & 0 & 0 \\ 0 & 0 & 0 \\ 0 & 0 & 4 \end{bmatrix}, B=\begin{bmatrix} 4 & 1 & 0 \\ 0 & 4 & 1 \\ 0 & 0 & 0 \end{bmatrix}, C=\begin{bmatrix} 2 & 2 & 0 \\ 2 & 2 & 0 \\ 0 & 0 & 2 \end{bmatrix}, D=\begin{bmatrix} 4 & 1 & 0 \\ 0 & 0 & 0 \\ 0 & 0 & 4 \end{bmatrix}$，则以下选项中正确的是
+  choices:
+  - label: A
+    text: $A$ 与 $B$ 合同$,A$ 与 $C$ 相似。
+    figures: []
+  - label: B
+    text: $A$ 与 $C$ 合同$,A$ 与 $D$ 相似。
+    figures: []
+  - label: C
+    text: $A$ 与 $D$ 合同$,A$ 与 $B$ 相似。
+    figures: []
+  - label: D
+    text: $A$ 与 $C$ 合同$,A$ 与 $B$ 相似。
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $X \sim N(\mu,\sigma^2)$, $\Phi(x)$ 为 $N(0,1)$ 的分布函数, 若在 $x=1$ 处, $X$ 的概率密度函数 $f(x)$ 取得最大值 $\dfrac{1}{\sqrt{\pi}}$, 则 $P\{1-\sqrt{2} < x < 1+\sqrt{2}\} =$
+  choices:
+  - label: A
+    text: |-
+      $\Phi(2).$
+    figures: []
+  - label: B
+    text: |-
+      $2\Phi(2) - 1.$
+    figures: []
+  - label: C
+    text: |-
+      $1 - \Phi(2).$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{1}{2}\Phi(2).$
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $X_1, X_2, \cdots, X_n$ 为来自总体 $X$ 的简单随机样本, $X$ 服从参数 $\lambda = \dfrac{1}{2}$ 的泊松分布, $\Phi(x)$ 为 $N(0,1)$ 的分布函数, 则 $\lim\limits_{n\to\infty} P\left\{ \dfrac{2\sum\limits_{i=1}^n X_i - n}{2\sqrt{n}} \leqslant 1 \right\} =$
+  choices:
+  - label: A
+    text: |-
+      $\Phi\left(\dfrac{1}{2}\right).$
+    figures: []
+  - label: B
+    text: |-
+      $\Phi(\sqrt{2}).$
+    figures: []
+  - label: C
+    text: |-
+      $\Phi(\sqrt{3}).$
+    figures: []
+  - label: D
+    text: |-
+      $\Phi(1).$
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $X_1, X_2, X_3$ 为总体 $N(0, \sigma^2)$ 的简单随机样本, 则 $\dfrac{\sqrt{2}(X_1+X_2+X_3)}{\sqrt{3}|X_2-X_3|}$ 服从的分布为
+  choices:
+  - label: A
+    text: |-
+      $\chi^2(1)$
+    figures: []
+  - label: B
+    text: $F(1,1)$
+    figures: []
+  - label: C
+    text: $N(0,1)$
+    figures: []
+  - label: D
+    text: $t(1)$
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $\lim_{x \to +\infty} (\sqrt{ax^2+bx+c}-x-1) = 0\,(a>0)$，则曲线 $y=\sqrt{ax^2+bx+c}\,(x>0)$ 的斜渐近线方程为 $\underline{\qquad\qquad}$
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $f(x) = \ln \dfrac{x}{1+x}$，则 $f^{(n)}(1) = \underline{\hspace{2cm}}$
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      某商品的需求量 $Q$ 对价格的弹性为 $-P\ln 4$, 已知该商品的最大需求量为 1000, 则需求量关于价格的函数为 $Q=\underline{\qquad\qquad}$
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x,y,z)=x^2+2y^2+3z^2-a^2(a>0)$ 满足 $x-2y+3z=6$ 的最小值为 $0$，则 $a=\underline{\hspace{3em}}$。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $A=\begin{bmatrix} 1 & 1 & -1 \\ -1 & 1 & 1 \\ 1 & -1 & 1 \end{bmatrix}$, $3$ 阶矩阵 $B$ 满足 $A^*B=A^{-1}+2B$, 其中 $A^*$ 是 $A$ 的伴随矩阵, 则行列式 $|B|=\_\_\_\_\_\_$
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设随机变量 $X$ 在区间 $(1,2)$ 上服从均匀分布，在 $X=x$ 条件下$,Y$ 服从参数为 $x$ 的指数分布，则 $E(XY)=\underline{\hspace{3em}}.$
+- number: 17
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $f(x)$ 在 $(0, +\infty)$ 内有定义, $f'(1) = 1$, 对任意 $x, y \in (0, +\infty)$, 有 $f(xy) = yf(x) + xf(y)$. (I) 求 $f(x)$; (II) 当 $x \in (0, \mathrm{e}]$ 时, 求 $y = f(x)$, 直线 $x = \mathrm{e}$ 及 $x$ 轴所围面积
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $D=\left\{(x,y) \mid 0 \leqslant x \leqslant 2,0 \leqslant y \leqslant \sqrt{2x-x^2}\right\}$，计算 $I=\iint_D |x+y-2|\mathrm{d}x\mathrm{d}y$
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $f(x)$ 满足 $f'(x) + \dfrac{n}{1-x} f(x) = 2x(1-x)^n, f(0) = 0, n$ 为正整数. (I) 求 $f(x)$; (II) 记 $a_n = \int_0^1 f(x) \mathrm{d}x$, 求级数 $\sum_{n=1}^\infty a_n$ 的和
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $f(x)$ 在 $[a,b](b>a)$ 上有二阶导数，且 $f(a)=f(b)=0,f''(x)<0$，证明：当 $x\in (a,b)$ 时，有 $0<f(x)<\dfrac{2}{b-a}\int_a^b f(x)\mathrm{d}x$
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: 设二次型 $f(x_1,x_2,x_3)=ax_1^2+ax_2^2+(a-1)x_3^2+2x_1x_3-2x_2x_3$（$a$ 为常数）. (I) 求一个正交变换 $X=QY$ 将 $f(x_1,x_2,x_3)$ 化为标准形; (II) 记 $X=(x_1,x_2,x_3)^T$, 求方程 $X^T(aE-A)^2X=0$ 的全部解
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设二维随机变量 $(X,Y)$ 的概率密度为 $f(x,y)=\dfrac{1}{2\pi\sigma^2}\mathrm{e}^{-\dfrac{x^2+y^2}{2\sigma^2}},(x,y)\in \mathbb{R}^2,\sigma>0.$ 记 $Z=X^2+Y^2.$ (I) 求 $Z$ 的概率密度 $f_Z(z)$ 及 $EZ$; (II) 若 $Z_1,Z_2,\cdots,Z_n$ 为来自总体 $Z$ 的简单随机样本, 求 $\sigma^2$ 的最大似然估计量
+content_hash: 98bedb3f19c415e9698820b7c213b39c325b8e93ce1512f9edd78b4eeaefbab0

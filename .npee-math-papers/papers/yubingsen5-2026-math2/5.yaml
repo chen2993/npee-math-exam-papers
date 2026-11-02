@@ -1,0 +1,288 @@
+schema_version: '3.0'
+paper:
+  series_key: yubingsen5
+  year: 2026
+  subject: math2
+  paper_no: 5
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 \(f(x)=\begin{cases}\sin x\cdot\arctan\dfrac{1}{|x|}, &x\ne0, \\0, &x=0, \end{cases}\) 则 \(f(x)\) 在点 \(x=0\) 处( )
+  choices:
+  - label: A
+    text: 不连续
+    figures: []
+  - label: B
+    text: 连续但不可导
+    figures: []
+  - label: C
+    text: |-
+      可导但 \(f'(x)\) 在点 \(x=0\) 处不连续
+    figures: []
+  - label: D
+    text: |-
+      可导且 \(f'(x)\) 在点 \(x=0\) 连续
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设正值函数 \(f(x),g(x)\) 在 \([a,b]\) 上可导，若对任意 \(x\in[a,b]\), \(f'(x)g(x)<f(x)g'(x)\)，则当 \(a<x<b\) 时，有( )
+  choices:
+  - label: A
+    text: |-
+      \(f(x)g(b)>f(b)g(x)\)
+    figures: []
+  - label: B
+    text: |-
+      \(f(x)g(a)>f(a)g(x)\)
+    figures: []
+  - label: C
+    text: |-
+      \(f(x)g(x)>f(a)g(a)\)
+    figures: []
+  - label: D
+    text: |-
+      \(f(x)g(x)>f(b)g(b)\)
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      若将极坐标下的二次积分 \( \int_{\dfrac{\pi}{4}}^{\dfrac{\pi}{3}}\mathrm d\theta\int_{2\sqrt2}^{\dfrac{2}{\cos\theta}} f(r\cos\theta,r\sin\theta)r\,\mathrm dr\) 化为直角坐标系下的二次积分，现有结果： ① \( \int_2^{2\sqrt3}\mathrm dy\int_{\dfrac{y}{\sqrt3}}^{2}f(x,y)\,\mathrm dx\)； ② \( \int_2^{\sqrt6}\mathrm dy\int_{\sqrt{8-y^2}}^{2}f(x,y)\,\mathrm dx+\int_{\sqrt6}^{2\sqrt3}\mathrm dy\int_{\dfrac{y}{\sqrt3}}^{2}f(x,y)\,\mathrm dx\)； ③ \( \int_{\sqrt2}^{2}\mathrm dx\int_{\sqrt{8-x^2}}^{\sqrt3x}f(x,y)\,\mathrm dy\)； ④ \( \int_{\sqrt2}^{2}\mathrm dx\int_{2}^{\sqrt3x}f(x,y)\,\mathrm dy\). 则正确的是( )
+  choices:
+  - label: A
+    text: ① ③
+    figures: []
+  - label: B
+    text: ① ④
+    figures: []
+  - label: C
+    text: ② ③
+    figures: []
+  - label: D
+    text: ② ④
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x)$ 在 $[a,b]$ 上连续，在 $(a,b)$ 内可导，且 $f'_+(a)0$。现有命题： ① $\exists x_0\in(a,b)$，使得 $f(x_0)f(b)$； ③ $\exists x_0\in(a,b)$，使得 $f'(x_0)=0$； ④ $\exists x_0\in(a,b)$，使得 $f(x_0)=\dfrac{1}{3}[f(a)+2f(b)]$。 那么上述命题中正确的个数是（ ）。
+  choices:
+  - label: A
+    text: '1'
+    figures: []
+  - label: B
+    text: '2'
+    figures: []
+  - label: C
+    text: '3'
+    figures: []
+  - label: D
+    text: '4'
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 \( f(x)=\int_0^x\sin^n t\,\mathrm dt\), \(n\) 是正整数，关于 \(f(x)\) 有结论： ① 当 \(n\) 为偶数时，\(f(x)\) 必为有界函数； ② 当 \(n\) 为偶数时，\(f(x)\) 必为周期函数； ③ 当 \(n\) 为奇数时，\(f(x)\) 必为有界函数； ④ 当 \(n\) 为奇数时，\(f(x)\) 必为周期函数. 以上四个结论中正确结论的个数是( )
+  choices:
+  - label: A
+    text: '1'
+    figures: []
+  - label: B
+    text: '2'
+    figures: []
+  - label: C
+    text: '3'
+    figures: []
+  - label: D
+    text: '4'
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 \(\varphi(x,y)\ne0\) 且具有一阶连续偏导数，函数 \(u(x,y)\) 的全微分 \(du=\dfrac{y\,\mathrm dx+x\,\mathrm dy}{\varphi(x,y)}\)，则下列等式成立的是( )
+  choices:
+  - label: A
+    text: |-
+      \(x\varphi'_y(x,y)=y\varphi'_x(x,y)\)
+    figures: []
+  - label: B
+    text: |-
+      \(x\varphi'_y(x,y)=-y\varphi'_x(x,y)\)
+    figures: []
+  - label: C
+    text: |-
+      \(x\varphi'_x(x,y)=y\varphi'_y(x,y)\)
+    figures: []
+  - label: D
+    text: |-
+      \(x\varphi'_x(x,y)=-y\varphi'_y(x,y)\)
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      曲线 \(y=\dfrac{(1+x)e^x}{e^x-1}\) 的渐近线条数为( )
+  choices:
+  - label: A
+    text: '1'
+    figures: []
+  - label: B
+    text: '2'
+    figures: []
+  - label: C
+    text: '3'
+    figures: []
+  - label: D
+    text: '4'
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设多项式 \(f(x)=\begin{vmatrix}1&1&1\\2-x&3-2x&4-3x\\4-x^2&9-4x^2&16-9x^2\end{vmatrix}\)，则( )
+  choices:
+  - label: A
+    text: |-
+      存在实数 \(q\in(-1,1)\), 使得 \(f(q)=0\)
+    figures: []
+  - label: B
+    text: |-
+      存在实数 \(q\in(-1,1)\), 使得 \(f'(q)=0\)
+    figures: []
+  - label: C
+    text: |-
+      对任意实数 \(q\in(-1,1)\), 均有 \(f(q)=0\)
+    figures: []
+  - label: D
+    text: |-
+      对任意实数 \(q\in(-1,1)\), 均有 \(f'(q)=0\)
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 \(A\) 为三阶可逆矩阵，将 \(A\) 的第一、二列交换得到矩阵 \(B\), \(A^*,B^*\) 分别为 \(A,B\) 的伴随矩阵，则( )
+  choices:
+  - label: A
+    text: |-
+      将 \(A^*\) 的第一、二行交换得到 \(B^*\)
+    figures: []
+  - label: B
+    text: |-
+      将 \(A^*\) 的第一、二行交换得到 \(-B^*\)
+    figures: []
+  - label: C
+    text: |-
+      将 \(A^*\) 的第一、二列交换得到 \(B^*\)
+    figures: []
+  - label: D
+    text: |-
+      将 \(A^*\) 的第一、二列交换得到 \(-B^*\)
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设三阶矩阵 \(A\) 有特征值 \(\lambda_1=\lambda_2=-1, \lambda_3=2\)，且 \(A\) 不能相似于对角矩阵，则 \(r(A+E)+r(A-E)+r(A-2E)=\)( )
+  choices:
+  - label: A
+    text: '3'
+    figures: []
+  - label: B
+    text: '4'
+    figures: []
+  - label: C
+    text: '6'
+    figures: []
+  - label: D
+    text: '7'
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      曲线 \(y=e^x\) 上曲率半径最小的点为 \((x,y)=\)_____
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设连续函数 \(f(x)=\begin{cases}ax+1, &x\ge0, \\a-e^x, &x<0,\end{cases}\) 其中 \(a\) 为常数，则 \(\int f(\ln x)\,dx=\)_____
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设函数 \(u=u(x,y)\) 具有二阶连续偏导数且满足 \(\dfrac{\partial^2u}{\partial x^2}=\dfrac{\partial^2u}{\partial y^2}\)，且 \(u(x,3x)=x\), \(u'_1(x,3x)=x^2\)，则 \(u''_{11}(x,3x)=\)_____
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      \( \lim\limits_{t\to0^+}\dfrac{1}{t^3}\int_0^{\dfrac{\pi}{4}}\mathrm d\theta\int_0^{\dfrac{t}{\cos\theta}}\dfrac{\sin(r^2\sin\theta\cos\theta)}{\sin\theta}\,\mathrm dr=\)_____
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设函数 \(f(x)=\begin{cases}-(x+2)^3, &x1, \end{cases}\) 则 \(f(x)\) 的极值点为_____
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 \(\alpha_1, \alpha_2, \alpha_3\) 是两两正交的单位列向量，若 \(\xi=\alpha_1-\alpha_2+\alpha_3\) 与 \(\eta=a\alpha_1+b\alpha_2-c\alpha_3\) 正交，则常数 \(a,b,c\) 应满足的条件是_____
+- number: 17
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设当 \(x\in[0, \dfrac{\pi}{2}]\) 时，有 \(ax+b\ge\sin x\)，其中 \(a,b\) 均为常数. \(D\) 为曲线 \(y=\sin x\) 与直线 \(y=ax+b,x=0,x=\dfrac{\pi}{2}\) 所围成的平面图形. (1) 求 \(a\) 和 \(b\) 的值，使得 \(D\) 的面积最小； (2) 在 \(D\) 的面积最小时，求将 \(D\) 绕 \(y\) 轴旋转一周所得旋转体的体积 \(V\)
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 \(y=y(x)\) 由方程 \(y^3(x+y)=2x^3\) 所确定. (1) 令 \(u=\dfrac{x}{y}\)，写出 \(y=y(x)\) 的参数方程； (2) 求 \( \int\dfrac{1}{y^3}\,\mathrm dx\)
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 \(f(x)\) 连续，且 \( f(x)=x^2+x\int_0^{x^2}f(x^2-t)\,\mathrm dt+\iint_D f(xy)\,\mathrm dx\,\mathrm dy\)，其中 \(D\) 为以 \(A(1, -1),B(-1,1),C(1,1)\) 为顶点的三角区域，若 \(f(1)=0\). (1) 求 \( \int_0^1f(x)\,\mathrm dx+\iint_Df(xy)\,\mathrm dx\,\mathrm dy\) 的值； (2) 求 \( \int_0^1f(x)\,\mathrm dx\) 的值
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 \(f(x)\) 具有一阶连续导数，且 \(f(0)f'(0)\ne0\). (1) 证明：当 \(x\to0\) 时，\( \int_0^x f(t)\,\mathrm dt\sim f(0)x\)； (2) 求 \( \lim\limits_{x\to0}\left[\dfrac{1}{\int_0^x f(t)\,\mathrm dt}-\dfrac{1}{xf(0)}\right]\)； (3) 当 \(x\ne0\) 时，证明 \( \int_0^x f(t)\,\mathrm dt=xf(\xi)\)，其中 \(\xi\) 介于 \(x\) 与 0 之间，并求 \( \lim\limits_{x\to0}\dfrac{\xi}{x}\)
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 \(f(x,y)\) 在第一象限内二阶可偏导，且 \(\dfrac{\partial^2 f}{\partial x^2}+\dfrac{\partial^2 f}{\partial y^2}=0\). 如果在极坐标变换下，\(\dfrac{\partial f}{\partial r}=0\)，求 \(f(x,y)\) 的表达式
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设三阶实矩阵 \(A\) 满足 \(A^2-A-2E=O\)，且 \(|A|=2\). (1) 证明 \(A\) 可以相似对角化； (2) 如果 \(A\) 为实对称矩阵，且 \(\xi=(1,1, -1)^T\) 是齐次线性方程组 \((A-2E)x=0\) 的一个解，求一个对称矩阵 \(B\) 使得 \(B^2=A+E\)
+content_hash: 89770398cc41eaa92aad95865c5811608dcf59de507930d4be9ada73a9f302a3

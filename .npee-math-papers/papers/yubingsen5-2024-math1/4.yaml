@@ -4,22 +4,21 @@ paper:
   year: 2024
   subject: math1
   paper_no: 4
-content_hash: 0f13aa814b9874395d05980eab91797e0d4a5260a841e6c4fdc2eb4637b64b71
 questions:
 - number: 1
   section: choice
   points: 5
   stem:
     text: |-
-      设 $\alpha>0,\beta\neq0$，且 $\displaystyle\lim_{x\to+\infty}\left[(x^{2\alpha}+x^\alpha)^{1/\alpha}-x^2\right]=\beta$，则 $(\alpha,\beta)=$\ExamSelection。
+      设 $\alpha>0, \beta \neq 0$, 且 $\lim\limits_{x \to +\infty} \left[ (x^{2\alpha}+x^\alpha)^{\dfrac{1}{\alpha}}-x^2 \right] = \beta$, 则 $(\alpha,\beta) = (\quad)$
   choices:
   - label: A
     text: |-
-      $\left(1,\dfrac12\right)$
+      $\left(1, \dfrac{1}{2}\right)$
     figures: []
   - label: B
     text: |-
-      $\left(2,\dfrac12\right)$
+      $\left(2, \dfrac{1}{2}\right)$
     figures: []
   - label: C
     text: $(1,2)$
@@ -32,7 +31,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设函数 $f(x)$ 具有四阶连续的导数，且 $\displaystyle\lim_{x\to0}\dfrac{f(x)}{x^4}=1$，则\ExamSelection。
+      设函数 $f(x)$ 具有四阶连续的导数，且 $\lim_{x \to 0} \dfrac{f(x)}{x^4} = 1$，则 ( )
   choices:
   - label: A
     text: 点 $(0,0)$ 为曲线 $y=f'(x)$ 的拐点，点 $x=0$ 为 $f''(x)$ 的极小值点
@@ -51,16 +50,16 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $a>1$，曲线 $y=\ln(1+x^2)$ 与直线 $y=ax+b$\ExamSelection。
+      设 $a>1$，曲线 $y=\ln(1+x^2)$ 与直线 $y=ax+b$（\quad）。
   choices:
   - label: A
     text: 没有交点
     figures: []
   - label: B
-    text: 交点个数为 $1$
+    text: 交点个数为 1
     figures: []
   - label: C
-    text: 交点个数为 $2$
+    text: 交点个数为 2
     figures: []
   - label: D
     text: 交点个数与 $b$ 有关
@@ -70,49 +69,49 @@ questions:
   points: 5
   stem:
     text: |-
-      设曲面 $\Sigma: \dfrac{x^2}{3^2}+\dfrac{y^2}{4^2}+\dfrac{z^2}{5^2}=1,z\geq0$，并取上侧，则不等于零的积分为\ExamSelection。
+      设曲面 $\Sigma:\dfrac{x^2}{3^2}+\dfrac{y^2}{4^2}+\dfrac{z^2}{5^2}=1,z\geqslant 0$, 并取上侧, 则不等于零的积分为( )
   choices:
   - label: A
     text: |-
-      $\displaystyle\iint_{\Sigma}x^2\,\mathrm{d}y\,\mathrm{d}z$
+      $\iint_{\Sigma} x^2\mathrm{d}y\mathrm{d}z$
     figures: []
   - label: B
     text: |-
-      $\displaystyle\iint_{\Sigma}x\,\mathrm{d}y\,\mathrm{d}z$
+      $\iint_{\Sigma} x\mathrm{d}y\mathrm{d}z$
     figures: []
   - label: C
     text: |-
-      $\displaystyle\iint_{\Sigma}z^2\,\mathrm{d}z\,\mathrm{d}x$
+      $\iint_{\Sigma} z^2\mathrm{d}z\mathrm{d}x$
     figures: []
   - label: D
     text: |-
-      $\displaystyle\iint_{\Sigma}z\,\mathrm{d}z\,\mathrm{d}x$
+      $\iint_{\Sigma} z\mathrm{d}z\mathrm{d}x$
     figures: []
 - number: 5
   section: choice
   points: 5
   stem:
     text: |-
-      设矩阵 $A_{m\times n},B_{m\times s},C_{n\times s}$ 满足 $AC=B$，以下命题中正确的是\ExamSelection。
+      设矩阵 $A_{m \times n}, B_{m \times s}, C_{n \times s}$ 满足 $A C=B$, 以下命题中正确的是( )
   choices:
   - label: A
-    text: 如果矩阵 $C$ 的列向量组线性无关，则矩阵 $B$ 的列向量组一定线性无关
+    text: 如果矩阵 $C$ 的列向量组线性无关, 则矩阵 $B$ 的列向量组一定线性无关
     figures: []
   - label: B
-    text: 如果矩阵 $C$ 的行向量组线性无关，则矩阵 $B$ 的行向量组一定线性无关
+    text: 如果矩阵 $C$ 的行向量组线性无关, 则矩阵 $B$ 的行向量组一定线性无关
     figures: []
   - label: C
-    text: 如果矩阵 $B$ 的列向量组线性无关，则矩阵 $C$ 的列向量组一定线性无关
+    text: 如果矩阵 $B$ 的列向量组线性无关, 则矩阵 $C$ 的列向量组一定线性无关
     figures: []
   - label: D
-    text: 如果矩阵 $B$ 的行向量组线性无关，则矩阵 $C$ 的行向量组一定线性无关
+    text: 如果矩阵 $B$ 的行向量组线性无关, 则矩阵 $C$ 的行向量组一定线性无关
     figures: []
 - number: 6
   section: choice
   points: 5
   stem:
     text: |-
-      设二次型 $f(x_1,x_2,\ldots,x_n)=\displaystyle\sum_{i=1}^{m}(a_{i1}x_1+a_{i2}x_2+\cdots+a_{in}x_n)^2$，其中 $a_{ij}\in\mathbb R$，$i=1,2,\ldots,m$；$j=1,2,\ldots,n$，$A=(a_{ij})_{m\times n}$，则二次型 $f$ 的秩为\ExamSelection。
+      设二次型 $f\left(x_{1}, x_{2}, \cdots, x_{n}\right)=\sum_{i=1}^{m}\left(a_{i 1} x_{1}+a_{i 2} x_{2}+\cdots+a_{i n} x_{n}\right)^{2}$，其中 $a_{i j} \in R, i=1,2, \cdots, m ; j=1,2, \cdots, n, A=\left(a_{i j}\right)_{m \times n}$，则二次型 $f$ 的秩为 ( )
   choices:
   - label: A
     text: $m$
@@ -131,51 +130,47 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $A$ 为 $m\times n$ 型实矩阵，$r(A)=n$，则\ExamSelection。
+      设 $A$ 为 $m\times n$ 型实矩阵, $r(A)=n$, 则 ( )
   choices:
   - label: A
-    text: |-
-      $AA^{\mathsf T}$ 相似于 $m$ 阶单位矩阵 $E_m$
+    text: $AA^T$ 相似于 $m$ 阶单位矩阵 $E_m$
     figures: []
   - label: B
-    text: |-
-      $AA^{\mathsf T}$ 合同于 $m$ 阶单位矩阵 $E_m$
+    text: $AA^T$ 合同于 $m$ 阶单位矩阵 $E_m$
     figures: []
   - label: C
-    text: |-
-      $A^{\mathsf T}A$ 相似于 $n$ 阶单位矩阵 $E_n$
+    text: $A^TA$ 相似于 $n$ 阶单位矩阵 $E_n$
     figures: []
   - label: D
-    text: |-
-      $A^{\mathsf T}A$ 合同于 $n$ 阶单位矩阵 $E_n$
+    text: $A^TA$ 合同于 $n$ 阶单位矩阵 $E_n$
     figures: []
 - number: 8
   section: choice
   points: 5
   stem:
     text: |-
-      设随机变量 $X\sim B(1,0.5),Y\sim B(1,0.5)$，$P\{X+Y=1\}\neq0$，则 $P\{X=1\mid X+Y=1\}=$\ExamSelection。
+      设随机变量 $X \sim B(1, 0.5), Y \sim B(1, 0.5), P\{X + Y = 1\} \neq 0$, 则 $P\{X = 1 \mid X + Y = 1\} = (\quad)$
   choices:
   - label: A
-    text: $0$
+    text: '0'
     figures: []
   - label: B
     text: |-
-      $\dfrac14$
+      $\dfrac{1}{4}$
     figures: []
   - label: C
     text: |-
-      $\dfrac12$
+      $\dfrac{1}{2}$
     figures: []
   - label: D
-    text: $1$
+    text: '1'
     figures: []
 - number: 9
   section: choice
   points: 5
   stem:
     text: |-
-      设随机变量 $X\sim N(0,1)$，$\Phi(z)$ 为 $X$ 的分布函数，$Y=\begin{cases}0,&X<0,\\1,&X\geq0,\end{cases}$，则 $Z=XY$ 的分布函数为\ExamSelection。
+      设随机变量 $X\sim N(0,1)$, $\Phi(z)$ 为 $X$ 的分布函数, $Y=\begin{cases} 0, & X<0, \\ 1, & X\geqslant 0, \end{cases}$ 则 $Z=XY$ 的分布函数为(\quad)
   choices:
   - label: A
     text: |-
@@ -183,125 +178,109 @@ questions:
     figures: []
   - label: B
     text: |-
-      $F_Z(z)=\begin{cases}0,&z<0,\\1,&z\geq0\end{cases}$
+      $F_Z(z)=\begin{cases} 0, & z<0, \\ 1, & z\geqslant 0 \end{cases}$
     figures: []
   - label: C
     text: |-
-      $F_Z(z)=\begin{cases}0,&z<0,\\\Phi(z),&z\geq0\end{cases}$
+      $F_Z(z)=\begin{cases} 0, & z<0, \\ \Phi(z), & z\geqslant 0 \end{cases}$
     figures: []
   - label: D
     text: |-
-      $F_Z(z)=\begin{cases}0.5\Phi(z),&z<0,\\0.5+0.5\Phi(z),&z\geq0\end{cases}$
+      $F_Z(z)=\begin{cases} 0.5\Phi(z), & z<0, \\ 0.5+0.5\Phi(z), & z\geqslant 0 \end{cases}$
     figures: []
 - number: 10
   section: choice
   points: 5
   stem:
     text: |-
-      某人打靶环数 $N$ 有三种结果：$A_1:8<N\leq10,A_2:5<N\leq8,A_3:0\leq N\leq5$，且三种结果发生的概率分别为 $\dfrac12,\dfrac13,\dfrac16$，独立重复打靶 $3$ 次，$X$ 表示 $3$ 次打靶中结果 $A_1$ 发生的次数，$Y$ 表示 $3$ 次打靶中结果 $A_2$ 发生的次数，则 $X$ 与 $Y$ 的相关系数为\ExamSelection。
+      某人打靶环数 $N$ 有三种结果:$A_1:8<N\leqslant 10,A_2:5<N\leqslant 8,A_3:0\leqslant N\leqslant 5$,且三种结果发生的概率分别为 $\dfrac{1}{2}$, $\dfrac{1}{3},\dfrac{1}{6}$, 独立重复打靶 3 次,$X$ 表示 3 次打靶中结果 $A_1$ 发生的次数,$Y$ 表示 3 次打靶中结果 $A_2$ 发生的次数, 则 $X$ 与 $Y$ 的相关系数为( )
   choices:
   - label: A
     text: |-
-      $-\dfrac23$
+      $-\dfrac{2}{3}$
     figures: []
   - label: B
     text: |-
-      $\dfrac{\sqrt2}{2}$
+      $\dfrac{\sqrt{2}}{2}$
     figures: []
   - label: C
     text: |-
-      $-\dfrac{\sqrt2}{2}$
+      $-\dfrac{\sqrt{2}}{2}$
     figures: []
   - label: D
     text: |-
-      $-\dfrac12$
+      $-\dfrac{1}{2}$
     figures: []
 - number: 11
   section: fill
   points: 5
   stem:
     text: |-
-      $\displaystyle\lim_{x\to0}\left[\dfrac1{\ln(1+x)}-\dfrac1{\ln\left(x+\sqrt{1+x^2}\right)}\right]=$ \ExamBlank。
+      $\lim_{x \to 0}\left[ \dfrac{1}{\ln(1+x)} - \dfrac{1}{\ln(x+\sqrt{1+x^2})} \right] = \underline{\quad\quad\quad\quad\quad}.$
 - number: 12
   section: fill
   points: 5
   stem:
     text: |-
-      若 $(x^2+y'^2)y''=2xy'$，$y(1)=y'(1)=1$，则 $y=$ \ExamBlank。
+      若 $(x^2+y'^2)y''=2xy'$ $,y(1)=y'(1)=1$，则 $y=\underline{\qquad\qquad\quad}$。
 - number: 13
   section: fill
   points: 5
   stem:
     text: |-
-      设曲线 $C:x^2+xy+y^2=1$ 的周长为 $l$，$a,b$ 为常数，则 $\displaystyle\oint_C\dfrac{\sin\mathrm e^x+3\sin\mathrm e^y}{\sin\mathrm e^x+\sin\mathrm e^y}\,\mathrm{d}s=$ \ExamBlank。
+      设曲线 $C:x^2+xy+y^2=1$ 的周长为 $l,a,b$ 为常数，则 $\oint_C \dfrac{\sin \mathrm{e}^x+3\sin \mathrm{e}^y}{\sin \mathrm{e}^x+\sin \mathrm{e}^y} ds = \underline{\hspace{2.5cm}}.$
 - number: 14
   section: fill
   points: 5
   stem:
     text: |-
-      设 $y=\dfrac{x-5}{x^2-1}$，则 $y^{(2024)}(0)=$ \ExamBlank。
+      设 $y=\dfrac{x-5}{x^2-1}$，则 $y^{(2024)}(0)=$________
 - number: 15
   section: fill
   points: 5
   stem:
     text: |-
-      若齐次线性方程组 $\begin{cases}x_1+x_2+x_4=0,\\ax_1+a^2x_3=0,\\ax_2+a^2x_4=0\end{cases}$ 的解都是方程 $x_1+x_2+x_3=0$ 的解，则 $a=$ \ExamBlank。
+      若齐次线性方程组 $\begin{cases} x_1+x_2+x_4=0, \\ ax_1+a^2x_3=0, \\ ax_2+a^2x_4=0 \end{cases}$ 的解都是方程 $x_1+x_2+x_3=0$ 的解，则 $a=\underline{\hspace{2cm}}$
 - number: 16
   section: fill
   points: 5
   stem:
     text: |-
-      设总体 $X\sim N(0,1)$，$X_1,X_2,\cdots,X_n$ 是来自总体 $X$ 的简单随机样本（其中 $n\geq2$），$\overline X$ 为样本均值，$S^2$ 为样本方差，则 $D(\overline X S^2)=$ \ExamBlank。
+      设总体 $X \sim N(0,1), X_1, X_2, \cdots, X_n$ 是来自总体 $X$ 的简单随机样本 (其中 $n \geqslant 2$), $\overline{X}$ 为样本均值, $S^2$ 为样本方差, 则 $D(\overline{X}S^2) = \underline{\qquad\qquad}.$
 - number: 17
   section: solution
-  points: 10
+  points: 12
   stem:
     text: |-
-      设函数 $y(x)$（$x\geq0$）由方程 $y^3+xy-8=0$ 确定，求曲线 $y=y(x)$ 与直线 $x=7$ 以及两个坐标轴所围曲边梯形绕 $x$ 轴旋转一周所得旋转体的体积 $V$。
+      设函数 $y(x)(x\geqslant 0)$ 由方程 $y^3+xy-8=0$ 确定, 求曲线 $y=y(x)$ 与直线 $x=7$ 以及两个坐标轴所围曲边梯形绕 $x$ 轴旋转一周所得旋转体的体积 $V$
 - number: 18
   section: solution
   points: 12
   stem:
     text: |-
-      设函数 $f(x)$ 在 $(-\infty,+\infty)$ 上连续，且满足 $f(x)=\sin x+\displaystyle\int_0^x t\cdot f(x-t)\,\mathrm{d}t$。
-  subparts:
-  - text: 求 $f(x)$。
-  - text: |-
-      讨论 $\displaystyle\sum_{n=1}^{\infty}(-1)^nf\left(\dfrac1n\right)$ 的敛散性。
+      设函数 $f(x)$ 在 $(-\infty, +\infty)$ 上连续, 且满足 $f(x)=\sin x+\int_0^x t \cdot f(x-t) d t$, (1) 求 $f(x)$; (2) 讨论 $\sum_{n=1}^\infty(-1)^n f\left(\dfrac{1}{n}\right)$ 的敛散性
 - number: 19
   section: solution
   points: 12
   stem:
     text: |-
-      已知函数 $z=z(x,y)$ 由方程 $x^2-xy+2y^2-x-3y+z\mathrm e^z=2(\mathrm e^2-1)$ 确定，求 $z=z(x,y)$ 的极值。
+      已知函数 $z=z(x,y)$ 由方程 $x^2-xy+2y^2-x-3y+z\mathrm{e}^z=2(\mathrm{e}^2-1)$ 确定，求 $z=z(x,y)$ 的极值
 - number: 20
   section: solution
   points: 12
   stem:
     text: |-
-      设 $y=f(x)$ 在 $[0,1]$ 上非负可导，$x_0\in(0,1)$，且在 $[0,x_0]$ 上以 $f(x_0)$ 为高的矩形面积等于函数 $f(x)$ 在 $[x_0,1]$ 上的平均值。证明：
-  subparts:
-  - text: |-
-      存在点 $\xi\in(x_0,1)$，使得 $f(\xi)=x_0f(x_0)$。
-  - text: |-
-      对于（1）中的 $\xi$，存在 $\eta\in(0,1)$ 使得 $(\xi-x_0)f'(\eta)=(x_0-1)f(x_0)$。
+      设 $y=f(x)$ 在 $[0,1]$ 上非负可导, $x_0 \in (0,1)$, 且在 $[0,x_0]$ 上以 $f(x_0)$ 为高的矩形面积等于函数 $f(x)$ 在 $[x_0,1]$ 上的平均值.试证明: (1) 存在点 $\xi \in (x_0,1)$, 使得 $f(\xi)=x_0 f(x_0)$; (2) 对于 (1) 中的 $\xi$, 存在 $\eta \in (0,1)$ 使得 $(\xi-x_0) f'(\eta)=(x_0-1) f(x_0)$
 - number: 21
   section: solution
   points: 12
   stem:
     text: |-
-      设有向量组 (I) $\boldsymbol{\alpha}_1=(1,0,1)^{\mathsf T},\boldsymbol{\alpha}_2=(1,1,2)^{\mathsf T},\boldsymbol{\alpha}_3=(1,2,a)^{\mathsf T}$，(II) $\boldsymbol{\beta}_1=(-1,2,1)^{\mathsf T},\boldsymbol{\beta}_2=(1,0,b)^{\mathsf T}$。
-  subparts:
-  - text: 问 $a,b$ 为何值时，向量组 (II) 不能由向量组 (I) 线性表示？
-  - text: |-
-      设 $A=\begin{pmatrix}1&1&1\\0&1&2\\1&2&a\end{pmatrix},B=\begin{pmatrix}-1&1\\2&0\\1&b\end{pmatrix}$，问 $a,b$ 为何值时，矩阵方程 $AX=B$ 有解，有解时求出其全部解。
+      设有向量组 $(I)\ \alpha_1=\begin{pmatrix} 1 \\ 0 \\ 1 \end{pmatrix},\alpha_2=\begin{pmatrix} 1 \\ 1 \\ 2 \end{pmatrix},\alpha_3=\begin{pmatrix} 1 \\ 2 \\ a \end{pmatrix},(II)\ \beta_1=\begin{pmatrix} -1 \\ 2 \\ 1 \end{pmatrix},\beta_2=\begin{pmatrix} 1 \\ 0 \\ b \end{pmatrix}.$ (1) 问 $a, b$ 为何值时，向量组 $(II)$ 不能由向量组 $(I)$ 线性表示？ (2) 设 $A=\begin{pmatrix} 1 & 1 & 1 \\ 0 & 1 & 2 \\ 1 & 2 & a \end{pmatrix}, B=\begin{pmatrix} -1 & 1 \\ 2 & 0 \\ 1 & b \end{pmatrix}$，问 $a,b$ 为何值时，矩阵方程 $AX=B$ 有解，有解时，求出其全部解
 - number: 22
   section: solution
   points: 12
   stem:
-    text: 设 $(X,Y)$ 在 $D:0<x<1,0<y<x^2$ 内服从均匀分布。
-  subparts:
-  - text: |-
-      求 $P\left\{Y<\dfrac16\middle|X=\dfrac12\right\}$。
-  - text: |-
-      令 $U=X,V=\dfrac{Y}{X^2}$，求 $(U,V)$ 的密度函数 $f_{UV}(u,v)$，并问 $U$ 和 $V$ 是否相互独立？
+    text: |-
+      设 $(X,Y)$ 在 $D:0<x<1,0<y<x^2$ 内服从均匀分布. (1) 求 $P\left\{Y<\dfrac{1}{6}\middle| X=\dfrac{1}{2}\right\}$; (2) 令 $U=X,V=\dfrac{Y}{X^2}$, 求 $(U,V)$ 的密度函数 $f_{UV}(u,v)$, 并问 $U$ 和 $V$ 是否相互独立?
+content_hash: 8842927cc81314a60bc3de1d6fcf7a9fbdf08bf8f7ca2eb69b7f52d59d4621be

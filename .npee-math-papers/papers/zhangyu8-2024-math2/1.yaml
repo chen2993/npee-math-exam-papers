@@ -10,136 +10,124 @@ questions:
   points: 5
   stem:
     text: |-
-      已知 $x=0$ 是函数 $f(x)=\dfrac{\int_0^x e^{t^2}\,\mathrm{d}t+ax}{x-b\sin x}$ 的第一类间断点，则 $(a,b)$ 取值不可以是\ExamSelection
+      已知 $x=0$ 是函数 $f(x)=\dfrac{\int_{0}^{x} \mathrm{e}^{t^2} \mathrm{d}t + ax}{x-b\sin x}$ 的第一类间断点，则 $(a,b)$ 取值不可以是
   choices:
   - label: A
-    text: $(1,1)$
+    text: (1,1)
     figures: []
   - label: B
-    text: $(-1,1)$
+    text: (-1,1)
     figures: []
   - label: C
-    text: $(1,-1)$
+    text: (1,-1)
     figures: []
   - label: D
-    text: $(-1,-1)$
+    text: (-1,-1)
     figures: []
 - number: 2
   section: choice
   points: 5
   stem:
     text: |-
-      甲、乙两人赛跑，图中实线和虚线分别为甲和乙的速度曲线（单位：$\mathrm{m/s}$），三块阴影部分面积依次为 $15,20,10$，且当 $t=0$ 时，甲在乙前面 $10\ \mathrm{m}$ 处，则在 $[0,t_3]$ 上，甲、乙相遇的次数为\ExamSelection
-    figures:
-    - kind: tikz
-      latex: |-
-        \begin{tikzpicture}[x=0.85cm,y=0.85cm,line cap=round,line join=round]\draw[->] (-0.2,0)--(7.3,0) node[right] {$t(\mathrm{s})$};\draw[->] (0,-0.25)--(0,3.35) node[above] {$v(\mathrm{m/s})$};\node[below left] at (0,0) {$O$};\fill[gray!35] (0,2.45)..controls (0.6,2.35) and (1.1,2.05)..(1.6,1.65)..controls (1.05,1.35) and (0.55,1.25)..(0,1.35)--cycle;\fill[gray!35] (1.6,1.65)..controls (2.6,2.65) and (3.7,3.00)..(5.3,1.65)..controls (3.9,0.75) and (2.7,0.85)..(1.6,1.65)--cycle;\fill[gray!35] (5.3,1.65)..controls (5.9,2.15) and (6.5,2.30)..(6.9,2.20)--(6.9,1.10)..controls (6.25,1.15) and (5.75,1.30)..(5.3,1.65)--cycle;\draw[thick] (0,1.35)..controls (0.55,1.25) and (1.05,1.35)..(1.6,1.65)..controls (2.6,2.65) and (3.7,3.00)..(5.3,1.65)..controls (5.75,1.30) and (6.25,1.15)..(6.9,1.10);\draw[thick,dashed] (0,2.45)..controls (0.6,2.35) and (1.1,2.05)..(1.6,1.65)..controls (2.6,0.75) and (3.9,0.75)..(5.3,1.65)..controls (5.9,2.15) and (6.5,2.30)..(6.9,2.20);\foreach \x/\lab in {1.6/t_1,5.3/t_2}{\draw[dashed] (\x,0)--(\x,1.65);\node[below] at (\x,0) {$\lab$};}\draw[dashed] (6.9,0)--(6.9,2.20);\node[below] at (6.9,0) {$t_3$};\node at (0.65,2.75) {$15$};\node at (3.4,2.95) {$20$};\node at (6.35,2.65) {$10$};\end{tikzpicture}
-      path:
-      description: 甲、乙两人的速度曲线及三块阴影面积
-      exception_reason:
+      甲、乙两人赛跑，图中实线和虚线分别为甲和乙的速度曲线（单位$:\text{m/s}$），三块阴影部分面积依次为 $15,20,10$，且当 $t=0$ 时，甲在乙前面 $10\text{ m}$ 处，则在 $[0,t_3]$ 上，甲、乙相遇的次数为
   choices:
   - label: A
-    text: $1$
+    text: '1'
     figures: []
   - label: B
-    text: $2$
+    text: '2'
     figures: []
   - label: C
-    text: $3$
+    text: '3'
     figures: []
   - label: D
-    text: $4$
+    text: '4'
     figures: []
 - number: 3
   section: choice
   points: 5
   stem:
     text: |-
-      已知 $\int_1^{+\infty}\dfrac{1}{x^a+x^b}\,\mathrm{d}x$ 收敛，且 $a>b$，则\ExamSelection
+      已知 $\int_1^{+\infty} \dfrac{1}{x^a+x^b} \mathrm{d}x$ 收敛，且 $a>b$，则
   choices:
   - label: A
     text: |-
-      $a\leqslant 1$
+      $a \leqslant 1.$
     figures: []
   - label: B
     text: |-
-      $b\leqslant 1$
+      $b \leqslant 1.$
     figures: []
   - label: C
-    text: $a>1$
+    text: $a>1.$
     figures: []
   - label: D
-    text: $b>1$
+    text: $b>1.$
     figures: []
 - number: 4
   section: choice
   points: 5
   stem:
     text: |-
-      设函数 $f(x,y)$ 具有二阶连续偏导数，且在点 $(x_0,y_0)$ 处取极大值，记 $a=\left.\dfrac{\partial^2 f}{\partial x^2}\right|_{(x_0,y_0)}$，$b=\left.\dfrac{\partial^2 f}{\partial y^2}\right|_{(x_0,y_0)}$，则\ExamSelection
+      设函数 $f(x,y)$ 具有二阶连续偏导数, 且在点 $(x_0,y_0)$ 处取极大值, 记 $a=\left.\dfrac{\partial^2 f}{\partial x^2}\right|_{(x_0,y_0)}, b=\left.\dfrac{\partial^2 f}{\partial y^2}\right|_{(x_0,y_0)}$, 则
   choices:
   - label: A
-    text: $a>0,b>0$
+    text: $a>0, b>0.$
     figures: []
   - label: B
     text: |-
-      $a\geqslant 0,b\geqslant 0$
+      $a\geqslant 0, b\geqslant 0.$
     figures: []
   - label: C
-    text: $a<0,b<0$
+    text: $a<0, b<0.$
     figures: []
   - label: D
     text: |-
-      $a\leqslant 0,b\leqslant 0$
+      $a\leqslant 0, b\leqslant 0.$
     figures: []
 - number: 5
   section: choice
   points: 5
   stem:
     text: |-
-      设 $f(x)$ 是可导函数，且 $f(1+x)+2f(1-x)=\int_0^x(1+t)^{\dfrac{1}{t}}\,\mathrm{d}t+\sin^2x$，则曲线 $f(x)$ 在 $x=1$ 处的切线方程为\ExamSelection
+      设 $f(x)$ 是可导函数, 且 $f(1+x)+2 f(1-x)=\int_{0}^{x}(1+t)^{\dfrac{1}{t}} \mathrm{d}t+\sin ^{2} x$, 则曲线 $f(x)$ 在 $x=1$ 处的切线方程为
   choices:
   - label: A
-    text: |-
-      $y=-\mathrm{e}x+\mathrm{e}$
+    text: $y=-ex+e$
     figures: []
   - label: B
-    text: |-
-      $y=\mathrm{e}x-\mathrm{e}$
+    text: $y=ex-e$
     figures: []
   - label: C
-    text: |-
-      $y=\mathrm{e}x+\mathrm{e}$
+    text: $y=ex+e$
     figures: []
   - label: D
-    text: |-
-      $y=-\mathrm{e}x-\mathrm{e}$
+    text: $y=-ex-e$
     figures: []
 - number: 6
   section: choice
   points: 5
   stem:
-    text: |-
-      以 $y=x$ 与 $y=xe^{-2x}$ 为特解的最低阶常系数齐次线性微分方程为\ExamSelection
+    text: 以 $y=x$ 与 $y=xe^{-2x}$ 为特解的最低阶常系数齐次线性微分方程为
   choices:
   - label: A
-    text: $y'''+2y''=0$
+    text: $y'''+2y''=0.$
     figures: []
   - label: B
-    text: $y'''+4y''+4y'-4y=0$
+    text: $y'''+4y''+4y'-4y=0.$
     figures: []
   - label: C
-    text: $y^{(4)}+2y'''=0$
+    text: $y^{(4)}+2y'''=0.$
     figures: []
   - label: D
-    text: $y^{(4)}+4y'''+4y''=0$
+    text: $y^{(4)}+4y'''+4y''=0.$
     figures: []
 - number: 7
   section: choice
   points: 5
   stem:
     text: |-
-      $\int_{-1}^1\mathrm{d}y\int_{-\dfrac{\pi}{2}}^{\arcsin y}|x|y^2\,\mathrm{d}x=$\ExamSelection
+      $\int_{-1}^1 \mathrm{d}y \int_{-\dfrac{\pi}{2}}^{\arcsin y} |x|y^2 \mathrm{d}x =$
   choices:
   - label: A
     text: |-
@@ -162,150 +150,131 @@ questions:
   points: 5
   stem:
     text: |-
-      多项式 $f(x)=\begin{vmatrix}x&-1&2x&-x\\2&x&2&1\\2&0&-x&-1\\-1&2&1&x\end{vmatrix}$ 的常数项为\ExamSelection
+      多项式 $f(x)=\begin{vmatrix} x & -1 & 2x & -x \\ 2 & x & 2 & 1 \\ 2 & 0 & -x & -1 \\ -1 & 2 & 1 & x \end{vmatrix}$ 的常数项为
   choices:
   - label: A
-    text: $2$
+    text: '2'
     figures: []
   - label: B
-    text: $4$
+    text: '4'
     figures: []
   - label: C
-    text: $6$
+    text: '6'
     figures: []
   - label: D
-    text: $8$
+    text: '8'
     figures: []
 - number: 9
   section: choice
   points: 5
   stem:
-    text: |-
-      $f(x_1,x_2,x_3)=-2x_1x_2-2x_1x_3+6x_2x_3$ 的正惯性指数为\ExamSelection
+    text: $f(x_1,x_2,x_3)=-2x_1x_2-2x_1x_3+6x_2x_3$ 的正惯性指数为
   choices:
   - label: A
-    text: $3$
+    text: '3'
     figures: []
   - label: B
-    text: $2$
+    text: '2'
     figures: []
   - label: C
-    text: $1$
+    text: '1'
     figures: []
   - label: D
-    text: $0$
+    text: '0'
     figures: []
 - number: 10
   section: choice
   points: 5
   stem:
     text: |-
-      已知 $A$ 为 $n$ 阶矩阵，$E$ 为 $n$ 阶单位矩阵，记矩阵 $\begin{pmatrix}O&A\\A^T&E\end{pmatrix}$，$\begin{pmatrix}O&A^TA\\A^T&E\end{pmatrix}$，$\begin{pmatrix}A^T&E\\A^TAA^T&A^TA\end{pmatrix}$ 的秩分别为 $r_1,r_2,r_3$，则\ExamSelection
+      已知 $A$ 为 $n$ 阶矩阵, $E$ 为 $n$ 阶单位矩阵, 记矩阵 $\begin{pmatrix} O & A \\ A^T & E \end{pmatrix}$, $\begin{pmatrix} O & A^T A \\ A^T & E \end{pmatrix}$, $\begin{pmatrix} A^T & E \\ A^T A A^T & A^T A \end{pmatrix}$ 的秩分别为 $r_1, r_2, r_3$, 则
   choices:
   - label: A
     text: |-
-      $r_1=r_2\geqslant r_3$
+      $r_1 = r_2 \geqslant r_3$
     figures: []
   - label: B
     text: |-
-      $r_1=r_2\leqslant r_3$
+      $r_1 = r_2 \leqslant r_3$
     figures: []
   - label: C
     text: |-
-      $r_1=r_3\geqslant r_2$
+      $r_1 = r_3 \geqslant r_2$
     figures: []
   - label: D
     text: |-
-      $r_1=r_3\leqslant r_2$
+      $r_1 = r_3 \leqslant r_2$
     figures: []
 - number: 11
   section: fill
   points: 5
   stem:
     text: |-
-      $\lim_{x\to0^+}\dfrac{\ln(\mathrm{e}+x)-\mathrm{e}^x}{\sqrt{1-\cos x}}=$\ExamBlank
+      $\lim_{x \to 0^+} \dfrac{\ln(\mathrm{e}+x) - \mathrm{e}^x}{\sqrt{1 - \cos x}} = \underline{\qquad\qquad}.$
 - number: 12
   section: fill
   points: 5
   stem:
     text: |-
-      函数 $f(x)=\int_0^x\mathrm{e}^{-t}\cos t\,\mathrm{d}t$ 在 $[0,\pi]$ 上的最大值为\ExamBlank
+      函数 $f(x)=\int_{0}^{x} \mathrm{e}^{-t}\cos t dt$ 在 $[0,\pi]$ 上的最大值为$\underline{\qquad\qquad}$
 - number: 13
   section: fill
   points: 5
   stem:
     text: |-
-      设平面区域 $D=\{(x,y)\mid(x-1)^2+(y-1)^2\leqslant1\}$，则 $\iint_D(x^2+y^2)\,\mathrm{d}\sigma=$\ExamBlank
+      设平面区域 $D=\left\{(x, y) \mid(x-1)^2+(y-1)^2 \leqslant 1\right\}$，则 $\iint_D\left(x^2+y^2\right) \mathrm{d}\sigma=\underline{\hspace{2cm}}.$
 - number: 14
   section: fill
   points: 5
   stem:
     text: |-
-      已知函数 $f(x)$ 是 $\int_1^{\mathrm{e}^x}\dfrac{1}{1+t^3}\,\mathrm{d}t$ 的反函数，则 $f'(0)=$\ExamBlank
+      已知函数 $f(x)$ 是 $\int_1^{\mathrm{e}^x} \dfrac{1}{1+t^3} \mathrm{d}t$ 的反函数，则 $f'(0)=\underline{\quad\quad\quad\quad\quad\quad}$。
 - number: 15
   section: fill
   points: 5
   stem:
     text: |-
-      设函数 $f(x,\sin x)=x+\sin x$，$f'_x(x,y)=1+2\cos x$，则 $\left.f'_y(x,y)\right|_{y=\sin x}=$\ExamBlank
+      设函数 $f(x, \sin x) = x + \sin x, f'_x(x, y) = 1 + 2\cos x$, 则 $\left. f'_y(x, y) \right|_{y=\sin x} = \underline{\hspace{2cm}}$
 - number: 16
   section: fill
   points: 5
   stem:
     text: |-
-      设 $B=\begin{pmatrix}0&1&0&0\\0&0&1&0\\0&0&0&1\\0&0&0&0\end{pmatrix}$，$A=E+B+B^2+B^3$，则 $A^{-1}=$\ExamBlank
+      设 $B = \begin{pmatrix} 0 & 1 & 0 & 0 \\ 0 & 0 & 1 & 0 \\ 0 & 0 & 0 & 1 \\ 0 & 0 & 0 & 0 \end{pmatrix}, A = E + B + B^2 + B^3$，则 $A^{-1} = \underline{\qquad\qquad}.$
 - number: 17
   section: solution
-  points: 10
+  points: 12
   stem:
     text: |-
-      设 $f(x)=\lim_{n\to\infty}\dfrac{x}{n}\left(\mathrm{e}^{-\dfrac{x^2}{n^2}}+\mathrm{e}^{-\dfrac{4x^2}{n^2}}+\cdots+\mathrm{e}^{-x^2}\right)$，求：
-  subparts:
-  - text: $f(x)$ 的表达式；
-  - text: |-
-      曲线 $y=\mathrm{e}^{x^2}f(x)$ 的拐点。
+      设 $f(x)=\lim_{n\to\infty}\dfrac{x}{n}\left(\mathrm{e}^{-\dfrac{x^2}{n^2}}+\mathrm{e}^{-\dfrac{4x^2}{n^2}}+\cdots+\mathrm{e}^{-x^2}\right)$，求： (1) $f(x)$ 的表达式； (2) 曲线 $y=\mathrm{e}^{x^2}f(x)$ 的拐点
 - number: 18
   section: solution
   points: 12
   stem:
     text: |-
-      $F(x)=\int_0^{\dfrac{\pi}{2}}|\sin x-\sin t|\,\mathrm{d}t\ (x\geqslant0)$ 在 $x\to0^+$ 处的二次泰勒多项式为 $a+bx+cx^2$，求 $a,b,c$ 的值。
+      $F(x) = \int_0^{\dfrac{\pi}{2}} |\sin x - \sin t|\,\mathrm{d}t\ (x \geqslant 0)$ 在 $x \to 0^+$ 处的二次泰勒多项式为 $a + bx + cx^2$，求 $a, b, c$ 的值。
 - number: 19
   section: solution
   points: 12
   stem:
     text: |-
-      已知微分方程 $\mathrm{e}^y=t+\dfrac{1}{y'}$ 满足 $y(0)=0$。
-  subparts:
-  - text: 求该微分方程的特解 $y=y(t)$；
-  - text: |-
-      设 $\begin{cases}x=\sqrt{1+t^2},\\y=y(t),\end{cases}$ 计算 $\left.\dfrac{\mathrm{d}^2y}{\mathrm{d}x^2}\right|_{t=1}$。
+      已知微分方程 $\mathrm{e}^y=t+\dfrac{1}{y'}$ 满足 $y(0)=0$。 (1) 求该微分方程的特解 $y=y(t)$； (2) 设 $\begin{cases} x=\sqrt{1+t^2}, \\ y=y(t), \end{cases}$ 计算 $\left.\dfrac{\mathrm{d}^2 y}{\mathrm{d}x^2}\right|_{t=1}$。
 - number: 20
   section: solution
   points: 12
   stem:
     text: |-
-      设函数 $f(x)$ 满足 $f(x)=x\int_0^{x^2}f(x^2-t)\,\mathrm{d}t+\iint_Df(x+y)\,\mathrm{d}\sigma+a$，其中 $D$ 是由 $y=x^3$ 与 $y=1$，$y=-1$ 及 $y$ 轴所围平面有界闭区域，$f(1)=0$，且 $f(x)$ 在 $[0,1]$ 上的平均值为 $3$，求常数 $a$ 的值。
+      设函数 $f(x)$ 满足 $f(x)=x\int_0^{x^2} f(x^2-t)dt+\iint_D f(x+y)d\sigma+a$, 其中 $D$ 是由 $y=x^3$ 与 $y=1,y=-1$ 及 $y$ 轴所围平面有界闭区域, $f(1)=0$, 且 $f(x)$ 在 $[0,1]$ 上的平均值为 $3$, 求常数 $a$ 的值
 - number: 21
   section: solution
   points: 12
   stem:
     text: |-
-      设函数 $f(x)$ 在 $(-\infty,+\infty)$ 上二阶导数连续，$f(1)\leqslant0$，$\lim_{x\to\infty}[f(x)-|x|]=0$。证明：
-  subparts:
-  - text: |-
-      存在 $\xi\in(1,+\infty)$，使得 $f'(\xi)>1$；
-  - text: |-
-      存在 $\eta\in(-\infty,+\infty)$，使得 $f''(\eta)=0$。
+      设函数 $f(x)$ 在 $(-\infty,+\infty)$ 上二阶导数连续$,f(1) \leqslant 0$ $,\lim\limits_{x \to \infty}[f(x)-|x|]=0$。证明： (1) 存在 $\xi \in (1,+\infty)$，使得 $f'(\xi) > 1$； (2) 存在 $\eta \in (-\infty,+\infty)$，使得 $f''(\eta) = 0$。
 - number: 22
   section: solution
   points: 12
   stem:
     text: |-
-      设二次型 $f(x_1,x_2,x_3)=\boldsymbol{x}^T\begin{pmatrix}1&0&6\\4&4&4\\0&8&9\end{pmatrix}\boldsymbol{x}$，其中 $\boldsymbol{x}=\begin{pmatrix}x_1\\x_2\\x_3\end{pmatrix}$。
-  subparts:
-  - text: |-
-      用正交变换 $\boldsymbol{x}=Q\boldsymbol{y}$ 将其化为标准形，并求出 $Q$；
-  - text: |-
-      求 $g(x_1,x_2,x_3)=\dfrac{f(x_1,x_2,x_3)}{x_1^2+x_2^2+x_3^2}$ 的最大值，并求出一个最大值点，其中 $x_1^2+x_2^2+x_3^2\neq0$。
-content_hash: e7afe82f4618ebf5f778e697c6794daaf4f96629f552f443e8091869ed1155c8
+      设二次型 $f(x_1,x_2,x_3)=x^T \begin{pmatrix} 1 & 0 & 6 \\ 4 & 4 & 4 \\ 0 & 8 & 9 \end{pmatrix} x$，其中 $x=\begin{pmatrix} x_1 \\ x_2 \\ x_3 \end{pmatrix}$. (1) 用正交变换 $x=Qy$ 将其化为标准形，并求出 $Q$； (2) 求 $g(x_1,x_2,x_3)=\dfrac{f(x_1,x_2,x_3)}{x_1^2+x_2^2+x_3^2}$ 的最大值，并求出一个最大值点，其中 $x_1^2+x_2^2+x_3^2 \neq 0$
+content_hash: 2f79d481b8eabd79b20b8ca31261aa7161db4d8b7835e5e193d41fee9d5fbff1

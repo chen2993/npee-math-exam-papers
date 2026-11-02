@@ -1,0 +1,293 @@
+schema_version: '3.0'
+paper:
+  series_key: yubingsen5
+  year: 2023
+  subject: math2
+  paper_no: 3
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $\alpha>0, \beta \neq 0$，且 $\lim\limits_{x \to +\infty} \left[ (x^{2\alpha} + x^\alpha)^{\dfrac{1}{\alpha}} - x^2 \right] = \beta$，则 $(\alpha, \beta)$ 为 $(\quad)$。
+  choices:
+  - label: A
+    text: |-
+      $\left(1, \dfrac{1}{2}\right)$
+    figures: []
+  - label: B
+    text: |-
+      $\left(2, \dfrac{1}{2}\right)$
+    figures: []
+  - label: C
+    text: $(1, 2)$
+    figures: []
+  - label: D
+    text: $(2, 1)$
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x) = \max\limits_{x \geqslant 0} \left\{ \sin x, x - \dfrac{x^3}{3} \right\}, g(x) = \min\limits_{x \geqslant 0} \left\{ \sin x, x - \dfrac{x^3}{3} \right\}$，若 $\lambda = \min\limits_{x \geqslant 0} f(x), \mu = \max\limits_{x \geqslant 0} g(x)$，则（ ）
+  choices:
+  - label: A
+    text: |-
+      $\lambda = \mu$
+    figures: []
+  - label: B
+    text: |-
+      $\lambda = -\mu$
+    figures: []
+  - label: C
+    text: |-
+      $\lambda > \mu$
+    figures: []
+  - label: D
+    text: |-
+      $\lambda < \mu$
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      方程 $\int_{-\pi}^x t \ln(2 + \sin^2 t) \mathrm{d}t = 0$ 的实根个数为（ ）
+  choices:
+  - label: A
+    text: '1'
+    figures: []
+  - label: B
+    text: '2'
+    figures: []
+  - label: C
+    text: '3'
+    figures: []
+  - label: D
+    text: '4'
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x)$ 在 $[0, +\infty)$ 上具有二阶连续导数, $f(0) = f'(0) = 0, f''(0) = 1$. 对于任意的 $x > 0, u(x)$ 表示曲线 $y = f(x)$ 在点 $(x, f(x))$ 处的切线在 $x$ 轴上的截距, 则当 $x \to 0^+$ 时, 下列等价无穷小中不成立的是 ( )
+  choices:
+  - label: A
+    text: |-
+      $f'(x) \sim x$
+    figures: []
+  - label: B
+    text: |-
+      $\int_0^x u(t) \mathrm{d}t \sim \dfrac{1}{4} x^2$
+    figures: []
+  - label: C
+    text: |-
+      $\int_0^x f(t) \mathrm{d}t \sim \dfrac{1}{8} x^3$
+    figures: []
+  - label: D
+    text: |-
+      $\int_0^{f(x)} u(t) \mathrm{d}t \sim \dfrac{1}{16} x^4$
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      若 $f(x), g(x)$ 在 $[0,1]$ 上满足 $f''(x) > 0, g'(x) > 2$, 且 $f(0) = g(0) = 0, f(1) = 2$, 则定积分 $I_1 = \int_0^1 f(x) \mathrm{d}x, I_2 = \int_0^1 g(x) \mathrm{d}x, I_3 = \int_0^1 2x \mathrm{d}x$ 之间的大小关系等于（ ）
+  choices:
+  - label: A
+    text: |-
+      $I_1 \geqslant I_2 \geqslant I_3$
+    figures: []
+  - label: B
+    text: |-
+      $I_3 \geqslant I_2 \geqslant I_1$
+    figures: []
+  - label: C
+    text: |-
+      $I_2 \geqslant I_3 \geqslant I_1$
+    figures: []
+  - label: D
+    text: |-
+      $I_2 \geqslant I_1 \geqslant I_3$
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x,y) = 2y^2 + g(x-y)$，若 $f(x,0) = x^2$，则 $f(x,y)$(\qquad)
+  choices:
+  - label: A
+    text: 既有极大值,也有极小值
+    figures: []
+  - label: B
+    text: 有极大值,没有极小值
+    figures: []
+  - label: C
+    text: 没有极大值,有极小值
+    figures: []
+  - label: D
+    text: 既没有极大值,也没有极小值
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设连续函数 $f(x)$ 满足 $\int_0^x t[f(x-t)-\mathrm{e}^{t^2}]\mathrm{d}t=0$，则 $\int_0^1 \mathrm{d}x \int_0^x f(x)f(y)\mathrm{d}y$ 等于（ ）．
+  choices:
+  - label: A
+    text: |-
+      $\mathrm{e}$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{1}{2}\mathrm{e}$
+    figures: []
+  - label: C
+    text: |-
+      $\mathrm{e}^2$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{1}{2}\mathrm{e}^2$
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设线性方程组 $Ax = \alpha$ 有解$,\begin{pmatrix} A \\ B \end{pmatrix} x = \begin{pmatrix} \alpha \\ \beta \end{pmatrix}$ 无解，则下列结论中不正确的结论是（ ）
+  choices:
+  - label: A
+    text: |-
+      $r(B, \beta) = r(B) + 1$
+    figures: []
+  - label: B
+    text: |-
+      $r\begin{pmatrix} A & \alpha \\ B & \beta \end{pmatrix} = r\begin{pmatrix} A \\ B \end{pmatrix} + 1$
+    figures: []
+  - label: C
+    text: |-
+      $r[B^T(B, \beta)] = r(B^TB)$
+    figures: []
+  - label: D
+    text: |-
+      $r\left[(A^T, B^T)\begin{pmatrix} A & \alpha \\ B & \beta \end{pmatrix}\right] = r\left[(A^T, B^T)\begin{pmatrix} A \\ B \end{pmatrix}\right]$
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 为 3 阶实对称矩阵$,P = (\alpha_1, \alpha_2, \alpha_3)$ 为 3 阶实可逆矩阵$,B = P^T A P$，则（ ）
+  choices:
+  - label: A
+    text: $A$ 与 $B$ 相似
+    figures: []
+  - label: B
+    text: $A$ 与 $B$ 有相同的特征值
+    figures: []
+  - label: C
+    text: |-
+      设 $Q = (\alpha_2, \alpha_1, \alpha_3)$，则 $Q^T A Q = B$
+    figures: []
+  - label: D
+    text: |-
+      令 $C = (\alpha_1 + \alpha_2, \alpha_2 + \alpha_3, \alpha_3 + \alpha_1)$ $,D = C^T A C$，则二次型 $f = x^T A x$ 与 $f = x^T D x$ 有相同的正、负惯性指数
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: 设 $n$ 阶矩阵 $A,B$ 满足 $r(A)+r(B)<n$，则下列不正确的是（ ）
+  choices:
+  - label: A
+    text: $A$ 与 $B$ 有公共的特征值
+    figures: []
+  - label: B
+    text: |-
+      方程组 $\begin{pmatrix} A \\ B \end{pmatrix} x = 0$ 有非零解
+    figures: []
+  - label: C
+    text: $AB$ 与 $BA$ 相似
+    figures: []
+  - label: D
+    text: $A+B$ 的列向量组线性相关
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $f(x) = \int_{1}^{x} \mathrm{e}^{t^2} \mathrm{d}t$ $,x = g(y)$ 是函数 $y = f(x)$ 的反函数，则 $g''(0) = \underline{\qquad\qquad}$。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设函数 $y=y(x)$ 满足 $\Delta y=\dfrac{1-x}{\sqrt{2x-x^2}}\Delta x+o(\Delta x)$ 且 $y(1)=1$，则 $\int_0^2 \dfrac{\mathrm{d}x}{y}=\underline{\qquad\qquad}$
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $f(x) = xe^{2x}$，则函数 $f^{(n)}(x)$ 的极小值点为 \underline{\qquad}
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $y = \mathrm{e}^x(x + \sin x)$ 为某四阶常系数齐次线性微分方程的特解，则该方程为 \underline{\qquad}
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设正值函数 $f(x)$ 在 $[a, b]$ 上连续，若已知曲线 $y=f(x)$、直线 $x=a, x=b$ 及 $x$ 轴所围曲边梯形的面积为 $A$，则 $\int_{a}^{b} x[f(x)+f(a+b-x)] \mathrm{d}x = \underline{\qquad\qquad}$
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $n$ 阶行列式 $\begin{vmatrix} 1 & 2 & 3 & \cdots & n-1 & n \\ -1 & 1 & 0 & \cdots & 0 & 0 \\ 0 & -1 & 1 & \cdots & 0 & 0 \\ \vdots & \vdots & \vdots & & \vdots & \vdots \\ 0 & 0 & 0 & \cdots & -1 & 1 \end{vmatrix} = \underline{\qquad\qquad}$
+- number: 17
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 $f(x)=\begin{cases} \dfrac{\mathrm{e}^x-1}{x}, & x \neq 0, \\ 1, & x=0, \end{cases}$ 求曲线 $y=\dfrac{\int_0^x f(t) \mathrm{d}t}{x}$ 的渐近线
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $y=y(x)$ 是由方程 $\mathrm{e}^y-x(y+1)=1$ 确定的函数，若 $x \to 0$ 时 $y(x)-x$ 与 $x^n$ 是同阶无穷小，求常数 $n$ 的值
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: 设 $C$ 为上半平面内的一条凹的曲线，已知 $C$ 过点 $P_0(0,1)$，其上任一点 $P(x,y)$ 处的法线与 $x$ 轴的交点为 $Q$，又该曲线在 $P(x,y)$ 处的曲率等于此曲线在该点处的法线上线段 $PQ$ 长度的倒数，且曲线在点 $P_0$ 处的切线与 $x$ 轴平行，求此曲线方程．
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设可微函数 $f(x, y)$ 满足 $\dfrac{\partial f(x, y)}{\partial x} = -f(x, y)$ $,\lim_{n \to \infty} \left[ \dfrac{f\left(0, y + \dfrac{1}{n}\right)}{f(0, y)} \right]^n = \mathrm{e}^{\cot y}$，且 $f\left(0, \dfrac{\pi}{2}\right) = 1$，求 $f(x, y)$。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 $f(x,y)$ 具有一阶偏导数，且 $|f_x'(x,y)| \leqslant 1, |f_y'(x,y)| \leqslant 1$，证明对任意的点 $(x_1,y_1)$ $,(x_2,y_2)$，有 $|f(x_2,y_2)-f(x_1,y_1)| \leqslant |x_2-x_1|+|y_2-y_1|$； (2) 当 $x^2+y^2 \neq 0$ 时，利用 (1) 证明 $\left|\dfrac{4x^2y}{4x^2+y^2}-\dfrac{2x^2y}{x^2+4y^2}\right| \leqslant |x|+|y|$
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设方阵 $A=\begin{pmatrix} a & 1 & 1 \\ 1 & a & -1 \\ 1 & -1 & a \end{pmatrix}$. (1) 求正交矩阵 $Q$, 使得 $Q^{-1}AQ$ 为对角矩阵; (2) 常数 $a$ 满足什么条件时, $A-E$ 为正定矩阵; (3) 当 $A-E$ 为正定矩阵时, 求可逆对称阵 $U$, 使得 $U^T U=A-E$
+content_hash: 8e687215773deb7121c7cce17d105ba5782bfb9e0b986ac6bebd2bed5895b14e

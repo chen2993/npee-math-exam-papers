@@ -1,0 +1,289 @@
+schema_version: '3.0'
+paper:
+  series_key: lilin6
+  year: 2023
+  subject: math3
+  paper_no: 6
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      当 $x \to 0$ 时$,\mathrm{e}^x - \dfrac{1+ax^2}{1+bx}$ 与 $x^3$ 是同阶无穷小，则 $( \quad )$
+  choices:
+  - label: A
+    text: |-
+      $a=\dfrac{1}{2}, b=1$
+    figures: []
+  - label: B
+    text: |-
+      $a=-\dfrac{1}{2}, b=1$
+    figures: []
+  - label: C
+    text: |-
+      $a=\dfrac{1}{2}, b=-1$
+    figures: []
+  - label: D
+    text: |-
+      $a=-\dfrac{1}{2}, b=-1$
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)$ 在 $x=0$ 的某邻域内连续，且 $\lim_{x \to 0} \dfrac{f(x)}{x(1 - \cos x)} = -1$，则 $x=0\ (\quad)$
+  choices:
+  - label: A
+    text: 是 $f(x)$ 的驻点，且为极大值点
+    figures: []
+  - label: B
+    text: 是 $f(x)$ 的驻点，且为极小值点
+    figures: []
+  - label: C
+    text: 是 $f(x)$ 的驻点，但不是极值点
+    figures: []
+  - label: D
+    text: 不是 $f(x)$ 的驻点
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)$ 在 $[0,1]$ 上可导, $f'(x)$ 单调减少, 且 $f(0)=0$, 则当 $x \in (0,1)$ 时, 下列选项中正确的是（ ）
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{f(x)}{x} > f'(0)$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{f(x)}{x} < f(1)$
+    figures: []
+  - label: C
+    text: |-
+      $f(1) < \dfrac{f(x)}{x} < f'(0)$
+    figures: []
+  - label: D
+    text: |-
+      $f'(0) < \dfrac{f(x)}{x} < f(1)$
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $z=z(x, y)$ 由方程 $\mathrm{e}^{xyz}=\int_{xy}^{z} f(xy+z-t) \mathrm{d}t$ 确定，其中 $f$ 连续，则 $x \dfrac{\partial z}{\partial x}-y \dfrac{\partial z}{\partial y}=(\quad)$
+  choices:
+  - label: A
+    text: $0$
+    figures: []
+  - label: B
+    text: $1$
+    figures: []
+  - label: C
+    text: $2$
+    figures: []
+  - label: D
+    text: $3$
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: 下列级数中收敛的是（ ）
+  choices:
+  - label: A
+    text: |-
+      $\sum_{n=2}^{\infty} \dfrac{1}{\ln\sqrt{n}}$
+    figures: []
+  - label: B
+    text: |-
+      $\sum_{n=1}^{\infty} \dfrac{\mathrm{e}^n}{3^n-2^n}$
+    figures: []
+  - label: C
+    text: |-
+      $\sum_{n=1}^{\infty} \left(2-\dfrac{1}{n}\right)^n \sin\dfrac{1}{2^n}$
+    figures: []
+  - label: D
+    text: |-
+      $\sum_{n=1}^{\infty} \dfrac{(-2)^{n-1}n+3^n}{n3^n}$
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知某产品生产 $x$ 单位的边际单位成本为 $\left[\dfrac{C(x)}{x}\right]'=-\dfrac{100}{x^2}$，当产量为 1 个单位时，成本为 102，若边际收益为 $R'(x)=12-0.1x$，且 $R(0)=0$，则当利润最大时，平均价格为（ ）
+  choices:
+  - label: A
+    text: '6'
+    figures: []
+  - label: B
+    text: '7'
+    figures: []
+  - label: C
+    text: '8'
+    figures: []
+  - label: D
+    text: '9'
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设向量组 $(I)\alpha_1 = (1,1,2)^T, \alpha_2 = (2,3,3)^T;(II)\beta_1 = (2,3,5)^T, \beta_2 = (-1,0,1)^T, k$ 是不为零的任意常数, 则既可由 $(I)$ 线性表示, 又可由 $(II)$ 线性表示的非零列向量 $\gamma$ 可为（ ）
+  choices:
+  - label: A
+    text: $k(2,1,3)^T$
+    figures: []
+  - label: B
+    text: $k(-2,1,3)^T$
+    figures: []
+  - label: C
+    text: $k(5,6,9)^T$
+    figures: []
+  - label: D
+    text: $k(-5,6,9)^T$
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: 设 $A,B,C$ 均为 $3$ 阶矩阵$,r(C) = 1, r(B) = 2$，且满足 $(A+E)C = O, B(A^T-2E) = O$，则下列矩阵中与 $A$ 相似的为（ ）
+  choices:
+  - label: A
+    text: |-
+      $\begin{bmatrix} 2 & 1 & 0 \\ 0 & 2 & 1 \\ 0 & 0 & 1 \end{bmatrix}$
+    figures: []
+  - label: B
+    text: |-
+      $\begin{pmatrix} -1 & 1 & 0 \\ 0 & -1 & 1 \\ 0 & 0 & 2 \end{pmatrix}$
+    figures: []
+  - label: C
+    text: |-
+      $\begin{pmatrix} -2 & 0 & 0 \\ 0 & -2 & 0 \\ 0 & 0 & 1 \end{pmatrix}$
+    figures: []
+  - label: D
+    text: |-
+      $\begin{pmatrix} -1 & 0 & 0 \\ 0 & 2 & 0 \\ 0 & 0 & 2 \end{pmatrix}$
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      随机从数集 $\{1,2,3,4,5\}$ 中有放回地取出 $n$ 个数 $X_1, X_2, \cdots, X_n$，则当 $n \to \infty$ 时$,\dfrac{1}{n}\sum_{i=1}^n X_i$ 与 $\dfrac{1}{n}\sum_{i=1}^n X_i^2$ 依概率依次收敛于（\qquad ）
+  choices:
+  - label: A
+    text: $3, 11.$
+    figures: []
+  - label: B
+    text: |-
+      $3, \dfrac{1}{5}.$
+    figures: []
+  - label: C
+    text: $5, 3.$
+    figures: []
+  - label: D
+    text: $5, 11.$
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $X_1, X_2, \cdots, X_n (n > 1)$ 为来自总体 $N(\mu, \sigma^2) (\sigma > 0)$ 的简单随机样本$,\overline{X} = \dfrac{1}{n} \sum_{i=1}^n X_i$，则相关系数 $\rho_{X_1 \overline{X}} = (\quad)$
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{1}{\sqrt{n}}$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{1}{n}$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{\sigma^2}{n}$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{\sigma^2}{\sqrt{n}}$
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $y=y(x)$ 是由方程 $y^2+xy+x^2-x=0$ 确定的满足 $y(1)=-1$ 的连续函数，则 $\lim\limits_{x\to 1}\dfrac{(x-1)^2}{y(x)+1} = \underline{\hspace{1.5cm}}$。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $y_1 = 30$，数列 $\{y_n\}$ 满足差分方程 $y_{n+1} + \dfrac{3}{5} y_n = 43$，则极限 $\lim\limits_{n \to \infty} y_n = \underline{\hspace{1.5cm}}$。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $f''(1)$ 存在, $f'(1) \ne 0$, 则 $\lim\limits_{x \to 1} \left[ \dfrac{1}{f'(1)(x - 1)} - \dfrac{1}{f(x) - f(1)} \right] = \underline{\hspace{2cm}}$
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)=\begin{cases} x, & 0 \leqslant x \leqslant 1, \\ 0, & \text{\text{其他}}, \end{cases}$ 则 $\int_{-\infty}^{+\infty} \int_{-\infty}^{+\infty} f(y) f(x+y) \mathrm{d}x\mathrm{d}y = \underline{\hspace{2cm}}$
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设行列式 $|A| = \begin{vmatrix} 2 & 2 & 2 & 2 \\ 1 & a_1 & a_2 & a_3 \\ 1 & b_1 & b_2 & b_3 \\ 1 & c_1 & c_2 & c_3 \end{vmatrix} = 1$ $,A_{ij}$ 是 $|A|$ 中元素 $a_{ij}$ 的代数余子式，则 $\sum_{i=1}^4 \sum_{j=1}^4 A_{ij} = \underline{\quad\quad\quad}$。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设随机变量 $X$ 的概率密度为 $f(x) = \begin{cases} \dfrac{x^n}{n!} \mathrm{e}^{-x}, & x \geqslant 0, \\ 0, & x < 0, \end{cases}$ 则根据切比雪夫不等式, $P\{0 < X < 2(n+1)\} \geqslant$ ______
+- number: 17
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设方程 $y'' - 6y' + 9y = \mathrm{e}^{3x}$ 的解 $y(x)$ 满足 $y(0) = 0$, 且在点 $(0,0)$ 处, $y=y(x)$ 有水平切线. (I) 求 $y=y(x)$; (II) 求 $\lim\limits_{x \to 0} \dfrac{(3+2\tan x)^x - 3^x}{y(x)}$
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $f(x, y)=x^3+y^3-a x^2-b y^2(a>0, b>0)$ 有极小值 $-8$, 求 $a, b$ 的值, 使得 $\dfrac{x^2}{a^2}+\dfrac{y^2}{b^2}=1$ 所围面积最大
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $D = \{(x, y) \mid x^2 + y^2 \leqslant 1, 0 \leqslant y \leqslant x\}$，计算 $I = \iint\limits_D \dfrac{xy}{1 + x^2 - y^2} \mathrm{d}x\mathrm{d}y$。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $a_0=0, a_1=1, a_{n+1}=a_n+2a_{n-1}\,(n=1,2,\cdots)$，若 $S(x)=\sum_{n=1}^\infty \dfrac{a_n}{n!}x^n, x\in(-\infty, +\infty)$，求 $S(x)$ 满足的二阶微分方程，并求 $S(x)$ 和 $a_n$ 的表达式
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $A=\begin{pmatrix} 1 & 0 & 0 \\ 0 & 2 & 1 \\ 0 & 1 & 2 \end{pmatrix}$ 与 $B=\begin{pmatrix} a & b & c \\ 0 & 1 & 0 \\ 1 & 2 & 4 \end{pmatrix}$ 相似. (I) 求 $a,b,c$ 的值; (II) 求一个可逆矩阵 $P$, 使得 $P^{-1}AP=B$
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设二维随机变量 $(X_1, X_2) \sim N(0, 0; 1, 1; 0)$. 记 $X = \max\{X_1, X_2\}, Y = \min\{X_1, X_2\}, Z = X - Y$. (I) 求 $Z$ 的概率密度 $f_Z(z)$ 和 $EZ$; (II) 求二维随机变量 $(X, Y)$ 的分布函数
+content_hash: a43e8829fc1e4898c49af53b2397935168fa8d42ae55b8334dc3c1144d385ba3
