@@ -237,7 +237,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $f(x)=\begin{cases} x, & 0 \leqslant x \leqslant 1, \\ 0, & \text{\text{其他}}, \end{cases}$ 则 $\int_{-\infty}^{+\infty} \int_{-\infty}^{+\infty} f(y) f(x+y) \mathrm{d}x\mathrm{d}y = \underline{\hspace{2cm}}$
+      设 $f(x)=\begin{cases} x, & 0 \leqslant x \leqslant 1, \\ 0, & \text{其他}, \end{cases}$ 则 $\int_{-\infty}^{+\infty} \int_{-\infty}^{+\infty} f(y) f(x+y) \mathrm{d}x\mathrm{d}y = \underline{\hspace{2cm}}$
 - number: 15
   section: fill
   points: 5
@@ -286,4 +286,4 @@ questions:
   stem:
     text: |-
       设二维随机变量 $(X_1, X_2) \sim N(0, 0; 1, 1; 0)$. 记 $X = \max\{X_1, X_2\}, Y = \min\{X_1, X_2\}, Z = X - Y$. (I) 求 $Z$ 的概率密度 $f_Z(z)$ 和 $EZ$; (II) 求二维随机变量 $(X, Y)$ 的分布函数
-content_hash: a43e8829fc1e4898c49af53b2397935168fa8d42ae55b8334dc3c1144d385ba3
+content_hash: 8c0471ecca259204b15abf822af9a6c26b8b0bb415aff281a5fb69c5e795603d

@@ -291,5 +291,5 @@ questions:
   points: 12
   stem:
     text: |-
-      设总体 $(X, Y)$ 的分布函数为 $ $F(x, y) = \begin{cases} 0, & x < 0 \text{ \text{或} } y < \theta, \\ p\left[1 - \mathrm{e}^{-(y - \theta)}\right], & 0 \leqslant x < 1, y \geqslant \theta, \\ 1 - \mathrm{e}^{-(y - \theta)}, & x \geqslant 1, y \geqslant \theta, \end{cases}$ $ \text{其中} $p, \theta$ \text{为未知参数},\text{且} $0 < p < 1$\text{．} (1) \text{分别求} $X$ \text{的分布律和} $Y$ \text{的密度函数}; (2) \text{利用来自总体} $X$ \text{的简单随机样本} $(X_1, X_2, \cdots, X_n)$,\text{分别求} $p$ \text{的矩估计量} $\hat{p}_M$ \text{和极大似然估计量} $\hat{p}_L$; (3) \text{利用来自总体} $Y$ \text{的简单随机样本} $(Y_1, Y_2, \cdots, Y_n)$,\text{分别求} $\theta$ \text{的矩估计量} $\hat{\theta}_M$ \text{和极大似然估计量} $\hat{\theta}_L$．
-content_hash: d98379da03f80f734223054a1a988680e440e3689395afd2c81af211070fbec1
+      设总体 $(X, Y)$ 的分布函数为 $ $F(x, y) = \begin{cases} 0, & x < 0 \text{ 或 } y < \theta, \\ p\left[1 - \mathrm{e}^{-(y - \theta)}\right], & 0 \leqslant x < 1, y \geqslant \theta, \\ 1 - \mathrm{e}^{-(y - \theta)}, & x \geqslant 1, y \geqslant \theta, \end{cases}$ $ \text{其中} $p, \theta$ \text{为未知参数},\text{且} $0 < p < 1$\text{．} (1) \text{分别求} $X$ \text{的分布律和} $Y$ \text{的密度函数}; (2) \text{利用来自总体} $X$ \text{的简单随机样本} $(X_1, X_2, \cdots, X_n)$,\text{分别求} $p$ \text{的矩估计量} $\hat{p}_M$ \text{和极大似然估计量} $\hat{p}_L$; (3) \text{利用来自总体} $Y$ \text{的简单随机样本} $(Y_1, Y_2, \cdots, Y_n)$,\text{分别求} $\theta$ \text{的矩估计量} $\hat{\theta}_M$ \text{和极大似然估计量} $\hat{\theta}_L$．
+content_hash: 3d7cbbc5a2a861606e6d61b5ac9724e830f8252bd8a305c4c77e7a0cf4b1c7c5

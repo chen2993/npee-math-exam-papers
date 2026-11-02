@@ -10,26 +10,30 @@ questions:
   points: 5
   stem:
     text: |-
-      设当 $x\to0$ 时，$f(x)=(1+ax+bx^2)\cos x-\sqrt{1+x^2}$ 是 $x^2$ 的等价无穷小，则 $(a,b)=$\ExamSelection
+      设当 \(x \to 0\) 时， \(f(x) = (1 + ax + bx^{2}) \cos x - \sqrt{1 + x^{2}}\) 是 \(x^{2}\) 的等价无穷小，则 \((a, b) =\)
   choices:
   - label: A
-    text: $(0,2)$
+    text: |-
+      \((0,2)\)
     figures: []
   - label: B
-    text: $(2,0)$
+    text: |-
+      \((2,0)\)
     figures: []
   - label: C
-    text: $(1,2)$
+    text: |-
+      \((1,2)\)
     figures: []
   - label: D
-    text: $(2,1)$
+    text: |-
+      \((2,1)\)
     figures: []
 - number: 2
   section: choice
   points: 5
   stem:
     text: |-
-      考虑下列四个命题：\n① 若 $\lim_{x\to0}f(x)f(-x)=0$，则 $\lim_{x\to0}f(x)=0$；\n② 若 $\lim_{x\to0}[f(x)+f(-x)]=0$，则 $\lim_{x\to0}f(x)=0$；\n③ 若 $\lim_{x\to0}[f(x)+f(2x)]=0$，且 $f(x)>0$，则 $\lim_{x\to0}f(x)=0$；\n④ 若 $\lim_{x\to0}[f(x)+f(2x)]=0$，且 $f(x)<0$，则 $\lim_{x\to0}f(x)=0$。\n其中所有真命题的序号为\ExamSelection
+      考虑下列四个命题： ① 若 \(\lim\limits_{x\to0}f(x)f(-x)=0\)，则 \(\lim\limits_{x\to0}f(x)=0\)； ② 若 \(\lim\limits_{x\to0}[f(x)+f(-x)]=0\)，则 \(\lim\limits_{x\to0}f(x)=0\)； ③ 若 \(\lim\limits_{x\to0}[f(x)+f(2x)]=0\)，且 \(f(x)>0\)，则 \(\lim\limits_{x\to0}f(x)=0\)； ④ 若 \(\lim\limits_{x\to0}[f(x)+f(2x)]=0\)，且 \(f(x)<0\)，则 \(\lim\limits_{x\to0}f(x)=0\)。 其中所有真命题的序号为
   choices:
   - label: A
     text: ①②
@@ -48,154 +52,156 @@ questions:
   points: 5
   stem:
     text: |-
-      已知 $F(x,y,z)=f(\pi y-\sqrt{2}z)-e^{2x-z}$，其中 $f$ 可微。若 $aF'_x+bF'_y+cF'_z=0$，则 $(a,b,c)$ 可以是\ExamSelection
+      已知 $F(x, y, z) = f(\pi y - \sqrt{2}z) - e^{2x-z}$，其中 $f$ 可微。若 $aF'_x + bF'_y + cF'_z = 0$，则（ ）
   choices:
   - label: A
     text: |-
-      $\left(2,\dfrac{2\sqrt{2}}{\pi},1\right)$
+      $\left(2, \dfrac{2\sqrt{2}}{\pi}, 1\right)$
     figures: []
   - label: B
     text: |-
-      $\left(1,\dfrac{2\sqrt{2}}{\pi},2\right)$
+      $\left(1, \dfrac{2\sqrt{2}}{\pi}, 2\right)$
     figures: []
   - label: C
     text: |-
-      $\left(1,2,\dfrac{2\sqrt{2}}{\pi}\right)$
+      $\left(1, 2, \dfrac{2\sqrt{2}}{\pi}\right)$
     figures: []
   - label: D
     text: |-
-      $\left(2,1,\dfrac{2\sqrt{2}}{\pi}\right)$
+      $\left(2, 1, \dfrac{2\sqrt{2}}{\pi}\right)$
     figures: []
 - number: 4
   section: choice
   points: 5
   stem:
     text: |-
-      已知级数 $\sum_{n=1}^{\infty}[\ln n+a\ln(1+n)+b\ln(2+n)]$ 收敛，则\ExamSelection
+      已知级数 \(\sum\limits_{n=1}^{\infty}\left[\ln n + a\ln(1+n) + b\ln(2+n)\right]\) 收敛，则
   choices:
   - label: A
-    text: $a=-2,b=1$
+    text: a=-2,b=1
     figures: []
   - label: B
-    text: $a=1,b=-2$
+    text: a=1,b=-2
     figures: []
   - label: C
-    text: $a=-3,b=2$
+    text: a=-3,b=2
     figures: []
   - label: D
-    text: $a=2,b=-3$
+    text: a=2,b=-3
     figures: []
 - number: 5
   section: choice
   points: 5
   stem:
     text: |-
-      对于向量组 $\boldsymbol{\alpha}_1=(1,2,1,3)^{\mathrm T}$，$\boldsymbol{\alpha}_2=(1,-1,-2,6)^{\mathrm T}$，$\boldsymbol{\alpha}_3=(1,-1,-3,7)^{\mathrm T}$，$\boldsymbol{\alpha}_4=(1,2,-1,a)^{\mathrm T}$，下列结论正确的是\ExamSelection
+      对于向量组 $ \boldsymbol{\alpha}_{1}=\begin{bmatrix}1 \\ 2 \\ 1 \\ 3\end{bmatrix},\boldsymbol{\alpha}_{2}=\begin{bmatrix}1 \\ -1 \\ -2 \\ 6\end{bmatrix},\boldsymbol{\alpha}_{3}=\begin{bmatrix}1 \\ -1 \\ -3 \\ 7\end{bmatrix},\boldsymbol{\alpha}_{4}=\begin{bmatrix}1 \\ 2 \\ -1 \\ a\end{bmatrix} $ 下列结论正确的是
   choices:
   - label: A
     text: |-
-      当 $a\ne5$ 时，$\boldsymbol{\alpha}_1$ 可由向量组 $\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3,\boldsymbol{\alpha}_4$ 线性表示
+      当 \(a \neq 5\) 时，\(\alpha_{1}\) 可由向量组 \(\alpha_{2}, \alpha_{3}, \alpha_{4}\) 线性表示
     figures: []
   - label: B
     text: |-
-      当 $a\ne5$ 时，$\boldsymbol{\alpha}_4$ 可由向量组 $\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3$ 线性表示
+      当 \(a \neq 5\) 时，\(\alpha_{4}\) 可由向量组 \(\alpha_{1}, \alpha_{2}, \alpha_{3}\) 线性表示
     figures: []
   - label: C
     text: |-
-      当 $a=5$ 时，$\boldsymbol{\alpha}_1$ 不可由向量组 $\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3,\boldsymbol{\alpha}_4$ 线性表示
+      当 \(a = 5\) 时，\(\alpha_{1}\) 不可由向量组 \(\alpha_{2}, \alpha_{3}, \alpha_{4}\) 线性表示
     figures: []
   - label: D
     text: |-
-      当 $a=5$ 时，$\boldsymbol{\alpha}_4$ 可由向量组 $\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3$ 线性表示
+      当 \(a = 5\) 时，\(\alpha_{4}\) 可由向量组 \(\alpha_{1}, \alpha_{2}, \alpha_{3}\) 线性表示
     figures: []
 - number: 6
   section: choice
   points: 5
   stem:
     text: |-
-      若 $A$ 为 $n$ 阶矩阵，且满足 $A^2-A-2E=O$，则\ExamSelection
+      若 A 为 n 阶矩阵，且满足 \(A^{2}-A-2E=O\)，则
   choices:
   - label: A
-    text: $A$ 为对称矩阵
+    text: A 为对称矩阵
     figures: []
   - label: B
-    text: $A=2E$
+    text: A = 2E
     figures: []
   - label: C
-    text: $A$ 可相似对角化
+    text: A 可相似对角化
     figures: []
   - label: D
-    text: $A$ 的特征值必有 $2$
+    text: A 的特征值必有 2
     figures: []
 - number: 7
   section: choice
   points: 5
   stem:
     text: |-
-      三元二次型 $f(x_1,x_2,x_3)=(x_1+3x_2+ax_3)(x_1+5x_2+bx_3)$ 的正惯性指数 $p$\ExamSelection
+      三元二次型 \(f(x_{1}, x_{2}, x_{3}) = (x_{1} + 3x_{2} + ax_{3})(x_{1} + 5x_{2} + bx_{3})\) 的正惯性指数 p
   choices:
   - label: A
-    text: 与 $a$ 有关，与 $b$ 无关
+    text: 与 a 有关，与 b 无关
     figures: []
   - label: B
-    text: 与 $a$ 无关，与 $b$ 有关
+    text: 与 a 无关，与 b 有关
     figures: []
   - label: C
-    text: 与 $a,b$ 均有关
+    text: |-
+      与 \(a, b\) 均有关
     figures: []
   - label: D
-    text: 与 $a,b$ 均无关
+    text: |-
+      与 \(a, b\) 均无关
     figures: []
 - number: 8
   section: choice
   points: 5
   stem:
     text: |-
-      设 $X\sim N\left(1,\dfrac14\right)$，$Y\sim B\left(3,\dfrac13\right)$，且 $X$ 与 $Y$ 相互独立，则 $P\{XY>X+Y-1\}=$\ExamSelection
+      设 \(X \sim N\left(1, \dfrac{1}{4}\right)\)，\(Y \sim B\left(3, \dfrac{1}{3}\right)\)，且 \(X\) 与 \(Y\) 相互独立，则 \(P\{XY > X + Y - 1\} =\)
   choices:
   - label: A
     text: |-
-      $\dfrac5{18}$
+      \(\dfrac{5}{18}.\)
     figures: []
   - label: B
     text: |-
-      $\dfrac7{18}$
+      \(\dfrac{7}{18}.\)
     figures: []
   - label: C
     text: |-
-      $\dfrac5{12}$
+      \(\dfrac{5}{12}.\)
     figures: []
   - label: D
     text: |-
-      $\dfrac7{12}$
+      \(\dfrac{7}{12}.\)
     figures: []
 - number: 9
   section: choice
   points: 5
   stem:
     text: |-
-      设随机变量 $X$ 与 $Y$ 同分布，可能取值均为 $-1,0,1$，若 $P\{|XY|=1\}=0$，$P\{X=Y\}=0$，则 $P\{|X+Y|=1\}=$\ExamSelection
+      设随机变量 \(X\) 与 \(Y\) 同分布，可能取值均为 \(-1,0,1\)，若 \(P\{|XY|=1\}=0\)，\(P\{X=Y\}=0\)，则 \(P\{|X+Y|=1\}=\)
   choices:
   - label: A
-    text: $0$
+    text: '0'
     figures: []
   - label: B
     text: |-
-      $\dfrac14$
+      \(\dfrac{1}{4}\)
     figures: []
   - label: C
     text: |-
-      $\dfrac12$
+      \(\dfrac{1}{2}\)
     figures: []
   - label: D
-    text: $1$
+    text: '1'
     figures: []
 - number: 10
   section: choice
   points: 5
   stem:
     text: |-
-      设随机变量 $X,Y$ 相互独立，$X\sim B\left(12,\dfrac13\right)$，$Y\sim P(2)$，记 $U=\max\{X,Y\}$，$V=\min\{X,Y\}$，则 $E[(U-1)(V-1)]=$\ExamSelection
+      设随机变量 $X, Y$ 相互独立$,X \sim B\left(12, \dfrac{1}{3}\right)$ $,Y \sim P(2)$，记 $U = \max\{X, Y\}$ $,V = \min\{X, Y\}$，则 $E[(U-1)(V-1)]=$（ ）
   choices:
   - label: A
     text: $1$
@@ -214,90 +220,71 @@ questions:
   points: 5
   stem:
     text: |-
-      设连续函数 $f(x)$ 满足等式 $f(x)=\dfrac{x^2}{(1+x^2)^2}+\dfrac1{1+x^2}\int_0^1f(x)\,\mathrm{d}x+\int_{-1}^1f(x)\,\mathrm{d}x$，则 $\int_1^3f(x-2)\,\mathrm{d}x=\ExamBlank$。
+      设连续函数 \(f(x)\) 满足等式 \(f(x) = \dfrac{x^{2}}{(1 + x^{2})^{2}} + \dfrac{1}{1 + x^{2}} \int_{0}^{1} f(x) \, dx + \int_{-1}^{1} f(x) \, dx\)，则 \(\int_{1}^{3} f(x-2) \, dx =\) ___
 - number: 12
   section: fill
   points: 5
   stem:
     text: |-
-      设定义在 $(0,+\infty)$ 内的可导函数 $f(x)$ 满足方程 $\int_1^{xy}f(t)\,\mathrm{d}t-y^2\int_1^xf(t)\,\mathrm{d}t-x^2\int_1^yf(t)\,\mathrm{d}t=\dfrac14(x^2-1)(y^2-1)$，且 $f(1)=0$，则 $f(x)=\ExamBlank$。
+      设定义在 \((0, +\infty)\) 内的可导函数 \(f(x)\) 满足方程 \(\int_{1}^{xy}f(t)\mathrm{d}t-y^{2}\int_{1}^{x}f(t)\mathrm{d}t-x^{2}\int_{1}^{y}f(t)\mathrm{d}t=\dfrac{1}{4}(x^{2}-1)(y^{2}-1)\)，且 \(f(1)=0\)，则 \(f(x)=\underline{\quad\quad}\)。
 - number: 13
   section: fill
   points: 5
   stem:
     text: |-
-      幂级数 $\sum_{n=1}^{\infty}\dfrac{2n-1}{2^n}x^{2n-2}$ 的和函数 $S(x)=\ExamBlank$。
+      幂级数 \(\sum\limits_{n=1}^{\infty}\dfrac{2n-1}{2^{n}}x^{2n-2}\) 的和函数 \(S(x)=\) \underline{\quad\quad\quad}。
 - number: 14
   section: fill
   points: 5
   stem:
     text: |-
-      设 $z=z(x,y)$ 是由方程 $3x+6y+xyz+x^3=1$ 所确定的函数，则函数 $z=z(x,y)$ 在点 $(0,0)$ 处沿该点梯度方向的方向导数为 $\ExamBlank$。
+      设 \(z = z(x, y)\) 是由方程 \(3x + 6y + xyz + z^{3} = 1\) 所确定的函数，则函数 \(z = z(x, y)\) 在点 \((0, 0)\) 处沿该点梯度方向的方向导数为 ___
 - number: 15
   section: fill
   points: 5
   stem:
     text: |-
-      设 $A$ 为 $3$ 阶实对称矩阵，$\boldsymbol{\alpha}=(1,a+1,-a)^{\mathrm T}$ 与 $\boldsymbol{\beta}=(a,4,1-a)^{\mathrm T}$ 分别是齐次线性方程组 $(A+E)\boldsymbol{x}=\boldsymbol{0}$ 与 $(A-E)\boldsymbol{x}=\boldsymbol{0}$ 的解，其中 $E$ 为 $3$ 阶单位矩阵，则 $a=\ExamBlank$。
+      设 A 为 3 阶实对称矩阵, \(\boldsymbol{\alpha} = (1, a + 1, -a)^{\mathrm{T}}\) 与 \(\boldsymbol{\beta} = (a, 4, 1 - a)^{\mathrm{T}}\) 分别是齐次线性方程组 \((A + E)x = 0\) 与 \((A - E)x = 0\) 的解，其中 E 为 3 阶单位矩阵，则 a = ___
 - number: 16
   section: fill
   points: 5
   stem:
     text: |-
-      设总体 $X$ 的概率密度为 $f(x;\theta)=\begin{cases}\dfrac{6x}{\theta^3}(\theta-x),&0<x<\theta,\\0,&\text{其他},\end{cases}$，$X_1,X_2,\cdots,X_n$ 是来自总体 $X$ 的简单随机样本，$\theta$ 为未知参数，$\hat\theta$ 为 $\theta$ 的矩估计量，则 $D(\hat\theta)=\ExamBlank$。
+      设总体 \(X\) 的概率密度为 \(f(x; \theta) = \begin{cases} \dfrac{6x}{\theta^{3}} (\theta - x), & 0 < x < \theta, \\ 0, & \text{其他}, \end{cases}\) \(X_{1}, X_{2}, \cdots, X_{n}\) 是来自总体 \(X\) 的简单随机样本，\(\theta\) 为未知参数，\(\hat{\theta}\) 为 \(\theta\) 的矩估计量，则 \(D(\hat{\theta}) =\) ___
 - number: 17
   section: solution
-  points: 10
+  points: 12
   stem:
     text: |-
-      设定义在 $[0,+\infty)$ 上的函数 $y=f(x)$ 满足微分方程 $f''(x)=f(x)-2$，且 $f(0)=1$，$f'(0)=0$。记曲线 $y=f(x)$ 在点 $x=\ln2$ 处的切线为 $L$。
-    figures:
-    - kind: tikz
-      latex: |-
-        \begin{tikzpicture}[scale=0.9]\draw[->] (-0.25,0)--(3.25,0) node[right] {$x$};\draw[->] (0,-0.25)--(0,2.35) node[above] {$y$};\node[below left] at (0,0) {$O$};\draw[thick] (0,1) .. controls (0.8,0.95) and (1.7,0.55) .. (2.7,0);\node[left] at (0,1) {$1$};\node[below left] at (1.35,0.72) {$y=f(x)$};\draw[thick] (0,1.65)--(2.15,0) node[below] {$A$};\node[above right] at (1.48,0.52) {$L$};\draw[dashed] (1.2,0)--(1.2,0.73);\node[below] at (1.2,0) {$\ln2$};\fill[pattern=north east lines,pattern color=gray] (0,1)--(0,1.65)--(1.2,0.73).. controls (0.75,0.94) and (0.35,0.99)..(0,1);\fill[pattern=north east lines,pattern color=gray] (1.2,0.73)--(2.15,0)--(2.7,0).. controls (2.1,0.36) and (1.65,0.58)..(1.2,0.73);\end{tikzpicture}
-      path:
-      description: 曲线 y=f(x)、切线 L、坐标轴及第一象限阴影区域 D
-      exception_reason:
-  subparts:
-  - text: 求函数 $y=f(x)$ 的表达式；
-  - text: 曲线 $y=f(x)$、直线 $L$ 及坐标轴所围的位于第一象限的区域 $D$ 如图中阴影部分所示，求 $D$ 绕 $x$ 轴旋转一周所得的旋转体的体积 $V$。
+      （本题满分10分） 设定义在 \([0,+\infty)\) 上的函数 \(y=f(x)\) 满足微分方程 \(f''(x)=f(x)-2\)，且 \(f(0)=1\)，\(f'(0)=0\)。记曲线 \(y=f(x)\) 在点 \(x=\ln 2\) 处的切线为 \(L\)。 (1) 求函数 \(y = f(x)\) 的表达式； (2) 曲线 \(y = f(x)\)，直线 \(L\) 及坐标轴所围的位于第一象限的区域 \(D\) 如图中阴影部分所示，求 \(D\) 绕 \(x\) 轴旋转一周所得的旋转体的体积 \(V\)。
 - number: 18
   section: solution
   points: 12
   stem:
     text: |-
-      设函数 $f(x)$ 在 $(0,+\infty)$ 内具有二阶连续导数，且 $f(1)=f'(1)=\dfrac32$，函数 $z=f\left(\dfrac yx\right)$ 满足方程 $x^2\dfrac{\partial^2z}{\partial x^2}+y^2\dfrac{\partial^2z}{\partial y^2}=\dfrac yx$，$L$ 为线段 $y=2x\ (1\leq x\leq2)$。求曲线积分 $\int_Lf\left(\dfrac yx\right)\,\mathrm{d}s$。
+      设函数 \(f(x)\) 在 \((0, +\infty)\) 内具有二阶连续导数，且 \(f(1) = f'(1) = \dfrac{3}{2}\)，函数 \(z = f\left(\dfrac{y}{x}\right)\) 满足方程 \(x^{2} \dfrac{\partial^{2}z}{\partial x^{2}} + y^{2} \dfrac{\partial^{2}z}{\partial y^{2}} = \dfrac{y}{x}\)，\(L\) 为线段 \(y = 2x\)（\(1 \leqslant x \leqslant 2\)）。求曲线积分 \(\int_{L} f\left(\dfrac{y}{x}\right) \mathrm{d}s\)。
 - number: 19
   section: solution
   points: 12
   stem:
     text: |-
-      求平面 $x+2y+2z=0$ 包含在椭球体 $x^2+2y^2+4z^2\leq8$ 内部的那部分平面块的面积。
+      求平面 \(x + 2y + 2z = 0\) 包含在椭球体 \(x^{2} + 2y^{2} + 4z^{2} \leqslant 8\) 内部的那部分平面块的面积。
 - number: 20
   section: solution
   points: 12
   stem:
     text: |-
-      设 $f(x)=\begin{cases}\dfrac{1+x^2}{x}\arctan x,&x\ne0,\\1,&x=0,\end{cases}$ 试将 $f(x)$ 展开成 $x$ 的幂级数，并求级数 $\sum_{n=1}^{\infty}\dfrac{(-1)^n}{1-4n^2}$ 的和。
+      设 \(f(x)=\begin{cases} \dfrac{1+x^{2}}{x}\arctan x, & x\neq0, \\ 1, & x=0, \end{cases}\) 试将 \(f(x)\) 展开成 \(x\) 的幂级数，并求级数 \(\sum\limits_{n=1}^{\infty}\dfrac{(-1)^{n}}{1-4n^{2}}\) 的和。
 - number: 21
   section: solution
   points: 12
   stem:
     text: |-
-      设 $3$ 阶实对称矩阵 $A$ 的每行元素之和均为 $3$，且 $r(A)=1$，$\boldsymbol{\beta}=(-1,2,2)^{\mathrm T}$。
-  subparts:
-  - text: |-
-      求 $A^n\boldsymbol{\beta}$；
-  - text: |-
-      求 $\left(A-\dfrac32E\right)^{100}$。
+      设 3 阶实对称矩阵 \(A\) 的每行元素之和均为 3，且 \(r(A)=1\)，\(\beta=(-1,2,2)^{\mathrm{T}}\)。 (1) 求 \(A^{n}\beta\)； (2) 求 \(\left(A-\dfrac{3}{2}E\right)^{100}\)。
 - number: 22
   section: solution
   points: 12
   stem:
     text: |-
-      设随机变量 $X$ 的概率密度为 $f_X(x)=\begin{cases}2x,&0<x<1,\\0,&\text{其他},\end{cases}$ 在给定 $X=x$ 的条件下，随机变量 $Y$ 在 $(-x,x)$ 上服从均匀分布。
-  subparts:
-  - text: 求 $(X,Y)$ 的概率密度 $f(x,y)$；
-  - text: 若 $[Y]$ 表示对随机变量 $Y$ 取整，求 $W=X+[Y]$ 的分布函数；
-  - text: 求 $E(X[Y])$。
-content_hash: d28dcdcb9513f85f2e2d206d9a4e7921eb32f70fe9d9595b152726ca35993f38
+      (本题满分12分) 设随机变量 $X$ 的概率密度为 $ $f_X(x)=\begin{cases}2x,&0<x<1,\\ 0,& \text{其他},\end{cases}$ $ \text{在给定} $X=x$ \text{的条件下},\text{随机变量} $Y$ \text{在} $(-x,x)$ \text{上服从均匀分布}. (1) \text{求} $(X,Y)$ \text{的概率密度} $f(x,y)$; (2) \text{若} $[Y]$ \text{表示对随机变量} $Y$ \text{取整},\text{求} $W=X+[Y]$ \text{的分布函数}; (3) \text{求} $E(X[Y])$
+content_hash: 4c19e8f81a21f588e6040c032f27a66f13fefc48e39fdaccc0e03df6d4330861

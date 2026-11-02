@@ -1,0 +1,291 @@
+schema_version: '3.0'
+paper:
+  series_key: lilin6
+  year: 2023
+  subject: math3
+  paper_no: 4
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 \(f(x)\) 在 x = 0 的某邻域内连续，且 \(f'(0) = 0, f''(0) 0\)，使得 ( )
+  choices:
+  - label: A
+    text: |-
+      曲线 \(y = f(x)\) 在 \((-δ, δ)\) 内是凸的
+    figures: []
+  - label: B
+    text: |-
+      曲线 \(y = f(x)\) 在 \((-δ, δ)\) 内是凹的
+    figures: []
+  - label: C
+    text: |-
+      \(f(x)\) 在 \((-δ,0)\) 内单调增加，在 \((0,δ)\) 内单调减少
+    figures: []
+  - label: D
+    text: |-
+      \(f(x)\) 在 \((-δ,0)\) 内单调减少，在 \((0,δ)\) 内单调增加
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 \(f(x)\) 在 \([-1,1]\) 上二阶可导，且 \(f''(x) > 0\)， \(\int_{-1}^{1} f(x) \, \mathrm{d}x = 2\)，则 （）
+  choices:
+  - label: A
+    text: |-
+      \(f(0) \leqslant 0.\)
+    figures: []
+  - label: B
+    text: |-
+      \(f(0) > 0.\)
+    figures: []
+  - label: C
+    text: |-
+      \(f(0) \leqslant 1.\)
+    figures: []
+  - label: D
+    text: f(0) > 1
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)$ 在 $[0, +\infty)$ 上可导$,\lim\limits_{x \to +\infty} f(x) = b$ $,y(x)$ 为方程 $y' + ay = f(x)$（$a > 0$）的任一解，则 $y = y(x)$ 有水平渐近线（ ）
+  choices:
+  - label: A
+    text: $y = ab$
+    figures: []
+  - label: B
+    text: $y = -ab$
+    figures: []
+  - label: C
+    text: |-
+      $y = \dfrac{b}{a}$
+    figures: []
+  - label: D
+    text: |-
+      $y = -\dfrac{b}{a}$
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: 设 $f(x,y)$ 在点 $P_0(x_0, y_0)$ 处有二阶连续偏导数，且 $f(x,y)$ 在 $P_0$ 处取得极大值，则（ ）
+  choices:
+  - label: A
+    text: |-
+      $f_{xx}''(P_0) \geqslant 0, f_{yy}''(P_0) \geqslant 0$
+    figures: []
+  - label: B
+    text: $f_{xx}''(P_0) < 0, f_{yy}''(P_0) < 0$
+    figures: []
+  - label: C
+    text: |-
+      $f_{xx}''(P_0) \leqslant 0, f_{yy}''(P_0) \leqslant 0$
+    figures: []
+  - label: D
+    text: |-
+      $f_{xx}''(P_0) \leqslant 0, f_{yy}''(P_0) \geqslant 0$
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      函数 $f(x,y) = x + (y - 1) \arcsin \sqrt{\dfrac{|x|}{y}}$ 在点 $(0,1)$ 处（ ）
+  choices:
+  - label: A
+    text: $f'_x(0,1) = f'_y(0,1) = 1$
+    figures: []
+  - label: B
+    text: |-
+      $\mathrm{d}f|_{(0,1)} = \mathrm{d}y$
+    figures: []
+  - label: C
+    text: |-
+      $\mathrm{d}f|_{(0,1)} = \mathrm{d}x$
+    figures: []
+  - label: D
+    text: |-
+      $\mathrm{d}f|_{(0,1)}$ 不存在
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设级数 \(\sum\limits_{n=1}^{\infty}(-1)^{n-1}\dfrac{1}{n^{2-p}}\) 绝对收敛， \(\sum\limits_{n=2}^{\infty}(-1)^{n}\dfrac{1}{n^{p}(\ln n)^{2}}\) 条件收敛，则（）
+  choices:
+  - label: A
+    text: |-
+      \(0 \leqslant p < 1.\)
+    figures: []
+  - label: B
+    text: |-
+      \(0 < p \leqslant 1.\)
+    figures: []
+  - label: C
+    text: |-
+      \(0 \leqslant p < 2.\)
+    figures: []
+  - label: D
+    text: 0 < p < 1
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 \(f(x)=\begin{vmatrix}1&x&x^{2}&x^{3}\\1&2&4&8\\1&-1&1&-1\\1&1&1&1\end{vmatrix}\)，则曲线 \(y=f(x)\) 在 \((-1,2)\) 内存在水平切线的条数为 \underline{\qquad} （）
+  choices:
+  - label: A
+    text: '1'
+    figures: []
+  - label: B
+    text: '2'
+    figures: []
+  - label: C
+    text: '3'
+    figures: []
+  - label: D
+    text: '4'
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设二次型 \(2x_{1}^{2} + 2x_{2}^{2} + ax_{3}^{2} + 2x_{1}x_{2}\) 经可逆线性变换 x = Py 化为 \(y_{1}^{2} + y_{2}^{2} + 2y_{2}y_{3}\)，则
+  choices:
+  - label: A
+    text: a<0
+    figures: []
+  - label: B
+    text: a>0
+    figures: []
+  - label: C
+    text: a>1
+    figures: []
+  - label: D
+    text: a=0
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设随机变量 X 的概率密度为 \(f(x)\)，EX 存在，若对常数 a，有 \(f(a+x) = f(a-x)\)，则 EX = ___
+  choices:
+  - label: A
+    text: '0'
+    figures: []
+  - label: B
+    text: '1'
+    figures: []
+  - label: C
+    text: a
+    figures: []
+  - label: D
+    text: 2a
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设随机变量 $X_1, X_2, \cdots, X_n(n > 1)$ 相互独立，且都服从参数为 $\lambda = \dfrac{1}{2}$ 的泊松分布$,\Phi(x)$ 为标准正态分布函数，则 $\lim_{n \to \infty} P\left\{ \dfrac{2\sum_{i=1}^n X_i - n}{2\sqrt{n}} \leqslant 1 \right\} =$ （ ）
+  choices:
+  - label: A
+    text: |-
+      $\Phi\left(\dfrac{1}{2}\right)$
+    figures: []
+  - label: B
+    text: |-
+      $\Phi(\sqrt{2})$
+    figures: []
+  - label: C
+    text: |-
+      $\Phi(\sqrt{3})$
+    figures: []
+  - label: D
+    text: |-
+      $\Phi(0)$
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      \(\lim\limits_{n\to\infty}\sum\limits_{k=1}^{n}\dfrac{1}{n}\ln\dfrac{n+2k}{3n-2k}=\) ___
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设函数 \(y = f(x)\) 由方程 \(e^{y} + x = \cos(xy)\) 确定，则 \(\lim\limits_{n \to \infty} n f\left(\dfrac{2}{n}\right) =\) ___
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 \(f(x)=\int_{0}^{1-x}\mathrm{e}^{t(2-t)}\mathrm{d}t\)，则曲线 \(y=f(x)\) 在区间 \([0,1]\) 上与 x 轴所围图形的面积为 ___
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设某商品的销售量 X 是一个随机变量, X 在 \((a, b)\) \((b > a > 0)\) 内服从均匀分布, 销售利润函数为 $ Y=\begin{cases}4X-2(h-X),&X\leqslant h,\\4h,&X>h\end{cases}\quad(a<h<b), $ 当期望销售利润最大时, \(h=\underline{\quad\quad}\)
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设3阶矩阵A的特征值均为1，将A的第1列加到第2列得B，则 \(|A^{*}+B^{*}|=\) ___
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设二维随机变量 $(X,Y) \sim N\left(0,0;\dfrac{1}{2},\dfrac{1}{2};0\right)$，则方差 $D(|X-Y|) = \underline{\qquad\qquad}$。
+- number: 17
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      (本题满分10分) 设 \(f(x)\) 可导，且满足 \(f(x)=xf(-x)+\int_{0}^{-x}f(t)dt+\dfrac{1}{2}x^{2}\). (Ⅰ) 求 \(f(x)\); （Ⅱ）求 \(f(x)\) 的单调区间与极值
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      (本题满分12分) 设 \(D=\left\{(x,y)\mid x^{2}+y^{2}\leqslant4\right\}\)，计算 \(I=\iint_{D}\left|2x-x^{2}-y^{2}\right|\mathrm{d}x\mathrm{d}y.\)
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      (本题满分12分) 设 \(f(x)\) 在 \([0,1]\) 上有二阶连续导数，且 \(f(1)=f'(1)=0\)。 （Ⅰ）证明：\(\int_{0}^{1}f(x)\,\mathrm{d}x=\dfrac{1}{2}\int_{0}^{1}x^{2}f''(x)\,\mathrm{d}x\)；（Ⅱ）证明：存在不同的 \(\xi,\eta\in(0,1)\)，使得 \(\xi^{2}f^{\prime\prime}(\xi)=2f^{\prime}(\eta)(\xi-1)\)。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      (本题满分12分) 设非零函数 \(f(x)\) 有连续导数，且满足 $ f^{\prime}(x)+2xf^{2}(x)=0,f(0)=1. $ (Ⅰ) 求 \(f(x)\); （Ⅱ）记 \(a_{n}=\int_{-\infty}^{+\infty}\left[f(x)\right]^{n}\mathrm{d}x\left(n=1,2,\cdots\right)\)，求幂级数 \(\sum\limits_{n=1}^{\infty}\dfrac{a_{n+1}}{a_{n}}x^{n}\) 的收敛域及和函数
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 3 阶实对称矩阵 $A = (a_{ij})_{3\times 3}$ 有二重特征值 1，且 $\sum\limits_{i=1}^3 a_{ij} = 0\ (j = 1, 2, 3)$。 (Ⅰ) 求正交矩阵 $Q$，使 $Q^{\mathrm{T}}AQ = \Lambda$； (Ⅱ) 求可逆矩阵 $P$，使 $A = 2E - P^{\mathrm{T}}P$。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      (本题满分12分) 设随机变量 \(X\) 与 \(Y\) 相互独立，\(Y\) 的分布律为 \(P\{Y=-1\}=P\{Y=1\}=\dfrac{1}{2}\)，\(X\) 的概率密度 \(f(x)\) 满足 \(f'(x)+\dfrac{x}{\sigma^{2}}f(x)=0\;(\sigma>0)\)，记 \(Z=XY\)。 （Ⅰ）求 \(Z\) 的分布函数与概率密度；（Ⅱ）设 \(Z_{1},Z_{2},\cdots,Z_{n}\) 为来自总体 \(Z\) 的简单随机样本，求 \(\sigma^{2}\) 的最大似然估计量。
+content_hash: f526bf9e57e5722d444467935f7eaeb69ca65658e1d1af48ba416158a78cf455

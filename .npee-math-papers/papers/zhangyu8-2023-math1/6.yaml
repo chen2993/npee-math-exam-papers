@@ -272,7 +272,7 @@ questions:
   points: 12
   stem:
     text: |-
-      求 $I = \oiint_{\Sigma_{\text{\text{外}}}} \dfrac{\mathrm{e}^z}{\sqrt{x^2+y^2}} \mathrm{d}x\mathrm{d}y$ $,\Sigma$ 是由 $z = \sqrt{x^2+y^2}, z=1, z=2$ 所围闭区域的边界曲面，取外侧
+      求 $I = \oiint_{\Sigma_{\text{外}}} \dfrac{\mathrm{e}^z}{\sqrt{x^2+y^2}} \mathrm{d}x\mathrm{d}y$ $,\Sigma$ 是由 $z = \sqrt{x^2+y^2}, z=1, z=2$ 所围闭区域的边界曲面，取外侧
 - number: 21
   section: solution
   points: 12
@@ -284,5 +284,5 @@ questions:
   points: 12
   stem:
     text: |-
-      设总体 $X$ 的概率密度为 $ $f(x;\theta) = \begin{cases} (5-2\theta)x, & 0\leqslant x<1, \\ \theta-x, & 1\leqslant x\leqslant 2, \\ 0, & \text{\text{其他}}, \end{cases}$ $ $p=P\{Y<0\}$. \text{取自总体} $X$ \text{的简单随机样本的观察值为} $0.2, 0.5, 0.8, 1.7, 1.7, 1.7$,\text{求}: (1) $\theta$ \text{的矩估计值}; (2) $\theta$ \text{的最大似然估计值}; (3) $p$ 的最大似然估计值
-content_hash: 42c60eaf306e7b76b06cfec81473454136162c1e31ef30a6362442df2b2115ac
+      设总体 $X$ 的概率密度为 $ $f(x;\theta) = \begin{cases} (5-2\theta)x, & 0\leqslant x<1, \\ \theta-x, & 1\leqslant x\leqslant 2, \\ 0, & \text{其他}, \end{cases}$ $ $p=P\{Y<0\}$. \text{取自总体} $X$ \text{的简单随机样本的观察值为} $0.2, 0.5, 0.8, 1.7, 1.7, 1.7$,\text{求}: (1) $\theta$ \text{的矩估计值}; (2) $\theta$ \text{的最大似然估计值}; (3) $p$ 的最大似然估计值
+content_hash: dd7cada14e79279375108684a716bd7cfff4a2d8ac3c20babbbbc625dd0a2d14

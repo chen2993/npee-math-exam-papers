@@ -155,7 +155,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设二维随机变量 $(X,Y)$ 的概率密度为 $f(x,y)=\begin{cases} 3x, & 0 \leqslant x < 1, 0 \leqslant y < x, \\ 0, & \text{\text{其他}}, \end{cases}$ 则 $P\left\{Y \leqslant \dfrac{1}{8} \,\middle|\, X = \dfrac{1}{4}\right\}$ 和 $P\left\{Y \leqslant \dfrac{1}{8} \,\middle|\, X < \dfrac{1}{4}\right\}$ 的值分别是
+      设二维随机变量 $(X,Y)$ 的概率密度为 $f(x,y)=\begin{cases} 3x, & 0 \leqslant x < 1, 0 \leqslant y < x, \\ 0, & \text{其他}, \end{cases}$ 则 $P\left\{Y \leqslant \dfrac{1}{8} \,\middle|\, X = \dfrac{1}{4}\right\}$ 和 $P\left\{Y \leqslant \dfrac{1}{8} \,\middle|\, X < \dfrac{1}{4}\right\}$ 的值分别是
   choices:
   - label: A
     text: |-
@@ -286,5 +286,5 @@ questions:
   points: 12
   stem:
     text: |-
-      设二维随机变量 $(X, Y)$ 的概率密度为 $ $f(x,y)=\begin{cases} \dfrac{1+xy}{4}, & |x| \leqslant 1, |y| \leqslant 1, \\ 0, & \text{\text{其他}.} \end{cases}$ $ (1) \text{判断} $X$ \text{与} $Y$ \text{是否独立？} (2) \text{判断} $|X|$ \text{与} $|Y|$ \text{是否独立？} (3) \text{记} $Z=X+Y$,\text{求} $Z$ \text{的概率密度} $f_Z(z)$。
-content_hash: 2b696aaff142609d7173f08110183052dccc9047cbedb34bd5a795f411d57b6e
+      设二维随机变量 $(X, Y)$ 的概率密度为 $ $f(x,y)=\begin{cases} \dfrac{1+xy}{4}, & |x| \leqslant 1, |y| \leqslant 1, \\ 0, & \text{其他.} \end{cases}$ $ (1) \text{判断} $X$ \text{与} $Y$ \text{是否独立？} (2) \text{判断} $|X|$ \text{与} $|Y|$ \text{是否独立？} (3) \text{记} $Z=X+Y$,\text{求} $Z$ \text{的概率密度} $f_Z(z)$。
+content_hash: 8744d218669de2416d9d8b51c772da010cb83c8741af36cfb0fddbe7bb5ca930

@@ -250,7 +250,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设随机变量 $X$ 的概率密度函数为 $ $f(x) = \begin{cases} \dfrac{[2\sin x]\cos x}{2^k}, & x \in \left[2k\pi, 2k\pi + \dfrac{\pi}{2}\right), k\text{\text{为非负}}, \\ 0, & \text{\text{其他}}, \end{cases}$ $ \text{其中} $[2\sin x]$ \text{表示不超过} $2\sin x$ \text{的最大整数},\text{则} $E(\sin X) = \underline{\quad\quad\quad\quad}$。
+      设随机变量 $X$ 的概率密度函数为 $ $f(x) = \begin{cases} \dfrac{[2\sin x]\cos x}{2^k}, & x \in \left[2k\pi, 2k\pi + \dfrac{\pi}{2}\right), k\text{为非负}, \\ 0, & \text{其他}, \end{cases}$ $ \text{其中} $[2\sin x]$ \text{表示不超过} $2\sin x$ \text{的最大整数},\text{则} $E(\sin X) = \underline{\quad\quad\quad\quad}$。
 - number: 17
   section: solution
   points: 12
@@ -286,5 +286,5 @@ questions:
   points: 12
   stem:
     text: |-
-      设二维随机变量 $(X, Y)$ 的联合概率密度为 $ $f(x, y) = \begin{cases} \dfrac{C}{(2 - x^2 - y^2)^{\dfrac{3}{2}}}, & \dfrac{x}{\sqrt{3}} < y < x, 0 < x < 1, \\ 0, & \text{\text{其他}}, \end{cases}$ $ \text{其中} $C$ \text{为常数}. $(\text{I})$ \text{求常数} $C$; $(\text{II})$ \text{求随机变量} $Z = \dfrac{Y}{X}$ 的分布函数
-content_hash: 76b6d21001c554f0f0edd842cceae50bd39ee2e5f4ca56b798a713cfd99a8677
+      设二维随机变量 $(X, Y)$ 的联合概率密度为 $ $f(x, y) = \begin{cases} \dfrac{C}{(2 - x^2 - y^2)^{\dfrac{3}{2}}}, & \dfrac{x}{\sqrt{3}} < y < x, 0 < x < 1, \\ 0, & \text{其他}, \end{cases}$ $ \text{其中} $C$ \text{为常数}. $(\text{I})$ \text{求常数} $C$; $(\text{II})$ \text{求随机变量} $Z = \dfrac{Y}{X}$ 的分布函数
+content_hash: 5fe0d65185f44c62769fd5c5959a836f7328897d509d5e8aec89c5a6e920c773

@@ -56,7 +56,7 @@
       "series_name": "chaoyue10",
       "year": 2026,
       "subject": "math1",
-      "paper_count": 9
+      "paper_count": 10
     },
     {
       "bundle": "chaoyue10-2026-math2",
@@ -64,7 +64,7 @@
       "series_name": "chaoyue10",
       "year": 2026,
       "subject": "math2",
-      "paper_count": 8
+      "paper_count": 10
     },
     {
       "bundle": "euclid3-2025-math1",
@@ -120,7 +120,7 @@
       "series_name": "lilin6",
       "year": 2023,
       "subject": "math1",
-      "paper_count": 3
+      "paper_count": 4
     },
     {
       "bundle": "lilin6-2023-math2",
@@ -136,7 +136,7 @@
       "series_name": "lilin6",
       "year": 2023,
       "subject": "math3",
-      "paper_count": 3
+      "paper_count": 5
     },
     {
       "bundle": "lilin6-2024-math1",
@@ -424,7 +424,7 @@
       "series_name": "yubingsen5",
       "year": 2026,
       "subject": "math2",
-      "paper_count": 3
+      "paper_count": 5
     },
     {
       "bundle": "zhangyu4-2023-math1",
@@ -616,7 +616,7 @@
       "series_name": "zhangyu8",
       "year": 2027,
       "subject": "math1",
-      "paper_count": 2
+      "paper_count": 3
     },
     {
       "bundle": "zhangyu8-2027-math2",

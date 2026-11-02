@@ -298,5 +298,5 @@ questions:
   points: 12
   stem:
     text: |-
-      设二维随机变量 $(X, Y)$ 的概率密度函数为 $ f(x, y) = \begin{cases} \dfrac{2}{\pi} \mathrm{e}^{-\sqrt{x^2+y^2}}, & x > 0, y > 0, \\ 0, & \text{\text{其他}}, \end{cases}$ 令 $U = \sqrt{X^2+Y^2}, V = \arctan \dfrac{Y}{X}$。 (1) 求 $P\left\{U \leqslant 1, V \leqslant \dfrac{\pi}{4}\right\}$； (2) 分别求 $(U, V)$ 的分布函数 $F_{U,V}(u, v)$ 和密度函数 $f_{U,V}(u, v)$； (3) 分别求 $U$ 和 $V$ 的边缘密度函数 $f_U(u)$ $\text{、}f_V(v)$，判断 $U$ 和 $V$ 是否独立，并说明理由。
-content_hash: 311f99fca5ee7e8b7d68858b6baa757f0a44c50130117f018ce8a41667886500
+      设二维随机变量 $(X, Y)$ 的概率密度函数为 $ f(x, y) = \begin{cases} \dfrac{2}{\pi} \mathrm{e}^{-\sqrt{x^2+y^2}}, & x > 0, y > 0, \\ 0, & \text{其他}, \end{cases}$ 令 $U = \sqrt{X^2+Y^2}, V = \arctan \dfrac{Y}{X}$。 (1) 求 $P\left\{U \leqslant 1, V \leqslant \dfrac{\pi}{4}\right\}$； (2) 分别求 $(U, V)$ 的分布函数 $F_{U,V}(u, v)$ 和密度函数 $f_{U,V}(u, v)$； (3) 分别求 $U$ 和 $V$ 的边缘密度函数 $f_U(u)$ $\text{、}f_V(v)$，判断 $U$ 和 $V$ 是否独立，并说明理由。
+content_hash: 7d6c49778d500d296bd420ca8f062fcbb94a31849a80251220647bb3d194b461

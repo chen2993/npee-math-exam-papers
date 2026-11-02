@@ -249,7 +249,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设二维总体 $(X, Y)$ 的概率密度为 $f(x, y) = \begin{cases} 2\theta^{-2}\mathrm{e}^{-\dfrac{x+y}{\theta}}, & 0 0), \\ 0, & \text{\text{其他}} \end{cases}$ $,(X_1, Y_1), (X_2, Y_2), \cdots, (X_n, Y_n)$ 为 $(X, Y)$ 的一组简单随机样本，则 $\theta$ 的最大似然估计量 $\hat{\theta} = \underline{\hspace{1.5cm}}$。
+      设二维总体 $(X, Y)$ 的概率密度为 $f(x, y) = \begin{cases} 2\theta^{-2}\mathrm{e}^{-\dfrac{x+y}{\theta}}, & 0 0), \\ 0, & \text{其他} \end{cases}$ $,(X_1, Y_1), (X_2, Y_2), \cdots, (X_n, Y_n)$ 为 $(X, Y)$ 的一组简单随机样本，则 $\theta$ 的最大似然估计量 $\hat{\theta} = \underline{\hspace{1.5cm}}$。
 - number: 17
   section: solution
   points: 12
@@ -286,4 +286,4 @@ questions:
   stem:
     text: |-
       设 $X_1, X_2, X_3$ 相互独立，且均服从参数为 $\lambda(\lambda > 0)$ 的指数分布，记 $X = \min\{X_1, X_2\}, Y = X + X_3$. (I) 求 $X$ 的概率密度与 $Y$ 的概率密度； (II) 若 $Y_1, Y_2, \cdots, Y_n$ 为总体 $Y$ 的简单随机样本，求 $\lambda$ 的矩估计量
-content_hash: 4ab0748d9a8cb0d3e07ba7ce00ddca11d84b39054360f89771718939d8273360
+content_hash: 21d277e84005fef7b452b531185182246fb573da857e06e696fd753a3e6ad568

@@ -298,5 +298,5 @@ questions:
   points: 12
   stem:
     text: |-
-      设二维随机变量 $(X, Y)$ 的联合概率密度为 $ f(x, y) = \begin{cases} Axy, & 0 \leqslant y < x \leqslant 1, \\ 0, & \text{\text{其他}} \end{cases}$ (1) 求常数 $A$； (2) 在 $0 < X < \dfrac{1}{2}$ 的条件下，求 $Y$ 的条件密度函数。
-content_hash: fd91b2e4f7814876e5768a0a58bd4f8c6f4fe59d7e1220f7a1d8a570c773a6fc
+      设二维随机变量 $(X, Y)$ 的联合概率密度为 $ f(x, y) = \begin{cases} Axy, & 0 \leqslant y < x \leqslant 1, \\ 0, & \text{其他} \end{cases}$ (1) 求常数 $A$； (2) 在 $0 < X < \dfrac{1}{2}$ 的条件下，求 $Y$ 的条件密度函数。
+content_hash: 033bd006ceb38c6c70d6c3995d18346313a5d756966fe0bc3a7d020f5429fc3f

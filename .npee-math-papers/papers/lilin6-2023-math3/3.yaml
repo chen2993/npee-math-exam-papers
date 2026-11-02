@@ -1,0 +1,294 @@
+schema_version: '3.0'
+paper:
+  series_key: lilin6
+  year: 2023
+  subject: math3
+  paper_no: 3
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      曲线 \(y = \dfrac{x^{2} + 1}{\sqrt{x^{2} - 1}}\) 的渐近线的条数为 ___
+  choices:
+  - label: A
+    text: '1'
+    figures: []
+  - label: B
+    text: '2'
+    figures: []
+  - label: C
+    text: '3'
+    figures: []
+  - label: D
+    text: '4'
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 \(\{x_{n}\}\) 为数列，则下列结论正确的是 ( ) ① 若 \(\left\{\arctan x_{n}\right\}\) 收敛，则 \(\{x_{n}\}\) 收敛. ② 若 \(\left\{\arctan x_{n}\right\}\) 单调，则 \(\{x_{n}\}\) 收敛. ③ 若 \(x_{n} \in [-1, 1]\)，且 \(\{x_{n}\}\) 收敛，则 \(\{\arcsin x_{n}\}\) 收敛. ④ 若 \(x_{n} \in [-1, 1]\)，且 \(\{x_{n}\}\) 单调，则 \(\{\arcsin x_{n}\}\) 收敛
+  choices:
+  - label: A
+    text: ①②
+    figures: []
+  - label: B
+    text: ③④
+    figures: []
+  - label: C
+    text: ①③
+    figures: []
+  - label: D
+    text: ②④
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 \(f(x) = \int_{-1}^{x} \sqrt{|t|}\ln|t| \, dt\)，则 \(f(x)\) 在 x = 0 处 ( )
+  choices:
+  - label: A
+    text: |-
+      \(f'(0) \neq 0.\)
+    figures: []
+  - label: B
+    text: |-
+      \(f'(0)\) 不存在
+    figures: []
+  - label: C
+    text: |-
+      \(f'(0) = 0.\)
+    figures: []
+  - label: D
+    text: f'(0) = 1
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      级数 $\sum_{n=1}^{\infty} \int_{n}^{n+1} e^{-\sqrt{x}} dx =$ （ ）
+  choices:
+  - label: A
+    text: $4e^{-1}$
+    figures: []
+  - label: B
+    text: $e^{-1}$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{1}{4}e^{-1}$
+    figures: []
+  - label: D
+    text: $4e$
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 \(y = f(x)\) 在 \([0, +\infty)\) 上有二阶连续导数，且 \(f''(x) > 0, y = g(x)\) 是 \(y = f(x)\) 在 \((0, +\infty)\) 内任意点 \(x_{0}\) 处的切线方程，若 \(F(x) = f(x) - g(x)\)，则 ( )
+  choices:
+  - label: A
+    text: |-
+      \(F(x)\) 在 \(x_{0}\) 处取得最大值
+    figures: []
+  - label: B
+    text: |-
+      \(F(x)\) 在 \(x_{0}\) 处取得最小值
+    figures: []
+  - label: C
+    text: |-
+      \((x_{0},F(x_{0}))\) 为 \(y=F(x)\) 的拐点
+    figures: []
+  - label: D
+    text: |-
+      \(F(x)\) 在 \(x_{0}\) 处不取得极值
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $y(x)$ 满足 $y'' + 2ay' + b^2y = 0\ (a > b > 0)$，且 $y(0) = 1, y'(0) = 1$，则 $\int_0^{+\infty} y(x) \,\mathrm{d}x =$ （ ）
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{2a + 1}{b}$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{2a}{b^2}$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{2a + 1}{b^2}$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{2a}{b}$
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 \(A = \begin{pmatrix} 1 & 0 & -1 \\ 2 & a & 1 \\ 1 & 2 & 1 \end{pmatrix}\)，B 是 3 阶矩阵，且 \(r(B) = 2\)， \(r(AB) = 1\)，则下列选项中正确的是
+  choices:
+  - label: A
+    text: |-
+      \(r\left(\begin{pmatrix}A^{*} & O \\ A & B\end{pmatrix}\right) = 3.\)
+    figures: []
+  - label: B
+    text: |-
+      \(r\left(\begin{pmatrix}A & O \\ O & B^{*}\end{pmatrix}\right) = 3.\)
+    figures: []
+  - label: C
+    text: |-
+      \(r\left(\begin{pmatrix}A^{*} & B \\ O & A\end{pmatrix}\right) = 3.\)
+    figures: []
+  - label: D
+    text: |-
+      \(r\left(\begin{pmatrix}A & B^{*} \\ O & B\end{pmatrix}\right) = 3.\)
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A=(a_{ij})_{3\times 3}$ 是非零实矩阵，且 $a_{ji}=A_{ji}(i,j=1,2,3)$ $,A_{ji}$ 为 $|A|$ 的代数余子式，则 $A$ 必为（ ）
+  choices:
+  - label: A
+    text: 对称矩阵
+    figures: []
+  - label: B
+    text: 正交矩阵
+    figures: []
+  - label: C
+    text: 对角矩阵
+    figures: []
+  - label: D
+    text: 正定矩阵
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设平面区域 \(D = \{(x, y) \mid 0 \leqslant x \leqslant 2, 0 \leqslant y \leqslant 4 - x^{2}\}\)，向 D 内随机投掷一点 \((X, Y)\). 记 \(A = \{X \leqslant 1\}\), \(B = \{Y \leqslant 3\}\)，则随机事件 A, B 恰好有一个发生的概率为（）
+  choices:
+  - label: A
+    text: |-
+      \(\dfrac{1}{16}.\)
+    figures: []
+  - label: B
+    text: |-
+      \(\dfrac{7}{16}.\)
+    figures: []
+  - label: C
+    text: |-
+      \(\dfrac{5}{16}.\)
+    figures: []
+  - label: D
+    text: |-
+      \(\dfrac{3}{16}.\)
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $(X,Y)$ 服从二维正态分布 $N\left(0,0;\dfrac{1}{2},\dfrac{1}{2};0\right)$ $,\Phi(x)$ 为标准正态分布函数，则 $P\{X-Y < E(|X-Y|)\} = $（ ）
+  choices:
+  - label: A
+    text: |-
+      $\Phi\left(\dfrac{1}{2}\right)$
+    figures: []
+  - label: B
+    text: |-
+      $\Phi(\sqrt{2})$
+    figures: []
+  - label: C
+    text: |-
+      $\Phi\left(\sqrt{\dfrac{2}{\pi}}\right)$
+    figures: []
+  - label: D
+    text: |-
+      $\Phi\left(\dfrac{\sqrt{2}}{\pi}\right)$
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      \(\lim\limits_{n\to\infty}\dfrac{1}{n}\sum\limits_{k=1}^{n}\ln\left(\dfrac{k}{n}+\sqrt{1+\dfrac{k^2}{n^2}}\right)\left[\dfrac{k}{n}-1+\sqrt{1+\left(\dfrac{k}{n}-1\right)^2}\right]=\) ___
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 \(f(x,y)=\int_{\dfrac{x}{y}}^{xy}(x-yt)\varphi(t)dt\)，其中 \(\varphi(t)\) 可微，则 \(f_{xy}''(2,1)=\) ___
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      已知某商品的需求函数为 \(Q = 8000 - 8P\) (P 表示价格)，若总收益最大，则商品的价格 P = ___
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      已知曲线 \(y = \sqrt{x}\) 与 \(y = ax (a > 0)\) 所围图形绕 x 轴旋转一周与绕 y 轴旋转一周所得旋转体的体积相等，则 a = ___
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 \(\boldsymbol{B} = (b_{ij})_{3 \times 3}\) 是可逆矩阵，且 \(AB = \begin{pmatrix} b_{11} & 2b_{12} & -b_{13} \\ b_{21} & 2b_{22} & -b_{23} \\ b_{31} & 2b_{32} & -b_{33} \end{pmatrix}\). \(A^{*}\) 为 A 的伴随矩阵，则行列式 \(|A^{*}| =\) ___
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设随机变量 $X \sim N(0,1)$，在 $X=x$ 的条件下，随机变量 $Y \sim N(x,1)$，则 $X$ 与 $Y$ 的相关系数为 \underline{\qquad\qquad}
+- number: 17
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      (本题满分10分) 设极限 \(\lim\limits_{x\to+\infty}\dfrac{1}{x}\int_{0}^{x}\left[\dfrac{at^{1+t}}{(1+t)^{t}}-t\right]dt=b\) 存在，a>0，求 a,b 的值
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      (本题满分12分) 设 \(f(x)\) 连续且不恒为零， \(f(x)\) 满足 $ f(x)=\int_{0}^{1}\mathrm{e}^{-x}f^{2}(t)\mathrm{d}t-\int_{0}^{x}f(t)\mathrm{d}t. $ 求 \(f(x)\) 及 \(f(x)\) 的极值
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      (本题满分12分) 设 \(y = f(x)\) 在区间 \([0, 1]\) 上可导，且 \(f(x) > 0\). （Ⅰ）证明：存在一点 \(\xi \in (0,1)\)，使得在区间 \([\xi,1]\) 上以 \(f(\xi)\) 为高的矩形面积等于在 \([0,\xi]\) 上以 \(y = f(x)\) 为曲边的梯形的面积； （Ⅱ）若 \(f'(x) < 0\)，证明：（Ⅰ）中的 \(\xi\) 是唯一的。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      (本题满分12分) 设 \(f(x)\) 在 \([0,1]\) 上有连续导数， \(f(0)=1,f_{+}^{\prime}(0)=1\)，若 $ D_{t}=\left\{(x,y)\mid0\leqslant y\leqslant t-x,0\leqslant x\leqslant t\right\}(0<t\leqslant1), $ $ \iint_{D_{t}}f^{\prime \prime}(x+y)\mathrm{d}x\mathrm{d}y=\iint_{D_{t}}\left[f(x+y)+(x-y)^{3}\right]\mathrm{d}x\mathrm{d}y. $ 求 \(f(x)\) 的表达式
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $ A = \begin{pmatrix} 1 & -1 & -a \\ 2 & a & -2 \\ -a & -1 & 1 \end{pmatrix}$， (Ⅰ) $a$为何值时$,A$不相似于对角矩阵； (Ⅱ) $a$为何值时$,A$相似于对角矩阵$\Lambda$，并求一个可逆矩阵$P$，使得$P^{-1}AP = \Lambda$。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $T$ 是连续型随机变量，且 $P\{T \leqslant a\} = \theta, P\{T > b\} = \theta$，其中 $\theta \in (0, \dfrac{1}{2}), a a,\end{cases} \quad Y = \begin{cases}-1, & T \leqslant b, \\ 1, & T > b\end{cases}$ （Ⅰ）求 $(X,Y)$ 的概率分布及 $Z = X + Y$ 的概率分布； （Ⅱ）若 $\theta$ 为未知参数，利用总体 $Z$ 的样本值 $-2, 0, 0, 0, 2, 2$ 求 $\theta$ 的矩估计值和最大似然估计值。
+content_hash: 0501ac02b4c74d93a5308d026f4f6565685a53d8f64ab67120b1a1c78b903694

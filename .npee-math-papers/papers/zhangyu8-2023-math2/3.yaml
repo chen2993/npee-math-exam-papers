@@ -10,61 +10,64 @@ questions:
   points: 5
   stem:
     text: |-
-      设当 $x\to 0$ 时，$f(x)=(1+ax+bx^2)\cos x-\sqrt{1+x^2}$ 是 $x^2$ 的等价无穷小，则 $(a,b)=$\ExamSelection
+      设当 \(x \to 0\) 时， \(f(x) = (1 + ax + bx^{2}) \cos x - \sqrt{1 + x^{2}}\) 是 \(x^{2}\) 的等价无穷小，则 \((a, b) =\)
   choices:
   - label: A
-    text: $(0,2)$
+    text: |-
+      \((0,2)\)
     figures: []
   - label: B
-    text: $(2,0)$
+    text: |-
+      \((2,0)\)
     figures: []
   - label: C
-    text: $(1,2)$
+    text: |-
+      \((1,2)\)
     figures: []
   - label: D
-    text: $(2,1)$
+    text: |-
+      \((2,1)\)
     figures: []
 - number: 2
   section: choice
   points: 5
   stem:
-    text: |-
-      下列反常积分收敛的是\ExamSelection
+    text: 下列反常积分收敛的是
   choices:
   - label: A
     text: |-
-      $\displaystyle\int_1^{+\infty}\dfrac{\mathrm{d}x}{(x^2-1)\sqrt{1+x}}$
+      \(\int_{1}^{+\infty}\dfrac{dx}{(x^{2}-1)\sqrt{1+x}}\)
     figures: []
   - label: B
     text: |-
-      $\displaystyle\int_0^{+\infty}\dfrac{\mathrm{d}x}{(x+1)^2\sqrt{1+x}}$
+      \(\int_{0}^{+\infty}\dfrac{dx}{(x+1)^{2}\sqrt{1+x}}\)
     figures: []
   - label: C
     text: |-
-      $\displaystyle\int_{-1}^2\dfrac{\mathrm{d}x}{(x-2)^2\sqrt{1+x}}$
+      \(\int_{-1}^{2}\dfrac{dx}{(x-2)^{2}\sqrt{1+x}}\)
     figures: []
   - label: D
     text: |-
-      $\displaystyle\int_{-2}^1\dfrac{\mathrm{d}x}{(x+2)^2\sqrt{1-x}}$
+      \(\int_{-2}^{1}\dfrac{dx}{(x+2)^{2}\sqrt{1-x}}\)
     figures: []
 - number: 3
   section: choice
   points: 5
   stem:
     text: |-
-      设 $f(x)$ 二阶可导，且对任意的 $x,h$，存在 $\theta$，使得 $f(x+h)=f(x)+hf'(x+\theta h)\quad(0<\theta<1)$，$f''(x)$ 连续且 $f''(x)\ne 0$，则 $\displaystyle\lim_{h\to0}\theta=$\ExamSelection
+      设 \(f(x)\) 二阶可导，且对任意的 \(x,h\)，存在 \(\theta\)，使得 \(f(x+h)=f(x)+hf'(x+\theta h)\) \(0<\theta<1\)，\(f''(x)\) 连续且 \(f''(x)\ne0\)，则 \(\lim_{h\to0}\theta=\) （ ）
   choices:
   - label: A
     text: |-
-      $\dfrac14$
+      $\dfrac{1}{4}$
     figures: []
   - label: B
     text: |-
-      $\dfrac13$
+      $\dfrac{1}{3}$
     figures: []
   - label: C
     text: |-
-      $\dfrac12$
+      $\dfrac{1}{2}$
     figures: []
   - label: D
     text: $1$
@@ -74,83 +77,83 @@ questions:
   points: 5
   stem:
     text: |-
-      一长方体的三条棱长分别用 $x,y,z$ 表示，若 $x,y$ 均以 $1\,\mathrm{cm/s}$ 的速率增加，$z$ 以 $2\,\mathrm{cm/s}$ 的速率减少，当 $x=2\,\mathrm{cm},y=z=1\,\mathrm{cm}$ 时，表面积 $S$ 与体对角线长度 $l$ 的变化率分别为\ExamSelection
+      一长方体的三条棱长分别用 \(x, y, z\) 表示，若 \(x, y\) 均以 \(1 cm/s\) 的速率增加，z 以 \(2 cm/s\) 的速率减少，当 \(x = 2 cm, y = z = 1 cm\) 时，表面积 S 与体对角线长度 l 的变化率分别为
   choices:
   - label: A
     text: |-
-      $2,\dfrac{\sqrt6}{6}$
+      \(2, \dfrac{\sqrt{6}}{6}.\)
     figures: []
   - label: B
     text: |-
-      $-2,\dfrac{\sqrt6}{6}$
+      \(-2, \dfrac{\sqrt{6}}{6}.\)
     figures: []
   - label: C
     text: |-
-      $2,-\dfrac{\sqrt6}{6}$
+      \(2, -\dfrac{\sqrt{6}}{6}.\)
     figures: []
   - label: D
     text: |-
-      $-2,-\dfrac{\sqrt6}{6}$
+      \(-2, -\dfrac{\sqrt{6}}{6}.\)
     figures: []
 - number: 5
   section: choice
   points: 5
   stem:
     text: |-
-      设 $f(x,y)$ 为连续函数，将 $\displaystyle\iint_D f(x,y)\,\mathrm{d}x\mathrm{d}y$（其中 $D:0\leq x\leq1,0\leq y\leq1$）化为极坐标系下先 $\theta$ 后 $r$ 的累次积分为\ExamSelection
+      设 $f(x,y)$ 为连续函数，将 $\iint_D f(x,y)dxdy$ （其中 $D: 0 \leqslant x \leqslant 1, 0 \leqslant y \leqslant 1$）化为极坐标系下先 $\theta$ 后 $r$ 的累次积分为（ ）
   choices:
   - label: A
     text: |-
-      $\displaystyle\int_0^1\mathrm{d}r\int_0^{\dfrac{\pi}{2}}rf(r\cos\theta,r\sin\theta)\,\mathrm{d}\theta+\int_1^{\sqrt2}\mathrm{d}r\int_{\arccos\dfrac1r}^{\arcsin\dfrac1r}rf(r\cos\theta,r\sin\theta)\,\mathrm{d}\theta$
+      $\int_0^1 dr \int_0^{\dfrac{\pi}{2}} r f(r \cos \theta, r \sin \theta)d\theta + \int_1^{\sqrt{2}} dr \int_{\arccos \dfrac{1}{r}}^{\arcsin \dfrac{1}{r}} r f(r \cos \theta, r \sin \theta)d\theta$
     figures: []
   - label: B
     text: |-
-      $\displaystyle\int_0^1\mathrm{d}r\int_0^{\dfrac{\pi}{2}}f(r\cos\theta,r\sin\theta)\,\mathrm{d}\theta+\int_1^{\sqrt2}\mathrm{d}r\int_{\arccos\dfrac1r}^{\arcsin\dfrac1r}f(r\cos\theta,r\sin\theta)\,\mathrm{d}\theta$
+      $\int_0^1 dr \int_0^{\dfrac{\pi}{2}} f(r \cos \theta, r \sin \theta)d\theta + \int_1^{\sqrt{2}} dr \int_{\arccos \dfrac{1}{r}}^{\arcsin \dfrac{1}{r}} f(r \cos \theta, r \sin \theta)d\theta$
     figures: []
   - label: C
     text: |-
-      $\displaystyle\int_0^{\sqrt2}\mathrm{d}r\int_{\arccos\dfrac1r}^{\arcsin\dfrac1r}rf(r\cos\theta,r\sin\theta)\,\mathrm{d}\theta$
+      $\int_0^{\sqrt{2}} dr \int_{\arccos \dfrac{1}{r}}^{\arcsin \dfrac{1}{r}} r f(r \cos \theta, r \sin \theta)d\theta$
     figures: []
   - label: D
     text: |-
-      $\displaystyle\int_0^{\sqrt2}\mathrm{d}r\int_{\arccos\dfrac1r}^{\arcsin\dfrac1r}f(r\cos\theta,r\sin\theta)\,\mathrm{d}\theta$
+      $\int_0^{\sqrt{2}} dr \int_{\arccos \dfrac{1}{r}}^{\arcsin \dfrac{1}{r}} f(r \cos \theta, r \sin \theta)d\theta$
     figures: []
 - number: 6
   section: choice
   points: 5
   stem:
     text: |-
-      设 $z=f(u,v),u=x-2y,v=x+ay$，函数 $f$ 具有二阶连续偏导数，且 $\dfrac{\partial^2z}{\partial u^2}=\dfrac{\partial^2z}{\partial v^2}$，$\dfrac{\partial^2z}{\partial u^2}+\dfrac{\partial^2z}{\partial u\partial v}\ne0$。若 $\dfrac{\partial^2z}{\partial x\partial y}=0$，则常数 $a=$\ExamSelection
+      设 \(z=f(u,v),u=x-2y,v=x+ay\)，函数 \(f\) 具有二阶连续偏导数，且 \(\dfrac{\partial^{2}z}{\partial u^{2}}=\dfrac{\partial^{2}z}{\partial v^{2}}\)，\(\dfrac{\partial^{2}z}{\partial u^{2}}+\dfrac{\partial^{2}z}{\partial u\partial v}\ne0\)。若 \(\dfrac{\partial^{2}z}{\partial x\partial y}=0\)，则常数 \(a=\)
   choices:
   - label: A
-    text: $-2$
+    text: '-2'
     figures: []
   - label: B
-    text: $-1$
+    text: '-1'
     figures: []
   - label: C
-    text: $1$
+    text: '1'
     figures: []
   - label: D
-    text: $2$
+    text: '2'
     figures: []
 - number: 7
   section: choice
   points: 5
   stem:
     text: |-
-      设函数 $y=xe^x$ 是微分方程 $y''+py'+qy=0$（$p,q$ 为常数）的一个解，$y=\varphi(x)$ 为微分方程 $y''+py'+qy=x$ 满足初始条件 $y(0)=y'(0)=0$ 的特解，则 $\displaystyle\lim_{x\to0}\dfrac{\varphi(x)}{x^3}=$\ExamSelection
+      设函数 $y = xe^x$ 是微分方程 $y'' + py' + qy = 0$ （$p, q$为常数）的一个解$,y = \varphi(x)$ 为微分方程 $y'' + py' + qy = x$ 满足初始条件 $y(0) = y'(0) = 0$ 的特解，则 $\lim_{x \to 0} \dfrac{\varphi(x)}{x^3} =$ （ ）
   choices:
   - label: A
     text: $0$
     figures: []
   - label: B
     text: |-
-      $\dfrac16$
+      $\dfrac{1}{6}$
     figures: []
   - label: C
     text: |-
-      $\dfrac13$
+      $\dfrac{1}{3}$
     figures: []
   - label: D
     text: $1$
@@ -160,49 +163,48 @@ questions:
   points: 5
   stem:
     text: |-
-      对于向量组 $\alpha_1=(1,2,1,3)^{\mathrm T},\alpha_2=(1,-1,-2,6)^{\mathrm T},\alpha_3=(1,-1,-3,7)^{\mathrm T},\alpha_4=(1,2,-1,a)^{\mathrm T}$，下列结论正确的是\ExamSelection
+      对于向量组 $ \boldsymbol{\alpha}_{1}=\begin{bmatrix}1\\ 2\\ 1\\ 3\end{bmatrix},\boldsymbol{\alpha}_{2}=\begin{bmatrix}1\\ -1\\ -2\\ 6\end{bmatrix},\boldsymbol{\alpha}_{3}=\begin{bmatrix}1\\ -1\\ -3\\ 7\end{bmatrix},\boldsymbol{\alpha}_{4}=\begin{bmatrix}1\\ 2\\ -1\\ a\end{bmatrix}, $ 下列结论正确的是
   choices:
   - label: A
     text: |-
-      当 $a\ne5$ 时，$\alpha_1$ 可由向量组 $\alpha_2,\alpha_3,\alpha_4$ 线性表示
+      当 \(a \neq 5\) 时， \(\alpha_{1}\) 可由向量组 \(\alpha_{2}, \alpha_{3}, \alpha_{4}\) 线性表示
     figures: []
   - label: B
     text: |-
-      当 $a\ne5$ 时，$\alpha_4$ 可由向量组 $\alpha_1,\alpha_2,\alpha_3$ 线性表示
+      当 \(a \neq 5\) 时， \(\alpha_{4}\) 可由向量组 \(\alpha_{1}, \alpha_{2}, \alpha_{3}\) 线性表示
     figures: []
   - label: C
     text: |-
-      当 $a=5$ 时，$\alpha_1$ 不可由向量组 $\alpha_2,\alpha_3,\alpha_4$ 线性表示
+      当 a = 5 时， \(\alpha_{1}\) 不可由向量组 \(\alpha_{2}, \alpha_{3}, \alpha_{4}\) 线性表示
     figures: []
   - label: D
     text: |-
-      当 $a=5$ 时，$\alpha_4$ 可由向量组 $\alpha_1,\alpha_2,\alpha_3$ 线性表示
+      当 a = 5 时， \(\alpha_{4}\) 可由向量组 \(\alpha_{1}, \alpha_{2}, \alpha_{3}\) 线性表示
     figures: []
 - number: 9
   section: choice
   points: 5
   stem:
     text: |-
-      若 $A$ 为 $n$ 阶矩阵，满足 $A^2-A-2E=O$，则\ExamSelection
+      若 A 为 n 阶矩阵，满足 \(A^{2}-A-2E=O\)，则
   choices:
   - label: A
-    text: $A$ 为对称矩阵
+    text: A 为对称矩阵
     figures: []
   - label: B
-    text: $A=2E$
+    text: A = 2E
     figures: []
   - label: C
-    text: $A$ 可相似对角化
+    text: A 可相似对角化
     figures: []
   - label: D
-    text: $A$ 的特征值必有 $2$
+    text: A 的特征值必有 2
     figures: []
 - number: 10
   section: choice
   points: 5
   stem:
-    text: |-
-      三元二次型 $f(x_1,x_2,x_3)=(x_1+3x_2+ax_3)(x_1+5x_2+bx_3)$ 的正惯性指数 $p$\ExamSelection
+    text: 三元二次型 $f(x_1, x_2, x_3) = (x_1 + 3x_2 + ax_3)(x_1 + 5x_2 + bx_3)$ 的正惯性指数 $p$（ ）
   choices:
   - label: A
     text: 与 $a$ 有关，与 $b$ 无关
@@ -211,108 +213,81 @@ questions:
     text: 与 $a$ 无关，与 $b$ 有关
     figures: []
   - label: C
-    text: 与 $a,b$ 均有关
+    text: 与 $a, b$ 均有关
     figures: []
   - label: D
-    text: 与 $a,b$ 均无关
+    text: 与 $a, b$ 均无关
     figures: []
 - number: 11
   section: fill
   points: 5
   stem:
     text: |-
-      函数 $f(x)=\displaystyle\lim_{n\to\infty}\dfrac{\sin n\pi x}{1+(2x)^{2n}}$ 的间断点的个数为\ExamBlank。
+      函数 \(f(x)=\lim\limits_{n\to\infty}\dfrac{\sin\pi x}{1+(2x)^{2n}}\) 的间断点的个数为 ___
 - number: 12
   section: fill
   points: 5
   stem:
     text: |-
-      已知函数 $y=f(x)$ 具有二阶导数，且 $\displaystyle\lim_{x\to0}\dfrac{f'(x)-2}{x}=2$，则 $\left.\dfrac{\mathrm{d}^2x}{\mathrm{d}y^2}\right|_{x=0}=$\ExamBlank。
+      已知函数 \(y = f(x)\) 具有二阶导数，且 \(\lim\limits_{x \to 0} \dfrac{f'(x) - 2}{x} = 2\)，则 \(\left.\dfrac{d^2 x}{dy^2}\right|_{x=0} =\) ___
 - number: 13
   section: fill
   points: 5
   stem:
     text: |-
-      设连续函数 $f(x)$ 满足等式 $f(x)=\dfrac{x^2}{(1+x^2)^2}+\dfrac{1}{1+x^2}\displaystyle\int_0^1f(x)\,\mathrm{d}x+\displaystyle\int_{-1}^1f(x)\,\mathrm{d}x$，则 $\displaystyle\int_1^3f(x-2)\,\mathrm{d}x=$\ExamBlank。
+      设连续函数 \(f(x)\) 满足等式 \(f(x) = \dfrac{x^{2}}{(1 + x^{2})^{2}} + \dfrac{1}{1 + x^{2}} \int_{0}^{1} f(x) \, dx + \int_{-1}^{1} f(x) \, dx\)，则 \(\int_{1}^{3} f(x - 2) \, dx =\) ___
 - number: 14
   section: fill
   points: 5
   stem:
     text: |-
-      设 $f(x)$ 在 $[0,1]$ 上连续，曲线 $y=f(x),x=0,x=1$ 与 $x$ 轴围成图形的面积为 $1$，则 $\displaystyle\int_0^1\mathrm{d}x\int_0^xxyf(x^2)f(y^2)\,\mathrm{d}y=$\ExamBlank。
+      设 \(f(x)\) 在 \([0,1]\) 上连续，曲线 \(y = f(x)\)，x = 0，x = 1 与 x 轴围成图形的面积为 1，则 \(\int_{0}^{1} \mathrm{d}x \int_{0}^{x} xy f(x^{2}) f(y^{2}) \mathrm{d}y =\) ___
 - number: 15
   section: fill
   points: 5
   stem:
     text: |-
-      设定义在 $(0,+\infty)$ 内的可导函数 $f(x)$ 满足方程 $\displaystyle\int_1^{xy}f(t)\,\mathrm{d}t-y^2\int_1^xf(t)\,\mathrm{d}t-x^2\int_1^yf(t)\,\mathrm{d}t=\dfrac14(x^2-1)(y^2-1)$，且 $f(1)=0$，则 $f(x)=$\ExamBlank。
+      设定义在 $(0, +\infty)$ 内的可导函数 $f(x)$ 满足方程 $ \int_1^{xy} f(t)\mathrm{d}t - y^2 \int_1^x f(t)\mathrm{d}t - x^2 \int_1^y f(t)\mathrm{d}t = \dfrac{1}{4}(x^2 - 1)(y^2 - 1)$，且 $f(1) = 0$，则 $f(x) = \underline{\qquad\qquad}$。
 - number: 16
   section: fill
   points: 5
   stem:
     text: |-
-      设 $A$ 为 $3$ 阶实对称矩阵，$\alpha=(1,a+1,-a)^{\mathrm T}$ 与 $\beta=(a,4,1-a)^{\mathrm T}$ 分别是齐次线性方程组 $(A+E)x=0$ 与 $(A-E)x=0$ 的解，其中 $E$ 为 $3$ 阶单位矩阵，则 $a=$\ExamBlank。
+      设 $A$ 为3阶实对称矩阵$,\boldsymbol{\alpha} = (1, a+1, -a)^{\mathrm{T}}$ 与 $\boldsymbol{\beta} = (a, 4, 1-a)^{\mathrm{T}}$ 分别是齐次线性方程组 $(A+E)x=0$ 与 $(A-E)x=0$ 的解，其中 $E$ 为3阶单位矩阵，则 $a = \underline{\qquad\qquad}$。
 - number: 17
   section: solution
-  points: 10
+  points: 12
   stem:
     text: |-
-      设曲线 $y=f(x)$ 的参数方程为 $\begin{cases}x=x(t)=t-\sin t,\\y=y(t)=1-\cos t,\end{cases}\quad 0\leq t\leq2\pi$。$P(x,y)$ 是曲线 $y=f(x)$ 上的任一点，$0<x<\pi$。在点 $P$ 处作曲线的切线，记该切线在 $x$ 轴上的截距为 $u(x)$，求 $\displaystyle\lim_{x\to0^+}\dfrac{u(x)}x$。
+      设曲线 $y=f(x)$ 的参数方程为 $ \begin{cases} x = x(t) = t - \sin t, \\ y = y(t) = 1 - \cos t, \end{cases} 0 \leqslant t \leqslant 2\pi$。 $P(x,y)$ 是曲线 $y=f(x)$ 上的任一点$,0 < x < \pi$。在点 $P$ 处作曲线的切线，记该切线在 $x$ 轴上的截距为 $u(x)$，求 $\lim\limits_{x \to 0^+} \dfrac{u(x)}{x}$。
 - number: 18
   section: solution
   points: 12
   stem:
     text: |-
-      设定义在 $[0,+\infty)$ 上的函数 $y=f(x)$ 满足微分方程 $f''(x)=f(x)-2$，且 $f(0)=1,f'(0)=0$。记曲线 $y=f(x)$ 在点 $x=\ln2$ 处的切线为 $L$。
-    figures:
-    - kind: tikz
-      latex: |-
-        \begin{tikzpicture}[scale=0.9]\draw[->] (-0.25,0)--(4.3,0) node[right] {$x$};\draw[->] (0,-0.35)--(0,3.2) node[above] {$y$};\draw plot[smooth] coordinates {(0,1) (0.7,1.18) (1.4,1.02) (2.1,0.55) (2.7,0)} node[below] {$A$};\draw (0,2.45)--(3.65,0) node[pos=0.63,above right] {$L$};\draw[dashed] (1.4,0)--(1.4,1.52);\node[below] at (1.4,0) {$\ln2$};\node[left] at (0,1) {$1$};\node[left] at (0,1.45) {$y=f(x)$};\node[below left] at (0,0) {$O$};\foreach \x in {0.25,0.48,0.72,0.95,1.17} \draw[gray] (\x,{2.45-0.671*\x})--(\x,{1+0.35*\x-0.17*\x*\x});\foreach \x in {2.35,2.55,2.75,2.95,3.15,3.35} \draw[gray] (\x,0)--(\x,{2.45-0.671*\x});\end{tikzpicture}
-      path:
-      description: 曲线、切线及第一象限阴影区域示意图
-      exception_reason:
-  subparts:
-  - text: 求函数 $y=f(x)$ 的表达式；
-  - text: 求由曲线 $y=f(x)$、直线 $L$ 及坐标轴所围的位于第一象限的区域 $D$（见图）绕 $x$ 轴旋转一周所得的旋转体的体积 $V$。
+      设定义在 $[0, +\infty)$ 上的函数 $y = f(x)$ 满足微分方程 $f''(x) = f(x) - 2$，且 $f(0) = 1$ $,f'(0) = 0$。记曲线 $y = f(x)$ 在点 $x = \ln 2$ 处的切线为 $L$。 (1) 求函数 $y = f(x)$ 的表达式； (2) 求由曲线 $y = f(x)$，直线 $L$ 及坐标轴所围的位于第一象限的区域 $D$（见图）绕 $x$ 轴旋转一周所得的旋转体的体积 $V$。
 - number: 19
   section: solution
   points: 12
   stem:
     text: |-
-      当 $x>0$ 时，比较 $\dfrac{x^2-1}{x^2+1},\dfrac{x^2-1}{2x},\ln x$ 的大小。
+      当 $x > 0$ 时，比较 $\dfrac{x^2-1}{x^2+1}$ $,\dfrac{x^2-1}{2x}$ $,\ln x$ 的大小。
 - number: 20
   section: solution
   points: 12
   stem:
     text: |-
-      设 $f(x)$ 在区间 $[0,a]$ 上连续，且当 $x\in(0,a)$ 时，$0<f(x)<x$。设 $x_1\in(0,a),x_{n+1}=f(x_n)\quad(n=1,2,\cdots)$。
-  subparts:
-  - text: |-
-      证明 $\displaystyle\lim_{n\to\infty}x_n$ 存在，并求之；
-  - text: |-
-      如果增设条件：在 $[0,a]$ 上，$f(x)$ 存在连续的二阶导数（在 $x=0$ 处下面的 $f'(0)$ 与 $f''(0)$ 分别指的是右导数 $f_+'(0)$ 与 $f_+''(0)$），$f'(0)=1$，$f''(0)$ 存在且不为零，求 $\displaystyle\lim_{x\to0^+}\dfrac{xf(x)}{x-f(x)}$。
+      设 $f(x)$ 在区间 $[0, a]$ 上连续，且当 $x \in (0, a)$ 时$,0 < f(x) < x$。设 $x_1 \in (0, a)$ $,x_{n+1} = f(x_n)(n = 1, 2, \cdots)$。 (1) 证明 $\lim_{n\to\infty} x_n$ 存在，并求之； (2) 如果增设条件：在 $[0, a]$ 上 $f(x)$ 存在连续的一阶导数（在 $x=0$ 处下面的 $f'(0)$ 与 $f''(0)$ 分别指的是右导数 $f'_+(0)$ 与 $f''_+(0)$）$,f'(0)=1$ $,f''(0)$ 存在且不为零，求 $ \lim_{x\to 0^+}\dfrac{x f(x)}{x-f(x)}$。
 - number: 21
   section: solution
   points: 12
   stem:
     text: |-
-      求二重积分 $I=\displaystyle\iint_Dxy\,\mathrm{d}x\mathrm{d}y$，其中 $D$ 是由曲线 $y=\sqrt{a^2-x^2},x^2+y^2=2ax\quad(a>0)$ 与两坐标轴围成的区域，如图阴影部分所示。
-    figures:
-    - kind: tikz
-      latex: |-
-        \begin{tikzpicture}[scale=0.9]\fill[gray!20] (0,0)--plot[domain=0:1.57,samples=40] ({1.5+1.5*cos(\x r)},{1.5*sin(\x r)})--plot[domain=0:1.57,samples=40] ({1.5*cos(\x r)},{1.5*sin(\x r)})--cycle;\draw[->] (-1.9,0)--(3.35,0) node[right] {$x$};\draw[->] (0,-0.35)--(0,2.25) node[above] {$y$};\draw (-1.5,0) arc[start angle=180,end angle=0,radius=1.5];\draw (0,0) arc[start angle=180,end angle=0,radius=1.5];\node[below] at (-1.5,0) {$-a$};\node[below left] at (0,0) {$O$};\node[below] at (1.5,0) {$a$};\node[below] at (3,0) {$2a$};\end{tikzpicture}
-      path:
-      description: 两圆上半部与坐标轴围成的阴影区域示意图
-      exception_reason:
+      求二重积分 $I = \iint_{D} xy \,\mathrm{d}x\mathrm{d}y$，其中 $D$ 是由曲线 $y = \sqrt{a^2 - x^2}$ $,x^2 + y^2 = 2ax\ (a > 0)$ 与两坐标轴围成的区域，如图阴影部分所示。
 - number: 22
   section: solution
   points: 12
   stem:
     text: |-
-      设 $3$ 阶实对称矩阵 $A$ 的每行元素之和均为 $3$，且 $r(A)=1$，$\beta=(-1,2,2)^{\mathrm T}$。
-  subparts:
-  - text: |-
-      求 $A^n\beta$；
-  - text: |-
-      求 $\left(A-\dfrac32E\right)^{100}$。
-content_hash: a9cfd10c52154067f7feab2a072962fba5ab0fc1ac722b002493466ad1a59e98
+      设 3 阶实对称矩阵 $A$ 的每行元素之和均为 3，且 $r(A)=1$ $,\boldsymbol{\eta}=(-1,2,2)^{\mathrm{T}}$。 (1) 求 $A^n\boldsymbol{\eta}$； (2) 求 $\left(A-\dfrac{3}{2}E\right)^{100}$。
+content_hash: 85145a4fc4c59de6f23b30a4bcc49cf0d9c3b649a951c55fe8d5540f79039eb1

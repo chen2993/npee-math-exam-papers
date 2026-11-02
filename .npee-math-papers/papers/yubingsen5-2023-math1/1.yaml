@@ -282,5 +282,5 @@ questions:
   points: 12
   stem:
     text: |-
-      如果对于任意的 $x \in \mathbf{R}$，随机变量 $X$ 满足 $P\{X \geqslant x\} = P\{X \leqslant -x\}$，就称 $X$ 为对称的. (1) 如果连续型随机变量 $X$ 和 $Y$ 独立同分布，证明 $Y-X$ 是对称的； (2) 如果随机变量 $(X,Y)$ 的密度函数为 $f(x,y) = \begin{cases} \dfrac{1}{4} - \dfrac{1}{4}\left(|x| - \dfrac{1}{2}\right)y, & |x| < 1, |y| < 1, \\ 0, & \text{\text{其他}}, \end{cases}$ $X$ 和 $Y$ 是否相互独立$\text{？}X$ 和 $Y$ 是否同分布？又问 $Y-X$ 是否是对称的？给出你的理由
-content_hash: e3723fb73a67f5f24d2ae65fb03e82e40772558da6fbca021d0b084130fd00fb
+      如果对于任意的 $x \in \mathbf{R}$，随机变量 $X$ 满足 $P\{X \geqslant x\} = P\{X \leqslant -x\}$，就称 $X$ 为对称的. (1) 如果连续型随机变量 $X$ 和 $Y$ 独立同分布，证明 $Y-X$ 是对称的； (2) 如果随机变量 $(X,Y)$ 的密度函数为 $f(x,y) = \begin{cases} \dfrac{1}{4} - \dfrac{1}{4}\left(|x| - \dfrac{1}{2}\right)y, & |x| < 1, |y| < 1, \\ 0, & \text{其他}, \end{cases}$ $X$ 和 $Y$ 是否相互独立$\text{？}X$ 和 $Y$ 是否同分布？又问 $Y-X$ 是否是对称的？给出你的理由
+content_hash: 5aed4567cb46064595597ee7225f5093fb0d10c3327d87677f98d38a26fb8be5

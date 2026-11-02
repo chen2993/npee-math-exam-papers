@@ -297,5 +297,5 @@ questions:
   points: 12
   stem:
     text: |-
-      设总体 $X$ 的概率密度 $ f(x;\theta)=\begin{cases}1, & \theta-\dfrac{1}{2}\leqslant x\leqslant \theta+\dfrac{1}{2}, \\ 0, & \text{\text{其他}},\end{cases}$ 其中 $-\infty < \theta < +\infty$。 $X_1, X_2, \cdots, X_n$ 为取自总体 $X$ 的简单随机样本，并记 $X_{(1)}=\min\{X_1, X_2, \cdots, X_n\}, X_{(n)}=\max\{X_1, X_2, \cdots, X_n\}$。 (1) 求参数 $\theta$ 的矩估计量 $\hat{\theta}_M$ 和最大似然估计量 $\hat{\theta}_L$； (2) 判断 $\dfrac{X_{(1)}+X_{(n)}}{2}$ 是否为 $\theta$ 的无偏估计量，并说明理由。
-content_hash: 89607af25371745cd3b1fd048a750f3a5474594e605020c2fc965ba455e35293
+      设总体 $X$ 的概率密度 $ f(x;\theta)=\begin{cases}1, & \theta-\dfrac{1}{2}\leqslant x\leqslant \theta+\dfrac{1}{2}, \\ 0, & \text{其他},\end{cases}$ 其中 $-\infty < \theta < +\infty$。 $X_1, X_2, \cdots, X_n$ 为取自总体 $X$ 的简单随机样本，并记 $X_{(1)}=\min\{X_1, X_2, \cdots, X_n\}, X_{(n)}=\max\{X_1, X_2, \cdots, X_n\}$。 (1) 求参数 $\theta$ 的矩估计量 $\hat{\theta}_M$ 和最大似然估计量 $\hat{\theta}_L$； (2) 判断 $\dfrac{X_{(1)}+X_{(n)}}{2}$ 是否为 $\theta$ 的无偏估计量，并说明理由。
+content_hash: 3967ffde78d8d1c6c4d48e36b92d98f42e9004593263fc00df96a800316119b1
