@@ -4,7 +4,6 @@ paper:
   year: 2025
   subject: math2
   paper_no: 8
-content_hash: b5a0d66dc8235fa267f46e7f6f0146b14e67a231cc04d3324eeea2a8c2f32c86
 questions:
 - number: 1
   section: choice
@@ -42,14 +41,14 @@ questions:
     text: 点 $(0,1)$ 为 $f(x)$ 的拐点
     figures: []
   - label: D
-    text: $f'(0)$ 为 $f(x)$ 的极大值
+    text: $f'(0)$ 为 $f'(x)$ 的极大值
     figures: []
 - number: 3
   section: choice
   points: 5
   stem:
     text: |-
-      设函数 $f(x)$ 在 $(-\infty,+\infty)$ 内连续，则关于 $F(x)=\dfrac{1}{x}\int_0^x f(t)\,\mathrm{d}t$ $(x\ne0)$ 的下列四个结论：①若 $f(x)$ 为奇函数，则 $F(x)$ 也是奇函数；②若 $f(x)$ 是以 $T(T>0)$ 为周期的周期函数，则 $F(x)$ 也是以 $T$ 为周期的周期函数；③$F(x)$ 是 $(0,1)$ 内的有界函数；④若 $f(x)$ 在 $(0,+\infty)$ 为单调递增函数，则 $F(x)$ 在 $(0,+\infty)$ 也为单调递增函数中正确的个数是\ExamSelection。
+      设函数 $f(x)$ 在 $(-\infty,+\infty)$ 内连续，则关于 $F(x)=\dfrac{1}{x}\int_0^x f(t)\,\mathrm{d}t$ $(x\ne0)$ 的下列四个结论：\n①若 $f(x)$ 为奇函数，则 $F(x)$ 也是奇函数；\n②若 $f(x)$ 是以 $T(T>0)$ 为周期的周期函数，则 $F(x)$ 也是以 $T$ 为周期的周期函数；\n③$F(x)$ 是 $(0,1)$ 内的有界函数；\n④若 $f(x)$ 在 $(0,+\infty)$ 为单调递增函数，则 $F(x)$ 在 $(0,+\infty)$ 也为单调递增函数中正确的个数是\ExamSelection。
   choices:
   - label: A
     text: '1'
@@ -190,7 +189,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设四阶矩阵 $A=(a_{ij})_{4\times4}$ 满足 $\sum_{j=1}^4a_{ij}=0\ (i=1,2,3,4)$，$M_{ij}$ 与 $A_{ij}$ 分别为元素 $a_{ij}$ 的余子式和代数余子式，下列四个式子中必成立有\ExamSelection{}个。①$M_{21}+M_{22}+M_{23}+M_{24}=0$；②$A_{21}+A_{22}+A_{23}+A_{24}=0$；③$M_{21}=M_{22}=M_{23}=M_{24}$；④$A_{21}=A_{22}=A_{23}=A_{24}$
+      设四阶矩阵 $A=(a_{ij})_{4\times4}$ 满足 $\sum_{j=1}^4a_{ij}=0\ (i=1,2,3,4)$，$M_{ij}$ 与 $A_{ij}$ 分别为元素 $a_{ij}$ 的余子式和代数余子式，下列四个式子中必成立有\ExamSelection{}个。\n①$M_{21}+M_{22}+M_{23}+M_{24}=0$；\n②$A_{21}+A_{22}+A_{23}+A_{24}=0$；\n③$M_{21}=M_{22}=M_{23}=M_{24}$；\n④$A_{21}=A_{22}=A_{23}=A_{24}$
   choices:
   - label: A
     text: '1'
@@ -233,7 +232,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设函数 $u=x^2+y^2+yz$，函数 $y=y(x)$，$z=z(x)$ 由方程组 $\begin{cases}e^{xy}-y+z=2,\ e^x-xz=0\end{cases}$ 确定，则 $\mathrm{d}u(1,0,1)=$ \ExamBlank。
+      设函数 $u=x^2+y^2+yz$，函数 $y=y(x)$，$z=z(x)$ 由方程组 $\begin{cases}e^{xy}-y+z=2,\ e^{yz}-xz=0\end{cases}$ 确定，则 $\mathrm{d}u(1,0,1)=$ \ExamBlank。
 - number: 16
   section: fill
   points: 5
@@ -273,14 +272,15 @@ questions:
   points: 12
   stem:
     text: |-
-      设 $D$ 是由 $x+y=2$ 与 $x$ 轴、$y$ 轴所围成的区域，计算 $I=\iint_D\left(e^{x-y}+\sin^3(x-y)\right)\,\mathrm{d}\sigma$。
+      设 $D$ 是由 $x+y=2$ 与 $x$ 轴、$y$ 轴所围成的区域，计算 $I=\iint_D\left(e^{-\frac{y}{x+y}}+\sin^3(x-y)\right)\,\mathrm{d}\sigma$。
 - number: 21
   section: solution
   points: 12
   stem:
     text: 证明：
   subparts:
-  - text: 证明方程 $(x+1)^{x+1}=e^x$ 有唯一正根。
+  - text: |-
+      证明方程 $(x+1)^{x+1}=e\,x^{x}$ 有唯一正根。
   - text: |-
       设 $0<x<1$，证明 $1<\left(1+\dfrac{1}{x}\right)^x(1+x)<4$。
 - number: 22
@@ -291,3 +291,4 @@ questions:
   subparts:
   - text: 求二次型 $f(x_1,x_2,x_3)$ 的正负惯性指数；
   - text: 当 $b=1$ 时，求正交变换 $x=Py$ 将二次型 $f(x_1,x_2,x_3)$ 化为标准形。
+content_hash: dd62cc704a73789f3923cdc53fd5f2ca2b8dcec5d666e9beee947cdd2a1fc182

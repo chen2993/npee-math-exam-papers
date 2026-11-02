@@ -1,0 +1,287 @@
+schema_version: '3.0'
+paper:
+  series_key: zhangyu4
+  year: 2023
+  subject: math1
+  paper_no: 4
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $I = \lim\limits_{x \to 0} \left( \dfrac{\mathrm{e}^x + \mathrm{e}^{2x} + \cdots + \mathrm{e}^{nx}}{n} \right)^{\dfrac{n}{x}}$ $,J = \lim\limits_{x \to +\infty} \left[ \dfrac{x^n}{(x-1)(x-2)\cdots(x-n)} \right]^x$，其中 $n$ 为正整数，则
+  choices:
+  - label: A
+    text: $I = J$
+    figures: []
+  - label: B
+    text: $I = J^{-1}$
+    figures: []
+  - label: C
+    text: $I = J^n$
+    figures: []
+  - label: D
+    text: $I = J^{-n}$
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)$ 是 $\dfrac{\sin x}{x}$ 的一个原函数，且 $f(1) = 0$，则 $\int_0^1 x f(x) \mathrm{d}x = $
+  choices:
+  - label: A
+    text: |-
+      $-\dfrac{1}{2}\cos 1 - \dfrac{1}{2}\sin 1$
+    figures: []
+  - label: B
+    text: |-
+      $-\dfrac{1}{2}\cos 1 + \dfrac{1}{2}\sin 1$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{1}{2}\cos 1 - \dfrac{1}{2}\sin 1$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{1}{2}\cos 1 + \dfrac{1}{2}\sin 1$
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $I_k=\int_{(k-1)\pi}^{k\pi}\left|\dfrac{\sin x}{x}\right|\mathrm{d}x, k=1,2,3$，则
+  choices:
+  - label: A
+    text: $I_1 < I_2 < I_3$
+    figures: []
+  - label: B
+    text: $I_2 < I_3 < I_1$
+    figures: []
+  - label: C
+    text: $I_2 < I_1 < I_3$
+    figures: []
+  - label: D
+    text: $I_3 < I_2 < I_1$
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      无穷级数 $\sum_{n=1}^{\infty} \int_{0}^{1}(1-\sqrt{x})^{n} \mathrm{d}x$ 的和为
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{1}{2}$
+    figures: []
+  - label: B
+    text: $1$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{3}{2}$
+    figures: []
+  - label: D
+    text: $2$
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 2 阶实对称矩阵 $A$ 有二重特征值 $\lambda$, $\alpha_1, \alpha_2$ 是 $A$ 对应于特征值 $\lambda$ 的两个正交的特征向量, 且 $(\alpha_1)^2 = k_1, (\alpha_2)^2 = k_2$, 则 $A + \alpha_1 \alpha_1^{\mathrm{T}}$ 相似于对角矩阵
+  choices:
+  - label: A
+    text: |-
+      $\begin{pmatrix} \lambda & 0 \\ 0 & \lambda \end{pmatrix}$
+    figures: []
+  - label: B
+    text: |-
+      $\begin{pmatrix} \lambda + k_1 & 0 \\ 0 & \lambda \end{pmatrix}$
+    figures: []
+  - label: C
+    text: |-
+      $\begin{pmatrix} \lambda & 0 \\ 0 & \lambda + k_2 \end{pmatrix}$
+    figures: []
+  - label: D
+    text: |-
+      $\begin{pmatrix} \lambda + k_1 & 0 \\ 0 & \lambda + k_2 \end{pmatrix}$
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 为 3 阶矩阵，已知线性方程组 $Ax = \begin{pmatrix} 1 \\ 2 \\ -1 \end{pmatrix}$ 的通解为 $x = \begin{pmatrix} 1 \\ 0 \\ 0 \end{pmatrix} + k_1 \begin{pmatrix} -1 \\ 1 \\ 0 \end{pmatrix} + k_2 \begin{pmatrix} 1 \\ 0 \\ 1 \end{pmatrix}$，其中 $k_1, k_2$ 为任意常数，则 $\operatorname{tr}[(A-E)^*] = $
+  choices:
+  - label: A
+    text: '1'
+    figures: []
+  - label: B
+    text: '-1'
+    figures: []
+  - label: C
+    text: '5'
+    figures: []
+  - label: D
+    text: '-5'
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 是 $m \times n$ 矩阵，且 $n$ 维列向量组 $\alpha_1, \alpha_2, \cdots, \alpha_s$ 线性无关，则下列对 $m$ 维列向量组 $A\alpha_1, A\alpha_2, \cdots, A\alpha_s$ 的描述 ①若 $r(A) = n$，则向量组 $A\alpha_1, A\alpha_2, \cdots, A\alpha_s$ 必线性无关； ②若 $r(A) < n$，则向量组 $A\alpha_1, A\alpha_2, \cdots, A\alpha_s$ 必线性相关. 正确的是
+  choices:
+  - label: A
+    text: ①正确，②也正确
+    figures: []
+  - label: B
+    text: ①正确，但②不正确
+    figures: []
+  - label: C
+    text: ①不正确，但②正确
+    figures: []
+  - label: D
+    text: ①不正确，②也不正确
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设随机变量 $X$ 的概率密度为 $f(x)=\begin{cases} \dfrac{x}{12}, & 1<x<5, \\ 0, & \text{\text{其他}}, \end{cases}$ 则函数 $\varphi(x)=\dfrac{x^2-3x+X}{x^3-3x^2+X}$ 有 3 个间断点的概率为
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{5}{8}$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{3}{8}$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{3}{4}$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{2}{3}$
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $X,Y$ 均服从标准正态分布 $N(0,1)$，相关系数 $\rho_{XY} = \dfrac{1}{2}$，令 $Z_1 = aX, Z_2 = bX + cY$，若 $D(Z_1) = D(Z_2) = 1$，且 $Z_1$ 与 $Z_2$ 不相关，则 $a,b,c$ 的取值不可以是
+  choices:
+  - label: A
+    text: |-
+      $a = 1, b = \dfrac{1}{\sqrt{3}}, c = -\dfrac{2}{\sqrt{3}}$
+    figures: []
+  - label: B
+    text: |-
+      $a = 1, b = -\dfrac{1}{\sqrt{3}}, c = \dfrac{2}{\sqrt{3}}$
+    figures: []
+  - label: C
+    text: |-
+      $a = -1, b = \dfrac{1}{\sqrt{3}}, c = -\dfrac{2}{\sqrt{3}}$
+    figures: []
+  - label: D
+    text: |-
+      $a = -1, b = -\dfrac{1}{\sqrt{3}}, c = -\dfrac{2}{\sqrt{3}}$
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设总体 $X$ 在 $(a, b)$ 上服从均匀分布，其中 $a, b$ 为未知参数，若对于 $X$ 的一组样本观测值 $x_1, x_2, \cdots, x_{10}$ $,a, b$ 的矩估计值分别为 $\hat{a} = 2.6, \hat{b} = 6.2$，则该样本的样本方差为
+  choices:
+  - label: A
+    text: '0.972'
+    figures: []
+  - label: B
+    text: '1.08'
+    figures: []
+  - label: C
+    text: '1.2'
+    figures: []
+  - label: D
+    text: '1.8'
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $\lim\limits_{n\to\infty}\left[\left(1+\dfrac{1}{n^2}\right)\left(1+\dfrac{4}{n^2}\right)\cdots\left(1+\dfrac{n^2}{n^2}\right)\right]^{\dfrac{1}{n}}=\underline{\hspace{2cm}}.$
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设函数 $y=y(x)$ 满足方程 $y''-2y'+5y=0$，且 $\lim_{x \to 0}\dfrac{y(x)-2}{x}=2$，则 $\int y(x) \mathrm{d}x =\underline{\hspace{2cm}}$。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      曲线 $y = \mathrm{e}^{-\dfrac{\pi}{2}}\sqrt{\sin x}$ 在 $[0, 2\pi]$ 部分与 $x$ 轴围成的图形绕 $x$ 轴旋转一周所成的旋转体的体积为 lank
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: 设二元函数 $f(u,v)$ 可微$,f(3,2)=1, f_1'(3,2)=2, f_2'(3,2)=3$，则曲面 $z=yf(2x-y,xy)$ 在点 $(2,1,1)$ 处的法线方程为______
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $A, B$ 是 $3$ 阶矩阵$,\alpha, \beta$ 是两个线性无关的 $3$ 维列向量，已知 $A \sim B$，且 $|B| = 0, A\alpha = \beta, A\beta = \alpha$，则 $|A + 4B + 2AB + 2E| = \underline{\hspace{2cm}}$
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设二维随机变量 $(X, Y) \sim N\left(0, 0; \dfrac{1}{25}, \dfrac{1}{25}; 0\right)$，则 $D(|3X - 4Y|) = \underline{\quad\quad\quad\quad\quad\quad}$
+- number: 17
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 $y=y(x)$ 是由方程 $\mathrm{e}^{-y}-y+\int_0^x (\mathrm{e}^{-t^2}+1)\mathrm{d}t=1$ 确定的. (1) 证明 $y(x)$ 是单调增加函数; (2) 当 $x\to+\infty$ 时, 曲线 $y=y'(x)$ 是否有水平渐近线? 若有, 求出其水平渐近线; 若没有, 说明理由
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 $f(x,y)$ 具有二阶连续偏导数，且满足 $f(x,0)=x^2, f'_y(x,0)=\sqrt{2}x, f''_{yy}(x,y)=4$，求 $f(x,y)$ 在限制条件 $x^2+2y^2=4$ 下的最大值与最小值
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      在半径为 $a$ 的均匀半球体的圆形平面一侧拼接一个底半径及高均与球半径相等的圆锥体，记拼接后的整个立体为 $\Omega$ $,\Omega$ 的整个边界曲面为 $\Sigma$．求： (1) $\Omega$ 的形心； (2) $\Sigma$ 的形心．
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设幂级数 $\sum_{n=1}^{\infty} a_n x^{2n}$ 的和函数为 $S(x)(-\infty<x<+\infty)$，已知 $S(x)$ 满足方程 $\int_0^x S(t)dt + S'(x) = 2\sin x$，且 $S(0)=0$， 求： (1) $S(x)$ 的解析式； (2) 级数 $\sum_{n=1}^{\infty} (2n+1)a_n$ 的和
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设二次型 $f(x_1,x_2,x_3)$ 的矩阵为 $A$，已知 $|A+E|=0,AB-2B=O$，其中 $B=\begin{pmatrix} -1 & -1 & -1 \\ 1 & 0 & 2 \\ 0 & 1 & -1 \end{pmatrix}$
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设总体 $X$ 的概率密度为 $f(x; \theta) = \begin{cases} \theta, & 0 < x < 1, \\ 1 - \theta, & 1 \leqslant x < 2, \\ 0, & \text{\text{其他}}, \end{cases}$ 其中 $\theta$ 是未知参数 $(0 < \theta < 1)$. $X_1, X_2, \cdots, X_n$ 为来自总体 $X$ 的简单随机样本, 记 $N$ 为样本值 $x_1, x_2, \cdots, x_n$ 中小于 $1$ 的个数. 求: (1) $\theta$ 的矩估计量 $\widehat{\theta}_M$ 及 $E(\widehat{\theta}_M)$; (2) $\theta$ 的最大似然估计量 $\widehat{\theta}_L$ 及 $E(\widehat{\theta}_L)$
+content_hash: fec4efafe97981813a62ecdff58698d9574426dd22a82e03a5532e1218229c9c

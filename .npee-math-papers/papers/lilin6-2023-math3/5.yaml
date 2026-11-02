@@ -1,0 +1,290 @@
+schema_version: '3.0'
+paper:
+  series_key: lilin6
+  year: 2023
+  subject: math3
+  paper_no: 5
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设可导函数 $f(x)$ 在 $[a,b]$ 上满足 $f(x)>0,f'(x)>0$，则 $\lim\limits_{b\to a^{+}}\dfrac{\ln f(b)-\ln f(a)}{f(b)-f(a)}=(\quad)$
+  choices:
+  - label: A
+    text: $f(a)$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{1}{f(a)}$
+    figures: []
+  - label: C
+    text: $f'_+(a)$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{1}{f'_+(a)}$
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $\lim_{x \to \infty} f'(x) = 0$，且 $\lim_{x \to \infty} \left( \dfrac{ax^2}{1+x} - bx - 1 \right) = \lim_{x \to \infty} [f(x+1) - f(x)]$，则曲线 $y = \dfrac{ax^2}{1+x}$ 的斜渐近线方程为（ ）
+  choices:
+  - label: A
+    text: $y = -x + 1$
+    figures: []
+  - label: B
+    text: $y = x + 1$
+    figures: []
+  - label: C
+    text: $y = -x - 1$
+    figures: []
+  - label: D
+    text: $y = x - 1$
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $I_1=\int_0^1 \ln(1+x) \mathrm{d}x, I_2=\int_0^1 \dfrac{\arctan x}{1+x} \mathrm{d}x, I_3=\int_0^1 \sqrt{\ln(1+x)} \mathrm{d}x$，则（\quad ）
+  choices:
+  - label: A
+    text: $I_3 > I_2 > I_1$
+    figures: []
+  - label: B
+    text: $I_3 > I_1 > I_2$
+    figures: []
+  - label: C
+    text: $I_1 > I_2 > I_3$
+    figures: []
+  - label: D
+    text: $I_2 > I_3 > I_1$
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设积分 $I = \int_{0}^{+\infty} \dfrac{\ln(1+x)}{x^p} \mathrm{d}x$ 收敛，则 ( )
+  choices:
+  - label: A
+    text: $1 < p < 2$
+    figures: []
+  - label: B
+    text: $0 < p < 2$
+    figures: []
+  - label: C
+    text: |-
+      $0 < p \leqslant 1$
+    figures: []
+  - label: D
+    text: $p > 1$
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)$ 在 $[0,1]$ 上可导，且 $f'(x) > 0$ $,F(x) = \int_0^1 |f(x) - f(t)| dt$，则在 $[0,1]$ 上有（ ）
+  choices:
+  - label: A
+    text: |-
+      $F(x) \geqslant F\left(\dfrac{1}{2}\right)$
+    figures: []
+  - label: B
+    text: |-
+      $F(x) \leqslant F\left(\dfrac{1}{2}\right)$
+    figures: []
+  - label: C
+    text: |-
+      $F\left(\dfrac{1}{2}\right) \geqslant F(0)$
+    figures: []
+  - label: D
+    text: |-
+      $F(1) \leqslant F\left(\dfrac{1}{2}\right)$
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: 下列选项中正确的是（ ）
+  choices:
+  - label: A
+    text: |-
+      若 $\sum_{n=1}^{\infty} a_n$ 收敛$,\lim_{n \to \infty} b_n = 1$，则 $\sum_{n=1}^{\infty} a_n b_n$ 发散
+    figures: []
+  - label: B
+    text: |-
+      若 $\sum_{n=1}^{\infty} a_n$ 收敛$,\sum_{n=1}^{\infty} b_n$ 收敛，则 $\sum_{n=1}^{\infty} a_n b_n$ 收敛
+    figures: []
+  - label: C
+    text: |-
+      若 $\sum_{n=1}^{\infty} |a_n|$ 收敛$,\lim_{n \to \infty} b_n = 1$，则 $\sum_{n=1}^{\infty} a_n b_n$ 收敛
+    figures: []
+  - label: D
+    text: |-
+      若 $\sum_{n=1}^{\infty} a_n$ 收敛$,\sum_{n=1}^{\infty} b_n$ 发散，则 $\sum_{n=1}^{\infty} a_n b_n$ 发散
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: 设 $3$ 阶实对称矩阵 $A$ 不可逆，且 $A+E, E-2A$ 均不可逆，则 $A, A+E, E-2A$ 的秩依次为（ ）
+  choices:
+  - label: A
+    text: $2, 2, 2$
+    figures: []
+  - label: B
+    text: $2, 1, 1$
+    figures: []
+  - label: C
+    text: $1, 2, 1$
+    figures: []
+  - label: D
+    text: $1, 1, 2$
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: 设 $f(x_1,x_2,x_3)=(ax_1+2x_2-3x_3)^2+(x_2-2x_3)^2+(x_1+ax_2-x_3)^2$ 是正定二次型，则 ( )
+  choices:
+  - label: A
+    text: |-
+      $a \neq 1$ 且 $a \neq -\dfrac{1}{2}$
+    figures: []
+  - label: B
+    text: |-
+      $a \neq -1$ 且 $a \neq \dfrac{1}{2}$
+    figures: []
+  - label: C
+    text: |-
+      $a \neq \dfrac{1}{2}$ 且 $a \neq 1$
+    figures: []
+  - label: D
+    text: |-
+      $a \neq \dfrac{1}{2}$ 且 $a \neq 0$
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $X \sim N(\mu, \sigma^2)$ $,\Phi(x)$ 为 $N(0,1)$ 的分布函数，若在 $x=1$ 处$,X$ 的概率密度函数 $f(x)$ 取得最大值 $\dfrac{1}{\sqrt{\pi}}$，则 $P\{1-\sqrt{2} < X < 1+\sqrt{2}\} = (\quad)$
+  choices:
+  - label: A
+    text: |-
+      $\Phi(2)$
+    figures: []
+  - label: B
+    text: |-
+      $2\Phi(2) - 1$
+    figures: []
+  - label: C
+    text: |-
+      $1 - \Phi(2)$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{1}{2}\Phi(2)$
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $X_1, X_2, X_3, X_4$ 为来自总体 $N(1, \sigma^2) (\sigma > 0)$ 的简单随机样本$,\overline{X}$ 为样本均值$,S^2$ 为样本方差，则下列选项中正确的是（ ）
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{X_1 - X_2}{|X_3 + X_4 - 2|} \sim t(2)$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{4(\overline{X}-1)^2}{\sigma^2} \sim \chi^2(2)$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{4(\overline{X}-1)^2}{S^2} \sim F(3,1)$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{(X_1 - X_2)^2 + (X_3 - X_4)^2}{2\sigma^2} \sim E\left(\dfrac{1}{2}\right)$
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $f(x) = \arctan \dfrac{1+x}{1-x}$ $,n$ 为正整数，则 $f^{(2n+1)}(0) = \underline{\qquad}$。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)$ 有连续导数，且 $f(0)=f'(0)=1$，则 $\lim\limits_{x \to 0} \dfrac{f(\sin x)-1}{\ln f(x)} = \underline{\hspace{1.5cm}}$
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设某公司的总成本函数为 $C=C(Q)=\dfrac{1}{2} Q^{2}+36 Q+9800$，则最低平均成本为\underline{\qquad\qquad}
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $f(x) = \lim\limits_{t \to \infty} x \left( 1 + \dfrac{1}{t} \right)^{2xt}$，则曲线 $y = f(x)$ 的拐点为 \underline{\qquad\qquad}
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $A=\begin{pmatrix} 0 & 0 & 1 \\ a & 1 & b \\ 1 & 0 & 0 \end{pmatrix}$ 有三个线性无关的特征向量，则 $a+b=\_\_\_\_\_\_\_\_$
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $X_1, X_2, \cdots, X_n$ 为来自总体 $X \sim B(N, p)(0 < p < 1)$ 的简单随机样本, 则 $p$ 的最大似然估计量 $\hat{p} = \underline{\hspace{2.5cm}}$
+- number: 17
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      已知 $\lim\limits_{x \to +\infty} \dfrac{\mathrm{e}^{x^2}}{x} \left( \int_0^x t^2 \mathrm{e}^{-t^2} \mathrm{d}t + b \right) = a$，求 $a, b$ 的值
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设曲线 $y=x\sin x$ 在 $[0,n\pi](n=1,2,\cdots)$ 上与 $x$ 轴所围成的面积为 $S_n$, 求 $\lim\limits_{n\to\infty}\left[\dfrac{S_n}{\pi(n+1)^2}\right]^n$
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $D=\{(x,y) \mid 0\leqslant x\leqslant 1, 0\leqslant y\leqslant x\}$，计算 $I=\iint_{D} \arcsin(2\sqrt{x-x^2})\mathrm{d}x\mathrm{d}y$。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设在上半平面的曲线 $y=y(x)\left(x>-\dfrac{1}{2}\right)$ 上任一点 $M(x,y)$ 处的切线与 $x$ 轴交于点 $N$, 且满足 $|OM|=|ON|, y(0)=1, y'(x)>0$. 求 $y=y(x)$
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      已知矩阵 $B = \begin{pmatrix} b_{11} & b_{12} & b_{13} \\ b_{21} & b_{22} & b_{23} \\ b_{31} & b_{32} & b_{33} \end{pmatrix}$ 可逆$,A$ 是 $3$ 阶矩阵，满足 $AB = \begin{pmatrix} b_{11} & -4b_{13} & -b_{12} \\ b_{21} & -4b_{23} & -b_{22} \\ b_{31} & -4b_{33} & -b_{32} \end{pmatrix}$. (I) 求 $A$ 的全部特征值； (II) 求可逆矩阵 $P$(用 $B$ 表示)，使得 $P^{-1}AP = \Lambda$($\Lambda$ 为对角矩阵)
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      随机变量 $Z \sim U[-\pi, \pi]$ $,(X, Y)$ 的概率密度为 $f(x, y) = \dfrac{1}{k} (1 + \sin x \sin y) \mathrm{e}^{-\dfrac{1}{2}(x^2+y^2)} \ (k > 0), x, y \in \mathbf{R}$. (I) 求 $k$ 的值，并判别 $X$ 与 $Y$ 是否相互独立，说明理由； (II) 若 $X$ 与 $Z$ 相互独立，求 $V = X + Z$ 的概率密度
+content_hash: 53373fe9526324729bc9645cff242bc63b1669f88b4e180edf8bfaaeb1d110cf

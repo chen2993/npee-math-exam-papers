@@ -4,33 +4,32 @@ paper:
   year: 2024
   subject: math2
   paper_no: 2
-content_hash: 9f4da3d9d24aeba0ef6ac6f60861069f35f655416ecc598e59c39875dd609f3d
 questions:
 - number: 1
   section: choice
   points: 5
   stem:
     text: |-
-      方程 $\int_{-\pi}^{x}t\ln(2+\sin^2t)\,\mathrm{d}t=0$ 的实根个数为\ExamSelection。
+      方程 $\int_{-\pi}^x t\ln(2+\sin^2t)dt=0$ 的实根个数为( )
   choices:
   - label: A
-    text: $1$
+    text: '1'
     figures: []
   - label: B
-    text: $2$
+    text: '2'
     figures: []
   - label: C
-    text: $3$
+    text: '3'
     figures: []
   - label: D
-    text: $4$
+    text: '4'
     figures: []
 - number: 2
   section: choice
   points: 5
   stem:
     text: |-
-      设 $f(x)=\begin{cases}1,&0\le x\le1,\\2,&1<x<2,\\x,&2\le x\le3,\end{cases}$，$\Phi(x)=\int_0^x f(t)\,\mathrm{d}t$，$x\in[0,3]$，则 $\Phi(x)$\ExamSelection。
+      设 $f(x)=\begin{cases} 1, & 0\leqslant x\leqslant 1, \\ 2, & 1<x<2, \\ x, & 2\leqslant x\leqslant 3, \end{cases} \Phi(x)=\int_{0}^{x} f(t)dt, x\in [0,3]$，则 $\Phi(x)(\quad)$。
   choices:
   - label: A
     text: 在 $x=1$ 处可导，在 $x=2$ 处可导
@@ -49,14 +48,14 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $p,q$ 为常数且 $0<p\le q$，若反常积分 $\int_0^{+\infty}\dfrac{1}{x^p+x^q}\,\mathrm{d}x$ 收敛，则\ExamSelection。
+      设 $p,q$ 为常数且 $0<p \leqslant q$, 若反常积分 $\int_0^{+\infty} \dfrac{1}{x^p+x^q} \mathrm{d}x$ 收敛, 则 $(\quad)$
   choices:
   - label: A
     text: $p=q$
     figures: []
   - label: B
     text: |-
-      $p<q\le1$
+      $p<q \leqslant 1$
     figures: []
   - label: C
     text: $1<p<q$
@@ -69,26 +68,26 @@ questions:
   points: 5
   stem:
     text: |-
-      函数 $f(x,y)$ 具有连续的偏导数，已知 $f_x'(x,y)>0,f_y'(x,y)<0$，如果 $a=f(1,1),b=f(1,-1),c=f(-1,1),d=f(-1,-1)$ 四个数中最大的是 $M$、最小的是 $m$，则有\ExamSelection。
+      函数 $f(x,y)$ 具有连续的偏导数, 已知 $f_x^{\prime}(x,y)>0, f_y^{\prime}(x,y)<0$, 如果 $a=f(1,1), b=f(1,-1), c=f(-1,1), d=f(-1,-1)$ 四个数中最大的是 $M$, 最小的是 $m$, 则有 ( )
   choices:
   - label: A
-    text: $M=a,m=d$
+    text: $M=a, m=d$
     figures: []
   - label: B
-    text: $M=b,m=c$
+    text: $M=b, m=c$
     figures: []
   - label: C
-    text: $M=b,m=d$
+    text: $M=b, m=d$
     figures: []
   - label: D
-    text: $M=a,m=c$
+    text: $M=a, m=c$
     figures: []
 - number: 5
   section: choice
   points: 5
   stem:
     text: |-
-      “对任意的 $\varepsilon>0$，只有有限个 $x_n\notin(a-2\varepsilon,a+2\varepsilon)$”是“$\lim_{n\to\infty}x_n=a$”的\ExamSelection。
+      “对任意的 $\varepsilon > 0$, 只有有限个 $x_n \notin (a-2\varepsilon,a+2\varepsilon)$” 是 “$\lim\limits_{n \to \infty} x_n = a$” 的 ( )
   choices:
   - label: A
     text: 充分而非必要条件
@@ -107,30 +106,29 @@ questions:
   points: 5
   stem:
     text: |-
-      设函数 $f(x)$ 在 $[0,+\infty)$ 上连续，在 $(0,+\infty)$ 内可导，下列结论中正确的为\ExamSelection。
+      设函数 $f(x)$ 在 $[0, +\infty)$ 上连续，在 $(0, +\infty)$ 内可导，下列结论中正确的为（ ）．
   choices:
   - label: A
     text: |-
-      若 $f(0)=0$，则 $\lim_{x\to0^+}\dfrac{f(x)}{x}$ 存在
+      若 $f(0)=0$，则 $\lim_{x \to 0^+} \dfrac{f(x)}{x}$ 存在
     figures: []
   - label: B
     text: |-
-      若 $\lim_{x\to+\infty}\dfrac{f(x)}{x}=1$，则 $\lim_{x\to+\infty}f'(x)=1$
+      若 $\lim_{x \to +\infty} \dfrac{f(x)}{x} = 1$，则 $\lim_{x \to +\infty} f'(x) = 1$
     figures: []
   - label: C
     text: |-
-      若 $\dfrac{f(x)-f(0)}{x}$ 在 $(0,+\infty)$ 内单调下降，则 $f'(x)$ 在 $(0,+\infty)$ 内单调下降
+      若 $\dfrac{f(x)-f(0)}{x}$ 在 $(0, +\infty)$ 内单调下降，则 $f'(x)$ 在 $(0, +\infty)$ 内单调下降
     figures: []
   - label: D
     text: |-
-      若 $f(x)$ 在 $[0,+\infty)$ 上单调增加，且 $\lim_{x\to+\infty}\dfrac{1}{x}\int_0^x f(t)\,\mathrm{d}t=1$，则 $\lim_{x\to+\infty}f(x)=1$
+      若 $f(x)$ 在 $[0, +\infty)$ 上单调增加，且 $\lim_{x \to +\infty} \dfrac{1}{x} \int_0^x f(t)dt = 1$，则 $\lim_{x \to +\infty} f(x) = 1$
     figures: []
 - number: 7
   section: choice
   points: 5
   stem:
-    text: |-
-      下列二阶线性微分方程中，通解包含 $y'+y=x$ 的通解的是\ExamSelection。
+    text: 下列二阶线性微分方程中，通解包含 $y'+y=x$ 的通解的为 ( )
   choices:
   - label: A
     text: $y''-y'-2y=1-2x$
@@ -149,7 +147,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $A,B$ 为 $n$ 阶方阵，$E$ 为 $n$ 阶单位矩阵。若 $(A+B)^2=E$ 且 $B$ 可逆，则 $(E+AB^{-1})^{-1}=$\ExamSelection。
+      设 $A,B$ 为 $n$ 阶方阵, $E$ 为 $n$ 阶单位矩阵. 若 $(A+B)^2=E$ 且 $B$ 可逆, 则 $(E+AB^{-1})^{-1}=(\quad)$
   choices:
   - label: A
     text: $B(A+B)$
@@ -168,7 +166,7 @@ questions:
   points: 5
   stem:
     text: |-
-      已知向量组（Ⅰ）：$\beta_1=(0,1,-1)^{\mathsf T},\beta_2=(a,2,2)^{\mathsf T},\beta_3=(b,1,1)^{\mathsf T}$ 与向量组（Ⅱ）：$\alpha_1=(1,2,0)^{\mathsf T},\alpha_2=(3,1,5)^{\mathsf T},\alpha_3=(2,-1,5)^{\mathsf T}$ 的秩相等，且 $\beta_3$ 可由 $\alpha_1,\alpha_2$ 线性表示，则\ExamSelection。
+      已知向量组 $(I):\beta_1=(0,1,-1)^T,\beta_2=(a,2,2)^T,\beta_3=(b,1,1)^T$ 与向量组 $(II):\alpha_1=(1,2,0)^T,\alpha_2=(3,1,5)^T,\alpha_3=(2,-1,5)^T$ 的秩相等, 且 $\beta_3$ 可由 $\alpha_1,\alpha_2$ 线性表示, 则 ( )
   choices:
   - label: A
     text: $a=0,b=2$
@@ -187,93 +185,94 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $A$ 为 $n$ 阶正定矩阵，$\alpha$ 为 $n$ 维非零列向量，则线性方程组 $\begin{pmatrix}A&\alpha\\\alpha^{\mathsf T}&0\end{pmatrix}x=0$ 的基础解系中含有\ExamSelection。
+      设 $A$ 为 $n$ 阶正定矩阵, $\alpha$ 为 $n$ 维非零列向量, 则 ( )
   choices:
   - label: A
-    text: $1$ 个解向量
+    text: |-
+      线性方程组 $\begin{pmatrix} A & \alpha \\ \alpha^T & 0 \end{pmatrix} x = 0$ 的基础解系中含有 $1$ 个解向量
     figures: []
   - label: B
-    text: $n-1$ 个解向量
+    text: |-
+      线性方程组 $\begin{pmatrix} A & \alpha \\ \alpha^T & 0 \end{pmatrix} x = 0$ 的基础解系中含有 $n-1$ 个解向量
     figures: []
   - label: C
-    text: $n$ 个解向量
+    text: |-
+      线性方程组 $\begin{pmatrix} A & \alpha \\ \alpha^T & 0 \end{pmatrix} x = 0$ 的基础解系中含有 $n$ 个解向量
     figures: []
   - label: D
-    text: 只有零解
+    text: |-
+      线性方程组 $\begin{pmatrix} A & \alpha \\ \alpha^T & 0 \end{pmatrix} x = 0$ 只有零解
     figures: []
 - number: 11
   section: fill
   points: 5
   stem:
     text: |-
-      设曲线 $y=y(x)$ 过点 $(1,1)$ 且满足方程 $xy'-2y=x^3$，则此曲线在点 $(1,1)$ 处的曲率等于 \ExamBlank。
+      设曲线 $y=y(x)$ 过点 $(1,1)$ 且满足方程 $xy'-2y=x^3$，则此曲线在点 $(1,1)$ 处的曲率等于$\underline{\qquad}$
 - number: 12
   section: fill
   points: 5
   stem:
     text: |-
-      $\lim_{n\to\infty}\sum_{i=1}^{n}\dfrac{i e^{i/n}}{n^2+i}=$ \ExamBlank。
+      $\lim_{n\to\infty} \sum_{i=1}^n \dfrac{i e^{\dfrac{i}{n}}}{2i} = \underline{\hspace{2cm}}.$
 - number: 13
   section: fill
   points: 5
   stem:
     text: |-
-      设函数 $f(x)$ 具有二阶连续导数，曲线 $y=f(x)$ 的图形既关于 $y$ 轴对称，也关于直线 $x=1$ 对称，则 $\int_{-2}^{2}(x-2024)f''(x)\,\mathrm{d}x=$ \ExamBlank。
+      设函数 $f(x)$ 具有二阶连续导数，曲线 $y=f(x)$ 的图形既关于 $y$ 轴对称，也关于直线 $x=1$ 对称，则 $\int_{-2}^2(x-2024)f''(x)\mathrm{d}x=\underline{\qquad\qquad}.$
 - number: 14
   section: fill
   points: 5
   stem:
     text: |-
-      由 $x^2+y^2=1\,(y\ge0),x=-1,x=1,y=-1$ 所围的平面图形 $D$ 的形心坐标为 \ExamBlank。
+      由 $x^2+y^2=1(y\geqslant 0),x=-1,x=1,y=-1$ 所围的平面图形 $D$ 的形心坐标为 $\underline{\quad\quad\quad\quad\quad\quad}$
 - number: 15
   section: fill
   points: 5
   stem:
     text: |-
-      设 $e^z=(x^2-1)z+x(2+y)-1$ 确定了 $z=z(x,y)$，则 $\left.\mathrm{d}z\right|_{(1,0)}=$ \ExamBlank。
+      设 $\mathrm{e}^z = (x^2 - 1)z + x(2 + y) - 1$ 确定了 $z = z(x, y)$，则 $\left. \mathrm{d}z \right|_{(1,0)} = \underline{\hspace{2.5cm}}$
 - number: 16
   section: fill
   points: 5
   stem:
     text: |-
-      设 $A$ 为三阶实矩阵，$\alpha_1,\alpha_2,\alpha_3$ 为线性无关的三维列向量，且 $A\alpha_1=\alpha_1+\alpha_2,A\alpha_2=\alpha_2+\alpha_3,A\alpha_3=\alpha_1+\alpha_3$，则 $|A|=$ \ExamBlank。
+      设 $A$ 为三阶实矩阵, $\alpha_1, \alpha_2, \alpha_3$ 为线性无关的三维列向量, 且 $A\alpha_1 = \alpha_1 + \alpha_2, A\alpha_2 = \alpha_2 + \alpha_3, A\alpha_3 = \alpha_1 + \alpha_3$, 则 $|A| = \underline{\qquad\qquad}$
 - number: 17
   section: solution
-  points: 10
+  points: 12
   stem:
     text: |-
-      设 $F(x)=\int_0^x\dfrac{t-\arctan t}{t}\,\mathrm{d}t,G(x)=\int_0^x\dfrac{\arcsin t-t}{t}\,\mathrm{d}t$，试求 $\lim_{x\to0}\dfrac{F(x)}{x^3}$、$\lim_{x\to0}\dfrac{G(x)}{x^3}$、$\lim_{x\to0}\dfrac{F(G(x))}{G(F(x))}$。
+      设 $F(x)=\int_{0}^{x}\dfrac{t-\arctan t}{t}\mathrm{d}t, G(x)=\int_{0}^{x}\dfrac{\arcsin t-t}{t}\mathrm{d}t$，试求 $\lim\limits_{x\to 0}\dfrac{F(x)}{x^3},\lim\limits_{x\to 0}\dfrac{G(x)}{x^3},\lim\limits_{x\to 0}\dfrac{F(G(x))}{G(F(x))}$。
 - number: 18
   section: solution
   points: 12
   stem:
     text: |-
-      设 $z=f(e^x\cos y,e^x\sin y)+g(xy)$，其中 $f$ 具有二阶连续的偏导数，$g$ 二阶可导，求 $\dfrac{\partial^2z}{\partial x^2}+\dfrac{\partial^2z}{\partial y^2}$。
+      设 $z = f(\mathrm{e}^x \cos y, \mathrm{e}^x \sin y) + g(xy)$, 其中 $f$ 具有二阶连续的偏导数, $g$ 二阶可导, 求 $\dfrac{\partial^2 z}{\partial x^2} + \dfrac{\partial^2 z}{\partial y^2}$
 - number: 19
   section: solution
   points: 12
   stem:
     text: |-
-      （1）计算 $I=\int_0^{\dfrac{1}{2}}\mathrm{d}y\int_y^{\dfrac{1}{2}}\dfrac{\ln(1+x)}{x}\,\mathrm{d}x$；（2）求 $f(x)=\ln(1+x)$ 的二阶麦克劳林公式 $\ln(1+x)=a+bx+cx^2+R_2(x)$，并计算 $\int_0^{\dfrac{1}{2}}\mathrm{d}y\int_y^{\dfrac{1}{2}}\dfrac{R_2(x)}{x}\,\mathrm{d}x$。
+      (1) 计算 $I = \int_0^{\dfrac{1}{2}} \mathrm{d}y \int_y^{\dfrac{1}{2}} \dfrac{\ln(1+x)}{x} \mathrm{d}x$; (2) 求 $f(x) = \ln(1+x)$ 二阶麦克劳林公式 $\ln(1+x) = a + bx + cx^2 + R_2(x)$, 计算 $\int_0^{\dfrac{1}{2}} \mathrm{d}y \int_y^{\dfrac{1}{2}} \dfrac{R_2(x)}{x} \mathrm{d}x$
 - number: 20
   section: solution
   points: 12
   stem:
     text: |-
-      设 $f(x)$ 为连续函数，证明：对于任意实数 $a,b\,(a\ne b)$，$\int_a^b f(x)\,\mathrm{d}x=(b-a)f\left(\dfrac{a+b}{2}\right)$ 的充分必要条件是 $f(x)=Ax+B\,(A,B$ 为常数）。
+      设 $f(x)$ 为连续函数，证明：对于任意实数 $a, b$ ($a \neq b$)$,\int_a^b f(x)\mathrm{d}x = (b-a)f\left(\dfrac{a+b}{2}\right)$ 的充分必要条件是 $f(x) = Ax+B$ ($A, B$ 为常数)。
 - number: 21
   section: solution
   points: 12
   stem:
     text: |-
-      已知 $f(x)$ 是以 $T\,(T>0)$ 为周期的连续函数，且 $f(0)=1$，$F(x)=\int_0^{2x}|x-t|f(t)\,\mathrm{d}t$，求 $F'(T)$。
+      已知 $f(x)$ 是以 $T(T>0)$ 为周期的连续函数，且 $f(0)=1, F(x)=\int_{0}^{2x}|x-t|f(t)dt$, 求 $F'(T)$
 - number: 22
   section: solution
   points: 12
   stem:
     text: |-
-      设 $A$ 为三阶方阵，并有可逆矩阵 $P=(p_1,p_2,p_3)$，$p_i\,(i=1,2,3)$ 为三维列向量，使得 $P^{-1}AP=\begin{pmatrix}1&0&0\\0&1&1\\0&0&1\end{pmatrix}$。
-  subparts:
-  - text: 证明：$p_1,p_2$ 为 $(E-A)x=0$ 的解，$p_3$ 为 $(E-A)x=-p_2$ 的解，且 $A$ 不可相似对角化。
-  - text: |-
-      当 $A=\begin{pmatrix}2&-1&-1\\2&-1&-2\\-1&1&2\end{pmatrix}$ 时，求可逆矩阵 $P$，使得 $P^{-1}AP=\begin{pmatrix}1&0&0\\0&1&1\\0&0&1\end{pmatrix}$。
+      设 $A$ 为三阶方阵，并有可逆矩阵 $P=(p_1,p_2,p_3)$，其中 $p_i(i=1,2,3)$ 为三维列向量，使得 $P^{-1}AP=\begin{pmatrix} 1 & 0 & 0 \\ 0 & 1 & 1 \\ 0 & 0 & 1 \end{pmatrix}$。 (1) 证明$:p_1,p_2$ 为 $(E-A)x=0$ 的解$,p_3$ 为 $(E-A)x=-p_2$ 的解，且 $A$ 不可相似对角化。 (2) 当 $A=\begin{pmatrix} 2 & -1 & -1 \\ 2 & -1 & -2 \\ -1 & 1 & 2 \end{pmatrix}$ 时，求可逆矩阵 $P$，使得 $P^{-1}AP=\begin{pmatrix} 1 & 0 & 0 \\ 0 & 1 & 1 \\ 0 & 0 & 1 \end{pmatrix}$。
+content_hash: 1551e8cc66c415b91c446915bbb100208dba84c358771fdd38d51cc614bc55c3

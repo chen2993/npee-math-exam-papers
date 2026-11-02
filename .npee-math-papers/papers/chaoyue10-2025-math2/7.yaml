@@ -4,14 +4,13 @@ paper:
   year: 2025
   subject: math2
   paper_no: 7
-content_hash: 1ad0ab2ceee60453050d215df269c658a5c4ae91e2dce11dab36f5ad796a07e2
 questions:
 - number: 1
   section: choice
   points: 5
   stem:
     text: |-
-      设 $g(x)=2^{x-1}$，$f(x)=\left\{\begin{array}{ll}\dfrac{(x-1)(1-g(x))}{1+g(x)},&x\ne 1,\\0,&x=1\end{array}\right.$，则\ExamSelection。
+      设 $g(x)=2^{\frac{1}{x-1}}$，$f(x)=\left\{\begin{array}{ll}\dfrac{(x-1)(1-g(x))}{1+g(x)},&x\ne 1,\\0,&x=1\end{array}\right.$，则\ExamSelection。
   choices:
   - label: A
     text: $f(x)$ 在 $x=1$ 处不连续
@@ -243,7 +242,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $y_1=e^x-e^{-x}\sin2x,y_2=e^x$ 是某二阶齐次非齐次线性方程的两个解，则该微分方程是 \ExamBlank。
+      设 $y_1=e^x-e^{-x}\sin2x,y_2=e^x$ 是某二阶常系数非齐次线性方程的两个解，则该微分方程是 \ExamBlank。
 - number: 15
   section: fill
   points: 5
@@ -261,33 +260,34 @@ questions:
   points: 10
   stem:
     text: |-
-      （本题满分 10 分）设函数 $y=y(x)$ 满足 $y(x)=x^3-x\int_1^x\dfrac{y(t)}{t^2}\,\mathrm{d}t+y'(x)(x>0)$，并且 $\lim_{x\to+\infty}\dfrac{y(x)}{x^3}$ 存在，求 $y(x)$。
+      设函数 $y=y(x)$ 满足 $y(x)=x^3-x\int_1^x\dfrac{y(t)}{t^2}\,\mathrm{d}t+y'(x)(x>0)$，并且 $\lim_{x\to+\infty}\dfrac{y(x)}{x^3}$ 存在，求 $y(x)$。
 - number: 18
   section: solution
   points: 12
   stem:
     text: |-
-      （本题满分 12 分）设 $f(x),g(x)$ 在 $[-a,a]$ 上连续，若 $f(x)=f(-x),g(x)+g(-x)=m$（$m$ 为常数），（Ⅰ）证明 $\int_{-a}^{a}f(x)g(x)\,\mathrm{d}x=\dfrac{m}{2}\int_{-a}^{a}f(x)\,\mathrm{d}x$；（Ⅱ）计算 $I=\int_{-\pi}^{\pi}\dfrac{x\sin x}{(e^x+1)(1+\cos^2x)}\,\mathrm{d}x$。
+      设 $f(x),g(x)$ 在 $[-a,a]$ 上连续，若 $f(x)=f(-x),g(x)+g(-x)=m$（$m$ 为常数），（Ⅰ）证明 $\int_{-a}^{a}f(x)g(x)\,\mathrm{d}x=\dfrac{m}{2}\int_{-a}^{a}f(x)\,\mathrm{d}x$；（Ⅱ）计算 $I=\int_{-\pi}^{\pi}\dfrac{x\sin x}{(e^x+1)(1+\cos^2x)}\,\mathrm{d}x$。
 - number: 19
   section: solution
   points: 12
   stem:
-    text: （本题满分 12 分）设函数 $z=z(x,y)$ 是由方程 $2(x^2-1)y+y^2z^2+z=0$ 确定的隐函数，求 $z(x,y)$ 的极值。
+    text: 设函数 $z=z(x,y)$ 是由方程 $2(x^2-1)y+y^2z^2+z=0$ 确定的隐函数，求 $z(x,y)$ 的极值。
 - number: 20
   section: solution
   points: 12
   stem:
     text: |-
-      （本题满分 12 分）设区域 $D=\{(x,y)\mid x^2+y^2\leq4\}$，计算二重积分 $I=\iint_D\max\{\sqrt{4-x^2-y^2},\sqrt3(x^2+y^2)\}\,\mathrm{d}x\mathrm{d}y$。
+      设区域 $D=\{(x,y)\mid x^2+y^2\leq4\}$，计算二重积分 $I=\iint_D\max\{\sqrt{4-x^2-y^2},\sqrt3(x^2+y^2)\}\,\mathrm{d}x\mathrm{d}y$。
 - number: 21
   section: solution
   points: 12
   stem:
     text: |-
-      （本题满分 12 分）设 $x_1>0,x_{n+1}=\sqrt{1+x_n}\ln(1+x_n),n=1,2,\cdots$。（Ⅰ）证明当 $x>0$ 时，$\ln(1+x)<\dfrac{x}{\sqrt{1+x}}$；（Ⅱ）证明 $\lim_{n\to\infty}x_n$ 存在，并求之。
+      设 $x_1>0,x_{n+1}=\sqrt{1+x_n}\ln(1+x_n),n=1,2,\cdots$。（Ⅰ）证明当 $x>0$ 时，$\ln(1+x)<\dfrac{x}{\sqrt{1+x}}$；（Ⅱ）证明 $\lim_{n\to\infty}x_n$ 存在，并求之。
 - number: 22
   section: solution
   points: 12
   stem:
     text: |-
-      （本题满分 12 分）设 $f(x_1,x_2,x_3)=(2x_1+x_2-x_3)^2+(x_1+2x_2+x_3)^2+(-x_1+x_2+2x_3)^2$，记 $A=\begin{pmatrix}2&1&-1\\1&2&1\\-1&1&2\end{pmatrix}$。（Ⅰ）求 $f=0$ 的通解；（Ⅱ）证明二次型 $f$ 的矩阵为 $AA^\mathrm{T}$；（Ⅲ）求正交变换 $x=Py$ 化二次型 $f$ 为标准形。
+      设 $f(x_1,x_2,x_3)=(2x_1+x_2-x_3)^2+(x_1+2x_2+x_3)^2+(-x_1+x_2+2x_3)^2$，记 $A=\begin{pmatrix}2&1&-1\\1&2&1\\-1&1&2\end{pmatrix}$。（Ⅰ）求 $f=0$ 的通解；（Ⅱ）证明二次型 $f$ 的矩阵为 $AA^\mathrm{T}$；（Ⅲ）求正交变换 $x=Py$ 化二次型 $f$ 为标准形。
+content_hash: 2cfbd9405fe60e9e0ad8cad23ab5e81f0ac40ba244521146a10dbdae0f1235ba

@@ -4,14 +4,13 @@ paper:
   year: 2024
   subject: math3
   paper_no: 2
-content_hash: 8a931902f672a01b13756bc29c040b5b1f3a80b1fd57b90ff638714fa525c788
 questions:
 - number: 1
   section: choice
   points: 5
   stem:
     text: |-
-      关于数列 $\{x_n\}$，$\{y_n\}$ 有以下论断：①若数列 $\{x_{2n}\}$ 和 $\{x_{2n-1}\}$ 都收敛，则数列 $\{x_n\}$ 收敛；②若数列 $\{x_n+y_n\}$ 和 $\{x_n-y_n\}$ 都收敛，则数列 $\{x_n\}$，$\{y_n\}$ 均收敛；③若数列 $\{x_n\}$ 和 $\{y_n\}$ 都发散，则数列 $\{x_n+y_n\}$ 可能收敛；④若数列 $\{x_ny_n\}$ 收敛，则数列 $\{x_n\}$ 和 $\{y_n\}$ 必有一个收敛。以上结论中正确的个数为$\ExamSelection$。
+      关于数列 $\{x_n\}$，$\{y_n\}$ 有以下论断：\n①若数列 $\{x_{2n}\}$ 和 $\{x_{2n-1}\}$ 都收敛，则数列 $\{x_n\}$ 收敛；\n②若数列 $\{x_n+y_n\}$ 和 $\{x_n-y_n\}$ 都收敛，则数列 $\{x_n\}$，$\{y_n\}$ 均收敛；\n③若数列 $\{x_n\}$ 和 $\{y_n\}$ 都发散，则数列 $\{x_n+y_n\}$ 可能收敛；\n④若数列 $\{x_ny_n\}$ 收敛，则数列 $\{x_n\}$ 和 $\{y_n\}$ 必有一个收敛。\n以上结论中正确的个数为$\ExamSelection$。
   choices:
   - label: A
     text: $1$
@@ -152,7 +151,7 @@ questions:
   points: 5
   stem:
     text: |-
-      以下 $4$ 个结论：①设 $0<P(A)<1$，$P(B\mid A)+P(\overline{B}\mid\overline{A})=1$，则 $\overline{A}$ 与 $\overline{B}$ 相互独立；②设 $A,B$ 相互独立，$P(C)=0$，则 $\overline{A},\overline{B},\overline{C}$ 必相互独立；③若 $A,B$ 互不相容，$P(C)>0$，则 $P(\overline{AB}\mid C)=1$；④若 $A,B,C$ 相互独立，则必有 $A$ 和 $B-C$ 独立。正确的个数为$\ExamSelection$。
+      以下 $4$ 个结论：\n①设 $0<P(A)<1$，$P(B\mid A)+P(\overline{B}\mid\overline{A})=1$，则 $\overline{A}$ 与 $\overline{B}$ 相互独立；\n②设 $A,B$ 相互独立，$P(C)=0$，则 $\overline{A},\overline{B},\overline{C}$ 必相互独立；\n③若 $A,B$ 互不相容，$P(C)>0$，则 $P(\overline{AB}\mid C)=1$；\n④若 $A,B,C$ 相互独立，则必有 $A$ 和 $B-C$ 独立。\n正确的个数为$\ExamSelection$。
   choices:
   - label: A
     text: $1$
@@ -294,3 +293,4 @@ questions:
   - text: 求 $Z$ 的概率密度 $f_Z(z)$；
   - text: |-
       若 $\theta$ 未知，设 $Z_1,Z_2,\cdots,Z_n$ 为来自总体 $Z$ 的简单随机样本，求 $\theta$ 的最大似然估计量 $\hat{\theta}$。
+content_hash: 02746a4b11af5ff15e4a03e021068a73e87c6e0abef1084e5380188c3700942c

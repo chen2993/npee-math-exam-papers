@@ -1,0 +1,305 @@
+schema_version: '3.0'
+paper:
+  series_key: yubingsen5
+  year: 2026
+  subject: math2
+  paper_no: 4
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: 下列结论正确的是（ ）
+  choices:
+  - label: A
+    text: |-
+      曲线 $y=x\sin\dfrac{1}{x}$ 和 $y=x\cos\dfrac{1}{x}$ 均有斜渐近线
+    figures: []
+  - label: B
+    text: |-
+      曲线 $y=x\sin\dfrac{1}{x}$ 和 $y=x\cos\dfrac{1}{x}$ 均没有斜渐近线
+    figures: []
+  - label: C
+    text: |-
+      曲线 $y=x\sin\dfrac{1}{x}$ 有斜渐近线$,y=x\cos\dfrac{1}{x}$ 没有斜渐近线
+    figures: []
+  - label: D
+    text: |-
+      曲线 $y=x\sin\dfrac{1}{x}$ 没有斜渐近线$,y=x\cos\dfrac{1}{x}$ 有斜渐近线
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 \(f(x)\) 在点 \(x=0\) 的某个邻域内有连续的导数，\(f(0)=0\)，且 \(\lim\limits_{x\to0}\dfrac{f(x)-f'(x)}{\ln(1+x)}=-1\)，则( )
+  choices:
+  - label: A
+    text: |-
+      \(f(0)\) 是 \(f(x)\) 的极小值
+    figures: []
+  - label: B
+    text: |-
+      \(f(0)\) 是 \(f(x)\) 的极大值
+    figures: []
+  - label: C
+    text: |-
+      \(f(0)\) 不是 \(f(x)\) 的极值
+    figures: []
+  - label: D
+    text: |-
+      不能判别 \(f(0)\) 是否为 \(f(x)\) 的极值
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设有曲线 \(y=\ln x\) 与 \(y=kx^2\)，当 \(k>\dfrac{1}{2\mathrm{e}}\) 时，两曲线( )
+  choices:
+  - label: A
+    text: 没有交点
+    figures: []
+  - label: B
+    text: 仅有一个交点
+    figures: []
+  - label: C
+    text: 有两个交点
+    figures: []
+  - label: D
+    text: 有三个交点
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 \(f(x)\) 为连续函数，且 \(\int_0^\pi f(x\sin 3x)\sin 3x\,dx=1\)，则 \(\int_0^\pi f(x\sin 3x)x\cos 3x\,dx=\)( )
+  choices:
+  - label: A
+    text: |-
+      \(-\dfrac{1}{3}\)
+    figures: []
+  - label: B
+    text: |-
+      \(0\)
+    figures: []
+  - label: C
+    text: |-
+      \(1\)
+    figures: []
+  - label: D
+    text: |-
+      \(\dfrac{1}{2}\)
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设区域 \(D_1\) 为 \(x^2+y^2\le1\) 在第一象限的部分，\(D_2\) 为 \(|x|+|y|\le1\) 在第一象限的部分，\( I_1=\iint_{D_1}\cos(\pi xy)\, \mathrm d\sigma\), \( I_2=\iint_{D_2}\cos(\pi xy)\, \mathrm d\sigma\), \( I_3=\iint_{D_2}\sin(\pi xy)\, \mathrm d\sigma\)，则( )
+  choices:
+  - label: A
+    text: |-
+      \(I_1<I_2<I_3\)
+    figures: []
+  - label: B
+    text: |-
+      \(I_3<I_2<I_1\)
+    figures: []
+  - label: C
+    text: |-
+      \(I_3<I_1<I_2\)
+    figures: []
+  - label: D
+    text: |-
+      \(I_2<I_3<I_1\)
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设平面图形 \(D=\{(x,y)\mid 0<y<x^2, \ x\neq0\}\)，$f(x,y)=\begin{cases}1, &(x,y)\in D, \\0, &(x,y)\notin D, \end{cases}$则在点 \((0,0)\) 处( )
+  choices:
+  - label: A
+    text: |-
+      \(\lim\limits_{(x,y)\to(0,0)}f(x,y)\) 存在
+    figures: []
+  - label: B
+    text: |-
+      \(f(x,y)\) 连续
+    figures: []
+  - label: C
+    text: |-
+      \(f(x,y)\) 可偏导
+    figures: []
+  - label: D
+    text: |-
+      \(f(x,y)\) 可微
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设连续函数 \(f(x)\) 满足 \(\int_0^x t[f(x-t)-\mathrm e^{t^2}]\,dt=0\)，则 \(\int_0^1 dx\int_0^x f(x)f(y)\,dy=\)( )
+  choices:
+  - label: A
+    text: |-
+      \(\mathrm e\)
+    figures: []
+  - label: B
+    text: |-
+      \( \dfrac{1}{2}\mathrm e.\)
+    figures: []
+  - label: C
+    text: |-
+      \(\mathrm e^2\)
+    figures: []
+  - label: D
+    text: |-
+      \( \dfrac{1}{2}\mathrm e^2.\)
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 \(A\) 为 \(m\times n\) 矩阵，\(B\) 为 \(n\times m\) 矩阵. 若 \(AB=C\)，则( )
+  choices:
+  - label: A
+    text: |-
+      当 \(m<n\) 时, \(C\) 的行向量组线性相关
+    figures: []
+  - label: B
+    text: |-
+      当 \(m<n\) 时, \(C\) 的行向量组线性无关
+    figures: []
+  - label: C
+    text: |-
+      当 \(m>n\) 时, \(C\) 的行向量组线性相关
+    figures: []
+  - label: D
+    text: |-
+      当 \(m>n\) 时, \(C\) 的行向量组线性无关
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 \(\alpha_1, \alpha_2, \alpha_3, \alpha_4\) 是四维非零列向量组，矩阵 \(A=(\alpha_1, \alpha_2, \alpha_3, \alpha_4)\), \(A^*\) 为 \(A\) 的伴随矩阵，已知方程组 \(Ax=0\) 的通解为 \(k(1,0, -1,0)^T\)，则方程组 \(A^*x=0\) 的基础解系为( )
+  choices:
+  - label: A
+    text: |-
+      \(\alpha_1, \alpha_2, \alpha_3\)
+    figures: []
+  - label: B
+    text: |-
+      \(\alpha_1+\alpha_2, \alpha_2+\alpha_3, \alpha_3+\alpha_1\)
+    figures: []
+  - label: C
+    text: |-
+      \(\alpha_2, \alpha_3, \alpha_4\)
+    figures: []
+  - label: D
+    text: |-
+      \(\alpha_1+\alpha_2, \alpha_2+\alpha_3, \alpha_3+\alpha_4, \alpha_4+\alpha_1\)
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 \(A\) 为三阶矩阵，\((p_1,p_2,p_3)\) 为三阶可逆矩阵，满足 \(Ap_1=2p_1\), \(Ap_2=2p_2\), \(Ap_3=6p_3\). 若有可逆矩阵 \(P\)，使得 \(P^{-1}AP=\begin{pmatrix}2&0&0\\0&2&0\\0&0&6\end{pmatrix}\)，则 \(P\) 不可以取( )
+  choices:
+  - label: A
+    text: |-
+      \((p_1,2p_2,3p_3)\)
+    figures: []
+  - label: B
+    text: |-
+      \((p_1-p_2,p_2,p_3)\)
+    figures: []
+  - label: C
+    text: |-
+      \((p_1-p_2,p_1+p_2,p_3)\)
+    figures: []
+  - label: D
+    text: |-
+      \((p_1,p_2+p_3,p_3)\)
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设函数 \(y=y(x)\) 是由 \(y^3+xy+x^2-2x+1=0\) 确定，则 \(\lim\limits_{x\to1}\dfrac{\int_1^x y(t)\,dt}{(x-1)^3}=\)____
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      \(\int \dfrac{1-x\sin x}{x(1+x\mathrm e^{\cos x})}\,dx=\)____
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 \(f(x)=\dfrac{1+x}{1-x+x^2}\)，则 \(f'''(0)=\)____
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设函数 \(f(x)\) 满足 \(xf''(x)=f'(x)\), \(f(1)=1\), \(f'(1)=2\)，则微分方程 \(xy'+y=f(x)\ (x\neq0)\) 的通解为____
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 \(u=z\mathrm e^{x^2+y^2}\sin\dfrac{x}{y}\)，其中 \(z=z(x,y)\) 是由方程 \(x^2+2y^2-z^2=2\) 确定的隐函数，且 \(z(1,1)=1\)，则 \(\left.\dfrac{\partial u}{\partial x}\right|_{(1,1)}=\)____
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设三阶矩阵 \(A,B\) 相似，\(B\) 的各列元素之和均为 \(6\)，且 \(|\sqrt{3}E+B|=|\sqrt{3}E-B|=0\)，则行列式 \(\left|\dfrac{1}{3}A-\dfrac{1}{3}AB\right|=\)____
+- number: 17
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 \(f(x)=\begin{cases}x+2x^2\sin\dfrac{1}{x}, &x\ne0, \\0, &x=0.\end{cases}\) (1) 求 \(f'(x)\)，并讨论 \(f'(x)\) 的连续性； (2) 求 \(f'\left(\dfrac{1}{2k\pi}\right)\), \(k=\pm1, \pm2, \cdots\)，并由此判断是否存在 \(\delta>0\)，使得 \(f(x)\) 在 \((-\delta, \delta)\) 内单调
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 \(C\) 为上半平面内的一条凹的曲线，已知 \(C\) 过点 \(P_0(0,1)\)，其上任一点 \(P(x,y)\) 处的法线与 \(x\) 轴的交点为 \(Q\)，又该曲线在 \(P(x,y)\) 处的曲率等于此曲线在该点处的法线上线段 \(PQ\) 长度的倒数，且曲线在点 \(P_0\) 处的切线与 \(x\) 轴平行，求此曲线方程
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设区域 \(D=\{(x,y)\mid 0\leq x\leq1, \ 0\leq y\leq2\}\), \([x]\) 表示不超过 \(x\) 的最大整数，计算 \(\iint_D [x^2+y]\,dx\,dy\)
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 \(f(x)\) 可导，\( F(x,y)=\dfrac{1}{2y}\int_{-y}^{y}f(x+t)\, \mathrm dt, \quad -\infty0\). (1) 求 \(\lim\limits_{y\to0^+}F(x,y)\)； (2) 求 \(\lim\limits_{y\to0^+}\dfrac{\partial F}{\partial x}\)； (3) 如果 \(f'(x)\) 单调递增，问 \(F(x,y)\) 关于 \(y\) 是否单调递增?
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      求函数 \(f(x,y)=(x^2+y^2)\mathrm e^{-x-y}\) 在区域 \(D=\{(x,y)\mid x\geq0, \ y\geq0, \ x^2+y^2\leq16\}\) 上的最大值及最小值
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      已知 \(\alpha=(1, -2,2)^T\) 是二次型$f(x_1,x_2,x_3)=x^TAx=ax_1^2+4x_2^2+bx_3^2-4x_1x_2+4x_1x_3-8x_2x_3$对应矩阵 \(A\) 的属于特征值 \(\lambda\) 的特征向量. (I) 求 \(a,b, \lambda\) 的值；(II) 利用正交变换 \(x=Qy\) 将二次型化为标准形，并写出所用的正交变换和对应的正交矩阵；(III) 求在条件 \(x_1^2+x_2^2+x_3^2=4\) 下的 \(f(x)\) 的最大值，并求此时满足条件的所有向量 \(x\)
+content_hash: 5baf4024a08b58df7e62220746628c6e7be6b2e791c3f5b57953eeb6a21737da

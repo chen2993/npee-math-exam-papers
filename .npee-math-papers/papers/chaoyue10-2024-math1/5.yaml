@@ -4,21 +4,19 @@ paper:
   year: 2024
   subject: math1
   paper_no: 5
-content_hash: 50f13afe90264121e6269c5ad103fb45c285d616c39274dea8cc6e19d4431080
 questions:
 - number: 1
   section: choice
   points: 5
   stem:
-    text: |-
-      设函数 $f(x)$ 在点 $x=0$ 的某个邻域内有二阶导数，且 $f'(0)=f''(0)=0$，则\ExamSelection
+    text: 设函数 $f(x)$ 在点 $x=0$ 的某邻域内有二阶导数，且 $f'(x)=f''(x)=0$，则 ( )
   choices:
   - label: A
     text: 点 $x=0$ 一定不是 $f(x)$ 的极值点
     figures: []
   - label: B
     text: |-
-      若 $\lim_{x\to 0}\dfrac{f''(x)}{|x|}=1$，则 $x=0$ 是 $f(x)$ 的极大值点
+      若 $\lim_{x\to 0}\dfrac{f''(x)}{|x|}=1$，则点 $x=0$ 是 $f(x)$ 的极大值点
     figures: []
   - label: C
     text: |-
@@ -26,14 +24,14 @@ questions:
     figures: []
   - label: D
     text: |-
-      若 $\lim_{x\to 0}\dfrac{f'(x)}{\sin x}=1$，则 $(0,f(0))$ 为 $f(x)$ 的拐点
+      若 $\lim_{x\to 0}\dfrac{f''(x)}{\sin x}=1$，则 $(0,f(0))$ 为 $f(x)$ 的拐点
     figures: []
 - number: 2
   section: choice
   points: 5
   stem:
     text: |-
-      已知直线 $l_1:\dfrac{x-2}{a}=\dfrac{y-1}{2}=\dfrac{z-1}{b}$，直线 $l_2:\begin{cases}x+2z=1,\\2x-y+3z=1,\end{cases}$，平面 $\pi$ 为曲面 $x^2-y^2+e^z+z=1$ 在 $(1,1,0)$ 处的切平面，则 $l_1,l_2$ 共面，且 $l_1$ 与 $\pi$ 平行的充分必要条件为\ExamSelection
+      已知直线 $l_1:\dfrac{x-2}{a}=\dfrac{y-1}{2}=\dfrac{z-1}{b}$，直线 $l_2:\begin{cases}x+2z=1,\\2x-y+3z=1,\end{cases}$ 平面 $\pi$ 为曲面 $\Sigma:x^2-y^2+\mathrm{e}^z+z=1$ 在 $(1,1,0)$ 处的切平面，则 $l_1,l_2$ 共面，且 $l_1$ 与 $\pi$ 平行的充分必要条件为 ( )
   choices:
   - label: A
     text: $a=-4,b=-2$
@@ -52,7 +50,7 @@ questions:
   points: 5
   stem:
     text: |-
-      积分 $\int_a^{a+2\pi}\dfrac{e^{\sin x}}{2+\sin x}\sin x\,\mathrm{d}x$ 的值\ExamSelection
+      积分 $\int_a^{a+2\pi} \dfrac{\mathrm{e}^{\sin x}}{2+\sin x} \sin x \mathrm{d}x$ 的值 ( )
   choices:
   - label: A
     text: 与 $a$ 无关且恒为正
@@ -71,7 +69,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设有一曲线状物体占据空间曲线 $L:\begin{cases}2x^2+y^2+2z^2=4,\\x=z,\end{cases}$ 且每一点的密度为该点到 $xOz$ 面的距离，则该物体的质量为\ExamSelection
+      设有一曲线状物体占据空间曲线 $L:\begin{cases} 2x^2+y^2+2z^2=4, \\ x=z, \end{cases}$ 其在点 $(x, y, z)$ 处的线密度大小等于该点到 $zx$ 平面的距离，则该物体的质量为( )
   choices:
   - label: A
     text: |-
@@ -93,19 +91,18 @@ questions:
   section: choice
   points: 5
   stem:
-    text: |-
-      已知 $3$ 阶方阵 $A,B$，满足 $AB=A-B+E$，则下列说法不正确的是\ExamSelection
+    text: 已知 $3$ 阶方阵 $A,B$，满足 $AB=A-B+E$，则下列说法不正确的是（ ）
   choices:
   - label: A
     text: |-
-      若 $B\ne E$，则 $|A+E|=0$
+      若 $B\neq E$，则 $|A+E|=0$
     figures: []
   - label: B
     text: 若 $A$ 正定，则 $B=E$
     figures: []
   - label: C
     text: |-
-      $r(A+B)\leq 3$
+      $r(A+B)\leqslant 3$
     figures: []
   - label: D
     text: $AB=BA$
@@ -114,8 +111,7 @@ questions:
   section: choice
   points: 5
   stem:
-    text: |-
-      $n$ 阶方阵 $A$ 经过初等行变换得到 $B$，则以下说法正确的是\ExamSelection
+    text: $n$ 阶方阵 $A$ 经过初等行变换得到 $B$，则以下说法正确的是 ( )
   choices:
   - label: A
     text: $A$ 与 $B$ 有相同的特征值
@@ -125,7 +121,7 @@ questions:
     figures: []
   - label: C
     text: |-
-      $r(A)=r\left(\begin{pmatrix}A\\B\end{pmatrix}\right)=r(B)$
+      $r(A)=r\begin{pmatrix} A \\ B \end{pmatrix}=r(B)$
     figures: []
   - label: D
     text: $r(A)=r(A,B)=r(B)$
@@ -135,7 +131,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $A$ 为 $3$ 阶矩阵，满足 $|A-E|=|A+E|=|A-2E|=0$，$f(x)=|A^{-1}-xE|-|A^*|$，则必存在一点 $x_0\in(0,1)$，使得 $y=f(x)$ 在 $(x_0,f(x_0))$ 处的切线\ExamSelection
+      设 $A$ 为 3 阶矩阵，满足 $|A-E|=|A+E|=|A-2E|=0, f(x)=\left|A^{-1}-xE\right|-\left|A^{*}\right|$，则必存在一点 $x_0 \in (0,1)$，使得 $y=f(x)$ 在 $(x_0,f(x_0))$ 处的切线 ( )
   choices:
   - label: A
     text: |-
@@ -158,11 +154,11 @@ questions:
   points: 5
   stem:
     text: |-
-      设随机变量 $X_1,X_2,\cdots,X_{100}$ 相互独立，且 $X_i\sim B\left(1,\dfrac{1}{100}\right),i=1,2,\cdots,100,X=\sum_{i=1}^{100}X_i$，则下列结论不正确的是\ExamSelection
+      设随机变量 $X_1, X_2, \cdots, X_{100}$ 相互独立, 且 $X_i \sim B\left(1, \dfrac{1}{100}\right), i=1,2,\cdots,100, X=\sum_{i=1}^{100} X_i$, 则下列结论不正确的是 ( )
   choices:
   - label: A
     text: |-
-      $X\sim B\left(100,\dfrac{1}{100}\right)$
+      $X \sim B\left(100, \dfrac{1}{100}\right)$
     figures: []
   - label: B
     text: $X$ 服从 $[0,100]$ 上的均匀分布
@@ -172,41 +168,41 @@ questions:
     figures: []
   - label: D
     text: |-
-      $X$ 近似服从 $N\left(1,\dfrac{99}{100}\right)$
+      $X$ 近似服从 $N\left(1, \dfrac{99}{100}\right)$
     figures: []
 - number: 9
   section: choice
   points: 5
   stem:
     text: |-
-      设 $X_1,X_2,X_3,X_4$ 为来自总体 $X\sim N(0,1)$ 的简单随机样本，$Y=\dfrac{X_1^2+X_4^2}{X_2^2+X_3^2}$，对给定的 $\alpha(0<\alpha<1)$，数 $y_\alpha$ 满足 $P\{Y>y_{1-\alpha}\}=\alpha$，则有\ExamSelection
+      设 $X_1, X_2, X_3, X_4$ 为来自总体 $X \sim N(0,1)$ 的简单随机样本, $Y=\dfrac{X_1^2+X_4^2}{X_2^2+X_3^2}$, 对给定的 $\alpha(0y_{1-\alpha}\}=\alpha$, 则有 ( )
   choices:
   - label: A
     text: |-
-      $y_\alpha y_{1-\alpha/2}=1$
+      $y_\alpha y_{1-\dfrac{\alpha}{2}}=1$
     figures: []
   - label: B
     text: |-
-      $y_\alpha y_{\alpha/2}=1$
+      $y_\alpha y_{\dfrac{\alpha}{2}}=1$
     figures: []
   - label: C
     text: |-
-      $y_{\alpha/2}y_{1-\alpha/2}=1$
+      $y_{\dfrac{\alpha}{2}}y_{1-\dfrac{\alpha}{2}}=1$
     figures: []
   - label: D
     text: |-
-      $y_{\alpha/2}y_{1-\alpha}=1$
+      $y_{\dfrac{\alpha}{2}}y_{1-\alpha}=1$
     figures: []
 - number: 10
   section: choice
   points: 5
   stem:
     text: |-
-      设 $(X,Y)\sim N(\mu_1,\mu_2,\sigma_1^2,\sigma_2^2,\rho)$（$|\rho|<1$），$U=X+Y,V=X-Y$，则 $U$ 与 $V$ 独立的充分必要条件是\ExamSelection
+      设 $(X, Y) \sim N\left(\mu_1, \mu_2, \sigma_1^2, \sigma_2^2, \rho\right)(|\rho|<1), U=X+Y, V=X-Y$, 则 $U$ 与 $V$ 独立的充分必要条件是 ( )
   choices:
   - label: A
     text: |-
-      $\mu_1^2\ne\mu_2^2$
+      $\mu_1^2 \neq \mu_2^2$
     figures: []
   - label: B
     text: |-
@@ -214,7 +210,7 @@ questions:
     figures: []
   - label: C
     text: |-
-      $\sigma_1^2\ne\sigma_2^2$
+      $\sigma_1^2 \neq \sigma_2^2$
     figures: []
   - label: D
     text: |-
@@ -225,76 +221,71 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $y=y(x)$ 由方程 $e^{xy}=2^x\cdot 3^y$ 确定的隐函数，则 $(y-\ln 2)y''-2(y')^2=$\ExamBlank
+      设 $y=y(x)$ 由方程 $\mathrm{e}^{xy}=2^x \cdot 3^y$ 确定的隐函数, 则 $(y-\ln 2)y'' - 2(y')^2 = \underline{\hspace{2cm}}$
 - number: 12
   section: fill
   points: 5
   stem:
     text: |-
-      $\lim_{n\to\infty}\sin\dfrac{2}{n}\left(\dfrac{n}{\sqrt{4n^2+1}}+\dfrac{n}{\sqrt{4n^2+3^2}}+\cdots+\dfrac{n}{\sqrt{4n^2+(2n-1)^2}}\right)=$\ExamBlank
+      $\lim_{n\to\infty}\sin\dfrac{2}{n}\left(\dfrac{n}{\sqrt{4n^2+1}}+\dfrac{n}{\sqrt{4n^2+3^2}}+\cdots+\dfrac{n}{\sqrt{4n^2+(2n-1)^2}}\right)=\underline{\hspace{2cm}}.$
 - number: 13
   section: fill
   points: 5
   stem:
     text: |-
-      设可微函数 $f(x,y)$ 满足：$\dfrac{\partial f(x,y)}{\partial x}=2x-2y$，且 $f(0,y)=4-2y$。曲线 $L$ 为 $xOy$ 面上从 $O(0,0)$ 到 $A(1,2)$ 的任意一段曲弧，则 $\int_L\dfrac{\partial f(x,y)}{\partial x}\,\mathrm{d}x+\dfrac{\partial f(x,y)}{\partial y}\,\mathrm{d}y=$\ExamBlank
+      设可微函数 $f(x,y)$ 满足: $\dfrac{\partial f(x,y)}{\partial x} = 2x - 2y$, 且 $f(0,y) = 4 - 2y$. 曲线 $L$ 为 $xOy$ 面上从 $O(0,0)$ 到 $A(1,2)$ 的任意一段曲弧, 则 $\int_L \dfrac{\partial f(x,y)}{\partial x} \mathrm{d}x + \dfrac{\partial f(x,y)}{\partial y} \mathrm{d}y = \underline{\hspace{2cm}}$
 - number: 14
   section: fill
   points: 5
   stem:
     text: |-
-      设 $f(x)=\cos^4x+\sin^4x$ 在 $(-\infty,+\infty)$ 的幂级数为 $\sum_{n=0}^{\infty}a_nx^n$，则 $a_4=$\ExamBlank
+      设 $f(x) = \cos^4 x + \sin^4 x$ 在 $(-\infty, +\infty)$ 的幂级数为 $\sum_{n=0}^\infty a_n x^n$，则 $a_4 = \underline{\qquad\qquad}$
 - number: 15
   section: fill
   points: 5
   stem:
     text: |-
-      设 $A=\begin{pmatrix}1&2&1\\1&1&0\\3&4&2\end{pmatrix}$，$B$ 为 $3$ 阶矩阵，且满足 $A^2B=A+B+E$，则 $B$ 的伴随矩阵 $B^*=$\ExamBlank
+      设 $A = \begin{pmatrix} 1 & 2 & 1 \\ 1 & 1 & 0 \\ 3 & 4 & 2 \end{pmatrix}$ $,B$ 为 $3$ 阶矩阵，且满足 $A^2B = A + B + E$，则 $B$ 的伴随矩阵 $B^* = \underline{\hspace{2cm}}$。
 - number: 16
   section: fill
   points: 5
   stem:
     text: |-
-      设一个试验有 $3$ 种可能结果，其发生的概率分别为 $p_1=(1-p)^2,p_2=2p(1-p),p_3=p^2$，现将该试验独立重复若干次，观测到 $3$ 种结果发生的次数分别为 $n_1,n_2,n_3$，则 $p$ 的极大似然估计值为\ExamBlank
+      设一个试验有 3 种可能结果, 其发生的概率分别为 $p_1=(1-p)^2, p_2=2p(1-p), p_3=p^2$, 现将该试验独立重复若干次, 观测到 3 种结果发生的次数分别为 $n_1, n_2, n_3$, 则 $p$ 的极大似然估计值为 $\underline{\qquad\qquad}$
 - number: 17
   section: solution
-  points: 10
+  points: 12
   stem:
     text: |-
-      设曲线 $y=y(x)(x\geq 0)$ 是第一象限的一条凸曲线，曲线上点 $(0,1)$ 处的切线方程为 $y=x+1$，其上任一点 $P(x,y)$ 处的切线和 $y$ 轴以及曲线 $y=y(x)$ 围成图形的面积等于 $\int_0^x t^2[y(t)+1]\,\mathrm{d}t$。求该曲线的方程。
+      设曲线 $y=y(x)(x\geqslant 0)$ 是第一象限的一条凸曲线，曲线上点 $(0,1)$ 处的切线方程为 $y=x+1$，且其上任一点 $P(x,y)$ 处的切线和 $y$ 轴以及曲线 $y(x)$ 围成图形的面积恒等于 $\int_{0}^{x} t^2[y(t)+1]\mathrm{d}t$. 求该曲线的方程
 - number: 18
   section: solution
   points: 12
   stem:
     text: |-
-      设 $\Sigma$ 为抛物面 $z=x^2+y^2$ 被平面 $z=2x$ 所截下的位于平面下方的部分，取下侧，计算曲面积分 $I=\iint_\Sigma y(x-z)\,\mathrm{d}y\mathrm{d}z+x^2z\,\mathrm{d}z\mathrm{d}x+(y^2+xz)\,\mathrm{d}x\mathrm{d}y$。
+      设 $\Sigma$ 为抛物面 $z = x^2 + y^2$ 被平面 $z = 2x$ 所截下的位于平面下方的部分，取下侧，计算曲面积分 $I = \iint_{\Sigma} y(x - z) \mathrm{d}y\mathrm{d}z + x^2 \mathrm{d}z\mathrm{d}x + (y^2 + xz) \mathrm{d}x\mathrm{d}y$
 - number: 19
   section: solution
   points: 12
   stem:
     text: |-
-      求幂级数 $\sum_{n=1}^{\infty}\dfrac{(n-1)^2}{n+1}x^n$ 的收敛域以及和函数。
+      求幂级数 $\sum_{n=1}^\infty \dfrac{(n-1)^2}{n+1} x^n$ 的收敛域以及和函数
 - number: 20
   section: solution
   points: 12
   stem:
     text: |-
-      曲线 $x^{\dfrac{2}{3}}+y^{\dfrac{2}{3}}=1$（$x>0,y>0$）上任意一点处的切线在两坐标轴上的截距之和为 $l$，试求 $l$ 的最大值。
+      曲线 $x^{\dfrac{3}{2}} + y^{\dfrac{3}{2}} = 1(x>0,y>0)$ 上任意一点处的切线在两坐标轴上的截距之和为 $l$, 试求 $l$ 的最大值
 - number: 21
   section: solution
   points: 12
   stem:
     text: |-
-      设 $A=\begin{pmatrix}a&0&0\\0&0&1\\0&1&0\end{pmatrix},B=\begin{pmatrix}1&0&0\\0&b&0\\0&-6&2\end{pmatrix}$。
-  subparts:
-  - text: $a,b$ 取何值时，$A,B$ 相似，并求可逆矩阵 $U$，使得 $U^{-1}AU=B$。
-  - text: $a,b$ 取何值时，$AX=B$ 有解，并求其解 $X$。
+      设 $A = \begin{pmatrix} a & 0 & 0 \\ 0 & 0 & 1 \\ 0 & 1 & 0 \end{pmatrix}, B = \begin{pmatrix} 1 & 0 & 0 \\ 0 & b & 0 \\ 0 & -6 & 2 \end{pmatrix}$. (I) $a,b$ 取何值时, $A,B$ 相似, 并求可逆矩阵 $U$, 使得 $U^{-1}AU = B$; (II) $a,b$ 取何值时, $AX = B$ 有解, 并求其解 $X$
 - number: 22
   section: solution
   points: 12
   stem:
     text: |-
-      设随机变量 $X$ 在 $[0,\pi]$ 上服从均匀分布，记 $Z=|\cos X|$，$Y\sim\begin{pmatrix}0&1\\\dfrac{1}{3}&\dfrac{2}{3}\end{pmatrix}$，且 $X$ 与 $Y$ 相互独立。求：
-  subparts:
-  - text: $Z$ 的概率密度；
-  - text: $T=Y+Z$ 的概率密度。
+      设随机变量 $X$ 在 $[0,\pi]$ 上服从均匀分布, 记 $Z=|\cos X|, Y \sim \begin{pmatrix} 0 & 1 \\ \dfrac{1}{3} & \dfrac{2}{3} \end{pmatrix}$, 且 $X$ 与 $Y$ 相互独立. 求: $(I)$ $Z$ 的概率密度; $(II)$ $T=Y+Z$ 的概率密度
+content_hash: 40c61f96912600ba82d9bb5225edd76aff27b0d0bf4b54bec860be05b6cdc86d

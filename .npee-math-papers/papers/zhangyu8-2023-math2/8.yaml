@@ -4,37 +4,36 @@ paper:
   year: 2023
   subject: math2
   paper_no: 8
-content_hash: 763f7b0ad3f16ae84b824c71d12384b344983b9f4abc65763b6754095a53091f
 questions:
 - number: 1
   section: choice
   points: 5
   stem:
     text: |-
-      设当 $x\to x_0$ 时，$\alpha(x)$ 与 $\beta(x)$ 是等价无穷小，且 $\alpha(x)\ne\beta(x)$，则当 $x\to x_0$ 时，与 $\alpha(x)-\beta(x)$ 等价的无穷小是\ExamSelection。
+      设当 $x \to x_0$ 时$,\alpha(x)$ 与 $\beta(x)$ 是等价无穷小，且 $\alpha(x) \neq \beta(x)$，则当 $x \to x_0$ 时，与 $\alpha(x) - \beta(x)$ 等价的无穷小是
   choices:
   - label: A
     text: |-
-      $2^{\alpha(x)}-2^{\beta(x)}$
+      $2^{\alpha(x)} - 2^{\beta(x)}$
     figures: []
   - label: B
     text: |-
-      $\sqrt{1+\alpha(x)}-\sqrt{1+\beta(x)}$
+      $\sqrt{1+\alpha(x)} - \sqrt{1+\beta(x)}$
     figures: []
   - label: C
     text: |-
-      $\cos\alpha(x)-\cos\beta(x)$
+      $\cos\alpha(x) - \cos\beta(x)$
     figures: []
   - label: D
     text: |-
-      $\ln[1+\alpha(x)]-\ln[1+\beta(x)]$
+      $\ln[1+\alpha(x)] - \ln[1+\beta(x)]$
     figures: []
 - number: 2
   section: choice
   points: 5
   stem:
     text: |-
-      设函数 $f(x)$ 满足 $f\left(\dfrac{1}{x}\right)-4f(x)=\dfrac{2}{x}$，则函数 $f(x)$\ExamSelection。
+      设函数 $f(x)$ 满足 $f\left(\dfrac{1}{x}\right) - 4f(x) = \dfrac{2}{x}$，则函数 $f(x)$
   choices:
   - label: A
     text: |-
@@ -57,7 +56,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设函数 $f(x)$ 在点 $x=0$ 的某一邻域内可导，且 $f'(0)=0$，则 $\lim_{x\to0}\dfrac{f(x)}{x^2}$ 存在是 $f''(0)$ 存在的\ExamSelection。
+      设函数 $f(x)$ 在点 $x=0$ 的某一邻域内可导，且 $f'(0)=0$，则 $\lim\limits_{x \to 0}\dfrac{f(x)}{x^2}$ 存在是 $f''(0)$ 存在的
   choices:
   - label: A
     text: 充分非必要条件
@@ -76,26 +75,26 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $I=\int_{\dfrac{1}{e}}^e\sin\ln x\,\mathrm{d}x$，则有\ExamSelection。
+      设 $I = \int_{\dfrac{1}{\mathrm{e}}}^{\mathrm{e}} \sin \ln x \,\mathrm{d}x$，则有
   choices:
   - label: A
-    text: $I<0$
+    text: $I < 0$
     figures: []
   - label: B
-    text: $I=0$
+    text: $I = 0$
     figures: []
   - label: C
-    text: $0<I<1$
+    text: $0 < I < 1$
     figures: []
   - label: D
-    text: $I>1$
+    text: $I > 1$
     figures: []
 - number: 5
   section: choice
   points: 5
   stem:
     text: |-
-      设 $f(x)=\int_{-1}^x t|t|\,\mathrm{d}t$，$D$ 是由曲线 $y=f(x)$ 与 $x$ 轴围成的平面图形，则 $D$ 绕 $x$ 轴旋转一周所形成的旋转体的体积为\ExamSelection。
+      设 $f(x)=\int_{-1}^x t|t|\mathrm{d}t$ $,D$ 是由曲线 $y=f(x)$ 与 $x$ 轴围成的平面图形，则 $D$ 绕 $x$ 轴旋转一周所形成的旋转体的体积为
   choices:
   - label: A
     text: |-
@@ -117,8 +116,7 @@ questions:
   section: choice
   points: 5
   stem:
-    text: |-
-      已知四个点 $P_1(-2,1,1)$，$P_2(2,-1,1)$，$P_3(1,-2,1)$，$P_4(-1,2,1)$ 都满足方程 $F(x,y,z)=x^2+xy+y^2+z^2-2z-2=0$，则由 $F(x,y,z)=0$ 可确定出唯一的连续且具有一阶连续偏导数的函数是\ExamSelection。
+    text: 已知四个点 $P_1(-2,1,1),P_2(2,-1,1),P_3(1,-2,1),P_4(-1,2,1)$ 都满足方程 $F(x,y,z) = x^2 + xy + y^2 + z^2 - 2z - 2 = 0$, 则由 $F(x,y,z) = 0$ 可确定出唯一的连续且具有一阶连续偏导数的函数是
   choices:
   - label: A
     text: $z=z(x,y)$ 并满足 $z(-2,1)=1$
@@ -137,26 +135,26 @@ questions:
   points: 5
   stem:
     text: |-
-      以 $y=x$ 与 $y=xe^{-2x}$ 为特解的最低阶常系数齐次线性微分方程为\ExamSelection。
+      以 $y=x$ 与 $y=x\mathrm{e}^{-2x}$ 为特解的最低阶常系数齐次线性微分方程为
   choices:
   - label: A
-    text: $y'''+2y''=0$
+    text: $y'''+2y''=0.$
     figures: []
   - label: B
-    text: $y'''+4y''+4y'-4y=0$
+    text: $y'''+4y''+4y'-4y=0.$
     figures: []
   - label: C
-    text: $y^{(4)}+2y'''=0$
+    text: $y^{(4)}+2y'''=0.$
     figures: []
   - label: D
-    text: $y^{(4)}+4y'''+4y''=0$
+    text: $y^{(4)}+4y'''+4y''=0.$
     figures: []
 - number: 8
   section: choice
   points: 5
   stem:
     text: |-
-      设 $A$ 为 $(n+1)\times n$ 矩阵，$\beta$ 为 $n+1$ 维列向量，则行列式 $|A,\beta|=0$ 是方程组 $Ax=\beta$ 有解的\ExamSelection。
+      设 $A$ 为 $(n+1) \times n$ 矩阵, $\beta$ 为 $n+1$ 维列向量, 则行列式 $|A, \beta|=0$ 是方程组 $Ax=\beta$ 有解的
   choices:
   - label: A
     text: 充分必要条件
@@ -175,122 +173,115 @@ questions:
   points: 5
   stem:
     text: |-
-      设矩阵 $A$ 的行列式 $|A|=2$，则 $[A+(A^*)^{-1}]^{-1}=$\ExamSelection。
+      设矩阵 $A$ 的行列式 $|A|=2$，则 $\left[A+(A^*)^{-1}\right]^{-1}=$
   choices:
   - label: A
-    text: $A^{-1}+A^*$
+    text: $A^{-1}+A^*.$
     figures: []
   - label: B
     text: |-
-      $\dfrac{1}{3}A^*$
+      $\dfrac{1}{3} A^*.$
     figures: []
   - label: C
     text: |-
-      $\dfrac{1}{3}A^{-1}$
+      $\dfrac{1}{3} A^{-1}.$
     figures: []
   - label: D
     text: |-
-      $\dfrac{1}{3}A$
+      $\dfrac{1}{3} A.$
     figures: []
 - number: 10
   section: choice
   points: 5
   stem:
     text: |-
-      设 3 阶实对称矩阵 $A$ 的特征值是 $1,2,3$，其中特征值 $1,2$ 对应的特征向量分别为 $\alpha_1=(-1,-1,1)^{\mathrm{T}}$，$\alpha_2=(1,-2,-1)^{\mathrm{T}}$。则 $A^*x=\alpha_1+2\alpha_2$ 的解为\ExamSelection。
+      设 $3$ 阶实对称矩阵 $A$ 的特征值是 $1,2,3$，其中特征值 $1,2$ 对应的特征向量分别为 $\alpha_1 = (-1,-1,1)^T, \alpha_2 = (1,-2,-1)^T$. 则 $A^*x = \alpha_1 + 2\alpha_2$ 的解为
   choices:
   - label: A
     text: |-
-      $\left(\dfrac{1}{2},-\dfrac{3}{2},-\dfrac{1}{2}\right)^{\mathrm{T}}$
+      $\left(\dfrac{1}{2},-\dfrac{3}{2},-\dfrac{1}{2}\right)^T$
     figures: []
   - label: B
     text: |-
-      $\left(\dfrac{1}{2},\dfrac{3}{2},\dfrac{1}{2}\right)^{\mathrm{T}}$
+      $\left(\dfrac{1}{2},\dfrac{3}{2},\dfrac{1}{2}\right)^T$
     figures: []
   - label: C
     text: |-
-      $\left(-\dfrac{1}{2},-\dfrac{3}{2},-\dfrac{1}{2}\right)^{\mathrm{T}}$
+      $\left(-\dfrac{1}{2},-\dfrac{3}{2},-\dfrac{1}{2}\right)^T$
     figures: []
   - label: D
     text: |-
-      $\left(\dfrac{1}{2},\dfrac{3}{2},-\dfrac{1}{2}\right)^{\mathrm{T}}$
+      $\left(\dfrac{1}{2},\dfrac{3}{2},-\dfrac{1}{2}\right)^T$
     figures: []
 - number: 11
   section: fill
   points: 5
   stem:
     text: |-
-      曲线 $y=f(x)=2\int_0^x te^{-t^2}\,\mathrm{d}t+e^{-x^2}$ 在 $x\to+\infty$ 时的斜渐近线方程为\ExamBlank。
+      曲线 $y = f(x) = 2\int_0^x x\mathrm{e}^{-t^2} \mathrm{d}t + \mathrm{e}^{-x^2}$ 在 $x \to +\infty$ 时的斜渐近线方程为\underline{\qquad\qquad}
 - number: 12
   section: fill
   points: 5
   stem:
     text: |-
-      设函数 $f(x)=x^{\dfrac{8}{3}}+ax^{\dfrac{5}{3}}$ 在 $x=\dfrac{5}{2}$ 处取得极值，则曲线 $y=f(x)$ 的凸区间为\ExamBlank。
+      设函数 $f(x)=x^{\dfrac{8}{3}}+ax^{\dfrac{5}{3}}$ 在 $x=\dfrac{5}{2}$ 处取得极值，则曲线 $y=f(x)$ 的凸区间为 \underline{\qquad}
 - number: 13
   section: fill
   points: 5
   stem:
     text: |-
-      $\int_{-1}^1\dfrac{x^2e^x}{e^x+1}\sqrt{2-x^2}\,\mathrm{d}x=$\ExamBlank。
+      $\int_{-1}^1 \dfrac{x^2 \mathrm{e}^x}{\mathrm{e}^x + 1} \sqrt{2-x^2} \mathrm{d}x = \underline{\qquad\qquad}$
 - number: 14
   section: fill
   points: 5
   stem:
     text: |-
-      设函数 $u(x),v(x)$ 在 $(-\infty,+\infty)$ 内可导，$f(x,y)=u(x+2y)+v(x-2y)$，且 $f(x,0)=\sin 2x$，$\left.\dfrac{\partial f}{\partial y}\right|_{y=0}=0$，则 $u(x)=$\ExamBlank。
+      设函数 $u(x), v(x)$ 在 $(-\infty, +\infty)$ 内可导$,f(x, y) = u(x+2y) + v(x-2y)$，且 $f(x, 0) = \sin 2x$ $,\left.\dfrac{\partial f}{\partial y}\right|_{y=0} = 0$，则 $u(x) = \underline{\hspace{1.5cm}}$。
 - number: 15
   section: fill
   points: 5
   stem:
     text: |-
-      积分 $\int_{-1}^1\mathrm{d}y\int_{-1}^y y\sqrt{1+x^2-y^2}\,\mathrm{d}x=$\ExamBlank。
+      积分 $\int_{-1}^1 \mathrm{d}y \int_{-y}^y y\sqrt{1+x^2-y^2} \mathrm{d}x = \underline{\qquad\qquad}.$
 - number: 16
   section: fill
   points: 5
   stem:
     text: |-
-      设 $A=\begin{pmatrix}-1&3&4\\1&-2&-3\end{pmatrix}$，$B$ 是 $3\times2$ 矩阵，$E$ 是 2 阶单位矩阵，满足 $AB=E$，则 $B=$\ExamBlank。
+      设 $A=\begin{pmatrix} -1 & 3 & 4 \\ 1 & -2 & -3 \end{pmatrix}$ $,B$ 是 $3 \times 2$ 矩阵$,E$ 是 $2$ 阶单位矩阵，满足 $AB=E$，则 $B=\underline{\qquad\qquad}$
 - number: 17
   section: solution
-  points: 10
+  points: 12
   stem:
     text: |-
-      设 $f(x)$ 在 $(0,+\infty)$ 内可导，且满足 $\lim_{t\to\infty}t^2\sin\dfrac{x}{(1+x^2)t}\cdot\left[f\left(x+\dfrac{1}{t}\right)-f\left(x-\dfrac{1}{t}\right)\right]=f(x)\ln x$，若 $f(1)=1$，求 $f(x)$。
+      设 $f(x)$ 在 $(0, +\infty)$ 内可导，且满足 $\lim\limits_{t \to \infty} t^2 \sin \dfrac{x}{(1+x^2)t} \cdot \left[ f\left(x+\dfrac{1}{t}\right) - f\left(x-\dfrac{1}{t}\right) \right] = f(x) \ln x$，若 $f(1) = 1$，求 $f(x)$。
 - number: 18
   section: solution
   points: 12
   stem:
-    text: 本题包括两问。
-  subparts:
-  - text: |-
-      将 $x=x(y)$ 的微分方程 $\dfrac{\mathrm{d}^2x}{\mathrm{d}y^2}+(y+\sin x)\left(\dfrac{\mathrm{d}x}{\mathrm{d}y}\right)^3=0$ 化成 $y=y(x)$ 的微分方程，并求出满足初值条件 $x(0)=0$，$x'(0)=\dfrac{2}{3}$ 的特解 $y(x)$；
-  - text: |-
-      利用（1）的结论，求由曲线 $x=x(y)$，直线 $y=y(\pi)$ 及 $y$ 轴围成的平面图形 $D$ 绕 $y$ 轴旋转一周而成的旋转体的体积 $V$。
+    text: |-
+      将 $x=x(y)$ 的微分方程 $\dfrac{\mathrm{d}^2x}{\mathrm{d}y^2} + (y+\sin x)\left(\dfrac{\mathrm{d}x}{\mathrm{d}y}\right)^3 = 0$ 化成 $y=y(x)$ 的微分方程，并求出满足初值条件 $x(0)=0, x'(0)=\dfrac{2}{3}$ 的特解 $y(x)$； (2) 利用 (1) 的结论，求由曲线 $x=x(y)$，直线 $y=y(\pi)$ 及 $y$ 轴围成的平面图形 $D$ 绕 $y$ 轴旋转一周而成的旋转体的体积 $V$。
 - number: 19
   section: solution
   points: 12
   stem:
     text: |-
-      设 $f(x)$ 是 $[0,1]$ 上的连续正值函数，$I_1=\int_0^1\ln f(x)\,\mathrm{d}x$，$I_2=\ln\int_0^1f(x)\,\mathrm{d}x$，$I_3=\int_0^1[f(x)+\ln x]\,\mathrm{d}x$，比较 $I_1,I_2,I_3$ 的大小，并说明理由。
+      设 $f(x)$ 是 $[0,1]$ 上的连续正值函数$,I_1 = \int_0^1 \ln f(x) \mathrm{d}x$ $,I_2 = \ln \int_0^1 f(x) \mathrm{d}x$ $,I_3 = \int_0^1 [f(x) + \ln x] \mathrm{d}x$，比较 $I_1, I_2, I_3$ 的大小，并说明理由
 - number: 20
   section: solution
   points: 12
   stem:
     text: |-
-      设 $D$ 是 $xOy$ 面上圆 $x^2+y^2=1$ 与直线 $y=x$ 所围成的上半圆区域，若 $\iint_Dx(a+\sin y)\,\mathrm{d}x\mathrm{d}y+\int_0^1\mathrm{d}y\int_y^1\left(\dfrac{e^{x^2}}{x}-e^{y^2}\right)\,\mathrm{d}x=0$，求常数 $a$ 的值。
+      设 $D$ 是 $xOy$ 面上圆 $x^2+y^2=1$ 与直线 $y=x$ 所围成的上半圆区域, 若 $\iint_{D} x(a+\sin y) \mathrm{d}x\mathrm{d}y + \int_{0}^{1}\mathrm{d}y \int_{y}^{1}\left(\dfrac{\mathrm{e}^{x^2}}{x}-\mathrm{e}^{y^2}\right)\mathrm{d}x=0$, 求常数 $a$ 的值
 - number: 21
   section: solution
   points: 12
   stem:
-    text: 有一容器内盛清水 100 升，现将每升含盐量 4 克的盐水以每分钟 5 升的速率注入容器，同时混合液以每分钟 3 升的速率流出容器，问在任一时刻 $t$ 容器内的含盐量是多少？在 20 分钟末容器内的含盐量是多少？
+    text: 有一容器内盛清水 100 升, 现将每升含盐量 4 克的盐水以每分钟 5 升的速率注入容器, 同时混合液以每分钟 3 升的速率流出容器, 问在任一时刻 $t$ 容器内的含盐量是多少? 在 20 分钟末容器内的含盐量是多少?
 - number: 22
   section: solution
   points: 12
   stem:
     text: |-
-      设三元二次型 $f(x_1,x_2,x_3)=x^{\mathrm{T}}Ax$ 在正交变换 $x=Qy$ 下的标准形为 $2y_1^2-y_2^2-y_3^2$，且 $A^*\alpha_1=\alpha_1$，其中 $\alpha_1=(1,1,-1)^{\mathrm{T}}$。
-  subparts:
-  - text: 求正交矩阵 $Q$；
-  - text: 求二次型 $f(x_1,x_2,x_3)$ 的表达式；
-  - text: 求可逆线性变换 $x=Pz$ 化二次型 $f(x_1,x_2,x_3)$ 为规范形。
+      设三元二次型 $f(x_1,x_2,x_3) = x^T A x$ 在正交变换 $x = Q y$ 下的标准形为 $2y_1^2 - y_2^2 - y_3^2$，且 $A^* \alpha_1 = \alpha_1$，其中 $\alpha_1 = (1,1,-1)^T$. (1) 求正交矩阵 $Q$； (2) 求二次型 $f(x_1,x_2,x_3)$ 的表达式； (3) 求可逆线性变换 $x = P z$ 化二次型 $f(x_1,x_2,x_3)$ 为规范形
+content_hash: 9c9c96147036e20fe84edd64b6fd02a72f5340f87cfb48a2eba3c9e28adbdd85

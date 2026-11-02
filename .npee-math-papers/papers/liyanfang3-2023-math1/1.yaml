@@ -4,7 +4,6 @@ paper:
   year: 2023
   subject: math1
   paper_no: 1
-content_hash: ae53ee3349fcd61438ffd02720a6aad7b1040976ce604a1bd87b6fb600dd8aac
 questions:
 - number: 1
   section: choice
@@ -34,7 +33,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设函数 $y(x)=\lim_{t\to0}\left[1-\dfrac{\ln(1-t)}{x^2}\right]^{\dfrac{x}{\sin t}}$，下列关于曲线 $y=y(x)$ 的渐近线的说法中，正确的是\ExamSelection。①该曲线无渐近线。②该曲线有铅直渐近线。③该曲线有水平渐近线。④该曲线有斜渐近线。
+      设函数 $y(x)=\lim_{t\to0}\left[1-\dfrac{\ln(1-t)}{x^2}\right]^{\dfrac{x}{\sin t}}$，下列关于曲线 $y=y(x)$ 的渐近线的说法中，正确的是\ExamSelection。\n①该曲线无渐近线。\n②该曲线有铅直渐近线。\n③该曲线有水平渐近线。\n④该曲线有斜渐近线。
   choices:
   - label: A
     text: ②。
@@ -297,3 +296,4 @@ questions:
       求 $\beta$ 的最大似然估计量 $\hat{\beta}$；
   - text: |-
       判断 $\hat{\beta}$ 是否为无偏估计。
+content_hash: dc77f43c3dc8645ce4d89f78d64a936a3c0b39303e97156c7df4c3cb86db5c68

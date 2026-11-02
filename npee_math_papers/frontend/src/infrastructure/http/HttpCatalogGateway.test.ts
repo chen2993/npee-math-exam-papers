@@ -56,15 +56,6 @@ describe("HttpCatalogGateway", () => {
     expect(url).toBe("/api/papers?limit=10");
   });
 
-  it("requests the question-level endpoint", async () => {
-    const fetchMock = vi.fn<(input: RequestInfo | URL) => Promise<Response>>(async () =>
-      jsonResponse({ natural_key: "2024/math1/demo/1", question: {} }),
-    );
-    vi.stubGlobal("fetch", fetchMock);
-    await gateway.getQuestion("demo", 2024, "math1", 1, 7);
-    expect(String(fetchMock.mock.calls[0]?.[0] ?? "")).toBe("/api/papers/demo/2024/math1/1/questions/7");
-  });
-
   it("reads the release manifest", async () => {
     vi.stubGlobal("fetch", vi.fn(async () => jsonResponse({ library_hash: "abc", paper_count: 1, papers: {} })));
     await expect(gateway.releaseManifest()).resolves.toMatchObject({ library_hash: "abc" });

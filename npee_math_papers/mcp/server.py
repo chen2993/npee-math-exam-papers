@@ -25,8 +25,9 @@ import sys
 import time
 from typing import Any
 
-from npee_math_papers.core.domain import DEFAULT_SPACING
+from npee_math_papers.core.domain import DEFAULT_PRINT, DEFAULT_SPACING
 from npee_math_papers.service import NpeeService
+from npee_math_papers.service.composition import DEFAULT_COMPILE
 from npee_math_papers.service.events import build_payload, default_event_log
 
 try:  # pragma: no cover - exercised through the CLI
@@ -482,15 +483,23 @@ def build_server() -> "FastMCP":
         layout: str = "a4",
         spacing: str = DEFAULT_SPACING,
         theme: str = "print",
+        print_blank: bool = DEFAULT_PRINT,
         pin_hashes: bool = True,
     ) -> str:
+        """``spacing`` 只决定解答题怎么排，``print_blank`` 只决定留白。"""
+
         document = {
             "toc": {"enabled": True, "title": "目录", "include_groups": True, "include_papers": True},
             "layout": layout,
             "theme": theme,
             "spacing": spacing,
             "opening": {"show": True, "candidate_info": True, "notices": True},
-            "solution": {"structure": "pair-first", "pair_count": 2},
+        }
+        compile_config = {
+            **DEFAULT_COMPILE,
+            "targets": [
+                {**target, "print": print_blank} for target in DEFAULT_COMPILE["targets"]
+            ],
         }
         return _as_json(
             _service().composition.build(
@@ -498,6 +507,7 @@ def build_server() -> "FastMCP":
                 title,
                 selections,
                 document=document,
+                compile_config=compile_config,
                 pin_hashes=pin_hashes,
             )
         )
@@ -505,6 +515,18 @@ def build_server() -> "FastMCP":
     @server.tool(description="校验组卷文档：结构是否合法，以及每个引用是否与当前题库内容一致。")
     def npee_validate_composition(composition: dict[str, Any]) -> str:
         return _as_json(_service().composition.validate(composition))
+
+    @server.tool(description="列出仓库里的组卷包（composition/<id>/composition.json）。")
+    def npee_composition_packages() -> str:
+        return _as_json({"packages": _service().composition.list_packages()})
+
+    @server.tool(description="读取一个组卷包的完整文档，含封面/Hook 声明与绑定校验结果。")
+    def npee_composition_package(composition_id: str) -> str:
+        return _as_json(_service().composition.load_package(composition_id))
+
+    @server.tool(description="把组卷文档写回 composition/<id>/composition.json；先校验再落盘。")
+    def npee_composition_package_save(composition_id: str, composition: dict[str, Any]) -> str:
+        return _as_json(_service().composition.save_package(composition_id, composition))
 
     @server.tool(description="编译组卷（同步）。编译耗时较长时改用 npee_composition_submit + npee_composition_job 轮询。dry_run=true 只生成 TeX 与报告。")
     def npee_composition_compile(

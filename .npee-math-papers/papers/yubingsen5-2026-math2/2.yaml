@@ -1,0 +1,309 @@
+schema_version: '3.0'
+paper:
+  series_key: yubingsen5
+  year: 2026
+  subject: math2
+  paper_no: 2
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      关于 \(x\) 的方程\( \int_0^x\sqrt{1+t^2}\, \mathrm dt+\int_{\cos x}^{0}e^{-t^2}\, \mathrm dt=0 \)的根的个数为
+  choices:
+  - label: A
+    text: |-
+      \(0\) 。
+    figures: []
+  - label: B
+    text: |-
+      \(1\) 。
+    figures: []
+  - label: C
+    text: |-
+      \(2\) 。
+    figures: []
+  - label: D
+    text: |-
+      \(3\) 。
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 \(f(x)\) 在 \((-\infty, +\infty)\) 内有定义，在 \((-\infty,0)\cup(0, +\infty)\) 内连续，点 \(x=0\) 为 \(f(x)\) 的可去间断点，则
+  choices:
+  - label: A
+    text: |-
+      点 \(x=0\) 为 \(\int_0^x f(t)\, \mathrm dt\) 的可去间断点。
+    figures: []
+  - label: B
+    text: |-
+      点 \(x=0\) 为 \(\int_0^x f(t)\, \mathrm dt\) 的跳跃间断点。
+    figures: []
+  - label: C
+    text: |-
+      \(\int_0^x f(t)\, \mathrm dt\) 在点 \(x=0\) 处连续但不可导。
+    figures: []
+  - label: D
+    text: |-
+      \(\int_0^x f(t)\, \mathrm dt\) 在点 \(x=0\) 处可导。
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: 下列反常积分中收敛的是
+  choices:
+  - label: A
+    text: |-
+      \(\int_0^2\dfrac{1}{x^2-1}\, \mathrm dx\)
+    figures: []
+  - label: B
+    text: |-
+      \(\int_0^1(\ln x)^2\, \mathrm dx\)
+    figures: []
+  - label: C
+    text: |-
+      \(\int_0^{+\infty}\dfrac{x\arctan x}{x^2+1}\, \mathrm dx\)
+    figures: []
+  - label: D
+    text: |-
+      \(\int_0^{\frac\pi2}\dfrac{1}{\sin^2x}\, \mathrm dx\)
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设微分方程 \(y''+qy=0\) 有当 \(x\to+\infty\) 时趋于零的非零解，则
+  choices:
+  - label: A
+    text: |-
+      \(q>0\) 。
+    figures: []
+  - label: B
+    text: |-
+      \(q=0\) 。
+    figures: []
+  - label: C
+    text: |-
+      \(q<0\) 。
+    figures: []
+  - label: D
+    text: |-
+      \(q\ge0\) 。
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 \(y=y(x)\) 是由方程 \(1+xy=e^{x^2+y}\) 确定，则当 \(x\to0\) 时，\(y(x)\sim\)
+  choices:
+  - label: A
+    text: |-
+      \(x\) 。
+    figures: []
+  - label: B
+    text: |-
+      \(-x\) 。
+    figures: []
+  - label: C
+    text: |-
+      \(x^2\) 。
+    figures: []
+  - label: D
+    text: |-
+      \(-x^2\) 。
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 \(f(x)\) 存在二阶连续的导数，且满足 \(f''(x)-f(x)=xe^{x^2}\)，则 \(\int_{-\pi}^{\pi}f(x)\cos x\, \mathrm dx=\)
+  choices:
+  - label: A
+    text: |-
+      \(f(\pi)-f(-\pi)\)
+    figures: []
+  - label: B
+    text: |-
+      \(-\dfrac{f(\pi)-f(-\pi)}{2}\)
+    figures: []
+  - label: C
+    text: |-
+      \(f'(\pi)-f'(-\pi)\)
+    figures: []
+  - label: D
+    text: |-
+      \(-\dfrac{f'(\pi)-f'(-\pi)}{2}\)
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      函数 \(f(x,y)\) 具有连续的偏导数，已知 \(f'_x(x,y)>0\) ， \(f'_y(x,y)<0\) 。 如果 \(a=f(1,1)\) ， \(b=f(1, -1)\) ， \(c=f(-1,1)\) ， \(d=f(-1, -1)\) 四个数中最大的是 \(M\)，最小的是 \(m\)，则有
+  choices:
+  - label: A
+    text: |-
+      \(M=a, \ m=d\) 。
+    figures: []
+  - label: B
+    text: |-
+      \(M=b, \ m=c\) 。
+    figures: []
+  - label: C
+    text: |-
+      \(M=b, \ m=d\) 。
+    figures: []
+  - label: D
+    text: |-
+      \(M=a, \ m=c\) 。
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 \(A,B\) 为 \(n\) 阶方阵，\(E\) 为 \(n\) 阶单位矩阵。 若 \(A\) 为可逆的对称矩阵，且 \((A-B)^2=E\)，则\( \left(E+A^{-1}B^T\right)^T\left(E-BA^{-1}\right)^{-1}= \)
+  choices:
+  - label: A
+    text: |-
+      \((A-B)(A+B)\) 。
+    figures: []
+  - label: B
+    text: |-
+      \((A+B)(A-B)\) 。
+    figures: []
+  - label: C
+    text: |-
+      \((B+A)(B-A)\) 。
+    figures: []
+  - label: D
+    text: |-
+      \((B-A)(B+A)\) 。
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 \(A\) 是三阶非零矩阵，\(\beta_1=(1,2, -2)^T\) ， \(\beta_2=(2,1, -1)^T\) ， \(\beta_3=(2,1,t)^T\) 是非齐次线性方程组 \(Ax=b\) 的解向量，则必有
+  choices:
+  - label: A
+    text: |-
+      \(t=-1\) 时， \(r(A)=2\) 。
+    figures: []
+  - label: B
+    text: |-
+      \(t=-1\) 时， \(r(A)=1\) 。
+    figures: []
+  - label: C
+    text: |-
+      \(t\ne-1\) 时， \(r(A)=1\) 。
+    figures: []
+  - label: D
+    text: |-
+      \(t\ne-1\) 时， \(r(A)=2\) 。
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      关于二次型 \(f(x_1,x_2,x_3)=(x_1+x_2+ax_3)(x_1+bx_2-x_3)\) 的 3 个命题： ① 当 \(a\ne-1\) 时，二次型 \(f(x_1,x_2,x_3)\) 的负惯性指数为 \(1\)； ② 当 \(b\ne1\) 时，二次型 \(f(x_1,x_2,x_3)\) 的负惯性指数为 \(1\)； ③ 当 \(ab\ne-1\) 时，二次型 \(f(x_1,x_2,x_3)\) 的负惯性指数为 \(1\) 。 其中正确命题的个数是
+  choices:
+  - label: A
+    text: |-
+      \(0\) 。
+    figures: []
+  - label: B
+    text: |-
+      \(1\) 。
+    figures: []
+  - label: C
+    text: |-
+      \(2\) 。
+    figures: []
+  - label: D
+    text: |-
+      \(3\) 。
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 \(n\to\infty\) 时，\( \left(n+\dfrac{1}{2}\right)\ln\left(1+\dfrac{1}{n}\right)-1 \) 与 \( \dfrac{1}{n^k} \) 是同阶无穷小量，则 \(k=\)_____
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      极限 \(\lim\limits_{n\to\infty}\sum\limits_{i=1}^n\dfrac{i+\sqrt{i}}{n^2+in}=\)_____
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      定积分 \(I=\int_1^2\sqrt{\ln x}\, \mathrm dx+\int_0^{\sqrt{\ln2}}e^{y^2}\, \mathrm dy=\)_____
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 \(u(x,y)=\int_0^1 f(t)|xy-t|\, \mathrm dt\)，其中 \(f(x)\) 在 \([0,1]\) 上连续，\(0\le x\le1\) ， \(0\le y\le1\)，则 \(\dfrac{\partial^2u}{\partial x^2}=\)_____
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设区域 \(D\) 为 \(\dfrac{1}{4}\le x^2+y^2\le1\) ， \(x\tan\left[\dfrac{1}{4}(x^2+y^2)\right]\le y\le x\tan(x^2+y^2)\) ， \(x>0,y>0\)，则 \(\iint_D e^{x^2+y^2}\, \mathrm dx\, \mathrm dy=\)_____
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      已知三阶矩阵 \(A\) 与三维列向量 \(x\) 满足 \(A^3x+A^2x-3Ax=0\)，且向量组 \(x,Ax,A^2x\) 线性无关，则 \(r(A)+r(E-A)=\)_____
+- number: 17
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 \(f(x)\) 在 \((-\infty, +\infty)\) 内有定义，\(f(0)=1\)，且\( \lim\limits_{x\to0}\dfrac{\ln(1-x)+f(x)\sin x}{e^{x^2}-1}=0 \) 。求 \(f'(0)\) 以及极限\( \lim\limits_{x\to0}\dfrac{xf(x)-e^x+\cos x}{\ln(1+x^2)} \)的值。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      求函数 \(f(x,y)=3(x-2y)^2+x^3-8y^3\) 的极值。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 \(f(x)=\int_0^1 |t(t-x)|e^{t^2}\, \mathrm dt\) ， \(0\le x\le1\) ， \(f(x_0)\) 为 \(f(x)\) 的极值，求曲线 \(y=f(x)\) 在点 \((x_0,f(x_0))\) 处的曲率半径 \(R\) 。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      (1) 证明：当 \(x>0\) 时，\( \varphi(x)=\left(1+\dfrac{1}{x}\right)^{x+1} \) 单调递减； (2) 设 \(f(\alpha,x)=\alpha x^\alpha(1-x)\) ， \(\alpha>0\) ， \(0\le x\le1\) ， \( F(\alpha)=\max\limits_{0\le x\le1}f(\alpha,x) \)，证明：\( f(\alpha,x)<\dfrac{1}{e} \) 且 \( \lim\limits_{\alpha\to\infty}F(\alpha)=\dfrac{1}{e} \) 。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 \(f(x),g(x)\) 连续，且满足\( \int_0^x f(t)\, \mathrm dt=2f(x)+g(x)+x, \quad \int_0^x g(t)\, \mathrm dt=4f(x)-g(x)+1 \) ，求 \(f(x)\) 和 \(g(x)\) 。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设实矩阵 \(A=\begin{pmatrix}0&-1&4\\-1&3&a\\4&a&b\end{pmatrix}\) 。 已知二次型 \(x^TAx\) 可以经过正交变换 \(x=Qy\) 化为标准形，且 \(Q\) 的第一列为 \(\dfrac{1}{\sqrt6}(1,2,1)^T\) 。 求： (1) 常数 \(a,b\) 的值； (2) 一个正交矩阵 \(Q\)，使得 \(Q^{-1}AQ\) 为对角矩阵； (3) 判断二次型 \(x^T(A+4E)x\) 是否为正定二次型，并说明理由。
+content_hash: cdb060ab8038712160dd3a1f8fcbcbfc11ddaa996fbd0e268c7bb0e016afdde3

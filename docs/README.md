@@ -50,6 +50,7 @@ Agent 装 MCP：见 [`MCP-SETUP.md`](MCP-SETUP.md)。
 | --- | --- |
 | [`AGENT-QUICKSTART.md`](AGENT-QUICKSTART.md) | Agent 上手指南：术语、任务地图、工作流、题目结构、报错处理 |
 | [`EXTRACTION.md`](EXTRACTION.md) | 提取规范：三个角色、题目形状、排版约定、流程与报错对照（每个 bundle 的具体事实见其生成的 `staging/<bundle>/BRIEF.md`） |
+| [`READER-ERRATA.md`](READER-ERRATA.md) | 读者勘误处理：22 条逐条回图结论、勘误标签→自然键映射、待用户决策项、复算命令 |
 | [`MCP-SETUP.md`](MCP-SETUP.md) | MCP 安装、OpenCode 配置、工具清单、排查 |
 | [`HUMAN-GUIDE.md`](HUMAN-GUIDE.md) | 人类使用指南：启动、四种界面、存储格式、常见问题 |
 | [`ARCHITECTURE.md`](ARCHITECTURE.md) | 分层架构、目录职责、数据流 |
@@ -82,7 +83,8 @@ npee_math_papers/          Python 包
 ├─ frontend/               人类网页管理台（React）
 ├─ tex/                    LaTeX 排版类
 └─ maintenance/            迁移、审计、环境检查
-collections/               组卷配置
+composition/               组卷配置
+dist/                      编译产物（PDF）
 docs/                      文档（本目录）
 .npee-math-papers/         题库数据库
 start-npee.ps1 / .bat      启动脚本

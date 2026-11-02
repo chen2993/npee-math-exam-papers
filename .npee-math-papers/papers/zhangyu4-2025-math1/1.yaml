@@ -4,7 +4,6 @@ paper:
   year: 2025
   subject: math1
   paper_no: 1
-content_hash: 1094a7575cf8213f72a37a45f39eb0bf61b7b09f075a81218427f1441fe719a2
 questions:
 - number: 1
   section: choice
@@ -51,7 +50,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设连续函数 $f(x)$ 在 $0$ 到 $x(x\ne 0)$ 上的平均值为 $\overline{f}(x)=\dfrac{1}{x}\int_0^x f(t)\,\mathrm{d}t$，则以下结论：①若 $f(x)$ 是奇函数，则 $\overline{f}(x)$ 是奇函数；②若 $f(x)$ 是偶函数，则 $\overline{f}(x)$ 是凸函数；③若 $f(x)$ 是周期函数，则 $\overline{f}(x)$ 是周期函数。所有正确结论的序号为\ExamSelection
+      设连续函数 $f(x)$ 在 $0$ 到 $x(x\ne 0)$ 上的平均值为 $\overline{f}(x)=\dfrac{1}{x}\int_0^x f(t)\,\mathrm{d}t$，则以下结论：\n①若 $f(x)$ 是奇函数，则 $\overline{f}(x)$ 是奇函数；\n②若 $f(x)$ 是偶函数，则 $\overline{f}(x)$ 是凸函数；\n③若 $f(x)$ 是周期函数，则 $\overline{f}(x)$ 是周期函数。\n所有正确结论的序号为\ExamSelection
   choices:
   - label: A
     text: ①
@@ -315,3 +314,4 @@ questions:
   subparts:
   - text: $X$ 的概率密度；
   - text: $E(Y)$。
+content_hash: 69705376530ab878a5bc44858163df87754cd2e3be9d4ca6aaf625947880eb7b

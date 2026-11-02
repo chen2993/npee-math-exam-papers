@@ -4,7 +4,6 @@ paper:
   year: 2024
   subject: math3
   paper_no: 6
-content_hash: 0bd526475da1e551846b827e2494fa0c63701c3b9fcdc40c2303d8ce19dcae72
 questions:
 - number: 1
   section: choice
@@ -49,7 +48,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设函数 $f(x,y)=\begin{cases}(xy+\lambda\sqrt{x^2+y^2})\arctan\dfrac{1}{x^2+y^2},&(x,y)\ne(0,0),\\0,&(x,y)=(0,0).\end{cases}$ 则下列说法中正确的有\ExamSelection{}个。① $f(x,y)$ 在点 $(0,0)$ 处的连续性与 $\lambda$ 的取值无关；② $f(x,y)$ 在点 $(0,0)$ 处的可偏导性与 $\lambda$ 的取值无关；③ $f(x,y)$ 在点 $(0,0)$ 处的可微性与 $\lambda$ 的取值有关；④ 若 $f(x,y)$ 在点 $(0,0)$ 处可偏导，那么 $f(x,y)$ 在点 $(0,0)$ 处可微。
+      设函数 $f(x,y)=\begin{cases}(xy+\lambda\sqrt{x^2+y^2})\arctan\dfrac{1}{x^2+y^2},&(x,y)\ne(0,0),\\0,&(x,y)=(0,0).\end{cases}$ 则下列说法中正确的有\ExamSelection{}个。\n① $f(x,y)$ 在点 $(0,0)$ 处的连续性与 $\lambda$ 的取值无关；\n② $f(x,y)$ 在点 $(0,0)$ 处的可偏导性与 $\lambda$ 的取值无关；\n③ $f(x,y)$ 在点 $(0,0)$ 处的可微性与 $\lambda$ 的取值有关；\n④ 若 $f(x,y)$ 在点 $(0,0)$ 处可偏导，那么 $f(x,y)$ 在点 $(0,0)$ 处可微。
   choices:
   - label: A
     text: $1$
@@ -293,3 +292,4 @@ questions:
   - text: 求 $a$ 与 $b$ 的极大似然估计值；
   - text: |-
       设 $Y=e^X$，求 $\mathrm P\{Y<2\}$ 的极大似然估计值。
+content_hash: b630b4e514cebae4f5cf034cca97d4c81493f2e49d6e3878174849cca853e8ed

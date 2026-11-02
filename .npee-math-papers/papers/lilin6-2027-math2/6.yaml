@@ -1,0 +1,310 @@
+schema_version: '3.0'
+paper:
+  series_key: lilin6
+  year: 2027
+  subject: math2
+  paper_no: 6
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知 \(\lim\limits_{x\to+\infty}\dfrac{1}{x^a}\int_0^{x^2}\sqrt{1+t^4}\mathrm{d}t=b\)，其中 \(a\) 为大于零的常数，\(b\) 为非零常数，则（ ）
+  choices:
+  - label: A
+    text: |-
+      \(a=6,b=\dfrac{1}{3}\)
+    figures: []
+  - label: B
+    text: |-
+      \(a=6,b=3\)
+    figures: []
+  - label: C
+    text: |-
+      \(a=3,b=6\)
+    figures: []
+  - label: D
+    text: |-
+      \(a=3,b=\dfrac{1}{3}\)
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知曲线 \(y=ax(b-x)(a>0,b>0)\) 与 \(xy=1\) 在第一象限内有公切线，两曲线在切点相交，则 \(y=ax(b-x)\) 与 \(x\) 轴在第一象限围成图形的面积为（ ）
+  choices:
+  - label: A
+    text: |-
+      \(1\)
+    figures: []
+  - label: B
+    text: |-
+      \(\dfrac{1}{8}\)
+    figures: []
+  - label: C
+    text: |-
+      \(\dfrac{8}{9}\)
+    figures: []
+  - label: D
+    text: |-
+      \(\dfrac{9}{8}\)
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 \(F(x,y)=\dfrac{x-y}{\sqrt{1+x^2}}\mathrm{e}^{x+f(x)y}\)，其中 \(f(x)\) 连续，且 \(\lim\limits_{x\to1}f(x)=1\)，则 \(F'_x(1,1)+F'_y(1,1)=(\quad)\)
+  choices:
+  - label: A
+    text: |-
+      \(0\)
+    figures: []
+  - label: B
+    text: |-
+      \(1\)
+    figures: []
+  - label: C
+    text: |-
+      \(\mathrm{e}^2\)
+    figures: []
+  - label: D
+    text: |-
+      \(\dfrac{1}{\sqrt{2}}\)
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设反常积分 \(I=\int_3^{+\infty}\dfrac{\mathrm{d}x}{(x-1)(\ln x)^a}(a>0)\) 收敛，则 \(a\) 的取值范围为（ ）
+  choices:
+  - label: A
+    text: |-
+      \((0,+\infty)\)
+    figures: []
+  - label: B
+    text: |-
+      \((\mathrm{e},+\infty)\)
+    figures: []
+  - label: C
+    text: |-
+      \((1,+\infty)\)
+    figures: []
+  - label: D
+    text: |-
+      \((1,\mathrm{e})\)
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 \(f(u)\) 可导，\(z=xyf\left(\dfrac{y}{x}\right)\) 满足 \(x\dfrac{\partial z}{\partial x}+y\dfrac{\partial z}{\partial y}=y^2(\ln y-\ln x)\)，则 \(f(u)\) 的极小值为（ ）
+  choices:
+  - label: A
+    text: |-
+      \(\mathrm{e}^{-1}\)
+    figures: []
+  - label: B
+    text: |-
+      \(\dfrac{1}{2}\mathrm{e}^{-1}\)
+    figures: []
+  - label: C
+    text: |-
+      \(-\dfrac{1}{2}\mathrm{e}^{-1}\)
+    figures: []
+  - label: D
+    text: |-
+      \(\mathrm{e}\)
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设不恒为零的函数 \(f(x)\) 在 \([0,1]\) 上有连续的导数，\(f(0)=0\) 且满足 \(f'(x)-f(x)<1\)，则（ ）
+  choices:
+  - label: A
+    text: |-
+      \(\int_0^1f(x)\mathrm{d}x<\mathrm{e}-2\)
+    figures: []
+  - label: B
+    text: |-
+      \(\int_0^1f(x)\mathrm{d}x>\mathrm{e}-2\)
+    figures: []
+  - label: C
+    text: |-
+      \(\int_0^1f(x)\mathrm{d}x<\dfrac{1}{2}\)
+    figures: []
+  - label: D
+    text: |-
+      \(\int_0^1f(x)\mathrm{d}x>1\)
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 \(f(x)\) 满足 \(f(0)=0\)，则 \(f'(0)\) 存在的充分必要条件是（ ）
+  choices:
+  - label: A
+    text: |-
+      \(\lim\limits_{x\to0}\dfrac{f(2x)-f(x)}{x}\) 存在
+    figures: []
+  - label: B
+    text: |-
+      \(\lim\limits_{x\to0}\dfrac{f(x)-f(-x)}{2x}\) 存在
+    figures: []
+  - label: C
+    text: |-
+      \(\lim\limits_{x\to0}\dfrac{f(\mathrm{e}^x-1)}{x}\) 存在
+    figures: []
+  - label: D
+    text: |-
+      \(\lim\limits_{x\to0}\dfrac{|f(x)|}{x}\) 存在
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 3 维列向量 \(\alpha_1,\alpha_2,\alpha_3\) 线性无关，\(A=(a_{ij})_{3\times3}\) 满足 \(A\alpha_1=\alpha_1,A\alpha_2=\alpha_2-\alpha_3,A\alpha_3=\alpha_3-\alpha_1\)，\(A_{ij}\) 是 \(a_{ij}\) 的代数余子式，则 \(A_{11}+A_{22}+A_{33}=(\quad)\)
+  choices:
+  - label: A
+    text: |-
+      \(0\)
+    figures: []
+  - label: B
+    text: |-
+      \(1\)
+    figures: []
+  - label: C
+    text: |-
+      \(2\)
+    figures: []
+  - label: D
+    text: |-
+      \(3\)
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 3 阶矩阵 \(A\) 满足 \(A^*=A-2E\)，\(|A|=-1\)，其中 \(A^*\) 为 \(A\) 的伴随矩阵. 则下列命题中正确的个数为（ ）.① \(A-E\) 相似于对角矩阵. ② \((A-E)^3=O\). ③ 方程组 \(AX=X\) 有两个线性无关的解向量. ④ 方程组 \((A-E)^*X=0\) 有三个线性无关的解向量
+  choices:
+  - label: A
+    text: |-
+      \(1\)
+    figures: []
+  - label: B
+    text: |-
+      \(2\)
+    figures: []
+  - label: C
+    text: |-
+      \(3\)
+    figures: []
+  - label: D
+    text: |-
+      \(4\)
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 \(A,B\) 均为 \(n\) 阶矩阵，则 \(A\) 与 \(B\) 相似的充分条件是（ ）
+  choices:
+  - label: A
+    text: |-
+      \(A\) 与 \(B\) 有相同的特征值
+    figures: []
+  - label: B
+    text: |-
+      \(A\) 与 \(B\) 有相同的特征向量
+    figures: []
+  - label: C
+    text: |-
+      \(A^2\) 与 \(B^2\) 相似
+    figures: []
+  - label: D
+    text: |-
+      \(A\) 与 \(B\) 均与对角矩阵 \(\Lambda\) 相似
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      曲线 \(y=\int_0^x\sqrt{\sin t}\mathrm{d}t\) 在 \(x\in[0,\pi]\) 上的弧长为 \(\underline{\qquad}\)
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设摆线 \(\begin{cases}x=t-\sin t,\\y=1-\cos t,\end{cases}t\in(0,2\pi)\)，则该曲线的最小曲率为 \(\underline{\qquad}\)
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 \(D=\{(\theta,r)\mid\arctan\dfrac{1}{4}\leq\theta\leq\dfrac{\pi}{4},\dfrac{1}{\sqrt{\sin\theta\cos\theta}}\leq r\leq\dfrac{2}{\cos\theta}\}\)，则 \(I=\iint\limits_D r^3\cos^2\theta\,\mathrm{d}\theta\mathrm{d}r=\underline{\qquad}\)
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设常数 \(a,b\) 使得 \(\lim\limits_{x\to+\infty}\left(\sqrt{4x^2+\dfrac{a}{2}x+1}-ax-b\right)=0\)，则在 \((0,+\infty)\) 内 \(y=\sqrt{4x^2+\dfrac{a}{2}x+1}\) 的斜渐近线为 \(\underline{\qquad}\)
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 \(f(x)\) 在 \([0,1]\) 上三阶可导，且 \(f'(0)=f''(0)=0,f'''(x)\neq0\)，若对 \(\forall x\in(0,1)\)，存在 \(\xi(x)\in(0,x)\)，使得 \(\int_0^x f(t)\mathrm{d}t=f[\xi(x)]x\) 成立，则 \(\lim\limits_{x\to0^+}\dfrac{\xi(x)}{x}=\underline{\qquad}\)
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 \(\alpha,\beta,\gamma\) 均为 3 维列向量，记 \(A=(\alpha,\beta,\gamma),B=(\alpha+2\beta,2\beta+2\gamma,\beta+3\gamma)\)，且 \(|A|=1\)，则 \(|A^{-1}+B^{-1}|=\underline{\qquad}\)
+- number: 17
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      已知当 \(x\to0\) 时，\(a\sin x+bx^2+\ln(1-2x+x^2)\) 与 \(1-\mathrm{e}^{5x^2}\) 是等价无穷小，求 \(a\)，\(b\) 的值
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 \(f(x,y)=\begin{cases}(x^2+y^2+a\sqrt{|x|}+b)\dfrac{\sin(xy^2)}{x^2+y^4},&(x,y)\neq0,\\0,&(x,y)=0,\end{cases}\) 在点 \((0,0)\) 处可微，求 \(a,b\) 的值
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 \(D=\{(x,y)\mid0\leq x\leq1,1\leq y\leq2\}\). 计算 \(I=\iint\limits_D x^y\sin\left(\ln\dfrac{1}{x}\right)\mathrm{d}x\mathrm{d}y\)
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 \(f(x)\) 在 \((0,+\infty)\) 内有定义，\(f'(1)=1\)，对任意的正数 \(x,y\) 满足 \(f(xy)=\dfrac{f(x)}{y}+\dfrac{f(y)}{x}\). (I) 求 \(f(x)\)； (II) 求 \(y=f(x)\) 的极值与拐点
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 \(f(x)\) 在 \([-1,1]\) 上有连续的二阶导数. (I) 证明：存在 \(\xi\in[-1,1]\)，使得 \(\int_{-1}^{1}xf(x)\mathrm{d}x=\dfrac{1}{3}[2f'(\xi)+\xi f''(\xi)]\)； (II) 证明：若 \(f(x)\) 在 \((-1,1)\) 内取得极值，则存在一点 \(\eta\in(-1,1)\)，使得 \(|2f'(\eta)+\eta f''(\eta)|\geq\dfrac{1}{2}|f(1)-f(-1)|\)
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 \(A=\begin{pmatrix}0&1&0\\1&0&2\\1&-1&2\end{pmatrix}\). (I) 求 3 阶可逆矩阵 \(P\) 与 \(Q\)，使得 \(PAQ=\begin{pmatrix}1&0&0\\0&1&0\\0&0&0\end{pmatrix}\)； (II) 在第 (I) 问的基础上，若记 \(B=(QP)^{-1}\)，且 \(A=BC\)，求一个可逆矩阵 \(T\) 及对角矩阵 \(\Lambda\)，使得 \(T^{-1}(C+E)^2T=\Lambda\)
+content_hash: 94aceb75c57df0656112817a8fab6e2822d1292d37005e4dcad22cd43dbaf63a

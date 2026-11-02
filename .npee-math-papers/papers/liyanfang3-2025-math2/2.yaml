@@ -4,7 +4,6 @@ paper:
   year: 2025
   subject: math2
   paper_no: 2
-content_hash: 8ccb8ba544a60f9e98484bda8c21210502fd7fd25b49f663d9916e3c444fa7dc
 questions:
 - number: 1
   section: choice
@@ -229,7 +228,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设函数 $f(x)=\dfrac{x}{x^2-x+1}$，则 $f^{(1000)}(0)=$\ExamBlank。
+      设函数 $f(x)=\dfrac{x}{x^2-x+1}$，则 $f^{(100)}(0)=$\ExamBlank。
 - number: 13
   section: fill
   points: 5
@@ -298,3 +297,4 @@ questions:
   - text: |-
       求正交变换 $\mathbf{x}=\mathbf{Q}\mathbf{y}$ 将二次型 $f(x_1,x_2,x_3)=\mathbf{x}^{\mathrm{T}}\mathbf{A}\mathbf{x}$ 化为标准形；
   - text: 求 $f(x_1,x_2,x_3)=0$ 的解。
+content_hash: fd31c99f81b040118d1fc82aeed88f4f4371d6493b3248618d09dc77fe52220f

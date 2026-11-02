@@ -4,7 +4,6 @@ paper:
   year: 2024
   subject: math3
   paper_no: 7
-content_hash: cecae340305c0334f8942355467db34cfed4f1ab6ce0c0fa36f1c03b803fdfa1
 questions:
 - number: 1
   section: choice
@@ -95,7 +94,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $A$ 为 2 阶方阵，下列说法正确的有几个$\ExamSelection$。①若 $A$ 的所有元素为整数，则 $\dfrac{1}{2}$ 一定不是 $A$ 的特征值；②若 $A$ 的主对角元素之和为 $0$，则 $A$ 相似于一个对角阵；③若 $r(A)=2$，则存在 2 阶方阵 $B$，使得 $AB+BA$ 正定。
+      设 $A$ 为 2 阶方阵，下列说法正确的有几个$\ExamSelection$。\n①若 $A$ 的所有元素为整数，则 $\dfrac{1}{2}$ 一定不是 $A$ 的特征值；\n②若 $A$ 的主对角元素之和为 $0$，则 $A$ 相似于一个对角阵；\n③若 $r(A)=2$，则存在 2 阶方阵 $B$，使得 $AB+BA$ 正定。
   choices:
   - label: A
     text: $0$
@@ -257,7 +256,7 @@ questions:
   points: 10
   stem:
     text: |-
-      （本题满分 10 分）设函数 $f(x)$ 可导，$f(0)=0$，且 $f'(\ln x)=\begin{cases}1,&0<x<1,\\\dfrac{1}{1+\ln x},&x\geq1.\end{cases}$
+      设函数 $f(x)$ 可导，$f(0)=0$，且 $f'(\ln x)=\begin{cases}1,&0<x<1,\\\dfrac{1}{1+\ln x},&x\geq1.\end{cases}$
   subparts:
   - text: 求 $f(x)$ 的表达式；
   - text: 求曲线 $y=f(x),y=-f(-x)$，直线 $x=1$ 所围成的位于第一象限内图形 $D$ 的面积 $A$。
@@ -266,7 +265,7 @@ questions:
   points: 12
   stem:
     text: |-
-      （本题满分 12 分）设 $D$ 是由直线 $y=\sqrt{3}x,x=\sqrt{3}y$ 及曲线 $xy=1,xy=2$ 围成的四边形区域。
+      设 $D$ 是由直线 $y=\sqrt{3}x,x=\sqrt{3}y$ 及曲线 $xy=1,xy=2$ 围成的四边形区域。
   subparts:
   - text: |-
       证明：$\arctan x+\arctan\dfrac{1}{x}=\dfrac{\pi}{2}$，其中 $x>0$；
@@ -276,7 +275,7 @@ questions:
   section: solution
   points: 12
   stem:
-    text: （本题满分 12 分）设 $f(t)$ 在 $[0,1]$ 上可导，且 $f'(t)>0$。
+    text: 设 $f(t)$ 在 $[0,1]$ 上可导，且 $f'(t)>0$。
   subparts:
   - text: |-
       证明对任意的 $x\in(0,1)$，存在 $\theta\in(0,1)$，使得 $\int_0^x f(t)\,\mathrm{d}t=\theta xf(x)+(1-\theta)xf(0)$；
@@ -287,7 +286,7 @@ questions:
   points: 12
   stem:
     text: |-
-      （本题满分 12 分）已知函数 $f(x)$ 在 $(-\infty,+\infty)$ 上连续，且满足 $f(x)=e^x+\int_0^x t f(x-t)\,\mathrm{d}t$。
+      已知函数 $f(x)$ 在 $(-\infty,+\infty)$ 上连续，且满足 $f(x)=e^x+\int_0^x t f(x-t)\,\mathrm{d}t$。
   subparts:
   - text: 求函数 $f(x)$；
   - text: |-
@@ -297,7 +296,7 @@ questions:
   points: 12
   stem:
     text: |-
-      （本题满分 12 分）设 $A$ 为 $n$ 阶实矩阵，$A^{\mathrm T}$ 为 $A$ 的转置矩阵。
+      设 $A$ 为 $n$ 阶实矩阵，$A^{\mathrm T}$ 为 $A$ 的转置矩阵。
   subparts:
   - text: |-
       证明 $A$ 与 $A^{\mathrm T}$ 有相同的特征多项式，且不同特征值对应的 $A$ 的特征向量与 $A^{\mathrm T}$ 的特征向量正交；
@@ -308,4 +307,5 @@ questions:
   points: 12
   stem:
     text: |-
-      （本题满分 12 分）设每次试验成功的概率为 $p(0<p<1)$，重复独立地进行实验，$X$ 表示第二次成功时试验的次数，$X_1,X_2,\cdots,X_n$ 表示总体 $X$ 的一个简单随机样本，求未知参数 $p$ 的矩估计量和极大似然估计量。
+      设每次试验成功的概率为 $p(0<p<1)$，重复独立地进行实验，$X$ 表示第二次成功时试验的次数，$X_1,X_2,\cdots,X_n$ 表示总体 $X$ 的一个简单随机样本，求未知参数 $p$ 的矩估计量和极大似然估计量。
+content_hash: 9abb10ac02f11ba0bb94321db3700f046acbef80627f73f58e449ef5b582c476

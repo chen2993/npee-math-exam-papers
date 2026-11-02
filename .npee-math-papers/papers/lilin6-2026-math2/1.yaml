@@ -4,307 +4,295 @@ paper:
   year: 2026
   subject: math2
   paper_no: 1
-content_hash: 63af18e5eeb8ab78df8f73ddc718881b38e1d070cb325aaec2568773ebfce0e4
 questions:
 - number: 1
   section: choice
   points: 5
   stem:
     text: |-
-      设 $f(x)$ 有连续导数，$f(0)=0$，$f'(0)=2$，$\alpha(x)=\int_0^{x^2}f(t)\,\mathrm{d}t$，$\beta(x)=\left[\int_0^x f(t)\,\mathrm{d}t\right]^2$，则当 $x\to 0$ 时，$\alpha(x)$ 与 $\beta(x)$ 是\ExamSelection
+      设 \(f(x)\) 有连续导数，\(f(0)=0\) ， \(f'(0)=2\) ， \( \alpha(x)=\int_0^{x^2}f(t)\,dt \) ， \( \beta(x)=\left[\int_0^x f(t)\,dt\right]^2 \)，则当 \(x\to0\) 时，\(\alpha(x)\) 与 \(\beta(x)\) 是( )。
   choices:
   - label: A
-    text: 同阶但非等价无穷小.
+    text: 同阶但非等价无穷小
     figures: []
   - label: B
-    text: 等价无穷小.
+    text: 等价无穷小
     figures: []
   - label: C
-    text: 高阶无穷小.
+    text: 高阶无穷小
     figures: []
   - label: D
-    text: 低阶无穷小.
+    text: 低阶无穷小
     figures: []
 - number: 2
   section: choice
   points: 5
   stem:
     text: |-
-      曲线 $y=\dfrac{1}{|x|-1}+\ln(1+\mathrm{e}^{-x})$ 的渐近线的条数为\ExamSelection
+      曲线 \( y=\frac1{|x|-1}+\ln(1+e^{-x}) \) 的渐近线的条数为( )。
   choices:
   - label: A
-    text: $1$.
+    text: '1'
     figures: []
   - label: B
-    text: $2$.
+    text: '2'
     figures: []
   - label: C
-    text: $3$.
+    text: '3'
     figures: []
   - label: D
-    text: $4$.
+    text: '4'
     figures: []
 - number: 3
   section: choice
   points: 5
   stem:
     text: |-
-      设 $f(x)$ 可导，$f(x)>0$，当 $0<a<x<b$ 时，有 $f(x)<xf'(x)$，则\ExamSelection
+      设 \(f(x)\) 可导，\(f(x)>0\)，当 \(0<a<x<b\) 时，有 \(f(x)<xf'(x)\)，则( )。
   choices:
   - label: A
-    text: $bf(a)>af(b)$.
+    text: |-
+      \(b f(a)>a f(b)\)
     figures: []
   - label: B
-    text: $abf(x)>x^2f(b)$.
+    text: |-
+      \(ab f(x)>x^2 f(b)\)
     figures: []
   - label: C
-    text: $af(a)<xf(x)$.
+    text: |-
+      \(a f(a)<x f(x)\)
     figures: []
   - label: D
-    text: $abf(x)<x^2f(a)$.
+    text: |-
+      \(ab f(x)<x^2 f(a)\)
     figures: []
 - number: 4
   section: choice
   points: 5
   stem:
     text: |-
-      已知方程 $\int_1^x\dfrac{\ln t}{1+t}\,\mathrm{d}t+\int_1^{\dfrac{1}{x}}\dfrac{\ln t}{1+t}\,\mathrm{d}t=a$（$x>0$）有实根，则 $a$ 的取值范围为\ExamSelection
+      已知方程 \( \int_1^x\dfrac{\ln t}{1+t}\,dt+\int_1^{\dfrac{1}{x}}\dfrac{\ln t}{1+t}\,dt=a\ (x>0) \) 有实根，则 \(a\) 的取值范围为( )。
   choices:
   - label: A
     text: |-
-      $(0,+\infty)$.
+      \((0, +\infty)\)
     figures: []
   - label: B
     text: |-
-      $[0,+\infty)$.
+      \([0, +\infty)\)
     figures: []
   - label: C
-    text: $(0,1)$.
+    text: |-
+      \((0,1)\)
     figures: []
   - label: D
     text: |-
-      $[1,+\infty)$.
+      \([1, +\infty)\)
     figures: []
 - number: 5
   section: choice
   points: 5
   stem:
     text: |-
-      下列函数在 $x=0$ 处不可导的是\ExamSelection
+      下列函数在 \(x=0\) 处不可导的是( )。
   choices:
   - label: A
     text: |-
-      $|x|\int_0^x\sin t^2\,\mathrm{d}t$.
+      \(|x|\int_0^x\sin t^2\,dt\)
     figures: []
   - label: B
     text: |-
-      $|\sin(x-\sin x)|$.
+      \(|\sin(x-\sin x)|\)
     figures: []
   - label: C
     text: |-
-      $\int_{-1}^x\sqrt{|t|}\ln|t|\,\mathrm{d}t$.
+      \(\int_{-1}^x\sqrt{|t|}\ln|t|\,dt\)
     figures: []
   - label: D
     text: |-
-      $\sqrt{\mathrm{e}^{|x|}}$.
+      \(\sqrt{e^{|x|}}\)
     figures: []
 - number: 6
   section: choice
   points: 5
   stem:
     text: |-
-      设 $f(x)=(x-a)\ln x-x$ 有两个极值点，则实数 $a$ 的取值范围为\ExamSelection
+      设 \(f(x)=(x-a)\ln x-x\) 有两个极值点，则实数 \(a\) 的取值范围为( )。
   choices:
   - label: A
     text: |-
-      $[-\dfrac{1}{\mathrm{e}},+\infty)$.
+      \( [-\frac1e, +\infty) \)
     figures: []
   - label: B
     text: |-
-      $(-\dfrac{1}{\mathrm{e}},+\infty)$.
+      \( (-\frac1e, +\infty) \)
     figures: []
   - label: C
     text: |-
-      $[-\dfrac{1}{\mathrm{e}},0)$.
+      \( [-\frac1e,0) \)
     figures: []
   - label: D
     text: |-
-      $(-\dfrac{1}{\mathrm{e}},0)$.
+      \( (-\frac1e,0) \)
     figures: []
 - number: 7
   section: choice
   points: 5
   stem:
     text: |-
-      如图所示，曲线段的方程为 $y=f(x)$，函数 $f(x)$ 在区间 $[0,a]$ 上有连续的导数，则定积分 $\dfrac{1}{2}\int_0^a[f(x)-xf'(x)]\,\mathrm{d}x=$\ExamSelection
-    figures:
-    - kind: tikz
-      latex: |-
-        \begin{tikzpicture}[scale=0.8]\draw[->] (-0.35,0)--(5.2,0) node[right] {$x$};\draw[->] (0,-0.35)--(0,4.2) node[above] {$y$};\coordinate (O) at (0,0);\coordinate (B) at (0,3.55);\coordinate (C) at (0,1.55);\coordinate (A) at (3.75,1.55);\coordinate (D) at (3.75,0);\draw (B) .. controls (1.55,3.5) and (3.05,2.85) .. (A) node[pos=0.55,above right] {$y=f(x)$};\draw (B)--(A)--(O);\draw (C)--(A)--(D);\node[below left] at (O) {$O$};\node[left] at (B) {$B(0,f(0))$};\node[left] at (C) {$C(0,f(a))$};\node[right] at (A) {$A(a,f(a))$};\node[below] at (D) {$D(a,0)$};\end{tikzpicture}
-      path:
-      description: 曲线 y=f(x) 及点 O、A、B、C、D 构成的坐标图
-      exception_reason:
+      如图所示，曲线段的方程为 $y=f(x)$，函数 $f(x)$ 在区间 $[0,a]$ 上可导，则 $\dfrac{1}{2}\int_0^a [f(x)-xf'(x)]\,\mathrm{d}x=$（ ）
   choices:
   - label: A
-    text: 曲边梯形 $ABOD$ 的面积.
+    text: 曲边梯形 $ABOD$ 的面积
     figures: []
   - label: B
-    text: 梯形 $ABOD$ 的面积.
+    text: 梯形 $ABOD$ 的面积
     figures: []
   - label: C
-    text: 曲边三角形 $ACB$ 的面积.
+    text: 曲边三角形 $ACB$ 的面积
     figures: []
   - label: D
-    text: 曲边三角形 $AOB$ 的面积.
+    text: 曲边三角形 $AOB$ 的面积
     figures: []
 - number: 8
   section: choice
   points: 5
   stem:
     text: |-
-      设 $A=\begin{pmatrix}1&0&0\\0&-\dfrac{1}{2}&\dfrac{1}{2}\\0&\dfrac{1}{2}&-\dfrac{1}{2}\end{pmatrix}$，$B=\begin{pmatrix}1&-1&0\\2&-1&1\\0&1&1\end{pmatrix}$，$C=\begin{pmatrix}1&-1&0\\2&-2&0\\0&0&1\end{pmatrix}$，则下列选项中正确的是\ExamSelection
+      设\( A=\begin{pmatrix}1&0&0\\0&-\frac12&\frac12\\0&\frac12&-\frac12\end{pmatrix}, \quad B=\begin{pmatrix}1&-1&0\\2&-1&1\\0&1&1\end{pmatrix}, \quad C=\begin{pmatrix}1&-1&0\\2&-2&0\\0&0&1\end{pmatrix} \) ，则下列选项中正确的是( )。
   choices:
   - label: A
-    text: $A$ 与 $C$ 合同.
+    text: |-
+      \(A\) 与 \(C\) 合同
     figures: []
   - label: B
-    text: $A$ 与 $B$ 相似.
+    text: |-
+      \(A\) 与 \(B\) 相似
     figures: []
   - label: C
-    text: $B$ 与 $C$ 相似.
+    text: |-
+      \(B\) 与 \(C\) 相似
     figures: []
   - label: D
-    text: $B$ 与 $C$ 合同.
+    text: |-
+      \(B\) 与 \(C\) 合同
     figures: []
 - number: 9
   section: choice
   points: 5
   stem:
     text: |-
-      设 $n$ 阶非零实矩阵 $A$ 满足 $A^{\mathrm{T}}+A=O$，$B$ 为 $n$ 阶矩阵，矩阵 $\begin{pmatrix}A&E\\-B&B\end{pmatrix}$，$\begin{pmatrix}A-E&O\\A&AB\end{pmatrix}$，$\begin{pmatrix}A+E&O\\B&A-E\end{pmatrix}$ 的秩依次为 $r_1,r_2,r_3$，则\ExamSelection
+      设 \(n\) 阶非零实矩阵 \(A\) 满足 \(A^T+A=O\) ， \(B\) 为 \(n\) 阶矩阵，矩阵\( \begin{pmatrix}A&E\\-B&B\end{pmatrix} \)，\( \begin{pmatrix}A-E&O\\A&AB\end{pmatrix} \)，\( \begin{pmatrix}A+E&O\\B&A-E\end{pmatrix} \)的秩依次为 \(r_1,r_2,r_3\)，则( )。
   choices:
   - label: A
     text: |-
-      $r_1\geq r_2\geq r_3$.
+      \(r_1\ge r_2\ge r_3\)
     figures: []
   - label: B
     text: |-
-      $r_3\geq r_2\geq r_1$.
+      \(r_3\ge r_2\ge r_1\)
     figures: []
   - label: C
     text: |-
-      $r_2\geq r_1\geq r_3$.
+      \(r_2\ge r_1\ge r_3\)
     figures: []
   - label: D
     text: |-
-      $r_3\geq r_1\geq r_2$.
+      \(r_3\ge r_1\ge r_2\)
     figures: []
 - number: 10
   section: choice
   points: 5
   stem:
     text: |-
-      设向量组（I）$\alpha_1=(1,1,2)^{\mathrm{T}}$，$\alpha_2=(2,3,3)^{\mathrm{T}}$，（II）$\beta_1=(2,3,5)^{\mathrm{T}}$，$\beta_2=(-1,0,1)^{\mathrm{T}}$，$k$ 为任意常数，则可由向量组（I）线性表示，也可由向量组（II）线性表示的列向量 $\gamma=$\ExamSelection
+      设向量组第 (1) 组向量 $\alpha_1 = (1, 1, 2)^{\mathrm{T}}$ $,\alpha_2 = (2, 3, 3)^{\mathrm{T}}$，第 (2) 组向量 $\beta_1 = (2, 3, 5)^{\mathrm{T}}$ $,\beta_2 = (-1, 0, 1)^{\mathrm{T}}$ $,k$ 为任意常数，则可由第 (1) 组向量线性表示，也可由第 (2) 组向量线性表示的列向量 $\gamma = $（ ）
   choices:
   - label: A
     text: |-
-      $k(2,1,3)^{\mathrm{T}}$.
+      $k(2, 1, 3)^{\mathrm{T}}$
     figures: []
   - label: B
     text: |-
-      $k(-2,1,3)^{\mathrm{T}}$.
+      $k(-2, 1, 3)^{\mathrm{T}}$
     figures: []
   - label: C
     text: |-
-      $k(5,6,9)^{\mathrm{T}}$.
+      $k(5, 6, 9)^{\mathrm{T}}$
     figures: []
   - label: D
     text: |-
-      $k(-5,6,9)^{\mathrm{T}}$.
+      $k(-5, 6, 9)^{\mathrm{T}}$
     figures: []
 - number: 11
   section: fill
   points: 5
   stem:
     text: |-
-      设 $x,y\in\mathbf{R}$，且 $4x^2+4y^2-2xy-\dfrac{5}{8}=0$，则 $2x+y$ 的取值范围为\ExamBlank.
+      设 \(x,y\in\mathbb R\)，且 \( 4x^2+4y^2-2xy-\frac58=0 \)，则 \(2x+y\) 的取值范围为____。
 - number: 12
   section: fill
   points: 5
   stem:
     text: |-
-      设 $f(x)$ 连续，$\lim_{x\to0}\dfrac{\ln[f(x+1)+\mathrm{e}^{x^2}]}{x}=1$，则 $\lim_{x\to0}\dfrac{f[(1+\tan x)^2]-f(1+\tan x)}{x}=$\ExamBlank.
+      设 \(f(x)\) 连续，\( \lim\limits_{x\to0}\dfrac{\ln[f(x+1)+e^{x^2}]}{x}=1 \)，则\( \lim\limits_{x\to0}\dfrac{f[(1+\tan x)^2]-f(1+\tan x)}{x}= \)____。
 - number: 13
   section: fill
   points: 5
   stem:
     text: |-
-      设 $\int_1^{+\infty}\dfrac{\mathrm{d}x}{x(a+x^3)}=\dfrac{1}{3}\ln2$（$a>0$），则 $a=$\ExamBlank.
+      设 \( \int_1^{+\infty}\dfrac{dx}{x(a+x^3)}=\frac13\ln2\ (a>0) \)，则 \(a=\)____。
 - number: 14
   section: fill
   points: 5
   stem:
     text: |-
-      $\int_0^1\mathrm{d}x\int_0^{1-x}\mathrm{e}^{\dfrac{x}{x+y}}\,\mathrm{d}y=$\ExamBlank.
+      \( \int_0^1 dx\int_0^{1-x}e^{\dfrac{x}{x+y}}\,dy= \)____。
 - number: 15
   section: fill
   points: 5
   stem:
     text: |-
-      曲线 $\begin{cases}x=\cos^3t,\\y=\sin^3t\end{cases}$ 所围平面图形绕直线 $y=1$ 旋转所得旋转体的体积为\ExamBlank.
+      曲线 \(\begin{cases}x=\cos^3t, \\ y=\sin^3t\end{cases}\) 所围平面图形绕直线 \(y=1\) 旋转所得旋转体的体积为____。
 - number: 16
   section: fill
   points: 5
   stem:
     text: |-
-      设 $A$ 的伴随矩阵 $A^*=\begin{pmatrix}1&0&0\\1&1&0\\1&1&1\end{pmatrix}$，$3$ 阶矩阵 $B$ 满足 $A^{-1}BA+BA+2E=O$，则行列式 $|B|=$\ExamBlank.
+      设 \(A\) 的伴随矩阵 \(A^*=\begin{pmatrix}1&0&0\\1&1&0\\1&1&1\end{pmatrix}\)，3 阶矩阵 \(B\) 满足 \(A^{-1}BA+BA+2E=O\)，则行列式 \(|B|=\)____。
 - number: 17
   section: solution
-  points: 10
+  points: 12
   stem:
     text: |-
-      设 $f(x)$ 为连续函数，$\lim_{x\to0}\dfrac{xf(x)-\ln(1+x)}{x^2}=1$。当 $x\to0$ 时，$\int_0^x2tf(x-t)\,\mathrm{d}t-x^2$ 与 $ax^n$（$a\neq0$）为等价无穷小. 求 $f'(0)$，$a$ 及 $n$ 的值.
+      设 \(f(x)\) 为连续函数，\( \lim\limits_{x\to0}\dfrac{x f(x)-\ln(1+x)}{x^2}=1 \)。当 \(x\to0\) 时，\( \int_0^x2t f(x-t)\,dt-x^2 \) 与 \(a x^n\ (a\ne0)\) 为等价无穷小。求 \(f'(0)\)、\(a\) 及 \(n\) 的值。
 - number: 18
   section: solution
   points: 12
   stem:
     text: |-
-      设 $f(x,y)$ 有一阶连续的偏导数，在 $(1,1)$ 的某邻域内，$f(x,y)=\mathrm{e}^{x^2+y^2-2}+o(\rho)$，其中 $\rho=\sqrt{(x-1)^2+(y-1)^2}$. 又 $g(x,y)=f(\mathrm{e}^{x-y},xy)$.
-  subparts:
-  - text: |-
-      求 $\left.\mathrm{d}g(x,y)\right|_{(1,1)}$；
-  - text: |-
-      计算 $\lim_{t\to0}\dfrac{g(1+\sin t,1)-g(1,1-\tan t)}{t}$.
+      设 \(f(x,y)\) 有一阶连续的偏导数，在 \((1,1)\) 的某邻域内，\( f(x,y)=\mathrm e^{x^2+y^2-2}+o(\rho), \quad \rho=\sqrt{(x-1)^2+(y-1)^2} \) 。又 \(g(x,y)=f(\mathrm e^{x-y},xy)\)。\((1)\) 求 \(\left.dg(x,y)\right|_{(1,1)}\)；\((2)\) 计算\( \lim\limits_{t\to0}\dfrac{g(1+\sin t,1)-g(1,1-\tan t)}t \) 。
 - number: 19
   section: solution
   points: 12
   stem:
     text: |-
-      已知 $f(x)$ 在定义域 $(0,+\infty)$ 内可导，且 $xf(x)=1+\int_0^x u^2f(u)\,\mathrm{d}u$. 求 $f(x)$ 在 $(0,+\infty)$ 内的最小值.
+      已知 \(f(x)\) 在定义域 \((0, +\infty)\) 内可导，且\( x f(x)=1+\int_0^x u^2 f(u)\,du \) 。求 \(f(x)\) 在 \((0, +\infty)\) 内的最小值。
 - number: 20
   section: solution
   points: 12
   stem:
     text: |-
-      设上半平面的有界区域 $D=\{(x,y)\mid1\leq x^2+(y-|x|)^2\leq2,0\leq y\}$. 计算 $I=\iint_D\dfrac{x+1}{2x^2+y^2}\,\mathrm{d}x\,\mathrm{d}y$.
+      设上半平面的有界区域\( D=\{(x,y)\mid 1\le x^2+(y-|x|)^2\le2, \ 0\le y\} \) 。计算\( I=\iint_D\dfrac{x+1}{2x^2+y^2}\,dx\,dy \) 。
 - number: 21
   section: solution
   points: 12
   stem:
     text: |-
-      设可导函数 $y=f(x)$ 满足 $[x-\ln(1+x)]y\,\mathrm{d}x-x^2\,\mathrm{d}y=0$（$x>0$），$f(1)=4$.
-  subparts:
-  - text: 证明：$f(x)$ 是凸函数；
-  - text: |-
-      若 $(1+x)^{\dfrac{1}{x}}+\left(1+\dfrac{1}{x}\right)^x\leq a$（$a>0$），求 $a$ 的最小值.
+      设可导函数 \(y=f(x)\) 满足\( [x-\ln(1+x)]y\,dx-x^2\,dy=0 \quad (x>0) \)，且 \( f(1)=4 \) 。\((1)\) 证明：\(f(x)\) 是凸函数；\((2)\) 若\( (1+x)^{\dfrac{1}{x}}+\left(1+\dfrac{1}{x}\right)^x\le a \quad (a>0) \) ，求 \(a\) 的最小值。
 - number: 22
   section: solution
   points: 12
   stem:
     text: |-
-      设 $A=(\alpha_1,\alpha_2,\alpha_3)$ 为 $3$ 阶矩阵，交换 $A$ 的第 $1,2$ 行，再交换 $A$ 的第 $2,3$ 列得 $B$，其中 $B=\begin{pmatrix}0&-1&1\\1&1&1\\1&1&-1\end{pmatrix}$.
-  subparts:
-  - text: 求 $A$；
-  - text: |-
-      记 $\beta_1=\alpha_1$，$\beta_2=\alpha_2-k\beta_1$，$\beta_3=\alpha_3-l_1\beta_1-l_2\beta_2$，若 $\beta_1,\beta_2,\beta_3$ 两两正交，求 $k,l_1,l_2$；
-  - text: 求正交矩阵 $Q$ 及上三角矩阵 $T$，使得 $A=QT$.
+      设 \(A=(\alpha_1, \alpha_2, \alpha_3)\) 为 3 阶矩阵，交换 \(A\) 的第 1、2 行，再交换 \(A\) 的第 2、3 列得 \(B\)，其中\( B=\begin{pmatrix}0&-1&1\\1&1&1\\1&1&-1\end{pmatrix} \) 。\((1)\) 求 \(A\)；\((2)\) 记 \(\beta_1=\alpha_1, \ \beta_2=\alpha_2-k\beta_1, \ \beta_3=\alpha_3-l_1\beta_1-l_2\beta_2\)，若 \(\beta_1, \beta_2, \beta_3\) 两两正交，求 \(k,l_1,l_2\)；\((3)\) 求正交矩阵 \(Q\) 及上三角矩阵 \(T\)，使得 \(A=QT\)。
+content_hash: fa820f50c6178fba142247f641e42618c092f7297ec3fe15a5b606e52817378b

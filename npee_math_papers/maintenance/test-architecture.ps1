@@ -83,12 +83,12 @@ foreach ($File in @(
   "$Package/tex/CLASS-API.md",
   "$Package/frontend/package.json",
   "$Package/frontend/src/main.tsx",
-  "collections/README.md",
+  "composition/README.md",
   "AGENTS.md",
   "README.md"
 )) { Require-File $File }
 
-foreach ($Directory in @($Package, "$Package/core", "$Package/service", "$Package/mcp", "$Package/api", "$Package/launcher", "$Package/tex", "$Package/frontend", "docs", "collections")) {
+foreach ($Directory in @($Package, "$Package/core", "$Package/service", "$Package/mcp", "$Package/api", "$Package/launcher", "$Package/tex", "$Package/frontend", "docs", "composition")) {
   Require-Directory $Directory
 }
 

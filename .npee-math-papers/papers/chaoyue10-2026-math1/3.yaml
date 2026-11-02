@@ -1,0 +1,302 @@
+schema_version: '3.0'
+paper:
+  series_key: chaoyue10
+  year: 2026
+  subject: math1
+  paper_no: 3
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 \(f(x)\) 在点 \(x=0\) 的某邻域内二阶可导，且 \( \lim\limits_{x\to0}\dfrac{\sin x+xf(x)}{x^3}=\dfrac{1}{3}\)，若 \(\dfrac{f(x)}{1+x}=a+bx+cx^2+o(x^2)\)，则( )。
+  choices:
+  - label: A
+    text: |-
+      \(a=1,b=-1,c=\dfrac{1}{2}\)
+    figures: []
+  - label: B
+    text: |-
+      \(a=-1,b=1,c=-\dfrac{1}{2}\)
+    figures: []
+  - label: C
+    text: |-
+      \(a=1,b=1,c=-\dfrac{1}{2}\)
+    figures: []
+  - label: D
+    text: |-
+      \(a=-1,b=1,c=\dfrac{1}{2}\)
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      有下列命题： ① \(f(x)=\dfrac{x}{\int_0^x|\cos t|\, \mathrm dt}\) 在 \((0, +\infty)\) 内有界； ② 在 \((-\infty, +\infty)\) 上连续的周期函数 \(f(x)\) 一定有界； ③ 若 \(f(x)\) 在 \((a,b)\) 内可导，且导函数有界，则 \(f(x)\) 在 \((a,b)\) 内一定有界； ④ 若 \(f(x)\) 在 \([0, +\infty)\) 内可导，且 \(\lim\limits_{x\to+\infty}f'(x)=0\)，则 \(f(x)\) 在 \([0, +\infty)\) 内有界。 其中正确的个数为（ ）。
+  choices:
+  - label: A
+    text: '1'
+    figures: []
+  - label: B
+    text: '2'
+    figures: []
+  - label: C
+    text: '3'
+    figures: []
+  - label: D
+    text: '4'
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 \(f(x,y)\) 为可微函数，\(f(x^2, {\mathrm e}^x-1)=x{\mathrm e}^x\)， \(f(\ln x,x-1)=(1-x)^2\)，则 \(\mathrm df(0,0)\) 的值为（ ）。
+  choices:
+  - label: A
+    text: |-
+      \(\mathrm dy\)
+    figures: []
+  - label: B
+    text: |-
+      \(-\mathrm dx+\mathrm dy\)
+    figures: []
+  - label: C
+    text: |-
+      \(\mathrm dx-\mathrm dy\)
+    figures: []
+  - label: D
+    text: |-
+      \(\mathrm dx+\mathrm dy\)
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设曲线积分 \( \int_C\dfrac{(ax+by)\, \mathrm dx-(cx+dy)\, \mathrm dy}{x^2+2y^2}\) 在任何不包围原点，也不经过原点的有向闭曲线 \(C\) 上积分恒等于 \(0\)，求 \(a,b,c,d\) 满足的关系为( )。
+  choices:
+  - label: A
+    text: |-
+      \(2a=d,b=c\)
+    figures: []
+  - label: B
+    text: |-
+      \(-2a=d,b=c\)
+    figures: []
+  - label: C
+    text: |-
+      \(a=d,b=2c\)
+    figures: []
+  - label: D
+    text: |-
+      \(a=-d,b=2c\)
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 \(A\) 为 3 阶非奇异矩阵，且 \(A^{-1}=3E-A\)，其中 \(E\) 为 3 阶单位矩阵，则与矩阵 \((A-E)^T(A-E)\) 合同的是( )。
+  choices:
+  - label: A
+    text: |-
+      \(\begin{pmatrix}0&&\\ &0&\\ &&1\end{pmatrix}\)
+    figures: []
+  - label: B
+    text: |-
+      \(\begin{pmatrix}0&&\\ &1&\\ &&1\end{pmatrix}\)
+    figures: []
+  - label: C
+    text: |-
+      \(\begin{pmatrix}1&&\\ &0&\\ &&1\end{pmatrix}\)
+    figures: []
+  - label: D
+    text: |-
+      \(\begin{pmatrix}1&&\\ &1&\\ &&1\end{pmatrix}\)
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知 3 阶实对称阵 \(A\) 的秩 \(r(A)=1\)， \(\alpha_1=(1, -1,1)^T\) 是 \(A\) 的属于特征值 \(\lambda_1=\dfrac{1}{2}\) 的特征向量，\(k_1,k_2\) 为任意常数，则非齐次线性方程组 \(Ax=\alpha_1\) 的通解是( )。
+  choices:
+  - label: A
+    text: |-
+      \(k_1(1,1,0)^T+k_2(1,0, -1)^T+(1, -1,1)^T\)
+    figures: []
+  - label: B
+    text: |-
+      \(k_1(1,0, -1)^T+k_2(-1,1,2)^T+\left(\dfrac{1}{2}, -\dfrac{1}{2}, \dfrac{1}{2}\right)^T\)
+    figures: []
+  - label: C
+    text: |-
+      \(k_1(1,1,0)^T+k_2(1,0,1)^T+(2, -2,2)^T\)
+    figures: []
+  - label: D
+    text: |-
+      \(k_1(1,1,0)^T+k_2(-1,1,2)^T+(2, -2,2)^T\)
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 \(A\) 为 \(3\times2\) 矩阵，\(B\) 为 \(2\times3\) 矩阵，且 \(r(AB)=2\)， \((AB)^2=AB\)，则下列说法中： \circled{1} \(BAB=B\)； \circled{2} \(ABA=A\)； \circled{3} \( BA=\begin{pmatrix}1&0\\0&1\end{pmatrix}\)； \circled{4} \( AB=\begin{pmatrix}1&0&0\\0&1&0\\0&0&0\end{pmatrix}\)。 一定成立的有（ ）个。
+  choices:
+  - label: A
+    text: '1'
+    figures: []
+  - label: B
+    text: '2'
+    figures: []
+  - label: C
+    text: '3'
+    figures: []
+  - label: D
+    text: '4'
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设随机变量 \((X,Y)\) 的概率密度\( f(x,y)=\begin{cases}x+y, &0<x<1, \ 0<y<1, \\0, &\text{其他.}\end{cases} \)记 \(A=\{X\geq\dfrac{1}{2}\}\)， \(B=\{Y\geq\dfrac{1}{4}\}\)， \(C=\{X+Y\leq1\}\)，则 \(P(A\bar B\cup\bar C\mid AC)\) 的值为（ ）。
+  choices:
+  - label: A
+    text: |-
+      \( \dfrac{7}{8}\)
+    figures: []
+  - label: B
+    text: |-
+      \( \dfrac{3}{4}\)
+    figures: []
+  - label: C
+    text: |-
+      \( \dfrac{29}{40}\)
+    figures: []
+  - label: D
+    text: |-
+      \( \dfrac{29}{80}\)
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设随机变量 \((X,Y)\) 的概率密度为 \(f(x,y)\)，令 \(U=-Y,V=2X+Y\)，则 \((U,V)\) 的概率密度为( )。
+  choices:
+  - label: A
+    text: |-
+      \( \dfrac{1}{2} f\left(\dfrac{u+v}{2}, -u\right)\)
+    figures: []
+  - label: B
+    text: |-
+      \( \dfrac{1}{2} f\left(\dfrac{u+v}{2},u\right)\)
+    figures: []
+  - label: C
+    text: |-
+      \( f\left(\dfrac{u+v}{2}, -u\right)\)
+    figures: []
+  - label: D
+    text: |-
+      \( f\left(\dfrac{u+v}{2},u\right)\)
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设随机变量 \(X_1\) 与 \(X_2\) 相互独立，\(X_1\sim N(0,1)\)， \(X_2\sim N(0,1)\)。 记 \( T=\dfrac{X_1-X_2}{|X_1+X_2|}\)，给定 \(\alpha\ (0C\}=\alpha\)，则 \( P\left\{\dfrac{1}{T^2}>C^2\right\}\) 的值为（ ）。
+  choices:
+  - label: A
+    text: |-
+      \(\alpha\)
+    figures: []
+  - label: B
+    text: |-
+      \(1-\alpha\)
+    figures: []
+  - label: C
+    text: |-
+      \(2\alpha\)
+    figures: []
+  - label: D
+    text: |-
+      \(1-2\alpha\)
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      曲线 \(x^2+y^2=|x|-|y|\) 围成的区域绕 \(y\) 轴旋转一周形成的旋转体体积是\underline{\qquad}。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      函数 \(f(x,y,z)\) 为 \(u=3x^2+4y^3-9z^2\) 在点 \((x,y,z)\) 处沿 \(n=(1,1,1)\) 的方向导数，则 \(f(x,y,z)\) 在条件 \(x^2+2y^2+z^2=1\) 下的最大值为\underline{\qquad}。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 \(\Sigma\) 为曲面 \(z=\sqrt{x^2+y^2}\ (0\leq z\leq1)\) 位于第一卦限部分，取下侧，\(f(t)\) 为非常量连续函数，则曲面积分\( I=\iint_{\Sigma}\dfrac{[1+yf(z)]\, \mathrm dy\, \mathrm dz+[1-xf(z)]\, \mathrm dz\, \mathrm dx}{1+\sqrt{x^2+y^2}}= \) \underline{\qquad}。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      \( \int_{-\infty}^{0}\dfrac{{\mathrm e}^{\dfrac{x}{6}}}{1+{\mathrm e}^{\dfrac{x}{2}}+{\mathrm e}^{\dfrac{x}{3}}+{\mathrm e}^{\dfrac{x}{6}}}\, \mathrm dx= \) \underline{\qquad}。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 \(\alpha, \beta, \gamma\) 为 3 维列向量，且 \(\alpha, \beta, \gamma\) 线性无关，记 \(A=(\alpha, \beta, \gamma)\)， \(B=(2\alpha+3\gamma,3\alpha+\beta, \alpha+2\gamma)\)，已知 \(|A^{-1}+B^{-1}|=6\)，则 \(|A|= \) \underline{\qquad}。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设随机变量 \(X_1,X_2, \cdots,X_n\) 相互独立，且 \(X_i\sim P(\lambda_i), \lambda_i>0,i=1,2, \cdots,n\)。 已知 \( P\left\{\sum\limits_{i=1}^nX_i\geq1\right\}=1-{\mathrm e}^{-1}\)，则期望 \( E\left(2^{\sum\limits_{i=1}^nX_i}\right)= \) \underline{\qquad}。
+- number: 17
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      求极限 \( \lim\limits_{n\to\infty}n^2\left[\left(1+\dfrac{1}{n+1}\right)^{n+1}-\left(1+\dfrac{1}{n}\right)^n\right].\)
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 \(f(x)\) 具有二阶连续导数，\(f(0)=1\)， \(f'(0)=\dfrac{1}{2}\)。 可微函数 \(u(x,y)\) 的全微分为\( \mathrm du(x,y)=\left[f'(x+y)-{\mathrm e}^{x+y}\right]\mathrm dx+\left[\int_0^{x+y}f(t)\, \mathrm dt+2y\right]\mathrm dy \)。 (1) 求 \(f(x)\)； (2) 求 \(u(x,y)\)； (3) 计算曲线积分\( I=\int_{(0,0)}^{(1,1)}\left[f'(x+y)-{\mathrm e}^{x+y}\right]\mathrm dx+\left[\int_0^{x+y}f(t)\, \mathrm dt+2y\right]\mathrm dy \)。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      讨论级数 \( \sum\limits_{n=1}^{\infty}\dfrac{1}{n^p\ln^q(n+1)}\) 的敛散性，其中 \(p,q\) 为正实数参数。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      已知当 \(x\in(0, +\infty)\) 时，\((1+ax)\ln(1+x)>x\) 恒成立，求常数 \(a\) 的取值范围。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 \( A=\begin{pmatrix}1&-1\\1&1\\a&b\end{pmatrix}\)， \( C=\begin{pmatrix}1&1&a\\1&2&1\\a&1&1\end{pmatrix}\)。 (1) 求参数 \(a,b\)，使得存在矩阵 \(B\)，满足 \(AB=C\)。 (2) 求矩阵 \(B\)。 (3) 令 \(x=(x_1,x_2)^T\)，求二次型 \(f=x^TBAx\) 的正负惯性指数。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设随机变量 \(X\) 与 \(Y\) 相互独立，\(X\) 服从区间 \([0,2]\) 上的均匀分布，\(Y\) 服从参数为 \(1\) 的指数分布，令\( Z=\begin{cases}Y, &0\leq X\leq1, \\X, &1<X\leq2.\end{cases} \)。 (1) 求 \(Z\) 的概率密度； (2) 求协方差 \(\operatorname{Cov}(X,Z)\)。
+content_hash: 27f712ab4ff2a9cc825e740a2cb61bc599c9dd3c1eeb7774ba1325eff1416c39

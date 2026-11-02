@@ -4,14 +4,13 @@ paper:
   year: 2025
   subject: math2
   paper_no: 4
-content_hash: db89c8fafd1a6da84bca77de6a99202880af971bd10c755be0d52485fdfb3397
 questions:
 - number: 1
   section: choice
   points: 5
   stem:
     text: |-
-      设 $f(x)$ 在 $(-1,1)$ 内有 $f''(x)<0$，且 $\lim_{x\to0}\dfrac{f(x)-\sin x}{x}=a\neq0$，则以下结论：① $\lim_{x\to0}f(x)=0$；② $\lim_{x\to0}f'(x)=a+1$；③ $f(x)\leq ax$；④ $f'(0)>a$。所有正确结论的序号为\ExamSelection
+      设 $f(x)$ 在 $(-1,1)$ 内有 $f''(x)<0$，且 $\lim_{x\to0}\dfrac{f(x)-\sin x}{x}=a\neq0$，则以下结论：\n① $\lim_{x\to0}f(x)=0$；\n② $\lim_{x\to0}f'(x)=a+1$；\n③ $f(x)\leq ax$；\n④ $f'(0)>a$。\n所有正确结论的序号为\ExamSelection
   choices:
   - label: A
     text: ①④
@@ -310,3 +309,4 @@ questions:
   subparts:
   - text: 求流量的通解；
   - text: 当 $x_4$ 交通封闭时，求此时 $x_2$ 的最大流量。
+content_hash: 1e04de8d09368ee2e19fd1613e216f44f16efcb8c583b1d0dd8a651a73430fe0

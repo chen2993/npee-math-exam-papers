@@ -4,7 +4,6 @@ paper:
   year: 2023
   subject: math3
   paper_no: 1
-content_hash: b44f23a9dcfdfa3594f128dd5ba4cca90d9f01c86521d296a043b771d1af85c6
 questions:
 - number: 1
   section: choice
@@ -118,7 +117,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $A$ 为 $n(n\geq 2)$ 阶矩阵，若 1 不是 $A$ 的特征值，且 $|A|=-1$，则下列命题中，正确的是\ExamSelection。① 2 不是 $A+A^{-1}$ 的特征值。② 2 不是 $A+A^*$ 的特征值。③ $-1$ 不是 $A+A^{\mathrm{T}}-AA^{\mathrm{T}}$ 的特征值。④ 1 不是 $A-A^*+AA^*$ 的特征值。
+      设 $A$ 为 $n(n\geq 2)$ 阶矩阵，若 1 不是 $A$ 的特征值，且 $|A|=-1$，则下列命题中，正确的是\ExamSelection。\n① 2 不是 $A+A^{-1}$ 的特征值。\n② 2 不是 $A+A^*$ 的特征值。\n③ $-1$ 不是 $A+A^{\mathrm{T}}-AA^{\mathrm{T}}$ 的特征值。\n④ 1 不是 $A-A^*+AA^*$ 的特征值。
   choices:
   - label: A
     text: ①②。
@@ -137,7 +136,7 @@ questions:
   points: 5
   stem:
     text: |-
-      现有两个命题：① $A^*$ 对称当且仅当 $A$ 对称；② $A^*$ 正定当且仅当 $A$ 正定。下列说法中，正确的是\ExamSelection。
+      现有两个命题：\n① $A^*$ 对称当且仅当 $A$ 对称；\n② $A^*$ 正定当且仅当 $A$ 正定。\n下列说法中，正确的是\ExamSelection。
   choices:
   - label: A
     text: ①，② 均正确。
@@ -303,3 +302,4 @@ questions:
       求条件概率密度 $f_{X\mid Y}(x\mid y)$。
   - text: |-
       设 $a\in[1,2)$，记 $p_1(a)=\displaystyle\int_{-\infty}^{2}f_{X\mid Y}(x\mid a)\,\mathrm{d}x$，$p_2(a)$ 为当 $Y\geq a$ 时，事件 $\{|X|\leq 2\}$ 发生的概率，请问 $p_1(a)$ 和 $p_2(a)$ 是否存在最大值？若均存在，则这两个最大值是否相等？
+content_hash: 7e216df8ed929805b085e5ae0143f54e0a44066692e796ccc50c8762d8dc3038

@@ -1,0 +1,281 @@
+schema_version: '3.0'
+paper:
+  series_key: chaoyue10
+  year: 2026
+  subject: math2
+  paper_no: 10
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x) = \lim\limits_{t\to x}\left(\dfrac{\sin x}{\sin t}\right)^{\dfrac{\sqrt{1-\cos x}}{\sin x - \sin t}}$，则点 $x = 0$ 是函数 $f(x)$ 的( )
+  choices:
+  - label: A
+    text: 可去间断点
+    figures: []
+  - label: B
+    text: 跳跃间断点
+    figures: []
+  - label: C
+    text: 无穷间断点
+    figures: []
+  - label: D
+    text: 连续点
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知反常积分 $\int_1^{+\infty}\dfrac{\ln(2x^2-1)\arctan(x-1)}{(x-1)^p}\,\mathrm{d}x$ 收敛，则常数 $p$ 的取值范围为( )
+  choices:
+  - label: A
+    text: $1 < p < 2$
+    figures: []
+  - label: B
+    text: $2 < p < 3$
+    figures: []
+  - label: C
+    text: $1 < p < 3$
+    figures: []
+  - label: D
+    text: $2 < p < 4$
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x), g(x)$ 在 $[a,b]$ 上连续，且满足 $f(x) \ne g(x)$ 与 $g(x) \ne 0$。如果 $x_0 \in (a,b)$ 为函数 $\dfrac{f(x)}{g(x)}$ 的极大值点，则点 $x_0$ 必为函数 $\dfrac{f(x)+g(x)}{f(x)-g(x)}$ 的( )
+  choices:
+  - label: A
+    text: 极小值点
+    figures: []
+  - label: B
+    text: 极大值点
+    figures: []
+  - label: C
+    text: 无法判断是否为极值点
+    figures: []
+  - label: D
+    text: 非极值点
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x)$ 在 $[0,1]$ 上二阶可导，满足 $f''(x) 0$； ② 当 $0 < k < M$ 时，方程 $f(x) = k$ 存在唯一实数根； ③ 点 $c$ 为方程 $f'(x) = 0$ 的唯一实数根； ④ 对任意自然数 $n \ge 2$，存在唯一实数 $x_n$，满足 $f'(x_n) = \dfrac{M}{n}$。 以上命题中正确的个数为( )
+  choices:
+  - label: A
+    text: '1'
+    figures: []
+  - label: B
+    text: '2'
+    figures: []
+  - label: C
+    text: '3'
+    figures: []
+  - label: D
+    text: '4'
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知二元函数 $f(x,y) = \begin{cases} x^2 y, & xy \ne 0, \\ x, & y = 0, \\ y, & x = 0 \end{cases}$，则函数 $f(x,y)$ 在点 $(0,0)$ 处( )
+  choices:
+  - label: A
+    text: 偏导数 $f_x'(x,y)$ 连续$,f_{xy}''(0,0)$ 存在
+    figures: []
+  - label: B
+    text: 偏导数 $f_x'(x,y)$ 连续$,f_{xy}''(0,0)$ 不存在
+    figures: []
+  - label: C
+    text: 偏导数 $f_x'(x,y)$ 不连续$,f_{xy}''(0,0)$ 存在
+    figures: []
+  - label: D
+    text: 偏导数 $f_x'(x,y)$ 不连续$,f_{xy}''(0,0)$ 不存在
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      令积分 $I_k = \iint_{D_k}\dfrac{x+\sin(x^2+y^2)}{1+x^2+y^2}\,\mathrm{d}\sigma\ (k = 1,2,3,4)$，则 $\max\limits_{1\le k\le 4}\{I_k\} = $( )
+  choices:
+  - label: A
+    text: |-
+      $I_1$，其中 $D_1: x^2+y^2 \le \pi$
+    figures: []
+  - label: B
+    text: |-
+      $I_2$，其中 $D_2: \dfrac{x^2}{2}+y^2 \le \pi$
+    figures: []
+  - label: C
+    text: |-
+      $I_3$，其中 $D_3: |x|+|y| \le \sqrt{2\pi}$
+    figures: []
+  - label: D
+    text: |-
+      $I_4$，其中 $D_4: |x|+|y| \le \sqrt{\pi}$
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x)$ 在点 $x = a$ 处有定义，给出下列命题： ① 若左导数 $f'_-(a)$ 与右导数 $f'_+(a)$ 均存在，则导数 $f'(a)$ 存在； ② 若极限 $\lim\limits_{x\to a} f(x)$ 与 $\lim\limits_{x\to a} f'(x)$ 均存在，则导数 $f'(a)$ 存在； ③ 若 $\lim\limits_{x\to a} f(x) = f(a)$，且极限 $\lim\limits_{x\to a} f'(x)$ 存在，则导数 $f'(a)$ 存在； ④ 若导数 $f'(a)$ 存在，则函数 $f(x)$ 在点 $x = a$ 的某邻域内连续。 以上命题中正确的个数为( )
+  choices:
+  - label: A
+    text: '0'
+    figures: []
+  - label: B
+    text: '1'
+    figures: []
+  - label: C
+    text: '2'
+    figures: []
+  - label: D
+    text: '3'
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设实对称矩阵 $A = \begin{pmatrix} a & 0 & -1 \\ 0 & 2 & 0 \\ -1 & 0 & a \end{pmatrix}$ 与矩阵 $B = \begin{pmatrix} 0 & 0 & -1 \\ b & -1 & 0 \\ -1 & 0 & 2 \end{pmatrix}$ 合同，则常数 $a, b$ 满足( )
+  choices:
+  - label: A
+    text: |-
+      $a < 1, \ b = 0$
+    figures: []
+  - label: B
+    text: |-
+      $a < -1, \ b = 0$
+    figures: []
+  - label: C
+    text: |-
+      $a > -1, \ b = 0$
+    figures: []
+  - label: D
+    text: |-
+      $a > 1, \ b = 0$
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: 若 $n$ 阶方阵 $A$ 的行列式 $|A| = 0$，则下列说法中正确的是( )
+  choices:
+  - label: A
+    text: $A$ 的某一行（列）的所有元素均为 0
+    figures: []
+  - label: B
+    text: $A$ 的某两行（列）的元素对应成比例
+    figures: []
+  - label: C
+    text: $A$ 的某一行（列）向量可由其余行（列）向量组线性表示
+    figures: []
+  - label: D
+    text: $A$ 的任意一行（列）向量均可由其余行（列）向量组线性表示
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $n$ 元二次型 $f(x_1, \dots, x_n) = \sum_{i=1}^n \left( \sum_{j=1}^n x_j + a_i x_i \right)^2$，其中参数 $a_i \neq 0 \ (i=1, 2, \dots, n)$。若该二次型正定，则必有（ ）
+  choices:
+  - label: A
+    text: |-
+      $1 + \sum_{i=1}^n \dfrac{1}{a_i} = 0$
+    figures: []
+  - label: B
+    text: |-
+      $1 + \sum_{i=1}^n \dfrac{1}{a_i} \neq 0$
+    figures: []
+  - label: C
+    text: |-
+      $1 + \sum_{i=1}^n a_i = 0$
+    figures: []
+  - label: D
+    text: |-
+      $1 + \sum_{i=1}^n a_i \neq 0$
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      极限 $\lim\limits_{n\to\infty}\sqrt{n}\int_0^{\dfrac{\pi}{2}}\sin^{2n+1} x\,\mathrm{d}x = $ _____
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设三元函数 $f(x,y,z) = \mathrm{e}^x y z^2$，其中 $z = z(x,y)$ 是由隐式方程 $x+y+z+xyz = 0$ 确定的可微函数，则偏导数 $f_x'(0, 1, -1) = $ _____
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      二次积分 $\int_0^1\mathrm{d}y\int_{\pi-\arcsin y}^\pi \dfrac{x}{\sqrt{1-y^2}}\,\mathrm{d}x = $ _____
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      曲线 $y = x^2\ (0 \le x \le 6)$ 的切线与直线 $x = 1, \ x = 3$ 及 $x$ 轴所围图形面积的最大值为 _____
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x)$ 满足微分方程 $f'(x) - f(x) = \mathrm{e}^x$ 及初始条件 $f(0) = 1$，则曲线 $y = f(x)$ 的拐点坐标为 _____
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设矩阵 $A = \begin{pmatrix} 1 & a+1 & a \\ 1 & a+1 & 1 \\ a & 0 & 1 \end{pmatrix}$ 不可逆，矩阵 $B = \begin{pmatrix} 0 & 1 & b \end{pmatrix}$。已知齐次线性方程组 $Ax = 0$ 的解均是方程 $Bx = 0$ 的解，则常数对 $(a,b) = $ _____
+- number: 17
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 $f(x)$ 在 $[0, +\infty)$ 上具有二阶导数，满足 $f'(0) = 1$，且当 $x > 0$ 时恒有 $0 0, \ x_{n+1} = f(x_n)\ (n \ge 1)$ 给出。 (1) 证明数列 $\{x_n\}$ 收敛，并求其极限； (2) 求极限 $\lim\limits_{n\to\infty}\left(\dfrac{1}{x_n} - \dfrac{1}{x_{n+1}}\right)$。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      (1) 设函数 $f(x)$ 在闭区间 $[a,b]$ 上连续$,g(x)$ 在 $[a,b]$ 上连续且不变号。证明：存在 $\xi \in [a,b]$，使得 $\int_a^b f(x)g(x)\,\mathrm{d}x = f(\xi)\int_a^b g(x)\,\mathrm{d}x$； (2) 设函数 $f(x)$ 在 $\left[0, \dfrac{\pi}{2}\right]$ 上连续，证明$:\lim\limits_{n\to\infty}\int_0^{\dfrac{\pi}{2}} f(x)|\cos(nx)|\,\mathrm{d}x = \dfrac{2}{\pi}\int_0^{\dfrac{\pi}{2}} f(x)\,\mathrm{d}x$。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 $z(x,y)$ 具有二阶连续偏导数，且满足二阶偏微分方程 $\dfrac{\partial^2 z}{\partial x^2} + 2\dfrac{\partial^2 z}{\partial x\partial y} - 3\dfrac{\partial^2 z}{\partial y^2} = 0$。作线性自变量变换 $u = ax - y, \ v = x + by$。求常数 $a, b$ 满足的关系，使得变换 $u, v$ 为可逆变换，且将原方程化为简化的标准形式 $\dfrac{\partial^2 z}{\partial u\partial v} = 0$。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 $f(x,y)$ 满足偏微分方程 $\dfrac{\partial^2 f}{\partial x^2} = 2$，且满足边界条件 $\left.\dfrac{\partial f}{\partial x}\right|_{(0,y)} = -2, \ f(0,y) = y^2$。计算二重积分 $\iint_D |f(x,y)|\,\mathrm{d}\sigma$，其中平面区域 $D = \left\{(x,y) \;\middle|\; 0 \le x \le 2, \ 0 \le y \le 2\right\}$。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 $f(x)$ 在闭区间 $[a,b]$ 上二阶可导，且满足 $f''(x) > 0$。 (1) 证明：对任意 $x, y \in [a,b]$，恒有切线不等式 $f(x) \ge f(y) + f'(y)(x-y)$； (2) 证明中点积分不等式$:\int_a^b f(x)\,\mathrm{d}x \ge (b-a)f\left(\dfrac{a+b}{2}\right)$； (3) 若进一步满足 $f(a) \le 0, \ f(b) \le 0$，证明：对任意 $x \in [a,b]$，恒有 $f(x) \ge \dfrac{2}{b-a}\int_a^b f(x)\,\mathrm{d}x$。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设实对称矩阵 $A = \begin{pmatrix} 1 & 0 & 0 \\ 0 & a & -1 \\ 0 & -1 & a \end{pmatrix}$ 为正定矩阵，且 $A$ 有二重特征值。 (1) 求参数 $a$ 的值； (2) 求正交矩阵 $P$，作正交变换 $x = Py$，将二次型 $f = x^T(A - 3A^{-1})x$ 化为标准形； (3) 求可逆矩阵 $Q$，使得伴随矩阵满足 $A^* = Q^T Q$。
+content_hash: 07567ba3e0ff361da43f6324a63b34f73a8ee4488754fb91b759954139b397bc

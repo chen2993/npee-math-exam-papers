@@ -4,7 +4,6 @@ paper:
   year: 2025
   subject: math3
   paper_no: 4
-content_hash: cc698fc60d98991cabde404db4703f0a9d06cb28c509136a9fe1942151ec407c
 questions:
 - number: 1
   section: choice
@@ -305,7 +304,7 @@ questions:
     figures:
     - kind: tikz
       latex: |-
-        \begin{tikzpicture}[>=stealth,thick,scale=0.9]\coordinate (T) at (0,1.4);\coordinate (L) at (-1.8,0);\coordinate (R) at (1.8,0);\coordinate (B) at (0,-1.4);\draw[->] (0,2.2)--node[right]{$a$}(T);\draw[->] (T)--node[above left]{$x_1$}(L);\draw[->] (T)--node[above right]{$x_2$}(R);\draw[->] (L)--node[below]{$x_3$}(R);\draw[->] (L)--node[below left]{$x_4$}(B);\draw[->] (R)--node[below right]{$x_5$}(B);\draw[->] (L)--node[above]{$40$}(-2.8,0);\draw[->] (R)--node[above]{$100$}(2.8,0);\draw[->] (B)--node[right]{$b$}(0,-2.2);\fill (T) circle (1.4pt) (L) circle (1.4pt) (R) circle (1.4pt) (B) circle (1.4pt);\end{tikzpicture}
+        \begin{tikzpicture}[>=stealth,thick,scale=0.9]\coordinate (T) at (0,1.4);\coordinate (L) at (-1.8,0);\coordinate (R) at (1.8,0);\coordinate (B) at (0,-1.4);\draw[->] (0,2.2)--node[right]{$a$}(T);\draw[->] (T)--node[above left]{$x_1$}(L);\draw[->] (T)--node[above right]{$x_2$}(R);\draw[->] (L)--node[below]{$x_3$}(R);\draw[->] (L)--node[below left]{$x_4$}(B);\draw[->] (B)--node[below right]{$x_5$}(R);\draw[->] (L)--node[above]{$40$}(-2.8,0);\draw[->] (R)--node[above]{$100$}(2.8,0);\draw[->] (B)--node[right]{$b$}(0,-2.2);\fill (T) circle (1.4pt) (L) circle (1.4pt) (R) circle (1.4pt) (B) circle (1.4pt);\end{tikzpicture}
       path:
       description: 高速公路交通流量有向网络图
       exception_reason:
@@ -323,3 +322,4 @@ questions:
   - text: 求 $Z=X^2Y$ 的概率密度；
   - text: |-
       求 $E(Y\mid X=\dfrac{1}{2})$。
+content_hash: 2cc40f22a0e0de0da33132fb1592d60397a25bff80983a31159e3d27dab4bb40

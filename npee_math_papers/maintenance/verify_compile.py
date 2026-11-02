@@ -19,7 +19,7 @@ Usage::
    python -m npee_math_papers.maintenance.verify_compile            # all papers
    python -m npee_math_papers.maintenance.verify_compile --limit 20
    python -m npee_math_papers.maintenance.verify_compile --json build/compile-verify.json
-   python -m npee_math_papers.maintenance.verify_compile --matrix   # a4/a3 x compact/spaced/print
+   python -m npee_math_papers.maintenance.verify_compile --matrix   # a4/a3 x 间距 x 留白
 """
 
 from __future__ import annotations
@@ -52,22 +52,25 @@ OPERATOR_WORDS = frozenset({
 EXCLUDE = frozenset({"text", "end", "begin", "left", "right", "quad", "qquad", "dot", "bar"})
 LEAK_NAMES = tuple(sorted({n for n in KNOWN_COMMANDS if len(n) >= 4 and n not in EXCLUDE and n not in OPERATOR_WORDS}))
 
-# 单套验证默认只编 a4-紧凑版；--matrix 覆盖全部版式（a4/a3 × 紧凑/宽松/打印版）。
-# ``spaced``（宽松版）已退役但仍被 schema 接受，因此保留在诊断矩阵里：
-# 它验证旧组卷包依然能编译，而不是产品线的一部分。
+# 单套验证默认只编 a4-紧凑版（不留白，最快）；--matrix 覆盖两个轴的组合：
+# 纸张（a4/a3）× 间距（compact/spaced）× 留白（开/关），外加主题与答案模式。
+# 另留一个旧键目标（spacing=print）证明历史组卷包仍能直接编译。
 BASE_TARGETS = [
     {"layout": "a4", "theme": "print", "spacing": "compact", "enabled": True, "answers": False, "output_suffix": None},
 ]
 MATRIX_TARGETS = [
     # output_suffix 让每份产物文件名唯一（{layout}-{spacing} 不足以区分 theme/answers）。
-    {"layout": "a4", "theme": "print", "spacing": "compact", "enabled": True, "answers": False, "output_suffix": "-a4-print-compact"},
-    {"layout": "a4", "theme": "print", "spacing": "spaced", "enabled": True, "answers": False, "output_suffix": "-a4-print-spaced"},
-    {"layout": "a4", "theme": "print", "spacing": "a4-blank", "enabled": True, "answers": False, "output_suffix": "-a4-print-blank"},
-    {"layout": "a3", "theme": "print", "spacing": "a4-blank", "enabled": True, "answers": False, "output_suffix": "-a3-print-blank"},
-    {"layout": "a3", "theme": "print", "spacing": "compact", "enabled": True, "answers": False, "output_suffix": "-a3-print-compact"},
-    {"layout": "a3", "theme": "print", "spacing": "spaced", "enabled": True, "answers": False, "output_suffix": "-a3-print-spaced"},
-    {"layout": "a4", "theme": "cream", "spacing": "compact", "enabled": True, "answers": False, "output_suffix": "-a4-cream-compact"},
-    {"layout": "a4", "theme": "print", "spacing": "compact", "enabled": True, "answers": True, "output_suffix": "-a4-print-compact-answers"},
+    {"layout": "a4", "theme": "print", "spacing": "compact", "print": False, "enabled": True, "answers": False, "output_suffix": "-a4-compact"},
+    {"layout": "a4", "theme": "print", "spacing": "spaced", "print": False, "enabled": True, "answers": False, "output_suffix": "-a4-spaced"},
+    {"layout": "a4", "theme": "print", "spacing": "compact", "print": True, "enabled": True, "answers": False, "output_suffix": "-a4-compact-print"},
+    {"layout": "a4", "theme": "print", "spacing": "spaced", "print": True, "enabled": True, "answers": False, "output_suffix": "-a4-spaced-print"},
+    {"layout": "a3", "theme": "print", "spacing": "compact", "print": False, "enabled": True, "answers": False, "output_suffix": "-a3-compact"},
+    {"layout": "a3", "theme": "print", "spacing": "spaced", "print": True, "enabled": True, "answers": False, "output_suffix": "-a3-spaced-print"},
+    # 旧键：直接把「紧凑 + 留白」写成 spacing 的历史组卷包仍须可编译。
+    {"layout": "a4", "theme": "print", "spacing": "print", "enabled": True, "answers": False, "output_suffix": "-a4-legacy-print"},
+    {"layout": "a3", "theme": "print", "spacing": "a4-blank", "enabled": True, "answers": False, "output_suffix": "-a3-legacy-blank"},
+    {"layout": "a4", "theme": "cream", "spacing": "compact", "print": False, "enabled": True, "answers": False, "output_suffix": "-a4-cream-compact"},
+    {"layout": "a4", "theme": "print", "spacing": "compact", "print": False, "enabled": True, "answers": True, "output_suffix": "-a4-compact-answers"},
 ]
 
 
@@ -78,7 +81,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--json", type=Path, help="把逐套结果写入 JSON")
     parser.add_argument("--keep", action="store_true", help="保留中间构建产物")
     parser.add_argument("--matrix", action="store_true", help="覆盖全部版式（a4/a3 × 紧凑/宽松/打印版）")
-    parser.add_argument("--collections", action="store_true", help="同时编译 collections/ 下的正式组卷包")
+    parser.add_argument("--compositions", action="store_true", help="同时编译 composition/ 下的正式组卷包")
     return parser.parse_args()
 
 
@@ -208,36 +211,36 @@ def main() -> int:
                 print(f"  ... {done}/{len(jobs)} checked", flush=True)
 
     passed = len(results) - compile_fail - leak_fail
-    collection_fail = 0
-    collections_report: list[dict[str, object]] = []
-    if args.collections:
-        collections_root = ROOT / "collections"
-        collection_paths = sorted(collections_root.glob("*/composition.json"))
-        for collection_path in collection_paths:
+    composition_fail = 0
+    compositions_report: list[dict[str, object]] = []
+    if args.compositions:
+        compositions_root = ROOT / "composition"
+        composition_paths = sorted(compositions_root.glob("*/composition.json"))
+        for collection_path in composition_paths:
             entry = {"collection": collection_path.parent.name}
             try:
                 result = service.composition.compile_collection(
                     collection_path,
                     dry_run=False,
                     check_bindings=False,
-                    work_dir=temp_root / "collections" / collection_path.parent.name / "generated",
-                    output_dir=temp_root / "collections" / collection_path.parent.name / "output",
+                    work_dir=temp_root / "composition" / collection_path.parent.name / "generated",
+                    output_dir=temp_root / "composition" / collection_path.parent.name / "output",
                 )
             except Exception as error:  # noqa: BLE001
                 entry["ok"] = False
                 entry["error"] = f"{type(error).__name__}: {error}"
-                collection_fail += 1
-                collections_report.append(entry)
+                composition_fail += 1
+                compositions_report.append(entry)
                 print(f"[COLLECTION-FAIL] {collection_path.parent.name}: {entry['error']}", flush=True)
                 continue
             entry["ok"] = result.ok
             entry["artifacts"] = len(result.artifacts)
             if not result.ok:
                 entry["error"] = result.error
-                collection_fail += 1
+                composition_fail += 1
                 print(f"[COLLECTION-FAIL] {collection_path.parent.name}: {result.error}", flush=True)
-            collections_report.append(entry)
-        results.extend(collections_report)  # type: ignore[arg-type]
+            compositions_report.append(entry)
+        results.extend(compositions_report)  # type: ignore[arg-type]
 
     print("")
     print(f"papers checked : {len(records)}")
@@ -245,14 +248,14 @@ def main() -> int:
     print(f"compile failed : {compile_fail}")
     print(f"leaks          : {leak_fail}")
     print(f"fully ok       : {passed}")
-    if args.collections:
-        print(f"collections    : {len(collections_report)} checked, {collection_fail} failed")
+    if args.compositions:
+        print(f"compositions   : {len(compositions_report)} checked, {composition_fail} failed")
 
     if args.json:
         args.json.parent.mkdir(parents=True, exist_ok=True)
         args.json.write_text(
             json.dumps(
-                {"papers": results[: len(records)], "collections": collections_report},
+                {"papers": results[: len(records)], "compositions": compositions_report},
                 ensure_ascii=False,
                 indent=2,
             )
@@ -266,7 +269,11 @@ def main() -> int:
 
         shutil.rmtree(temp_root, ignore_errors=True)
 
-    return 1 if (compile_fail or leak_fail or collection_fail) else 0
+    # `collection_fail` only exists on the `--compositions` path; referencing it
+    # unconditionally raised NameError *after* a clean run, so a fully passing
+    # library still exited with a traceback and a failure code.
+    failed_any = compile_fail or leak_fail or (composition_fail if args.compositions else 0)
+    return 1 if failed_any else 0
 
 
 if __name__ == "__main__":

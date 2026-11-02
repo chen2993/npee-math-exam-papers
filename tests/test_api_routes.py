@@ -98,6 +98,8 @@ def test_only_documented_non_get_routes_exist(client) -> None:
         "/api/compositions/build",
         "/api/compositions/compile",
         "/api/compositions/submit",
+        # 组卷包的写入口：前端把编辑结果存回 composition/<id>/composition.json。
+        "/api/compositions/packages/{composition_id}",
     }
     schema = create_application().openapi()
     writes = {
@@ -222,8 +224,8 @@ def _composition() -> dict:
             "layout": "a4",
             "theme": "print",
             "spacing": "compact",
+            "print": True,
             "opening": {"show": True, "candidate_info": False, "notices": False},
-            "solution": {"structure": "pair-first", "pair_count": 2},
         },
         "groups": [
             {
@@ -237,7 +239,7 @@ def _composition() -> dict:
             "engine": "xelatex",
             "passes": 1,
             "targets": [
-                {"layout": "a4", "theme": "print", "spacing": "compact", "enabled": True, "answers": False, "output_suffix": None}
+                {"layout": "a4", "theme": "print", "spacing": "compact", "print": True, "enabled": True, "answers": False, "output_suffix": None}
             ],
             "output": {"directory": "build/output", "filename_template": "{composition_id}.pdf", "overwrite": True},
         },

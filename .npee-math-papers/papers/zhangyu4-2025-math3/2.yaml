@@ -4,7 +4,6 @@ paper:
   year: 2025
   subject: math3
   paper_no: 2
-content_hash: b2644fb249cda308aa29ae4e5fd72247b87a3f08b03a32d3434d505a5c223197
 questions:
 - number: 1
   section: choice
@@ -34,7 +33,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $f(x)$ 在 $x=0$ 处连续，下列结论：$①$若 $f'_-(0)$ 存在，则 $f'(0)$ 存在；$②$若 $\lim_{x\to0^-}f'(x)$ 存在，则 $\lim_{x\to0^+}f'(x)$ 存在；$③$若 $f'_-(0)$ 与 $f'_+(0)$ 均存在，则 $f'(0)$ 存在；$④$若 $\lim_{x\to0^-}f'(x)$ 存在，则 $f'(0)$ 存在。正确结论的个数为\ExamSelection
+      设 $f(x)$ 在 $x=0$ 处连续，下列结论：\n①若 $f'_-(0)$ 存在，则 $f'(0)$ 存在；\n②若 $\lim_{x\to0^-}f'(x)$ 存在，则 $\lim_{x\to0^+}f'(x)$ 存在；\n③若 $f'_-(0)$ 与 $f'_+(0)$ 均存在，则 $f'(0)$ 存在；\n④若 $\lim_{x\to0^-}f'(x)$ 存在，则 $f'(0)$ 存在。\n正确结论的个数为\ExamSelection
   choices:
   - label: A
     text: $0$
@@ -305,3 +304,4 @@ questions:
       求 $\theta$ 的矩估计量 $\hat{\theta}_1$ 及 $D(\hat{\theta}_1)$；
   - text: |-
       求 $\theta$ 的最大似然估计量 $\hat{\theta}_2$ 及 $D(\hat{\theta}_2)$。
+content_hash: a93880fc2e9e693156e0d321917ee95637e5d0595742d44452e8a3270ab8e5ad

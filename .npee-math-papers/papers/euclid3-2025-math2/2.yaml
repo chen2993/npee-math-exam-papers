@@ -4,30 +4,29 @@ paper:
   year: 2025
   subject: math2
   paper_no: 2
-content_hash: cf69fa354670904322b5b5fd93cd77012e2cb63b909ed720236c150e0f2f01cb
 questions:
 - number: 1
   section: choice
   points: 5
   stem:
     text: |-
-      当 $x\to 0$ 时，下列无穷小量中，与 $\int_0^x\mathrm{d}l\int_0^l t^2\arcsin u^2\,\mathrm{d}u$ 同阶的是\ExamSelection
+      当 $x\to 0$ 时，下列无穷小量中，与 $\int_0^x\mathrm{d}t\int_0^t t^2\arcsin u^2\,\mathrm{d}u$ 同阶的是\ExamSelection
   choices:
   - label: A
     text: |-
-      $\int_0^5\dfrac{\sin t}{t}\,\mathrm{d}t$
+      $\int_0^{x^{5}}\dfrac{\sin t}{t}\,\mathrm{d}t$
     figures: []
   - label: B
     text: |-
-      $\int_0^{\ln(1+\sqrt{3})}(\tan t-t)\,\mathrm{d}t$
+      $\int_0^{\ln(1+\sqrt{x^{3}})}(\tan t-t)\,\mathrm{d}t$
     figures: []
   - label: C
     text: |-
-      $\int_0^{\pi\sin x}t^5\ln t\,\mathrm{d}t$
+      $\int_0^{\sin x}t^5\ln t\,\mathrm{d}t$
     figures: []
   - label: D
     text: |-
-      $\int_0^{1-\cos x}\left[(1+t)^{\dfrac{1}{1-\cos x}}-e\right]\,\mathrm{d}t$
+      $\int_0^{1-\cos x}\left[(1+t)^{\frac{1}{t}}-e\right]\,\mathrm{d}t$
     figures: []
 - number: 2
   section: choice
@@ -190,7 +189,7 @@ questions:
   choices:
   - label: A
     text: |-
-      $\alpha_2,\alpha_1,\alpha_4$
+      $\alpha_2,\alpha_3,\alpha_4$
     figures: []
   - label: B
     text: |-
@@ -232,7 +231,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设函数 $f(x)=\begin{cases}(\sec x)^{\dfrac1{x^2}},&-\dfrac\pi2<x<0,\\\dfrac{\ln(x+\sqrt{1+x^2})-x}{x},&0<x<\dfrac\pi2\end{cases}$，已知极限 $\lim_{x\to0}\left[\arctan\dfrac1{e^x}+f(x)\right]$ 存在，则 $k=\ExamBlank$。
+      设函数 $f(x)=\begin{cases}(\sec x)^{\frac{1}{x^2}},&-\dfrac\pi2<x<0,\\\dfrac{\ln(x+\sqrt{1+x^2})-x}{x},&0<x<\dfrac\pi2\end{cases}$，已知极限 $\lim_{x\to0}\left[k\cdot\arctan(e^{1/x})+f(x)\right]$ 存在，则 $k=\ExamBlank$。
 - number: 12
   section: fill
   points: 5
@@ -316,3 +315,4 @@ questions:
   - text: 求参数 $a$ 的值。
   - text: |-
       记 $x=(x_1,x_2,x_3)^{\mathsf T}$，$A^*$ 为 $A$ 的伴随矩阵，求方程 $x^{\mathsf T}A^*x=0$ 的全部解。
+content_hash: 0b2bf71a2ea9c9be79f983360103ad293d1009b9c67dd5c5c0de6544518660f6

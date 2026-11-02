@@ -49,7 +49,7 @@ export function savePreferences(preferences: Preferences, key = PREFERENCES_STOR
   }
 }
 
-export interface PreferencesContextValue {
+interface PreferencesContextValue {
   preferences: Preferences;
   /** Merge a partial patch; unknown fields are ignored. */
   update: (patch: Partial<Preferences>) => void;

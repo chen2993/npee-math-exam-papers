@@ -4,7 +4,6 @@ paper:
   year: 2025
   subject: math1
   paper_no: 1
-content_hash: 39ec7c94ffd068f0971b83cdcd211f267a2b650f766a9de0280008c889e29cfd
 questions:
 - number: 1
   section: choice
@@ -261,19 +260,19 @@ questions:
   section: solution
   points: 10
   stem:
-    text: （本题满分 10 分）求二元函数 $f(x,y)=(x^2+y^2)e^{-(x^2+y^2)}$ 的极值。
+    text: 求二元函数 $f(x,y)=(x^2+y^2)e^{-(x^2+y^2)}$ 的极值。
 - number: 18
   section: solution
   points: 12
   stem:
     text: |-
-      （本题满分 12 分）若函数 $f(x,y)=\begin{cases}x\arctan^2y,&x\leq\dfrac{1}{\sqrt{1+y^2}},\\\dfrac{x^2y}{\sqrt{2}x+1},&x>\dfrac{1}{\sqrt{1+y^2}}\end{cases}$，区域 $D={(x,y)\mid0\leq x\leq1,0\leq y\leq1}$，计算二重积分 $\iint_Df(x,y)\mathrm{d}\sigma$。
+      若函数 $f(x,y)=\begin{cases}x\arctan^2y,&x\leq\dfrac{1}{\sqrt{1+y^2}},\\\dfrac{x^2y}{\sqrt{2}x+1},&x>\dfrac{1}{\sqrt{1+y^2}}\end{cases}$，区域 $D={(x,y)\mid0\leq x\leq1,0\leq y\leq1}$，计算二重积分 $\iint_Df(x,y)\mathrm{d}\sigma$。
 - number: 19
   section: solution
   points: 12
   stem:
     text: |-
-      （本题满分 12 分）设函数 $f(x)$ 在 $[a,b]$ 上连续，在 $(a,b)$ 内可导，$f(a)<0,f(b)<0,\int_a^bf(x)\mathrm{d}x=0$。证明：
+      设函数 $f(x)$ 在 $[a,b]$ 上连续，在 $(a,b)$ 内可导，$f(a)<0,f(b)<0,\int_a^bf(x)\mathrm{d}x=0$。证明：
   subparts:
   - text: |-
       存在不同的 $\xi_1,\xi_2\in(a,b)$，使得 $f(\xi_1)=f(\xi_2)=0$。
@@ -284,13 +283,13 @@ questions:
   points: 12
   stem:
     text: |-
-      （本题满分 12 分）设曲面 $\Sigma:y=1-2x^2-2z^2 (0\leq y\leq1)$，取右侧，计算曲面积分 $I=\iint_\Sigma(xy^2+x)\mathrm{d}y\mathrm{d}z+(y^3-z^2)\mathrm{d}z\mathrm{d}x+(zy^2-x^2)\mathrm{d}x\mathrm{d}y$。
+      设曲面 $\Sigma:y=1-2x^2-2z^2 (0\leq y\leq1)$，取右侧，计算曲面积分 $I=\iint_\Sigma(xy^2+x)\mathrm{d}y\mathrm{d}z+(y^3-z^2)\mathrm{d}z\mathrm{d}x+(zy^2-x^2)\mathrm{d}x\mathrm{d}y$。
 - number: 21
   section: solution
   points: 12
   stem:
     text: |-
-      （本题满分 12 分）设 $A$ 为 3 阶实对称矩阵，$|A|=0$，$A$ 的迹 $\operatorname{tr}(A)=4$，且 $A$ 有一个二重特征值，$\alpha=(1,-1,1)^{\mathrm T}$ 是单特征值所对应的特征向量。
+      设 $A$ 为 3 阶实对称矩阵，$|A|=0$，$A$ 的迹 $\operatorname{tr}(A)=4$，且 $A$ 有一个二重特征值，$\alpha=(1,-1,1)^{\mathrm T}$ 是单特征值所对应的特征向量。
   subparts:
   - text: 当单特征值不等于 0 时，求 $A$ 以及 $Ax=0$ 的通解；
   - text: 当单特征值等于 0 时，求正定矩阵 $B$，使得 $A=B^2-2E$。
@@ -299,8 +298,9 @@ questions:
   points: 12
   stem:
     text: |-
-      （本题满分 12 分）已知随机变量 $(X,Y)$ 在区域 $D={(x,y)\mid x^2+y^2\leq1}$ 上服从均匀分布，$Z=\begin{cases}1,&X\geq Y,\\-1,&X<Y,\end{cases}\quad T=(X^2+Y^2)Z$。
+      已知随机变量 $(X,Y)$ 在区域 $D={(x,y)\mid x^2+y^2\leq1}$ 上服从均匀分布，$Z=\begin{cases}1,&X\geq Y,\\-1,&X<Y,\end{cases}\quad T=(X^2+Y^2)Z$。
   subparts:
   - text: 求 $T$ 的概率密度函数 $f_T(t)$；
   - text: |-
       求 $\operatorname{cov}(X^2+Y^2,Z)$。
+content_hash: 9e4bda3fcb877dbe6e3173d5035cddca88a82459643e793181ca959ddbf80924

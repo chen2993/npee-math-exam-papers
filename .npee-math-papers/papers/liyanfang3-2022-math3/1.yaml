@@ -4,7 +4,6 @@ paper:
   year: 2022
   subject: math3
   paper_no: 1
-content_hash: 46353f343c81ee9457df4b4e66408c7144f3562cb172c2489df0db7e6974c015
 questions:
 - number: 1
   section: choice
@@ -137,7 +136,7 @@ questions:
   points: 5
   stem:
     text: |-
-      若矩阵 $A,B$ 为正交矩阵，则下列命题中，正确命题的个数为\ExamSelection① $|A|=\pm1$。② 若 $A$ 存在实特征值，则必为 $\pm1$。③ $AB$ 也是正交矩阵。④ 若 $|A|=-|B|$，则 $A+B$ 必不可逆。
+      若矩阵 $A,B$ 为正交矩阵，则下列命题中，正确命题的个数为\ExamSelection\n① $|A|=\pm1$。\n② 若 $A$ 存在实特征值，则必为 $\pm1$。\n③ $AB$ 也是正交矩阵。\n④ 若 $|A|=-|B|$，则 $A+B$ 必不可逆。
   choices:
   - label: A
     text: $1$
@@ -252,7 +251,7 @@ questions:
   section: solution
   points: 10
   stem:
-    text: 本题满分 $10$ 分。
+    text: '{}'
   subparts:
   - text: |-
       求 $\lim_{x\to+\infty}\dfrac{\arctan 2x-\arctan x}{\dfrac{\pi}{2}-\arctan x}$。
@@ -306,3 +305,4 @@ questions:
   - text: 记一天中，从开始营业到开始盈利的时间为 $T_2$，求 $T_2$ 的概率密度。
   - text: |-
       已知 $\lambda=20$，问长期来看，若要盈利，则该咖啡店需平均每天至少营业多少小时？
+content_hash: 7badc0e72ff7e91313e5a7f65268360b555a6a8976c8e87a6ff43be0d4044d67

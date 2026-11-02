@@ -1,0 +1,124 @@
+% 读者版勘误清单正文（由 errata-math1/2/3.tex 三份驱动文件复用）。
+%
+% 每份 PDF 只放一个科目；条目按「题号：原内容 → 正确内容」给，
+% 红色 = 原印刷，绿色 = 更正；「原书笔误」用括号标注（题库保持与源页一致）。
+
+\documentclass[11pt,a4paper]{ctexart}
+
+\usepackage[margin=2.2cm,top=2.6cm]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage{xcolor}
+\usepackage{fancyhdr}
+
+\definecolor{errata-red}{RGB}{198,40,40}
+\definecolor{errata-green}{RGB}{20,120,60}
+
+\newcommand{\rc}[1]{\textcolor{errata-red}{#1}}
+\newcommand{\gc}[1]{\textcolor{errata-green}{#1}}
+\newcommand{\orig}{\textnormal{\small（原书）}}
+
+\newcommand{\Paper}[1]{\par\vspace{8pt}{\bfseries #1}\par\vspace{3pt}}
+\newcommand{\pair}[1]{\par\hangindent=2.2em\hangafter=1 #1\par}
+
+\newif\ifmathone
+\newif\ifmathtwo
+\newif\ifmaththree
+\def\flagA{A}
+\def\flagB{B}
+\def\flagC{C}
+\ifx\ErrataFlag\flagA \mathonetrue\fi
+\ifx\ErrataFlag\flagB \mathtwotrue\fi
+\ifx\ErrataFlag\flagC \maththreetrue\fi
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\fancyfoot[C]{\small\thepage}
+
+\setlength{\parindent}{0pt}
+\linespread{1.1}
+
+\begin{document}
+
+\begin{center}
+  {\LARGE\bfseries 贾基八十五套卷勘误清单（\ErrataSubject）}
+\end{center}
+\vspace{8pt}
+
+\ifmathone
+
+\Paper{2025 超越十套卷 第 6 套}
+\pair{3：$(y^2z+x)\boldsymbol{i}+\rc{xy^2}\boldsymbol{j}+(2xy+z^2)\boldsymbol{k}$
+  $\longrightarrow$ $\cdots+\gc{xy^2z}\boldsymbol{j}+\cdots$}
+\pair{13：$u=e^{xy}+\dfrac{\rc{y^2}}{z^2}$ $\longrightarrow$ $u=e^{xy}+\dfrac{\gc{y}}{z^2}$}
+\pair{17：$\rc{f'_y}(x,y)=2(y+1)e^x$ $\longrightarrow$ $\gc{f''_{xy}}(x,y)=2(y+1)e^x$}
+
+\Paper{2024 超越十套卷 第 2 套}
+\pair{4（B）：$\displaystyle\oint_L y^2\mathrm{d}x=\rc{\int_L}x^2\mathrm{d}y$
+  $\longrightarrow$ $\gc{\oint_L}x^2\mathrm{d}y$ \orig}
+\pair{10（A）：$\rc{\left|\dfrac{X_1-X_2}{X_3+X_4}\right|}\sim t(2)$
+  $\longrightarrow$ $\gc{\dfrac{X_1-X_2}{|X_3+X_4|}}\sim t(2)$}
+\pair{15：$r(\rc{A^4+2A^3-3E})$ $\longrightarrow$ $r(\gc{A^2+2A-3E})$}
+\pair{15：$(A-E)x=0$ 的基础解系 $\rc{\alpha_1}$ $\longrightarrow$ $\gc{\alpha_3}$ \orig}
+\pair{18：$f''(t)+\rc{f'(t)}=1$ $\longrightarrow$ $f''(t)+\gc{f(t)}=1$}
+
+\Paper{2024 超越十套卷 第 3 套}
+\pair{6：$A^*$ 与 $\rc{C^T}$ $\longrightarrow$ $A^*$ 与 $\gc{C^*}$}
+
+\Paper{2024 余炳森五套卷 第 1 套}
+\pair{6（A）：$\begin{pmatrix}E&O\\O&\rc{A}\end{pmatrix}x=0$
+  $\longrightarrow$ $\begin{pmatrix}E&O\\O&\gc{A^{\mathsf T}}\end{pmatrix}x=0$}
+
+\Paper{2024 张宇八套卷 第 1 套}
+\pair{4：$\displaystyle\oint_L\bigl(\rc{(2y)^3}-3y\bigr)\mathrm{d}x-x^3\mathrm{d}y$
+  $\longrightarrow$ $\displaystyle\oint_L\bigl(\gc{2y^3}-3y\bigr)\mathrm{d}x-x^3\mathrm{d}y$}
+
+\Paper{2024 张宇八套卷 第 2 套}
+\pair{4：$I_2=\displaystyle\int_\Gamma f(x,y)\,\rc{\mathrm{d}y}$
+  $\longrightarrow$ $I_2=\displaystyle\int_\Gamma f(x,y)\,\gc{\mathrm{d}s}$}
+\pair{5：$\begin{pmatrix}B&\rc{CB}\\AB&O\end{pmatrix}$
+  $\longrightarrow$ $\begin{pmatrix}B&\gc{BC}\\AB&O\end{pmatrix}$ \orig}
+
+\Paper{2024 李艳芳三套卷 第 1 套}
+\pair{15：$a_{ij}+\rc{A_{ij}}=1$ $\longrightarrow$ $a_{ij}+\gc{A_{ji}}=1$}
+
+\fi
+
+\ifmathtwo
+
+\Paper{2025 超越十套卷 第 6 套}
+\pair{6：$\displaystyle\int_0^{\pi/4}\mathrm{d}\theta\int_0^{\rc{\cos\theta}}r^2\sin\theta\sqrt{1-r^2\cos2\theta}\,\mathrm{d}r$
+  $\longrightarrow$ $\displaystyle\int_0^{\pi/4}\mathrm{d}\theta\int_0^{\gc{1/\cos\theta}}\cdots$}
+\pair{8：$\rc{A'}$、$\operatorname{tr}\bigl[\rc{(A-E)^2}\bigr]$
+  $\longrightarrow$ $\gc{A^*}$、$\operatorname{tr}\bigl[\gc{(A-E)^*}\bigr]$}
+\pair{8（第 4 个结论）：$P\bigl(A\cup\rc{\overline{B}}\bigr)P\bigl(A\rc{\overline{B}}\bigr)\le P(A)P(B)$
+  $\longrightarrow$ $\gc{P(A\cup B)P(AB)}\le P(A)P(B)$ \orig}
+\pair{12：$\displaystyle\lim_{n\to\infty}\rc{n\bigl[f(1/n)\bigr]^n}$
+  $\longrightarrow$ $\displaystyle\lim_{n\to\infty}\gc{\bigl[nf(1/n)\bigr]^n}$}
+\pair{19：$\rc{f''_{yy}}(x,y)=2(y+1)e^x$ $\longrightarrow$ $\gc{f''_{xy}}(x,y)=2(y+1)e^x$}
+
+\Paper{2025 张宇四套卷 第 4 套}
+\pair{17：$y=\dfrac{1+\displaystyle\int_0^{\rc{x}}e^{t^2}\,\mathrm{d}t}{1-e^{1/x}}$
+  $\longrightarrow$ $y=\dfrac{1+\displaystyle\int_0^{\gc{1/x}}e^{t^2}\,\mathrm{d}t}{1-e^{1/x}}$}
+
+\Paper{2024 超越十套卷 第 3 套}
+\pair{9：$A^*$ 与 $\rc{C^T}$ $\longrightarrow$ $A^*$ 与 $\gc{C^*}$}
+
+\Paper{2024 超越十套卷 第 5 套}
+\pair{18：面积恒等于 $\displaystyle\int_0^x t^2\bigl[\rc{y(t)}+1\bigr]\mathrm{d}t$
+  $\longrightarrow$ $\displaystyle\int_0^x t^2\bigl[\gc{y'(t)}+1\bigr]\mathrm{d}t$ \orig}
+
+\Paper{2024 张宇八套卷 第 1 套}
+\pair{2：实线、虚线与甲、乙的对应关系\rc{画反}
+  $\longrightarrow$ \gc{实线为甲、虚线为乙}}
+
+\fi
+
+\ifmaththree
+
+\Paper{2025 超越十套卷 第 6 套}
+\pair{18：$\rc{f''_{yy}}(x,y)=2(y+1)e^x$ $\longrightarrow$ $\gc{f''_{xy}}(x,y)=2(y+1)e^x$}
+
+\fi
+
+\end{document}

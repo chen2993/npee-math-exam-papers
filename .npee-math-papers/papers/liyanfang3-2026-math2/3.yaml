@@ -4,295 +4,290 @@ paper:
   year: 2026
   subject: math2
   paper_no: 3
-content_hash: 1fe5586d56540195463534cfcd6a15f4eb379e5bf3b9e8b04bb4ba7aadef5c8d
 questions:
 - number: 1
   section: choice
-  points:
+  points: 5
   stem:
     text: |-
-      函数 $f(x)=\lim_{t\to0}\left(\cos\dfrac{t}{x}\right)^{\dfrac{x}{t^2}}$ 在 $(-\infty,+\infty)$ 内\ExamSelection
+      函数 \( f(x)=\lim\limits_{t\to0}\left(\cos\dfrac{t}{x}\right)^{\dfrac{x}{t^2}} \) 在 \((-\infty, +\infty)\) 内( )。
   choices:
   - label: A
-    text: 连续。
+    text: 连续
     figures: []
   - label: B
-    text: 有可去间断点。
+    text: 有可去间断点
     figures: []
   - label: C
-    text: 有跳跃间断点。
+    text: 有跳跃间断点
     figures: []
   - label: D
-    text: 有无穷间断点。
+    text: 有无穷间断点
     figures: []
 - number: 2
   section: choice
-  points:
+  points: 5
   stem:
     text: |-
-      当 $x\to+\infty$ 时，无穷大量 $I_1=x^{\sqrt{x}},I_2=(\sqrt{x})^x,I_3=(\ln x)^{x^2}$ 按照从高阶到低阶的排序是\ExamSelection
+      当 \(x\to+\infty\) 时，无穷大量 \(I_1=x^{\sqrt{x}}, I_2=(\sqrt{x})^x, I_3=(\ln x)^{x^2}\) 按照从高阶到低阶的排序是( )。
   choices:
   - label: A
-    text: $I_1,I_2,I_3$。
+    text: |-
+      \(I_1,I_2,I_3\)
     figures: []
   - label: B
-    text: $I_1,I_3,I_2$。
+    text: |-
+      \(I_1,I_3,I_2\)
     figures: []
   - label: C
-    text: $I_3,I_1,I_2$。
+    text: |-
+      \(I_3,I_1,I_2\)
     figures: []
   - label: D
-    text: $I_3,I_2,I_1$。
+    text: |-
+      \(I_3,I_2,I_1\)
     figures: []
 - number: 3
   section: choice
-  points:
+  points: 5
   stem:
     text: |-
-      已知反常积分：① $\int_1^{+\infty}\dfrac{\cos x^2}{x}\,\mathrm{d}x$；② $\int_1^{+\infty}\dfrac{\cos^2x}{x}\,\mathrm{d}x$，则下列说法中，正确的是\ExamSelection
+      已知反常积分：\( ①\ \int_1^{+\infty}\dfrac{\cos x^2}{x}\,dx \)；\( ②\ \int_1^{+\infty}\dfrac{\cos^2x}{x}\,dx \)，则下列说法中正确的是( )。
   choices:
   - label: A
-    text: ①收敛，②发散。
+    text: ① 收敛， ② 发散
     figures: []
   - label: B
-    text: ①发散，②收敛。
+    text: ① 发散， ② 收敛
     figures: []
   - label: C
-    text: ①②均收敛。
+    text: ①、② 均收敛
     figures: []
   - label: D
-    text: ①②均发散。
+    text: ①、② 均发散
     figures: []
 - number: 4
   section: choice
-  points:
+  points: 5
   stem:
     text: |-
-      设数列 $\{x_n\}$ 与 $\{y_n\}$ 满足 $\begin{cases}x_0=1,\\y_0=-1,\end{cases}$ 且 $\begin{cases}x_{n+1}=\dfrac{1}{2}x_n-y_n,\\y_{n+1}=x_n-\dfrac{1}{2}y_n,\end{cases}$ 则下列命题中，正确的是\ExamSelection
+      设数列 \(\{x_n\}\) 与 \(\{y_n\}\) 满足 \(x_0=1,y_0=-1\)，且 \( x_{n+1}=\frac12x_n-y_n, \ y_{n+1}=x_n-\frac12y_n \)，则下列命题中正确的是( )。
   choices:
   - label: A
     text: |-
-      $\lim_{n\to\infty}x_n,\lim_{n\to\infty}y_n$ 均存在。
+      \(\lim\limits x_n, \lim\limits y_n\) 均存在
     figures: []
   - label: B
     text: |-
-      $\lim_{n\to\infty}x_n$ 存在，$\lim_{n\to\infty}y_n$ 不存在。
+      \(\lim\limits x_n\) 存在， \(\lim\limits y_n\) 不存在
     figures: []
   - label: C
     text: |-
-      $\lim_{n\to\infty}x_n$ 不存在，$\lim_{n\to\infty}y_n$ 存在。
+      \(\lim\limits x_n\) 不存在， \(\lim\limits y_n\) 存在
     figures: []
   - label: D
     text: |-
-      $\lim_{n\to\infty}x_n,\lim_{n\to\infty}y_n$ 均不存在。
+      \(\lim\limits x_n, \lim\limits y_n\) 均不存在
     figures: []
 - number: 5
   section: choice
-  points:
+  points: 5
   stem:
     text: |-
-      设 $(0,+\infty)$ 上的函数 $f(x)$ 为微分方程 $y'-\dfrac{y}{x}=x^\alpha(\alpha\ne0)$ 的一个解，$f(1)=\beta,f'(x)$ 不是常数，则下列关于曲线 $y=f(x)$ 的说法中，正确的是\ExamSelection
+      设 \((0, +\infty)\) 上的函数 \(f(x)\) 为微分方程 \( y'-\dfrac{y}{x}=x^\alpha\ (\alpha\ne0) \) 的一个解，\(f(1)=\beta\) ， \(f'(x)\) 不是常数，则下列关于曲线 \(y=f(x)\) 的说法中正确的是( )。
   choices:
   - label: A
     text: |-
-      当 $\alpha\beta=1$ 时，曲线 $y=f(x)$ 有水平渐近线 $y=0$。
+      当 \(\alpha\beta=1\) 时， 曲线有水平渐近线 \(y=0\)
     figures: []
   - label: B
     text: |-
-      当 $\alpha\beta\ne1$ 时，曲线 $y=f(x)$ 有斜渐近线 $y=kx(k\ne0)$。
+      当 \(\alpha\beta\ne1\) 时， 曲线有斜渐近线 \(y=kx\ (k\ne0)\)
     figures: []
   - label: C
     text: |-
-      存在 $\alpha,\beta$ 的取值，使得 $\lim_{x\to+\infty}f(x)=-\infty,\lim_{x\to+\infty}\dfrac{f(x)}{x}=0$。
+      存在 \(\alpha, \beta\) 的取值， 使得 \(\lim\limits_{x\to+\infty}f(x)=-\infty, \ \lim\limits_{x\to+\infty}f(x)/x=0\)
     figures: []
   - label: D
-    text: 以上说法均不正确。
+    text: 以上说法均不正确
     figures: []
 - number: 6
   section: choice
-  points:
+  points: 5
   stem:
     text: |-
-      设函数 $f(x,y)=\begin{cases}\arctan\left(|x|^{\dfrac{3}{2}}y\right),&(x,y)\ne(0,0),\\0,&(x,y)=(0,0),\end{cases}$ 则下列说法中，正确的是\ExamSelection
+      设 \( f(x,y)=\begin{cases}\arctan(|x|^{\dfrac{3}{2}}y), &(x,y)\ne(0,0), \\0, &(x,y)=(0,0), \end{cases} \) 则下列说法中正确的是( )。
   choices:
   - label: A
     text: |-
-      $\left.\dfrac{\partial^2f}{\partial x\partial y}\right|_{(0,0)},\left.\dfrac{\partial^2f}{\partial y\partial x}\right|_{(0,0)}$ 均不存在。
+      \(f_{xy}(0,0),f_{yx}(0,0)\) 均不存在
     figures: []
   - label: B
     text: |-
-      $\left.\dfrac{\partial^2f}{\partial x\partial y}\right|_{(0,0)},\left.\dfrac{\partial^2f}{\partial y\partial x}\right|_{(0,0)}$ 均存在。
+      \(f_{xy}(0,0),f_{yx}(0,0)\) 均存在
     figures: []
   - label: C
     text: |-
-      $\left.\dfrac{\partial^2f}{\partial x\partial y}\right|_{(0,0)}$ 存在，$\left.\dfrac{\partial^2f}{\partial y\partial x}\right|_{(0,0)}$ 不存在。
+      \(f_{xy}(0,0)\) 存在， \(f_{yx}(0,0)\) 不存在
     figures: []
   - label: D
     text: |-
-      $\left.\dfrac{\partial^2f}{\partial x\partial y}\right|_{(0,0)}$ 不存在，$\left.\dfrac{\partial^2f}{\partial y\partial x}\right|_{(0,0)}$ 存在。
+      \(f_{xy}(0,0)\) 不存在， \(f_{yx}(0,0)\) 存在
     figures: []
 - number: 7
   section: choice
-  points:
+  points: 5
   stem:
     text: |-
-      设函数 $f(t)$ 连续，记 $r=\sqrt{x^2+y^2}$，则 $\int_{-1}^0\mathrm{d}x\int_{-\sqrt{3}x}^{\sqrt{3}}f(\sqrt{x^2+y^2})\,\mathrm{d}y=$\ExamSelection
+      设函数 $f(t)$ 连续，记 $r = \sqrt{x^2 + y^2}$，则 $\int_{-1}^{0} \mathrm{d}x \int_{-\sqrt{3}x}^{\sqrt{3}x} f\left(\sqrt{x^2 + y^2}\right) \mathrm{d}y =$ （ ）
   choices:
   - label: A
     text: |-
-      $2\int_1^2rf(r)\arccos\dfrac{1}{r}\,\mathrm{d}r-\dfrac{2\pi}{3}\int_0^2rf(r)\,\mathrm{d}r$。
+      $2 \int_{1}^{2} r f(r) \arccos \dfrac{1}{r} \mathrm{d}r - \dfrac{2\pi}{3} \int_{0}^{2} r f(r) \mathrm{d}r$
     figures: []
   - label: B
     text: |-
-      $\dfrac{2\pi}{3}\int_0^2rf(r)\,\mathrm{d}r-2\int_1^2rf(r)\arccos\dfrac{1}{r}\,\mathrm{d}r$。
+      $\dfrac{2\pi}{3} \int_{0}^{2} r f(r) \mathrm{d}r - 2 \int_{1}^{2} r f(r) \arccos \dfrac{1}{r} \mathrm{d}r$
     figures: []
   - label: C
     text: |-
-      $2\int_1^2\left(\dfrac{2\pi}{3}-\arccos\dfrac{1}{r}\right)rf(r)\,\mathrm{d}r-\dfrac{2\pi}{3}\int_0^1rf(r)\,\mathrm{d}r$。
+      $2 \int_{1}^{2} \left( \dfrac{2\pi}{3} - \arccos \dfrac{1}{r} \right) r f(r) \mathrm{d}r - \dfrac{2\pi}{3} \int_{0}^{1} r f(r) \mathrm{d}r$
     figures: []
   - label: D
     text: |-
-      $\dfrac{2\pi}{3}\int_0^1rf(r)\,\mathrm{d}r-2\int_1^2\left(\dfrac{2\pi}{3}-\arccos\dfrac{1}{r}\right)rf(r)\,\mathrm{d}r$。
+      $\dfrac{2\pi}{3} \int_{0}^{1} r f(r) \mathrm{d}r - 2 \int_{1}^{2} \left( \dfrac{2\pi}{3} - \arccos \dfrac{1}{r} \right) r f(r) \mathrm{d}r$
     figures: []
 - number: 8
   section: choice
-  points:
+  points: 5
   stem:
     text: |-
-      设 $A,B$ 为 $n(n\geq3)$ 阶非零矩阵，则下列说法中，正确的是\ExamSelection
+      设 \(A,B\) 为 \(n(n\ge3)\) 阶非零矩阵，则下列说法中正确的是( )。
   choices:
   - label: A
     text: |-
-      若 $r(A,B)=r\begin{pmatrix}A\\B\end{pmatrix}$，则 $A,B$ 中至少有一个矩阵可逆。
+      若 \( r(A,B)=r\begin{pmatrix}A\\B\end{pmatrix} \)，则 \(A,B\) 至少有一个公共特征值
     figures: []
   - label: B
     text: |-
-      若 $r(A,B)\ne r\begin{pmatrix}A\\B\end{pmatrix}$，则 $A,B$ 均不可逆。
+      若 \( r(A,B)\ne r\begin{pmatrix}A\\B\end{pmatrix} \)，则 \(A,B\) 没有公共特征值
     figures: []
   - label: C
     text: |-
-      若矩阵 $A$ 与 $B$ 等价，则 $r(A,B)=r\begin{pmatrix}A\\B\end{pmatrix}$。
+      若 \(A\) 与 \(B\) 等价，则 \( r(A,B)=r\begin{pmatrix}A\\B\end{pmatrix} \)
     figures: []
   - label: D
     text: |-
-      若 $r(A,B)=r\begin{pmatrix}A\\B\end{pmatrix}$，则矩阵 $A$ 与 $B$ 等价。
+      若 \( r(A,B)=r\begin{pmatrix}A\\B\end{pmatrix} \)，则 \(A\) 与 \(B\) 等价
     figures: []
 - number: 9
   section: choice
-  points:
+  points: 5
   stem:
     text: |-
-      设矩阵 $A=\begin{pmatrix}0&0&-2\\1&0&a\\a&-1&0\end{pmatrix}$，$B$ 为 $3$ 阶矩阵，且第一行第一列的元素为 $2$，若 $A,B$ 满足 $AB+B-A-E=O$，则下列关于 $A$ 的说法中，正确的是\ExamSelection
+      设矩阵 \(A=\begin{pmatrix}0&0&-2\\1&0&a\\a&-1&0\end{pmatrix}\) ， \(B\) 为 3 阶矩阵，且第一行第一列的元素为 2，若 \(AB+B-A-E=O\)，则下列关于 \(A\) 的说法中正确的是( )。
   choices:
   - label: A
-    text: $A$ 有三个不同的特征值。
+    text: A 有三个不同的特征值
     figures: []
   - label: B
-    text: $A$ 有两个不同的特征值，可以相似对角化。
+    text: A 有两个不同的特征值， 可以相似对角化
     figures: []
   - label: C
-    text: $A$ 有两个不同的特征值，不可以相似对角化。
+    text: A 有两个不同的特征值， 不可以相似对角化
     figures: []
   - label: D
-    text: $A$ 只有一个不同的特征值，不可以相似对角化。
+    text: A 只有一个不同的特征值， 不可以相似对角化
     figures: []
 - number: 10
   section: choice
-  points:
+  points: 5
   stem:
     text: |-
-      设 $A$ 为 $n$ 阶实对称矩阵，$\alpha_1,\alpha_2,\cdots,\alpha_n$ 为 $n$ 个非零 $n$ 维实向量。若 $A$ 满足对任意非零 $n$ 维实向量 $x,y$，均有 $(x^TAy)^2<x^TAx\cdot y^TAy$，则“对任意 $i\ne j,\alpha_i^TA\alpha_j=0$”是“$\alpha_1,\alpha_2,\cdots,\alpha_n$ 线性无关”的\ExamSelection
+      设 \(A\) 为 \(n\) 阶实对称矩阵，\(\alpha_1, \ldots, \alpha_n\) 为 \(n\) 个非零 \(n\) 维实向量。若对任意非零且线性无关的 \(x,y\)，均有 \((x^TAy)^2<x^TAx\cdot y^TAy\)，则“对任意 \(i\ne j, \alpha_i^TA\alpha_j=0\)”是“\(\alpha_1, \ldots, \alpha_n\) 线性无关”的( )。
   choices:
   - label: A
-    text: 充分不必要条件。
+    text: 充分不必要条件
     figures: []
   - label: B
-    text: 必要不充分条件。
+    text: 必要不充分条件
     figures: []
   - label: C
-    text: 充分必要条件。
+    text: 充分必要条件
     figures: []
   - label: D
-    text: 既不充分也不必要条件。
+    text: 既不充分也不必要条件
     figures: []
 - number: 11
   section: fill
-  points:
+  points: 5
   stem:
     text: |-
-      设函数 $f(x)$ 在 $x=0$ 处二阶可导，$f(x)-f(2x)=2(x+x^2)$，则 $f''(0)=\ExamBlank$。
+      设函数 \(f(x)\) 在 \(x=0\) 处二阶可导，\(f(x)-f(2x)=2(x+x^2)\)，则 \(f''(0)=\)_____。
 - number: 12
   section: fill
-  points:
+  points: 5
   stem:
     text: |-
-      设函数 $y=y(x)$ 由方程 $\cos x\,e^{\arctan y}+\ln(1+x^2y^2)+\arcsin x=1$ 确定，则 $\lim_{x\to0}\dfrac{\int_0^xy(t)\,\mathrm{d}t}{e^{\sqrt{\cos x}-1}-1}=\ExamBlank$。
+      设函数 \(y=y(x)\) 由方程 \(\cos x\,e^{\arctan y}+\ln(1+x^2y^2)+\arcsin x=1\) 确定，则 \( \lim\limits_{x\to0}\dfrac{\int_0^x y(t)\,dt}{e^{\sqrt{\cos x}-1}-1}= \)_____。
 - number: 13
   section: fill
-  points:
+  points: 5
   stem:
     text: |-
-      $\int_{\dfrac{\pi}{3}}^{\dfrac{2\pi}{3}}\dfrac{\cos x-\sin2x}{x(\pi-x)}\,\mathrm{d}x=\ExamBlank$。
+      计算 \( \int_{\dfrac{\pi}{3}}^{2\dfrac{\pi}{3}}\dfrac{\cos x-\sin2x}{x(\pi-x)}\,dx= \)_____。
 - number: 14
   section: fill
-  points:
+  points: 5
   stem:
     text: |-
-      设曲线 $L$ 位于第一象限，满足极坐标方程 $r=\sin2\theta$，$M$ 为 $L$ 上一点，其极坐标为 $\left(\dfrac{1}{2},\dfrac{5\pi}{12}\right)$，则点 $M$ 处的切线与极径 $OM$ 的夹角为 $\ExamBlank$（可用反正切函数表示）。
+      设曲线 \(L\) 位于第一象限，满足极坐标方程 \(r=\sin2\theta\) ， \(M\) 为 \(L\) 上一点，其极坐标为 \( (\frac12, \dfrac{5\pi}{12}) \)，则点 \(M\) 处的切线与极径 \(OM\) 的夹角为_____。
 - number: 15
   section: fill
-  points:
+  points: 5
   stem:
     text: |-
-      设连续函数 $f(x,y)$ 满足 $\lim_{(x,y)\to(0,0)}\dfrac{f(x,y)+(x+1)^2+(y-2)^2}{|x|+|y|}=0$，且 $\dfrac{\partial f}{\partial x}=x+a,\dfrac{\partial f}{\partial y}=2y+b$，则 $f(x,y)$ 的极值点为 $\ExamBlank$。
+      设连续函数 \(f(x,y)\) 满足 \( \lim\limits_{(x,y)\to(0,0)}\dfrac{f(x,y)+(x+1)^2+(y-2)^2}{|x|+|y|}=0 \)，且 \(f_x=x+a, f_y=2y+b\)，则 \(f(x,y)\) 的极值点为_____。
 - number: 16
   section: fill
-  points:
+  points: 5
   stem:
     text: |-
-      设 $A$ 为 $3$ 阶实对称矩阵，已知 $\alpha_1=(1,1,1)^T,\alpha_2=(1,2,-1)^T$ 是非齐次线性方程组 $Ax=\beta$ 的两个解，若 $\operatorname{tr}(A^*)=5$，则 $(A^*)^n=\ExamBlank$。
+      设 \(A\) 为 3 阶实对称矩阵，已知 \(\alpha_1=(1,1,1)^T\) ， \(\alpha_2=(1,2, -1)^T\) 是非齐次线性方程组 \(Ax=\beta\) 的两个解。若 \(\operatorname{tr}(A^*)=5\)，则 \((A^*)^n=\)_____。
 - number: 17
   section: solution
-  points: 10
+  points: 12
   stem:
     text: |-
-      设 $a,b$ 为非零常数，函数 $f(x)$ 满足 $\lim_{x\to0}\left[1+\dfrac{1}{2}x^2+\dfrac{2f(x)}{x}\right]^{\dfrac{1}{x^2}}=e^2,\lim_{x\to0}\dfrac{e^{ax}-e^{\sin bx}}{f(x)}=\dfrac{16}{9}$，求 $a,b$。
+      设 $a,b$ 为非零常数，函数 $f(x)$ 满足 $ \lim_{x\to 0}\left[1+\dfrac{1}{2}x^2+\dfrac{2f(x)}{x}\right]^{\dfrac{1}{x^2}}=e^2$ $, \lim_{x\to 0}\dfrac{e^{ax}-e^{\sin bx}}{f(x)}=\dfrac{16}{9}$，求 $a,b$。
 - number: 18
   section: solution
   points: 12
   stem:
     text: |-
-      设 $a>0$，曲线 $L$ 的方程为 $\begin{cases}x=a(t-\sin t),\\y=a(1-\cos t),\end{cases}$ 其中 $0\leq t\leq2\pi$，记曲线 $L$ 与 $x$ 轴所围区域绕直线 $y=3a$ 旋转一周所得旋转体的体积为 $V$，侧面积为 $S$，若 $V=S$，求 $a$。
+      设 \(a>0\)，曲线 \(L\) 的方程为 \(x=a(t-\sin t), \ y=a(1-\cos t)\ (0\le t\le2\pi)\)。记 \(L\) 与 \(x\) 轴所围区域绕直线 \(y=3a\) 旋转一周所得旋转体体积为 \(V\)，曲线 \(L\) 旋转所得侧面积为 \(S\)，若 \(V=S\)，求 \(a\)。
 - number: 19
   section: solution
   points: 12
   stem:
     text: |-
-      设函数 $f(x,y)=\cos(x+y)+\sin(x-y)-x+y$，$D$ 是由直线 $y=\pi-x,y=\pi+x$ 以及 $x$ 轴围成的有界闭区域，求 $f(x,y)$ 在区域 $D$ 上的最值。
+      设 \(f(x,y)=\cos(x+y)+\sin(x-y)-x+y\) ， \(D\) 是由直线 \(y=\pi-x, y=\pi+x\) 以及 \(x\) 轴围成的有界闭区域，求 \(f(x,y)\) 在 \(D\) 上的最值。
 - number: 20
   section: solution
   points: 12
   stem:
     text: |-
-      计算二重积分 $\iint_D\dfrac{x(\sqrt{x}+\sqrt{y})^4}{(x^2+y^2)^2}\,\mathrm{d}x\mathrm{d}y$，其中 $D$ 是由曲线 $\sqrt{x}+\sqrt{y}=1,\sqrt{x}+\sqrt{y}=2$ 以及坐标轴围成的平面有界区域。
+      计算二重积分 \( \iint_D\dfrac{x(\sqrt{x}+\sqrt{y})^4}{(x^2+y^2)^2}\,dx\,dy \)，其中 \(D\) 是由曲线 \(\sqrt{x}+\sqrt{y}=1\) ， \(\sqrt{x}+\sqrt{y}=2\) 以及坐标轴围成的平面有界区域。
 - number: 21
   section: solution
   points: 12
   stem:
-    text: 设函数 $f(x)$ 在 $[0,2]$ 上连续，$(0,2)$ 内二阶可导，$f(0)=0$。证明：
-  subparts:
-  - text: |-
-      存在 $\xi_1,\xi_2\in(0,2),\xi_1\ne\xi_2$，使得 $f(2)=2f'(\xi_1)+3[\xi_2f'(\xi_2)-f(\xi_2)]$。
-  - text: |-
-      若 $f''(x)>0$，则存在 $\xi\in(0,2)$，使得 $f(2)-4f\left(\dfrac{1}{2}\right)<3f''(\xi)\xi^2$。
+    text: |-
+      设函数 \(f(x)\) 在 \([0,2]\) 上连续，\((0,2)\) 内二阶可导，\(f(0)=0\)。证明：(1) 存在 \(\xi_1, \xi_2\in(0,2), \xi_1\ne\xi_2\)，使 \(f(2)=2f'(\xi_1)+3[\xi_2f'(\xi_2)-f(\xi_2)]\)；(2) 若 \(f''(x)>0\)，则存在 \(\zeta\in(0,2)\)，使 \( f(2)-4f(\frac12)<3f''(\zeta)\xi_2^2 \)。
 - number: 22
   section: solution
   points: 12
   stem:
     text: |-
-      设 $A$ 为 $3$ 阶矩阵，$\beta$ 为 $A$ 的属于特征值 $1$ 的一个特征向量，$\gamma$ 为 $A$ 的属于特征值 $2$ 的一个特征向量，且 $A$ 的第一列是零列。
-  subparts:
-  - text: |-
-      $\alpha$ 是与 $\beta,\gamma$ 线性无关的属于 $A$ 的特征向量，求 $\xi$ 与 $\alpha,\beta,\gamma$ 满足什么线性关系时，方程组 $Ax=\xi$ 有解？
-  - text: |-
-      求所有可逆矩阵 $P$，使得 $P^{-1}AP=\begin{pmatrix}\dfrac{3}{2}&-\dfrac{1}{2}&0\\-\dfrac{1}{2}&\dfrac{3}{2}&0\\0&0&0\end{pmatrix}$，将 $P$ 用 $\alpha,\beta,\gamma$ 表示。
+      设 \(A\) 为 3 阶矩阵，\(\beta\) 为 \(A\) 的属于特征值 1 的一个特征向量，\(\gamma\) 为 \(A\) 的属于特征值 2 的一个特征向量，且 \(A\) 的第一列是零列。(1) \(\alpha\) 是与 \(\beta, \gamma\) 线性无关的属于 \(A\) 的特征向量，求 \(\xi\) 与 \(\alpha, \beta, \gamma\) 满足什么线性关系时，方程组 \(Ax=\xi\) 有解？(2) 求所有可逆矩阵 \(P\)，使得 \( P^{-1}AP=\begin{pmatrix}\frac32&-\frac12&0\\-\frac12&\frac32&0\\0&0&0\end{pmatrix} \)，将 \(P\) 用 \(\alpha, \beta, \gamma\) 表示。
+content_hash: ad2d0e2c9aa0c5887fbb278f4953b650f6aa0550945eb9c973b63c4941ac8fa8

@@ -4,298 +4,291 @@ paper:
   year: 2024
   subject: math2
   paper_no: 8
-content_hash: 7b108d5a71d7ee4cb2b05f5d07cd268baaf92b1b1585a788261f9e49a921b56c
 questions:
 - number: 1
   section: choice
   points: 5
   stem:
     text: |-
-      当 $x\to 0$ 时，以下无穷小中，阶数最高的是\ExamSelection。
+      当 $x \to 0$ 时, 以下无穷小中, 阶数最高的是
   choices:
   - label: A
     text: |-
-      $\displaystyle\int_0^{\sin x}(1+t)^{\dfrac{2}{t}}\,\mathrm{d}t$
+      $\int_0^{\sin x} (1+t)^{\dfrac{2}{t}} dt.$
     figures: []
   - label: B
     text: |-
-      $\displaystyle\int_0^{\ln(1+x^2)}\sqrt{\cos^3 t}\,\mathrm{d}t$
+      $\int_0^{\ln(1+x^2)} \sqrt{\cos^3 t} dt.$
     figures: []
   - label: C
     text: |-
-      $\displaystyle\int_0^x(e^{\cos t}-e^{\sin t})\,\mathrm{d}t$
+      $\int_0^x (\mathrm{e}^{\cos t} - \mathrm{e}^{\sin t}) dt.$
     figures: []
   - label: D
     text: |-
-      $\displaystyle\int_0^{x-\tan x}\arctan t\,\mathrm{d}t$
+      $\int_0^{x-\tan x} \arctan t dt.$
     figures: []
 - number: 2
   section: choice
   points: 5
   stem:
     text: |-
-      设 $f_n(x)=x^{n-1}e^{\dfrac{1}{x}},\ n=1,2,\cdots,\ x\ne 0$，则 $f_n^{(n)}(x)=$\ExamSelection。
+      设 $f_n(x) = x^{n-1}\mathrm{e}^{\dfrac{1}{x}}, n = 1,2,\cdots, x eq 0$, 则 $f_n^{(n)}(x) =$
   choices:
   - label: A
     text: |-
-      $\dfrac{1}{x^n}e^{\dfrac{1}{x}}$
+      $\dfrac{1}{x^n} \mathrm{e}^{\dfrac{1}{x}}.$
     figures: []
   - label: B
     text: |-
-      $\dfrac{(-1)^n}{x^n}e^{\dfrac{1}{x}}$
+      $\dfrac{(-1)^n}{x^n} \mathrm{e}^{\dfrac{1}{x}}.$
     figures: []
   - label: C
     text: |-
-      $\dfrac{1}{x^{n+1}}e^{\dfrac{1}{x}}$
+      $\dfrac{1}{x^{n+1}} \mathrm{e}^{\dfrac{1}{x}}.$
     figures: []
   - label: D
     text: |-
-      $\dfrac{(-1)^n}{x^{n+1}}e^{\dfrac{1}{x}}$
+      $\dfrac{(-1)^n}{x^{n+1}} \mathrm{e}^{\dfrac{1}{x}}.$
     figures: []
 - number: 3
   section: choice
   points: 5
   stem:
     text: |-
-      设 $f(x)$ 是 $[0,1]$ 上的可导函数，$f(0)=f(1)=1$，$\max\limits_{0\leq x\leq 1}\{|f'(x)|\}=1$，则\ExamSelection。
+      设 $f(x)$ 是 $[0,1]$ 上的可导函数, $f(0)=f(1)=1, \max\limits_{0<x<1}\{|f'(x)|\}=1$, 则
   choices:
   - label: A
     text: |-
-      $\dfrac{1}{4}<\displaystyle\int_0^1f(x)\,\mathrm{d}x<\dfrac{1}{2}$
+      $\dfrac{1}{4}<\int_{0}^{1} f(x) \mathrm{d}x<\dfrac{1}{2}.$
     figures: []
   - label: B
     text: |-
-      $\dfrac{1}{2}<\displaystyle\int_0^1f(x)\,\mathrm{d}x<\dfrac{3}{4}$
+      $\dfrac{1}{2}<\int_{0}^{1} f(x) \mathrm{d}x<\dfrac{3}{4}.$
     figures: []
   - label: C
     text: |-
-      $\dfrac{3}{4}<\displaystyle\int_0^1f(x)\,\mathrm{d}x<\dfrac{5}{4}$
+      $\dfrac{3}{4}<\int_{0}^{1} f(x) \mathrm{d}x<\dfrac{5}{4}.$
     figures: []
   - label: D
     text: |-
-      $\dfrac{5}{4}<\displaystyle\int_0^1f(x)\,\mathrm{d}x<\dfrac{7}{4}$
+      $\dfrac{5}{4}<\int_{0}^{1} f(x) \mathrm{d}x<\dfrac{7}{4}.$
     figures: []
 - number: 4
   section: choice
   points: 5
   stem:
     text: |-
-      已知 $\dfrac{ay\,\mathrm{d}y+x\,\mathrm{d}x}{x^2+y^2-1}\ (x^2+y^2<1)$ 是某二元函数的全微分，则 $a=$\ExamSelection。
+      已知 $\dfrac{a y \mathrm{d}y+x \mathrm{d}x}{x^2+y^2-1} (x^2+y^2<1)$ 是某二元函数的全微分，则 $a=$
   choices:
   - label: A
-    text: $1$
+    text: '1'
     figures: []
   - label: B
-    text: $-1$
+    text: '-1'
     figures: []
   - label: C
-    text: $2$
+    text: '2'
     figures: []
   - label: D
-    text: $-2$
+    text: '-2'
     figures: []
 - number: 5
   section: choice
   points: 5
   stem:
     text: |-
-      曲线 $y=e^x+x^5$ 的极值点与拐点个数分别为\ExamSelection。
+      曲线 $y = \mathrm{e}^x + x^5$ 的极值点与拐点个数分别为
   choices:
   - label: A
-    text: $0,1$
+    text: 0, 1
     figures: []
   - label: B
-    text: $1,1$
+    text: 1, 1
     figures: []
   - label: C
-    text: $0,3$
+    text: 0, 3
     figures: []
   - label: D
-    text: $1,5$
+    text: 1, 5
     figures: []
 - number: 6
   section: choice
   points: 5
   stem:
     text: |-
-      设三阶常系数齐次线性微分方程有特解 $\cos x$ 与 $e^{2x}$，则该微分方程为\ExamSelection。
+      设三阶常系数齐次线性微分方程有特解 $\cos x$ 与 $\mathrm{e}^{2x}$，则该微分方程为
   choices:
   - label: A
-    text: $y'''+2y''+y'+2y=0$
+    text: $y'''+2y''+y'+2y=0.$
     figures: []
   - label: B
-    text: $y'''-2y''+y'-2y=0$
+    text: $y'''-2y''+y'-2y=0.$
     figures: []
   - label: C
-    text: $y'''+2y''-y'+2y=0$
+    text: $y'''+2y''-y'+2y=0.$
     figures: []
   - label: D
-    text: $y'''-2y''-y'+2y=0$
+    text: $y'''-2y''-y'+2y=0.$
     figures: []
 - number: 7
   section: choice
   points: 5
   stem:
     text: |-
-      已知函数 $f(x)=a\left(\ln|x|+\dfrac{3}{2}\right)-bx^2$ 有 $4$ 个不同的零点，则 $\dfrac{b}{a}$ 的取值范围是\ExamSelection。
+      已知函数 $f(x)=a\left(\ln|x|+\dfrac{3}{2}\right)-bx^2$ 有 4 个不同的零点，则 $\dfrac{b}{a}$ 的取值范围是
   choices:
   - label: A
     text: |-
-      $\left(0,\dfrac{e}{2}\right)$
+      $\left(0,\dfrac{\mathrm{e}}{2}\right)$
     figures: []
   - label: B
     text: |-
-      $\left(\dfrac{e}{2},+\infty\right)$
+      $\left(\dfrac{\mathrm{e}}{2},+\infty\right)$
     figures: []
   - label: C
     text: |-
-      $\left(0,\dfrac{e^2}{2}\right)$
+      $\left(0,\dfrac{\mathrm{e}^2}{2}\right)$
     figures: []
   - label: D
     text: |-
-      $\left(\dfrac{e^2}{2},+\infty\right)$
+      $\left(\dfrac{\mathrm{e}^2}{2},+\infty\right)$
     figures: []
 - number: 8
   section: choice
   points: 5
   stem:
     text: |-
-      设 $A$ 是 $3$ 阶矩阵，将 $A$ 的第 $2$ 列加到第 $3$ 列得矩阵 $B$，再将 $B$ 的第 $3$ 行的 $-1$ 倍加到第 $2$ 行得 $\begin{pmatrix}1&1&0\\0&2&0\\0&2&a\end{pmatrix}$，其中 $a$ 为常数，则 $A$ 的特征值为\ExamSelection。
+      设 $A$ 是 $3$ 阶矩阵, 将 $A$ 的第 $2$ 列加到第 $3$ 列得矩阵 $B$, 再将 $B$ 的第 $3$ 行的 $-1$ 倍加到第 $2$ 行得 $\begin{pmatrix} 1 & 1 & 0 \\ 0 & 2 & 0 \\ 0 & 2 & a \end{pmatrix}$, 其中 $a$ 为常数, 则 $A$ 的特征值为
   choices:
   - label: A
-    text: $1,2,a$
+    text: $1,2,a.$
     figures: []
   - label: B
-    text: $1,2,-2$
+    text: $1,2,-2.$
     figures: []
   - label: C
-    text: $1,-1,2$
+    text: $1,-1,2.$
     figures: []
   - label: D
-    text: $1,a,-a$
+    text: $1,a,-a.$
     figures: []
 - number: 9
   section: choice
   points: 5
   stem:
     text: |-
-      已知 $\begin{pmatrix}1&1&1\\1&2&1\\1&1&1\end{pmatrix}=\begin{pmatrix}1&1\\1&2\\1&1\end{pmatrix}A$，则 $A=$\ExamSelection。
+      已知 $\begin{pmatrix} 1 & 1 & 1 \\ 1 & 2 & 1 \\ 1 & 1 & 1 \end{pmatrix} = \begin{pmatrix} 1 & 1 \\ 1 & 2 \\ 1 & 1 \end{pmatrix} A$，则 $A=$
   choices:
   - label: A
     text: |-
-      $\begin{pmatrix}0&1&0\\1&0&1\end{pmatrix}$
+      $\begin{pmatrix} 0 & 1 & 0 \\ 1 & 0 & 1 \end{pmatrix}.$
     figures: []
   - label: B
     text: |-
-      $\begin{pmatrix}1&0&1\\0&1&0\end{pmatrix}$
+      $\begin{pmatrix} 1 & 0 & 1 \\ 0 & 1 & 0 \end{pmatrix}.$
     figures: []
   - label: C
     text: |-
-      $\begin{pmatrix}1&1&0\\0&0&1\end{pmatrix}$
+      $\begin{pmatrix} 1 & 1 & 0 \\ 0 & 0 & 1 \end{pmatrix}.$
     figures: []
   - label: D
     text: |-
-      $\begin{pmatrix}1&0&1\\0&0&1\end{pmatrix}$
+      $\begin{pmatrix} 1 & 0 & 1 \\ 0 & 0 & 1 \end{pmatrix}.$
     figures: []
 - number: 10
   section: choice
   points: 5
   stem:
     text: |-
-      设 $\alpha,\beta$ 为 $n$ 维列向量，$P=(\alpha,\beta)$，$Q=(\alpha+\beta,2\alpha)$。若矩阵 $A$ 使得 $P^{\mathrm{T}}AP=\begin{pmatrix}1&0\\0&0\end{pmatrix}$，则 $Q^{\mathrm{T}}AQ=$\ExamSelection。
+      设 $\alpha,\beta$ 为 $n$ 维列向量,$P=(\alpha,\beta),Q=(\alpha+\beta,2\alpha)$.若矩阵 $A$ 使得 $P^T AP=\begin{pmatrix} 1 & 0 \\ 0 & 0 \end{pmatrix}$,则 $Q^T AQ=$
   choices:
   - label: A
     text: |-
-      $\begin{pmatrix}1&4\\4&2\end{pmatrix}$
+      $\begin{pmatrix} 1 & 4 \\ 4 & 2 \end{pmatrix}$
     figures: []
   - label: B
     text: |-
-      $\begin{pmatrix}4&2\\2&1\end{pmatrix}$
+      $\begin{pmatrix} 4 & 2 \\ 2 & 1 \end{pmatrix}$
     figures: []
   - label: C
     text: |-
-      $\begin{pmatrix}1&2\\2&4\end{pmatrix}$
+      $\begin{pmatrix} 1 & 2 \\ 2 & 4 \end{pmatrix}$
     figures: []
   - label: D
     text: |-
-      $\begin{pmatrix}2&1\\1&4\end{pmatrix}$
+      $\begin{pmatrix} 2 & 1 \\ 1 & 4 \end{pmatrix}$
     figures: []
 - number: 11
   section: fill
   points: 5
   stem:
     text: |-
-      设存在 $0<\theta<1$，使得 $\displaystyle\int_0^x e^t\,\mathrm{d}t=xe^{\theta x},\ x>0$，则 $\displaystyle\lim_{x\to 0^+}\theta=$\ExamBlank。
+      设存在 $00$，则 $\lim_{x \to 0^+} \theta = \underline{\qquad\qquad}$
 - number: 12
   section: fill
   points: 5
   stem:
     text: |-
-      设 $f(x)=\dfrac{\ln|x|}{2x^2-\ln|x|}$，则 $f'(-1)=$\ExamBlank。
+      设 $f(x)=\dfrac{\ln|x|}{2x^2-\ln|x|}$，则 $f'(-1)=$ _______
 - number: 13
   section: fill
   points: 5
   stem:
     text: |-
-      已知 $f(x)$ 连续，$f(x^2+1)-f(x^2)=x\ (x>0)$，$\displaystyle\int_0^1f(x)\,\mathrm{d}x=1$，则 $\displaystyle\int_1^2f(x)\,\mathrm{d}x=$\ExamBlank。
+      已知 $f(x)$ 连续, $f(x^2+1)-f(x^2)=x(x>0), \int_0^1 f(x)\mathrm{d}x=1$, 则 $\int_1^2 f(x)\mathrm{d}x=\underline{\qquad\qquad}$
 - number: 14
   section: fill
   points: 5
   stem:
     text: |-
-      曲线 $r=2\cos 3\theta$ 从 $\theta=0$ 到 $\theta=\dfrac{\pi}{6}$ 所围面积为\ExamBlank。
+      曲线 $r=2\cos 3\theta$ 从 $\theta=0$ 到 $\theta=\dfrac{\pi}{6}$ 所围面积为______
 - number: 15
   section: fill
   points: 5
   stem:
     text: |-
-      已知函数 $f(x)$ 在 $[0,1]$ 上连续，在 $(0,1)$ 内是函数 $\dfrac{\sin\pi x}{x}$ 的一个原函数，且 $f(1)=0$，则 $f(x)$ 在区间 $[0,1]$ 上的平均值为\ExamBlank。
+      已知函数 $f(x)$ 在 $[0,1]$ 上连续, 在 $(0,1)$ 内是函数 $\dfrac{\sin\pi x}{x}$ 的一个原函数, 且 $f(1)=0$, 则 $f(x)$ 在区间 $[0,1]$ 上的平均值为$\underline{\qquad\qquad}$
 - number: 16
   section: fill
   points: 5
   stem:
     text: |-
-      设 $2$ 阶正交矩阵 $A$ 的主对角线元素满足 $a_{11}+2=a_{22}$，则 $A=$\ExamBlank。
+      设 $2$ 阶正交矩阵 $A$ 的主对角线元素满足 $a_{11}+2=a_{22}$，则 $A=\underline{\qquad\qquad\qquad\qquad}$
 - number: 17
   section: solution
-  points: 10
+  points: 12
   stem:
     text: |-
-      已知 $a_n=\displaystyle\int_0^1t^n|\ln t|\,\mathrm{d}t,\ n=1,2,\cdots$，计算 $\displaystyle\lim_{n\to\infty}(n^2a_n)^n$。
+      已知 $a_n = \int_0^1 t^n |\ln t| dt, n = 1, 2, \cdots$，计算 $\lim_{n \to \infty} (n^2 a_n)^n$
 - number: 18
   section: solution
   points: 12
   stem:
     text: |-
-      设函数 $u=xz+ay^3\ (z\geq 0)$，且 $x^2+y^2+z^2=1$。
-  subparts:
-  - text: |-
-      当 $a=\dfrac{1}{3}$ 时，求 $u$ 的最大值；
-  - text: 当 $a=t$（$t$ 为变量）时，$u$ 是否有最大值，若有，求出最大值，若没有，说明理由。
+      设函数 $u=xz+ay^3(z\geqslant 0)$，且 $x^2+y^2+z^2=1$. (1) 当 $a=\dfrac{1}{3}$ 时，求 $u$ 的最大值； (2) 当 $a=t(t\text{\text{为变量}})$ 时$,u$ 是否有最大值，若有，求出最大值，若没有，说明理由
 - number: 19
   section: solution
   points: 12
   stem:
     text: |-
-      计算二重积分 $\displaystyle\iint_D\left|x^2+y^2-\sqrt{2}(x+y)\right|\,\mathrm{d}x\,\mathrm{d}y$，其中 $D=\{(x,y)\mid x^2+y^2\leq 4\}$。
+      计算二重积分 $\iint_D |x^2+y^2-\sqrt{2}(x+y)|\mathrm{d}x\mathrm{d}y$, 其中 $D=\{(x,y)|x^2+y^2\leqslant 4\}$
 - number: 20
   section: solution
   points: 12
   stem:
     text: |-
-      设 $a_n=\displaystyle\int_0^{+\infty}xn^{-\dfrac{x}{n}}\,\mathrm{d}x,\ n=2,3,\cdots$，求 $\{a_n\}$ 的最小值。
+      设 $a_n = \int_0^{+\infty} x n^{-\dfrac{x}{n}} \mathrm{d}x, n = 2, 3, \cdots$, 求 $\{a_n\}$ 的最小值
 - number: 21
   section: solution
   points: 12
   stem:
     text: |-
-      已知函数 $y=y(x)$ 满足 $x(\ln x-1)y'(x)+(3-\ln x^2)y(x)=0,\ x>e$，且 $y(e^2)=\dfrac{e^4}{2}$，求 $y=y(x)$ 的最小值。
+      已知函数 $y=y(x)$ 满足 $x(\ln x-1)y'(x)+(3-\ln x^2)y(x)=0,x>\mathrm{e}$, 且 $y(\mathrm{e}^2)=\dfrac{\mathrm{e}^4}{2}$, 求 $y=y(x)$ 的最小值
 - number: 22
   section: solution
   points: 12
   stem:
     text: |-
-      已知 $3$ 维列向量 $\xi$ 不是 $A^2x=0$ 的解，$A\xi$ 是 $A^2x=0$ 的解。记 $P=(\xi,A\xi,A^2\xi)$。
-  subparts:
-  - text: 证明 $P$ 可逆；
-  - text: $A$ 能否相似对角化？若能，求出一个与之相似的对角矩阵，若不能，请说明理由。
+      已知 3 维列向量 $\xi$ 不是 $A^2x = 0$ 的解, $A\xi$ 是 $A^2x = 0$ 的解. 记 $P = (\xi, A\xi, A^2\xi)$. (1) 证明 $P$ 可逆; (2) $A$ 能否相似对角化? 若能, 求出一个与之相似的对角矩阵, 若不能, 请说明理由
+content_hash: ea45bc5bcd164f0f00c8315c5f669937c0dcc92281bb046a8e8a03bdadd28753

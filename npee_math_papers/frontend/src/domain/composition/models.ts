@@ -52,29 +52,26 @@ export function paperSummaryFromRef(ref: PaperRef): PaperSummary {
 
 export type Layout = "a3" | "a4" | "both";
 export type Theme = "print" | "cream" | "both";
-export type Spacing = "compact" | "a4-blank" | "both";
-export type SolutionStructure = "pair-first" | "natural" | "full-page";
+/**
+ * 间距：只决定**解答题**怎么排。
+ *
+ * `compact` 自然连排；`spaced` 让解答题独占页面（17–18 共用一页，之后每题一页），
+ * 给作答留出书写空间。留白是另一个独立开关（{@link CompositionDraft.printBlank}），
+ * 与间距互不影响。
+ */
+export type Spacing = "compact" | "spaced" | "both";
 
 /**
- * The spacing modes a new draft can choose from.
- *
- * `a4-blank` is the *print deliverable* and is labelled 打印版. Its key keeps
- * the historical spelling because that is what composition payloads already
- * carry; it is deliberately layout-agnostic, so on A3 it is exactly the
- * compact layout. `both` compiles the surviving pair, not a retired one.
- *
- * `spaced` (宽松版) is retired: it produced a second page rhythm that is no
- * longer wanted. {@link normalizeSpacing} maps a draft that still names it
- * onto `compact`, the surviving mode with the same body typography.
+ * 新草稿可选的间距：紧凑（自然连排）与宽松（解答题独占页面）。
  */
-export const PRODUCT_SPACINGS = ["compact", "a4-blank"] as const;
+const PRODUCT_SPACINGS = ["compact", "spaced"] as const;
 
-export interface OpeningSettings {
+interface OpeningSettings {
   show: boolean;
   candidateInfo: boolean;
   notices: boolean;
 }
-export interface WatermarkSettings {
+interface WatermarkSettings {
   enabled: boolean;
   text: string;
   color: string;
@@ -92,10 +89,9 @@ export interface CompositionDraft {
   layout: Layout;
   theme: Theme;
   spacing: Spacing;
-  structure: SolutionStructure;
-  pairCount: number;
+  /** 留白：每套卷补足整页、封面后加空白页、目录凑偶数页（与间距无关）。 */
+  printBlank: boolean;
   toc: boolean;
-  allSubjects: boolean;
   opening: OpeningSettings;
   watermark: WatermarkSettings;
 }
@@ -114,11 +110,9 @@ export function createDraft(name = "新组卷"): CompositionDraft {
     createdAt: new Date().toISOString(),
     layout: "both",
     theme: "print",
-    spacing: "a4-blank",
-    structure: "pair-first",
-    pairCount: 2,
+    spacing: "compact",
+    printBlank: true,
     toc: true,
-    allSubjects: false,
     opening: { show: true, candidateInfo: true, notices: true },
     watermark: {
       enabled: false,
@@ -132,12 +126,23 @@ export function createDraft(name = "新组卷"): CompositionDraft {
 }
 
 export function normalizeSpacing(value: unknown): CompositionDraft["spacing"] {
-  // `spaced` is retired. A stored draft or an imported payload may still name
-  // it, and `compact` is the surviving mode with the same body typography, so
-  // the retired value migrates onto it rather than silently selecting a
-  // different rhythm.
-  if (value === "spaced") return "compact";
-  return value === "compact" || value === "a4-blank" || value === "both" ? value : "a4-blank";
+  // 旧草稿把「紧凑 + 留白」写成一个值（`print` / `a4-blank`）；间距本身只认
+  // compact / spaced，留白由 normalizePrintBlank 单独读出来。
+  if (value === "print" || value === "a4-blank") return "compact";
+  return value === "compact" || value === "spaced" || value === "both" ? value : "compact";
+}
+
+/**
+ * 留白开关的归一化。
+ *
+ * 新数据直接读 ``printBlank``；旧草稿只写了 ``spacing: "print" | "a4-blank"``，
+ * 那时它同时表达了留白，因此这里把它折算成"打开留白"。
+ */
+export function normalizePrintBlank(value: unknown, legacySpacing: unknown): boolean {
+  if (typeof value === "boolean") return value;
+  if (legacySpacing === "print" || legacySpacing === "a4-blank") return true;
+  // 载荷里完全没有留白信息时，跟随新草稿的默认值（留白开启）。
+  return createDraft().printBlank;
 }
 
 function outputTargets(draft: CompositionDraft) {
@@ -147,7 +152,17 @@ function outputTargets(draft: CompositionDraft) {
   const themes = draft.theme === "both" ? (["print", "cream"] as const) : [draft.theme];
   const spacings = draft.spacing === "both" ? PRODUCT_SPACINGS : [draft.spacing];
   return layouts.flatMap((layout) =>
-    themes.flatMap((theme) => spacings.map((spacing) => ({ layout, theme, spacing, enabled: true, answers: false, output_suffix: null }))),
+    themes.flatMap((theme) =>
+      spacings.map((spacing) => ({
+        layout,
+        theme,
+        spacing,
+        print: draft.printBlank,
+        enabled: true,
+        answers: false,
+        output_suffix: null,
+      })),
+    ),
   );
 }
 
@@ -192,7 +207,6 @@ export function buildCompilePayload(draft: CompositionDraft, papers?: PaperSumma
     theme: draft.theme,
     spacing: draft.spacing,
     opening: { show: draft.opening.show, candidate_info: draft.opening.candidateInfo, notices: draft.opening.notices },
-    solution: { structure: draft.structure, pair_count: draft.pairCount },
     watermark: {
       enabled: draft.watermark.enabled,
       text: draft.watermark.text,
@@ -226,10 +240,6 @@ export function buildCompilePayload(draft: CompositionDraft, papers?: PaperSumma
       },
     },
   };
-}
-
-export function subjectLabel(subject: Subject): string {
-  return { math1: "数学一", math2: "数学二", math3: "数学三" }[subject];
 }
 
 /**
@@ -273,20 +283,42 @@ export function draftFromCompilePayload(payload: unknown): CompositionDraft {
   const document = (raw.document ?? {}) as Record<string, unknown>;
   const toc = (document.toc ?? {}) as Record<string, unknown>;
   const opening = (document.opening ?? {}) as Record<string, unknown>;
-  const solution = (document.solution ?? {}) as Record<string, unknown>;
   const watermark = (document.watermark ?? {}) as Record<string, unknown>;
   const defaults = createDraft();
+  // 旧载荷把间距与留白合在一起（spacing=print/a4-blank），新载荷分两个字段。
+  const compileConfig = (raw.compile ?? {}) as Record<string, unknown>;
+  const targets = Array.isArray(compileConfig.targets) ? compileConfig.targets : [];
+  const firstTarget = (targets.find((item) => item && typeof item === "object") ?? {}) as Record<string, unknown>;
+  const enabledTargets = targets.filter(
+    (item): item is Record<string, unknown> => Boolean(item) && typeof item === "object" && item.enabled !== false,
+  );
+  const blankSet = new Set(enabledTargets.map((item) => item.print === true));
+  const spacingSet = new Set(
+    enabledTargets.map((item) => normalizeSpacing(item.spacing)).filter((value) => value !== "both"),
+  );
+  const layoutSet = new Set(
+    enabledTargets.map((item) => normalizeLayout(item.layout)).filter((value) => value !== "both"),
+  );
+  const themeSet = new Set(
+    enabledTargets.map((item) => normalizeTheme(item.theme)).filter((value) => value !== "both"),
+  );
 
   return {
     ...defaults,
     name: typeof raw.title === "string" && raw.title.trim() ? raw.title : defaults.name,
     papers,
-    layout: normalizeLayout(document.layout),
-    theme: normalizeTheme(document.theme),
-    spacing: normalizeSpacing(document.spacing),
-    structure: normalizeStructure(solution.structure),
-    pairCount:
-      typeof solution.pair_count === "number" ? Math.min(8, Math.max(1, solution.pair_count)) : defaults.pairCount,
+    layout: enabledTargets.length ? (layoutSet.size === 1 ? ([...layoutSet][0] as Layout) : "both") : normalizeLayout(document.layout),
+    theme: enabledTargets.length ? (themeSet.size === 1 ? ([...themeSet][0] as Theme) : "both") : normalizeTheme(document.theme),
+    spacing: enabledTargets.length ? (spacingSet.size === 1 ? ([...spacingSet][0] as CompositionDraft["spacing"]) : "both") : normalizeSpacing(document.spacing),
+    // 留白优先读 document.print，其次读目标矩阵（新载荷把开关写在每个 target 上），
+    // 都没有才回落到旧的组合写法（spacing=print/a4-blank）。
+    // 与 layout/theme/spacing 同理：目标矩阵才是事实源，文档头只是生成时的意向。
+    printBlank: enabledTargets.length
+      ? blankSet.has(true)
+      : normalizePrintBlank(
+          document.print !== undefined ? document.print : firstTarget.print,
+          document.spacing,
+        ),
     toc: typeof toc.enabled === "boolean" ? toc.enabled : defaults.toc,
     opening: {
       show: typeof opening.show === "boolean" ? opening.show : defaults.opening.show,
@@ -315,6 +347,110 @@ function normalizeTheme(value: unknown): Theme {
   return value === "print" || value === "cream" || value === "both" ? value : "print";
 }
 
-function normalizeStructure(value: unknown): SolutionStructure {
-  return value === "pair-first" || value === "natural" || value === "full-page" ? value : "pair-first";
+/**
+ * 把服务端的组卷包文档读成一份可编辑草稿。
+ *
+ * 组卷包里的引用可能是 ``subject: "$subject"`` 的三科模板（一套引用在每个科目下
+ * 各排一次）。草稿是一维的套卷列表，所以这里按 ``compile.subjects`` 展开成具体
+ * 套卷——展开后的列表与实际会排版出来的卷数一致。
+ */
+export function draftFromCompositionDocument(
+  composition: Record<string, unknown>,
+  fallbackName = "组卷",
+): CompositionDraft {
+  const compile = (composition.compile ?? {}) as Record<string, unknown>;
+  const document = (composition.document ?? {}) as Record<string, unknown>;
+  const groups = Array.isArray(composition.groups) ? composition.groups : [];
+  const subjects = Array.isArray(compile.subjects) && compile.subjects.length
+    ? (compile.subjects as string[])
+    : ["math1"];
+  const metadata = (composition.metadata ?? {}) as Record<string, unknown>;
+
+  const papers: PaperRef[] = [];
+  const seen = new Set<string>();
+  for (const group of groups) {
+    const entries = (group as Record<string, unknown>).papers;
+    if (!Array.isArray(entries)) continue;
+    for (const entry of entries) {
+      if (!entry || typeof entry !== "object") continue;
+      const item = entry as Record<string, unknown>;
+      const year = Number(item.year);
+      const paperNo = Number(item.paper_no);
+      const seriesKey = String(item.series_key ?? "");
+      if (!seriesKey || !year || !paperNo) continue;
+      const rawSubject = String(item.subject ?? "");
+      const targets = rawSubject === "$subject" ? subjects : [rawSubject];
+      for (const subject of targets) {
+        if (!["math1", "math2", "math3"].includes(subject)) continue;
+        const naturalKey = `${year}/${subject}/${seriesKey}/${paperNo}`;
+        if (seen.has(naturalKey)) continue;
+        seen.add(naturalKey);
+        papers.push({
+          series_key: seriesKey,
+          year,
+          subject: subject as Subject,
+          paper_no: paperNo,
+          series_name: String(item.display_title ?? item.bookmark_title ?? seriesKey),
+          question_count: 0,
+          natural_key: naturalKey,
+        });
+      }
+    }
+  }
+
+  const defaults = createDraft();
+  const opening = (document.opening ?? {}) as Record<string, unknown>;
+  const toc = (document.toc ?? {}) as Record<string, unknown>;
+  const watermark = (document.watermark ?? {}) as Record<string, unknown>;
+  const targets = Array.isArray(compile.targets) ? compile.targets : [];
+  const firstTarget = (targets.find((item) => item && typeof item === "object") ?? {}) as Record<string, unknown>;
+  // 目标矩阵才是"真正会编译什么"的事实源：文档头里的 layout/theme/spacing 只是
+  // 生成时的意向，正式组卷包里可能出现两者不一致（例如文档写 both、目标全是紧凑）。
+  const enabledTargets = targets.filter(
+    (item): item is Record<string, unknown> => Boolean(item) && typeof item === "object" && item.enabled !== false,
+  );
+  const spacingSet = new Set(
+    enabledTargets.map((item) => normalizeSpacing(item.spacing)).filter((value) => value !== "both"),
+  );
+  const layoutSet = new Set(
+    enabledTargets.map((item) => normalizeLayout(item.layout)).filter((value) => value !== "both"),
+  );
+  const themeSet = new Set(
+    enabledTargets.map((item) => normalizeTheme(item.theme)).filter((value) => value !== "both"),
+  );
+  const spacing: CompositionDraft["spacing"] =
+    spacingSet.size === 1 ? ([...spacingSet][0] as CompositionDraft["spacing"]) : "both";
+  const layout: Layout = layoutSet.size === 1 ? ([...layoutSet][0] as Layout) : "both";
+  const theme: Theme = themeSet.size === 1 ? ([...themeSet][0] as Theme) : "both";
+  const blankSet = new Set(enabledTargets.map((item) => item.print === true));
+
+  return {
+    ...defaults,
+    papers,
+    name: String(metadata.title ?? composition.composition_id ?? fallbackName),
+    layout: enabledTargets.length ? layout : normalizeLayout(document.layout),
+    theme: enabledTargets.length ? theme : normalizeTheme(document.theme),
+    spacing: enabledTargets.length ? spacing : normalizeSpacing(document.spacing),
+    printBlank: normalizePrintBlank(
+      document.print !== undefined ? document.print : firstTarget.print,
+      document.spacing,
+    ),
+    toc: typeof toc.enabled === "boolean" ? toc.enabled : defaults.toc,
+    opening: {
+      show: typeof opening.show === "boolean" ? opening.show : defaults.opening.show,
+      candidateInfo:
+        typeof opening.candidate_info === "boolean" ? opening.candidate_info : defaults.opening.candidateInfo,
+      notices: typeof opening.notices === "boolean" ? opening.notices : defaults.opening.notices,
+    },
+    watermark: {
+      ...defaults.watermark,
+      enabled: typeof watermark.enabled === "boolean" ? watermark.enabled : defaults.watermark.enabled,
+      text: typeof watermark.text === "string" ? watermark.text : defaults.watermark.text,
+      color: typeof watermark.color === "string" ? watermark.color : defaults.watermark.color,
+      opacity: typeof watermark.opacity === "number" ? watermark.opacity : defaults.watermark.opacity,
+      textColor: typeof watermark.text_color === "string" ? watermark.text_color : defaults.watermark.textColor,
+      backgroundColor:
+        typeof watermark.background_color === "string" ? watermark.background_color : defaults.watermark.backgroundColor,
+    },
+  };
 }

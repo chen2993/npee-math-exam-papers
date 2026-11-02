@@ -4,14 +4,13 @@ paper:
   year: 2022
   subject: math1
   paper_no: 2
-content_hash: fda95d767087352ec6e984d51fdb61a4dfa8f6d5f9c1048fba6fd5b220203e05
 questions:
 - number: 1
   section: choice
   points: 5
   stem:
     text: |-
-      设 $f(x)=\lim_{n\to\infty}\arctan\dfrac{1}{1+\sin^n x}$，则下列关于 $f(x)$ 的命题中，正确命题为\ExamSelection。 ① $f(x)$ 是周期为 $2\pi$ 的奇函数。 ② $f(x)$ 既有无穷多个可去间断点，又有无穷多个跳跃间断点。 ③ $f(x)$ 的最小值小于 $\dfrac{\pi}{6}$。 ④ $f(x)$ 的傅里叶级数收敛到一个常函数。
+      设 $f(x)=\lim_{n\to\infty}\arctan\dfrac{1}{1+\sin^n x}$，则下列关于 $f(x)$ 的命题中，正确命题为\ExamSelection。 \n① $f(x)$ 是周期为 $2\pi$ 的奇函数。 \n② $f(x)$ 既有无穷多个可去间断点，又有无穷多个跳跃间断点。 \n③ $f(x)$ 的最小值小于 $\dfrac{\pi}{6}$。 \n④ $f(x)$ 的傅里叶级数收敛到一个常函数。
   choices:
   - label: A
     text: ①②
@@ -118,7 +117,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $n$ 阶实矩阵 $A=(a_{ij})$ 满足 $a_{ij}+a_{ji}=0$，则下列命题中，正确命题的个数为\ExamSelection。 ① $A$ 为可逆矩阵。 ② $E+A$ 为可逆矩阵。 ③ 对于任意的非零向量 $x$，均有 $x^{\mathrm T}Ax=0$。 ④ 若 $A eq 0$，则 $A$ 不可能合同于一个非零对角矩阵。
+      设 $n$ 阶实矩阵 $A=(a_{ij})$ 满足 $a_{ij}+a_{ji}=0$，则下列命题中，正确命题的个数为\ExamSelection。 \n① $A$ 为可逆矩阵。 \n② $E+A$ 为可逆矩阵。 \n③ 对于任意的非零向量 $x$，均有 $x^{\mathrm T}Ax=0$。 \n④ 若 $A eq 0$，则 $A$ 不可能合同于一个非零对角矩阵。
   choices:
   - label: A
     text: $0$
@@ -321,3 +320,4 @@ questions:
   - text: 求 $XY$ 的概率密度；
   - text: |-
       求 $\mathrm{Cov}(X,Y)$。
+content_hash: 84e4efc10330c71ca37e7e8b7bbd3b609fe7329822e45599f73a89f8c509754b

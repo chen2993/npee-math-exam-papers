@@ -17,7 +17,9 @@ import katex from "katex";
  * 四个命令 KaTeX 本就原生支持，删除这些条目即可，实测失败数 608 → 0。
  */
 const EXAM_MACROS: Record<string, string> = {
-  "\\ExamSelection": "\\;\\square\\;",
+  // 原卷的选择题在题末印一对全角括号留空（`（　　　）`）。此前映射成 `\square`，
+  // 浏览器里就显示成一个方框——与卷面不符，读者会以为题目漏排了。
+  "\\ExamSelection": "\\text{（\\hspace{1.5em}）}",
   "\\ExamBlank": "\\;\\underline{\\hphantom{0000}}\\;",
   "\\ExamCircledNumber": "\\textcircled{#1}",
   "\\ExamStatementMarker": "\\textcircled{#1}",
@@ -37,6 +39,20 @@ function cleanTex(source: string): string {
 
 function escapeHtml(value: string): string {
   return value.replace(/[&<>"']/g, (char) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[char] || char);
+}
+
+/**
+ * 存储层的换行标记 `\n` 在界面上应该断行，而不是显示成两个字符。
+ *
+ * 题库把「命题序列 / 末尾换行」记成 `\n`（见 docs/EXTRACTION.md），排版类把它
+ * 编成 `\NPEEQuestionContinuation`；浏览器此前只是转义，于是题干里会印出字面量
+ * `\n`。判据必须与两个迁移工具一致：**前面不是反斜杠、后面不跟字母**才算换行，
+ * 否则 `\nu`、`\ne`、`\nabla` 会被拦腰截断。行尾的换行不产生空行。
+ */
+function escapeTextWithBreaks(value: string): string {
+  return escapeHtml(value)
+    .replace(/(?<!\\)\\n(?![A-Za-z])/g, "<br />")
+    .replace(/(?:<br \/>\s*)+$/, "");
 }
 
 /**
@@ -163,7 +179,7 @@ function placeIntegralRegionLimits(expression: string): string {
 const BARE_COMMAND = /\\(ExamSelection|ExamBlank)/g;
 
 /** TeX 片段是否包含 KaTeX 无法渲染的绘图环境。 */
-export function containsUnsupportedEnvironment(source: string): boolean {
+function containsUnsupportedEnvironment(source: string): boolean {
   return /\\(begin|end)\{(tikzpicture|pspicture|asy)\}/.test(source);
 }
 
@@ -184,7 +200,7 @@ export function renderTex(source: string): string | null {
   let result = "";
   let match: RegExpExecArray | null;
   while ((match = pattern.exec(folded))) {
-    result += escapeHtml(folded.slice(cursor, match.index));
+    result += escapeTextWithBreaks(folded.slice(cursor, match.index));
     const raw = match[0].startsWith("\\(") ? match[0].slice(2, -2) : match[0].slice(1, -1);
     result += katex.renderToString(normalizeFractionSizes(placeIntegralRegionLimits(normalizeOperatorLimits(raw))), {
       throwOnError: false,
@@ -193,7 +209,7 @@ export function renderTex(source: string): string | null {
     });
     cursor = match.index + match[0].length;
   }
-  result += escapeHtml(folded.slice(cursor));
+  result += escapeTextWithBreaks(folded.slice(cursor));
   return result;
 }
 

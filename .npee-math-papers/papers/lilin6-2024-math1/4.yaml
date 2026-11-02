@@ -1,0 +1,293 @@
+schema_version: '3.0'
+paper:
+  series_key: lilin6
+  year: 2024
+  subject: math1
+  paper_no: 4
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      当 $x \to 0$ 时, $\mathrm{e}^x - \dfrac{1+ax}{1+bx}$ 与 $x^3$ 是同阶无穷小, 则
+  choices:
+  - label: A
+    text: |-
+      $a=-\dfrac{1}{2}, b=-1.$
+    figures: []
+  - label: B
+    text: |-
+      $a=-\dfrac{1}{2}, b=-\dfrac{1}{2}.$
+    figures: []
+  - label: C
+    text: |-
+      $a=\dfrac{1}{2}, b=-1.$
+    figures: []
+  - label: D
+    text: |-
+      $a=\dfrac{1}{2}, b=-\dfrac{1}{2}.$
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设方程 $x\mathrm{e}^{-x}=a$ 有两个不同实根，则正确的是
+  choices:
+  - label: A
+    text: |-
+      $0<a<\mathrm{e}^{-1}$
+    figures: []
+  - label: B
+    text: |-
+      $a>\mathrm{e}^{-1}$
+    figures: []
+  - label: C
+    text: |-
+      $a\leqslant 0$
+    figures: []
+  - label: D
+    text: |-
+      $a=\mathrm{e}^{-1}$
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $I_1=\int_0^{\dfrac{\pi}{2}} \cos(\sin x)\mathrm{d}x, I_2=\int_0^{\dfrac{\pi}{2}} \sin(\cos x)\mathrm{d}x, I_3=\int_0^{\dfrac{\pi}{2}} \sin(\sin x)\mathrm{d}x$，则
+  choices:
+  - label: A
+    text: $I_1>I_2=I_3$
+    figures: []
+  - label: B
+    text: $I_1=I_2>I_3$
+    figures: []
+  - label: C
+    text: $I_1<I_2=I_3$
+    figures: []
+  - label: D
+    text: $I_2>I_1=I_3$
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      当 $x \to 0$ 时, 微分方程 $(3x^2+2)y''=6xy'$ 的解 $y(x)$ 与 $\mathrm{e}^x-1$ 是等价无穷小, 则 $y(x)=$
+  choices:
+  - label: A
+    text: |-
+      $-\dfrac{1}{2}x^3+x$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{1}{2}x^3+x$
+    figures: []
+  - label: C
+    text: $x^3+2x$
+    figures: []
+  - label: D
+    text: $x^3+x$
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x) = \begin{vmatrix} 1 & x & x^2 & x^3 \\ 1 & 2 & 4 & 8 \\ 1 & -1 & 1 & -1 \\ 1 & 1 & 1 & 1 \end{vmatrix}$，则曲线 $y = f(x)$ 在 $(-1,2)$ 内存在水平切线的条数为
+  choices:
+  - label: A
+    text: '1'
+    figures: []
+  - label: B
+    text: '2'
+    figures: []
+  - label: C
+    text: '3'
+    figures: []
+  - label: D
+    text: '4'
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $3 \times 4$ 矩阵 $A$ 的秩为 $3, A^T = (\alpha_1, \alpha_2, \alpha_3), \beta$ 是 $AX = 0$ 的一个非零解向量, 则正确的是
+  choices:
+  - label: A
+    text: |-
+      $|A^T A| \neq 0.$
+    figures: []
+  - label: B
+    text: $|AA^T| = 0.$
+    figures: []
+  - label: C
+    text: |-
+      $\alpha_1, \alpha_2, \alpha_3, \beta$ 线性相关
+    figures: []
+  - label: D
+    text: |-
+      $\alpha_1, \alpha_2, \alpha_3, \beta$ 线性无关
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A=\begin{bmatrix} 2 & 1 \\ -1 & 0 \end{bmatrix}, B=\begin{bmatrix} 1 & 1 \\ 0 & 1 \end{bmatrix}, C=\begin{bmatrix} 1 & 0 \\ 1 & 1 \end{bmatrix}, D=\begin{bmatrix} 1 & 0 \\ 0 & 1 \end{bmatrix}$，则正确的是
+  choices:
+  - label: A
+    text: $A$ 与 $B$ 相似$,B$ 与 $C$ 合同
+    figures: []
+  - label: B
+    text: $A$ 与 $D$ 相似$,B$ 与 $D$ 合同
+    figures: []
+  - label: C
+    text: $A$ 与 $D$ 合同$,B$ 与 $C$ 相似
+    figures: []
+  - label: D
+    text: $B$ 与 $D$ 相似$,C$ 与 $D$ 合同
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设随机变量 $X$ 服从 $F(n,n)$，且 $P\{X>a\}=0.05, a \neq 0$，则 $P\left\{X>\dfrac{1}{a}\right\}=$
+  choices:
+  - label: A
+    text: $0.05.$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{0.05}{2}.$
+    figures: []
+  - label: C
+    text: $0.95.$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{0.95}{2}.$
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $(X, Y) \sim N(\mu_1, \mu_2; \sigma_1^2, \sigma_2^2; \rho)$，则 $X+Y$ 与 $X-Y$ 不相关的充分必要条件是
+  choices:
+  - label: A
+    text: |-
+      $\mu_1^2 = \mu_2^2$
+    figures: []
+  - label: B
+    text: |-
+      $\mu_1^2 \ne \mu_2^2$
+    figures: []
+  - label: C
+    text: |-
+      $\sigma_1^2 = \sigma_2^2$
+    figures: []
+  - label: D
+    text: |-
+      $\sigma_1^2 \ne \sigma_2^2$
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $X_1, X_2, \cdots, X_n$ 为来自总体 $X \sim N(\mu, \sigma^2)$ 的简单随机样本, $\mu$ 为已知, 若 $\hat{\sigma} = k \sum_{i=1}^n |X_i - \mu|$ 是 $\sigma$ 的无偏估计量, 则 $k =$
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{1}{n} \sqrt{\dfrac{\pi}{2}}.$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{1}{n} \sqrt{\dfrac{2}{\pi}}.$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{1}{n} \sqrt{\pi}.$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{1}{n} \sqrt{\dfrac{1}{\pi}}.$
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $I=\int_1^{+\infty}\left[\ln\left(1+\dfrac{1}{x}\right)-\dfrac{1}{1+x}\right]\mathrm{d}x=\underline{\quad\quad\quad\quad\quad\quad}.$
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      欧拉方程 $x^2 y'' - xy' + y = 0(x > 0)$ 满足 $y(1) = 1, y'(1) = 1$ 的解为 $y(x) = \underline{\hspace{2cm}}$
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $\mathrm{d}f(x,y) = (2xy^3 + k\mathrm{e}^y\sin x)\mathrm{d}x + (3x^2y^2 + \mathrm{e}^y\cos x)\mathrm{d}y$ $,k$ 为常数，则 $f(x,y)$ 在点 $\left(\dfrac{\pi}{4},0\right)$ 处的方向导数的最大值为______。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)$ 在 $[-\pi,\pi]$ 上满足 $f(x+\pi)=-f(x)$，则 $f(x)$ 的傅里叶级数的系数 $a_{2n}=\underline{\qquad\qquad}$
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $3$ 阶行列式 $|A|=1$，将 $A$ 的第 $1$ 列加到第 $2$ 列得 $B$，则 $|A^*+B^{-1}|=\_\_\_\_\_\_\_\_$。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设总体 $(X,Y)$ 的概率密度为 $f(x,y)=\begin{cases} 2\theta^{-2}\mathrm{e}^{-\dfrac{x+y}{\theta}}, & 00), \\ 0, & \text{\text{其他}}, \end{cases}$ $(X_1,Y_1),(X_2,Y_2),\cdots,(X_n,Y_n)$ 为 $(X,Y)$ 的一组简单随机样本，则 $\theta$ 的最大似然估计量 $\widehat{\theta}=\underline{\hspace{2cm}}$
+- number: 17
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $f(x)$ 在 $x=1$ 处可导，且 $\lim_{x \to 1} \dfrac{f(x)+x^x-1}{\sqrt{x}-1} = -2$，求 $f'(1)$
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      求 $f(x,y) = (1+\mathrm{e}^y)\cos x - y\mathrm{e}^y$ 的极值
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $\Sigma$ 为光滑闭曲面, 取外侧 $I = \iint_{\Sigma} (x^3 - x) \mathrm{d}y\mathrm{d}z + (y^3 - y) \mathrm{d}z\mathrm{d}x + (z^3 - z) \mathrm{d}x\mathrm{d}y$. $(I)$ 确定曲面 $\Sigma$ 使得 $I$ 最小, 并求 $I$ 的最小值; $(II)$ 若 $(I)$ 中曲面 $\Sigma$ 被锥面 $z = \sqrt{x^2 + y^2}$ 所截且位于锥面上方的部分为 $\Sigma_1$, 求曲面 $\Sigma_1$ 的面积
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设不恒为零的函数 $f(x)$ 在 $[0,1]$ 上有二阶连续导数, 且 $f(0)=f(1)=0$, 记 $M=\max_{x\in [0,1]}\{|f(x)|\}, |f''(x)|\geqslant M$, 证明: (I) 至少存在一点 $\xi \in (0,1)$, 使得 $|f'(\xi)| \geqslant 2M$; (II) $|f'(0)|+|f'(1)| \geqslant M.$
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设二次型 $X^T AX = 2ax_1x_2 + 2bx_1x_3 + 2cx_2x_3$ $,A^T = A$ $.\alpha = (-1,1,1)^T$ 满足 $(A+2E)\alpha = 0$。 (I) 求 $a,b,c$ 的值； (II) 求正交矩阵 $Q$ 及对角矩阵 $\Lambda$，使得 $Q^T AQ = \Lambda$； (III) 若正定矩阵 $B$ 满足 $A^2 = B^2$，求 $B$。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      总体 $X$ 的概率密度为 $f(x)=\begin{cases} \dfrac{1}{\sqrt{2\pi}x}\mathrm{e}^{-\dfrac{(\ln x-\mu)^2}{2}}, & x>0, \\ 0, & x\leqslant 0, \end{cases}$ $(X_1,X_2,\cdots,X_n)$ 为总体 $X$ 的简单随机样本; (I) 记 $Y=\ln X$, 求 $Y$ 的分布函数; (II) 求 $\mu$ 的最大似然估计量 $\widehat{\mu}$ 和 $E(\widehat{\mu}^2)$
+content_hash: 0d0a1e708cfef4c6576cfdc79e5b8b309eb2517ca44fa14e2fec630e692b71ad

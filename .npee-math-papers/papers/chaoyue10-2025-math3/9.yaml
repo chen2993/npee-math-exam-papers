@@ -4,7 +4,6 @@ paper:
   year: 2025
   subject: math3
   paper_no: 9
-content_hash: 705d52a0c818df6ab14dcc97beb252523392addc1df3517a633e87de66c5980f
 questions:
 - number: 1
   section: choice
@@ -32,7 +31,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设函数 $f(x,y)=\begin{cases}1,&0<y<x^2,\\0,&\text{其他},\end{cases}$，则下列关于 $f(x,y)$ 在点 $(0,0)$ 的说法正确的有\ExamSelection{}个。①沿路径 $y=kx$ 极限存在；②连续；③偏导数存在；④可微。
+      设函数 $f(x,y)=\begin{cases}1,&0<y<x^2,\\0,&\text{其他},\end{cases}$，则下列关于 $f(x,y)$ 在点 $(0,0)$ 的说法正确的有\ExamSelection{}个。\n①沿路径 $y=kx$ 极限存在；\n②连续；\n③偏导数存在；\n④可微。
   choices:
   - label: A
     text: $1$
@@ -293,3 +292,4 @@ questions:
   stem:
     text: |-
       设随机变量 $X$ 服从参数为 $1$ 的指数分布，令 $Y=|X^2|$。(Ⅰ)计算 $P\{\min(X+Y,3X-Y)\leq2\}$；(Ⅱ)求 $(X,Y)$ 的分布函数 $F(x,y)$；(Ⅲ)求 $Y$ 的分布函数。
+content_hash: 2b2dd0d5c25404364e044a9f393292f78c3fbf5f4b9d7a920c5b527fd934fb4c

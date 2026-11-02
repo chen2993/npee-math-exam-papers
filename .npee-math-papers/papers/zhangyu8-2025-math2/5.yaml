@@ -4,7 +4,6 @@ paper:
   year: 2025
   subject: math2
   paper_no: 5
-content_hash: a7c601dde65ef65daee09238bcb7e2d59da40eb66ec85a50fe621b2de0201e81
 questions:
 - number: 1
   section: choice
@@ -175,7 +174,7 @@ questions:
   points: 5
   stem:
     text: |-
-      $\boldsymbol{A},\boldsymbol{B}$ 均为 $n$ 阶矩阵，$|\boldsymbol{B}|\ne0$。设 $\boldsymbol{\alpha}$ 为 $n$ 维列向量，则“$\boldsymbol{\alpha}$ 是 $\boldsymbol{AB}$ 的特征向量”是“$\boldsymbol{B\alpha}$ 是 $\boldsymbol{BA}$ 的特征向量”的\ExamSelection。（公众号：风中羽小易）
+      $\boldsymbol{A},\boldsymbol{B}$ 均为 $n$ 阶矩阵，$|\boldsymbol{B}|\ne0$。设 $\boldsymbol{\alpha}$ 为 $n$ 维列向量，则“$\boldsymbol{\alpha}$ 是 $\boldsymbol{AB}$ 的特征向量”是“$\boldsymbol{B\alpha}$ 是 $\boldsymbol{BA}$ 的特征向量”的\ExamSelection。
   choices:
   - label: A
     text: 充分必要条件
@@ -194,7 +193,7 @@ questions:
   points: 5
   stem:
     text: |-
-      已知 $n$ 阶方阵 $\boldsymbol{A}$ 可逆且满足 $\boldsymbol{A}^{\mathrm{T}}=-\boldsymbol{A}$，则以下命题中正确的个数为\ExamSelection。
+      已知 $n$ 阶方阵 $\boldsymbol{A}$ 可逆且满足 $\boldsymbol{A}^{\mathrm{T}}=-\boldsymbol{A}$，则以下命题中正确的个数为\ExamSelection。\n① 对任意 $n$ 维列向量 $\boldsymbol{b}$，$\boldsymbol{b}^{\mathrm{T}}\boldsymbol{A}\boldsymbol{b}=0$\n② 对任意 $n$ 维列向量 $\boldsymbol{b}$，$\boldsymbol{b}^{\mathrm{T}}\boldsymbol{A}^{-1}\boldsymbol{b}=0$\n③ 对任意 $n$ 维列向量 $\boldsymbol{b}$，$r\left(\boldsymbol{A}+\boldsymbol{b}\boldsymbol{b}^{\mathrm{T}}\right)=n$\n④ $n$ 可能为 $3$
   choices:
   - label: A
     text: $1$
@@ -208,14 +207,6 @@ questions:
   - label: D
     text: $4$
     figures: []
-  subparts:
-  - text: |-
-      对任意 $n$ 维列向量 $\boldsymbol{b}$，$\boldsymbol{b}^{\mathrm{T}}\boldsymbol{A}\boldsymbol{b}=0$
-  - text: |-
-      对任意 $n$ 维列向量 $\boldsymbol{b}$，$\boldsymbol{b}^{\mathrm{T}}\boldsymbol{A}^{-1}\boldsymbol{b}=0$
-  - text: |-
-      对任意 $n$ 维列向量 $\boldsymbol{b}$，$r\left(\boldsymbol{A}+\boldsymbol{b}\boldsymbol{b}^{\mathrm{T}}\right)=n$
-  - text: $n$ 可能为 $3$
 - number: 11
   section: fill
   points: 5
@@ -299,3 +290,4 @@ questions:
   - text: $a$ 的值
   - text: |-
       $\boldsymbol{\gamma}$
+content_hash: 5856404fdba302afb1a4b066dc4dc786ab2d254d3a2106469d19c675c788a111

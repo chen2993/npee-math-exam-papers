@@ -4,7 +4,6 @@ paper:
   year: 2025
   subject: math1
   paper_no: 4
-content_hash: e9a77a0e16be043c257ec6e4cb2db953a9769b8fdd8dd8ca2001d72d550dc14f
 questions:
 - number: 1
   section: choice
@@ -245,7 +244,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $n$ 阶行列式 $|A|=\begin{vmatrix}0&0&a_1&0&\cdots&0\\0&0&0&a_2&\cdots&0\\\vdots&\vdots&\vdots&\vdots&\ddots&\vdots\\0&0&0&0&\cdots&a_{n-2}\\a_{n-1}&0&0&0&\cdots&0\\0&a_n&0&0&\cdots&0\end{vmatrix}$，其中 $a_i\neq0\\ (i=1,2,\cdots,n)$，则 $A$ 的第 $k$ 行元素的代数余子式之和 $A_{k1}+A_{k2}+\cdots+A_{kn}=$ \ExamBlank。
+      设 $n$ 阶行列式 $|A|=\begin{vmatrix}0&0&a_1&0&\cdots&0\\0&0&0&a_2&\cdots&0\\\vdots&\vdots&\vdots&\vdots&\ddots&\vdots\\0&0&0&0&\cdots&a_{n-2}\\a_{n-1}&0&0&0&\cdots&0\\0&a_n&0&0&\cdots&0\end{vmatrix}$，其中 $a_i\neq0\ (i=1,2,\cdots,n)$，则 $A$ 的第 $k$ 行元素的代数余子式之和 $A_{k1}+A_{k2}+\cdots+A_{kn}=$ \ExamBlank。
 - number: 16
   section: fill
   points: 5
@@ -257,34 +256,35 @@ questions:
   points: 10
   stem:
     text: |-
-      （本题满分 10 分）求函数 $u=x^2+2y^2+z^2$ 在曲线 $\Gamma:\begin{cases}z=x^2+4y^2,\\x+2y+z=1\end{cases}$ 上的最大方向导数。
+      求函数 $u=x^2+2y^2+z^2$ 在曲线 $\Gamma:\begin{cases}z=x^2+4y^2,\\x+2y+z=1\end{cases}$ 上的最大方向导数。
 - number: 18
   section: solution
   points: 12
   stem:
     text: |-
-      （本题满分 12 分）求三重积分 $\iiint_{\Omega}\dfrac{x^3y+2x^2+z^2}{\sqrt{x^2+y^2+z^2}}\,dV$，其中 $\Omega$ 由曲面 $x^2+y^2+z^2=2z$ 及 $z=\sqrt{x^2+y^2}$ 所围成。
+      求三重积分 $\iiint_{\Omega}\dfrac{x^3y+2x^2+z^2}{\sqrt{x^2+y^2+z^2}}\,dV$，其中 $\Omega$ 由曲面 $x^2+y^2+z^2=2z$ 及 $z=\sqrt{x^2+y^2}$ 所围成。
 - number: 19
   section: solution
   points: 12
   stem:
     text: |-
-      （本题满分 12 分）设函数 $f(x)$ 在 $[0,2]$ 上有连续导数，且满足 $0<f(x)<2$，$|f'(x)|<1$。\NPEEQuestionContinuation （I）证明存在唯一的 $x_0\in(0,2)$，使得 $f(x_0)=x_0$。\NPEEQuestionContinuation （II）设 $0<x_1<2$，$2x_{n+1}=x_n+f(x_n)$，证明 $\lim_{n\to\infty}x_n=x_0$。
+      设函数 $f(x)$ 在 $[0,2]$ 上有连续导数，且满足 $0<f(x)<2$，$|f'(x)|<1$。\n（I）证明存在唯一的 $x_0\in(0,2)$，使得 $f(x_0)=x_0$。\n（II）设 $0<x_1<2$，$2x_{n+1}=x_n+f(x_n)$，证明 $\lim_{n\to\infty}x_n=x_0$。
 - number: 20
   section: solution
   points: 12
   stem:
     text: |-
-      （本题满分 12 分）设 $L$ 为任意一条不过原点的正向闭曲线，$f$ 具有连续导数，求曲线积分 $\oint_L\dfrac{xf(x^2+y^2)\,dx+yf(x^2+y^2)\,dy}{x^2+y^2}$。
+      设 $L$ 为任意一条不过原点的正向闭曲线，$f$ 具有连续导数，求曲线积分 $\oint_L\dfrac{xf(x^2+y^2)\,dx+yf(x^2+y^2)\,dy}{x^2+y^2}$。
 - number: 21
   section: solution
   points: 12
   stem:
     text: |-
-      （本题满分 12 分）设 $A=\begin{pmatrix}1&-1&1\\a&4&b\\-3&-3&5\end{pmatrix}$，$|A|=2a$，$\alpha=(1,0,1)^T$ 为 $A^{-1}$ 的特征向量。\NPEEQuestionContinuation （I）求 $a,b$；\NPEEQuestionContinuation （II）求可逆矩阵 $P$，使 $P^{-1}AP$ 为对角阵；\NPEEQuestionContinuation （III）求可逆的实对称阵 $Q$，使 $Q^{-1}AQ=A^T$。
+      设 $A=\begin{pmatrix}1&-1&1\\a&4&b\\-3&-3&5\end{pmatrix}$，$|A|=2a$，$\alpha=(1,0,1)^T$ 为 $A^{-1}$ 的特征向量。\n（I）求 $a,b$；\n（II）求可逆矩阵 $P$，使 $P^{-1}AP$ 为对角阵；\n（III）求可逆的实对称阵 $Q$，使 $Q^{-1}AQ=A^T$。
 - number: 22
   section: solution
   points: 12
   stem:
     text: |-
-      （本题满分 12 分）设随机变量 $X$ 的概率密度为 $f_X(x)=\begin{cases}x,&0\leq x<1,\\2-x,&1\leq x\leq2,\\0,&\text{其他，}\end{cases}$，令 $Y=\begin{cases}-1,&0\leq X<1,\\1,&1\leq X\leq2,\end{cases}$，求：（I）$Z=XY$ 的概率密度 $f_Z(z)$；（II）$\operatorname{cov}(X,Z)$。
+      设随机变量 $X$ 的概率密度为 $f_X(x)=\begin{cases}x,&0\leq x<1,\\2-x,&1\leq x\leq2,\\0,&\text{其他，}\end{cases}$，令 $Y=\begin{cases}-1,&0\leq X<1,\\1,&1\leq X\leq2,\end{cases}$，求：（I）$Z=XY$ 的概率密度 $f_Z(z)$；（II）$\operatorname{cov}(X,Z)$。
+content_hash: 5adc128ae6d55f2611dcc2a109d5efa2f2017f4a44cff82ea9072dbdb91ceb6a

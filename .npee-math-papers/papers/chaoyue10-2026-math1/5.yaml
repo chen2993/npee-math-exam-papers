@@ -1,0 +1,302 @@
+schema_version: '3.0'
+paper:
+  series_key: chaoyue10
+  year: 2026
+  subject: math1
+  paper_no: 5
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 \(f(a)=0\)，则“极限 \( \lim\limits_{h\to0}\dfrac{f(a+\sin h)}{1-\cos h}\) 存在”是“函数 \(f(x)\) 在 \(x=a\) 处可导”的( )
+  choices:
+  - label: A
+    text: 充分非必要条件
+    figures: []
+  - label: B
+    text: 必要非充分条件
+    figures: []
+  - label: C
+    text: 充要条件
+    figures: []
+  - label: D
+    text: 既非充分也非必要条件
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 \(\alpha>1\)， \( I_1=\int_0^1\sin^{\alpha}x\, \mathrm dx\)， \( I_2=\int_0^1\sin x^{\alpha}\, \mathrm dx\)， \( I_3=\int_0^1\tan^{\alpha}x\, \mathrm dx\)， \( I_4=\int_0^1\tan x^{\alpha}\, \mathrm dx\)，则下列结论正确的是( )。
+  choices:
+  - label: A
+    text: |-
+      \(I_1\ge I_2, \ I_3\ge I_4\)
+    figures: []
+  - label: B
+    text: |-
+      \(I_1\ge I_2, \ I_3\le I_4\)
+    figures: []
+  - label: C
+    text: |-
+      \(I_1\le I_2, \ I_3\ge I_4\)
+    figures: []
+  - label: D
+    text: |-
+      \(I_1\le I_2, \ I_3\le I_4\)
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      二元函数 \( f(x,y)=\begin{cases}\dfrac{x|y|+y|x|}{\sqrt{x^2+y^2}}, &(x,y)\ne(0,0), \\0, &(x,y)=(0,0), \end{cases}\) 在点 \((0,0)\) 处( )。
+  choices:
+  - label: A
+    text: 极限存在，但不连续
+    figures: []
+  - label: B
+    text: 连续，但偏导不存在
+    figures: []
+  - label: C
+    text: 偏导存在，但不可微
+    figures: []
+  - label: D
+    text: 可微
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设平面曲线 \(L\) 为星形线 \( x^{\dfrac{2}{3}}+y^{\dfrac{2}{3}}=1\)，取顺时针方向，则曲线积分 \( I=\oint_L\dfrac{x\, \mathrm dy-y\, \mathrm dx}{4x^2+y^2}\)( )。
+  choices:
+  - label: A
+    text: |-
+      \(0\)
+    figures: []
+  - label: B
+    text: |-
+      \(-\pi\)
+    figures: []
+  - label: C
+    text: |-
+      \(-2\pi\)
+    figures: []
+  - label: D
+    text: |-
+      \(\pi\)
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 \(A\) 为 \(3\) 阶实对称矩阵，若 \(|A+E|=|A-2E|=-4\)， \(|A-E|=0\)，二次型 \(f(x)=x^TAx\) 在正交线性 \(x=Qy\) 变换下的标准形为( )。
+  choices:
+  - label: A
+    text: |-
+      \(-y_1^2+2y_2^2+y_3^2\)
+    figures: []
+  - label: B
+    text: |-
+      \(5y_1^2+2y_2^2+y_3^2\)
+    figures: []
+  - label: C
+    text: |-
+      \(y_1^2+y_2^2-2y_3^2\)
+    figures: []
+  - label: D
+    text: |-
+      \(y_1^2+y_2^2+2y_3^2\)
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 \( A=\begin{pmatrix}1&2&-1&0\\0&2&1&-1\\0&0&4&-2\\0&0&0&2\end{pmatrix}\)， \(A_{ij}\) 为 \(|A|\) 中元素 \(a_{ij}\) 的代数余子式，则 \( \sum_{i=1}^4\sum_{j=1}^4A_{ij}=\)( )。
+  choices:
+  - label: A
+    text: |-
+      \(4\)
+    figures: []
+  - label: B
+    text: |-
+      \(16\)
+    figures: []
+  - label: C
+    text: |-
+      \(32\)
+    figures: []
+  - label: D
+    text: |-
+      \(64\)
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知 \(A\) 为 \(3\) 阶可逆矩阵，将 \(A\) 的第二行的 \((-2)\) 倍加到第一行得矩阵 \(B\)， \(B^*\) 为 \(B\) 的伴随矩阵，则 \(\operatorname{tr}(B^*A)=\)( )。
+  choices:
+  - label: A
+    text: |-
+      \(|A|\)
+    figures: []
+  - label: B
+    text: |-
+      \(2|A|\)
+    figures: []
+  - label: C
+    text: |-
+      \(3|A|\)
+    figures: []
+  - label: D
+    text: |-
+      \(4|A|\)
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设随机变量 \(X\) 的密度函数为 \( f(x)=a\mathrm e^{\dfrac{x(2-x)}{2}}\)， \(-\infty<x<+\infty\)，则 \(E(X^2\mathrm e^X)=\)( )。
+  choices:
+  - label: A
+    text: |-
+      \( 5\mathrm e^{\dfrac{1}{2}}\)
+    figures: []
+  - label: B
+    text: |-
+      \( 3\mathrm e^{\dfrac{1}{2}}\)
+    figures: []
+  - label: C
+    text: |-
+      \( 5\mathrm e^{\dfrac{3}{2}}\)
+    figures: []
+  - label: D
+    text: |-
+      \( 3\mathrm e^{\dfrac{3}{2}}\)
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设二维随机变量 \((X,Y)\) 的概率密度 \( f(x,y)=\begin{cases}Ax\mathrm e^{-y}, &0<x<y<+\infty, \\0, &\text{其他}, \end{cases}\) 记 \(M=\max\{X,Y\}\)， \(N=\min\{X,Y\}\)，则 \(P\{M<2,N<1\}=\)( )。
+  choices:
+  - label: A
+    text: |-
+      \( 1-\dfrac{1}{\mathrm e}\)
+    figures: []
+  - label: B
+    text: |-
+      \( 1-\dfrac{1}{\mathrm e}-\dfrac{1}{\mathrm e^2}\)
+    figures: []
+  - label: C
+    text: |-
+      \( 1-\dfrac{2}{\mathrm e^2}\)
+    figures: []
+  - label: D
+    text: |-
+      \( 1-\dfrac{2}{\mathrm e}-\dfrac{1}{2\mathrm e^2}\)
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设二维随机变量 \((X,Y)\sim N(0,2;\sigma^2, \sigma^2;\dfrac{1}{2})\)， \(\sigma^2\) 未知，\((x_1,y_1), (x_2,y_2), \cdots, (x_n,y_n)\) 是来自总体 \((X,Y)\) 的简单随机样本，则 \(P\{X+Y\le1\}\) 的极大似然估计值为( )。
+  choices:
+  - label: A
+    text: |-
+      \( \Phi\left(\sqrt{\dfrac{n}{\sum_{i=1}^n(x_i+y_i)^2}}\right)\)
+    figures: []
+  - label: B
+    text: |-
+      \( 1-\Phi\left(\sqrt{\dfrac{n}{\sum_{i=1}^n(x_i+y_i-2)^2}}\right)\)
+    figures: []
+  - label: C
+    text: |-
+      \( \Phi\left(\dfrac{n}{\sum_{i=1}^n(x_i+y_i-2)^2}\right)\)
+    figures: []
+  - label: D
+    text: |-
+      \( 1-\Phi\left(\sqrt{\dfrac{3n}{\sum_{i=1}^n(x_i+y_i-2)^2}}\right)\)
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      求 \( \lim\limits_{t\to0^+}\dfrac{\int_0^t\mathrm dx\int_x^t\left(\mathrm e^{x^2+y^2}-\mathrm e^{x^2}-\mathrm e^{y^2}+1\right)\, \mathrm dy}{t^6}\) \underline{\qquad}。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设函数 \( z(x,y)=\int_0^1|x^2+y^2-t|f(t)\, \mathrm dt\)， \(0\le x\le1,0\le y\le1\)，其中函数 \(f(t)\) 连续且 \( f(\dfrac{1}{2})=\dfrac{1}{2}\)，则 \( z_{xy}''(\dfrac{1}{2}, \dfrac{1}{2})=\)\underline{\qquad}。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 \( a_n=\int_0^1\dfrac{\mathrm dx}{(1+x^2)^n}\)，则数项级数 \( \sum_{n=1}^{\infty}\left(\dfrac{a_{n+1}}{2n-1}-\dfrac{a_n}{2n}\right)\) 的和为\underline{\qquad}。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设函数 \(y=y(x)\) 由方程 \( x^2-\int_1^{x+y}\mathrm e^{-(t-y)^2}\, \mathrm dt=0\) 所确定，则 \(y''(0)=\)\underline{\qquad}。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      已知方程组 \( \begin{cases}kx_1-x_3+x_4=1, \\kx_2+x_3-x_4=-1, \\-x_1+x_2+kx_3=1, \\x_1-x_2+kx_4=-1\end{cases}\) 无解，\(k\) 为非零实数，则 \(k=\)\underline{\qquad}。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      某人向一目标独立重复射击 \(4\) 次，每次命中的概率均为 \(0.8\)。 已知目标被击中，则第 \(3\) 次射击恰好是第 \(2\) 次命中的概率是\underline{\qquad}。
+- number: 17
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 \(y=f(x)\) 由参数方程 \( \begin{cases}x=t^2+2t-3, \\t^2-y-\sin y=1, \end{cases}\ t\ge0\) 确定，求 \( \lim\limits_{x\to0^+}\dfrac{4f(x)\sin x-x^2}{x^3}\)。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      (1) 设 \(f(x),g(x)\) 均是 \([0,a]\) 上的连续函数，且对任意 \(x\in[0,a]\)，恒有 \(f(x)=f(a-x)\)， \(g(x)+g(a-x)=k\)，其中 \(k\) 为常数。证明 \( \int_0^a f(x)g(x)\, \mathrm dx=\dfrac{k}{2}\int_0^a f(x)\, \mathrm dx\)。 (2) 计算 \( \int_0^{\dfrac{\pi}{4}}\sin^4 4x\cdot\ln(1+\tan x)\, \mathrm dx\)。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 \(f(t)\) 二阶可导，且 \(u=f\left(\sqrt{x^2+y^2+z^2}\right)\) 满足 \(u_{xx}''+u_{yy}''+u_{zz}''=0\)，若 \(f(1)=0\)， \(f'(1)=1\)，求函数 \(f(t)\) 的表达式。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 \(\Sigma\) 为曲面 \(x^2+y^2+z^2=2\ (z\ge0)\) 的上侧，连续函数 \(f(x,y)\) 满足\( f(x,y)=x^2+y^2+x\iint_{\Sigma}xy^2\, \mathrm dy\, \mathrm dz+x^2y\, \mathrm dz\, \mathrm dx-\left[(x+3y)^2-z^2+zf(x,y)\right]\, \mathrm dx\, \mathrm dy, \)求 \(f(x,y)\)。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      方阵 \( A=\begin{pmatrix}1&0&a\\0&1-a&-2\\-1&0&2\end{pmatrix}\) 的特征值为实数，\(x=(x_1,x_2,x_3)^T\)。 (1) 若 \(A\) 可对角化，求参数 \(a\) 的取值范围。 (2) 当 \(a<0\) 且 \(A\) 不可对角化时，判断二次型 \(f(x_1,x_2,x_3)=x^TAx\) 的正定性。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设有三个编号分别为 \(1,2,3\) 的盒子和三只球，现将每个球随机地放入三个盒子，记 \(X\) 为所有非空盒子的最小号码。 (1) 求 \(X\) 的分布律； (2) 若当 \(X=i\) 时，随机变量 \(Y\) 在 \([0,i]\) 上服从均匀分布，\(i=1,2,3\)，令 \( Z=\dfrac{Y}{X}\)，证明 \(Z\sim U[0,1]\)。
+content_hash: a41f7477700d022c74764a4a8839bda3a3b6cf81cda6ef7febbbe4956fef1cd1

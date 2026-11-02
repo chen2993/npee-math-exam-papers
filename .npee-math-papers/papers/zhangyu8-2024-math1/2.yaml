@@ -4,124 +4,121 @@ paper:
   year: 2024
   subject: math1
   paper_no: 2
-content_hash: ef8d788471c7cbc6487e468b2dd1aed144d962da13da7d83f4af50a023f899a9
 questions:
 - number: 1
   section: choice
   points: 5
   stem:
-    text: |-
-      下列函数中，在 $x=0$ 处不可导的是\ExamSelection
+    text: 下列函数中，在 $x=0$ 处不可导的是
   choices:
   - label: A
     text: |-
-      $f(x)=|x|\tan|x|$
+      $f(x)=|x|\tan|x|.$
     figures: []
   - label: B
     text: |-
-      $f(x)=|x|\tan\sqrt{|x|}$
+      $f(x)=|x|\tan\sqrt{|x|}.$
     figures: []
   - label: C
     text: |-
-      $f(x)=\sqrt{\cos|x|}$
+      $f(x)=\sqrt{\cos|x|}.$
     figures: []
   - label: D
     text: |-
-      $f(x)=\cos\sqrt{|x|}$
+      $f(x)=\cos\sqrt{|x|}.$
     figures: []
 - number: 2
   section: choice
   points: 5
   stem:
-    text: |-
-      已知函数 $f(x),g(x)$ 可导，且 $f'(x)>0,g'(x)<0$，则\ExamSelection
+    text: 已知函数 $f(x),g(x)$ 可导, 且 $f'(x)>0,g'(x)<0$, 则
   choices:
   - label: A
     text: |-
-      $\int_{-1}^{0}f(x)g(x)\,\mathrm{d}x>\int_{0}^{1}f(x)g(x)\,\mathrm{d}x$
+      $\int_{-1}^{0} f(x)g(x)\mathrm{d}x > \int_{0}^{1} f(x)g(x)\mathrm{d}x.$
     figures: []
   - label: B
     text: |-
-      $\int_{-1}^{0}|f(x)g'(x)|\,\mathrm{d}x>\int_{0}^{1}|f(x)g'(x)|\,\mathrm{d}x$
+      $\int_{-1}^{0} |f(x)g(x)|\mathrm{d}x > \int_{0}^{1} |f(x)g(x)|\mathrm{d}x.$
     figures: []
   - label: C
     text: |-
-      $\int_{-1}^{0}f[g(x)]\,\mathrm{d}x>\int_{0}^{1}f[g(x)]\,\mathrm{d}x$
+      $\int_{-1}^{0} f[g(x)]\mathrm{d}x > \int_{0}^{1} f[g(x)]\mathrm{d}x.$
     figures: []
   - label: D
     text: |-
-      $\int_{-1}^{0}f[f(x)]\,\mathrm{d}x>\int_{0}^{1}g[g(x)]\,\mathrm{d}x$
+      $\int_{-1}^{0} f[f(x)]\mathrm{d}x > \int_{0}^{1} g[g(x)]\mathrm{d}x.$
     figures: []
 - number: 3
   section: choice
   points: 5
   stem:
     text: |-
-      设一正方形边长为 $1$，作其内切圆，以四个切点为顶点作第二个正方形，对第二个正方形作其内切圆，再以其四个切点为顶点作第三个正方形，以此类推，记第 $n$ 个正方形的面积为 $a_n$，则 $\sum_{n=1}^{\infty}a_n=$\ExamSelection
+      设一正方形边长为 $1$，作其内切圆，以四个切点为顶点作第二个正方形，对第二个正方形作其内切圆，再以其四个切点为顶点作第三个正方形，以此类推，记第 $n$ 个正方形的面积为 $a_n$，则 $\sum_{n=1}^\infty a_n=$
   choices:
   - label: A
-    text: $2$
+    text: $2.$
     figures: []
   - label: B
     text: |-
-      $2\sqrt{2}$
+      $2\sqrt{2}.$
     figures: []
   - label: C
     text: |-
-      $4\sqrt{2}$
+      $4\sqrt{2}.$
     figures: []
   - label: D
     text: |-
-      $+\infty$
+      $+\infty.$
     figures: []
 - number: 4
   section: choice
   points: 5
   stem:
     text: |-
-      设平面曲线 $L:f(x,y)=1$ 过第一象限的点 $A$ 和第三象限的点 $B$，$f(x,y)$ 有一阶连续偏导数，$\Gamma$ 为 $L$ 上从点 $A$ 到点 $B$ 的一段弧，设 $I_1=\int_{\Gamma}f(x,y)\,\mathrm{d}x,I_2=\int_{\Gamma}f(x,y)\,\mathrm{d}y,I_3=\int_{\Gamma}f_x'(x,y)\,\mathrm{d}x+f_y'(x,y)\,\mathrm{d}y$，则\ExamSelection
+      设平面曲线 $L: f(x,y)=1$ 过第一象限的点 $A$ 和第三象限的点 $B, f(x,y)$ 有一阶连续偏导数, $\Gamma$ 为 $L$ 上从点 $A$ 到点 $B$ 的一段弧, 设 $I_1=\int_\Gamma f(x,y)\mathrm{d}x, I_2=\int_\Gamma f(x,y)\mathrm{d}s, I_3=\int_\Gamma f_x'(x,y)\mathrm{d}x+f_y'(x,y)\mathrm{d}y$, 则
   choices:
   - label: A
-    text: $I_1>I_3>I_2$
+    text: $I_1>I_3>I_2.$
     figures: []
   - label: B
-    text: $I_2>I_3>I_1$
+    text: $I_2>I_3>I_1.$
     figures: []
   - label: C
-    text: $I_3>I_1>I_2$
+    text: $I_3>I_1>I_2.$
     figures: []
   - label: D
-    text: $I_3>I_2>I_1$
+    text: $I_3>I_2>I_1.$
     figures: []
 - number: 5
   section: choice
   points: 5
   stem:
     text: |-
-      设 $A,B,C$ 均为 $n$ 阶矩阵，$r(AB)\leq r(BA)$，记 $\begin{pmatrix}O&AB\\B&CB\end{pmatrix}$，$\begin{pmatrix}B&BC\\AB&O\end{pmatrix}$，$\begin{pmatrix}BA&BAC\\O&B\end{pmatrix}$ 的秩分别为 $r_1,r_2,r_3$，则\ExamSelection
+      设 $A,B,C$ 均为 $n$ 阶矩阵, $r(AB) \leqslant r(BA)$, 记 $\begin{pmatrix} O & AB \\ B & CB \end{pmatrix}, \begin{pmatrix} B & BC \\ AB & O \end{pmatrix}, \begin{pmatrix} BA & BAC \\ O & B \end{pmatrix}$ 的秩分别为 $r_1,r_2,r_3$, 则
   choices:
   - label: A
     text: |-
-      $r_2\leq r_3\leq r_1$
+      $r_2 \leqslant r_3 \leqslant r_1.$
     figures: []
   - label: B
     text: |-
-      $r_2\leq r_1\leq r_3$
+      $r_2 \leqslant r_1 \leqslant r_3.$
     figures: []
   - label: C
     text: |-
-      $r_1\leq r_2\leq r_3$
+      $r_1 \leqslant r_2 \leqslant r_3.$
     figures: []
   - label: D
     text: |-
-      $r_3\leq r_2\leq r_1$
+      $r_3 \leqslant r_2 \leqslant r_1.$
     figures: []
 - number: 6
   section: choice
   points: 5
   stem:
     text: |-
-      $f(x_1,x_2,x_3)=x_1x_2+x_1x_3-3x_2x_3=1$ 表示\ExamSelection
+      $f\left(x_{1}, x_{2}, x_{3}\right)=x_{1} x_{2}+x_{1} x_{3}-3 x_{2} x_{3}=1$ 表示
   choices:
   - label: A
     text: 椭球面
@@ -140,7 +137,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $3$ 维列向量组 $(\alpha_1,\alpha_2,\alpha_3)$ 与 $(\beta_1,\beta_2,\beta_3)$ 等价，记 $A=(\alpha_1,\alpha_2,\alpha_3),B=(\beta_1,\beta_2,\beta_3)$，则下列结论：①$Ax=0$ 与 $Bx=0$ 同解；②$A^{\mathsf T}x=0$ 与 $B^{\mathsf T}x=0$ 同解；③$\begin{pmatrix}A\\B\end{pmatrix}x=0$ 与 $Ax=0$ 同解；④$\begin{pmatrix}A^{\mathsf T}\\B^{\mathsf T}\end{pmatrix}x=0$ 与 $A^{\mathsf T}x=0$ 同解。所有正确结论的序号是\ExamSelection
+      设 $3$ 维列向量组 $\alpha_1,\alpha_2,\alpha_3$ 与 $\beta_1,\beta_2,\beta_3$ 等价, 记 $A=(\alpha_1,\alpha_2,\alpha_3), B=(\beta_1,\beta_2,\beta_3)$, 则下列结论: ① $Ax=0$ 与 $Bx=0$ 同解; ② $A^Tx=0$ 与 $B^Tx=0$ 同解; ③ $\begin{bmatrix} A \\ B \end{bmatrix}x=0$ 与 $Ax=0$ 同解; ④ $\begin{bmatrix} A^T \\ B^T \end{bmatrix}x=0$ 与 $A^Tx=0$ 同解. 所有正确结论的序号是
   choices:
   - label: A
     text: ①②
@@ -158,31 +155,30 @@ questions:
   section: choice
   points: 5
   stem:
-    text: |-
-      设口袋中有 $10$ 个球，其中 $6$ 个红球，$4$ 个白球，每次不放回地从中任取一个，取两次，若取出的两个球中有 $1$ 个是白球，则两个都是白球的概率为\ExamSelection
+    text: 设口袋中有 $10$ 个球,其中 $6$ 个红球,$4$ 个白球,每次不放回地从中任取一个,取两次,若取出的两个球中有 $1$ 个是白球,则两个都是白球的概率为
   choices:
   - label: A
     text: |-
-      $\dfrac{1}{3}$
+      $\dfrac{1}{3}.$
     figures: []
   - label: B
     text: |-
-      $\dfrac{1}{5}$
+      $\dfrac{1}{5}.$
     figures: []
   - label: C
     text: |-
-      $\dfrac{1}{4}$
+      $\dfrac{1}{4}.$
     figures: []
   - label: D
     text: |-
-      $\dfrac{1}{6}$
+      $\dfrac{1}{6}.$
     figures: []
 - number: 9
   section: choice
   points: 5
   stem:
     text: |-
-      设 $X$ 服从参数为 $\lambda(\lambda>0)$ 的泊松分布，$p_1,p_2,p_3$ 分别是 $X$ 取整数、偶数与奇数的概率，则\ExamSelection
+      设 $X$ 服从参数为 $\lambda(\lambda>0)$ 的泊松分布, $p_1,p_2,p_3$ 分别是 $X$ 取整数、偶数与奇数的概率, 则
   choices:
   - label: A
     text: $p_1=p_2=p_3$
@@ -201,7 +197,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $X_1,X_2$ 是来自正态总体 $N(\mu,1)$ 的简单随机样本，并设原假设 $H_0:\mu=2$，备择假设 $H_1:\mu=4$。若拒绝域为 $W=\{\overline{X}>3\}$，$\overline{X}=\dfrac{1}{2}\sum_{i=1}^{2}X_i$，记 $\alpha,\beta$ 分别为犯第一类错误和第二类错误的概率，则\ExamSelection
+      设 $X_1,X_2$ 是来自正态总体 $N(\mu,1)$ 的简单随机样本，并设原假设 $H_0:\mu=2$，备择假设 $H_1:\mu=4$，若拒绝域为 $W=\{\overline{X}>3\},\overline{X}=\dfrac{1}{2}\sum_{i=1}^2 X_i$，记 $\alpha,\beta$ 分别为犯第一类错误和第二类错误的概率，则
   choices:
   - label: A
     text: |-
@@ -209,11 +205,11 @@ questions:
     figures: []
   - label: B
     text: |-
-      $\alpha=1-\Phi(\sqrt{2}),\ \beta=\Phi(\sqrt{2})$
+      $\alpha=1-\Phi(\sqrt{2}),\beta=\Phi(\sqrt{2})$
     figures: []
   - label: C
     text: |-
-      $\alpha=\Phi(\sqrt{2}),\ \beta=1-\Phi(\sqrt{2})$
+      $\alpha=\Phi(\sqrt{2}),\beta=1-\Phi(\sqrt{2})$
     figures: []
   - label: D
     text: |-
@@ -224,86 +220,69 @@ questions:
   points: 5
   stem:
     text: |-
-      $\sum_{n=1}^{\infty}\dfrac{1}{(n+2)n!}=$\ExamBlank
+      $\sum_{n=1}^{\infty} \dfrac{1}{(n+2)n!} = \underline{\hspace{2cm}} .$
 - number: 12
   section: fill
   points: 5
   stem:
     text: |-
-      设可微函数 $z=f(x,y)$ 与 $xOy$ 面的交线方程为 $y=\int_{0}^{x}e^{t^2}\,\mathrm{d}t+x$，且 $f_x'(0,0)=1$，则 $f_y'(0,0)=$\ExamBlank
+      设可微函数 $z=f(x,y)$ 与 $xOy$ 面的交线方程为 $y=\int_{0}^{x}\mathrm{e}^{t^2}dt+x$, 且 $f_x'(0,0)=1$, 则 $f_y'(0,0)=\underline{\qquad\qquad}$
 - number: 13
   section: fill
   points: 5
   stem:
     text: |-
-      设 $\Omega=\{(x,y,z)\mid x^2+y^2+z^2\leq1,x\geq0,y\geq0,z\geq0\}$，则 $\iiint_{\Omega}(x^2+2y^2+3z^2)\,\mathrm{d}x\mathrm{d}y\mathrm{d}z=$\ExamBlank
+      设 $\Omega = \left\{ (x,y,z) \mid x^2+y^2+z^2 \leqslant 1, x \geqslant 0, y \geqslant 0, z \geqslant 0 \right\}$，则 $\iiint_{\Omega} (x^2+2y^2+3z^2) \mathrm{d}x\mathrm{d}y\mathrm{d}z = \underline{\qquad\qquad}$。
 - number: 14
   section: fill
   points: 5
   stem:
     text: |-
-      设函数 $f(x,y)=\begin{cases}\dfrac{x^2|y|}{x^2+y^2},&(x,y)\neq(0,0),\\0,&(x,y)=(0,0),\end{cases}$，则 $f(x,y)$ 在点 $(0,0)$ 处沿 $l=(1,1)$ 的方向导数是\ExamBlank
+      设函数 $f(x,y)=\begin{cases} \dfrac{x^2|y|}{x^2+y^2}, & (x,y) \neq (0,0), \\ 0, & (x,y) = (0,0), \end{cases}$ 则 $f(x,y)$ 在点 $(0,0)$ 处沿 $l=(1,1)$ 的方向导数是$\underline{\qquad\qquad}$
 - number: 15
   section: fill
   points: 5
   stem:
-    text: |-
-      设 $f(x_1,x_2,x_3)=x_1^2+x_2^2+x_3^2+2ax_1x_2+2ax_1x_3+2ax_2x_3$ 的正负惯性指数分别为 $p=2,q=0$，则 $f(x_1,x_2,x_3)=1$ 在点 $(0,1,1)$ 处的切平面方程为\ExamBlank
+    text: 设 $f(x_1,x_2,x_3)=x_1^2+x_2^2+x_3^2+2ax_1x_2+2ax_1x_3+2ax_2x_3$ 的正负惯性指数分别为 $p=2,q=0$，则 $f(x_1,x_2,x_3)=1$ 在点 $(0,1,1)$ 处的切平面方程为________
 - number: 16
   section: fill
   points: 5
   stem:
     text: |-
-      设 $X_1,X_2,\cdots,X_n$ 是来自总体 $X\sim N(1,\sigma^2)$ 的简单随机样本，$\sigma^2>0$ 未知，记 $\hat{\sigma}^2$ 的最大似然估计量为 $\hat{\sigma}^2$，则 $D(\hat{\sigma}^2)=$\ExamBlank
+      设 $X_1,X_2,\cdots,X_n$ 是来自总体 $X\sim N(1,\sigma^2)$ 的简单随机样本, $\sigma^2>0$ 未知, 记 $\sigma^2$ 的最大似然估计量为 $\hat{\sigma}^2$, 则 $D(\hat{\sigma}^2)=\underline{\quad\quad\quad\quad\quad\quad}$
 - number: 17
   section: solution
-  points: 10
+  points: 12
   stem:
     text: |-
-      求极限 $\lim_{x\to0}\left[\dfrac{1+\int_{0}^{x}(1+t)^{\dfrac{1}{t}}\,\mathrm{d}t}{x}-\dfrac{1}{\sin x}\right]$。
+      求极限 $\lim_{x \to 0} \left[ \dfrac{1 + \int_0^x (1+t)^{\dfrac{1}{t}} dt}{x} - \dfrac{1}{\sin x} \right]$
 - number: 18
   section: solution
   points: 12
   stem:
-    text: 设可微函数 $z=z(x,y)$ 在平面上任一点 $(x,y)$ 处沿 $x$ 轴正向 $i$ 与 $y$ 轴正向 $j$ 的方向导数分别为 $[e^{-x}-f(x)]y$ 与 $f(x)$，其中 $f(x)$ 的一阶导数连续，且 $f(0)=1$。
-  subparts:
-  - text: 求 $z(x,y)$ 的表达式；
-  - text: 判断 $z(x,y)$ 是否有极值，若有，求之；若无，说明理由。
+    text: |-
+      设可微函数 $z=z(x,y)$ 在平面上任一点 $(x,y)$ 处沿 $x$ 轴正向 $\mathbf{i}$ 与 $y$ 轴正向 $\mathbf{j}$ 的方向导数分别为 $[\mathrm{e}^{-x}-f(x)]y$ 与 $f(x)$, 其中 $f(x)$ 的一阶导数连续, 且 $f(0)=1$. (1) 求 $z(x,y)$ 的表达式; (2) 判断 $z(x,y)$ 是否有极值, 若有, 求之, 若无, 说明理由
 - number: 19
   section: solution
   points: 12
   stem:
     text: |-
-      设函数 $f(x)$ 在 $[0,2]$ 上一阶可导，$f(0)=0$，$f(x)$ 在 $x=x_0$ 处取得最大值 $Mx_0$，$x_0\in(0,2)$，且 $f'(x)\leq M$。证明：
-  subparts:
-  - text: |-
-      当 $x\in[0,x_0]$ 时，有 $f(x)=Mx$；
-  - text: $M=0$。
+      设函数 $f(x)$ 在 $[0,2]$ 上一阶可导, $f(0)=0, f(x)$ 在 $x=x_0$ 处取得最大值 $Mx_0, x_0 \in (0,2)$, 且 $f'(x) \leqslant M$. 证明: (1) 当 $x \in [0,x_0]$ 时, 有 $f(x) = Mx$; (2) $M=0$
 - number: 20
   section: solution
   points: 12
   stem:
     text: |-
-      设锥面 $\Sigma(0\leq z\leq1)$ 的顶点是 $A(0,0,1)$，准线是 $\begin{cases}(x+1)^2+y^2=1,\\z=0,\end{cases}$，直线 $L$ 过顶点 $A$ 和准线上的一点 $M_1(x_1,y_1,0)$。
-  subparts:
-  - text: |-
-      求直线 $L$ 与锥面 $\Sigma$ 的方程；
-  - text: |-
-      计算 $\iint_{\Sigma}\dfrac{x^2}{\sqrt{x^2+(z-1)^2}}\,\mathrm{d}S$。
+      设锥面 $\Sigma(0\leqslant z\leqslant 1)$ 的顶点是 $A(0,0,1)$，准线是 $\begin{cases} (x+1)^2+y^2=1, \\ z=0, \end{cases}$ 直线 $L$ 过顶点 $A$ 和准线上的一点 $M_1(x_1,y_1,0)$． (1) 求直线 $L$ 与锥面 $\Sigma$ 的方程； (2) 计算 $\iint_\Sigma \dfrac{x^2}{\sqrt{x^2+(z-1)^2}} dS$．
 - number: 21
   section: solution
   points: 12
   stem:
     text: |-
-      已知矩阵 $A=\begin{pmatrix}1&1&1&1\\1&1&1&1\\2&1&0&-1\\-1&0&1&2\end{pmatrix},B=\begin{pmatrix}1&1\\1&1\\0&1\\1&0\end{pmatrix},A=BC$。
-  subparts:
-  - text: 求矩阵 $C$；
-  - text: 计算 $A^{10}$。
+      已知矩阵 $A = \begin{pmatrix} 1 & 1 & 1 & 1 \\ 1 & 1 & 1 & 1 \\ 2 & 1 & 0 & -1 \\ -1 & 0 & 1 & 2 \end{pmatrix}, B = \begin{pmatrix} 1 & 1 \\ 1 & 1 \\ 0 & 1 \\ 1 & 0 \end{pmatrix}, A = BC$. (1) 求矩阵 $C$; (2) 计算 $A^{10}$
 - number: 22
   section: solution
   points: 12
   stem:
-    text: 将长度为 $1$ 的铁丝沿其上任一点折成两段，较短的一段长度记为 $X$，并以这两段作为矩形的两条边，记矩形面积为 $Z$，求：
-  subparts:
-  - text: $X$ 的概率密度；
-  - text: $E(Z)$。
+    text: 将长度为 1 的铁丝沿其上任一点折成两段，较短的一段长度记为 $X$，并以这两段作为矩形的两条边，记矩形面积为 $Z$，求： (1) $X$ 的概率密度； (2) $E(Z)$。
+content_hash: b95b77204f28ef5b3b70e4559b522726f5e0ce331945b792759cae84376e888f

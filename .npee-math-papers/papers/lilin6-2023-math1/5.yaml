@@ -1,0 +1,299 @@
+schema_version: '3.0'
+paper:
+  series_key: lilin6
+  year: 2023
+  subject: math1
+  paper_no: 5
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $y=f(x)$ 有二阶连续导数，且 $\lim\limits_{x\to 0}\dfrac{f(x)}{x^2}=1$，则曲线 $y=f(x)$ 在 $x=0$ 对应点处的曲率半径为（ ）
+  choices:
+  - label: A
+    text: $1$
+    figures: []
+  - label: B
+    text: $2$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{1}{2}$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{1}{3}$
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $\lim\limits_{x \to \infty} f'(x) = 0$，且 $\lim\limits_{x \to \infty} \left( \dfrac{a x^2}{1+x} - bx - 1 \right) = \lim\limits_{x \to \infty} [f(x+1) - f(x)]$，则曲线 $y = \dfrac{a x^2}{1+x}$ 的斜渐近线方程为（ ）
+  choices:
+  - label: A
+    text: $y = -x + 1$
+    figures: []
+  - label: B
+    text: $y = x + 1$
+    figures: []
+  - label: C
+    text: $y = -x - 1$
+    figures: []
+  - label: D
+    text: $y = x - 1$
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)$ 在 $[0,1]$ 上可导, $f'(x)$ 单调减少, 且 $f(0)=0$, 则当 $x \in (0,1)$ 时, 下列选项中正确的是 ( )
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{f(x)}{x} > f'(0)$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{f(x)}{x} < f(1)$
+    figures: []
+  - label: C
+    text: |-
+      $f(1) < \dfrac{f(x)}{x} < f'(0)$
+    figures: []
+  - label: D
+    text: |-
+      $f'(0) < \dfrac{f(x)}{x} < f(1)$
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $y(x)$ 满足 $y'' + 2ay' + b^2 y = 0(a > b > 0)$，且 $y(0) = 1, y'(0) = 1$，则 $\int_0^{+\infty} y(x)\mathrm{d}x = (\quad)$
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{2a+1}{b}$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{2a}{b^2}$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{2a+1}{b^2}$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{2a}{b}$
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设级数 $\sum_{n=0}^{\infty} a_n x^n$ 在 $x=2$ 处条件收敛，则 $\sum_{n=0}^{\infty} \dfrac{a_n}{n+1}(x-1)^n$ 在 $x=-1$ 处 $(\quad)$
+  choices:
+  - label: A
+    text: 必绝对收敛
+    figures: []
+  - label: B
+    text: 必条件收敛
+    figures: []
+  - label: C
+    text: 必发散
+    figures: []
+  - label: D
+    text: |-
+      敛散性视 $\{a_n\}$ 确定
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知 $\int_{1}^{+\infty}\left(\dfrac{2x^2+ax+b}{2x^2+bx}-1\right)\mathrm{d}x=1(b>0)$，则（ ）
+  choices:
+  - label: A
+    text: |-
+      $a=\mathrm{e}-1, b=\mathrm{e}$
+    figures: []
+  - label: B
+    text: |-
+      $a=b=2(\mathrm{e}-1)$
+    figures: []
+  - label: C
+    text: |-
+      $a=\mathrm{e}, b=\mathrm{e}-1$
+    figures: []
+  - label: D
+    text: |-
+      $a=b=\mathrm{e}-1$
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $n$ 阶正交矩阵 $A=(a_{ij})_{n \times n}$，且 $A$ 的特征值全大于零. $A$ 的伴随矩阵为 $A^* = (A_{ji})_{n \times n}$，则下列选项正确的是（ ）
+  choices:
+  - label: A
+    text: |-
+      $\sum_{i=1}^n A_{ji} = \sum_{i=1}^n a_{ij}$
+    figures: []
+  - label: B
+    text: |-
+      $\sum_{i=1}^n A_{ji} = \sum_{i=1}^n a_{ji}$
+    figures: []
+  - label: C
+    text: |-
+      $\sum_{i=1}^n A_{ji} = -\sum_{i=1}^n a_{ji}$
+    figures: []
+  - label: D
+    text: |-
+      $\sum_{i=1}^n A_{ji} = -\sum_{i=1}^n a_{ij}$
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $n$ 阶矩阵 $A$ 有特征值 $\lambda_1=1, \lambda_2=-1$，对应的特征向量分别为 $\alpha_1, \alpha_2$ $,k$ 为任意常数，则下列选项正确的是（\quad ）
+  choices:
+  - label: A
+    text: |-
+      $k\alpha_1$ 是 $A$ 对应于 $1$ 的特征向量
+    figures: []
+  - label: B
+    text: |-
+      $\alpha_1 - \alpha_2$ 是 $A$ 对应于 $2$ 的特征向量
+    figures: []
+  - label: C
+    text: |-
+      $\alpha_1 + \alpha_2$ 是 $A$ 对应于 $0$ 的特征向量
+    figures: []
+  - label: D
+    text: |-
+      $\alpha_1 + \alpha_2$ 是 $A^2$ 对应于 $1$ 的特征向量
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $X_1, X_2, \cdots, X_n$ 为来自总体 $X \sim N(\mu, \sigma^2)(\sigma>0)$ 的简单随机样本$,\overline{X} = \dfrac{1}{n}\sum_{i=1}^{n} X_i$ $,S_1^2 = \sum_{i=1}^{n} (X_i - \mu)^2$ $,S_2^2 = \sum_{i=1}^{n} (X_i - \overline{X})^2$，则下列选项正确的是（ ）
+  choices:
+  - label: A
+    text: $E(S_1^2) = n.$
+    figures: []
+  - label: B
+    text: |-
+      $E(S_2^2) = n\sigma^2.$
+    figures: []
+  - label: C
+    text: |-
+      $D(S_1^2) = 2n\sigma^4.$
+    figures: []
+  - label: D
+    text: |-
+      $D(S_2^2) = (2n-1)\sigma^4.$
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设随机变量 $X_1, X_2, \cdots, X_n$ 相互独立且服从同一分布$,DX_i = \sigma^2 (i=1,2,\cdots,n)$ $,\overline{X} = \dfrac{1}{n} \sum_{i=1}^n X_i$ $,S^2 = \dfrac{1}{n-1} \sum_{i=1}^n (X_i - \overline{X})^2$，则下列选项正确的是（ ）
+  choices:
+  - label: A
+    text: |-
+      $S$ 与 $\overline{X}$ 相互独立
+    figures: []
+  - label: B
+    text: |-
+      $S$ 是 $\sigma$ 的无偏估计量
+    figures: []
+  - label: C
+    text: |-
+      $S$ 是 $\sigma$ 的最大似然估计量
+    figures: []
+  - label: D
+    text: |-
+      $S$ 是 $\sigma$ 的一致估计量
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设函数 $z = z(x, y)$ 由方程 $\mathrm{e}^{xyz} = \int_{xy}^{z} f(xy + z - t) \mathrm{d}t$ 确定，其中 $f$ 连续，则 $x \dfrac{\partial z}{\partial x} - y \dfrac{\partial z}{\partial y} = \underline{\quad\quad\quad\quad}$
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $\Sigma$ 为左半球面: $x^2 + y^2 + z^2 = R^2(y \leqslant 0)$，则 $I = \iint_{\Sigma} (x+y+z) dS = \underline{\qquad\qquad}$
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      已知 $f(x,y) = 3axy - x^3 - y^3 (a > 0)$ 有极大值 $8$，则 $a = \underline{\qquad\qquad}$
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设有一平面温度场 $T(x, y) = 100 - x^2 - 2y^2$，温度场内一粒子从 $A(4, 2)$ 处出发始终沿温度上升最快的方向运动，则该粒子运动的路径方程 $(0 \leqslant x \leqslant 4)$ 为 \underline{\qquad\qquad}
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $\alpha_1 = (1,2)^T, \alpha_2 = (a,1)^T, x = (x_1,x_2)^T$，若二次型 $f(x_1,x_2) = \sum_{i=1}^2 (\alpha_i, x)^2$ 经可逆线性变换化为 $g(y_1,y_2) = y_1^2 + y_2^2 + 2y_1y_2$，则 $a = \underline{\qquad\qquad}$
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设随机变量 $X$ 的概率密度为 $f(x)=\begin{cases} \dfrac{x^n}{n!} \mathrm{e}^{-x}, & x \geqslant 0, \\ 0, & x < 0, \end{cases}$ 则根据切比雪夫不等式, $P\{0<x<2(n+1)\} \geqslant$ _______
+- number: 17
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $f''(0)$ 存在$,\lim_{x \to 0}\dfrac{f(x)}{x^2} = 1$. (I) 求 $f'(0), f''(0)$ 的值; (II) 证明: $\lim_{x \to 0}\dfrac{f(x) - f[\ln(1+x)]}{\dfrac{1}{2}x^3} = f''(0)$
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $S(x) = 2 + \sum_{n=1}^{\infty} a_n x^{2n}$ 满足 $S'(x) + S(x) = \mathrm{e}^x + 1$。求 $a_n$ 及 $\sum_{n=1}^{\infty} a_n$。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $\Sigma$ 为曲面 $z=\sqrt{x^2+y^2}$ 介于 $z=0$ 与 $z=1$ 之间部分的上侧, $f(x)$ 为连续函数, 计算 $I=\iint_{\Sigma}[-xf(x+y)-2x]\mathrm{d}y\mathrm{d}z+[-2y-yf(x+y)]\mathrm{d}z\mathrm{d}x+[-zf(x+y)]\mathrm{d}x\mathrm{d}y$
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: 设飞机以匀速 $v$（$v$ 为常数）沿垂直于 $x$ 轴的方向向上飞行，飞机在点 $(a,0)(a>0)$ 处被发现，随后即从原点 $(0,0)$ 处发射导弹，导弹的速度为 $2v$，方向始终指向飞机，如图 5-1 所示. (I) 求导弹飞行轨迹 $y=y(x)$ 的表达式； (II) 求导弹自发射到击中飞机所需的时间 $T$
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $A$ 是 $3$ 阶矩阵$,\alpha_1, \alpha_2, \alpha_3$ 是 $3$ 维列向量，且 $\alpha_1 \neq 0, A\alpha_1 = k\alpha_1, A\alpha_2 = \alpha_1 + k\alpha_2, A\alpha_3 = \alpha_2 + k\alpha_3$. (I) 证明: $\alpha_1, \alpha_2, \alpha_3$ 是 $\mathbb{R}^3$ 的一组基； (II) 若 $A\alpha_1, A\alpha_2, A\alpha_3$ 线性相关，证明: $A$ 与 $B$ 相似，其中 $B = \begin{bmatrix} 0 & 1 & 0 \\ 0 & 0 & 1 \\ 0 & 0 & 0 \end{bmatrix}$
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设总体 $X \sim U(0,\theta)(\theta>0), X_1, X_2, \cdots, X_n$ 为来自总体 $X$ 的简单随机样本，若 $\theta$ 的最大似然估计量为 $\hat{\theta}$. (I) 求 $E\hat{\theta}$ 和 $D\hat{\theta}$，并证明对任意的 $\varepsilon>0, \lim\limits_{n \to \infty} P\{|\hat{\theta}-\theta| \geqslant \varepsilon\}=0$; (II) 若以 $(\hat{\theta}, a\hat{\theta})(a>0)$ 作为 $\theta$ 的置信区间，置信度为 $0.95$，求 $a$ 的值
+content_hash: 96d182ca85ad85e5b473829371b4db7d9ba9a5a8251fbe20c0f0a30b8741810c

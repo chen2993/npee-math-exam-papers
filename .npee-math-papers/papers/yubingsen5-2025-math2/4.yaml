@@ -4,7 +4,6 @@ paper:
   year: 2025
   subject: math2
   paper_no: 4
-content_hash: a09885efe0a988d1347970f160b4eb33e223d7e462373db9154b3e0275691ac3
 questions:
 - number: 1
   section: choice
@@ -77,7 +76,7 @@ questions:
     text: $0$
     figures: []
   - label: C
-    text: $1$
+    text: $-1$
     figures: []
   - label: D
     text: $1$
@@ -297,3 +296,4 @@ questions:
   - text: 求 $a,b,c$ 的值；
   - text: 求出所作的正交线性变换；
   - text: 求 $f(x_1,x_2,x_3)=0$ 的所有解。
+content_hash: 86578bf7bffeb725b258c4da77e0a81e0fbd49757c9c01b85829c10c976e72d1

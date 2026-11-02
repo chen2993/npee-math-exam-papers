@@ -1,0 +1,292 @@
+schema_version: '3.0'
+paper:
+  series_key: lilin6
+  year: 2024
+  subject: math3
+  paper_no: 6
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)=\begin{cases} \mathrm{e}^{\dfrac{1}{x}}, & 0<x<1, \\ ax^2+b, & x \geqslant 1 \end{cases}$ 在 $x=1$ 处可导，则曲线 $y=f(x)$ 在点 $(1,f(1))$ 处的切线方程为
+  choices:
+  - label: A
+    text: |-
+      $x+\mathrm{e}y-2\mathrm{e}=0$
+    figures: []
+  - label: B
+    text: |-
+      $\mathrm{e}x+y-2\mathrm{e}=0$
+    figures: []
+  - label: C
+    text: |-
+      $x-\mathrm{e}y-2\mathrm{e}=0$
+    figures: []
+  - label: D
+    text: |-
+      $\mathrm{e}x-y-2\mathrm{e}=0$
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x-1)=\dfrac{1}{x^2-2x-3}$，则积分 $I=\int_0^2 f(x+1)\mathrm{d}x$
+  choices:
+  - label: A
+    text: |-
+      等于 $-\dfrac{1}{4}\ln\dfrac{5}{3}$
+    figures: []
+  - label: B
+    text: |-
+      等于 $-\dfrac{1}{4}\ln 2$
+    figures: []
+  - label: C
+    text: |-
+      等于 $-\dfrac{1}{4}\ln\dfrac{1}{3}$
+    figures: []
+  - label: D
+    text: 发散
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)=\begin{cases} -x^2\left(2+\sin\dfrac{1}{x}\right)+1, & x \neq 0, \\ 1, & x=0, \end{cases}$ 则正确的是
+  choices:
+  - label: A
+    text: $f(0)$ 是 $f(x)$ 的极小值
+    figures: []
+  - label: B
+    text: $f(0)$ 是 $f(x)$ 的极大值
+    figures: []
+  - label: C
+    text: |-
+      $f(x)$ 在 $(-\delta,0)(\delta>0)$ 内单调递增
+    figures: []
+  - label: D
+    text: |-
+      $f(x)$ 在 $(0,\delta)$ 内单调递减
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: 设函数 $f(x,y)$ 有二阶连续偏导数，且满足 $f''_{xx}(x,y) = f''_{yy}(x,y), f(x,2x) = x, f'_x(x,2x) = x^2$，则 $f''_{xx}(x,2x) =$
+  choices:
+  - label: A
+    text: |-
+      $-\dfrac{4x}{3}$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{4x}{3}$
+    figures: []
+  - label: C
+    text: $-2x$
+    figures: []
+  - label: D
+    text: $2x$
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A=\begin{bmatrix} 1 & 2 & 2 \\ 2 & 1 & 1 \\ a+1 & a+2 & a+3 \end{bmatrix}$ $,A^*$ 是 $A$ 的伴随矩阵，则非齐次线性方程组 $A \cdot x = b$
+  choices:
+  - label: A
+    text: 无解
+    figures: []
+  - label: B
+    text: 有唯一解
+    figures: []
+  - label: C
+    text: 有无穷多解
+    figures: []
+  - label: D
+    text: 是否有解与 $a$ 的取值有关
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: 二次型 $f(x_1,x_2,x_3)=(x_1-x_2)^2+(x_2-x_3)^2+(x_3-x_1)^2$ 的规范形为
+  choices:
+  - label: A
+    text: $y_1^2+y_2^2.$
+    figures: []
+  - label: B
+    text: $y_1^2-y_2^2.$
+    figures: []
+  - label: C
+    text: $y_1^2+y_2^2-y_3^2.$
+    figures: []
+  - label: D
+    text: $y_1^2+y_2^2+y_3^2.$
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A,B$ 均为 $n$ 阶矩阵, $E$ 为 $n$ 阶单位矩阵. 矩阵 $\begin{bmatrix} O & A \\ B & E \end{bmatrix},\begin{bmatrix} A & B \\ O & E \end{bmatrix},\begin{bmatrix} A & AB \\ E & B \end{bmatrix}$ 的秩分别为 $r_1,r_2,r_3$, 则正确的是
+  choices:
+  - label: A
+    text: |-
+      $r_2\geqslant r_1\geqslant r_3$
+    figures: []
+  - label: B
+    text: |-
+      $r_3\geqslant r_1=r_2$
+    figures: []
+  - label: C
+    text: |-
+      $r_1\geqslant r_2\geqslant r_3$
+    figures: []
+  - label: D
+    text: |-
+      $r_3\geqslant r_2\geqslant r_1$
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设随机变量 $(X,Y)$ 的概率密度为 $f(x,y)=\begin{cases} ax, & 0<y<x<1, \\ 0, & \text{\text{其他}}, \end{cases}$ 若 $P\left\{X<\dfrac{1}{2},Y<b\right\}=\dfrac{1}{8}$，则下列选项中正确的是
+  choices:
+  - label: A
+    text: |-
+      $a=\dfrac{1}{3}, b\geqslant \dfrac{1}{2}$
+    figures: []
+  - label: B
+    text: |-
+      $a=\dfrac{1}{3}, b\geqslant 1$
+    figures: []
+  - label: C
+    text: |-
+      $a=3, b\geqslant 2$
+    figures: []
+  - label: D
+    text: |-
+      $a=3, b\geqslant \dfrac{1}{2}$
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $X_1, X_2, \cdots, X_n$ 为来自正态总体 $X \sim N(\mu, \sigma^2)$ 的简单随机样本, $\overline{X} = \dfrac{1}{n} \sum_{i=1}^n X_i, S_1^2 = \sum_{i=1}^n (X_i - \mu)^2, S_2^2 = \sum_{i=1}^n (X_i - \overline{X})^2$, 则下列选项中正确的是
+  choices:
+  - label: A
+    text: $E(S_1^2) = n$
+    figures: []
+  - label: B
+    text: |-
+      $D(S_1^2) = 2n\sigma^4$
+    figures: []
+  - label: C
+    text: |-
+      $E(S_2^2) = n\sigma^2$
+    figures: []
+  - label: D
+    text: |-
+      $D(S_2^2) = (2n-1)\sigma^4$
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设随机变量 $X$ 服从 $F(n,n)$，且 $P\{X>a\}=0.05, a \neq 0$，则 $P\left\{X>\dfrac{1}{a}\right\}=$
+  choices:
+  - label: A
+    text: '0.05'
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{0.05}{2}.$
+    figures: []
+  - label: C
+    text: '0.95'
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{0.95}{2}.$
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设函数 $y=y(x)(x>0)$ 由方程 $\dfrac{1}{3}(\sqrt{x}-2)^2=\int_0^y \mathrm{e}^{-\dfrac{t^2}{2}} \mathrm{d}t$ 确定，则 $y=y(x)$ 的极小值为________
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      已知某产品的生产函数为 $Q=A K^{\alpha} L^{\beta}$, 其中 $Q$ 为产量, $K$ 表示资金, $L$ 表示劳力, $A, \alpha, \beta$ 为正常数, 且 $\alpha+\beta=1$, 则 $K \dfrac{\partial Q}{\partial K}+L \dfrac{\partial Q}{\partial L}=\underline{\qquad\qquad}$
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $D=\{(x,y) \mid x \geqslant 1, y \geqslant x^2\}$，则 $\iint_D \dfrac{\mathrm{d}x\mathrm{d}y}{x^4+y^2} = \underline{\qquad}.$
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      级数 $\sum_{n=1}^{\infty} \dfrac{1}{n!(n+2)}$ 的和为$\underline{\hspace{1.5cm}}$
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $A=\begin{bmatrix} 1 & 0 & 1 \\ 2 & a & 0 \\ 1 & 1 & -1 \end{bmatrix}$, $3$ 阶矩阵 $B$ 的秩为 $2$, 且 $r(AB)=1, A^*$ 是 $A$ 的伴随矩阵, 则方程组 $A^*x=0$ 的通解为 $\underline{\qquad\qquad}$
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设随机事件 $A$ 与 $B$ 相互独立$,A$ 与 $C$ 互不相容，且 $P(A)=0.4, P(B)=0.5, P(C)=0.5$，则 $P\{(A-C) \mid (A B \cup C)\}=\underline{\qquad\qquad}$
+- number: 17
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $y=f(x)$ 在 $(0,+\infty)$ 内可导, 满足 $xf'(x)-f(x)=x, f(1)=0$. (I) 求 $f(x)$; (II) 记 $F(x)=\dfrac{f(x)}{x}, x \in [2,6]$, 求 $y=F(x)$ 的一条切线, 使该切线与 $x=2, x=6$ 及 $y=F(x)$ 所围图形的面积最小
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $u = u(\sqrt{x^2+y^2})$ 有二阶连续偏导数，且满足 $x\dfrac{\partial u}{\partial x} + y\dfrac{\partial u}{\partial y} = \dfrac{1}{2}(x^2+y^2), u(0,0) = 0$. (I) 求 $u(x,y)$; (II) 求 $f(x,y) = u(x,y)\mathrm{e}^{-u(x,y)}$ 的极值
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $D=\{(x,y) \mid 0\leqslant y\leqslant 1-x,0\leqslant x\leqslant 1\}$，计算 $I=\iint_D \mathrm{e}^{\dfrac{x}{x+y}} \mathrm{d}x\mathrm{d}y$
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      (I) 证明: 方程 $\cos x = x^n (n=1,2,\cdots)$ 在 $(0,1)$ 内有唯一实根 $x_n$; (II) 求 $\lim\limits_{n\to\infty}(1-x_n)^{\dfrac{1}{n}\ln\cos x_n}$
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $3$ 阶矩阵 $A = (\alpha_1, \alpha_2, \alpha_3)$ 可逆, 交换 $A$ 的第 $2$ 列与第 $3$ 列, 再将第 $2$ 列与第 $3$ 列依次分别乘以 $(-2)$ 得 $C$, 若 $3$ 阶矩阵 $B$ 满足 $BA = C$. $(I)$ 求 $B$ 的全部特征值; $(II)$ 求可逆矩阵 $P$ 及对角矩阵 $\Lambda$, 使得 $P^{-1}BP = \Lambda$
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设随机变量 $X$ 在 $\left(-\dfrac{\pi}{2}, \dfrac{\pi}{2}\right)$ 上服从均匀分布, $P\{Y=0\}=P\{Y=1\}=\dfrac{1}{2}$, 且 $X$ 与 $Y$ 相互独立, 记 $Z=|\sin X|$. (I) 求 $Z$ 的概率密度; (II) 求 $V=Y+Z$ 的概率密度
+content_hash: 43836562158bbbaf9f12cb138b62929ca98cf800319944fabb2390c7499c7fce

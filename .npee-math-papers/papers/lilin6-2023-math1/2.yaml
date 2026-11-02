@@ -1,0 +1,299 @@
+schema_version: '3.0'
+paper:
+  series_key: lilin6
+  year: 2023
+  subject: math1
+  paper_no: 2
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      当 \(x \to 0\) 时，\(e^{x} - \dfrac{1 + ax^{2}}{1 + bx}\) 与 \(x^{3}\) 是同阶无穷小，则（ ）
+  choices:
+  - label: A
+    text: |-
+      \(a = \dfrac{1}{2}, b = 1\)
+    figures: []
+  - label: B
+    text: |-
+      \(a = -\dfrac{1}{2}, b = 1\)
+    figures: []
+  - label: C
+    text: |-
+      \(a = \dfrac{1}{2}, b = -1\)
+    figures: []
+  - label: D
+    text: |-
+      \(a = -\dfrac{1}{2}, b = -1\)
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 \(f(x)\) 在 \([-1,1]\) 上二阶可导，且 \(f''(x)>0\)，\(\int_{-1}^{1} f(x)\,dx=2\)，则 ( )
+  choices:
+  - label: A
+    text: |-
+      \(f(0) \leqslant 0\)
+    figures: []
+  - label: B
+    text: |-
+      \(f(0) > 0\)
+    figures: []
+  - label: C
+    text: |-
+      \(f(0) \leqslant 1\)
+    figures: []
+  - label: D
+    text: |-
+      \(f(0) > 1\)
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x)$ 在 $[0,1]$ 上可导，且 $f'(x) \int_{0}^{1} t f(x)\,\mathrm{d}x$. ③ 当 $x\geqslant 0$ 时，$\int_{0}^{x} x f(t)\,\mathrm{d}t \geqslant 2\int_{0}^{x} t f(t)\,\mathrm{d}t$. ④ 当 $x\geqslant 0$ 时，$\int_{0}^{x} x f(t)\,\mathrm{d}t \leqslant 2\int_{0}^{x} t f(t)\,\mathrm{d}t$
+  choices:
+  - label: A
+    text: ①④
+    figures: []
+  - label: B
+    text: ②③
+    figures: []
+  - label: C
+    text: ②④
+    figures: []
+  - label: D
+    text: ①③
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设级数 \(\sum\limits_{n=1}^{\infty}a_{n}x^{n}\) 在 x = 1 处条件收敛，且 \(\lim\limits_{n\to\infty}\dfrac{a_{n+1}}{a_n} = a\) 存在，则 ( )
+  choices:
+  - label: A
+    text: a=1
+    figures: []
+  - label: B
+    text: a=-1
+    figures: []
+  - label: C
+    text: a<1
+    figures: []
+  - label: D
+    text: a>1
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设曲面 \(xyz = a\ (a > 0)\) 与球面 \(x^{2} + y^{2} + z^{2} = 1\) 在某点相切，则 \(a = (\quad)\)
+  choices:
+  - label: A
+    text: |-
+      \(\sqrt{3}\)
+    figures: []
+  - label: B
+    text: |-
+      \(\dfrac{\sqrt{3}}{3}\)
+    figures: []
+  - label: C
+    text: |-
+      \(\dfrac{1}{3}\)
+    figures: []
+  - label: D
+    text: |-
+      \(\dfrac{\sqrt{3}}{9}\)
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设级数 $\sum_{n=2}^{\infty}\dfrac{1}{n\ln^{p}n}$ 与积分 $\int_{0}^{\dfrac{\pi}{4}}\dfrac{dx}{\sqrt{\cos x}(\sqrt{\sin x})^{p}}(p>0)$ 均收敛，则（ ）
+  choices:
+  - label: A
+    text: $1<p<2$
+    figures: []
+  - label: B
+    text: |-
+      $0<p\leqslant 2$
+    figures: []
+  - label: C
+    text: $0<p<1$
+    figures: []
+  - label: D
+    text: |-
+      $1\leqslant p\leqslant 2$
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 \(\boldsymbol{b} = (3, 2)^{\mathrm{T}}\)，线性方程组 \(A_{2\times 2} \boldsymbol{x} = \boldsymbol{b}\) 有通解 \(k(-2, 1)^{\mathrm{T}} + (3, -4)^{\mathrm{T}}\)，则 \(\boldsymbol{\beta} = (5, -10)^{\mathrm{T}}\) 是下列哪个方程组的解（ ）
+  choices:
+  - label: A
+    text: |-
+      \(Ax=\begin{pmatrix}5 \\ -10\end{pmatrix}.\)
+    figures: []
+  - label: B
+    text: |-
+      \(Ax=\begin{pmatrix}3 \\ -4\end{pmatrix}.\)
+    figures: []
+  - label: C
+    text: |-
+      \(Ax=\begin{pmatrix}-2 \\ 1\end{pmatrix}.\)
+    figures: []
+  - label: D
+    text: |-
+      \(Ax=\begin{pmatrix}9 \\ 6\end{pmatrix}.\)
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设点 \(P_{i}(x_{i}, y_{i})\ (i = 1, 2, 3)\) 为 \(xOy\) 平面上三个不同的点，\(A = \begin{pmatrix} x_{1} & y_{1} & 1 \\ x_{2} & y_{2} & 1 \\ x_{3} & y_{3} & 1 \end{pmatrix}\)，则三点 \(P_{1}, P_{2}, P_{3}\) 在同一直线上的充分必要条件是
+  choices:
+  - label: A
+    text: |-
+      \(|A|=0\)
+    figures: []
+  - label: B
+    text: |-
+      \(|A|\neq 0\)
+    figures: []
+  - label: C
+    text: |-
+      \(r(A)=1\)
+    figures: []
+  - label: D
+    text: |-
+      \(r(A)=2\)
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设平面区域 \(D = \{(x, y) \mid 0 \leqslant x \leqslant 2, 0 \leqslant y \leqslant 4 - x^{2}\}\)，向 \(D\) 内随机投掷一点 \((X, Y)\)，记 \(A = \{X \leqslant 1\}\)，\(B = \{Y \leqslant 3\}\)，则随机事件 \(A, B\) 恰好有一个发生的概率为（ ）
+  choices:
+  - label: A
+    text: |-
+      \(\dfrac{1}{16}\)
+    figures: []
+  - label: B
+    text: |-
+      \(\dfrac{7}{16}\)
+    figures: []
+  - label: C
+    text: |-
+      \(\dfrac{5}{16}\)
+    figures: []
+  - label: D
+    text: |-
+      \(\dfrac{3}{16}\)
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 \(X_{1}, X_{2}, X_{3}, X_{4}\) 为来自总体 \(N(1, \sigma^{2})\ (\sigma > 0)\) 的简单随机样本，\(\bar{X}\) 为样本均值，\(S^{2}\) 为样本方差，则下列选项正确的是（ ）
+  choices:
+  - label: A
+    text: |-
+      \(\dfrac{X_{1}-X_{2}}{|X_{3}+X_{4}-2|}\sim t(2)\)
+    figures: []
+  - label: B
+    text: |-
+      \(\dfrac{4(\overline{X}-1)^{2}}{\sigma^{2}}\sim\chi^{2}(2)\)
+    figures: []
+  - label: C
+    text: |-
+      \(\dfrac{4(\overline{X}-1)^{2}}{S^{2}}\sim F(3,1)\)
+    figures: []
+  - label: D
+    text: |-
+      \(\dfrac{(X_{1}-X_{2})^{2}+(X_{3}-X_{4})^{2}}{2\sigma^{2}}\sim E\left(\dfrac{1}{2}\right)\)
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设曲线 $L:\begin{cases} y^2 = x, \\ z = 3(y - 1), \end{cases}$ 则 $L$ 在 $y = 1$ 对应点处的切线方程为 \underline{\qquad\qquad}。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      双纽线 \(r^{2}=a^{2}\cos 2\theta\ (a>0)\) 绕极轴旋转所成旋转曲面的面积为 ______。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 \(\Sigma\) 为 \(x^{2} + y^{2} + z^{2} = 1\ (z \geqslant 0)\)，\(l, m, n\) 为 \(\Sigma\) 上任一点处的外法线的方向余弦，则 \(I = \iint_{\Sigma} z(lx + my + nz) \, \mathrm{d}S =\) \underline{\quad\quad}
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设向量场 \(A(x,y,z) = xy\mathbf{i} - yz\mathbf{j} + zx\mathbf{k}\)，则 \(\operatorname{div}[\operatorname{rot} A(x,y,z)] = \underline{\quad\quad}\)
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 \(\boldsymbol{\alpha}_{1} = (1, 1, 5)^{\mathrm{T}}, \boldsymbol{\alpha}_{2} = (2, 1, a + 8)^{\mathrm{T}}, \boldsymbol{\alpha}_{3} = (1, a, 3)^{\mathrm{T}}\)，若 \(\boldsymbol{\beta} = (1, 2, 4)^{\mathrm{T}}\) 不能由 \(\boldsymbol{\alpha}_{1}, \boldsymbol{\alpha}_{2}, \boldsymbol{\alpha}_{3}\) 线性表示，则 \(a = \underline{\quad\quad}\)
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $X_1, X_2, \cdots, X_n$ 为来自总体 $X \sim B(N, p)(0 < p < 1)$ 的简单随机样本，则 $p$ 的最大似然估计量 $\hat{p} = \underline{\qquad\qquad}$
+- number: 17
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $f(x)$, $g(x)$ 在 $x=0$ 的某邻域内连续$,f(0)=g(0)\neq0$，求 $\lim\limits_{x\to0}\dfrac{\int_{0}^{x^{2}}f(\sqrt{x^{2}-t})\,\mathrm{d}t}{\int_{0}^{1}x^{2}g(xt)\,\mathrm{d}t}$。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 \(f(x)\) 连续且不恒为零，若 \(f(x)\) 满足 $ f(x)=\int_{0}^{1}\mathrm{e}^{-x}f^{2}(t)\mathrm{d}t-\int_{0}^{x}f(t)\mathrm{d}t, $ 求 \(f(x)\) 及 \(f(x)\) 的极值
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: 设可微函数 $f(x,y)$ 在点 $(x,y)$ 处沿 $l_1 = (-1, 0)$ 与 $l_2 = (0, -1)$ 的方向导数分别为 $2ax - 3x^2$ 与 $2ay - 3y^2$（$a > 0$），且 $f(0,0) = 0$，若 $f(x,y)$ 有极小值 $-8$，求 $a$ 的值及 $f(x,y)$ 的表达式。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $D=\{(x,y)\mid |x|+|y|\leq 1\}$ $,L$ 为 $D$ 的边界，取逆时针方向，若 $f(t)$ 连续$,g(t)$ 有一阶连续导数，计算积分 $I=\oint_L[f(x^{2}+y^{2})+g(x+y)](x\,\mathrm{d}x+y\,\mathrm{d}y)$。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设二次型 $f(x_1, x_2, x_3) = \boldsymbol{x}^{\mathrm{T}}\boldsymbol{A}\boldsymbol{x}\ (\boldsymbol{A}^{\mathrm{T}} = \boldsymbol{A})$ 在正交变换 $\boldsymbol{x} = \boldsymbol{Q}\boldsymbol{y}$ 下的标准形为 $y_2^2 + 2y_3^2$，其中 $ \boldsymbol{Q} = \dfrac{1}{\sqrt{2}}\begin{pmatrix} 1 & 0 & a \\ 0 & b & 0 \\ c & 0 & 1 \end{pmatrix} (b > 0, c > 0)$。 (1) 求 $a, b, c$ 的值及矩阵 $\boldsymbol{A}$； (2) 求一个可逆线性变换，将二次型 $\boldsymbol{x}^{\mathrm{T}}(\boldsymbol{A} + \boldsymbol{A}^*)\boldsymbol{x}$ 化为规范形，其中 $\boldsymbol{A}^*$ 为 $\boldsymbol{A}$ 的伴随矩阵。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设二维随机变量 \((X_{1},X_{2})\sim N(0,0;1,1;0)\). 记 \(X=\max\{X_{1},X_{2}\},Y=\min\{X_{1},X_{2}\},Z=X-Y\). （Ⅰ）求 \(Z\) 的概率密度 \(f_{Z}(z)\) 和 \(EZ\)； （Ⅱ）求二维随机变量 \((X,Y)\) 的分布函数
+content_hash: 755d334fb59a2ef060edcd415f4600d4c88cef7a7131d86c42741cb9cd15f2bd

@@ -1,0 +1,302 @@
+schema_version: '3.0'
+paper:
+  series_key: zhangyu8
+  year: 2027
+  subject: math1
+  paper_no: 2
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 \(f\left( x\right)\) 有二阶连续导数, \(\mathop{\lim }\limits_{{x \rightarrow 0}}\dfrac{f\left( x\right) }{{\int }_{0}^{{x}^{2}}\dfrac{\sin t}{t}\mathrm{\;d}t} = - 1\) ,则
+  choices:
+  - label: A
+    text: |-
+      \(f\left( x\right)\) 在点 \(x = 0\) 处取得极大值
+    figures: []
+  - label: B
+    text: |-
+      \(f\left( x\right)\) 在点 \(x = 0\) 处取得极小值
+    figures: []
+  - label: C
+    text: |-
+      点 \(\left( {0,f\left( 0\right) }\right)\) 是曲线 \(y = f\left( x\right)\) 的拐点
+    figures: []
+  - label: D
+    text: |-
+      \(x = 0\) 不是 \(f\left( x\right)\) 的极值点, \(\left( {0,f\left( 0\right) }\right)\) 也不是曲线 \(y = f\left( x\right)\) 的拐点
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 \(M=\int_{-\dfrac{\pi}{2}}^{\dfrac{\pi}{2}}\left(\dfrac{\sin^3x}{1+x^2}\cos^4x+1\right)\,\mathrm{d}x\)，\(N=\int_{-\dfrac{\pi}{2}}^{\dfrac{\pi}{2}}\left(\ln\dfrac{4+x}{4-x}+\cos^3x\right)\,\mathrm{d}x\)，\(P=\int_{-\dfrac{\pi}{2}}^{\dfrac{\pi}{2}}\left(\mathrm{e}^{x^2}\sin x-2\right)\,\mathrm{d}x\)，则
+  choices:
+  - label: A
+    text: |-
+      \(M < N < P\)
+    figures: []
+  - label: B
+    text: |-
+      \(M < P < N\)
+    figures: []
+  - label: C
+    text: |-
+      \(P < N < M\)
+    figures: []
+  - label: D
+    text: |-
+      \(N < P < M\)
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 \( f(x,y)=\begin{cases}\dfrac{xy}{x^2+y^2},&x^2+y^2\ne0,\\0,&x^2+y^2=0,\end{cases}\)则函数 \(f(x,y)\)
+  choices:
+  - label: A
+    text: |-
+      在点 \(\left( {0,0}\right)\) 处连续
+    figures: []
+  - label: B
+    text: |-
+      在点 \(\left( {0,0}\right)\) 处一阶偏导数不存在
+    figures: []
+  - label: C
+    text: |-
+      在点 \(\left( {0,0}\right)\) 的邻域内无界
+    figures: []
+  - label: D
+    text: |-
+      与 \(\sin \left( {x + y}\right)\) 之积在点 \(\left( {0,0}\right)\) 处连续
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设空间曲面 \({\sum\limits }_{1} : z = \dfrac{{x}^{3} + {y}^{3}}{3},{\sum\limits }_{2} : z = \dfrac{{x}^{2} - {y}^{2}}{2},{\sum\limits }_{3} : z = \dfrac{{x}^{2}{y}^{2}}{2}\) 被柱面 \({x}^{2} + {y}^{2} = 1\) 所截部分的面积分别为 \({S}_{1},{S}_{2},{S}_{3}\) ,则
+  choices:
+  - label: A
+    text: |-
+      \({S}_{1} > {S}_{2} > {S}_{3}\)
+    figures: []
+  - label: B
+    text: |-
+      \({S}_{2} > {S}_{1} > {S}_{3}\)
+    figures: []
+  - label: C
+    text: |-
+      \({S}_{3} > {S}_{1} > {S}_{2}\)
+    figures: []
+  - label: D
+    text: |-
+      \({S}_{3} > {S}_{2} > {S}_{1}\)
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 \(\mathbf{A}\) 是 \(3 \times 2\) 矩阵,且 \({\mathbf{A}}^{\mathrm{T}}\mathbf{A} = \mathbf{E},\alpha\) 为 3 维非零列向量, \(\beta = \mathbf{A}{\mathbf{A}}^{\mathrm{T}}\alpha\) ,则以下结论: \(\mathbf{A}\) 的列向量正交; \(\mathbf{A}\mathbf{x} = \beta\) 无解; \({\mathbf{A}}^{\mathrm{T}}\alpha = {\mathbf{A}}^{\mathrm{T}}\beta\) ; \(\beta\) 与 \(\alpha - \beta\) 正交. 所有正确结论的序号为
+  choices:
+  - label: A
+    text: ''
+    figures: []
+  - label: B
+    text: ''
+    figures: []
+  - label: C
+    text: ''
+    figures: []
+  - label: D
+    text: ''
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 \(\mathbf{A}\) 是 \(n\) 阶实对称矩阵,则 “存在 \(n\) 阶矩阵 \(\mathbf{B}\) ,使 \(\mathbf{{AB}} + {\mathbf{B}}^{\mathrm{T}}\mathbf{A}\) 是正定矩阵” 是 “ \(r\left( \mathbf{A}\right) = n\) ” 的
+  choices:
+  - label: A
+    text: 充分非必要条件
+    figures: []
+  - label: B
+    text: 必要非充分条件
+    figures: []
+  - label: C
+    text: 充分必要条件
+    figures: []
+  - label: D
+    text: 既非充分也非必要条件
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 \(f\left( {{x}_{1},{x}_{2},{x}_{3}}\right) = {\mathbf{x}}^{\mathrm{T}}\mathbf{A}\mathbf{x},\mathbf{A} = {\mathbf{A}}^{\mathrm{T}},\mathbf{x} = {\left( {x}_{1},{x}_{2},{x}_{3}\right) }^{\mathrm{T}},\mathbf{A}\) 的特征值为 \({\lambda }_{1},{\lambda }_{2},{\lambda }_{3}\) ,且 \({\lambda }_{1} > {\lambda }_{2} > {\lambda }_{3}\) , 对应的特征向量分别为 \({\xi }_{1},{\xi }_{2},{\xi }_{3}\) . 若 \({\mathbf{x}}^{\mathrm{T}}\mathbf{x} = 1,{\mathbf{x}}^{\mathrm{T}}{\xi }_{1} = 0\) ,则 \(f\left( {{x}_{1},{x}_{2},{x}_{3}}\right)\) 的最大值为
+  choices:
+  - label: A
+    text: |-
+      \({\lambda }_{1}\)
+    figures: []
+  - label: B
+    text: |-
+      \({\lambda }_{2}\)
+    figures: []
+  - label: C
+    text: |-
+      \({\lambda }_{1} + {\lambda }_{2}\)
+    figures: []
+  - label: D
+    text: |-
+      \({\lambda }_{2} + {\lambda }_{3}\)
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 \(\left( {X,Y}\right)\) 服从二维正态分布, \({EX} = {\mu }_{1},{DX} = {\sigma }_{1}^{2},{EY} = {\mu }_{2},{DY} = {\sigma }_{2}^{2},{\rho }_{XY} = \rho\) ,且 \({\mu }_{1} \neq {\mu }_{2},{\sigma }_{1} \neq {\sigma }_{2}\) . 记 \(\xi = {aX} + {bY},\eta = {aX} - {bY},{ab} \neq 0\) . 如果 \(\xi\) 与 \(\eta\) 相互独立,则 \(a\) 与 \(b\) 应满足关系式
+  choices:
+  - label: A
+    text: |-
+      \(\dfrac{{a}^{2}}{{b}^{2}} = \dfrac{{\sigma }_{2}^{2}}{{\sigma }_{1}^{2}}\)
+    figures: []
+  - label: B
+    text: |-
+      \(\dfrac{{a}^{2}}{{b}^{2}} = \dfrac{{\sigma }_{1}^{2}}{{\sigma }_{2}^{2}}\)
+    figures: []
+  - label: C
+    text: |-
+      \(\dfrac{{a}^{2}}{{b}^{2}} = \dfrac{{\mu }_{2}^{2}}{{\mu }_{1}^{2}}\)
+    figures: []
+  - label: D
+    text: |-
+      \(\dfrac{{a}^{2}}{{b}^{2}} = \dfrac{{\mu }_{1}^{2}}{{\mu }_{2}^{2}}\)
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设随机事件 \(A,B\) 满足 \(0 P\left( A\right) P\left( B\right)\) 的充要条件是
+  choices:
+  - label: A
+    text: |-
+      \(P\left( {A\bar{B}}\right) > P\left( A\right) P\left( \bar{B}\right)\)
+    figures: []
+  - label: B
+    text: |-
+      \(P\left( \overline{AB}\right) > P\left( \bar{A}\right) P\left( \bar{B}\right)\)
+    figures: []
+  - label: C
+    text: |-
+      \(P\left( {B \mid \bar{A}}\right) > P\left( {B \mid A}\right)\)
+    figures: []
+  - label: D
+    text: |-
+      \(P\left( {A \mid \bar{B}}\right) > P\left( {A \mid B}\right)\)
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设随机变量 \(X,Y\) 独立同分布于 \(E\left( \lambda \right)\) ,其中 \(\lambda > 0,F\left( x\right)\) 为 \(X\) 的分布函数,则下列随机变量中与 \(F\left( X\right)\) 同分布的是
+  choices:
+  - label: A
+    text: |-
+      \(\dfrac{2X}{X + Y}\)
+    figures: []
+  - label: B
+    text: |-
+      \(\dfrac{X}{Y}\)
+    figures: []
+  - label: C
+    text: |-
+      \(\dfrac{X + Y}{2X}\)
+    figures: []
+  - label: D
+    text: |-
+      \(\dfrac{Y}{X + Y}\)
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      \({\int }_{1}^{+\infty }\dfrac{\ln x}{{\left( 1 + x\right) }^{2}}\mathrm{\;d}x =\) $\underline{\quad}$
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 \(y = y\left( x\right)\) 及 \(z = z\left( x\right)\) 由方程 \({\mathrm{e}}^{z} - {xyz} = 0\) 及 \(x{z}^{2} = \ln y\) 所确定,则 \({\left. \dfrac{\mathrm{d}z}{\mathrm{d}x}\right| }_{x = \dfrac{1}{2}} =\) $\underline{\quad}$
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设连续单增函数 \(f\left( x\right)\) 满足 \({\int }_{+\infty }^{x}\dfrac{\mathrm{d}t}{f\left( t\right) } \cdot {\int }_{-\infty }^{x}f\left( t\right) \mathrm{d}t = - 1\) 且 \(f\left( 0\right) = 1\) ,则 \(f\left( x\right) =\) $\underline{\quad}$
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 \(u = {x}^{2}y + {2x}{y}^{2} - {3y}{z}^{2}\) ,则 \(\operatorname{div}\left( {\operatorname{grad}u}\right) =\) $\underline{\quad}$
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      已知线性方程组 (I) \(\begin{cases}x_1-x_2+3x_3-2x_4=0,\\x_1+x_2-x_3-6x_4=0\end{cases}\)与 (II) \(\begin{cases}3x_1+ax_2+x_3-2x_4=0,\\2x_2-5x_3+(a-1)x_4=0,\\x_1-x_2+2x_3=0\end{cases}\)没有非零公共解，则 \(a\) 的取值范围是 $\underline{\quad}$．
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设二维随机变量 \(\left( {X,Y}\right) \sim N\left( {0,0;\dfrac{1}{25},\dfrac{1}{25};0}\right)\) ,则 \(D\left( \left| {{3X} - {4Y}}\right| \right) =\) $\underline{\quad}$
+- number: 17
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      求 \(\mathop{\lim }\limits_{{x \rightarrow 0}}\left( {1 + \dfrac{1}{{x}^{2}} - \dfrac{1}{{x}^{3}}\ln \dfrac{2 + x}{2 - x}}\right)\)
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      求向量 \(A = \left( {{xy} + z,{zx} + y,{yz} + x}\right)\) 流出立体 \(\Omega\) 的通量，其中 \(\Omega\) 是由曲面 \(z = 1 - {x}^{2} - {y}^{2}\) 与平面 \({2y} = z\) 围成的空间闭区域
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      若光滑曲线 \(y = f\left( x\right)\) 在区间 \(\left\lbrack {a,b}\right\rbrack\) 上是凹的,证明 \(y = f\left( x\right)\) 的切线斜率在 \(\left\lbrack {a,b}\right\rbrack\) 上单调递增
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 \(f(x)\) 在 \((-\infty,+\infty)\) 上连续，\(n\) 为任意正整数，且 \(\int_0^x f(x-t)\mathrm{e}^{t/n}\,\mathrm{d}t=\cos x-1,\ x\in(-\infty,+\infty)\)。 (1)求 \(f(x)\) 的表达式；(2)记 \(I_n=f(0)-\dfrac{1}{n}\)，求 \(\sum_{n=1}^{\infty}\dfrac{I_n}{2^{n+1}}\)。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 \(\mathbf{A}=\begin{pmatrix}-1&-2&6\\-1&0&3\\-1&-1&4\end{pmatrix}\)，\(\mathbf{B}=\begin{pmatrix}1&0&0\\0&1&0\\0&1&1\end{pmatrix}\)。 (1)\(A\) 是否可以相似对角化？判断并说明理由。 (2)求可逆矩阵 \(\mathbf{P}\)，使得 \(\mathbf{P}^{-1}\mathbf{A}\mathbf{P}=\mathbf{B}\)。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      袋中有 \(N\) 枚硬币,其中 \(\theta\) 枚是普通硬币,即掷出正面和反面的概率各为 \(\dfrac{1}{2}\) ,其余的 \(N - \theta\) 枚硬币两面都是正面. 从袋中随机取一枚硬币, 不查看它是何种硬币, 连续掷两次, 记下所得结果,然后将它放回袋中. 记 \(X\) 为将一枚硬币连续掷两次正面出现的次数. 如此重复 \(n\) 次,设记录结果中正面出现 0 次、1 次、2 次的次数分别为 \({n}_{0},{n}_{1},{n}_{2}\left( {{n}_{0} + {n}_{1} + {n}_{2} = n}\right)\) . (1)求 \(X\) 的分布律； (2)求未知参数 \(\theta\) 的最大似然估计值 \(\widehat{\theta }\)
+content_hash: d43a2ea09fada19b044f3050e30bb792aaeb21f819d0af060e33494bb3c71c7f

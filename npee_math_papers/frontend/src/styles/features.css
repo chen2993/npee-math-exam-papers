@@ -1,7 +1,7 @@
 /*
  * Feature styles.
  *
- * Grouped by the feature that owns them: dashboard, catalogue/drawer, search,
+ * Grouped by the feature that owns them: dashboard, catalogue/drawer,
  * release, logs, composition, preferences. Split from `app.css` so a change to
  * one screen does not require reading the whole stylesheet.
  */
@@ -165,44 +165,36 @@
   cursor: pointer;
 }
 
-/* Bulk-action strip above the table: select-all plus the destructive "remove
-   the selected on this page" escape hatch. */
-.table-bulk-bar {
-  min-height: 42px;
-  padding: 6px 14px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 12px;
-  flex-wrap: wrap;
-  background: var(--paper-raised);
-  border-bottom: 1px solid var(--line);
-  font-size: 11px;
+/* Columns: paper · year · subject · series id · questions · actions.
+   The paper column is left without a width so it takes the slack, and the last
+   one is right-aligned because the row action is a right-aligned button. */
+.paper-table th:nth-child(1) {
+  width: 34%;
 }
 
-/* Columns: checkbox · paper · year · subject · series id · questions · actions */
 .paper-table th:nth-child(2) {
-  width: 28%;
+  width: 9%;
 }
 
 .paper-table th:nth-child(3) {
-  width: 9%;
-}
-
-.paper-table th:nth-child(4) {
   width: 10%;
 }
 
-.paper-table th:nth-child(5) {
-  width: 13%;
+.paper-table th:nth-child(4) {
+  width: 14%;
 }
 
-.paper-table th:nth-child(6) {
+.paper-table th:nth-child(5) {
   width: 9%;
 }
 
-.paper-table th:nth-child(7) {
-  width: 12%;
+.paper-table th:nth-child(6) {
+  width: 24%;
+}
+
+.paper-table th:last-child,
+.paper-table td:last-child {
+  text-align: right;
 }
 
 .paper-table td {
@@ -479,52 +471,6 @@
 .tex-figure {
   color: var(--ink-3);
   font-size: 11px;
-}
-
-/* --------------------------------------------------------------------------- search */
-
-.search-bar {
-  padding: 12px;
-  display: flex;
-  align-items: flex-end;
-  gap: 9px;
-}
-
-.search-bar-field {
-  flex: 1;
-}
-
-.search-results ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.search-hit {
-  width: 100%;
-  padding: 12px 16px;
-  display: grid;
-  gap: 5px;
-  border: 0;
-  border-bottom: 1px solid var(--line-soft);
-  background: transparent;
-  text-align: left;
-}
-
-.search-hit:hover {
-  background: var(--paper-sunken);
-}
-
-.search-hit-meta {
-  color: var(--accent);
-  font-size: 10px;
-  font-weight: 700;
-}
-
-.search-hit-excerpt {
-  color: var(--ink-2);
-  font-size: 12px;
-  line-height: 1.7;
 }
 
 /* --------------------------------------------------------------------------- release */
@@ -963,6 +909,58 @@
 
 /* --------------------------------------------------------------------------- composition */
 
+/* 仓库组卷包：一行 chip，点开读成草稿，可写回原包。 */
+.package-strip {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  padding: 9px 12px;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+}
+
+.package-strip-label {
+  color: var(--ink-2);
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.03em;
+}
+
+.package-strip-hint {
+  color: var(--ink-3);
+  font-size: 11px;
+}
+
+.package-chip {
+  display: grid;
+  gap: 1px;
+  padding: 5px 10px;
+  border: 1px solid var(--line);
+  border-radius: calc(var(--radius) * 0.7);
+  background: var(--paper-raised);
+  text-align: left;
+}
+
+.package-chip:hover {
+  border-color: var(--accent);
+}
+
+.package-chip.is-open {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+}
+
+.package-chip strong {
+  font-size: 11px;
+}
+
+.package-chip small {
+  color: var(--ink-3);
+  font-size: 9px;
+}
+
 .draft-toolbar {
   min-height: 62px;
   padding: 8px 10px 8px 15px;
@@ -1043,8 +1041,18 @@
   align-items: start;
 }
 
+/* 已选面板随内容高度：只有三套卷时不该留出半屏空白。 */
 .compose-selected {
-  min-height: 380px;
+  min-height: 180px;
+}
+
+/* 空状态：还没有任何草稿时，页面只留导入入口与仓库组卷包。 */
+.compose-blank {
+  padding: 8px;
+}
+
+.compose-blank .empty-state {
+  min-height: 200px;
 }
 
 .selected-list {
@@ -1256,301 +1264,7 @@
   background: var(--paper-sunken);
 }
 
-/* The trailing status is a label, not a button; it reads as state. */
-.picker-state {
-  display: inline-block;
-  padding: 2px 8px;
-  border-radius: 999px;
-  border: 1px solid var(--line);
-  color: var(--ink-3);
-  font-size: 10px;
-  font-weight: 650;
-  white-space: nowrap;
-}
-
-.picker-state.is-selected {
-  border-color: color-mix(in srgb, var(--accent) 45%, var(--line));
-  background: var(--accent-soft);
-  color: var(--accent);
-}
-
 /* --------------------------------------------------------------------------- preferences */
-
-/* --------------------------------------------------------------------------- reader */
-
-/*
- * The standalone reader: series → papers → questions.
- *
- * Level 1 and 2 sit side by side (a fixed sidebar and the paper grid), because
- * choosing a 卷 and then choosing a 套 are two steps of one decision. Level 3
- * takes the full width: reading a question set is a vertical activity.
- */
-
-.reader-layout {
-  display: grid;
-  grid-template-columns: minmax(240px, 300px) minmax(0, 1fr);
-  gap: var(--density-gap);
-  align-items: start;
-}
-
-.reader-side {
-  position: sticky;
-  top: 12px;
-  max-height: calc(100vh - 120px);
-  display: flex;
-  flex-direction: column;
-  overflow: hidden;
-}
-
-.reader-side-filter {
-  padding: 0 14px 10px;
-}
-
-.reader-bundle-list {
-  padding: 0 8px 10px;
-  overflow-y: auto;
-}
-
-.reader-bundle {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  gap: 9px;
-  padding: 8px 10px;
-  border: 0;
-  border-radius: var(--radius);
-  background: none;
-  text-align: left;
-}
-
-.reader-bundle:hover {
-  background: var(--paper-sunken);
-}
-
-.reader-bundle.is-active {
-  background: var(--accent-soft);
-}
-
-.reader-bundle-text {
-  flex: 1;
-  min-width: 0;
-  display: flex;
-  flex-direction: column;
-}
-
-.reader-bundle-text strong {
-  font-size: 12px;
-}
-
-.reader-bundle-text small {
-  color: var(--ink-3);
-  font-size: 10px;
-}
-
-.reader-bundle-count {
-  color: var(--ink-3);
-  font-size: 10px;
-  white-space: nowrap;
-}
-
-.reader-paper-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
-  gap: 10px;
-  padding: 0 14px 14px;
-}
-
-.reader-paper-card {
-  display: flex;
-  flex-direction: column;
-  gap: 3px;
-  padding: 12px;
-  border: 1px solid var(--line);
-  border-radius: var(--radius);
-  background: var(--paper);
-  text-align: left;
-  transition: border-color 0.12s ease, transform 0.12s ease;
-}
-
-.reader-paper-card:hover {
-  border-color: color-mix(in srgb, var(--accent) 45%, var(--line));
-  transform: translateY(-1px);
-}
-
-.reader-paper-no {
-  color: var(--accent);
-  font-size: 10px;
-  font-weight: 750;
-  letter-spacing: 0.04em;
-}
-
-.reader-paper-name {
-  font-size: 13px;
-  font-weight: 650;
-}
-
-.reader-paper-meta {
-  color: var(--ink-3);
-  font-size: 10px;
-}
-
-.reader-hint,
-.reader-footnote {
-  padding: 0 14px;
-  color: var(--ink-3);
-  font-size: 11px;
-}
-
-.reader-footnote {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  padding: 0;
-}
-
-.reader-year-row {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  padding: 0 14px 14px;
-}
-
-.reader-year-row button {
-  padding: 2px 8px;
-  border: 1px solid var(--line);
-  border-radius: 999px;
-  background: none;
-  font-size: 10px;
-}
-
-.reader-year-row button:hover {
-  border-color: var(--accent);
-  color: var(--accent);
-}
-
-.reader-head {
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-}
-
-.reader-crumbs {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  font-size: 12px;
-}
-
-.reader-crumbs button {
-  border: 0;
-  background: none;
-  color: var(--accent);
-  font-size: 12px;
-}
-
-.reader-crumbs span {
-  color: var(--ink-3);
-}
-
-/* The jump bar sticks under the app header, so 22 questions stay navigable. */
-.reader-jump {
-  position: sticky;
-  top: 0;
-  z-index: 5;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 10px;
-  padding: 8px 12px;
-  background: var(--paper-raised);
-  border: 1px solid var(--line);
-  border-radius: var(--radius);
-}
-
-.reader-jump-sections {
-  display: flex;
-  gap: 6px;
-}
-
-.reader-jump-section {
-  display: inline-flex;
-  align-items: center;
-  gap: 5px;
-  padding: 3px 9px;
-  border: 1px solid var(--line);
-  border-radius: 999px;
-  background: none;
-  font-size: 11px;
-}
-
-.reader-jump-section span {
-  color: var(--ink-3);
-  font-size: 9px;
-}
-
-/* The number strip is the "22 questions" index; it wraps rather than scrolling. */
-.reader-jump-numbers {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 3px;
-  flex: 1;
-  min-width: 0;
-}
-
-.reader-jump-number {
-  min-width: 22px;
-  padding: 2px 4px;
-  border: 1px solid transparent;
-  border-radius: 4px;
-  background: var(--paper-sunken);
-  color: var(--ink-2);
-  font-size: 10px;
-  font-variant-numeric: tabular-nums;
-}
-
-.reader-jump-number:hover {
-  border-color: var(--line-strong);
-}
-
-.reader-jump-number.is-active {
-  background: var(--accent);
-  color: #fff;
-}
-
-.reader-questions {
-  display: flex;
-  flex-direction: column;
-  gap: var(--density-gap);
-  padding-top: var(--density-gap);
-}
-
-/* Anchor offset so a jumped-to question is not hidden under the sticky bar. */
-.reader-question {
-  scroll-margin-top: 96px;
-}
-
-.reader-state {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  padding: 24px;
-  color: var(--ink-3);
-}
-
-.reader-state.is-error {
-  color: var(--red);
-}
-
-@media (max-width: 1120px) {
-  .reader-layout {
-    grid-template-columns: 1fr;
-  }
-
-  .reader-side {
-    position: static;
-    max-height: none;
-  }
-}
 
 .preferences-root {
   position: relative;

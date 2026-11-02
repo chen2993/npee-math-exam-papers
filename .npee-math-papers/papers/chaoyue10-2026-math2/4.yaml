@@ -1,0 +1,273 @@
+schema_version: '3.0'
+paper:
+  series_key: chaoyue10
+  year: 2026
+  subject: math2
+  paper_no: 4
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设当 $x \to 0$ 时$,\ln\left(\dfrac{2+\arcsin x}{2+\sin x}\right)$ 与 $x^n$ 是同阶无穷小量，则正整数 $n$ 的值为( )
+  choices:
+  - label: A
+    text: '1'
+    figures: []
+  - label: B
+    text: '2'
+    figures: []
+  - label: C
+    text: '3'
+    figures: []
+  - label: D
+    text: '4'
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $F(x,y) = \left(\dfrac{2xy}{x^2+y^2}\right)^{\dfrac{1}{1-\cos(x-y)}}$（其中 $x \ne y$ 且 $xy > 0$），定义单变量函数 $f(x) = \begin{cases} \lim\limits_{y\to x} F(x,y), & x \ne 0, \\ 0, & x = 0 \end{cases}$。则点 $x = 0$ 是函数 $f(x)$ 的( )
+  choices:
+  - label: A
+    text: 不可导点，极小值点
+    figures: []
+  - label: B
+    text: 可导点，极小值点
+    figures: []
+  - label: C
+    text: 不可导点，非极值点
+    figures: []
+  - label: D
+    text: 可导点，非极值点
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知反常积分 $I_1 = \int_0^{\dfrac{\pi}{2}}\dfrac{\tan x}{x\sqrt{\pi-2x}}\,\mathrm{d}x, \ I_2 = \int_0^{+\infty}\dfrac{\ln x}{\sqrt{x^3+x}}\,\mathrm{d}x$，则下列结论正确的是( )
+  choices:
+  - label: A
+    text: $I_1$ 收敛$,I_2$ 收敛
+    figures: []
+  - label: B
+    text: $I_1$ 收敛$,I_2$ 发散
+    figures: []
+  - label: C
+    text: $I_1$ 发散$,I_2$ 收敛
+    figures: []
+  - label: D
+    text: $I_1$ 发散$,I_2$ 发散
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      给出下列命题： ① 若 $f(x)$ 在 $[a,b]$ 上可导，且 $f'(x) \ne 0$，则 $f(x)$ 在 $[a,b]$ 上严格单调； ② 若 $\lim\limits_{x\to x_0}\varphi(x) = u_0$ 且 $\lim\limits_{u\to u_0}f(u) = A$，则必有复合极限 $\lim\limits_{x\to x_0}f(\varphi(x)) = A$； ③ 若 $f(x)$ 在 $x_0$ 处可导，且 $f'(x_0) \ne 0$，则 $f(x_0)$ 必定不是极值； ④ 若定积分 $\int_a^b f(x)\,\mathrm{d}x$ 存在，则 $f(x)$ 在 $[a,b]$ 上必存在原函数。 其中不正确的命题个数为( )
+  choices:
+  - label: A
+    text: '1'
+    figures: []
+  - label: B
+    text: '2'
+    figures: []
+  - label: C
+    text: '3'
+    figures: []
+  - label: D
+    text: '4'
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $z = z(x,y)$ 由隐式方程 $xy + \ln z + y z^2 = 0$ 确定，则二阶混合偏导数 $\left.\dfrac{\partial^2 z}{\partial x\partial y}\right|_{(1,0)} = $( )
+  choices:
+  - label: A
+    text: '-1'
+    figures: []
+  - label: B
+    text: '0'
+    figures: []
+  - label: C
+    text: '1'
+    figures: []
+  - label: D
+    text: '2'
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设平面区域 $D = \left\{(x,y) \;\middle|\; x^{\dfrac{2}{3}} + y^{\dfrac{2}{3}} \le 1, \ x \ge 0, \ y \ge 0\right\}$，定积分记为 $I_1 = \iint_D \tan(x-y)\,\mathrm{d}\sigma, \ I_2 = \iint_D \dfrac{\tan(x^2+y^2)}{x^2+y^2}\,\mathrm{d}\sigma, \ I_3 = \iint_D \dfrac{x^2+y^2}{\sin(x^2+y^2)}\,\mathrm{d}\sigma$，则三者的大小关系为( )
+  choices:
+  - label: A
+    text: $I_1 < I_2 < I_3$
+    figures: []
+  - label: B
+    text: $I_2 < I_1 < I_3$
+    figures: []
+  - label: C
+    text: $I_2 < I_3 < I_1$
+    figures: []
+  - label: D
+    text: $I_1 < I_3 < I_2$
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      函数 $f(x) = \dfrac{x^2-x}{|\sin x|(x^2-1)}$ 在区间 $\left(-\dfrac{\pi}{2}, \dfrac{\pi}{2}\right)$ 内的第一类间断点个数为( )
+  choices:
+  - label: A
+    text: '0'
+    figures: []
+  - label: B
+    text: '1'
+    figures: []
+  - label: C
+    text: '2'
+    figures: []
+  - label: D
+    text: '3'
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设正交矩阵 $P = \begin{pmatrix} 1 & 0 & 0 \\ 0 & 0 & 1 \\ 0 & 1 & 0 \end{pmatrix}$，且满足矩阵方程 $P^T A P^{2026} = \begin{pmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 2 \end{pmatrix}$。若 $n$ 为正整数，则矩阵幂 $A^{2n} = $( )
+  choices:
+  - label: A
+    text: |-
+      $\begin{pmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 2^n \end{pmatrix}$
+    figures: []
+  - label: B
+    text: |-
+      $\begin{pmatrix} 1 & 0 & 0 \\ 0 & 2^n & 0 \\ 0 & 0 & 2^n \end{pmatrix}$
+    figures: []
+  - label: C
+    text: |-
+      $\begin{pmatrix} 1 & 0 & 0 \\ 0 & 2^n & 0 \\ 0 & 0 & 1 \end{pmatrix}$
+    figures: []
+  - label: D
+    text: |-
+      $\begin{pmatrix} 2^n & 0 & 0 \\ 0 & 2^n & 0 \\ 0 & 0 & 1 \end{pmatrix}$
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A, B$ 分别为 $m\times n, \ n\times s$ 矩阵，且满足秩条件 $r(B) = n$，则下列结论正确的是( )
+  choices:
+  - label: A
+    text: 矩阵 $AB$ 的行向量组与矩阵 $A$ 的行向量组等价
+    figures: []
+  - label: B
+    text: 矩阵 $AB$ 的列向量组与矩阵 $A$ 的列向量组等价
+    figures: []
+  - label: C
+    text: 矩阵 $AB$ 的行向量组与矩阵 $B$ 的行向量组等价
+    figures: []
+  - label: D
+    text: 矩阵 $AB$ 的列向量组与矩阵 $B$ 的列向量组等价
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 为 3 阶矩阵$,\lambda_1 = \lambda_2 = a, \ \lambda_3 = b\ (a \ne b)$ 是矩阵 $A$ 的特征值，则 “$A$ 可相似对角化” 是 “$(A-aE)(A-bE) = O$” 的( )
+  choices:
+  - label: A
+    text: 充分必要条件
+    figures: []
+  - label: B
+    text: 充分非必要条件
+    figures: []
+  - label: C
+    text: 必要非充分条件
+    figures: []
+  - label: D
+    text: 非充分非必要条件
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      定积分 $\int_0^{100} (x-[x])\sin^2(\pi x)\,\mathrm{d}x = $ _____ （其中 $[x]$ 表示不超过 $x$ 的最大整数）。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      已知动点 $M(x,y)$ 在 $xOy$ 平面内的运动方程为 $\begin{cases} x = \mathrm{e}^{2t} - t, \\ y = 2\mathrm{e}^t \end{cases}$，则该动点在时间段 $\left[\dfrac{1}{4}\ln 2, \dfrac{1}{4}\ln 6\right]$ 内的运动路程 $s = $ _____ 米。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x,y)$ 具有二阶连续偏导数，且满足 $f_{xx} + f_{yy} = 2$。做自变量代换 $u = ax+by, \ v = ax-by$，若变换后的偏导数满足 $f_{uu} + f_{vv} = 4$ 且 $f_{uv} = 0$，则常数和 $a^2 + b^2 = $ _____
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设平面区域 $D = \left\{(x,y) \;\middle|\; x^2+y^2 \le 2x, \ x^2+y^2 \le 2y\right\}$，计算二重积分 $\iint_D \dfrac{x^2+\sin(x-y)}{\sqrt{x^2+y^2}}\,\mathrm{d}\sigma = $ _____
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      微分方程 $x\dfrac{\mathrm{d}y}{\mathrm{d}x} + y = \dfrac{1}{1+(xy)^2}$ 的通解为 _____
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 为 3 阶矩阵，非齐次线性方程组 $Ax = (2,1,0)^T$ 的通解为 $k_1\xi_1 + k_2\xi_2 + \eta^*$，其中 $k_1,k_2$ 为任意常数$,\xi_1 = (2,1,0)^T, \ \xi_2 = (1,0,1)^T, \ \eta^* = (-1,2,1)^T$，记矩阵 $B = (\xi_1, \xi_2, \eta^*), \ \beta = (1,2,3)^T$，则 $(\mathrm{I})\ Bx = \beta$ 的解为 _____ $,(\mathrm{II})\ \beta^T A\beta = $ _____
+- number: 17
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      已知凹曲线 $y = y(x)$ 上任意点 $P(x,y)$ 处的曲率圆半径为 $2y^2\cos\alpha$（其中 $\alpha$ 为曲线在点 $P$ 处的切线倾角$,\cos\alpha > 0$），且曲线在点 $x = 1$ 处的切线为直线 $y = x+1$。 (1) 求曲线方程 $y(x)$； (2) 计算反常积分 $\int_1^{+\infty}\dfrac{1}{y(x)}\,\mathrm{d}x$。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设定积分数列 $a_n = \int_0^{\dfrac{\pi}{2}}\dfrac{1}{(1+\sin x)^n}\,\mathrm{d}x\ (n \ge 1)$。 (1) 求极限 $\lim\limits_{n\to\infty} a_n$； (2) 证明极限 $\lim\limits_{n\to\infty}[a_1 - a_2 + a_3 - \dots + (-1)^{n-1}a_n]$ 存在。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设平面区域 $D$ 是由极坐标曲线 $r = 2\cos\theta$ 所围成的区域，计算二重积分 $I = \iint_D \sqrt{4r\cos\theta - r^2\sin^2\theta}\,r\,\mathrm{d}r\,\mathrm{d}\theta$。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: 求函数 $f(x,y,z) = x + 2y^2 - 3z$ 在约束条件 $x^2 + 2y^2 + z^2 = 1$ 下的最大值与最小值。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 $f(x)$ 在闭区间 $[0,1]$ 上连续，在开区间 $(0,1)$ 内二阶可导，且满足 $f(0) = 0$，并在 $(0,1]$ 上恒为正。 (1) 证明：存在 $\xi \in (0,1)$，使得 $\int_0^1 f^3(x)\,\mathrm{d}x = f'(\xi)\left(\int_0^1 f(x)\,\mathrm{d}x\right)^2$； (2) 证明：存在 $\eta \in (0,1)$，使得 $\eta f''(\eta) + 2f'(\eta) = 6\int_0^1 x f(x)\,\mathrm{d}x$。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设实数 $a \ne 0$，向量组 $\alpha_1 = (a,0,1)^T, \ \alpha_2 = (0,-a,0)^T, \ \alpha_3 = (1,0,a)^T$。已知向量 $\beta = (1,1,-1)^T$ 不能由向量组 $\alpha_1, \alpha_2, \alpha_3$ 线性表示。向量 $\gamma$ 满足$:\gamma = k_1\alpha_1 + k_2\alpha_2 + k_3\alpha_3$，且对每个 $i = 1,2,3$ 恒有内积等式 $\beta^T\alpha_i = \gamma^T\alpha_i$。 (1) 求参数 $a$ 的值； (2) 证明：向量 $\beta - \gamma$ 是齐次线性方程组 $(\alpha_1, \alpha_2, \alpha_3)^T x = 0$ 的解； (3) 求向量 $\gamma$ 的表达式。
+content_hash: f1a4a037aa0f308fa164ea0b7037bf0a8ca89dc06cb1c1dd8870b5db7a7b1402

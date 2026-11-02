@@ -4,7 +4,6 @@ paper:
   year: 2022
   subject: math3
   paper_no: 2
-content_hash: 8d971f7a3ce8d826ee73ac99396705a4f3821635d1149614ca0fe1b94783ac39
 questions:
 - number: 1
   section: choice
@@ -135,7 +134,7 @@ questions:
   points: 5
   stem:
     text: |-
-      若矩阵 $A,B$ 均为 $n$ 阶正定矩阵，则下列命题中，正确命题的个数为\ExamSelection。$①$ 若 $A-B$ 正定，则 $\operatorname{tr}(A)>\operatorname{tr}(B)$。$②$ 若 $\operatorname{tr}(A)>\operatorname{tr}(B)$，则 $A-B$ 正定。$③$ 若 $AB$ 为正定矩阵，则 $AB=BA$。$④$ 若 $AB=BA$，则 $AB$ 为正定矩阵。
+      若矩阵 $A,B$ 均为 $n$ 阶正定矩阵，则下列命题中，正确命题的个数为\ExamSelection。\n① 若 $A-B$ 正定，则 $\operatorname{tr}(A)>\operatorname{tr}(B)$。\n② 若 $\operatorname{tr}(A)>\operatorname{tr}(B)$，则 $A-B$ 正定。\n③ 若 $AB$ 为正定矩阵，则 $AB=BA$。\n④ 若 $AB=BA$，则 $AB$ 为正定矩阵。
   choices:
   - label: A
     text: $1$
@@ -154,7 +153,7 @@ questions:
   points: 5
   stem:
     text: |-
-      将一枚骰子先后投掷 $2$ 次，事件 $A$ 表示两次出现的点数之和为 $8$，事件 $B$ 表示第 $1$ 次出现的点数大于第 $2$ 次出现的点数，则下列命题中，正确的是\ExamSelection。$①P(A)>P(A\mid B)$。$②P(A)<P(A\mid B)$。$③P(B)>P(B\mid A)$。$④P(B)<P(B\mid A)$。
+      将一枚骰子先后投掷 $2$ 次，事件 $A$ 表示两次出现的点数之和为 $8$，事件 $B$ 表示第 $1$ 次出现的点数大于第 $2$ 次出现的点数，则下列命题中，正确的是\ExamSelection。\n①$P(A)>P(A\mid B)$。\n②$P(A)<P(A\mid B)$。\n③$P(B)>P(B\mid A)$。\n④$P(B)<P(B\mid A)$。
   choices:
   - label: A
     text: $①③$
@@ -303,3 +302,4 @@ questions:
       求 $E(\hat{\theta})$；
   - text: |-
       求 $\alpha$，使得 $E(\alpha\hat{\theta}-\theta)^2$ 最小。
+content_hash: 963583582e67900acfcf566847d921d6598b2fb603678e43c879ac74d1c547f8

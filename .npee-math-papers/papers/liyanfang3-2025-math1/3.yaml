@@ -4,7 +4,6 @@ paper:
   year: 2025
   subject: math1
   paper_no: 3
-content_hash: 42f92e9baa01a52a97776be64aa85dc120b872f9abd0aeaab63b1e73ee8918fa
 questions:
 - number: 1
   section: choice
@@ -132,7 +131,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设矩阵 $A,B$ 均为 $2$ 阶矩阵，且 $AB=BA$，则下列条件中，是行列式 $\left|\begin{matrix}A&B\\B&A\end{matrix}\right|=45$ 的充分条件的是\ExamSelection
+      设矩阵 $A,B$ 均为 $2$ 阶矩阵，且 $AB=BA$，则下列条件中，是行列式 $\left|\begin{matrix}A&B\\B&A\end{matrix}\right|=45$ 的充分条件的是\ExamSelection\n① $A$ 的特征值为 $2$ 和 $4$，$B$ 的特征值为 $1$ 和 $-1$。\n② $A$ 的特征值为 $2$ 和 $0$，$B$ 的特征值为 $3$ 和 $3$。\n③ $A$ 的特征值为 $9$ 和 $1$，$B$ 的特征值为 $6$ 和 $0$。
   choices:
   - label: A
     text: ①，②。
@@ -146,10 +145,6 @@ questions:
   - label: D
     text: ①，②，③。
     figures: []
-  subparts:
-  - text: $A$ 的特征值为 $2$ 和 $4$，$B$ 的特征值为 $1$ 和 $-1$。
-  - text: $A$ 的特征值为 $2$ 和 $0$，$B$ 的特征值为 $3$ 和 $3$。
-  - text: $A$ 的特征值为 $9$ 和 $1$，$B$ 的特征值为 $6$ 和 $0$。
 - number: 8
   section: choice
   points: 5
@@ -303,3 +298,4 @@ questions:
   - text: 求 $c$；
   - text: 求 $Z$ 的概率密度；
   - text: 问 $X,Z$ 是否相互独立，并说明理由。
+content_hash: 210a2aabdd58304d14be91efee3fea77d1c04d4b75c7c58cf2d83813cd41d226

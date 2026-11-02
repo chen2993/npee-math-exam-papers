@@ -4,7 +4,6 @@ paper:
   year: 2023
   subject: math3
   paper_no: 3
-content_hash: 6a74a869883c5bfad7ba11e31db43fa4cdca3ab436a7711786396de724f9779a
 questions:
 - number: 1
   section: choice
@@ -297,7 +296,7 @@ questions:
   - text: |-
       求 $A^n\boldsymbol{\beta}$；
   - text: |-
-      求 $\left|\left(A-\dfrac{3}{2}E\right)^{100}\right|$。
+      求 $\left(\boldsymbol{A}-\dfrac{3}{2}\boldsymbol{E}\right)^{100}$。
 - number: 22
   section: solution
   points: 12
@@ -308,3 +307,4 @@ questions:
   - text: 求 $(X,Y)$ 的概率密度 $f(x,y)$；
   - text: 若 $[Y]$ 表示对随机变量 $Y$ 取整，求 $W=X+[Y]$ 的分布函数；
   - text: 求 $E(X[Y])$。
+content_hash: e57e84215492c45005b3e3e08512a7b11d108a192f83532c411c6d9861661189

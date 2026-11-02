@@ -52,12 +52,13 @@ npee_math_papers/                  Python 包
 │  ├─ domain/                      纯模型与选择器（无框架依赖）
 │  ├─ infrastructure/              HTTP 网关（含 API 基地址解析）
 │  ├─ shared/                      UI 基础件（Button/Field/Surface/Toast…）
-│  ├─ features/                    页面（仪表盘/套卷/检索/组卷/版本/日志/偏好）
+│  ├─ features/                    页面（仪表盘/套卷/组卷/版本/日志/偏好）
 │  └─ styles/                      tokens.css + app/features/responsive
 ├─ tex/                            LaTeX 排版类
 └─ maintenance/                    迁移、审计、环境检查、提取简报生成
 
-collections/                       组卷配置（只引用自然键）
+composition/                       组卷配置（只引用自然键）
+dist/                              编译产物（PDF，不入库）
 .npee-math-papers/                 题库数据库
 ```
 
@@ -124,7 +125,7 @@ collections/                       组卷配置（只引用自然键）
 
 ```powershell
 python -m pytest                       # 全部单元/契约测试
-python -m npee_math_papers.maintenance.verify_compile --matrix --collections  # 端到端
+python -m npee_math_papers.maintenance.verify_compile --matrix --compositions  # 端到端
 cd npee_math_papers/frontend; npm run typecheck; npm test; npm run build      # 前端
 ```
 

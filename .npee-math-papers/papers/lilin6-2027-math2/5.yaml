@@ -1,0 +1,306 @@
+schema_version: '3.0'
+paper:
+  series_key: lilin6
+  year: 2027
+  subject: math2
+  paper_no: 5
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 \(f(x),g(x)\) 均是连续函数，当 \(x\to0\) 时，\(f(x)\) 和 \(g(x)\) 都与 \(x\) 是等价无穷小，\(F(x)=\int_1^2 xf(xt)\mathrm{d}t\)，\(G(x)=\int_0^x g(2x-t)\mathrm{d}t\).则当 \(x\to0\) 时，\(F(x)\) 是 \(G(x)\) 的（ ）
+  choices:
+  - label: A
+    text: 高阶无穷小
+    figures: []
+  - label: B
+    text: 低阶无穷小
+    figures: []
+  - label: C
+    text: 同阶但不等价无穷小
+    figures: []
+  - label: D
+    text: 等价无穷小
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 \(f(x)\) 为连续函数，且 \(\lim\limits_{x\to1}\dfrac{f(2x-1)}{x-1}=2\)，则 \(\lim\limits_{x\to0}\dfrac{f[(1+\sin x)^2]-f(1+\sin x)}{x}=(\quad)\)
+  choices:
+  - label: A
+    text: |-
+      \(0\)
+    figures: []
+  - label: B
+    text: |-
+      \(2\)
+    figures: []
+  - label: C
+    text: |-
+      \(1\)
+    figures: []
+  - label: D
+    text: |-
+      \(-1\)
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设可导函数 \(y=f(x)\) 在 \([a,b]\) 上严格单调递增，\(g(y)\) 是 \(f(x)\) 的反函数，则 \(\int_a^b f(x)\mathrm{d}x+\int_{f(a)}^{f(b)}g(y)\mathrm{d}y=(\quad)\)
+  choices:
+  - label: A
+    text: |-
+      \(f(b)-f(a)\)
+    figures: []
+  - label: B
+    text: |-
+      \(bf(b)-af(a)\)
+    figures: []
+  - label: C
+    text: |-
+      \(af(b)-bf(a)\)
+    figures: []
+  - label: D
+    text: |-
+      \(af(a)-bf(b)\)
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设积分 \(\int_1^{+\infty}\dfrac{\arctan(x-1)}{(x-1)^p}\mathrm{d}x\) 收敛，则下列选项正确的是（ ）
+  choices:
+  - label: A
+    text: |-
+      \(1<p<2\)
+    figures: []
+  - label: B
+    text: |-
+      \(0<p<1\)
+    figures: []
+  - label: C
+    text: |-
+      \(p\geq2\)
+    figures: []
+  - label: D
+    text: |-
+      \(0<p<2\)
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 \(z=z(x,y)\) 由方程 \(\dfrac{x}{z}=f\left(\dfrac{y}{z}\right)\) 确定，其中 \(f\) 为可微函数，则 \(x\dfrac{\partial z}{\partial x}+y\dfrac{\partial z}{\partial y}=(\quad)\)
+  choices:
+  - label: A
+    text: |-
+      \(0\)
+    figures: []
+  - label: B
+    text: |-
+      \(x\)
+    figures: []
+  - label: C
+    text: |-
+      \(y\)
+    figures: []
+  - label: D
+    text: |-
+      \(z\)
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 \(f(x)=x-\ln x-ax^2(a\neq0)\) 有唯一零点，则 \(a\) 的取值范围为（ ）
+  choices:
+  - label: A
+    text: |-
+      \((0,2)\)
+    figures: []
+  - label: B
+    text: |-
+      \((0,+\infty)\)
+    figures: []
+  - label: C
+    text: |-
+      \((2,+\infty)\)
+    figures: []
+  - label: D
+    text: |-
+      \((2,\mathrm{e})\)
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      积分 \(I=\int_{\dfrac{\pi}{2}}^{\pi}\mathrm{d}\theta\int_0^{\sin\theta}f(r\cos\theta,r\sin\theta)r\mathrm{d}r=(\quad)\)
+  choices:
+  - label: A
+    text: |-
+      \(\int_0^{-\dfrac{1}{2}}\mathrm{d}x\int_{\dfrac{1}{2}-\sqrt{\dfrac{1}{4}-x^2}}^{\dfrac{1}{2}+\sqrt{\dfrac{1}{4}-x^2}}f(x,y)\mathrm{d}y\)
+    figures: []
+  - label: B
+    text: |-
+      \(\int_0^1\mathrm{d}y\int_0^{\sqrt{y-y^2}}f(x,y)\mathrm{d}x\)
+    figures: []
+  - label: C
+    text: |-
+      \(\int_0^1\mathrm{d}r\int_{\dfrac{\pi}{2}}^{\pi-\arcsin r}f(r\cos\theta,r\sin\theta)r\mathrm{d}\theta\)
+    figures: []
+  - label: D
+    text: |-
+      \(\int_0^1\mathrm{d}r\int_{\dfrac{\pi}{2}}^{\arcsin r}f(r\cos\theta,r\sin\theta)r\mathrm{d}\theta\)
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 4 维实列向量 \(\beta_1,\beta_2,\beta_3\) 线性无关，非零实列向量 \(\alpha_1,\alpha_2,\alpha_3,\alpha_4\) 与 \(\beta_1,\beta_2,\beta_3\) 均正交，记 \(A=(\alpha_1,\alpha_2,\alpha_3,\alpha_4)\)，\(A^*\) 是 \(A\) 的伴随矩阵，则下列选项正确的是（ ）
+  choices:
+  - label: A
+    text: |-
+      方程组 \(A^*X=0\) 的解均是方程组 \(AX=0\) 的解
+    figures: []
+  - label: B
+    text: |-
+      方程组 \(A^*X=0\) 与方程组 \(AX=0\) 同解
+    figures: []
+  - label: C
+    text: |-
+      方程组 \(AX=0\) 的解均是方程组 \(A^*X=0\) 的解
+    figures: []
+  - label: D
+    text: |-
+      方程组 \(AX=0\) 的解不是方程组 \(A^*X=0\) 的解
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 \(A\) 与 \(B\) 相似，\(\lambda\in\mathbf{R}\)，则（ ）
+  choices:
+  - label: A
+    text: |-
+      \(\lambda E-A=\lambda E-B\)
+    figures: []
+  - label: B
+    text: |-
+      \(A\) 与 \(B\) 均与同一个对角矩阵相似
+    figures: []
+  - label: C
+    text: |-
+      \(\lambda E-A\sim\lambda E-B\)
+    figures: []
+  - label: D
+    text: |-
+      对于 \(A\) 与 \(B\) 的同一个特征值，\(A\) 与 \(B\) 对应相同的特征向量
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 \(\alpha=(1,1)^{\mathrm{T}}\)，4 阶矩阵 \(A\) 相似于 \(B=\begin{pmatrix}\alpha\alpha^{\mathrm{T}}&O\\O&2\alpha\alpha^{\mathrm{T}}\end{pmatrix}\)，\(r_1=r(A),r_2=r(A-E),r_3=r(A-2E)\)，则（ ）
+  choices:
+  - label: A
+    text: |-
+      \(r_1<r_2<r_3\)
+    figures: []
+  - label: B
+    text: |-
+      \(r_2<r_3<r_1\)
+    figures: []
+  - label: C
+    text: |-
+      \(r_3<r_1<r_2\)
+    figures: []
+  - label: D
+    text: |-
+      \(r_1<r_3<r_2\)
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 \(\lim\limits_{x\to\infty}\left(\dfrac{ax^2}{1+x}-bx-1\right)=\lim\limits_{x\to\infty}[f(x+1)-f(x)]\)，且 \(\lim\limits_{x\to\infty}f'(x)=0\)，则曲线 \(y=\dfrac{ax^2}{1+x}\) 的斜渐近线方程为 \(\underline{\qquad}\)
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设函数 \(f(x,y)=\begin{cases}(x^2+y^2)^a\sin\dfrac{1}{x^2+y^2},&(x,y)\neq(0,0),\\0,&(x,y)=(0,0)\end{cases}\) 在点 \((0,0)\) 处可微，则 \(a\) 的取值范围为 \(\underline{\qquad}\)
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 \(f(x)\) 可导，且对任意的 \(t\)，都有 \(\lim\limits_{x\to t}\dfrac{xf(t)-tf(x)}{x-t}=t^2\mathrm{e}^t\)，则 \(f(x)=\underline{\qquad}\)
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      \(\lim\limits_{n\to\infty}\sum\limits_{j=1}^{2n}\sum\limits_{i=1}^{n}\dfrac{2}{n^2}\left[\dfrac{2i+j}{n}\right]\)（这里 \([x]\) 表示不超过 \(x\) 的最大整数）\(=\underline{\qquad}\)
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      \(\int\dfrac{x\mathrm{d}x}{x^3-3x+2}=\underline{\qquad}\)
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设二次型 \(f(x_1,x_2,x_3)=X^{\mathrm{T}}AX(A^{\mathrm{T}}=A)\) 在正交变换下的标准形为 \(-2y_1^2+8y_2^2\)，且 \(E+B=AB\)，其中 \(B\) 为 3 阶矩阵，则行列式 \(|B^{-1}+2E|=\underline{\qquad}\)
+- number: 17
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 \(f(x)=\int_x^{x^2}\left(1+\dfrac{1}{2t}\right)^t\sin\dfrac{1}{\sqrt{t}}\mathrm{d}t(x>0)\)，求 \(\lim\limits_{n\to\infty}f(n)\sin\dfrac{1}{n}\)
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      求函数 \(f(x,y)=(x-y)\mathrm{e}^{-x^2-y^2}\) 的极值
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 \(y=f(x)=\dfrac{1}{2}x^2\) 与 \(y=g(x)=\sqrt{x-\dfrac{3}{4}}\) 相切于点 \(P\)，\(y=g(x)\) 与 \(x\) 轴交于点 \(A\)，\(O\) 为原点. （I）求曲边形 \(OPA\) 绕 \(y\) 轴旋转一周所得旋转体的体积； （II）求曲边形 \(OPA\) 绕 \(x\) 轴旋转一周所得旋转体的侧面积
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 \(z=f(x,y)\) 由方程 \(F(x+z,y+z)=0\) 确定，其中 \(F\) 为可微函数，计算 \(I=\iint\limits_D\dfrac{xy}{y^2-x^2-1}\left(\dfrac{\partial z}{\partial x}+\dfrac{\partial z}{\partial y}\right)\mathrm{d}x\mathrm{d}y\)，其中 \(D=\{(x,y)\mid x^2+y^2\leq1,0\leq y\leq x\}\)
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设二阶线性微分方程 \((1-x^2)\dfrac{\mathrm{d}^2y}{\mathrm{d}x^2}+(2\sqrt{1-x^2}-x)\dfrac{\mathrm{d}y}{\mathrm{d}x}+y=2x\). （I）作变换 \(x=\sin t\left(-\dfrac{\pi}{2}\leq t\leq\dfrac{\pi}{2}\right)\) 把原方程变换成 \(y\) 关于 \(t\) 的微分方程； （II）求原方程的通解
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设正定二次型 \(f(x_1,x_2,x_3)=2x_1^2+ax_2^2+ax_3^2-4x_2x_3\) 在正交变换 \(X=QY\) 下的标准形为 \(\lambda(y_1^2+y_2^2)+\mu y_3^2\). （I）求正交矩阵 \(Q\)； （II）若存在可逆矩阵 \(P\)，对任意 \(X=(x_1,x_2,x_3)^{\mathrm{T}}\)，有 \(f(x_1,x_2,x_3)=\|PX\|^2\)，求 \(P\)
+content_hash: b25fe00bbeff277d0511e7dfad3ce25216e217de278fb9646b23ff5776ec063c

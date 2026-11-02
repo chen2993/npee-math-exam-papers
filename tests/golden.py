@@ -70,6 +70,48 @@ def _render_questions() -> list[dict]:
                 {"text": r"（II）求该极限。", "figures": []},
             ],
         },
+        {
+            # A stored score label must not print twice: the class re-prints the
+            # score from ``points``, so the renderer strips this prefix.
+            "number": 20,
+            "section": "solution",
+            "points": 10,
+            "stem": {"text": r"（本题满分10分）", "figures": []},
+            "subparts": [
+                # A stored subpart ordinal is stripped (the class numbers it); an
+                # in-text cross reference to another part is preserved.
+                {"text": r"（I）求 $\lim\limits_{x\to0}\dfrac{f(x)}{x}$。", "figures": []},
+                {"text": r"（II）在第（I）问的基础上，证明 $f$ 连续。", "figures": []},
+            ],
+        },
+        {
+            # A proposition sequence whose markers head inline math runs must
+            # become a hanging list, with the formulas re-opened after each head.
+            "number": 3,
+            "section": "choice",
+            "points": 5,
+            "stem": {
+                "text": r"设 $\mathrm{e}<x_1<x_2$，且 $①x_2\ln x_2>x_1\ln x_1$，$②x_1\ln x_2<x_2\ln x_1$，$③x_2\ln x_2<x_1\ln x_1$，$④x_1\ln x_2>x_2\ln x_1$。则下列不等式成立的是\ExamSelection",
+                "figures": [],
+            },
+            "choices": [
+                {"label": "A", "text": r"$②③$", "figures": []},
+                {"label": "B", "text": r"$①②$", "figures": []},
+                {"label": "C", "text": r"$①④$", "figures": []},
+                {"label": "D", "text": r"$③④$", "figures": []},
+            ],
+        },
+        {
+            # A marker inside an alignment cell stays inline: it belongs to the
+            # grid, not to the paragraph.
+            "number": 4,
+            "section": "fill",
+            "points": 5,
+            "stem": {
+                "text": r"设有极限式 $\begin{array}{ll}①\displaystyle\lim_{n\to\infty}\cos n\cdot(\sqrt[n]{n}-1)=0;&②\displaystyle\lim_{n\to\infty}\sqrt n\cdot(\sqrt[n]{n}-1)=0;\\③\displaystyle\lim_{n\to\infty}\sqrt n\ln n\cdot(\sqrt[n]{n}-1)=0;&④\displaystyle\lim_{n\to\infty}n\cdot(\sqrt[n]{n}-1)=0,\end{array}$ 则正确的个数为\ExamBlank。",
+                "figures": [],
+            },
+        },
     ]
 
 

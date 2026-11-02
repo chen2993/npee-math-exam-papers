@@ -4,7 +4,6 @@ paper:
   year: 2025
   subject: math2
   paper_no: 3
-content_hash: 1a6c7c46a99392c0c83e45ce335103e56b154c2e37f2b1abd3d2c24383a23fca
 questions:
 - number: 1
   section: choice
@@ -73,7 +72,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设常数 $a>0$，当 $x\in(1,+\infty)$ 时，$\ln x<x^a$，则 $a$ 的取值范围为\ExamSelection。
+      设常数 $a>0$，当 $x\in(1,+\infty)$ 时，$\ln x\leq x^a$，则 $a$ 的取值范围为\ExamSelection。
   choices:
   - label: A
     text: $(0,e]$
@@ -303,3 +302,4 @@ questions:
   - text: 求 $a$ 的取值范围；
   - text: |-
       当 $AB$ 为实对称矩阵时，求正交变换 $X=QY$，将二次型 $f(x_1,x_2,x_3)=X^{\mathrm{T}}ABX$ 化为标准形。
+content_hash: 3c804d2fc4cf80861e781dfb17c33e9ba571a7450449e7acdc9b8af243f4001d

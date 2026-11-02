@@ -4,261 +4,265 @@ paper:
   year: 2026
   subject: math2
   paper_no: 4
-content_hash: 7470a7b5235d2d877f0d1c85874b591465541eea0be8625a82d78edd44e51a7b
 questions:
 - number: 1
   section: choice
   points: 5
   stem:
     text: |-
-      若函数 $f(x)=\begin{cases}\dfrac{1-\cos\sqrt{x}}{a\ln(1+x)},&x>0,\\b,&x\leq 0\end{cases}$ 在 $x=0$ 处连续，则\ExamSelection
+      若函数 $f(x)=\begin{cases}\dfrac{1-\cos\sqrt{x}}{a\ln(1+x)}, &x>0, \\ b, &x\le0\end{cases}$ 在 $x=0$ 处连续，则（ ）
   choices:
   - label: A
     text: |-
-      $ab=\dfrac{1}{2}$。
+      $ab=\dfrac{1}{2}$
     figures: []
   - label: B
     text: |-
-      $ab=-\dfrac{1}{2}$。
+      $ab=-\dfrac{1}{2}$
     figures: []
   - label: C
-    text: $ab=0$。
+    text: $ab=0$
     figures: []
   - label: D
-    text: $ab=2$。
+    text: $ab=2$
     figures: []
 - number: 2
   section: choice
   points: 5
   stem:
     text: |-
-      某质点作直线运动，在 $t$ 时刻的位移为 $x=t^3$。已知介质的阻力大小与质点速度的平方成正比，比例系数为 $k\,(k>0)$，则质点从 $x=0$ 运动到 $x=1$ 克服介质阻力做功的大小为\ExamSelection
+      某质点作直线运动，在 $t$ 时刻的位移为 $x=t^3$。已知介质的阻力大小与质点速度的平方成正比，比例系数为 $k\ (k>0)$，则质点从 $x=0$ 运动到 $x=1$ 克服介质阻力做功的大小为（ ）
   choices:
   - label: A
     text: |-
-      $\dfrac{9}{2}k$。
+      $\dfrac{9}{2}k$
     figures: []
   - label: B
     text: |-
-      $\dfrac{13}{6}k$。
+      $\dfrac{13}{6}k$
     figures: []
   - label: C
     text: |-
-      $\dfrac{27}{7}k$。
+      $\dfrac{27}{7}k$
     figures: []
   - label: D
     text: |-
-      $\dfrac{13}{7}k$。
+      $\dfrac{13}{7}k$
     figures: []
 - number: 3
   section: choice
   points: 5
   stem:
     text: |-
-      已知函数 $f(x)=\int_0^x e^{t^2}\cos t\,\mathrm{d}t$，$g(x)=\int_0^x e^{t^2}\cos^2t\,\mathrm{d}t$，则\ExamSelection
+      已知函数 $f(x)=\int_0^x\mathrm{e}^{t^2}\cos t\,\mathrm{d}t$ $,g(x)=\int_0^x\mathrm{e}^{t^2}\cos^2 x\,\mathrm{d}t$，则（ ）
   choices:
   - label: A
     text: |-
-      $x=\dfrac{\pi}{2}$ 是 $f(x)$ 的极值点，$\left(\dfrac{\pi}{2},f\left(\dfrac{\pi}{2}\right)\right)$ 是曲线 $y=f(x)$ 的拐点。
+      $x=\dfrac{\pi}{2}$ 是 $f(x)$ 的极值点$,\left(\dfrac{\pi}{2},f\left(\dfrac{\pi}{2}\right)\right)$ 是曲线 $y=f(x)$ 的拐点
     figures: []
   - label: B
     text: |-
-      $\left(\dfrac{\pi}{2},f\left(\dfrac{\pi}{2}\right)\right)$ 是曲线 $y=f(x)$ 的拐点，$\left(\dfrac{\pi}{2},0\right)$ 是曲线 $y=g(x)$ 的拐点。
+      $\left(\dfrac{\pi}{2},f\left(\dfrac{\pi}{2}\right)\right)$ 是曲线 $y=f(x)$ 的拐点$,\left(\dfrac{\pi}{2},0\right)$ 是曲线 $y=g(x)$ 的拐点
     figures: []
   - label: C
     text: |-
-      $x=\dfrac{\pi}{2}$ 是 $f(x)$ 的极大值点，是 $g(x)$ 的极大值点。
+      $x=\dfrac{\pi}{2}$ 是 $f(x)$ 的极大值点，是 $g(x)$ 的极大值点
     figures: []
   - label: D
     text: |-
-      $x=\dfrac{\pi}{2}$ 是 $f(x)$ 的极大值点，是 $g(x)$ 的极小值点。
+      $x=\dfrac{\pi}{2}$ 是 $f(x)$ 的极大值点，是 $g(x)$ 的极小值点
     figures: []
 - number: 4
   section: choice
   points: 5
   stem:
     text: |-
-      已知 $y_1=xe^x+e^{2x}$ 和 $y_2=xe^x+e^{-x}$ 是二阶常系数非齐次线性微分方程的两个解，则此方程为\ExamSelection
+      已知 $y_1=x\mathrm{e}^x+\mathrm{e}^{2x}$ 和 $y_2=x\mathrm{e}^x+\mathrm{e}^{-x}$ 是二阶常系数非齐次线性微分方程的两个解，则此方程为（ ）
   choices:
   - label: A
-    text: $y''-y'+2y=e^x+2xe^x$。
+    text: |-
+      $y''-y'+2y=\mathrm{e}^x+2x\mathrm{e}^x$
     figures: []
   - label: B
-    text: $y''-y'-2y=e^x-2xe^x$。
+    text: |-
+      $y''-y'-2y=\mathrm{e}^x-2x\mathrm{e}^x$
     figures: []
   - label: C
-    text: $y''-y'+2y=e^{2x}-e^{-x}$。
+    text: |-
+      $y''-y'+2y=\mathrm{e}^{2x}-\mathrm{e}^{-x}$
     figures: []
   - label: D
-    text: $y''-y'-2y=xe^x+e^{2x}$。
+    text: |-
+      $y''-y'-2y=x\mathrm{e}^x+\mathrm{e}^{2x}$
     figures: []
 - number: 5
   section: choice
   points: 5
   stem:
     text: |-
-      设 $f(x)=\dfrac{x^2}{e^x-1}$ 在 $x=0$ 处的 $3$ 次泰勒多项式为 $ax^3+bx^2+cx$，则 $(a,b,c)=$\ExamSelection
+      设 $f(x)=\dfrac{x^2}{\mathrm{e}^x-1}$ 在 $x=0$ 处的 3 次泰勒多项式为 $ax^3+bx^2+cx$，则 $(a,b,c) = $（ ）
   choices:
   - label: A
     text: |-
-      $\left(\dfrac{1}{12},-\dfrac{1}{2},1\right)$。
+      $\left(\dfrac{1}{12}, -\dfrac{1}{2}, 1\right)$
     figures: []
   - label: B
     text: |-
-      $\left(-\dfrac{1}{12},\dfrac{1}{2},1\right)$。
+      $\left(-\dfrac{1}{12}, \dfrac{1}{2}, 1\right)$
     figures: []
   - label: C
     text: |-
-      $\left(\dfrac{1}{12},\dfrac{1}{2},-1\right)$。
+      $\left(\dfrac{1}{12}, \dfrac{1}{2}, -1\right)$
     figures: []
   - label: D
     text: |-
-      $\left(-\dfrac{1}{12},-\dfrac{1}{2},1\right)$。
+      $\left(-\dfrac{1}{12}, -\dfrac{1}{2}, 1\right)$
     figures: []
 - number: 6
   section: choice
   points: 5
   stem:
     text: |-
-      设 $f(x,y)=\begin{cases}\sin x\cos y,&x\ne 0,\\1-\cos y,&x=0,\end{cases}$ 则\ExamSelection
+      设 $f(x,y)=\begin{cases}\sin x\cos y, &x\ne0, \\1-\cos y, &x=0,\end{cases}$ 则（ ）
   choices:
   - label: A
-    text: $f'_x(0,0)=0$。
+    text: $f'_x(0,0)=0$
     figures: []
   - label: B
     text: |-
-      $\lim_{x\to 0}\lim_{y\to 0}f(x,y)=0$。
+      $\lim\limits_{x\to0}\lim\limits_{y\to0}f(x,y)=0$
     figures: []
   - label: C
-    text: $f''_{xx}(0,0)=1$。
+    text: $f''_{yx}(0,0)=1$
     figures: []
   - label: D
-    text: $f'_y(0,0)=1$。
+    text: $f'_y(0,0)=1$
     figures: []
 - number: 7
   section: choice
   points: 5
   stem:
     text: |-
-      设 $D=\{(x,y)\mid |x|\leq 1,0\leq y\leq 2\}$，则 $\iint_D\sqrt{|y-x^2|}\,\mathrm{d}\sigma=$\ExamSelection
+      设区域 $D=\{(x,y)\mid |x|\le1, 0\le y\le2\}$，则 $\iint_D\sqrt{|y-x^2|}\,\mathrm{d}\sigma = $（ ）
   choices:
   - label: A
     text: |-
-      $\dfrac{\pi}{2}+\dfrac{5}{3}$。
+      $\dfrac{\pi}{2}+\dfrac{5}{3}$
     figures: []
   - label: B
     text: |-
-      $\dfrac{\pi}{2}+\dfrac{7}{3}$。
+      $\dfrac{\pi}{2}+\dfrac{7}{3}$
     figures: []
   - label: C
     text: |-
-      $\dfrac{\pi}{4}+\dfrac{5}{3}$。
+      $\dfrac{\pi}{4}+\dfrac{5}{3}$
     figures: []
   - label: D
     text: |-
-      $\dfrac{\pi}{4}+\dfrac{7}{3}$。
+      $\dfrac{\pi}{4}+\dfrac{7}{3}$
     figures: []
 - number: 8
   section: choice
   points: 5
   stem:
     text: |-
-      $\boldsymbol{\alpha}$，$\boldsymbol{\beta}$ 是 $2$ 阶实矩阵 $A$ 的两个实特征向量，$\lVert\boldsymbol{\alpha}+\boldsymbol{\beta}\rVert=\lVert\boldsymbol{\alpha}-\boldsymbol{\beta}\rVert$，则矩阵 $A$ 必为\ExamSelection
+      设 $\boldsymbol{\alpha}, \boldsymbol{\beta}$ 是 2 阶实矩阵 $A$ 的两个实特征向量，且满足 $\|\boldsymbol{\alpha}+\boldsymbol{\beta}\|=\|\boldsymbol{\alpha}-\boldsymbol{\beta}\|$，则矩阵 $A$ 必为（ ）
   choices:
   - label: A
-    text: 正定矩阵。
+    text: 正定矩阵
     figures: []
   - label: B
-    text: 正交矩阵。
+    text: 正交矩阵
     figures: []
   - label: C
-    text: 对称矩阵。
+    text: 对称矩阵
     figures: []
   - label: D
-    text: 单位矩阵。
+    text: 单位矩阵
     figures: []
 - number: 9
   section: choice
   points: 5
   stem:
-    text: |-
-      二次型 $f(x_1,x_2,x_3)=x_1^2+2x_1x_2+2x_1x_3$ 的符号差（正惯性指数－负惯性指数）为\ExamSelection
+    text: 二次型 $f(x_1,x_2,x_3)=x_1^2+2x_1x_2+2x_1x_3$ 的符号差（正惯性指数与负惯性指数之差）为（ ）
   choices:
   - label: A
-    text: $-1$。
+    text: $-1$
     figures: []
   - label: B
-    text: $0$。
+    text: $0$
     figures: []
   - label: C
-    text: $1$。
+    text: $1$
     figures: []
   - label: D
-    text: $2$。
+    text: $2$
     figures: []
 - number: 10
   section: choice
   points: 5
   stem:
     text: |-
-      若矩阵 $A=(a_{ij})_{n\times n}$，对 $i=1,2,\cdots,n$，均有 $|a_{ii}|>\sum_{j\ne i}|a_{ij}|$，其中 $|a_{ij}|$ 表示元素 $a_{ij}$ 的绝对值，$\boldsymbol{\beta}$ 为任一 $n$ 维列向量，则\ExamSelection
+      若矩阵 $A=(a_{ij})_{n\times n}$，对任意 $i=1,2,\cdots,n$ 均有 $|a_{ii}|>\sum\limits_{j\ne i}|a_{ij}|$，其中 $|a_{ij}|$ 表示元素 $a_{ij}$ 的绝对值$,\boldsymbol{\beta}$ 为任一 $n$ 维列向量，则（ ）
   choices:
   - label: A
-    text: $Ax=0$ 有非零解。
+    text: |-
+      $A\boldsymbol{x}=\boldsymbol{0}$ 有非零解
     figures: []
   - label: B
-    text: $Ax=0$ 不一定有非零解。
+    text: |-
+      $A\boldsymbol{x}=\boldsymbol{0}$ 不一定有非零解
     figures: []
   - label: C
     text: |-
-      $Ax=\boldsymbol{\beta}$ 不一定有解。
+      $A\boldsymbol{x}=\boldsymbol{\beta}$ 不一定有解
     figures: []
   - label: D
     text: |-
-      $Ax=\boldsymbol{\beta}$ 有唯一解。
+      $A\boldsymbol{x}=\boldsymbol{\beta}$ 有唯一解
     figures: []
 - number: 11
   section: fill
   points: 5
   stem:
     text: |-
-      设函数 $z=z(x,y)$ 由 $e^x+yz=2y-x$ 确定，则 $\left.\dfrac{\partial^2z}{\partial y^2}\right|_{(1,1)}=\ExamBlank$。
+      设函数 $z=z(x,y)$ 由 $\mathrm{e}^z+yz=2y-x$ 确定，则 $\left.\dfrac{\partial^2 z}{\partial y^2}\right|_{(1,1)} = $ \underline{\qquad}。
 - number: 12
   section: fill
   points: 5
   stem:
     text: |-
-      曲线 $y=\sqrt[3]{x^3-2x^2+1}$ 的斜渐近线方程为 $\ExamBlank$。
+      曲线 $y=\sqrt[3]{x^3-2x^2+1}$ 的斜渐近线方程为 \underline{\qquad}。
 - number: 13
   section: fill
   points: 5
   stem:
     text: |-
-      抛物线 $y^2=2x(0\leq x\leq h)$ 绕 $x$ 轴旋转一周所得旋转曲面的面积为 $\ExamBlank$。
+      抛物线 $y^2=2x\ (0\le x\le h)$ 绕 $x$ 轴旋转一周所得旋转曲面的面积为 \underline{\qquad}。
 - number: 14
   section: fill
   points: 5
   stem:
     text: |-
-      已知函数 $y(x)$ 由方程 $\int_0^y e^t\,\mathrm{d}t+\int_0^x\cos t\,\mathrm{d}t=0$ 确定，则 $\dfrac{\mathrm{d}^2y}{\mathrm{d}x^2}=\ExamBlank$。
+      已知函数 $y=y(x)$ 由方程 $\int_0^y\mathrm{e}^t\,\mathrm{d}t+\int_0^x\cos t\,\mathrm{d}t=0$ 确定，则 $\dfrac{\mathrm{d}^2y}{\mathrm{d}x^2} = $ \underline{\qquad}。
 - number: 15
   section: fill
   points: 5
   stem:
     text: |-
-      设过点 $(0,1)$ 的曲线 $y=y(x)$ 满足 $y''=x$，且在点 $(0,1)$ 处与直线 $y=\dfrac{x}{2}+1$ 相切，则该曲线的方程为 $\ExamBlank$。
+      设过点 $(0,1)$ 的曲线 $y=y(x)$ 满足 $y''=x$，且在点 $(0,1)$ 处与直线 $y=\dfrac{x}{2}+1$ 相切，则该曲线的方程为 \underline{\qquad}。
 - number: 16
   section: fill
   points: 5
   stem:
     text: |-
-      设 $\boldsymbol{\alpha}_1$，$\boldsymbol{\alpha}_2$，$\boldsymbol{\alpha}_3$，$\boldsymbol{\alpha}_4$ 是四元非齐次线性方程组 $Ax=b$ 的 $4$ 个解向量，且 $\boldsymbol{\alpha}_1+\boldsymbol{\alpha}_2=(2,4,6,8)^{\mathrm{T}}$，$\boldsymbol{\alpha}_2+\boldsymbol{\alpha}_3+\boldsymbol{\alpha}_4=(3,5,7,9)^{\mathrm{T}}$，$\boldsymbol{\alpha}_1+2\boldsymbol{\alpha}_2-\boldsymbol{\alpha}_3=(2,0,0,2)^{\mathrm{T}}$，若秩 $r(A)=2$，则方程组 $Ax=b$ 的通解是 $\ExamBlank$。
+      设 $\boldsymbol{\alpha}_1, \boldsymbol{\alpha}_2, \boldsymbol{\alpha}_3, \boldsymbol{\alpha}_4$ 是四元非齐次线性方程组 $A\boldsymbol{x}=\boldsymbol{b}$ 的 4 个解向量，且 $\boldsymbol{\alpha}_1+\boldsymbol{\alpha}_2=(2,4,6,8)^{\mathrm{T}}$ $,\boldsymbol{\alpha}_2+\boldsymbol{\alpha}_3+\boldsymbol{\alpha}_4=(3,5,7,9)^{\mathrm{T}}$ $,\boldsymbol{\alpha}_1+2\boldsymbol{\alpha}_2-\boldsymbol{\alpha}_3=(2,0,0,2)^{\mathrm{T}}$。若 $r(A)=2$，则方程组 $A\boldsymbol{x}=\boldsymbol{b}$ 的通解为 \underline{\qquad}。
 - number: 17
   section: solution
-  points: 10
+  points: 12
   stem:
     text: |-
-      计算 $\int\dfrac{x^3+1}{x^4+2x^2+1}\,\mathrm{d}x$。
+      计算不定积分 $\int\dfrac{x^3+1}{x^4+2x^2+1}\,\mathrm{d}x$。
 - number: 18
   section: solution
   points: 12
@@ -270,25 +274,23 @@ questions:
   points: 12
   stem:
     text: |-
-      设 $f(x)$ 在 $[0,1]$ 上具有三阶连续导数，$f'(0)=f''(0)=0$，证明存在 $\xi,\eta,\zeta\in(0,1)$，使得 $e^\xi f'''(\eta)=6e^\zeta f'(\xi)$。
+      设 $f(x)$ 在 $[0,1]$ 上具有三阶连续导数$,f'(0)=f''(0)=0$，证明存在 $\xi, \eta, \zeta\in(0,1)$，使得 $\mathrm{e}^\xi f'''(\eta)=6\mathrm{e}^\zeta f'(\xi)$。
 - number: 20
   section: solution
   points: 12
   stem:
-    text: 求函数 $z=e^{2x+3y}(8x^2-6xy+3y^2)$ 的极值。
+    text: |-
+      求二元函数 $z=\mathrm{e}^{2x+3y}(8x^2-6xy+3y^2)$ 的极值。
 - number: 21
   section: solution
   points: 12
   stem:
     text: |-
-      已知平面有界区域 $D=\{(r,\theta)\mid r\leq 4\cos\theta,r\leq 4\sin\theta\}$，计算 $\iint_Dr^3(\sin\theta-\cos\theta)^2\,\mathrm{d}r\mathrm{d}\theta$。
+      已知平面有界区域 $D=\{(r, \theta)\mid r\le4\cos\theta, r\le4\sin\theta\}$，计算二重积分 $I=\iint_D r^3(\sin\theta-\cos\theta)^2\,\mathrm{d}r\mathrm{d}\theta$。
 - number: 22
   section: solution
   points: 12
   stem:
     text: |-
-      已知矩阵 $A=\begin{pmatrix}4&1&-2\\1&1&1\\-2&1&a\end{pmatrix}$ 与 $B=\begin{pmatrix}k&0&0\\0&6&0\\0&0&0\end{pmatrix}$ 合同但不相似。
-  subparts:
-  - text: 求 $a$ 的值及 $k$ 的取值范围；
-  - text: |-
-      若存在可逆矩阵 $Q$，使得 $Q^{\mathrm{T}}AQ=B$，求 $Q$。
+      已知矩阵 $A=\begin{pmatrix}4&1&-2\\1&1&1\\-2&1&a\end{pmatrix}$ 与 $B=\begin{pmatrix}k&0&0\\0&6&0\\0&0&0\end{pmatrix}$ 合同但不相似。 (1) 求 $a$ 的值及 $k$ 的取值范围； (2) 若存在可逆矩阵 $Q$，使得 $Q^{\mathrm{T}}AQ=B$，求矩阵 $Q$。
+content_hash: ee95de03b028227a8eaf7c4c138e57e713333749063217cac3bf78d0a99be816

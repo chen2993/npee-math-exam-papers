@@ -4,7 +4,6 @@ paper:
   year: 2025
   subject: math3
   paper_no: 2
-content_hash: ee501ea52d6b3bb8934d8bc93fcbaeebc3ee4f96cb3eff2f6d59b17edaba8820
 questions:
 - number: 1
   section: choice
@@ -30,7 +29,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设函数 $y=f(x)$ 在闭区间 $[a,b]$ 上有定义，对于命题：①若 $y=f$ 在 $[a,b]$ 上无界，则 $y=f(x)$ 在 $[a,b]$ 上必不连续；②若 $y=f$ 在 $[a,b]$ 上可导，则导函数 $f'(x)$ 在 $[a,b]$ 上必有界；③若 $y=f$ 在 $[a,b]$ 上可积，则 $y=f(x)$ 在 $[a,b]$ 上必存在原函数。则以上三个命题中正确的个数是\ExamSelection。
+      设函数 $y=f(x)$ 在闭区间 $[a,b]$ 上有定义，对于命题：\n①若 $y=f$ 在 $[a,b]$ 上无界，则 $y=f(x)$ 在 $[a,b]$ 上必不连续；\n②若 $y=f$ 在 $[a,b]$ 上可导，则导函数 $f'(x)$ 在 $[a,b]$ 上必有界；\n③若 $y=f$ 在 $[a,b]$ 上可积，则 $y=f(x)$ 在 $[a,b]$ 上必存在原函数。\n则以上三个命题中正确的个数是\ExamSelection。
   choices:
   - label: A
     text: $0$
@@ -112,7 +111,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\cdots,\boldsymbol{\alpha}_r$ 是 $n\times r$ 矩阵 $\mathbf A$ 的列向量组，$\boldsymbol{\beta}_1,\boldsymbol{\beta}_2,\cdots,\boldsymbol{\beta}_s$ 是 $s$ 个 $n$ 维列向量. 若线性方程组 $\mathbf A\mathbf x=\boldsymbol{\beta}_i,\ i=1,2,\cdots,s$ 均有解，则下列成立的是\ExamSelection（公众号：风中羽小易）。
+      设 $\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\cdots,\boldsymbol{\alpha}_r$ 是 $n\times r$ 矩阵 $\mathbf A$ 的列向量组，$\boldsymbol{\beta}_1,\boldsymbol{\beta}_2,\cdots,\boldsymbol{\beta}_s$ 是 $s$ 个 $n$ 维列向量. 若线性方程组 $\mathbf A\mathbf x=\boldsymbol{\beta}_i,\ i=1,2,\cdots,s$ 均有解，则下列成立的是\ExamSelection。
   choices:
   - label: A
     text: |-
@@ -280,7 +279,7 @@ questions:
   section: solution
   points: 12
   stem:
-    text: （公众号：风中羽小易）
+    text: '{}'
   subparts:
   - text: |-
       计算 $I=\int_0^{1/2}\mathrm{d}y\int_y^{1/2}\dfrac{\ln(1+x)}{x}\,\mathrm{d}x$；
@@ -315,3 +314,4 @@ questions:
       分别求 $a,b$ 的最大似然估计值 $\hat a,\hat b$；
   - text: |-
       令 $Y=\begin{cases}2X+1,&X\leq1,\\4-X,&1<X<3,\\2X-5,&X\geq3,\end{cases}$，求 $p=P\left\{Y\geq\dfrac14X^2+1\right\}$ 的最大似然估计值 $\hat p$。
+content_hash: c40fc596fea1bc878ea65e3cd6bf05f7a04fed1b1b9f1b92756cc3732dc09888

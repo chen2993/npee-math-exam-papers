@@ -1,0 +1,277 @@
+schema_version: '3.0'
+paper:
+  series_key: lilin6
+  year: 2024
+  subject: math2
+  paper_no: 5
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      当 $x \to 0$ 时, $\int_0^x \dfrac{1}{t}\ln(1+xt)\,\mathrm{d}t$ 与 $ax^2$ 是等价无穷小量, 则 $a=$
+  choices:
+  - label: A
+    text: $1$
+    figures: []
+  - label: B
+    text: $-1$
+    figures: []
+  - label: C
+    text: $2$
+    figures: []
+  - label: D
+    text: $-2$
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)$ 在 $x=0$ 处有三阶导数, 且 $\lim\limits_{x \to 0} \dfrac{f'(x)}{x^2} = 1$, 则
+  choices:
+  - label: A
+    text: $f(0)$ 是 $f(x)$ 的极小值
+    figures: []
+  - label: B
+    text: $f(0)$ 是 $f(x)$ 的极大值
+    figures: []
+  - label: C
+    text: $(0, f(0))$ 是 $y=f(x)$ 的拐点
+    figures: []
+  - label: D
+    text: $(0, f(0))$ 不是 $y=f(x)$ 的拐点
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $\{x_n\}$ 为数列, 则下列结论正确的是 ①若 $\{\arctan x_n\}$ 收敛, 则 $\{x_n\}$ 收敛; ②若 $\{\arctan x_n\}$ 单调, 则 $\{x_n\}$ 收敛; ③若 $x_n \in [-1,1]$, 且 $\{x_n\}$ 收敛, 则 $\{\arcsin x_n\}$ 收敛; ④若 $x_n \in [-1,1]$, 且 $\{x_n\}$ 单调, 则 $\{\arcsin x_n\}$ 收敛
+  choices:
+  - label: A
+    text: ①②
+    figures: []
+  - label: B
+    text: ③④
+    figures: []
+  - label: C
+    text: ①③
+    figures: []
+  - label: D
+    text: ②④
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设螺线 $r=\theta(0\leqslant\theta\leqslant2\pi)$ 与极轴所围区域的面积为 $A$, 则 $A=$
+  choices:
+  - label: A
+    text: |-
+      $\lim\limits_{n\to\infty}\sum\limits_{i=1}^{n}\dfrac{4\pi^3i^2}{n^3}.$
+    figures: []
+  - label: B
+    text: |-
+      $\lim\limits_{n\to\infty}\sum\limits_{i=1}^{n}\dfrac{4\pi^3i^2}{n^2}.$
+    figures: []
+  - label: C
+    text: |-
+      $\lim\limits_{n\to\infty}\sum\limits_{i=1}^{n}\dfrac{8\pi^3i^2}{n^3}.$
+    figures: []
+  - label: D
+    text: |-
+      $\lim\limits_{n\to\infty}\sum\limits_{i=1}^{n}\dfrac{2\pi^3i^2}{n^3}.$
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      函数 $f(x,y)=x+(y-1)\arcsin\sqrt{\dfrac{|x|}{y}}$ 在点 $(0,1)$ 处
+  choices:
+  - label: A
+    text: $f_x'(0,1)=f_y'(0,1)=1.$
+    figures: []
+  - label: B
+    text: |-
+      $\left.df\right|_{(0,1)}=\mathrm{d}y.$
+    figures: []
+  - label: C
+    text: |-
+      $\left.df\right|_{(0,1)}=\mathrm{d}x.$
+    figures: []
+  - label: D
+    text: |-
+      $\left.df\right|_{(0,1)}$ 不存在
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $y_1 = \mathrm{e}^x, y_2 = \mathrm{e}^{2x}\sin\sqrt{3}\,x, y_3 = \mathrm{e}^{2x}\cos\sqrt{3}\,x$ 是三阶常系数齐次线性微分方程的三个线性无关解，则该微分方程为
+  choices:
+  - label: A
+    text: $y''' - 5y'' + 11y' - 7y = 0$
+    figures: []
+  - label: B
+    text: $y''' + 5y'' + 11y' - 7y = 0$
+    figures: []
+  - label: C
+    text: $y''' - 5y'' + 7y' - 11y = 0$
+    figures: []
+  - label: D
+    text: $y''' + 5y'' + 7y' - 11y = 0$
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $I_1=\int_0^{\dfrac{\pi}{2}} \cos(\sin t)dt, I_2=\int_0^{\dfrac{\pi}{2}} \sin(\cos t)dt, I_3=\int_0^{\dfrac{\pi}{2}} \sin(\sin t)dt$, 则
+  choices:
+  - label: A
+    text: $I_1>I_2=I_3$
+    figures: []
+  - label: B
+    text: $I_1=I_2>I_3$
+    figures: []
+  - label: C
+    text: $I_1<I_2=I_3$
+    figures: []
+  - label: D
+    text: $I_2>I_1=I_3$
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $3$ 阶矩阵 $A$ 有三重特征值 $1$ $,f(x)=|xE-A|$，则至少存在一点 $x_0 \in (0,1)$，使得 $y=f(x)$ 在 $(x_0,f(x_0))$ 处的切线
+  choices:
+  - label: A
+    text: 平行于直线 $y=1$
+    figures: []
+  - label: B
+    text: 垂直于直线 $y=1$
+    figures: []
+  - label: C
+    text: 平行于直线 $y=x$
+    figures: []
+  - label: D
+    text: 垂直于直线 $y=x$
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 是 $m \times n$ 矩阵，则非齐次线性方程组 $AX=b$ 有解的充分必要条件是
+  choices:
+  - label: A
+    text: $r(A)=r(A^T)=m.$
+    figures: []
+  - label: B
+    text: $r(A)=r(A^T)=n.$
+    figures: []
+  - label: C
+    text: |-
+      $r(A^T)=r\begin{pmatrix} A^T \\ b^T \end{pmatrix}=m.$
+    figures: []
+  - label: D
+    text: |-
+      $A^TX=0$ 与 $\begin{pmatrix} A^T \\ b^T \end{pmatrix}X=0$ 同解
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知实对称矩阵 $A$ 与 $B = \begin{bmatrix} 1 & 0 & 0 \\ 0 & 0 & 2 \\ 0 & 2 & 0 \end{bmatrix}$ 合同, $A^*$ 是 $A$ 的伴随矩阵, 则二次型 $X^T A^* X$ 的规范形为
+  choices:
+  - label: A
+    text: $y_1^2 + y_2^2 - y_3^2$
+    figures: []
+  - label: B
+    text: $-y_1^2 - y_2^2 + y_3^2$
+    figures: []
+  - label: C
+    text: $y_1^2 + y_2^2 + y_3^2$
+    figures: []
+  - label: D
+    text: $-y_1^2 + y_2^2 - y_3^2$
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $\lim_{x\to\infty}\left(\dfrac{x+1}{x-1}\right)^{\dfrac{a}{4}(x+1)}=\int_{-\infty}^{\dfrac{a}{2}} t\mathrm{e}^t dt$，则 $a=\underline{\qquad\qquad}$。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $f(t)=\int_{0}^{t} \mathrm{d}x \int_{x}^{t} \mathrm{e}^{-(x-y)^2} \mathrm{d}y$，则 $f_{+}^{\prime\prime}(0)=\underline{\qquad\qquad}$
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $\lim_{n\to\infty} \sum_{k=1}^{n} \dfrac{1}{n} \ln \dfrac{n+2k}{3n-2k} = \underline{\qquad\qquad}.$
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $z=z(x,y)$ 由方程组 $\begin{cases} x=(t+1)\cos z, \\ y=t\sin z \end{cases}$ 确定$,t=t(x,y)$，则 $\dfrac{\partial z}{\partial x}=\underline{\quad\quad\quad\quad}$。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      积分 $I = \int_{\arctan\dfrac{1}{4}}^{\dfrac{\pi}{4}} d\theta \int_{\dfrac{1}{\sqrt{\sin\theta\cos\theta}}}^{\dfrac{2}{\cos\theta}} r^2 \cos\theta dr = \underline{\qquad\qquad}.$
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 4 维列向量组 $\alpha_1,\alpha_2,\alpha_3$ 线性无关, 若非零列向量 $\beta_1,\beta_2,\beta_3,\beta_4$ 均与 $\alpha_1,\alpha_2,\alpha_3$ 正交, 则秩 $r(\beta_1,\beta_2,\beta_3,\beta_4)=\underline{\qquad\qquad}.$
+- number: 17
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      求 $\lim_{x \to 0} \dfrac{\int_0^x du \int_0^u [u^2 - 3\sin(u-t)^2] dt}{x^8}$
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: 设曲线 $y=a(1-x^2)(a>0)$ 在点 $A(1,0)$ 和 $B(-1,0)$ 处的法线与曲线所围封闭图形为 $D$. $(I)$ 当 $D$ 的面积最小时, 求 $a$ 的值和最小面积; $(II)$ 当 $D$ 的面积最小时, 求 $D$ 绕 $y$ 轴旋转一周所得旋转体的体积
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $f(x,y)$ 的全微分 $\mathrm{d}f(x,y)=-(1+a\mathrm{e}^y)\sin x\mathrm{d}x+\mathrm{e}^{ay}(a\cos x-1-ay)\mathrm{d}y$，且 $f(0,0)=2\ (a\neq 0)$。 (I) 求 $a$ 的值及 $f(x,y)$； (II) 求 $f(x,y)$ 的极值。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $y=f(x)$ 在 $[0, +\infty)$ 上可导, $f(0)=k>0$, 当 $x>0$ 时, $f'(x)>0$, 若在区间 $[0,x]$ 上以 $y=f(x)$ 为曲边的曲边梯形面积为 $A(x)$, $y=f(x)$ 在 $[0,x]$ 上的弧长为 $S(x)$, 且 $A(x)=kS(x)$, 求 $f(x)$
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $f(x)$ 在 $[0,1]$ 上有连续导数$,f(0)=1$ $,f'_+(0)=1$，且 $\iint_{D_t} f''(x+y) \mathrm{d}x\mathrm{d}y = \iint_{D_t} [f(x+y)+(x-y)]\mathrm{d}x\mathrm{d}y$。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: 二次型 $f(x_1,x_2,x_3)=x_1^2+2x_2^2+2x_3^2+2ax_2x_3(a>0)$，在正交变换 $X=QY$ 下化为 $g(y_1,y_2,y_3)=2y_1^2+by_2^2+2y_3^2-2y_1y_3$. $(I)$ 求 $a,b$ 的值； $(II)$ 求正交矩阵 $Q$
+content_hash: ab5639d88064ec35d84020b15b2e599693db7409260a33ee7d55607ef2ecaaed

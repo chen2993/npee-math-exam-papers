@@ -1,0 +1,310 @@
+schema_version: '3.0'
+paper:
+  series_key: yubingsen5
+  year: 2026
+  subject: math2
+  paper_no: 3
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 \(f(x)=(x+1)^x-1\), \(g(x)=x^x-(\sin x)^x\)，则当 \(x\to0^+\) 时，
+  choices:
+  - label: A
+    text: |-
+      \(f(x)\) 是 \(g(x)\) 的高阶无穷小
+    figures: []
+  - label: B
+    text: |-
+      \(f(x)\) 是 \(g(x)\) 的低阶无穷小
+    figures: []
+  - label: C
+    text: |-
+      \(f(x)\) 与 \(g(x)\) 是同阶非等价无穷小
+    figures: []
+  - label: D
+    text: |-
+      \(f(x)\) 与 \(g(x)\) 是等价无穷小
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 \(a_1>0\), \(a_{n+1}=a_n+\dfrac{1}{a_n}\), \(n=1,2, \cdots\)，则在下列极限 \( \lim\limits_{n\to\infty}a_n\), \( \lim\limits_{n\to\infty}\dfrac{1}{a_n}\), \( \lim\limits_{n\to\infty}\dfrac{a_{n+1}}{a_n}\), \( \lim\limits_{n\to\infty}(a_{n+1}+a_n)\), \( \lim\limits_{n\to\infty}(a_{n+1}^2-a_n^2)\) 中，极限存在的个数为
+  choices:
+  - label: A
+    text: |-
+      \(2\)
+    figures: []
+  - label: B
+    text: |-
+      \(3\)
+    figures: []
+  - label: C
+    text: |-
+      \(4\)
+    figures: []
+  - label: D
+    text: |-
+      \(5\)
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      当 \(x>0\) 时，$f(x)=\lim\limits_{n\to\infty}\dfrac{(x-1)^{n+3}+x^2+|x-1|+2}{2+(x-1)^n}, $则 \(f(x)\)
+  choices:
+  - label: A
+    text: |-
+      在 \(x=1\) 处可导, 在 \(x=2\) 处连续
+    figures: []
+  - label: B
+    text: |-
+      在 \(x=1\) 处可导, 在 \(x=2\) 处不连续
+    figures: []
+  - label: C
+    text: |-
+      在 \(x=1\) 处不可导, 在 \(x=2\) 处连续
+    figures: []
+  - label: D
+    text: |-
+      在 \(x=1\) 处不可导, 在 \(x=2\) 处不连续
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 \(y=f(x)\) 是区间 \([-1,3]\) 上的可导函数，\(f(-1)=0\), \(f'(x)\) 的图形如图所示，其中三块图形的面积分别为 \(S_1=\dfrac{1}{3}\), \(S_2=\dfrac{4}{3}\), \(S_3=3\)，则 \(f(x)\) 在 \([-1,3]\) 上
+  choices:
+  - label: A
+    text: |-
+      最大值为 \(3\), 最小值为 \(0\)
+    figures: []
+  - label: B
+    text: |-
+      最大值为 \(3\), 最小值为 \(0\)
+    figures: []
+  - label: C
+    text: |-
+      最大值为 \(2\), 最小值为 \(0\)
+    figures: []
+  - label: D
+    text: |-
+      最大值为 \(2\), 最小值为 \(-1\)
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 \(f(x)\) 连续，则下列结论不成立的是
+  choices:
+  - label: A
+    text: |-
+      \(\int_0^\pi f(\sin x)\, \mathrm dx=2\int_0^{\pi/2}f(\sin x)\, \mathrm dx\)
+    figures: []
+  - label: B
+    text: |-
+      \(\int_0^\pi f(\sin^2x)\, \mathrm dx=2\int_0^{\pi/2}f(\sin^2x)\, \mathrm dx\)
+    figures: []
+  - label: C
+    text: |-
+      \(\int_0^\pi f(\cos x)\, \mathrm dx=2\int_0^{\pi/2}f(\cos x)\, \mathrm dx\)
+    figures: []
+  - label: D
+    text: |-
+      \(\int_0^\pi f(\cos^2x)\, \mathrm dx=2\int_0^{\pi/2}f(\cos^2x)\, \mathrm dx\)
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 \(F(x,y)\) 具有二阶连续偏导数，且 \(F(x_0,y_0)=0\), \(F'_x(x_0,y_0)=0\), \(F'_y(x_0,y_0)>0\). 若 \(y=y(x)\) 是由方程 \(F(x,y)=0\) 所确定的在点 \((x_0,y_0)\) 附近的隐函数，则 \(x_0\) 是函数 \(y=y(x)\) 的极大值点的一个充分条件是
+  choices:
+  - label: A
+    text: |-
+      \(F''_{xx}(x_0,y_0)>0\)
+    figures: []
+  - label: B
+    text: |-
+      \(F''_{xx}(x_0,y_0)<0\)
+    figures: []
+  - label: C
+    text: |-
+      \(F''_{yy}(x_0,y_0)>0\)
+    figures: []
+  - label: D
+    text: |-
+      \(F''_{yy}(x_0,y_0)<0\)
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设区域 \(D\) 由 \(x+y=\dfrac{1}{2}\), \(x+y=\sqrt{\dfrac\pi2}\) 及两坐标轴围成，记 \( I_1=\iint_D\ln\left[1+(x+y)^2\right]\, \mathrm dx\, \mathrm dy\), \( I_2=\dfrac\pi2\iint_D\sin (x+y)^2\, \mathrm dx\, \mathrm dy\), \( I_3=\iint_D(x+y)^2\, \mathrm dx\, \mathrm dy\)，则
+  choices:
+  - label: A
+    text: |-
+      \(I_2<I_3<I_1\)
+    figures: []
+  - label: B
+    text: |-
+      \(I_1<I_3<I_2\)
+    figures: []
+  - label: C
+    text: |-
+      \(I_3<I_1<I_2\)
+    figures: []
+  - label: D
+    text: |-
+      \(I_3<I_2<I_1\)
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设线性方程组 \(Ax=\alpha\) 有解，\(\begin{pmatrix}A\\B\end{pmatrix}x=\begin{pmatrix}\alpha\\\beta\end{pmatrix}\) 无解，则下列结论中不正确的是
+  choices:
+  - label: A
+    text: |-
+      \(r(B, \beta)=r(B)+1\)
+    figures: []
+  - label: B
+    text: |-
+      \(r\begin{pmatrix}A&\alpha\\B&\beta\end{pmatrix}=r\begin{pmatrix}A\\B\end{pmatrix}+1\)
+    figures: []
+  - label: C
+    text: |-
+      \(r\left[B^T(B, \beta)\right]=r(B^TB)\)
+    figures: []
+  - label: D
+    text: |-
+      \(r\left[(A^T,B^T)\begin{pmatrix}A&\alpha\\B&\beta\end{pmatrix}\right]=r\left[(A^T,B^T)\begin{pmatrix}A\\B\end{pmatrix}\right]\)
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 \(A,B\) 均是 \(n\) 阶方阵，且 \(AB=A+2B\). 对于下列四个命题：① \(AB=BA\)；② \(2\) 不是 \(A\) 的特征值；③ \(r(A)=r(B)\)；④ 方程组 \(Ax=0\) 与 \(Bx=0\) 同解. 其中正确命题的个数是
+  choices:
+  - label: A
+    text: |-
+      \(1\)
+    figures: []
+  - label: B
+    text: |-
+      \(2\)
+    figures: []
+  - label: C
+    text: |-
+      \(3\)
+    figures: []
+  - label: D
+    text: |-
+      \(4\)
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设矩阵 \(M=\begin{pmatrix}1&1&-2\\1&-2&1\\-2&1&1\end{pmatrix}\)，则下列矩阵中与矩阵 \(M\) 合同但不相似的是
+  choices:
+  - label: A
+    text: |-
+      \(A=\begin{pmatrix}1&-2&1\\-2&4&-2\\1&-2&1\end{pmatrix}\)
+    figures: []
+  - label: B
+    text: |-
+      \(B=\begin{pmatrix}1&1&0\\1&1&0\\0&0&1\end{pmatrix}\)
+    figures: []
+  - label: C
+    text: |-
+      \(C=\begin{pmatrix}3&0&0\\0&0&0\\0&0&-3\end{pmatrix}\)
+    figures: []
+  - label: D
+    text: |-
+      \(D=\begin{pmatrix}0&0&1\\0&0&0\\1&0&0\end{pmatrix}\)
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 \(\begin{cases}x=4t^2+5t-7y, \\ e^{y+1}-\cos t+ty=0, \end{cases}\) 则 \(\left.\dfrac{\mathrm dy}{\mathrm dx}\right|_{t=0}=\)_____
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 \(f(x)=\int_1^x e^{t^2}\, \mathrm dt\), \(x=g(y)\) 是函数 \(y=f(x)\) 的反函数，则 \(g''(0)=\)_____
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      \(\int_0^2\sqrt{\dfrac{x}{2-x}}\, \mathrm dx=\)_____
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      微分方程 \(y'''+y''+y'-3y=0\) 满足 \(\lim\limits_{x\to-\infty}e^{-x}y=1\) 的特解为_____
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      由 \(x^2+y^2=1\, (y\ge0)\), \(x=-1\), \(x=1\), \(y=-1\) 所围的平面图形 \(D\) 的形心坐标为_____
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      已知二次型$f(x_1,x_2,x_3)=(x_1,x_2,x_3)\begin{pmatrix}1-a&2a&-1\\2&1-a&1\\1&-1&2\end{pmatrix}\begin{pmatrix}x_1\\x_2\\x_3\end{pmatrix}$的秩为 \(2\)，则常数 \(a=\)_____
+- number: 17
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      当 \(0\le x<1\) 时，\(f(x)=(1-x)\ln(1+x)\)；当 \(1\le x<2\) 时，\(f(x)=af(x-1)\). (1) 求常数 \(a\)，使得 \(f(x)\) 在 \([0,2)\) 上可导； (2) 问 \(f(x)\) 在点 \(x=1\) 处是否二阶可导？
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      (1) 计算 \( I=\int_0^{\dfrac{1}{2}}\mathrm dy\int_y^{\dfrac{1}{2}}\dfrac{\ln(1+x)}{x}\, \mathrm dx \)； (2) 求 \(f(x)=\ln(1+x)\) 的二阶麦克劳林公式 \( \ln(1+x)=a+bx+cx^2+R_2(x) \) ，并计算 \( \int_0^{\dfrac{1}{2}}\mathrm dy\int_y^{\dfrac{1}{2}}\dfrac{R_2(x)}{x}\, \mathrm dx \)
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设连续函数 \(f(x)\) 满足 \( f(x)=e^x-e^x\int_0^x f^2(t)\, \mathrm dt \). (1) 试求 \(f(x)\) 满足的一阶微分方程； (2) 利用变量代换 \(u=\dfrac{1}{f(x)}\)，求 \(f(x)\) 的表达式； (3) 计算 \(\int_{-1}^1[x+f(x)]^2\, \mathrm dx\)
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      \(f(x)\) 在 \([0,1]\) 上连续，在 \((0,1)\) 内二阶可导，且 \(f(0)=f(1)=0\), \(f''(x)0\). (1) 证明：对于任意的正整数 \(n\)，存在唯一的点 \(x_n\in(0,1)\)，使得 \(f'(x_n)=\dfrac{M}{n}\)； (2) 证明：\(\lim\limits_{n\to\infty}x_n\) 存在，且 \(\lim\limits_{n\to\infty}x_n=x_0\)
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      已知函数 \(z=z(x,y)\) 由方程 \( x^2-xy+2y^2-x-3y+ze^z=2(e^2-1) \) 确定，求 \(z=z(x,y)\) 的极值
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      已知三阶实矩阵 $A = (a_{ij})_{3\times 3}$ 满足条件： ① $a_{ij} + A_{ij} = 0(i,j = 1, 2, 3)$，其中 $A_{ij}$ 为 $|A|$ $a_{ij}$ 的代数余子式； ② $a_{33} = -1$。 (1) 证明 $A$ 为正交矩阵； (2) 解线性方程组 $Ax = \begin{pmatrix} 0 \\ 0 \\ 1 \end{pmatrix}$。
+content_hash: 743da1979dc7379c1ccd1c087b196011ad7761a27e61dd462e2bc2c07e6962ab

@@ -4,7 +4,6 @@ paper:
   year: 2025
   subject: math3
   paper_no: 1
-content_hash: 1177eed9c5749571aa653f90ffd92c8bbb1a29ecfbd13b804bdc22a6006b2824
 questions:
 - number: 1
   section: choice
@@ -133,7 +132,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $a\ne0,3$ 阶矩阵 $A=\begin{pmatrix}0&a&1\\1&0&0\\a&0&0\end{pmatrix}$，则下列说法中，正确的是\ExamSelection ①对任意大于等于 3 的正整数 $n$，$\operatorname{tr}(A^n)=0$。②对任意正整数 $n$，方程组 $A\boldsymbol{x}=0$ 与 $A^{2n+1}\boldsymbol{x}=0$ 同解。③对任意正整数 $n$，方程组 $A\boldsymbol{x}=0$ 与 $A^{2n}\boldsymbol{x}=0$ 同解。
+      设 $a\ne0,3$ 阶矩阵 $A=\begin{pmatrix}0&a&1\\1&0&0\\a&0&0\end{pmatrix}$，则下列说法中，正确的是\ExamSelection \n①对任意大于等于 3 的正整数 $n$，$\operatorname{tr}(A^n)=0$。\n②对任意正整数 $n$，方程组 $A\boldsymbol{x}=0$ 与 $A^{2n+1}\boldsymbol{x}=0$ 同解。\n③对任意正整数 $n$，方程组 $A\boldsymbol{x}=0$ 与 $A^{2n}\boldsymbol{x}=0$ 同解。
   choices:
   - label: A
     text: ①,②
@@ -253,7 +252,7 @@ questions:
   points: 10
   stem:
     text: |-
-      （本题满分 10 分）设 $n$ 为正整数，$a_n=\displaystyle\sum_{i=1}^n\dfrac{n}{n+i}$，$b_n=\displaystyle\sum_{i=1}^n\dfrac{n^2}{(n+i)\sqrt{n^2+i^2}}$。
+      设 $n$ 为正整数，$a_n=\displaystyle\sum_{i=1}^n\dfrac{n}{n+i}$，$b_n=\displaystyle\sum_{i=1}^n\dfrac{n^2}{(n+i)\sqrt{n^2+i^2}}$。
   subparts:
   - text: |-
       求 $\lim_{n\to\infty}\dfrac{a_n}{n}$。
@@ -264,7 +263,7 @@ questions:
   points: 12
   stem:
     text: |-
-      （本题满分 12 分）（公众号：风中羽小易）设函数 $z=z(x,y)$ 有一阶连续偏导数，考虑变换 $\begin{cases}\xi=x+y,\\\eta=x-y,\end{cases}$，$\dfrac{\partial z}{\partial\xi},\dfrac{\partial z}{\partial\eta}$ 满足方程组①：$\begin{cases}4\xi\dfrac{\partial z}{\partial\xi}-4\eta\dfrac{\partial z}{\partial\eta}=(\xi+\eta)(3\xi+\eta),\\\dfrac{\partial z}{\partial\xi}+3\dfrac{\partial z}{\partial\eta}=(3\xi+\eta)\ln\xi.\end{cases}$
+      设函数 $z=z(x,y)$ 有一阶连续偏导数，考虑变换 $\begin{cases}\xi=x+y,\\\eta=x-y,\end{cases}$，$\dfrac{\partial z}{\partial\xi},\dfrac{\partial z}{\partial\eta}$ 满足方程组①：$\begin{cases}4\xi\dfrac{\partial z}{\partial\xi}-4\eta\dfrac{\partial z}{\partial\eta}=(\xi+\eta)(3\xi+\eta),\\\dfrac{\partial z}{\partial\xi}+3\dfrac{\partial z}{\partial\eta}=(3\xi+\eta)\ln\xi.\end{cases}$
   subparts:
   - text: |-
       将方程组①化为变量 $x,y$ 与 $\dfrac{\partial z}{\partial x},\dfrac{\partial z}{\partial y}$ 的方程组。
@@ -274,13 +273,13 @@ questions:
   points: 12
   stem:
     text: |-
-      （本题满分 12 分）求幂级数 $\displaystyle\sum_{n=0}^{\infty}\dfrac{(n+1)^2}{n+2}x^n$ 的收敛域，并计算其和函数 $S(x)$。
+      求幂级数 $\displaystyle\sum_{n=0}^{\infty}\dfrac{(n+1)^2}{n+2}x^n$ 的收敛域，并计算其和函数 $S(x)$。
 - number: 20
   section: solution
   points: 12
   stem:
     text: |-
-      （本题满分 12 分）设函数 $f(x)$ 在 $[0,1]$ 上连续，在 $(0,1)$ 内二阶可导，且 $f(0)=0,f(1)=1,f''(x)\geq-2$。证明：
+      设函数 $f(x)$ 在 $[0,1]$ 上连续，在 $(0,1)$ 内二阶可导，且 $f(0)=0,f(1)=1,f''(x)\geq-2$。证明：
   subparts:
   - text: |-
       存在唯一的 $x_0\in(0,1)$，使得 $f(x_0)+x_0^2-1=0$。
@@ -291,7 +290,7 @@ questions:
   points: 12
   stem:
     text: |-
-      （本题满分 12 分）设 $A$ 是 3 阶矩阵，$\boldsymbol{\alpha}$ 是满足 $A\boldsymbol{\alpha}=0$ 的非零向量。已知满足 $\boldsymbol{\beta}^{\mathsf T}\boldsymbol{\alpha}=0$ 的 3 维列向量 $\boldsymbol{\beta}$ 均为 $A$ 的属于特征值 1 的特征向量。
+      设 $A$ 是 3 阶矩阵，$\boldsymbol{\alpha}$ 是满足 $A\boldsymbol{\alpha}=0$ 的非零向量。已知满足 $\boldsymbol{\beta}^{\mathsf T}\boldsymbol{\alpha}=0$ 的 3 维列向量 $\boldsymbol{\beta}$ 均为 $A$ 的属于特征值 1 的特征向量。
   subparts:
   - text: |-
       证明：$A$ 的属于特征值 1 的特征向量均为方程组 $\boldsymbol{\alpha}^{\mathsf T}\boldsymbol{x}=0$ 的解。
@@ -302,8 +301,9 @@ questions:
   points: 12
   stem:
     text: |-
-      （本题满分 12 分）设随机变量 $X$ 的概率密度为 $f(x)=\begin{cases}3x^2-2x+1,&0<x<1,\\0,&\text{其他},\end{cases}$，定义随机变量 $Y=\begin{cases}2,&X\leq\dfrac13,\\3X,&\dfrac13<X<\dfrac23,\\1,&X\geq\dfrac23.\end{cases}$
+      设随机变量 $X$ 的概率密度为 $f(x)=\begin{cases}3x^2-2x+1,&0<x<1,\\0,&\text{其他},\end{cases}$，定义随机变量 $Y=\begin{cases}2,&X\leq\dfrac13,\\3X,&\dfrac13<X<\dfrac23,\\1,&X\geq\dfrac23.\end{cases}$
   subparts:
   - text: 求随机变量 $Y$ 的分布函数。
   - text: |-
       求 $P\{X+1<Y\}$。
+content_hash: 7260bfcf9a05ac01c85534e1b7f7ac95fcf8f037992788a49e4452e43b4b8b55

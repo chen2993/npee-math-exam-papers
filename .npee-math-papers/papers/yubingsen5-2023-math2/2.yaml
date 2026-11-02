@@ -1,0 +1,292 @@
+schema_version: '3.0'
+paper:
+  series_key: yubingsen5
+  year: 2023
+  subject: math2
+  paper_no: 2
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知 $\lim\limits_{x\to 0} \dfrac{\sqrt{1+\dfrac{f(x)}{x^2}}-1}{\arctan x^2} = 2$，且 $x\to 0$ 时$,f(x) \sim a x^b$，则（ ）
+  choices:
+  - label: A
+    text: $a = b = 2$
+    figures: []
+  - label: B
+    text: $a = 2, b = 4$
+    figures: []
+  - label: C
+    text: $a = 4, b = 2$
+    figures: []
+  - label: D
+    text: $a = b = 4$
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)=\begin{cases} \sin x, & 0\leqslant x\leqslant \dfrac{\pi}{2}, \\ 0, & \dfrac{\pi}{2}<x\leqslant \pi, \end{cases}$ $g(x)=\int_0^x tf(x-t)dt$，则 $g(x)$ 为（ ）
+  choices:
+  - label: A
+    text: |-
+      $\begin{cases} x-\sin x, & 0\leqslant x\leqslant \dfrac{\pi}{2}, \\ 0, & \dfrac{\pi}{2}<x\leqslant \pi \end{cases}$
+    figures: []
+  - label: B
+    text: |-
+      $\begin{cases} x\cos x, & 0\leqslant x\leqslant \dfrac{\pi}{2}, \\ 0, & \dfrac{\pi}{2}<x\leqslant \pi \end{cases}$
+    figures: []
+  - label: C
+    text: |-
+      $\begin{cases} x-\sin x, & 0\leqslant x\leqslant \dfrac{\pi}{2}, \\ \dfrac{\pi}{2}-1, & \dfrac{\pi}{2}<x\leqslant \pi \end{cases}$
+    figures: []
+  - label: D
+    text: |-
+      $\begin{cases} x-\sin x, & 0\leqslant x\leqslant \dfrac{\pi}{2}, \\ x-1, & \dfrac{\pi}{2}<x\leqslant \pi \end{cases}$
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $y=f(x)$ 是区间 $[-1,3]$ 上的可导函数, $f(-1)=0, f'(x)$ 的图像如 3 题图所示, 其中三块图形的面积分别为 $S_1=\dfrac{1}{3}, S_2=\dfrac{4}{3}, S_3=3$, 则 $f(x)$ 在 $[-1,3]$ 上 $(\quad)$
+  choices:
+  - label: A
+    text: 最大值为 $3$, 最小值为 $0$
+    figures: []
+  - label: B
+    text: 最大值为 $3$, 最小值为 $0$
+    figures: []
+  - label: C
+    text: 最大值为 $2$, 最小值为 $0$
+    figures: []
+  - label: D
+    text: 最大值为 $2$, 最小值为 $-1$
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x,y)$ 为可微函数，并且 $f(x,x^2)=x^3\mathrm{e}^{-2x},\left. f_y'(x,y)\right|_{y=x^2}=-x^2\mathrm{e}^{-2x}$，则 $f_x'(-1,1)$ 为 ( )
+  choices:
+  - label: A
+    text: |-
+      $3\mathrm{e}^2$
+    figures: []
+  - label: B
+    text: |-
+      $-3\mathrm{e}^2$
+    figures: []
+  - label: C
+    text: |-
+      $6\mathrm{e}^2$
+    figures: []
+  - label: D
+    text: |-
+      $-6\mathrm{e}^2$
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      对于方程 $\mathrm{e}^{xy} + \ln x + yz = 0$, 在点 $(1, 1, -\mathrm{e})$ 的某一邻域内, 下列结论正确的是 ( )
+  choices:
+  - label: A
+    text: 由方程可确定两个具有连续偏导数的隐函数 $x=x(y,z)$ 和 $z=z(x,y)$
+    figures: []
+  - label: B
+    text: 由方程可确定两个具有连续偏导数的隐函数 $y=y(x,z)$ 和 $z=z(x,y)$
+    figures: []
+  - label: C
+    text: 由方程可确定两个具有连续偏导数的隐函数 $x=x(y,z)$ 和 $y=y(x,z)$
+    figures: []
+  - label: D
+    text: 由方程只能确定一个具有连续偏导数的隐函数 $z=z(x,y)$
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x)$ 在 $[0, +\infty)$ 上连续，在 $(0, +\infty)$ 内可导，下列结论中正确的是（ ）
+  choices:
+  - label: A
+    text: |-
+      若 $f(0) = 0$，则 $\lim\limits_{x \to 0^+} \dfrac{f(x)}{x}$ 存在
+    figures: []
+  - label: B
+    text: |-
+      若 $\lim\limits_{x \to +\infty} \dfrac{f(x)}{x} = 1$，则 $\lim\limits_{x \to +\infty} f'(x) = 1$
+    figures: []
+  - label: C
+    text: |-
+      若 $\dfrac{f(x)}{x}$ 在 $(0, +\infty)$ 内单调减少，则 $f'(x)$ 在 $(0, +\infty)$ 内单调减少
+    figures: []
+  - label: D
+    text: |-
+      若 $f(x)$ 在 $[0, +\infty)$ 上单调增加，且 $\lim\limits_{x \to +\infty} \dfrac{1}{x} \int_{0}^{x} f(t) \mathrm{d}t = 1$，则 $\lim\limits_{x \to +\infty} f(x) = 1$
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x)=\begin{cases} -(x+2)^3, & x1, \end{cases}$ 则 $f(x)$（ ）
+  choices:
+  - label: A
+    text: 在点 $x=-2$ 处取极值
+    figures: []
+  - label: B
+    text: 在点 $x=-1$ 处取极值
+    figures: []
+  - label: C
+    text: 在点 $x=1$ 处取极值
+    figures: []
+  - label: D
+    text: 在点 $x=2$ 处取极值
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 为 $4 \times 3$ 阶矩阵$,B = (\alpha_1, \alpha_2, \alpha_3)$ 可逆$,C = (\beta_1, \beta_2, \beta_3) = \begin{pmatrix} 1 & 1 & 2 \\ 0 & 0 & 0 \\ 1 & 1 & 2 \\ 0 & 0 & 0 \end{pmatrix}$，且满足 $A = C$，若 $k_1, k_2$ 为任意常数，则线性方程组 $Ax = \beta_1$ 的通解为（\quad）
+  choices:
+  - label: A
+    text: |-
+      $k_1(\alpha_2 - \alpha_1) + k_2\left(\dfrac{1}{2}\alpha_3 - \alpha_1\right) + \alpha_1$
+    figures: []
+  - label: B
+    text: |-
+      $k_1(\alpha_2 + \alpha_1) + k_2\left(\dfrac{1}{2}\alpha_3 + \alpha_1\right) + \alpha_2$
+    figures: []
+  - label: C
+    text: |-
+      $k_1(\alpha_2 - \alpha_1) + k_2(\alpha_3 - \alpha_1) + \alpha_3$
+    figures: []
+  - label: D
+    text: |-
+      $k_1(\alpha_2 + \alpha_1) + k_2(\alpha_3 + \alpha_1) + \alpha_3$
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A,B,C$ 均为 $3$ 阶矩阵$,A^*,B^*$ 分别为 $A,B$ 的伴随矩阵，若 $|A|=2,|B|=3$，则分块矩阵 $\begin{pmatrix} C & A \\ B & O \end{pmatrix}$ 的伴随矩阵为（ ）
+  choices:
+  - label: A
+    text: |-
+      $\begin{pmatrix} A^*CB^* & 2A^* \\ 3B^* & O \end{pmatrix}$
+    figures: []
+  - label: B
+    text: |-
+      $\begin{pmatrix} -A^*CB^* & 2B^* \\ 3A^* & O \end{pmatrix}$
+    figures: []
+  - label: C
+    text: |-
+      $\begin{pmatrix} O & -2A^* \\ -3B^* & A^*CB^* \end{pmatrix}$
+    figures: []
+  - label: D
+    text: |-
+      $\begin{pmatrix} O & -2B^* \\ -3A^* & A^*CB^* \end{pmatrix}$
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: 三元二次型 $f=x^T Ax$ 正定，其中 $x=(x_1,x_2,x_3)^T$ $,A$ 为实对称矩阵，则下列说法不正确的是（ ）。
+  choices:
+  - label: A
+    text: 仅在 $x=0$ 处 $f$ 取得最小值
+    figures: []
+  - label: B
+    text: |-
+      齐次线性方程组 $\begin{cases} \dfrac{\partial f}{\partial x_1}=0, \\ \dfrac{\partial f}{\partial x_2}=0, \\ \dfrac{\partial f}{\partial x_3}=0 \end{cases}$
+    figures: []
+  - label: C
+    text: |-
+      $f$ 的二阶偏导数矩阵 $\left(\dfrac{\partial^2 f}{\partial x^2\partial y^2}\right), \begin{pmatrix} \partial^2 f \\ \dfrac{\partial^2 f}{\partial x^2} \\ \dfrac{\partial^2 f}{\partial y^2} \end{pmatrix}, \begin{pmatrix} \partial^2 f \\ \dfrac{\partial^2 f}{\partial x^2} \\ \dfrac{\partial^2 f}{\partial y^2} \end{pmatrix}, \begin{pmatrix} \partial^2 f \\ \partial^2 f \\ \partial^2 f \end{pmatrix}$ 正定
+    figures: []
+  - label: D
+    text: |-
+      存在 $3$ 维非零列向量 $\alpha$，使得 $A=\alpha\alpha^T$，从而 $f=(\alpha^Tx)^2$
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $\lim\limits_{h \to 0} \dfrac{1}{h^3} \begin{vmatrix} 1 & x & \mathrm{e}^x \\ 1 & x+h & \mathrm{e}^{x+h} \\ 1 & x+2h & \mathrm{e}^{x+2h} \end{vmatrix} = \underline{\qquad\qquad}.$
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x)$ 具有二阶连续的导数，曲线 $y=f(x)$ 既关于 $y$ 轴对称，也关于直线 $x=1$ 对称，则 $\int_{-2}^{2}(x-2023) f^{\prime\prime}(x) \mathrm{d}x =\underline{\qquad\qquad}$
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $y'' - 3y' + ay = -5\mathrm{e}^{-x}$ 的特解形式为 $Axe^{-x}$，则该方程的通解为 $y = \underline{\hspace{2.5cm}}$
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $C$ 为曲线 $\begin{cases} x=\ln(1+t^2), \\ y=2\arctan t-t \end{cases}$ 上从 $t=0$ 到 $t=1$ 之间的一段弧，则曲线 $C$ 绕 $y$ 轴旋转一周所得到的旋转曲面的面积 $S=\underline{\qquad\qquad}$
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x)$ 在点 $x=0$ 处连续，且当 $x\neq 0$ 时$,f(x)=(1+2x)^{\dfrac{1}{x}}$，则曲线 $y=f(x)$ 在 $x=0$ 对应点处的切线方程为\underline{\qquad\qquad}
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      向量组 $(I)\alpha_1 = \begin{pmatrix} 2 \\ 1 \\ 1 \\ 2 \end{pmatrix}, \alpha_2 = \begin{pmatrix} 0 \\ -2 \\ 1 \\ 1 \end{pmatrix}, \alpha_3 = \begin{pmatrix} 4 \\ 1 \\ 4 \\ 3 \end{pmatrix}$ 能由向量组 $(II)\beta_1 = \begin{pmatrix} 2 \\ a \\ 2 \\ 3 \end{pmatrix}, \beta_2 = \begin{pmatrix} 2 \\ 1 \\ 1 \\ 2 \end{pmatrix}, \beta_3 = \begin{pmatrix} 2 \\ 1 \\ 1 \\ 2 \end{pmatrix}, \beta_4 = \begin{pmatrix} 2 \\ 3 \\ 0 \\ 1 \end{pmatrix}$ 线性表示，但 $(II)$ 不能由 $(I)$ 线性表示，则常数 $a$ 的取值范围是 ______
+- number: 17
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      若函数 $y=y(x)$ 由方程 $x^3+y^3+xy-1=0$ 确定，求 $\lim\limits_{x \to 0}\dfrac{3y+x-3}{x^3}$。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设有二阶常系数线性微分方程 $y'' + py' + qy = f(x)$，其中 $f(x)$ 为连续函数. (1) 如果 $r_1, r_2$ 为对应齐次线性微分方程的特征根，且 $y$ 为方程 $y'' + py' + qy = f(x)$ 的解，证明 $ $\left[\mathrm{e}^{(r_2 - r_1)x}(\mathrm{e}^{-r_2 x}y)'\right]' = \mathrm{e}^{-r_1 x}f(x),$ $ \text{进而求出} $y'' + py' + qy = f(x)$ \text{的通解}. (2) \text{利用} (1) \text{求微分方程} $y'' + 3y' + 2y = \sin(\mathrm{e}^x)$ 的通解
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设二元函数 $f(x,y)$ 在区域 $D: a \leqslant x \leqslant b, c \leqslant y \leqslant d$ 上具有一阶连续的偏导数. (1) 证明: $\int_a^b [f(x,d) - f(x,c)] \mathrm{d}x = \int_c^d \mathrm{d}y \int_a^b f'_y(x,y) \mathrm{d}x$; (2) 利用 (1) 计算 $\int_0^1 \dfrac{x(x-1)}{\ln x} \mathrm{d}x$
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $f(x)$ 是周期为 $2\pi$ 的可导周期函数, $F(x, h) = \dfrac{1}{2h} \int_{x-h}^{x+h} f(t) \mathrm{d}t$, $-\infty < x < +\infty, h \neq 0$. 证明: (1) $F(x + 2\pi, h) = F(x, h)$; (2) $\int_{-\pi}^{\pi} F(x, h) \mathrm{d}x = \int_{-\pi}^{\pi} f(x) \mathrm{d}x$; (3) $\lim_{h \to 0} F(x, h) = f(x), \lim_{h \to 0} F'_x(x, h) = f'(x)$
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设方程 $\mathrm{e}^x + x^{2n+1} = 0\ (n = 1, 2, 3, \cdots)$. (1) 证明该方程有唯一实根 $x_n$; (2) 证明极限 $\lim\limits_{n \to \infty} x_n$ 存在，并求该极限的值 $A$; (3) 证明存在常数 $B$，当 $n \to \infty$ 时$,x_n - A \sim \dfrac{B}{n}$，并求 $B$ 的值
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设三阶实对称矩阵 $A = (\alpha_1, \alpha_2, \alpha_3)$ 满足 $A^2 = 3A$，且 $\alpha_1 - 2\alpha_2 + \alpha_3 = 0, \alpha_2 - \alpha_3 = 0, \alpha_1 \neq 0$。 (1) 求正交变换 $x = Qy$，将二次型 $f = x^T A^2 x$ 化为标准形； (2) 求 $\left[\left(A - \dfrac{3}{2}E\right)^{-1}\right]^2$。
+content_hash: 2342ab6e74836066e521c96e3d9210befb74462d0b1d028e0a4fc72d66338257

@@ -33,6 +33,25 @@ describe("renderTex", () => {
     expect(html).toContain("katex");
   });
 
+  it("turns the stored \\n marker into a line break", () => {
+    // Stems store the marker (docs/EXTRACTION.md); the browser used to print it.
+    const html = renderTex("下列结论正确的个数为\\n① 甲；\\n② 乙。");
+    expect(html).toContain("<br />");
+    expect(html).not.toContain("\\n");
+  });
+
+  it("keeps control words that start with \\n intact", () => {
+    // `\nu`, `\ne` and `\nabla` are commands, not line breaks — the guard is the
+    // same one the migration tools use.
+    const html = renderTex("$\\nu$ 与 $\\nabla f$，且 $a\\ne b$");
+    expect(html).not.toContain("<br />");
+    expect(html).not.toContain("katex-error");
+  });
+
+  it("does not leave a trailing break at the end of a stem", () => {
+    expect(renderTex("设 $a=1$。\\n")).not.toMatch(/<br \/>\s*$/);
+  });
+
   it("gives \\oiint a \\limits-capable stand-in", () => {
     // `\oiint\limits_S` needs the macro to expand to a math operator; KaTeX has
     // neither a built-in `\oiint` nor a `\unicode` primitive.
@@ -45,6 +64,17 @@ describe("renderTex", () => {
     // (e.g. `...则 $(a,b)=$\ExamSelection` — the command sits adjacent to a span).
     expect(renderTex("$\\ExamSelection$")).toContain("katex");
     expect(renderTex("$\\ExamBlank$")).toContain("katex");
+  });
+
+  it("draws the choice-question bracket as Chinese parentheses, not a square", () => {
+    // The papers print `（　　　）` at the end of a choice stem; `\square` showed
+    // up as a box in the browser and read as a missing glyph.
+    const html = renderTex("则 $f'(1)=$\\ExamSelection。");
+    expect(html).toBeTruthy();
+    expect(html).not.toContain("□");
+    expect(html).not.toContain("katex-error");
+    expect(html).toContain("（");
+    expect(html).toContain("）");
   });
 
   it("renders exam commands written outside a math span", () => {

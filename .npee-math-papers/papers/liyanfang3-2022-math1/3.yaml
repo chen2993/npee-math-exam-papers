@@ -4,7 +4,6 @@ paper:
   year: 2022
   subject: math1
   paper_no: 3
-content_hash: 05e4fa3353cf05e2aa1061415e160f3db11f7887e12acdb5767bd19bb425a376
 questions:
 - number: 1
   section: choice
@@ -118,7 +117,7 @@ questions:
   points: 5
   stem:
     text: |-
-      若 $n$ 阶矩阵 $A$ 的各行、各列元素之和均为 $0$，则下列命题中，正确的是\ExamSelection①$A^*$ 必为实对称矩阵；②$A^*$ 的每个元素都相等；③若 $r(A)=n-1$，则 $A$ 必为实对称矩阵；④$Ax=0$ 与 $A^*x=0$ 必有非零公共解。
+      若 $n$ 阶矩阵 $A$ 的各行、各列元素之和均为 $0$，则下列命题中，正确的是\ExamSelection\n①$A^*$ 必为实对称矩阵；\n②$A^*$ 的每个元素都相等；\n③若 $r(A)=n-1$，则 $A$ 必为实对称矩阵；\n④$Ax=0$ 与 $A^*x=0$ 必有非零公共解。
   choices:
   - label: A
     text: ①②
@@ -137,7 +136,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $S_i:a_ix+b_iy+c_iz=d_i$，$i=1,2,3,4$ 为四张不同的平面，且均不过原点。直线 $l_1$ 为 $S_1,S_2$ 的交线，直线 $l_2$ 为 $S_3,S_4$ 的交线。$l_1$ 与 $l_2$ 相交于一点。记 $\alpha_i=(a_i,b_i,c_i,d_i)^{\mathrm T}$，$i=1,2,3,4$，则下列命题中，正确命题的个数为\ExamSelection①$|\alpha_1,\alpha_2,\alpha_3,\alpha_4|=0$；②$r(\alpha_1,\alpha_2,\alpha_3,\alpha_4)=3$；③必存在非零向量 $w$ 与 $\alpha_1,\alpha_2,\alpha_3,\alpha_4$ 均正交；④必不存在非零向量 $w$，满足 $w$ 与 $\alpha_1,\alpha_2,\alpha_3$ 均正交，但不与 $\alpha_4$ 正交。
+      设 $S_i:a_ix+b_iy+c_iz=d_i$，$i=1,2,3,4$ 为四张不同的平面，且均不过原点。直线 $l_1$ 为 $S_1,S_2$ 的交线，直线 $l_2$ 为 $S_3,S_4$ 的交线。$l_1$ 与 $l_2$ 相交于一点。记 $\alpha_i=(a_i,b_i,c_i,d_i)^{\mathrm T}$，$i=1,2,3,4$，则下列命题中，正确命题的个数为\ExamSelection\n①$|\alpha_1,\alpha_2,\alpha_3,\alpha_4|=0$；\n②$r(\alpha_1,\alpha_2,\alpha_3,\alpha_4)=3$；\n③必存在非零向量 $w$ 与 $\alpha_1,\alpha_2,\alpha_3,\alpha_4$ 均正交；\n④必不存在非零向量 $w$，满足 $w$ 与 $\alpha_1,\alpha_2,\alpha_3$ 均正交，但不与 $\alpha_4$ 正交。
   choices:
   - label: A
     text: '1'
@@ -307,3 +306,4 @@ questions:
   - text: 计算 $E(Z),D(Z)$。
   - text: |-
       设 $Z_1,Z_2,\cdots,Z_n$ 为来自总体 $Z$ 的一个简单随机样本，求 $\sigma^2$ 的最大似然估计量，并检验该估计是否为无偏估计。
+content_hash: 12f26f91c9450f2949d8d4aeb4aab5f1f5a7b4149679cd6dee101fc767c08d52

@@ -1,0 +1,302 @@
+schema_version: '3.0'
+paper:
+  series_key: chaoyue10
+  year: 2026
+  subject: math1
+  paper_no: 4
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知 \( I_1=\int_0^{\dfrac{\pi}{2}}\dfrac{\tan x}{x\sqrt{\pi-2x}}\, \mathrm dx\)， \( I_2=\int_0^{+\infty}\dfrac{\ln x}{\sqrt{x^3+x}}\, \mathrm dx\)，则( )。
+  choices:
+  - label: A
+    text: |-
+      \(I_1\) 收敛， \(I_2\) 收敛
+    figures: []
+  - label: B
+    text: |-
+      \(I_1\) 收敛， \(I_2\) 发散
+    figures: []
+  - label: C
+    text: |-
+      \(I_1\) 发散， \(I_2\) 收敛
+    figures: []
+  - label: D
+    text: |-
+      \(I_1\) 发散， \(I_2\) 发散
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      函数 \( f(x)=\dfrac{x^2-x}{|\sin x|(x^2-1)}\) 在 \( \left(-\dfrac{\pi}{2}, \dfrac{\pi}{2}\right)\) 内的第一类间断点个数为( )。
+  choices:
+  - label: A
+    text: |-
+      \(0\)
+    figures: []
+  - label: B
+    text: |-
+      \(1\)
+    figures: []
+  - label: C
+    text: |-
+      \(2\)
+    figures: []
+  - label: D
+    text: |-
+      \(3\)
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 \(z=z(x,y)\) 由方程 \(xy+\ln z+yz^2=0\) 所确定，则 \( \left.\dfrac{\partial^2z}{\partial x\partial y}\right|_{(1,0)}\) 的值为（ ）。
+  choices:
+  - label: A
+    text: |-
+      \(-1\)
+    figures: []
+  - label: B
+    text: |-
+      \(0\)
+    figures: []
+  - label: C
+    text: |-
+      \(1\)
+    figures: []
+  - label: D
+    text: |-
+      \(2\)
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 \(\Sigma\) 为球面 \(z=\sqrt{1-x^2-y^2}\) 被柱面 \(x^2+y^2=x\) 所截下的部分，取下侧，则将对坐标曲面积分 \( \iint_{\Sigma}\dfrac{xy\, \mathrm dy\, \mathrm dz+yz\, \mathrm dx\, \mathrm dy}{x^2+y^2+z^2}\) 化为对面积的曲面积分为( )。
+  choices:
+  - label: A
+    text: |-
+      \( \iint_{\Sigma}(x^2y+yz^2)\, \mathrm dS\)
+    figures: []
+  - label: B
+    text: |-
+      \( -\iint_{\Sigma}(x^2y+yz^2)\, \mathrm dS\)
+    figures: []
+  - label: C
+    text: |-
+      \( \iint_{\Sigma}(x^2y+y^2z)\, \mathrm dS\)
+    figures: []
+  - label: D
+    text: |-
+      \( -\iint_{\Sigma}(x^2y+y^2z)\, \mathrm dS\)
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知 $P = \begin{pmatrix} 1 & 0 & 0 \\ 0 & 0 & 1 \\ 0 & 1 & 0 \end{pmatrix}$ $,P^{\mathrm{T}} A P^{2026} = \begin{pmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 2 \end{pmatrix}$ $,n$ 为正整数，则 $A^{2n}$ 的值为（ ）
+  choices:
+  - label: A
+    text: |-
+      $\begin{pmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 2^n \end{pmatrix}$
+    figures: []
+  - label: B
+    text: |-
+      $\begin{pmatrix} 1 & 0 & 0 \\ 0 & 2^n & 0 \\ 0 & 0 & 2^n \end{pmatrix}$
+    figures: []
+  - label: C
+    text: |-
+      $\begin{pmatrix} 1 & 0 & 0 \\ 0 & 2^n & 0 \\ 0 & 0 & 1 \end{pmatrix}$
+    figures: []
+  - label: D
+    text: |-
+      $\begin{pmatrix} 2^n & 0 & 0 \\ 0 & 2^n & 0 \\ 0 & 0 & 1 \end{pmatrix}$
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 \(A,B\) 分别为 \(m\times n,n\times s\) 矩阵，且 \(r(B)=n\)，则( )。
+  choices:
+  - label: A
+    text: |-
+      \(AB\) 的行向量组与 \(A\) 的行向量组等价
+    figures: []
+  - label: B
+    text: |-
+      \(AB\) 的列向量组与 \(A\) 的列向量组等价
+    figures: []
+  - label: C
+    text: |-
+      \(AB\) 的行向量组与 \(B\) 的行向量组等价
+    figures: []
+  - label: D
+    text: |-
+      \(AB\) 的列向量组与 \(B\) 的列向量组等价
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 \(A\) 为 3 阶矩阵，\(\lambda_1=\lambda_2=a\)， \(\lambda_3=b\, (a\ne b)\) 是关于 \(A\) 的特征值，则“\(A\) 可对角化”是“\((A-aE)(A-bE)=O\)”的( )。
+  choices:
+  - label: A
+    text: 充分必要条件
+    figures: []
+  - label: B
+    text: 充分非必要条件
+    figures: []
+  - label: C
+    text: 必要非充分条件
+    figures: []
+  - label: D
+    text: 非充分非必要条件
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 \(X\) 的概率密度为\( f(x)=\begin{cases}\dfrac{3}{2}x^2, &-1<x<1, \\0, &\text{其他}, \end{cases} \)且\( Y=\begin{cases}-1, &X<0, \\0, &0\leq X<\dfrac{1}{2}, \\1, &X\geq\dfrac{1}{2}.\end{cases} \)\(F(x,y)\) 为 \((X,Y)\) 的分布函数，则 \( F\left(\dfrac{1}{4}, \dfrac{1}{2}\right)\) 的值为（ ）。
+  choices:
+  - label: A
+    text: |-
+      \( \dfrac{65}{128}\)
+    figures: []
+  - label: B
+    text: |-
+      \( \dfrac{64}{128}\)
+    figures: []
+  - label: C
+    text: |-
+      \( \dfrac{1}{64}\)
+    figures: []
+  - label: D
+    text: |-
+      \( \dfrac{5}{64}\)
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 \(X\) 与 \(Y\) 相互独立，\(X\sim E(\lambda_1)\)， \(Y\sim E(\lambda_2)\)， \(\lambda_1>0, \lambda_2>0\)， \(Z=\min\{X,Y\}\) 且 \(P\{Z\leq1\}=1-{\mathrm e}^{-2}\)，则 \(EZ^2\) 的值为（ ）。
+  choices:
+  - label: A
+    text: |-
+      \( \dfrac{1}{4}\)
+    figures: []
+  - label: B
+    text: |-
+      \( \dfrac{3}{4}\)
+    figures: []
+  - label: C
+    text: |-
+      \( \dfrac{1}{2}\)
+    figures: []
+  - label: D
+    text: |-
+      \( \dfrac{3}{2}\)
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $X_1, X_2, X_3, X_4, X_5$ 为来自总体 $X \sim N(0, \sigma^2)$ 的简单随机样本$,\bar{X} = \dfrac{1}{5} \sum_{i=1}^5 X_i$ $,S^2 = \dfrac{1}{4} \sum_{i=1}^5 (X_i - \bar{X})^2$，有下列结论： ① $\sqrt{\dfrac{3}{2}} \dfrac{X_1 + X_2}{|X_3 + X_4 + X_5|} \sim t(1)$； ② $\dfrac{5\bar{X}^2}{\sigma^2} \sim \chi^2(5)$； ③ $\dfrac{1}{\sigma^2} \left[ (X_1 - 2X_2)^2 + (2X_3 + X_4)^2 \right] \sim \chi^2(2)$； ④ $\dfrac{(X_1 - 2X_2)^2}{(2X_3 + X_5)^2} \sim F(1, 1)$。 正确的个数有（ ）
+  choices:
+  - label: A
+    text: '1'
+    figures: []
+  - label: B
+    text: '2'
+    figures: []
+  - label: C
+    text: '3'
+    figures: []
+  - label: D
+    text: '4'
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      曲线 \(xy=1\) 在点 \((1,1)\) 处的曲率圆方程为\underline{\qquad}。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 \(f(x)\) 是周期为 \(4\) 的偶函数，且\( f(x)=\begin{cases}x, &0\leq x<1, \\2-x, &1\leq x\leq2, \end{cases} \)\(a_n,b_n\) 为 \(f(x)\) 的傅里叶级数 \( \dfrac{a_0}{2}+\sum\limits_{n=1}^{\infty}\left(a_n\cos\dfrac{n\pi x}{2}+b_n\sin\dfrac{n\pi x}{2}\right)\) 的系数，则 \((a_2,b_2)= \) \underline{\qquad}。
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 \(f(x,y)\) 具有二阶连续偏导数，且 \( \dfrac{\partial^2f}{\partial x^2}+\dfrac{\partial^2f}{\partial y^2}=2\)。 令 \(u=ax+by\)， \(v=ax-by\)，若 \( \dfrac{\partial^2f}{\partial u^2}+\dfrac{\partial^2f}{\partial v^2}=4\)， \( \dfrac{\partial^2f}{\partial u\partial v}=0\)，则 \(a^2+b^2= \) \underline{\qquad}。
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      方程 \( x\dfrac{\mathrm dy}{\mathrm dx}+y=\dfrac{1}{1+(xy)^2}\) 的通解为\underline{\qquad}。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 \(A\) 为 3 阶矩阵，非齐次线性方程组 \(Ax=(2,1,0)^T\) 的通解为 \(k_1\xi_1+k_2\xi_2+\eta^*\)，其中 \(k_1,k_2\) 为任意常数，\(\xi_1=(2,1,0)^T\)， \(\xi_2=(1,0,1)^T\)， \(\eta^*=(-1,2,1)^T\)。 记矩阵 \(B=(\xi_1, \xi_2, \eta^*)\)， \(\beta=(1,2,3)^T\)，则 (1) \(Bx=\beta\) 的解为\underline{\qquad}，(2) \(\beta^TA\beta= \) \underline{\qquad}。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设二维随机变量 \((X,Y)\) 的概率密度为\( f(x,y)=\begin{cases}k(1-xy), &|x|\leq1, \ |y|\leq1, \\0, &\text{其他}.\end{cases} \)则 \( P\left\{Y<\dfrac{1}{2}\mid X=\dfrac{1}{4}\right\}= \) \underline{\qquad}。
+- number: 17
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 \(D=\{(x,y)\mid0\leq x\leq1,0\leq y\leq1\}\)，\( f(x,y)=\begin{cases}\dfrac{(y+1){\mathrm e}^y}{(1+x)^2}, &y<x, \\x^2+y^2, &y\geq x.\end{cases} \)计算 \( \iint_D f(x,y)\, \,\mathrm{d}\sigma\)。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 \( a_n=\int_0^{\dfrac{\pi}{2}}\dfrac{1}{(1+\sin x)^n}\, \mathrm dx\, (n\geq1)\)。 (1) 求 \( \lim\limits_{n\to\infty}a_n\)； (2) 证明 \( \lim\limits_{n\to\infty}\left[a_1-a_2+a_3-\cdots+(-1)^{n-1}a_n\right]\) 存在。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 \(\Gamma\) 为曲线\( \begin{cases}z=\sqrt{1-x^2-y^2}, \\x^2+y^2=x, \end{cases} \)从 \(z\) 轴正向往负向看为逆时针方向，计算\( \oint_{\Gamma}(2y-z)\, \mathrm dx+(x-2)z\, \mathrm dy+(x-2y)\, \mathrm dz. \)
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 \(f(x)\) 是 \([0,1]\) 上连续函数，在 \((0,1]\) 上恒正，且在 \((0,1)\) 内二阶可导，\(f(0)=0\)。 (1) 证明存在 \(\xi\in(0,1)\)，有\( \int_0^1f^3(x)\, \mathrm dx=f'(\xi)\left(\int_0^1f(x)\, \mathrm dx\right)^2\)； (2) 证明存在 \(\eta\in(0,1)\)，有\( \eta f''(\eta)+2f'(\eta)=6\int_0^1xf(x)\, \mathrm dx\)。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设实数 \(a\ne0\)，向量组 \(\alpha_1=(a,0,1)^T\)， \(\alpha_2=(0, -a,0)^T\)， \(\alpha_3=(1,0,a)^T\)。 已知向量 \(\beta=(1,1, -1)^T\) 不能由 \(\alpha_1, \alpha_2, \alpha_3\) 线性表示，向量 \(\gamma\) 满足 \(\gamma=k_1\alpha_1+k_2\alpha_2+k_3\alpha_3\)，且 \(\beta^T\alpha_i=\gamma^T\alpha_i\, (i=1,2,3)\)。 (1) 求 \(a\) 的值； (2) 证明 \(\beta-\gamma\) 为 \((\alpha_1, \alpha_2, \alpha_3)^Tx=0\) 的解； (3) 求 \(\gamma\)。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设二维随机变量 $(X, Y)$ 的概率密度函数为 $ f(x, y) = \begin{cases} \dfrac{2}{\pi} \mathrm{e}^{-\sqrt{x^2+y^2}}, & x > 0, y > 0, \\ 0, & \text{其他}, \end{cases}$ 令 $U = \sqrt{X^2+Y^2}, V = \arctan \dfrac{Y}{X}$。 (1) 求 $P\left\{U \leqslant 1, V \leqslant \dfrac{\pi}{4}\right\}$； (2) 分别求 $(U, V)$ 的分布函数 $F_{U,V}(u, v)$ 和密度函数 $f_{U,V}(u, v)$； (3) 分别求 $U$ 和 $V$ 的边缘密度函数 $f_U(u)$ $\text{、}f_V(v)$，判断 $U$ 和 $V$ 是否独立，并说明理由。
+content_hash: 7d6c49778d500d296bd420ca8f062fcbb94a31849a80251220647bb3d194b461

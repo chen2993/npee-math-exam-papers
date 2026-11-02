@@ -1,0 +1,291 @@
+schema_version: '3.0'
+paper:
+  series_key: chaoyue10
+  year: 2026
+  subject: math2
+  paper_no: 8
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      当 $x \to 0$ 时，满足渐近等式 $x - a\sin x = b\cos x\sin x + o(x^3)$，其中 $a, b$ 为常数，则常数对 $(a,b) = $( )
+  choices:
+  - label: A
+    text: |-
+      $\left(\dfrac{1}{3}, \dfrac{4}{3}\right)$
+    figures: []
+  - label: B
+    text: |-
+      $\left(\dfrac{4}{3}, \dfrac{1}{3}\right)$
+    figures: []
+  - label: C
+    text: |-
+      $\left(\dfrac{1}{3}, -\dfrac{4}{3}\right)$
+    figures: []
+  - label: D
+    text: |-
+      $\left(-\dfrac{4}{3}, \dfrac{1}{3}\right)$
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设参数方程为 $\begin{cases} x = \cos(t^2), \\ y = \int_0^{t^2}\mathrm{e}^{-u^2}\sin u\,\mathrm{d}u \end{cases}\ (t \in [0, \sqrt{\pi}])$，则二阶导数 $\left.\dfrac{\mathrm{d}^2 y}{\mathrm{d}x^2}\right|_{x=0} = $( )
+  choices:
+  - label: A
+    text: |-
+      $-\pi\mathrm{e}^{-\dfrac{\pi^2}{4}}$
+    figures: []
+  - label: B
+    text: |-
+      $-\mathrm{e}^{-\dfrac{\pi^2}{4}}$
+    figures: []
+  - label: C
+    text: |-
+      $\pi\sqrt{2\pi}\mathrm{e}^{-\dfrac{\pi^2}{4}}$
+    figures: []
+  - label: D
+    text: |-
+      $-\pi\sqrt{2\pi}\mathrm{e}^{-\dfrac{\pi^2}{4}}$
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      定积分 $\int_0^\pi \sin x\,\mathrm{d}x = $( )
+  choices:
+  - label: A
+    text: |-
+      $\lim\limits_{n\to\infty}\dfrac{1}{n}\left(\sin\dfrac{\pi}{n} + \sin\dfrac{2\pi}{n} + \dots + \sin\dfrac{n\pi}{n}\right)$
+    figures: []
+  - label: B
+    text: |-
+      $\lim\limits_{n\to\infty}\dfrac{1}{n}\left(\sin\dfrac{\pi}{2n} + \sin\dfrac{3\pi}{2n} + \dots + \sin\dfrac{(2n-1)\pi}{2n}\right)$
+    figures: []
+  - label: C
+    text: |-
+      $\lim\limits_{n\to\infty}\dfrac{\pi}{n}\left(\sin\dfrac{\pi}{2n} + \sin\dfrac{2\pi}{2n} + \dots + \sin\dfrac{(n-1)\pi}{2n}\right)$
+    figures: []
+  - label: D
+    text: |-
+      $\lim\limits_{n\to\infty}\dfrac{\pi}{2n}\left(\sin\dfrac{\pi}{n} + \sin\dfrac{2\pi}{n} + \dots + \sin\dfrac{(n-1)\pi}{n}\right)$
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x)$ 和 $g(x)$ 在 $(-\infty, +\infty)$ 内连续，满足 $f'(0) = 0$ 与 $\lim\limits_{x\to 0}\dfrac{g(x)}{x} = 1$。若对任意实数 $x, y$，恒有函数方程 $f(x+y) = f(x) + f(y) + g(xy)$，则( )
+  choices:
+  - label: A
+    text: 点 $x = 0$ 是 $f(x)$ 的极大值点，点 $(0, f(0))$ 是拐点
+    figures: []
+  - label: B
+    text: 点 $x = 0$ 是 $f(x)$ 的极小值点，点 $(0, f(0))$ 不是拐点
+    figures: []
+  - label: C
+    text: 点 $x = 0$ 不是 $f(x)$ 的极值点，点 $(0, f(0))$ 是拐点
+    figures: []
+  - label: D
+    text: 点 $x = 0$ 不是 $f(x)$ 的极值点，点 $(0, f(0))$ 不是拐点
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知函数 $f(x,y)$ 在点 $(0,0)$ 的某邻域内连续，且满足极限 $\lim\limits_{(x,y)\to(0,0)}\dfrac{f(x,y)-xy}{\sqrt{x^2+y^2}} = 1$，则点 $(0,0)$ 是函数 $f(x,y)$ 的( )
+  choices:
+  - label: A
+    text: 极小值点
+    figures: []
+  - label: B
+    text: 极大值点
+    figures: []
+  - label: C
+    text: 非极值点
+    figures: []
+  - label: D
+    text: 无法确定是否为极值点
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: 下列二重积分中，积分值不等于零的是( )
+  choices:
+  - label: A
+    text: |-
+      $\iint_D \dfrac{x^2-y^2}{\sqrt{x^2+y^2+4}}\,\mathrm{d}\sigma$，其中 $D: (x^2+y^2)^2 \le (x-y)^2$
+    figures: []
+  - label: B
+    text: |-
+      $\iint_D \ln\left(xy+\sqrt{1+x^2 y^2}\right)\mathrm{d}\sigma$，其中 $D: (x^2+y^2)^2 \le x^2-y^2$
+    figures: []
+  - label: C
+    text: |-
+      $\iint_D \sin x\cos y\,\mathrm{d}\sigma$，其中 $D: (x^2+y^2)^2 \le (x+y)^2$
+    figures: []
+  - label: D
+    text: |-
+      $\iint_D xy\,\mathrm{d}\sigma$，其中 $D: (x^2+y^2)^2 \le 2xy$
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      以 $3\,\mathrm{m}^3/\mathrm{s}$ 的恒定流量向一个长 $20\,\mathrm{m}$、横截面为倒置等边三角形的水槽注水。当水面高度为 $4\,\mathrm{m}$ 时，水面上升的速度为( )
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{3\sqrt{3}}{80}\,\mathrm{m/s}$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{3\sqrt{3}}{20}\,\mathrm{m/s}$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{3\sqrt{3}}{40}\,\mathrm{m/s}$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{3\sqrt{3}}{160}\,\mathrm{m/s}$
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: 将 3 阶矩阵 $A$ 的第 1 行与第 2 行互换得到矩阵 $B$，再将 $B$ 的第 2 行乘以 $-3$ 加到第 3 行得到矩阵 $C$。若矩阵满足 $P^{-1} A = C$，则矩阵 $P = $( )
+  choices:
+  - label: A
+    text: |-
+      $\begin{pmatrix} 0 & 1 & 0 \\ 1 & 0 & 3 \\ 0 & 0 & 1 \end{pmatrix}$
+    figures: []
+  - label: B
+    text: |-
+      $\begin{pmatrix} 0 & 1 & 0 \\ 1 & 0 & 0 \\ 0 & -3 & 1 \end{pmatrix}$
+    figures: []
+  - label: C
+    text: |-
+      $\begin{pmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 3 & 1 \end{pmatrix}$
+    figures: []
+  - label: D
+    text: |-
+      $\begin{pmatrix} 0 & 1 & 0 \\ 1 & 0 & 0 \\ 0 & 3 & 1 \end{pmatrix}$
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设矩阵 $A, B$ 的大小分别为 $m\times n$ 与 $n\times m$，且满足秩 $r(A) = r(B) = m$。给出下列结论： ① $BA$ 的行向量组与 $B$ 的行向量组等价； ② $A^T B^T$ 的行向量组与 $B^T$ 的行向量组等价； ③ $BA$ 的列向量组与 $A$ 的列向量组具有相同的线性相关性； ④ $BA$ 的行向量组与 $A$ 的行向量组等价。 以上结论中正确的个数为( )
+  choices:
+  - label: A
+    text: '1'
+    figures: []
+  - label: B
+    text: '2'
+    figures: []
+  - label: C
+    text: '3'
+    figures: []
+  - label: D
+    text: '4'
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: 设 $x = (x_1, x_2, x_3)^T$ $,A$ 为 3 阶可逆对称矩阵$,A^{-1}, A^*$ 分别为 $A$ 的逆矩阵和伴随矩阵。给出下列二次型： ① $x^T A x$； ② $x^T A^T A x$； ③ $x^T A^2 x$； ④ $x^T A^{-1} A^* x$。 其中必为正定二次型的是( )
+  choices:
+  - label: A
+    text: ①、③
+    figures: []
+  - label: B
+    text: ①、②、④
+    figures: []
+  - label: C
+    text: ②、③
+    figures: []
+  - label: D
+    text: ②、③、④
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $y = y(x)$ 是微分方程 $y' + (x^2+1)y = x^2 + \sin^4 x$ 的一个解，则曲线 $y = y(x)$ 的一条水平渐近线方程为 _____
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x) = \dfrac{\sin(x^{2024})}{1-x^2}$，则高阶导数 $f^{(2026)}(0) = $ _____
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设二元函数 $z = f(x,y)$ 具有连续偏导数，且满足 $f(x, x^2) = 1, \ f_x'(1,1) = 2$，则极限 $\lim\limits_{x\to 0}\left[f\left(\cos x, \sqrt{1+x^2}\right)\right]^{\dfrac{1}{\ln(1+x^2)}} = $ _____
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $z$ 为关于 $x, y$ 的可微函数，自变量变换为 $x = au+bv, \ y = cu+dv$（其中 $a,b,c,d$ 均为常数）。若满足偏导数恒等式 $x\dfrac{\partial z}{\partial x} + y\dfrac{\partial z}{\partial y} = m$，则 $u\dfrac{\partial z}{\partial u} + v\dfrac{\partial z}{\partial v} = $ _____
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设变限积分函数 $f(x) = \int_{\sqrt{\dfrac{\pi}{2}}}^{\sqrt{x}}\dfrac{1}{1+\tan(t^2)}\,\mathrm{d}t$，则定积分 $\int_0^{\dfrac{\pi}{2}}\dfrac{f(x)}{\sqrt{x}}\,\mathrm{d}x = $ _____
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 为 2 阶方阵$,\alpha_1, \alpha_2$ 分别是矩阵 $A$ 对应于特征值 $0, 3$ 的特征向量$,A^*$ 为 $A$ 的伴随矩阵，则线性方程组 $A^* x = \alpha_1$ 的通解为 _____
+- number: 17
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 $y = y(x)$ 在 $[1, +\infty)$ 上二阶可导，且满足初始条件 $y(1) = 0, \ y'(1) = 0$。已知曲线 $y = y(x)$ 在任意点 $(x,y)$ 处的切线在 $y$ 轴上的截距等于该曲线在闭区间 $[1,x]$ 上的弧长，求曲线方程 $y = y(x)$。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 $f(x)$ 在 $[0, +\infty)$ 上二阶可导，满足 $f''(x) > 0$，定义函数 $F(x) = \dfrac{1}{x}\int_0^x f(t)\,\mathrm{d}t\ (x > 0)$。证明：对任意正实数 $a, b > 0$，恒有不等式 $F(b) - F\left(\dfrac{a+b}{2}\right) \ge F\left(\dfrac{a+b}{2}\right) - F(a)$。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      (1) 设二元函数 $z = f(x,y)$ 具有一阶连续偏导数，且满足偏微分方程 $y\dfrac{\partial f}{\partial x} = x\dfrac{\partial f}{\partial y}$。证明：在极坐标变换 $x = r\cos\theta, \ y = r\sin\theta$ 下，函数 $z$ 仅是 $r$ 的函数，即 $z = g(r)$； (2) 设函数 $f(x,y)$ 具有连续偏导数，且满足 $f(0,0) = f(1,1)$。证明：在区域 $0 \le x \le 1, \ 0 \le y \le 1$ 内至少存在一点 $(\xi, \xi^n)\ (n \ge 1)$ 满足方程 $\dfrac{\partial f}{\partial x} + n x^{n-1}\dfrac{\partial f}{\partial y} = 0$。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设平面闭区域 $D = \left\{(x,y) \;\middle|\; x^2+y^2 \le 1\right\}$，计算二重积分 $I = \iint_D \dfrac{\arctan\left(\dfrac{1+x^2}{1+y^2}\right)}{1+\mathrm{e}^{-y}}\,\mathrm{d}\sigma$。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 $f(x)$ 在 $[0, +\infty)$ 上二阶可导，且满足 $f(0) > 0, \ f'(0) 0$（$k$ 为常数）。试讨论函数 $f(x)$ 在开区间 $(0, +\infty)$ 内的零点个数。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $A$ 为 2 阶矩阵，满足矩阵表达式 $A = E - \alpha\alpha^T + \beta\beta^T$，其中 $E$ 为 2 阶单位矩阵$,\alpha, \beta$ 为 2 维非零列向量，且满足模长等式 $\|\alpha+\beta\| = \|\alpha-\beta\|$。 (1) 证明非零向量 $\alpha, \beta$ 正交； (2) 若已知 $\alpha = \begin{pmatrix} 1 \\ -1 \end{pmatrix}$，且矩阵满足 $A\begin{pmatrix} 1 \\ 0 \end{pmatrix} = \begin{pmatrix} 1 \\ 2 \end{pmatrix}$，求矩阵 $A$ 的全部特征值以及对应的线性无关的特征向量； (3) 在 (2) 的条件下，若向量 $\gamma = \begin{pmatrix} 1 \\ -3 \end{pmatrix}$，求向量 $A^{2026}\gamma$。
+content_hash: 5dfb52f19a7a83670bf6f019a41d7c2889d7e3357513f3bfd02093d8f0179cb4

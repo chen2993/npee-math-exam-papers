@@ -4,312 +4,294 @@ paper:
   year: 2024
   subject: math1
   paper_no: 4
-content_hash: 3ea78300e33a108a2a050e9e991fa96f629df97ae0339c2bc72884ed5d5723f7
 questions:
 - number: 1
   section: choice
   points: 5
   stem:
     text: |-
-      设函数 $f(x)$ 在 $(0,+\infty)$ 上可导，给出下列命题：\textcircled{1}若曲线 $y=f(x)$ 有水平渐近线 $y=1$，则 $\lim_{x\to+\infty}f'(x)=0$；\textcircled{2}若曲线 $y=f(x)$ 有斜渐近线 $y=x$，则 $\lim_{x\to+\infty}f'(x)=1$；\textcircled{3}若 $\lim_{x\to+\infty}\dfrac{f(x)}{x}=1$，则曲线 $y=f(x)$ 的斜渐近线斜率为 $1$；\textcircled{4}若曲线 $y=f(x)$ 的斜渐近线斜率为 $1$，则 $\lim_{x\to+\infty}\dfrac{f(x)}{x}=1$。正确命题的个数为\ExamSelection
+      设函数 $f(x)$ 在 $(0,+\infty)$ 上可导，给出下列命题： ①若曲线 $y=f(x)$ 有水平渐近线 $y=1$，则 $\lim_{x\to \infty} f'(x)=0$； ②若曲线 $y=f(x)$ 有斜渐近线 $y=x$，则 $\lim_{x\to +\infty} f'(x)=1$； ③若 $\lim_{x\to +\infty} \dfrac{f(x)}{x}=1$，则曲线 $y=f(x)$ 的斜渐近线斜率为 1； ④若曲线 $y=f(x)$ 的斜渐近线斜率为 1，则 $\lim_{x\to +\infty} \dfrac{f(x)}{x}=1$. 正确命题的个数为
   choices:
   - label: A
-    text: 1。
+    text: '1'
     figures: []
   - label: B
-    text: 2。
+    text: '2'
     figures: []
   - label: C
-    text: 3。
+    text: '3'
     figures: []
   - label: D
-    text: 4。
+    text: '4'
     figures: []
 - number: 2
   section: choice
   points: 5
   stem:
     text: |-
-      已知 $f(x)$ 为连续函数，则 $\lim_{n\to\infty}\sum_{i=1}^{n}f\left(\dfrac{2n+i}{2n}\right)\dfrac{1}{n}=$\ExamSelection
+      已知 $f(x)$ 为连续函数，则 $\lim_{n\to\infty} \sum_{i=1}^n f\left(\dfrac{2n+i}{2n}\right)\dfrac{1}{n} = $
   choices:
   - label: A
     text: |-
-      $\displaystyle\int_1^{\dfrac94}\dfrac{f(\sqrt{x})}{\sqrt{x}}\,\mathrm{d}x$。
+      $\int_1^{\dfrac{9}{4}} \dfrac{f(\sqrt{x})}{\sqrt{x}} \mathrm{d}x.$
     figures: []
   - label: B
     text: |-
-      $\displaystyle\int_{\dfrac14}^{\dfrac52}\dfrac{f(\sqrt{x})}{\sqrt{x}}\,\mathrm{d}x$。
+      $\int_{\dfrac{1}{4}}^{\dfrac{5}{2}} \dfrac{f(\sqrt{x})}{\sqrt{x}} \mathrm{d}x.$
     figures: []
   - label: C
     text: |-
-      $2\displaystyle\int_1^2f(x)\,\mathrm{d}x$。
+      $2\int_1^2 f(x) \mathrm{d}x.$
     figures: []
   - label: D
     text: |-
-      $2\displaystyle\int_{\dfrac12}^1f(x)\,\mathrm{d}x$。
+      $2\int_{\dfrac{1}{2}}^1 f(x) \mathrm{d}x.$
     figures: []
 - number: 3
   section: choice
   points: 5
   stem:
     text: |-
-      设 $\dfrac{x^2-x-1}{x^2(x+1)}=\sum_{n=0}^{\infty}a_n(x-1)^n$，$x\in(0,2)$，则 $a_n$ 的表达式为\ExamSelection
+      设 $\dfrac{x^2-x-1}{x^2(x+1)} = \sum_{n=0}^{\infty} a_n(x-1)^n, x \in (0,2)$，则 $a_n$ 的表达式为
   choices:
   - label: A
     text: |-
-      $(-1)^n n-\dfrac{1}{2^n}$。
+      $(-1)^n n - \dfrac{1}{2^n}.$
     figures: []
   - label: B
     text: |-
-      $(-1)^{n+1}\left[(n+1)-\dfrac{1}{2^{n+1}}\right]$。
+      $(-1)^{n+1}\left[(n+1)-\dfrac{1}{2^{n+1}}\right].$
     figures: []
   - label: C
     text: |-
-      $(-1)^n\left(n-\dfrac{1}{2^n}\right)$。
+      $(-1)^n\left(n-\dfrac{1}{2^n}\right).$
     figures: []
   - label: D
     text: |-
-      $(-1)^{n+1}(n+1)-\dfrac{1}{2^{n+1}}$。
+      $(-1)^{n+1}(n+1)-\dfrac{1}{2^{n+1}}.$
     figures: []
 - number: 4
   section: choice
   points: 5
   stem:
     text: |-
-      设 $\Sigma$ 为曲面 $x^2+y^2+z^2=1\ (x\geq0,y\geq0,z\geq0)$，则 $\displaystyle\iint_{\Sigma}xyz(y^2z^2+z^2x^2+x^2y^2)\,\mathrm{d}S=$\ExamSelection
+      设 $\Sigma$ 为曲面 $x^2+y^2+z^2=1(x\geqslant 0,y\geqslant 0,z\geqslant 0)$，则 $\iint_{\Sigma} xyz(y^2z^2+z^2x^2+x^2y^2)\mathrm{d}S=$
   choices:
   - label: A
     text: |-
-      $\dfrac{1}{16}$。
+      $\dfrac{1}{16}$
     figures: []
   - label: B
     text: |-
-      $\dfrac{1}{32}$。
+      $\dfrac{1}{32}$
     figures: []
   - label: C
     text: |-
-      $\dfrac{\pi}{16}$。
+      $\dfrac{\pi}{16}$
     figures: []
   - label: D
     text: |-
-      $\dfrac{\pi}{32}$。
+      $\dfrac{\pi}{32}$
     figures: []
 - number: 5
   section: choice
   points: 5
   stem:
     text: |-
-      已知 $\eta_1,\eta_2$ 是线性方程组 $\begin{cases}ax_1+x_2+2x_3=b,\\x_1+cx_2-x_3=1,\\2x_1+cx_2-2x_3=-1\end{cases}$ 的两个不同解，$k,k_1,k_2$ 为任意常数，则该线性方程组的通解是\ExamSelection
+      已知 $\eta_1,\eta_2$ 是线性方程组 $\begin{cases} ax_1+x_2+2x_3=b, \\ x_1+cx_2-x_3=1, \\ 2x_1+x_2-2x_3=-1 \end{cases}$ 的两个不同解$,k,k_1,k_2$ 为任意常数，则该线性方程组的通解是
   choices:
   - label: A
     text: |-
-      $(k_1+1)\eta_1+k_2\eta_2$。
+      $(k_1+1)\eta_1+k_2\eta_2.$
     figures: []
   - label: B
     text: |-
-      $(k_1-1)\eta_1+k_2\eta_2$。
+      $(k_1-1)\eta_1+k_2\eta_2.$
     figures: []
   - label: C
     text: |-
-      $(k+1)\eta_1-k\eta_2$。
+      $(k+1)\eta_1-k\eta_2.$
     figures: []
   - label: D
     text: |-
-      $(k-1)\eta_1-k\eta_2$。
+      $(k-1)\eta_1-k\eta_2.$
     figures: []
 - number: 6
   section: choice
   points: 5
   stem:
     text: |-
-      若向量组 $\alpha_1=(1,1,a)^{\mathrm T},\alpha_2=(1,a,1)^{\mathrm T},\alpha_3=(a,1,1)^{\mathrm T}$ 可由向量组 $\beta_1=(1,1,a)^{\mathrm T},\beta_2=(-2,a,4)^{\mathrm T},\beta_3=(-2,a,a)^{\mathrm T}$ 线性表示，但向量组 $\beta_1,\beta_2,\beta_3$ 不能由向量组 $\alpha_1,\alpha_2,\alpha_3$ 线性表示，则 $a=\ExamSelection$
+      若向量组 $\alpha_1=(1,1,a)^T,\alpha_2=(1,a,1)^T,\alpha_3=(a,1,1)^T$ 可由向量组 $\beta_1=(1,1,a)^T,\beta_2=(-2,a,4)^T,\beta_3=(-2,a,a)^T$ 线性表示，但向量组 $\beta_1,\beta_2,\beta_3$ 不能由向量组 $\alpha_1,\alpha_2,\alpha_3$ 线性表示，则 $a=$
   choices:
   - label: A
-    text: 1。
+    text: '1'
     figures: []
   - label: B
-    text: 2。
+    text: '2'
     figures: []
   - label: C
-    text: $-1$。
+    text: '-1'
     figures: []
   - label: D
-    text: $-2$。
+    text: '-2'
     figures: []
 - number: 7
   section: choice
   points: 5
   stem:
-    text: |-
-      若 $f(x_1,x_2,x_3)=(ax_1+2x_2-3x_3)^2+(x_2-2x_3)^2+(x_1+ax_2-x_3)^2$ 是正定二次型，则 $a$ 的取值范围是\ExamSelection
+    text: 若 $f(x_1,x_2,x_3)=(ax_1+2x_2-3x_3)^2+(x_2-2x_3)^2+(x_1+ax_2-x_3)^2$ 是正定二次型,则 $a$ 的取值范围是
   choices:
   - label: A
     text: |-
-      $a\ne1$。
+      $a\neq 1.$
     figures: []
   - label: B
     text: |-
-      $a\ne-\dfrac12$。
+      $a\neq -\dfrac{1}{2}.$
     figures: []
   - label: C
     text: |-
-      $a\ne1$ 或 $a\ne-\dfrac12$。
+      $a\neq 1$ 或 $a\neq -\dfrac{1}{2}.$
     figures: []
   - label: D
     text: |-
-      $a\ne1$ 且 $a\ne-\dfrac12$。
+      $a\neq 1$ 且 $a\neq -\dfrac{1}{2}.$
     figures: []
 - number: 8
   section: choice
   points: 5
   stem:
     text: |-
-      设参数 $\theta$ 的区间估计的显著性水平为 $0.1$，现独立重复抽样 100 次得到 100 个置信区间 $I_i\ (i=1,2,\cdots,100)$，则\ExamSelection
+      设参数 $\theta$ 的区间估计的显著性水平为 $0.1$, 现独立重复抽样 $100$ 次得到 $100$ 个置信区间 $I_i$ ($i=1,2,\cdots,100$), 则
   choices:
   - label: A
     text: |-
-      $\theta$ 值落入任一 $I_i$ 的概率为 $0.9$。
+      $\theta$ 值落入任一 $I_i$ 的概率为 $0.9$
     figures: []
   - label: B
     text: |-
-      $\theta$ 值落入任一 $I_i$ 的概率为 $0.1$。
+      $\theta$ 值落入任一 $I_i$ 的概率为 $0.1$
     figures: []
   - label: C
     text: |-
-      约有 10 个区间包含 $\theta$ 值。
+      约有 $10$ 个区间包含 $\theta$ 值
     figures: []
   - label: D
     text: |-
-      约有 90 个区间包含 $\theta$ 值。
+      约有 $90$ 个区间包含 $\theta$ 值
     figures: []
 - number: 9
   section: choice
   points: 5
   stem:
     text: |-
-      设随机变量 $X$ 的概率密度为 $f(x)=\begin{cases}\dfrac12\cos\dfrac{x}{2},&0<x<\pi,\\0,&\text{其他，}\end{cases}$，$Y$ 表示对 $X$ 的 4 次独立重复观察中观测值大于 $\dfrac{\pi}{3}$ 的次数，则能使 $P\{Y=k\}$ 最大的 $k$ 是\ExamSelection
+      设随机变量 $X$ 的概率密度为 $f(x)=\begin{cases} \dfrac{1}{2}\cos\dfrac{x}{2}, & 0<x<\pi, \\ 0, & \text{\text{其他}}, \end{cases}$ $Y$ 表示对 $X$ 的 4 次独立重复观察中观测值大于 $\dfrac{\pi}{3}$ 的次数，则能使 $P\{Y=k\}$ 最大的 $k$ 是
   choices:
   - label: A
-    text: 1。
+    text: '1'
     figures: []
   - label: B
-    text: 2。
+    text: '2'
     figures: []
   - label: C
-    text: 3。
+    text: '3'
     figures: []
   - label: D
-    text: 4。
+    text: '4'
     figures: []
 - number: 10
   section: choice
   points: 5
   stem:
     text: |-
-      设总体 $X$ 的分布律为 $P\{X=x\}=\theta^{-\dfrac{x}{3}}(1-\theta)^{\dfrac{x+1}{3}},x=-1,2,0<\theta<1$ 为未知参数，$X_1,X_2$ 为来自总体 $X$ 的简单随机样本，则 $\theta$ 的最大似然估计量及其无偏性为\ExamSelection
+      设总体 $X$ 的分布律为 $P\{X=x\}=\theta^{-\dfrac{x-2}{3}}(1-\theta)^{\dfrac{x+1}{3}}$ ($x=-1, 2$)$,0<\theta<1$ 为未知参数$,X_1, X_2$ 为来自总体 $X$ 的简单随机样本，则 $\theta$ 的最大似然估计量及其无偏性为
   choices:
   - label: A
     text: |-
-      $\hat\theta=\dfrac13-\dfrac13\sum_{i=1}^2X_i$，无偏。
+      $\hat{\theta}=\dfrac{1}{3}-\dfrac{1}{3}\sum_{i=1}^2 X_i$，无偏。
     figures: []
   - label: B
     text: |-
-      $\hat\theta=\dfrac13-\dfrac23\sum_{i=1}^2X_i$，有偏。
+      $\hat{\theta}=\dfrac{1}{3}-\dfrac{2}{3}\sum_{i=1}^2 X_i$，有偏。
     figures: []
   - label: C
     text: |-
-      $\hat\theta=\dfrac23-\dfrac16\sum_{i=1}^2X_i$，无偏。
+      $\hat{\theta}=\dfrac{2}{3}-\dfrac{1}{6}\sum_{i=1}^2 X_i$，无偏。
     figures: []
   - label: D
     text: |-
-      $\hat\theta=\dfrac23-\dfrac13\sum_{i=1}^2X_i$，有偏。
+      $\hat{\theta}=\dfrac{2}{3}-\dfrac{1}{3}\sum_{i=1}^2 X_i$，有偏。
     figures: []
 - number: 11
   section: fill
   points: 5
   stem:
     text: |-
-      设 $f(x)=\dfrac{1}{2^x+1},x\in\mathbb R$，则 $f^{(4)}(0)=$ \ExamBlank。
+      设 $f(x)=\dfrac{1}{2^x+1}, x \in \mathbb{R}$，则 $f^{(4)}(0)=\underline{\quad\quad\quad\quad\quad\quad\quad\quad}$
 - number: 12
   section: fill
   points: 5
   stem:
     text: |-
-      由曲面 $z=8-x^2-y^2$ 与平面 $z=2x$ 围成的空间有界闭区域 $\Omega$ 的体积为 \ExamBlank。
+      由曲面 $z = 8 - x^2 - y^2$ 与平面 $z = 2x$ 围成的空间有界闭区域 $\Omega$ 的体积为 $\underline{\qquad\qquad}$
 - number: 13
   section: fill
   points: 5
   stem:
     text: |-
-      函数 $f(x,y)=1+x+2y+x^2+xy^2$ 在点 $(0,0)$ 处的二阶泰勒多项式为 \ExamBlank。
+      函数 $f(x,y)=1+x+2y+x^2+xy^2$ 在点 $(0,0)$ 处的二阶泰勒多项式为$\underline{\quad\quad\quad\quad\quad}$
 - number: 14
   section: fill
   points: 5
   stem:
     text: |-
-      设函数 $f(x)=\begin{cases}x-1,&0<x\leq1,\\0,&-1\leq x\leq0,\end{cases}$ 若 $a_n=\displaystyle\int_{-1}^{1}f(x)\cos n\pi x\,\mathrm{d}x\ (n=0,1,\cdots)$，则 $\displaystyle\sum_{n=1}^{\infty}(-1)^na_n=$ \ExamBlank。
+      设函数 $f(x)=\begin{cases} x-1, & 0<x\leqslant 1, \\ 0, & -1\leqslant x\leqslant 0, \end{cases}$ 若 $a_n=\int_{-1}^1 f(x)\cos n\pi x\mathrm{d}x(n=0,1,\cdots)$，则 $\sum_{n=1}^\infty (-1)^n a_n=\underline{\qquad\qquad}.$
 - number: 15
   section: fill
   points: 5
   stem:
     text: |-
-      设 $\mathbb R^3$ 中的向量 $\xi$ 在基 $\alpha_1=(1,-2,1)^{\mathrm T},\alpha_2=(0,1,1)^{\mathrm T},\alpha_3=(3,2,1)^{\mathrm T}$ 下的坐标为 $(x_1,x_2,x_3)^{\mathrm T}$，而 $\xi$ 在基 $\beta_1,\beta_2,\beta_3$ 下的坐标为 $(y_1,y_2,y_3)^{\mathrm T}$，且 $y_1=x_1-x_2-x_3,y_2=-x_1+x_2,y_3=x_1+2x_3$，则由基 $\beta_1,\beta_2,\beta_3$ 到基 $\alpha_1,\alpha_2,\alpha_3$ 的过渡矩阵 $P=$ \ExamBlank。
+      设 $R^3$ 中的向量 $\xi$ 在基 $\alpha_1 = (1, -2, 1)^T, \alpha_2 = (0, 1, 1)^T, \alpha_3 = (3, 2, 1)^T$ 下的坐标为 $(x_1, x_2, x_3)^T$, 而 $\xi$ 在基 $\beta_1, \beta_2, \beta_3$ 下的坐标为 $(y_1, y_2, y_3)^T$, 且 $y_1 = x_1 - x_2 - x_3, y_2 = -x_1 + x_2, y_3 = x_1 + 2x_3$, 则由基 $\beta_1, \beta_2, \beta_3$ 到基 $\alpha_1, \alpha_2, \alpha_3$ 的过渡矩阵 $P = \underline{\hspace{3cm}}$
 - number: 16
   section: fill
   points: 5
   stem:
     text: |-
-      设总体 $X$ 的分布函数 $F(x)$ 是严格单调增加的连续函数，$X_1,X_2$ 为总体 $X$ 的简单随机样本，记 $Y=\dfrac12\sum_{i=1}^{2}\ln F(X_i)$，则 $P\left\{F(X)<E(Y)+\dfrac32\right\}=$ \ExamBlank。
+      设总体 $X$ 的分布函数 $F(x)$ 是严格单调增加的连续函数$,X_1,X_2$ 为总体 $X$ 的简单随机样本，记 $Y=\dfrac{1}{2}\sum_{i=1}^2 \ln F(X_i)$，则 $P\left\{F(X)<E(Y)+\dfrac{3}{2}\right\}=\underline{\hspace{2.5cm}}.$
 - number: 17
   section: solution
-  points: 10
+  points: 12
   stem:
     text: |-
-      设 $f(x)$ 在 $x=0$ 的某邻域内连续，在 $x=0$ 处可导，且 $f(0)=0$，$g(x)=\begin{cases}\dfrac{1}{x^2}\displaystyle\int_0^x tf'(t)\,\mathrm{d}t,&x\ne0,\\0,&x=0\text{，}\end{cases}$ 证明 $g(x)$ 在 $x=0$ 处可导且 $g'(x)$ 在 $x=0$ 处连续。
+      设 $f(x)$ 在 $x=0$ 的某邻域内连续，在 $x=0$ 处可导，且 $f(0)=0$ $,g(x)=\begin{cases} \dfrac{1}{x^2}\int_0^x tf(t)dt, & x eq 0, \\ 0, & x=0, \end{cases}$ 证明 $g(x)$ 在 $x=0$ 处可导且 $g'(x)$ 在 $x=0$ 处连续
 - number: 18
   section: solution
   points: 12
   stem:
     text: |-
-      设曲线 $\Gamma:\begin{cases}y-z=0,\\x^2+y^2+z^2=1,\end{cases}$ 从 $z$ 轴正向看去，$\Gamma$ 沿逆时针方向，求 $\displaystyle\oint_{\Gamma}xyz\,\mathrm{d}z$。
+      设曲线 $\Gamma:\begin{cases} y-z=0, \\ x^2+y^2+z^2=1, \end{cases}$ 从 $z$ 轴正向看去, $\Gamma$ 沿逆时针方向, 求 $\oint_{\Gamma} x y z \mathrm{d}z$
 - number: 19
   section: solution
   points: 12
   stem:
     text: |-
-      设函数 $f(x,y)$ 一阶偏导数连续，$f(x,y)\,\mathrm{d}x+xy\,\mathrm{d}y$ 是某二元函数 $u(x,y)$ 的全微分，$u(0,0)=1$，且对于任意的 $t$，有 $1+\displaystyle\int_0^t f(x,1)\,\mathrm{d}x=\displaystyle\int_1^0 f(x,t)\,\mathrm{d}x$。
-  subparts:
-  - text: |-
-      求 $\mathrm{d}u$。
-  - text: 求 $u(x,y)$ 的极值点。
+      设函数 $f(x,y)$ 一阶偏导数连续, $f(x,y)\mathrm{d}x + xy\mathrm{d}y$ 是某二元函数 $u(x,y)$ 的全微分, $u(0,0) = 1$, 且对于任意的 $t$, 有 $1+\int_{0}^{t} f(x,1)\mathrm{d}x = \int_{1}^{0} f(x,t)\mathrm{d}x$. (1) 求 $\mathrm{d}u$; (2) 求 $u(x,y)$ 的极值点
 - number: 20
   section: solution
   points: 12
   stem:
     text: |-
-      设 $f(x)$ 在 $[0,+\infty)$ 上二阶可导，$f''(x)<0$，任取 $0<x_1<x_2$，证明：
-  subparts:
-  - text: |-
-      $f(x_2)-f(x_1)=f'(\xi_2)x_2-f'(\xi_1)x_1$，其中 $0<\xi_1<x_1,0<\xi_2<x_2$，且 $\xi_1,\xi_2$ 均唯一。
-  - text: |-
-      在(1)的条件下，$\xi_1<\xi_2$。
+      设 $f(x)$ 在 $[0, +\infty)$ 上二阶可导, $f''(x) < 0$, 任取 $0 < x_1 < x_2$, 证明: (1) $f(x_2) - f(x_1) = f'(\xi_2)x_2 - f'(\xi_1)x_1$, 其中 $0 < \xi_1 < x_1, 0 < \xi_2 < x_2$, 且 $\xi_1, \xi_2$ 均唯一; (2) 在 (1) 的条件下, $\xi_1 < \xi_2$
 - number: 21
   section: solution
   points: 12
   stem:
     text: |-
-      已知 $A=\begin{pmatrix}-1&0&0\\-a&2&a+3\\-a-3&0&a+2\end{pmatrix}$，$r(A+E)=1$。
-  subparts:
-  - text: 求 $a$ 的值。
-  - text: |-
-      计算 $A^{n-1}+A^{n-2}+\cdots+A+E(n\geq2)$。
+      已知 $A=\begin{pmatrix} -1 & 0 & 0 \\ -a & 2 & a+3 \\ -a-3 & 0 & a+2 \end{pmatrix}, r(A+E)=1$. (1) 求 $a$ 的值; (2) 计算 $A^{n-1}+A^{n-2}+\cdots+A+E(n\geqslant 2)$
 - number: 22
   section: solution
   points: 12
   stem:
     text: |-
-      设随机变量 $X$ 服从标准正态分布，其概率密度为 $\varphi(x)$，又 $g(x)=\begin{cases}\cos x,&|x|<\pi,\\0,&|x|\geq\pi,\end{cases}$，$f(x,y)=\varphi(x)\varphi(y)+\dfrac{1}{2\pi}e^{-x^2}g(x)g(y)\ (-\infty<x,y<+\infty)$。
-  subparts:
-  - text: $f(x,y)$ 是否为某二维随机变量 $(X,Y)$ 的概率密度，说明理由。
-  - text: 求 $Y$ 的边缘分布。
-  - text: 证明 $X$ 与 $Y$ 不相关，也不独立。
+      设随机变量 $X$ 服从标准正态分布，其概率密度为 $\varphi(x)$，又 $g(x)=\begin{cases} \cos x, & |x|<\pi, \\ 0, & |x|\geqslant\pi, \end{cases}$ 且 $f(x,y)=\varphi(x)\varphi(y)+\dfrac{1}{2\pi}\mathrm{e}^{-\pi^2}g(x)g(y) \quad (-\infty<x,y<+\infty)$. (1) $f(x,y)$ 是否为某二维随机变量 $(X,Y)$ 的概率密度，说明理由； (2) 求 $Y$ 的边缘分布； (3) 证明 $X$ 与 $Y$ 不相关，也不独立
+content_hash: 71c39af1b79c17d5cb3aeb0d7f397a98d584d04cb534d33a351c524a9d7c3b98

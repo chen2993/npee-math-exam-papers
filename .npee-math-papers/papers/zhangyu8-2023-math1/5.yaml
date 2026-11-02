@@ -4,14 +4,13 @@ paper:
   year: 2023
   subject: math1
   paper_no: 5
-content_hash: 997429d56bba71dbbfc0bccf2ba00aced5fc010d3d593423ec5feeb02a5bdbac
 questions:
 - number: 1
   section: choice
   points: 5
   stem:
     text: |-
-      设函数 $y=f(x)$ 二阶可导，$f(0)=0,f'(0)=1$，且满足微分方程 $y''+(1-x^2)y'=2e^x$，则极限 $\lim_{x\to0}\dfrac{(1-x)f(x)-\sin x}{x^2}$ 等于\ExamSelection
+      设函数 $y=f(x)$ 二阶可导$,f(0)=0, f'(0)=1$，且满足微分方程 $y''+(1-x^2)y'=2\mathrm{e}^x$，则极限 $\lim\limits_{x\to 0}\dfrac{(1-x)f(x)-\sin x}{x^2}$ 等于
   choices:
   - label: A
     text: |-
@@ -33,8 +32,7 @@ questions:
   section: choice
   points: 5
   stem:
-    text: |-
-      已知函数 $f(x)=f(x+4),f(0)=0$，且在 $(-2,2)$ 内有 $f'(x)=|x|$，则 $f(19)=$\ExamSelection
+    text: 已知函数 $f(x)=f(x+4), f(0)=0$, 且在 $(-2,2)$ 内有 $f'(x)=|x|$, 则 $f(19)=$
   choices:
   - label: A
     text: $-1$
@@ -55,7 +53,7 @@ questions:
   points: 5
   stem:
     text: |-
-      $\lim_{t\to0^+}\dfrac{1}{t^6}\int_0^t\mathrm{d}x\int_x^t(e^{x^2y^2}-1)\,\mathrm{d}y=$\ExamSelection
+      $\lim\limits_{t \to 0^+} \dfrac{1}{t^6} \int_0^t \mathrm{d}x \int_x^t (\mathrm{e}^{x^2 y^2} - 1) \mathrm{d}y =$
   choices:
   - label: A
     text: |-
@@ -78,26 +76,26 @@ questions:
   points: 5
   stem:
     text: |-
-      若 $\sum_{n=0}^{\infty}a_n(2x-3)^n$ 在 $x=-1$ 处条件收敛，则 $\sum_{n=0}^{\infty}a_n\cdot4^n$ 与 $\sum_{n=0}^{\infty}a_n\cdot6^n$ 的敛散性为\ExamSelection
+      若 $\sum_{n=0}^{\infty} a_n(2x-3)^n$ 在 $x=-1$ 处条件收敛，则 $\sum_{n=0}^{\infty} a_n \cdot 4^n$ 与 $\sum_{n=0}^{\infty} a_n \cdot 6^n$ 的敛散性为
   choices:
   - label: A
-    text: 收敛，收敛
+    text: 收敛,收敛
     figures: []
   - label: B
-    text: 收敛，发散
+    text: 收敛,发散
     figures: []
   - label: C
-    text: 发散，收敛
+    text: 发散, 收敛
     figures: []
   - label: D
-    text: 发散，发散
+    text: 发散,发散
     figures: []
 - number: 5
   section: choice
   points: 5
   stem:
     text: |-
-      设 $A$ 是 3 阶实对称矩阵，特征值 $\lambda_1=-2,\lambda_2=1,\lambda_3=4$，且 $\boldsymbol{\xi}_1=(1,2,2)^{\mathrm T}$ 是 $\lambda_1=-2$ 的特征向量，$\boldsymbol{\alpha}$ 是 3 维非零列向量，则“$\boldsymbol{\alpha}$ 是 $\lambda_2=1$ 或 $\lambda_3=4$ 的特征向量”是“$\boldsymbol{\alpha}$ 与 $\boldsymbol{\xi}_1$ 正交”的\ExamSelection
+      设 $A$ 是 3 阶实对称矩阵，特征值 $\lambda_1 = -2, \lambda_2 = 1, \lambda_3 = 4$，且 $\xi_1 = (1,2,2)^T$ 是 $\lambda_1 = -2$ 的特征向量$,\alpha$ 是 3 维非零列向量，则 “$\alpha$ 是 $\lambda_2 = 1$ 或 $\lambda_3 = 4$ 的特征向量” 是 “$\alpha$ 与 $\xi_1$ 正交” 的
   choices:
   - label: A
     text: 充分非必要条件
@@ -116,30 +114,29 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $A$ 为 3 阶矩阵，$\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3$ 分别为矩阵 $A$ 的属于特征值 $0,1,-1$ 的特征向量，$k$ 为任意常数，则方程组 $(A+E)\boldsymbol{x}=\boldsymbol{\alpha}_1+\boldsymbol{\alpha}_2$ 的通解为\ExamSelection
+      设 $A$ 为 3 阶矩阵, $\alpha_1, \alpha_2, \alpha_3$ 分别为矩阵 $A$ 的属于特征值 $0, 1, -1$ 的特征向量, $k$ 为任意常数, 则方程组 $(A+E)x = \alpha_1 + \alpha_2$ 的通解为
   choices:
   - label: A
     text: |-
-      $k\boldsymbol{\alpha}_1+(\boldsymbol{\alpha}_2-\boldsymbol{\alpha}_3)$
+      $k\alpha_1 + (\alpha_2 - \alpha_3)$
     figures: []
   - label: B
     text: |-
-      $k\boldsymbol{\alpha}_1+(\boldsymbol{\alpha}_1+\dfrac{1}{2}\boldsymbol{\alpha}_2+\dfrac{1}{3}\boldsymbol{\alpha}_3)$
+      $k\alpha_1 + \left(\alpha_1 + \dfrac{1}{2}\alpha_2 + \dfrac{1}{3}\alpha_3\right)$
     figures: []
   - label: C
     text: |-
-      $k\boldsymbol{\alpha}_3+(\boldsymbol{\alpha}_1+\boldsymbol{\alpha}_2)$
+      $k\alpha_3 + (\alpha_1 + \alpha_2)$
     figures: []
   - label: D
     text: |-
-      $k\boldsymbol{\alpha}_3+(\boldsymbol{\alpha}_1+\dfrac{1}{2}\boldsymbol{\alpha}_2+\dfrac{1}{3}\boldsymbol{\alpha}_3)$
+      $k\alpha_3 + \left(\alpha_1 + \dfrac{1}{2}\alpha_2 + \dfrac{1}{3}\alpha_3\right)$
     figures: []
 - number: 7
   section: choice
   points: 5
   stem:
-    text: |-
-      设 $A$ 为 3 阶实对称矩阵，且 $A$ 的各列元素之和均为 2，若 $r(A+2E)=1$，则二次型 $f=\boldsymbol{x}^{\mathrm T}A\boldsymbol{x}$ 经正交变换可化为标准形\ExamSelection
+    text: 设 $A$ 为 $3$ 阶实对称矩阵，且 $A$ 的各列元素之和均为 $2$，若 $r(A+2E)=1$，则二次型 $f=x^T Ax$ 经正交变换可化为标准形
   choices:
   - label: A
     text: $2y_1^2-2y_2^2-2y_3^2$
@@ -158,149 +155,136 @@ questions:
   points: 5
   stem:
     text: |-
-      设二维随机变量 $(X,Y)$ 的概率密度为 $f(x,y)=\begin{cases}3x,&0\leq x<1,0\leq y<x,\\0,&\text{其他},\end{cases}$ 则 $P\left\{Y\leq\dfrac{1}{8}\mid X=\dfrac{1}{4}\right\}$ 和 $P\left\{Y\leq\dfrac{1}{8}\mid X<\dfrac{1}{4}\right\}$ 的值分别是\ExamSelection
+      设二维随机变量 $(X,Y)$ 的概率密度为 $f(x,y)=\begin{cases} 3x, & 0 \leqslant x < 1, 0 \leqslant y < x, \\ 0, & \text{其他}, \end{cases}$ 则 $P\left\{Y \leqslant \dfrac{1}{8} \,\middle|\, X = \dfrac{1}{4}\right\}$ 和 $P\left\{Y \leqslant \dfrac{1}{8} \,\middle|\, X < \dfrac{1}{4}\right\}$ 的值分别是
   choices:
   - label: A
     text: |-
-      $\dfrac{1}{3};\dfrac{10}{16}$
+      $\dfrac{1}{3}; \dfrac{10}{16}$
     figures: []
   - label: B
     text: |-
-      $\dfrac{1}{2};\dfrac{10}{16}$
+      $\dfrac{1}{2}; \dfrac{10}{16}$
     figures: []
   - label: C
     text: |-
-      $\dfrac{1}{3};\dfrac{11}{16}$
+      $\dfrac{1}{3}; \dfrac{11}{16}$
     figures: []
   - label: D
     text: |-
-      $\dfrac{1}{2};\dfrac{11}{16}$
+      $\dfrac{1}{2}; \dfrac{11}{16}$
     figures: []
 - number: 9
   section: choice
   points: 5
   stem:
     text: |-
-      已知总体 $X$ 的概率分布为 $P\{X=k\}=p(1-p)^{k-1}(k=1,2,\cdots)$，其中 $p$ 为未知参数 $(0<p<1)$，若对于 $X$ 的一组样本观测值 $x_1,x_2,\cdots,x_{10}$，$p$ 的最大似然估计值为 $0.5$，则 $\sum_{i=1}^{10}x_i=$\ExamSelection
+      已知总体 $X$ 的概率分布为 $P\{X=k\}=p(1-p)^{k-1}(k=1,2,\cdots)$，其中 $p$ 为未知参数 $(0<p<1)$，若对于 $X$ 的一组样本观测值 $x_1,x_2,\cdots,x_{10}$ $,p$ 的最大似然估计值为 $0.5$，则 $\sum_{i=1}^{10}x_i=$
   choices:
   - label: A
-    text: $5$
+    text: '5'
     figures: []
   - label: B
-    text: $10$
+    text: '10'
     figures: []
   - label: C
-    text: $20$
+    text: '20'
     figures: []
   - label: D
-    text: $50$
+    text: '50'
     figures: []
 - number: 10
   section: choice
   points: 5
   stem:
     text: |-
-      设 $X_1,X_2,\cdots,X_n$ 为来自总体 $X$ 的简单随机样本，若 $E(X)=\mu,D(X)=\sigma^2$，则\ExamSelection
+      设 $X_1, X_2, \cdots, X_n$ 为来自总体 $X$ 的简单随机样本，若 $E(X) = \mu, D(X) = \sigma^2$，则
   choices:
   - label: A
     text: |-
-      当 $\mu$ 已知时，$\dfrac{1}{n-1}\sum_{i=1}^n(X_i-\mu)^2$ 可作为 $\sigma^2$ 的无偏估计
+      当 $\mu$ 已知时$,\dfrac{1}{n-1} \sum_{i=1}^{n} (X_i - \mu)^2$ 可作为 $\sigma^2$ 的无偏估计
     figures: []
   - label: B
     text: |-
-      当 $\mu$ 已知时，$\dfrac{1}{n}\sum_{i=1}^n(X_i-\mu)^2$ 可作为 $\sigma^2$ 的无偏估计
+      当 $\mu$ 已知时$,\dfrac{1}{n} \sum_{i=1}^{n} (X_i - \mu)^2$ 可作为 $\sigma^2$ 的无偏估计
     figures: []
   - label: C
     text: |-
-      当 $\mu$ 未知时，$\dfrac{1}{n-1}\sum_{i=1}^n(X_i-\mu)^2$ 可作为 $\sigma^2$ 的无偏估计
+      当 $\mu$ 未知时$,\dfrac{1}{n-1} \sum_{i=1}^{n} (X_i - \mu)^2$ 可作为 $\sigma^2$ 的无偏估计
     figures: []
   - label: D
     text: |-
-      当 $\mu$ 未知时，$\dfrac{1}{n}\sum_{i=1}^n(X_i-\mu)^2$ 可作为 $\sigma^2$ 的无偏估计
+      当 $\mu$ 未知时$,\dfrac{1}{n} \sum_{i=1}^{n} (X_i - \mu)^2$ 可作为 $\sigma^2$ 的无偏估计
     figures: []
 - number: 11
   section: fill
   points: 5
   stem:
     text: |-
-      设函数 $y=y(x)$ 由 $\begin{cases}x=t^2-2t+1,\\e^y\sin t-y+1=0\end{cases}$ 确定，则 $\left.\dfrac{\mathrm{d}^2y}{\mathrm{d}x^2}\right|_{t=0}=\ExamBlank$。
+      设函数 $y=y(x)$ 由 $\begin{cases} x = t^2 - 2t + 1, \\ \mathrm{e}^y \sin t - y + 1 = 0 \end{cases}$ 确定，则 $\left. \dfrac{\mathrm{d}^2 y}{\mathrm{d}x^2} \right|_{t=0} = \underline{\hspace{1.5cm}}$
 - number: 12
   section: fill
   points: 5
   stem:
     text: |-
-      已知函数 $z=f(x,y)$ 连续，且满足 $\lim_{\substack{x\to1\\y\to0}}\dfrac{f(x,y)-2x+y+1}{\sqrt{(x-1)^2+y^2}}=0$，则 $\lim_{t\to0}\dfrac{f(1+t,0)-f(1,2t)}{t}=\ExamBlank$。
+      已知函数 $z=f(x,y)$ 连续，且满足 $\lim\limits_{\substack{x\to 1\\y\to 0}}\dfrac{f(x,y)-2x+y+1}{\sqrt{(x-1)^2+y^2}}=0$，则 $\lim\limits_{t\to 0}\dfrac{f(1+t,0)-f(1,2t)}{t}=\underline{\qquad}$
 - number: 13
   section: fill
   points: 5
   stem:
     text: |-
-      设 $y=y(x)$ 是 $y'+ey=\left(1-\dfrac{1}{x}\right)^x$ 的一个解，则 $\lim_{x\to+\infty}y(x)=\ExamBlank$。
+      设 $y=y(x)$ 是 $y' + ey = \left(1 - \dfrac{1}{x}\right)^x$ 的一个解，则 $\lim\limits_{x \to +\infty} y(x) = \underline{\hspace{1cm}}$
 - number: 14
   section: fill
   points: 5
   stem:
     text: |-
-      设 $f(x+h)=f(x)+hf'(x+\theta h)(0<\theta<1)$，$f''(x)$ 连续且 $f''(x)\neq0$，则 $\lim_{h\to0}\theta=\ExamBlank$。
+      设 $f(x+h)=f(x)+hf'(x+\theta h)(0<\theta<1)$ $,f''(x)$ 连续且 $f''(x) \neq 0$，则 $\lim_{h \to 0}\theta = $ ________
 - number: 15
   section: fill
   points: 5
   stem:
     text: |-
-      设 $\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\cdots,\boldsymbol{\alpha}_{n-1},\boldsymbol{\alpha}_n(n>1)$ 是 $n$ 维向量空间 $V$ 的一个基，则由该基到另一个基 $2\boldsymbol{\alpha}_2,3\boldsymbol{\alpha}_3,\cdots,n\boldsymbol{\alpha}_n,\boldsymbol{\alpha}_1$ 的过渡矩阵的行列式为 $\ExamBlank$。
+      设 $\alpha_1, \alpha_2, \cdots, \alpha_{n-1}, \alpha_n(n>1)$ 是 $n$ 维向量空间 $V$ 的一个基，则由该基到另一个基 $2\alpha_2, 3\alpha_3, \cdots, n\alpha_n, \alpha_1$ 的过渡矩阵的行列式为\underline{\qquad\qquad}
 - number: 16
   section: fill
   points: 5
   stem:
     text: |-
-      设 $A,B,C$ 是 3 个随机事件，其中 $A$ 与 $B$ 相互独立，$A$ 与 $C$ 互不相容，$P(A)=\dfrac{1}{2},P(B)=\dfrac{1}{3},P(C)=\dfrac{1}{4},P(B\mid C)=\dfrac{1}{8}$，则 $P(C\mid A\cup B)=\ExamBlank$。
+      设 $A, B, C$ 是 3 个随机事件, 其中 $A$ 与 $B$ 相互独立, $A$ 与 $C$ 互不相容, $P(A) = \dfrac{1}{2}, P(B) = \dfrac{1}{3}, P(C) = \dfrac{1}{4}$, $P(B|C) = \dfrac{1}{8}$, 则 $P(C|A \cup B) = \underline{\hspace{2cm}}$
 - number: 17
   section: solution
-  points: 10
+  points: 12
   stem:
     text: |-
-      设 $f(x)$ 在 $(0,+\infty)$ 内连续，$f(1)=1$，若对于任意的正数 $a,b$，积分 $\int_a^{ab}f(x)\,\mathrm{d}x$ 与 $a$ 无关，计算 $I=\int_{-1}^1\dfrac{f(e^x+1)}{1+x^2}\,\mathrm{d}x$。
+      设 $f(x)$ 在 $(0, +\infty)$ 内连续, $f(1) = 1$, 若对于任意的正数 $a, b$, 积分 $\int_a^{ab} f(x) \mathrm{d}x$ 与 $a$ 无关, 计算 $I = \int_{-1}^1 \dfrac{f(\mathrm{e}^x + 1)}{1+x^2} \mathrm{d}x$
 - number: 18
   section: solution
   points: 12
   stem:
     text: |-
-      设可导函数 $f(x)$ 满足方程 $f(x)e^{-x}-1=\int_0^x f^2(t)\,\mathrm{d}t$，$f(x)\neq0$，求 $f(x)$ 的表达式。
+      设可导函数 $f(x)$ 满足方程 $f(x)\mathrm{e}^{-x}-1=\int_{0}^{x}f^{2}(t)\mathrm{d}t, f(x)\ne 0$，求 $f(x)$ 的表达式
 - number: 19
   section: solution
   points: 12
   stem:
     text: |-
-      求函数 $f(x)$ 与 $g(x)$，使得 $\sum_{n=0}^{\infty}\dfrac{4(n+1)}{(2n)!}x^{2n}=f(x)e^x+g(x)e^{-x}(-\infty<x<+\infty)$，并将函数 $\dfrac{f(x)}{g(x)}$ 展开成 $x+1$ 的幂级数。
+      求函数 $f(x)$ 与 $g(x)$，使得 $\sum_{n=0}^{\infty} \dfrac{4(n+1)}{(2n)!} x^{2n} = f(x)\mathrm{e}^x + g(x)\mathrm{e}^{-x} (-\infty < x < +\infty)$，并将函数 $\dfrac{f(x)}{g(x)}$ 展开成 $x+1$ 的幂级数
 - number: 20
   section: solution
   points: 12
   stem:
     text: |-
-      已知函数 $f(x)$ 在 $(-\infty,+\infty)$ 上可微，且 $|f'(x)|<mf(x)(0<m<1)$，任取实数 $a_1$，定义 $a_{n+1}=\ln f(a_n)(n=1,2,\cdots)$。证明：
-  subparts:
-  - text: |-
-      方程 $x=\ln f(x)$ 在 $(-\infty,+\infty)$ 上必有唯一实根 $\xi$；
-  - text: |-
-      数列 $\{a_n\}$ 的极限就是 (1) 中的 $\xi$。
+      已知函数 $f(x)$ 在 $(-\infty, +\infty)$ 上可微, 且 $|f'(x)| < m f(x) \, (0 < m < 1)$, 任取实数 $a_1$, 定义 $a_{n+1} = \ln f(a_n) \, (n = 1, 2, \cdots)$. 证明: (1) 方程 $x = \ln f(x)$ 在 $(-\infty, +\infty)$ 上必有唯一实根 $\xi$; (2) 数列 $\{a_n\}$ 的极限就是 (1) 中的 $\xi$
 - number: 21
   section: solution
   points: 12
   stem:
     text: |-
-      设三元二次型 $f=\boldsymbol{x}^{\mathrm T}A\boldsymbol{x}$ 的二次型矩阵 $A$ 的特征值为 $\lambda_1=\lambda_2=1,\lambda_3=-1$，$\boldsymbol{\xi}_3=(0,1,1)^{\mathrm T}$ 为对应于 $\lambda_3=-1$ 的特征向量。
-  subparts:
-  - text: |-
-      若 3 维非零列向量 $\boldsymbol{\alpha}$ 与 $\boldsymbol{\xi}_3$ 正交，证明 $\boldsymbol{\alpha}$ 是对应于 $\lambda_1=\lambda_2=1$ 的特征向量；
-  - text: |-
-      求 $f=\boldsymbol{x}^{\mathrm T}A\boldsymbol{x}$ 的表达式。
+      设三元二次型 $f=x^T A x$ 的二次型矩阵 $A$ 的特征值为 $\lambda_1=\lambda_2=1, \lambda_3=-1$, $\xi_3=(0,1,1)^T$ 为对应于 $\lambda_3=-1$ 的特征向量. (1) 若 $3$ 维非零列向量 $\alpha$ 与 $\xi_3$ 正交, 证明 $\alpha$ 是对应于 $\lambda_1=\lambda_2=1$ 的特征向量; (2) 求 $f=x^T A x$ 的表达式
 - number: 22
   section: solution
   points: 12
   stem:
     text: |-
-      设二维随机变量 $(X,Y)$ 的概率密度为 $f(x,y)=\begin{cases}\dfrac{1+xy}{4},&|x|\leq1,|y|\leq1,\\0,&\text{其他}.\end{cases}$
-  subparts:
-  - text: 判断 $X$ 与 $Y$ 是否独立？
-  - text: 判断 $|X|$ 与 $|Y|$ 是否独立？
-  - text: 记 $Z=X+Y$，求 $Z$ 的概率密度 $f_Z(z)$。
+      设二维随机变量 $(X, Y)$ 的概率密度为 $ $f(x,y)=\begin{cases} \dfrac{1+xy}{4}, & |x| \leqslant 1, |y| \leqslant 1, \\ 0, & \text{其他.} \end{cases}$ $ (1) \text{判断} $X$ \text{与} $Y$ \text{是否独立？} (2) \text{判断} $|X|$ \text{与} $|Y|$ \text{是否独立？} (3) \text{记} $Z=X+Y$,\text{求} $Z$ \text{的概率密度} $f_Z(z)$。
+content_hash: 8744d218669de2416d9d8b51c772da010cb83c8741af36cfb0fddbe7bb5ca930

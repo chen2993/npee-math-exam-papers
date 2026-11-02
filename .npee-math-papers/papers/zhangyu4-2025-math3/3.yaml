@@ -4,7 +4,6 @@ paper:
   year: 2025
   subject: math3
   paper_no: 3
-content_hash: 7404cfa643a005b7b75aa826ac8830012780d9293cadd3e2885cd8588bc0d7bb
 questions:
 - number: 1
   section: choice
@@ -160,7 +159,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $A_1,A_2,B$ 为随机事件，$0<P(B)<1$，$P(B)=P(A_1)P(B\mid A_1)+P(A_2)P(B\mid A_2)$，则以下结论：① $A_1,A_2$ 是完备事件组；② $P(A_1\mid B)+P(A_2\mid B)=1$；③ $P(A_1\mid\overline B)+P(A_2\mid\overline B)=1$；④ $P(A_1\mid B)+P(A_2\mid B)=P((A_1\cup A_2)\mid B)$。正确结论的个数为\ExamSelection
+      设 $A_1,A_2,B$ 为随机事件，$0<P(B)<1$，$P(B)=P(A_1)P(B\mid A_1)+P(A_2)P(B\mid A_2)$，则以下结论：\n① $A_1,A_2$ 是完备事件组；\n② $P(A_1\mid B)+P(A_2\mid B)=1$；\n③ $P(A_1\mid\overline B)+P(A_2\mid\overline B)=1$；\n④ $P(A_1\mid B)+P(A_2\mid B)=P((A_1\cup A_2)\mid B)$。\n正确结论的个数为\ExamSelection
   choices:
   - label: A
     text: $1$。
@@ -297,3 +296,4 @@ questions:
   subparts:
   - text: $X$ 的概率密度；
   - text: $E(X)$。
+content_hash: 799c9bf59b40cd1cbb8c34ad6a37aca7c6b951fabefb6846561635dde6bd969a

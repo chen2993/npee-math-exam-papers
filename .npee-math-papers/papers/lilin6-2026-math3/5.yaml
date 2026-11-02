@@ -4,122 +4,124 @@ paper:
   year: 2026
   subject: math3
   paper_no: 5
-content_hash: 2b6a1f4432d9849f3834b5e2e8a1fe45d323ff672815dade6b505e44dee9dc15
 questions:
 - number: 1
   section: choice
   points: 5
   stem:
     text: |-
-      $f(x)=\dfrac{(x^2-x)|x+1|\mathrm{e}^{-\dfrac{1}{x}}}{\int_1^x t^2\sin t\,\mathrm{d}t}\ (x\in[-\pi,\pi))$ 的第一类间断点的个数为\ExamSelection。
+      函数 \(f(x)=\dfrac{(x^2-x)|x+1|\mathrm{e}^{-\dfrac{1}{x}}}{\int_1^x t^2\sin t\, \mathrm{d}t}\ (x\in[-\pi, \pi])\) 的第一类间断点的个数为（ ）
   choices:
   - label: A
-    text: $0$
+    text: '0'
     figures: []
   - label: B
-    text: $1$
+    text: '1'
     figures: []
   - label: C
-    text: $2$
+    text: '2'
     figures: []
   - label: D
-    text: $3$
+    text: '3'
     figures: []
 - number: 2
   section: choice
   points: 5
   stem:
     text: |-
-      设 $f(x)$ 在 $x=0$ 处二阶可导，$f(0)=0$，且 $\lim_{x\to0}\dfrac{f(x)+f'(x)}{x}=1$，则存在 $\delta>0$，使得\ExamSelection。
+      设 \(f(x)\) 在 \(x=0\) 处二阶可导, \(f(0)=0\), 且 \(\lim\limits_{x\to0}\dfrac{f(x)+f'(x)}{x}=1\), 则存在 \(\delta>0\), 使得（ ）
   choices:
   - label: A
     text: |-
-      曲线 $y=f(x)$ 在 $(-\delta,\delta)$ 内是凸的
+      曲线 \(y=f(x)\) 在 \((-\delta, \delta)\) 内是凸的
     figures: []
   - label: B
     text: |-
-      曲线 $y=f(x)$ 在 $(-\delta,\delta)$ 内是凹的
+      曲线 \(y=f(x)\) 在 \((-\delta, \delta)\) 内是凹的
     figures: []
   - label: C
     text: |-
-      $f(x)$ 在 $(-\delta,0)$ 内单调递增，在 $(0,\delta)$ 内单调递减
+      \(f(x)\) 在 \((-\delta, 0)\) 内单调递增, 在 \((0, \delta)\) 内单调递减
     figures: []
   - label: D
     text: |-
-      $f(x)$ 在 $(-\delta,0)$ 内单调递减，在 $(0,\delta)$ 内单调递增
+      \(f(x)\) 在 \((-\delta, 0)\) 内单调递减, 在 \((0, \delta)\) 内单调递增
     figures: []
 - number: 3
   section: choice
   points: 5
   stem:
     text: |-
-      已知函数 $f(x,y)=\begin{cases}(x^2+y^2)\sin\dfrac{1}{x^2+y^2},&x^2+y^2\ne0,\\0,&x^2+y^2=0,\end{cases}$ 则在点 $(0,0)$ 处\ExamSelection。
+      已知函数 \(f(x, y)=\begin{cases}(x^2+y^2)\sin\dfrac{1}{x^2+y^2}, & x^2+y^2\ne 0, \\ 0, & x^2+y^2=0, \end{cases}\) 则在点 \((0, 0)\) 处（ ）
   choices:
   - label: A
     text: |-
-      $\dfrac{\partial f(x,y)}{\partial x}$ 连续，$f(x,y)$ 可微
+      \(\dfrac{\partial f}{\partial x}\) 连续, \(f(x, y)\) 可微
     figures: []
   - label: B
     text: |-
-      $\dfrac{\partial f(x,y)}{\partial x}$ 不连续，$f(x,y)$ 可微
+      \(\dfrac{\partial f}{\partial x}\) 不连续, \(f(x, y)\) 可微
     figures: []
   - label: C
     text: |-
-      $\dfrac{\partial f(x,y)}{\partial x}$ 连续，$f(x,y)$ 不可微
+      \(\dfrac{\partial f}{\partial x}\) 连续, \(f(x, y)\) 不可微
     figures: []
   - label: D
     text: |-
-      $\dfrac{\partial f(x,y)}{\partial x}$ 不连续，$f(x,y)$ 不可微
+      \(\dfrac{\partial f}{\partial x}\) 不连续, \(f(x, y)\) 不可微
     figures: []
 - number: 4
   section: choice
   points: 5
   stem:
     text: |-
-      若 $y_1=\sqrt{x}+2x^2$ 是微分方程 $y'+p(x)y=q_1(x)$ 的解，$y_2=\sqrt{x}+2x^2(x+1)$，$y_3=-\sqrt{x}+2x^2(x+1)$ 是微分方程 $y'+p(x)y=q_1(x)+q_2(x)$ 的两个解，则 $q_2(x)=$\ExamSelection。
+      若 \(y_1=\sqrt{x}+2x^2\) 是微分方程 \(y'+p(x)y=q_1(x)\) 的解, \(y_2=\sqrt{x}+2x^2(x+1), y_3=-\sqrt{x}+2x^2(x+1)\) 是微分方程 \(y'+p(x)y=q_1(x)+q_2(x)\) 的两个解, 则 \(q_2(x)=\)（ ）
   choices:
   - label: A
-    text: $5x^2$
+    text: |-
+      \(5x^2\)
     figures: []
   - label: B
-    text: $-5x^2$
+    text: |-
+      \(-5x^2\)
     figures: []
   - label: C
-    text: $3x$
+    text: |-
+      \(3x\)
     figures: []
   - label: D
     text: |-
-      $-\dfrac{1}{2x}$
+      \(-\dfrac{1}{2x}\)
     figures: []
 - number: 5
   section: choice
   points: 5
   stem:
     text: |-
-      设 $A,B$ 为 $n$ 阶矩阵，$E$ 为 $n$ 阶单位矩阵，矩阵 $\begin{pmatrix}A&B\\O&E\end{pmatrix}$，$\begin{pmatrix}BA&O\\B&B\end{pmatrix}$，$\begin{pmatrix}E&A\\B&O\end{pmatrix}$ 的秩依次为 $r_1,r_2,r_3$，则\ExamSelection。
+      设 \(\boldsymbol{A}, \boldsymbol{B}\) 为 \(n\) 阶实矩阵, \(\boldsymbol{E}\) 为 \(n\) 阶单位矩阵, 分块矩阵 \(\begin{pmatrix}\boldsymbol{A}&\boldsymbol{B}\\\boldsymbol{O}&\boldsymbol{E}\end{pmatrix}\)、\(\begin{pmatrix}\boldsymbol{B}\boldsymbol{A}&\boldsymbol{O}\\\boldsymbol{B}&\boldsymbol{B}\end{pmatrix}\)、\(\begin{pmatrix}\boldsymbol{E}&\boldsymbol{A}\\\boldsymbol{B}&\boldsymbol{O}\end{pmatrix}\) 的秩依次为 \(r_1, r_2, r_3\), 则（ ）
   choices:
   - label: A
     text: |-
-      $r_2\geq r_1\geq r_3$
+      \(r_2 \ge r_1 \ge r_3\)
     figures: []
   - label: B
     text: |-
-      $r_1\geq r_2\geq r_3$
+      \(r_1 \ge r_2 \ge r_3\)
     figures: []
   - label: C
     text: |-
-      $r_3\geq r_2\geq r_1$
+      \(r_3 \ge r_2 \ge r_1\)
     figures: []
   - label: D
     text: |-
-      $r_1\geq r_3\geq r_2$
+      \(r_1 \ge r_3 \ge r_2\)
     figures: []
 - number: 6
   section: choice
   points: 5
   stem:
     text: |-
-      设 $A$ 是 $3$ 阶矩阵，$b$ 是 $3$ 维非零列向量，则下列说法正确的是：①若 $Ax=b$ 有解，则 $\begin{pmatrix}A^{\mathrm T}\\b^{\mathrm T}\end{pmatrix}x=\begin{pmatrix}0\\1\end{pmatrix}$ 有解；②若 $Ax=b$ 有解，则 $\begin{pmatrix}A^{\mathrm T}\\b^{\mathrm T}\end{pmatrix}x=\begin{pmatrix}0\\1\end{pmatrix}$ 无解；③若 $\begin{pmatrix}A^{\mathrm T}\\b^{\mathrm T}\end{pmatrix}x=\begin{pmatrix}0\\1\end{pmatrix}$ 有解，则 $Ax=0$ 有非零解；④若 $\begin{pmatrix}A^{\mathrm T}\\b^{\mathrm T}\end{pmatrix}x=\begin{pmatrix}0\\1\end{pmatrix}$ 无解，则 $Ax=0$ 只有零解。\ExamSelection
+      设 \(\boldsymbol{A}\) 是 \(3\) 阶矩阵, \(\boldsymbol{b}\) 是 \(3\) 维非零列向量, 给出下列四个说法： \circled{1} 若 \(\boldsymbol{A}\boldsymbol{x}=\boldsymbol{b}\) 有解, 则 \(\begin{pmatrix}\boldsymbol{A}^{\mathrm{T}}\\\boldsymbol{b}^{\mathrm{T}}\end{pmatrix}\boldsymbol{x}=\begin{pmatrix}\boldsymbol{0}\\1\end{pmatrix}\) 有解； \circled{2} 若 \(\boldsymbol{A}\boldsymbol{x}=\boldsymbol{b}\) 有解, 则 \(\begin{pmatrix}\boldsymbol{A}^{\mathrm{T}}\\\boldsymbol{b}^{\mathrm{T}}\end{pmatrix}\boldsymbol{x}=\begin{pmatrix}\boldsymbol{0}\\1\end{pmatrix}\) 无解； \circled{3} 若 \(\begin{pmatrix}\boldsymbol{A}^{\mathrm{T}}\\\boldsymbol{b}^{\mathrm{T}}\end{pmatrix}\boldsymbol{x}=\begin{pmatrix}\boldsymbol{0}\\1\end{pmatrix}\) 有解, 则 \(\boldsymbol{A}\boldsymbol{x}=\boldsymbol{0}\) 有非零解； \circled{4} 若 \(\begin{pmatrix}\boldsymbol{A}^{\mathrm{T}}\\\boldsymbol{b}^{\mathrm{T}}\end{pmatrix}\boldsymbol{x}=\begin{pmatrix}\boldsymbol{0}\\1\end{pmatrix}\) 无解, 则 \(\boldsymbol{A}\boldsymbol{x}=\boldsymbol{0}\) 只有零解。 其中正确说法的序号是（ ）
   choices:
   - label: A
     text: ①③
@@ -138,173 +140,159 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $A$ 是 $3$ 阶实对称矩阵，$B=(\alpha_1,\alpha_2,\alpha_3)$ 是 $3$ 阶可逆矩阵，且 $AB=(\alpha_1,\alpha_2-2\alpha_3,\alpha_3-2\alpha_2)$。记 $X=(x_1,x_2,x_3)^{\mathrm T}$，则二次型 $f(x_1,x_2,x_3)=\operatorname{tr}(AXX^{\mathrm T})$ 的规范形为\ExamSelection。
+      设 \(\boldsymbol{A}\) 是 \(3\) 阶实对称矩阵, \(\boldsymbol{B}=(\boldsymbol{\alpha}_1, \boldsymbol{\alpha}_2, \boldsymbol{\alpha}_3)\) 是 \(3\) 阶可逆矩阵, 且 \(\boldsymbol{A}\boldsymbol{B}=(\boldsymbol{\alpha}_1, \boldsymbol{\alpha}_2-2\boldsymbol{\alpha}_3, \boldsymbol{\alpha}_3-2\boldsymbol{\alpha}_2)\)。记 \(\boldsymbol{X}=(x_1, x_2, x_3)^{\mathrm{T}}\), 则二次型 \(f(x_1, x_2, x_3)=\mathrm{tr}(\boldsymbol{A}\boldsymbol{X}\boldsymbol{X}^{\mathrm{T}})\) 的规范形为（ ）
   choices:
   - label: A
-    text: $y_1^2-y_2^2-y_3^2$
+    text: |-
+      \(y_1^2-y_2^2-y_3^2\)
     figures: []
   - label: B
-    text: $y_1^2+y_2^2-y_3^2$
+    text: |-
+      \(y_1^2+y_2^2-y_3^2\)
     figures: []
   - label: C
-    text: $y_1^2+y_2^2+y_3^2$
+    text: |-
+      \(y_1^2+y_2^2+y_3^2\)
     figures: []
   - label: D
-    text: $-y_1^2-y_2^2-y_3^2$
+    text: |-
+      \(-y_1^2-y_2^2-y_3^2\)
     figures: []
 - number: 8
   section: choice
   points: 5
   stem:
     text: |-
-      设随机变量 $X$ 与 $Y$ 相互独立，且服从同一分布 $P\{X=k\}=P\{Y=k\}=p(1-p)^{k-1}$，$0<p<1$，$k=1,2,\cdots$。对于给定的 $m\ (m\geq2)$，则 $P\{X=k\mid X+Y=m\}=$\ExamSelection。
+      设随机变量 \(X\) 与 \(Y\) 相互独立, 且服从同一几何分布 \(P\{X=k\}=P\{Y=k\}=p(1-p)^{k-1}\ (0<p<1, k=1, 2, \cdots)\)。对于给定的整数 \(m\ (m\ge 2)\), 则 \(P\{X=k\mid X+Y=m\}=\)（ ）
   choices:
   - label: A
     text: |-
-      $\dfrac{1}{m-1}$
+      \(\dfrac{1}{m-1}\)
     figures: []
   - label: B
     text: |-
-      $\dfrac{1}{m}$
+      \(\dfrac{1}{m}\)
     figures: []
   - label: C
     text: |-
-      $\dfrac{1}{m+1}$
+      \(\dfrac{1}{m+1}\)
     figures: []
   - label: D
     text: |-
-      $\dfrac{m-1}{m}$
+      \(\dfrac{m-1}{m}\)
     figures: []
 - number: 9
   section: choice
   points: 5
   stem:
     text: |-
-      设 $X_1$ 与 $X_2$ 相互独立，且均服从 $N(\mu,\sigma^2)$，$\overline X=\dfrac{1}{2}(X_1+X_2)$，则\ExamSelection。
+      设 \(X_1\) 与 \(X_2\) 相互独立, 且均服从 \(N(\mu, \sigma^2)\), \(\bar{X}=\dfrac{1}{2}(X_1+X_2)\), 则（ ）
   choices:
   - label: A
     text: |-
-      $X_1-\overline X$ 与 $X_2-\overline X$ 相互独立
+      \(X_1-\bar{X}\) 与 \(X_2-\bar{X}\) 相互独立
     figures: []
   - label: B
     text: |-
-      $X_1-\overline X$ 与 $X_2-\overline X$ 相关
+      \(X_1-\bar{X}\) 与 \(X_2-\bar{X}\) 相关
     figures: []
   - label: C
-    text: $X_1+X_2$ 与 $X_1-X_2$ 不相互独立
+    text: |-
+      \(X_1+X_2\) 与 \(X_1-X_2\) 不相互独立
     figures: []
   - label: D
-    text: $X_1+X_2$ 与 $X_1-X_2$ 相关
+    text: |-
+      \(X_1+X_2\) 与 \(X_1-X_2\) 相关
     figures: []
 - number: 10
   section: choice
   points: 5
   stem:
     text: |-
-      设 $X_1,X_2,\cdots,X_n$ 是来自总体 $X\sim N(0,1)$ 的简单随机样本，$Y=\dfrac{1}{m}\left(\sum_{i=1}^{m}X_i\right)^2+\dfrac{1}{n-m}\left(\sum_{i=m+1}^{n}X_i\right)^2\ (m<n)$，则 $EY$ 与 $DY$ 依次为\ExamSelection。
+      设 \(X_1, X_2, \cdots, X_n\) 是来自总体 \(X\sim N(0, 1)\) 的简单随机样本, 定义 \(Y=\dfrac{1}{m}\left(\sum\limits_{i=1}^m X_i\right)^2+\dfrac{1}{n-m}\left(\sum\limits_{i=m+1}^n X_i\right)^2\ (m<n)\), 则 \(E(Y)\) 与 \(D(Y)\) 依次为（ ）
   choices:
   - label: A
-    text: $0,n$
+    text: 0, n
     figures: []
   - label: B
-    text: $0,2$
+    text: 0, 2
     figures: []
   - label: C
-    text: $n,2n$
+    text: n, 2n
     figures: []
   - label: D
-    text: $2,4$
+    text: 2, 4
     figures: []
 - number: 11
   section: fill
   points: 5
   stem:
     text: |-
-      $\int_1^2\left[\dfrac{1}{x\ln^2x}-\dfrac{1}{(x-1)^2}\right]\,\mathrm{d}x=$\ExamBlank。
+      反常积分 \(\int_1^2 \left[\dfrac{1}{x\ln^2 x}-\dfrac{1}{(x-1)^2}\right]\mathrm{d}x=\) \underline{\qquad}。
 - number: 12
   section: fill
   points: 5
   stem:
     text: |-
-      某工厂投资 $2\ 000$ 万元建成一条生产线，已知投产后，总成本对时间 $t$ 的变化率为 $G(t)=5+2t^{\dfrac{2}{3}}$（百万元/年），总收益对时间 $t$ 的变化率为 $\Phi(t)=17-t^{\dfrac{2}{3}}$（百万元/年）。若该生产线 $t$ 年可获得最大利润 $L$，则 $L=$\ExamBlank。
+      某工厂投资 \(2000\) 万元建成一条生产线, 已知投产后, 总成本对时间 \(t\) 的变化率为 \(G(t)=5+2t^{\dfrac{2}{3}}\)（百万元/年）, 总收益对时间 \(t\) 的变化率为 \(\Phi(t)=17-t^{\dfrac{2}{3}}\)（百万元/年）。若该生产线在最佳生产年数 \(t\) 年内可获得最大利润 \(L\), 则 \(L=\) \underline{\qquad} 百万元。
 - number: 13
   section: fill
   points: 5
   stem:
     text: |-
-      $\lim_{t\to0^+}\dfrac{1}{t^2}\int_0^t\mathrm{d}x\int_t^x\mathrm{e}^{-(x-y)^2}\,\mathrm{d}y=$\ExamBlank。
+      极限 \(\lim\limits_{t\to 0^+}\dfrac{1}{t^2}\int_0^t \mathrm{d}x\int_t^x \mathrm{e}^{-(x-y)^2}\, \mathrm{d}y=\) \underline{\qquad}。
 - number: 14
   section: fill
   points: 5
   stem:
     text: |-
-      $\lim_{n\to\infty}\dfrac{1+\dfrac{1}{\sqrt{2}}+\cdots+\dfrac{1}{\sqrt{n}}}{\dfrac{1}{\sqrt{n+1}}+\dfrac{1}{\sqrt{n+2}}+\cdots+\dfrac{1}{\sqrt{n+3n}}}=$\ExamBlank。
+      极限 \(\lim\limits_{n\to\infty}\dfrac{1+\dfrac{1}{\sqrt{2}}+\cdots+\dfrac{1}{\sqrt{n}}}{\dfrac{1}{\sqrt{n+1}}+\dfrac{1}{\sqrt{n+2}}+\cdots+\dfrac{1}{\sqrt{n+3n}}}=\) \underline{\qquad}。
 - number: 15
   section: fill
   points: 5
   stem:
     text: |-
-      设 $\alpha,\beta,\gamma$ 均为 $3$ 维列向量，$A=(\alpha,\beta,\gamma)$，$|A|=1$，$B=(\alpha+\beta,\beta+\gamma,\beta+2\gamma)$，则 $|(A^{-1}+B^{-1})^*|=$\ExamBlank。
+      设 \(\boldsymbol{\alpha}, \boldsymbol{\beta}, \boldsymbol{\gamma}\) 均为 \(3\) 维列向量, \(\boldsymbol{A}=(\boldsymbol{\alpha}, \boldsymbol{\beta}, \boldsymbol{\gamma})\), \(|\boldsymbol{A}|=1\), \(\boldsymbol{B}=(\boldsymbol{\alpha}+\boldsymbol{\beta}, \boldsymbol{\beta}+\boldsymbol{\gamma}, \boldsymbol{\beta}+2\boldsymbol{\gamma})\), 则 \(|(\boldsymbol{A}^{-1}+\boldsymbol{B}^{-1})^*|=\) \underline{\qquad}。
 - number: 16
   section: fill
   points: 5
   stem:
     text: |-
-      设二维随机变量 $(X,Y)$ 在 $D=\{(x,y)\mid0\leq x\leq2,0\leq y\leq1\}$ 上服从均匀分布，$Z=\max(X,Y)$，则 $DZ=$\ExamBlank。
+      设二维随机变量 \((X, Y)\) 在区域 \(D=\{(x, y)\mid 0\le x\le 2, 0\le y\le 1\}\) 上服从均匀分布, \(Z=\max(X, Y)\), 则 \(D(Z)=\) \underline{\qquad}。
 - number: 17
   section: solution
-  points: 10
+  points: 12
   stem:
     text: |-
-      设 $y=f(x)$ 满足 $(-2xy+2y)\,\mathrm{d}x=\mathrm{d}y$，$f(0)=1$。求：
-  subparts:
-  - text: $f(x)$
-  - text: |-
-      $y=(x-1)^2\int_0^x f(t)\,\mathrm{d}t$ 在区间 $[0,1]$ 上与 $x$ 轴所围图形的面积
+      设 \(y=f(x)\) 满足 \((-2xy+2y)\, \mathrm{d}x=\mathrm{d}y\), 且 \(f(0)=1\)。 (1) 求 \(f(x)\) 的表达式； (2) 求曲线 \(y=(x-1)^2\int_0^x f(t)\, \mathrm{d}t\) 在区间 \([0, 1]\) 上与 \(x\) 轴所围成图形的面积。
 - number: 18
   section: solution
   points: 12
   stem:
     text: |-
-      设 $D=\{(x,y)\mid x^2+(y-1)^2\leq1,(x-1)^2+y^2\leq1\}$。计算 $I=\iint_D(2x^2-y^2)\,\mathrm{d}x\,\mathrm{d}y$。
+      设平面区域 \(D=\left\{(x, y)\mid x^2+(y-1)^2\le 1, (x-1)^2+y^2\le 1\right\}\), 计算二重积分 \(I = \iint_D (2x^2-y^2)\, \mathrm{d}x\mathrm{d}y\)。
 - number: 19
   section: solution
   points: 12
   stem:
     text: |-
-      设数列 $\{a_n\}$ 满足 $a_0=2$，当 $n\geq1$ 时，$a_n=\dfrac{a_{n-1}}{n}+\dfrac{n-1}{n}$。
-  subparts:
-  - text: |-
-      证明：$\lim_{n\to\infty}a_n$ 存在，并求其值
-  - text: |-
-      求 $\sum_{n=0}^{\infty}a_nx^n$ 在收敛区间内的和函数 $S(x)$，并求 $a_n$
+      设数列 \(\{a_n\}\) 满足 \(a_0=2\), 当 \(n\ge 1\) 时, \(a_n=\dfrac{a_{n-1}}{n}+\dfrac{n-1}{n}\)。 (1) 证明：极限 \(\lim\limits_{n\to\infty}a_n\) 存在, 并求其值； (2) 求幂级数 \(\sum\limits_{n=0}^\infty a_n x^n\) 在收敛区间内的和函数 \(S(x)\), 并求通项 \(a_n\)。
 - number: 20
   section: solution
   points: 12
   stem:
     text: |-
-      设 $f(x)$ 在 $[a,b]$ 上有一阶连续导数，$f(x)$ 不恒为零，且 $\int_a^b f(x)\,\mathrm{d}x=0$。
-  subparts:
-  - text: |-
-      证明：存在一点 $\xi\in(a,b)$，使得 $f(\xi)=\int_a^{\xi}f(x)\,\mathrm{d}x$
-  - text: |-
-      若 $f(a)f(b)>0$，证明：存在一点 $\eta\in(a,b)$，使得 $f'(\eta)=\int_a^{\eta}f(x)\,\mathrm{d}x$
+      设函数 \(f(x)\) 在 \([a, b]\) 上具有一阶连续导数, \(f(x)\) 不恒为零, 且 \(\int_a^b f(x)\, \mathrm{d}x=0\)。 (1) 证明：存在一点 \(\xi\in(a, b)\), 使得 \(f(\xi)=\int_a^\xi f(x)\, \mathrm{d}x\)； (2) 若 \(f(a)f(b)>0\), 证明：存在一点 \(\eta\in(a, b)\), 使得 \(f'(\eta)=\int_a^\eta f(x)\, \mathrm{d}x\)。
 - number: 21
   section: solution
   points: 12
   stem:
     text: |-
-      设 $A=\begin{pmatrix}1&1&-1\\0&1&1\\0&0&1\end{pmatrix}$ 的单位特征向量为 $\alpha_1$，且 $\alpha_1$ 的各分量非负。$3$ 维列向量 $\alpha_2,\alpha_3$ 满足 $(E-A)\alpha_2=\alpha_1$，$(E-A)\alpha_3=\alpha_2$，其中 $E$ 为 $3$ 阶单位矩阵。
-  subparts:
-  - text: |-
-      求 $P=(\alpha_1,\alpha_2,\alpha_3)$，并证明 $P$ 可逆
-  - text: 求 $P^{-1}(A+A^*)P$，其中 $A^*$ 为 $A$ 的伴随矩阵
+      设矩阵 \(\boldsymbol{A}=\begin{pmatrix}1&1&-1\\0&1&1\\0&0&1\end{pmatrix}\) 的单位特征向量为 \(\boldsymbol{\alpha}_1\), 且 \(\boldsymbol{\alpha}_1\) 的各分量非负。\(3\) 维列向量 \(\boldsymbol{\alpha}_2, \boldsymbol{\alpha}_3\) 满足 \((\boldsymbol{E}-\boldsymbol{A})\boldsymbol{\alpha}_2=\boldsymbol{\alpha}_1\), \((\boldsymbol{E}-\boldsymbol{A})\boldsymbol{\alpha}_3=\boldsymbol{\alpha}_2\)。 (1) 求矩阵 \(\boldsymbol{P}=(\boldsymbol{\alpha}_1, \boldsymbol{\alpha}_2, \boldsymbol{\alpha}_3)\), 并证明 \(\boldsymbol{P}\) 可逆； (2) 求 \(\boldsymbol{P}^{-1}(\boldsymbol{A}+\boldsymbol{A}^*)\boldsymbol{P}\), 其中 \(\boldsymbol{A}^*\) 为 \(\boldsymbol{A}\) 的伴随矩阵。
 - number: 22
   section: solution
   points: 12
   stem:
     text: |-
-      设某手机一个月的需求量 $X$ 是随机变量，其概率密度为 $f(x)=\begin{cases}x\mathrm{e}^{-x},&x>0,\\0,&x\leq0.\end{cases}$ 记 $k$ 个月的需求量为 $Y_k$，设各个月的需求量相互独立。
-  subparts:
-  - text: 求 $Y_2$ 与 $Y_3$ 的概率密度函数 $f_2(x)$ 与 $f_3(x)$
-  - text: 记连续三个月中的月最大需求量为 $Y$，求 $Y$ 的概率密度函数
+      设某商品一个月的需求量 \(X\) 是随机变量, 其概率密度为 \(f(x)=\begin{cases}x\mathrm{e}^{-x}, & x>0, \\ 0, & x\le 0.\end{cases}\) 记 \(k\) 个月的总需求量为 \(Y_k\), 设各个月的需求量相互独立。 (1) 求 \(Y_2\) 与 \(Y_3\) 的概率密度函数 \(f_2(x)\) 与 \(f_3(x)\)； (2) 记连续三个月中单月最大需求量为 \(Y=\max\{X_1, X_2, X_3\}\), 求 \(Y\) 的概率密度函数 \(f_Y(x)\)。
+content_hash: 279dd9bdf0c7e0773b9b43095fff41e6111df649243ba780109faaa0ca617b93

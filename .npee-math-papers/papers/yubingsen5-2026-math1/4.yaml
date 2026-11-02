@@ -1,0 +1,305 @@
+schema_version: '3.0'
+paper:
+  series_key: yubingsen5
+  year: 2026
+  subject: math1
+  paper_no: 4
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: 下列结论正确的是( )
+  choices:
+  - label: A
+    text: |-
+      曲线 \( y=x\sin\dfrac{1}{x}\) 和 \( y=x\cos\dfrac{1}{x}\) 均有斜渐近线
+    figures: []
+  - label: B
+    text: |-
+      曲线 \( y=x\sin\dfrac{1}{x}\) 和 \( y=x\cos\dfrac{1}{x}\) 均没有斜渐近线
+    figures: []
+  - label: C
+    text: |-
+      曲线 \( y=x\sin\dfrac{1}{x}\) 有斜渐近线, \( y=x\cos\dfrac{1}{x}\) 没有斜渐近线
+    figures: []
+  - label: D
+    text: |-
+      曲线 \( y=x\sin\dfrac{1}{x}\) 没有斜渐近线, \( y=x\cos\dfrac{1}{x}\) 有斜渐近线
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 \(f(x)\) 在点 \(x=0\) 的某个邻域内有连续导数，\(f(0)=0\)，且 \( \lim\limits_{x\to0}\dfrac{f(x)-f'(x)}{\ln(1+x)}=-1\)，则( )
+  choices:
+  - label: A
+    text: |-
+      \(f(0)\) 是 \(f(x)\) 的极小值
+    figures: []
+  - label: B
+    text: |-
+      \(f(0)\) 是 \(f(x)\) 的极大值
+    figures: []
+  - label: C
+    text: |-
+      \(f(0)\) 不是 \(f(x)\) 的极值
+    figures: []
+  - label: D
+    text: |-
+      不能判别 \(f(0)\) 是否为 \(f(x)\) 的极值
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设有曲线 \(y=\ln x\) 与 \(y=kx^2\)，当 \( k>\dfrac{1}{2\mathrm e}\) 时，两曲线( )
+  choices:
+  - label: A
+    text: 没有交点
+    figures: []
+  - label: B
+    text: 仅有一个交点
+    figures: []
+  - label: C
+    text: 有两个交点
+    figures: []
+  - label: D
+    text: 有三个交点
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      \(f(x,y)\ge0\) 有一阶连续偏导数，\(l\) 为曲线 \( \begin{cases}z=f(x,y), \\z=1\end{cases}\) 上从 \(M(x_1,y_1,1)\) 到 \(N(x_2,y_2,1)\) 的一段弧，其中 \(M\) 在第二卦限，\(N\) 在第四卦限，从 \(z\) 轴正向看过去，\(l\) 取逆时针方向，则以下积分中小于零的是( )
+  choices:
+  - label: A
+    text: |-
+      \( \int_l f'_x(x,y)\,dx+f'_y(x,y)\,dy\)
+    figures: []
+  - label: B
+    text: |-
+      \( \int_l f(x,y)\,ds\)
+    figures: []
+  - label: C
+    text: |-
+      \( \int_l f(x,y)\,dx\)
+    figures: []
+  - label: D
+    text: |-
+      \( \int_l f(x,y)\,dy\)
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 \(A\) 为 \(m\times n\) 矩阵，\(B\) 为 \(n\times m\) 矩阵。若 \(AB=C\)，则( )
+  choices:
+  - label: A
+    text: |-
+      当 \(m<n\) 时, \(C\) 的行向量组线性相关
+    figures: []
+  - label: B
+    text: |-
+      当 \(m<n\) 时, \(C\) 的行向量组线性无关
+    figures: []
+  - label: C
+    text: |-
+      当 \(m>n\) 时, \(C\) 的行向量组线性相关
+    figures: []
+  - label: D
+    text: |-
+      当 \(m>n\) 时, \(C\) 的行向量组线性无关
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知二次曲面的方程 \(x^2+3y^2+z^2+2axy+2xz+2yz=4\) 的图形为柱面，则( )
+  choices:
+  - label: A
+    text: |-
+      该二次曲面为椭圆柱面, 母线的方向向量可取为 \((-1,0,1)^T\)
+    figures: []
+  - label: B
+    text: |-
+      该二次曲面为椭圆柱面, 母线的方向向量可取为 \((1,1,1)^T\)
+    figures: []
+  - label: C
+    text: |-
+      该二次曲面为双曲柱面, 母线的方向向量可取为 \((0,1, -1)^T\)
+    figures: []
+  - label: D
+    text: |-
+      该二次曲面为双曲柱面, 母线的方向向量可取为 \((1,3,1)^T\)
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 \(A\) 为三阶矩阵，\((p_1,p_2,p_3)\) 为三阶可逆矩阵，满足 \(Ap_1=2p_1,Ap_2=2p_2,Ap_3=6p_3\)，若有可逆矩阵 \(P\)，使得 \( P^{-1}AP=\begin{pmatrix}2&0&0\\0&2&0\\0&0&6\end{pmatrix}\)，则 \(P\) 不可以取( )
+  choices:
+  - label: A
+    text: |-
+      \((p_1,2p_2,3p_3)\)
+    figures: []
+  - label: B
+    text: |-
+      \((p_1-p_2,p_2,p_3)\)
+    figures: []
+  - label: C
+    text: |-
+      \((p_1-p_2,p_1+p_2,p_3)\)
+    figures: []
+  - label: D
+    text: |-
+      \((p_1,p_2+p_3,p_3)\)
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设随机变量 \(X_1,X_2,X_3\) 相互独立，均服从 \([0,1]\) 上的均匀分布，\(X=\max\{\min\{X_1,X_2\},X_3\}\)，则当 \(0\le x\le1\) 时，\(X\) 的概率密度函数 \(f_X(x)=\)( )
+  choices:
+  - label: A
+    text: |-
+      \(3x^2\)
+    figures: []
+  - label: B
+    text: |-
+      \(3(1-x)^2\)
+    figures: []
+  - label: C
+    text: |-
+      \(1+2x-3x^2\)
+    figures: []
+  - label: D
+    text: |-
+      \(4x-3x^2\)
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      从 \(0,1, \cdots,9\) 等十个数字中任意选出三个不同的数字。记随机变量 \( X=\begin{cases}0, &\text{三个数字中不含 }0, \\1, &\text{三个数字中含 }0, \end{cases}\quad Y=\begin{cases}0, &\text{三个数字中不含 }5, \\1, &\text{三个数字中含 }5, \end{cases}\) 则 \(X\) 和 \(Y\) 的相关系数 \(\rho_{XY}=\)( )
+  choices:
+  - label: A
+    text: |-
+      \(0\)
+    figures: []
+  - label: B
+    text: |-
+      \( \dfrac{1}{9}\)
+    figures: []
+  - label: C
+    text: |-
+      \( -\dfrac{1}{9}\)
+    figures: []
+  - label: D
+    text: |-
+      \(-1\)
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 \(X_1,X_2,X_3,X_4\) 为来自总体 \(X\sim N(0,1)\) 的一个简单随机样本，以下四个命题： \circled{1} \(X_1+2X_2\) 与 \(2X_3-X_4\) 同分布； \circled{2} \(X_1^2\) 与 \( \dfrac{(X_2-X_3+X_4)^2}{3}\) 同分布； \circled{3} \( \dfrac{X_1-X_2}{|X_3+X_4|}\) 与 \( \dfrac{X_1-X_2}{|X_1+X_2|}\) 同分布； \circled{4} \( \dfrac{X_1^2+X_2^2}{X_3^2+X_4^2}\) 与 \( \dfrac{(X_1+X_2)^2}{X_3^2+X_4^2}\) 同分布。 其中正确的个数为（ ）。
+  choices:
+  - label: A
+    text: |-
+      \(1\)
+    figures: []
+  - label: B
+    text: |-
+      \(2\)
+    figures: []
+  - label: C
+    text: |-
+      \(3\)
+    figures: []
+  - label: D
+    text: |-
+      \(4\)
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设函数 \(y=y(x)\) 是由 \(y^3+xy+x^2-2x+1=0\) 确定，则 \( \lim\limits_{x\to1}\dfrac{\int_1^x y(t)\,dt}{(x-1)^3}=\)____
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设函数 \(f(x)\) 满足 \(xf''(x)=f'(x), f(1)=1, f'(1)=2\)，则微分方程 \(xy'+y=f(x), (x\ne0)\) 的通解为____
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 \( f(x)=\dfrac{1+x}{1-x+x^2}\)，则 \(f'''(0)=\)____
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设曲线 \(C:x^2+xy+y^2=1\) 的周长为 \(l\), \(a,b\) 为常数，则 \( \oint_C\dfrac{\sin(\mathrm e^x)+3\sin(\mathrm e^y)}{\sin(\mathrm e^x)+\sin(\mathrm e^y)}\,ds=\)____
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设三阶矩阵 \(A,B\) 相似，\(B\) 的各列元素之和均为 \(6\)，且 \( |\sqrt3E+B|=|\sqrt3E-B|=0\)，则行列式 \( \left|\dfrac{1}{3}A-\dfrac{1}{3}AB\right|=\)____
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设随机事件 \(A,B,C\) 相互独立，\(P(A)=0.5,P(BC)=0.4,P(AB-C)=0.2\)，则在已知 \(B\) 发生，而 \(AC\) 不发生的条件下，\(A\) 和 \(C\) 至少发生一个的概率为____
+- number: 17
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 $ f(x) = \begin{cases} x + 2x^2 \sin \dfrac{1}{x}, & x \neq 0, \\ 0, & x = 0 \end{cases}$ (1) 求 $f'(x)$，并讨论 $f'(x)$ 的连续性； (2) 求 $f'\left(\dfrac{1}{2k\pi}\right) (k = \pm 1, \pm 2, \cdots)$，并由此判断是否存在 $\delta > 0$，使得 $f(x)$ 在 $(-\delta, \delta)$ 内单调？
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 \(f(x)\) 在 \((-\infty, +\infty)\) 内连续，且满足 \( f(x)=\sin x+\int_0^x t f(x-t)\,dt\). (1) 求 \(f(x)\)； (2) 讨论 \( \sum\limits_{n=1}^{\infty}(-1)^n f\left(\dfrac{1}{n}\right)\) 的敛散性，若收敛，需指明是绝对收敛，还是条件收敛。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      求 \( I=\oint_L(y^2+z^2)\,dx+(z^2+x^2)\,dy+(x^2+y^2)\,dz\)，其中 \(L\) 是球面 \(x^2+y^2+z^2=2bx\, (z\ge0)\) 与柱面 \(x^2+y^2=2ax\, (b>a>0)\) 的交线，从 \(z\) 轴正向看，\(L\) 为逆时针方向。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 \(f(x)\) 可导，\( F(x,y)=\dfrac{1}{2y}\int_{-y}^y f(x+t)\,dt, -\infty0\). (1) 求 \( \lim\limits_{y\to0^+}F(x,y)\)； (2) 求 \( \lim\limits_{y\to0^+}\dfrac{\partial F}{\partial x}\)； (3) 如果 \(f'(x)\) 单增，问 \(F(x,y)\) 关于 \(y\) 是否单增？
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      已知 \(\alpha=(1, -2,2)^T\) 是二次型 \(f(x_1,x_2,x_3)=x^TAx=ax_1^2+4x_2^2+bx_3^2-4x_1x_2+4x_1x_3-8x_2x_3\) 对应矩阵 \(A\) 的属于特征值 \(\lambda\) 的特征向量。 (1) 求 \(a,b, \lambda\) 的值； (2) 利用正交变换 \(x=Qy\) 将二次型化为标准形，并写出所用的正交变换和对应的正交矩阵； (3) 求在条件 \(x_1^2+x_2^2+x_3^2=4\) 下的 \(f(x)\) 的最大值，并求此时所有向量 \(x\)。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设某批电子元件的寿命 \(X\)(单位：小时)服从参数为 \(\lambda\, (\lambda>0)\) 的指数分布，\(X_1,X_2, \cdots,X_{48}\) 为来自总体 \(X\) 的简单随机样本。记 \(N_1\) 表示样本中满足 \(X_i\le100\) 的 \(X_i\) 的个数，\(N_2\) 表示样本中满足 \(100<X_i<200\) 的 \(X_i\) 的个数，\(N_3\) 表示样本中满足 \(X_i\ge200\) 的 \(X_i\) 的个数。 (1) 若已知 \( \lambda=\dfrac{\ln2}{100}\)，求 \(N_1,N_2,N_3\) 两两之间的协方差； (2) 当 \(\lambda\) 未知时，由于疏忽，将样本值数据丢失，只记得 \(N_1=12\)。在此情况下，求 \(\lambda\) 的矩估计值 \(\widehat\lambda\)。
+content_hash: 8950d28f1b7f931f8a89a887edb96ab3e5a9b85bf82aae5527af09331721bbea

@@ -1,0 +1,293 @@
+schema_version: '3.0'
+paper:
+  series_key: lilin6
+  year: 2023
+  subject: math2
+  paper_no: 3
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 \(f(x)\) 是连续函数, \(\lim\limits_{x\to0}\dfrac{f(x)-\mathrm{e}^{x}+1}{x}=1\), 若当 \(x\to0\) 时, \(F(x)=\int_{0}^{x} t f(x-t) dt\) 是关于 x 的 n 阶无穷小量, 则 n=
+  choices:
+  - label: A
+    text: '1'
+    figures: []
+  - label: B
+    text: '2'
+    figures: []
+  - label: C
+    text: '3'
+    figures: []
+  - label: D
+    text: '4'
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      \(f(x)=\dfrac{x\ln|x|}{|x-1|}\mathrm{e}^{\dfrac{1}{(x-1)(x-2)}}\) 的无穷间断点的个数为（）
+  choices:
+  - label: A
+    text: '0'
+    figures: []
+  - label: B
+    text: '1'
+    figures: []
+  - label: C
+    text: '2'
+    figures: []
+  - label: D
+    text: '3'
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设方程 \(x = a e^{x}\) 有两个不同的实根，则
+  choices:
+  - label: A
+    text: |-
+      0 < a < \(\dfrac{1}{e}\)
+    figures: []
+  - label: B
+    text: |-
+      \(a > \dfrac{1}{e}\)
+    figures: []
+  - label: C
+    text: |-
+      \(a < \dfrac{1}{e}\)
+    figures: []
+  - label: D
+    text: |-
+      \(a = \dfrac{1}{e}\)
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 \(y_{1}(x)\) 与 \(y_{2}(x)\) 是微分方程 \(y^{\prime} + p(x)y = 0\) 的两个不同的解，则该方程的通解可以表示为 ( )
+  choices:
+  - label: A
+    text: |-
+      \(C_{1}y_{1}+C_{2}y_{2}\)
+    figures: []
+  - label: B
+    text: |-
+      \(y_{1}+C(y_{1}+y_{2})\)
+    figures: []
+  - label: C
+    text: |-
+      \(y_{1}+C_{2}y_{2}\)
+    figures: []
+  - label: D
+    text: |-
+      \(C(y_{2}-y_{1})\)
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 \(f(x)\) 在 \(\mathbb{R}\) 上有二阶连续导数，且满足 \(f\left(\dfrac{1}{n}\right) = \dfrac{n^{c}}{n^{2} + 1}\) \(n = 1, 2, \cdots\)，则 \(f(x)\) 在 \(x = 0\) 处的二次泰勒多项式为 ( )
+  choices:
+  - label: A
+    text: |-
+      \(1 - 2x^{2}\)
+    figures: []
+  - label: B
+    text: |-
+      \(x - 2x^{2}\)
+    figures: []
+  - label: C
+    text: |-
+      \(1 - x^{2}\)
+    figures: []
+  - label: D
+    text: |-
+      \(1 + x - x^{2}\)
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 \(f(x)\) 在 \([0,1]\) 上可导，且 \(f'(x) \int_{0}^{1} t f(x) \, \mathrm{d}x\). ③ 当 \(x \geqslant 0\) 时， \(\int_{0}^{x} x f(t) \, \mathrm{d}t \geqslant 2 \int_{0}^{x} t f(t) \, \mathrm{d}t\). ④ 当 \(x \geqslant 0\) 时， \(\int_{0}^{x} x f(t) \, \mathrm{d}t \leqslant 2 \int_{0}^{x} t f(t) \, \mathrm{d}t\)
+  choices:
+  - label: A
+    text: ①④
+    figures: []
+  - label: B
+    text: ②③
+    figures: []
+  - label: C
+    text: ②④
+    figures: []
+  - label: D
+    text: ①③
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      函数 \(f(x,y)=(1+\mathrm{e}^{y})\cos x-\mathrm{e}^{y}\)
+  choices:
+  - label: A
+    text: 有无穷多个极大值点
+    figures: []
+  - label: B
+    text: 有无穷多个极小值点
+    figures: []
+  - label: C
+    text: 同时有无穷多个极大值点和极小值点
+    figures: []
+  - label: D
+    text: 没有极大值点
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 \(\boldsymbol{A} = (a_{ij})_{n \times n}\)，满足 \(\sum\limits_{j=1}^{n} a_{ij} = 0 (i = 1, 2, \cdots, n)\)。 \(A_{ij}\) 为 \(a_{ij}\) 的代数余子式，则下列各式必成立的是 ( )
+  choices:
+  - label: A
+    text: |-
+      \(A_{11}=A_{12}=\cdots=A_{1n}=0.\)
+    figures: []
+  - label: B
+    text: |-
+      \(A_{11}=A_{12}=\cdots=A_{1n}=n.\)
+    figures: []
+  - label: C
+    text: |-
+      \(A_{11}=A_{12}=\cdots=A_{1n}=1.\)
+    figures: []
+  - label: D
+    text: |-
+      \(A_{11}=A_{12}=\cdots=A_{1n}.\)
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $\alpha_1, \alpha_2, \alpha_3, \beta$ 线性无关，而 $\alpha_1, \alpha_2, \alpha_3, \gamma$ 线性相关$,c$ 为常数，则（ ）
+  choices:
+  - label: A
+    text: |-
+      $\alpha_1, \alpha_2, \alpha_3, c\beta + \gamma$ 线性相关
+    figures: []
+  - label: B
+    text: |-
+      $\alpha_1, \alpha_2, \alpha_3, c\beta + \gamma$ 线性无关
+    figures: []
+  - label: C
+    text: |-
+      $\alpha_1, \alpha_2, \alpha_3, \beta + c\gamma$ 线性相关
+    figures: []
+  - label: D
+    text: |-
+      $\alpha_1, \alpha_2, \alpha_3, \beta + c\gamma$ 线性无关
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: 若二次型 $f(x_1, x_2, x_3) = x_1^2 - x_3^2 + 4x_1x_2 + 4x_2x_3$ 在可逆线性变换 $x = Py$ 下的规范形为 $g(y_1, y_2, y_3) = y_1^2 - y_2^2$，则 $P$ 可为（ ）
+  choices:
+  - label: A
+    text: |-
+      $\begin{pmatrix} 1 & -1 & -1 \\ 0 & \dfrac{1}{2} & \dfrac{1}{2} \\ 0 & 0 & 1 \end{pmatrix}$
+    figures: []
+  - label: B
+    text: |-
+      $\begin{pmatrix} 1 & 2 & 0 \\ 0 & 2 & -1 \\ 0 & 0 & 1 \end{pmatrix}$
+    figures: []
+  - label: C
+    text: |-
+      $\begin{pmatrix} 1 & 2 & 0 \\ 0 & 1 & 2 \\ 0 & 0 & 1 \end{pmatrix}$
+    figures: []
+  - label: D
+    text: |-
+      $\begin{pmatrix} 1 & 1 & 1 \\ 0 & \dfrac{1}{2} & \dfrac{1}{2} \\ 0 & 0 & 1 \end{pmatrix}$
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 \(y = y(x)\) 是由方程 \(y^{2} + xy + x^{2} - x = 0\) 确定的满足 \(y(1) = -1\) 的连续函数，则 \(\lim\limits_{x \to 1} \dfrac{(x-1)^{2}}{y(x) + 1} =\) ___
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 \(z = f[\cos(x^{2} + y^{2}) - 1, \ln(1 + x^{2} + y^{2})]\)，其中 \(f\) 有一阶连续偏导数，则 \(\left(\dfrac{\partial^{2}z}{\partial x^{2}} - \dfrac{\partial^{2}z}{\partial x\partial y} + \dfrac{\partial^{2}z}{\partial y^{2}}\right)_{(0,0)} =\) ___
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      若 \(f(x,y)=3axy-x^{3}-y^{3}(a>0)\) 有极大值 8，则 a= ___
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      曲线 \(y = \int_{0}^{1} x \sqrt{3 - x^{2} t^{2}} \, dt (x \geqslant 0)\) 的全长为 ___
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      已知半圆形闸门的半径为 2 m，将其垂直放入水中，且直径与水面相齐，设水的密度为 \(\rho(\mathrm{kg}/\mathrm{m}^{3})\)，重力加速度为 \(g(\mathrm{m}/\mathrm{s}^{2})\)，则闸门的一侧所受的压力为 ___ N
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $A = \begin{pmatrix} 2 & 1 & 1 \\ 1 & 2 & 1 \\ 1 & 1 & 2 \end{pmatrix}$，若 $\alpha = (1, k, 1)^{\mathrm{T}} (k > 0)$ 是 $A^{-1}$ 的特征向量，则 $k = \underline{\qquad\qquad}$。
+- number: 17
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      求 $ \lim_{n\to\infty} \dfrac{1}{n^2} \prod_{i=1}^{2n} (n+i)^{\dfrac{1}{n}}$
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $f(x)$ 的定义域为 $(0, +\infty)$，且满足 $x f(x) = 1 + \int_0^x u^2 f(u) \,\mathrm{d}u$，求 $f(x)$ 及 $f(x)$ 的最小值。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $f(x)$ 在 $(0, +\infty)$ 内有一阶连续导数，且满足 $f'(x) + \dfrac{1}{2\sqrt{x}}f(x) = 0, \quad \lim_{x\to 0^+} f(x) = 1$。 若曲线 $y = f(x)$ 与直线 $x = 1, x = n + 1$（$n$ 为正整数）及 $x$ 轴所围图形绕直线 $x = 1$ 旋转所得的体积为 $V_n$，求 $\lim_{n\to\infty} V_n$。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $D=\{(x,y) \mid x^2+y^2 \leqslant 1, 0 \leqslant y \leqslant x\}$，计算 $I=\iint_D \dfrac{xy}{1+x^2-y^2}\,\mathrm{d}x\,\mathrm{d}y$。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $f(x)$ 在 $[0, 1]$ 上有二阶连续导数，且 $f(1) = 1$ $,\int_0^1 f(x)\mathrm{d}x = \dfrac{1}{2}$。证明： (Ⅰ) 方程 $f(x) = x$ 在 $(0, 1)$ 内至少有一个实根 $x_0$； (Ⅱ) 若 $f(0) 0$，则至少存在一点 $\eta \in (0, 1)$，使 $f''(\eta) = 0$。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $ A = \begin{pmatrix} 3 & 2 & -2 \\ -a & -1 & a \\ 4 & 2 & -3 \end{pmatrix}$ 有三个线性无关的特征向量。 (Ⅰ) 求 $a$ 的值，并求可逆矩阵 $P$，使 $P^{-1}AP = \Lambda$； (Ⅱ) 求可逆的实对称矩阵 $Q$，使 $Q^{-1}AQ = A^{\mathrm{T}}$。
+content_hash: 2059493a5f167b3cacb54c0127718d464755f2cf0f35634f7a12cc29ce08dccb

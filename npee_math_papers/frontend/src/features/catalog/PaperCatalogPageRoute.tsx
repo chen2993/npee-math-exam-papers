@@ -1,18 +1,19 @@
 /**
- * Paper catalogue.
+ * Paper catalogue: browse the library and read one paper.
  *
  * Filters live in the URL query string, so a filtered view is shareable and
- * survives a reload — a capability the previous `useState`-only version could
- * not offer. The table itself is a thin renderer over the server-paged query.
+ * survives a reload. The text box searches the **whole library** (it is sent to
+ * the server as `q`), not just the loaded page: "find the 2024 张宇卷 with 23
+ * questions" is the question people actually ask, and a page-local filter
+ * silently answers a different one. Structured filters and ordering are likewise
+ * server-side, so the total and the pager always describe the filtered set.
  *
- * The text box searches the **whole library** (it is sent to the server as `q`),
- * not just the loaded page: "find the 2024 张宇卷 with 23 questions" is the
- * question people actually ask, and a page-local filter silently answers a
- * different one. Structured filters and ordering are likewise server-side, so the
- * total and the pager always describe the filtered set.
+ * This page only reads: it lists papers and opens a question drawer. Drafting,
+ * ordering and compiling belong to the composition workspace (`/compose`), which
+ * keeps the two features independent.
  */
 
-import { BookOpenText, Check, FileArchive, ListPlus, Plus, RefreshCw, Trash2 } from "lucide-react";
+import { BookOpenText, RefreshCw } from "lucide-react";
 import { useCallback, useMemo } from "react";
 import { useSearchParams } from "react-router-dom";
 
@@ -22,19 +23,18 @@ import { useAppServices } from "../../app/AppServices";
 import type { PaperSummary } from "../../domain/catalog/models";
 import { subjectNames } from "../../domain/catalog/models";
 import { usePreferences } from "../../preferences";
-import { Button, EmptyState, Pager, Surface, classNames, useToast } from "../../shared/ui";
+import { Button, EmptyState, Pager, Surface, classNames } from "../../shared/ui";
 import { PaperFilters, PAPER_ORDER_OPTIONS, type PaperFilterValue } from "./PaperFilters";
 import { PaperDetailDrawer } from "./PaperDetailDrawer";
-import { useCatalogSelection } from "./useCatalogSelection";
+import { usePaperDrawer } from "./usePaperDrawer";
 
 const ORDER_VALUES = new Set<string>(PAPER_ORDER_OPTIONS.map((option) => option.value));
 
 export default function PaperCatalogPageRoute() {
   const { gateway } = useAppServices();
   const { preferences } = usePreferences();
-  const toast = useToast();
   const [params, setParams] = useSearchParams();
-  const selection = useCatalogSelection();
+  const drawer = usePaperDrawer();
 
   const seriesKey = params.get("series") ?? "";
   const year = params.get("year") ?? "";
@@ -114,49 +114,24 @@ export default function PaperCatalogPageRoute() {
     [setFilter],
   );
 
-  const selectedOnPage = rows.filter((paper) => selection.isSelected(paper.natural_key)).length;
-  const allOnPageSelected = rows.length > 0 && selectedOnPage === rows.length;
-
-  function addPageToDraft() {
-    const added = selection.addMany(rows);
-    toast.notify(added ? `已加入本页 ${added} 套` : "本页套卷都已在组卷中");
-  }
-
-  function togglePageSelection() {
-    if (allOnPageSelected) {
-      selection.removeMany(rows.map((paper) => paper.natural_key));
-      toast.notify(`已从组卷移除本页 ${rows.length} 套`);
-      return;
-    }
-    const added = selection.addMany(rows);
-    toast.notify(added ? `已加入本页 ${added} 套` : "本页套卷都已在组卷中");
-  }
-
   return (
     <div className="page-stack">
       <div className="page-title-row">
         <div>
           <span className="eyebrow">PAPER CATALOG</span>
           <h2>套卷列表</h2>
-          <p>按系列、年份、科目筛选套卷并加入组卷。</p>
+          <p>按系列、年份、科目筛选套卷，打开即可查看题目。</p>
         </div>
-        <div className="page-title-actions">
-          <Button
-            icon={<ListPlus size={15} />}
-            onClick={addPageToDraft}
-            disabled={!rows.length || allOnPageSelected}
-          >
-            本页加入组卷
-          </Button>
+        <div className="page-title-actions is-readonly">
+          <span className="title-count">
+            {papers.isFetching ? "读取中…" : `共 ${papers.data?.total ?? 0} 套`}
+          </span>
           <Button
             icon={<RefreshCw size={15} className={papers.isFetching ? "is-spinning" : undefined} />}
             onClick={() => void papers.refetch()}
             disabled={papers.isFetching}
           >
             刷新
-          </Button>
-          <Button variant="primary" icon={<FileArchive size={16} />} onClick={selection.openCompose}>
-            打开组卷{selection.selectedCount ? ` · ${selection.selectedCount}` : ""}
           </Button>
         </div>
       </div>
@@ -168,13 +143,6 @@ export default function PaperCatalogPageRoute() {
         onChange={onFiltersChange}
         order={order}
         onOrderChange={(nextOrder) => setFilter({ order: nextOrder === "series" ? "" : nextOrder })}
-        trailing={
-          <span className="tool-count">
-            {papers.isFetching
-              ? "读取中…"
-              : `${papers.data?.total ?? 0} 套${selection.selectedCount ? ` · 已选 ${selection.selectedCount}` : ""}`}
-          </span>
-        }
       />
 
       {papers.isError ? (
@@ -185,39 +153,10 @@ export default function PaperCatalogPageRoute() {
       ) : null}
 
       <Surface className="paper-table">
-        {rows.length ? (
-          <div className="table-bulk-bar">
-            <label className="check-field">
-              <input
-                type="checkbox"
-                checked={allOnPageSelected}
-                onChange={togglePageSelection}
-                aria-label={allOnPageSelected ? "取消选择本页" : "选择本页全部"}
-              />
-              <span>
-                {allOnPageSelected ? "取消选择本页" : `选择本页全部（${rows.length}）`}
-              </span>
-            </label>
-            {selectedOnPage ? (
-              <Button
-                size="sm"
-                variant="quiet"
-                icon={<Trash2 size={13} />}
-                onClick={() => {
-                  selection.removeMany(rows.map((paper) => paper.natural_key));
-                  toast.notify(`已从组卷移除本页 ${selectedOnPage} 套`);
-                }}
-              >
-                移除本页已选（{selectedOnPage}）
-              </Button>
-            ) : null}
-          </div>
-        ) : null}
         <div className="paper-table-scroll">
           <table>
             <thead>
               <tr>
-                <th className="paper-table-check" aria-label="选择" />
                 <th>套卷</th>
                 <th>年份</th>
                 <th>科目</th>
@@ -228,13 +167,7 @@ export default function PaperCatalogPageRoute() {
             </thead>
             <tbody>
               {rows.map((paper) => (
-                <PaperRow
-                  key={paper.natural_key}
-                  paper={paper}
-                  selected={selection.isSelected(paper.natural_key)}
-                  onToggle={selection.toggle}
-                  onOpen={selection.openDetail}
-                />
+                <PaperRow key={paper.natural_key} paper={paper} onOpen={drawer.openDetail} />
               ))}
             </tbody>
           </table>
@@ -257,34 +190,16 @@ export default function PaperCatalogPageRoute() {
         disabled={papers.isFetching}
       />
 
-      {selection.detail ? (
-        <PaperDetailDrawer paper={selection.detail} gateway={gateway} onClose={() => selection.openDetail(null)} />
+      {drawer.detail ? (
+        <PaperDetailDrawer paper={drawer.detail} gateway={gateway} onClose={() => drawer.openDetail(null)} />
       ) : null}
     </div>
   );
 }
 
-function PaperRow({
-  paper,
-  selected,
-  onToggle,
-  onOpen,
-}: {
-  paper: PaperSummary;
-  selected: boolean;
-  onToggle: (paper: PaperSummary) => void;
-  onOpen: (paper: PaperSummary) => void;
-}) {
+function PaperRow({ paper, onOpen }: { paper: PaperSummary; onOpen: (paper: PaperSummary) => void }) {
   return (
-    <tr className={classNames(selected && "is-selected")}>
-      <td className="paper-table-check">
-        <input
-          type="checkbox"
-          checked={selected}
-          onChange={() => onToggle(paper)}
-          aria-label={`选择 ${paper.natural_key}`}
-        />
-      </td>
+    <tr>
       <td>
         <div className="paper-table-title">
           <span className={classNames("subject-mark", paper.subject)}>{paper.subject.replace("math", "数")}</span>
@@ -308,15 +223,7 @@ function PaperRow({
       <td>
         <div className="row-actions">
           <Button size="sm" variant="quiet" onClick={() => onOpen(paper)}>
-            查看
-          </Button>
-          <Button
-            size="sm"
-            variant={selected ? "primary" : "default"}
-            icon={selected ? <Check size={14} /> : <Plus size={14} />}
-            onClick={() => onToggle(paper)}
-          >
-            {selected ? "已选" : "加入组卷"}
+            查看题目
           </Button>
         </div>
       </td>

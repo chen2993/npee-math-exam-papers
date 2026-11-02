@@ -13,7 +13,7 @@
 
 import { useCallback, useRef, useState } from "react";
 
-export interface DragReorderHandlers {
+interface DragReorderHandlers {
   onDragStart: (index: number) => void;
   onDragOver: (index: number) => void;
   onDragEnd: () => void;

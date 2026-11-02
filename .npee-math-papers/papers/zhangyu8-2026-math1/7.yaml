@@ -4,300 +4,284 @@ paper:
   year: 2026
   subject: math1
   paper_no: 7
-content_hash: 9bd77fea12ffc8a376ea5c188058e061fe73c0be85ab9ae156898d83a8ea5cda
 questions:
 - number: 1
   section: choice
   points: 5
   stem:
     text: |-
-      设 $f(x)=\left|\ln |x|\right|$，则\ExamSelection
+      设 $f(x)=|\ln|x||$，则( )
   choices:
   - label: A
-    text: $x=1$ 不是 $f(x)$ 的极值点。
+    text: $x=1$ 不是 $f(x)$ 的极值点
     figures: []
   - label: B
-    text: $(1,0)$ 不是 $y=f(x)$ 的拐点。
+    text: $(1,0)$ 不是 $y=f(x)$ 的拐点
     figures: []
   - label: C
-    text: $x=-1$ 不是 $f(x)$ 的驻点。
+    text: $x=-1$ 不是 $f(x)$ 的驻点
     figures: []
   - label: D
-    text: $x=0$ 不是 $y=f(x)$ 的渐近线。
+    text: $x=0$ 不是 $y=f(x)$ 的渐近线
     figures: []
 - number: 2
   section: choice
   points: 5
   stem:
     text: |-
-      设 $f(x)$ 在 $(0,+\infty)$ 内可导，$a$ 为常数。对于以下结论：①若 $\lim_{x\to+\infty}f'(x)=a$，则 $\lim_{x\to+\infty}\dfrac{f(x)}{x}=a$；②若 $\lim_{x\to+\infty}\dfrac{f(x)}{x}=a$，则 $\lim_{x\to+\infty}f'(x)=a$。下列说法中正确的是\ExamSelection
+      设 $f(x)$ 在 $(0, +\infty)$ 内可导$,a$ 为常数. 对于以下结论： \circled{1} 若 $ \lim\limits_{x\to+\infty}f'(x)=a$，则 $ \lim\limits_{x\to+\infty}\dfrac{f(x)}{x}=a$； \circled{2} 若 $ \lim\limits_{x\to+\infty}\dfrac{f(x)}{x}=a$，则 $ \lim\limits_{x\to+\infty}f'(x)=a$。 下列说法中正确的是（ ）。
   choices:
   - label: A
-    text: ①正确，②错误。
+    text: |-
+      $\mathrm{(1)}$ 正确, $\mathrm{(2)}$ 错误
     figures: []
   - label: B
-    text: ①错误，②正确。
+    text: |-
+      $\mathrm{(1)}$ 错误, $\mathrm{(2)}$ 正确
     figures: []
   - label: C
-    text: ①与②均正确。
+    text: |-
+      $\mathrm{(1)}$ 与 $\mathrm{(2)}$ 均正确
     figures: []
   - label: D
-    text: ①与②均错误。
+    text: |-
+      $\mathrm{(1)}$ 与 $\mathrm{(2)}$ 均错误
     figures: []
 - number: 3
   section: choice
   points: 5
   stem:
     text: |-
-      已知级数 $\sum_{n=1}^{\infty}u_n(x)$ 的部分和为 $S_n(x)=\begin{cases}n,&0<x<\dfrac{1}{n},\\0,&\text{其他},\end{cases}$ 记 $a=\int_0^1\sum_{n=1}^{\infty}u_n(x)\,\mathrm{d}x$，$b=\sum_{n=1}^{\infty}\int_0^1u_n(x)\,\mathrm{d}x$，则\ExamSelection
+      已知级数 $ \sum\limits_{n=1}^{\infty}u_n(x)$ 的部分和为 \( S_n(x)=\begin{cases}n, &0<x<\dfrac{1}{n}, \\0, &\text{其他}, \end{cases}\) 记 $ a=\int_0^1\sum\limits_{n=1}^{\infty}u_n(x)\, \mathrm dx$, $ b=\sum\limits_{n=1}^{\infty}\int_0^1u_n(x)\, \mathrm dx$，则( )
   choices:
   - label: A
-    text: $a<b<1$。
+    text: $a<b<1$
     figures: []
   - label: B
-    text: $a<b=1$。
+    text: $a<b=1$
     figures: []
   - label: C
-    text: $0=b<a$。
+    text: $0=b<a$
     figures: []
   - label: D
-    text: $a=b=0$。
+    text: $a=b=0$
     figures: []
 - number: 4
   section: choice
   points: 5
   stem:
     text: |-
-      $I_1=\int_0^{2\pi}\dfrac{\sin x}{x}\,\mathrm{d}x$，$I_2=\int_0^{2\pi}\dfrac{\sin x}{2\pi-x}\,\mathrm{d}x$，$I_3=\int_0^{2\pi}\dfrac{\sin x}{x(2\pi-x)}\,\mathrm{d}x$，则\ExamSelection
+      设三个积分 \(I_1=\int_0^{2\pi}\dfrac{\sin x}{x}\,\mathrm{d}x\)，\(I_2=\int_0^{2\pi}\dfrac{\sin x}{2\pi-x}\,\mathrm{d}x\)，\(I_3=\int_0^{2\pi}\dfrac{\sin x}{x(2\pi-x)}\,\mathrm{d}x\)，则（ ）
   choices:
   - label: A
-    text: $I_3<I_1<I_2$。
+    text: $I_3<I_1<I_2$
     figures: []
   - label: B
-    text: $I_3<I_2<I_1$。
+    text: $I_3<I_2<I_1$
     figures: []
   - label: C
-    text: $I_2<I_3<I_1$。
+    text: $I_2<I_3<I_1$
     figures: []
   - label: D
-    text: $I_1<I_2<I_3$。
+    text: $I_1<I_2<I_3$
     figures: []
 - number: 5
   section: choice
   points: 5
   stem:
-    text: |-
-      设 $A$ 是 $n$ 阶矩阵，$\boldsymbol{x}$ 是任意的 $n$ 维列向量，$B$ 是任意的 $n$ 阶方阵，则下列说法中错误的是\ExamSelection
+    text: 设 $A$ 是 $n$ 阶矩阵$,x$ 是任意的 $n$ 维列向量$,B$ 是任意的 $n$ 阶方阵，则下列说法中错误的是( )
   choices:
   - label: A
-    text: $AB=O$，必有 $A=O$。
+    text: $AB=O$, 必有 $A=O$
     figures: []
   - label: B
-    text: |-
-      $B^{\mathrm T}AB=O$，必有 $A=O$。
+    text: $B^TAB=O$, 必有 $A=O$
     figures: []
   - label: C
-    text: |-
-      $A\boldsymbol{x}=0$，必有 $A=O$。
+    text: $Ax=0$, 必有 $A=O$
     figures: []
   - label: D
-    text: |-
-      $\boldsymbol{x}^{\mathrm T}A\boldsymbol{x}=0$，必有 $A=O$。
+    text: $x^TAx=0$, 必有 $A=O$
     figures: []
 - number: 6
   section: choice
   points: 5
   stem:
     text: |-
-      $n$ 维向量组 $\alpha_1,\alpha_2,\cdots,\alpha_r\ (3\leq r\leq n)$ 线性相关的充分必要条件是\ExamSelection
+      $n$ 维向量组 $\alpha_1, \alpha_2, \cdots, \alpha_r\, (3\le r\le n)$ 线性相关的充分必要条件是( )
   choices:
   - label: A
     text: |-
-      对于任意一组不全为零的数 $k_1,k_2,\cdots,k_r$，都有 $k_1\alpha_1+k_2\alpha_2+\cdots+k_r\alpha_r=0$。
+      对于任意一组不全为零的数 $k_1,k_2, \cdots,k_r$, 都有 $k_1\alpha_1+k_2\alpha_2+\cdots+k_r\alpha_r=0$
     figures: []
   - label: B
     text: |-
-      $\alpha_1,\alpha_2,\cdots,\alpha_r$ 中任意两个向量都线性相关。
+      $\alpha_1, \alpha_2, \cdots, \alpha_r$ 中任意两个向量都线性相关
     figures: []
   - label: C
     text: |-
-      $\alpha_1,\alpha_2,\cdots,\alpha_r$ 中任何一个向量都能由其余向量线性表示。
+      $\alpha_1, \alpha_2, \cdots, \alpha_r$ 中任何一个向量都能由其余向量线性表示
     figures: []
   - label: D
     text: |-
-      $\alpha_1,\alpha_2,\cdots,\alpha_r$ 中至少有一个向量能由其余向量线性表示。
+      $\alpha_1, \alpha_2, \cdots, \alpha_r$ 中至少有一个向量能由其余向量线性表示
     figures: []
 - number: 7
   section: choice
   points: 5
   stem:
     text: |-
-      若 $A,A^*,B$ 都是 $n(n>2)$ 阶非零矩阵，且 $A^*$ 是 $A$ 的伴随矩阵，$AB=O$，则 $r(B)=\ExamSelection$
+      若 $A,A^*,B$ 都是 $n\, (n>2)$ 阶非零矩阵，且 $A^*$ 是 $A$ 的伴随矩阵$,AB=0$，则 $r(B)=$( )
   choices:
   - label: A
-    text: $1$。
+    text: $1$
     figures: []
   - label: B
-    text: $n-1$。
+    text: $n-1$
     figures: []
   - label: C
-    text: $n$。
+    text: $n$
     figures: []
   - label: D
-    text: $n-1$ 或 $n$。
+    text: $n-1$ 或 $n$
     figures: []
 - number: 8
   section: choice
   points: 5
   stem:
     text: |-
-      设存在非零常数 $a$ 使得 $P\{aX+Y=0\}=1$，则随机变量 $X$ 与 $Y$ 的相关系数 $\rho$ 满足\ExamSelection
+      设存在非零常数 $a$ 使得 $P\{aX+Y=0\}=1$，则随机变量 $X$ 与 $Y$ 的相关系数 $\rho$ 满足( )
   choices:
   - label: A
     text: |-
-      $\rho=\dfrac{a}{|a|}$。
+      $ \rho=\dfrac{a}{|a|}$
     figures: []
   - label: B
     text: |-
-      $\rho=-\dfrac{a}{|a|}$。
+      $ \rho=-\dfrac{a}{|a|}$
     figures: []
   - label: C
     text: |-
-      $-1<\rho<1$。
+      $-1<\rho<1$
     figures: []
   - label: D
     text: |-
-      $|\rho|=|a|$。
+      $|\rho|=|a|$
     figures: []
 - number: 9
   section: choice
   points: 5
   stem:
-    text: |-
-      设生产每件产品的时间服从指数分布，且平均时间为 10 分钟，生产各件产品的时间相互独立，由中心极限定理，在 15 小时至 20 小时之间生产 100 件产品的概率约为\ExamSelection
+    text: 设生产每件产品的时间服从指数分布，且平均时间为 $10$ 分钟，生产各件产品的时间相互独立. 由中心极限定理，在 $15$ 小时至 $20$ 小时之间生产 $100$ 件产品的概率约为( )
   choices:
   - label: A
     text: |-
-      $\Phi(2)-\Phi(1)$。
+      $\Phi(2)-\Phi(1)$
     figures: []
   - label: B
     text: |-
-      $2\Phi(1)-\Phi(2)$。
+      $2\Phi(1)-\Phi(2)$
     figures: []
   - label: C
     text: |-
-      $\Phi(1)+\Phi(2)-1$。
+      $\Phi(1)+\Phi(2)-1$
     figures: []
   - label: D
     text: |-
-      $2[\Phi(1)-\Phi(-2)]$。
+      $2[\Phi(1)-\Phi(-2)]$
     figures: []
 - number: 10
   section: choice
   points: 5
   stem:
     text: |-
-      在数集 $\Omega=\{0,1,2,\cdots,N\}$ 中有放回地抽取 $n$ 次，得 $X_1,X_2,\cdots,X_n$，则 $N$ 的最大似然估计量是\ExamSelection
+      在数集 $\Omega=\{0,1,2, \cdots,N\}$ 中有放回地抽取 $n$ 次，得 $X_1,X_2, \cdots,X_n$，则 $N$ 的最大似然估计量是( )
   choices:
   - label: A
     text: |-
-      $\max\{X_1,X_2,\cdots,X_n\}$。
+      $\max\limits\{X_1,X_2, \cdots,X_n\}$
     figures: []
   - label: B
     text: |-
-      $\min\{X_1,X_2,\cdots,X_n\}$。
+      $\min\limits\{X_1,X_2, \cdots,X_n\}$
     figures: []
   - label: C
     text: |-
-      $\dfrac{1}{n}\sum_{i=1}^{n}X_i$。
+      $ \dfrac{1}{n}\sum\limits_{i=1}^{n}X_i$
     figures: []
   - label: D
-    text: $n$。
+    text: $n$
     figures: []
 - number: 11
   section: fill
   points: 5
   stem:
     text: |-
-      $\lim_{n\to\infty}\left[\dfrac{1}{2}+\dfrac{1}{6}+\cdots+\dfrac{1}{n(n+1)}\right]^n=\ExamBlank$。
+      $ \lim\limits_{n\to\infty}\left[\dfrac{1}{2}+\dfrac{1}{6}+\cdots+\dfrac{1}{n(n+1)}\right]^n=$_____
 - number: 12
   section: fill
   points: 5
   stem:
     text: |-
-      过原点的曲线 $y=y(x)$ 满足 $\dfrac{\mathrm{d}y}{\mathrm{d}x}=(x+y)^2$，则 $\lim_{x\to0^+}[y(x)]^x=\ExamBlank$。
+      过原点的曲线 $y=y(x)$ 满足 $ \dfrac{\mathrm dy}{\mathrm dx}=(x+y)^2$，则 $ \lim\limits_{x\to0^+}[y(x)]^x=$_____
 - number: 13
   section: fill
   points: 5
   stem:
     text: |-
-      设 $f(x)$ 在 $[0,1]$ 上连续，$\int_0^1 2x^2f(x)\,\mathrm{d}x\geq\int_0^1f^2(x)\,\mathrm{d}x+\dfrac{1}{5}$，则 $f(x)=\ExamBlank$。
+      设 $f(x)$ 在 $[0,1]$ 上连续$, \int_0^1 2x^2f(x)\, \mathrm dx\ge\int_0^1 f^2(x)\, \mathrm dx+\dfrac{1}{5}$，则 $f(x)=$_____
 - number: 14
   section: fill
   points: 5
   stem:
     text: |-
-      设 $l$ 是从点 $(1,1,1)$ 到点 $(4,4,4)$ 的直线段，则 $\int_l\dfrac{x\,\mathrm{d}x+y\,\mathrm{d}y+z\,\mathrm{d}z}{\sqrt{x^2+y^2+z^2-x-y+2z}}=\ExamBlank$。
+      设 $l$ 是从点 $(1,1,1)$ 到点 $(4,4,4)$ 的直线段，则 \( \int_l\dfrac{x\, \mathrm dx+y\, \mathrm dy+z\, \mathrm dz}{\sqrt{x^2+y^2+z^2-x-y+2z}}=\) _____
 - number: 15
   section: fill
   points: 5
   stem:
     text: |-
-      已知 3 阶矩阵 $A,B$ 相似，$\lambda_1=1,\lambda_2=2$ 为 $A$ 的两个特征值，行列式 $|B|=2$，则行列式 $\begin{vmatrix}(A+E)^{-1}&O\\O&(2B)^*\end{vmatrix}=\ExamBlank$。
+      已知 $3$ 阶矩阵 $A,B$ 相似$,\lambda_1=1$, $\lambda_2=2$ 为 $A$ 的两个特征值，行列式 $|B|=2$，则 \( \begin{vmatrix}(A+E)^{-1}&O\\O&(2B)^*\end{vmatrix}=\) _____
 - number: 16
   section: fill
   points: 5
   stem:
     text: |-
-      设随机变量 $X$ 的分布函数为 $F(x)=k\left(\dfrac{\pi}{2}+\arctan x\right),x\in\mathbb{R}$，$Y=\min\{1,|X|\}$，则 $E(Y)=\ExamBlank$。
+      设随机变量 $X$ 的分布函数为 $ F(x)=k\left(\dfrac{\pi}{2}+\arctan x\right),x\in\mathbb R$, $Y=\min\limits\{1, |X|\}$，则 $E(Y)=$_____
 - number: 17
   section: solution
-  points: 10
+  points: 12
   stem:
     text: |-
-      设函数 $y(x)$ 具有二阶导数，曲线 $l:y=y(x)$ 与直线 $y=x$ 相切于原点，且由曲线 $l$ 在点 $(x,y)$ 处切线的倾角 $\theta$ 关于 $x$ 的变化率与曲线 $l$ 在该点的切线斜率相等。求 $y(x)$ 的表达式。
+      设函数 $y(x)$ 具有二阶导数，曲线 $l:y=y(x)$ 与直线 $y=x$ 相切于原点，且曲线 $l$ 在点 $(x,y)$ 处切线的倾角 $\theta$ 关于 $x$ 的变化率与曲线 $l$ 在该点的切线斜率相等. 求 $y(x)$ 的表达式
 - number: 18
   section: solution
   points: 12
   stem:
     text: |-
-      设 $u=u(x,y)$ 具有二阶连续偏导数，且满足 $\dfrac{\partial^2u}{\partial x\partial y}=x^2y$，$u(x,0)=-x^2+2$，$u(1,y)=\cos y$。求
-  subparts:
-  - text: $u=u(x,y)$ 的表达式；
-  - text: |-
-      $u(x,y)-\cos y$ 的极值。
+      设 $u=u(x,y)$ 具有二阶连续偏导数，且满足 $ \dfrac{\partial^2u}{\partial x\partial y}=x^2y$, $u(x,0)=-x^2+2$, $u(1,y)=\cos y$. 求： (1) $u=u(x,y)$ 的表达式； (2) $u(x,y)-\cos y$ 的极值
 - number: 19
   section: solution
   points: 12
   stem:
     text: |-
-      设数列 $\{x_n\}$ 满足 $x_{n+1}=\dfrac{a+x_n}{1+x_n}$，$0<a<1$，$x_1\geq0$。
-  subparts:
-  - text: |-
-      证明 $\sum_{n=1}^{\infty}(x_{n+1}-x_n)$ 绝对收敛；
-  - text: |-
-      求 $\lim_{n\to\infty}\sum_{i=1}^{n}(x_{i+1}-x_i)$。
+      设数列 $\{x_n\}$ 满足 $ x_{n+1}=\dfrac{a+x_n}{1+x_n},0<a<1,x_1\ge0$. (1) 证明 $ \sum\limits_{n=1}^{\infty}(x_{n+1}-x_n)$ 绝对收敛； (2) 求 $ \lim\limits_{n\to\infty}\sum\limits_{i=1}^{n}(x_{i+1}-x_i)$
 - number: 20
   section: solution
   points: 12
   stem:
     text: |-
-      设曲面 $\Sigma$ 为 $z^2=x^2+y^2-1$ 介于 $z=0$ 与 $z=1$ 之间的部分，取外侧，$f(x)$ 为连续函数，计算 $I=\iint_{\Sigma}[yf(xy)-2x]\,\mathrm{d}y\mathrm{d}z+[y^2-xf(xy)]\,\mathrm{d}z\mathrm{d}x+(z-1)^2\,\mathrm{d}x\mathrm{d}y$。
+      设曲面 $\Sigma$ 为 $z^2=x^2+y^2-1$ 介于 $z=0$ 与 $z=1$ 之间的部分，取外侧$,f(x)$ 为连续函数，计算 \( I=\iint_{\Sigma}[yf(xy)-2x]\, \mathrm dy\, \mathrm dz+[y^2-xf(xy)]\, \mathrm dz\, \mathrm dx+(z-1)^2\, \mathrm dx\, \mathrm dy\)
 - number: 21
   section: solution
   points: 12
   stem:
     text: |-
-      设 $A=\begin{pmatrix}2&1&0\\1&2&0\\a&1&b\end{pmatrix}$ 恰有 2 个不同的特征值且可相似对角化，$a>0$，$(A+E)(E-B)=E$。求
-  subparts:
-  - text: $a,b$ 的值；
-  - text: 可以使 $A,B$ 同时相似对角化的可逆矩阵 $P$。
+      设 \( A=\begin{pmatrix}2&1&0\\1&2&0\\a&1&b\end{pmatrix}\) 恰有 $2$ 个不同的特征值且可相似对角化$,a>0$, $(A+E)(E-B)=E$. 求： (1) $a,b$ 的值； (2) 可以使 $A,B$ 同时相似对角化的可逆矩阵 $P$
 - number: 22
   section: solution
   points: 12
   stem:
     text: |-
-      设某商品每天的供应量 $X$ 的概率密度为 $f(x)=\begin{cases}xe^{-x},&x\geq0,\\0,&x<0.\end{cases}$ 若每天的供应量相互独立，求
-  subparts:
-  - text: 3 天总供应量的概率密度；
-  - text: 连续 3 天中最大供应量的概率密度。
+      设某商品每天的供应量 $X$ 的概率密度为 \( f(x)=\begin{cases}x\mathrm e^{-x}, &x\ge0, \\0, &x<0, \end{cases}\) 若每天的供应量相互独立，求： (1) $3$ 天总供应量的概率密度； (2) 连续 $3$ 天中最大供应量的概率密度
+content_hash: ffdcf99dfb3c4352e90452cdac5e410f6ddf99db96f88db9ca95291cd0190c18

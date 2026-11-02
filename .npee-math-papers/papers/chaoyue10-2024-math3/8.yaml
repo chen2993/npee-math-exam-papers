@@ -4,14 +4,13 @@ paper:
   year: 2024
   subject: math3
   paper_no: 8
-content_hash: fa46833a1c5d76216465dc08edf14bf0a4049583d38d91ad63fe8cb784655123
 questions:
 - number: 1
   section: choice
   points: 5
   stem:
     text: |-
-      设函数 $f(x)=1±2x^2+o(x^2)$，$x\in\mathring{U}(0,\delta)$，且 $f(0)=1$，下列命题：① $f'(x)=4x+o(x)$，$x\in\mathring{U}(0,\delta)$；② $f'(0)=0$；③ $f''(0)=4$；④ $f(x)$ 在 $(-\delta,\delta)$ 内为凹函数。正确的个数是\ExamSelection。
+      设函数 $f(x)=1±2x^2+o(x^2)$，$x\in\mathring{U}(0,\delta)$，且 $f(0)=1$，下列命题：\n① $f'(x)=4x+o(x)$，$x\in\mathring{U}(0,\delta)$；\n② $f'(0)=0$；\n③ $f''(0)=4$；\n④ $f(x)$ 在 $(-\delta,\delta)$ 内为凹函数。\n正确的个数是\ExamSelection。
   choices:
   - label: A
     text: $1$
@@ -76,7 +75,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设曲线 $L:y=\cos x$，$L_1$ 与 $L_2$ 分别为 $L$ 上点 $(-\dfrac{\pi}{2},0)$ 与 $(\dfrac{\pi}{2},0)$ 处的切线，若函数 $f(x,y)$ 在 $L,L_1$ 与 $L_2$ 所围闭区域 $D$ 上连续，则下列等式成立的有 ① $\iint_D f(x,y)\,\mathrm{d}\sigma=\int_{-\pi/2}^{\pi/2}\mathrm{d}x\int_{\cos x}^{\pi/2}f(x,y)\,\mathrm{d}y$；② $\iint_D f(x,y)\,\mathrm{d}\sigma=\int_0^{\pi/2}\mathrm{d}y\int_{y-\pi/2}^{\pi/2-y}f(x,y)\,\mathrm{d}x$；③ $\iint_D f(x,y)\,\mathrm{d}\sigma=2\int_0^1\mathrm{d}y\int_{\arccos y}^{\pi/2-y}f(x,y)\,\mathrm{d}x+\int_1^{\pi/2}\mathrm{d}y\int_{y-\pi/2}^{\pi/2-y}f(x,y)\,\mathrm{d}x$；④ $\iint_D f(x,y)\,\mathrm{d}\sigma=\int_{-\pi/2}^0\mathrm{d}x\int_{\cos x}^{\pi/2+x}f(x,y)\,\mathrm{d}y+\int_0^{\pi/2}\mathrm{d}x\int_{\cos x}^{\pi/2-x}f(x,y)\,\mathrm{d}y$。正确的个数是\ExamSelection。
+      设曲线 $L:y=\cos x$，$L_1$ 与 $L_2$ 分别为 $L$ 上点 $(-\dfrac{\pi}{2},0)$ 与 $(\dfrac{\pi}{2},0)$ 处的切线，若函数 $f(x,y)$ 在 $L,L_1$ 与 $L_2$ 所围闭区域 $D$ 上连续，则下列等式成立的有 \n① $\iint_D f(x,y)\,\mathrm{d}\sigma=\int_{-\pi/2}^{\pi/2}\mathrm{d}x\int_{\cos x}^{\pi/2}f(x,y)\,\mathrm{d}y$；\n② $\iint_D f(x,y)\,\mathrm{d}\sigma=\int_0^{\pi/2}\mathrm{d}y\int_{y-\pi/2}^{\pi/2-y}f(x,y)\,\mathrm{d}x$；\n③ $\iint_D f(x,y)\,\mathrm{d}\sigma=2\int_0^1\mathrm{d}y\int_{\arccos y}^{\pi/2-y}f(x,y)\,\mathrm{d}x+\int_1^{\pi/2}\mathrm{d}y\int_{y-\pi/2}^{\pi/2-y}f(x,y)\,\mathrm{d}x$；\n④ $\iint_D f(x,y)\,\mathrm{d}\sigma=\int_{-\pi/2}^0\mathrm{d}x\int_{\cos x}^{\pi/2+x}f(x,y)\,\mathrm{d}y+\int_0^{\pi/2}\mathrm{d}x\int_{\cos x}^{\pi/2-x}f(x,y)\,\mathrm{d}y$。\n正确的个数是\ExamSelection。
   choices:
   - label: A
     text: $1$
@@ -298,3 +297,4 @@ questions:
   - text: 判断 $X,Y$ 是否独立，是否相关，并给出理由；
   - text: |-
       求随机变量 $U=\dfrac{YZ}{X}$ 的密度函数 $f_U(u)$。
+content_hash: 462ff2b6ca539f891e9b94220fe9520aff96b7735ef35edf4903601ca7d17088

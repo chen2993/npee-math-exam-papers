@@ -1,7 +1,8 @@
 /**
  * Catalogue behaviour that is easy to regress and invisible to a type check:
- * the bulk "add this page" action, the select-all toggle, and the fact that the
- * search box is sent to the *server* rather than filtering the loaded page.
+ * the search box is sent to the *server* rather than filtering the loaded page,
+ * ordering comes from the URL, a row opens the question drawer, and the page
+ * carries no composition affordances at all.
  */
 
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
@@ -12,7 +13,6 @@ import { describe, expect, it, vi } from "vitest";
 
 import type { CatalogGateway, PaperQuery } from "../../application/catalog/ports";
 import { AppServicesProvider } from "../../app/AppServices";
-import { CompositionWorkspaceProvider } from "../../app/CompositionWorkspace";
 import type { PaperPage, PaperSummary } from "../../domain/catalog/models";
 import { PreferencesProvider } from "../../preferences";
 import { ToastProvider } from "../../shared/ui";
@@ -59,7 +59,6 @@ function gatewayWith(papers: PaperSummary[]): { gateway: CatalogGateway; queries
   return { gateway, queries };
 }
 
-/** The workspace/export stubs: this page never compiles, only adds to a draft. */
 const repository = { load: () => [], save: () => {} };
 const exportGateway = { jobs: async () => [] } as never;
 
@@ -69,14 +68,10 @@ function renderPage(gateway: CatalogGateway, initialEntry = "/papers") {
     <QueryClientProvider client={client}>
       <PreferencesProvider persist={false}>
         <ToastProvider>
-          <AppServicesProvider
-            services={{ gateway, draftRepository: repository, exportGateway }}
-          >
-            <CompositionWorkspaceProvider repository={repository} exportGateway={exportGateway}>
-              <MemoryRouter initialEntries={[initialEntry]}>
-                <PaperCatalogPageRoute />
-              </MemoryRouter>
-            </CompositionWorkspaceProvider>
+          <AppServicesProvider services={{ gateway, draftRepository: repository, exportGateway }}>
+            <MemoryRouter initialEntries={[initialEntry]}>
+              <PaperCatalogPageRoute />
+            </MemoryRouter>
           </AppServicesProvider>
         </ToastProvider>
       </PreferencesProvider>
@@ -85,35 +80,35 @@ function renderPage(gateway: CatalogGateway, initialEntry = "/papers") {
 }
 
 describe("PaperCatalogPageRoute", () => {
-  it("adds every row on the page in one action", async () => {
-    const user = userEvent.setup();
-    const { gateway } = gatewayWith([paper(1), paper(2), paper(3)]);
-    renderPage(gateway);
-
-    await screen.findByText(/示例系列 第 1 套/);
-    // The bulk bar reports how many are on the page and adds them together.
-    await user.click(screen.getByLabelText(/选择本页全部/));
-
-    expect(await screen.findByText(/已加入本页 3 套/)).toBeInTheDocument();
-    // Once selected, the header offers to remove them again.
-    expect(screen.getByText(/移除本页已选（3）/)).toBeInTheDocument();
-  });
-
-  it("toggles a single row on and off, and counts it once", async () => {
-    const user = userEvent.setup();
+  it("lists the papers without any composition affordance", async () => {
     const { gateway } = gatewayWith([paper(1), paper(2)]);
     renderPage(gateway);
 
     await screen.findByText(/示例系列 第 1 套/);
-    const box = screen.getByLabelText("选择 2024/math1/demo/1");
-    await user.click(box);
-    expect(box).toBeChecked();
-    // The bulk-bar count must reflect a single selection, not the page size.
-    expect(await screen.findByText(/移除本页已选（1）/)).toBeInTheDocument();
+    expect(screen.getByText(/示例系列 第 2 套/)).toBeInTheDocument();
+    // Browsing must not depend on the composition workspace: no bulk-add, no
+    // select-all, no "open the draft" entry point.
+    expect(screen.queryByText(/加入组卷|打开组卷/)).not.toBeInTheDocument();
+    expect(screen.queryByLabelText(/选择本页全部/)).not.toBeInTheDocument();
+    expect(screen.queryByRole("checkbox")).not.toBeInTheDocument();
+  });
 
-    await user.click(box);
-    expect(box).not.toBeChecked();
-    await waitFor(() => expect(screen.queryByText(/移除本页已选/)).not.toBeInTheDocument());
+  it("opens the question drawer from a row", async () => {
+    const user = userEvent.setup();
+    const { gateway } = gatewayWith([paper(1)]);
+    (gateway.getPaper as unknown as ReturnType<typeof vi.fn>).mockResolvedValue({
+      schema_version: "3.0",
+      paper: { series_key: "demo", year: 2024, subject: "math1", paper_no: 1 },
+      meta: { ...paper(1), question_count: 0 },
+      questions: [],
+    });
+    renderPage(gateway);
+
+    await screen.findByText(/示例系列 第 1 套/);
+    await user.click(screen.getByRole("button", { name: "查看题目" }));
+
+    expect(await screen.findByRole("dialog")).toBeInTheDocument();
+    expect(gateway.getPaper).toHaveBeenCalled();
   });
 
   it("sends the search text to the server instead of filtering the page", async () => {

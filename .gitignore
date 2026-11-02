@@ -7,9 +7,17 @@
 /npee_math_papers/frontend/vite.config.js
 /npee_math_papers/frontend/vite.config.d.ts
 /npee_math_papers/frontend/tsconfig.*.tsbuildinfo
+/dist/
 **/__pycache__/
 .pytest_cache/
 *.egg-info/
+
+# LaTeX 附件的就地编译产物（正式产物在 dist/）。
+/composition/*/errata/*.aux
+/composition/*/errata/*.log
+/composition/*/errata/*.out
+/composition/*/errata/*.toc
+/composition/*/errata/*.pdf
 
 # NPEE data root.
 # The authoritative text is committed: papers/, registry.json, release.json and

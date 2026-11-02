@@ -1,0 +1,273 @@
+schema_version: '3.0'
+paper:
+  series_key: lilin6
+  year: 2024
+  subject: math1
+  paper_no: 3
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      曲线 $y = \dfrac{1}{x} + \ln(1 + \mathrm{e}^x)$ 的渐近线的条数为
+  choices:
+  - label: A
+    text: '1'
+    figures: []
+  - label: B
+    text: '2'
+    figures: []
+  - label: C
+    text: '3'
+    figures: []
+  - label: D
+    text: '4'
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设连续函数 $y=f(x)$ 在 $(0,+\infty)$ 内满足 $y'-p(x)y>0$，且 $f(0)\geqslant 0$，其中 $p(x)$ 在 $[0,+\infty)$ 上连续且为正值，当 $0<a<b$ 时，正确的是
+  choices:
+  - label: A
+    text: $f(0)<f(a)<f(b)$
+    figures: []
+  - label: B
+    text: $f(b)<f(a)<f(0)$
+    figures: []
+  - label: C
+    text: $f(b)<f(0)<f(a)$
+    figures: []
+  - label: D
+    text: $f(a)<f(0)<f(b)$
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: 设函数 $y_1(x)$ 与 $y_2(x)$ 是微分方程 $y' + p(x)y = 0$ 的两个不同解$,C_1, C_2, C$ 为任意常数，则该微分方程的通解可以表示为
+  choices:
+  - label: A
+    text: $C_1y_1 + C_2y_2.$
+    figures: []
+  - label: B
+    text: $y_1 + C(y_1+y_2).$
+    figures: []
+  - label: C
+    text: $y_1 + Cy_2.$
+    figures: []
+  - label: D
+    text: $C(y_2-y_1).$
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设幂级数 $\sum_{n=0}^{\infty} a_n x^n$ 的收敛域为 $(-4,4]$，则幂级数 $\sum_{n=0}^{\infty} a_n x^{2n+1}$ 的收敛域为
+  choices:
+  - label: A
+    text: $(-4,4].$
+    figures: []
+  - label: B
+    text: $[-4,4].$
+    figures: []
+  - label: C
+    text: $[-2,2].$
+    figures: []
+  - label: D
+    text: $(-2,2].$
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $B=\begin{bmatrix} 1 & 2 & a \\ -1 & 1 & 2 \\ 0 & 3 & 1 \end{bmatrix}, A$ 是 $3$ 阶矩阵, $r(A)=2, r(BA)=1$, 则 $a=$
+  choices:
+  - label: A
+    text: $-1$
+    figures: []
+  - label: B
+    text: $1$
+    figures: []
+  - label: C
+    text: $-2$
+    figures: []
+  - label: D
+    text: $2$
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设非齐次线性方程组 $AX=b$ 有解, 其中 $b=(2a+1,a+3,3a-1)^T, A=\begin{bmatrix} 1 & 1 & -1 \\ -1 & -2 & 1 \\ 1 & -1 & -1 \end{bmatrix}$, $k$ 为任意常数, 则 $AX=b$ 的通解为
+  choices:
+  - label: A
+    text: $k(1,1,0)^T+(-3,2,0)^T$
+    figures: []
+  - label: B
+    text: $k(1,0,1)^T+(-3,2,0)^T$
+    figures: []
+  - label: C
+    text: $k(1,0,1)^T+(-5,2,0)^T$
+    figures: []
+  - label: D
+    text: $k(1,0,-1)^T+(-5,2,0)^T$
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: 方程 $(x-y)^2+(y-z)^2+(z-x)^2=1$ 表示的曲面为
+  choices:
+  - label: A
+    text: 椭球面
+    figures: []
+  - label: B
+    text: 单叶双曲面
+    figures: []
+  - label: C
+    text: 双叶双曲面
+    figures: []
+  - label: D
+    text: 柱面
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $X_1, X_2, \cdots, X_n$ 为来自正态总体 $X \sim N(\mu, \sigma^2)$ 的简单随机样本, $\overline{X} = \dfrac{1}{n} \sum_{i=1}^n X_i, S_1^2 = \sum_{i=1}^n (X_i - \mu)^2, S_2^2 = \sum_{i=1}^n (X_i - \overline{X})^2$, 则下列选项中正确的是
+  choices:
+  - label: A
+    text: $E(S_1^2) = n$
+    figures: []
+  - label: B
+    text: |-
+      $D(S_1^2) = 2n\sigma^4$
+    figures: []
+  - label: C
+    text: |-
+      $E(S_2^2) = n\sigma^2$
+    figures: []
+  - label: D
+    text: |-
+      $D(S_2^2) = (2n-1)\sigma^4$
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设随机变量 $X \sim N(0,1)$，若在 $X=x$ 的条件下，随机变量 $Y \sim N(x,1)$，则二维随机变量 $(X,Y)$ 服从的分布为
+  choices:
+  - label: A
+    text: |-
+      $N\left(0,1;0,2;\dfrac{1}{\sqrt{2}}\right)$
+    figures: []
+  - label: B
+    text: |-
+      $N\left(0,1;0,2;\dfrac{1}{2}\right)$
+    figures: []
+  - label: C
+    text: |-
+      $N\left(0,1;0,2;\dfrac{1}{\pi}\right)$
+    figures: []
+  - label: D
+    text: $N(0,1;0,2;0)$
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设总体 $X$ 的期望、方差均存在, 且 $EX=0,DX=\sigma^2(\sigma>0),X_1,X_2,\cdots,X_n$ 为总体 $X$ 的简单随机样本, $\overline{X}$ 为样本均值, $S^2$ 为样本方差, 记 $S_k^2=\dfrac{n}{k}\overline{X}^2+\dfrac{1}{k}S^2,k=1,2,3,4$, 则 $\sigma^2$ 的无偏估计量是
+  choices:
+  - label: A
+    text: $S_1^2$
+    figures: []
+  - label: B
+    text: $S_2^2$
+    figures: []
+  - label: C
+    text: $S_3^2$
+    figures: []
+  - label: D
+    text: $S_4^2$
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $y=y(x)$ 由方程 $xy^2+\mathrm{e}^y-\cos(x+y^2)=0$ 确定，则曲线 $y=y(x)$ 在点 $(0,0)$ 处的曲率半径 $R=\underline{\qquad\qquad}$
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $\lim_{n\to\infty}\sum_{k=1}^n \left(\ln\dfrac{2n+k}{2n-k}+\ln\dfrac{n+k}{3n-k}\right)\dfrac{1}{n} = \underline{\qquad\qquad}.$
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设曲面 $xyz=a(a>0)$ 与球面 $x^2+y^2+z^2=1$ 在某点相切, 则 $a=\underline{\qquad\qquad}$
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设曲面 $\Sigma$ 为 $x^2+y^2+z^2=1\ (z\geqslant 0)$ $,l,m,n$ 为 $\Sigma$ 上任一点处的外法线的方向余弦，则 $I=\iint_{\Sigma} z(lx+my+nz)\mathrm{d}S=\underline{\qquad\qquad}$。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 3 阶矩阵 $A^{-1}$ 的特征值为 $1,2,3$, $A_{11},A_{22},A_{33}$ 是 $A = (a_{ij})$ 中元素 $a_{ij}$ 的代数余子式, 则 $A_{11}+A_{22}+A_{33} = \underline{\quad\quad\quad\quad}$
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设总体 $X$ 与总体 $Y$ 相互独立，且都服从 $N(0, \sigma^2)$ $,X_1, X_2, \cdots, X_n$ 与 $Y_1, Y_2, \cdots, Y_m$ 分别为来自总体 $X$ 与 $Y$ 的简单随机样本，若 $T=\dfrac{2\sum\limits_{i=1}^n X_i}{\sqrt{\sum\limits_{i=1}^m Y_i^2}}$ 服从 $t$ 分布，则 $\dfrac{n}{m}=\underline{\qquad\qquad}$。
+- number: 17
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $f(x)$ 可导，且满足 $f(x)=xf(-x)+\int_0^{-x} f(t)\,dt+\dfrac{1}{2}x^2$. 求: (I) $f(x)$; (II) $f(x)$ 的单调区间与极值
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $L$ 是从点 $A(-1,0)$ 沿 $y=-\sqrt{1-x^2}$ 到点 $B(1,0)$，再沿 $y^2=2(1-x)$ 到点 $C(-1,2)$ 的一段弧，计算 $I=\int_L \dfrac{x\mathrm{d}y-y\mathrm{d}x}{4x^2+y^2}$。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设数列 $\{a_n\}$ 在 $x \in (-\infty, +\infty)$ 内满足 $\sum_{n=1}^\infty (-1)^n \dfrac{a_n}{n+2} x^{n+2} + \sum_{n=0}^\infty (-1)^{n+1} a_{n+1} x^{n+2} = -x - \mathrm{e}^{-x}$. 记 $S(x) = \sum_{n=1}^\infty (-1)^n a_n x^{n+1}$，且 $S(0) = 0$，求 $S(x)$ 及 $a_n$
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $f(x)$ 在 $[0,1]$ 上有一阶连续导数, 且 $\int_0^1 f(x)\mathrm{d}x = \dfrac{1}{2}, f(0) > 0, f(1) > 0$, 证明: (I) 至少存在 $\xi \in (0,1)$, 使得 $f(\xi) = \xi$; (II) 至少存在 $\eta \in (0,1)$, 使得 $f'(\eta) = 1$
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: 设 $A$ 是 3 阶矩阵, 方程组 $AX=b$ 的通解为 $k_1(-1,1,0)^T+k_2(2,0,1)^T+(1,1,-2)^T$, 其中 $k_1,k_2$ 为任意常数, $b=(6,6,-12)^T$. $(I)$ 求 $A$; $(II)$ 若 $X=(x_1,x_2,x_3)^T$, 求 $X^TAX=0$ 的全部解
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设二维随机变量 $(X,Y)$ 的概率密度为 $f(x,y)=\dfrac{1}{k}(1+xy)\mathrm{e}^{-\dfrac{1}{2}\left(x^2+y^2\right)}\ (k>0),(x,y)\in \mathbb{R}^2$. (I) 求 $k$ 的值，并判别 $X$ 与 $Y$ 是否相互独立； (II) 若 $Z$ 服从 $[-\pi,\pi]$ 的均匀分布，且 $X$ 与 $Z$ 相互独立，求 $U=X+Z$ 的概率密度
+content_hash: c4157ca17bd9f787d2b4fb672a9153cb20e019ff3507fbc6fe8573e6df4a8741

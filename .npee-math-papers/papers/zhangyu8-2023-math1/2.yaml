@@ -4,314 +4,298 @@ paper:
   year: 2023
   subject: math1
   paper_no: 2
-content_hash: 1beee6942919d2c3e6dce296295ce8a4eb701536aff78f6f62328d8aec28204e
 questions:
 - number: 1
   section: choice
   points: 5
   stem:
     text: |-
-      设函数 $f(x)=\begin{cases}1+\sin \dfrac{\pi}{2}x,&x\leqslant 1,\\2-\sqrt{x-1},&x>1,\end{cases}$ 对 $f(x)$ 给出两个命题：①点 $x=1$ 是 $f(x)$ 的一个极值点；②点 $(1,2)$ 是曲线 $y=f(x)$ 的一个拐点.则\ExamSelection
+      设函数 \(f(x)=\left\{\begin{aligned}&1+\sin\dfrac{\pi}{2}x,&x\leqslant1,\\&2-\sqrt{x-1},&x>1\end{aligned}\right.\) 对 \(f(x)\) 给出两个命题：①点 \(x=1\) 是 \(f(x)\) 的一个极值点；②点 \((1,2)\) 是曲线 \(y=f(x)\) 的一个拐点。则
   choices:
   - label: A
-    text: ①和②都正确.
+    text: ① 和 ② 都正确
     figures: []
   - label: B
-    text: ①正确,但②不正确.
+    text: ① 正确，但 ② 不正确
     figures: []
   - label: C
-    text: ①不正确,但②正确.
+    text: ① 不正确，但 ② 正确
     figures: []
   - label: D
-    text: ①和②都不正确.
+    text: ① 和 ② 都不正确
     figures: []
 - number: 2
   section: choice
   points: 5
   stem:
     text: |-
-      设函数 $f(x)$ 在闭区间 $[0,2]$ 上二阶可导,且 $f'(x)>0$,又 $f(0)=2f(1)=f(2)=2$,则\ExamSelection
+      设函数 \(f(x)\) 在闭区间 \([0,2]\) 上二阶可导，且 \(f''(x) > 0\)，又 \(f(0) = 2f(1) = f(2) = 2\)，则
   choices:
   - label: A
     text: |-
-      $1<\int_0^2 f(x)\,\mathrm{d}x<2$.
+      \(1 < \int_{0}^{2} f(x) \, dx < 2.\)
     figures: []
   - label: B
     text: |-
-      $\dfrac{3}{2}<\int_0^2 f(x)\,\mathrm{d}x<\dfrac{5}{2}$.
+      \(\dfrac{3}{2} < \int_{0}^{2} f(x) \, dx < \dfrac{5}{2}.\)
     figures: []
   - label: C
     text: |-
-      $2<\int_0^2 f(x)\,\mathrm{d}x<3$.
+      \(2 < \int_{0}^{2} f(x) \, dx < 3.\)
     figures: []
   - label: D
     text: |-
-      $3<\int_0^2 f(x)\,\mathrm{d}x<4$.
+      \(3 < \int_{0}^{2} f(x) \, dx < 4.\)
     figures: []
 - number: 3
   section: choice
   points: 5
   stem:
     text: |-
-      设函数 $f(x)=\iint_{u^2+v^2\leqslant x^2}\arctan(1+\sqrt{u^2+v^2})\,\mathrm{d}u\mathrm{d}v\quad(x>0)$,则 $\lim_{x\to 0^+}\dfrac{f(x)}{e^{-2x}-1+2x}=$\ExamSelection
+      设函数 \(f(x) = \iint_{u^{2} + v^{2} \leqslant x^{2}} \arctan(1 + \sqrt{u^{2} + v^{2}}) \, \mathrm{d}u \, \mathrm{d}v \ (x > 0)\)，则 \(\lim_{x \to 0^{+}} \dfrac{f(x)}{\mathrm{e}^{-2x} - 1 + 2x} =\)
   choices:
   - label: A
     text: |-
-      $-\dfrac{\pi^2}{8}$.
+      \(-\dfrac{\pi^{2}}{8}\)
     figures: []
   - label: B
     text: |-
-      $-\dfrac{\pi^2}{4}$.
+      \(-\dfrac{\pi^{2}}{4}\)
     figures: []
   - label: C
     text: |-
-      $\dfrac{\pi^2}{4}$.
+      \(\dfrac{\pi^{2}}{4}\)
     figures: []
   - label: D
     text: |-
-      $\dfrac{\pi^2}{8}$.
+      \(\dfrac{\pi^{2}}{8}\)
     figures: []
 - number: 4
   section: choice
   points: 5
   stem:
     text: |-
-      设 $f(x)=\begin{cases}x+1,&0\leqslant x\leqslant\pi,\\0,&-\pi\leqslant x<0,\end{cases}$ $S(x)=\dfrac{a_0}{2}+\sum_{n=1}^{\infty}(a_n\cos nx+b_n\sin nx)$ 是 $f(x)$ 以 $2\pi$ 为周期的傅里叶级数,则 $\sum_{n=1}^{\infty}a_n=$\ExamSelection
+      设 \(f(x)=\begin{cases}x+1, & 0 \leqslant x \leqslant \pi, \\ 0, & -\pi \leqslant x < 0,\end{cases}\) \(S(x)=\dfrac{a_{0}}{2}+\sum_{n=1}^{\infty}(a_{n}\cos nx+b_{n}\sin nx)\) 是 \(f(x)\) 以 \(2\pi\) 为周期的傅里叶级数，则 \(\sum_{n=1}^{\infty}a_{n}=\)
   choices:
   - label: A
     text: |-
-      $-\dfrac{\pi}{4}$.
+      \(-\dfrac{\pi}{4}\)
     figures: []
   - label: B
     text: |-
-      $\dfrac{\pi}{4}$.
+      \(\dfrac{\pi}{4}\)
     figures: []
   - label: C
     text: |-
-      $-\dfrac{\pi}{2}$.
+      \(-\dfrac{\pi}{2}\)
     figures: []
   - label: D
     text: |-
-      $\dfrac{\pi}{2}$.
+      \(\dfrac{\pi}{2}\)
     figures: []
 - number: 5
   section: choice
   points: 5
   stem:
     text: |-
-      设 $f(x)=\begin{vmatrix}x+1&2&3&\cdots&n\\1&x+2&3&\cdots&n\\1&2&x+3&\cdots&n\\\vdots&\vdots&\vdots&&\vdots\\1&2&3&\cdots&x+n\end{vmatrix}$,则 $f^{(n-1)}(0)=$\ExamSelection
+      设 \(f(x)=\begin{vmatrix} x+1 & 2 & 3 & \cdots & n \\ 1 & x+2 & 3 & \cdots & n \\ 1 & 2 & x+3 & \cdots & n \\ \vdots & \vdots & \vdots & \ddots & \vdots \\ 1 & 2 & 3 & \cdots & x+n \end{vmatrix}\)，则 \(f^{(n-1)}(0)=\)
   choices:
   - label: A
     text: |-
-      $\dfrac{1}{2}n(n+1)$.
+      \(\dfrac{1}{2}n(n+1)\)
     figures: []
   - label: B
     text: |-
-      $\dfrac{1}{2}(n+1)!$.
+      \(\dfrac{1}{2}(n+1)!\)
     figures: []
   - label: C
-    text: $n!$.
+    text: |-
+      \(n!\)
     figures: []
   - label: D
-    text: $(n+1)!$.
+    text: |-
+      \((n+1)!\)
     figures: []
 - number: 6
   section: choice
   points: 5
   stem:
     text: |-
-      设 $A$ 是 $m\times n$ 矩阵,$m<n$,$r(A)=m$,以下选项中错误的是\ExamSelection
+      设 \(A\) 是 \(m \times n\) 矩阵，\(m < n\)，\(r(A) = m\)，以下选项中错误的是
   choices:
   - label: A
     text: |-
-      存在 $n$ 阶可逆矩阵 $Q$,使得 $AQ=(E_m\mathbin{\vdots}O)$.
+      存在 \(n\) 阶可逆矩阵 \(Q\)，使得 \(AQ = (E_{m} \mid O)\)
     figures: []
   - label: B
     text: |-
-      存在 $m$ 阶可逆矩阵 $P$,使得 $PA=(E_m\mathbin{\vdots}O)$.
+      存在 \(m\) 阶可逆矩阵 \(P\)，使得 \(PA = (E_{m} \mid O)\)
     figures: []
   - label: C
-    text: 齐次线性方程组 $Ax=0$ 有零解.
+    text: |-
+      齐次线性方程组 \(Ax = 0\) 有零解
     figures: []
   - label: D
-    text: 非齐次线性方程组 $Ax=b$ 有无穷多解.
+    text: |-
+      非齐次线性方程组 \(Ax = b\) 有无穷多解
     figures: []
 - number: 7
   section: choice
   points: 5
   stem:
-    text: |-
-      设 $A$ 是 3 阶实矩阵,则“$A$ 是实对称矩阵”是“$A$ 有 3 个相互正交的特征向量”的\ExamSelection
+    text: 设 A 是 3 阶实矩阵，则“A 是实对称矩阵”是“A 有 3 个相互正交的特征向量”的
   choices:
   - label: A
-    text: 充分非必要条件.
+    text: 充分非必要条件
     figures: []
   - label: B
-    text: 必要非充分条件.
+    text: 必要非充分条件
     figures: []
   - label: C
-    text: 充分必要条件.
+    text: 充分必要条件
     figures: []
   - label: D
-    text: 既非充分也非必要条件.
+    text: 既非充分也非必要条件
     figures: []
 - number: 8
   section: choice
   points: 5
   stem:
     text: |-
-      设某人每次射击命中的概率都为 $p(0<p<1)$,则他第 8 次射击恰好是第 4 次命中的概率为\ExamSelection
+      设某人每次射击命中的概率都为 \(p(0 < p < 1)\)，则他第 8 次射击恰好是第 4 次命中的概率为
   choices:
   - label: A
-    text: $35p^3(1-p)^4$.
+    text: |-
+      \(35p^{3}(1-p)^{4}\)
     figures: []
   - label: B
-    text: $35p^4(1-p)^3$.
+    text: |-
+      \(35p^{4}(1-p)^{3}\)
     figures: []
   - label: C
-    text: $35p^4(1-p)^4$.
+    text: |-
+      \(35p^{4}(1-p)^{4}\)
     figures: []
   - label: D
-    text: $35p^5(1-p)^3$.
+    text: |-
+      \(35p^{5}(1-p)^{3}\)
     figures: []
 - number: 9
   section: choice
   points: 5
   stem:
     text: |-
-      设 $X,Y$ 是两个随机变量,$E(X)=2$,$E(Y)=-1$,$D(X)=9$,$D(Y)=16$,且 $X,Y$ 的相关系数为 $\rho=-\dfrac{1}{2}$,已知由切比雪夫不等式可得 $P\{|X+Y-1|<10\}\geqslant k$,则 $k$ 的值等于\ExamSelection
+      设 \(X, Y\) 是两个随机变量，\(E(X)=2\)，\(E(Y)=-1\)，\(D(X)=9\)，\(D(Y)=16\)，且 \(X, Y\) 的相关系数为 \(\rho=-\dfrac{1}{2}\)。已知由切比雪夫不等式可得 \(P\{|X+Y-1|<10\}\geqslant k\)，则 \(k\) 的值等于
   choices:
   - label: A
     text: |-
-      $\dfrac{9}{16}$.
+      \(\dfrac{9}{16}.\)
     figures: []
   - label: B
     text: |-
-      $\dfrac{3}{4}$.
+      \(\dfrac{3}{4}.\)
     figures: []
   - label: C
     text: |-
-      $\dfrac{21}{25}$.
+      \(\dfrac{21}{25}.\)
     figures: []
   - label: D
     text: |-
-      $\dfrac{87}{100}$.
+      \(\dfrac{87}{100}.\)
     figures: []
 - number: 10
   section: choice
   points: 5
   stem:
     text: |-
-      设总体 $X$ 的概率分布如下.从总体中抽取 $n$ 个简单随机样本,$N_1$ 表示 $n$ 个样本中取到 $-1$ 的个数,$N_2$ 表示 $n$ 个样本中取到 $0$ 的个数,$N_3$ 表示 $n$ 个样本中取到 $1$ 的个数,则 $N_1$ 与 $N_2$ 的相关系数为\ExamSelection
-    figures:
-    - kind: tikz
-      latex: |-
-        \begin{tikzpicture}[x=1.25cm,y=0.75cm]\draw (0,0) rectangle (4,2);\draw (0,1)--(4,1);\foreach \x in {1,2,3}{\draw (\x,0)--(\x,2);}\node at (.5,1.5){$X$};\node at (1.5,1.5){$-1$};\node at (2.5,1.5){$0$};\node at (3.5,1.5){$1$};\node at (.5,.5){$P$};\node at (1.5,.5){$\dfrac14$};\node at (2.5,.5){$\dfrac12$};\node at (3.5,.5){$\dfrac14$};\end{tikzpicture}
-      path:
-      description: 总体X的概率分布表
-      exception_reason:
+      设总体 \(X\) 的概率分布如下： \(X\)\(-1\)\(0\)\(1\)\(P\)\(\dfrac{1}{4}\)\(\dfrac{1}{2}\)\(\dfrac{1}{4}\) 从总体中抽取 \(n\) 个简单随机样本，\(N_{1}\) 表示 \(n\) 个样本中取到 \(-1\) 的个数，\(N_{2}\) 表示 \(n\) 个样本中取到 \(0\) 的个数，\(N_{3}\) 表示 \(n\) 个样本中取到 \(1\) 的个数，则 \(N_{1}\) 与 \(N_{2}\) 的相关系数为
   choices:
   - label: A
     text: |-
-      $-\dfrac{\sqrt{3}}{3}$.
+      \(-\dfrac{\sqrt{3}}{3}\)
     figures: []
   - label: B
     text: |-
-      $\dfrac{\sqrt{3}}{3}$.
+      \(\dfrac{\sqrt{3}}{3}\)
     figures: []
   - label: C
-    text: $-1$.
+    text: |-
+      \(-1\)
     figures: []
   - label: D
-    text: $1$.
+    text: |-
+      \(1\)
     figures: []
 - number: 11
   section: fill
   points: 5
   stem:
     text: |-
-      若四阶常系数齐次线性微分方程有一个解为 $y=xe^x\cos 2x$,则该方程的通解为\ExamBlank.
+      若四阶常系数齐次线性微分方程有一个解为 \(y = xe^{x} \cos 2x\)，则该方程的通解为 ___
 - number: 12
   section: fill
   points: 5
   stem:
     text: |-
-      设 $f(x)$ 为 $[0,3]$ 上的非负连续函数,且满足 $f(x)\int_1^2 f(xt-x)\,\mathrm{d}t=2x^2$,$x\in[0,3]$,则 $f(x)$ 在区间 $[1,3]$ 上的平均值为\ExamBlank.
+      设 \(f(x)\) 为 \([0,3]\) 上的非负连续函数，且满足 \(f(x)\int_{1}^{2}f(xt-x)dt=2x^{2}, x\in[0,3]\)，则 \(f(x)\) 在区间 \([1,3]\) 上的平均值为 ___
 - number: 13
   section: fill
   points: 5
   stem:
     text: |-
-      设函数 $f(x,y)$ 可微,$f(x,y)$ 在点 $P_0(1,1)$ 处指向点 $P_1(-7,16)$ 的方向导数等于 $\dfrac{13}{17}$,指向点 $P_2(6,-11)$ 的方向导数等于 $-\dfrac{16}{13}$,则 $f(x,y)$ 在点 $P_0(1,1)$ 处的最大方向导数为\ExamBlank.
+      设函数 $f(x,y)$ 可微$,f(x,y)$ 在点 $P_0(1,1)$ 处指向点 $P_1(-7,16)$ 的方向导数等于 $\dfrac{13}{17}$，指向点 $P_2(6,-11)$ 的方向导数等于 $-\dfrac{16}{13}$，则 $f(x,y)$ 在点 $P_0(1,1)$ 处的最大方向导数为 \underline{\qquad\qquad}。
 - number: 14
   section: fill
   points: 5
   stem:
     text: |-
-      一质点在变力 $\boldsymbol{F}=(1-x^2)y^3\boldsymbol{i}-x^3(1+y^2)\boldsymbol{j}$ 的作用下从圆周 $L:x^2+y^2=1$ 上的任一点出发沿逆时针方向运动一周,则变力 $\boldsymbol{F}$ 对质点所做的功等于\ExamBlank.
+      一质点在变力 \(\boldsymbol{F} = (1 - x^{2}) y^{3} \boldsymbol{i} - x^{3} (1 + y^{2}) \boldsymbol{j}\) 的作用下从圆周 \(L: x^{2} + y^{2} = 1\) 上的任一点出发沿逆时针方向运动一周，则变力 \(\boldsymbol{F}\) 对质点所做的功等于 ___
 - number: 15
   section: fill
   points: 5
   stem:
     text: |-
-      设 $A$ 为 4 阶矩阵,$(A-2E)x=0$ 的基础解系中只有 2 个解向量,$(A+E)x=0$ 的基础解系中只有 1 个解向量,则 $r(A^2-A-2E)=$\ExamBlank.
+      设 \(A\) 为 4 阶矩阵，\((A - 2E)x = 0\) 的基础解系中只有 2 个解向量，\((A + E)x = 0\) 的基础解系中只有 1 个解向量，则 \(r(\boldsymbol{A}^{2}-\boldsymbol{A}-2\boldsymbol{E}) =\) \underline{\quad}。
 - number: 16
   section: fill
   points: 5
   stem:
     text: |-
-      已知 $P(\overline{B}\mid A)=\dfrac{1}{3}$,$P(B\mid\overline{A})=\dfrac{4}{7}$,$P(AB)=\dfrac{1}{5}$,则 $P(\overline{A}\,\overline{B})=$\ExamBlank.
+      已知 \(P(\overline{B}|A)=\dfrac{1}{3}\)，\(P(B|\overline{A})=\dfrac{4}{7}\)，\(P(AB)=\dfrac{1}{5}\)，则 \(P(\overline{A}\,\overline{B})=\) ___
 - number: 17
   section: solution
-  points: 10
+  points: 12
   stem:
     text: |-
-      设可导函数 $f(x)$ 满足 $\int x^3f'(x)\,\mathrm{d}x=x^2\cos x-4x\sin x-6\cos x+C$,且 $f(2\pi)=\dfrac{1}{2\pi}$,求 $\int f(x)\,\mathrm{d}x$.
+      （本题满分10分）设可导函数 \(f(x)\) 满足 \(\int x^{3}f'(x)\mathrm{d}x = x^{2}\cos x - 4x\sin x - 6\cos x + C\)，且 \(f(2\pi) = \dfrac{1}{2\pi}\)，求 \(\int f(x)\mathrm{d}x\)。
 - number: 18
   section: solution
   points: 12
   stem:
     text: |-
-      设 $a,b$ 满足条件 $a\geqslant 0$,$b\leqslant 0$ 及 $\int_a^b|x|\,\mathrm{d}x=-\dfrac{1}{2}$,求直线 $y=ax$ 与抛物线 $y=x^2+bx$ 所围成区域的面积的最大值与最小值.
+      设 \(a, b\) 满足条件 \(a \geqslant 0, b \leqslant 0\) 及 \(\int_{a}^{b} |x| \, \mathrm{d}x = -\dfrac{1}{2}\)，求直线 \(y = ax\) 与抛物线 \(y = x^{2} + bx\) 所围成区域的面积的最大值与最小值。
 - number: 19
   section: solution
   points: 12
   stem:
     text: |-
-      设 $F(x)$ 是 $f(x)$ 的一个原函数,且 $F(0)=1$,$F(x)f(x)=\cos 2x$,$a_n=\int_0^{n\pi}f(x)\,\mathrm{d}x\quad(n=1,2,\cdots)$.
-  subparts:
-  - text: 求 $a_n$;
-  - text: |-
-      求幂级数 $\sum_{n=2}^{\infty}\dfrac{a_n}{n^2-1}x^n$ 的收敛域与和函数.
+      设 \(F(x)\) 是 \(f(x)\) 的一个原函数，且 \(F(0)=1\)，\(F(x)f(x)=\cos 2x\)，\(a_{n}=\int_{0}^{n\pi}|f(x)|\,\mathrm{d}x\ (n=1,2,\cdots)\)。 (1) 求 \(a_{n}\)； (2) 求幂级数 \(\sum\limits_{n=2}^{\infty}\dfrac{a_{n}}{n^{2}-1}x^{n}\) 的收敛域与和函数。
 - number: 20
   section: solution
   points: 12
   stem:
     text: |-
-      设空间曲线 $L:\begin{cases}z=x^2+2y^2,\\z=6-2x^2-y^2,\end{cases}$ 从 $z$ 轴正向往负向看为逆时针方向,计算曲线积分 $I=\oint_L(z^2-y)\,\mathrm{d}x+(x^2-z)\,\mathrm{d}y+(x-y^2)\,\mathrm{d}z$.
+      （本题满分12分）设空间曲线 \(L:\left\{\begin{aligned}z&=x^{2}+2y^{2},\\ z&=6-2x^{2}-y^{2},\end{aligned}\right.\) 从 \(z\) 轴正向往负向看为逆时针方向，计算曲线积分 \(I=\oint_{L}(z^{2}-y)\mathrm{d}x+(x^{2}-z)\mathrm{d}y+(x-y^{2})\mathrm{d}z\)。
 - number: 21
   section: solution
   points: 12
   stem:
     text: |-
-      设 $A$ 是 3 阶矩阵,$\lambda_1,\lambda_2,\lambda_3$ 是 $A$ 的 3 个不同特征值,对应的特征向量分别为 $\alpha_1,\alpha_2,\alpha_3$,令 $\beta=\alpha_1+\alpha_2+\alpha_3$.
-  subparts:
-  - text: |-
-      证明 $\beta=\alpha_1+\alpha_2+\alpha_3$ 不是 $A$ 的特征向量;
-  - text: |-
-      证明 $\beta,A\beta,A^2\beta$ 线性无关;
-  - text: |-
-      若 $A^3\beta=2A\beta$,求 $A$ 的特征值;
-  - text: |-
-      在 (3) 的基础上证明 $A\beta$ 和 $A^2\beta$ 是方程组 $(A^2-2E)x=0$ 的基础解系.
+      (本题满分12分) 设 $A$ 是 3 阶矩阵$,\lambda_{1}, \lambda_{2}, \lambda_{3}$ 是 $A$ 的 3 个不同特征值，对应的特征向量分别为 $\alpha_{1}, \alpha_{2}, \alpha_{3}$，令 $\beta = \alpha_{1} + \alpha_{2} + \alpha_{3}$。 (1) 证明 $\beta = \alpha_{1} + \alpha_{2} + \alpha_{3}$ 不是 $A$ 的特征向量； (2) 证明 $\beta, A\beta, A^{2}\beta$ 线性无关； (3) 若 $A^{3}\beta = 2A\beta$，求 $A$ 的特征值； (4) 在 (3) 的基础上证明 $A\beta$ 和 $A^{2}\beta$ 是方程组 $(\mathbf{A}^{2}-2\mathbf{E})\mathbf{x}=\mathbf{0}$ 的基础解系。
 - number: 22
   section: solution
   points: 12
   stem:
     text: |-
-      设总体 $X$ 的概率密度 $f(x;\theta)=\begin{cases}1,&\theta-\dfrac{1}{2}\leqslant x\leqslant\theta+\dfrac{1}{2},\\0,&\text{其他},\end{cases}$ 其中 $-\infty<\theta<+\infty$,$X_1,X_2,\cdots,X_n$ 为取自总体 $X$ 的简单随机样本,并记 $X_{(1)}=\min\{X_1,X_2,\cdots,X_n\}$,$X_{(n)}=\max\{X_1,X_2,\cdots,X_n\}$.
-  subparts:
-  - text: |-
-      求参数 $\theta$ 的矩估计量 $\hat{\theta}_M$ 和最大似然估计量 $\hat{\theta}_L$;
-  - text: |-
-      判断 $\dfrac{X_{(1)}+X_{(n)}}{2}$ 是否为 $\theta$ 的无偏估计量,并说明理由.
+      设总体 $X$ 的概率密度 $ f(x;\theta)=\begin{cases}1, & \theta-\dfrac{1}{2}\leqslant x\leqslant \theta+\dfrac{1}{2}, \\ 0, & \text{其他},\end{cases}$ 其中 $-\infty < \theta < +\infty$。 $X_1, X_2, \cdots, X_n$ 为取自总体 $X$ 的简单随机样本，并记 $X_{(1)}=\min\{X_1, X_2, \cdots, X_n\}, X_{(n)}=\max\{X_1, X_2, \cdots, X_n\}$。 (1) 求参数 $\theta$ 的矩估计量 $\hat{\theta}_M$ 和最大似然估计量 $\hat{\theta}_L$； (2) 判断 $\dfrac{X_{(1)}+X_{(n)}}{2}$ 是否为 $\theta$ 的无偏估计量，并说明理由。
+content_hash: 3967ffde78d8d1c6c4d48e36b92d98f42e9004593263fc00df96a800316119b1

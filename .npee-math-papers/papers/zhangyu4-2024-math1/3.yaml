@@ -4,78 +4,72 @@ paper:
   year: 2024
   subject: math1
   paper_no: 3
-content_hash: 95abf959c02450ef9d370aac43bb84cb28e003c35ab6d499e96751269823c9aa
 questions:
 - number: 1
   section: choice
   points: 5
   stem:
     text: |-
-      曲线 $y=2^{1/x}+\ln(e^{2x}+1)$ $(x>0)$ 的斜渐近线为\ExamSelection
+      曲线 $y=2^{\dfrac{1}{x}}+\ln(\mathrm{e}^{2x}+1)(x>0)$ 的斜渐近线为
   choices:
   - label: A
-    text: $y=x+e$
+    text: |-
+      $y=x+\mathrm{e}.$
     figures: []
   - label: B
-    text: $y=x-e$
+    text: |-
+      $y=x-\mathrm{e}.$
     figures: []
   - label: C
-    text: $y=2x+1$
+    text: $y=2x+1.$
     figures: []
   - label: D
-    text: $y=2x-1$
+    text: $y=2x-1.$
     figures: []
 - number: 2
   section: choice
   points: 5
   stem:
     text: |-
-      如图所示，从曲线 $y=f(x)$ 上任一点 $P$ 分别作切线交 $x$ 轴于点 $T$，作垂线交 $x$ 轴于点 $Q$，三角形 $PTQ$ 的面积为 $\dfrac{1}{2}$，则\ExamSelection
-    figures:
-    - kind: tikz
-      latex: |-
-        \begin{tikzpicture}[scale=.8,>=stealth]\draw[->] (-.3,0)--(4,0) node[below] {$x$};\draw[->] (0,-.3)--(0,3) node[left] {$y$};\draw (0.7,1.1) .. controls (1.4,.8) and (2.1,1.0) .. (2.9,2.5) node[right] {$y=f(x)$};\draw (1.15,0)--(2.35,1.6);\draw (2.35,0)--(2.35,1.6);\fill (2.35,1.6) circle (1.5pt) node[right] {$P(x,y)$};\node[below] at (1.15,0) {$T$};\node[below] at (2.35,0) {$Q(x,0)$};\node[below left] at (0,0) {$O$};\end{tikzpicture}
-      path:
-      description: 曲线、切线、垂线及三角形 PTQ 坐标示意图
-      exception_reason:
+      如图所示，从曲线 $y=f(x)$ 上任一点 $P$ 分别作切线交 $x$ 轴于点 $T$，作垂线交 $x$ 轴于点 $Q$，三角形 $PTQ$ 的面积为 $\dfrac{1}{2}$，则
   choices:
   - label: A
-    text: $y'=y$
+    text: $y'=y.$
     figures: []
   - label: B
-    text: $y'=-y$
+    text: $y'=-y.$
     figures: []
   - label: C
-    text: $(y')^2=y$
+    text: $(y')^2=y.$
     figures: []
   - label: D
-    text: $y'=y^2$
+    text: $y'=y^2.$
     figures: []
 - number: 3
   section: choice
   points: 5
   stem:
     text: |-
-      函数 $f(x,y)=x+y\sin x$\ExamSelection
+      函数 $f(x,y)=x+y\sin x$
   choices:
   - label: A
-    text: 有极大值点，没有极小值点。
+    text: 有极大值点,没有极小值点
     figures: []
   - label: B
-    text: 没有极大值点，有极小值点。
+    text: 没有极大值点,有极小值点
     figures: []
   - label: C
-    text: 既有极大值点，也有极小值点。
+    text: 既有极大值点,也有极小值点
     figures: []
   - label: D
-    text: 既没有极大值点，也没有极小值点。
+    text: 既没有极大值点,也没有极小值点
     figures: []
 - number: 4
   section: choice
   points: 5
   stem:
     text: |-
-      已知平面区域 $D$ 由曲线 $L_1:y=\sqrt{1-x^2}$ $(0\leq x\leq1)$ 与 $L_2:\begin{cases}x=\cos^3t,\\ y=\sin^3t\end{cases}$ $(0\leq t\leq\dfrac{\pi}{2})$ 围成，$\partial D$ 为 $D$ 的边界，取顺时针方向，则 $I=\oint_{\partial D}e^{xy}y^2\,\mathrm{d}x+[e^{xy}(1+xy)+x]\,\mathrm{d}y=$\ExamSelection
+      已知平面区域 $D$ 由曲线 $L_1: y = \sqrt{1 - x^2}\,(0 \leqslant x \leqslant 1)$ 与 $L_2: \begin{cases} x = \cos^3 t, \\ y = \sin^3 t \end{cases} \left(0 \leqslant t \leqslant \dfrac{\pi}{2}\right)$ 围成. $\partial D$ 为 $D$ 的边界, 取顺时针方向, 则 $I = \oint_{\partial D} \mathrm{e}^{xy} y^2 \mathrm{d}x + [\mathrm{e}^{xy}(1 + xy) + x]\mathrm{d}y =$
   choices:
   - label: A
     text: |-
@@ -98,30 +92,30 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $A^*$ 为 3 阶非零矩阵，且 $A^*=(\alpha_1,\alpha_2,\alpha_3)$，$\alpha_1=\alpha_3$，$\alpha_2+\alpha_3=0$，$k,k_1,k_2$ 为任意常数，则 $Ax=0$ 的通解为\ExamSelection
+      设 $A^*$ 为 $3$ 阶非零矩阵, 且 $A^* = (\alpha_1, \alpha_2, \alpha_3), \alpha_1 = \alpha_3, \alpha_2 + \alpha_3 = 0, k, k_1, k_2$ 为任意常数, 则 $Ax = 0$ 的通解为
   choices:
   - label: A
     text: |-
-      $k(\alpha_1+\alpha_2)$
+      $k(\alpha_1+\alpha_2).$
     figures: []
   - label: B
     text: |-
-      $k(\alpha_1+\alpha_3)$
+      $k(\alpha_1+\alpha_3).$
     figures: []
   - label: C
     text: |-
-      $k_1\alpha_1+k_2\alpha_2$
+      $k_1\alpha_1+k_2\alpha_2.$
     figures: []
   - label: D
     text: |-
-      $k_1\alpha_1+k_2\alpha_3$
+      $k_1\alpha_1+k_2\alpha_3.$
     figures: []
 - number: 6
   section: choice
   points: 5
   stem:
     text: |-
-      设 $A_1,A_2,B_1,B_2$ 均为 $n$ 阶矩阵，给出以下结论：①若 $\begin{pmatrix}A_1&O\\O&A_2\end{pmatrix}$ 相似于 $\begin{pmatrix}B_1&O\\O&B_2\end{pmatrix}$，则 $A_1$ 相似于 $B_1$，$A_2$ 相似于 $B_2$；②若 $A_1$ 相似于 $B_1$，$A_2$ 相似于 $B_2$，则 $\begin{pmatrix}A_1&O\\O&A_2\end{pmatrix}$ 相似于 $\begin{pmatrix}B_1&O\\O&B_2\end{pmatrix}$；③若 $\begin{pmatrix}A_1&O\\O&A_2\end{pmatrix}$ 合同于 $\begin{pmatrix}B_1&O\\O&B_2\end{pmatrix}$，则 $A_1$ 合同于 $B_1$，$A_2$ 合同于 $B_2$；④若 $A_1$ 合同于 $B_1$，$A_2$ 合同于 $B_2$，则 $\begin{pmatrix}A_2&O\\O&A_1\end{pmatrix}$ 合同于 $\begin{pmatrix}B_1&O\\O&B_2\end{pmatrix}$。正确结论的个数为\ExamSelection
+      设 $A_1, A_2, B_1, B_2$ 均为 $n$ 阶矩阵, 给出以下结论: ①若 $\begin{pmatrix} A_1 & O \\ O & A_2 \end{pmatrix}$ 相似于 $\begin{pmatrix} B_1 & O \\ O & B_2 \end{pmatrix}$, 则 $A_1$ 相似于 $B_1, A_2$ 相似于 $B_2$; ②若 $A_1$ 相似于 $B_1, A_2$ 相似于 $B_2$, 则 $\begin{pmatrix} A_1 & O \\ O & A_2 \end{pmatrix}$ 相似于 $\begin{pmatrix} B_1 & O \\ O & B_2 \end{pmatrix}$; ③若 $\begin{pmatrix} A_1 & O \\ O & A_2 \end{pmatrix}$ 合同于 $\begin{pmatrix} B_1 & O \\ O & B_2 \end{pmatrix}$, 则 $A_1$ 合同于 $B_1, A_2$ 合同于 $B_2$; ④若 $A_1$ 合同于 $B_1, A_2$ 合同于 $B_2$, 则 $\begin{pmatrix} A_2 & O \\ O & A_1 \end{pmatrix}$ 合同于 $\begin{pmatrix} B_1 & O \\ O & B_2 \end{pmatrix}$. 正确结论的个数为
   choices:
   - label: A
     text: '1'
@@ -140,7 +134,7 @@ questions:
   points: 5
   stem:
     text: |-
-      已知二次型 $f(x_1,x_2,x_3)$ 在正交变换 $x=Qy$ 下化为 $y_1^2-y_2^2$，其中 $Q=(e_1,e_2,e_3)$。若 $P=(e_2-e_3,e_3-e_1)$，则 $f(x_1,x_2,x_3)$ 在变换 $x=Pz$ 下化为\ExamSelection
+      已知二次型 $f(x_1,x_2,x_3)$ 在正交变换 $x = Qy$ 下化为 $y_1^2 - y_2^2$，其中 $Q = (\mathbf{e}_1,\mathbf{e}_2,\mathbf{e}_3)$。若 $P = (\mathbf{e}_2,-\mathbf{e}_3,\mathbf{e}_1)$，则 $f(x_1,x_2,x_3)$ 在变换 $x = Pz$ 下化为
   choices:
   - label: A
     text: $z_1^2+z_2^2+z_3^2$
@@ -159,7 +153,7 @@ questions:
   points: 5
   stem:
     text: |-
-      已知随机变量 $X$ 的概率密度为 $f(x)$ $(-\infty<x<+\infty)$，且 $E(|X|)=a\neq1$，则当 $x\to+\infty$ 时，$1-\int_{-\infty}^{x}f(t)\,\mathrm{d}t$ 是 $\dfrac{1}{x}$ 的\ExamSelection
+      已知随机变量 $X$ 的概率密度为 $f(x)(-\infty<x<+\infty)$，且 $E(|X|)=a \neq 1$，则当 $x \to +\infty$ 时$,1-\int_{-\infty}^x f(t)dt$ 是 $\dfrac{1}{x}$ 的
   choices:
   - label: A
     text: 低阶无穷小
@@ -178,7 +172,7 @@ questions:
   points: 5
   stem:
     text: |-
-      已知总体 $X$ 服从标准正态分布，$X_1,X_2$ 是来自总体 $X$ 的简单随机样本。记 $Y=X_1^2+X_2^2$，$F(y)$ 是 $Y$ 的分布函数，给出以下结论：①$Y\sim E(\dfrac{1}{2})$；②$Y\sim\chi^2(2)$；③$E[F(Y)]=\dfrac{1}{2}$；④$\dfrac{Y}{2X_1^2}\sim F(2,1)$。正确结论的个数为\ExamSelection
+      已知总体 $X$ 服从标准正态分布, $X_1,X_2$ 是来自总体 $X$ 的简单随机样本. 记 $Y=X_1^2+X_2^2$, $F(y)$ 是 $Y$ 的分布函数, 给出以下结论: ① $Y\sim E\left(\dfrac{1}{2}\right)$; ② $Y\sim \chi^2(2)$; ③ $E[F(Y)]=\dfrac{1}{2}$; ④ $\dfrac{Y}{2X_1^2}\sim F(2,1)$. 正确结论的个数为
   choices:
   - label: A
     text: '1'
@@ -197,114 +191,90 @@ questions:
   points: 5
   stem:
     text: |-
-      设假设检验中的显著性水平为 $\alpha$，则以下选项，概率为 $1-\alpha$ 的是\ExamSelection
+      设假设检验中的显著性水平为 $\alpha$, 则以下选项, 概率为 $1-\alpha$ 的是
   choices:
   - label: A
-    text: 原假设 $H_0$ 成立，经检验被接受。
+    text: 原假设 $H_0$ 成立, 经检验被接受
     figures: []
   - label: B
-    text: 原假设 $H_0$ 成立，经检验被拒绝。
+    text: 原假设 $H_0$ 成立, 经检验被拒绝
     figures: []
   - label: C
-    text: 原假设 $H_0$ 不成立，经检验被接受。
+    text: 原假设 $H_0$ 不成立, 经检验被接受
     figures: []
   - label: D
-    text: 原假设 $H_0$ 不成立，经检验被拒绝。
+    text: 原假设 $H_0$ 不成立, 经检验被拒绝
     figures: []
 - number: 11
   section: fill
   points: 5
   stem:
     text: |-
-      设 $a_n=\sum_{i=1}^{n}\dfrac{\sqrt{i(i-1)}}{n^2+i(i-1)}$ $(n=2,3,\ldots)$，则 $\lim_{n\to\infty}a_n=$\ExamBlank
+      设 $a_n = \sum_{i=1}^n \dfrac{\sqrt{i(i-1)}}{n^2+i(i-1)}\ (n=2,3,\cdots)$，则 $\lim_{n\to\infty} a_n = \underline{\qquad\qquad}$
 - number: 12
   section: fill
   points: 5
   stem:
     text: |-
-      设 $y=y(x)$ 及 $z=z(x)$ 由方程 $e^z-xyz=0$ 及 $xz^2=\ln y$ 所确定，则 $\left.\dfrac{\mathrm{d}z}{\mathrm{d}x}\right|_{x=\dfrac{1}{2}}=$\ExamBlank
+      设 $y=y(x)$ 及 $z=z(x)$ 由方程 $\mathrm{e}^z-xyz=0$ 及 $xz^2=\ln y$ 所确定，则 $\left.\dfrac{\mathrm{d}z}{\mathrm{d}x}\right|_{x=\dfrac{1}{2}}=\underline{\qquad\qquad}$
 - number: 13
   section: fill
   points: 5
   stem:
     text: |-
-      微分方程 $y'+1=e^{-y}\sin x$ 满足条件 $y(0)=0$ 的特解为\ExamBlank
+      微分方程 $y'+1=\mathrm{e}^{-y}\sin x$ 满足条件 $y(0)=0$ 的特解为$\underline{\qquad\qquad}$
 - number: 14
   section: fill
   points: 5
   stem:
     text: |-
-      平面区域 $D=\left\{(x,y)\mid\dfrac{1}{1+x^2}\leq y\leq\dfrac{1}{\sqrt{1+x^2}}\right\}$ 绕 $x$ 轴旋转一周形成的旋转体体积为\ExamBlank
+      平面区域 $D=\left\{(x,y)\left|\dfrac{1}{1+x^2}\leqslant y\leqslant\dfrac{1}{\sqrt{1+x^2}}\right.\right\}$ 绕 $x$ 轴旋转一周形成的旋转体体积为$\underline{\hspace{2cm}}$
 - number: 15
   section: fill
   points: 5
   stem:
     text: |-
-      若正定矩阵 $A$ 满足 $A^2=\begin{pmatrix}2&1\\1&2\end{pmatrix}$，则 $A=$\ExamBlank
+      已知二阶实对称矩阵 $A$ 满足 $A^2 - 3A + 2E = O$，且 $A\begin{pmatrix} 1 \\ 1 \end{pmatrix} = \begin{pmatrix} 2 & 1 \\ 1 & 2 \end{pmatrix}$，则 $A = \underline{\qquad\qquad}$。
 - number: 16
   section: fill
   points: 5
   stem:
     text: |-
-      抛掷一枚均匀的硬币，直到正、反面均出现为止，则抛掷次数 $X$ 的数学期望为\ExamBlank
+      抛掷一枚均匀的硬币，直到正、反面均出现为止，则抛掷次数 $X$ 的数学期望为$\underline{\quad\quad\quad\quad\quad\quad}$
 - number: 17
   section: solution
-  points: 10
+  points: 12
   stem:
     text: |-
-      已知函数 $f(x)$ 在 $x=0$ 处具有一阶导数，且 $\lim_{x\to0}\dfrac{xf(x)+e^{x^2}\sin x}{x^2}=1$。求 $f(x)$ 在 $x=0$ 处的切线方程。
+      函数 $f(x)$ 在 $x=0$ 处具有一阶导数，且 $\lim_{x\to 0}\dfrac{xf(x)+\mathrm{e}^{x^2}\sin x}{x^2}=1$，求 $f(x)$ 在 $x=0$ 处的切线方程。
 - number: 18
   section: solution
   points: 12
   stem:
     text: |-
-      已知函数 $f(x)=\begin{cases}\ln(e^x-1)-\ln x,&x>0,\\0,&x=0,\end{cases}$，数列 $\{x_n\}$ 满足 $x_{n+1}=f(x_n)$，$n=1,2,\ldots$，且 $x_1=1$。
-  subparts:
-  - text: 求 $f(x)$ 的单调区间，并求 $f'_+(0)$。
-  - text: |-
-      证明 $\sum_{n=1}^{\infty}x_n$ 收敛。
+      已知函数 $f(x)=\begin{cases} \ln(\mathrm{e}^x-1)-\ln x, & x>0, \\ 0, & x=0, \end{cases}$ 数列 $\{x_n\}$ 满足 $x_{n+1}=f(x_n), n=1,2,\cdots$, 且 $x_1=1$. (1) 求 $f(x)$ 的单调区间，并求 $f'_+(0)$; (2) 证明 $\sum_{n=1}^\infty x_n$ 收敛
 - number: 19
   section: solution
   points: 12
   stem:
-    text: 设常数 $a>1,b>0$。证明：
-  subparts:
-  - text: |-
-      当 $x\to+\infty$ 时，$\dfrac{1}{a^x}=o\left(\dfrac{1}{x^b}\right)$；
-  - text: |-
-      微分方程 $y'+a^xy=x^b$ $(x>0)$ 的任一解 $y(x)$ 满足 $\lim_{x\to+\infty}y(x)=0$。
+    text: |-
+      设常数 $a > 1, b > 0$. 证明: (1) 当 $x \to +\infty$ 时, $\dfrac{1}{a^x} = o\left(\dfrac{1}{x^b}\right)$; (2) 微分方程 $y' + a^x y = x^b (x > 0)$ 的任一解 $y(x)$ 满足 $\lim\limits_{x \to +\infty} y(x) = 0$
 - number: 20
   section: solution
   points: 12
   stem:
     text: |-
-      设锥面 $\Sigma$ 的顶点为原点，准线为曲线 $\Gamma:\begin{cases}z=y^2,\\x=1\end{cases}$ $(|y|\leq1)$。
-  subparts:
-  - text: |-
-      求 $\Sigma$ 的方程；
-  - text: |-
-      计算 $\iint_{\Sigma}y\,\mathrm{d}y\mathrm{d}z+z\,\mathrm{d}z\mathrm{d}x+x\,\mathrm{d}x\mathrm{d}y$，$\Sigma$ 取上侧。
+      设锥面 $\Sigma$ 的顶点为原点，准线为曲线 $\Gamma:\begin{cases} z=y^2, \\ x=1 \end{cases}(|y|\leqslant 1)$。 (1) 求 $\Sigma$ 的方程； (2) 计算 $\iint_{\Sigma} y\mathrm{d}y\mathrm{d}z + x\mathrm{d}z\mathrm{d}x + z\mathrm{d}x\mathrm{d}y$，其中 $\Sigma$ 取上侧。
 - number: 21
   section: solution
   points: 12
   stem:
     text: |-
-      已知 3 维列向量 $\xi$ 是 3 阶实对称矩阵 $A$ 的属于特征值 1 的特征向量，$|A+E|=0$，$|A|=1$，$\eta$ 是 3 维非零列向量，$[\xi,\eta]=0$。
-  subparts:
-  - text: |-
-      证明 $\eta$ 是 $A$ 的特征向量；
-  - text: |-
-      记 $\alpha=\dfrac{\xi}{\|\xi\|}=\begin{pmatrix}a_1\\a_2\\a_3\end{pmatrix}$，$\beta=\dfrac{\eta}{\|\eta\|}=\begin{pmatrix}b_1\\b_2\\b_3\end{pmatrix}$，证明二次型 $f(x_1,x_2,x_3)=(a_1x_1+a_2x_2+a_3x_3)^2-(b_1x_1+b_2x_2+b_3x_3)^2$ 在正交变换下的标准形为 $y_1^2-y_2^2$。
+      已知 3 维列向量 $\xi_1$ 是 3 阶实对称矩阵 $A$ 的属于特征值 $1$ 的特征向量$,|A+E|=0$ $,|A|=1$ $,\eta$ 是 3 维非零列向量$,[,\xi_1,\eta]=0$。 (1) 证明 $\eta$ 是 $A$ 的特征向量； (2) 设 $\alpha=\dfrac{\xi_1}{\|\xi_1\|}=\begin{pmatrix} a_1 \\ a_2 \\ a_3 \end{pmatrix}$ $,\beta=\dfrac{\eta}{\|\eta\|}=\begin{pmatrix} b_1 \\ b_2 \\ b_3 \end{pmatrix}$，证明 $f(x_1,x_2,x_3)=(a_1x_1+a_2x_2+a_3x_3)^2-(b_1x_1+b_2x_2+b_3x_3)^2$ 在正交变换下的标准形为 $y_1^2-y_2^2$。
 - number: 22
   section: solution
   points: 12
   stem:
     text: |-
-      设二维随机变量 $(X,Y)\sim N(0,0;1,1;\rho)$，若 $E[(X-Y)^2]=1$。
-  subparts:
-  - text: |-
-      求 $\rho$；
-  - text: |-
-      证明在 $Y=y$ 的条件下，$X$ 的条件概率密度为 $f_{X|Y}(x\mid y)=\sqrt{\dfrac{2}{3\pi}}e^{-\dfrac{4x^2-4xy+y^2}{6}}$，$x\in\mathbb{R}$，$y\in\mathbb{R}$；
-  - text: |-
-      若 $X_1,X_2,\ldots,X_n$ 是来自(2)中总体 $X$ 的简单随机样本，求 $y$ 的最大似然估计量。
+      (1) 求 $\rho$; (2) 证明在 $Y=y$ 的条件下, $X$ 的条件概率密度为 $f_{X|Y}(x|y) = \sqrt{\dfrac{2}{3\pi}} \mathrm{e}^{-\dfrac{4x^2-4xy+y^2}{6}}, x \in \mathbb{R},\ y \in \mathbb{R}$; (3) 若 $X_1, X_2, \cdots, X_n$ 是来自 (2) 中总体 $X$ 的简单随机样本, 求 $y$ 的最大似然估计量
+content_hash: f11112808eb40695db1871a92ebe1303665ffd148f990fdc1552bdbabc140920

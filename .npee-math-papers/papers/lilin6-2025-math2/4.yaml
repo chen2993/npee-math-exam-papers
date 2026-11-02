@@ -4,7 +4,6 @@ paper:
   year: 2025
   subject: math2
   paper_no: 4
-content_hash: cb9d787373e644026e342300169244efddf8b7e991c651981faae530a78328db
 questions:
 - number: 1
   section: choice
@@ -57,7 +56,7 @@ questions:
     figures: []
   - label: B
     text: |-
-      $x\int_0^{|x|}\sin t^2\,\mathrm{d}t$。
+      $|x|\int_0^{|x|}\sin t^2\,\mathrm{d}t$。
     figures: []
   - label: C
     text: |-
@@ -133,7 +132,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $f(x)$ 在 $[0,1]$ 上有二阶连续导数，则下列说法正确的是\ExamSelection
+      设 $f(x)$ 在 $[0,1]$ 上有二阶连续导数，则下列说法正确的是\ExamSelection\n① 若 $f''(x)>0$，则 $\int_0^1\left[f(x)-f\left(\dfrac{1}{2}\right)\right]\,\mathrm{d}x>0$。\n② 若 $f''(x)>0$，则 $\int_0^1\left[f(x)-f\left(\dfrac{1}{2}\right)\right]\,\mathrm{d}x<0$。\n③ 若 $f''(x)<0$，则 $\int_0^1\left[f(x)-f\left(\dfrac{1}{2}\right)\right]\,\mathrm{d}x>0$。\n④ 若 $f''(x)<0$，则 $\int_0^1\left[f(x)-f\left(\dfrac{1}{2}\right)\right]\,\mathrm{d}x<0$。
   choices:
   - label: A
     text: ①④。
@@ -147,15 +146,6 @@ questions:
   - label: D
     text: ①③。
     figures: []
-  subparts:
-  - text: |-
-      若 $f''(x)>0$，则 $\int_0^1\left[f(x)-f\left(\dfrac{1}{2}\right)\right]\,\mathrm{d}x>0$。
-  - text: |-
-      若 $f''(x)>0$，则 $\int_0^1\left[f(x)-f\left(\dfrac{1}{2}\right)\right]\,\mathrm{d}x<0$。
-  - text: |-
-      若 $f''(x)<0$，则 $\int_0^1\left[f(x)-f\left(\dfrac{1}{2}\right)\right]\,\mathrm{d}x>0$。
-  - text: |-
-      若 $f''(x)<0$，则 $\int_0^1\left[f(x)-f\left(\dfrac{1}{2}\right)\right]\,\mathrm{d}x<0$。
 - number: 8
   section: choice
   points: 5
@@ -289,7 +279,7 @@ questions:
   - text: |-
       在第（I）问的基础上，证明 $\lim_{n\to\infty}x_n$ 存在，并求其值；
   - text: |-
-      在第（I）问的基础上，求 $\lim_{n\to\infty}\left(\dfrac{\pi\sin x_n}{2x_n}\right)^{x_n^{\dfrac{1}{n}-\dfrac{\pi}{2}}}$。
+      在第（I）问的基础上，求 $\lim_{n\to\infty}\left(\dfrac{\pi\sin x_n}{2x_n}\right)^{\frac{1}{x_n-\frac{\pi}{2}}}$。
 - number: 21
   section: solution
   points: 12
@@ -307,3 +297,4 @@ questions:
       求正交矩阵 $Q$，使得 $Q^{\mathrm T}AQ=\Lambda$；
   - text: |-
       求可逆矩阵 $P$，使得 $2E-A=P^{\mathrm T}P$。
+content_hash: a101c6180f1c12fc7df67f82d136c9e49bb3a9450dbbacacff23cd965a651feb

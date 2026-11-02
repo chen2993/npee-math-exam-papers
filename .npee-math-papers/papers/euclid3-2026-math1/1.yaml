@@ -4,310 +4,306 @@ paper:
   year: 2026
   subject: math1
   paper_no: 1
-content_hash: 4facddb946ddf67f1aa85f7a078a70c674b8e793de5027fbc98ba792b204f492
 questions:
 - number: 1
   section: choice
   points: 5
   stem:
     text: |-
-      设函数 $y=y(x)$ 由方程 $x=\int_1^{y^2}e^{-y}\,\mathrm{d}t$ 确定，则 $\lim_{x\to0}y^{\dfrac{1}{x}}=$\ExamSelection。
+      设函数 \( y=y(x)\) 由方程 \( x=\int_1^{x+y}\mathrm{e}^{-t^2}\,\mathrm{d}t\) 确定，则 \( \lim\limits_{x\to 0}y^{\dfrac{1}{x}}=\)( )
   choices:
   - label: A
-    text: $e$
+    text: |-
+      \(\mathrm e\)
     figures: []
   - label: B
     text: |-
-      $e^{\dfrac{e}{2}}$
+      \(\mathrm e^{\mathrm e}\)
     figures: []
   - label: C
-    text: $e^{e-1}$
+    text: |-
+      \(\mathrm e^{\mathrm e-1}\)
     figures: []
   - label: D
-    text: $e^{e+1}$
+    text: |-
+      \(\mathrm e^{\mathrm e+1}\)
     figures: []
 - number: 2
   section: choice
   points: 5
   stem:
     text: |-
-      设 $f(x)$ 为 $(-\infty,+\infty)$ 上的连续函数，已知微分方程 $y'+(\sin x)y=f(x)$ 的解 $y(x)$ 满足 $y(0)=0$，则下列说法中错误的是\ExamSelection。
+      设 \(f(x)\) 为 \(( -\infty, +\infty)\) 上的连续函数，已知微分方程 \(y'+(\sin x)y=f(x)\) 的解 \(y(x)\) 满足 \(y(0)=0\)，则下列说法中错误的是( )
   choices:
   - label: A
     text: |-
-      若 $f(x)$ 是以 $2\pi$ 为周期的偶函数，则 $y(x)$ 是以 $2\pi$ 为周期的奇函数。
+      若 \(f(x)\) 是以 \(2\pi\) 为周期的偶函数, 则 \(y(x)\) 是以 \(2\pi\) 为周期的奇函数
     figures: []
   - label: B
     text: |-
-      若 $f(x)$ 是以 $2\pi$ 为周期的奇函数，则 $y(x)$ 是以 $2\pi$ 为周期的偶函数。
+      若 \(f(x)\) 是以 \(2\pi\) 为周期的奇函数, 则 \(y(x)\) 是以 \(2\pi\) 为周期的偶函数
     figures: []
   - label: C
     text: |-
-      若 $y(x)$ 是以 $2\pi$ 为周期的偶函数，则 $f(x)$ 是以 $2\pi$ 为周期的奇函数。
+      若 \(y(x)\) 是以 \(2\pi\) 为周期的偶函数, 则 \(f(x)\) 是以 \(2\pi\) 为周期的奇函数
     figures: []
   - label: D
     text: |-
-      若 $y(x)$ 是以 $2\pi$ 为周期的奇函数，则 $f(x)$ 是以 $2\pi$ 为周期的偶函数。
+      若 \(y(x)\) 是以 \(2\pi\) 为周期的奇函数, 则 \(f(x)\) 是以 \(2\pi\) 为周期的偶函数
     figures: []
 - number: 3
   section: choice
   points: 5
   stem:
     text: |-
-      设 $a_n$ 满足 $\dfrac{1}{n+1}<a_n<\dfrac{1}{n},n=1,2,\cdots$，则幂级数 $\sum_{n=1}^{\infty}a_nx^n$ 的收敛域为\ExamSelection。
+      设 \(a_n\) 满足 \( \dfrac{1}{n+1}<a_n<\dfrac{1}{n}\), \(n=1,2, \cdots\)，则幂级数 \( \sum\limits_{n=1}^{\infty}a_nx^n\) 的收敛域为( )
   choices:
   - label: A
-    text: $(-1,1)$
+    text: |-
+      \((-1,1)\)
     figures: []
   - label: B
-    text: $(-1,1]$
+    text: |-
+      \((-1,1]\)
     figures: []
   - label: C
-    text: $[-1,1)$
+    text: |-
+      \([-1,1)\)
     figures: []
   - label: D
-    text: $[-1,1]$
+    text: |-
+      \([-1,1]\)
     figures: []
 - number: 4
   section: choice
   points: 5
   stem:
     text: |-
-      设 $f(x)$ 是 $[0,1]$ 上二阶可导的正值函数，$f'(0)=1$ 且 $f'^2(x)<f(x)f''(x)$，则下列说法正确的是\ExamSelection。① $f(1)>f(0)$；② $f(1)<f(0)$；③ $f(0)f(1)>f^2\left(\dfrac{1}{2}\right)$；④ $f(0)f(1)<f^2\left(\dfrac{1}{2}\right)$。
+      设 \(f(x)\) 是 \([0,1]\) 上二阶可导的正值函数，\(f'(0)=1\) 且 \(f'^2(x)f(0)\)； ② \(f(1)f^2(\dfrac{1}{2})\)； ④ \( f(0)f(1)<f^2(\dfrac{1}{2})\)。 则下列说法正确的是（ ）。
   choices:
   - label: A
-    text: ①③
+    text: |-
+      \(①\ ③\)
     figures: []
   - label: B
-    text: ①④
+    text: |-
+      \(①\ ④\)
     figures: []
   - label: C
-    text: ②③
+    text: |-
+      \(②\ ③\)
     figures: []
   - label: D
-    text: ②④
+    text: |-
+      \(②\ ④\)
     figures: []
 - number: 5
   section: choice
   points: 5
   stem:
     text: |-
-      设矩阵 $A=(\alpha_1,\alpha_2,\alpha_3,\alpha_4,\alpha_5)$ 经过若干次初等行变换后化为 $\begin{pmatrix}1&0&2&1&1\\0&1&-1&1&2\\0&0&0&0&0\end{pmatrix}$，并设 $B=(\alpha_1,\alpha_2)$，若 $A=BC$，则\ExamSelection。
+      设矩阵 \(A=(\alpha_1, \alpha_2, \alpha_3, \alpha_4, \alpha_5)\) 经过若干次初等行变换后化为 \( \begin{pmatrix}1&0&2&1&1\\0&1&-1&1&2\\0&0&0&0&0\end{pmatrix}\)，并设 \(B=(\alpha_1, \alpha_2)\)，若 \(A=BC\)，则( )
   choices:
   - label: A
-    text: $A,B$ 的列向量组不等价，$A,C$ 的行向量组不等价。
+    text: |-
+      \(A,B\) 的列向量组不等价, \(A,C\) 的行向量组不等价
     figures: []
   - label: B
-    text: $A,B$ 的列向量组等价，$A,C$ 的行向量组等价。
+    text: |-
+      \(A,B\) 的列向量组等价, \(A,C\) 的行向量组等价
     figures: []
   - label: C
-    text: $A,B$ 的列向量组等价，$A,C$ 的行向量组不等价。
+    text: |-
+      \(A,B\) 的列向量组等价, \(A,C\) 的行向量组不等价
     figures: []
   - label: D
-    text: $A,B$ 的列向量组不等价，$A,C$ 的行向量组等价。
+    text: |-
+      \(A,B\) 的列向量组不等价, \(A,C\) 的行向量组等价
     figures: []
 - number: 6
   section: choice
   points: 5
   stem:
     text: |-
-      设矩阵 $A=\begin{pmatrix}4&2&-3\\a&3&-4\\b&5&-7\end{pmatrix}$，若方程组 $A^2x=0$ 与 $Ax=0$ 不同解，则\ExamSelection。
+      设矩阵 \( A=\begin{pmatrix}4&2&-3\\a&3&-4\\b&5&-7\end{pmatrix}\)，若方程组 \(A^2x=0\) 与 \(Ax=0\) 不同解，则( )
   choices:
   - label: A
-    text: $A$ 不可相似对角化，$A^2$ 不可相似对角化。
+    text: |-
+      \(A\) 不可相似对角化, \(A^2\) 不可相似对角化
     figures: []
   - label: B
-    text: $A$ 可相似对角化，$A^2$ 可相似对角化。
+    text: |-
+      \(A\) 可相似对角化, \(A^2\) 可相似对角化
     figures: []
   - label: C
-    text: $A$ 可相似对角化，$A^2$ 不可相似对角化。
+    text: |-
+      \(A\) 可相似对角化, \(A^2\) 不可相似对角化
     figures: []
   - label: D
-    text: $A$ 不可相似对角化，$A^2$ 可相似对角化。
+    text: |-
+      \(A\) 不可相似对角化, \(A^2\) 可相似对角化
     figures: []
 - number: 7
   section: choice
   points: 5
   stem:
     text: |-
-      若 $f(x_1,x_2,x_3)=x_1^2+3x_2^2+x_3^2+2ax_1x_2+2x_1x_3+2x_2x_3=1$ 在空间直角坐标系下表示的二次曲面为椭圆柱面，则\ExamSelection。
+      若 \(f(x_1,x_2,x_3)=x_1^2+3x_2^2+x_3^2+2ax_1x_2+2x_1x_3+2x_2x_3=1\) 在空间直角坐标系下表示的二次曲面为椭圆柱面，则( )
   choices:
   - label: A
-    text: $a=2$
+    text: |-
+      \(a=2\)
     figures: []
   - label: B
-    text: $a=-2$
+    text: |-
+      \(a=-2\)
     figures: []
   - label: C
-    text: $a=0$
+    text: |-
+      \(a=0\)
     figures: []
   - label: D
-    text: $a=1$
+    text: |-
+      \(a=1\)
     figures: []
 - number: 8
   section: choice
   points: 5
   stem:
     text: |-
-      小明和老板到达公司电梯的时间不相影响，且都均匀分布在 8:40--9:00 之间，若两人到达时间相差 5 分钟以内就必然会乘坐同一趟电梯，则两人乘同一趟电梯的概率为\ExamSelection。
+      小明和老板到达公司电梯的时间不相影响，且都均匀分布在 \(8:40-9:00\) 之间，若两人到达时间相差 5 分钟以内就必然会乘坐同一趟电梯，则两人乘同一趟电梯的概率为( )
   choices:
   - label: A
     text: |-
-      $\dfrac{5}{16}$
+      \( \dfrac{5}{16}\)
     figures: []
   - label: B
     text: |-
-      $\dfrac{7}{16}$
+      \( \dfrac{7}{16}\)
     figures: []
   - label: C
     text: |-
-      $\dfrac{9}{16}$
+      \( \dfrac{9}{16}\)
     figures: []
   - label: D
     text: |-
-      $\dfrac{11}{16}$
+      \( \dfrac{11}{16}\)
     figures: []
 - number: 9
   section: choice
   points: 5
   stem:
     text: |-
-      已知随机变量 $X\sim N(\mu,\sigma^2),\mu>0$，设事件 $A=\{X>\mu\}$，事件 $B=\{X>\sigma\}$，事件 $C=\{X>\mu+\sigma\}$，如果 $P(A)=P(B)$，则 $P(C\mid A)=$\ExamSelection。
+      已知随机变量 \(X\sim N(\mu, \sigma^2)\), \(\mu>0\)，设事件 \(A=\{X>\mu\}\), \(B=\{X>\sigma\}\), \(C=\{X>\mu+\sigma\}\)，如果 \(P(A)=P(B)\)，则 \(P(C\mid A)=\)( )
   choices:
   - label: A
     text: |-
-      $2\Phi(1)-1$
+      \(2\Phi(1)-1\)
     figures: []
   - label: B
     text: |-
-      $\Phi(1)$
+      \(\Phi(1)\)
     figures: []
   - label: C
     text: |-
-      $1-\Phi(1)$
+      \(1-\Phi(1)\)
     figures: []
   - label: D
     text: |-
-      $2-2\Phi(1)$
+      \(2-2\Phi(1)\)
     figures: []
 - number: 10
   section: choice
   points: 5
   stem:
     text: |-
-      设二维随机变量 $(X,Y)$ 的分布函数为 $F(x,y)=\dfrac{1}{2}[\Phi_1(x,y)+\Phi_2(x,y)]$，其中 $\Phi_1(x,y)$ 和 $\Phi_2(x,y)$ 都是二维正态分布函数，它们对应的二维正态分布分别为 $N(0,0;1,1;\dfrac{1}{2})$ 和 $N(0,0;1,1;\dfrac{1}{3})$，则 $X$ 与 $Y$ 的相关系数 $\rho_{XY}=$\ExamSelection。
+      设二维随机变量 \((X,Y)\) 的分布函数为 \( F(x,y)=\dfrac{1}{2}[\Phi_1(x,y)+\Phi_2(x,y)]\)，其中 \(\Phi_1(x,y)\) 和 \(\Phi_2(x,y)\) 都是二维正态分布函数，它们对应的二维正态分布分别为 \( N(0,0;1,1;-\dfrac{1}{2})\) 和 \( N(0,0;1,1;\dfrac{1}{3})\)，则 \(X\) 与 \(Y\) 的相关系数 \(\rho_{XY}=\)( )
   choices:
   - label: A
-    text: $0$
+    text: '0'
     figures: []
   - label: B
     text: |-
-      $-\dfrac{1}{6}$
+      \( -\dfrac{1}{6}\)
     figures: []
   - label: C
     text: |-
-      $-\dfrac{1}{12}$
+      \( -\dfrac{1}{12}\)
     figures: []
   - label: D
     text: |-
-      $-\dfrac{1}{24}$
+      \( -\dfrac{1}{24}\)
     figures: []
 - number: 11
   section: fill
   points: 5
   stem:
     text: |-
-      设 $f(x)=\begin{cases}\arctan\dfrac{1}{[x]},&x<0,\\ax+b,&x\geq0,\end{cases}$，其中 $[x]$ 表示不超过 $x$ 的最大整数。若 $f(x)$ 在 $x=0$ 处可导，则 $a-b=$\ExamBlank。
+      设 \( f(x)=\begin{cases}\arctan\dfrac{1}{[x]}, &x<0, \\ax+b, &x\ge0, \end{cases}\) 其中 \([x]\) 表示不超过 \(x\) 的最大整数。若 \(f(x)\) 在 \(x=0\) 处可导，则 \(a-b=\) ______
 - number: 12
   section: fill
   points: 5
   stem:
     text: |-
-      在曲线 $\begin{cases}x=\cos t,\\y=\sin t\end{cases}$ 上点 $(0,1)$ 处，函数 $f(x,y)=e^x\sin y$ 沿曲线在该点的切线正方向的方向导数为\ExamBlank。
+      在曲线 \( \begin{cases}x=\cos t, \\y=\sin t\end{cases}\) 上点 \((0,1)\) 处，函数 \(f(x,y)=\mathrm e^x\sin y\) 沿曲线在该点的切线正方向的方向导数为 ______
 - number: 13
   section: fill
   points: 5
   stem:
     text: |-
-      $\int_0^{+\infty}\dfrac{x}{(x+1)^2(1+x^2)}\,\mathrm{d}x=$\ExamBlank。
+      \( \int_0^{+\infty}\dfrac{x}{(x+1)^2(1+x^2)}\, \mathrm dx=\) ______
 - number: 14
   section: fill
   points: 5
   stem:
     text: |-
-      设空间区域 $\Omega$ 由 $x^2+y^2+z^2=1,x^2+y^2+z^2=4,z=\sqrt{x^2+y^2}$ 围成，则 $\Omega$ 的体积为\ExamBlank。
+      设空间区域 \(\Omega\) 由 \(x^2+y^2+z^2=1\), \(x^2+y^2+z^2=4\), \( z=\sqrt{x^2+y^2}\) 围成，则 \(\Omega\) 的体积为 ______
 - number: 15
   section: fill
   points: 5
   stem:
     text: |-
-      $\begin{vmatrix}2&-3&0&5\\-3&2&-1&0\\0&-1&2&-3\\5&0&-3&2\end{vmatrix}=$\ExamBlank。
+      \( \begin{vmatrix}2&-3&0&5\\-3&2&-1&0\\0&-1&2&-3\\5&0&-3&2\end{vmatrix}=\) ______
 - number: 16
   section: fill
   points: 5
   stem:
     text: |-
-      设总体 $X$ 的概率密度为 $f(x)=\begin{cases}\dfrac{A}{x^2},&x\geq150,\\0,&x<150,\end{cases}$，$X_1,X_2,\cdots,X_n$ 为来自总体 $X$ 的简单随机样本，则当 $n\to\infty$ 时，$Y=\sqrt[n]{X_1X_2\cdots X_n}$ 依概率收敛于\ExamBlank。
+      设总体 \(X\) 的概率密度为 \( f(x)=\begin{cases}\dfrac{A}{x^2}, &x\ge150, \\0, &x<150.\end{cases}\) \(X_1,X_2, \cdots,X_n\) 为来自总体 \(X\) 的简单随机样本，则当 \(n\to\infty\) 时，\( Y=\sqrt[n]{X_1X_2\cdots X_n}\) 依概率收敛于 ______
 - number: 17
   section: solution
-  points: 10
+  points: 12
   stem:
-    text: 已知函数 $y=y(x)$ 满足微分方程 $xy''-(2x+1)y'+(x+1)y=x^2e^x$。
-  subparts:
-  - text: 利用代换 $y=e^xu(x)$ 将原方程转化为关于 $u(x)$ 的微分方程；
-  - text: 求关于 $u(x)$ 的微分方程的通解。
+    text: |-
+      已知函数 \(y=y(x)\) 满足微分方程 \(xy''-(2x+1)y'+(x+1)y=x^2\mathrm e^x\). (1) 利用代换 \(y=\mathrm e^xu(x)\) 将原方程转化为关于 \(u(x)\) 的微分方程； (2) 求关于 \(u(x)\) 的微分方程的通解
 - number: 18
   section: solution
   points: 12
   stem:
     text: |-
-      已知曲线 $C:\begin{cases}x^2+y^2-z^2=0,\\2y+z-1=0,\end{cases}$ 曲线 $C$ 上的点到原点的距离，有无最大值、最小值？若有，求之；若没有，说明理由。
+      已知曲线 \( C:\begin{cases}x^2+y^2-z^2=0, \\2y+z-1=0, \end{cases}\) 曲线 \(C\) 上的点到原点的距离，有无最大值、最小值？若有，求之；若没有，说明理由
 - number: 19
   section: solution
   points: 12
   stem:
     text: |-
-      设 $L$ 为椭圆 $x^2+\dfrac{y^2}{3}=1$ 在第一象限的部分，取逆时针方向，计算曲线积分 $\int_L[\sqrt{3}x-y]\,\mathrm{d}x+x^3\,\mathrm{d}y$。
+      设 \(L\) 为椭圆 \( x^2+\dfrac{y^2}{3}=1\) 在第一象限的部分，取逆时针方向，计算曲线积分 \( \int_L |\sqrt3x-y|\, \mathrm dx+x^3\, \mathrm dy\)
 - number: 20
   section: solution
   points: 12
   stem:
     text: |-
-      设数列 $\{a_n\}$ 满足 $0<a_n<\dfrac{\pi}{2},a_0=\dfrac{\pi}{4},\tan a_{n+1}+a_{n+1}=\tan a_n(n=0,1,2,\cdots)$。
-  subparts:
-  - text: |-
-      证明 $\lim_{n\to\infty}a_n$ 存在并求其值；
-  - text: |-
-      证明 $\sum_{n=1}^{\infty}a_n$ 收敛并求其和；
-  - text: |-
-      判别级数 $\sum_{n=1}^{\infty}\dfrac{a_{n+1}^2}{a_n}$ 的敛散性。
+      设数列 $\{a_n\}$ 满足 $0 < a_n < \dfrac{\pi}{2}$ $,a_0 = \dfrac{\pi}{4}$ $,\tan a_{n+1} + a_{n+1} = \tan a_n \ (n = 0, 1, 2, \cdots)$。 (1) 证明 $\lim\limits_{n\to\infty} a_n$ 存在并求其值； (2) 证明 $\sum\limits_{n=1}^{\infty} a_n$ 收敛并求其和； (3) 判别级数 $\sum\limits_{n=1}^{\infty} \dfrac{a_{n+1}^2}{a_n}$ 的敛散性。
 - number: 21
   section: solution
   points: 12
   stem:
     text: |-
-      设 $a$ 是常数，且矩阵 $A=\begin{pmatrix}2&1&a\\-2&-1&-1\\-2&-1&-a\end{pmatrix}$ 可经初等变换化为矩阵 $B=\begin{pmatrix}0&0&1\\0&0&0\\0&0&0\end{pmatrix}$。
-  subparts:
-  - text: 求 $a$ 的值；
-  - text: 求一个可逆矩阵 $P$，使得 $P^{-1}AP=B$；
-  - text: 求一个矩阵 $C$，使得 $A=C^2$。
+      设 \(a\) 是常数，且矩阵 \( A=\begin{pmatrix}2&1&a\\-2&-1&-1\\-2&-1&-a\end{pmatrix}\) 可经初等变换化为矩阵 \( B=\begin{pmatrix}0&0&1\\0&0&0\\0&0&0\end{pmatrix}\). (1) 求 \(a\) 的值； (2) 求一个可逆矩阵 \(P\)，使得 \(P^{-1}AP=B\)； (3) 求一个矩阵 \(C\)，使得 \(A=C^2\)
 - number: 22
   section: solution
   points: 12
   stem:
     text: |-
-      设总体 $X$ 的概率分布为（见下表），其中 $\theta\in(0,\dfrac{1}{2})$ 未知。以 $N_i$ 表示来自总体 $X$ 的简单随机样本（样本容量为 $n$）中等于 $i$ 的个数（$i=1,2,3$）。
-    figures:
-    - kind: tikz
-      latex: |-
-        \begin{tikzpicture}[x=1.5cm,y=.65cm]\draw (0,0) grid (4,2);\node at (.5,1.5) {$X$};\node at (1.5,1.5) {$1$};\node at (2.5,1.5) {$2$};\node at (3.5,1.5) {$3$};\node at (.5,.5) {$P$};\node at (1.5,.5) {$\theta$};\node at (2.5,.5) {$1-2\theta$};\node at (3.5,.5) {$\theta$};\end{tikzpicture}
-      path:
-      description: 总体 X 的取值与对应概率分布表
-      exception_reason:
-  subparts:
-  - text: |-
-      求 $\theta$ 的矩估计量 $\hat{\theta}_1$；
-  - text: |-
-      求 $\theta$ 的最大似然估计量 $\hat{\theta}_2$；
-  - text: |-
-      $\hat{\theta}_1$ 和 $\hat{\theta}_2$ 哪个更有效？
+      设总体 \(X\) 的概率分布为\( \begin{array}{c|ccc}X&1&2&3\\\hline P&\theta&1-2\theta&\theta\end{array}\)其中 \( \theta\in(0, \dfrac{1}{2})\) 未知。\(N_i\) 表示来自总体 \(X\) 的简单随机样本(样本容量为 \(n\))中等于 \(i\) 的个数 \((i=1,2,3)\). (1) 求 \(\theta\) 的矩估计量 \(\widehat\theta_1\)； (2) 求 \(\theta\) 的最大似然估计量 \(\widehat\theta_2\)； (3) \(\widehat\theta_1\) 和 \(\widehat\theta_2\) 哪个更有效？
+content_hash: 3e8b15f6bddd2a2da4125cf344340e4897fdc269e70e682513b175cf35fe5be9

@@ -183,4 +183,81 @@ src/
 | `python -m pytest tests` | **141 项通过**（新增服务层与 HTTP 层的搜索/排序用例） |
 | 端到端（生产形态） | `build/ui5-check.py`：搜索命中全部来自目标系列（60 行）、排序顺序正确、`?paper=` 深链打开抽屉并渲染题目、组卷选卷区控件齐全 |
 | 多产物下载 | `build/ui-artifacts-check.py`：A3+A4 两个产物按 `index` 分别取回（116,896 / 118,108 字节，文件名 `[A3] x.pdf` / `[A4] x.pdf`），越界索引返回 404 |
+
+### 6.6 后续调整（2026-09-21）：套卷页去组卷，降低耦合
+
+6.2 里的「批量选择」把**浏览**与**组卷**绑在了一起：套卷页要拿到
+`CompositionWorkspace` 才能渲染复选框、批量按钮与「打开组卷」，于是只读的列表页
+也依赖草稿状态，两个功能无法单独演化。本轮按「套卷页只负责看」拆开：
+
+| 项 | 变化 |
+| --- | --- |
+| 数据流 | 套卷页不再调用 `useWorkspace`；选择、排序、编译全部留在 `/compose` |
+| 选择器 | 删掉 `features/catalog/useCatalogSelection`（它同时管抽屉与草稿），改为只管抽屉的 `usePaperDrawer`（保留 `?paper=` 深链） |
+| 列表 | 去掉复选框列、「选择本页全部」批量条、「加入组卷」行内按钮与「打开组卷」入口，行内只留「查看题目」 |
+| 抽屉 | `PaperDetailDrawer` 去掉「加入组卷」，只渲染题面；`Esc` 关闭与滚动锁定的行为不变 |
+| 选卷入口 | 组卷页自己的选卷区（同样复用 `PaperFilters`，保留「加入本页全部」）成为唯一入口 |
+| 回归防线 | 新增用例：套卷页**不得**出现组卷控件（`加入组卷` / `打开组卷` / 复选框），抽屉不得出现组卷按钮 |
 | 后端改造 | `core/domain.py` 新增排序契约；`service/library.py` 支持 `query`/`order`，过滤在分页前完成；`api/routes.py` 与 `mcp/server.py` 暴露同样参数（人类与 Agent 看到同一套语义） |
+
+### 6.7 后续调整（2026-09-21）：删去检索页与套卷查看页，清死代码
+
+用户决定前端只保留「仪表盘 / 套卷 / 组卷 / 版本清单 / 操作日志」五个页面：
+检索与逐题阅读都能在套卷页的抽屉里完成，两个独立页面维护成本不划算。
+
+| 项 | 变化 |
+| --- | --- |
+| 页面 | 删除 `features/search/`（含 `excerpt.ts`）与 `features/reader/`，路由表移除 `/search`、`/reader` |
+| 端口 | `CatalogGateway` 去掉 `search` / `getQuestion`，`HttpCatalogGateway` 同步删除；`SearchResult`、`SearchMatch`、`QuestionContext`、`questionFigures`、`subjectLabel` 等只剩定义没有引用的类型与函数一并删除 |
+| 查询层 | 删除未被调用的 `useSeries`、`useCompileJobs`、`useCompileJob`、`useSubmitCompile`、`useCompileNow`、`useLibraryFacets` 及 `queryKeys.jobs/job`（编译轮的轮询直接用 `exportGateway.jobs/job`） |
+| 快捷键 | `/` 从「打开题目检索」改为「跳到套卷列表并聚焦搜索框」 |
+| 样式 | 删除 `features.css` 的 search / reader 两段与 `responsive.css` 的 `.search-bar*`、`.table-bulk-bar` 残留 |
+| 顺带修复 | 选择题的答题括号此前映射成 `\square`（浏览器里显示成方框），改为 `\text{（\hspace{1.5em}）}`；存储层换行标记 `\n` 现在渲染为断行而不是字面量 |
+| 工具 | 新增 `build/frontend-dead-exports.py`（只在本文件出现的导出）与 `build/frontend-dead-css.py`（样式表里没有源码引用的类），两者都是只读候选清单 |
+
+### 6.8 后续调整（2026-09-21）：组卷包可编辑，间距与留白拆开
+
+两个问题一起改：
+
+1. **正式组卷包只有脚本能碰**。`composition/<id>/composition.json` 是仓库里的真实
+   文件，但前端只能另存一份 localStorage 草稿，两边长期不同步。
+2. **间距和打印绑在一起**。`print` 既是"打印交付"又顺手把间距改成紧凑，于是
+   "想给解答题留书写空间"和"想给卷子补空白页"变成同一个开关。
+
+| 项 | 变化 |
+| --- | --- |
+| 服务端仓库 | `CompositionService.list_packages / load_package / save_package`：列出、读取、写回组卷包；写入前先校验，路径解析带目录穿越守卫 |
+| 适配器 | HTTP 新增 `GET /compositions/packages`、`GET|PUT /compositions/packages/{id}`；MCP 新增 `npee_composition_packages / npee_composition_package / npee_composition_package_save`（工具总数 34 → 37） |
+| 前端打开 | 组卷页新增「仓库组卷包」一栏：点一下读成一份**新草稿**（`draftFromCompositionDocument` 会按 `compile.subjects` 展开 `$subject` 三科模板），原包不动 |
+| 前端写回 | 「保存回 <包名>」只在"这份草稿确实来自那个包"时可用——判据是草稿 id，所以复制出来的副本不会误覆盖 |
+| 间距 | 词表回到 `compact`（自然连排）/ `spaced`（解答题独占页面），**只影响解答题**；`document.solution` 与 `structure/pairCount` 控件作为"写了不生效"的死设置一并删掉 |
+| 留白 | 新字段 `print`（前后端同名字段）：每套卷补足整页、封面后加空白页、目录凑偶数页；类里由 `\NPEEApplyTargetPrintPolicy` 单独开关，`\NPEEEnsureCompactMinimumPages` 更名 `\NPEEEnsurePrintMinimumPages`（旧名保留为别名） |
+| 历史兼容 | 旧组卷包里的 `spacing=print / a4-blank` 读成「compact + 留白」，行为与以前逐字一致；`openapi` 与前端草稿都按同一规则归一化 |
+
+实测四组合（2024 张宇八套卷 第 1 套，A4）：
+
+| 组合 | 页数 | 现象 |
+| --- | --- | --- |
+| 紧凑 + 不留白 | 5 | 解答题自然连排 |
+| 紧凑 + 留白 | 6 | 多出封面后的空白页 |
+| 宽松 + 不留白 | 9 | 17–18 共用一页，之后每题独占一页 |
+| 宽松 + 留白 | 10 | 同上，另加空白页 |
+
+### 6.9 后续调整（2026-09-24）：导入为准，去掉默认草稿与空转按钮
+
+用户反馈：**「前端界面很乱，不要默认的组卷包，全靠导入就行；有些按钮按不了，
+是完全无效的」**。用 Playwright 逐个驱动真实页面核对后，改了三处：
+
+| 项 | 变化 |
+| --- | --- |
+| 默认草稿 | 启动时不再自动创建「数学试卷集」；`useCompositionWorkspace` 起始为空数组，删除也允许删到零，删除后 `activeDraftId` 置空并显示空状态 |
+| 空状态 | 没有草稿时只显示「导入组卷 JSON」与仓库组卷包列表（外加「新建空组卷」），不再渲染一整套空转的草稿工具栏与设置面板 |
+| 页头动作 | 图标按钮换成带文字的「编译导出 / 导入 / 导出」；导入入口在空状态与页头各一处，共用同一个隐藏 file input |
+| 保存回包 | 保存按钮**只在当前草稿确实来自某个包时渲染**（原来是一个永久禁用的图标，只有打开过包才启用） |
+| 选卷行 | 行尾的「加入」原先是纯装饰胶囊（看着像按钮、点了没反应），改为真按钮，点击切换选中状态 |
+| 题数回填 | 导入/打开组卷包时引用只带自然键，题数与系列名从套卷目录回填；回填前不显示「0 题」 |
+| 已选面板 | `min-height` 由 380px 降到 180px，三五套卷时不再留出半屏空白 |
+| 死代码 | 删除无人使用的 `allSubjects` 字段、`renameActiveDraft` 方法与 `.picker-state` 样式 |
+
+实测：空状态下 0 个禁用按钮；打开组卷包后「导出」触发下载、「导入」打开文件框、
+「编译导出」发出 `POST /api/compositions/submit` 并进入轮询，无页面异常。

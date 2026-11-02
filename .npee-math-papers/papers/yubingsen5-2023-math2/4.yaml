@@ -1,0 +1,277 @@
+schema_version: '3.0'
+paper:
+  series_key: yubingsen5
+  year: 2023
+  subject: math2
+  paper_no: 4
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $a_1 > 0, a_{n+1} = a_n + \dfrac{1}{a_n}, n = 1, 2, \cdots$，则在下列极限 $\lim\limits_{n\to\infty} a_n, \lim\limits_{n\to\infty} \dfrac{1}{a_n}, \lim\limits_{n\to\infty} \dfrac{a_{n+1}}{a_n}, \lim\limits_{n\to\infty} (a_{n+1} + a_n), \lim\limits_{n\to\infty} (a_{n+1}^2 - a_n^2)$ 中，极限存在的个数为（ ）
+  choices:
+  - label: A
+    text: '2'
+    figures: []
+  - label: B
+    text: '3'
+    figures: []
+  - label: C
+    text: '4'
+    figures: []
+  - label: D
+    text: '5'
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $\alpha = \int_0^{\sqrt{x}} \dfrac{\ln (1+t)}{1+t^4} \mathrm{d}t, \beta = \int_0^{\tan x} (1+t)^{\dfrac{1}{t}} \mathrm{d}t$，则当 $x \to 0^+$ 时$,\alpha$ 是 $\beta$ 的（ ）
+  choices:
+  - label: A
+    text: 等价无穷小
+    figures: []
+  - label: B
+    text: 低阶无穷小
+    figures: []
+  - label: C
+    text: 高阶无穷小
+    figures: []
+  - label: D
+    text: 同阶不等价无穷小
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知 $\int_{1}^{+\infty}\left(\dfrac{2x^2+ax+b}{2x^2+bx}-1\right)\mathrm{d}x=\ln 2(b>0)$，则 $(a,b)$ 为（ ）
+  choices:
+  - label: A
+    text: $(1,1)$
+    figures: []
+  - label: B
+    text: $(2,2)$
+    figures: []
+  - label: C
+    text: $(1,2)$
+    figures: []
+  - label: D
+    text: $(2,1)$
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $\varphi(x, y) \neq 0$ 且具有连续的一阶偏导数, 函数 $u(x, y)$ 的全微分 $\mathrm{d}u = \dfrac{y\mathrm{d}x + x\mathrm{d}y}{\varphi(x, y)}$, 则下列等式成立的是 ( )
+  choices:
+  - label: A
+    text: |-
+      $x\varphi'_y(x, y) = y\varphi'_x(x, y)$
+    figures: []
+  - label: B
+    text: |-
+      $x\varphi'_y(x, y) = -y\varphi'_x(x, y)$
+    figures: []
+  - label: C
+    text: |-
+      $x\varphi'_x(x, y) = y\varphi'_y(x, y)$
+    figures: []
+  - label: D
+    text: |-
+      $x\varphi'_x(x, y) = -y\varphi'_y(x, y)$
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设区域 $D_1$ 为 $x^2 + y^2 \leqslant 1$ 在第一象限的部分$,D_2$ 为 $|x| + |y| \leqslant 1$ 在第一象限的部分$,I_1 = \iint_{D_1} \cos (\pi xy) \,\mathrm{d}\sigma$ $,I_2 = \iint_{D_2} \cos (\pi xy) \,\mathrm{d}\sigma$ $,I_3 = \iint_{D_2} \sin (\pi xy) \,\mathrm{d}\sigma$，则（ ）。
+  choices:
+  - label: A
+    text: $I_1 < I_2 < I_3$
+    figures: []
+  - label: B
+    text: $I_3 < I_2 < I_1$
+    figures: []
+  - label: C
+    text: $I_3 < I_1 < I_2$
+    figures: []
+  - label: D
+    text: $I_2 < I_3 < I_1$
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: 设 $f(x)$ 是以 $T$ 为周期的连续函数，则下列函数中也是以 $T$ 为周期的函数是（ ）
+  choices:
+  - label: A
+    text: |-
+      $\int_{0}^{x} f(t) \mathrm{d}t$
+    figures: []
+  - label: B
+    text: |-
+      $\int_{0}^{x} f(-t) \mathrm{d}t$
+    figures: []
+  - label: C
+    text: |-
+      $\int_{0}^{x} [f(t) - f(-t)] \mathrm{d}t$
+    figures: []
+  - label: D
+    text: |-
+      $\int_{0}^{x} [f(t) + f(-t)] \mathrm{d}t$
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x) = \lim_{n \to \infty} \dfrac{x^{2n+1} - x}{x^{2n} + 1} \sin^2 \dfrac{1}{x(x-1)}$，则（ ）
+  choices:
+  - label: A
+    text: $x=0$ 及 $x=1$ 都是 $f(x)$ 的第一类间断点
+    figures: []
+  - label: B
+    text: $x=0$ 及 $x=1$ 都是 $f(x)$ 的第二类间断点
+    figures: []
+  - label: C
+    text: $x=0$ 是 $f(x)$ 的第一类间断点$,x=1$ 是 $f(x)$ 的第二类间断点
+    figures: []
+  - label: D
+    text: $x=0$ 是 $f(x)$ 的第二类间断点$,x=1$ 是 $f(x)$ 的第一类间断点
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 为 $m \times n$ 矩阵 $(m < n), r(A) = m$，以下五个命题： ①存在 $m$ 阶不可逆矩阵 $P$，使得 $PA = (E_m, O)$； ②存在 $m$ 阶可逆矩阵 $P$，使得 $A = P(E_m, O)$； ③存在 $n$ 阶可逆矩阵 $Q$，使得 $A = (E_m, O)Q$； ④对任意的 $m$ 维非零列向量 $b$，方程组 $Ax = b$ 必有无穷多解； ⑤$A$ 的列向量组一定线性无关. 其中正确的个数为 ( )
+  choices:
+  - label: A
+    text: '1'
+    figures: []
+  - label: B
+    text: '2'
+    figures: []
+  - label: C
+    text: '3'
+    figures: []
+  - label: D
+    text: '4'
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 是三阶矩阵$,P = (p_1, p_2, p_3)$ 为三阶可逆矩阵，满足 $P^{-1}AP = \begin{pmatrix} 2 & & \\ & 2 & \\ & & 3 \end{pmatrix}$，若有可逆矩阵 $Q$ 使得 $Q^{-1}(A+A^*)Q = \begin{pmatrix} 8 & & \\ & 8 & \\ & & 7 \end{pmatrix}$，则 $Q$ 不可以取为（ ）
+  choices:
+  - label: A
+    text: $(2p_1, -3p_2, 3p_3)$
+    figures: []
+  - label: B
+    text: $(p_1 - p_2, 2p_2, p_3)$
+    figures: []
+  - label: C
+    text: $(p_1 - 2p_2, p_1 + p_2, p_3)$
+    figures: []
+  - label: D
+    text: $(p_1, p_2 + p_3, p_3)$
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设二次型 $f(x_1, x_2, \cdots, x_n) = \sum_{i=1}^{m} (a_{i1}x_1 + a_{i2}x_2 + \cdots + a_{in}x_n)^2$，其中 $a_{ij} \in \mathbf{R}, i = 1, 2, \cdots, m; j = 1, 2, \cdots, n$ $,A = (a_{ij})_{m \times n}$，则二次型 $f$ 的秩为（ ）
+  choices:
+  - label: A
+    text: $m$
+    figures: []
+  - label: B
+    text: $n$
+    figures: []
+  - label: C
+    text: $r(A)$
+    figures: []
+  - label: D
+    text: 无法确定
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设曲线 $y = \ln \dfrac{1+2x}{1+x}$ 在横坐标 $x=t$ 处的切线与 $y$ 轴的交点的纵坐标为 $y_t$，则 $\lim\limits_{t \to +\infty} y_t = \underline{\hspace{1.5cm}}$
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x)$ 连续，如果对任意的 $x$，有 $\int_{0}^{1} [f(x) + xf(xt)]dt = 1$，则 $f(x) = \underline{\qquad}$
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设可导函数 $f(x) = \begin{cases} ax + 1, & x < 0, \\ be^x, & x \geqslant 0, \end{cases}$ 其中 $a,b$ 为常数，则 $\int f(\ln x) \mathrm{d}x = \underline{\qquad}$
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      当 $x > 0$ 时$,f\left(\dfrac{1}{2}\ln x\right) = \sqrt{x}$ 且 $f(g(x)) = (1+x)^{\dfrac{1}{x^2}}$，则 $\int_1^2 g(x)\mathrm{d}x = \underline{\quad\quad\quad\quad\quad}$。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      心形线 $r = 1 + \cos\theta$ 在 $\left(1, \dfrac{\pi}{2}\right)$ 处的曲率半径 $R = \underline{\qquad\qquad}$
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设向量 $\beta=(1, b, -1)^T$ 可由向量组 $\alpha_1=(a, 2, 10)^T, \alpha_2=(-2, 1, 5)^T, \alpha_3=(-1, 1, 4)^T$ 线性表示，但表示式不唯一，其中 $a, b$ 为常数，则 $b=\underline{\qquad\qquad}$
+- number: 17
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      已知 $f(x)$ 是以 $T(T>0)$ 为周期的连续函数，且 $f(0)=1, F(x)=\int_0^{2x} |x-t|f(t)dt$，求 $F'(T)$。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 $f(u)$ 在 $(0, +\infty)$ 内可导$,z = x f\left(\dfrac{y}{x}\right) + y$ 满足关系式 $x \dfrac{\partial z}{\partial x} - y \dfrac{\partial z}{\partial y} = 2z$，且 $f(1) = 1$，求曲线 $y = f(x)$ 的渐近线
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 $f(x), g(x)$ 连续，且满足 $\int_0^x f(t) \mathrm{d}t = 2f(x) + g(x) + x$, $\int_0^x g(t) \mathrm{d}t = 4f(x) - g(x) + 1$, 求 $f(x)$ 和 $g(x)$。
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $D$ 是由直线 $x+y=1, x+y=2$ 及 $x$ 轴和 $y$ 轴围成的四边形区域，计算二重积分 $I = \iint_{D} \mathrm{e}^{(x+y)^2}(\cos^2 x + \sin^2 y) \mathrm{d}x\mathrm{d}y$
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      当 $x>0$ 时，证明：存在 $\xi(x) \in (0,x)$，使得 $\ln(1+x)=\dfrac{x}{1+\xi(x)}$； (2) 当 $0<x<1$ 时，证明 (1) 中的 $\xi(x)$ 满足 $0<\xi(x)<\dfrac{1}{\ln 2}-1$。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $A$ 为 $3$ 阶方阵, $\alpha_1, \alpha_2, \alpha_3$ 为线性无关的三维列向量, 且 $A\alpha_1 = \alpha_2, A^2\alpha_1 = 2\alpha_1 + \alpha_2, A\alpha_3 = 2\alpha_3$. (1) 求 $|A+2E|$; (2) 求 $A$ 的特征值及对应的线性无关的特征向量
+content_hash: 703eca6b58e640cf47caa223da9d55eb95f5146781fb13e404d8883781c5f89a

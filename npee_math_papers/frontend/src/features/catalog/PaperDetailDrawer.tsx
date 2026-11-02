@@ -1,25 +1,21 @@
 /**
  * The paper detail drawer.
  *
- * A modal reading surface on the catalogue and search pages: it shows one paper
- * and offers the "add to composition" action. The question trees themselves come
- * from `shared/question/QuestionView`, which the standalone reader reuses, so the
- * two reading surfaces cannot drift apart.
- *
- * The drawer is the *composition-coupled* path (it can add to a draft). The
- * `/paper` reader is the pure-viewing path that shares none of that state.
+ * A modal reading surface on the catalogue page: it shows one paper's questions
+ * and nothing else. The question trees come from `shared/question/QuestionView`,
+ * which the standalone reader reuses, so the two reading surfaces cannot drift
+ * apart. Drafting lives in the composition workspace, not here.
  */
 
-import { BookOpenText, Check, LoaderCircle, Plus, X } from "lucide-react";
+import { BookOpenText, LoaderCircle, X } from "lucide-react";
 import { useEffect, useRef } from "react";
 
 import type { CatalogGateway } from "../../application/catalog/ports";
 import { usePaperDetail } from "../../application/query/hooks";
 import type { PaperDocument, PaperSummary } from "../../domain/catalog/models";
 import { subjectNames } from "../../domain/catalog/models";
-import { useWorkspace } from "../../app/CompositionWorkspace";
 import { QuestionView } from "../../shared/question/QuestionView";
-import { Button, IconButton } from "../../shared/ui";
+import { IconButton } from "../../shared/ui";
 
 export function PaperDetailDrawer({
   paper,
@@ -30,7 +26,6 @@ export function PaperDetailDrawer({
   gateway: CatalogGateway;
   onClose: () => void;
 }) {
-  const workspace = useWorkspace();
   // One query per paper; the cache makes reopening the same paper instant.
   const query = usePaperDetail(gateway, {
     seriesKey: paper.series_key,
@@ -45,7 +40,6 @@ export function PaperDetailDrawer({
   // the natural key but not the display name); the fetched document always
   // carries the real one in `meta`, so prefer it for the header once it arrives.
   const shown = detail?.meta ?? paper;
-  const selected = workspace.isSelected(paper.natural_key);
   const bodyRef = useRef<HTMLDivElement>(null);
 
   // Escape closes the drawer and the background must not scroll underneath it —
@@ -81,14 +75,6 @@ export function PaperDetailDrawer({
               {shown.series_name} 第 {shown.paper_no} 套
             </h3>
           </div>
-          <Button
-            size="sm"
-            variant={selected ? "primary" : "default"}
-            icon={selected ? <Check size={14} /> : <Plus size={14} />}
-            onClick={() => workspace.togglePaper(shown)}
-          >
-            {selected ? "已加入" : "加入组卷"}
-          </Button>
           <IconButton label="关闭" onClick={onClose}>
             <X size={17} />
           </IconButton>

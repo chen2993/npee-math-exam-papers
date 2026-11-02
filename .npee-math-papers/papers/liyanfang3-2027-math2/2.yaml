@@ -1,0 +1,310 @@
+schema_version: '3.0'
+paper:
+  series_key: liyanfang3
+  year: 2027
+  subject: math2
+  paper_no: 2
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      若 \(\lim\limits_{x\to0}\dfrac{\tan x+xf(x)}{x^3}=\dfrac{2}{3}\)，则当 \(x\to0\) 时，与 \(f(x)+1\) 等价的无穷小量为（ ）
+  choices:
+  - label: A
+    text: |-
+      \(\cos x-1\)
+    figures: []
+  - label: B
+    text: |-
+      \(\ln\left(1+\dfrac{x}{3}\right)\)
+    figures: []
+  - label: C
+    text: |-
+      \(1-\mathrm{e}^{x^2}\)
+    figures: []
+  - label: D
+    text: |-
+      \(\sqrt[3]{x^2+1}-1\)
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 \(f(x)\) 二阶可导，\(g(x)\) 是 \(f(x)\) 的反函数，\(y(x)=g(\cos x)\)，\(f(1)=0,f'(1)=-\dfrac{1}{2}\)，\(f''(1)=\dfrac{1}{2}\)，则 \(y'\left(\dfrac{\pi}{2}\right),y''\left(\dfrac{\pi}{2}\right)\) 分别为（ ）
+  choices:
+  - label: A
+    text: |-
+      \(2,2\)
+    figures: []
+  - label: B
+    text: |-
+      \(2,4\)
+    figures: []
+  - label: C
+    text: |-
+      \(-2,2\)
+    figures: []
+  - label: D
+    text: |-
+      \(-2,4\)
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 \(f(x)\) 为二阶可导的正值函数，满足 \(f''(x)f(x)-\dfrac{1}{2}[f'(x)]^2>0\)，则对任意不同的非负 \(x_1,x_2\)，有（ ）
+  choices:
+  - label: A
+    text: |-
+      \(\sqrt{f(x_1)}+\sqrt{f(x_2)}<2f\left(\sqrt{\dfrac{x_1+x_2}{2}}\right)\)
+    figures: []
+  - label: B
+    text: |-
+      \(\sqrt{f(x_1)}+\sqrt{f(x_2)}>2f\left(\sqrt{\dfrac{x_1+x_2}{2}}\right)\)
+    figures: []
+  - label: C
+    text: |-
+      \(\sqrt{f(x_1)}+\sqrt{f(x_2)}<2\sqrt{f\left(\dfrac{x_1+x_2}{2}\right)}\)
+    figures: []
+  - label: D
+    text: |-
+      \(\sqrt{f(x_1)}+\sqrt{f(x_2)}>2\sqrt{f\left(\dfrac{x_1+x_2}{2}\right)}\)
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设动点 \(P\) 从原点出发以匀速 \(v_0\) 沿 \(x\) 轴正向运动，点 \(A\) 为 \(y\) 轴正半轴上的定点，坐标为 \((0,a)\)，记 \(\angle APO=\alpha\)，\(AP\) 的长为 \(l\)，则 \(\alpha\) 关于时间的变化率为（ ）
+  choices:
+  - label: A
+    text: |-
+      \(\dfrac{av_0}{l}\)
+    figures: []
+  - label: B
+    text: |-
+      \(\dfrac{l}{av_0}\)
+    figures: []
+  - label: C
+    text: |-
+      \(\dfrac{av_0}{l^2}\)
+    figures: []
+  - label: D
+    text: |-
+      \(\dfrac{l^2}{av_0}\)
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 \(f(x,y)=\begin{cases}\sin(xy)\dfrac{x^2-y^4}{x^2+y^2},&(x,y)\neq(0,0),\\0,&(x,y)=(0,0),\end{cases}\) 则下列说法中，正确的是（ ）
+  choices:
+  - label: A
+    text: |-
+      \(\left.\dfrac{\partial^2f}{\partial x\partial y}\right|_{(0,0)},\left.\dfrac{\partial^2f}{\partial y\partial x}\right|_{(0,0)}\) 均不存在
+    figures: []
+  - label: B
+    text: |-
+      \(\left.\dfrac{\partial^2f}{\partial x\partial y}\right|_{(0,0)},\left.\dfrac{\partial^2f}{\partial y\partial x}\right|_{(0,0)}\) 有且仅有一个存在
+    figures: []
+  - label: C
+    text: |-
+      \(\left.\dfrac{\partial^2f}{\partial x\partial y}\right|_{(0,0)},\left.\dfrac{\partial^2f}{\partial y\partial x}\right|_{(0,0)}\) 均存在但不相等
+    figures: []
+  - label: D
+    text: |-
+      \(\left.\dfrac{\partial^2f}{\partial x\partial y}\right|_{(0,0)},\left.\dfrac{\partial^2f}{\partial y\partial x}\right|_{(0,0)}\) 均存在且相等
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设平面区域 \(D_1=\{(x,y)\mid0\leq x\leq y\leq1\},D_2=\{(x,y)\mid0\leq y\leq x\leq1\},D_3=\{(x,y)\mid0\leq -x\leq y\leq1\}\). 记 \(I_1=\iint\limits_{D_1}\dfrac{x}{(1+x+y)^2}\mathrm{d}x\mathrm{d}y,I_2=\iint\limits_{D_2}\dfrac{y}{(1+x+y)^2}\mathrm{d}x\mathrm{d}y,I_3=\iint\limits_{D_3}\dfrac{y}{1+x^2+y^2}\mathrm{d}x\mathrm{d}y\)，则（ ）
+  choices:
+  - label: A
+    text: |-
+      \(I_1<I_2<I_3\)
+    figures: []
+  - label: B
+    text: |-
+      \(I_2<I_3<I_1\)
+    figures: []
+  - label: C
+    text: |-
+      \(I_3<I_1<I_2\)
+    figures: []
+  - label: D
+    text: |-
+      \(I_2<I_1<I_3\)
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 \(f(x)\) 是最小正周期为 \(T\) 的连续函数，\(F(x)=\int_0^xf(t)\mathrm{d}t-\dfrac{x}{T}\int_0^Tf(t)\mathrm{d}t\)，则下列说法中，正确的是（ ）
+  choices:
+  - label: A
+    text: |-
+      \(F(x)\) 是周期函数，且 \(\lim\limits_{x\to+\infty}F(x)\) 存在
+    figures: []
+  - label: B
+    text: |-
+      \(F(x)\) 是周期函数，且 \(\lim\limits_{x\to+\infty}F(x)\) 不存在
+    figures: []
+  - label: C
+    text: |-
+      \(F(x)\) 不是周期函数，且 \(\lim\limits_{x\to+\infty}F(x)\) 存在
+    figures: []
+  - label: D
+    text: |-
+      \(F(x)\) 不是周期函数，且 \(\lim\limits_{x\to+\infty}F(x)\) 不存在
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 \(A=(a_{ij})\) 为 3 阶矩阵，\(A_{ij}\) 为 \(a_{ij}\) 的代数余子式，向量 \(\alpha=(1,0,0)^{\mathrm{T}}\)，已知 \(\begin{vmatrix}A&\alpha\\\alpha^{\mathrm{T}}&1\end{vmatrix}=0\)，则 \(|A|=(\quad)\)
+  choices:
+  - label: A
+    text: |-
+      \(A_{11}\)
+    figures: []
+  - label: B
+    text: |-
+      \(-A_{11}\)
+    figures: []
+  - label: C
+    text: |-
+      \(A_{13}\)
+    figures: []
+  - label: D
+    text: |-
+      \(-A_{13}\)
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 \(n\) 阶矩阵 \(A,B\) 满足 \(AB+BA=E\)，且 \(A^2=O\)，则下列说法中，正确的是（ ）
+  choices:
+  - label: A
+    text: |-
+      \(AB,BA\) 均能相似对角化
+    figures: []
+  - label: B
+    text: |-
+      \(AB\) 能相似对角化，\(BA\) 不能相似对角化
+    figures: []
+  - label: C
+    text: |-
+      \(AB\) 不能相似对角化，\(BA\) 能相似对角化
+    figures: []
+  - label: D
+    text: |-
+      \(AB,BA\) 均不能相似对角化
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 \(A\) 为 3 阶实对称矩阵，满足对任意非零列向量 \(x\)，都有 \(x^{\mathrm{T}}Ax<0\)，\(A^*\) 是 \(A\) 的伴随矩阵，则（ ）
+  choices:
+  - label: A
+    text: |-
+      \(A\) 的各阶顺序主子式之和小于 \(0\)
+    figures: []
+  - label: B
+    text: |-
+      \(-A\) 的各阶顺序主子式之和小于 \(0\)
+    figures: []
+  - label: C
+    text: |-
+      不存在矩阵 \(P\)，使得 \(A=PP^{\mathrm{T}}\)
+    figures: []
+  - label: D
+    text: |-
+      不存在可逆矩阵 \(P\)，使得 \(A^*=PP^{\mathrm{T}}\)
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      已知函数 \(y=y(x)\) 由 \(\begin{cases}x=\arctan(2t),\\\int_{y-t}^{\dfrac{\pi}{2}}\sqrt{1+\cos^2u}\,\mathrm{d}u=\sin t+t\cos t\end{cases}\) 确定，则 \(\left.\dfrac{\mathrm{d}y}{\mathrm{d}x}\right|_{t=0}=\underline{\qquad}\)
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设可导函数 \(f(x)\) 满足 \(f(x)=x-\dfrac{\pi}{2}\int_0^{\pi}\sin xf'(x)\mathrm{d}x\)，则 \(\int_{\pi}^{2\pi}f(x)\mathrm{d}x=\underline{\qquad}\)
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      微分方程 \(\dfrac{\mathrm{d}y}{\mathrm{d}x}=\dfrac{x+y+1}{x-y-1}\) 满足条件 \(y(1)=0\) 的解为 \(\underline{\qquad}\)
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      曲线 \(y^2=\dfrac{x}{(1+x^3)^2}(0<x<+\infty)\) 所围成的无界图形的面积为 \(\underline{\qquad}\)
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设有二阶连续偏导数的函数 \(u=u(x,y)\) 满足 \(\dfrac{\partial^2u}{\partial x^2}=2\dfrac{\partial^2u}{\partial y^2}\)，以及 \(u(x,2x)=x^2-2x,u_1'(x,2x)=3x\)，则 \(u_{12}''(x,2x)=\underline{\qquad}\)
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设矩阵 \(A\) 的伴随矩阵 \(A^*=\begin{pmatrix}0&0&1&0\\0&0&0&1\\1&-1&0&0\\1&7&0&0\end{pmatrix}\)，则 \(A=\underline{\qquad}\)
+- number: 17
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      ① 设 \(p>0\)，证明：\(\int_0^n x^p\mathrm{d}x\leq1^p+2^p+\cdots+n^p\leq\int_1^{n+1}x^p\mathrm{d}x\). ② 求 \(\lim\limits_{n\to\infty}\dfrac{(1^2+2^2+\cdots+n^2)^4}{(1^3+2^3+\cdots+n^3)^3}\)
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 \(f(x,y)=\dfrac{\max\{|x,y|\}}{(x^2+y^2)\left[4\min^2|x,y|-\max^2|x,y|\right]}\)，区域 \(D\) 由圆 \(x^2+y^2=x,x^2+y^2=2x,x^2+y^2=y,x^2+y^2=2y\) 围成，计算 \(\iint\limits_D f(x,y)\mathrm{d}x\mathrm{d}y\)
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 \(\varphi(t)\) 是 \([0,+\infty)\) 上的非负函数，且 \(\varphi(0)=0\)，函数 \(u=u(x,y)\) 由方程 \(u(x,y)=y+x\varphi(u)\) 确定，已知 \(2u_{xx}''-\varphi(u)u_{xy}''-\varphi^2(u)u_{yy}''=\left[\dfrac{u}{1-x\varphi'(u)}\right]^2\). 求 \(\varphi(t)\) 的表达式
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设曲线 \(y=y(x)(-1\leq x<0)\) 过点 \(P(-1,0)\)，\(y(x)\) 单调增加，曲线上任意一点 \(M\) 处的切线与 \(y\) 轴相交于点 \(T\). 若对任意一点 \(M\)，曲线弧段 \(\overset{\frown}{PM}\) 的长度均等于点 \(T\) 到原点的距离的一半，且曲线与 \(x\) 轴在点 \(P\) 处相切. 求曲线 \(y=y(x)\) 的方程
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 \(f(x)\) 在 \([0,1]\) 上三阶可导，且 \(f(0)=f(1)\)，\(f(x)\) 在 \(x=c(0<c<1)\) 处取得极值. 已知对任意 \(x\in(0,1)\)，都有 \(1\leq|f'''(x)|\leq4\). ①证明：\(\dfrac{1}{3}\leq c\leq\dfrac{2}{3}\). ② 证明：存在 \(\xi\in(0,1)\)，使得 \(|f'''(\xi)|\geq\dfrac{3|2c-1|}{c^3+(1-c)^3}\)
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      已知矩阵 \(A\) 满足 \(\begin{pmatrix}0&0&1\\0&1&0\\1&0&0\end{pmatrix}^{2027}A\begin{pmatrix}0&1&0\\0&0&1\\1&0&0\end{pmatrix}^{2027}=\begin{pmatrix}0&2&2\\1&1&2\\-1&2&3\end{pmatrix}\)，求矩阵 \(A\)，并判断 \(A\) 是否能相似对角化
+content_hash: cff8901e3075db3e68e7419d145fa737d6166e55e04c0c243bb4a9d61ed8bb73

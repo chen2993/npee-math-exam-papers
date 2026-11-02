@@ -4,14 +4,13 @@ paper:
   year: 2025
   subject: math1
   paper_no: 2
-content_hash: be465865c1baeac15533ea46c4f8e375bd4f1156bae9120057a2dcd4a57066e0
 questions:
 - number: 1
   section: choice
   points: 5
   stem:
     text: |-
-      设 $f(x)$ 在 $x=0$ 处连续，下列结论：$①$若 $f'_-(0)$ 存在，则 $f'_+(0)$ 存在；$②$若 $\lim_{x\to 0^-}f'(x)$ 存在，则 $\lim_{x\to 0^+}f'(x)$ 存在；$③$若 $f'_-(0)$ 与 $f'_+(0)$ 均存在，则 $f'(0)$ 存在；$④$若 $\lim_{x\to 0}f'(x)$ 存在，则 $f'(0)$ 存在。正确结论的个数为\ExamSelection
+      设 $f(x)$ 在 $x=0$ 处连续，下列结论：\n①若 $f'_-(0)$ 存在，则 $f'_+(0)$ 存在；\n②若 $\lim_{x\to 0^-}f'(x)$ 存在，则 $\lim_{x\to 0^+}f'(x)$ 存在；\n③若 $f'_-(0)$ 与 $f'_+(0)$ 均存在，则 $f'(0)$ 存在；\n④若 $\lim_{x\to 0}f'(x)$ 存在，则 $f'(0)$ 存在。\n正确结论的个数为\ExamSelection
   choices:
   - label: A
     text: '1'
@@ -304,3 +303,4 @@ questions:
       求 $\theta$ 的矩估计量 $\hat\theta_1$ 及 $D(\hat\theta_1)$；
   - text: |-
       求 $\theta$ 的最大似然估计量 $\hat\theta_2$ 及 $D(\hat\theta_2)$。
+content_hash: 81f47ba87b42bcabb4fe0d236a287bcaf29f2015240cefc358bbdb506ad5ed0c

@@ -1,0 +1,121 @@
+% 张宇八套卷重新提取勘误（由 build/zy8_errata.py 生成，请勿手改）。
+%
+% 每份 PDF 只放一个科目；条目按「年份-套次 / 题号：原内容 → 正确内容」给，
+% 红色 = 题库原录入，绿色 = 更正后内容。
+%
+% 依据：对源页 PNG 的原生多模态观察（逐条裁片放大核对），
+% 未使用 OCR，未使用 PDF 文本层。
+\documentclass[11pt,a4paper]{ctexart}
+
+\usepackage[margin=2.2cm,top=2.6cm]{geometry}
+\usepackage{amsmath,amssymb,bm}
+\usepackage{tikz}
+\usetikzlibrary{patterns,arrows.meta,calc}
+\usepgflibrary{plothandlers}
+\usepackage{xcolor}
+\usepackage{fancyhdr}
+\usepackage{hyperref}
+
+\definecolor{errata-red}{RGB}{198,40,40}
+\definecolor{errata-green}{RGB}{20,120,60}
+
+\newcommand{\rc}[1]{\textcolor{errata-red}{#1}}
+\newcommand{\gc}[1]{\textcolor{errata-green}{#1}}
+\newcommand{\Paper}[1]{\par\vspace{9pt}{\bfseries #1}\par\vspace{3pt}}
+\newcommand{\pair}[1]{\par\hangindent=2.2em\hangafter=1 #1\par\vspace{1pt}}
+
+\newcommand{\ErrataSubject}{数学二}
+
+% 题库正文里使用的两个项目宏。勘误文档不排版整卷，只把它们的**印刷形态**画出来，
+% 这样勘误条目与原卷面部一致（选择题的括号、填空题的横线）。
+\newcommand{\ExamSelection}{（\quad）}
+\newcommand{\ExamBlank}{\underline{\hspace{3em}}}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\fancyfoot[C]{\small\thepage}
+
+\setlength{\parindent}{0pt}
+\linespread{1.12}
+\hypersetup{colorlinks=true,linkcolor=errata-green,urlcolor=errata-green}
+
+\begin{document}
+
+\begin{center}
+  {\LARGE\bfseries 张宇八套卷题库勘误清单（\ErrataSubject）}
+\end{center}
+\vspace{2pt}
+\begin{center}
+  \small 依据源页逐题回图核对，共 205 处经复核，其中 33 处为题库识别错误并已更正。
+\end{center}
+\vspace{6pt}
+\hrule
+\vspace{8pt}
+
+\Paper{2023 张宇八套卷（数学二）第 3 套}
+\pair{6：\rc{（整段重录）} $\longrightarrow$ \gc{设 $z=f(u,v),u=x-2y,v=x+ay$，函数 $f$ 具有二阶连续偏导数，且 $\dfrac{\partial^2z}{\partial u^2}=\dfrac{\partial^2z}{\partial v^2}$，$\dfrac{\partial^2z}{\partial u^2}+\dfrac{\partial^2z}{\partial u\partial v}
+e0$。若 $\dfrac{\partial^2z}{\partial x\partial y}=0$，则常数 $a=$\ExamSelection}}
+\Paper{2024 张宇八套卷（数学二）第 1 套}
+\pair{6：\rc{（整段重录）} $\longrightarrow$ \gc{$y'''+2y''=0$}}
+\Paper{2024 张宇八套卷（数学二）第 5 套}
+\pair{4：\rc{（整段重录）} $\longrightarrow$ \gc{设 $f(x)$ 是以 $2$ 为周期的连续函数，$\int_0^2f(x)\,\mathrm{d}x=1$，$g(x)$ 是过点 $(-\dfrac{1}{2},0)$ 和 $(0,1)$ 的直线，则 $\int_0^2f[g(x)]\,\mathrm{d}x=$\ExamSelection}}
+\pair{21：\rc{（整段重录）} $\longrightarrow$ \gc{设 $f(x)$ 在 $[-a,a]$（$a>0$）上二阶可导，且 $f(-a)=-1,f(a)=1,f'(-a)=f'(a)=0,|f''(x)|\leq1$。证明：}}
+\pair{21：\rc{（整段重录）} $\longrightarrow$ \gc{$a>\sqrt{2}$。}}
+\Paper{2025 张宇八套卷（数学二）第 2 套}
+\pair{3：图形重绘（源页 zhangyu8-2025-math2/pages/p007.png）。源页 p007（卷(二)，页脚「第6页」已核对）第3题右侧图：两圆 ＄x＾2+y＾2=2y＄（纵轴标 ＄2＄、＄1＄）与 ＄x＾2+y＾2=1＄（标 ＄-1＄）相交于 ＄y=／frac12＄ 高度；在 ＄y=1＄ 处与交点高度 ＄y=／frac12＄ 处各印一条水平虚线（10～12 倍放大裁片 ad3-zhangyu8-2025-math2-p2＿q3＿arczoom.png、＿p2＿q3＿lines.png 可见上下两排短划），且两圆在交点之间的内侧弧画成虚线（镜片区内侧四段短斜划）。题库 tikz 把两圆画成完整实线圆、只保留 ＄y=0.5＄ 一条水平虚线，漏掉 ＄y=1＄ 处的水平虚线且内侧弧未画虚；重读 tikz 两条水平虚线与虚线内侧弧齐全，与源页一致。}
+\pair{16：\rc{（整段重录）} $\longrightarrow$ \gc{设 $\mathbf{A}=\begin{pmatrix}a&&\\&b&\\&&a\end{pmatrix}$，$\mathbf{P}=\begin{pmatrix}2&1&0\\0&2&1\\0&0&2\end{pmatrix}$，则 $\mathbf{P}^{2}\mathbf{A}\mathbf{P}^{-1}=$\ExamBlank。}}
+\Paper{2025 张宇八套卷（数学二）第 6 套}
+\pair{7：图形重绘（源页 zhangyu8-2025-math2/pages/p024.png）。源页 p024（卷(六)，页脚「第22页」已核对）第7题图：＄x＄、＄y＄ 轴交于 ＄A＄；纵轴上 ＄(0,s)＄ 处一个实心点，自 ＄(0,s)＄ 向右下引一条直线，该直线经过实心点 ＄(x,y)＄ 后继续下行落于 ＄x＄ 轴；曲线 ＄y=y(x)＄ 的上端是一个不触纵轴的自由端点（位于 ＄(0,s)＄ 右上方），向下与直线在 ＄(x,y)＄ 处相交，再趋平落到 ＄x＄ 轴上的 ＄B(l,0)＄；＄(x,y)＄ 向纵轴、横轴各画一条虚线，分别标 ＄y＄、＄x＄。像素级描迹（裁片 ad3-zhangyu8-2025-math2-p6＿q7＿grid2.png、＿p6＿q7＿tangent.png，后者约 10 倍放大）显示：直线自纵轴 ＄y／approx872＄ px 处以约 0.84 的斜率单调下行，曲线自 ＄(0,s)＄ 右上方的自由…}
+\Paper{2026 张宇八套卷（数学二）第 1 套}
+\pair{7：\rc{（整段重录）} $\longrightarrow$ \gc{设 $f(x)$ 在 $(0,+\infty)$ 内可导，以下结论：
+①若 $\lim f(x)$ 存在，则 $\lim f'(x)$ 存在；
+②若 $\lim f'(x)$ 存在，则 $\lim f(x)$ 存在；
+③若 $\displaystyle \lim_{x\to+\infty}f'(x)=a
+eq0$，则 $f(x)$ 在 $x\to+\infty$ 时无界；
+④若 $\displaystyle \lim_{x\to+\infty}f'(x)=0$，则 $f(x)$ 在 $x\to+\infty$ 时有界。
+正确的个数为\ExamSelection。}}
+\Paper{2026 张宇八套卷（数学二）第 2 套}
+\pair{6：\rc{（整段重录）} $\longrightarrow$ \gc{$f'_x(x,y),f'_y(x,y)$不连续，$f(x,y)$不可微。}}
+\pair{6：\rc{（整段重录）} $\longrightarrow$ \gc{$f_x(0,0),f_x(0,0)$均存在。}}
+\pair{6：\rc{（整段重录）} $\longrightarrow$ \gc{$f^{xy}(0,0)$存在，$f_x(0,0)$不存在。}}
+\pair{20：\rc{（整段重录）} $\longrightarrow$ \gc{$f(x,y)$的表达式；}}
+\pair{20：\rc{（整段重录）} $\longrightarrow$ \gc{$f(x,y)$的极值。}}
+\Paper{2026 张宇八套卷（数学二）第 3 套}
+\pair{10：\rc{（整段重录）} $\longrightarrow$ \gc{设 $A$ 为 $n$ 阶方阵，有下列结论：
+①若 $A$ 的全部顺序主子式为正，则 $A$ 正定；
+②若 $A$ 相似于对角矩阵 $A$，则 $A$ 与 $A$ 合同；
+③若 $A$ 与正定矩阵合同，则 $A$ 为正定矩阵。
+则正确结论的个数为\ExamSelection。}}
+\Paper{2026 张宇八套卷（数学二）第 4 套}
+\pair{4：\rc{（整段重录）} $\longrightarrow$ \gc{$-\dfrac{z}{z+1}(e^{-x}-e^{-y})$}}
+\pair{4：\rc{（整段重录）} $\longrightarrow$ \gc{$-\dfrac{z}{z+1}(e^{-x}+e^{-y})$}}
+\pair{16：\rc{（整段重录）} $\longrightarrow$ \gc{设 $\boldsymbol{\alpha}_1=\begin{pmatrix}4\\1\\2\end{pmatrix},\ \boldsymbol{\alpha}_2=\begin{pmatrix}1\\1\\-1\end{pmatrix},\ \boldsymbol{\alpha}_3=\begin{pmatrix}-2\\0\\4\end{pmatrix},\ \boldsymbol{\alpha}_4=\begin{pmatrix}7\\2\\-3\end{pmatrix},\ \boldsymbol{A}=(\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3,\boldsymbol{\alpha}_4)$，则 $\boldsymbol{A}\boldsymbol{x}=\boldsymbol{\alpha}_2+3\boldsymbol{\alpha}_4$ 的通解为\ExamBlank。}}
+\Paper{2026 张宇八套卷（数学二）第 5 套}
+\pair{5：\rc{（整段重录）} $\longrightarrow$ \gc{$2\mathrm{e}^{3}3$}}
+\Paper{2026 张宇八套卷（数学二）第 6 套}
+\pair{10：\rc{（整段重录）} $\longrightarrow$ \gc{设 $n$ 阶方阵 $A=(a_1,a_2,\cdots,a_n)$，$B=(\beta_1,\beta_2,\cdots,\beta_n)$，$AB=(y_1,y_2,\cdots,y_n)$，记向量组Ⅰ：$\alpha_1,\alpha_2,\cdots,a_n$，向量组Ⅱ：$\beta_1,\beta_2,\cdots,\beta_n$，向量组Ⅲ：$\gamma_1,\gamma_2,\cdots,\gamma_n$。如果向量组Ⅲ线性相关，则\ExamSelection}}
+\Paper{2026 张宇八套卷（数学二）第 7 套}
+\pair{5：\rc{（整段重录）} $\longrightarrow$ \gc{$f:(x,y)$ 连续，$f(x,y)$ 可微。}}
+\pair{5：\rc{（整段重录）} $\longrightarrow$ \gc{$f'(x,y)$ 连续，$f(x,y)$ 不可微。}}
+\pair{5：\rc{（整段重录）} $\longrightarrow$ \gc{$f:(x,y)$ 不连续，$f(x,y)$ 可微。}}
+\pair{5：\rc{（整段重录）} $\longrightarrow$ \gc{$f:(x,y)$ 不连续，$f(x,y)$ 不可微。}}
+\pair{9：\rc{（整段重录）} $\longrightarrow$ \gc{$a_1,a_2,\cdots,a_r$ 中至少有一个向量能由其余向量线性表示。}}
+\pair{9：\rc{（整段重录）} $\longrightarrow$ \gc{$n$ 维向量组 $a_1,a_2,\cdots,a_r\ (3\leq r\leq n)$ 线性相关的充分必要条件是\ExamSelection。}}
+\pair{10：\rc{（整段重录）} $\longrightarrow$ \gc{若 $A,A^{\circ},B$ 都是 $n\ (n>2)$ 阶非零矩阵，且 $A'$ 是 $A$ 的伴随矩阵，$AB=O$，则 $r(B)=$\ExamSelection。}}
+\pair{19：\rc{（整段重录）} $\longrightarrow$ \gc{设 $f(x)$ 在 $\left[0,\dfrac{3}{2}\pi\right]$ 上连续，在 $\left(0,\dfrac{3}{2}\pi\right)$ 内是函数 $\dfrac{\sin x}{x}$ 的一个原函数，$f(0)=0$。}}
+\pair{19：\rc{（整段重录）} $\longrightarrow$ \gc{证明 $f\left(\dfrac{3}{2}\pi\right)>0$；}}
+\Paper{2026 张宇八套卷（数学二）第 8 套}
+\pair{2：\rc{（整段重录）} $\longrightarrow$ \gc{设 $f(x)$ 在 $(0,+\infty)$ 内可导，对于以下结论
+①若 $\lim f(x)$ 存在，$\lim f'(x)$ 存在，则 $\lim_{x\to+\infty}f'(x)=0$；
+②若 $\lim_{x\to+\infty}[f(x)+f'(x)]$ 存在，则 $\lim_{x\to+\infty}f'(x)=0$。
+正确的说法是\ExamSelection}}
+\pair{8：\rc{（整段重录）} $\longrightarrow$ \gc{$D_1,D_2,\cdots\cdots,D_n$ 为等差数列。}}
+\pair{8：\rc{（整段重录）} $\longrightarrow$ \gc{设 $n$ 阶行列式 $\begin{vmatrix}2&1&0&\cdots&0\\1&2&1&\cdots&0\\0&1&2&\cdots&0\\\vdots&\vdots&\vdots& &\vdots\\0&0&0&\cdots&2\end{vmatrix}$，则\ExamSelection}}
+\pair{10：\rc{（整段重录）} $\longrightarrow$ \gc{设 $a_1,a_2,\cdots\cdots,a_n$ 是 $n$ 个 $n$ 维的线性无关向量，$\boldsymbol{\alpha}_{n+1}=k_1\boldsymbol{\alpha}_1+k_2\boldsymbol{\alpha}_2+\cdots+k_n\boldsymbol{\alpha}_n$，其中 $k_1,k_2,\cdots,k_n$ 全不为 0，则下列结论
+①$a_2,a_3,\cdots\cdots,a_{n+1}$ 线性相关；
+②$\alpha_1,a_3,\cdots\cdots,a_{n+1}$ 线性相关；
+③$\alpha_1,a_2,a_4,\cdots\cdots,a_{n+1}$ 线性相关。
+正确的个数为\ExamSelection}}
+
+\end{document}

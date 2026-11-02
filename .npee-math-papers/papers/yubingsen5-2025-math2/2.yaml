@@ -4,7 +4,6 @@ paper:
   year: 2025
   subject: math2
   paper_no: 2
-content_hash: 34eadf00001b5027ffe4cd8e2c8ada3e61aa892b42524615aaced7abd653b609
 questions:
 - number: 1
   section: choice
@@ -30,7 +29,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设函数 $y=f(x)$ 在闭区间 $[a,b]$ 上有定义，对于命题：①若 $y=f$ 在 $[a,b]$ 上无界，则 $y=f(x)$ 在 $[a,b]$ 上必不连续；②若 $y=f$ 在 $[a,b]$ 上可导，则导函数 $f'(x)$ 在 $[a,b]$ 上必有界；③若 $y=f$ 在 $[a,b]$ 上可积，则 $y=f(x)$ 在 $[a,b]$ 上必存在原函数。则以上三个命题中正确的个数是\ExamSelection。
+      设函数 $y=f(x)$ 在闭区间 $[a,b]$ 上有定义，对于命题：\n①若 $y=f$ 在 $[a,b]$ 上无界，则 $y=f(x)$ 在 $[a,b]$ 上必不连续；\n②若 $y=f$ 在 $[a,b]$ 上可导，则导函数 $f'(x)$ 在 $[a,b]$ 上必有界；\n③若 $y=f$ 在 $[a,b]$ 上可积，则 $y=f(x)$ 在 $[a,b]$ 上必存在原函数。\n则以上三个命题中正确的个数是\ExamSelection。
   choices:
   - label: A
     text: $0$
@@ -264,8 +263,12 @@ questions:
   section: solution
   points: 12
   stem:
-    text: |-
-      （1）计算 $I=\int_0^{\dfrac12}\mathrm{d}y\int_y^{\dfrac12}\dfrac{\ln(1+x)}{x}\,\mathrm{d}x$；（2）求 $f(x)=\ln(1+x)$ 的二阶麦克劳林公式 $\ln(1+x)=a+bx+cx^2+R_2(x)$，并计算 $\int_0^{\dfrac12}\mathrm{d}y\int_y^{\dfrac12}\dfrac{R_2(x)}{x}\,\mathrm{d}x$。
+    text: '{}'
+  subparts:
+  - text: |-
+      计算 $I=\int_0^{\dfrac12}\mathrm{d}y\int_y^{\dfrac12}\dfrac{\ln(1+x)}{x}\,\mathrm{d}x$；
+  - text: |-
+      求 $f(x)=\ln(1+x)$ 的二阶麦克劳林公式 $\ln(1+x)=a+bx+cx^2+R_2(x)$，并计算 $\int_0^{\dfrac12}\mathrm{d}y\int_y^{\dfrac12}\dfrac{R_2(x)}{x}\,\mathrm{d}x$。
 - number: 20
   section: solution
   points: 12
@@ -289,3 +292,4 @@ questions:
   - text: 一个正交矩阵 $Q$，使得 $Q^{-1}AQ$ 为对角矩阵；
   - text: |-
       判断二次型 $\boldsymbol{x}^{\mathrm T}(A+4E)\boldsymbol{x}$ 是否为正定二次型，并说明理由。
+content_hash: e262003b127f5e4acb5ef8dc8726d6dbe6a9ae0229819747a2f5987ca17bd50f

@@ -4,7 +4,6 @@ paper:
   year: 2025
   subject: math2
   paper_no: 4
-content_hash: 992ca5ac4a30cb0815e76c664b23d9e8d7c91edc87093eebc76c8ac76ae7ebd2
 questions:
 - number: 1
   section: choice
@@ -267,7 +266,7 @@ questions:
   points: 10
   stem:
     text: |-
-      求曲线 $y=\dfrac{1+\displaystyle\int_0^xe^{t^2}\,\mathrm{d}t}{1-e^{1/x}}\ (x>0)$ 的斜渐近线。
+      求曲线 $y=\dfrac{1+\displaystyle\int_0^{\frac{1}{x}}e^{t^2}\,\mathrm{d}t}{1-e^{1/x}}\ (x>0)$ 的斜渐近线。
 - number: 18
   section: solution
   points: 12
@@ -309,3 +308,4 @@ questions:
   - text: 求正交矩阵 $Q$，将 $f(x)$ 化为标准形。
   - text: |-
       求一个实对称矩阵 $P$，使 $f(x)=x^{\mathsf T}P^2x$。
+content_hash: 97eb1b9fde2aea051623986cc10d338365e5cb06a1aee92aafa452b8a1618bd8

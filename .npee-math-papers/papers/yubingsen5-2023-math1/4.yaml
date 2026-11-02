@@ -1,0 +1,281 @@
+schema_version: '3.0'
+paper:
+  series_key: yubingsen5
+  year: 2023
+  subject: math1
+  paper_no: 4
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $a_1 > 0, a_{n+1} = a_n + \dfrac{1}{a_n}, n = 1, 2, \cdots$, 则在下列极限 $\lim\limits_{n \to \infty} a_n, \lim\limits_{n \to \infty} \dfrac{1}{a_n}, \lim\limits_{n \to \infty} \dfrac{a_{n+1}}{a_n}, \lim\limits_{n \to \infty} (a_{n+1} + a_n), \lim\limits_{n \to \infty} (a_{n+1}^2 - a_n^2)$ 中, 极限存在的个数为 ( )
+  choices:
+  - label: A
+    text: '2'
+    figures: []
+  - label: B
+    text: '3'
+    figures: []
+  - label: C
+    text: '4'
+    figures: []
+  - label: D
+    text: '5'
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x)=\begin{cases} -(x+2)^3, & x1, \end{cases}$
+  choices:
+  - label: A
+    text: 在点 $x=-2$ 处取极值
+    figures: []
+  - label: B
+    text: 在点 $x=-1$ 处取极值
+    figures: []
+  - label: C
+    text: 在点 $x=1$ 处取极值
+    figures: []
+  - label: D
+    text: 在点 $x=2$ 处取极值
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $\varphi(x, y) \neq 0$ 且具有连续的一阶偏导数，函数 $u(x, y)$ 的全微分 $\mathrm{d}u = \dfrac{y\mathrm{d}x + x\mathrm{d}y}{\varphi(x, y)}$，则下列等式成立的是（ ）
+  choices:
+  - label: A
+    text: |-
+      $x\varphi'_y(x, y) = y\varphi'_x(x, y)$
+    figures: []
+  - label: B
+    text: |-
+      $x\varphi'_y(x, y) = -y\varphi'_x(x, y)$
+    figures: []
+  - label: C
+    text: |-
+      $x\varphi'_x(x, y) = y\varphi'_y(x, y)$
+    figures: []
+  - label: D
+    text: |-
+      $x\varphi'_x(x, y) = -y\varphi'_y(x, y)$
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $0<a_n<\dfrac{1}{n}\ (n=1,2,\cdots)$，则下列级数中肯定收敛的是（ ）
+  choices:
+  - label: A
+    text: |-
+      $\sum_{n=1}^{\infty} a_n$
+    figures: []
+  - label: B
+    text: |-
+      $\sum_{n=1}^{\infty} (-1)^n a_n$
+    figures: []
+  - label: C
+    text: |-
+      $\sum_{n=2}^{\infty} \dfrac{a_n}{\ln n}$
+    figures: []
+  - label: D
+    text: |-
+      $\sum_{n=2}^{\infty} a_n^2 \ln^2 n$
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 为 $m \times n$ 矩阵 ($m < n$), $r(A) = m$, 以下五个命题： ①存在 $m$ 阶不可逆矩阵 $P$, 使得 $PA = (E_m, O)$; ②存在 $m$ 阶可逆矩阵 $P$, 使得 $A = P(E_m, O)$; ③存在 $n$ 阶可逆矩阵 $Q$, 使得 $A = (E_m, O)Q$; ④对任意的 $m$ 维非零列向量 $b$, 方程组 $Ax = b$ 必有无穷多解; ⑤$A$ 的列向量组一定线性无关. 其中正确的个数为 ( )
+  choices:
+  - label: A
+    text: '1'
+    figures: []
+  - label: B
+    text: '2'
+    figures: []
+  - label: C
+    text: '3'
+    figures: []
+  - label: D
+    text: '4'
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 是三阶矩阵$,P=(p_1,p_2,p_3)$ 为三阶可逆矩阵，满足 $P^{-1}AP=\begin{pmatrix} 2 & & \\ & 2 & \\ & & 3 \end{pmatrix}$，若有可逆矩阵 $Q$ 使得 $Q^{-1}(A+A^*)Q=\begin{pmatrix} 8 & & \\ & 8 & \\ & & 7 \end{pmatrix}$，则 $Q$ 不可以取为（ ）
+  choices:
+  - label: A
+    text: $(2p_1,-3p_2,3p_3)$
+    figures: []
+  - label: B
+    text: $(p_1-p_2,2p_2,p_3)$
+    figures: []
+  - label: C
+    text: $(p_1-2p_2,p_1+p_2,p_3)$
+    figures: []
+  - label: D
+    text: $(p_1,p_2+p_3,p_3)$
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设二次型 $f\left(x_{1}, x_{2}, \cdots, x_{n}\right)=\sum_{i=1}^{m}\left(a_{i 1} x_{1}+a_{i 2} x_{2}+\cdots+a_{i n} x_{n}\right)^{2}$，其中 $a_{i j} \in \mathbf{R}, i=1,2, \cdots, m ; j=1,2, \cdots, n$ $,A=\left(a_{i j}\right)_{m \times n}$，则二次型 $f$ 的秩为（ ）
+  choices:
+  - label: A
+    text: $m$
+    figures: []
+  - label: B
+    text: $n$
+    figures: []
+  - label: C
+    text: $r(A)$
+    figures: []
+  - label: D
+    text: 无法确定
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      随机变量 $X\sim E(1)$，事件 $A=\{0\leqslant X\leqslant \ln 4\}, B=\{\ln 2\leqslant X\leqslant \ln 6\}, C=\{\ln 5\leqslant X\leqslant \ln 10\}$，则（ ）．
+  choices:
+  - label: A
+    text: $A$ 和 $B$ 相互独立$,A$ 和 $C$ 相互独立
+    figures: []
+  - label: B
+    text: $A$ 和 $B$ 相互独立$,A$ 和 $C$ 相互独立
+    figures: []
+  - label: C
+    text: $A$ 和 $C$ 相互独立$,B$ 和 $C$ 相互独立
+    figures: []
+  - label: D
+    text: $A, B, C$ 两两独立
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设随机变量 $\theta \sim U(-\pi, \pi), X=2\cos\theta, Y=\sin\theta$, 则 ( )
+  choices:
+  - label: A
+    text: $X$ 和 $Y$ 相互独立
+    figures: []
+  - label: B
+    text: $X^2$ 和 $Y^2$ 相互独立
+    figures: []
+  - label: C
+    text: $X$ 与 $Y$ 不相关
+    figures: []
+  - label: D
+    text: $X^2$ 与 $Y^2$ 不相关
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      在假设检验问题 $(H_0,H_1)$ 中，若显著性水平为 $\alpha(0<\alpha<1)$，则犯第一类错误的概率为（ ）
+  choices:
+  - label: A
+    text: |-
+      $\alpha$
+    figures: []
+  - label: B
+    text: |-
+      $1-\alpha$
+    figures: []
+  - label: C
+    text: |-
+      小于等于 $\alpha$
+    figures: []
+  - label: D
+    text: |-
+      小于等于 $1-\alpha$
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: 曲线 $y^2 = x^2 - x^4$ 所围区域面积为lank
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x)$ 连续，如果对任意的 $x$，有 $\int_0^1 [f(x) + xf(xt)] \mathrm{d}t = 1$，则 $f(x) = \underline{\hspace{2cm}}$
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      极限 $\lim\limits_{x \to 0} \int_{\ln (1+x)}^x \dfrac{(1-2t)^{\dfrac{1}{t}}}{t^2} dt = \underline{\qquad\qquad}$
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $\Omega: x^2+y^2+z^2 \leqslant 4, x^2+y^2+z^2 \geqslant 2z$，则 $\iiint_{\Omega} (x^2+y^2+z^2) \mathrm{d}x\mathrm{d}y\mathrm{d}z = \underline{\hspace{2cm}}$。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $R^4$ 中两组基 $(I)\mathbf{e}_1=\begin{pmatrix} 1 \\ 0 \\ 0 \\ 0 \\ 0 \end{pmatrix}, \mathbf{e}_2=\begin{pmatrix} 0 \\ 1 \\ 0 \\ 0 \\ 1 \end{pmatrix}, \mathbf{e}_3=\begin{pmatrix} 0 \\ 0 \\ 0 \\ 1 \\ 0 \end{pmatrix}$ 和 $(II)\alpha_1=\begin{pmatrix} 2 \\ 1 \\ -1 \\ 1 \\ 1 \end{pmatrix}, \alpha_2=\begin{pmatrix} 0 \\ 3 \\ 1 \\ 0 \\ 1 \end{pmatrix}, \alpha_3=\begin{pmatrix} 5 \\ 3 \\ 2 \\ 1 \\ 1 \end{pmatrix}, \alpha_4=\begin{pmatrix} 6 \\ 5 \\ 1 \\ 3 \\ 3 \end{pmatrix}$，则在以上两组基下有相同坐标的非零向量为\underline{\quad\quad}
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设随机变量 $X$ 和 $Y$ 相互独立，且均服从 $U(-1,2)$，则 $P\{\min(X,Y) \leqslant 1 \leqslant \max(X,Y)\} = \underline{\qquad}$
+- number: 17
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      已知 $f(x)$ 是以 $T(T>0)$ 为周期的连续函数, 且 $f(0)=1,F(x)=\int_{0}^{2x}|x-t|f(t)dt$, 求 $F'(T)$
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 $f(u)$ 在 $(0, +\infty)$ 内可导$,z=xf\left(\dfrac{y}{x}\right)+y$ 满足关系式 $x\dfrac{\partial z}{\partial x}-y\dfrac{\partial z}{\partial y}=2z$，且 $f(1)=1$，求曲线 $y=f(x)$ 的渐近线
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设曲线 $\Gamma$ 为 $\begin{cases} x^2+y^2+z^2=1, \\ x+z=1, \end{cases} x \geqslant 0, y \geqslant 0, z \geqslant 0$ 上从 $A(1,0,0)$ 到 $B(0,0,1)$ 的一段弧，计算曲线积分 $I = \int_{\Gamma} y\,\mathrm{d}x + z\,\mathrm{d}y + x\,\mathrm{d}z$
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      当 $x>0$ 时，证明：存在 $\xi(x) \in (0,x)$，使得 $\ln(1+x) = \dfrac{x}{1+\xi(x)}$； (2) 当 $0<x<1$ 时，证明 (1) 中的 $\xi(x)$ 满足 $0 < \xi(x) < \dfrac{1}{\ln 2} - 1$。
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $A$ 为 $3$ 阶方阵, $\alpha_1, \alpha_2, \alpha_3$ 为线性无关的三维列向量, 且 $A\alpha_1 = \alpha_2, A^2\alpha_1 = 2\alpha_1 + \alpha_2, A\alpha_3 = 2\alpha_3$. (1) 求 $|A+2E|$; (2) 求 $A$ 的特征值及对应的线性无关的特征向量
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设随机变量 $Y$ 的概率密度函数为 $f_Y(y) = \begin{cases} \dfrac{3}{2}(1-y^2), & 0<y<1, \\ 0, \end{cases}$ 在 $Y=y(0<y<1)$ 的条件下$,X$ 的条件密度函数为 $f_{X|Y}(x|y) = \begin{cases} \dfrac{2(x+y)}{1-y^2}, & 0<x<1-y, \\ 0, & \text{其他.} \end{cases}$ 随机变量 $Z \sim \begin{pmatrix} -1 & 1 \\ \dfrac{1}{3} & \dfrac{2}{3} \end{pmatrix}$，且 $Z$ 与 $(X,Y)$ 相互独立. (1) 求随机变量 $(X,Y)$ 的密度函数 $f(x,y)$； (2) 求 $U=X+Y+Z$ 的分布函数
+content_hash: a57be712f5eaf516b91222603d7e9ce57ad698497968935cb9a8d09f57f3ff04

@@ -4,319 +4,306 @@ paper:
   year: 2026
   subject: math1
   paper_no: 2
-content_hash: 778d49c2e1d9dace322d2559e6cf5aaf0c27ea6300a49e1632d0ae22d5be532b
 questions:
 - number: 1
   section: choice
   points: 5
   stem:
     text: |-
-      函数 $f(x)=\dfrac{\left(e^{\dfrac{1}{x-1}}-1\right)|x|}{(x+1)\ln|x-1|}$ 的第一类间断点的个数为\ExamSelection
+      函数 \( f(x)=\dfrac{\left(e^{\dfrac{1}{x-1}}-1\right)|x|}{(x+1)\ln|x-1|}\) 的第一类间断点的个数为( )
   choices:
   - label: A
-    text: $0$
+    text: |-
+      \(0\)
     figures: []
   - label: B
-    text: $1$
+    text: |-
+      \(1\)
     figures: []
   - label: C
-    text: $2$
+    text: |-
+      \(2\)
     figures: []
   - label: D
-    text: $3$
+    text: |-
+      \(3\)
     figures: []
 - number: 2
   section: choice
   points: 5
   stem:
     text: |-
-      设 $z=z(x,y)$ 是由方程 $\int_{2x-3y}^{z}f(2x-3y+z-t)\,\mathrm{d}t=\sin(2x-3y+z)$ 所确定的函数，其中 $f$ 为大于 $1$ 的连续函数，则\ExamSelection
+      设 \(z=z(x,y)\) 是由方程 \( \int_{2x-3y}^{z}f(2x-3y+z-t)\,dt=\sin(2x-3y+z)\) 所确定的函数，其中 \(f\) 为大于 \(1\) 的连续函数，则( )
   choices:
   - label: A
     text: |-
-      $3\dfrac{\partial z}{\partial x}+2\dfrac{\partial z}{\partial y}=0$。
+      \( 3\dfrac{\partial z}{\partial x}+2\dfrac{\partial z}{\partial y}=0\)
     figures: []
   - label: B
     text: |-
-      $3\dfrac{\partial z}{\partial x}-2\dfrac{\partial z}{\partial y}=0$。
+      \( 3\dfrac{\partial z}{\partial x}-2\dfrac{\partial z}{\partial y}=0\)
     figures: []
   - label: C
     text: |-
-      $2\dfrac{\partial z}{\partial x}+3\dfrac{\partial z}{\partial y}=0$。
+      \( 2\dfrac{\partial z}{\partial x}+3\dfrac{\partial z}{\partial y}=0\)
     figures: []
   - label: D
     text: |-
-      $2\dfrac{\partial z}{\partial x}-3\dfrac{\partial z}{\partial y}=0$。
+      \( 2\dfrac{\partial z}{\partial x}-3\dfrac{\partial z}{\partial y}=0\)
     figures: []
 - number: 3
   section: choice
   points: 5
   stem:
     text: |-
-      设 $a$ 与 $b$ 都是常数，若反常积分 $\int_0^{+\infty}\dfrac{x^a(1-e^{-x})}{(1+x)^b}\,\mathrm{d}x$ 收敛，则 $a$ 与 $b$ 的取值范围为\ExamSelection
+      设 \(a\) 与 \(b\) 都是常数，若反常积分 \( \int_0^{+\infty}\dfrac{x^a(1-e^{-x})}{(1+x)^b}\,dx\) 收敛，则 \(a\) 与 \(b\) 的取值范围为( )
   choices:
   - label: A
     text: |-
-      $a<-2\text{，}b>a+1$。
+      \(aa+1\)
     figures: []
   - label: B
     text: |-
-      $a<-2\text{，}b<a+1$。
+      \(a<-2,b<a+1\)
     figures: []
   - label: C
     text: |-
-      $a>-2\text{，}b<a+1$。
+      \(a>-2,b<a+1\)
     figures: []
   - label: D
     text: |-
-      $a>-2\text{，}b>a+1$。
+      \(a>-2,b>a+1\)
     figures: []
 - number: 4
   section: choice
   points: 5
   stem:
     text: |-
-      设椭球面 $\Sigma:x^2+y^2+z^2-yz=1$，则其在 $xOy$ 面上的投影区域为\ExamSelection
+      设椭球面 \(\Sigma:x^2+y^2+z^2-yz=1\)，则其在 \(xOy\) 面上的投影区域为( )
   choices:
   - label: A
     text: |-
-      $x^2+\dfrac{5}{4}y^2\leq 1$。
+      \( x^2+\dfrac{5}{4}y^2\leq1\)
     figures: []
   - label: B
     text: |-
-      $\dfrac{3}{4}x^2+y^2\leq 1$。
+      \( \dfrac{3}{4}x^2+y^2\leq1\)
     figures: []
   - label: C
     text: |-
-      $x^2+\dfrac{3}{4}y^2\leq 1$。
+      \( x^2+\dfrac{3}{4}y^2\leq1\)
     figures: []
   - label: D
     text: |-
-      $\dfrac{5}{4}x^2+y^2\leq 1$。
+      \( \dfrac{5}{4}x^2+y^2\leq1\)
     figures: []
 - number: 5
   section: choice
   points: 5
   stem:
     text: |-
-      已知 $\boldsymbol{\alpha}_1=(1,2)^{\mathrm T}$，$\boldsymbol{\alpha}_2=(a,1)^{\mathrm T}$，$\boldsymbol{x}=(x_1,x_2)^{\mathrm T}$，若二次型 $f(x_1,x_2)=\sum_{i=1}^{2}[\boldsymbol{\alpha}_i,\boldsymbol{x}]^2$ 正定，其中 $[\boldsymbol{\alpha}_i,\boldsymbol{x}]$ 表示向量 $\boldsymbol{\alpha}_i,\boldsymbol{x}$ 的内积 $(i=1,2)$，则 $a$ 的取值范围是\ExamSelection
+      已知 \(\alpha_1=(1,2)^T\), \(\alpha_2=(a,1)^T\), \(x=(x_1,x_2)^T\). 若二次型 \( f(x_1,x_2)=\sum\limits_{i=1}^{2}[\alpha_i,x]^2\) 正定，其中 \([\alpha_i,x]\) 表示向量 \(\alpha_i\)、\(x\) 的内积 \((i=1,2)\)，则 \(a\) 的取值范围是( )
   choices:
   - label: A
     text: |-
-      $(-\infty,\dfrac{1}{2})\cup(\dfrac{1}{2},+\infty)$。
+      \( ( -\infty, \dfrac{1}{2})\cup(\dfrac{1}{2}, +\infty)\)
     figures: []
   - label: B
     text: |-
-      $(-\infty,-\dfrac{1}{2})\cup(-\dfrac{1}{2},+\infty)$。
+      \( ( -\infty, -\dfrac{1}{2})\cup(-\dfrac{1}{2}, +\infty)\)
     figures: []
   - label: C
     text: |-
-      $(-\dfrac{1}{2},\dfrac{1}{2})$。
+      \( (-\dfrac{1}{2}, \dfrac{1}{2})\)
     figures: []
   - label: D
     text: |-
-      $\{\dfrac{1}{2}\}$。
+      \( \{\dfrac{1}{2}\}\)
     figures: []
 - number: 6
   section: choice
   points: 5
   stem:
     text: |-
-      下列矩阵中，可以经过若干次初等行等变换得到矩阵 $\begin{pmatrix}1&1&0&1\\0&1&0&0\\0&0&0&0\end{pmatrix}$ 的是\ExamSelection
+      下列矩阵中，可以经过若干次初等行变换得到矩阵 \( \begin{pmatrix}1&1&0&1\\0&1&0&0\\0&0&0&0\end{pmatrix}\) 的是( )
   choices:
   - label: A
     text: |-
-      $\begin{pmatrix}1&1&0&1\\1&2&1&3\\2&3&1&4\end{pmatrix}$。
+      \( \begin{pmatrix}1&1&0&1\\1&2&1&3\\2&3&1&4\end{pmatrix}\)
     figures: []
   - label: B
     text: |-
-      $\begin{pmatrix}1&1&0&1\\1&1&2&5\\1&1&1&3\end{pmatrix}$。
+      \( \begin{pmatrix}1&1&0&1\\1&1&2&5\\1&1&1&3\end{pmatrix}\)
     figures: []
   - label: C
     text: |-
-      $\begin{pmatrix}1&0&0&1\\0&1&0&3\\0&1&0&0\end{pmatrix}$。
+      \( \begin{pmatrix}1&0&0&1\\0&1&0&3\\0&1&0&0\end{pmatrix}\)
     figures: []
   - label: D
     text: |-
-      $\begin{pmatrix}1&1&0&1\\1&2&0&1\\2&3&0&2\end{pmatrix}$。
+      \( \begin{pmatrix}1&1&0&1\\1&2&0&1\\2&3&0&2\end{pmatrix}\)
     figures: []
 - number: 7
   section: choice
   points: 5
   stem:
     text: |-
-      设 $\boldsymbol{\alpha}_1=(a_1,a_2,a_3)^{\mathrm T}$，$\boldsymbol{\alpha}_2=(b_1,b_2,b_3)^{\mathrm T}$，$\boldsymbol{\alpha}_3=(c_1,c_2,c_3)^{\mathrm T}$（其中 $a_i^2+b_i^2\ne0\text{，}i=1,2,3$），则三条直线 $a_ix+b_iy+c_i=0(i=1,2,3)$ 交于一点的充分必要条件是\ExamSelection
+      设 \(\alpha_1=(a_1,a_2,a_3)^T\), \(\alpha_2=(b_1,b_2,b_3)^T\), \(\alpha_3=(c_1,c_2,c_3)^T\)，其中 \(a_i^2+b_i^2\neq0\, (i=1,2,3)\). 则三条直线 \(a_i x+b_i y+c_i=0\, (i=1,2,3)\) 交于一点的充分必要条件是( )
   choices:
   - label: A
     text: |-
-      $\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3$ 线性相关。
+      \(\alpha_1, \alpha_2, \alpha_3\) 线性相关
     figures: []
   - label: B
     text: |-
-      $\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3$ 线性相关，但 $\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2$ 线性无关。
+      \(\alpha_1, \alpha_2, \alpha_3\) 线性相关, 但 \(\alpha_1, \alpha_2\) 线性无关
     figures: []
   - label: C
     text: |-
-      向量组 $\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3$ 的秩等于向量组 $\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2$ 的秩。
+      向量组 \(\alpha_1, \alpha_2, \alpha_3\) 的秩等于向量组 \(\alpha_1, \alpha_2\) 的秩
     figures: []
   - label: D
     text: |-
-      $\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3$ 线性无关。
+      \(\alpha_1, \alpha_2, \alpha_3\) 线性无关
     figures: []
 - number: 8
   section: choice
   points: 5
   stem:
     text: |-
-      设随机变量 $X$ 服从参数为 $\lambda(\lambda>0)$ 的指数分布，若 $P\{X>D(X)\}=[P\{X>E(X)\}]^3$，则 $\lambda=$\ExamSelection
+      设随机变量 $X$ 服从参数为 $\lambda(\lambda > 0)$ 的指数分布，若 $P\{X > D(X)\} = [P\{X > E(X)\}]^3$，则 $\lambda =$（ ）
   choices:
   - label: A
-    text: $3$。
+    text: $3$
     figures: []
   - label: B
     text: |-
-      $\dfrac{3}{2}$。
+      $\dfrac{3}{2}$
     figures: []
   - label: C
     text: |-
-      $\dfrac{2}{3}$。
+      $\dfrac{2}{3}$
     figures: []
   - label: D
     text: |-
-      $\dfrac{1}{3}$。
+      $\dfrac{1}{3}$
     figures: []
 - number: 9
   section: choice
   points: 5
   stem:
     text: |-
-      设随机变量 $X$ 与 $Y$ 相互独立，$D(X)D(Y)\ne0$，以下结论：①$3X+1$ 与 $4Y-2$ 相关；②$X+Y$ 与 $X-Y$ 不相关；③$X+Y$ 与 $2Y+1$ 相互独立；④$e^X$ 与 $2Y+1$ 相互独立。正确结论的个数为\ExamSelection
+      设随机变量 \(X\) 与 \(Y\) 相互独立，\(D(X)\cdot D(Y)\neq0\)，以下结论： \circled{1} \(3X+1\) 与 \(4Y-2\) 相关； \circled{2} \(X+Y\) 与 \(X-Y\) 不相关； \circled{3} \(X+Y\) 与 \(2Y+1\) 相互独立； \circled{4} \(e^X\) 与 \(2Y+1\) 相互独立。 正确结论的个数为（ ）。
   choices:
   - label: A
-    text: $1$。
+    text: |-
+      \(1\)
     figures: []
   - label: B
-    text: $2$。
+    text: |-
+      \(2\)
     figures: []
   - label: C
-    text: $3$。
+    text: |-
+      \(3\)
     figures: []
   - label: D
-    text: $4$。
+    text: |-
+      \(4\)
     figures: []
 - number: 10
   section: choice
   points: 5
   stem:
     text: |-
-      设总体 $X$ 服从 $\begin{pmatrix}1&0\\p&1-p\end{pmatrix}$，$p\in(0,1)$ 为未知参数。给出假设检验 $H_0:p=k$，$H_1:p=1-k$，$k$ 为常数，对样本 $X_1\text{，}X_2$，拒绝域为 $W=\{X_1+X_2<1\}$，则犯第二类错误的概率为\ExamSelection
+      设总体 \(X\) 服从分布 \( \begin{pmatrix}1&0\\p&1-p\end{pmatrix}\), \(p\in(0,1)\) 为未知参数。给出假设检验 \(H_0:p=k\), \(H_1:p=1-k\), \(k\) 为常数。对样本 \(X_1,X_2\)，拒绝域为 \(W=\{X_1+X_2<1\}\)，则犯第二类错误的概率为( )
   choices:
   - label: A
-    text: $k^2$。
+    text: |-
+      \(k^2\)
     figures: []
   - label: B
-    text: $(1-k)^2$。
+    text: |-
+      \((1-k)^2\)
     figures: []
   - label: C
-    text: $1-k^2$。
+    text: |-
+      \(1-k^2\)
     figures: []
   - label: D
-    text: $1-(1-k)^2$。
+    text: |-
+      \(1-(1-k)^2\)
     figures: []
 - number: 11
   section: fill
   points: 5
   stem:
     text: |-
-      $\lim_{x\to0}\dfrac{(1+\sin^2x)^2-\cos^2x}{\ln(1+x^2)}=$\ExamBlank。
+      \( \lim\limits_{x\to0}\dfrac{(1+\sin^2x)^2-\cos^2x}{\ln(1+x^2)}=\) ____
 - number: 12
   section: fill
   points: 5
   stem:
     text: |-
-      微分方程 $3(x+y-1)\,\mathrm{d}x+(x+y)\,\mathrm{d}y=0$ 的通解为\ExamBlank。
+      微分方程 \(3(x+y-1)\,dx+(x+y)\,dy=0\) 的通解为 ____
 - number: 13
   section: fill
   points: 5
   stem:
     text: |-
-      设连续函数 $f(x)$ 满足 $f(x+1)-f(x)=x^2$，$\int_0^1f(x)\,\mathrm{d}x=0$，则 $\int_1^2f(x)\,\mathrm{d}x=$\ExamBlank。
+      设连续函数 \(f(x)\) 满足 \(f(x+1)-f(x)=x^2\), \( \int_0^1f(x)\,dx=0\)，则 \( \int_1^2f(x)\,dx=\) ____
 - number: 14
   section: fill
   points: 5
   stem:
     text: |-
-      设 $L$ 是平面 $x+y+z=0$ 与球面 $x^2+y^2+z^2=1$ 的交线，从 $Oz$ 正向往下看为逆时针方向，则曲线积分 $I=\oint_L\dfrac{(x+1)\,\mathrm{d}x+(y+1)\,\mathrm{d}y+z\,\mathrm{d}z}{x^2+y^2+z^2}=$\ExamBlank。
+      设 \(L\) 是平面 \(x+y+z=0\) 与球面 \(x^2+y^2+z^2=1\) 的交线，从 \(Oz\) 正向往下看为逆时针方向，则曲线积分 \( I=\oint_L\dfrac{(x+1)\,dx+(y+1)\,dy+z\,dz}{x^2+y^2+z^2}=\) ____
 - number: 15
   section: fill
   points: 5
   stem:
     text: |-
-      设 $A$ 为 $3$ 阶矩阵，若 $|E-A|=|E+A|=1\text{，}\ |2E-A|=2$，则 $|3E-A|=$\ExamBlank。
+      设 \(A\) 为 \(3\) 阶矩阵，若 \(|E-A|=|E+A|=1\), \(|2E-A|=2\)，则 \(|3E-A|=\) ____
 - number: 16
   section: fill
   points: 5
   stem:
     text: |-
-      设三个随机事件 $A\text{，}B\text{，}C$ 两两独立且 $P(A)=P(B)=P(C)$，若 $ABC$ 为不可能事件，则 $P(\overline{ABC})$ 的最小值为\ExamBlank。
+      设三个随机事件 \(A,B,C\) 两两独立且 \(P(A)=P(B)=P(C)\)，若 \(ABC\) 为不可能事件，则 \(P(\bar A\bar B\bar C)\) 的最小值为 ____
 - number: 17
   section: solution
-  points: 10
+  points: 12
   stem:
     text: |-
-      计算 $\lim_{n\to\infty}\sum_{k=1}^{n}\dfrac{k}{n^2}\ln\left(1+\dfrac{k^2}{n^2}\right)$。
+      计算 \( \lim\limits_{n\to\infty}\sum\limits_{k=1}^{n}\dfrac{k}{n^2}\ln\left(1+\dfrac{k^2}{n^2}\right)\)
 - number: 18
   section: solution
   points: 12
   stem:
     text: |-
-      设 $a_n$ 为 $y=x|\sin x|$ 在 $(0,n\pi)$ 上与 $x$ 轴所围成的平面图形的面积，$n=1,2,\cdots$。
-  subparts:
-  - text: 求 $a_n$ 的表达式；
-  - text: |-
-      求级数 $\sum_{n=1}^{\infty}\dfrac{\pi x^{2n}}{\left(2+\dfrac{1}{n}\right)a_n}$ 的收敛域与和函数。
+      设 \(a_n\) 为 \(y=x|\sin x|\) 在 \((0,n\pi)\) 上与 \(x\) 轴所围成的平面图形的面积，\(n=1,2, \cdots\). (1) 求 \(a_n\) 的表达式； (2) 求 \( \sum\limits_{n=1}^{\infty}\dfrac{\pi x^{2n}}{\left(2+\frac1n\right)a_n}\) 的收敛域与和函数。
 - number: 19
   section: solution
   points: 12
   stem:
-    text: 设 $f(x)$ 是 $[0,1]$ 上的正值连续函数，证明：
-  subparts:
-  - text: |-
-      存在唯一的 $\xi\in(0,1)$，使得 $\int_0^{\xi}f(t)\,\mathrm{d}t=\int_{\xi}^{1}\dfrac{1}{f(t)}\,\mathrm{d}t$；
-  - text: |-
-      对任意自然数 $n(n\geq2)$，存在唯一的 $x_n\in(0,1)$，使得 $\int_{1/n}^{x_n}f(t)\,\mathrm{d}t=\int_{x_n}^{1}\dfrac{1}{f(t)}\,\mathrm{d}t$，且 $\lim_{n\to\infty}x_n=\xi$。
+    text: |-
+      设 \(f(x)\) 是 \([0,1]\) 上的正值连续函数，证明： (1) 存在唯一的 \(\xi\in(0,1)\)，使得 \( \int_0^{\xi}f(t)\,dt=\int_{\xi}^{1}\dfrac{1}{f(t)}\,dt\)； (2) 对任意自然数 \(n\, (n\geq2)\)，存在唯一的 \(x_n\in(0,1)\)，使得 \( \int_{\dfrac{1}{n}}^{x_n}f(t)\,dt=\int_{x_n}^{1}\dfrac{1}{f(t)}\,dt\)，且 \( \lim\limits_{n\to\infty}x_n=\xi\)
 - number: 20
   section: solution
   points: 12
   stem:
     text: |-
-      设 $\Sigma$ 是圆锥面，其顶点在原点，准线为点 $P(0,0,1)$ 绕直线 $\left\{\begin{array}{l}x=t,\\y=t,\\z=t\end{array}\right.$（$t$ 为参数）旋转一周得到的图，取外侧。
-  subparts:
-  - text: |-
-      求 $\Sigma$ 的方程；
-  - text: |-
-      计算曲面积分 $I=\iint_{\Sigma}x\,\mathrm{d}y\mathrm{d}z+y\,\mathrm{d}z\mathrm{d}x+z\,\mathrm{d}x\mathrm{d}y$。
+      设 \(\Sigma\) 是圆锥面，其顶点在原点，准线为点 \(P(0,0,1)\) 绕直线 \(x=y=z\) 旋转一周得到的圆，取外侧。 (1) 求 \(\Sigma\) 的方程； (2) 计算曲面积分 \( I=\iint_{\Sigma}x\,dy\,dz+y\,dz\,dx+z\,dx\,dy\)。
 - number: 21
   section: solution
   points: 12
   stem:
     text: |-
-      设 $4$ 阶实矩阵 $A$ 与 $4$ 维列向量 $\boldsymbol{\alpha},\boldsymbol{\beta}$ 满足 $A(\boldsymbol{\alpha}+\boldsymbol{\beta})=4\boldsymbol{\alpha}+3\boldsymbol{\beta}$，$A(\boldsymbol{\alpha}-\boldsymbol{\beta})=2\boldsymbol{\alpha}-3\boldsymbol{\beta}$，$\boldsymbol{\alpha},\boldsymbol{\beta}$ 线性无关。方程组 $Ax=0$ 有两个线性无关的解向量 $\boldsymbol{\eta}_1,\boldsymbol{\eta}_2$。
-  subparts:
-  - text: |-
-      证明 $\boldsymbol{\alpha},\boldsymbol{\beta},\boldsymbol{\eta}_1,\boldsymbol{\eta}_2$ 线性无关；
-  - text: |-
-      判断矩阵 $A$ 与 $\begin{pmatrix}3&1&0&0\\0&3&0&0\\0&0&0&0\\0&0&0&0\end{pmatrix}$ 是否相似，并说明理由。
+      设 \(4\) 阶实矩阵 \(A\) 与 \(4\) 维列向量 \(\alpha, \beta\) 满足 \(A(\alpha+\beta)=4\alpha+3\beta\), \(A(\alpha-\beta)=2\alpha-3\beta\), \(\alpha, \beta\) 线性无关。方程组 \(Ax=0\) 有两个线性无关的解向量 \(\eta_1, \eta_2\). (1) 证明 \(\alpha, \beta, \eta_1, \eta_2\) 线性无关； (2) 判断矩阵 \(A\) 与 \( \begin{pmatrix}3&1&0&0\\0&3&0&0\\0&0&0&0\\0&0&0&0\end{pmatrix}\) 是否相似，并说明理由。
 - number: 22
   section: solution
   points: 12
   stem:
     text: |-
-      设随机变量 $X$ 与 $Y$ 相互独立，且分别服从正态分布 $N(\mu,\sigma^2)$ 与 $N(\mu,2\sigma^2)$，其中 $\sigma$ 是未知参数且 $\sigma>0$。记 $Z=X-Y$。
-  subparts:
-  - text: |-
-      求 $Z$ 的概率密度 $f(z;\sigma^2)$；
-  - text: |-
-      设 $Z_1,Z_2,\cdots,Z_n$ 为来自总体 $Z$ 的简单随机样本，求 $\sigma^2$ 的最大似然估计量 $\hat{\sigma}^2$；
-  - text: |-
-      是否存在实数 $a$，使得对任意的 $\varepsilon>0$，都有 $\lim_{n\to\infty}P\{ |\hat{\sigma}^2-a|\geq\varepsilon\}=0$？
+      设随机变量 \(X\) 与 \(Y\) 相互独立，且分别服从正态分布 \(N(\mu, \sigma^2)\) 与 \(N(\mu,2\sigma^2)\)，其中 \(\sigma\) 是未知参数且 \(\sigma>0\). 记 \(Z=X-Y\). (1) 求 \(Z\) 的概率密度 \(f(z;\sigma^2)\)； (2) 设 \(Z_1,Z_2, \cdots,Z_n\) 为来自总体 \(Z\) 的简单随机样本，求 \(\sigma^2\) 的最大似然估计量 \(\widehat{\sigma^2}\)； (3) 证明 \(\widehat{\sigma^2}\) 依概率收敛于 \(\sigma^2\)
+content_hash: bb80c0f10c40e02633c0b13548b36372c8100f77d67cf903caa84a301f2313c8

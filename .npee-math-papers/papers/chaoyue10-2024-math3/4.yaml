@@ -4,7 +4,6 @@ paper:
   year: 2024
   subject: math3
   paper_no: 4
-content_hash: c8c464d4668c18d92a6d317a879b9b47bc8bb7f60215f948871fba06dd9711ef
 questions:
 - number: 1
   section: choice
@@ -253,19 +252,19 @@ questions:
       设 $X_1,X_2,\ldots,X_n$ 为来自总体 $X\sim N(2,\sigma^2)$ 的简单随机样本，设 $\sigma=c\sum_{i=1}^n|2X_i-4|$，若 $E\sigma=\sigma$，则 $c=$\ExamBlank。
 - number: 17
   section: solution
-  points:
+  points: 10
   stem:
     text: |-
       已知函数 $f(x)$ 在点 $x=0$ 处二阶可导，且 $\lim_{x\to0}\dfrac{f(x)-1-2x^2}{x^2}=0$，求 $\lim_{x\to0}\dfrac{f(x)-f(\sin x)}{x^4}$。
 - number: 18
   section: solution
-  points:
+  points: 12
   stem:
     text: |-
       设 $P(x)=x^2+ax+b$，问 $\int_{-1}^1P^2(x)\,\mathrm{d}x$ 是否有最大、最小值，若有，则求出最值，若没有，请说出理由。
 - number: 19
   section: solution
-  points:
+  points: 12
   stem:
     text: 已知曲线 $y=f(x)$（$x>0$）是微分方程 $2y''+y'-y=(4-6x)e^{-x}$ 的一条积分曲线，此曲线通过原点，且在原点的切线斜率为 0，试求：
   subparts:
@@ -274,13 +273,13 @@ questions:
       计算 $\int_0^{+\infty}f(x)\,\mathrm{d}x$。
 - number: 20
   section: solution
-  points:
+  points: 12
   stem:
     text: |-
       （Ⅰ）设 $f(x)$ 在区间 $[0,1]$ 上具有连续导数，且 $f(0)=0$，证明级数 $\sum_{n=1}^{\infty}\int_0^{\frac1n}f(x)\,\mathrm{d}x$ 绝对收敛；（Ⅱ）判别级数 $\sum_{n=1}^{\infty}\left[\dfrac1n-\ln\left(\sin\dfrac1n+\cos\dfrac1n\right)\right]$ 的收敛性，若收敛，则进一步判断条件收敛还是绝对收敛。
 - number: 21
   section: solution
-  points:
+  points: 12
   stem:
     text: |-
       设 $A,B$ 均为 3 阶方阵，其中 $A$ 为实对称矩阵，$A=(a_{ij})_{3\times3},a_{11}=2$，$B=\begin{pmatrix}1&0&-1\\-1&0&1\\0&2&0\end{pmatrix}$，且满足 $(A-E)B=O$。
@@ -290,7 +289,7 @@ questions:
       求可逆矩阵 $P$，使 $P^{-1}AP=\Lambda$。
 - number: 22
   section: solution
-  points:
+  points: 12
   stem:
     text: |-
       设随机变量 $X$ 与 $Y$ 相互独立，$X$ 在 $[0,2]$ 上服从均匀分布，$Y\sim E(1)$，令随机变量 $Z=\begin{cases}Y,&X\le1,\\X,&X>1.\end{cases}$，求：
@@ -298,3 +297,4 @@ questions:
   - text: $Z$ 的概率密度；
   - text: |-
       $\operatorname{Cov}(X,Z)$。
+content_hash: 1ba1f69b26eb62a4b0c84bafb8462f0712e155aa687914b7697e559ce96fb295

@@ -4,37 +4,36 @@ paper:
   year: 2026
   subject: math2
   paper_no: 1
-content_hash: c1646985baacb0c4b9c0f3210039cb2024ac2510cd93a2195a8faf0516fa054c
 questions:
 - number: 1
   section: choice
   points: 5
   stem:
     text: |-
-      当 $x\to0^+$ 时，下列无穷小量中，最高阶的是\ExamSelection
+      当 $x\to0^+$ 时，下列无穷小量中，阶数最高的是（ ）
   choices:
   - label: A
     text: |-
-      $\displaystyle\int_0^{x^2}(e^{t^2}+1)\,\mathrm{d}t$
+      $\int_0^{x^2}(\mathrm{e}^{t^2}+1)\,\mathrm{d}t$
     figures: []
   - label: B
     text: |-
-      $\displaystyle\int_0^x\ln(1+\sqrt{t^3})\,\mathrm{d}t$
+      $\int_0^x\ln(1+\sqrt{t^3})\,\mathrm{d}t$
     figures: []
   - label: C
     text: |-
-      $\displaystyle\int_0^{\sin x}\cos t^2\,\mathrm{d}t$
+      $\int_0^{\sin x}\cos t^2\,\mathrm{d}t$
     figures: []
   - label: D
     text: |-
-      $\displaystyle\int_0^{1-\cos x}\sqrt{\arcsin^3 t}\,\mathrm{d}t$
+      $\int_0^{1-\cos x}\sqrt{(\arcsin t)^3}\,\mathrm{d}t$
     figures: []
 - number: 2
   section: choice
   points: 5
   stem:
     text: |-
-      $\displaystyle\lim_{n\to\infty}\left[\dfrac{n}{(n+1)^2}+\dfrac{n}{(n+2)^2}+\cdots+\dfrac{n}{(n+n)^2}\right]=\ExamSelection$
+      $\lim_{n\to\infty}\left[\dfrac{n}{(n+1)^2}+\dfrac{n}{(n+2)^2}+\cdots+\dfrac{n}{(n+n)^2}\right] = $（ ）
   choices:
   - label: A
     text: |-
@@ -57,261 +56,244 @@ questions:
   points: 5
   stem:
     text: |-
-      曲线 $y=x+\sqrt{x^2-x+1}$ 的渐近线条数为\ExamSelection
+      曲线 $y=x+\sqrt{x^2-x+1}$ 的渐近线条数为（ ）
   choices:
   - label: A
-    text: $1$
+    text: 1 条
     figures: []
   - label: B
-    text: $2$
+    text: 2 条
     figures: []
   - label: C
-    text: $3$
+    text: 3 条
     figures: []
   - label: D
-    text: $4$
+    text: 4 条
     figures: []
 - number: 4
   section: choice
   points: 5
   stem:
     text: |-
-      函数 $f(x,y)=\sqrt{|xy|}$ 在 $(0,0)$ 点\ExamSelection
+      函数 $f(x,y)=\sqrt{|xy|}$ 在点 $(0,0)$ 处（ ）
   choices:
   - label: A
-    text: 连续，但偏导数不存在。
+    text: 连续，但偏导数不存在
     figures: []
   - label: B
-    text: 偏导数存在且连续。
+    text: 偏导数存在且连续
     figures: []
   - label: C
-    text: 可微。
+    text: 可微
     figures: []
   - label: D
-    text: 偏导数存在，但不可微。
+    text: 偏导数存在，但不可微
     figures: []
 - number: 5
   section: choice
   points: 5
   stem:
     text: |-
-      设线密度为 $1$ 的圆弧形细杆，其半径为 $1$，圆心角为 $\theta$，摆放位置如图所示，$G$ 为引力常数，则该细杆对圆心处质量为 $m$ 的质点 $M$ 的水平引力大小为\ExamSelection
-    figures:
-    - kind: tikz
-      latex: |-
-        \begin{tikzpicture}[>=stealth,scale=1.0]\draw[->] (-0.2,0)--(3.1,0) node[right] {$x$};\draw[->] (0,-1.5)--(0,1.8) node[above] {$y$};\draw (0,0) node[left] {$M$};\draw (0,0)--(1.8,1.3);\draw (0,0)--(1.8,-1.3);\draw (1.8,1.3) .. controls (2.45,0.75) and (2.45,-0.75) .. (1.8,-1.3);\draw (2.05,0) node[below] {$1$};\draw (0.55,0) arc (0:36:0.55);\node at (0.82,0.22) {$\dfrac{\theta}{2}$};\end{tikzpicture}
-      path:
-      description: 圆心位于原点、半径为 1 的右侧圆弧及坐标轴示意图
-      exception_reason:
+      设线密度为 1 的圆弧形细杆，其半径为 1，圆心角为 $\theta\ (0<\theta\le\pi)$，关于 $x$ 轴对称放置。则杆对圆心处质量为 $m$ 的质点 $M$ 的水平引力大小为（ ）
   choices:
   - label: A
     text: |-
-      $2Gm\sin\dfrac{\theta}{2}$。
+      $2Gm\sin\dfrac{\theta}{2}$
     figures: []
   - label: B
     text: |-
-      $\sqrt{2}Gm\sin\dfrac{\theta}{2}$。
+      $\sqrt{2}Gm\sin\dfrac{\theta}{2}$
     figures: []
   - label: C
     text: |-
-      $2Gm\cos\dfrac{\theta}{2}$。
+      $2Gm\cos\dfrac{\theta}{2}$
     figures: []
   - label: D
     text: |-
-      $\sqrt{2}Gm\cos\dfrac{\theta}{2}$。
+      $\sqrt{2}Gm\cos\dfrac{\theta}{2}$
     figures: []
 - number: 6
   section: choice
   points: 5
   stem:
     text: |-
-      若微分方程 $y''+ay'+by=0$ 的解在 $(-\infty,+\infty)$ 上必为周期函数，则\ExamSelection
+      若微分方程 $y'' + ay' + by = 0$ 的解在 $(-\infty, +\infty)$ 上必为周期函数，则（ ）
   choices:
   - label: A
-    text: $a=0,b>0$
+    text: $a = 0, b > 0$
     figures: []
   - label: B
-    text: $a=0,b<0$
+    text: $a = 0, b < 0$
     figures: []
   - label: C
     text: |-
-      $a\ne0,b<0$
+      $a \neq 0, b < 0$
     figures: []
   - label: D
     text: |-
-      $a\ne0,b>0$
+      $a \neq 0, b > 0$
     figures: []
 - number: 7
   section: choice
   points: 5
   stem:
     text: |-
-      $\displaystyle\int_{\frac14}^{\frac12}\mathrm{d}y\int_{\frac12}^{\sqrt y}\dfrac{y}{e^x}\,\mathrm{d}x+\int_{\frac12}^{1}\mathrm{d}y\int_y^{\sqrt y}\dfrac{y}{e^x}\,\mathrm{d}x=\ExamSelection$
+      $\int_{\dfrac{1}{4}}^{\dfrac{1}{2}}\mathrm{d}y\int_{\dfrac{1}{2}}^{\sqrt{y}}\mathrm{e}^{\dfrac{y}{x}}\,\mathrm{d}x + \int_{\dfrac{1}{2}}^1\mathrm{d}y\int_y^{\sqrt{y}}\mathrm{e}^{\dfrac{y}{x}}\,\mathrm{d}x = $（ ）
   choices:
   - label: A
     text: |-
-      $\dfrac{3e}{4}-\dfrac{\sqrt e}{2}$
+      $\dfrac{3\mathrm{e}}{4}-\dfrac{\sqrt{\mathrm{e}}}{2}$
     figures: []
   - label: B
     text: |-
-      $\dfrac{3e}{4}+\dfrac{\sqrt e}{2}$
+      $\dfrac{3\mathrm{e}}{4}+\dfrac{\sqrt{\mathrm{e}}}{2}$
     figures: []
   - label: C
     text: |-
-      $\dfrac{3e}{8}-\dfrac{\sqrt e}{2}$
+      $\dfrac{3\mathrm{e}}{8}-\dfrac{\sqrt{\mathrm{e}}}{2}$
     figures: []
   - label: D
     text: |-
-      $\dfrac{3e}{8}+\dfrac{\sqrt e}{2}$
+      $\dfrac{3\mathrm{e}}{8}+\dfrac{\sqrt{\mathrm{e}}}{2}$
     figures: []
 - number: 8
   section: choice
   points: 5
   stem:
     text: |-
-      设向量 $\boldsymbol{\beta}$ 可由向量组 $\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3,\boldsymbol{\alpha}_4$ 线性表示，但不可由向量组（I）：$\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3$ 线性表示，问向量组（II）：$\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3,\boldsymbol{\beta}$，则\ExamSelection
+      设向量 $\boldsymbol{\beta}$ 可由向量组 $\boldsymbol{\alpha}_1, \boldsymbol{\alpha}_2, \boldsymbol{\alpha}_3, \boldsymbol{\alpha}_4$ 线性表示，但不可由向量组 $\mathrm{I}:\boldsymbol{\alpha}_1, \boldsymbol{\alpha}_2, \boldsymbol{\alpha}_3$ 线性表示。记向量组 $\mathrm{II}:\boldsymbol{\alpha}_1, \boldsymbol{\alpha}_2, \boldsymbol{\alpha}_3, \boldsymbol{\beta}$，则（ ）
   choices:
   - label: A
     text: |-
-      $\boldsymbol{\alpha}_4$ 不可由向量组（I）线性表示，也不可由向量组（II）线性表示。
+      $\boldsymbol{\alpha}_4$ 不可由 $\mathrm{I}$ 线性表示，也不可由 $\mathrm{II}$ 线性表示
     figures: []
   - label: B
     text: |-
-      $\boldsymbol{\alpha}_4$ 不可由向量组（I）线性表示，但可由向量组（II）线性表示。
+      $\boldsymbol{\alpha}_4$ 不可由 $\mathrm{I}$ 线性表示，但可由 $\mathrm{II}$ 线性表示
     figures: []
   - label: C
     text: |-
-      $\boldsymbol{\alpha}_4$ 可由向量组（I）线性表示，也可由向量组（II）线性表示。
+      $\boldsymbol{\alpha}_4$ 可由 $\mathrm{I}$ 线性表示，也可由 $\mathrm{II}$ 线性表示
     figures: []
   - label: D
     text: |-
-      $\boldsymbol{\alpha}_4$ 可由向量组（I）线性表示，但不可由向量组（II）线性表示。
+      $\boldsymbol{\alpha}_4$ 可由 $\mathrm{I}$ 线性表示，但不可由 $\mathrm{II}$ 线性表示
     figures: []
 - number: 9
   section: choice
   points: 5
   stem:
     text: |-
-      设 $A$ 为 $n$ 阶矩阵，$A^*$ 是 $A$ 的伴随矩阵，齐次线性方程组 $Ax=0$ 有两个线性无关的解，则\ExamSelection
+      设 $A$ 为 $n$ 阶矩阵$,A^*$ 是 $A$ 的伴随矩阵，齐次线性方程组 $A\boldsymbol{x}=\boldsymbol{0}$ 有两个线性无关的解，则（ ）
   choices:
   - label: A
-    text: $A^*x=0$ 的解均是 $Ax=0$ 的解。
+    text: |-
+      $A^*\boldsymbol{x}=\boldsymbol{0}$ 的解均是 $A\boldsymbol{x}=\boldsymbol{0}$ 的解
     figures: []
   - label: B
-    text: $Ax=0$ 的解均是 $A^*x=0$ 的解。
+    text: |-
+      $A\boldsymbol{x}=\boldsymbol{0}$ 的解均是 $A^*\boldsymbol{x}=\boldsymbol{0}$ 的解
     figures: []
   - label: C
-    text: $Ax=0$ 与 $A^*x=0$ 没有非零公共解。
+    text: |-
+      $A\boldsymbol{x}=\boldsymbol{0}$ 与 $A^*\boldsymbol{x}=\boldsymbol{0}$ 没有非零公共解
     figures: []
   - label: D
-    text: $Ax=0$ 与 $A^*x=0$ 仅有两个非零公共解。
+    text: |-
+      $A\boldsymbol{x}=\boldsymbol{0}$ 与 $A^*\boldsymbol{x}=\boldsymbol{0}$ 仅有两个线性无关的公共解
     figures: []
 - number: 10
   section: choice
   points: 5
   stem:
     text: |-
-      设 $A$ 是 $3$ 阶矩阵，向量 $\boldsymbol{\alpha}_1=(1,2,0)^{\mathrm T}$，$\boldsymbol{\alpha}_2=(1,0,1)^{\mathrm T}$，$\boldsymbol{\beta}=(-1,2,-2)^{\mathrm T}$。已知 $\lambda=2$ 是矩阵 $A$ 的特征值，$\boldsymbol{\alpha}_1$、$\boldsymbol{\alpha}_2$ 是矩阵 $A$ 的属于 $\lambda=2$ 的特征向量，则 $A(\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\boldsymbol{\beta})=\ExamSelection$
+      设 $A$ 是 3 阶矩阵$,\boldsymbol{\alpha}_1=(1,2,0)^{\mathrm{T}}, \boldsymbol{\alpha}_2=(1,0,1)^{\mathrm{T}}, \boldsymbol{\beta}=(-1,2,-2)^{\mathrm{T}}$。已知 $\lambda=2$ 是矩阵 $A$ 的特征值$,\boldsymbol{\alpha}_1, \boldsymbol{\alpha}_2$ 是属于 $\lambda=2$ 的特征向量，则 $A(\boldsymbol{\alpha}_1, \boldsymbol{\alpha}_2, \boldsymbol{\beta}) = $（ ）
   choices:
   - label: A
     text: |-
-      $\begin{pmatrix}2&2&-1\\4&0&2\\0&2&-2\end{pmatrix}$。
+      $\begin{pmatrix}2&2&-1\\4&0&2\\0&2&-2\end{pmatrix}$
     figures: []
   - label: B
     text: |-
-      $\begin{pmatrix}2&2&-1\\4&0&-2\\0&2&2\end{pmatrix}$。
+      $\begin{pmatrix}2&2&-1\\4&0&-2\\0&2&2\end{pmatrix}$
     figures: []
   - label: C
     text: |-
-      $\begin{pmatrix}2&2&-2\\4&0&4\\0&2&-4\end{pmatrix}$。
+      $\begin{pmatrix}2&2&-2\\4&0&4\\0&2&-4\end{pmatrix}$
     figures: []
   - label: D
     text: |-
-      $\begin{pmatrix}2&2&2\\4&0&-4\\0&2&4\end{pmatrix}$。
+      $\begin{pmatrix}2&2&2\\4&0&-4\\0&2&4\end{pmatrix}$
     figures: []
 - number: 11
   section: fill
   points: 5
   stem:
     text: |-
-      $\displaystyle\lim_{x\to0}\dfrac{\ln\dfrac{\sin x}{x}}{\displaystyle\int_0^{x^2}(1+t)^{\dfrac{1}{t}}\,\mathrm{d}t}=\ExamBlank$。
+      $\lim_{x\to0}\dfrac{\ln\left(\dfrac{\sin x}{x}\right)}{\int_0^{x^2}(1+t)^{\dfrac{1}{t}}\,\mathrm{d}t} = $ \underline{\qquad}。
 - number: 12
   section: fill
   points: 5
   stem:
     text: |-
-      曲线 $3y^3=x^5+2x^3$ 在 $y=1$ 对应点处的切线斜率为 $\ExamBlank$。
+      曲线 $3y^3=x^5+2x^3$ 在 $y=1$ 对应点处的切线斜率为 \underline{\qquad}。
 - number: 13
   section: fill
   points: 5
   stem:
     text: |-
-      曲线 $y=xe^{-\dfrac{1}{x+1}}$ 的斜渐近线方程为 $\ExamBlank$。
+      曲线 $y=x\mathrm{e}^{-\dfrac{1}{x+1}}$ 的斜渐近线方程为 \underline{\qquad}。
 - number: 14
   section: fill
   points: 5
   stem:
     text: |-
-      设 $f(x)$ 为连续函数，且 $x^2+y^2+z^2=\displaystyle\int_x^y f(x+y-t)\,\mathrm{d}t$，则 $z\left(\dfrac{\partial z}{\partial x}+\dfrac{\partial z}{\partial y}\right)=\ExamBlank$。
+      设 $f(x)$ 为连续函数，且 $x^2+y^2+z^2=\int_x^y f(x+y-t)\,\mathrm{d}t$，则 $z\left(\dfrac{\partial z}{\partial x}+\dfrac{\partial z}{\partial y}\right) = $ \underline{\qquad}。
 - number: 15
   section: fill
   points: 5
   stem:
     text: |-
-      微分方程 $(x-y-1)\,\mathrm{d}x+(x+4y-1)\,\mathrm{d}y=0$ 的通解为 $\ExamBlank$。
+      微分方程 $(x-y-1)\,\mathrm{d}x+(x+4y-1)\,\mathrm{d}y=0$ 的通解为 \underline{\qquad}。
 - number: 16
   section: fill
   points: 5
   stem:
     text: |-
-      已知方程组（I）$\begin{cases}x_2+ax_3=0,\\x_1+x_2+(a+1)x_3=0\end{cases}$ 的解均是方程组（II）$\begin{cases}x_1+x_2+2x_3=0,\\x_1+x_2+bx_3=0\end{cases}$ 的解，但方程组（I）与方程组（II）不同解。设矩阵 $A$ 为方程组（I）的系数矩阵，矩阵 $B$ 为方程组（II）的系数矩阵，则 $B^{\mathrm T}A=\ExamBlank$。
+      已知方程组 $\mathrm{I}:\begin{cases}x_2+ax_3=0, \\x_1+x_2+(a+1)x_3=0\end{cases}$ 的解均是方程组 $\mathrm{II}:\begin{cases}x_1+x_2+2x_3=0, \\x_1+x_2+bx_3=0\end{cases}$ 的解，但方程组 $\mathrm{I}$ 与 $\mathrm{II}$ 不同解。设矩阵 $A$ 为 $\mathrm{I}$ 的系数矩阵，矩阵 $B$ 为 $\mathrm{II}$ 的系数矩阵，则 $B^{\mathrm{T}}A = $ \underline{\qquad}。
 - number: 17
   section: solution
-  points: 10
+  points: 12
   stem:
     text: |-
-      设曲面 $z=f(x,y)$ 过点 $(0,0,2)$，且 $\Delta_xz$ 关于 $x$ 的偏增量 $\Delta_xz=-2xe^{-y}\cdot\Delta x+o(\Delta x)$，$\Delta_yz$ 关于 $y$ 的偏增量 $\Delta_yz=e^{-y}(x^2-y-1)\Delta y+o(\Delta y)$，求 $z=f(x,y)$ 的表达式及 $z$ 的极值。
+      设曲面 $z=f(x,y)$ 过点 $(0,0,2)$，且 $\Delta z$ 关于 $x$ 的偏增量 $\Delta_x z=-2x\mathrm{e}^{-y}\Delta x+o(\Delta x)$ $,\Delta z$ 关于 $y$ 的偏增量 $\Delta_y z=\mathrm{e}^{-y}(x^2-y-1)\Delta y+o(\Delta y)$。求 $z=f(x,y)$ 的表达式及 $z$ 的极值。
 - number: 18
   section: solution
   points: 12
   stem:
-    text: 已知函数 $y(x)$ 由方程 $x^2+y^3+ax+3y+b=0$ 确定，$y(1)=1$，$y'(1)=0$，求
-  subparts:
-  - text: $a,b$ 的值；
-  - text: $y(x)$ 的极值。
+    text: 已知函数 $y(x)$ 由方程 $x^3+y^3+ax+3y+b=0$ 确定$,y(1)=1, y'(1)=0$。求： (1) $a,b$ 的值； (2) $y(x)$ 的极值。
 - number: 19
   section: solution
   points: 12
   stem:
-    text: 证明：
-  subparts:
-  - text: |-
-      设 $f(x)$ 在 $[a,b]$ 上具有二阶连续导数，证明存在 $\xi\in(a,b)$，使得 $\displaystyle\int_a^b f(x)\,\mathrm{d}x=f\left(\dfrac{a+b}{2}\right)(b-a)+\dfrac{f''(\xi)}{24}(b-a)^3$；
-  - text: |-
-      设 $g(x)$ 在 $[-1,1]$ 上具有三阶连续导数，且 $g(-1)=g(1)$，$g'(0)=0$，证明存在 $\eta\in(-1,1)$，使得 $g'''(\eta)=0$。
+    text: |-
+      (1) 设 $f(x)$ 在 $[a,b]$ 上具有二阶连续导数，证明存在 $\xi\in(a,b)$，使得 $\int_a^b f(x)\,\mathrm{d}x=f\left(\dfrac{a+b}{2}\right)(b-a)+\dfrac{f''(\xi)}{24}(b-a)^3$； (2) 设 $g(x)$ 在 $[-1,1]$ 上具有三阶连续导数，且 $g(-1)=g(1), g'(0)=0$，证明存在 $\eta\in(-1,1)$，使得 $g'''(\eta)=0$。
 - number: 20
   section: solution
   points: 12
   stem:
     text: |-
-      设 $D=\{(x,y)\mid x^2+y^2\leq2x+2y\}$，求二重积分 $\displaystyle\iint_D(x^2+x+y)\,\mathrm{d}\sigma$。
+      设平面区域 $D=\{(x,y)\mid x^2+y^2\le2x+2y\}$，计算二重积分 $I=\iint_D(x^2+x+y)\,\mathrm{d}\sigma$。
 - number: 21
   section: solution
   points: 12
   stem:
     text: |-
-      设 $f(x)=\begin{cases}x,&x<1,\\\ln x,&x>1,\end{cases}\quad g(x)=e^{x-1}$。
-  subparts:
-  - text: |-
-      求 $\varphi(x)=f[g(x)]$；
-  - text: |-
-      求在 $(-\infty,+\infty)$ 内的连续函数 $y$，使之在 $(-\infty,1)$ 与 $(1,+\infty)$ 内满足微分方程 $y'-y=\varphi(x)$，且 $y(0)=0$。
+      设 $f(x)=\begin{cases}x, &x1,\end{cases} \quad g(x)=\mathrm{e}^{x-1}$。 (1) 求 $\varphi(x)=f[g(x)]$ 的表达式； (2) 求在 $(-\infty, +\infty)$ 内的连续函数 $y$，使之在 $(-\infty,1)$ 与 $(1, +\infty)$ 内满足微分方程 $y'-y=\varphi(x)$，且 $y(0)=0$。
 - number: 22
   section: solution
   points: 12
   stem:
     text: |-
-      已知二次型 $f(x_1,x_2,x_3)=x^{\mathrm T}\begin{pmatrix}1&1&1\\3&4&5\\5&7&9\end{pmatrix}x$，其中 $x=(x_1,x_2,x_3)^{\mathrm T}$。
-  subparts:
-  - text: 求正交变换 $x=Qy$，将 $f(x_1,x_2,x_3)$ 化为标准形；
-  - text: 求 $f(x_1,x_2,x_3)=0$ 的解。
+      已知二次型 $f(x_1,x_2,x_3)=\boldsymbol{x}^{\mathrm{T}}\begin{pmatrix}1&1&1\\3&4&5\\5&7&9\end{pmatrix}\boldsymbol{x}$，其中 $\boldsymbol{x}=(x_1,x_2,x_3)^{\mathrm{T}}$。 (1) 求正交变换 $\boldsymbol{x}=Q\boldsymbol{y}$，将 $f$ 化为标准形； (2) 求方程 $f(x_1,x_2,x_3)=0$ 的解。
+content_hash: 85f22b9f581925da6ae2b8b2a7cb21c7d75f11de7003037000622c357a09dc1f

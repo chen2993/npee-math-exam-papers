@@ -4,14 +4,13 @@ paper:
   year: 2023
   subject: math1
   paper_no: 2
-content_hash: e835cf3de0c7e12119b0da09f6189e42e0c3866b32afd71179140089a17ae34c
 questions:
 - number: 1
   section: choice
   points: 5
   stem:
     text: |-
-      设函数 $f(x)$ 在 $[0,+\infty)$ 上二阶可导，且 $f(0)=0$。下列命题中，正确命题的个数为\ExamSelection① 若在 $(0,+\infty)$ 上恒有 $f''(x)<0$，则 $\dfrac{f(x)}{x}$ 在 $(0,+\infty)$ 上单调减少。② 若 $\dfrac{f(x)}{x}$ 在 $(0,1]$ 上单调减少，则在 $(0,1]$ 上恒有 $f''(x)\leqslant 0$。③ 若 $\lim\limits_{x\to+\infty}\dfrac{f(x)}{x}$ 存在，则 $\lim\limits_{x\to+\infty}f'(x)$ 存在。④ 若在 $(0,+\infty)$ 上恒有 $f''(x)<0$，且 $\lim\limits_{x\to+\infty}\dfrac{f(x)}{x}$ 存在，则 $\lim\limits_{x\to+\infty}f'(x)$ 存在。
+      设函数 $f(x)$ 在 $[0,+\infty)$ 上二阶可导，且 $f(0)=0$。下列命题中，正确命题的个数为\ExamSelection\n① 若在 $(0,+\infty)$ 上恒有 $f''(x)<0$，则 $\dfrac{f(x)}{x}$ 在 $(0,+\infty)$ 上单调减少。\n② 若 $\dfrac{f(x)}{x}$ 在 $(0,1]$ 上单调减少，则在 $(0,1]$ 上恒有 $f''(x)\leqslant 0$。\n③ 若 $\lim\limits_{x\to+\infty}\dfrac{f(x)}{x}$ 存在，则 $\lim\limits_{x\to+\infty}f'(x)$ 存在。\n④ 若在 $(0,+\infty)$ 上恒有 $f''(x)<0$，且 $\lim\limits_{x\to+\infty}\dfrac{f(x)}{x}$ 存在，则 $\lim\limits_{x\to+\infty}f'(x)$ 存在。
   choices:
   - label: A
     text: $1$
@@ -305,3 +304,4 @@ questions:
   subparts:
   - text: 求 $Y$ 的边缘概率密度；
   - text: 求 $Z=XY^2$ 的概率密度函数，并求 $E(Z)$。
+content_hash: 150978e53daf2a5b8e41a2c67edd1e06bf23afe7ee090ccbea8611847f9a16b0

@@ -4,14 +4,13 @@ paper:
   year: 2024
   subject: math1
   paper_no: 8
-content_hash: 9f1c7428eba2a972b174d4f742fc36e1811f22df99adf8233eca32cd5eb79142
 questions:
 - number: 1
   section: choice
   points: 5
   stem:
     text: |-
-      设函数 $f(x)=1+2x^2+o(x^2),x\in\mathring{U}(0,\delta)$，且 $f(0)=1$，则下列命题：① $f'(x)=4x+o(x),x\in\mathring{U}(0,\delta)$；② $f'(0)=0$；③ $f''(0)=4$；④ $f(x)$ 在 $(-\delta,\delta)$ 内为凸函数。正确的个数是\ExamSelection
+      设函数 $f(x)=1+2x^2+o(x^2),x \in U(0,\delta)$，且 $f(0)=1$，则下列命题： ① $f'(x)=4x+o(x),x \in \mathring{U}(0,\delta)$；② $f'(0)=0$； ③ $f''(0)=4$；④ $f(x)$ 在 $(-\delta,\delta)$ 内为凹函数. 正确的个数是（ ）
   choices:
   - label: A
     text: '1'
@@ -30,53 +29,53 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $f(x,y)=x\ln\left(x+\sqrt{x^2+y^2}\right)-\sqrt{x^2+y^2}$，则有\ExamSelection
+      设 $f(x,y)=x\ln(x+\sqrt{x^2+y^2})-\sqrt{x^2+y^2}$，则有 ( )
   choices:
   - label: A
     text: |-
-      $\dfrac{\partial^2f}{\partial x^2}+\dfrac{\partial^2f}{\partial y^2}+\dfrac{1}{x}\dfrac{\partial f}{\partial x}=0$
+      $\dfrac{\partial^2 f}{\partial x^2} + \dfrac{\partial^2 f}{\partial y^2} + \dfrac{1}{x} \dfrac{\partial f}{\partial x} = 0$
     figures: []
   - label: B
     text: |-
-      $\dfrac{\partial^2f}{\partial x^2}+\dfrac{\partial^2f}{\partial y^2}+\dfrac{1}{y}\dfrac{\partial f}{\partial x}=0$
+      $\dfrac{\partial^2 f}{\partial x^2} + \dfrac{\partial^2 f}{\partial y^2} + \dfrac{1}{y} \dfrac{\partial f}{\partial x} = 0$
     figures: []
   - label: C
     text: |-
-      $\dfrac{\partial^2f}{\partial x^2}+\dfrac{\partial^2f}{\partial y^2}-\dfrac{1}{x}\dfrac{\partial f}{\partial x}=0$
+      $\dfrac{\partial^2 f}{\partial x^2} + \dfrac{\partial^2 f}{\partial y^2} - \dfrac{1}{x} \dfrac{\partial f}{\partial x} = 0$
     figures: []
   - label: D
     text: |-
-      $\dfrac{\partial^2f}{\partial x^2}+\dfrac{\partial^2f}{\partial y^2}+\dfrac{1}{y}\dfrac{\partial f}{\partial y}=0$
+      $\dfrac{\partial^2 f}{\partial x^2} + \dfrac{\partial^2 f}{\partial y^2} + \dfrac{1}{y} \dfrac{\partial f}{\partial y} = 0$
     figures: []
 - number: 3
   section: choice
   points: 5
   stem:
     text: |-
-      已知当 $x\geq0$ 时，$\sqrt{x+1}-\sqrt{x}=\dfrac{1}{2\sqrt{x+\theta(x)}}$，则\ExamSelection
+      已知当 $x \geqslant 0$ 时, $\sqrt{x+1}-\sqrt{x}=\dfrac{1}{2\sqrt{x+\theta(x)}}$, 则 ( )
   choices:
   - label: A
     text: |-
-      $0<\theta(x)<\dfrac14$
+      $0 < \theta(x) < \dfrac{1}{4}$
     figures: []
   - label: B
     text: |-
-      $\dfrac14<\theta(x)<\dfrac12$
+      $\dfrac{1}{4} < \theta(x) < \dfrac{1}{2}$
     figures: []
   - label: C
     text: |-
-      $\dfrac12<\theta(x)<\dfrac34$
+      $\dfrac{1}{2} < \theta(x) < \dfrac{3}{4}$
     figures: []
   - label: D
     text: |-
-      $\dfrac34<\theta(x)<1$
+      $\dfrac{3}{4} < \theta(x) < 1$
     figures: []
 - number: 4
   section: choice
   points: 5
   stem:
     text: |-
-      设曲线 $L:y=\cos x$，$L_1$ 与 $L_2$ 分别为 $L$ 上点 $(-\dfrac\pi2,0)$ 与 $(\dfrac\pi2,0)$ 处的切线，若函数 $f(x,y)$ 在 $L,L_1$ 与 $L_2$ 所围闭区域 $D$ 上连续，则下列等式成立的有：① $\iint_Df(x,y)\,\mathrm d\sigma=\int_{-\pi/2}^{\pi/2}\mathrm dx\int_{\cos x}^{\pi/2}f(x,y)\,\mathrm dy$；② $\iint_Df(x,y)\,\mathrm d\sigma=\int_0^{\pi/2}\mathrm dy\int_{-\pi/2}^{\pi/2-y}f(x,y)\,\mathrm dx$；③ $\iint_Df(x,y)\,\mathrm d\sigma=2\left[\int_0^1\mathrm dy\int_{\arccos y}^{\pi/2-y}f(x,y)\,\mathrm dx+\int_1^{\pi/2}\mathrm dy\int_{-\pi/2}^{\pi/2-y}f(x,y)\,\mathrm dx\right]$；④ $\iint_Df(x,y)\,\mathrm d\sigma=\int_{-\pi/2}^0\mathrm dx\int_{\cos x}^{\pi/2+x}f(x,y)\,\mathrm dy+\int_0^{\pi/2}\mathrm dx\int_{\cos x}^{\pi/2-x}f(x,y)\,\mathrm dy$\ExamSelection。
+      设曲线 $L:y=\cos x, L_1$ 与 $L_2$ 分别为 $L$ 上点 $\left(-\dfrac{\pi}{2},0\right)$ 与 $\left(\dfrac{\pi}{2},0\right)$ 处的切线, 若函数 $f(x,y)$ 在 $L,L_1$ 与 $L_2$ 所围闭区域 $D$ 上连续, 则下列等式成立的有 $(\quad)$ 个. ① $\iint_D f(x,y)\mathrm{d}\sigma=\int_{-\pi/2}^{\pi/2}\mathrm{d}x\int_{\cos x}^{\pi/2}f(x,y)\mathrm{d}y$; ② $\iint_D f(x,y)\mathrm{d}\sigma=\int_0^{\pi/2}\mathrm{d}y\int_{y-\pi/2}^{\pi/2-y}f(x,y)\mathrm{d}x$; ③ $\iint_D f(x,y)\mathrm{d}\sigma=2\int_0^1\mathrm{d}y\int_{\arccos y}^{\pi/2-y}f(x,y)\mathrm{d}x+\int_1^{\pi/2}\mathrm{d}y\int_{y-\pi/2}^{\pi/2-y}f(x,y)\mathrm{d}x$; ④ $\iint_D f(x,y)\mathrm{d}\sigma=\int_{-\pi/2}^0\mathrm{d}x\int_{\cos x}^{\pi/2+x}f(x,y)\mathrm{d}y+\int_0^{\pi/2}\mathrm{d}x\int_{\cos x}^{\pi/2-x}f(x,y)\mathrm{d}y$
   choices:
   - label: A
     text: '1'
@@ -94,14 +93,13 @@ questions:
   section: choice
   points: 5
   stem:
-    text: |-
-      设 $n$ 阶方阵 $A,B$ 满足 $AB=2A+3B$，则必有\ExamSelection
+    text: 设 $n$ 阶方阵 $A,B$ 满足 $AB=2A+3B$, 则必有 ( )
   choices:
   - label: A
-    text: $A-3E$ 可逆，$B-2E$ 不可逆
+    text: $A-3E$ 可逆, $B-2E$ 不可逆
     figures: []
   - label: B
-    text: $A-3E$ 不可逆，$B-2E$ 可逆
+    text: $A-3E$ 不可逆, $B-2E$ 可逆
     figures: []
   - label: C
     text: $A-3E,B-2E$ 均不可逆
@@ -114,7 +112,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $A$ 是 $m\times n$ 矩阵，$r(A)=m$，$B$ 是 $n\times(n-m)$ 矩阵，$r(B)=n-m$ 且 $AB=O$，若 $\eta$ 是 $Ax=0$ 的解，则线性方程组 $By=\eta$\ExamSelection
+      设 $A$ 是 $m \times n$ 矩阵, $r(A) = m$, $B$ 是 $n \times (n-m)$ 矩阵, $r(B) = n-m$ 且 $AB = O$, 若 $\eta$ 是 $Ax = 0$ 的解, 则线性方程组 $By = \eta(\quad)$
   choices:
   - label: A
     text: 无解
@@ -133,7 +131,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $\alpha=\begin{pmatrix}a_1\\a_2\\a_3\end{pmatrix},\beta=\begin{pmatrix}b_1\\b_2\\b_3\end{pmatrix}$，$\alpha,\beta$ 线性无关，二次型 $f(x_1,x_2,x_3)=(a_1x_1+a_2x_2+a_3x_3)(b_1x_1+b_2x_2+b_3x_3)$ 的规范型为\ExamSelection
+      设 $\alpha=\begin{pmatrix} a_1 \\ a_2 \\ a_3 \end{pmatrix}$ $,\beta=\begin{pmatrix} b_1 \\ b_2 \\ b_3 \end{pmatrix}$ $,\alpha,\beta$ 线性无关，二次型 $f(x_1,x_2,x_3)=(a_1x_1+a_2x_2+a_3x_3)(b_1x_1+b_2x_2+b_3x_3)$ 的规范型为 $(\quad)$
   choices:
   - label: A
     text: $y_1^2$
@@ -151,31 +149,29 @@ questions:
   section: choice
   points: 5
   stem:
-    text: |-
-      已知随机事件 $A,B,C$ 满足 $P(ABC)>0$，则下列命题不正确的是\ExamSelection
+    text: 已知随机事件 $A,B,C$ 满足 $P(ABC) > 0$，则下列命题不正确的是 ( )
   choices:
   - label: A
     text: |-
-      $P(AB\mid A)\geq P(AB\mid A\cup B)$
+      $P(AB \mid A) \geqslant P(AB \mid A \cup B)$
     figures: []
   - label: B
     text: |-
-      若 $P(\overline A\mid B)=P(\overline A)$，则 $P(B\mid A)=P(B)$
+      若 $P(\overline{A} \mid B) = P(\overline{A})$，则 $P(B \mid A) = P(B)$
     figures: []
   - label: C
     text: |-
-      若 $P(BC\mid A)=P(B\mid A)P(C\mid A)$，则 $P(C\mid AB)=P(C\mid A)$
+      若 $P(BC \mid A) = P(B \mid A)P(C \mid A)$，则 $P(C \mid AB) = P(C \mid A)$
     figures: []
   - label: D
     text: |-
-      若 $P(C\mid AB)=1$，则 $P(ABC)<P(A)+P(B)-1$
+      若 $P(C \mid AB) = 1$，则 $P(ABC) < P(A) + P(B) - 1$
     figures: []
 - number: 9
   section: choice
   points: 5
   stem:
-    text: |-
-      设随机变量 $X$ 与 $Y$ 独立且有相同的分布函数 $F(x)$，$Z=X+Y,F_Z(z)$ 为 $Z$ 的分布函数，则有\ExamSelection
+    text: 随机变量 $X$ 与 $Y$ 独立且有相同的分布函数 $F(x)$ $,Z=X+Y$ $,F_Z(z)$ 为 $Z$ 的分布函数，则有（ ）。
   choices:
   - label: A
     text: $F_Z(2z)=2F(z)$
@@ -185,18 +181,18 @@ questions:
     figures: []
   - label: C
     text: |-
-      $F_Z(2z)\leq F^2(z)$
+      $F_Z(2z)\leqslant F^2(z)$
     figures: []
   - label: D
     text: |-
-      $F_Z(2z)\geq F^2(z)$
+      $F_Z(2z)\geqslant F^2(z)$
     figures: []
 - number: 10
   section: choice
   points: 5
   stem:
     text: |-
-      设总体 $X$ 服从分布 $N(0,\sigma^2)$，$X_1,X_2,\ldots,X_n$ 是总体 $X$ 的简单随机样本，记 $\overline X=\dfrac1n\sum_{i=1}^nX_i,S_n^2=\dfrac1n\sum_{i=1}^n(X_i-\overline X)^2$，则 $D(\overline X^2+S_n^2)$ 等于\ExamSelection
+      设总体 $X$ 服从分布 $N(0,\sigma^2), X_1, X_2, \cdots, X_n$ 是总体 $X$ 的简单随机样本, 记 $\overline{X} = \dfrac{1}{n} \sum_{i=1}^n X_i, S_n^2 = \dfrac{1}{n} \sum_{i=1}^n (X_i - \overline{X})^2$, 则 $D(\overline{X}^2 + S_n^2) = (\quad)$
   choices:
   - label: A
     text: |-
@@ -219,87 +215,71 @@ questions:
   points: 5
   stem:
     text: |-
-      微分方程 $(xy+1)\dfrac{\mathrm dy}{\mathrm dx}=y^2$ 满足 $y(0)=1$ 的特解为\ExamBlank
+      微分方程 $(xy+1)\dfrac{\mathrm{d}y}{\mathrm{d}x}=y^2$ 满足 $y(0)=1$ 的特解为$\underline{\qquad\qquad}$
 - number: 12
   section: fill
   points: 5
   stem:
     text: |-
-      计算 $\int_0^\pi\left|x-\dfrac\pi2\right|\cos^3x+\cos^5x\,\mathrm dx$\ExamBlank
+      计算 $\int_0^\pi \left( \left|x - \dfrac{\pi}{2}\right| \cos^3 x + \cos^4 x \right) \mathrm{d}x = \underline{\hspace{2cm}}.$
 - number: 13
   section: fill
   points: 5
   stem:
     text: |-
-      极限 $\lim_{r\to0^+}\dfrac1{r^3}\int_0^{\pi/4}\mathrm d\theta\int_0^{\cos\theta}r\ln(1+\tan(r\sin\theta))\,\mathrm dr$\ExamBlank
+      极限 $\lim\limits_{t \to 0^+} \dfrac{1}{t^3} \int_0^{\dfrac{\pi}{4}} d\theta \int_0^{\dfrac{t}{\cos\theta}} r\ln(1+\tan(r\sin\theta))dr = \underline{\hspace{3em}}.$
 - number: 14
   section: fill
   points: 5
   stem:
     text: |-
-      记空间曲线 $\Gamma:\begin{cases}x^2+y^2+z^2=1,\\x+3y+z=0,\end{cases}$，则曲线积分 $\oint_\Gamma[2(x+1)^2+(y+3)^2]$ $\mathrm ds$\ExamBlank
+      记空间曲线 $\Gamma:\begin{cases} x^2+y^2+z^2=1, \\ x+3y+z=0, \end{cases}$ 则曲线积分 $\oint_{\Gamma}[2(x+1)^2+(y+3)^2]ds=\underline{\hspace{2.5cm}}.$
 - number: 15
   section: fill
   points: 5
   stem:
     text: |-
-      设 $A$ 为四阶实对称矩阵，其特征值为 $\lambda_1=\lambda_2=1,\lambda_3=2,\lambda_4=3$ 相应的特征向量依次为 $p_1,p_2,p_3,p_4$，且 $p_1,p_2$ 线性无关，令 $P=(4p_4,5p_3,p_1+p_2,p_1-p_2)$，则 $P^{-1}AP$ 等于\ExamBlank
+      设 $A$ 为四阶实对称矩阵，其特征值为 $\lambda_1=\lambda_2=1,\lambda_3=2,\lambda_4=3$ ，相应的特征向量依次为 $p_1,p_2,p_3,p_4$，且 $p_1,p_2$ 线性无关，令 $P=(4p_4,5p_3,p_1+p_2,p_1-p_2)$，则 $P^{-1}AP=\underline{\qquad\qquad}$．
 - number: 16
   section: fill
   points: 5
   stem:
     text: |-
-      已知随机变量 $Z\sim\chi^2(2)$，则 $P\{Z>2\}$ 等于\ExamBlank
+      已知随机变量 $Z \sim \chi^2(2)$，则 $P\{Z>2\} = \underline{\qquad\qquad\qquad}$
 - number: 17
   section: solution
-  points: 10
+  points: 12
   stem:
     text: |-
-      求极限 $\lim_{x\to0}\dfrac{\displaystyle\int_0^x\left[\int_0^{u^2}(\arctan e^t-\arctan(1+t))\,\mathrm dt\right]\,\mathrm du}{\ln(1+x^2)\displaystyle\int_0^1\tan(xt)^5\,\mathrm dt}$。
+      求极限 $\lim_{x \to 0} \dfrac{\int_0^x \left[ \int_0^{u^2} [\arctan \mathrm{e}^t - \arctan(1 + t)] \mathrm{d}t \right] \mathrm{d}u}{\ln(1 + x^2) \int_0^1 \tan(xt)^5 \mathrm{d}t}$
 - number: 18
   section: solution
   points: 12
   stem:
     text: |-
-      求项级数 $\displaystyle\sum_{n=0}^{\infty}\dfrac1{(n+1)(n+2)}\cdot\dfrac1{2^{n+2}}$ 的和。
+      求数项级数 $\sum_{n=0}^{\infty} \dfrac{1}{(n+1)(n+2)} \cdot \dfrac{1}{2^{n+2}}$ 的和
 - number: 19
   section: solution
   points: 12
   stem:
     text: |-
-      函数 $f(x)$ 二阶可导，且 $f(0)=f'(0)=0$，$f''(0)\ne0$，$\Omega_r=\{(x,y,z)\mid x^2+y^2+z^2\leq r^2\}$，若对任意正实数 $r$，存在一点 $(\xi,\eta,\zeta)\in\Omega_r$，使得 $\iiint_{\Omega_r}f(x^2+y^2+z^2)\,\mathrm dv=\dfrac43\pi r^3f(\xi^2+\eta^2+\zeta^2)$。
-  subparts:
-  - text: |-
-      证明：$x\to0$ 时，$f(x)$ 与 $\dfrac12x^2f''(0)$ 是等价无穷小；
-  - text: |-
-      求极限 $\displaystyle\lim_{r\to0^+}\dfrac{\xi^2+\eta^2+\zeta^2}{r^2}$。
+      函数 $f(x)$ 二阶可导，且 $f(0)=f'(0)=0, f''(0) \neq 0, \Omega_r = \left\{(x,y,z) \mid x^2+y^2+z^2 \leqslant r^2\right\}$，若对任意正实数 $r$，存在一点 $(\xi,\eta,\zeta) \in \Omega_r$，使得 $\iiint_{\Omega_r} f(x^2+y^2+z^2)\mathrm{d}v = \dfrac{4}{3}\pi r^3 f(\xi^2+\eta^2+\zeta^2)$。 $(I)$ 证明$:x \to 0$ 时$,f(x)$ 与 $\dfrac{1}{2}x^2 f''(0)$ 是等价无穷小； $(II)$ 求极限 $\lim\limits_{r \to 0^+} \dfrac{\xi^2+\eta^2+\zeta^2}{r^2}$。
 - number: 20
   section: solution
   points: 12
   stem:
-    text: 证明
-  subparts:
-  - text: 设函数 $f(x)$ 在点 $x_0$ 处二阶可导，且 $f'(x_0)=0,f''(x_0)>0$，证明 $x_0$ 是函数 $f(x)$ 的极小值点；
-  - text: |-
-      设函数 $f(x)$ 满足 $f'(x)+xf''(x)=(x+1)\ln^2(x+1)-x^2$，若 $x_0>0$ 是函数 $f(x)$ 的驻点，证明 $x_0$ 是函数 $f(x)$ 的极小值点。
+    text: |-
+      (I) 设函数 $f(x)$ 在点 $x_0$ 处二阶可导, 且 $f'(x_0)=0, f''(x_0)>0$, 证明 $x_0$ 是函数 $f(x)$ 的极小值点; (II) 设函数 $f(x)$ 满足 $f''(x)+xf'(x)=(x+1)\ln^2(x+1)-x^2$, 若 $x_0>0$ 是函数 $f(x)$ 的驻点, 证明 $x_0$ 是函数 $f(x)$ 的极小值点
 - number: 21
   section: solution
   points: 12
   stem:
     text: |-
-      已知三阶方阵 $A$ 的第一行为 $a,b,c$，$a\ne0$，$AB=O$，$B=\begin{pmatrix}1&2&3&1\\2&4&6&2\\3&6&10&4\end{pmatrix}$，$\xi_1=\begin{pmatrix}-b\\a\\0\end{pmatrix},\xi_2=\begin{pmatrix}-c\\0\\a\end{pmatrix}$。
-  subparts:
-  - text: |-
-      证明 $A\xi_i=0$，且 $B$ 的列向量组与 $\xi_1,\xi_2$ 等价；
-  - text: |-
-      求可逆矩阵 $P$，使 $P^{-1}A^{\mathrm T}AP=\Lambda$，$\Lambda$ 为对角阵。
+      已知三阶方阵 $A$ 的第一行为 $a, b, c$ $,a eq 0$ $,AB = O$ $,B = \begin{pmatrix} 1 & 2 & 3 & 1 \\ 2 & 4 & 6 & 2 \\ 3 & 6 & 10 & 4 \end{pmatrix}$ $,\xi_1 = \begin{pmatrix} -b \\ a \\ 0 \end{pmatrix}$ $,\xi_2 = \begin{pmatrix} -c \\ 0 \\ a \end{pmatrix}$。证明： (I) $A\xi_1 = 0$，且 $B$ 的列向量组与 $\xi_1, \xi_2$ 等价； (II) 求可逆矩阵 $P$，使 $P^{-1}A^T AP = \Lambda$ $,\Lambda$ 为对角阵。
 - number: 22
   section: solution
   points: 12
   stem:
     text: |-
-      已知随机变量 $(X,Y)$ 的密度函数为 $f(x,y)=\begin{cases}\dfrac{1-|1-x|}{2x},&|y|<x<2,\\0,&\text{其他，}\end{cases}$。随机变量 $Z$ 分布律为 $P(Z=-1)=P(Z=1)=\dfrac12$，且 $Z$ 与 $(X,Y)$ 相互独立。
-  subparts:
-  - text: 判断 $X,Y$ 是否独立，是否相关，并给出理由；
-  - text: |-
-      求随机变量 $U=\dfrac{YZ}{X}$ 的密度函数 $f_U(u)$。
+      已知随机变量 $(X,Y)$ 的密度函数为 $f(x,y)=\begin{cases} \dfrac{1-|1-x|}{2x}, & |y|<x<2, \\ 0, & \text{\text{其他}}, \end{cases}$ 随机变量 $Z$ 分布律为 $P(Z=-1)=P(Z=1)=\dfrac{1}{2}$，且 $Z$ 与 $(X,Y)$ 相互独立. (I) 判断 $X,Y$ 是否独立，是否相关，并给出理由； (II) 求随机变量 $U=\dfrac{YZ}{X}$ 的密度函数 $f_U(u)$
+content_hash: c7e7c1eae1e41203d27f0e790d028178d5f6b791d51d9fb76ca0e1c44f68de66

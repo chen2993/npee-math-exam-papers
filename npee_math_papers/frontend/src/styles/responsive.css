@@ -95,18 +95,13 @@
     padding: 20px 16px 32px;
   }
 
-  .catalog-tools,
-  .search-bar {
+  .catalog-tools {
     flex-wrap: wrap;
   }
 
   .tool-field {
     flex: 1;
     min-width: 135px;
-  }
-
-  .search-bar-field {
-    flex-basis: 100%;
   }
 
   /* Tables become stacked cards so no horizontal scroll is needed. */
@@ -166,10 +161,6 @@
     height: 18px;
   }
 
-  .table-bulk-bar {
-    border-radius: var(--radius) var(--radius) 0 0;
-  }
-
   .row-actions {
     grid-column: 1 / -1;
     justify-content: flex-start;
@@ -221,6 +212,16 @@
 
   .page-title-actions .button {
     flex: 1;
+  }
+
+  /* Read-only pages only carry a count and one button; stretching that button
+     across the row would push the count into a corner for no reason. */
+  .page-title-actions.is-readonly {
+    justify-content: space-between;
+  }
+
+  .page-title-actions.is-readonly .button {
+    flex: 0 0 auto;
   }
 
   .metric-grid {

@@ -4,14 +4,13 @@ paper:
   year: 2026
   subject: math2
   paper_no: 5
-content_hash: 3c37d37443ec3eb8d44649d3a4b51d0cbab3c2a6b79f6d2c8948156060c49da6
 questions:
 - number: 1
   section: choice
   points: 5
   stem:
     text: |-
-      设 $f\left(\dfrac{1}{x}\right)=x+\sqrt{1+x^2}$（$x\neq 0$），则 $x=0$ 是 $f(x)$ 的\ExamSelection。
+      设 $f\left(\dfrac{1}{x}\right)=x+\sqrt{1+x^2}\ (x\ne0)$，则 $x=0$ 是 $f(x)$ 的（ ）
   choices:
   - label: A
     text: 连续点
@@ -29,8 +28,7 @@ questions:
   section: choice
   points: 5
   stem:
-    text: |-
-      设 $f(x,y)=x^2+y^2(1+x)^3$，则\ExamSelection。
+    text: 设 $f(x,y)=x^2+y^2(1+x)^3$，则（ ）
   choices:
   - label: A
     text: 点 $(0,0)$ 是 $f(x,y)$ 的唯一极小值点，也是其最小值点
@@ -49,7 +47,7 @@ questions:
   points: 5
   stem:
     text: |-
-      若 $\{x_n\},\{y_n\}$ 满足 $\lim_{n\to\infty}x_ny_n=\infty$，则以下结论：①$\lim_{n\to\infty}x_n=\infty$ 或 $\lim_{n\to\infty}y_n=\infty$；②$\lim_{n\to\infty}x_n=\infty$ 且 $\lim_{n\to\infty}y_n=\infty$；③$x_n$ 与 $y_n$ 中一个是无穷大量，另一个是无界量；④当 $x_n$ 是非零无穷小量时，$\lim_{n\to\infty}y_n=\infty$。正确结论的个数为\ExamSelection。
+      若 $\{x_n\},\{y_n\}$ 满足 $\lim\limits_{n\to\infty}x_ny_n=\infty$，则以下结论： ① $\lim\limits_{n\to\infty}x_n=\infty$ 或 $\lim\limits_{n\to\infty}y_n=\infty$； ② $\lim\limits_{n\to\infty}x_n=\infty$ 且 $\lim\limits_{n\to\infty}y_n=\infty$； ③ $x_n$ 与 $y_n$ 中一个是无穷大量，另一个是无界量； ④ 当 $x_n$ 是非零无穷小量时$,\lim\limits_{n\to\infty}y_n=\infty$。 正确结论的个数为（ ）。
   choices:
   - label: A
     text: $1$
@@ -68,26 +66,26 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $p,q$ 为正常数，若 $\int_0^1\dfrac{1}{x^p|\ln x|^q}\,\mathrm{d}x$ 收敛，则\ExamSelection。
+      设 $p,q$ 为正常数，若反常积分 $\int_0^1\dfrac{1}{x^p|\ln x|^q}\,\mathrm{d}x$ 收敛，则（ ）
   choices:
   - label: A
-    text: $p<1,q<1$
+    text: $p<1, q<1$
     figures: []
   - label: B
-    text: $p>1,q<1$
+    text: $p>1, q<1$
     figures: []
   - label: C
-    text: $p<1,q>1$
+    text: $p1$
     figures: []
   - label: D
-    text: $p>1,q>1$
+    text: $p>1, q>1$
     figures: []
 - number: 5
   section: choice
   points: 5
   stem:
     text: |-
-      设函数 $y=f(x)$ 由参数方程 $\begin{cases}x=t^3+\dfrac{\pi}{2}-1,\\y=\mathrm{e}^{t^2}\end{cases}$ 确定，则 $\lim_{n\to\infty}n\left[f\left(\dfrac{\pi}{2}+\dfrac{2}{n}\right)-f\left(\dfrac{\pi}{2}\right)\right]=$\ExamSelection。
+      设函数 $y=f(x)$ 由参数方程 $\begin{cases}x=t^3+\dfrac{\pi}{2}-1, \\y=\mathrm{e}^{t^2}\end{cases}$ 确定，则 $\lim_{n\to\infty}n\left[f\left(\dfrac{\pi}{2}+\dfrac{2}{n}\right)-f\left(\dfrac{\pi}{2}\right)\right] = $（ ）
   choices:
   - label: A
     text: |-
@@ -110,91 +108,90 @@ questions:
   points: 5
   stem:
     text: |-
-      设函数 $f(x)=\int_0^{\sin x}\mathrm{e}^{t^2}\sin t\,\mathrm{d}t$，$g(x)=\int_0^x\mathrm{e}^{t^2}\sin^2x\,\mathrm{d}t$，则\ExamSelection。
+      设函数 $f(x)=\int_0^{\sin x}\mathrm{e}^{t^2}\sin t\,\mathrm{d}t$ $,g(x)=\int_0^x\mathrm{e}^{t^2}\sin^2 x\,\mathrm{d}t$，则（ ）
   choices:
   - label: A
-    text: $f(x)$ 是奇函数，$g(x)$ 是奇函数
+    text: $f(x)$ 是奇函数$,g(x)$ 是奇函数
     figures: []
   - label: B
-    text: $f(x)$ 是偶函数，$g(x)$ 是奇函数
+    text: $f(x)$ 是偶函数$,g(x)$ 是奇函数
     figures: []
   - label: C
-    text: $f(x)$ 是偶函数，$g(x)$ 是偶函数
+    text: $f(x)$ 是偶函数$,g(x)$ 是偶函数
     figures: []
   - label: D
-    text: $f(x)$ 是奇函数，$g(x)$ 是偶函数
+    text: $f(x)$ 是奇函数$,g(x)$ 是偶函数
     figures: []
 - number: 7
   section: choice
   points: 5
   stem:
     text: |-
-      已知数列 $\{a_n\}$ 发散，$b_n=a_n\mathrm{e}^{a_n}$，则\ExamSelection。
+      已知数列 $\{a_n\}$ 发散$,b_n=a_n\mathrm{e}^{a_n}$，则（ ）
   choices:
   - label: A
     text: |-
-      当 $a_n>0$ 时，$\{b_n\}$ 收敛
+      当 $a_n>0$ 时$,\{b_n\}$ 收敛
     figures: []
   - label: B
     text: |-
-      当 $a_n<0$ 时，$\{b_n\}$ 收敛
+      当 $a_n<0$ 时$,\{b_n\}$ 收敛
     figures: []
   - label: C
     text: |-
-      当 $a_n>0$ 时，$\{b_n\}$ 发散
+      当 $a_n>0$ 时$,\{b_n\}$ 发散
     figures: []
   - label: D
     text: |-
-      当 $a_n<0$ 时，$\{b_n\}$ 发散
+      当 $a_n<0$ 时$,\{b_n\}$ 发散
     figures: []
 - number: 8
   section: choice
   points: 5
   stem:
-    text: |-
-      设二次型 $f(x_1,x_2,x_3)=4x_1^2+x_2^2+ax_3^2+2x_1x_2-4x_1x_3+2x_2x_3$ 与 $g(y_1,y_2,y_3)=2y_1^2+by_2^2$ 合同，则\ExamSelection。
+    text: 设二次型 $f(x_1,x_2,x_3)=4x_1^2+x_2^2+ax_3^2+2x_1x_2-4x_1x_3+2x_2x_3$ 与 $g(y_1,y_2,y_3)=2y_1^2+by_2^2$ 合同，则（ ）
   choices:
   - label: A
-    text: $a=3,b>0$
+    text: $a=3, b>0$
     figures: []
   - label: B
-    text: $a=3,b<0$
+    text: $a=3, b<0$
     figures: []
   - label: C
-    text: $a=4,b>0$
+    text: $a=4, b>0$
     figures: []
   - label: D
-    text: $a=4,b<0$
+    text: $a=4, b<0$
     figures: []
 - number: 9
   section: choice
   points: 5
   stem:
     text: |-
-      设 $\mathbf{A},\mathbf{B}$ 为 $n$ 阶矩阵，且 $\mathbf{A}$ 满足 $\mathbf{A}^2-\mathbf{A}=3\mathbf{E}$，则与 $\begin{pmatrix}\mathbf{A}\\\mathbf{B}\end{pmatrix}\mathbf{x}=0$ 不一定同解的是\ExamSelection。
+      设 $A,B$ 为 $n$ 阶矩阵，且 $A$ 满足 $A^2-A=3E$，则与 $\begin{pmatrix}A\\B\end{pmatrix}\boldsymbol{x}=\boldsymbol{0}$ 不一定同解的是（ ）
   choices:
   - label: A
     text: |-
-      $\begin{pmatrix}\mathbf{A}-\mathbf{B}\\\mathbf{A}+\mathbf{AB}\end{pmatrix}\mathbf{x}=0$
+      $\begin{pmatrix}A-B\\A+AB\end{pmatrix}\boldsymbol{x}=\boldsymbol{0}$
     figures: []
   - label: B
     text: |-
-      $\begin{pmatrix}\mathbf{A}+\mathbf{B}\\\mathbf{A}+\mathbf{AB}-\mathbf{B}\end{pmatrix}\mathbf{x}=0$
+      $\begin{pmatrix}A+B\\A+AB-B\end{pmatrix}\boldsymbol{x}=\boldsymbol{0}$
     figures: []
   - label: C
     text: |-
-      $\begin{pmatrix}\mathbf{A}-\mathbf{B}\\2\mathbf{A}+\mathbf{B}\end{pmatrix}\mathbf{x}=0$
+      $\begin{pmatrix}A-B\\2A+B\end{pmatrix}\boldsymbol{x}=\boldsymbol{0}$
     figures: []
   - label: D
     text: |-
-      $\begin{pmatrix}\mathbf{A}+\mathbf{B}\\\mathbf{BA}+\mathbf{B}^2\end{pmatrix}\mathbf{x}=0$
+      $\begin{pmatrix}A+B\\BA+B^2\end{pmatrix}\boldsymbol{x}=\boldsymbol{0}$
     figures: []
 - number: 10
   section: choice
   points: 5
   stem:
     text: |-
-      设 $\mathbf{A}=\begin{pmatrix}1&0&a\\b&2&0\\0&c&3\end{pmatrix}$，其中 $abc=-6$，则 $\mathbf{A}$ 的伴随矩阵 $\mathbf{A}^*$ 有非零特征值\ExamSelection。
+      设矩阵 $A=\begin{pmatrix}1&0&a\\b&2&0\\0&c&3\end{pmatrix}$，其中 $abc=-6$，则 $A$ 的伴随矩阵 $A^*$ 的非零特征值为（ ）
   choices:
   - label: A
     text: $-8$
@@ -213,91 +210,71 @@ questions:
   points: 5
   stem:
     text: |-
-      $\lim_{x\to0}\dfrac{\sqrt{1+2x}-\sqrt[3]{1+3x}}{\ln(1+x^2)}=$\ExamBlank。
+      $\lim_{x\to0}\dfrac{\sqrt{1+2x}-\sqrt[3]{1+3x}}{\ln(1+x^2)} = $ \underline{\qquad}。
 - number: 12
   section: fill
   points: 5
   stem:
     text: |-
-      已知函数 $y=y(x)$ 满足 $y'-2\sqrt{2}x\sqrt{y}=0$，且该曲线的一个拐点的横坐标为 $-2$，则 $y(x)=$\ExamBlank。
+      已知函数 $y=y(x)$ 满足 $y'-2\sqrt{2}x\sqrt{y}=0$，且该曲线的一个拐点的横坐标为 $-2$，则 $y(x) = $ \underline{\qquad}。
 - number: 13
   section: fill
   points: 5
   stem:
     text: |-
-      $\int_1^{+\infty}\dfrac{1}{x(x+2)}\,\mathrm{d}x=$\ExamBlank。
+      $\int_1^{+\infty}\dfrac{1}{x(x+2)}\,\mathrm{d}x = $ \underline{\qquad}。
 - number: 14
   section: fill
   points: 5
   stem:
     text: |-
-      若 $(2ax^3y^3-3y^2+5)\,\mathrm{d}x+(3x^4y^2-2bxy-4)\,\mathrm{d}y$ 是某函数 $u(x,y)$ 的全微分，则 $u(x,y)=$\ExamBlank。
+      若 $(2ax^3y^3-3y^2+5)\,\mathrm{d}x+(3x^4y^2-2bxy-4)\,\mathrm{d}y$ 是某二元函数 $u(x,y)$ 的全微分，则 $u(x,y) = $ \underline{\qquad}。
 - number: 15
   section: fill
   points: 5
   stem:
     text: |-
-      $\lim_{n\to\infty}\dfrac{1}{n^3}\left[\ln\dfrac{1}{n}+4\ln\dfrac{2}{n}+\cdots+(n-1)^2\ln\dfrac{n-1}{n}\right]=$\ExamBlank。
+      $\lim_{n\to\infty}\dfrac{1}{n^3}\left[\ln\dfrac{1}{n}+4\ln\dfrac{2}{n}+\cdots+(n-1)^2\ln\dfrac{n-1}{n}\right] = $ \underline{\qquad}。
 - number: 16
   section: fill
   points: 5
   stem:
     text: |-
-      设 $\mathbf{A}=\begin{pmatrix}1&1\\0&1\end{pmatrix}$，$\mathbf{B}=\begin{pmatrix}-1&1\\0&-1\end{pmatrix}$，则 $\mathbf{A}^9-\mathbf{B}^9=$\ExamBlank。
+      设 $A=\begin{pmatrix}1&1\\0&1\end{pmatrix}$ $,B=\begin{pmatrix}-1&1\\0&-1\end{pmatrix}$，则 $A^9-B^9 = $ \underline{\qquad}。
 - number: 17
   section: solution
-  points: 10
+  points: 12
   stem:
     text: |-
-      设平面区域 $D=\left\{(x,y)\mid 0\leq y\leq\dfrac{\sqrt{x^2-1}}{x^2},\sqrt{2}\leq x\leq2\right\}$，求
-  subparts:
-  - text: $D$ 的面积；
-  - text: $D$ 绕 $x$ 轴旋转一周所成旋转体的体积。
+      设平面区域 $D=\left\{(x,y)\ \middle|\ 0\le y\le \dfrac{\sqrt{x^2-1}}{x^2}, \sqrt{2}\le x\le 2\right\}$，求： (1) 平面区域 $D$ 的面积； (2) 平面区域 $D$ 绕 $x$ 轴旋转一周所成旋转体的体积。
 - number: 18
   section: solution
   points: 12
   stem:
     text: |-
-      设 $y=y(x)$ 满足 $(xy-1)\,\mathrm{d}x+x^2\,\mathrm{d}y=0$，$x>0$，$y(1)=0$，求
-  subparts:
-  - text: $y=y(x)$ 的表达式；
-  - text: 曲线 $y=y(x)$ 的拐点及渐近线。
+      设 $y=y(x)$ 满足 $(xy-1)\,\mathrm{d}x+x^2\,\mathrm{d}y=0\ (x>0)$，且 $y(1)=0$。求： (1) $y=y(x)$ 的表达式； (2) 曲线 $y=y(x)$ 的拐点及渐近线。
 - number: 19
   section: solution
   points: 12
   stem:
     text: |-
-      设函数 $f(x)$ 在 $[a,b]$ 上可导，$c\in(a,b)$，证明：
-  subparts:
-  - text: |-
-      存在一点 $\xi\in(a,c)$，使得 $f(c)-f(a)=f'(\xi)(c-a)$；
-  - text: |-
-      存在一点 $\eta\in(a,b)$，使得 $f(b)-f(a)=f'(\eta)(b-a)$ 且 $\eta>\xi$。
+      设函数 $f(x)$ 在 $[a,b]$ 上可导$,c\in(a,b)$。证明： (1) 存在一点 $\xi\in(a,c)$，使得 $f(c)-f(a)=f'(\xi)(c-a)$； (2) 存在一点 $\eta\in(a,b)$，使得 $f(b)-f(a)=f'(\eta)(b-a)$ 且 $\eta>\xi$。
 - number: 20
   section: solution
   points: 12
   stem:
     text: |-
-      计算 $I=\iint_Dx^2y^2\,\mathrm{d}x\mathrm{d}y$，其中 $D$ 是由直线 $y=2$，$y=0$，$x=-2$ 及曲线 $x=-\sqrt{2y-y^2}$ 所围成的区域。
+      计算二重积分 $I=\iint_D x^2y^2\,\mathrm{d}x\mathrm{d}y$，其中 $D$ 是由直线 $y=2$ $\text{、}y=0$ $\text{、}x=-2$ 及曲线 $x=-\sqrt{2y-y^2}$ 所围成的平面区域。
 - number: 21
   section: solution
   points: 12
   stem:
     text: |-
-      已知可微函数 $f(u,v)$ 满足 $\dfrac{\partial[f(u,v)]}{\partial u}+\dfrac{\partial[f(u,v)]}{\partial v}=6(u+v)-3u^2$，且 $f(u,0)=3u^2-u^3$。记 $g(x,y)=f(x,x-y)$。
-  subparts:
-  - text: |-
-      计算 $\dfrac{\partial[g(x,y)]}{\partial x}$；
-  - text: |-
-      求 $f(x,y)$ 在有界闭区域 $D=\{(x,y)\mid x^2+y^2\leq16\}$ 上的最值。
+      已知可微函数 $f(u,v)$ 满足 $\dfrac{\partial f(u,v)}{\partial u}+\dfrac{\partial f(u,v)}{\partial v}=6(u+v)-3u^2$，且 $f(u,0)=3u^2-u^3$。记 $g(x,y)=f(x,x-y)$。 (1) 计算 $\dfrac{\partial g(x,y)}{\partial x}$； (2) 求 $f(x,y)$ 在有界闭区域 $D=\{(x,y)\mid x^2+y^2\le16\}$ 上的最大值与最小值。
 - number: 22
   section: solution
   points: 12
   stem:
     text: |-
-      设向量 $\boldsymbol{\alpha}_1=\begin{pmatrix}1\\0\\1\end{pmatrix}$，$\boldsymbol{\alpha}_2=\begin{pmatrix}0\\1\\1\end{pmatrix}$，$\boldsymbol{\alpha}_3=\begin{pmatrix}1\\1\\0\end{pmatrix}$。
-  subparts:
-  - text: |-
-      将 $\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3$ 化成正交单位向量组 $\boldsymbol{\gamma}_1,\boldsymbol{\gamma}_2,\boldsymbol{\gamma}_3$；
-  - text: |-
-      若 $(\boldsymbol{\alpha}_1,\boldsymbol{\alpha}_2,\boldsymbol{\alpha}_3)=(\boldsymbol{\gamma}_1,\boldsymbol{\gamma}_2,\boldsymbol{\gamma}_3)\mathbf{C}$，求 $\mathbf{C}$。
+      设向量 $\boldsymbol{\alpha}_1=(1,0,1)^{\mathrm{T}}, \boldsymbol{\alpha}_2=(0,1,1)^{\mathrm{T}}, \boldsymbol{\alpha}_3=(1,1,0)^{\mathrm{T}}$。 (1) 将 $\boldsymbol{\alpha}_1, \boldsymbol{\alpha}_2, \boldsymbol{\alpha}_3$ 正交规范化为正交单位向量组 $\boldsymbol{\gamma}_1, \boldsymbol{\gamma}_2, \boldsymbol{\gamma}_3$； (2) 若 $(\boldsymbol{\alpha}_1, \boldsymbol{\alpha}_2, \boldsymbol{\alpha}_3)=(\boldsymbol{\gamma}_1, \boldsymbol{\gamma}_2, \boldsymbol{\gamma}_3)C$，求矩阵 $C$。
+content_hash: 24225a3a10d22e6a078b2e7833595d6667e995a0350e0bb6890ffc8a1426828a

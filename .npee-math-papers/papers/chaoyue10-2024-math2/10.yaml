@@ -4,14 +4,13 @@ paper:
   year: 2024
   subject: math2
   paper_no: 10
-content_hash: 8abbbea28fb360fd91eb1baa2222dabab08ab23d63f9aa44406a7178d6e6949c
 questions:
 - number: 1
   section: choice
   points: 5
   stem:
     text: |-
-      设 $f(x)$ 在 $(-\infty,+\infty)$ 连续，如果 $f(x)$ 为单调增加的奇函数，且 $F(x)=\int_0^x(2t-x)f(x-t)\,\mathrm{d}t$，则下列说法正确的是\ExamSelection。
+      设 $f(x)$ 在 $(-\infty, +\infty)$ 连续, 如果 $f(x)$ 为单调增加的奇函数, 且 $F(x)=\int_{0}^{x}(2t-x)f(x-t)dt$, 则下列说法正确的是( )
   choices:
   - label: A
     text: $F(x)$ 是单调递减的奇函数
@@ -21,41 +20,41 @@ questions:
     figures: []
   - label: C
     text: |-
-      $F(x)$ 是偶函数且在 $(0,+\infty)$ 单调增加
+      $F(x)$ 是偶函数且在 $(0, +\infty)$ 单调增加
     figures: []
   - label: D
     text: |-
-      $F(x)$ 是偶函数且在 $(0,+\infty)$ 单调减少
+      $F(x)$ 是偶函数且在 $(0, +\infty)$ 单调减少
     figures: []
 - number: 2
   section: choice
   points: 5
   stem:
     text: |-
-      定义在 $[-1,1]$ 上的函数 $f(x)=\begin{cases}\dfrac{1}{2^{n+1}},&\dfrac{1}{2^{n+1}}<x\leqslant\dfrac{1}{2^n},\quad n=0,1,2,\cdots,\\0,&-1\leqslant x\leqslant0,\end{cases}$ 则\ExamSelection。
+      定义在 $[-1,1]$ 上的函数 $f(x)=\begin{cases} \dfrac{1}{2^{n+1}}, & \dfrac{1}{2^{n+1}}<x\leqslant\dfrac{1}{2^n}, \\ 0, & -1\leqslant x\leqslant0, \end{cases}\ (n=0,1,2,\cdots)$, 则 ( )
   choices:
   - label: A
     text: |-
-      $x=0$ 为 $f(x)$ 的连续点，$x=\dfrac{1}{2^n}(n=1,2,3,\cdots)$ 为 $f(x)$ 的第一类间断点
+      $x=0$ 为 $f(x)$ 的连续点, $x=\dfrac{1}{2^n}\,(n=1,2,3,\cdots)$ 为 $f(x)$ 的第一类间断点
     figures: []
   - label: B
     text: |-
-      $x=0$ 为 $f(x)$ 的连续点，$x=\dfrac{1}{2^n}(n=1,2,3,\cdots)$ 为 $f(x)$ 的第二类间断点
+      $x=0$ 为 $f(x)$ 的连续点, $x=\dfrac{1}{2^n}\,(n=1,2,3,\cdots)$ 为 $f(x)$ 的第二类间断点
     figures: []
   - label: C
     text: |-
-      $x=0$ 及 $x=\dfrac{1}{2^n}(n=1,2,3,\cdots)$ 均为 $f(x)$ 的第一类间断点
+      $x=0$ 及 $x=\dfrac{1}{2^n}\,(n=1,2,3,\cdots)$ 均为 $f(x)$ 的第一类间断点
     figures: []
   - label: D
     text: |-
-      $x=0$ 为 $f(x)$ 的第一类间断点，$x=\dfrac{1}{2^n}(n=1,2,3,\cdots)$ 为 $f(x)$ 的第二类间断点
+      $x=0$ 为 $f(x)$ 的第一类间断点, $x=\dfrac{1}{2^n}\,(n=1,2,3,\cdots)$ 为 $f(x)$ 的第二类间断点
     figures: []
 - number: 3
   section: choice
   points: 5
   stem:
     text: |-
-      “对任意的 $\varepsilon>0$，只有有限个 $x_n\notin[a-\varepsilon,a+\varepsilon]$”是“$\lim_{n\to\infty}x_n=a$”的\ExamSelection。
+      “对任意的 $\varepsilon > 0$，只有有限个 $x_n \notin [a-\varepsilon, a+\varepsilon]$” 是 “$\lim\limits_{n\to\infty} x_n = a$” 的 ( )
   choices:
   - label: A
     text: 充分而非必要条件
@@ -74,7 +73,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $I_1=\int_0^{\dfrac{\pi}{4}}\dfrac{\sin x}{x}\,\mathrm{d}x$，$I_2=\int_0^{\dfrac{\pi}{4}}\dfrac{\tan x}{x}\,\mathrm{d}x$，$I_3=\int_0^{\dfrac{\pi}{4}}\dfrac{1}{\cos x}\,\mathrm{d}x$，则有\ExamSelection。
+      设 $I_1=\int_{0}^{\dfrac{\pi}{4}} \dfrac{\sin x}{x} \mathrm{d}x, I_2=\int_{0}^{\dfrac{\pi}{4}} \dfrac{\tan x}{x} \mathrm{d}x, I_3=\int_{0}^{\dfrac{\pi}{4}} \dfrac{1}{\cos x} \mathrm{d}x$，则有 ( )
   choices:
   - label: A
     text: $I_1<I_2<I_3$
@@ -93,7 +92,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $f(x)$ 满足方程 $e^xf(x)+2e^{\pi-x}f(\pi-x)=3\sin x$，$x\in\mathbb{R}$，则 $f(x)$ 在 $(0,2\pi)$ 内\ExamSelection。
+      设 $f(x)$ 满足方程 $\mathrm{e}^x f(x) + 2\mathrm{e}^{\pi - x} f(\pi - x) = 3\sin x, x \in \mathbb{R}$，则 $f(x)$ 在 $(0, 2\pi)$ 内（$\quad$）
   choices:
   - label: A
     text: 两个极大值
@@ -112,13 +111,13 @@ questions:
   points: 5
   stem:
     text: |-
-      若函数 $f,g$ 均可微，设 $z=f[xy,\ln x+g(xy)]$，则 $x\dfrac{\partial z}{\partial x}-y\dfrac{\partial z}{\partial y}=$\ExamSelection。
+      若函数 $f,g$ 均可微，设 $z=f[xy,\ln x+g(xy)]$，则 $x\dfrac{\partial z}{\partial x}-y\dfrac{\partial z}{\partial y}=(\quad)$．
   choices:
   - label: A
-    text: $f'_1$
+    text: $f_1'$
     figures: []
   - label: B
-    text: $f'_2$
+    text: $f_2'$
     figures: []
   - label: C
     text: $0$
@@ -131,7 +130,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $D=\{(x,y)\mid |x|+|y|\leqslant1\}$，$I_k=\iint_D\cos(x^2+y^2)^k\,\mathrm{d}\sigma$，$k=1,2,3,4$，则 $\max_{1\leqslant k\leqslant4}I_k=$\ExamSelection。
+      设 $D=\{(x,y)\mid |x|+|y|\leqslant 1\},I_k=\iint_D \cos(x^2+y^2)^k d\sigma,k=1,2,3,4$，则 $\max\limits_{1\leqslant k\leqslant 4} I_k=(\quad)$
   choices:
   - label: A
     text: $I_1$
@@ -150,13 +149,13 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $A$ 为 $n$ 阶实矩阵，$|A|=3$ 且 $A$ 的各列元素之和为 $2$，$A_{ij}$ 为 $|A|$ 中元素 $a_{ij}$ 的代数余子式，则 $A_{11}+A_{12}+\cdots+A_{1n}=$\ExamSelection。
+      设 $A$ 为 $n$ 阶实矩阵, $|A|=3$ 且 $A$ 的各列元素之和为 $2, A_{ij}$ 为 $|A|$ 中元素 $a_{ij}$ 的代数余子式, 则 $A_{11}+A_{12}+\cdots+A_{1n}=(\quad).$
   choices:
   - label: A
-    text: $6$
+    text: '6'
     figures: []
   - label: B
-    text: $5$
+    text: '5'
     figures: []
   - label: C
     text: |-
@@ -171,7 +170,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $A$ 为 $n$ 阶矩阵，$A^*\neq O$，方程组 $Ax=b$ 有无穷多解，其中 $A^*$ 为 $A$ 的伴随矩阵，$b$ 为 $n$ 维非零列向量，下列选项中错误的是\ExamSelection。
+      设 $A$ 为 $n$ 阶矩阵, $A^* \neq O$, 方程组 $Ax=b$ 有无穷多解, 其中 $A^*$ 为 $A$ 的伴随矩阵, $b$ 为 $n$ 维非零列向量, 下列选项中错误的是( )
   choices:
   - label: A
     text: 方程组 $Ax=0$ 必有非零解
@@ -190,7 +189,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $A,B$ 均为 $4$ 阶实矩阵，且 $A$ 与 $B$ 相似，已知 $|A|=|A+E|=|A-2E|=0$，且方程组 $Ax=0$ 有两个线性无关的解向量，则 $r_1=r(B)$，$r_2=r(B-E)$，$r_3=r(B-2E)$ 满足\ExamSelection。
+      设 $A,B$ 均为 $4$ 阶实矩阵, 且 $A$ 与 $B$ 相似, 已知 $|A|=|A+E|=|A-2E|=0$, 且方程组 $Ax=0$ 有两个线性无关的解向量, 则 $r_1=r(B),r_2=r(B-E),r_3=r(B-2E)$ 满足 $(\quad)$
   choices:
   - label: A
     text: $r_1<r_2<r_3$
@@ -209,85 +208,71 @@ questions:
   points: 5
   stem:
     text: |-
-      $\lim_{x\to0}\left(\dfrac{1}{x^2}-\cot^2x\right)=$\ExamBlank。
+      $\lim_{x\to 0}\left(\dfrac{1}{x^2}-\cot^2 x\right)=\underline{\qquad\qquad}.$
 - number: 12
   section: fill
   points: 5
   stem:
     text: |-
-      $\lim_{n\to\infty}\int_n^{2n}\dfrac{x^2}{1+x^4}\,\mathrm{d}x=$\ExamBlank。
+      $\lim_{n \to \infty} n \int_n^{2n} \dfrac{x^2}{1+x^4} \mathrm{d}x = \underline{\qquad\qquad}.$
 - number: 13
   section: fill
   points: 5
   stem:
     text: |-
-      设 $f(u)$ 为连续函数，若 $\int_{-\dfrac{\pi}{2}}^{\dfrac{\pi}{2}}f(x\cos x)\cdot\cos x\,\mathrm{d}x=m$，则 $\int_{-\dfrac{\pi}{2}}^{\dfrac{\pi}{2}}f(x\cos x)\cdot x\sin x\,\mathrm{d}x=$\ExamBlank。
+      设 $f(u)$ 为连续函数, 若 $\int_{-\dfrac{\pi}{2}}^{\dfrac{\pi}{2}} f(x\cos x) \cdot \cos x\mathrm{d}x = m$, 则 $\int_{-\dfrac{\pi}{2}}^{\dfrac{\pi}{2}} f(x\cos x) \cdot x\sin x\mathrm{d}x = \underline{\quad\quad\quad\quad}$
 - number: 14
   section: fill
   points: 5
   stem:
     text: |-
-      设 $D=\{(x,y)\mid x^2+y^2\leqslant1\}$，则 $\iint_D[\sin(x^2)\cos(y^2)+\sin(xy)\cos(x^2+y^2)]\,\mathrm{d}\sigma=$\ExamBlank。
+      设 $D=\left\{(x, y) \mid x^{2}+y^{2} \leqslant 1\right\}$，则 $\iint_{D}\left[\sin \left(x^{2}\right) \cos \left(y^{2}\right)+\sin (x y) \cos \left(x^{2}+y^{2}\right)\right] d \sigma=\underline{\qquad\qquad}$
 - number: 15
   section: fill
   points: 5
   stem:
     text: |-
-      设 $f(u)=\int_0^u\mathrm{d}x\int_x^u\sqrt{1+(x-y)^3}\,\mathrm{d}y$，$u\geqslant0$，则 $f''(1)=$\ExamBlank。
+      设 $f(u)=\int_0^u \mathrm{d}x \int_x^u \sqrt{1+(x-y)^3} \mathrm{d}y, u \geqslant 0$，则 $f''(1)=$ $\underline{\qquad\qquad}$
 - number: 16
   section: fill
   points: 5
   stem:
     text: |-
-      设 $\alpha,\beta$ 为 $3$ 维单位向量，且 $[\alpha,\beta]=0$，$A=\beta\alpha^{\mathrm{T}}+\alpha\beta^{\mathrm{T}}+\lambda E$，$E$ 为 $3$ 阶单位矩阵，$\lambda$ 为实数，若 $A$ 为正定矩阵，则 $\lambda$ 的取值范围为\ExamBlank。
+      设 $\alpha,\beta$ 为 3 维单位向量，且 $[\alpha,\beta]=0, A=\beta\alpha^T+\alpha\beta^T+\lambda E, E$ 为 3 阶单位矩阵$,\lambda$ 为实数，若 $A$ 为正定矩阵，则 $\lambda$ 的取值范围为 $\underline{\hspace{2cm}}$
 - number: 17
   section: solution
-  points: 10
+  points: 12
   stem:
     text: |-
-      设 $f(x)$ 在 $(-\infty,+\infty)$ 内有定义，$f'(0)=1$，且对任意 $x,y\in(-\infty,+\infty)$ 恒有 $f(x+y)=e^yf(x)+e^xf(y)$。
-  subparts:
-  - text: 求 $f(x)$ 满足的一阶微分方程；
-  - text: 求 $f(x)$ 表达式。
+      设 $f(x)$ 在 $(-\infty, +\infty)$ 内有定义$,f'(0) = 1$，且对任意 $x, y \in (-\infty, +\infty)$ 恒有 $f(x+y) = \mathrm{e}^y f(x) + \mathrm{e}^x f(y)$. (I) 求 $f(x)$ 满足的一阶微分方程; (II) 求 $f(x)$ 表达式
 - number: 18
   section: solution
   points: 12
   stem:
-    text: 完成下列证明。
-  subparts:
-  - text: |-
-      设 $f(x),g(x)$ 均为 $[a,b]$ 上的连续函数，证明方程 $f(x)\int_a^xg(t)\,\mathrm{d}t=g(x)\int_x^bf(t)\,\mathrm{d}t$ 在 $(a,b)$ 内至少有一个根。
-  - text: |-
-      设 $f(x)$ 是 $[a,b]$ 上的可导函数且 $f'(x)>0$，证明方程 $(x-a)\int_x^bf(t)\,\mathrm{d}t=(b-x)\int_a^xf(t)\,\mathrm{d}t$ 在 $(a,b)$ 内没有根。
+    text: |-
+      (I) 设 $f(x),g(x)$ 均为 $[a,b]$ 上的连续函数, 证明方程 $f(x)\int_a^x g(t)\mathrm{d}t=g(x)\int_x^b f(t)\mathrm{d}t$ 在 $(a,b)$ 内至少有一个根. (II) 设 $f(x)$ 是 $[a,b]$ 上的可导函数且 $f'(x)>0$, 证明方程 $(x-a)\int_x^b f(t)\mathrm{d}t=(b-x)\int_a^x f(t)\mathrm{d}t$ 在 $(a,b)$ 内没有根
 - number: 19
   section: solution
   points: 12
   stem:
     text: |-
-      设 $f(x)$ 是在 $(-\infty,+\infty)$ 内以 $T$（$T>0$）为周期的连续函数，$F(x)=\int_0^xf(t)\,\mathrm{d}t-\dfrac{x}{T}\int_0^Tf(x)\,\mathrm{d}x$。
-  subparts:
-  - text: 证明 $F(x)$ 是以 $T$ 为周期的周期函数；
-  - text: |-
-      计算极限 $\lim_{x\to\infty}\dfrac{1}{x}\int_0^xf(t)\,\mathrm{d}t$。
+      设 $f(x)$ 是在 $(-\infty, +\infty)$ 内以 $T(T>0)$ 为周期的连续函数, $F(x)=\int_0^x f(t)\mathrm{d}t-\dfrac{x}{T}\int_0^T f(x)\mathrm{d}x$ (I) 证明 $F(x)$ 是以 $T$ 为周期的周期函数; (II) 计算极限 $\lim_{x\to \infty}\dfrac{1}{x}\int_0^x f(t)\mathrm{d}t.$
 - number: 20
   section: solution
   points: 12
   stem:
     text: |-
-      求 $f(x,y,z)=\dfrac{1}{x^2}+\dfrac{1}{y^2}+\dfrac{16}{z^2}$ 在条件 $x^2+y^2+\dfrac{z^2}{4}=1$（$x>0,y>0,z>0$）下的最小值。
+      求 $f(x,y,z)=\dfrac{1}{x^2}+\dfrac{1}{y^2}+\dfrac{16}{z^2}$ 在条件 $x^2+y^2+\dfrac{z^2}{4}=1(x>0,y>0,z>0)$ 下的最小值
 - number: 21
   section: solution
   points: 12
   stem:
     text: |-
-      设 $D=\{(x,y)\mid1\leqslant|x|+|y|\leqslant2\}$，计算 $I=\iint_D\dfrac{e^{(|x|+|y|)^2}\cos x}{\cos x+\cos y}\,\mathrm{d}\sigma$。
+      设 $D=\{(x,y)|1\leqslant |x|+|y|\leqslant 2\}$，计算 $I=\iint\limits_D \dfrac{\mathrm{e}^{(|x|+|y|)^2}\cos x}{\cos x+\cos y}\mathrm{d}\sigma$
 - number: 22
   section: solution
   points: 12
   stem:
     text: |-
-      设 $A$ 为 $3$ 阶实对称矩阵，若存在正交阵 $Q=\dfrac{1}{\sqrt{2}}\begin{pmatrix}a&1&0\\0&0&c\\1&b&0\end{pmatrix}$（$b>0,c>0$），使 $Q^{\mathrm{T}}AQ=\Lambda=\begin{pmatrix}2&0&0\\0&0&0\\0&0&1\end{pmatrix}$。
-  subparts:
-  - text: 求 $a,b,c$ 及矩阵 $A$；
-  - text: |-
-      求一个可逆矩阵 $P$，使 $A=P^{\mathrm{T}}P-2E$。
+      设 $A$ 为 $3$ 阶实对称矩阵，若存在正交阵 $Q=\dfrac{1}{\sqrt{2}}\begin{pmatrix} a & 1 & 0 \\ 0 & 0 & c \\ 1 & b & 0 \end{pmatrix}(b>0,c>0)$，使 $Q^{\mathrm{T}} A Q=\Lambda=\begin{pmatrix} 2 & 0 & 0 \\ 0 & 0 & 0 \\ 0 & 0 & 1 \end{pmatrix}$。\\ (I) 求 $a,b,c$ 及矩阵 $A$；\\ (II) 求一个可逆矩阵 $P$，使 $A=P^{\mathrm{T}} P-2E$。
+content_hash: 509daaeacec79de00a6f784bfd0a30d4beea60eb102d093feb6f102f5a9b081e

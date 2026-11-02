@@ -4,7 +4,6 @@ paper:
   year: 2025
   subject: math1
   paper_no: 2
-content_hash: 3571196451e5a16f7a5d829b7c9d678b13061a233d599a4403cbc97c02fd2a17
 questions:
 - number: 1
   section: choice
@@ -75,7 +74,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设函数 $f(x,y)=\begin{cases}\dfrac{xy^2}{\sqrt{x^2+y^4}},&(x,y)\ne(0,0),\\0,&(x,y)=(0,0),\end{cases}$，则下列命题中，正确的个数是\ExamSelection\NPEEQuestionContinuation ① $f(x,y)$ 在点 $(0,0)$ 处可微；② $\dfrac{\partial f(x,y)}{\partial x}$ 在点 $(0,0)$ 处连续；③ $\dfrac{\partial f(x,y)}{\partial y}$ 在点 $(0,0)$ 处连续。
+      设函数 $f(x,y)=\begin{cases}\dfrac{xy^2}{\sqrt{x^2+y^4}},&(x,y)\ne(0,0),\\0,&(x,y)=(0,0),\end{cases}$，则下列命题中，正确的个数是\ExamSelection\n① $f(x,y)$ 在点 $(0,0)$ 处可微；\n② $\dfrac{\partial f(x,y)}{\partial x}$ 在点 $(0,0)$ 处连续；\n③ $\dfrac{\partial f(x,y)}{\partial y}$ 在点 $(0,0)$ 处连续。
   choices:
   - label: A
     text: 0。
@@ -264,7 +263,7 @@ questions:
   points: 10
   stem:
     text: |-
-      设正值函数 $f(x)$ 在 $(-\infty,+\infty)$ 上可导，且 $f'(x)>0$。令 $F(x)=\displaystyle\int_0^{\sqrt{1-x^2}}t^3f(x^2+t^2)\,\mathrm{d}t$。\NPEEQuestionContinuation （Ⅰ）求函数 $F(x)$ 的单调区间与极值点；\NPEEQuestionContinuation （Ⅱ）求曲线 $y=F(x)$ 的拐点个数。
+      设正值函数 $f(x)$ 在 $(-\infty,+\infty)$ 上可导，且 $f'(x)>0$。令 $F(x)=\displaystyle\int_0^{\sqrt{1-x^2}}t^3f(x^2+t^2)\,\mathrm{d}t$。\n（Ⅰ）求函数 $F(x)$ 的单调区间与极值点；\n（Ⅱ）求曲线 $y=F(x)$ 的拐点个数。
 - number: 18
   section: solution
   points: 12
@@ -282,16 +281,17 @@ questions:
   points: 12
   stem:
     text: |-
-      记 $a_n=\displaystyle\int_0^1\sqrt{x}(1-x)^n\,\mathrm{d}x,b_n=\displaystyle\int_0^1\dfrac{x^n}{\sqrt{1-x}}\,\mathrm{d}x$。\NPEEQuestionContinuation （Ⅰ）证明对任意正整数 $n$，$b_n$ 均有定义，且数列 $\{b_n\}$ 收敛；\NPEEQuestionContinuation （Ⅱ）证明级数 $\displaystyle\sum_{n=1}^{\infty}a_n$ 收敛，并求该级数和。
+      记 $a_n=\displaystyle\int_0^1\sqrt{x}(1-x)^n\,\mathrm{d}x,b_n=\displaystyle\int_0^1\dfrac{x^n}{\sqrt{1-x}}\,\mathrm{d}x$。\n（Ⅰ）证明对任意正整数 $n$，$b_n$ 均有定义，且数列 $\{b_n\}$ 收敛；\n（Ⅱ）证明级数 $\displaystyle\sum_{n=1}^{\infty}a_n$ 收敛，并求该级数和。
 - number: 21
   section: solution
   points: 12
   stem:
     text: |-
-      设 $A$ 是3阶矩阵，$\alpha$ 是满足 $A\alpha=0$ 的非零向量，且 $A$ 有二重正特征值。已知对满足 $\beta^{\mathrm T}\alpha=0$ 的3维列向量 $\beta$，均有 $A^2\beta=\beta$。\NPEEQuestionContinuation （Ⅰ）证明：$A$ 能相似对角化。\NPEEQuestionContinuation （Ⅱ）设可逆矩阵 $P=(\alpha,\beta_1-\alpha,\beta_2-\beta_1)$，其中 $\alpha,\beta_1,\beta_2$ 为 $A$ 的三个线性无关的特征向量，矩阵 $B$ 满足 $P^{-1}AP=B$，求矩阵 $B$。
+      设 $A$ 是3阶矩阵，$\alpha$ 是满足 $A\alpha=0$ 的非零向量，且 $A$ 有二重正特征值。已知对满足 $\beta^{\mathrm T}\alpha=0$ 的3维列向量 $\beta$，均有 $A^2\beta=\beta$。\n（Ⅰ）证明：$A$ 能相似对角化。\n（Ⅱ）设可逆矩阵 $P=(\alpha,\beta_1-\alpha,\beta_2-\beta_1)$，其中 $\alpha,\beta_1,\beta_2$ 为 $A$ 的三个线性无关的特征向量，矩阵 $B$ 满足 $P^{-1}AP=B$，求矩阵 $B$。
 - number: 22
   section: solution
   points: 12
   stem:
     text: |-
-      设总体 $X$ 服从 $(\theta,\lambda\theta)$ 上的均匀分布，其中 $\theta>0,\lambda>1$，$X_1,X_2,\cdots,X_n$ 是来自总体 $X$ 的简单随机样本。\NPEEQuestionContinuation （Ⅰ）利用样本的一阶原点矩与二阶原点矩求 $\theta,\lambda$ 的矩估计量；\NPEEQuestionContinuation （Ⅱ）求 $\theta,\lambda$ 的最大似然估计量。
+      设总体 $X$ 服从 $(\theta,\lambda\theta)$ 上的均匀分布，其中 $\theta>0,\lambda>1$，$X_1,X_2,\cdots,X_n$ 是来自总体 $X$ 的简单随机样本。\n（Ⅰ）利用样本的一阶原点矩与二阶原点矩求 $\theta,\lambda$ 的矩估计量；\n（Ⅱ）求 $\theta,\lambda$ 的最大似然估计量。
+content_hash: 38d388e5dd7b3e10f9c4d2fc7a4f5eaf5486027f548c206a20bd1bbe90a0fa51

@@ -1,0 +1,293 @@
+schema_version: '3.0'
+paper:
+  series_key: lilin6
+  year: 2024
+  subject: math1
+  paper_no: 6
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)$ 在 $[-1,1]$ 上二阶可导，且 $f''(x)>0$ $\text{、}\int_{-1}^1 f(x)\mathrm{d}x=2$，则
+  choices:
+  - label: A
+    text: |-
+      $f(0)\leqslant 0.$
+    figures: []
+  - label: B
+    text: $f(0)>0.$
+    figures: []
+  - label: C
+    text: |-
+      $f(0)\leqslant 1.$
+    figures: []
+  - label: D
+    text: $f(0)>1.$
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)=\begin{cases}\mathrm{e}^{\sin x}\cos x, & x\leqslant 0, \\ x\sin x+1, & x>0,\end{cases}$ $f(x)$ 的原函数为 $F(x)$，且 $F(-\pi)=\dfrac{1}{2}$，则正确的是
+  choices:
+  - label: A
+    text: |-
+      $F(x)=\begin{cases}\mathrm{e}^{\sin x}+\dfrac{1}{2}, & x\leqslant 0, \\ -x\cos x-\sin x+x+\dfrac{1}{2}, & x>0.\end{cases}$
+    figures: []
+  - label: B
+    text: |-
+      $F(x)=\begin{cases}\mathrm{e}^{\sin x}+\dfrac{1}{2}, & x\leqslant 0, \\ -x\cos x-\sin x+x+1, & x>0.\end{cases}$
+    figures: []
+  - label: C
+    text: |-
+      $F(x)=\begin{cases}\mathrm{e}^{\sin x}-\dfrac{1}{2}, & x\leqslant 0, \\ -x\cos x-\sin x+x+\dfrac{1}{2}, & x>0.\end{cases}$
+    figures: []
+  - label: D
+    text: |-
+      $F(x)=\begin{cases}\mathrm{e}^{\sin x}-\dfrac{1}{2}, & x\leqslant 0, \\ -x\cos x-\sin x+x-\dfrac{1}{2}, & x>0.\end{cases}$
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $D=\left\{(x,y)\mid (x-1)^2+(y-1)^2\leqslant 1\right\},I_k=\iint_D (x+y)^k\mathrm{d}x\mathrm{d}y,k=1,2,3$，则正确的是
+  choices:
+  - label: A
+    text: $I_1 < I_2 < I_3.$
+    figures: []
+  - label: B
+    text: $I_3 < I_2 < I_1.$
+    figures: []
+  - label: C
+    text: $I_1 < I_3 < I_2.$
+    figures: []
+  - label: D
+    text: $I_2 < I_3 < I_1.$
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)$ 有一阶连续导数，且 $\lim_{x \to 0}\dfrac{f(x)}{x} = 1, a_n = f\left(\dfrac{1}{n}\right), n=1,2,\cdots$，则
+  choices:
+  - label: A
+    text: |-
+      $\sum_{n=1}^\infty (-1)^{n-1} a_n$ 收敛$,\sum_{n=1}^\infty a_n$ 收敛
+    figures: []
+  - label: B
+    text: |-
+      $\sum_{n=1}^\infty (-1)^{n-1} a_n$ 发散$,\sum_{n=1}^\infty a_n^2$ 收敛
+    figures: []
+  - label: C
+    text: |-
+      $\sum_{n=1}^\infty (-1)^{n-1} a_n$ 发散$,\sum_{n=1}^\infty a_n$ 收敛
+    figures: []
+  - label: D
+    text: |-
+      $\sum_{n=1}^\infty (-1)^{n-1} a_n$ 收敛$,\sum_{n=1}^\infty a_n^2$ 收敛
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A=\begin{bmatrix} 1 & 1 & 1 & 1 \\ a_1 & a_2 & a_3 & a_4 \\ a_1^2 & a_2^2 & a_3^2 & a_4^2 \end{bmatrix}$，其中 $a_1,a_2,a_3,a_4$ 互不相等，则
+  choices:
+  - label: A
+    text: $A^TX=0$ 有非零解
+    figures: []
+  - label: B
+    text: $AX=0$ 只有零解
+    figures: []
+  - label: C
+    text: $AA^TX=0$ 有非零解
+    figures: []
+  - label: D
+    text: $A^TAX=0$ 有非零解
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设点 $P_i(x_i,y_i)(i=1,2,3)$ 为 $xOy$ 平面上的三个不同的点, 矩阵 $A=\begin{bmatrix} x_1 & y_1 & 1 \\ x_2 & y_2 & 1 \\ x_3 & y_3 & 1 \end{bmatrix}$, 则三点 $P_1,P_2,P_3$ 在同一直线上的充分必要条件是
+  choices:
+  - label: A
+    text: $|A|=0.$
+    figures: []
+  - label: B
+    text: |-
+      $|A|\neq 0.$
+    figures: []
+  - label: C
+    text: $r(A)=1.$
+    figures: []
+  - label: D
+    text: $r(A)=2.$
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: 已知二次型 $f(x_1, x_2, x_3) = ax_1^2 + ax_2^2 + (a-1)x_3^2 + 2x_1x_3 - 2x_2x_3$ 的规范形为 $y_1^2 + y_2^2$，则 $a=$
+  choices:
+  - label: A
+    text: '1'
+    figures: []
+  - label: B
+    text: '2'
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{1}{2}$
+    figures: []
+  - label: D
+    text: '-2'
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      在长为 $a(a>0)$ 的线段中点两边随机选取两点，则两点间距离小于 $\dfrac{a}{3}$ 的概率为
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{1}{9}.$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{2}{9}.$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{1}{3}.$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{2}{3}.$
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $X_1, X_2, \cdots, X_8$ 为来自总体 $X \sim N(0,\sigma^2)$ 的简单随机样本, $Y^2 = \dfrac{1}{8}\sum_{i=1}^8 X_i^2$, 下列选项中正确的是
+  choices:
+  - label: A
+    text: |-
+      $X^2 \sim \chi^2(1).$
+    figures: []
+  - label: B
+    text: |-
+      $Y^2 \sim \chi^2(8).$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{X}{Y} \sim t(8).$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{X^2}{Y^2} \sim F(8,1).$
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $X_1, X_2, \cdots, X_n(n>1)$ 为来自总体 $X \sim N(\mu, \sigma^2)$ 的简单随机样本, $\overline{X} = \dfrac{1}{n} \sum_{i=1}^n X_i$, 则相关系数 $\rho_{X_1 \overline{X}} =$
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{1}{n}.$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{1}{\sqrt{n}}.$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{\sigma^2}{n}.$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{\sigma^2}{\sqrt{n}}.$
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)$ 在 $x = 0$ 处连续，且 $\lim_{x \to 0} \left( \dfrac{\sin x}{x^2} + \dfrac{f(x)}{x} \right) = 2$，则曲线 $y = f(x)$ 在点 $(0, f(0))$ 处的切线方程为$\underline{\qquad\qquad}$
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设函数 $z=z(x,y)$ 由方程 $\mathrm{e}^{xyz}=\int_{xy}^{z} f(xy+z-t) \mathrm{d}t$ 确定，其中 $f$ 连续，则 $x\dfrac{\partial z}{\partial x}-y\dfrac{\partial z}{\partial y}=\underline{\qquad\qquad}$
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      $\sum_{n=1}^{\infty} \dfrac{2n-1}{2^{2n-1}} = \underline{\hspace{2cm}}.$
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设平面曲线 $L$ 为 $x^2+y^2=R^2(R>0)$，取逆时针方向，则 $I(R)=\oint_L (y^3+3x)\mathrm{d}x+(3x-x^3)\mathrm{d}y$ 的最大值为______．
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $B=\begin{bmatrix} 1 & 2 & -1 \\ 2 & a & 4 \\ 3 & 5 & a \end{bmatrix}(a>0)$, $A$ 是 $3$ 阶非零矩阵, 且 $AB^T=O$, 则 $a=\_\_\_\_\_\_\_\_$
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设随机变量 $X$ 与 $Y$ 相互独立, $X$ 服从二项分布 $B\left(4, \dfrac{1}{2}\right)$, $Y$ 服从 $\lambda=1$ 的泊松分布, 则 $P\{1<\max(X, Y) \leqslant 3\}=\underline{\qquad\qquad}.$
+- number: 17
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $f(x)$ 有二阶连续导数, 且 $\lim_{x\to 0}\dfrac{1-f(x)}{x^2}=\dfrac{1}{2}$, 计算 $\lim_{x\to +\infty}\left[f\left(\dfrac{1}{\sqrt{x}}\right)\right]^x$
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $y=y(x)$ 是 $y''+4y'+4y=\mathrm{e}^{-2x}$ 满足 $y(0)=y'(0)=0$ 的解. (I) 求 $y=y(x)$ 的单调区间与极值; (II) 当 $x \in [0, +\infty)$ 时, 求 $y=y(x)$ 与 $x$ 轴之间无界区域的面积
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设直线段 $L:\begin{cases} y+z=-1, \\ x=0 \end{cases} (-1\leqslant z\leqslant 0)$ 绕 $z$ 轴旋转所得曲面为 $S_1$, 曲面 $S_2$ 为 $z=\sqrt{1-x^2-y^2}$, $S_1$ 与 $S_2$ 所围立体 $V$ 的全表面为 $S$, 取内侧, 计算 $I=\oiint_{S} \dfrac{x\mathrm{d}y\mathrm{d}z+y\mathrm{d}z\mathrm{d}x+z\mathrm{d}x\mathrm{d}y}{(x^2+y^2+z^2)^{\dfrac{3}{2}}}.$
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $f(x)$ 在 $[a,b](b>a)$ 上有二阶导数，且 $f(a)=f(b)=0, f''(x)<0$，证明：当 $x\in (a,b)$ 时$,0<f(x)<\dfrac{2}{b-a}\int_a^b f(x)\mathrm{d}x$
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $\alpha$ 为 3 维非零实列向量, $E$ 为 3 阶单位矩阵, $A=E-\dfrac{3}{\alpha^T\alpha}\alpha\alpha^T$, 且 $|A|=-2$. $(I)$ 计算 $A^2+A-2E$, 并求 $A$ 的全部特征值; $(II)$ 当 $\alpha=(a,a,a)^T(a e 0)$ 时, 求正交矩阵 $Q$, 使得 $Q^TAQ=\Lambda$
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设随机变量 $X \sim N(0,1)$, $Y$ 的分布律为 $P\{Y=-1\}=P\{Y=1\}=\dfrac{1}{2}$, 且 $X$ 与 $Y$ 相互独立, 记 $Z=XY$. (I) 求 $Z$ 的概率密度 $f_Z(z)$; (II) $X$ 与 $Z$ 是否相关, 说明理由
+content_hash: 82b649c757398fe40cd9bc6b7cc3a0e1a97dfd6cd49315c5e74fd8da0f11db1f

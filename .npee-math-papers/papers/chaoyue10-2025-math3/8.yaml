@@ -4,7 +4,6 @@ paper:
   year: 2025
   subject: math3
   paper_no: 8
-content_hash: 989672e5ed888feadd685851d79d284eaffc6bdc0b9e8ef5200f70ca78aed424
 questions:
 - number: 1
   section: choice
@@ -133,7 +132,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设四阶矩阵 $A=(a_{ij})_{4\times 4}$ 满足 $\sum_{j=1}^{4}a_{ij}=0\ (i=1,2,3,4)$，$M_{ij}$ 与 $A_{ij}$ 分别为元素 $a_{ij}$ 的余子式和代数余子式，下列四个式子中必成立有\ExamSelection{}个。$\quad$① $M_{21}+M_{22}+M_{23}+M_{24}=0$；② $A_{21}+A_{22}+A_{23}+A_{24}=0$；③ $M_{21}=M_{22}=M_{23}=M_{24}$；④ $A_{21}=A_{22}=A_{23}=A_{24}$
+      设四阶矩阵 $A=(a_{ij})_{4\times 4}$ 满足 $\sum_{j=1}^{4}a_{ij}=0\ (i=1,2,3,4)$，$M_{ij}$ 与 $A_{ij}$ 分别为元素 $a_{ij}$ 的余子式和代数余子式，下列四个式子中必成立有\ExamSelection{}个。$\quad$\n① $M_{21}+M_{22}+M_{23}+M_{24}=0$；\n② $A_{21}+A_{22}+A_{23}+A_{24}=0$；\n③ $M_{21}=M_{22}=M_{23}=M_{24}$；\n④ $A_{21}=A_{22}=A_{23}=A_{24}$
   choices:
   - label: A
     text: $1$
@@ -152,7 +151,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设随机事件 $A,B,C$，$P(BC)>0$ 且 $P(B)<1$，则下列 3 个命题：①若 $P(A|B)>P(A),P(B|C)>P(B)$，则必有 $P(A|C)>P(A)$；②若 $P(A|B)>P(A),P(A|C)>P(A)$，则必有 $P(A|BC)>P(A)$；③若 $P(A)>P(A|B)$，则必有 $P(A)<P(A|\overline{B})$。正确的个数为\ExamSelection。
+      设随机事件 $A,B,C$，$P(BC)>0$ 且 $P(B)<1$，则下列 3 个命题：\n①若 $P(A|B)>P(A),P(B|C)>P(B)$，则必有 $P(A|C)>P(A)$；\n②若 $P(A|B)>P(A),P(A|C)>P(A)$，则必有 $P(A|BC)>P(A)$；\n③若 $P(A)>P(A|B)$，则必有 $P(A)<P(A|\overline{B})$。\n正确的个数为\ExamSelection。
   choices:
   - label: A
     text: $0$
@@ -304,3 +303,4 @@ questions:
   - text: |-
       证明 $U\sim N(0,1),V\sim N(0,1)$。
   - text: 问 $U$ 和 $V$ 是否相互独立？
+content_hash: b786f316129ac0dc9d9d8308b432918ffe7ddcbab5d7695dbcebce5f24c993ce

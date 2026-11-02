@@ -1,0 +1,299 @@
+schema_version: '3.0'
+paper:
+  series_key: zhangyu8
+  year: 2027
+  subject: math1
+  paper_no: 4
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 \(z = f\left( {x,y}\right)\) 具有二阶连续偏导数, \(x = u,{y}^{2} = v - {u}^{2}\) ,以 \(u,v\) 为新的自变量变换方程 \(y\dfrac{\partial z}{\partial x} - x\dfrac{\partial z}{\partial y} = 0\left( {y \neq 0}\right)\) ,得到
+  choices:
+  - label: A
+    text: |-
+      \(\dfrac{{\partial }^{2}z}{\partial {v}^{2}} \neq 0\)
+    figures: []
+  - label: B
+    text: |-
+      \(\dfrac{{\partial }^{2}z}{\partial v\partial u} \neq 0\)
+    figures: []
+  - label: C
+    text: |-
+      \(\dfrac{\partial z}{\partial v} = 0\)
+    figures: []
+  - label: D
+    text: |-
+      \(\dfrac{\partial z}{\partial u} = 0\)
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知 \(f\left( x\right) = {\mathrm{e}}^{\left| x\right| }\) ,则 \(f\left( x\right)\) 的原函数为
+  choices:
+  - label: A
+    text: |-
+      \( F\left(x\right)=\begin{cases}-\mathrm{e}^{-x}+C+2,&x<0,\\\mathrm{e}^{x}+C,&x\geq0.\end{cases}\)
+    figures: []
+  - label: B
+    text: |-
+      \( F\left(x\right)=\begin{cases}\mathrm{e}^{-x}+C,&x<0,\\\mathrm{e}^{x}+C+2,&x\geq0.\end{cases}\)
+    figures: []
+  - label: C
+    text: |-
+      \( F\left(x\right)=\begin{cases}-\mathrm{e}^{-x}+C,&x<0,\\\mathrm{e}^{x}+C+2,&x\geq0.\end{cases}\)
+    figures: []
+  - label: D
+    text: |-
+      \( F\left(x\right)=\begin{cases}-\mathrm{e}^{-x}+C+2,&x<0,\\\mathrm{e}^{x}+C,&x\geq0.\end{cases}\)
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 \( f(x)=\begin{cases}x,&0\leq x\leq\dfrac{1}{2},\\2-2x,&\dfrac{1}{2}<x<1,\end{cases}\)，\(S(x)=\dfrac{a_0}{2}+\sum\limits_{n=1}^{\infty}a_n\cos n\pi x\)，\(-\infty<x<+\infty\)，其中 \(a_n=2\int_0^1f(x)\cos n\pi x\,\mathrm{d}x\)，则 \(S\left(-\dfrac{5}{2}\right)=\)
+  choices:
+  - label: A
+    text: |-
+      \(\dfrac{1}{2}\)
+    figures: []
+  - label: B
+    text: |-
+      \(- \dfrac{1}{2}\)
+    figures: []
+  - label: C
+    text: |-
+      \(\dfrac{3}{4}\)
+    figures: []
+  - label: D
+    text: |-
+      \(- \dfrac{3}{4}\)
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知 \(F\left( {x,y,z}\right) = f\left( {{\pi y} - \sqrt{2}z}\right) - {\mathrm{e}}^{{2x} - z}\) ,其中 \(f\) 可微. 若 \(a{F}_{x}^{\prime } + b{F}_{y}^{\prime } + c{F}_{z}^{\prime } = 0\) ,则 \(\left( {a,b,c}\right)\) 可以是
+  choices:
+  - label: A
+    text: |-
+      \(\left( {2,\dfrac{2\sqrt{2}}{\pi },1}\right)\)
+    figures: []
+  - label: B
+    text: |-
+      \(\left( {1,\dfrac{2\sqrt{2}}{\pi },2}\right)\)
+    figures: []
+  - label: C
+    text: |-
+      \(\left( {1,2,\dfrac{2\sqrt{2}}{\pi }}\right)\)
+    figures: []
+  - label: D
+    text: |-
+      \(\left( {2,1,\dfrac{2\sqrt{2}}{\pi }}\right)\)
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      对 3 阶矩阵 \(\mathbf{A}\) 的伴随矩阵 \({\mathbf{A}}^{ * }\) 先交换第 1 行和第 3 行,再将第 2 列的 -2 倍加到第 3 列,得到矩阵 \(- \mathbf{E},\mathbf{E}\) 为 3 阶单位矩阵,则 \(\mathbf{A} =\)
+  choices:
+  - label: A
+    text: |-
+      \(\begin{pmatrix}0&0&1\\0&1&-2\\1&0&0\end{pmatrix}\) 或 \(\begin{pmatrix}0&0&-1\\0&-1&2\\-1&0&0\end{pmatrix}\)．
+    figures: []
+  - label: B
+    text: |-
+      \(\begin{pmatrix}0&0&1\\0&1&-2\\1&0&0\end{pmatrix}\) 或 \(\begin{pmatrix}0&0&1\\-2&1&0\\1&0&0\end{pmatrix}\)．
+    figures: []
+  - label: C
+    text: |-
+      \(\begin{pmatrix}0&0&-1\\0&-1&2\\-1&0&0\end{pmatrix}\) 或 \(\begin{pmatrix}0&0&-1\\2&-1&0\\-1&0&0\end{pmatrix}\)．
+    figures: []
+  - label: D
+    text: |-
+      \(\begin{pmatrix}0&0&1\\-2&1&0\\1&0&0\end{pmatrix}\) 或 \(\begin{pmatrix}0&0&-1\\2&-1&0\\-1&0&0\end{pmatrix}\)．
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 3 阶实对称矩阵 \(A\) 的各行元素之和均为 2,其主对角线元素之和为 \(5,r\left( A\right) = 2\) ,则二次型 \(f\left( {{x}_{1},{x}_{2},{x}_{3}}\right) = {\mathbf{x}}^{\mathrm{T}}\mathbf{A}\mathbf{x}\) 在条件 \({x}_{1}^{2} + {x}_{2}^{2} + {x}_{3}^{2} = 1\) 下的最大值为
+  choices:
+  - label: A
+    text: |-
+      \(\dfrac{1}{5}\)
+    figures: []
+  - label: B
+    text: |-
+      \(\dfrac{1}{2}\)
+    figures: []
+  - label: C
+    text: '2'
+    figures: []
+  - label: D
+    text: '3'
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 \(\mathbf{A},\mathbf{B}\) 为 \(n\) 阶矩阵且 \(\mathbf{{AB}} = \mathbf{A} + \mathbf{B}\) ,则以下结论 \({\left( \mathbf{A} - \mathbf{E}\right) }^{-1} = \mathbf{B} - \mathbf{E}\) ； \({AB} = {BA}\) ； \(r\left( A\right) = r\left( B\right)\) ； \(A,B\) 的特征向量是公共的. 正确结论的个数为
+  choices:
+  - label: A
+    text: '4'
+    figures: []
+  - label: B
+    text: '3'
+    figures: []
+  - label: C
+    text: '2'
+    figures: []
+  - label: D
+    text: '1'
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 \({X}_{n}\left( {n \geq 1}\right)\) 相互独立且都在 \(\left\lbrack {0,1}\right\rbrack\) 上服从均匀分布,则当 \(n \rightarrow \infty\) 时, \({\left( \mathop{\prod }\limits_{{k = 1}}^{n}{X}_{k}\right) }^{\dfrac{1}{n}} \xrightarrow{P}\)
+  choices:
+  - label: A
+    text: |-
+      \({\mathrm{e}}^{\dfrac{1}{2}}\)
+    figures: []
+  - label: B
+    text: |-
+      \({\mathrm{e}}^{-1}\)
+    figures: []
+  - label: C
+    text: |-
+      \({\mathrm{e}}^{\dfrac{1}{2}}\)
+    figures: []
+  - label: D
+    text: e
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设随机变量 \(X \sim N\left( {1,1}\right)\) ,令 \(f\left( t\right) = E\left\lbrack {\left( X + t\right) }^{2}\right\rbrack\) ,则 \(f\left( t\right)\) 在 \(\left\lbrack {-2,0}\right\rbrack\) 上的最小值与最大值分别为
+  choices:
+  - label: A
+    text: 1,2
+    figures: []
+  - label: B
+    text: 1,4
+    figures: []
+  - label: C
+    text: -1,2
+    figures: []
+  - label: D
+    text: -1,4
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设二维随机变量 \(\left( {X,Y}\right) \sim N\left( {1,1;2,2;\dfrac{1}{2}}\right)\) ,则
+  choices:
+  - label: A
+    text: |-
+      \(X \sim N\left( {1,1}\right)\)
+    figures: []
+  - label: B
+    text: |-
+      \(X + Y \sim N\left( {2,8}\right)\)
+    figures: []
+  - label: C
+    text: |-
+      \(\operatorname{Cov}\left( {X,Y}\right) = 1\)
+    figures: []
+  - label: D
+    text: |-
+      \(E\left\lbrack {\left( X - Y\right) }^{2}\right\rbrack = 6\)
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      \({\int }_{\dfrac{1}{2}}^{\dfrac{3}{4}}\dfrac{\arcsin \sqrt{x}}{\sqrt{x\left( {1 - x}\right) }}\mathrm{d}x =\) $\underline{\quad}$
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设非负连续函数 \(f\left( x\right)\) 满足 \(f\left( x\right) {\int }_{0}^{1}f\left( {tx}\right) \mathrm{d}t = 2{x}^{2}\) ,则 \(f\left( x\right)\) 在区间 \(\left\lbrack {0,2}\right\rbrack\) 上的平均值是 $\underline{\quad}$
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      \(\mathop{\lim }\limits_{{x \rightarrow 0}}\dfrac{1}{{x}^{2}}\left( {\dfrac{1}{{x}^{2} + 1} - \cos x}\right) =\) $\underline{\quad}$
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      已知 \(\Omega = \left\{ {\left( {x,y,z}\right) \mid {x}^{2} + {y}^{2} + {\left( z - 1\right) }^{2} \leq 1,z \geq 1,y \geq 0}\right\}\) ,则 \(I = {\iiint }_{\Omega }\dfrac{4\mathrm{\;d}v}{\sqrt{{x}^{2} + {y}^{2} + {z}^{2}}} =\) $\underline{\quad}$
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      已知线性方程组 \(\mathbf{A}\mathbf{x}=k\boldsymbol{\beta}_1+\boldsymbol{\beta}_2\) 有解，其中 \(\mathbf{A}=\begin{pmatrix}1&1&-1\\-1&-2&1\\1&-1&-1\end{pmatrix}\)，\(\boldsymbol{\beta}_1=\begin{pmatrix}2\\1\\3\end{pmatrix}\)，\(\boldsymbol{\beta}_2=\begin{pmatrix}1\\3\\-1\end{pmatrix}\)，则 \(k=\) $\underline{\quad}$．
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 \(X \sim N\left( {0,4}\right) ,Y\) 服从参数 \(\lambda = {0.5}\) 的指数分布, \(Z = X - {aY}\) ,已知 \(\operatorname{Cov}\left( {X,Y}\right) = - 1\) , \(\operatorname{Cov}\left( {X,Z}\right) = \operatorname{Cov}\left( {Y,Z}\right)\) ,则 \(X\) 与 \(Z\) 的相关系数 \({\rho }_{XZ} =\) $\underline{\quad}$
+- number: 17
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 \(y\left( x\right)\) 是微分方程 \({y}^{\prime } + \dfrac{1}{2\sqrt{x}}y = \dfrac{\sqrt{x}}{2} + 1\) 满足 \(y\left( 1\right) = 2\) 的解,求曲线 \(y = y\left( x\right)\) 的渐近线
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 \(f\left( x\right)\) 是可导函数,且 \(f\left( 0\right) = 0,g\left( x\right) = {\int }_{0}^{1}{xf}\left( {tx}\right) \mathrm{d}t\) ,并满足方程 \({f}^{\prime }\left( x\right) + {g}^{\prime }\left( x\right) = x\) . 求由曲线 \(y = f\left( x\right) ,y = {\mathrm{e}}^{-x}\) 及直线 \(x = 0,x = 2\) 所围成的平面图形的面积 \(S\)
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 \(f\left( x\right)\) 在 \(\left\lbrack {0,1}\right\rbrack\) 上具有二阶导数, \(f\left( 0\right) = f\left( 1\right) = 0,{f}^{\prime \prime }\left( x\right) 0\) ； (2) \({\int }_{0}^{1}\sqrt{1 + {\left\lbrack {f}^{\prime }\left( x\right) \right\rbrack }^{2}}\mathrm{\;d}x < 3\)
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      求 \(I = {\int }_{C}\left\lbrack {{\mathrm{e}}^{x}\sin y - b\left( {x + y}\right) }\right\rbrack \mathrm{d}x + \left( {{\mathrm{e}}^{x}\cos y - {ax}}\right) \mathrm{d}y\) ,其中 \(a,b\) 为正常数, \(C\) 为从点 \(A\left( {0,{2a}}\right)\) 沿曲线 \(x = - \sqrt{{2ay} - {y}^{2}}\) 到点 \(O\left( {0,0}\right)\) 的有向弧
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      已知 \(1,1, - 1\) 是 3 阶实对称矩阵 \(\mathbf{A}\) 的 3 个特征值, \({\eta}_{1} = {\left( 1,1,1\right) }^{\mathrm{T}},{\eta}_{2} = {\left( 2,2,1\right) }^{\mathrm{T}}\) 是 \(\mathbf{A}\) 的属于特征值 \({\lambda }_{1} = {\lambda }_{2} = 1\) 的特征向量. (1)求 \(\mathbf{A}\) 的属于特征值 \({\lambda }_{3} = - 1\) 的特征向量； (2)求可逆矩阵 \(\mathbf{P}\) ，使得 \({\left( \mathbf{{AP}} + \mathbf{P}\right) }^{\mathrm{T}}\left( {\mathbf{{AP}} + \mathbf{P}}\right)\) 为对角矩阵
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设总体 \(X\) 的概率密度为 \( f(x;\theta)=\begin{cases}1,&\theta-\frac12\leq x\leq\theta+\frac12,\\0,&\text{其他},\end{cases}\)其中 \(-\infty<\theta<+\infty\)。\(X_1,X_2,\cdots,X_n\) 为取自总体 \(X\) 的简单随机样本，并记 \( X_{(1)}=\min\{X_1,X_2,\cdots,X_n\}\)，\( X_{(n)}=\max\{X_1,X_2,\cdots,X_n\}\)。 (1)求参数 \(\theta\) 的矩估计量 \(\widehat{\theta}_M\) 和全部最大似然估计量 \(\widehat{\theta}_L\)； (2)判断 \(\dfrac{X_{(1)}+X_{(n)}}{2}\) 是否为 \(\theta\) 的无偏估计量，并说明理由。
+content_hash: 4b87e896829ffeadbb2568527b01b21ba3f327c870fe1f29738bde6b40edc869

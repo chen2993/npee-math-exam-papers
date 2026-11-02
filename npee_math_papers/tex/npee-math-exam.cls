@@ -68,7 +68,7 @@
 \newif\ifNPEEExamWatermark
 \newif\ifNPEEExamSpread
 \newif\ifNPEECompact
-\newif\ifNPEEAfourBlank
+\newif\ifNPEEPrintDeliverable
 \newif\ifNPEEAnswerLayout
 \newif\ifNPEECollectionContentsEnabled
 \newif\ifNPEECollectionGroupContentsEnabled
@@ -101,7 +101,7 @@
 \NPEEExamWatermarkfalse
 \NPEEExamSpreadfalse
 \NPEECompactfalse
-\NPEEAfourBlankfalse
+\NPEEPrintDeliverablefalse
 \NPEEAnswerLayouttrue
 \NPEECollectionContentsEnabledfalse
 \NPEECollectionGroupContentsEnabledtrue
@@ -165,16 +165,19 @@
 \DeclareOption{a4}{%
   \NPEEAfourtrue
   \NPEEAthreefalse
-  \NPEEAfourBlankfalse
   \renewcommand{\NPEELayoutLabel}{a4}}
 \DeclareOption{a3}{%
   % A3 is a landscape two-page spread with the established spread flow contract
   % retaining its own physical stock and output label.
   \NPEEAfourfalse
   \NPEEAthreetrue
-  \NPEEAfourBlankfalse
   \renewcommand{\NPEELayoutLabel}{a3}}
-\DeclareOption{print}{%
+% The white print palette is selected by ``plain`` (with the historical
+% ``normal`` / ``white`` aliases).  The token ``print`` used to select this
+% palette as well, but a class option token can only mean one thing: the print
+% *deliverable* spacing below needs it, and LaTeX silently drops the second
+% declaration of a repeated token, so the palette moved to ``plain``.
+\DeclareOption{plain}{%
   \NPEEEyecarefalse
   \renewcommand{\NPEEThemeLabel}{print}}
 \DeclareOption{normal}{%
@@ -192,18 +195,20 @@
 \DeclareOption{white}{%
   \NPEEEyecarefalse
   \renewcommand{\NPEEThemeLabel}{print}}
-\DeclareOption{compact}{\NPEEAfourBlankfalse\NPEECompacttrue}
-\DeclareOption{spaced}{\NPEEAfourBlankfalse\NPEECompactfalse}
-% ``a4-blank`` is the print deliverable: compact natural flow, and every paper
-% is padded to at least four physical sheets so a handout always begins on a
-% fresh sheet.  The historical key is kept because it is the value stored in
-% composition files, but the mode is deliberately **layout-agnostic**: A3
-% already floors at four logical pages, so on A3 this option is exactly
-% equivalent to ``compact``.  It must therefore not force the A4 stock.
-\DeclareOption{a4-blank}{%
-  \NPEEAfourBlanktrue
-  \NPEECompacttrue
-  \NPEEAnswerLayoutfalse}
+% 间距与留白是两个互相独立的选项。
+%
+% ``compact`` / ``spaced`` 只决定**解答题**怎么排：自然连排，还是每题独占页面。
+% 别的什么都不改——字号、行高、客观题间距完全相同。
+%
+% ``print`` / ``a4-blank`` 只负责**留白**：每套卷补足到整页、封面后加一张空白页、
+% 目录凑成偶数页，使双面打印时每套卷都从右手页开始。完全不介入题目排版。
+%
+% 两者原本挤在同一个选项里（``print`` 会顺手把间距也改成紧凑），所以这里拆开；
+% ``a4-blank`` 是留白行为的历史写法，继续接受，便于旧组卷包直接编译。
+\DeclareOption{compact}{\NPEECompacttrue}
+\DeclareOption{spaced}{\NPEECompactfalse}
+\DeclareOption{print}{\NPEEPrintDeliverabletrue}
+\DeclareOption{a4-blank}{\NPEEPrintDeliverabletrue}
 \DeclareOption{inlineonly}{\NPEEInlineOnlytrue}
 \DeclareOption{candidateinfo}{\NPEECandidateInfotrue}
 \DeclareOption{nocandidateinfo}{\NPEECandidateInfofalse}
@@ -222,7 +227,7 @@
 \DeclareOption*{\NPEEWarning{npee-math-exam}{Unknown option `\CurrentOption' ignored}}
 
 % Process class options after all state selectors are declared.
-\ExecuteOptions{a3,print,spaced}
+\ExecuteOptions{a3,plain,spaced}
 \ProcessOptions\relax
 \LoadClass[UTF8,oneside,fontset=none]{ctexart}
 
@@ -470,15 +475,22 @@
 % robust CJK fallback chain for Windows, TeX Live, macOS and Linux.
 \IfFontExistsTF{Times New Roman}{\setmainfont{Times New Roman}}{\setmainfont{TeX Gyre Termes}}
 \IfFontExistsTF{Arial}{\setsansfont{Arial}}{\setsansfont{TeX Gyre Heros}}
-% The reference examination source uses Cambria Math.  Prefer it when the
-% Windows font is available so radicals, integral signs, delimiters and
-% operator spacing follow the reference instead of the narrower Termes
-% substitute.  Keep a portable fallback for non-Windows XeLaTeX builds.
-\IfFontExistsTF{Cambria Math}{%
-  \setmathfont{Cambria Math}%
+% The reference examinations set their mathematics in the Times family: the
+% letters come from Times New Roman Italic and the symbols from Adobe Symbol,
+% which is what a word processor of that era produced.  A Times-derived OpenType
+% math font therefore matches the reference far better than Cambria Math, whose
+% heavier strokes and squarer letterforms belong to a different family.  The
+% earlier assumption that the sources used Cambria Math did not survive checking
+% the embedded fonts of all 61 source PDFs: not one of them uses it.
+%
+% TeX Gyre Termes Math is the free Times companion and is the primary face.
+% XITS Math is the same family by lineage and is kept as a second choice, and
+% Latin Modern Math is the last resort because it ships with every TeX Live.
+\IfFontExistsTF{TeX Gyre Termes Math}{%
+  \setmathfont{TeX Gyre Termes Math}%
 }{%
-  \IfFontExistsTF{TeX Gyre Termes Math}{%
-    \setmathfont{TeX Gyre Termes Math}%
+  \IfFontExistsTF{XITS Math}{%
+    \setmathfont{XITS Math}%
   }{%
     \setmathfont{Latin Modern Math}%
   }%
@@ -537,7 +549,13 @@
   }%
 }
 % Circled digits are CJK punctuation in source papers.
-\renewcommand{\NPEECircledFace}{\NPEEBodyFace}
+%
+% \NPEECircledFace must stay a *plain* (non-CJK) font family bound to the same
+% file as the body face.  Earlier this line redefined it as the CJK family
+% \NPEEBodyFace, which silently broke the glyph lookup: inside a CJK family
+% \fontname\font still names the Latin font (Times New Roman), so
+% \iffontchar\font"2460 always answered "no" and every circled digit took the
+% drawn-circle fallback even though SimSun does carry the glyph.
 
 
 
@@ -645,51 +663,44 @@
   \NPEEApplyBodyStyle}
 \newcommand{\NPEEApplySpacingMode}{%
   \ifNPEECompact\NPEESetCompactSpacing\else\NPEESetSpacedSpacing\fi}
+% 间距只决定解答题（大题）怎么排：``compact`` 自然连排，``spaced`` 每题独占页面。
+% 它不参与留白，也不改变客观题排版；留白由下面的 ``\NPEEApplyTargetPrintPolicy`` 单独控制。
 \newcommand{\NPEESetSpacingMode}[1]{%
   \edef\NPEETempSpacingMode{#1}%
   \ifnum\pdfstrcmp{\NPEETempSpacingMode}{compact}=0
-    \NPEEAfourBlankfalse
     \NPEESetCompactSpacing
   \else
     \ifnum\pdfstrcmp{\NPEETempSpacingMode}{spaced}=0
-      \NPEEAfourBlankfalse
       \NPEESetSpacedSpacing
     \else
-      \ifnum\pdfstrcmp{\NPEETempSpacingMode}{a4-blank}=0
-        \NPEEAfourBlanktrue
-        \NPEESetCompactSpacing
-      \else
-        \NPEEWarningNoLine{npee-math-exam}{Unknown spacing mode `#1'; using spaced}%
-        \NPEEAfourBlankfalse
-        \NPEESetSpacedSpacing
-      \fi
+      \NPEEWarningNoLine{npee-math-exam}{Unknown spacing mode `#1'; using compact}%
+      \NPEESetCompactSpacing
     \fi
   \fi}
 \newcommand{\NPEEApplyTargetSpacingPolicy}[1]{%
   \edef\NPEETargetSpacing{#1}%
   \ifnum\pdfstrcmp{\NPEETargetSpacing}{compact}=0
-    \NPEEAfourBlankfalse
     \NPEESetSolutionStructure{natural}%
     \NPEESetCompactSpacing
   \else
     \ifnum\pdfstrcmp{\NPEETargetSpacing}{spaced}=0
-      \NPEEAfourBlankfalse
       \NPEESetSolutionStructure{pair-first}%
       \NPEESetSolutionPairCount{2}%
       \NPEESetSpacedSpacing
     \else
-      \ifnum\pdfstrcmp{\NPEETargetSpacing}{a4-blank}=0
-        \NPEEAfourBlanktrue
-        \NPEESetSolutionStructure{natural}%
-        \NPEESetCompactSpacing
-      \else
-        \NPEEWarningNoLine{npee-math-exam}{Unknown target spacing policy `#1'; using spaced}%
-        \NPEEAfourBlankfalse
-        \NPEESetSolutionStructure{pair-first}%
-        \NPEESetSolutionPairCount{2}%
-        \NPEESetSpacedSpacing
-      \fi
+      \NPEEWarningNoLine{npee-math-exam}{Unknown target spacing policy `#1'; using compact}%
+      \NPEESetSolutionStructure{natural}%
+      \NPEESetCompactSpacing
     \fi
+  \fi}
+% 留白是独立开关：打开后每套卷补足到整页、封面后加空白页、目录凑偶数页。
+% 它不改变任何题目排版，只决定纸张上的空白。
+\newcommand{\NPEEApplyTargetPrintPolicy}[1]{%
+  \edef\NPEETargetPrint{#1}%
+  \ifnum\pdfstrcmp{\NPEETargetPrint}{1}=0
+    \NPEEPrintDeliverabletrue
+  \else
+    \NPEEPrintDeliverablefalse
   \fi}
 \NPEEApplySpacingMode
 % -----------------------------------------------------------------------------
@@ -702,9 +713,11 @@
 % the end of this class:
 %
 %  1. Capturing the originals here, in the preamble, captures amsmath's legacy
-%     \mathchar instead.  Under Cambria Math that legacy code point renders as
-%     a Latin letter (sum shows up as "P", product as "Q", union as "S"),
-%     which is why the glyphs must be captured from the late hook below.
+%     \mathchar instead.  A legacy code point is only meaningful to the font
+%     that defined it, so under an OpenType math font it renders as whatever
+%     that font happens to put in the slot -- observed as a Latin letter (sum
+%     showing up as "P", product as "Q", union as "S").  The glyphs must
+%     therefore be captured from the late hook below.
 %  2. Redefining the operators in \AtBeginDocument is not sufficient either.
 %     Hook code runs in registration order and unicode-math registers later
 %     than this class, so it reinstalled the bare characters and every wrapper
@@ -925,25 +938,13 @@
       \fi
   \fi}
 
-% Compact collections keep a short paper physically usable when it would
-% otherwise produce a fragmentary handout.  A3 keeps four logical pages (two
-% landscape sheets), while ordinary A4 keeps three so an unused fourth sheet is
-% not manufactured at the end of a short paper.  The explicit a4-blank target
-% raises the A4 floor to four sheets for print workflows that need a stable
-% four-page handout.
-% Blank sheets remain part of the paper lifecycle, so their footer and
-% watermark are consistent with the learned final page total.
-\newcommand{\NPEEEnsureCompactMinimumPages}{%
-  \ifNPEECompact
-    \ifNPEEAfourBlank
-      \def\NPEEMinimumLogicalPages{4}%
-    \else
-      \ifNPEEAfour
-        \def\NPEEMinimumLogicalPages{3}%
-      \else
-        \def\NPEEMinimumLogicalPages{4}%
-      \fi
-    \fi
+% 留白：打开留白时，短卷补足到 4 个逻辑页，使每套卷都占满整张纸、双面打印
+% 时从右手页开始。间距（compact / spaced）不参与补页 —— 它只管解答题怎么排，
+% 因此这里只看 ``\ifNPEEPrintDeliverable``。
+% 补出来的空白页仍在卷的生命周期内，页脚与水印按最终页数保持一致。
+\newcommand{\NPEEEnsurePrintMinimumPages}{%
+  \ifNPEEPrintDeliverable
+    \def\NPEEMinimumLogicalPages{4}%
     \count@=\value{npeelogicalpage}\relax
     \advance\count@ by -1\relax
     \ifnum\count@<\NPEEMinimumLogicalPages
@@ -958,6 +959,8 @@
       \repeat
     \fi
   \fi}
+% 兼容旧名（历史生成的 .tex 与文档仍可能引用它）。
+\newcommand{\NPEEEnsureCompactMinimumPages}{\NPEEEnsurePrintMinimumPages}
 
 % Called after the final body sheet has been shipped.  The logical counter is
 % maintained by the active page renderer (currently the footer module).
@@ -983,6 +986,55 @@
     \fi
   \fi}
 
+
+
+
+% -----------------------------------------------------------------------------
+% Feature section: print deliverable front matter
+% -----------------------------------------------------------------------------
+
+% A duplex print handout reads best when every paper starts on a right-hand
+% (odd) physical page.  Front matter is what stands in the way, because a cover
+% is a single sheet and a table of contents may occupy an odd number of pages.
+% Both are padded only for the print deliverable; every other spacing mode keeps
+% the front matter exactly as before.
+
+% One blank sheet after the cover.  The generator calls this immediately after
+% the cover material, which is typeset before the collection starts, so the
+% command must not depend on collection state -- only on the target spacing
+% policy, which is already applied by then.
+\newcommand{\NPEECoverBlankSheet}{%
+  \ifNPEEPrintDeliverable
+    \clearpage
+    \null\thispagestyle{empty}\clearpage
+  \fi}
+
+% The table of contents learns its own extent by recording the first and last
+% page it occupies into the aux file, then padding itself on the *next* pass.
+% The two values default to empty so an undetermined first pass reports
+% "unknown" instead of padding on a guess; the run converges because the padding
+% is appended after the contents and therefore never moves the contents' own
+% page numbers.
+\newcommand{\NPEETocFirstPage}{}
+\newcommand{\NPEETocLastPage}{}
+\newcommand{\NPEERecordTocFirstPage}{%
+  \immediate\write\@auxout{\string\gdef\string\NPEETocFirstPage{\the\value{page}}}}
+\newcommand{\NPEERecordTocLastPage}{%
+  \immediate\write\@auxout{\string\gdef\string\NPEETocLastPage{\the\value{page}}}}
+\newcommand{\NPEEPadContentsToEvenPages}{%
+  \ifNPEEPrintDeliverable
+    \ifx\NPEETocFirstPage\@empty
+    \else
+      \begingroup
+        \count@=\NPEETocLastPage\relax
+        \advance\count@ by -\NPEETocFirstPage\relax
+        \advance\count@ by 1\relax
+        \ifodd\count@
+          \null\thispagestyle{empty}\clearpage
+        \fi
+      \endgroup
+    \fi
+  \fi}
 
 
 
@@ -2157,8 +2209,17 @@
   \fi}
 % Tall formulas retain TeX's natural height and baseline.
 \newcommand{\NPEEInlineMath}[1]{\ensuremath{#1}}
+% A line break inside a question body, written as ``\n`` in the stored text and
+% rewritten to this macro by the renderer.  It starts a fresh line at the body
+% margin: no indent, and no extra vertical space beyond the ordinary leading.
+%
+% ``\par`` alone is deliberate.  In horizontal mode it ends the line; in vertical
+% mode it is a no-op, so a repeated or trailing break cannot open an empty
+% paragraph and push the rest of the question down.  The earlier definition added
+% ``\hspace*{4.8mm}``, which indented whatever followed -- correct only when the
+% break led into a hanging list item, and wrong everywhere else.
 \newcommand{\NPEEQuestionContinuation}{%
-  \par\noindent\hspace*{4.8mm}\ignorespaces}
+  \par\ignorespaces}
 
 \newcommand{\NPEEAnswerSpace}[1]{%
   \ifNPEEAnswerLayout
@@ -3424,13 +3485,16 @@
   \global\NPEECollectionContentsEnabledtrue
   \clearpage
   \NPEEBookmark{\NPEEContentsTitle}{collection-contents}%
+  \NPEERecordTocFirstPage
   \NPEECollectionContentsBeginColumns
   \begingroup
     \renewcommand{\contentsname}{\NPEEContentsTitle}%
     \NPEEBodyFace\NPEEApplyBodyStyle\tableofcontents
   \endgroup
   \NPEECollectionContentsEndColumns
-  \clearpage}
+  \NPEERecordTocLastPage
+  \clearpage
+  \NPEEPadContentsToEvenPages}
 
 \newcounter{npeecollectionsection}
 \newcommand{\NPEECollectionSectionTitleSize}{16pt}

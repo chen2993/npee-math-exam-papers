@@ -4,7 +4,6 @@ paper:
   year: 2025
   subject: math3
   paper_no: 8
-content_hash: 49db884aa5d7609432fda9b950f49029760d7c41b16966d0e0e6fd40986c5801
 questions:
 - number: 1
   section: choice
@@ -30,7 +29,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $f(x),g(x)$ 为连续函数，以下结论：\NPEEQuestionContinuation （1）若 $\lim_{x\to 0}\dfrac{f(x)}{g(x)}=1$，则 $f(x)$ 是 $g(x)$ 在 $x\to 0$ 时的等价无穷小；\NPEEQuestionContinuation （2）若 $f(x)$ 是 $g(x)$ 在 $x\to 0$ 时的等价无穷小，则 $\lim_{x\to 0}\dfrac{f(x)}{g(x)}=1$；\NPEEQuestionContinuation （3）若 $f(n)$ 是 $g(n)$ 在 $n\to\infty$ 时的等价无穷小，则 $\sum_{n=1}^{\infty}f(n)$ 与 $\sum_{n=1}^{\infty}g(n)$ 同敛散；\NPEEQuestionContinuation （4）若 $\sum_{n=1}^{\infty}f(n)$ 与 $\sum_{n=1}^{\infty}g(n)$ 同敛散，则 $f(n)$ 是 $g(n)$ 在 $n\to\infty$ 时的等价无穷小。\NPEEQuestionContinuation 正确结论的个数为\ExamSelection
+      设 $f(x),g(x)$ 为连续函数，以下结论：\n① 若 $\lim_{x\to 0}\dfrac{f(x)}{g(x)}=1$，则 $f(x)$ 是 $g(x)$ 在 $x\to 0$ 时的等价无穷小；\n② 若 $f(x)$ 是 $g(x)$ 在 $x\to 0$ 时的等价无穷小，则 $\lim_{x\to 0}\dfrac{f(x)}{g(x)}=1$；\n③ 若 $f(n)$ 是 $g(n)$ 在 $n\to\infty$ 时的等价无穷小，则 $\sum_{n=1}^{\infty}f(n)$ 与 $\sum_{n=1}^{\infty}g(n)$ 同敛散；\n④ 若 $\sum_{n=1}^{\infty}f(n)$ 与 $\sum_{n=1}^{\infty}g(n)$ 同敛散，则 $f(n)$ 是 $g(n)$ 在 $n\to\infty$ 时的等价无穷小。\n正确结论的个数为\ExamSelection
   choices:
   - label: A
     text: $1$。
@@ -270,7 +269,7 @@ questions:
   points: 12
   stem:
     text: |-
-      求 $\displaystyle \sum_{n=1}^{\infty}\left[\dfrac{2+(-1)^n}{n\cdot 6^n}\right]^n$ 的值。
+      求 $\displaystyle \sum_{n=1}^{\infty}\dfrac{\left[2+(-1)^n\right]^n}{n\cdot 6^n}$ 的值。
 - number: 20
   section: solution
   points: 12
@@ -298,3 +297,4 @@ questions:
   - text: $E(Y_i),D(Y_i)$；
   - text: |-
       $\theta$ 的最大似然估计量。
+content_hash: 8560865f463e3516c87e1d7a47c3a540fcad79cf3e75d30f05170464c39e8980

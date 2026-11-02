@@ -1,0 +1,299 @@
+schema_version: '3.0'
+paper:
+  series_key: lilin6
+  year: 2023
+  subject: math2
+  paper_no: 4
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 \(f(x) = \arctan x\) 在 x = 0 处的三次泰勒多项式为 \(ax + bx^{3}\)，则 ( )
+  choices:
+  - label: A
+    text: |-
+      a = 0, b = - \(\dfrac{1}{3}\)
+    figures: []
+  - label: B
+    text: |-
+      a = 0, b = \(\dfrac{1}{3}\)
+    figures: []
+  - label: C
+    text: |-
+      a = 1, b = - \(\dfrac{1}{3}\)
+    figures: []
+  - label: D
+    text: |-
+      a = 1, b = \(\dfrac{1}{3}\)
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 \(\lim\limits_{x\to\infty}f'(x)=0\)，且 \(\lim\limits_{x\to\infty}\left(\dfrac{ax^{2}}{1+x}-bx-1\right)=\lim\limits_{x\to\infty}\left[f(x+1)-f(x)\right]\)，则曲线 \(y=\dfrac{ax^{2}}{1+x}\) 的斜渐近线方程为 ( )
+  choices:
+  - label: A
+    text: |-
+      \(y = -x + 1.\)
+    figures: []
+  - label: B
+    text: |-
+      \(y = x + 1.\)
+    figures: []
+  - label: C
+    text: y = -x - 1
+    figures: []
+  - label: D
+    text: y = -x - 1
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 \(I_{1}=\int_{0}^{1}\dfrac{\tan x}{x}dx\), \(I_{2}=\int_{0}^{1}\dfrac{\sin x}{x}dx\), \(I_{3}=\int_{0}^{1}\dfrac{x}{\sin x}dx\), 则 ( )
+  choices:
+  - label: A
+    text: |-
+      \(I_{1}>I_{2}>I_{3}.\)
+    figures: []
+  - label: B
+    text: |-
+      \(I_{2}>I_{3}>I_{1}.\)
+    figures: []
+  - label: C
+    text: |-
+      \(I_{1}>I_{3}>I_{2}.\)
+    figures: []
+  - label: D
+    text: |-
+      \(I_{2}>I_{1}>I_{3}.\)
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $I = \int_0^{+\infty} e^{-px} \cos qx \, dx$，则（ ）
+  choices:
+  - label: A
+    text: |-
+      $p \leqslant 0, I = q^2$
+    figures: []
+  - label: B
+    text: |-
+      $p \leqslant 0, I = p^2 + q^2$
+    figures: []
+  - label: C
+    text: |-
+      $p > 0, I = \dfrac{p}{p^2 + q^2}$
+    figures: []
+  - label: D
+    text: |-
+      $p > 0, I = \dfrac{1}{p^2 + q^2}$
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      \(I = \int_{\dfrac{\pi}{4}}^{\dfrac{\pi}{2}} \mathrm{d}\theta \int_{0}^{\dfrac{1}{\sin\theta}} f(r) r \mathrm{d}r =\) ( )
+  choices:
+  - label: A
+    text: |-
+      \(\int_{0}^{1} \mathrm{d}x \int_{0}^{1} f(\sqrt{x^{2} + y^{2}}) \mathrm{d}y.\)
+    figures: []
+  - label: B
+    text: |-
+      \(\int_{0}^{1} \mathrm{d}x \int_{1}^{x} f(\sqrt{x^{2} + y^{2}}) \mathrm{d}y.\)
+    figures: []
+  - label: C
+    text: |-
+      \(\int_{0}^{1} \mathrm{d}r \int_{\dfrac{\pi}{4}}^{\dfrac{\pi}{2}} f(r) r \mathrm{d}\theta + \int_{1}^{\sqrt{2}} \mathrm{d}r \int_{\dfrac{\pi}{4}}^{\arcsin\dfrac{1}{r}} f(r) r \mathrm{d}\theta.\)
+    figures: []
+  - label: D
+    text: |-
+      \(\int_{0}^{\sqrt{2}} \mathrm{d}r \int_{\arcsin\dfrac{1}{r}}^{\dfrac{\pi}{4}} f(r) \mathrm{d}\theta.\)
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: 设 $y_1 = e^{-x}$ $,y_2 = 2x$ 是常系数齐次线性微分方程 $y''' + ay'' + by' + cy = 0$ 的两个解，则该方程的通解可为（ ）
+  choices:
+  - label: A
+    text: $c_1e^{-x} + c_2 + c_3x$
+    figures: []
+  - label: B
+    text: $c_1e^{-x} + c_2e^x + c_3x$
+    figures: []
+  - label: C
+    text: $c_1e^{-x} + c_2e^x + c_3$
+    figures: []
+  - label: D
+    text: $c_1e^{-x} + c_2xe^x + c_3$
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      已知平面上的点 $A(0,1)$ 和抛物线 $x=2\sqrt{y}$，动点 $P$ 从坐标原点 $O$ 出发，沿抛物线移动，若直线段 $OA$ $\text{、}AP$ 和抛物线所围成的面积对时间 $t$ 的增大速率为 $1$，则当 $P$ 移到点 $(6,9)$ 处时$,P$ 的横坐标的变动速率为（ ）
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{1}{2}$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{1}{3}$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{1}{4}$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{1}{5}$
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 是 $m \times n$ 矩阵，则非齐次线性方程组 $Ax = b$ 有解的充分必要条件是（ ）
+  choices:
+  - label: A
+    text: |-
+      $r(A) = r(A^{\mathrm{T}}) = m$
+    figures: []
+  - label: B
+    text: |-
+      $r(A) = r(A^{\mathrm{T}}) = n$
+    figures: []
+  - label: C
+    text: |-
+      $r(A^{\mathrm{T}}) = r\begin{pmatrix} A^{\mathrm{T}} \\ b^{\mathrm{T}} \end{pmatrix} = m$
+    figures: []
+  - label: D
+    text: |-
+      $A^{\mathrm{T}}x = 0$ 与 $\begin{pmatrix} A^{\mathrm{T}} \\ b^{\mathrm{T}} \end{pmatrix} x = 0$ 同解
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 \(\lambda = 2\) 是方阵 A 的特征值，对应的特征向量为 \(\alpha, \mu = 1\) 是 \(A^{T}\) 的特征值，对应的特征向量为 \(\beta\)，则必有 ( )
+  choices:
+  - label: A
+    text: |-
+      \(\beta=2\alpha.\)
+    figures: []
+  - label: B
+    text: |-
+      \(\alpha=2\beta.\)
+    figures: []
+  - label: C
+    text: |-
+      \(\alpha,\beta\) 线性无关
+    figures: []
+  - label: D
+    text: |-
+      \(\alpha\) 与 \(\beta\) 正交
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $ A=\begin{pmatrix} 4 & 0 & 0 \\ 0 & 0 & 0 \\ 0 & 0 & 4 \end{pmatrix}, \quad B=\begin{pmatrix} 4 & 1 & 0 \\ 0 & 4 & 1 \\ 0 & 0 & 0 \end{pmatrix}, \quad C=\begin{pmatrix} 2 & 2 & 0 \\ 2 & 2 & 0 \\ 0 & 0 & 2 \end{pmatrix}, \quad D=\begin{pmatrix} 4 & 1 & 0 \\ 0 & 0 & 0 \\ 0 & 0 & 4 \end{pmatrix}$，则以下选项正确的是（ ）
+  choices:
+  - label: A
+    text: $A$与$B$合同$,A$与$C$相似
+    figures: []
+  - label: B
+    text: $A$与$C$合同$,A$与$D$相似
+    figures: []
+  - label: C
+    text: $A$与$D$合同$,A$与$B$相似
+    figures: []
+  - label: D
+    text: $A$与$C$合同$,A$与$B$相似
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      \(\lim\limits_{n\to\infty}\sum\limits_{k=1}^{n}\dfrac{1}{n}\ln\dfrac{n+2k}{3n-2k}=\) ___
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 \(f(x)\) 为连续函数，且 \(f(x)=\int_{0}^{x}e^{-f(t)}\mathrm{d}t\)，则 \(f^{(n)}(0)=\) ___
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      函数 \(f(x) = e\sqrt{x}\ln x\) 在 \((0, +\infty)\) 内的最小值为 ___
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设函数 \(y = y(x)\) \(\dfrac{t}{x^{3}}\), 则曲线 \(y = y(x)\) 的斜渐近线 方程
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      \(r=1+\cos\theta\) 与 \(\theta=0,\theta=\dfrac{\pi}{2}\) 围成的图形绕极轴旋转一周所得旋转体的体积为 ___
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $B = (b_{ij})_{3 \times 3}$ 是可逆矩阵，且 $ AB = \begin{pmatrix} b_{11} & 2b_{12} & -b_{13} \\ b_{21} & 2b_{22} & -b_{23} \\ b_{31} & 2b_{32} & -b_{33} \end{pmatrix}$ $,A^*$ 为 $A$ 的伴随矩阵，则行列式 $|A^* + E| = \underline{\qquad\qquad}.$
+- number: 17
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $f''(0)$ 存在，且有 $\lim_{x\to 0} \dfrac{f(x)}{x^2} = 1$。 (I) 求 $f'(0)$ $,f''(0)$ 的值； (II) 证明$:\lim_{x\to 0} \dfrac{f(x) - f[\ln(1+x)]}{\dfrac{1}{2}x^3} = f''(0)$。
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $f(x)$ 在 $(0, +\infty)$ 内有定义$,f'(1) = 1$，且对任意的 $x, y \in (0, +\infty)$，有 $f(xy) = yf(x) + xf(y)$。 (Ⅰ) 证明$:f(x)$ 在 $(0, +\infty)$ 内可导，并求 $f(x)$； (Ⅱ) 记 $F(x) = \dfrac{f(x)}{x}, x \in [2, 6]$，求 $y = F(x)$ 的一条切线，使该切线与 $x = 2, x = 6$ 及 $y = F(x)$ 所围成的图形的面积最小。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      (本题满分12分) 设函数 \(f(x,y)=(x-1)^{2}+y^{2}(y\neq0)\) 在条件 \(\dfrac{x^{2}}{a^{2}}+\dfrac{y^{2}}{b^{2}}=1(a>0,b>0)\) 下于点 \(\left(\dfrac{3}{2},\dfrac{\sqrt{3}}{2}\right)\) 处取得最小值，求 a,b 的值
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      (本题满分12分) 设 \(D=\left\{(x,y)\mid0\leqslant x\leqslant2,0\leqslant y\leqslant\sqrt{2x-x^{2}}\right\}\)，计算 \(I=\iint_{D}|x+y-2|\,\mathrm{d}x\,\mathrm{d}y\)
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设在上半平面的曲线 $y = y(x)$ ($x > -\dfrac{1}{2}$) 上任一点 $M(x, y)$ 处的切线与 $x$ 轴交于点 $N$，且满足 $|OM| = |ON|$ $,y(0) = 1$ $,y'(x) > 0$。求 $y = y(x)$。
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 3 阶实对称矩阵 $\boldsymbol{A} = (\boldsymbol{\alpha}_1, \boldsymbol{\alpha}_2, \boldsymbol{\alpha}_3)$ 有二重特征值 $\lambda_1 = \lambda_2 = 1$，且 $\boldsymbol{\alpha}_1 + 2\boldsymbol{\alpha}_2 - \boldsymbol{\alpha}_3 = \boldsymbol{0}$ $,\boldsymbol{A}^*$ 是 $\boldsymbol{A}$ 的伴随矩阵。 (I) 求一个正交变换 $\boldsymbol{x} = \boldsymbol{Q}\boldsymbol{y}$ 将二次型 $f(x_1, x_2, x_3) = \boldsymbol{x}^{\mathrm{T}}\boldsymbol{A}\boldsymbol{x}$ 化为标准形； (II) 求方程组 $\boldsymbol{A}^*\boldsymbol{x} = \boldsymbol{0}$ 的通解。
+content_hash: cce84c6c51a162b8bd684943e471bd1c17623f86bead1a8d0efa572a4d33b3e8

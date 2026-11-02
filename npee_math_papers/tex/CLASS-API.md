@@ -13,7 +13,7 @@ question and publisher material.
 ## Minimal document
 
 ```tex
-\documentclass[a4,print,spaced]{npee-math-exam}
+\documentclass[a4,plain,spaced]{npee-math-exam}
 
 % Project metadata is optional. Define only what the project uses.
 \renewcommand{\NPEESubjectCode}{301}
@@ -44,11 +44,12 @@ information opening page.
 | --- | --- | --- |
 | `a3` | `a3` | A3 landscape spread with two logical columns |
 | `a4` | `a3` | A4 paper, one continuous text column per physical page |
-| `print`, `white`, `normal` | `print` | White print palette |
-| `eyecare`, `eye`, `cream` | `print` | Warm examination-paper palette |
-| `spaced` | `spaced` | Structured solution pagination: 17--18 share logical page 4, then one solution question per logical page |
-| `compact` | `spaced` | Natural flow for all sections, with the same body typography as `spaced` |
-| `a4-blank` | `spaced` | Print deliverable: compact natural flow, every paper padded to at least four physical pages. Layout-agnostic — on A3 it matches `compact` |
+| `plain`, `white`, `normal` | `print` | White print palette (`plain` because the token `print` selects the blank-space switch) |
+| `eyecare`, `eye`, `cream` | `plain` | Warm examination-paper palette |
+| `compact` | `spaced` | **间距**：全卷自然连排（客观题与解答题同一套排版） |
+| `spaced` | `spaced` | **间距**：解答题独占页面（17--18 共用一页，之后每题一页），给作答留出书写空间 |
+| `print` | off | **留白**：每套卷补足到整页、封面后加一张空白页、目录凑成偶数页。不改动任何题目排版 |
+| `a4-blank` | off | `print` 的历史写法，行为完全相同 |
 | `inlineonly` | off | Diagnose display-math entry points |
 | `candidateinfo` / `nocandidateinfo` | on | Candidate information form in the paper opening page |
 | `candidatenotices` / `nocandidatenotices` | on | Notice block in the paper opening page |
@@ -76,7 +77,7 @@ project styles and can turn off exam overlays through the lifecycle commands bel
   section/line-height=18.5pt,
   column/gap=14mm,
   column/rule=0pt,
-  spacing/mode=a4-blank,
+  spacing/mode=print,
   eyecare/paper-color={FFF9E2},
   eyecare/text-color={322D26},
   watermark/show=false,
@@ -115,8 +116,10 @@ Frequently used setters have neutral `Exam*` names:
 `solution/pair-count` 可调整首组题数。答题单元的实际高度由 A3/A4 纸张和
 `spaced`/`compact` 模式在类内部推导。
 
-`a4-blank` 是组卷编译目标而不是普通题面间距：它强制使用 A4、采用紧凑自然流动，
-并在每套试卷结束时补足到至少 4 页；已有 `compact` 和 `spaced` 目标不受影响。
+`print` 是组卷编译目标而不是普通题面间距：它采用紧凑自然流动，在每套试卷结束时
+补足到至少 4 页，并在前置部分补页——封面后加一页空白页，目录补足到偶数页——
+使双面打印时每套卷都从右手页开始。该模式**不限定纸张**（A3 本来就补足 4 个逻辑页，
+因此在 A3 上等同于 `compact`）。`a4-blank` 是它的历史键，仍被接受以兼容旧组卷包。
 
 历史题源中的显式答题高度只由类内部迁移层兼容，并会触发一次弃用警告；它们不是
 公共 API，也不应出现在新的题库记录、组合 JSON 或生成的题面中。迁移时删除高度

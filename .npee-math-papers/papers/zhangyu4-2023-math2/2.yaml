@@ -1,0 +1,288 @@
+schema_version: '3.0'
+paper:
+  series_key: zhangyu4
+  year: 2023
+  subject: math2
+  paper_no: 2
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      若函数 $f(x) = \begin{cases} \dfrac{\cos\pi x}{x^2+ax+b}, & x \neq \dfrac{1}{2}, \\ 2, & x = \dfrac{1}{2} \end{cases}$ 在点 $x = \dfrac{1}{2}$ 处连续，则
+  choices:
+  - label: A
+    text: |-
+      $a = -\dfrac{2+\pi}{2}, b = \dfrac{\pi+1}{4}$
+    figures: []
+  - label: B
+    text: |-
+      $a = \dfrac{2+\pi}{2}, b = -\dfrac{\pi+1}{4}$
+    figures: []
+  - label: C
+    text: |-
+      $a = \dfrac{2+\pi}{2}, b = \dfrac{\pi+1}{4}$
+    figures: []
+  - label: D
+    text: |-
+      $a = \dfrac{\pi+1}{4}, b = \dfrac{2+\pi}{2}$
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x)=\begin{cases} 1+\sin\dfrac{\pi}{2}x, & x\leqslant 1, \\ 0, & x>1, \end{cases}$ 对 $f(x)$ 给出两个命题：①点 $x=1$ 是 $f(x)$ 的一个极值点；②点 $(1,2)$ 是曲线 $y=f(x)$ 的一个拐点. 则
+  choices:
+  - label: A
+    text: ①和②都正确
+    figures: []
+  - label: B
+    text: ①正确，但②不正确
+    figures: []
+  - label: C
+    text: ①不正确，但②正确
+    figures: []
+  - label: D
+    text: ①和②都不正确
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: 设函数 $f(x)$ 在闭区间 $[0,2]$ 上二阶可导，且 $f''(x)>0$，又 $f(0)=2f(1)=f(2)=2$，则
+  choices:
+  - label: A
+    text: |-
+      $1<\int_{0}^{2} f(x) \mathrm{d}x < 2$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{3}{2}<\int_{0}^{2} f(x) \mathrm{d}x < \dfrac{5}{2}$
+    figures: []
+  - label: C
+    text: |-
+      $2<\int_{0}^{2} f(x) \mathrm{d}x < 3$
+    figures: []
+  - label: D
+    text: |-
+      $3<\int_{0}^{2} f(x) \mathrm{d}x < 4$
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      对于 $\{a_n\}, n=1,2,\cdots$，以下命题： ①若 $0 1$，则 $\lim\limits_{n\to\infty} a_n^n = +\infty$； ③若 $a_n > 0$ 且 $\lim\limits_{n\to\infty}\sqrt[n]{a_n} = 1$，则 $\lim\limits_{n\to\infty} a_n$ 必存在且大于 0； ④若 $a_n > 0$ 且 $\lim\limits_{n\to\infty} a_n$ 存在且大于 0，则 $\lim\limits_{n\to\infty}\sqrt[n]{a_n} = 1$. 所有假命题的序号为
+  choices:
+  - label: A
+    text: ①②
+    figures: []
+  - label: B
+    text: ①③
+    figures: []
+  - label: C
+    text: ①③④
+    figures: []
+  - label: D
+    text: ①②③
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $y=\varphi(x)$ 是微分方程 $y'+\mathrm{e}y=\left(1-\dfrac{1}{x}\right)^{x}$ 的一个解，则 $\lim\limits_{x \to +\infty} \varphi(x)=$
+  choices:
+  - label: A
+    text: |-
+      $\mathrm{e}$
+    figures: []
+  - label: B
+    text: |-
+      $\mathrm{e}^{2}$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{1}{\mathrm{e}}$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{1}{\mathrm{e}^{2}}$
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x) = \iint\limits_{u^2+v^2 \leqslant x^2} \arctan(1+\sqrt{u^2+v^2}) \mathrm{d}u\mathrm{d}v\,(x>0)$，则 $\lim\limits_{x \to 0^+} \dfrac{f(x)}{\mathrm{e}^{-2x} - 1 + 2x} = $
+  choices:
+  - label: A
+    text: |-
+      $-\dfrac{\pi^2}{8}$
+    figures: []
+  - label: B
+    text: |-
+      $-\dfrac{\pi^2}{4}$
+    figures: []
+  - label: C
+    text: |-
+      $\dfrac{\pi^2}{8}$
+    figures: []
+  - label: D
+    text: |-
+      $\dfrac{\pi^2}{4}$
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $z=f(x, y)$ 具有二阶连续偏导数，且满足等式 $9\dfrac{\partial^2 z}{\partial x^2}-\dfrac{\partial^2 z}{\partial y^2}=0$. 若变换 $\begin{cases} u=x-3y, \\ v=x+ay \end{cases}$ 可把上述等式化简为 $\dfrac{\partial^2 z}{\partial u \partial v}=0$，则常数 $a=$
+  choices:
+  - label: A
+    text: $-3$
+    figures: []
+  - label: B
+    text: $-2$
+    figures: []
+  - label: C
+    text: $2$
+    figures: []
+  - label: D
+    text: $3$
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $ $f(x) = \begin{vmatrix} x+1 & 2 & 3 & \cdots & n \\ 1 & x+2 & 3 & \cdots & n \\ 1 & 2 & x+3 & \cdots & n \\ \vdots & \vdots & \vdots & & \vdots \\ 1 & 2 & 3 & \cdots & x+n \end{vmatrix}$ $,\text{则} $f^{(n-1)}(0) = $
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{1}{2}n(n+1)$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{1}{2}(n+1)!$
+    figures: []
+  - label: C
+    text: $n!$
+    figures: []
+  - label: D
+    text: $(n+1)!$
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 是 $m \times n$ 矩阵, $m < n, r(A) = m$, 以下选项中错误的是
+  choices:
+  - label: A
+    text: |-
+      存在 $n$ 阶可逆矩阵 $Q$, 使得 $AQ = (E_m \mid O)$
+    figures: []
+  - label: B
+    text: |-
+      存在 $m$ 阶可逆矩阵 $P$, 使得 $PA = (E_m \mid O)$
+    figures: []
+  - label: C
+    text: 齐次线性方程组 $Ax = 0$ 有零解
+    figures: []
+  - label: D
+    text: 非齐次线性方程组 $Ax = b$ 有无穷多解
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: 设 $A$ 是 $3$ 阶实矩阵，则“$A$ 是实对称矩阵”是“$A$ 有 $3$ 个相互正交的特征向量”的
+  choices:
+  - label: A
+    text: 充分非必要条件
+    figures: []
+  - label: B
+    text: 必要非充分条件
+    figures: []
+  - label: C
+    text: 充分必要条件
+    figures: []
+  - label: D
+    text: 既非充分也非必要条件
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $a > 0$，若 $\lim\limits_{x \to 0} \dfrac{(4 + \sin x)^x - 4^x}{\sqrt{\cos ax} - 1} = -\dfrac{1}{2}$，则 $a = \underline{\qquad\qquad}$。
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      若四阶常系数齐次线性微分方程有一个解为 $y = x e^x \cos 2x$，则该方程的通解为 \underline{\qquad}
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      曲线 $\begin{cases} x = \int_0^t \mathrm{e}^{-u^2} \mathrm{d}u, \\ y = t\mathrm{e}^{-t^2} + \int_0^t \mathrm{e}^{-u^2} \mathrm{d}u \end{cases}$ 在其拐点处的法线方程为 \underline{\qquad\qquad}
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)$ 为 $[0,3]$ 上的非负连续函数，且满足 $f(x) \int_{1}^{2} f(xt-x) \mathrm{d}t = 2x^2, x \in [0,3]$，则 $f(x)$ 在区间 $[1,3]$ 上的平均值为______
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)$ 在 $(x_0-\delta,x_0+\delta)$ 内有三阶连续导数，且 $f''(x_0)=0, f'''(x_0)\neq 0$，当 $0<|h|<\delta$ 时，有 $f(x_0+h)-f(x_0)=hf'(x_0+\theta h), 0<\theta<1$，则 $\lim\limits_{h\to 0}\theta=\underline{\qquad\qquad}$。
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $A$ 为 $4$ 阶矩阵$,(A-2E)x=0$ 的基础解系中只有 $2$ 个解向量$,(A+E)x=0$ 的基础解系中只有 $1$ 个解向量，则 $r(A^2-A-2E)=\underline{\qquad\qquad}$
+- number: 17
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      已知 $\lim_{x \to 0} \left(\cos x - \dfrac{1}{2}x^2\right)^{\dfrac{4}{x}} = \lim_{x \to 0} \dfrac{bx - \sin x}{x(\sqrt{1+x^2}-1)}$，求常数 $a,b$ 的值
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设可导函数 $f(x)$ 满足 $\int x^3 f'(x) \mathrm{d}x = x^2\cos x - 4x\sin x - 6\cos x + C$，且 $f(2\pi) = \dfrac{1}{2\pi}$，求 $\int f(x) \mathrm{d}x$。
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $a, b$ 满足条件 $a \geqslant 0, b \leqslant 0$ 及 $\int_a^b |x| \mathrm{d}x = -\dfrac{1}{2}$，求直线 $y = ax$ 与抛物线 $y = x^2 + bx$ 所围成区域的面积的最大值与最小值
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      计算 $\iint_{D}[(x+1)^2+(y-1)^2]\mathrm{d}x\mathrm{d}y$, 其中 $D=\{(x,y)\mid x^2+y^2\leqslant 2x, x^2+y^2\leqslant 2y\}$
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设函数 $f(x)$ 在 $[0,1]$ 上连续，在 $(0,1)$ 内可导，且 $\int_0^1 x[f(x)-2]\mathrm{d}x=0$. 证明: 存在 $\xi \in (0,1)$，使得 $\xi^2 f'(\xi)+2\xi f(\xi)=1$
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $A$ 是 $3$ 阶矩阵$,\lambda_1,\lambda_2,\lambda_3$ 是 $A$ 的 $3$ 个不同特征值，对应的特征向量分别为 $\alpha_1,\alpha_2,\alpha_3$，令 $\beta=\alpha_1+\alpha_2+\alpha_3$. (1) 证明 $\beta=\alpha_1+\alpha_2+\alpha_3$ 不是 $A$ 的特征向量； (2) 证明 $\beta, A\beta, A^2\beta$ 线性无关； (3) 若 $A^3\beta=2A\beta$，求 $A$ 的特征值； (4) 在 (3) 的基础上证明 $A\beta$ 和 $A^2\beta$ 是方程组 $(A^2-2E)x=0$ 的基础解系
+content_hash: 0b4b2b203516c77386e27a852c57473d300a1ae3f0273e5b137e8238b63c9ddd

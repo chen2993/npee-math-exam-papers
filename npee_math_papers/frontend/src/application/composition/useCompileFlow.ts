@@ -19,7 +19,7 @@ import type { CompilePayload, CompositionExportGateway } from "./ports";
 
 export type CompilePhase = "idle" | "submitting" | "running" | "succeeded" | "failed";
 
-export interface CompileFlowState {
+interface CompileFlowState {
   phase: CompilePhase;
   job: CompileJob | null;
   error: string;

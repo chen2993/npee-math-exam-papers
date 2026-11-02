@@ -17,10 +17,12 @@ from npee_math_papers.core.domain import (
     ID_RE,
     LAYOUTS,
     SPACING_LAYOUT_REQUIREMENTS,
-    SPACINGS,
+    STORED_SPACINGS,
     SUBJECT_CODES,
     SUBJECT_LABELS,
     SUBJECTS,
+    split_spacing_axes,
+    target_label,
 )
 
 #: Output subject label lookup (alias of the shared domain label table).
@@ -147,7 +149,7 @@ def target_matrix(document: dict[str, Any], compile_config: dict[str, Any]) -> l
         if not isinstance(target, dict):
             fail(f"compile.targets[{index}] must be an object")
         required = {"layout", "theme", "spacing", "enabled"}
-        if set(target) - (required | {"answers", "output_suffix"}):
+        if set(target) - (required | {"answers", "output_suffix", "print"}):
             fail(f"compile.targets[{index}] has unsupported fields")
         if not target.get("enabled", False):
             continue
@@ -155,45 +157,50 @@ def target_matrix(document: dict[str, Any], compile_config: dict[str, Any]) -> l
             fail(f"compile.targets[{index}].layout must be a3 or a4")
         if target.get("theme") not in {"print", "cream"}:
             fail(f"compile.targets[{index}].theme must be print or cream")
-        if target.get("spacing") not in SPACINGS:
+        if target.get("spacing") not in STORED_SPACINGS:
             fail(f"compile.targets[{index}].spacing is invalid")
+        raw_print = target.get("print")
+        if raw_print is not None and not isinstance(raw_print, bool):
+            fail(f"compile.targets[{index}].print must be a boolean")
+        # 间距与留白是两个正交的轴：旧包把「紧凑 + 留白」写成 spacing=print，
+        # 这里归一化，下游只看到 (间距, 留白)。
+        spacing, print_flag = split_spacing_axes(str(target.get("spacing")), raw_print)
         # A spacing mode that is restricted to one stock declares it in the
         # shared table, so this rule is data rather than a hardcoded name.
-        required_layout = SPACING_LAYOUT_REQUIREMENTS.get(str(target.get("spacing")))
+        required_layout = SPACING_LAYOUT_REQUIREMENTS.get(spacing)
         if required_layout is not None and target.get("layout") != required_layout:
             fail(f"compile.targets[{index}].{target['spacing']} requires layout {required_layout}")
-        clean.append(dict(target))
+        clean.append({**target, "spacing": spacing, "print": print_flag})
     if not clean:
         fail("compile.targets contains no enabled target")
     return clean
 
 
-def solution_structure(document: dict[str, Any]) -> dict[str, Any]:
-    """Return the structural response policy for generated papers.
+def validate_solution_override(document: dict[str, Any]) -> None:
+    """``document.solution`` 仍然接受，但**不再生效**——版面由间距决定。
 
-    Response-cell dimensions are deliberately absent from composition data.  A
-    composition selects a semantic grouping policy and the class derives the
-    physical slots from the active paper stock and spacing mode.
+    这个字段与 ``compile.targets[].spacing`` 描述同一件事，而生成器一直让后者
+    覆盖前者，所以它其实从没起过作用；存量组卷包里还写着它，直接报错会让旧包编译
+    不了，因此这里只保留形状校验，值一律忽略。
     """
+
     raw = document.get("solution")
     if raw is None:
-        return {"structure": "pair-first", "pair_count": 2}
+        return
     if not isinstance(raw, dict):
         fail("document.solution must be an object")
     required = {"structure", "pair_count"}
-    if set(raw) != required:
-        missing = sorted(required - set(raw))
-        extra = sorted(set(raw) - required)
-        if missing:
-            fail(f"document.solution is missing fields: {', '.join(missing)}")
-        if extra:
-            fail(f"document.solution has unsupported fields: {', '.join(extra)}")
+    missing = sorted(required - set(raw))
+    extra = sorted(set(raw) - required)
+    if missing:
+        fail(f"document.solution is missing fields: {', '.join(missing)}")
+    if extra:
+        fail(f"document.solution has unsupported fields: {', '.join(extra)}")
     if raw["structure"] not in {"pair-first", "natural", "full-page"}:
         fail("document.solution.structure is invalid")
     pair_count = raw["pair_count"]
     if isinstance(pair_count, bool) or not isinstance(pair_count, int) or not 1 <= pair_count <= 8:
         fail("document.solution.pair_count must be an integer from 1 to 8")
-    return {"structure": raw["structure"], "pair_count": pair_count}
 
 
 def opening_settings(document: dict[str, Any]) -> dict[str, bool]:
@@ -288,7 +295,15 @@ def make_main(
 ) -> str:
     # ``answers`` 是类选项（``\DeclareOption{answers}``），控制解答/答案槽是否内联显示。
     # 目标矩阵里它可能缺省；只在显式为真时追加，保持历史产物不变。
-    option_parts = [target["layout"], target["theme"], target["spacing"]]
+    #
+    # 类选项 token 与组卷数据里的键分属两个词汇表，只有在二者取值不冲突时才逐字相同。
+    # 主题 ``print``（白底印刷色）与留白 ``print``（打印交付物）同名，而一个 LaTeX
+    # 选项 token 只能有一个含义（重复声明会被静默丢弃），因此类侧把主题 token 改名为
+    # ``plain``，这里做同样的映射。输出端仍用 ``print`` 表示白底印刷色。
+    theme_token = "plain" if target["theme"] == "print" else target["theme"]
+    option_parts = [target["layout"], theme_token, target["spacing"]]
+    if target.get("print"):
+        option_parts.append("print")
     if target.get("answers"):
         option_parts.append("answers")
     options = ",".join(option_parts)
@@ -328,12 +343,8 @@ def make_main(
     # Cover material must be in the document body; the class resets page state
     # when the collection starts.
     lines += ["\\begin{document}"]
-    solution = solution_structure(composition["document"])
-    lines.append(
-        "\\ExamSetup{solution/structure="
-        f"{solution['structure']},solution/pair-count={solution['pair_count']}}}"
-    )
     lines.append(f"\\NPEEApplyTargetSpacingPolicy{{{target['spacing']}}}")
+    lines.append(f"\\NPEEApplyTargetPrintPolicy{{{1 if target.get('print') else 0}}}")
     opening = opening_settings(composition["document"])
     lines.append(
         "\\ExamSetup{"
@@ -342,6 +353,10 @@ def make_main(
         f"candidate-notices/show={'true' if opening['notices'] else 'false'}}}"
     )
     lines += cover_lines
+    # 留白打开时，封面后补一张空白页，使目录（或第一卷）从新的一张纸开始，
+    # 双面打印时每套卷都落在右手页。不打开留白时该命令是空操作。
+    if cover_lines:
+        lines.append("\\NPEECoverBlankSheet")
     lines += hooks["before_collection"]
     # Composition settings are applied after package hooks so a CLI override
     # such as --no-watermark cannot be undone by a package-local hook.

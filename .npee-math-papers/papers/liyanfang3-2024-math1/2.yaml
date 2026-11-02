@@ -4,317 +4,286 @@ paper:
   year: 2024
   subject: math1
   paper_no: 2
-content_hash: 38dcd091381e38503daa7e953f93b429f3a091bbd8a0c1e94961230d2bea0f0c
 questions:
 - number: 1
   section: choice
   points: 5
   stem:
     text: |-
-      设函数 $f(x)=\lim_{n\to\infty}\dfrac{xe^{-n|x|}+2n\sin x}{nx+1}$，则下列说法中，正确的是\ExamSelection。
+      设函数 $f(x)=\lim_{n\to\infty}\dfrac{xe^{-n|x|}+2n\sin x}{nx+1}$，则下列说法中，正确的是（ ）
   choices:
   - label: A
-    text: $f(x)$ 没有间断点。
+    text: $f(x)$ 没有间断点
     figures: []
   - label: B
-    text: $f(x)$ 有可去间断点。
+    text: $f(x)$ 有可去间断点
     figures: []
   - label: C
-    text: $f(x)$ 有跳跃间断点。
+    text: $f(x)$ 有跳跃间断点
     figures: []
   - label: D
-    text: $f(x)$ 有无穷间断点。
+    text: $f(x)$ 有无穷间断点
     figures: []
 - number: 2
   section: choice
   points: 5
   stem:
     text: |-
-      设曲线 $y=f(x)$ 由 $\begin{cases}x=3t-2|t|,\\y=|t|\cos\dfrac{1}{t}\end{cases}$ 确定，则该曲线的渐近线的条数为\ExamSelection。
+      设曲线 $y=f(x)$ 由 $\begin{cases} x=3t-2|t|, \\ y=|t|\cos\dfrac{1}{t} \end{cases}$ 确定，则该曲线的渐近线的条数为( )
   choices:
   - label: A
-    text: $0$。
+    text: '0'
     figures: []
   - label: B
-    text: $1$。
+    text: '1'
     figures: []
   - label: C
-    text: $2$。
+    text: '2'
     figures: []
   - label: D
-    text: $3$。
+    text: '3'
     figures: []
 - number: 3
   section: choice
   points: 5
   stem:
     text: |-
-      若反常积分 $\int_0^{+\infty}\dfrac{x^a\arctan^b x}{\ln(1+x^2)}\,\mathrm{d}x$ 收敛，则\ExamSelection。
+      若反常积分 $\int_{0}^{+\infty} \dfrac{x^a \arctan^b x}{\ln(1+x^2)} \mathrm{d}x$ 收敛，则 ( )
   choices:
   - label: A
     text: |-
-      $a\leqslant-1,\ 1<a+b<2$。
+      $a \leqslant -1, 1 < a+b < 2.$
     figures: []
   - label: B
-    text: |-
-      $a<-1,\ 1<a+b<2$。
+    text: $a < -1, 1 < a+b < 2.$
     figures: []
   - label: C
     text: |-
-      $a\leqslant-1,\ a+b>1$。
+      $a \leqslant -1, a+b > 1.$
     figures: []
   - label: D
-    text: |-
-      $a<-1,\ a+b>1$。
+    text: $a 1.$
     figures: []
 - number: 4
   section: choice
   points: 5
   stem:
     text: |-
-      设幂级数 $\sum_{n=0}^{\infty}a_nx^n$ 与幂级数 $\sum_{n=0}^{\infty}b_nx^n$ 的收敛半径分别为 $R_1$ 与 $R_2$，记幂级数 $\sum_{n=0}^{\infty}(a_n+b_n)x^n$ 的收敛半径为 $R$，则\ExamSelection。
+      设幂级数 $\sum_{n=0}^{\infty} a_n x^n$ 与幂级数 $\sum_{n=0}^{\infty} b_n x^n$ 的收敛半径分别为 $R_1$ 与 $R_2$, 记幂级数 $\sum_{n=0}^{\infty} (a_n+b_n) x^n$ 的收敛半径为 $R$, 则 ( )
   choices:
   - label: A
     text: |-
-      $R=\min\{R_1,R_2\}$。
+      $R=\min\{R_1, R_2\}.$
     figures: []
   - label: B
     text: |-
-      $\min\{R_1,R_2\}\leqslant R\leqslant\max\{R_1,R_2\}$。
+      $\min\{R_1, R_2\} \leqslant R \leqslant \max\{R_1, R_2\}.$
     figures: []
   - label: C
     text: |-
-      $R\geqslant\max\{R_1,R_2\}$。
+      $R \geqslant \max\{R_1, R_2\}.$
     figures: []
   - label: D
-    text: 以上说法均不正确。
+    text: 以上说法均不正确
     figures: []
 - number: 5
   section: choice
   points: 5
   stem:
     text: |-
-      设 $\alpha_1,\alpha_2,\alpha_3$ 是 $3$ 维向量空间 $\mathbf{R}^3$ 的一组规范正交基，则下列矩阵中，能将基 $\alpha_1+\dfrac{1}{2}\alpha_2,\alpha_2+\dfrac{1}{3}\alpha_3,\alpha_3$ 化为规范正交基的过渡矩阵是\ExamSelection。
+      设 $\alpha_1,\alpha_2,\alpha_3$ 是 $3$ 维向量空间 $R^3$ 的一组规范正交基，则下列矩阵中，能将基 $\alpha_1+\dfrac{1}{2}\alpha_2,\alpha_2+\dfrac{1}{3}\alpha_3,\alpha_3$ 化为规范正交基的过渡矩阵是（ ）
   choices:
   - label: A
     text: |-
-      $\begin{pmatrix}1&0&0\\-\dfrac{1}{2}&-1&0\\0&\dfrac{1}{3}&1\end{pmatrix}$。
+      $\begin{pmatrix} 1 & 0 & 0 \\ -\dfrac{1}{2} & -1 & 0 \\ 0 & \dfrac{1}{3} & 1 \end{pmatrix}$
     figures: []
   - label: B
     text: |-
-      $\begin{pmatrix}1&0&0\\-\dfrac{1}{2}&-1&0\dfrac{1}{6}&\dfrac{1}{3}&1\end{pmatrix}$。
+      $\begin{pmatrix} 1 & 0 & 0 \\ -\dfrac{1}{2} & -1 & 0 \\ 6 & 3 & 1 \end{pmatrix}$
     figures: []
   - label: C
     text: |-
-      $\begin{pmatrix}1&-\dfrac{1}{2}&0\\0&-1&\dfrac{1}{3}\\0&0&1\end{pmatrix}$。
+      $\begin{pmatrix} 1 & -\dfrac{1}{2} & 0 \\ 0 & -1 & \dfrac{1}{3} \\ 0 & 0 & 1 \end{pmatrix}$
     figures: []
   - label: D
     text: |-
-      $\begin{pmatrix}1&-\dfrac{1}{2}&\dfrac{1}{6}\\0&-1&\dfrac{1}{3}\\0&0&1\end{pmatrix}$。
+      $\begin{pmatrix} 1 & -\dfrac{1}{2} & \dfrac{1}{6} \\ 0 & -1 & \dfrac{1}{3} \\ 0 & 0 & 1 \end{pmatrix}$
     figures: []
 - number: 6
   section: choice
   points: 5
   stem:
     text: |-
-      已知向量 $\alpha_i=(a_{i1},a_{i2},a_{i3})^{\mathrm T},\ i=1,2,3$，$\beta=(b_1,b_2,b_3)^{\mathrm T}$，且有三张平面的方程为 $a_{i1}x+a_{i2}y+a_{i3}z=b_i,\ i=1,2,3$，另有一张平面的方程为 $b_1x+b_2y+b_3z=c$，其中 $c$ 为参数。若 $\alpha_1,\alpha_2,\alpha_3$ 两两正交，则下列关于四平面位置关系的说法中，正确的是\ExamSelection。
+      已知向量 $\alpha_i=(a_{i1},a_{i2},a_{i3})^T, i=1,2,3, \beta=(b_1,b_2,b_3)^T$, 且有三张平面的方程为 $a_{i1}x+a_{i2}y+a_{i3}z=b_i, i=1,2,3$, 另有一张平面的方程为 $b_1x+b_2y+b_3z=c$, 其中 $c$ 为参数. 若 $\alpha_1,\alpha_2,\alpha_3$ 两两正交, 则下列关于四平面位置关系的说法中, 正确的是 ( )
   choices:
   - label: A
-    text: 不存在 $c$，使得四平面相交于一点。
+    text: 不存在 $c$, 使得四平面相交于一点
     figures: []
   - label: B
-    text: 存在唯一的 $c$，使得四平面相交于一点。
+    text: 存在唯一的 $c$, 使得四平面相交于一点
     figures: []
   - label: C
-    text: 存在无穷多的 $c$，使得四平面相交于一点。
+    text: 存在无穷多的 $c$, 使得四平面相交于一点
     figures: []
   - label: D
-    text: 存在唯一的 $c$，使得四平面相交于一条直线。
+    text: 存在唯一的 $c$, 使得四平面相交于一条直线
     figures: []
 - number: 7
   section: choice
   points: 5
   stem:
     text: |-
-      设 $A$ 是 $3$ 阶实对称矩阵，$E$ 是 $3$ 阶单位矩阵。已知 $A^2-A=6E$，且 $\operatorname{tr}(A)<0$，$|A|>0$。若 $kE+A$ 与 $E-kA$ 均不是正定矩阵，则 $k$ 的取值范围是\ExamSelection。
+      设 $A$ 是 $3$ 阶实对称矩阵$,E$ 是 $3$ 阶单位矩阵.已知 $A^2-A=6E$，且 $\operatorname{tr}(A)0$.若 $kE+A$ 与 $E-kA$ 均不是正定矩阵，则 $k$ 的取值范围是 $(\quad)$
   choices:
   - label: A
     text: |-
-      $k\leqslant-3$。
+      $k\leqslant-3.$
     figures: []
   - label: B
     text: |-
-      $k\leqslant-\dfrac{1}{2}$。
+      $k\leqslant-\dfrac{1}{2}.$
     figures: []
   - label: C
     text: |-
-      $\dfrac{1}{3}\leqslant k\leqslant2$。
+      $\dfrac{1}{3}\leqslant k\leqslant 2.$
     figures: []
   - label: D
     text: |-
-      $k\leqslant-\dfrac{1}{2}$ 或 $\dfrac{1}{3}\leqslant k\leqslant2$。
+      $k\leqslant-\dfrac{1}{2}$ 或 $\dfrac{1}{3}\leqslant k\leqslant 2.$
     figures: []
 - number: 8
   section: choice
   points: 5
   stem:
-    text: |-
-      设随机变量 $X$ 的分布函数为 $F(x)$，概率密度为 $f(x)$，则下列说法中，正确的是\ExamSelection。
+    text: 设随机变量 $X$ 的分布函数为 $F(x)$，概率密度为 $f(x)$，则下列说法中，正确的是 ( )
   choices:
   - label: A
-    text: $f(-x)$ 必不为某个随机变量的概率密度。
+    text: $f(-x)$ 必不为某个随机变量的概率密度
     figures: []
   - label: B
-    text: $F(-x)$ 必为某个随机变量的分布函数。
+    text: $F(-x)$ 必为某个随机变量的分布函数
     figures: []
   - label: C
     text: |-
-      $\int_x^{x+1}f(t)\,\mathrm{d}t$ 必不为某个随机变量的概率密度。
+      $\int_x^{x+1} f(t) dt$ 必不为某个随机变量的概率密度
     figures: []
   - label: D
     text: |-
-      $\int_x^{x+1}F(t)\,\mathrm{d}t$ 必为某个随机变量的分布函数。
+      $\int_x^{x+1} F(t) dt$ 必为某个随机变量的分布函数
     figures: []
 - number: 9
   section: choice
   points: 5
   stem:
     text: |-
-      设 $a>0$，随机变量 $(X,Y)$ 服从二维正态分布 $N(0,0;a,a^2;-\dfrac{1}{2})$。已知 $aX+Y$ 与 $X$ 不相关，则下列随机变量中，服从标准正态分布且与 $X$ 独立的是\ExamSelection。
+      设 $a>0$, 随机变量 $(X, Y)$ 服从二维正态分布 $N\left(0,0; a, a^{2};-\dfrac{1}{2}\right)$. 已知 $aX+Y$ 与 $X$ 不相关, 则下列随机变量中, 服从标准正态分布且与 $X$ 独立的是 ( )
   choices:
   - label: A
     text: |-
-      $\dfrac{1}{4}X+Y$。
+      $\dfrac{1}{4}X+Y.$
     figures: []
   - label: B
     text: |-
-      $\dfrac{2\sqrt{3}}{3}X+\dfrac{8\sqrt{3}}{3}Y$。
+      $\dfrac{2\sqrt{3}}{3}X+\dfrac{8\sqrt{3}}{3}Y.$
     figures: []
   - label: C
     text: |-
-      $\dfrac{1}{2}X+Y$。
+      $\dfrac{1}{2}X+Y.$
     figures: []
   - label: D
-    text: $2X+4Y$。
+    text: $2X+4Y.$
     figures: []
 - number: 10
   section: choice
   points: 5
   stem:
     text: |-
-      设总体 $X$ 服从正态分布 $N(\mu,\sigma^2)$，其中 $\sigma^2$ 已知。$X_1,X_2,\cdots,X_n$ 是来自总体 $X$ 的简单随机样本，$\overline{X}$ 为样本均值，$S^2$ 为样本方差，利用该样本得到 $\mu$ 的一个置信度为 $\alpha$ 的置信区间，记 $L$ 为该置信区间的长度，则下列说法中，正确的是\ExamSelection。
+      设总体 $X$ 服从正态分布 $N(\mu,\sigma^2)$，其中 $\sigma^2$ 已知. $X_1, X_2, \cdots, X_n$ 为来自总体 $X$ 的简单随机样本$,\overline{X}$ 为样本均值$,S^2$ 为样本方差，利用该样本得到 $\mu$ 的一个置信度为 $\alpha$ 的置信区间，记 $L$ 为该置信区间的长度，则下列说法中，正确的是 ( )
   choices:
   - label: A
     text: |-
-      $\alpha$ 越小，则 $L$ 越小。
+      $\alpha$ 越小，则 $L$ 越小
     figures: []
   - label: B
-    text: $n$ 越小，则 $L$ 越小。
+    text: $n$ 越小，则 $L$ 越小
     figures: []
   - label: C
     text: |-
-      $\overline{X}$ 越小，则 $L$ 越小。
+      $\overline{X}$ 越小，则 $L$ 越小
     figures: []
   - label: D
-    text: $S^2$ 越小，则 $L$ 越小。
+    text: $S^2$ 越小，则 $L$ 越小
     figures: []
 - number: 11
   section: fill
   points: 5
   stem:
     text: |-
-      设函数 $f(x)$ 在 $x=0$ 处三阶可导，$f(0)=0$，且 $f'(2x)$ 在 $x=0$ 处的二次泰勒多项式为 $x-x^2$，则 $f(x)$ 在 $x=0$ 处的三次泰勒多项式为\ExamBlank。
+      设函数 $f(x)$ 在 $x=0$ 处三阶可导, $f(0)=0$, 且 $f'(2x)$ 在 $x=0$ 处的二次泰勒多项式为 $x-x^2$, 则 $f(x)$ 在 $x=0$ 处的三次泰勒多项式为 $\underline{\qquad\qquad}$
 - number: 12
   section: fill
   points: 5
   stem:
     text: |-
-      设函数 $f(x)$ 二阶可导且满足 $\lim_{x\to0}\dfrac{f(x)}{\arcsin x}=2$，则曲线 $y=\int_0^{f(x)}\arcsin t\,\mathrm{d}t$ 在 $x=0$ 对应点处的曲率为\ExamBlank。
+      设函数 $f(x)$ 二阶可导且满足 $\lim_{x \to 0} \dfrac{f(x)}{\arcsin x} = 2$，则曲线 $y = \int_0^{f(x)} \arcsin t dt$ 在 $x = 0$ 对应点处的曲率为_______
 - number: 13
   section: fill
   points: 5
   stem:
     text: |-
-      记 $a_n=\int_1^n\dfrac{[x]}{2^x}\,\mathrm{d}x$，其中 $[x]$ 表示不超过 $x$ 的最大整数，则 $\lim_{n\to\infty}a_n=$\ExamBlank。
+      记 $a_n = \int_1^n \dfrac{[x]}{2^x} \mathrm{d}x$, 其中 $[x]$ 表示不超过 $x$ 的最大整数, 则 $\lim\limits_{n \to \infty} a_n = \underline{\qquad\qquad}$
 - number: 14
   section: fill
   points: 5
   stem:
     text: |-
-      设连续函数 $z=f(x,y)$ 满足 $\lim_{(x,y)\to(1,0)}\dfrac{f(x,y)+x^2+x-2y-2}{x^2-2x+2y^2+1}=1$，则 $\left.\mathrm{d}z\right|_{(1,0)}=$\ExamBlank。
+      设连续函数 $z = f(x, y)$ 满足 $\lim\limits_{(x,y)\to(1,0)} \dfrac{f(x,y)+x^2+x-2y-2}{x^2-2x+2y^2+1} = 1$，则 $\left. \mathrm{d}z \right|_{(1,0)} = \underline{\quad\quad\quad\quad}$
 - number: 15
   section: fill
   points: 5
   stem:
     text: |-
-      设 $\lambda_1,\lambda_2$ 是 $2$ 阶矩阵 $A$ 的两个不同的特征值，对应的特征向量分别为 $\alpha_1,\alpha_2$。若 $A\alpha_1+\alpha_2$ 与 $\alpha_1-A\alpha_2$ 线性相关，则 $|A|=$\ExamBlank。
+      设 $\lambda_1,\lambda_2$ 是 $2$ 阶矩阵 $A$ 的两个不同的特征值, 对应的特征向量分别为 $\alpha_1,\alpha_2$. 若 $A\alpha_1+\alpha_2$ 与 $\alpha_1-A\alpha_2$ 线性相关, 则 $|A|=\underline{\qquad\qquad}$
 - number: 16
   section: fill
   points: 5
   stem:
     text: |-
-      设某盒中有 $n$ 个球，其中 $1$ 个白球，$n-1$ 个黑球。现从盒中不放回地取球，记 $p$ 为事件“取球 $n-2$ 次，取到白球”的概率，$q$ 为事件“取球 $n-2$ 次，没有取到白球”的概率。若方程 $x^2-px+q=0$ 有解，则 $n$ 至少为\ExamBlank。
+      设某盒中有 $n$ 个球, 其中 1 个白球, $n-1$ 个黑球. 现从盒中不放回地取球, 记 $p$ 为事件 “取球 $n-2$ 次, 取到白球” 的概率, $q$ 为事件 “取球 $n-2$ 次, 没有取到白球” 的概率. 若方程 $x^2-px+q=0$ 有解, 则 $n$ 至少为 $\underline{\qquad\qquad}$
 - number: 17
   section: solution
-  points: 10
+  points: 12
   stem:
     text: |-
-      设 $a\neq0$，函数 $f(x)=e^{-a}(1+ax)^{\dfrac{1}{x}}+2\sin x-\cos x$，若 $\lim_{x\to0^-}\dfrac{f(x)}{x^2}<0$，求 $a$ 以及 $\lim_{x\to0}\dfrac{f(x)}{x^2}$。
+      设 $a \neq 0$, 函数 $f(x) = \mathrm{e}^{-a}(1+ax)^{\dfrac{1}{x}} + 2\sin x - \cos x$, 若 $\lim_{x \to 0} \dfrac{f(x)}{x^2} < 0$, 求 $a$ 以及 $\lim_{x \to 0} \dfrac{f(x)}{x^2}$
 - number: 18
   section: solution
   points: 12
   stem:
     text: |-
-      已知 $f(t)\ (t>0)$ 为具有二阶连续导数的一元函数，且 $f(1)=-\dfrac{1}{2}$，$f'(1)=\dfrac{1}{2}$。若函数 $g(x,y)=2xf\left(\dfrac{y}{x}\right)-yf\left(\dfrac{x}{y}\right)$，且满足 $\dfrac{x^2}{y}\dfrac{\partial^2g}{\partial x^2}+y\dfrac{\partial^2g}{\partial y^2}=\dfrac{2y}{x}$，求 $g(x,y)$。
+      已知 $f(t)(t>0)$ 为具有二阶连续导数的一元函数，且 $f(1)=-\dfrac{1}{2}, f'(1)=\dfrac{1}{2}$。若函数 $g(x,y)=2xf\left(\dfrac{y}{x}\right)-yf\left(\dfrac{x}{y}\right)$，且满足 $\dfrac{x^2}{y}\dfrac{\partial^2 g}{\partial x^2}+y\dfrac{\partial^2 g}{\partial y^2}=\dfrac{2y}{x}$，求 $g(x,y)$。
 - number: 19
   section: solution
   points: 12
   stem:
     text: |-
-      设曲线 $\Gamma$ 为曲面 $z=\sqrt{4-x^2-8y^2}$ 与平面 $z=y$ 的交线上从点 $(2,0,0)$ 到点 $\left(1,\dfrac{\sqrt{3}}{3},\dfrac{\sqrt{3}}{3}\right)$ 的一段弧，$f(u)$ 是一元连续函数。
-  subparts:
-  - text: |-
-      计算 $\Gamma$ 在点 $(x,y,z)$ 处的单位切向量（用 $x,y$ 表示）；
-  - text: |-
-      计算曲线积分 $I=\int_{\Gamma}\dfrac{1}{\sqrt{\dfrac{2}{9}x^2+9y^2}}\left\{\left[\dfrac{x}{2}f(xy)+3y\right]\cdot(-3y)+\left[3yf(xy)+x^2+\dfrac{3}{2}zf'(xz)\right]\cdot\dfrac{x}{3}\right\}\,\mathrm{d}s$。
+      设曲线 $\Gamma$ 为曲面 $z=\sqrt{4-x^2-8y^2}$ 与平面 $z=y$ 的交线上从点 $(2,0,0)$ 到点 $\left(1,\dfrac{\sqrt{3}}{3},\dfrac{\sqrt{3}}{3}\right)$ 的一段弧, $f(u)$ 是一元连续函数. (I) 计算 $\Gamma$ 在点 $(x,y,z)$ 处的单位切向量 (用 $x,y$ 表示); (II) 计算曲线积分 $I=\int_{\Gamma} \dfrac{1}{\sqrt{\dfrac{2}{9}x^2+9y^2}} \left\{\left[\dfrac{x}{2} f(xy)+3y\right]\cdot(-3y)+\left[3yf(xy)+x^2+\dfrac{3}{2}zf(xz)\right]\cdot\dfrac{x}{3}\right\}\mathrm{d}s$
 - number: 20
   section: solution
   points: 12
   stem:
     text: |-
-      设函数 $f(x)=\dfrac{1}{2}\cos x-\dfrac{1}{3}$，数列 $\{x_n\}$ 满足 $x_1=\dfrac{\pi}{3}$，$x_{n+1}=f(x_n)$，$n=1,2,\cdots$。证明：
-  subparts:
-  - text: |-
-      $\sum_{n=1}^{\infty}(x_{n+1}-x_n)$ 绝对收敛；
-  - text: |-
-      $\lim_{n\to\infty}x_n=a$，且 $a\in\left(0,\dfrac{1}{6}\right)$；
-  - text: |-
-      对任意正整数 $n$，均有 $x_n\neq0$，且 $\sum_{n=1}^{\infty}\left(\dfrac{1}{x_n}-\dfrac{1}{x_{n+1}}\right)$ 收敛。
+      设函数 $f(x) = \dfrac{1}{2}\cos x - \dfrac{1}{3}$，数列 $\{x_n\}$ 满足 $x_1 = \dfrac{\pi}{3}, x_{n+1} = f(x_n), n = 1, 2, \cdots$ 证明： (I) $\sum_{n=1}^{\infty}(x_{n+1}-x_n)$ 绝对收敛； (II) $\lim_{n\to\infty}x_n = a$，且 $a\in\left(0, \dfrac{1}{6}\right)$； (III) 对任意正整数 $n$，均有 $x_n \neq 0$，且 $\sum_{n=1}^{\infty}\left(\dfrac{1}{x_n}-\dfrac{1}{x_{n+1}}\right)$ 收敛
 - number: 21
   section: solution
   points: 12
   stem:
     text: |-
-      设二次型 $f(x_1,x_2,x_3)=\boldsymbol{x}^{\mathrm T}A\boldsymbol{x}$，其中 $A$ 为实对称矩阵，且 $A^3-2A^2-8A=0$。已知 $f$ 的正惯性指数为 $2$，$f(1,1,2)=0$，并且满足对任意的 $(x_1,x_2,x_3)$，均有 $f(x_1,x_2,x_3)\geqslant0$。
-  subparts:
-  - text: 求矩阵 $A$；
-  - text: |-
-      求正交变换 $\boldsymbol{x}=Q\boldsymbol{y}$ 将 $f(x_1,x_2,x_3)$ 化为标准形。
+      设二次型 $f(x_1,x_2,x_3)=x^T Ax$, 其中 $A$ 为实对称矩阵, 且 $A^3-2A^2-8A=O$. 已知 $f$ 的正惯性指数为 $2, f(1,1,2)=0$, 并且满足对任意的 $(x_1,x_2,x_3)$, 均有 $f(x_1,x_2,x_3) \geqslant 0$. (I) 求矩阵 $A$; (II) 求正交变换 $x=Qy$ 将 $f(x_1,x_2,x_3)$ 化为标准形
 - number: 22
   section: solution
   points: 12
   stem:
     text: |-
-      设总体 $X$ 的概率密度为 $f(x;\theta)=\begin{cases}\theta^2,&0<x<1,\\2\theta(1-\theta),&1\leqslant x<2,\\(1-\theta)^2,&2\leqslant x<3,\\0,&\text{其他},\end{cases}$ 其中 $\theta$ 为未知参数 $(0<\theta<1)$，$X_1,X_2,\cdots,X_n$ 为来自 $X$ 的简单随机样本，记 $N_1$ 为样本值 $x_1,x_2,\cdots,x_n$ 中小于 $1$ 的个数，$N_2$ 为样本值 $x_1,x_2,\cdots,x_n$ 中大于等于 $1$ 且小于 $2$ 的个数。
-    figures:
-    - kind: tikz
-      latex: |-
-        \begin{tikzpicture}[x=1.25cm,y=0.65cm]\draw (0,0) rectangle (8,2);\draw (0,1)--(8,1);\foreach \x in {1,...,7}{\draw (\x,0)--(\x,2);}\foreach \x/\label in {0/x_1,1/x_2,2/x_3,3/x_4,4/x_5,5/x_6,6/x_7,7/x_8}{\node at (\x+0.5,1.5) {$\label$};}\foreach \x/\value in {0/0.6,1/0.7,2/1.4,3/2.2,4/0.9,5/2.6,6/1.5,7/0.5}{\node at (\x+0.5,0.5) {$\value$};}\end{tikzpicture}
-      path:
-      description: 给定的八个样本值表
-      exception_reason:
-  subparts:
-  - text: |-
-      求 $\theta$ 的最大似然估计量；
-  - text: |-
-      若给定样本值如下表，则 $\theta$ 的最大似然估计值 $\hat{\theta}_1$ 与矩估计值 $\hat{\theta}_2$ 分别为多少？
+      设总体 $X$ 的概率密度为 $f(x;\theta) = \begin{cases} \theta^2, & 0 < x < 1, \\ 2\theta(1-\theta), & 1 \leqslant x < 2, \\ (1-\theta)^2, & 2 \leqslant x < 3, \\ 0, & \text{\text{其他}}, \end{cases}$ 其中 $\theta$ 为未知参数 $(0 < \theta < 1)$, $X_1, X_2, \cdots, X_n$ 为来自 $X$ 的简单随机样本, 记 $N_1$ 为样本值 $x_1, x_2, \cdots, x_n$ 中小于 1 的个数, $N_2$ 为样本值 $x_1, x_2, \cdots, x_n$ 中大于等于 1 且小于 2 的个数. ($I$) 求 $\theta$ 的最大似然估计量; ($II$) 若给定样本值如下表, 则 $\theta$ 的最大似然估计值 $\hat{\theta}_1$ 与矩估计值 $\hat{\theta}_2$ 分别为多少?
+content_hash: 214714d0392752b48916bc5c817b1e8b187660aa88728ba617f1163441a88317

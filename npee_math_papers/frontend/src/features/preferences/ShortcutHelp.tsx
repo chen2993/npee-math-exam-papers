@@ -31,7 +31,7 @@ export function ShortcutHelp() {
       { keys: [mod, "G"], label: "跳到仪表盘" },
       { keys: [mod, "⇧", "P"], label: "跳到套卷列表" },
       { keys: [mod, "⇧", "E"], label: "跳到组卷" },
-      { keys: ["/"], label: "打开题目检索" },
+      { keys: ["/"], label: "跳到套卷列表并聚焦搜索框" },
       { keys: ["["], label: "收起 / 展开侧栏" },
       { keys: ["?"], label: "显示 / 隐藏本表" },
       { keys: ["Esc"], label: "关闭弹层" },

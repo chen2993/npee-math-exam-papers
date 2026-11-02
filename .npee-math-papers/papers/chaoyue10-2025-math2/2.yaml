@@ -4,7 +4,6 @@ paper:
   year: 2025
   subject: math2
   paper_no: 2
-content_hash: 560a09a177faf92de8f574d97baddc21a82f3d43ad4f4e64013eb5363f5bac28
 questions:
 - number: 1
   section: choice
@@ -30,7 +29,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $f(x)$ 在 $(-\infty,+\infty)$ 内连续，$F(x)=\int_0^x\left(\arctan x-\arctan t-\dfrac{t}{1+t^2}\right)f(t)\,\mathrm{d}t$。下列说法正确的个数为\ExamSelection。\NPEEQuestionContinuation ① 若 $f(x)$ 为奇函数，则 $F(x)$ 为奇函数\NPEEQuestionContinuation ② 若 $f(x)$ 为偶函数，则 $F(x)$ 为偶函数\NPEEQuestionContinuation ③ 若 $f(x)$ 为单调递增函数，则 $F(x)$ 为单调递增函数\NPEEQuestionContinuation ④ 若 $f(x)$ 为单调递增函数，则 $F(x)$ 为单调递减函数
+      设 $f(x)$ 在 $(-\infty,+\infty)$ 内连续，$F(x)=\int_0^x\left(\arctan x-\arctan t-\dfrac{t}{1+t^2}\right)f(t)\,\mathrm{d}t$。下列说法正确的个数为\ExamSelection。\n① 若 $f(x)$ 为奇函数，则 $F(x)$ 为奇函数\n② 若 $f(x)$ 为偶函数，则 $F(x)$ 为偶函数\n③ 若 $f(x)$ 为单调递增函数，则 $F(x)$ 为单调递增函数\n④ 若 $f(x)$ 为单调递增函数，则 $F(x)$ 为单调递减函数
   choices:
   - label: A
     text: $1$
@@ -293,3 +292,4 @@ questions:
   subparts:
   - text: 求 $A$ 的特征值及对应的线性无关的特征向量；
   - text: 求 $(A^2-4A+E)^{-1}$。
+content_hash: c1259a3357caa73e173bbfb1724af42d837dc925fcffd420f7730ffbeaa66e36

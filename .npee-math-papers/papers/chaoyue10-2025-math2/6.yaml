@@ -4,7 +4,6 @@ paper:
   year: 2025
   subject: math2
   paper_no: 6
-content_hash: 21b61d8fc5a49c7d383fe033ff7b3de9c781f4380e95ccae34f58175faeaf713
 questions:
 - number: 1
   section: choice
@@ -71,11 +70,11 @@ questions:
   points: 5
   stem:
     text: |-
-      设函数 $f(x)$ 在 $[a,b]$ 上可导，$f'(x)>0$ 且 $f'(x)$ 在 $[a,b]$ 上单调递增，则下列关系式正确的是\ExamSelection。
+      设函数 $f(x)$ 在 $[a,b]$ 上可导，$a+b\geq0$，$f'(x)>0$ 且 $f'(x)$ 在 $[a,b]$ 上单调递增，则下列关系式正确的是\ExamSelection。
   choices:
   - label: A
     text: |-
-      $\int_a^b f(x)\,\mathrm{d}x\geq\dfrac{a+b}{2}\int_a^b f(x)\,\mathrm{d}x\geq\dfrac{b^2-a^2}{2}f\left(\dfrac{a+b}{2}\right)$
+      $\int_a^b xf(x)\,\mathrm{d}x\geq\dfrac{a+b}{2}\int_a^b f(x)\,\mathrm{d}x\geq\dfrac{b^2-a^2}{2}f\left(\dfrac{a+b}{2}\right)$
     figures: []
   - label: B
     text: |-
@@ -94,7 +93,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设函数 $f(x,y)=\sqrt[3]{x^4+y^4}$，在点 $(0,0)$ 处下列命题正确的个数是\ExamSelection。①连续 ②可偏导 ③可微 ④偏导数连续
+      设函数 $f(x,y)=\sqrt[3]{x^4+y^4}$，在点 $(0,0)$ 处下列命题正确的个数是\ExamSelection。\n①连续 \n②可偏导 \n③可微 \n④偏导数连续
   choices:
   - label: A
     text: $1$
@@ -113,7 +112,7 @@ questions:
   points: 5
   stem:
     text: |-
-      二次积分 $\int_0^{\dfrac{\pi}{4}}\mathrm{d}\theta\int_0^{\cos\theta}r^2\sin\theta\sqrt{1-r^2\cos2\theta}\,\mathrm{d}r=$\ExamSelection。
+      二次积分 $\int_0^{\dfrac{\pi}{4}}\mathrm{d}\theta\int_0^{\frac{1}{\cos\theta}}r^2\sin\theta\sqrt{1-r^2\cos2\theta}\,\mathrm{d}r=$\ExamSelection。
   choices:
   - label: A
     text: $0$
@@ -157,7 +156,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设 $A,B$ 为 3 阶矩阵，$|A+E|=0$，$AB-2B=O$，$r(B)=2$，$A'$ 为 $A$ 的伴随矩阵，则 $\operatorname{tr}[(A-E)^2]=$\ExamSelection。
+      设 $A,B$ 为 3 阶矩阵，$|A+E|=0$，$AB-2B=O$，$r(B)=2$，$A^*$ 为 $A$ 的伴随矩阵，则 $\operatorname{tr}[(A-E)^*]=$\ExamSelection。
   choices:
   - label: A
     text: $-3$
@@ -220,7 +219,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设曲线 $y=f(x)$ 与曲线 $y=e^x-\cos x$ 在原点相切且有相同的曲率，则 $\lim_{n\to\infty}n\left[f\left(\dfrac{1}{n}\right)\right]^n=$ \ExamBlank。
+      设曲线 $y=f(x)$ 与曲线 $y=e^x-\cos x$ 在原点相切且有相同的曲率圆，则 $\lim_{n\to\infty}\left[nf\left(\dfrac{1}{n}\right)\right]^n=$ \ExamBlank。
 - number: 13
   section: fill
   points: 5
@@ -238,7 +237,7 @@ questions:
   points: 5
   stem:
     text: |-
-      设函数 $f(x,y)$ 可微，$f(1,1)=1,f'_x(1,1)=1,f'_y(1,1)=2$，令 $\varphi(x)=f(x,f(x,f(x,f(x,x))))$，则 $\lim_{x\to1}\dfrac{\ln\varphi(x)}{x-1}=$ \ExamBlank。
+      设函数 $f(x,y)$ 可微，$f(1,1)=1,f'_x(1,1)=1,f'_y(1,1)=2$，令 $\varphi(x)=f(x,f(x,f(x,x)))$，则 $\lim_{x\to1}\dfrac{\ln\varphi(x)}{x-1}=$ \ExamBlank。
 - number: 16
   section: fill
   points: 5
@@ -261,7 +260,7 @@ questions:
   section: solution
   points: 12
   stem:
-    text: 已知函数 $f(x,y)$ 满足 $f''_{yy}(x,y)=2(y+1)e^x,f'_x(x,0)=(x+1)e^x,f(0,y)=y^2+2y$，求 $f(x,y)$ 的极值。
+    text: 已知函数 $f(x,y)$ 满足 $f''_{xy}(x,y)=2(y+1)e^x,f'_x(x,0)=(x+1)e^x,f(0,y)=y^2+2y$，求 $f(x,y)$ 的极值。
 - number: 20
   section: solution
   points: 12
@@ -289,3 +288,4 @@ questions:
   - text: 求 $A$ 及 $b$。
   - text: |-
       求 $\left(A+\dfrac{3}{2}E\right)^{100}$。
+content_hash: f38e8d0f94e9d4ec801ab8eaf697ad9a0cc4625767f12dcc441030b1e9cb012c

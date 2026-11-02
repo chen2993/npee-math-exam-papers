@@ -1,10 +1,12 @@
 /**
- * Composition workspace UI.
+ * 组卷工作台。
  *
- * Left: the ordered selection for the active draft (self-contained references,
- * so it renders without any paper being loaded). Right: document settings.
- * Below: a paper picker over the server-paged catalogue. Export and compile are
- * draft-scoped actions here rather than global shell commands.
+ * 组卷内容**全部来自用户**：导入一份导出的 JSON，或打开 `composition/` 下的正式
+ * 组卷包（打开＝读成新草稿，保存＝写回原包）。因此没有默认草稿，也没有空转的
+ * 按钮——每个控件在当前状态下都有明确效果。
+ *
+ * 布局：草稿标签行 → 当前组卷摘要与动作 → 仓库组卷包 → 编译进度 → 已选套卷 /
+ * 文档设置 → 选卷区。
  */
 
 import {
@@ -17,24 +19,27 @@ import {
   GripVertical,
   ListPlus,
   Plus,
+  Save,
   Settings2,
   Sparkles,
   Trash2,
   X,
 } from "lucide-react";
-import { useMemo, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
+import { useQuery } from "@tanstack/react-query";
 
 import type { PaperOrder } from "../../application/catalog/ports";
+import type { CompositionPackageSummary } from "../../application/composition/ports";
 import { useOverview, usePapers } from "../../application/query/hooks";
 import { useAppServices } from "../../app/AppServices";
 import { useCompile, useWorkspace } from "../../app/CompositionWorkspace";
 import {
   buildCompilePayload,
+  draftFromCompositionDocument,
   draftFromCompilePayload,
   outputTargetCount,
   type CompositionDraft,
   type Layout,
-  type SolutionStructure,
   type Spacing,
   type Theme,
 } from "../../domain/composition/models";
@@ -60,7 +65,7 @@ import { EMPTY_PAPER_FILTERS, PaperFilters, type PaperFilterValue } from "../cat
 import { CompilePanel } from "./CompilePanel";
 
 export default function CompositionPageRoute() {
-  const { gateway } = useAppServices();
+  const { gateway, exportGateway } = useAppServices();
   const { preferences } = usePreferences();
   const workspace = useWorkspace();
   const toast = useToast();
@@ -74,7 +79,15 @@ export default function CompositionPageRoute() {
   const [pickerOffset, setPickerOffset] = useState(0);
   const [pickerFilters, setPickerFilters] = useState<PaperFilterValue>(EMPTY_PAPER_FILTERS);
   const [pickerOrder, setPickerOrder] = useState<PaperOrder>("series");
+  /** 当前草稿来自哪个组卷包（空表示它只存在于浏览器草稿里）。 */
+  const [openedPackage, setOpenedPackage] = useState<{ packageId: string; draftId: string } | null>(null);
   const importInput = useRef<HTMLInputElement>(null);
+
+  // 组卷包是仓库里的真实文件；列表很小，随页面加载一次即可。
+  const packages = useQuery({
+    queryKey: ["npee", "composition-packages"],
+    queryFn: ({ signal }) => exportGateway.packages(signal),
+  });
 
   const overview = useOverview(gateway);
   const papers = usePapers(gateway, {
@@ -88,6 +101,7 @@ export default function CompositionPageRoute() {
   });
   // The server filters, orders and pages; the picker renders its page verbatim.
   const rows = papers.data?.papers ?? [];
+
   const years = useMemo(
     () => [...(overview.data?.stats.years ?? [])].sort((left, right) => right - left),
     [overview.data?.stats.years],
@@ -108,13 +122,36 @@ export default function CompositionPageRoute() {
   const selectedCount = draft?.papers.length ?? 0;
   const selectedKeys = useMemo(() => new Set((draft?.papers ?? []).map((paper) => paper.natural_key)), [draft?.papers]);
   const drag = useDragReorder(workspace.reorderPapers);
-  const totalQuestions = useMemo(
-    () => (draft?.papers ?? []).reduce((sum, paper) => sum + (paper.question_count || 0), 0),
-    [draft?.papers],
-  );
+  // 题数只在全部引用都已知时才算得准；导入的引用先只有自然键，回填完成前
+  // 不要显示一个假的「0 题」。
+  const totalQuestions = useMemo(() => {
+    const refs = draft?.papers ?? [];
+    if (!refs.length || refs.some((paper) => !paper.question_count)) return null;
+    return refs.reduce((sum, paper) => sum + paper.question_count, 0);
+  }, [draft?.papers]);
   // Each layout × theme × spacing combination is its own PDF, so "both" on all
   // three silently means eight files. Surface it before the run starts.
   const targetCount = useMemo(() => (draft ? outputTargetCount(draft) : 0), [draft]);
+
+  // 组卷引用只带自然键；题数与系列名要从套卷目录回填。导入 JSON 或打开组卷包时
+  // 这些字段是空的，不回填的话界面上会一直显示「0 题」。
+  useEffect(() => {
+    if (!draft || !rows.length) return;
+    const byKey = new Map(rows.map((paper) => [paper.natural_key, paper]));
+    const stale = draft.papers.filter((ref) => {
+      const found = byKey.get(ref.natural_key);
+      return found && (ref.question_count !== found.question_count || ref.series_name !== found.series_name);
+    });
+    if (!stale.length) return;
+    workspace.updateActiveDraft((current) => ({
+      ...current,
+      papers: current.papers.map((ref) => {
+        const found = byKey.get(ref.natural_key);
+        return found ? { ...ref, question_count: found.question_count, series_name: found.series_name } : ref;
+      }),
+    }));
+  }, [draft, rows, workspace]);
+
 
   function exportJson() {
     if (!draft) return;
@@ -140,6 +177,38 @@ export default function CompositionPageRoute() {
     }
   }
 
+  /** 打开仓库里的组卷包：把它读成草稿并作为新草稿加入，原包不被动过。 */
+  async function openPackage(compositionId: string) {
+    try {
+      const document = await exportGateway.openPackage(compositionId);
+      const imported = draftFromCompositionDocument(document.composition, compositionId);
+      const created = workspace.importDraft(imported);
+      // 写回权限绑定在这份草稿上：复制出的副本 id 不同，自然不会覆盖原包。
+      setOpenedPackage({ packageId: compositionId, draftId: created.id });
+      toast.notify(`已打开「${created.name}」，共 ${created.papers.length} 套`);
+    } catch (reason) {
+      toast.notify(reason instanceof Error ? reason.message : "打开组卷包失败", "error");
+    }
+  }
+
+  /**
+   * 把当前草稿写回它所属的组卷包。
+   *
+   * 只有"从某个包打开过"的草稿才允许写回，而且判据取的是**当前草稿 id**：
+   * 复制出来的草稿有新的 id，因此不会误覆盖原包。
+   */
+  async function saveToPackage() {
+    if (!draft || !openedPackage || draft.id !== openedPackage.draftId) return;
+    try {
+      const payload = buildCompilePayload(draft);
+      await exportGateway.savePackage(openedPackage.packageId, payload);
+      await packages.refetch();
+      toast.notify("已保存回组卷包");
+    } catch (reason) {
+      toast.notify(reason instanceof Error ? reason.message : "保存组卷包失败", "error");
+    }
+  }
+
   async function compile() {
     if (!draft || compileFlow.isBusy || !selectedCount) return;
     await compileFlow.start(buildCompilePayload(draft), draft.id);
@@ -157,8 +226,66 @@ export default function CompositionPageRoute() {
     }
   }
 
+  /** 隐藏的文件选择框：导入入口在页头和空状态里各有一处，共用这一个。 */
+  function renderImportInput() {
+    return (
+      <input
+        ref={importInput}
+        type="file"
+        accept="application/json,.json"
+        hidden
+        onChange={(event) => {
+          const file = event.target.files?.[0];
+          // 先清空，这样连续选同一个文件也会再次触发 change。
+          event.target.value = "";
+          if (file) void importJson(file);
+        }}
+      />
+    );
+  }
+
+  // 没有草稿时只显示"导入/打开"的入口：组卷内容全部来自用户，
+  // 界面上不预置任何默认草稿。
   if (!draft) {
-    return <EmptyState title="没有可用的组卷" hint="点击下方新建一个组卷" action={<Button onClick={() => workspace.addDraft()}>新建组卷</Button>} />;
+    return (
+      <div className="page-stack">
+        <div className="page-title-row">
+          <div>
+            <span className="eyebrow">NPEE COMPOSITIONS</span>
+            <h2>组卷</h2>
+            <p>导入组卷 JSON，或直接打开仓库里的组卷包，然后编译导出 PDF。</p>
+          </div>
+        </div>
+
+        <Surface className="compose-blank">
+          <EmptyState
+            icon={<FileJson size={25} />}
+            title="还没有组卷"
+            hint="导入一份组卷 JSON，或从下面的仓库组卷包里挑一个打开"
+            action={
+              <Button variant="primary" icon={<FileUp size={16} />} onClick={() => importInput.current?.click()}>
+                导入组卷 JSON
+              </Button>
+            }
+          />
+        </Surface>
+
+        <PackageStrip
+          packages={packages.data ?? []}
+          loading={packages.isLoading}
+          error={packages.isError ? packages.error : null}
+          openedPackageId={openedPackage?.packageId ?? null}
+          onOpen={(compositionId) => void openPackage(compositionId)}
+          onSave={null}
+          onNewDraft={() => {
+            workspace.addDraft();
+            toast.notify("已新建空组卷");
+          }}
+        />
+
+        {renderImportInput()}
+      </div>
+    );
   }
 
   return (
@@ -184,7 +311,7 @@ export default function CompositionPageRoute() {
               <span>{item.papers.length}</span>
             </button>
           ))}
-          <IconButton label="新建组卷" className="draft-add" onClick={() => workspace.addDraft()}>
+          <IconButton label="新建空组卷" className="draft-add" onClick={() => workspace.addDraft()}>
             <Plus size={16} />
           </IconButton>
         </div>
@@ -198,14 +325,7 @@ export default function CompositionPageRoute() {
           >
             <Copy size={16} />
           </IconButton>
-          <IconButton
-            label="删除当前组卷"
-            tone="danger"
-            // With one draft there is nothing to fall back to, so the action is
-            // disabled rather than opening a confirm dialog that always fails.
-            disabled={workspace.drafts.length <= 1}
-            onClick={() => setConfirmDelete(true)}
-          >
+          <IconButton label="删除当前组卷" tone="danger" onClick={() => setConfirmDelete(true)}>
             <Trash2 size={16} />
           </IconButton>
         </div>
@@ -216,8 +336,9 @@ export default function CompositionPageRoute() {
           <span className="eyebrow">CURRENT COMPOSITION</span>
           <h2>{draft.name || "未命名组卷"}</h2>
           <p>
-            已选 {selectedCount} 套 · 共 {totalQuestions} 题 · 本次将生成 {targetCount} 份 PDF ·
-            组卷只引用套卷，题面始终从题库实时读取。
+            已选 {selectedCount} 套{totalQuestions === null ? "" : ` · 共 ${totalQuestions} 题`} · 本次将生成{" "}
+            {targetCount} 份 PDF
+            {openedPackage?.draftId === draft.id ? ` · 已打开组卷包 ${openedPackage.packageId}` : ""}
           </p>
         </div>
         <div className="page-title-actions">
@@ -229,27 +350,34 @@ export default function CompositionPageRoute() {
           >
             {compileFlow.isBusy ? "编译进行中…" : "编译导出"}
           </Button>
-          <IconButton label="导出组卷 JSON" onClick={exportJson} disabled={!selectedCount}>
-            <FileJson size={16} />
-          </IconButton>
-          <IconButton label="导入组卷 JSON" onClick={() => importInput.current?.click()}>
-            <FileUp size={16} />
-          </IconButton>
-          {/* Kept out of the layout: the visible control is the IconButton above. */}
-          <input
-            ref={importInput}
-            type="file"
-            accept="application/json,.json"
-            hidden
-            onChange={(event) => {
-              const file = event.target.files?.[0];
-              // Reset first, so selecting the same file twice still fires change.
-              event.target.value = "";
-              if (file) void importJson(file);
-            }}
-          />
+          <Button
+            icon={<FileUp size={16} />}
+            onClick={() => importInput.current?.click()}
+          >
+            导入
+          </Button>
+          <Button
+            icon={<FileJson size={16} />}
+            onClick={exportJson}
+            disabled={!selectedCount}
+          >
+            导出
+          </Button>
         </div>
       </div>
+
+      <PackageStrip
+        packages={packages.data ?? []}
+        loading={packages.isLoading}
+        error={packages.isError ? packages.error : null}
+        openedPackageId={openedPackage?.packageId ?? null}
+        onOpen={(compositionId) => void openPackage(compositionId)}
+        onSave={openedPackage?.draftId === draft.id ? () => void saveToPackage() : null}
+        saveLabel={openedPackage?.packageId ?? ""}
+      />
+
+      {renderImportInput()}
+
 
       <CompilePanel
         phase={compileFlow.phase}
@@ -307,7 +435,8 @@ export default function CompositionPageRoute() {
                       {paper.series_name} · 第{paper.paper_no}套
                     </strong>
                     <small>
-                      {paper.year} · {subjectNames[paper.subject as Subject] ?? paper.subject} · {paper.question_count} 题
+                      {paper.year} · {subjectNames[paper.subject as Subject] ?? paper.subject}
+                      {paper.question_count ? ` · ${paper.question_count} 题` : ""}
                     </small>
                   </div>
                   <div className="selected-actions">
@@ -405,7 +534,7 @@ export default function CompositionPageRoute() {
                 <th>年份</th>
                 <th>科目</th>
                 <th>题目</th>
-                <th>操作</th>
+                <th>选择</th>
               </tr>
             </thead>
             <tbody>
@@ -445,7 +574,7 @@ export default function CompositionPageRoute() {
         onConfirm={() => {
           setConfirmDelete(false);
           const removed = workspace.deleteActiveDraft();
-          toast.notify(removed ? "已删除组卷" : "至少保留一个组卷", removed ? "success" : "error");
+          toast.notify(removed ? "已删除组卷" : "没有可删除的组卷", removed ? "success" : "error");
         }}
       />
 
@@ -466,12 +595,10 @@ export default function CompositionPageRoute() {
 }
 
 /**
- * One row of the paper picker; kept separate so the table body stays readable.
+ * One row of the paper picker.
  *
- * The whole row is the toggle. A per-row "加入" button was redundant with the
- * leading checkbox — two controls for one boolean — and made the row read as a
- * link to somewhere. Clicking anywhere (except the checkbox itself, which would
- * fire twice) toggles the selection.
+ * 整行可点，末尾另有一个真实的「加入 / 移除」按钮。早先那是一个纯装饰的胶囊标签，
+ * 看起来像按钮却不响应——读者点了没反应，只能去猜要先勾复选框。
  */
 function PickerRow({
   paper,
@@ -512,9 +639,90 @@ function PickerRow({
       <td data-label="科目">{subjectNames[paper.subject]}</td>
       <td data-label="题目">{paper.question_count}</td>
       <td>
-        <span className={classNames("picker-state", selected && "is-selected")}>{selected ? "已选" : "加入"}</span>
+        <Button
+          size="sm"
+          variant={selected ? "primary" : "default"}
+          onClick={(event) => {
+            // 整行也是开关，这里必须吞掉冒泡，否则会切换两次。
+            event.stopPropagation();
+            onToggle(paper);
+          }}
+        >
+          {selected ? "移除" : "加入"}
+        </Button>
       </td>
     </tr>
+  );
+}
+
+/**
+ * 仓库里的正式组卷包（``composition/<id>/``）。
+ *
+ * 两个动作分工明确：**打开**把包读成一份新草稿（原文件不动），**保存**才写回原包。
+ * 保存按钮只在当前草稿确实来自某个包时渲染，所以界面里不会出现永久禁用的按钮。
+ */
+function PackageStrip({
+  packages,
+  loading,
+  error,
+  openedPackageId,
+  onOpen,
+  onSave,
+  saveLabel,
+  onNewDraft,
+}: {
+  packages: CompositionPackageSummary[];
+  loading: boolean;
+  error: unknown;
+  openedPackageId: string | null;
+  onOpen: (compositionId: string) => void;
+  /** 为空表示当前草稿不对应任何包，此时不显示保存入口。 */
+  onSave: (() => void) | null;
+  saveLabel?: string;
+  onNewDraft?: () => void;
+}) {
+  return (
+    <div className="package-strip">
+      <span className="package-strip-label">仓库组卷包</span>
+
+      {loading ? <span className="package-strip-hint">读取中…</span> : null}
+      {error ? (
+        <span className="package-strip-hint">
+          {error instanceof Error ? error.message : "读取失败"}
+        </span>
+      ) : null}
+
+      {packages.map((item) => (
+        <button
+          key={item.composition_id}
+          type="button"
+          className={classNames("package-chip", openedPackageId === item.composition_id && "is-open")}
+          title={`${item.composition_id} · ${item.paper_count} 套 · ${item.target_count} 个产物`}
+          onClick={() => onOpen(item.composition_id)}
+        >
+          <strong>{item.title}</strong>
+          <small>
+            {item.paper_count} 套 · {item.target_count} 份
+          </small>
+        </button>
+      ))}
+
+      {!loading && !error && !packages.length ? (
+        <span className="package-strip-hint">composition/ 下还没有组卷包</span>
+      ) : null}
+
+      {onSave ? (
+        <Button size="sm" variant="quiet" icon={<Save size={14} />} onClick={onSave}>
+          保存回 {saveLabel}
+        </Button>
+      ) : null}
+
+      {onNewDraft ? (
+        <Button size="sm" variant="quiet" icon={<Plus size={14} />} onClick={onNewDraft}>
+          新建空组卷
+        </Button>
+      ) : null}
+    </div>
   );
 }
 
@@ -560,40 +768,25 @@ function DocumentSettings({
 
       <div className="setting-columns">
         <SelectField
-          label="间距"
+          label="间距（大题）"
           value={draft.spacing}
           onChange={(event) => onUpdate((current) => ({ ...current, spacing: event.target.value as Spacing }))}
+          hint="只影响解答题：紧凑为自然连排，宽松让每题独占页面以便书写。"
         >
-          <option value="a4-blank">打印版</option>
-          <option value="compact">紧凑</option>
+          <option value="compact">紧凑（连排）</option>
+          <option value="spaced">宽松（每题一页）</option>
           <option value="both">两种间距</option>
         </SelectField>
         <SelectField
-          label="解答结构"
-          value={draft.structure}
-          onChange={(event) => onUpdate((current) => ({ ...current, structure: event.target.value as SolutionStructure }))}
+          label="留白（打印）"
+          value={draft.printBlank ? "on" : "off"}
+          onChange={(event) => onUpdate((current) => ({ ...current, printBlank: event.target.value === "on" }))}
+          hint="与间距无关：每套卷补足整页、封面后加空白页、目录凑成偶数页。"
         >
-          <option value="pair-first">首组配对</option>
-          <option value="natural">自然流动</option>
-          <option value="full-page">逐题整页</option>
+          <option value="on">留白（打印交付）</option>
+          <option value="off">不留白（紧凑）</option>
         </SelectField>
       </div>
-
-      {/* Only "首组配对" reads pair_count; for the other structures the field had
-          no effect, so it is hidden rather than left as a dead control. */}
-      {draft.structure === "pair-first" ? (
-        <TextField
-          label="首组题数"
-          type="number"
-          min={1}
-          max={8}
-          value={draft.pairCount}
-          hint="配对结构的首组题数，其余结构不使用该值。"
-          onChange={(event) =>
-            onUpdate((current) => ({ ...current, pairCount: Math.min(8, Math.max(1, Number(event.target.value) || 2)) }))
-          }
-        />
-      ) : null}
 
       <CheckField label="生成目录" checked={draft.toc} onChange={(checked) => onUpdate((current) => ({ ...current, toc: checked }))} />
 

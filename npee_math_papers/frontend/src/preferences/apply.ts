@@ -12,7 +12,7 @@
 import { accentPreset } from "./presets";
 import type { Preferences } from "./types";
 
-export type ResolvedTheme = "light" | "dark";
+type ResolvedTheme = "light" | "dark";
 
 /** Query the OS colour-scheme preference. */
 export function systemTheme(): ResolvedTheme {

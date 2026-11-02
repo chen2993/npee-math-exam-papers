@@ -7,9 +7,7 @@ import type {
   PaperDocument,
   PaperPage,
   PaperSummary,
-  QuestionContext,
   ReleaseManifest,
-  SearchResult,
   Series,
 } from "../../domain/catalog/models";
 import { readError } from "./HttpError";
@@ -61,30 +59,6 @@ export class HttpCatalogGateway implements CatalogGateway {
   ): Promise<PaperDocument | PaperSummary> {
     const suffix = withQuestions ? "" : "?with_questions=false";
     return this.request<PaperDocument | PaperSummary>(`/papers/${seriesKey}/${year}/${subject}/${paperNo}${suffix}`, { signal });
-  }
-
-  search(
-    query: string,
-    options: { seriesKeys?: string[]; subjects?: string[]; limit?: number; signal?: AbortSignal } = {},
-  ): Promise<SearchResult> {
-    const params = new URLSearchParams({ q: query });
-    (options.seriesKeys || []).forEach((key) => params.append("series_key", key));
-    (options.subjects || []).forEach((subject) => params.append("subject", subject));
-    if (options.limit) params.set("limit", String(options.limit));
-    return this.request<SearchResult>(`/search?${params.toString()}`, { signal: options.signal });
-  }
-
-  getQuestion(
-    seriesKey: string,
-    year: number,
-    subject: string,
-    paperNo: number,
-    questionNo: number,
-    signal?: AbortSignal,
-  ): Promise<QuestionContext> {
-    return this.request<QuestionContext>(`/papers/${seriesKey}/${year}/${subject}/${paperNo}/questions/${questionNo}`, {
-      signal,
-    });
   }
 
   releaseManifest(signal?: AbortSignal): Promise<ReleaseManifest> {

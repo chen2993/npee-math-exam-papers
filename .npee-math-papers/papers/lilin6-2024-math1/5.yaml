@@ -1,0 +1,294 @@
+schema_version: '3.0'
+paper:
+  series_key: lilin6
+  year: 2024
+  subject: math1
+  paper_no: 5
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)$ 在 $x=0$ 处有二阶导数, 且 $\lim_{x \to 0} \dfrac{\cos x - 1}{\mathrm{e}^{f(x)} - 1} = 1$, 若 $f(x)$ 在 $x=0$ 处的 $2$ 次泰勒多项式为 $a+bx+cx^2$, 则
+  choices:
+  - label: A
+    text: |-
+      $a=0, b=0, c=-\dfrac{1}{2}.$
+    figures: []
+  - label: B
+    text: |-
+      $a=0, b=1, c=\dfrac{1}{2}.$
+    figures: []
+  - label: C
+    text: $a=0, b=0, c=-2.$
+    figures: []
+  - label: D
+    text: $a=1, b=0, c=2.$
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设函数 $f(x)$ 在 $(-\infty, +\infty)$ 内有定义, 且对任意 $x,y$ 有 $f(x+y)-f(x)=[f(x)-1]y+\alpha(y), f(0)=2$, 其中 $\lim\limits_{y\to 0}\dfrac{\alpha(y)}{y}=0$, 则 $f(1)=$
+  choices:
+  - label: A
+    text: |-
+      $\mathrm{e}-1.$
+    figures: []
+  - label: B
+    text: |-
+      $\mathrm{e}+1.$
+    figures: []
+  - label: C
+    text: |-
+      $\mathrm{e}^{-1}-1.$
+    figures: []
+  - label: D
+    text: |-
+      $\mathrm{e}^{-1}+1.$
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)=\begin{cases} |x|^n\sin\dfrac{1}{|x|^m}, & x\neq 0, \\ 0, & x=0 \end{cases} (m>0)$，若 $f'(x)$ 在 $x=0$ 的邻域内存在且有界，则
+  choices:
+  - label: A
+    text: |-
+      $n\geqslant m+1.$
+    figures: []
+  - label: B
+    text: |-
+      $n\geqslant m-1.$
+    figures: []
+  - label: C
+    text: $n<m+1.$
+    figures: []
+  - label: D
+    text: $n<m-1.$
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $\sum_{n=1}^{\infty} (-1)^{n-1} \dfrac{\sqrt{n+1}-\sqrt{n}}{n^p}$ 绝对收敛且 $\int_0^{+\infty} \mathrm{e}^{(p^2-1)x} \mathrm{d}x$ 收敛, 则
+  choices:
+  - label: A
+    text: |-
+      $\dfrac{1}{2} < p \leqslant 1.$
+    figures: []
+  - label: B
+    text: |-
+      $\dfrac{1}{2} < p < 1.$
+    figures: []
+  - label: C
+    text: |-
+      $-\dfrac{1}{2} < p \leqslant 1.$
+    figures: []
+  - label: D
+    text: |-
+      $-\dfrac{1}{2} < p < 1.$
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设分块矩阵 $D=\begin{bmatrix} A & O \\ C & B \end{bmatrix}$，则下列选项中正确的是
+  choices:
+  - label: A
+    text: |-
+      $r(D) \geqslant r(A)+r(B)$
+    figures: []
+  - label: B
+    text: $r(D) < r(A)+r(B)$
+    figures: []
+  - label: C
+    text: |-
+      $r(D) \leqslant r(A)+r(B)$
+    figures: []
+  - label: D
+    text: $r(D)=r(A)+r(B)$
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设向量 $\alpha_1,\alpha_2,\alpha_3$ 满足 $k_1\alpha_1 + k_2\alpha_2 + k_3\alpha_3 = 0, k_1,k_2,k_3$ 为常数, 且 $k_1k_3 \neq 0$, 则
+  choices:
+  - label: A
+    text: |-
+      向量组 $\alpha_1,\alpha_2$ 与 $\alpha_1,\alpha_3$ 等价
+    figures: []
+  - label: B
+    text: |-
+      向量组 $\alpha_1,\alpha_2$ 与 $\alpha_2,\alpha_3$ 等价
+    figures: []
+  - label: C
+    text: |-
+      向量组 $\alpha_1,\alpha_3$ 与 $\alpha_2,\alpha_3$ 等价
+    figures: []
+  - label: D
+    text: |-
+      向量 $\alpha_2$ 与 $\alpha_3$ 等价
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: 二次型 $f(x_1,x_2,x_3)=(x_1+x_2)^2+(x_2-x_3)^2+(x_1+x_3)^2$ 的规范形为
+  choices:
+  - label: A
+    text: $y_1^2+y_2^2+y_3^2.$
+    figures: []
+  - label: B
+    text: $y_1^2-y_2^2+y_3^2.$
+    figures: []
+  - label: C
+    text: $y_1^2-y_2^2.$
+    figures: []
+  - label: D
+    text: $y_1^2+y_2^2.$
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: 设甲、乙两人独立地对同一目标射击一次,其命中率分别为0.6和0.5,已知目标已被击中,则它由甲射中的概率为
+  choices:
+  - label: A
+    text: '0.5'
+    figures: []
+  - label: B
+    text: '0.6'
+    figures: []
+  - label: C
+    text: '0.75'
+    figures: []
+  - label: D
+    text: '0.8'
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $X_1,X_2,\cdots,X_n(n>1)$ 为来自总体 $X$ 的简单随机样本$,X$ 服从 $\lambda=1$ 的泊松分布$,Y_i=X_i-\overline{X},T=\sum_{i=1}^n (X_i-\overline{X})^2(i=1,2,\cdots,n),\overline{X}$ 为样本均值，则
+  choices:
+  - label: A
+    text: |-
+      $DY_i=1-\dfrac{1}{n},ET=n.$
+    figures: []
+  - label: B
+    text: |-
+      $DY_i=1-\dfrac{1}{n},ET=n-1.$
+    figures: []
+  - label: C
+    text: |-
+      $DY_i=\dfrac{1}{n},ET=n-1.$
+    figures: []
+  - label: D
+    text: |-
+      $DY_i=\dfrac{1}{n},ET=n.$
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 $X_1, X_2, \cdots, X_n$ 是来自总体 $X \sim N(\mu, 1)$ 的简单随机样本, $\overline{X}$ 为样本均值, 对于假设检验 $H_0: \mu = \mu_0$, 若取拒绝域 $R_\alpha = \left\{ \overline{X} > \mu_0 + \dfrac{1.96}{\sqrt{n}} \right\}$, $\Phi(x)$ 为 $N(0, 1)$ 的分布函数, 则该检验犯第一类错误的概率 $\alpha$ 为
+  choices:
+  - label: A
+    text: |-
+      $1 - \Phi(0.04)$
+    figures: []
+  - label: B
+    text: |-
+      $1 - \Phi(0.5)$
+    figures: []
+  - label: C
+    text: |-
+      $1 - \Phi(1.96)$
+    figures: []
+  - label: D
+    text: |-
+      $1 - \Phi(1)$
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $\lim\limits_{x \to +\infty}(\sqrt{ax^2+bx+c}-x-1)=0(a>0)$，则曲线 $y=\sqrt{ax^2+bx+c}\,(x>0)$ 的斜渐近线方程为$\underline{\qquad\qquad}$
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $f(x)$ 在 $[1, +\infty)$ 上有原函数 $\dfrac{\ln x}{x}$，则 $\int_1^{\mathrm{e}} x^2 f'(x) \mathrm{d}x = \underline{\hspace{2.5cm}}$
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设有一质点在力场 $F(x,y,z)=yi+xj+(x-y+z)k$ 作用下从点 $A(1,0,0)$ 沿直线运动到点 $B(2,2,1)$，则力场对质点所做的功为$\underline{\qquad\qquad}$
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设向量场 $\mathbf{A}(x,y,z)=xy\mathbf{i}-yz\mathbf{j}+zx\mathbf{k}$，则 $\operatorname{div}[\operatorname{rot}\mathbf{A}(x,y,z)]=\underline{\qquad\qquad}$。
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 $3$ 阶矩阵 $A$ 的特征值为 $1,-1,2$, 则行列式 $\left| |A| \cdot \begin{pmatrix} O & A^* \\ -2E & A \end{pmatrix} \right| = \underline{\qquad}.$
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设二维随机变量 $(X,Y) \sim N(1,1;2,4;0)$，则 $D(XY)=\underline{\qquad\qquad}$
+- number: 17
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设可微函数 $f(x,y)$ 在点 $P(x,y)$ 处沿 $l_1=(1,1)$ 的方向导数为 $\sqrt{2}(x-xy^2+2y-x^2y)$, 沿 $l_2=(0,-2)$ 的方向导数为 $2x^2y-4y$. (I) 求 $f(x,y)$ 在点 $M(2,1)$ 处的最大方向导数; (II) 若 $f(1,1)=2$, 求 $f(x,y)$ 的极值
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设曲线 $y=\int_0^{\dfrac{x}{n}} n\sqrt{\sin t}\,\mathrm{d}t$ ($n$ 为正整数) 在 $[0,n\pi]$ 上的全长为 $S_n$. (I) 求 $S_n$; (II) 求级数 $\sum_{n=1}^\infty \dfrac{x^n}{S_n S_{n+1}}$ 的收敛域及和函数
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $\Omega$ 是由锥面 $\Sigma: x^2+y^2=-2x(z-1)\ (0\leqslant z\leqslant 1)$ 与平面 $z=0$ 围成的锥体. $(I)$ 求 $\Omega$ 的形心坐标 $\bar{x}$; $(II)$ 计算 $I=\iint_{\Sigma} yz\mathrm{d}y\mathrm{d}z+xy\mathrm{d}z\mathrm{d}x+xz\mathrm{d}x\mathrm{d}y$, 其中 $\Sigma$ 取外侧
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $f(x)$ 在区间 $[0,a]$ 上二阶可导, 且 $|f''(x)| \leqslant M$. $(I)$ 若 $f(0)=f(a)=0$, 证明: $\left|f\left(\dfrac{a}{2}\right)\right| \leqslant \dfrac{M a^2}{8}$; $(II)$ 若 $f(x)$ 在 $(0,a)$ 内取得极值, 证明: $|f'(0)|+|f'(a)| \leqslant M$
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设 $A$ 为 3 阶实对称矩阵, $P = \begin{bmatrix} 1 & b & -2 \\ a & a+1 & -5 \\ 2 & 1 & 1 \end{bmatrix}$ 为可逆矩阵, 将 $P$ 的第 $2, 3$ 列分别乘以 $2$ 与 $(-1)$ 得 $B$, 且 $AP = B$. (I) 求 $a, b$ 的值; (II) 求正交矩阵 $Q$ 及对角矩阵 $\Lambda$, 使得 $Q^T(A+A^*)Q = \Lambda$, 其中 $A^*$ 是 $A$ 的伴随矩阵
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设总体 $X \sim U(0,\theta),\theta>0,X_1,X_2,\cdots,X_n$ 为来自总体 $X$ 的简单随机样本，若 $\theta$ 的最大似然估计量为 $\widehat{\theta}$. (I) 求 $E\widehat{\theta}$ 和 $D\widehat{\theta}$; (II) 证明: 对任意 $\varepsilon > 0$, 有 $\lim_{n\to\infty}P\{|\widehat{\theta}-\theta|\geqslant\varepsilon\}=0$; (III) 若以 $(\widehat{\theta},a\widehat{\theta})(a>0)$ 作为 $\theta$ 的置信区间，置信度为 $0.95$，求 $a$ 的值
+content_hash: cc5f35397e1495735cabacf0c76423f8fa701a06a3ea8c3f7b124c373afffdce

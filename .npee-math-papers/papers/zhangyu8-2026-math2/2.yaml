@@ -4,312 +4,298 @@ paper:
   year: 2026
   subject: math2
   paper_no: 2
-content_hash: e753d48b4b8c1b1a8e65427a39ba6fc00345243d8dbcd7ca19199defdb0395bb
 questions:
 - number: 1
   section: choice
   points: 5
   stem:
     text: |-
-      设函数$f(x)$满足$\lim_{x\to0}\dfrac{x-f(x)}{\sin x}=1$，则\ExamSelection
+      设函数 $f(x)$ 满足 $\lim\limits_{x\to0}\dfrac{x-f(x)}{\sin x}=1$，则（ ）
   choices:
   - label: A
-    text: $f(0)=0$。
+    text: $f(0)=0$
     figures: []
   - label: B
-    text: $f'(0)=0$。
+    text: $f'(0)=0$
     figures: []
   - label: C
     text: |-
-      $\lim_{x\to0}\dfrac{f(x)}{x^3}=1$。
+      $ \lim_{x\to0}\dfrac{f(x)}{x^3}=1$
     figures: []
   - label: D
     text: |-
-      $\lim_{x\to0}\dfrac{f(x)}{x}=0$。
+      $ \lim_{x\to0}\dfrac{f(x)}{x}=0$
     figures: []
 - number: 2
   section: choice
   points: 5
   stem:
     text: |-
-      设函数$f(x)$在$(0,+\infty)$上有界且可导，$f'(x)$单调增加，则\ExamSelection
+      设函数 $f(x)$ 在 $(0, +\infty)$ 上有界且可导$,f'(x)$ 单调增加，则（ ）
   choices:
   - label: A
-    text: ${f(n)}$收敛，${nf'(n)}$收敛。
+    text: |-
+      $\{f(n)\}$ 收敛$,\{n f'(n)\}$ 收敛
     figures: []
   - label: B
-    text: ${f(n)}$收敛，${nf'(n)}$发散。
+    text: |-
+      $\{f(n)\}$ 收敛$,\{n f'(n)\}$ 发散
     figures: []
   - label: C
-    text: ${f(n)}$发散，${nf'(n)}$收敛。
+    text: |-
+      $\{f(n)\}$ 发散$,\{n f'(n)\}$ 收敛
     figures: []
   - label: D
-    text: ${f(n)}$发散，${nf'(n)}$发散。
+    text: |-
+      $\{f(n)\}$ 发散$,\{n f'(n)\}$ 发散
     figures: []
 - number: 3
   section: choice
   points: 5
   stem:
     text: |-
-      $\displaystyle\int_{-1}^{5}\dfrac{1}{1+2^{\sqrt[3]{x-2}}}\,\mathrm{d}x=$\ExamSelection
+      计算 $ \int_{-1}^{5}\dfrac{1}{1+2^{\sqrt[3]{x-2}}}\,\mathrm{d}x=$（ ）
   choices:
   - label: A
-    text: $1$。
+    text: $1$
     figures: []
   - label: B
-    text: $3$。
+    text: $3$
     figures: []
   - label: C
     text: |-
-      $\sqrt{3}$。
+      $\sqrt{3}$
     figures: []
   - label: D
     text: |-
-      $\dfrac{3}{2}$。
+      $\dfrac{3}{2}$
     figures: []
 - number: 4
   section: choice
   points: 5
   stem:
     text: |-
-      设$f(x)$在$[0,1]$上可导，当$0\leq x\leq1$时，$f'(x)+f^2(x)\geq0$，$f(0)>0$，则\ExamSelection
+      设 $f(x)$ 在 $[0,1]$ 上可导，当 $0\le x\le1$ 时$,f'(x)+f^2(x)\ge0$ $,f(0)>0$，则（ ）
   choices:
   - label: A
     text: |-
-      $\displaystyle\int_0^1f(x)\,\mathrm{d}x\geq\ln f(0)$。
+      $ \int_0^1 f(x)\,\mathrm{d}x\ge \ln f(0)$
     figures: []
   - label: B
     text: |-
-      $\displaystyle\int_0^1f(x)\,\mathrm{d}x\leq\ln f(1)$。
+      $ \int_0^1 f(x)\,\mathrm{d}x\le \ln f(1)$
     figures: []
   - label: C
     text: |-
-      $\displaystyle\int_0^1f(x)\,\mathrm{d}x\geq\ln\dfrac{f(0)}{f(1)}$。
+      $ \int_0^1 f(x)\,\mathrm{d}x\ge \ln\dfrac{f(0)}{f(1)}$
     figures: []
   - label: D
     text: |-
-      $\displaystyle\int_0^1f(x)\,\mathrm{d}x\leq\ln\dfrac{f(1)}{f(0)}$。
+      $ \int_0^1 f(x)\,\mathrm{d}x\le \ln\dfrac{f(1)}{f(0)}$
     figures: []
 - number: 5
   section: choice
   points: 5
   stem:
     text: |-
-      设$f(x)$连续，则$\displaystyle\lim_{n\to\infty}\sum_{k=1}^n\dfrac{k-\dfrac12+n}{n^2}f\left(\dfrac{2k-1}{2n}\right)=$\ExamSelection
+      设 $f(x)$ 连续，则 $\lim\limits_{n\to\infty} \sum\limits_{k=1}^n \dfrac{k - \dfrac{1}{2} + n}{n^2} f\left(\dfrac{2k-1}{2n}\right) =$ （ ）
   choices:
   - label: A
     text: |-
-      $\displaystyle\int_0^1\left(x+\dfrac12\right)f(x)\,\mathrm{d}x$。
+      $\int_0^1 \left(x + \dfrac{1}{2}\right) f(x) \,\mathrm{d}x$
     figures: []
   - label: B
     text: |-
-      $\displaystyle\int_0^1\left(x+1-\dfrac{1}{2n}\right)f\left(x-\dfrac{1}{2n}\right)\,\mathrm{d}x$。
+      $\int_0^1 \left(x + 1 - \dfrac{1}{2n}\right) f\left(x - \dfrac{1}{2n}\right) \,\mathrm{d}x$
     figures: []
   - label: C
     text: |-
-      $\displaystyle\int_0^1(x+1)f(x)\,\mathrm{d}x$。
+      $\int_0^1 (x + 1) f(x) \,\mathrm{d}x$
     figures: []
   - label: D
     text: |-
-      $\displaystyle\int_0^1\left(x+\dfrac12+\dfrac1n\right)f\left(x-\dfrac1n\right)\,\mathrm{d}x$。
+      $\int_0^1 \left(x + \dfrac{1}{2} + \dfrac{1}{n}\right) f\left(x - \dfrac{1}{n}\right) \,\mathrm{d}x$
     figures: []
 - number: 6
   section: choice
   points: 5
   stem:
     text: |-
-      设函数$z=f(x,y)$在极坐标下的表达式为$z=r^2\sin3\theta$，则在点$(0,0)$处\ExamSelection
+      设函数 $z=f(x,y)$ 在极坐标下的表达式为 $z=r^2\sin 3\theta$，则在点 $(0,0)$ 处（ ）
   choices:
   - label: A
-    text: $f_x(x,y),f_y(x,y)$不连续，$f(x,y)$可微。
+    text: $f_x'(x,y), f_y'(x,y)$ 不连续$,f(x,y)$ 可微
     figures: []
   - label: B
-    text: $f_x(x,y),f_y(x,y)$不连续，$f(x,y)$不可微。
+    text: $f_x'(x,y), f_y'(x,y)$ 不连续$,f(x,y)$ 不可微
     figures: []
   - label: C
-    text: $f_x(0,0),f_y(0,0)$均存在。
+    text: $f_{xy}''(0,0), f_{yx}''(0,0)$ 均存在
     figures: []
   - label: D
-    text: $f_{xy}(0,0)$存在，$f_{x}(0,0)$不存在。
+    text: $f_{xy}''(0,0)$ 存在$,f_{yx}''(0,0)$ 不存在
     figures: []
 - number: 7
   section: choice
   points: 5
   stem:
     text: |-
-      质点在第一象限沿曲线$y=x^{\dfrac{3}{2}}$远离原点，已知质点与原点的距离以$11\ \mathrm{cm/s}$的变化率增加，则当质点运动到$x=3\ \mathrm{cm}$时的水平速度为\ExamSelection
+      质点在第一象限沿曲线 $y=x^{\dfrac{3}{2}}$ 远离原点，已知质点与原点的距离以 $11\,\mathrm{cm/s}$ 的变化率增加，则当质点运动到 $x=3\,\mathrm{cm}$ 时的水平速度为（ ）
   choices:
   - label: A
     text: |-
-      $4\ \mathrm{cm/s}$。
+      $4\,\mathrm{cm/s}$
     figures: []
   - label: B
     text: |-
-      $6\ \mathrm{cm/s}$。
+      $6\,\mathrm{cm/s}$
     figures: []
   - label: C
     text: |-
-      $8\ \mathrm{cm/s}$。
+      $8\,\mathrm{cm/s}$
     figures: []
   - label: D
     text: |-
-      $10\ \mathrm{cm/s}$。
+      $10\,\mathrm{cm/s}$
     figures: []
 - number: 8
   section: choice
   points: 5
   stem:
     text: |-
-      设向量组$\alpha_1=\begin{pmatrix}1\\0\\-1\end{pmatrix},\alpha_2=\begin{pmatrix}a\\1\\1\end{pmatrix},\alpha_3=\begin{pmatrix}2\\1\\1\end{pmatrix}$不可由向量组$\beta_1=\begin{pmatrix}1\\1\\2\end{pmatrix},\beta_2=\begin{pmatrix}2\\3\\7\end{pmatrix},\beta_3=\begin{pmatrix}a\\0\\-a\end{pmatrix}$线性表示，则$a$的取值范围为\ExamSelection
+      设向量组 $\boldsymbol{\alpha}_1=(1,0,-1)^{\mathrm{T}}, \boldsymbol{\alpha}_2=(a,1,1)^{\mathrm{T}}, \boldsymbol{\alpha}_3=(2,1,1)^{\mathrm{T}}$ 不可由向量组 $\boldsymbol{\beta}_1=(1,1,2)^{\mathrm{T}}, \boldsymbol{\beta}_2=(2,3,7)^{\mathrm{T}}, \boldsymbol{\beta}_3=(a,0,-a)^{\mathrm{T}}$ 线性表示，则 $a$ 的取值范围为（ ）。
   choices:
   - label: A
     text: |-
-      $(-\infty,1)$。
+      $(-\infty,1)$
     figures: []
   - label: B
     text: |-
-      $(-\infty,2)\cup(2,+\infty)$。
+      $(-\infty,2)\cup(2, +\infty)$
     figures: []
   - label: C
     text: |-
-      $(2,+\infty)$。
+      $(2, +\infty)$
     figures: []
   - label: D
     text: |-
-      $(-\infty,1)\cup(2,+\infty)$。
+      $(-\infty,1)\cup(2, +\infty)$
     figures: []
 - number: 9
   section: choice
   points: 5
   stem:
     text: |-
-      下列矩阵中，与$\begin{pmatrix}1&0&0\\0&2&1\\0&0&2\end{pmatrix}$不相似的是\ExamSelection
+      下列矩阵中，与 $\begin{pmatrix}1&0&0\\0&2&1\\0&0&2\end{pmatrix}$ 不相似的是（ ）
   choices:
   - label: A
     text: |-
-      $\begin{pmatrix}2&0&-1\\0&1&0\\0&0&2\end{pmatrix}$。
+      $\begin{pmatrix}2&0&-1\\0&1&0\\0&0&2\end{pmatrix}$
     figures: []
   - label: B
     text: |-
-      $\begin{pmatrix}2&0&0\\-1&2&1\\0&0&1\end{pmatrix}$。
+      $\begin{pmatrix}2&0&0\\-1&2&1\\0&0&1\end{pmatrix}$
     figures: []
   - label: C
     text: |-
-      $\begin{pmatrix}2&1&0\\0&1&1\\0&0&2\end{pmatrix}$。
+      $\begin{pmatrix}2&1&0\\0&1&1\\0&0&2\end{pmatrix}$
     figures: []
   - label: D
     text: |-
-      $\begin{pmatrix}2&-1&0\\1&2&0\\0&0&1\end{pmatrix}$。
+      $\begin{pmatrix}2&-1&0\\1&2&0\\0&0&1\end{pmatrix}$
     figures: []
 - number: 10
   section: choice
   points: 5
   stem:
-    text: |-
-      设$A$为$n$阶实矩阵，则\ExamSelection
+    text: 设 $A$ 为 $n$ 阶实矩阵，则下列命题正确的是（ ）
   choices:
   - label: A
     text: |-
-      $\begin{pmatrix}A&O\\E&A^TA\end{pmatrix}x=0$只有零解。
+      $\begin{pmatrix}A&O\\E&A^{\mathrm{T}}A\end{pmatrix}\boldsymbol{x}=\boldsymbol{0}$ 只有零解
     figures: []
   - label: B
     text: |-
-      $\begin{pmatrix}O&A\\A^TA&AA^TA\end{pmatrix}x=0$只有零解。
+      $\begin{pmatrix}O&A\\A^{\mathrm{T}}A&AA^{\mathrm{T}}A\end{pmatrix}\boldsymbol{x}=\boldsymbol{0}$ 只有零解
     figures: []
   - label: C
     text: |-
-      $\begin{pmatrix}A&A^TA\\O&A^TA\end{pmatrix}x=0$与$\begin{pmatrix}A^TA&A\\O&A\end{pmatrix}x=0$同解。
+      $\begin{pmatrix}A&A^{\mathrm{T}}A\\O&A^{\mathrm{T}}A\end{pmatrix}\boldsymbol{x}=\boldsymbol{0}$ 与 $\begin{pmatrix}A^{\mathrm{T}}A&A\\O&A\end{pmatrix}\boldsymbol{x}=\boldsymbol{0}$ 同解
     figures: []
   - label: D
     text: |-
-      $\begin{pmatrix}AA^TA&A^TA\\O&A\end{pmatrix}x=0$与$\begin{pmatrix}A^TA^2&A\\O&A^TA\end{pmatrix}x=0$同解。
+      $\begin{pmatrix}AA^{\mathrm{T}}A&A^{\mathrm{T}}A\\O&A\end{pmatrix}\boldsymbol{x}=\boldsymbol{0}$ 与 $\begin{pmatrix}A^{\mathrm{T}}A^2&A\\O&A^{\mathrm{T}}A\end{pmatrix}\boldsymbol{x}=\boldsymbol{0}$ 同解
     figures: []
 - number: 11
   section: fill
   points: 5
   stem:
     text: |-
-      设$f(x,y)$具有二阶连续偏导数，$z=xyf\left(2x,\dfrac{y^2}{x}\right)$，则$\dfrac{\partial^2z}{\partial x\partial y}=$\ExamBlank。
+      设 $f(x,y)$ 具有二阶连续偏导数$,z=x f\left(2x, \dfrac{y^2}{x}\right)$，则 $\dfrac{\partial^2 z}{\partial x\partial y} = $ \underline{\qquad}。
 - number: 12
   section: fill
   points: 5
   stem:
     text: |-
-      半径为$a$的球浸没在与其密度$\rho$相同的某液体中，球与水面相切，$g$为重力加速度。若将球取出，至少做功为\ExamBlank。
+      半径为 $a$ 的球浸没在与其密度 $\rho$ 相同的某液体中，球与水面相切$,g$ 为重力加速度。若将球取出，至少做功为 \underline{\qquad}。
 - number: 13
   section: fill
   points: 5
   stem:
     text: |-
-      $\displaystyle\int_0^1\mathrm{d}y\int_0^{y^2}\dfrac{xe^x}{1-\sqrt{x}}\,\mathrm{d}x=$\ExamBlank。
+      计算 $\int_0^1\mathrm{d}y\int_0^{y^2}\dfrac{x\mathrm{e}^x}{1-\sqrt{x}}\,\mathrm{d}x = $ \underline{\qquad}。
 - number: 14
   section: fill
   points: 5
   stem:
     text: |-
-      微分方程$\mathrm{d}y=\cos(y-x)\,\mathrm{d}x$满足$y(0)=\dfrac\pi2$的解为\ExamBlank。
+      微分方程 $\mathrm{d}y=\cos(y-x)\,\mathrm{d}x$ 满足 $y(0)=\dfrac{\pi}{2}$ 的解为 \underline{\qquad}。
 - number: 15
   section: fill
   points: 5
   stem:
     text: |-
-      设$f(x)=\ln(1+x+x^2)$，则$f^{(5)}(0)=$\ExamBlank。
+      设 $f(x)=\ln(1+x+x^2)$，则 $f^{(5)}(0) = $ \underline{\qquad}。
 - number: 16
   section: fill
   points: 5
   stem:
     text: |-
-      已知二次型$f(x_1,x_2,x_3)=4x_1^2+x_2^2+ax_3^2+2x_1x_2-4x_1x_3+2x_2x_3$可经可逆线性变换但不可经正交变换化为$g(y_1,y_2,y_3)=by_1^2+6y_2^2$，则$a+b$的取值范围为\ExamBlank。
+      已知二次型 $f(x_1,x_2,x_3)=4x_1^2+x_2^2+a x_3^2+2x_1x_2-4x_1x_3+2x_2x_3$ 可经可逆线性变换但不可经正交变换化为 $g(y_1,y_2,y_3)=b y_1^2+6y_2^2$，则 $a+b$ 的取值范围为 \underline{\qquad}。
 - number: 17
   section: solution
-  points: 10
+  points: 12
   stem:
     text: |-
-      求$f(x)=\displaystyle\int_0^1|\ln|x-t||\,\mathrm{d}t\ (0\leq x\leq1)$的最大值。
+      求 $f(x)=\int_0^1\left|\ln|x-t|\right|\,\mathrm{d}t\ (0\le x\le1)$ 的最大值。
 - number: 18
   section: solution
   points: 12
   stem:
     text: |-
-      设函数$f(x)$满足$f(x-y)=f(x)f(y)+\sin x\sin y$，其中$x,y$为任意常数，且$f(0)=1$，$f'(0)$存在。
-  subparts:
-  - text: 求$f(x)$的表达式；
-  - text: |-
-      计算$\displaystyle\lim_{x\to\infty}\dfrac{\int_0^x|f(t)|\,\mathrm{d}t}{x}$。
+      设函数 $f(x)$ 满足 $f(x-y) = f(x)f(y) + \sin x \sin y$，其中 $x, y$ 为任意常数，且 $f(0) = 1$ $,f'(0)$ 存在。 (1) 求 $f(x)$ 的表达式； (2) 计算 $\lim_{x \to +\infty} \dfrac{\int_0^x |f(t)| \,\mathrm{d}t}{x}$。
 - number: 19
   section: solution
   points: 12
   stem:
     text: |-
-      设$f(x)$在$(a,b)$内有定义，且任给$(a,b)$内的$x_1<x_2<x_3$，有$f(x_2)\leq\lambda f(x_1)+(1-\lambda)f(x_3)$，其中$\lambda=\dfrac{x_3-x_2}{x_3-x_1}$，证明：
-  subparts:
-  - text: |-
-      $\displaystyle\dfrac{f(x_2)-f(x_1)}{x_2-x_1}\leq\dfrac{f(x_3)-f(x_1)}{x_3-x_1}\leq\dfrac{f(x_3)-f(x_2)}{x_3-x_2}$；
-  - text: $f(x)$在$(a,b)$内连续。
+      设 $f(x)$ 在 $(a,b)$ 内有定义，且任给 $(a,b)$ 内的 $x_1<x_2<x_3$，有 $f(x_2)\le \lambda f(x_1)+(1-\lambda)f(x_3)$，其中 $\lambda=\dfrac{x_3-x_2}{x_3-x_1}$。证明： (1) $\dfrac{f(x_2)-f(x_1)}{x_2-x_1}\le \dfrac{f(x_3)-f(x_1)}{x_3-x_1}\le \dfrac{f(x_3)-f(x_2)}{x_3-x_2}$； (2) $f(x)$ 在 $(a,b)$ 内连续。
 - number: 20
   section: solution
   points: 12
   stem:
-    text: 设$f(x,y)$满足$f_x'(x,y)=y(1+x)e^{x-y}$，$f(1,y)=ye^{1-y}$，求
-  subparts:
-  - text: 求$f(x,y)$的表达式；
-  - text: 求$f(x,y)$的极值。
+    text: |-
+      设 $f(x,y)$ 满足 $f_x'(x,y)=y(1+x)\mathrm{e}^{x-y}$ $,f(1,y)=y\mathrm{e}^{1-y}$。 (1) 求 $f(x,y)$ 的表达式； (2) 求 $f(x,y)$ 的极值。
 - number: 21
   section: solution
   points: 12
   stem:
     text: |-
-      设连续函数$y=y(x)$满足$y'+\dfrac{t^2}{y}x^3=\dfrac{y}{x}$，$y(1)=\sqrt{9-t^2}$，其中$0\leq t\leq3,x>0$。
-  subparts:
-  - text: 利用换元$z=y^2$求$y=y(x)$的表达式；
-  - text: |-
-      令$f(x)=\dfrac19\displaystyle\int_0^3y(x)\,\mathrm{d}t$，求曲线$y=f(x)$的全长。
+      设连续函数 $y=y(x)$ 满足 $y'+\dfrac{t^2}{y}x^3=\dfrac{y}{x}$ $,y(1)=\sqrt{9-t^2}$，其中 $0\le t\le3$ $,x>0$。 (1) 利用换元 $z=y^2$ 求 $y=y(x)$ 的表达式； (2) 令 $f(x)=\dfrac{1}{9}\int_0^3 y(x)\,\mathrm{d}t$，求曲线 $y=f(x)$ 的全长。
 - number: 22
   section: solution
   points: 12
   stem:
     text: |-
-      设$A=\begin{pmatrix}1&1&0\\0&1&1\\1&0&1\end{pmatrix}$，$A^TA=B^2$，其中$B$为正定矩阵。
-  subparts:
-  - text: 求$B$；
-  - text: 证明存在正交矩阵$C$，使得$A=CB$，并求出$C$。
+      设 $A=\begin{pmatrix}1&1&0\\0&1&1\\1&0&1\end{pmatrix}$ $,A^{\mathrm{T}}A=B^2$，其中 $B$ 为正定矩阵。 (1) 求 $B$； (2) 证明存在正交矩阵 $C$，使得 $A=CB$，并求出 $C$。
+content_hash: d6f2cb2847d71c03740eb13260ada696e4371264bec8666c42fbca7f154353ea

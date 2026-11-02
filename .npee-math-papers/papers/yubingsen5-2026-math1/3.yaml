@@ -1,0 +1,310 @@
+schema_version: '3.0'
+paper:
+  series_key: yubingsen5
+  year: 2026
+  subject: math1
+  paper_no: 3
+questions:
+- number: 1
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 \(f(x)=(x+1)^x-1\), \(g(x)=x^x-(\sin x)^x\)，则当 \(x\to0^+\) 时，( )
+  choices:
+  - label: A
+    text: |-
+      \(f(x)\) 是 \(g(x)\) 的高阶无穷小
+    figures: []
+  - label: B
+    text: |-
+      \(f(x)\) 是 \(g(x)\) 的低阶无穷小
+    figures: []
+  - label: C
+    text: |-
+      \(f(x)\) 与 \(g(x)\) 是同阶非等价无穷小
+    figures: []
+  - label: D
+    text: |-
+      \(f(x)\) 与 \(g(x)\) 是等价无穷小
+    figures: []
+- number: 2
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      当 \(x>0\) 时，\( f(x)=\lim\limits_{n\to\infty}\dfrac{(x-1)^{n+3}+x^2+|x-1|+2}{2+(x-1)^n}\)，则 \(f(x)\)( )
+  choices:
+  - label: A
+    text: |-
+      在 \(x=1\) 处可导, 在 \(x=2\) 处连续
+    figures: []
+  - label: B
+    text: |-
+      在 \(x=1\) 处可导, 在 \(x=2\) 处不连续
+    figures: []
+  - label: C
+    text: |-
+      在 \(x=1\) 处不可导, 在 \(x=2\) 处连续
+    figures: []
+  - label: D
+    text: |-
+      在 \(x=1\) 处不可导, 在 \(x=2\) 处不连续
+    figures: []
+- number: 3
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设区域 \(D\) 由 \( x+y=\dfrac{1}{2}\), \( x+y=\sqrt{\dfrac{\pi}{2}}\) 及两坐标轴围成，记 \( I_1=\iint_D\ln[1+(x+y)^2]\,dx\,dy\), \( I_2=\dfrac{\pi}{2}\iint_D\sin(x+y)^2\,dx\,dy\), \( I_3=\iint_D(x+y)^2\,dx\,dy\)，则( )
+  choices:
+  - label: A
+    text: |-
+      \(I_2<I_3<I_1\)
+    figures: []
+  - label: B
+    text: |-
+      \(I_1<I_3<I_2\)
+    figures: []
+  - label: C
+    text: |-
+      \(I_3<I_1<I_2\)
+    figures: []
+  - label: D
+    text: |-
+      \(I_3<I_2<I_1\)
+    figures: []
+- number: 4
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      若 \( \dfrac{1}{(x^2+y)^2}\{ax,b\}\, (y>0)\) 为函数 \(u(x,y)\) 的梯度，则下面选项中正确的是( )
+  choices:
+  - label: A
+    text: |-
+      \(a=b\)
+    figures: []
+  - label: B
+    text: |-
+      \(a=-b\)
+    figures: []
+  - label: C
+    text: |-
+      \(a=2b\)
+    figures: []
+  - label: D
+    text: |-
+      \(a=-2b\)
+    figures: []
+- number: 5
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设线性方程组 \(Ax=\alpha\) 有解，\( \begin{pmatrix}A\\B\end{pmatrix}x=\begin{pmatrix}\alpha\\\beta\end{pmatrix}\) 无解，则下列结论中不正确的是( )
+  choices:
+  - label: A
+    text: |-
+      \(r(B, \beta)=r(B)+1\)
+    figures: []
+  - label: B
+    text: |-
+      \( r\begin{pmatrix}A&\alpha\\B&\beta\end{pmatrix}=r\begin{pmatrix}A\\B\end{pmatrix}+1\)
+    figures: []
+  - label: C
+    text: |-
+      \(r[B^T(B, \beta)]=r(B^TB)\)
+    figures: []
+  - label: D
+    text: |-
+      \( r\left[(A^T,B^T)\begin{pmatrix}A&\alpha\\B&\beta\end{pmatrix}\right]=r\left[(A^T,B^T)\begin{pmatrix}A\\B\end{pmatrix}\right]\)
+    figures: []
+- number: 6
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设 \(A,B\) 均是 \(n\) 阶方阵，且 \(AB=A+2B\)，对于命题： \circled{1} \(AB=BA\)； \circled{2} \(2\) 不是 \(A\) 的特征值； \circled{3} \(r(A)=r(B)\)； \circled{4} \(Ax=0\) 与 \(Bx=0\) 同解。 其中正确命题的个数是（ ）。
+  choices:
+  - label: A
+    text: |-
+      \(1\)
+    figures: []
+  - label: B
+    text: |-
+      \(2\)
+    figures: []
+  - label: C
+    text: |-
+      \(3\)
+    figures: []
+  - label: D
+    text: |-
+      \(4\)
+    figures: []
+- number: 7
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设矩阵 \( M=\begin{pmatrix}1&1&-2\\1&-2&1\\-2&1&1\end{pmatrix}\)，则下列矩阵中与矩阵 \(M\) 合同但不相似的是( )
+  choices:
+  - label: A
+    text: |-
+      \( \begin{pmatrix}1&-2&1\\-2&4&-2\\1&-2&1\end{pmatrix}\)
+    figures: []
+  - label: B
+    text: |-
+      \( \begin{pmatrix}1&1&0\\1&1&0\\0&0&1\end{pmatrix}\)
+    figures: []
+  - label: C
+    text: |-
+      \( \begin{pmatrix}3&0&0\\0&0&0\\0&0&-3\end{pmatrix}\)
+    figures: []
+  - label: D
+    text: |-
+      \( \begin{pmatrix}0&0&1\\0&0&0\\1&0&0\end{pmatrix}\)
+    figures: []
+- number: 8
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设随机变量 \(X\) 的分布律为 \(P\{X=k\}=(1-p)^{k-1}p\), \(k=1,2,3, \cdots\)，其中 \(0m+n\mid X>m\}\) ( )
+  choices:
+  - label: A
+    text: |-
+      与 \(m\) 无关, 与 \(n\) 有关
+    figures: []
+  - label: B
+    text: |-
+      与 \(m\) 有关, 与 \(n\) 无关
+    figures: []
+  - label: C
+    text: |-
+      与 \(m,n\) 均无关
+    figures: []
+  - label: D
+    text: |-
+      与 \(m,n\) 均有关
+    figures: []
+- number: 9
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设二维随机变量 \((X,Y)\) 的分布函数为 \(F(x,y)\)，关于 \(X\) 和 \(Y\) 的边缘分布函数分别为 \(F_X(x)\) 和 \(F_Y(y)\)，则( )
+  choices:
+  - label: A
+    text: |-
+      \(F(x,y)\le F_X(x)F_Y(y)\)
+    figures: []
+  - label: B
+    text: |-
+      \(F(x,y)\ge F_X(x)F_Y(y)\)
+    figures: []
+  - label: C
+    text: |-
+      \( F(x,y)\le\dfrac{F_X(x)+2F_Y(y)}{3}\)
+    figures: []
+  - label: D
+    text: |-
+      \( F(x,y)\ge\dfrac{F_X(x)+2F_Y(y)}{3}\)
+    figures: []
+- number: 10
+  section: choice
+  points: 5
+  stem:
+    text: |-
+      设总体 \(X\sim N(\mu,1)\), \(\mu\) 为未知参数，\(X_1,X_2, \cdots,X_n\) 是来自总体 \(X\) 的一个简单随机样本，且记 \(U_\alpha\, (0<\alpha<1)\) 为标准正态分布的上侧 \(\alpha\) 分位点，则 \(\mu\) 的置信度分别为 \(90\%\) 和 \(95\%\) 的置信区间长度之比为( )
+  choices:
+  - label: A
+    text: |-
+      \( \dfrac{0.90}{0.95}\)
+    figures: []
+  - label: B
+    text: |-
+      \( \dfrac{0.95}{0.975}\)
+    figures: []
+  - label: C
+    text: |-
+      \( \dfrac{U_{0.10}}{U_{0.05}}\)
+    figures: []
+  - label: D
+    text: |-
+      \( \dfrac{U_{0.05}}{U_{0.025}}\)
+    figures: []
+- number: 11
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 \( \begin{cases}x=4t^2+5t-7y, \\\mathrm e^{y+1}-\cos t+ty=0, \end{cases}\) 则 \( \left.\dfrac{dy}{dx}\right|_{t=0}=\)____
+- number: 12
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设 \( f(x)=\int_1^x\mathrm e^{t^2}\,dt\), \(x=g(y)\) 是函数 \(y=f(x)\) 的反函数，则 \(g''(0)=\)____
+- number: 13
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      微分方程 \(y'''+y''+y'-3y=0\) 满足 \( \lim\limits_{x\to-\infty}\mathrm e^{-x}y=1\) 的特解为____
+- number: 14
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设函数 \(F(u,v)\) 具有一阶连续偏导数，且 \(F'_1+F'_2\ne0\). 函数 \(z=z(x,y)\) 由方程 \(F(z+x,z-y)=0\) 确定，\(L\) 为单位圆周 \(x^2+y^2=1\)，取逆时针方向，则 \( I=\oint_L(z-3y)\,dx+(z+x^2)\,dy=\)____
+- number: 15
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      已知二次型 \( f(x_1,x_2,x_3)=(x_1,x_2,x_3)\begin{pmatrix}1-a&a+1&0\\a+1&1-a&0\\0&0&2\end{pmatrix}\begin{pmatrix}x_1\\x_2\\x_3\end{pmatrix}\) 的秩为 \(2\)，则常数 \(a=\)____
+- number: 16
+  section: fill
+  points: 5
+  stem:
+    text: |-
+      设甲抛 \(3\) 次硬币，乙抛 \(2\) 次硬币，则甲所抛正面数多于乙所抛正面数的概率为____
+- number: 17
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设连续函数 \(f(x)\) 满足 \( f(x)=\mathrm e^x-\mathrm e^x\int_0^x f^2(t)\,dt\). (1) 试求 \(f(x)\) 满足的一阶微分方程，并求 \(f(x)\) 的表达式； (2) 计算 \( \int_{-1}^1[x+f(x)]^2\,dx\)
+- number: 18
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      (1) 计算 \( I=\int_0^{\dfrac{1}{2}}dy\int_y^{\dfrac{1}{2}}\dfrac{\ln(1+x)}{x}\,dx\)； (2) 求 \( \dfrac{\ln(1+x)}{x}\) 关于 \(x\) 的幂级数展开式，并利用 (1) 求 \( \sum\limits_{n=1}^{\infty}(-1)^{n-1}\dfrac{1}{n(n+1)}\dfrac{1}{2^n}\) 的和
+- number: 19
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设曲面 \(\Sigma\) 是锥面 \( x=\sqrt{y^2+z^2}\) 与球面 \(x^2+y^2+z^2=1\)、\(x^2+y^2+z^2=2\) 所围立体表面外侧，\(f(u)\) 为具有一阶连续导数的奇函数，计算曲面积分 \(I=\oiint_\Sigma x^3\,dy\,dz+[y^3+f(yz)]\,dz\,dx+[z^3+f(yz)]\,dx\,dy\)
+- number: 20
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      \(f(x)\) 在 \([0,1]\) 上连续，在 \((0,1)\) 内二阶可导，且 \(f(0)=f(1)=0\), \(f''(x)0\). (1) 证明：对于任意正整数 \(n\)，存在唯一的点 \(x_n\in(0,1)\)，使得 \( f'(x_n)=\dfrac{M}{n}\)； (2) 证明：\( \lim\limits_{n\to\infty}x_n\) 存在，且 \( \lim\limits_{n\to\infty}x_n=x_0\)
+- number: 21
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      已知三阶实矩阵 \(A=(a_{ij})_{3\times3}\) 满足条件：\((1)\ a_{ij}+A_{ij}=0\, (i,j=1,2,3)\)，其中 \(A_{ij}\) 为 \(|A|\) 中元素 \(a_{ij}\) 的代数余子式；\((2)\ a_{33}=-1\). (1) 证明：\(A\) 为正交矩阵； (2) 解线性方程组 \( Ax=\begin{pmatrix}0\\0\\1\end{pmatrix}\)
+- number: 22
+  section: solution
+  points: 12
+  stem:
+    text: |-
+      设总体 \(X\) 为 \( [\theta-\dfrac{1}{2}, \theta+\dfrac{1}{2}]\) 上的均匀分布，其中 \(\theta\) 是未知参数，\(X_1,X_2,X_3\) 为来自总体 \(X\) 的简单随机样本。记 \(T_1=\max\{X_1,X_2,X_3\}\), \(T_2=\min\{X_1,X_2,X_3\}\). (1) 求总体 \(X\) 的分布函数； (2) 求 \(T_1\) 和 \(T_2\) 的概率密度； (3) 记 \( \widehat\theta=\dfrac{1}{2}(T_1+T_2)\)，求常数 \(a\)，使得 \(a\widehat\theta\) 是 \(\theta\) 的无偏估计
+content_hash: 42b6ced1d1e584af4ba724277505ee2df5bb67d625f12bf5693ce00f37fdc419
